@@ -1,11 +1,8 @@
 {
-  "internalname": "FLINT_SHOVEL",
   "itemid": "minecraft:iron_shovel",
-  "displayname": "Flint Shovel",
-  "clickcommand": "viewrecipe",
+  "displayname": "§fFlint Shovel",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Grants a §a100% §7chance of\",1:\"§7receiving flint from gravel.\",2:\"§7This item can be also used as a\",3:\"§7minion upgrade to allow gravel\",4:\"§7minions to always receive flint.\",5:\"\",6:\"§f§lCOMMON SHOVEL\"],Name:\"§fFlint Shovel\"},ExtraAttributes:{id:\"FLINT_SHOVEL\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Grants a §a100% §7chance of\",1:\"§7receiving flint from gravel.\",2:\"§7This item can be also used as a\",3:\"§7minion upgrade to allow gravel\",4:\"§7minions to always receive flint.\",5:\"\",6:\"§f§lCOMMON SHOVEL\"],Name:\"§fFlint Shovel\"},ExtraAttributes:{originTag:\"CRAFTING_GRID_SHIFT\",id:\"FLINT_SHOVEL\",uuid:\"42e29ae3-eff4-4623-8a2c-4a316c397570\",timestamp:\"3/30/20 5:26 PM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Grants a §a100% §7chance of",
     "§7receiving flint from gravel.",
@@ -14,5 +11,23 @@
     "§7minions to always receive flint.",
     "",
     "§f§lCOMMON SHOVEL"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "FLINT:10",
+    "A3": "",
+    "B1": "",
+    "B2": "STICK:1",
+    "B3": "",
+    "C1": "",
+    "C2": "STICK:1",
+    "C3": ""
+  },
+  "internalname": "FLINT_SHOVEL",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Flint_Shovel"
   ]
 }

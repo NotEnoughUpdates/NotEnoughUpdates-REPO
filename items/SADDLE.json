@@ -1,12 +1,27 @@
 {
   "itemid": "minecraft:saddle",
   "displayname": "§aSaddle",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§a§lUNCOMMON\",1:\"\",2:\"§eClick to view recipe!\"],Name:\"§aSaddle\"},ExtraAttributes:{id:\"SADDLE\"}}",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§a§lUNCOMMON\"],Name:\"§aSaddle\"},ExtraAttributes:{id:\"SADDLE\"}}",
   "damage": 0,
   "lore": [
     "§a§lUNCOMMON"
   ],
+  "recipe": {
+    "A1": "ENCHANTED_LEATHER:1",
+    "A2": "ENCHANTED_LEATHER:1",
+    "A3": "ENCHANTED_LEATHER:1",
+    "B1": "ENCHANTED_LEATHER:1",
+    "B2": "ENCHANTED_LEATHER:1",
+    "B3": "ENCHANTED_LEATHER:1",
+    "C1": "ENCHANTED_LEATHER:1",
+    "C2": "",
+    "C3": "ENCHANTED_LEATHER:1"
+  },
   "internalname": "SADDLE",
   "clickcommand": "viewrecipe",
-  "modver": "1.0.0"
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Saddle"
+  ]
 }

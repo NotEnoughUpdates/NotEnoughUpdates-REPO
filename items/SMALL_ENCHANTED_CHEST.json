@@ -1,11 +1,8 @@
 {
-  "internalname": "SMALL_ENCHANTED_CHEST",
   "itemid": "minecraft:chest",
-  "displayname": "Small Storage",
-  "clickcommand": "viewrecipe",
-  "damage": 0,
+  "displayname": "§fSmall Storage",
   "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Place this chest next to a\",1:\"§7minion and the minion will store\",2:\"§7items inside once its storage is\",3:\"§7full!\",4:\"\",5:\"§7Storage space: §b3 §7items\",6:\"\",7:\"§f§lCOMMON\"],Name:\"§fSmall Storage\"},ExtraAttributes:{id:\"SMALL_ENCHANTED_CHEST\"}}",
-  "modver": "1.0.0",
+  "damage": 0,
   "lore": [
     "§7Place this chest next to a",
     "§7minion and the minion will store",
@@ -15,5 +12,23 @@
     "§7Storage space: §b3 §7items",
     "",
     "§f§lCOMMON"
+  ],
+  "recipe": {
+    "A1": "LOG:8",
+    "A2": "LOG:8",
+    "A3": "LOG:8",
+    "B1": "LOG:8",
+    "B2": "",
+    "B3": "LOG:8",
+    "C1": "LOG:8",
+    "C2": "LOG:8",
+    "C3": "LOG:8"
+  },
+  "internalname": "SMALL_ENCHANTED_CHEST",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Small_Storage"
   ]
 }

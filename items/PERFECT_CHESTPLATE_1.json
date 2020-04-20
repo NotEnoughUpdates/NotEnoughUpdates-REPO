@@ -1,11 +1,8 @@
 {
-  "internalname": "PERFECT_CHESTPLATE_1",
   "itemid": "minecraft:diamond_chestplate",
-  "displayname": "Perfect Chestplate - Tier I",
-  "clickcommand": "viewrecipe",
+  "displayname": "§9Perfect Chestplate - Tier I",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+160\",1:\"\",2:\"§eRight-click to view recipes!\",3:\"\",4:\"§7§8This item can be reforged!\",5:\"§9§lRARE CHESTPLATE\"],Name:\"§9Perfect Chestplate - Tier I\"},ExtraAttributes:{id:\"PERFECT_CHESTPLATE_1\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+160\",1:\"\",2:\"§eRight-click to view recipes!\",3:\"\",4:\"§7§8This item can be reforged!\",5:\"§9§lRARE CHESTPLATE\"],Name:\"§9Perfect Chestplate - Tier I\"},ExtraAttributes:{originTag:\"CRAFTING_GRID_COLLECT\",id:\"PERFECT_CHESTPLATE_1\",uuid:\"0459bfd2-d399-4351-9056-42d2c91c4ad6\",timestamp:\"2/6/20 1:59 PM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Defense: §a+160",
     "",
@@ -13,5 +10,23 @@
     "",
     "§7§8This item can be reforged!",
     "§9§lRARE CHESTPLATE"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_DIAMOND_BLOCK:1",
+    "A2": "",
+    "A3": "ENCHANTED_DIAMOND_BLOCK:1",
+    "B1": "ENCHANTED_DIAMOND_BLOCK:1",
+    "B2": "ENCHANTED_DIAMOND_BLOCK:1",
+    "B3": "ENCHANTED_DIAMOND_BLOCK:1",
+    "C1": "ENCHANTED_DIAMOND_BLOCK:1",
+    "C2": "ENCHANTED_DIAMOND_BLOCK:1",
+    "C3": "ENCHANTED_DIAMOND_BLOCK:1"
+  },
+  "internalname": "PERFECT_CHESTPLATE_1",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Perfect_Armor"
   ]
 }

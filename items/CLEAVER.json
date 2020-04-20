@@ -1,15 +1,11 @@
 {
-  "internalname": "CLEAVER",
   "itemid": "minecraft:golden_sword",
-  "displayname": "Strong Cleaver",
-  "clickcommand": "viewrecipe",
+  "displayname": "§aCleaver",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+40\",1:\"§7Strength: §c+10\",2:\"\",3:\"§6Item Ability: Cleave\",4:\"§7When hitting an entity, monsters\",5:\"§7in a §a3§7 block range will be\",6:\"§7hit for a portion of that damage\",7:\"§7too.\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§a§lUNCOMMON SWORD\"],Name:\"§aCleaver\"},ExtraAttributes:{id:\"CLEAVER\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+40\",1:\"§7Strength: §c+12 §8(Strong +2)\",2:\"§7Crit Damage: §c+2% §8(Strong +2%)\",3:\"\",4:\"§6Item Ability: Cleave\",5:\"§7When hitting an entity, monsters\",6:\"§7in a §a3§7 block range will be\",7:\"§7hit for a portion of that damage\",8:\"§7too.\",9:\"\",10:\"§a§lUNCOMMON SWORD\"],Name:\"§aStrong Cleaver\"},ExtraAttributes:{modifier:\"strong\",originTag:\"CRAFTING_GRID_COLLECT\",id:\"CLEAVER\",uuid:\"d8d52d4d-ce7a-44a2-94a7-b9737c7e6b87\",timestamp:\"3/30/20 9:23 AM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Damage: §c+40",
-    "§7Strength: §c+12 §8(Strong +2)",
-    "§7Crit Damage: §c+2% §8(Strong +2%)",
+    "§7Strength: §c+10",
     "",
     "§6Item Ability: Cleave",
     "§7When hitting an entity, monsters",
@@ -17,6 +13,25 @@
     "§7hit for a portion of that damage",
     "§7too.",
     "",
+    "§7§8This item can be reforged!",
     "§a§lUNCOMMON SWORD"
+  ],
+  "recipe": {
+    "A1": "GOLD_INGOT:1",
+    "A2": "GOLD_INGOT:1",
+    "A3": "GOLD_INGOT:1",
+    "B1": "",
+    "B2": "STICK:1",
+    "B3": "GOLD_INGOT:1",
+    "C1": "",
+    "C2": "STICK:1",
+    "C3": ""
+  },
+  "internalname": "CLEAVER",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Cleaver"
   ]
 }

@@ -1,11 +1,8 @@
 {
-  "internalname": "TRAINING_DUMMY",
   "itemid": "minecraft:spawn_egg",
-  "displayname": "Training Dummy",
-  "clickcommand": "viewrecipe",
+  "displayname": "§aTraining Dummy",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Places a Training Dummy that can\",1:\"§7be used to test out weapons and\",2:\"§7other damage sources. A Training\",3:\"§7Dummy can take the form of\",4:\"§7almost any mob. Right-click to\",5:\"§7access its settings.\",6:\"\",7:\"§a§lUNCOMMON\"],Name:\"§aTraining Dummy\"},ExtraAttributes:{id:\"TRAINING_DUMMY\"}}",
   "damage": 0,
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Places a Training Dummy that can\",1:\"§7be used to test out weapons and\",2:\"§7other damage sources. A Training\",3:\"§7Dummy can take the form of\",4:\"§7almost any mob. Right-click to\",5:\"§7access its settings.\",6:\"\",7:\"§a§lUNCOMMON\"],Name:\"§aTraining Dummy\"},ExtraAttributes:{originTag:\"UNKNOWN\",id:\"TRAINING_DUMMY\",uuid:\"b8b06e40-ac86-45d6-a77e-ff4592c2e13a\",timestamp:\"10/31/19 8:58 PM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Places a Training Dummy that can",
     "§7be used to test out weapons and",
@@ -15,5 +12,23 @@
     "§7access its settings.",
     "",
     "§a§lUNCOMMON"
+  ],
+  "recipe": {
+    "A1": "SPONGE:32",
+    "A2": "ENCHANTED_PUMPKIN:1",
+    "A3": "SPONGE:32",
+    "B1": "SPONGE:32",
+    "B2": "ARMOR_STAND:1",
+    "B3": "SPONGE:32",
+    "C1": "SPONGE:32",
+    "C2": "SPONGE:32",
+    "C3": "SPONGE:32"
+  },
+  "internalname": "TRAINING_DUMMY",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Training_Dummy"
   ]
 }

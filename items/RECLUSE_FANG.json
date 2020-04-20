@@ -1,17 +1,14 @@
 {
-  "internalname": "RECLUSE_FANG",
   "itemid": "minecraft:iron_sword",
-  "displayname": "Recluse Fang",
-  "clickcommand": "viewrecipe",
+  "displayname": "§9Recluse Fang",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+120\",1:\"§7Strength: §c+30\",2:\"§7Crit Damage: §c+20%\",3:\"\",4:\"§6Item Ability: Squash 'em\",5:\"§7Squash Spiders to accumulate\",6:\"§7strength against them.\",7:\"§7Bonus: §c+0❁\",8:\"§8+1 strength per 40 squashed\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§c☠ §5Requires Spider LVL 2\",12:\"§9§lRARE SWORD\"],Name:\"§9Recluse Fang\"},ExtraAttributes:{id:\"RECLUSE_FANG\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+120\",1:\"§7Strength: §c+30\",2:\"§7Crit Damage: §c+20%\",3:\"\",4:\"§6Item Ability: Squash \u0027em\",5:\"§7Squash Spiders to accumulate\",6:\"§7strength against them.\",7:\"§7Bonus: §c+0❁\",8:\"§8+1 strength per 40 squashed\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§c☠ §5Requires Spider LVL 2\",12:\"§9§lRARE SWORD\"],Name:\"§9Recluse Fang\"},ExtraAttributes:{originTag:\"RECLUSE_FANG\",id:\"RECLUSE_FANG\",uuid:\"a8491897-e191-481c-969e-4e440ce4c5b9\",timestamp:\"3/30/20 9:37 PM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Damage: §c+120",
     "§7Strength: §c+30",
     "§7Crit Damage: §c+20%",
     "",
-    "§6Item Ability: Squash \u0027em",
+    "§6Item Ability: Squash 'em",
     "§7Squash Spiders to accumulate",
     "§7strength against them.",
     "§7Bonus: §c+0❁",
@@ -20,5 +17,23 @@
     "§7§8This item can be reforged!",
     "§c☠ §5Requires Spider LVL 2",
     "§9§lRARE SWORD"
+  ],
+  "recipe": {
+    "A1": "TARANTULA_WEB:4",
+    "A2": "TARANTULA_WEB:4",
+    "A3": "TARANTULA_WEB:4",
+    "B1": "TARANTULA_WEB:4",
+    "B2": "SPIDER_CATALYST:1",
+    "B3": "TARANTULA_WEB:4",
+    "C1": "TARANTULA_WEB:4",
+    "C2": "SPIDER_SWORD:1",
+    "C3": "TARANTULA_WEB:4"
+  },
+  "internalname": "RECLUSE_FANG",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Recluse_Fang"
   ]
 }

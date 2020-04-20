@@ -1,12 +1,27 @@
 {
-  "internalname": "ENCHANTED_IRON",
   "itemid": "minecraft:iron_ingot",
-  "displayname": "Enchanted Iron",
-  "clickcommand": "viewrecipe",
-  "damage": 0,
+  "displayname": "§aEnchanted Iron",
   "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Iron\"},ExtraAttributes:{id:\"ENCHANTED_IRON\"}}",
-  "modver": "1.0.0",
+  "damage": 0,
   "lore": [
     "§a§lUNCOMMON"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "IRON_INGOT:32",
+    "A3": "",
+    "B1": "IRON_INGOT:32",
+    "B2": "IRON_INGOT:32",
+    "B3": "IRON_INGOT:32",
+    "C1": "",
+    "C2": "IRON_INGOT:32",
+    "C3": ""
+  },
+  "internalname": "ENCHANTED_IRON",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Iron"
   ]
 }

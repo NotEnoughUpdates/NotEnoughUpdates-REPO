@@ -1,11 +1,8 @@
 {
-  "internalname": "ARMOR_OF_MAGMA_HELMET",
   "itemid": "minecraft:leather_helmet",
-  "displayname": "Armor of Magma Helmet",
-  "clickcommand": "viewrecipe",
+  "displayname": "§5Armor of Magma Helmet",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+50 HP\",1:\"§7Defense: §a+15\",2:\"\",3:\"§6Full Set Bonus: Absorb\",4:\"§7Every §910 Magma Cubes killed§7\",5:\"§7gives the wearer §a+1 §c❤ Health\",6:\"§c§7and §b✎ Intelligence§7 while\",7:\"§7wearing the set. Max 200 each.\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§5§lEPIC HELMET\"],color:16749312,Name:\"§5Armor of Magma Helmet\"},ExtraAttributes:{id:\"ARMOR_OF_MAGMA_HELMET\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+50 HP\",1:\"§7Defense: §a+15\",2:\"\",3:\"§6Full Set Bonus: Absorb\",4:\"§7Every §910 Magma Cubes killed§7\",5:\"§7gives the wearer §a+1 §c❤ Health\",6:\"§c§7and §b✎ Intelligence§7 while\",7:\"§7wearing the set. Max 200 each.\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§5§lEPIC HELMET\"],color:16749312,Name:\"§5Armor of Magma Helmet\"},ExtraAttributes:{color:\"255:147:0\",originTag:\"QUICK_CRAFTING\",id:\"ARMOR_OF_MAGMA_HELMET\",uuid:\"3be01838-b6c4-41ee-8228-a61991c0dd72\",timestamp:\"3/14/20 8:23 AM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Health: §a+50 HP",
     "§7Defense: §a+15",
@@ -18,5 +15,23 @@
     "",
     "§7§8This item can be reforged!",
     "§5§lEPIC HELMET"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_MAGMA_CREAM:12",
+    "A2": "ENCHANTED_MAGMA_CREAM:12",
+    "A3": "ENCHANTED_MAGMA_CREAM:12",
+    "B1": "ENCHANTED_MAGMA_CREAM:12",
+    "B2": "",
+    "B3": "ENCHANTED_MAGMA_CREAM:12",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  },
+  "internalname": "ARMOR_OF_MAGMA_HELMET",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Magma_Armor"
   ]
 }

@@ -1,11 +1,8 @@
 {
-  "internalname": "DIVER_CHESTPLATE",
   "itemid": "minecraft:golden_chestplate",
-  "displayname": "Diver\u0027s Shirt",
-  "clickcommand": "viewrecipe",
+  "displayname": "§6Diver's Shirt",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+100 HP\",1:\"§7Defense: §a+200\",2:\"\",3:\"§6Full Set Bonus: One with the Fish\",4:\"§7While touching water you move\",5:\"§7§9incredibly fast§7 and can\",6:\"§7breathe §9permanently.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§6§lLEGENDARY CHESTPLATE\"],Name:\"§6Diver's Shirt\"},ExtraAttributes:{id:\"DIVER_CHESTPLATE\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+100 HP\",1:\"§7Defense: §a+200\",2:\"\",3:\"§6Full Set Bonus: One with the Fish\",4:\"§7While touching water you move\",5:\"§7§9incredibly fast§7 and can\",6:\"§7breathe §9permanently.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§6§lLEGENDARY CHESTPLATE\"],Name:\"§6Diver\u0027s Shirt\"},ExtraAttributes:{originTag:\"CRAFTING_GRID_SHIFT\",id:\"DIVER_CHESTPLATE\",uuid:\"79f88d94-9ff8-4fb4-bee9-14e688e8d4f7\",timestamp:\"3/30/20 7:00 PM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Health: §a+100 HP",
     "§7Defense: §a+200",
@@ -17,5 +14,19 @@
     "",
     "§7§8This item can be reforged!",
     "§6§lLEGENDARY CHESTPLATE"
-  ]
+  ],
+  "recipe": {
+    "A1": "DIVER_FRAGMENT:1",
+    "A2": "",
+    "A3": "DIVER_FRAGMENT:1",
+    "B1": "DIVER_FRAGMENT:1",
+    "B2": "DIVER_FRAGMENT:1",
+    "B3": "DIVER_FRAGMENT:1",
+    "C1": "DIVER_FRAGMENT:1",
+    "C2": "DIVER_FRAGMENT:1",
+    "C3": "DIVER_FRAGMENT:1"
+  },
+  "internalname": "DIVER_CHESTPLATE",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0"
 }

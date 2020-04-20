@@ -1,15 +1,30 @@
 {
-  "internalname": "HARDENED_DIAMOND_BOOTS",
   "itemid": "minecraft:diamond_boots",
-  "displayname": "Hardened Diamond Boots",
-  "clickcommand": "viewrecipe",
+  "displayname": "§9Hardened Diamond Boots",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+55\",1:\"\",2:\"§7§8This item can be reforged!\",3:\"§9§lRARE BOOTS\"],Name:\"§9Hardened Diamond Boots\"},ExtraAttributes:{id:\"HARDENED_DIAMOND_BOOTS\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+55\",1:\"\",2:\"§7§8This item can be reforged!\",3:\"§9§lRARE BOOTS\"],Name:\"§9Hardened Diamond Boots\"},ExtraAttributes:{originTag:\"QUICK_CRAFTING\",id:\"HARDENED_DIAMOND_BOOTS\",uuid:\"82491088-c2eb-4670-8e7a-449b3995d7ca\",timestamp:\"3/31/20 2:39 AM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Defense: §a+55",
     "",
     "§7§8This item can be reforged!",
     "§9§lRARE BOOTS"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "",
+    "A3": "",
+    "B1": "ENCHANTED_DIAMOND:1",
+    "B2": "",
+    "B3": "ENCHANTED_DIAMOND:1",
+    "C1": "ENCHANTED_DIAMOND:1",
+    "C2": "",
+    "C3": "ENCHANTED_DIAMOND:1"
+  },
+  "internalname": "HARDENED_DIAMOND_BOOTS",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Hardened_Diamond_Armor"
   ]
 }

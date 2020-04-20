@@ -1,11 +1,8 @@
 {
-  "internalname": "EMERALD_ARMOR_BOOTS",
   "itemid": "minecraft:leather_boots",
-  "displayname": "Emerald Armor Boots",
-  "clickcommand": "viewrecipe",
+  "displayname": "§5Emerald Armor Boots",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+45\",1:\"\",2:\"§6Full Set Bonus: Tank\",3:\"§7Increases §c❤ Health §7by §a+1§7\",4:\"§7and §a❈ Defense§7 by §a+1§7 for\",5:\"§7every §b3,000 §7Emeralds in your\",6:\"§7collection. Max 350 each.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§5§lEPIC BOOTS\"],color:65280,Name:\"§5Emerald Armor Boots\"},ExtraAttributes:{id:\"EMERALD_ARMOR_BOOTS\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+45\",1:\"\",2:\"§6Full Set Bonus: Tank\",3:\"§7Increases §c❤ Health §7by §a+1§7\",4:\"§7and §a❈ Defense§7 by §a+1§7 for\",5:\"§7every §b3,000 §7Emeralds in your\",6:\"§7collection. Max 350 each.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§5§lEPIC BOOTS\"],color:65280,Name:\"§5Emerald Armor Boots\"},ExtraAttributes:{color:\"0:255:0\",originTag:\"QUICK_CRAFTING\",id:\"EMERALD_ARMOR_BOOTS\",uuid:\"426c552f-cd56-4726-abb5-7d23da469448\",timestamp:\"30/03/20 09:16\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Defense: §a+45",
     "",
@@ -17,5 +14,23 @@
     "",
     "§7§8This item can be reforged!",
     "§5§lEPIC BOOTS"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_EMERALD_BLOCK:1",
+    "A2": "",
+    "A3": "ENCHANTED_EMERALD_BLOCK:1",
+    "B1": "ENCHANTED_EMERALD_BLOCK:1",
+    "B2": "",
+    "B3": "ENCHANTED_EMERALD_BLOCK:1",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  },
+  "internalname": "EMERALD_ARMOR_BOOTS",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Emerald_Armor"
   ]
 }

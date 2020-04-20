@@ -1,11 +1,8 @@
 {
-  "internalname": "BLESSED_BAIT",
   "itemid": "minecraft:skull",
-  "displayname": "Blessed Bait",
-  "clickcommand": "viewrecipe",
+  "displayname": "§aBlessed Bait",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"54b94885-521b-3700-a138-31330f0aba0d\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjA2MGE0NjQ5N2NlZTc2MTEzNDZjOWRkOGViOGY1ZGU0NDgzZGUyNTkxNDcyMTEzNTM4NDgzNTZkZTE1ZDE5In19fQ==\"}]}},display:{Lore:[0:\"§7§8Fishing Bait\",1:\"§7§8Consumes on Cast\",2:\"§7\",3:\"§7§a15% §7chance to get double\",4:\"§7drops from items fished.\",5:\"\",6:\"§a§lUNCOMMON BAIT\"],Name:\"§aBlessed Bait\"},ExtraAttributes:{id:\"BLESSED_BAIT\"}}",
   "damage": 3,
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"54b94885-521b-3700-a138-31330f0aba0d\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjA2MGE0NjQ5N2NlZTc2MTEzNDZjOWRkOGViOGY1ZGU0NDgzZGUyNTkxNDcyMTEzNTM4NDgzNTZkZTE1ZDE5In19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7§8Fishing Bait\",1:\"§7§8Consumes on Cast\",2:\"§7\",3:\"§7§a15% §7chance to get double\",4:\"§7drops from items fished.\",5:\"\",6:\"§a§lUNCOMMON BAIT\"],Name:\"§aBlessed Bait\"},ExtraAttributes:{id:\"BLESSED_BAIT\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7§8Fishing Bait",
     "§7§8Consumes on Cast",
@@ -14,5 +11,19 @@
     "§7drops from items fished.",
     "",
     "§a§lUNCOMMON BAIT"
-  ]
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "",
+    "A3": "",
+    "B1": "GOLD_BLOCK:1",
+    "B2": "RAW_FISH:1",
+    "B3": "PRISMARINE_CRYSTALS:1",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  },
+  "internalname": "BLESSED_BAIT",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0"
 }

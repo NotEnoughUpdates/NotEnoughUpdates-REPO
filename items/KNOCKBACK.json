@@ -1,17 +1,30 @@
 {
-  "internalname": "KNOCKBACK",
-  "itemid": "minecraft:potion",
-  "displayname": "§fKnockback Potion",
-  "clickcommand": "viewpotion",
-  "damage": 9,
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:5b,Amplifier:0b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§4Knockback\",2:\"§7Damaging enemies deals more\",3:\"§7knockback.\",4:\"\",5:\"§f§lCOMMON\"],Name:\"§fKnockback Potion\"},ExtraAttributes:{id:\"KNOCKBACK\"}}",
-  "modver": "1.0.0",
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§fEnchanted Book",
+  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Knockback I\",1:\"§7Increases knockback by §a3§7\",2:\"§7blocks.\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"ENCHANTED_BOOK\",enchantments:{knockback:1}}}",
+  "damage": 0,
   "lore": [
+    "§9Knockback I",
+    "§7Increases knockback by §a3§7",
+    "§7blocks.",
     "",
-    "§4Knockback",
-    "§7Damaging enemies deals more",
-    "§7knockback.",
+    "§7Use this on an item in an Anvil",
+    "§7to apply it!",
     "",
     "§f§lCOMMON"
-  ]
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "",
+    "A3": "",
+    "B1": "",
+    "B2": "PAPER:1",
+    "B3": "PAPER:1",
+    "C1": "",
+    "C2": "PAPER:1",
+    "C3": "SLIME_BALL:3"
+  },
+  "internalname": "KNOCKBACK",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0"
 }

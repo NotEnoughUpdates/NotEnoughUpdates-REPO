@@ -1,11 +1,8 @@
 {
-  "internalname": "CHALLENGE_ROD",
   "itemid": "minecraft:fishing_rod",
-  "displayname": "Challenging Rod",
-  "clickcommand": "viewrecipe",
+  "displayname": "§9Challenging Rod",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+60\",1:\"\",2:\"§7§7Increases sea creature catch\",3:\"§7rate by §92%\",4:\"\",5:\"§7Increases fishing speed by §950%\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§9§lRARE FISHING ROD\"],Name:\"§9Challenging Rod\"},ExtraAttributes:{id:\"CHALLENGE_ROD\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+60\",1:\"\",2:\"§7§7Increases sea creature catch\",3:\"§7rate by §92%\",4:\"\",5:\"§7Increases fishing speed by §950%\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§9§lRARE FISHING ROD\"],Name:\"§9Challenging Rod\"},ExtraAttributes:{originTag:\"CHALLENGE_ROD\",id:\"CHALLENGE_ROD\",uuid:\"7a3db45e-0062-4a48-b40f-5649b4addd54\",timestamp:\"3/30/20 10:59 PM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Damage: §c+60",
     "",
@@ -16,5 +13,23 @@
     "",
     "§7§8This item can be reforged!",
     "§9§lRARE FISHING ROD"
+  ],
+  "recipe": {
+    "A1": "WATER_LILY:64",
+    "A2": "WATER_LILY:64",
+    "A3": "WATER_LILY:64",
+    "B1": "WATER_LILY:64",
+    "B2": "FISHING_ROD:1",
+    "B3": "WATER_LILY:64",
+    "C1": "WATER_LILY:64",
+    "C2": "WATER_LILY:64",
+    "C3": "WATER_LILY:64"
+  },
+  "internalname": "CHALLENGE_ROD",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Challenging_Rod"
   ]
 }

@@ -1,20 +1,35 @@
 {
-  "internalname": "CACTUS_BOOTS",
   "itemid": "minecraft:leather_boots",
-  "displayname": "Cactus Boots",
-  "clickcommand": "viewrecipe",
+  "displayname": "§fCactus Boots",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+5 HP\",1:\"§7Defense: §a+10\",2:\"\",3:\"§6Full Set Bonus: Deflect\",4:\"§7Rebound §a33.0% §7of the damage\",5:\"§7you take back at your enemy.\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§f§lCOMMON BOOTS\"],color:65280,Name:\"§fCactus Boots\"},ExtraAttributes:{id:\"CACTUS_BOOTS\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+5 HP\",1:\"§7Defense: §a+10\",2:\"\",3:\"§6Full Set Bonus: Deflect\",4:\"§7Rebound §a33.0% §7of the damage\",5:\"§7you take back at your enemy.\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§f§lCOMMON BOOTS\"],color:65280,Name:\"§fCactus Boots\"},ExtraAttributes:{color:\"0:255:0\",originTag:\"CRAFTING_GRID_COLLECT\",id:\"CACTUS_BOOTS\",uuid:\"431ed1a3-6354-45b2-a385-54253ad2bb19\",timestamp:\"8/9/19 3:03 AM\"}}",
-  "modver": "1.0.0",
   "lore": [
-    "?7Health: ?a+5 HP",
-    "?7Defense: ?a+10",
+    "§7Health: §a+5 HP",
+    "§7Defense: §a+10",
     "",
-    "?6Full Set Bonus: Deflect",
-    "?7Rebound ?a33.0% ?7of the damage",
-    "?7you take back at your enemy.",
+    "§6Full Set Bonus: Deflect",
+    "§7Rebound §a33.0% §7of the damage",
+    "§7you take back at your enemy.",
     "",
-    "?7?8This item can be reforged!",
-    "?f?lCOMMON BOOTS"
+    "§7§8This item can be reforged!",
+    "§f§lCOMMON BOOTS"
+  ],
+  "recipe": {
+    "A1": "CACTUS:1",
+    "A2": "",
+    "A3": "CACTUS:1",
+    "B1": "CACTUS:1",
+    "B2": "",
+    "B3": "CACTUS:1",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  },
+  "internalname": "CACTUS_BOOTS",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Cactus_Armor"
   ]
 }

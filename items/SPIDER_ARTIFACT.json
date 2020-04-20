@@ -1,10 +1,10 @@
 {
   "internalname": "SPIDER_ARTIFACT",
   "itemid": "minecraft:skull",
-  "displayname": "Strong Spider Artifact",
-  "clickcommand": "viewrecipe",
+  "displayname": "§5Strong Spider Artifact",
+  "clickcommand": "",
   "damage": 3,
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"3e5474d4-4365-3ea7-b4bc-b4edc54da341\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODMwMDk4NmVkMGEwNGVhNzk5MDRmNmFlNTNmNDllZDNhMGZmNWIxZGY2MmJiYTYyMmVjYmQzNzc3ZjE1NmRmOCJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Strength: §c+7 §8(Strong +7)\",1:\"§7Crit Damage: §c+7% §8(Strong +7%)\",2:\"\",3:\"§7Reduces the damage taken from\",4:\"§7§7Cave Spiders§7 and §7Spiders\",5:\"§7by §a15%§7.\",6:\"\",7:\"§c☠ §5Requires Spider LVL 7\",8:\"§5§lEPIC ACCESSORY\"],Name:\"§5Strong Spider Artifact\"},ExtraAttributes:{modifier:\"strong\",originTag:\"QUICK_CRAFTING\",id:\"SPIDER_ARTIFACT\",uuid:\"1ea740f5-b4ed-4a73-a0e7-dab1f1fb1811\",timestamp:\"3/29/20 5:10 PM\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"3e5474d4-4365-3ea7-b4bc-b4edc54da341\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODMwMDk4NmVkMGEwNGVhNzk5MDRmNmFlNTNmNDllZDNhMGZmNWIxZGY2MmJiYTYyMmVjYmQzNzc3ZjE1NmRmOCJ9fX0=\"}]}},display:{Lore:[0:\"§7Strength: §c+7 §8(Strong +7)\",1:\"§7Crit Damage: §c+7% §8(Strong +7%)\",2:\"\",3:\"§7Reduces the damage taken from\",4:\"§7§7Cave Spiders§7 and §7Spiders\",5:\"§7by §a15%§7.\",6:\"\",7:\"§c☠ §5Requires Spider LVL 7\",8:\"§5§lEPIC ACCESSORY\"],Name:\"§5Strong Spider Artifact\"},ExtraAttributes:{modifier:\"strong\",originTag:\"CRAFTING_GRID_SHIFT\",id:\"SPIDER_ARTIFACT\",uuid:\"d77bd97e-ea41-4bca-8428-8fd166587a6c\",timestamp:\"12/16/19 9:54 PM\"}}",
   "modver": "1.0.0",
   "lore": [
     "§7Strength: §c+7 §8(Strong +7)",
@@ -16,5 +16,21 @@
     "",
     "§c☠ §5Requires Spider LVL 7",
     "§5§lEPIC ACCESSORY"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_EMERALD:8",
+    "A2": "TARANTULA_SILK:8",
+    "A3": "ENCHANTED_EMERALD:8",
+    "B1": "TARANTULA_SILK:8",
+    "B2": "SPIDER_RING:1",
+    "B3": "TARANTULA_SILK:8",
+    "C1": "ENCHANTED_EMERALD:8",
+    "C2": "TARANTULA_SILK:8",
+    "C3": "ENCHANTED_EMERALD:8"
+  },
+  "clickcommand": "viewrecipe",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Spider_Artifact"
   ]
 }

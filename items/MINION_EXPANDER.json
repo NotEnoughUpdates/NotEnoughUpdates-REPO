@@ -1,11 +1,8 @@
 {
-  "internalname": "MINION_EXPANDER",
   "itemid": "minecraft:command_block",
-  "displayname": "Minion Expander",
-  "clickcommand": "viewrecipe",
+  "displayname": "§9Minion Expander",
+  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7This item can be used as a\",1:\"§7minion upgrade. Increases the\",2:\"§7effective radius of the minion\",3:\"§7by §a1 §7extra block.\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Minion Expander\"},ExtraAttributes:{id:\"MINION_EXPANDER\"}}",
   "damage": 0,
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7This item can be used as a\",1:\"§7minion upgrade. Increases the\",2:\"§7effective radius of the minion\",3:\"§7by §a1 §7extra block.\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Minion Expander\"},ExtraAttributes:{originTag:\"QUICK_CRAFTING\",id:\"MINION_EXPANDER\",uuid:\"9e23d276-d4eb-4627-8b49-39398f52aef7\",timestamp:\"3/30/20 10:05 PM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7This item can be used as a",
     "§7minion upgrade. Increases the",
@@ -13,5 +10,23 @@
     "§7by §a1 §7extra block.",
     "",
     "§9§lRARE"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_QUARTZ:2",
+    "A2": "ENCHANTED_QUARTZ:2",
+    "A3": "ENCHANTED_QUARTZ:2",
+    "B1": "ENCHANTED_QUARTZ:2",
+    "B2": "ENCHANTED_REDSTONE:2",
+    "B3": "ENCHANTED_QUARTZ:2",
+    "C1": "ENCHANTED_QUARTZ:2",
+    "C2": "ENCHANTED_QUARTZ:2",
+    "C3": "ENCHANTED_QUARTZ:2"
+  },
+  "internalname": "MINION_EXPANDER",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Minion_Expander"
   ]
 }

@@ -1,14 +1,29 @@
 {
-  "internalname": "TARANTULA_SILK",
   "itemid": "minecraft:web",
-  "displayname": "Tarantula Silk",
-  "clickcommand": "viewrecipe",
-  "damage": 0,
+  "displayname": "§9Tarantula Silk",
   "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Tarantula Silk\"},ExtraAttributes:{id:\"TARANTULA_SILK\"}}",
-  "modver": "1.0.0",
+  "damage": 0,
   "lore": [
     "§eRight-click to view recipes!",
     "",
     "§9§lRARE"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "TARANTULA_WEB:32",
+    "A3": "",
+    "B1": "TARANTULA_WEB:32",
+    "B2": "ENCHANTED_FLINT:32",
+    "B3": "TARANTULA_WEB:32",
+    "C1": "",
+    "C2": "TARANTULA_WEB:32",
+    "C3": ""
+  },
+  "internalname": "TARANTULA_SILK",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Tarantula_Silk"
   ]
 }

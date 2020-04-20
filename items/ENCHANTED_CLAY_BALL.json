@@ -1,12 +1,27 @@
 {
-  "internalname": "ENCHANTED_CLAY_BALL",
   "itemid": "minecraft:clay_ball",
-  "displayname": "Enchanted Clay",
-  "clickcommand": "viewrecipe",
-  "damage": 0,
+  "displayname": "§aEnchanted Clay",
   "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Clay\"},ExtraAttributes:{id:\"ENCHANTED_CLAY_BALL\"}}",
-  "modver": "1.0.0",
+  "damage": 0,
   "lore": [
     "§a§lUNCOMMON"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "CLAY_BALL:32",
+    "A3": "",
+    "B1": "CLAY_BALL:32",
+    "B2": "CLAY_BALL:32",
+    "B3": "CLAY_BALL:32",
+    "C1": "",
+    "C2": "CLAY_BALL:32",
+    "C3": ""
+  },
+  "internalname": "ENCHANTED_CLAY_BALL",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Clay"
   ]
 }

@@ -1,16 +1,31 @@
 {
-  "internalname": "LAVA_TALISMAN",
   "itemid": "minecraft:skull",
-  "displayname": "Lava Talisman",
-  "clickcommand": "viewrecipe",
+  "displayname": "§aLava Talisman",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"1c73b35c-ecd3-3f79-a79a-c68e72841b56\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzA3OGYzZjI0YjE3NjBmOWQ0YWJiMDg1MWViOGY2YzdkZmZmODg1NTcwOGU2MDQ5ZDE1ZGMwMjA0MmJhODQzNiJ9fX0=\"}]}},display:{Lore:[0:\"§7Provides immunity to §aLava§7\",1:\"§7while held in the inventory\",2:\"\",3:\"§7§8This item can be reforged!\",4:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aLava Talisman\"},ExtraAttributes:{id:\"LAVA_TALISMAN\"}}",
   "damage": 3,
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"1c73b35c-ecd3-3f79-a79a-c68e72841b56\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzA3OGYzZjI0YjE3NjBmOWQ0YWJiMDg1MWViOGY2YzdkZmZmODg1NTcwOGU2MDQ5ZDE1ZGMwMjA0MmJhODQzNiJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Provides immunity to §aLava§7\",1:\"§7while held in the inventory\",2:\"\",3:\"§7§8This item can be reforged!\",4:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aLava Talisman\"},ExtraAttributes:{originTag:\"CRAFTING_GRID_COLLECT\",id:\"LAVA_TALISMAN\",uuid:\"1c757433-6390-42ee-9d11-83fa4875e55b\",timestamp:\"3/31/20 1:40 AM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Provides immunity to §aLava§7",
     "§7while held in the inventory",
     "",
     "§7§8This item can be reforged!",
     "§a§lUNCOMMON ACCESSORY"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_MAGMA_CREAM:1",
+    "A2": "ENCHANTED_MAGMA_CREAM:1",
+    "A3": "ENCHANTED_MAGMA_CREAM:1",
+    "B1": "ENCHANTED_MAGMA_CREAM:1",
+    "B2": "ENCHANTED_MAGMA_CREAM:1",
+    "B3": "ENCHANTED_MAGMA_CREAM:1",
+    "C1": "ENCHANTED_MAGMA_CREAM:1",
+    "C2": "ENCHANTED_MAGMA_CREAM:1",
+    "C3": "ENCHANTED_MAGMA_CREAM:1"
+  },
+  "internalname": "LAVA_TALISMAN",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Lava_Talisman"
   ]
 }

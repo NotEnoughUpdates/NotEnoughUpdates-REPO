@@ -1,12 +1,27 @@
 {
   "itemid": "minecraft:cooked_fish",
   "displayname": "§9Enchanted Cooked Fish",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9§lRARE\",1:\"\",2:\"§eClick to view recipe!\"],Name:\"§9Enchanted Cooked Fish\"},ExtraAttributes:{id:\"ENCHANTED_COOKED_FISH\"}}",
+  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9§lRARE\"],Name:\"§9Enchanted Cooked Fish\"},ExtraAttributes:{id:\"ENCHANTED_COOKED_FISH\"}}",
   "damage": 0,
   "lore": [
     "§9§lRARE"
   ],
+  "recipe": {
+    "A1": "",
+    "A2": "ENCHANTED_RAW_FISH:32",
+    "A3": "",
+    "B1": "ENCHANTED_RAW_FISH:32",
+    "B2": "ENCHANTED_RAW_FISH:32",
+    "B3": "ENCHANTED_RAW_FISH:32",
+    "C1": "",
+    "C2": "ENCHANTED_RAW_FISH:32",
+    "C3": ""
+  },
   "internalname": "ENCHANTED_COOKED_FISH",
   "clickcommand": "viewrecipe",
-  "modver": "1.0.0"
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Cooked_Fish"
+  ]
 }

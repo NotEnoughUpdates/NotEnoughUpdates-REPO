@@ -1,11 +1,8 @@
 {
-  "internalname": "SPIDER_SWORD",
   "itemid": "minecraft:iron_sword",
-  "displayname": "Spider Sword",
-  "clickcommand": "viewrecipe",
+  "displayname": "§fSpider Sword",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+30\",1:\"\",2:\"§7Deals §a+100% §7damage to §7Cave\",3:\"§7Spiders§7, §7Silverfish§7, and\",4:\"§7§7Spiders§7.\",5:\"\",6:\"§7§8This item can be reforged!\",7:\"§f§lCOMMON SWORD\"],Name:\"§fSpider Sword\"},ExtraAttributes:{id:\"SPIDER_SWORD\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+30\",1:\"\",2:\"§7Deals §a+100% §7damage to §7Cave\",3:\"§7Spiders§7, §7Silverfish§7, and\",4:\"§7§7Spiders§7.\",5:\"\",6:\"§7§8This item can be reforged!\",7:\"§f§lCOMMON SWORD\"],Name:\"§fSpider Sword\"},ExtraAttributes:{originTag:\"CRAFTING_GRID_COLLECT\",id:\"SPIDER_SWORD\",uuid:\"02f4049e-8c4f-418b-94fd-1dbb01f220da\",timestamp:\"3/30/20 3:00 PM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Damage: §c+30",
     "",
@@ -15,5 +12,23 @@
     "",
     "§7§8This item can be reforged!",
     "§f§lCOMMON SWORD"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "SPIDER_EYE:1",
+    "A3": "",
+    "B1": "",
+    "B2": "SPIDER_EYE:1",
+    "B3": "",
+    "C1": "",
+    "C2": "STICK:1",
+    "C3": ""
+  },
+  "internalname": "SPIDER_SWORD",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Spider_Sword"
   ]
 }

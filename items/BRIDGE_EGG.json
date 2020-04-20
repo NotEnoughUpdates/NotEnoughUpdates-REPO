@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:egg",
   "displayname": "§fBridge Egg",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Creates a path of stone blocks\",1:\"§7as it travels through the air!\",2:\"\",3:\"§f§lCOMMON\",4:\"\",5:\"§eClick to view recipe!\"],Name:\"§fBridge Egg\"},ExtraAttributes:{id:\"BRIDGE_EGG\"}}",
+  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Creates a path of stone blocks\",1:\"§7as it travels through the air!\",2:\"\",3:\"§f§lCOMMON\"],Name:\"§fBridge Egg\"},ExtraAttributes:{id:\"BRIDGE_EGG\"}}",
   "damage": 0,
   "lore": [
     "§7Creates a path of stone blocks",
@@ -9,7 +9,22 @@
     "",
     "§f§lCOMMON"
   ],
+  "recipe": {
+    "A1": "STONE:1",
+    "A2": "STONE:1",
+    "A3": "STONE:1",
+    "B1": "STONE:1",
+    "B2": "EGG:5",
+    "B3": "STONE:1",
+    "C1": "STONE:1",
+    "C2": "STONE:1",
+    "C3": "STONE:1"
+  },
   "internalname": "BRIDGE_EGG",
   "clickcommand": "viewrecipe",
-  "modver": "1.0.0"
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Bridge_Egg"
+  ]
 }

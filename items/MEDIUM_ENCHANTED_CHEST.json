@@ -1,11 +1,8 @@
 {
-  "internalname": "MEDIUM_ENCHANTED_CHEST",
   "itemid": "minecraft:chest",
-  "displayname": "Medium Storage",
-  "clickcommand": "viewrecipe",
-  "damage": 0,
+  "displayname": "§aMedium Storage",
   "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Place this chest next to a\",1:\"§7minion and the minion will store\",2:\"§7items inside once its storage is\",3:\"§7full!\",4:\"\",5:\"§7Storage space: §b9 §7items\",6:\"\",7:\"§a§lUNCOMMON\"],Name:\"§aMedium Storage\"},ExtraAttributes:{id:\"MEDIUM_ENCHANTED_CHEST\"}}",
-  "modver": "1.0.0",
+  "damage": 0,
   "lore": [
     "§7Place this chest next to a",
     "§7minion and the minion will store",
@@ -15,5 +12,23 @@
     "§7Storage space: §b9 §7items",
     "",
     "§a§lUNCOMMON"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_OAK_LOG:1",
+    "A2": "ENCHANTED_OAK_LOG:1",
+    "A3": "ENCHANTED_OAK_LOG:1",
+    "B1": "ENCHANTED_OAK_LOG:1",
+    "B2": "SMALL_ENCHANTED_CHEST:1",
+    "B3": "ENCHANTED_OAK_LOG:1",
+    "C1": "ENCHANTED_OAK_LOG:1",
+    "C2": "ENCHANTED_OAK_LOG:1",
+    "C3": "ENCHANTED_OAK_LOG:1"
+  },
+  "internalname": "MEDIUM_ENCHANTED_CHEST",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Medium_Storage"
   ]
 }

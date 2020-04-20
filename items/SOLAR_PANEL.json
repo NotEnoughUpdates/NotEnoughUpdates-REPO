@@ -1,16 +1,31 @@
 {
-  "internalname": "SOLAR_PANEL",
   "itemid": "minecraft:daylight_detector",
-  "displayname": "Solar Panel",
-  "clickcommand": "viewrecipe",
-  "damage": 0,
+  "displayname": "§aSolar Panel",
   "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Increases the speed of your\",1:\"§7minion by §a25%§7 during the\",2:\"§7day. Unlimited Duration!\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aSolar Panel\"},ExtraAttributes:{id:\"SOLAR_PANEL\"}}",
-  "modver": "1.0.0",
+  "damage": 0,
   "lore": [
     "§7Increases the speed of your",
     "§7minion by §a25%§7 during the",
     "§7day. Unlimited Duration!",
     "",
     "§a§lUNCOMMON"
+  ],
+  "recipe": {
+    "A1": "GLASS:1",
+    "A2": "GLASS:1",
+    "A3": "GLASS:1",
+    "B1": "ENCHANTED_QUARTZ:64",
+    "B2": "ENCHANTED_QUARTZ:64",
+    "B3": "ENCHANTED_QUARTZ:64",
+    "C1": "WOOD:1",
+    "C2": "WOOD:1",
+    "C3": "WOOD:1"
+  },
+  "internalname": "SOLAR_PANEL",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Solar_Panel"
   ]
 }

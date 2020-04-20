@@ -1,12 +1,27 @@
 {
-  "internalname": "ENCHANTED_CARROT",
   "itemid": "minecraft:carrot",
-  "displayname": "Enchanted Carrot",
-  "clickcommand": "viewrecipe",
-  "damage": 0,
+  "displayname": "§aEnchanted Carrot",
   "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Carrot\"},ExtraAttributes:{id:\"ENCHANTED_CARROT\"}}",
-  "modver": "1.0.0",
+  "damage": 0,
   "lore": [
     "§a§lUNCOMMON"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "CARROT_ITEM:32",
+    "A3": "",
+    "B1": "CARROT_ITEM:32",
+    "B2": "CARROT_ITEM:32",
+    "B3": "CARROT_ITEM:32",
+    "C1": "",
+    "C2": "CARROT_ITEM:32",
+    "C3": ""
+  },
+  "internalname": "ENCHANTED_CARROT",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Carrot"
   ]
 }

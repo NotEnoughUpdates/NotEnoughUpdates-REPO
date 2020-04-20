@@ -1,12 +1,27 @@
 {
-  "internalname": "ENCHANTED_POTATO",
   "itemid": "minecraft:potato",
-  "displayname": "Enchanted Potato",
-  "clickcommand": "viewrecipe",
-  "damage": 0,
+  "displayname": "§aEnchanted Potato",
   "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Potato\"},ExtraAttributes:{id:\"ENCHANTED_POTATO\"}}",
-  "modver": "1.0.0",
+  "damage": 0,
   "lore": [
     "§a§lUNCOMMON"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "POTATO_ITEM:32",
+    "A3": "",
+    "B1": "POTATO_ITEM:32",
+    "B2": "POTATO_ITEM:32",
+    "B3": "POTATO_ITEM:32",
+    "C1": "",
+    "C2": "POTATO_ITEM:32",
+    "C3": ""
+  },
+  "internalname": "ENCHANTED_POTATO",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Potato"
   ]
 }

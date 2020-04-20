@@ -1,14 +1,29 @@
 {
-  "internalname": "GOLDEN_TOOTH",
   "itemid": "minecraft:gold_nugget",
-  "displayname": "Golden Tooth",
-  "clickcommand": "viewrecipe",
-  "damage": 0,
+  "displayname": "§9Golden Tooth",
   "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Golden Tooth\"},ExtraAttributes:{id:\"GOLDEN_TOOTH\"}}",
-  "modver": "1.0.0",
+  "damage": 0,
   "lore": [
     "§eRight-click to view recipes!",
     "",
     "§9§lRARE"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "WOLF_TOOTH:32",
+    "A3": "",
+    "B1": "WOLF_TOOTH:32",
+    "B2": "ENCHANTED_GOLD:32",
+    "B3": "WOLF_TOOTH:32",
+    "C1": "",
+    "C2": "WOLF_TOOTH:32",
+    "C3": ""
+  },
+  "internalname": "GOLDEN_TOOTH",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Golden_Tooth"
   ]
 }

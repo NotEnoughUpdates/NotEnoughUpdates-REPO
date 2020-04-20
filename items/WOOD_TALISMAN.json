@@ -1,11 +1,8 @@
 {
-  "internalname": "WOOD_TALISMAN",
   "itemid": "minecraft:skull",
-  "displayname": "Wood Affinity Talisman",
-  "clickcommand": "viewrecipe",
+  "displayname": "§aWood Affinity Talisman",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"9a65b3e5-1d34-3c09-943f-db0add0a1520\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjE5YWQ1MjE1YmE2YzdlNGU0ZDA2NjhmMDJkM2E5YzkzN2FjNTM2YWNjNzVhYzQ5ZTdiZDdiMWM4Y2NmODAifX19\"}]}},display:{Lore:[0:\"§7Increases your §f✦ Speed §7by\",1:\"§7§a+10§7 while held in the\",2:\"§7§bForest§7, §cGraveyard§7, and\",3:\"§7§2Wilderness§7.\",4:\"\",5:\"§7§8This item can be reforged!\",6:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aWood Affinity Talisman\"},ExtraAttributes:{id:\"WOOD_TALISMAN\"}}",
   "damage": 3,
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"9a65b3e5-1d34-3c09-943f-db0add0a1520\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjE5YWQ1MjE1YmE2YzdlNGU0ZDA2NjhmMDJkM2E5YzkzN2FjNTM2YWNjNzVhYzQ5ZTdiZDdiMWM4Y2NmODAifX19\"}]}},display:{Lore:[0:\"§7Increases your §f✦ Speed §7by\",1:\"§7§a+10§7 while held in the\",2:\"§7§bForest§7, §cGraveyard§7, and\",3:\"§7§2Wilderness§7.\",4:\"\",5:\"§7§8This item can be reforged!\",6:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aWood Affinity Talisman\"},ExtraAttributes:{originTag:\"QUICK_CRAFTING\",id:\"WOOD_TALISMAN\",uuid:\"bca44a2a-9374-46ef-a02f-613bbbd1fdde\",timestamp:\"3/30/20 10:41 PM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Increases your §f✦ Speed §7by",
     "§7§a+10§7 while held in the",
@@ -14,5 +11,23 @@
     "",
     "§7§8This item can be reforged!",
     "§a§lUNCOMMON ACCESSORY"
+  ],
+  "recipe": {
+    "A1": "LEAVES:1",
+    "A2": "LEAVES:1",
+    "A3": "LEAVES:1",
+    "B1": "LEAVES:1",
+    "B2": "ENCHANTED_OAK_LOG:1",
+    "B3": "LEAVES:1",
+    "C1": "LEAVES:1",
+    "C2": "LEAVES:1",
+    "C3": "LEAVES:1"
+  },
+  "internalname": "WOOD_TALISMAN",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Wood_Affinity_Talisman"
   ]
 }

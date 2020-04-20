@@ -1,14 +1,33 @@
 {
-  "internalname": "REVENANT_GENERATOR_1",
   "itemid": "minecraft:skull",
-  "displayname": "§9Revenant Minion",
-  "clickcommand": "viewrecipe",
+  "displayname": "§9Revenant Minion I",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"b22f77c8-1454-392b-8c35-0e0b3d415499\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1Njg1MzgxNzcxMTMsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2EzZGNlODU1NTkyMzU1OGQ4ZDc0YzJhMmIyNjFiMmIyZDYzMDU1OWRiNTRlZjk3ZWQzZjljMzBlOWEyMGFiYSJ9fX0=\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and struggling\",2:\"§7with Revenants! Minions also\",3:\"§7work when you are offline!\",4:\"\",5:\"§7Time Between Actions: §a29s\",6:\"§7Max Storage: §e64\"],Name:\"§9Revenant Minion I\"},ExtraAttributes:{id:\"REVENANT_GENERATOR_1\",generator_tier:1}}",
   "damage": 3,
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"b22f77c8-1454-392b-8c35-0e0b3d415499\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1Njg1MzgxNzcxMTMsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2EzZGNlODU1NTkyMzU1OGQ4ZDc0YzJhMmIyNjFiMmIyZDYzMDU1OWRiNTRlZjk3ZWQzZjljMzBlOWEyMGFiYSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and struggling\",2:\"§7with Revenants!\"],Name:\"§9Revenant Minion\"},ExtraAttributes:{id:\"REVENANT_GENERATOR_1\",generator_tier:1}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Place this minion and it will",
     "§7start generating and struggling",
-    "§7with Revenants!"
+    "§7with Revenants! Minions also",
+    "§7work when you are offline!",
+    "",
+    "§7Time Between Actions: §a29s",
+    "§7Max Storage: §e64"
+  ],
+  "recipe": {
+    "A1": "REVENANT_FLESH:10",
+    "A2": "REVENANT_FLESH:10",
+    "A3": "REVENANT_FLESH:10",
+    "B1": "REVENANT_FLESH:10",
+    "B2": "CRYSTALLIZED_HEART:1",
+    "B3": "REVENANT_FLESH:10",
+    "C1": "REVENANT_FLESH:10",
+    "C2": "REVENANT_FLESH:10",
+    "C3": "REVENANT_FLESH:10"
+  },
+  "internalname": "REVENANT_GENERATOR_1",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Revenant_Minion"
   ]
 }

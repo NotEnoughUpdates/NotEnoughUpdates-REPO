@@ -1,13 +1,28 @@
 {
-  "internalname": "ENCHANTED_SPIDER_EYE",
   "itemid": "minecraft:spider_eye",
-  "displayname": "Enchanted Spider Eye",
-  "clickcommand": "viewrecipe",
-  "damage": 0,
+  "displayname": "§aEnchanted Spider Eye",
   "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Spider Eye\"},ExtraAttributes:{id:\"ENCHANTED_SPIDER_EYE\"}}",
-  "modver": "1.0.0",
+  "damage": 0,
   "lore": [
     "§8Brewing Ingredient",
     "§a§lUNCOMMON"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "SPIDER_EYE:32",
+    "A3": "",
+    "B1": "SPIDER_EYE:32",
+    "B2": "SPIDER_EYE:32",
+    "B3": "SPIDER_EYE:32",
+    "C1": "",
+    "C2": "SPIDER_EYE:32",
+    "C3": ""
+  },
+  "internalname": "ENCHANTED_SPIDER_EYE",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Spider_Eye"
   ]
 }

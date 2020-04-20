@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:egg",
   "displayname": "§fStone Platform",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Creates a stone platform in the\",1:\"§7air after travelling 10 blocks.\",2:\"§7Perfect for building below your\",3:\"§7island!\",4:\"\",5:\"§f§lCOMMON\",6:\"\",7:\"§eClick to view recipe!\"],Name:\"§fStone Platform\"},ExtraAttributes:{id:\"STONE_BRIDGE\"}}",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Creates a stone platform in the\",1:\"§7air after travelling 10 blocks.\",2:\"§7Perfect for building below your\",3:\"§7island!\",4:\"\",5:\"§f§lCOMMON\"],Name:\"§fStone Platform\"},ExtraAttributes:{id:\"STONE_BRIDGE\"}}",
   "damage": 0,
   "lore": [
     "§7Creates a stone platform in the",
@@ -11,7 +11,22 @@
     "",
     "§f§lCOMMON"
   ],
+  "recipe": {
+    "A1": "SMOOTH_BRICK:8",
+    "A2": "SMOOTH_BRICK:8",
+    "A3": "SMOOTH_BRICK:8",
+    "B1": "SMOOTH_BRICK:8",
+    "B2": "EGG:1",
+    "B3": "SMOOTH_BRICK:8",
+    "C1": "SMOOTH_BRICK:8",
+    "C2": "SMOOTH_BRICK:8",
+    "C3": "SMOOTH_BRICK:8"
+  },
   "internalname": "STONE_BRIDGE",
   "clickcommand": "viewrecipe",
-  "modver": "1.0.0"
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Stone_Platform"
+  ]
 }

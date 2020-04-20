@@ -1,16 +1,31 @@
 {
-  "internalname": "NIGHT_SAVER",
   "itemid": "minecraft:daylight_detector",
-  "displayname": "Night Saver",
-  "clickcommand": "viewrecipe",
-  "damage": 0,
+  "displayname": "§aNight Saver",
   "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7When placed on your private\",1:\"§7island, it will always be\",2:\"§7§anight-time§7!\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aNight Saver\"},ExtraAttributes:{id:\"NIGHT_SAVER\"}}",
-  "modver": "1.0.0",
+  "damage": 0,
   "lore": [
     "§7When placed on your private",
     "§7island, it will always be",
     "§7§anight-time§7!",
     "",
     "§a§lUNCOMMON"
+  ],
+  "recipe": {
+    "A1": "GLASS:1",
+    "A2": "GLASS:1",
+    "A3": "GLASS:1",
+    "B1": "QUARTZ:5",
+    "B2": "QUARTZ:5",
+    "B3": "QUARTZ:5",
+    "C1": "BROWN_MUSHROOM:1",
+    "C2": "BROWN_MUSHROOM:1",
+    "C3": "BROWN_MUSHROOM:1"
+  },
+  "internalname": "NIGHT_SAVER",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Night_Saver"
   ]
 }

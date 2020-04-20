@@ -1,11 +1,8 @@
 {
-  "internalname": "GROWTH_HELMET",
   "itemid": "minecraft:leather_helmet",
-  "displayname": "Helmet of Growth",
-  "clickcommand": "viewrecipe",
+  "displayname": "§9Helmet of Growth",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+50 HP\",1:\"§7Defense: §a+30\",2:\"\",3:\"§6Item Ability: Growth\",4:\"§7Heals you for §a1% §c❤ Health\",5:\"§c§7after killing a Monster, and\",6:\"§7also increases the §c❤ Health\",7:\"§c§7bonus of a piece of the armor\",8:\"§7by §a1§8 (Max 100)\",9:\"§8Cooldown: §a4s\",10:\"\",11:\"§7Bonus HP: §a0/100\",12:\"\",13:\"§7§8This item can be reforged!\",14:\"§9§lRARE HELMET\"],color:48640,Name:\"§9Helmet of Growth\"},ExtraAttributes:{id:\"GROWTH_HELMET\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+50 HP\",1:\"§7Defense: §a+30\",2:\"\",3:\"§6Item Ability: Growth\",4:\"§7Heals you for §a1% §c❤ Health\",5:\"§c§7after killing a Monster, and\",6:\"§7also increases the §c❤ Health\",7:\"§c§7bonus of a piece of the armor\",8:\"§7by §a1§8 (Max 100)\",9:\"§8Cooldown: §a4s\",10:\"\",11:\"§7Bonus HP: §a0/100\",12:\"\",13:\"§7§8This item can be reforged!\",14:\"§9§lRARE HELMET\"],color:48640,Name:\"§9Helmet of Growth\"},ExtraAttributes:{color:\"0:190:0\",originTag:\"QUICK_CRAFTING\",id:\"GROWTH_HELMET\",uuid:\"393904b8-c6e4-4bac-aad0-75d0bdc4e302\",timestamp:\"3/30/20 9:16 PM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Health: §a+50 HP",
     "§7Defense: §a+30",
@@ -22,5 +19,23 @@
     "",
     "§7§8This item can be reforged!",
     "§9§lRARE HELMET"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_DARK_OAK_LOG:64",
+    "A2": "ENCHANTED_DARK_OAK_LOG:64",
+    "A3": "ENCHANTED_DARK_OAK_LOG:64",
+    "B1": "ENCHANTED_DARK_OAK_LOG:64",
+    "B2": "",
+    "B3": "ENCHANTED_DARK_OAK_LOG:64",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  },
+  "internalname": "GROWTH_HELMET",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Growth_Armor"
   ]
 }

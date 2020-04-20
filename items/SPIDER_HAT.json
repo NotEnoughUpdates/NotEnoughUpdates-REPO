@@ -1,19 +1,34 @@
 {
-  "internalname": "SPIDER_HAT",
   "itemid": "minecraft:skull",
-  "displayname": "Spider Hat",
-  "clickcommand": "viewrecipe",
+  "displayname": "§fSpider Hat",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"fb28e6d3-5700-3d23-87cc-a39f1e33fde5\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWQ3ZTNiMTlhYzRmM2RlZTljNTY3N2MxMzUzMzNiOWQzNWE3ZjU2OGI2M2QxZWY0YWRhNGIwNjhiNWEyNSJ9fX0=\"}]}},display:{Lore:[0:\"§7Crit Chance: §c+25%\",1:\"\",2:\"§7When worn, §7Cave Spiders§7 and\",3:\"§7§7Spiders§7 deal §a-30%§7\",4:\"§7damage.\",5:\"\",6:\"§7§8This item can be reforged!\",7:\"§f§lCOMMON HELMET\"],Name:\"§fSpider Hat\"},ExtraAttributes:{id:\"SPIDER_HAT\"}}",
   "damage": 3,
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"fb28e6d3-5700-3d23-87cc-a39f1e33fde5\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWQ3ZTNiMTlhYzRmM2RlZTljNTY3N2MxMzUzMzNiOWQzNWE3ZjU2OGI2M2QxZWY0YWRhNGIwNjhiNWEyNSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Crit Chance: §c+25%\",1:\"\",2:\"§7When worn, §7Spiders§7 and\",3:\"§7§7Cave Spiders§7 deal §a-30%§7\",4:\"§7damage.\",5:\"\",6:\"§7§8This item can be reforged!\",7:\"§f§lCOMMON HELMET\"],Name:\"§fSpider Hat\"},ExtraAttributes:{originTag:\"QUICK_CRAFTING\",id:\"SPIDER_HAT\",uuid:\"ddffa808-7eae-4bfc-9395-998eea333230\",timestamp:\"3/31/20 1:52 AM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Crit Chance: §c+25%",
     "",
-    "§7When worn, §7Spiders§7 and",
-    "§7§7Cave Spiders§7 deal §a-30%§7",
+    "§7When worn, §7Cave Spiders§7 and",
+    "§7§7Spiders§7 deal §a-30%§7",
     "§7damage.",
     "",
     "§7§8This item can be reforged!",
     "§f§lCOMMON HELMET"
+  ],
+  "recipe": {
+    "A1": "SPIDER_EYE:1",
+    "A2": "SPIDER_EYE:1",
+    "A3": "SPIDER_EYE:1",
+    "B1": "SPIDER_EYE:1",
+    "B2": "",
+    "B3": "SPIDER_EYE:1",
+    "C1": "SPIDER_EYE:1",
+    "C2": "SPIDER_EYE:1",
+    "C3": "SPIDER_EYE:1"
+  },
+  "internalname": "SPIDER_HAT",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Spider_Hat"
   ]
 }

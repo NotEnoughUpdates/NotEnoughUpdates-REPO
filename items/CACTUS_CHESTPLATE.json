@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:leather_chestplate",
   "displayname": "§fCactus Chestplate",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+15 HP\",1:\"§7Defense: §a+25\",2:\"\",3:\"§6Full Set Bonus: Deflect\",4:\"§7Rebound §a33.0% §7of the damage\",5:\"§7you take back at your enemy.\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§f§lCOMMON CHESTPLATE\",9:\"\",10:\"§eClick to view recipe!\"],color:65280,Name:\"§fCactus Chestplate\"},ExtraAttributes:{id:\"CACTUS_CHESTPLATE\"}}",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+15 HP\",1:\"§7Defense: §a+25\",2:\"\",3:\"§6Full Set Bonus: Deflect\",4:\"§7Rebound §a33.0% §7of the damage\",5:\"§7you take back at your enemy.\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§f§lCOMMON CHESTPLATE\"],color:65280,Name:\"§fCactus Chestplate\"},ExtraAttributes:{id:\"CACTUS_CHESTPLATE\"}}",
   "damage": 0,
   "lore": [
     "§7Health: §a+15 HP",
@@ -14,7 +14,22 @@
     "§7§8This item can be reforged!",
     "§f§lCOMMON CHESTPLATE"
   ],
+  "recipe": {
+    "A1": "CACTUS:1",
+    "A2": "",
+    "A3": "CACTUS:1",
+    "B1": "CACTUS:1",
+    "B2": "CACTUS:1",
+    "B3": "CACTUS:1",
+    "C1": "CACTUS:1",
+    "C2": "CACTUS:1",
+    "C3": "CACTUS:1"
+  },
   "internalname": "CACTUS_CHESTPLATE",
   "clickcommand": "viewrecipe",
-  "modver": "1.0.0"
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Cactus_Armor"
+  ]
 }

@@ -1,11 +1,8 @@
 {
-  "internalname": "HOT_POTATO_BOOK",
   "itemid": "minecraft:book",
-  "displayname": "Hot Potato Book",
-  "clickcommand": "viewrecipe",
+  "displayname": "§5Hot Potato Book",
+  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Combine this Book in an Anvil\",1:\"§7with a weapon or armor piece to\",2:\"§7gain a small but permanent stat\",3:\"§7boost!\",4:\"\",5:\"§5§lEPIC\"],Name:\"§5Hot Potato Book\"},ExtraAttributes:{id:\"HOT_POTATO_BOOK\"}}",
   "damage": 0,
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Combine this Book in an Anvil\",1:\"§7with a weapon or armor piece to\",2:\"§7gain a small but permanent stat\",3:\"§7boost!\",4:\"\",5:\"§5§lEPIC\"],Name:\"§5Hot Potato Book\"},ExtraAttributes:{originTag:\"CRAFTING_GRID_COLLECT\",id:\"HOT_POTATO_BOOK\",uuid:\"46c8c089-2117-4c1c-8722-92917f3e61f8\",timestamp:\"3/29/20 8:19 AM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Combine this Book in an Anvil",
     "§7with a weapon or armor piece to",
@@ -13,5 +10,23 @@
     "§7boost!",
     "",
     "§5§lEPIC"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "",
+    "A3": "",
+    "B1": "",
+    "B2": "PAPER:1",
+    "B3": "PAPER:1",
+    "C1": "",
+    "C2": "PAPER:1",
+    "C3": "ENCHANTED_BAKED_POTATO:1"
+  },
+  "internalname": "HOT_POTATO_BOOK",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Hot_Potato_Book"
   ]
 }

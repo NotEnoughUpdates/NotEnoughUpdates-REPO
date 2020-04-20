@@ -1,11 +1,8 @@
 {
-  "internalname": "RUNAANS_BOW",
   "itemid": "minecraft:bow",
-  "displayname": "Runaan\u0027s Bow",
-  "clickcommand": "viewrecipe",
+  "displayname": "§6Runaan's Bow",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+160\",1:\"§7Strength: §c+50\",2:\"\",3:\"§6Item Ability: Triple Shot\",4:\"§7Shoots 3 arrows at a time! The 2\",5:\"§7extra arrows deal §a40%\",6:\"§a§7percent of the damage.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§6§lLEGENDARY BOW\"],Name:\"§6Runaan's Bow\"},ExtraAttributes:{id:\"RUNAANS_BOW\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+160\",1:\"§7Strength: §c+50\",2:\"\",3:\"§6Item Ability: Triple Shot\",4:\"§7Shoots 3 arrows at a time! The 2\",5:\"§7extra arrows deal §a40%\",6:\"§a§7percent of the damage.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§6§lLEGENDARY BOW\"],Name:\"§6Runaan\u0027s Bow\"},ExtraAttributes:{originTag:\"CRAFTING_GRID_SHIFT\",id:\"RUNAANS_BOW\",uuid:\"f7270af2-cefc-4ed0-96f6-44fb3fdbdf39\",timestamp:\"3/31/20 2:17 AM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Damage: §c+160",
     "§7Strength: §c+50",
@@ -17,5 +14,19 @@
     "",
     "§7§8This item can be reforged!",
     "§6§lLEGENDARY BOW"
-  ]
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "ENCHANTED_BONE:64",
+    "A3": "ENCHANTED_STRING:64",
+    "B1": "ENCHANTED_BONE:64",
+    "B2": "",
+    "B3": "ENCHANTED_STRING:64",
+    "C1": "",
+    "C2": "ENCHANTED_BONE:64",
+    "C3": "ENCHANTED_STRING:64"
+  },
+  "internalname": "RUNAANS_BOW",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0"
 }

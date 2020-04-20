@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:stick",
   "displayname": "§fSavanna Biome Stick",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Allows you to change the biome\",1:\"§7at the targeted block on your\",2:\"§7private island to §bSavanna§7.\",3:\"§7Right-click to use, or\",4:\"§7Left-click to change the radius\",5:\"§7it effects.\",6:\"\",7:\"§7Selected Radius: §b3\",8:\"\",9:\"§f§lCOMMON\",10:\"\",11:\"§eClick to view recipe!\"],Name:\"§fSavanna Biome Stick\"},ExtraAttributes:{id:\"SAVANA_BIOME_STICK\"}}",
+  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Allows you to change the biome\",1:\"§7at the targeted block on your\",2:\"§7private island to §bSavanna§7.\",3:\"§7Right-click to use, or\",4:\"§7Left-click to change the radius\",5:\"§7it effects.\",6:\"\",7:\"§7Selected Radius: §b3\",8:\"\",9:\"§f§lCOMMON\"],Name:\"§fSavanna Biome Stick\"},ExtraAttributes:{id:\"SAVANA_BIOME_STICK\"}}",
   "damage": 0,
   "lore": [
     "§7Allows you to change the biome",
@@ -15,7 +15,22 @@
     "",
     "§f§lCOMMON"
   ],
+  "recipe": {
+    "A1": "",
+    "A2": "",
+    "A3": "LEAVES_2:64",
+    "B1": "",
+    "B2": "STICK:1",
+    "B3": "",
+    "C1": "STICK:1",
+    "C2": "",
+    "C3": ""
+  },
   "internalname": "SAVANA_BIOME_STICK",
   "clickcommand": "viewrecipe",
-  "modver": "1.0.0"
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Biome_Stick"
+  ]
 }

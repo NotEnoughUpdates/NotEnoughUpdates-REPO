@@ -1,16 +1,31 @@
 {
-  "internalname": "ENCHANTED_BREAD",
   "itemid": "minecraft:bread",
-  "displayname": "Enchanted Bread",
-  "clickcommand": "viewrecipe",
-  "damage": 0,
+  "displayname": "§fEnchanted Bread",
   "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7increases the speed of\",1:\"§7your minion by §a5%§7\",2:\"§7for 12 hours§7!\",3:\"\",4:\"§f§lCOMMON\"],Name:\"§fEnchanted Bread\"},ExtraAttributes:{id:\"ENCHANTED_BREAD\"}}",
-  "modver": "1.0.0",
+  "damage": 0,
   "lore": [
     "§7increases the speed of",
     "§7your minion by §a5%§7",
     "§7for 12 hours§7!",
     "",
     "§f§lCOMMON"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "",
+    "A3": "",
+    "B1": "WHEAT:10",
+    "B2": "WHEAT:10",
+    "B3": "WHEAT:10",
+    "C1": "WHEAT:10",
+    "C2": "WHEAT:10",
+    "C3": "WHEAT:10"
+  },
+  "internalname": "ENCHANTED_BREAD",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Bread"
   ]
 }

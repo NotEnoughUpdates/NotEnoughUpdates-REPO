@@ -1,15 +1,35 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Emerald Minion",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"8383fe2e-6c76-32cf-8e5f-264b13de62ae\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MTk1MjU2MTUsInByb2ZpbGVJZCI6ImRkZWQ1NmUxZWY4YjQwZmU4YWQxNjI5MjBmN2FlY2RhIiwicHJvZmlsZU5hbWUiOiJEaXNjb3JkQXBwIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85YmY1N2YzNDAxYjEzMGM2YjUzODA4ZjJiMWUxMTljYzdiOTg0NjIyZGFjNzA3N2JiZDUzNDU0ZTFmNjViYmYwIn19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and mining\",2:\"§7emerald ore! Requires an open\",3:\"§7area to place emerald ore.\",4:\"\",5:\"§eClick to view recipes!\"],Name:\"§9Emerald Minion\"},ExtraAttributes:{id:\"EMERALD_GENERATOR_1\",generator_tier:1}}",
+  "displayname": "§9Emerald Minion I",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"8383fe2e-6c76-32cf-8e5f-264b13de62ae\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MTk1MjU2MTUsInByb2ZpbGVJZCI6ImRkZWQ1NmUxZWY4YjQwZmU4YWQxNjI5MjBmN2FlY2RhIiwicHJvZmlsZU5hbWUiOiJEaXNjb3JkQXBwIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85YmY1N2YzNDAxYjEzMGM2YjUzODA4ZjJiMWUxMTljYzdiOTg0NjIyZGFjNzA3N2JiZDUzNDU0ZTFmNjViYmYwIn19fQ==\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and mining\",2:\"§7emerald ore! Requires an open\",3:\"§7area to place emerald ore.\",4:\"§7Minions also work when you are\",5:\"§7offline!\",6:\"\",7:\"§7Time Between Actions: §a28s\",8:\"§7Max Storage: §e64\"],Name:\"§9Emerald Minion I\"},ExtraAttributes:{id:\"EMERALD_GENERATOR_1\",generator_tier:1}}",
   "damage": 3,
   "lore": [
     "§7Place this minion and it will",
     "§7start generating and mining",
     "§7emerald ore! Requires an open",
-    "§7area to place emerald ore."
+    "§7area to place emerald ore.",
+    "§7Minions also work when you are",
+    "§7offline!",
+    "",
+    "§7Time Between Actions: §a28s",
+    "§7Max Storage: §e64"
   ],
+  "recipe": {
+    "A1": "EMERALD:10",
+    "A2": "EMERALD:10",
+    "A3": "EMERALD:10",
+    "B1": "EMERALD:10",
+    "B2": "WOOD_PICKAXE:1",
+    "B3": "EMERALD:10",
+    "C1": "EMERALD:10",
+    "C2": "EMERALD:10",
+    "C3": "EMERALD:10"
+  },
   "internalname": "EMERALD_GENERATOR_1",
   "clickcommand": "viewrecipe",
-  "modver": "1.0.0"
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Emerald_Minion"
+  ]
 }

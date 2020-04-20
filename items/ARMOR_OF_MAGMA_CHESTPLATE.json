@@ -1,11 +1,8 @@
 {
-  "internalname": "ARMOR_OF_MAGMA_CHESTPLATE",
   "itemid": "minecraft:leather_chestplate",
-  "displayname": "Armor of Magma Chestplate",
-  "clickcommand": "viewrecipe",
+  "displayname": "§5Armor of Magma Chestplate",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+100 HP\",1:\"§7Defense: §a+30\",2:\"\",3:\"§6Full Set Bonus: Absorb\",4:\"§7Every §910 Magma Cubes killed§7\",5:\"§7gives the wearer §a+1 §c❤ Health\",6:\"§c§7and §b✎ Intelligence§7 while\",7:\"§7wearing the set. Max 200 each.\",8:\"\",9:\"§7Magma Cubes Killed: §a0\",10:\"§7Bonus HP: §a0\",11:\"§7Bonus Intelligence: §a0\",12:\"\",13:\"§7§8This item can be reforged!\",14:\"§5§lEPIC CHESTPLATE\"],color:16749312,Name:\"§5Armor of Magma Chestplate\"},ExtraAttributes:{id:\"ARMOR_OF_MAGMA_CHESTPLATE\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+100 HP\",1:\"§7Defense: §a+30\",2:\"\",3:\"§6Full Set Bonus: Absorb\",4:\"§7Every §910 Magma Cubes killed§7\",5:\"§7gives the wearer §a+1 §c❤ Health\",6:\"§c§7and §b✎ Intelligence§7 while\",7:\"§7wearing the set. Max 200 each.\",8:\"\",9:\"§7Magma Cubes Killed: §a0\",10:\"§7Bonus HP: §a0\",11:\"§7Bonus Intelligence: §a0\",12:\"\",13:\"§7§8This item can be reforged!\",14:\"§5§lEPIC CHESTPLATE\"],color:16749312,Name:\"§5Armor of Magma Chestplate\"},ExtraAttributes:{color:\"255:147:0\",originTag:\"CRAFTING_GRID_SHIFT\",id:\"ARMOR_OF_MAGMA_CHESTPLATE\",uuid:\"3a969974-e33c-4495-90b1-0771c168d762\",timestamp:\"12/20/19 2:14 AM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Health: §a+100 HP",
     "§7Defense: §a+30",
@@ -22,5 +19,23 @@
     "",
     "§7§8This item can be reforged!",
     "§5§lEPIC CHESTPLATE"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_MAGMA_CREAM:12",
+    "A2": "",
+    "A3": "ENCHANTED_MAGMA_CREAM:12",
+    "B1": "ENCHANTED_MAGMA_CREAM:12",
+    "B2": "ENCHANTED_MAGMA_CREAM:12",
+    "B3": "ENCHANTED_MAGMA_CREAM:12",
+    "C1": "ENCHANTED_MAGMA_CREAM:12",
+    "C2": "ENCHANTED_MAGMA_CREAM:12",
+    "C3": "ENCHANTED_MAGMA_CREAM:12"
+  },
+  "internalname": "ARMOR_OF_MAGMA_CHESTPLATE",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Magma_Armor"
   ]
 }

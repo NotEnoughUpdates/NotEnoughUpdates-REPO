@@ -1,11 +1,8 @@
 {
-  "internalname": "FARMER_ORB",
   "itemid": "minecraft:skull",
-  "displayname": "Farmer Orb",
-  "clickcommand": "viewrecipe",
+  "displayname": "§aFarmer Orb",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"c5a99737-cbb0-3f13-9ea8-415915c049dd\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNiMTcyYTk3OWVmZjliZjViZmI4MGViODUxNWQ5M2U0ODg4Y2M0MWNkODA2NDczZjJhOWEwZDhiZDI5ZTMifX19\"}]}},display:{Lore:[0:\"§7Increases the regrowth rate of\",1:\"§7nearby crops on the public\",2:\"§7islands, regrowing an extra crop\",3:\"§7every §a3 §7seconds.\",4:\"\",5:\"§7§8This item can be reforged!\",6:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aFarmer Orb\"},ExtraAttributes:{id:\"FARMER_ORB\"}}",
   "damage": 3,
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"c5a99737-cbb0-3f13-9ea8-415915c049dd\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNiMTcyYTk3OWVmZjliZjViZmI4MGViODUxNWQ5M2U0ODg4Y2M0MWNkODA2NDczZjJhOWEwZDhiZDI5ZTMifX19\"}]}},display:{Lore:[0:\"§7Increases the regrowth rate of\",1:\"§7nearby crops on the public\",2:\"§7islands, regrowing an extra crop\",3:\"§7every §a3 §7seconds.\",4:\"\",5:\"§7§8This item can be reforged!\",6:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aFarmer Orb\"},ExtraAttributes:{originTag:\"QUICK_CRAFTING\",id:\"FARMER_ORB\",uuid:\"2a477a8d-fcc6-446c-9bdd-3647d87f257d\",timestamp:\"3/30/20 9:44 PM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Increases the regrowth rate of",
     "§7nearby crops on the public",
@@ -14,5 +11,23 @@
     "",
     "§7§8This item can be reforged!",
     "§a§lUNCOMMON ACCESSORY"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_PUMPKIN:1",
+    "A2": "ENCHANTED_PUMPKIN:1",
+    "A3": "ENCHANTED_PUMPKIN:1",
+    "B1": "ENCHANTED_PUMPKIN:1",
+    "B2": "ENCHANTED_GLOWSTONE:1",
+    "B3": "ENCHANTED_PUMPKIN:1",
+    "C1": "ENCHANTED_PUMPKIN:1",
+    "C2": "ENCHANTED_PUMPKIN:1",
+    "C3": "ENCHANTED_PUMPKIN:1"
+  },
+  "internalname": "FARMER_ORB",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Farmer_Orb"
   ]
 }

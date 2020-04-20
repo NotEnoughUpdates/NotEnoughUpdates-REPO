@@ -1,16 +1,35 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Potato Minion",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"4a8b2791-3dd0-3376-9dbf-5683f3dac782\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MTk5OTkyNjksInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2RkYTM1YTA0NGNiMDM3NGI1MTYwMTVkOTkxYTBmNjViZjdkMGZiNjU2NmUzNTA0OTY2NDJjZjIwNTlmZjFkOSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and harvesting\",2:\"§7potatoes. Requires dirt or soil\",3:\"§7nearby so potatoes can be\",4:\"§7planted.\",5:\"\",6:\"§eClick to view recipes!\"],Name:\"§9Potato Minion\"},ExtraAttributes:{id:\"POTATO_GENERATOR_1\",generator_tier:1}}",
+  "displayname": "§9Potato Minion I",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"4a8b2791-3dd0-3376-9dbf-5683f3dac782\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MTk5OTkyNjksInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2RkYTM1YTA0NGNiMDM3NGI1MTYwMTVkOTkxYTBmNjViZjdkMGZiNjU2NmUzNTA0OTY2NDJjZjIwNTlmZjFkOSJ9fX0=\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and harvesting\",2:\"§7potatoes. Requires dirt or soil\",3:\"§7nearby so potatoes can be\",4:\"§7planted. Minions also work when\",5:\"§7you are offline!\",6:\"\",7:\"§7Time Between Actions: §a20s\",8:\"§7Max Storage: §e64\"],Name:\"§9Potato Minion I\"},ExtraAttributes:{id:\"POTATO_GENERATOR_1\",generator_tier:1}}",
   "damage": 3,
   "lore": [
     "§7Place this minion and it will",
     "§7start generating and harvesting",
     "§7potatoes. Requires dirt or soil",
     "§7nearby so potatoes can be",
-    "§7planted."
+    "§7planted. Minions also work when",
+    "§7you are offline!",
+    "",
+    "§7Time Between Actions: §a20s",
+    "§7Max Storage: §e64"
   ],
+  "recipe": {
+    "A1": "POTATO_ITEM:16",
+    "A2": "POTATO_ITEM:16",
+    "A3": "POTATO_ITEM:16",
+    "B1": "POTATO_ITEM:16",
+    "B2": "WOOD_HOE:1",
+    "B3": "POTATO_ITEM:16",
+    "C1": "POTATO_ITEM:16",
+    "C2": "POTATO_ITEM:16",
+    "C3": "POTATO_ITEM:16"
+  },
   "internalname": "POTATO_GENERATOR_1",
   "clickcommand": "viewrecipe",
-  "modver": "1.0.0"
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Potato_Minion"
+  ]
 }

@@ -1,11 +1,8 @@
 {
-  "internalname": "SKELETON_HAT",
   "itemid": "minecraft:skull",
-  "displayname": "Skeleton Hat",
-  "clickcommand": "viewrecipe",
+  "displayname": "§fSkeleton Hat",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Speed: §a+2\",1:\"§7Intelligence: §a+10\",2:\"\",3:\"§7Your arrows have a §a20%\",4:\"§a§7chance to explode on impact\",5:\"§7dealing §a55 §7base Magic Damage\",6:\"§7to enemies within §a8 §7blocks.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§f§lCOMMON HELMET\"],Name:\"§fSkeleton Hat\"},ExtraAttributes:{id:\"SKELETON_HAT\"}}",
   "damage": 0,
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Speed: §a+2\",1:\"§7Intelligence: §a+10\",2:\"\",3:\"§7Your arrows have a §a20%\",4:\"§a§7chance to explode on impact\",5:\"§7dealing §a55 §7base Magic Damage\",6:\"§7to enemies within §a8 §7blocks.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§f§lCOMMON HELMET\"],Name:\"§fSkeleton Hat\"},ExtraAttributes:{originTag:\"QUICK_CRAFTING\",id:\"SKELETON_HAT\",uuid:\"9152c914-5c9d-461f-86de-5f3f7f651f97\",timestamp:\"3/23/20 2:44 AM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Speed: §a+2",
     "§7Intelligence: §a+10",
@@ -17,5 +14,23 @@
     "",
     "§7§8This item can be reforged!",
     "§f§lCOMMON HELMET"
+  ],
+  "recipe": {
+    "A1": "BONE:1",
+    "A2": "BONE:1",
+    "A3": "BONE:1",
+    "B1": "BONE:1",
+    "B2": "",
+    "B3": "BONE:1",
+    "C1": "BONE:1",
+    "C2": "BONE:1",
+    "C3": "BONE:1"
+  },
+  "internalname": "SKELETON_HAT",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Skeleton_Hat"
   ]
 }

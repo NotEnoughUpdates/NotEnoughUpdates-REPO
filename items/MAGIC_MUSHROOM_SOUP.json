@@ -1,11 +1,8 @@
 {
-  "internalname": "MAGIC_MUSHROOM_SOUP",
   "itemid": "minecraft:mushroom_stew",
-  "displayname": "Magical Mushroom Soup",
-  "clickcommand": "viewrecipe",
-  "damage": 0,
+  "displayname": "§aMagical Mushroom Soup",
   "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Consuming this Magical Mushroom\",1:\"§7Soup on your private island\",2:\"§7allows the player to fly for §a2\",3:\"§aminutes§7. Leaving the private\",4:\"§7island will remove the effect!\",5:\"\",6:\"§a§lUNCOMMON\"],Name:\"§aMagical Mushroom Soup\"},ExtraAttributes:{id:\"MAGIC_MUSHROOM_SOUP\"}}",
-  "modver": "1.0.0",
+  "damage": 0,
   "lore": [
     "§7Consuming this Magical Mushroom",
     "§7Soup on your private island",
@@ -14,5 +11,23 @@
     "§7island will remove the effect!",
     "",
     "§a§lUNCOMMON"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "GLOWSTONE_DUST:1",
+    "A3": "",
+    "B1": "RED_MUSHROOM:1",
+    "B2": "BROWN_MUSHROOM:1",
+    "B3": "REDSTONE:1",
+    "C1": "",
+    "C2": "BOWL:1",
+    "C3": ""
+  },
+  "internalname": "MAGIC_MUSHROOM_SOUP",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Magical_Mushroom_Soup"
   ]
 }

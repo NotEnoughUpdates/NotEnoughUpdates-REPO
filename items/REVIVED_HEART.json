@@ -1,10 +1,10 @@
 {
   "internalname": "REVIVED_HEART",
   "itemid": "minecraft:skull",
-  "displayname": "Revived Heart",
-  "clickcommand": "viewrecipe",
+  "displayname": "§5Revived Heart",
+  "clickcommand": "",
   "damage": 3,
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"030b6aeb-6fba-3a86-8d9f-fa84f842e865\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NjgzNjYyODI2NDIsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRhNjFiNGY4YjA3MGU0YmMzMGE4NmIyMjkwZGI2ZTU3ZTI2ODFjNDRlMDI1MGQxOTA2YTg5YWRiOGZjNDU1YjEifX19\"}]}},display:{Lore:[0:\"§7Health: §a+100 HP\",1:\"§7Defense: §a+35\",2:\"§7Intelligence: §a+100\",3:\"\",4:\"§6Item Ability: Healing Boost\",5:\"§7Doubles all healing effects,\",6:\"§7including your natural\",7:\"§7regeneration and healing you\",8:\"§7deal to others, while wearing.\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§c☠ §5Requires Zombie LVL 6\",12:\"§5§lEPIC HELMET\"],Name:\"§5Revived Heart\"},ExtraAttributes:{originTag:\"REVIVED_HEART\",id:\"REVIVED_HEART\",uuid:\"ee74851d-8690-44c0-8bb6-5e91548f36cd\",timestamp:\"3/30/20 10:24 PM\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"030b6aeb-6fba-3a86-8d9f-fa84f842e865\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NjgzNjYyODI2NDIsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRhNjFiNGY4YjA3MGU0YmMzMGE4NmIyMjkwZGI2ZTU3ZTI2ODFjNDRlMDI1MGQxOTA2YTg5YWRiOGZjNDU1YjEifX19\"}]}},display:{Lore:[0:\"§7Health: §a+100 HP\",1:\"§7Defense: §a+35\",2:\"§7Intelligence: §a+100\",3:\"\",4:\"§6Item Ability: Healing Boost\",5:\"§7Doubles all healing effects,\",6:\"§7including your natural\",7:\"§7regeneration and healing you\",8:\"§7deal to others, while wearing.\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§c☠ §5Requires Zombie LVL 6\",12:\"§5§lEPIC HELMET\"],Name:\"§5Revived Heart\"},ExtraAttributes:{originTag:\"REVIVED_HEART\",id:\"REVIVED_HEART\",uuid:\"c0fb3bb3-95af-4e05-b20e-c394606f6af4\",timestamp:\"3/21/20 2:12 AM\"}}",
   "modver": "1.0.0",
   "lore": [
     "§7Health: §a+100 HP",
@@ -20,5 +20,21 @@
     "§7§8This item can be reforged!",
     "§c☠ §5Requires Zombie LVL 6",
     "§5§lEPIC HELMET"
+  ],
+  "recipe": {
+    "A1": "ZOMBIE_HEART:1",
+    "A2": "ZOMBIE_HEART:1",
+    "A3": "ZOMBIE_HEART:1",
+    "B1": "ZOMBIE_HEART:1",
+    "B2": "CRYSTALLIZED_HEART:1",
+    "B3": "ZOMBIE_HEART:1",
+    "C1": "ZOMBIE_HEART:1",
+    "C2": "ZOMBIE_HEART:1",
+    "C3": "ZOMBIE_HEART:1"
+  },
+  "clickcommand": "viewrecipe",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Revived_Heart"
   ]
 }

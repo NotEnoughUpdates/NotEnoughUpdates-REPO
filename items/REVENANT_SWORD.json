@@ -1,11 +1,8 @@
 {
-  "internalname": "REVENANT_SWORD",
   "itemid": "minecraft:diamond_sword",
-  "displayname": "Revenant Falchion",
-  "clickcommand": "viewrecipe",
+  "displayname": "§9Revenant Falchion",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+90\",1:\"§7Strength: §c+50\",2:\"\",3:\"§7Intelligence: §a+100\",4:\"\",5:\"§7Deals §a+150% §7damage to\",6:\"§7§7Zombies§7.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§c☠ §5Requires Zombie LVL 3\",10:\"§9§lRARE SWORD\"],Name:\"§9Revenant Falchion\"},ExtraAttributes:{id:\"REVENANT_SWORD\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+90\",1:\"§7Strength: §c+50\",2:\"\",3:\"§7Intelligence: §a+100\",4:\"\",5:\"§7Deals §a+150% §7damage to\",6:\"§7§7Zombies§7.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§c☠ §5Requires Zombie LVL 3\",10:\"§9§lRARE SWORD\"],Name:\"§9Revenant Falchion\"},ExtraAttributes:{originTag:\"REVENANT_SWORD\",id:\"REVENANT_SWORD\",uuid:\"0430fd12-e121-4448-8ea3-3a6d2f44de7a\",timestamp:\"3/31/20 1:45 AM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Damage: §c+90",
     "§7Strength: §c+50",
@@ -18,5 +15,23 @@
     "§7§8This item can be reforged!",
     "§c☠ §5Requires Zombie LVL 3",
     "§9§lRARE SWORD"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "CRYSTALLIZED_HEART:1",
+    "A3": "",
+    "B1": "",
+    "B2": "UNDEAD_CATALYST:1",
+    "B3": "",
+    "C1": "",
+    "C2": "UNDEAD_SWORD:1",
+    "C3": ""
+  },
+  "internalname": "REVENANT_SWORD",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Revenant_Falchion"
   ]
 }

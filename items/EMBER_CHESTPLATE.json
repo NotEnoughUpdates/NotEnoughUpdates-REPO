@@ -1,11 +1,8 @@
 {
-  "internalname": "EMBER_CHESTPLATE",
   "itemid": "minecraft:chainmail_chestplate",
-  "displayname": "Ember Chestplate",
-  "clickcommand": "viewrecipe",
+  "displayname": "§5Ember Chestplate",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+65 HP\",1:\"§7Defense: §a+60\",2:\"§7Intelligence: §a+10\",3:\"\",4:\"§6Full Set Bonus: Nether Lord\",5:\"§7Obsidian will be created below\",6:\"§7you when walking on Lava. Also\",7:\"§7increases the chance of Nether\",8:\"§7monsters dropping an item by\",9:\"§720%. Wearing this full set will\",10:\"§7also prevent you from taking\",11:\"§7Lava and Fire Damage.\",12:\"\",13:\"§7§8This item can be reforged!\",14:\"§5§lEPIC CHESTPLATE\"],Name:\"§5Ember Chestplate\"},ExtraAttributes:{id:\"EMBER_CHESTPLATE\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+65 HP\",1:\"§7Defense: §a+60\",2:\"§7Intelligence: §a+10\",3:\"\",4:\"§6Full Set Bonus: Nether Lord\",5:\"§7Obsidian will be created below\",6:\"§7you when walking on Lava. Also\",7:\"§7increases the chance of Nether\",8:\"§7monsters dropping an item by\",9:\"§720%. Wearing this full set will\",10:\"§7also prevent you from taking\",11:\"§7Lava and Fire Damage.\",12:\"\",13:\"§7§8This item can be reforged!\",14:\"§5§lEPIC CHESTPLATE\"],Name:\"§5Ember Chestplate\"},ExtraAttributes:{originTag:\"CRAFTING_GRID_COLLECT\",id:\"EMBER_CHESTPLATE\",uuid:\"b0cea8d7-0b93-4286-90e7-030dc4f91a0b\",timestamp:\"3/31/20 12:35 AM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Health: §a+65 HP",
     "§7Defense: §a+60",
@@ -22,5 +19,23 @@
     "",
     "§7§8This item can be reforged!",
     "§5§lEPIC CHESTPLATE"
+  ],
+  "recipe": {
+    "A1": "EMBER_FRAGMENT:1",
+    "A2": "",
+    "A3": "EMBER_FRAGMENT:1",
+    "B1": "EMBER_FRAGMENT:1",
+    "B2": "EMBER_FRAGMENT:1",
+    "B3": "EMBER_FRAGMENT:1",
+    "C1": "EMBER_FRAGMENT:1",
+    "C2": "EMBER_FRAGMENT:1",
+    "C3": "EMBER_FRAGMENT:1"
+  },
+  "internalname": "EMBER_CHESTPLATE",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Ember_Armor"
   ]
 }

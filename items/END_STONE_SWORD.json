@@ -1,11 +1,8 @@
 {
-  "internalname": "END_STONE_SWORD",
   "itemid": "minecraft:golden_sword",
-  "displayname": "End Stone Sword",
-  "clickcommand": "viewrecipe",
+  "displayname": "§5End Stone Sword",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+120\",1:\"§7Strength: §c+80\",2:\"\",3:\"§6Item Ability: Extreme Focus §e§lRIGHT CLICK\",4:\"§7Consumes all your remaining mana\",5:\"§7to grant Damage Resistance for\",6:\"§7§a5§7 seconds and extra damage\",7:\"§7on your next hit (within 5\",8:\"§7seconds) depending on how much\",9:\"§7mana was consumed!\",10:\"\",11:\"§7§8This item can be reforged!\",12:\"§5§lEPIC SWORD\"],Name:\"§5End Stone Sword\"},ExtraAttributes:{id:\"END_STONE_SWORD\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+120\",1:\"§7Strength: §c+80\",2:\"\",3:\"§6Item Ability: Extreme Focus §e§lRIGHT CLICK\",4:\"§7Consumes all your remaining mana\",5:\"§7to grant Damage Resistance for\",6:\"§7§a5§7 seconds and extra damage\",7:\"§7on your next hit (within 5\",8:\"§7seconds) depending on how much\",9:\"§7mana was consumed!\",10:\"\",11:\"§7§8This item can be reforged!\",12:\"§5§lEPIC SWORD\"],Name:\"§5End Stone Sword\"},ExtraAttributes:{originTag:\"QUICK_CRAFTING\",id:\"END_STONE_SWORD\",uuid:\"e8bfa48f-7ed2-47b9-bba1-16863cae4099\",timestamp:\"3/30/20 3:44 PM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Damage: §c+120",
     "§7Strength: §c+80",
@@ -20,5 +17,23 @@
     "",
     "§7§8This item can be reforged!",
     "§5§lEPIC SWORD"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "ENCHANTED_ENDSTONE:64",
+    "A3": "",
+    "B1": "",
+    "B2": "ENCHANTED_ENDSTONE:64",
+    "B3": "",
+    "C1": "",
+    "C2": "STICK:1",
+    "C3": ""
+  },
+  "internalname": "END_STONE_SWORD",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/End_Stone_Sword"
   ]
 }

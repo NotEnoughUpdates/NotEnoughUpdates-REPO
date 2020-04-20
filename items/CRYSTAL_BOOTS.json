@@ -1,11 +1,8 @@
 {
-  "internalname": "CRYSTAL_BOOTS",
   "itemid": "minecraft:leather_boots",
-  "displayname": "Crystal Boots",
-  "clickcommand": "viewrecipe",
+  "displayname": "§5Crystal Boots",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+15\",1:\"§7Intelligence: §a+60\",2:\"\",3:\"§6Full Set Bonus: Refraction\",4:\"§7The stats of this armor change\",5:\"§7from §a0§7 to §a200%§7 depending\",6:\"§7on the current light level.\",7:\"\",8:\"§7Current Light Level\",9:\"§a0➡15§8 (0%➡200%)\",10:\"\",11:\"§7§8This item can be reforged!\",12:\"§5§lEPIC BOOTS\"],color:16577535,Name:\"§5Crystal Boots\"},ExtraAttributes:{id:\"CRYSTAL_BOOTS\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+15\",1:\"§7Intelligence: §a+60\",2:\"\",3:\"§6Full Set Bonus: Refraction\",4:\"§7The stats of this armor change\",5:\"§7from §a0§7 to §a200%§7 depending\",6:\"§7on the current light level.\",7:\"\",8:\"§7Current Light Level\",9:\"§a12§8 (162.5%)\",10:\"\",11:\"§7§8This item can be reforged!\",12:\"§5§lEPIC BOOTS\"],color:16577535,Name:\"§5Crystal Boots\"},ExtraAttributes:{color:\"252:243:255\",originTag:\"CRAFTING_GRID_SHIFT\",id:\"CRYSTAL_BOOTS\",uuid:\"bf7c2a01-1f14-4563-899d-dad4812a6e0e\",timestamp:\"3/29/20 1:46 PM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Defense: §a+15",
     "§7Intelligence: §a+60",
@@ -16,9 +13,27 @@
     "§7on the current light level.",
     "",
     "§7Current Light Level",
-    "§a12§8 (162.5%)",
+    "§a0➡15§8 (0%➡200%)",
     "",
     "§7§8This item can be reforged!",
     "§5§lEPIC BOOTS"
+  ],
+  "recipe": {
+    "A1": "CRYSTAL_FRAGMENT:1",
+    "A2": "",
+    "A3": "CRYSTAL_FRAGMENT:1",
+    "B1": "CRYSTAL_FRAGMENT:1",
+    "B2": "",
+    "B3": "CRYSTAL_FRAGMENT:1",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  },
+  "internalname": "CRYSTAL_BOOTS",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Crystal_Armor"
   ]
 }

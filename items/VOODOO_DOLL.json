@@ -1,11 +1,8 @@
 {
-  "internalname": "VOODOO_DOLL",
   "itemid": "minecraft:fish",
-  "displayname": "Voodoo Doll",
-  "clickcommand": "viewrecipe",
+  "displayname": "§9Voodoo Doll",
+  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§6Item Ability: Acupuncture §e§lRIGHT CLICK\",1:\"§7Shoot arrows from every\",2:\"§7direction around the targeted\",3:\"§7monster.\",4:\"§7\",5:\"§7Monsters hit by at least one\",6:\"§7arrow are slowed and receive\",7:\"§7§c1,500 §7damage/s for §a10§7s.\",8:\"§8Mana Cost: §3200\",9:\"§8Cooldown: §a5s\",10:\"\",11:\"§8Who do you voodoo?\",12:\"\",13:\"§c☠ §5Requires Zombie LVL 5\",14:\"§9§lRARE\"],Name:\"§9Voodoo Doll\"},ExtraAttributes:{id:\"VOODOO_DOLL\"}}",
   "damage": 3,
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§6Item Ability: Acupuncture §e§lRIGHT CLICK\",1:\"§7Shoot arrows from every\",2:\"§7direction around the targeted\",3:\"§7monster.\",4:\"§7\",5:\"§7Monsters hit by at least one\",6:\"§7arrow are slowed and receive\",7:\"§7§c1,500 §7damage/s for §a10§7s.\",8:\"§8Mana Cost: §3200\",9:\"§8Cooldown: §a5s\",10:\"\",11:\"§8Who do you voodoo?\",12:\"\",13:\"§c☠ §5Requires Zombie LVL 5\",14:\"§9§lRARE\"],Name:\"§9Voodoo Doll\"},ExtraAttributes:{originTag:\"CRAFTING_GRID_COLLECT\",id:\"VOODOO_DOLL\",uuid:\"4af1a950-6e9a-4436-8eb3-c4e734f244b1\",timestamp:\"3/29/20 5:56 AM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§6Item Ability: Acupuncture §e§lRIGHT CLICK",
     "§7Shoot arrows from every",
@@ -22,5 +19,23 @@
     "",
     "§c☠ §5Requires Zombie LVL 5",
     "§9§lRARE"
+  ],
+  "recipe": {
+    "A1": "ARROW:64",
+    "A2": "ENCHANTED_GHAST_TEAR:32",
+    "A3": "ARROW:64",
+    "B1": "ENCHANTED_PUFFERFISH:1",
+    "B2": "PUMPKIN_GENERATOR_9:1",
+    "B3": "ENCHANTED_PUFFERFISH:1",
+    "C1": "ARROW:64",
+    "C2": "CRYSTALLIZED_HEART:1",
+    "C3": "ARROW:64"
+  },
+  "internalname": "VOODOO_DOLL",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Voodoo_Doll"
   ]
 }

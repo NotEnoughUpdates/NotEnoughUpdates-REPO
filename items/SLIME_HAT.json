@@ -1,11 +1,8 @@
 {
-  "internalname": "SLIME_HAT",
   "itemid": "minecraft:skull",
-  "displayname": "Slime Hat",
-  "clickcommand": "viewrecipe",
+  "displayname": "§fSlime Hat",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"b3584cb8-ba3b-3880-91b8-4659174bd7c2\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTIwZTg0ZDMyZDFlOWM5MTlkM2ZkYmI1M2YyYjM3YmEyNzRjMTIxYzU3YjI4MTBlNWE0NzJmNDBkYWNmMDA0ZiJ9fX0=\"}]}},display:{Lore:[0:\"§7Health: §a+50 HP\",1:\"\",2:\"§7Grants immunity to knockback\",3:\"§7from mobs.\",4:\"\",5:\"§7§8This item can be reforged!\",6:\"§f§lCOMMON HELMET\"],Name:\"§fSlime Hat\"},ExtraAttributes:{id:\"SLIME_HAT\"}}",
   "damage": 3,
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"b3584cb8-ba3b-3880-91b8-4659174bd7c2\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTIwZTg0ZDMyZDFlOWM5MTlkM2ZkYmI1M2YyYjM3YmEyNzRjMTIxYzU3YjI4MTBlNWE0NzJmNDBkYWNmMDA0ZiJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Health: §a+50 HP\",1:\"\",2:\"§7Grants immunity to knockback\",3:\"§7from mobs.\",4:\"\",5:\"§7§8This item can be reforged!\",6:\"§f§lCOMMON HELMET\"],Name:\"§fSlime Hat\"},ExtraAttributes:{originTag:\"CRAFTING_GRID_SHIFT\",id:\"SLIME_HAT\",uuid:\"9d769af4-84d5-4ac4-913d-dfdefa031d69\",timestamp:\"3/18/20 12:29 PM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Health: §a+50 HP",
     "",
@@ -14,5 +11,23 @@
     "",
     "§7§8This item can be reforged!",
     "§f§lCOMMON HELMET"
+  ],
+  "recipe": {
+    "A1": "SLIME_BALL:1",
+    "A2": "SLIME_BALL:1",
+    "A3": "SLIME_BALL:1",
+    "B1": "SLIME_BALL:1",
+    "B2": "",
+    "B3": "SLIME_BALL:1",
+    "C1": "SLIME_BALL:1",
+    "C2": "SLIME_BALL:1",
+    "C3": "SLIME_BALL:1"
+  },
+  "internalname": "SLIME_HAT",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Slime_Hat"
   ]
 }

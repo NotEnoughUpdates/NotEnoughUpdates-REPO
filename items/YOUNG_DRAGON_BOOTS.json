@@ -1,11 +1,8 @@
 {
-  "internalname": "YOUNG_DRAGON_BOOTS",
   "itemid": "minecraft:leather_boots",
-  "displayname": "Young Dragon Boots",
-  "clickcommand": "viewrecipe",
+  "displayname": "§6Young Dragon Boots",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+60 HP\",1:\"§7Defense: §a+90\",2:\"§7Speed: §a+20\",3:\"\",4:\"§6Full Set Bonus: Young Blood\",5:\"§7Gain §a+70§7 Walk Speed while\",6:\"§7you are above §a50%§7 HP.\",7:\"§8+100 Walk Speed Cap\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§6§lLEGENDARY BOOTS\"],color:14542064,Name:\"§6Young Dragon Boots\"},ExtraAttributes:{id:\"YOUNG_DRAGON_BOOTS\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+60 HP\",1:\"§7Defense: §a+90\",2:\"§7Speed: §a+20\",3:\"\",4:\"§6Full Set Bonus: Young Blood\",5:\"§7Gain §a+70§7 Walk Speed while\",6:\"§7you are above §a50%§7 HP.\",7:\"§8+100 Walk Speed Cap\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§6§lLEGENDARY BOOTS\"],color:14542064,Name:\"§6Young Dragon Boots\"},ExtraAttributes:{color:\"221:228:240\",originTag:\"CRAFTING_GRID_SHIFT\",id:\"YOUNG_DRAGON_BOOTS\",uuid:\"2a2e8a8c-b999-4a48-9e58-5c1813f318e6\",timestamp:\"31/03/20 04:07\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Health: §a+60 HP",
     "§7Defense: §a+90",
@@ -18,5 +15,23 @@
     "",
     "§7§8This item can be reforged!",
     "§6§lLEGENDARY BOOTS"
+  ],
+  "recipe": {
+    "A1": "YOUNG_FRAGMENT:10",
+    "A2": "",
+    "A3": "YOUNG_FRAGMENT:10",
+    "B1": "YOUNG_FRAGMENT:10",
+    "B2": "",
+    "B3": "YOUNG_FRAGMENT:10",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  },
+  "internalname": "YOUNG_DRAGON_BOOTS",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Young_Dragon_Armor"
   ]
 }

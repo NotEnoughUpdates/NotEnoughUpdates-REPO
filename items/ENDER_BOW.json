@@ -1,11 +1,8 @@
 {
-  "internalname": "ENDER_BOW",
   "itemid": "minecraft:bow",
-  "displayname": "Ender Bow",
-  "clickcommand": "viewrecipe",
+  "displayname": "§9Ender Bow",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+60\",1:\"\",2:\"§6Item Ability: Ender Warp\",3:\"§7Shoots an Ender Pearl. Upon\",4:\"§7landing you deal damage to all\",5:\"§7Monsters in a §a8.0§7 block\",6:\"§7radius for §a10.0%§7 of their\",7:\"§7§c❤ Health§7.\",8:\"§8Mana Cost: §350\",9:\"§8Cooldown: §a45s\",10:\"\",11:\"§7§8This item can be reforged!\",12:\"§9§lRARE BOW\"],Name:\"§9Ender Bow\"},ExtraAttributes:{id:\"ENDER_BOW\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+60\",1:\"\",2:\"§6Item Ability: Ender Warp\",3:\"§7Shoots an Ender Pearl. Upon\",4:\"§7landing you deal damage to all\",5:\"§7Monsters in a §a8.0§7 block\",6:\"§7radius for §a10.0%§7 of their\",7:\"§7§c❤ Health§7.\",8:\"§8Mana Cost: §350\",9:\"§8Cooldown: §a45s\",10:\"\",11:\"§7§8This item can be reforged!\",12:\"§9§lRARE BOW\"],Name:\"§9Ender Bow\"},ExtraAttributes:{originTag:\"CRAFTING_GRID_COLLECT\",id:\"ENDER_BOW\",uuid:\"4d4d83c0-f42b-4287-bc89-13d3b852706f\",timestamp:\"3/30/20 4:43 PM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Damage: §c+60",
     "",
@@ -20,5 +17,23 @@
     "",
     "§7§8This item can be reforged!",
     "§9§lRARE BOW"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "ENCHANTED_ENDER_PEARL:4",
+    "A3": "STRING:1",
+    "B1": "ENCHANTED_ENDER_PEARL:4",
+    "B2": "",
+    "B3": "STRING:1",
+    "C1": "",
+    "C2": "ENCHANTED_ENDER_PEARL:4",
+    "C3": "STRING:1"
+  },
+  "internalname": "ENDER_BOW",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Ender_Bow"
   ]
 }

@@ -1,15 +1,35 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Redstone Minion",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"a4fff41c-bae4-393c-8d97-e98075ccb590\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MjAxMDg2NDUsInByb2ZpbGVJZCI6Ijc1MTQ0NDgxOTFlNjQ1NDY4Yzk3MzlhNmUzOTU3YmViIiwicHJvZmlsZU5hbWUiOiJUaGFua3NNb2phbmciLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFlZGVmY2YxYTg5ZDY4N2EwYTRlY2YxNTg5OTc3YWYxZTUyMGZjNjczYzQ4YTA0MzRiZTQyNjYxMmU4ZmFhNjcifX19\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and mining\",2:\"§7redstone ore! Requires an open\",3:\"§7area to place redstone ore.\",4:\"\",5:\"§eClick to view recipes!\"],Name:\"§9Redstone Minion\"},ExtraAttributes:{id:\"REDSTONE_GENERATOR_1\",generator_tier:1}}",
+  "displayname": "§9Redstone Minion I",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"a4fff41c-bae4-393c-8d97-e98075ccb590\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MjAxMDg2NDUsInByb2ZpbGVJZCI6Ijc1MTQ0NDgxOTFlNjQ1NDY4Yzk3MzlhNmUzOTU3YmViIiwicHJvZmlsZU5hbWUiOiJUaGFua3NNb2phbmciLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFlZGVmY2YxYTg5ZDY4N2EwYTRlY2YxNTg5OTc3YWYxZTUyMGZjNjczYzQ4YTA0MzRiZTQyNjYxMmU4ZmFhNjcifX19\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and mining\",2:\"§7redstone ore! Requires an open\",3:\"§7area to place redstone ore.\",4:\"§7Minions also work when you are\",5:\"§7offline!\",6:\"\",7:\"§7Time Between Actions: §a29s\",8:\"§7Max Storage: §e64\"],Name:\"§9Redstone Minion I\"},ExtraAttributes:{id:\"REDSTONE_GENERATOR_1\",generator_tier:1}}",
   "damage": 3,
   "lore": [
     "§7Place this minion and it will",
     "§7start generating and mining",
     "§7redstone ore! Requires an open",
-    "§7area to place redstone ore."
+    "§7area to place redstone ore.",
+    "§7Minions also work when you are",
+    "§7offline!",
+    "",
+    "§7Time Between Actions: §a29s",
+    "§7Max Storage: §e64"
   ],
+  "recipe": {
+    "A1": "REDSTONE:16",
+    "A2": "REDSTONE:16",
+    "A3": "REDSTONE:16",
+    "B1": "REDSTONE:16",
+    "B2": "WOOD_PICKAXE:1",
+    "B3": "REDSTONE:16",
+    "C1": "REDSTONE:16",
+    "C2": "REDSTONE:16",
+    "C3": "REDSTONE:16"
+  },
   "internalname": "REDSTONE_GENERATOR_1",
   "clickcommand": "viewrecipe",
-  "modver": "1.0.0"
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Redstone_Minion"
+  ]
 }

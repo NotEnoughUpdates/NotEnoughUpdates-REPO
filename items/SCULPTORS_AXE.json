@@ -1,16 +1,27 @@
 {
-  "internalname": "SCULPTORS_AXE",
   "itemid": "minecraft:stone_axe",
-  "displayname": "Sculptor\u0027s Axe",
-  "clickcommand": "viewrecipe",
+  "displayname": "§fSculptor's Axe",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Right-click on any log on your\",1:\"§7island to turn it into a 6 sided\",2:\"§7log!\",3:\"\",4:\"§f§lCOMMON AXE\"],Name:\"§fSculptor's Axe\"},ExtraAttributes:{id:\"SCULPTORS_AXE\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Right-click on any log on your\",1:\"§7island to turn it into a 6 sided\",2:\"§7log!\",3:\"\",4:\"§f§lCOMMON AXE\"],Name:\"§fSculptor\u0027s Axe\"},ExtraAttributes:{originTag:\"CRAFTING_GRID_SHIFT\",id:\"SCULPTORS_AXE\",uuid:\"6e284c39-10c7-488a-b441-753251ad48a9\",timestamp:\"3/30/20 6:10 AM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Right-click on any log on your",
     "§7island to turn it into a 6 sided",
     "§7log!",
     "",
     "§f§lCOMMON AXE"
-  ]
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "LOG-2:64",
+    "A3": "LOG-2:64",
+    "B1": "",
+    "B2": "STICK:1",
+    "B3": "LOG-2:64",
+    "C1": "STICK:1",
+    "C2": "",
+    "C3": ""
+  },
+  "internalname": "SCULPTORS_AXE",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0"
 }

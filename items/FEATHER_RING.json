@@ -1,22 +1,37 @@
 {
-  "internalname": "FEATHER_RING",
   "itemid": "minecraft:skull",
-  "displayname": "Feather Ring",
-  "clickcommand": "viewrecipe",
+  "displayname": "§aFeather Ring",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"19c9b3c3-ec66-3dae-9e56-be9cea2a00fc\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWQ3YWQxYjFkYjJiMzIzZjAxM2I3NzVhOGY5NDgxZjFjZDI5MmJmOWE1OGRkMjkwNWUzZTE5MjlkMTNiYWMifX19\"}]}},display:{Lore:[0:\"§bUnique Effect: Light Weight\",1:\"§7Increases how high you can fall\",2:\"§7before taking fall damage by\",3:\"§7§a7§7 blocks, and reduces fall\",4:\"§7damage by §a5.0%§7.\",5:\"§7This Ring doesn't work if the\",6:\"§7Feather Artifact is in your\",7:\"§7inventory!\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aFeather Ring\"},ExtraAttributes:{id:\"FEATHER_RING\"}}",
   "damage": 3,
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"19c9b3c3-ec66-3dae-9e56-be9cea2a00fc\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWQ3YWQxYjFkYjJiMzIzZjAxM2I3NzVhOGY5NDgxZjFjZDI5MmJmOWE1OGRkMjkwNWUzZTE5MjlkMTNiYWMifX19\"}]}},display:{Lore:[0:\"§bUnique Effect: Light Weight\",1:\"§7Increases how high you can fall\",2:\"§7before taking fall damage by\",3:\"§7§a7§7 blocks, and reduces fall\",4:\"§7damage by §a5.0%§7.\",5:\"§7This Ring doesn\u0027t work if the\",6:\"§7Feather Artifact is in your\",7:\"§7inventory!\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aFeather Ring\"},ExtraAttributes:{originTag:\"QUICK_CRAFTING\",id:\"FEATHER_RING\",uuid:\"d3953850-666f-4b96-a2cc-62eed1ac3154\",timestamp:\"3/31/20 12:30 AM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§bUnique Effect: Light Weight",
     "§7Increases how high you can fall",
     "§7before taking fall damage by",
     "§7§a7§7 blocks, and reduces fall",
     "§7damage by §a5.0%§7.",
-    "§7This Ring doesn\u0027t work if the",
+    "§7This Ring doesn't work if the",
     "§7Feather Artifact is in your",
     "§7inventory!",
     "",
     "§7§8This item can be reforged!",
     "§a§lUNCOMMON ACCESSORY"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_FEATHER:1",
+    "A2": "FEATHER_TALISMAN:1",
+    "A3": "ENCHANTED_FEATHER:1",
+    "B1": "ENCHANTED_FEATHER:1",
+    "B2": "",
+    "B3": "ENCHANTED_FEATHER:1",
+    "C1": "ENCHANTED_FEATHER:1",
+    "C2": "ENCHANTED_FEATHER:1",
+    "C3": "ENCHANTED_FEATHER:1"
+  },
+  "internalname": "FEATHER_RING",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Feather_Ring"
   ]
 }

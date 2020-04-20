@@ -1,21 +1,11 @@
 {
-  "internalname": "SCORPION_BOW",
   "itemid": "minecraft:bow",
-  "displayname": "Grand Scorpion Bow",
-  "clickcommand": "viewrecipe",
+  "displayname": "§5Scorpion Bow",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+110\",1:\"§7Strength: §c+10\",2:\"\",3:\"§6Item Ability: Stinger\",4:\"§8Fully charged shots while sneaking\",5:\"§7Slows the victim and deal §c35x\",6:\"§c§7your §cStrength ❁ §7as damage\",7:\"§7per second for §a6s§7.\",8:\"§8Mana Cost: §3150\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§c☠ §5Requires Spider LVL 3\",12:\"§5§lEPIC BOW\"],Name:\"§5Scorpion Bow\"},ExtraAttributes:{id:\"SCORPION_BOW\"}}",
   "damage": 0,
-  "nbttag": "{ench:[],Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+130 §e(+20)\",1:\"§7Strength: §c+47 §e(+20) §8(Grand +17)\",2:\"\",3:\"§9Aiming V\",4:\"§9Cubism V\",5:\"§9Infinite Quiver V\",6:\"§9Piercing I\",7:\"§9Power V\",8:\"§9Snipe III\",9:\"\",10:\"§6Item Ability: Stinger\",11:\"§8Fully charged shots while sneaking\",12:\"§7Slows the victim and deal §c35x\",13:\"§c§7your §cStrength ❁ §7as damage\",14:\"§7per second for §a6s§7.\",15:\"§8Mana Cost: §3150\",16:\"\",17:\"§c☠ §5Requires Spider LVL 3\",18:\"§5§lEPIC BOW\"],Name:\"§5Grand Scorpion Bow\"},ExtraAttributes:{hot_potato_count:10,hotPotatoBonus:\"STRENGTH\u003d20;DAMAGE\u003d20;\",modifier:\"grand\",originTag:\"QUICK_CRAFTING\",id:\"SCORPION_BOW\",enchantments:{piercing:1,infinite_quiver:5,power:5,snipe:3,cubism:5,aiming:5},uuid:\"ac7f2785-e7d4-40e7-8eba-1bc12ae38c37\",anvil_uses:11,timestamp:\"3/30/20 11:17 PM\"}}",
-  "modver": "1.0.0",
   "lore": [
-    "§7Damage: §c+130 §e(+20)",
-    "§7Strength: §c+47 §e(+20) §8(Grand +17)",
-    "",
-    "§9Aiming V",
-    "§9Cubism V",
-    "§9Infinite Quiver V",
-    "§9Piercing I",
-    "§9Power V",
-    "§9Snipe III",
+    "§7Damage: §c+110",
+    "§7Strength: §c+10",
     "",
     "§6Item Ability: Stinger",
     "§8Fully charged shots while sneaking",
@@ -24,7 +14,26 @@
     "§7per second for §a6s§7.",
     "§8Mana Cost: §3150",
     "",
+    "§7§8This item can be reforged!",
     "§c☠ §5Requires Spider LVL 3",
     "§5§lEPIC BOW"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "ENCHANTED_EMERALD:32",
+    "A3": "TARANTULA_SILK:16",
+    "B1": "ENCHANTED_GOLD:32",
+    "B2": "",
+    "B3": "TARANTULA_SILK:16",
+    "C1": "",
+    "C2": "ENCHANTED_EMERALD:32",
+    "C3": "TARANTULA_SILK:16"
+  },
+  "internalname": "SCORPION_BOW",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Scorpion_Bow"
   ]
 }

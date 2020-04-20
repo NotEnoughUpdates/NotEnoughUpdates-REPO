@@ -1,23 +1,32 @@
 {
-  "internalname": "DIVER_HELMET",
   "itemid": "minecraft:skull",
-  "displayname": "Demonic Diver\u0027s Mask",
-  "clickcommand": "viewrecipe",
+  "displayname": "§6Diver's Mask",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"b718a978-c064-3bbf-9faf-66641e2cc58a\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTc4MzBjMWQ4Mjg0NWM5MWI4MzQyOWY5ZGM1OTczMTc4NDE1MzhlMTRkNGZiZWQ2MWFlMWEzYjBlYjdjY2QifX19\"}]}},display:{Lore:[0:\"§7Health: §a+65 HP\",1:\"§7Defense: §a+120\",2:\"\",3:\"§6Full Set Bonus: One with the Fish\",4:\"§7While touching water you move\",5:\"§7§9incredibly fast§7 and can\",6:\"§7breathe §9permanently.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§6§lLEGENDARY HELMET\"],Name:\"§6Diver's Mask\"},ExtraAttributes:{id:\"DIVER_HELMET\"}}",
   "damage": 3,
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"b718a978-c064-3bbf-9faf-66641e2cc58a\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTc4MzBjMWQ4Mjg0NWM5MWI4MzQyOWY5ZGM1OTczMTc4NDE1MzhlMTRkNGZiZWQ2MWFlMWEzYjBlYjdjY2QifX19\"}]}},display:{Lore:[0:\"§7Strength: §c+5 §8(Demonic +5)\",1:\"\",2:\"§7Health: §a+65 HP\",3:\"§7Defense: §a+120\",4:\"§7Intelligence: §a+20 §8(Demonic +20)\",5:\"\",6:\"§6Full Set Bonus: One with the Fish\",7:\"§7While touching water you move\",8:\"§7§9incredibly fast§7 and can\",9:\"§7breathe §9permanently.\",10:\"\",11:\"§6§lLEGENDARY HELMET\"],Name:\"§6Demonic Diver\u0027s Mask\"},ExtraAttributes:{modifier:\"demonic\",originTag:\"CRAFTING_GRID_SHIFT\",id:\"DIVER_HELMET\",uuid:\"491b7e77-7a23-48a4-9101-52b9fe3664b8\",timestamp:\"3/29/20 6:21 AM\"}}",
-  "modver": "1.0.0",
   "lore": [
-    "§7Strength: §c+5 §8(Demonic +5)",
-    "",
     "§7Health: §a+65 HP",
     "§7Defense: §a+120",
-    "§7Intelligence: §a+20 §8(Demonic +20)",
     "",
     "§6Full Set Bonus: One with the Fish",
     "§7While touching water you move",
     "§7§9incredibly fast§7 and can",
     "§7breathe §9permanently.",
     "",
+    "§7§8This item can be reforged!",
     "§6§lLEGENDARY HELMET"
-  ]
+  ],
+  "recipe": {
+    "A1": "DIVER_FRAGMENT:1",
+    "A2": "DIVER_FRAGMENT:1",
+    "A3": "DIVER_FRAGMENT:1",
+    "B1": "DIVER_FRAGMENT:1",
+    "B2": "",
+    "B3": "DIVER_FRAGMENT:1",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  },
+  "internalname": "DIVER_HELMET",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0"
 }

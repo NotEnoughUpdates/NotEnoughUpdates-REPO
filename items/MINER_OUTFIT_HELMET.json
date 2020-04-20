@@ -1,11 +1,8 @@
 {
-  "internalname": "MINER_OUTFIT_HELMET",
   "itemid": "minecraft:leather_helmet",
-  "displayname": "Miner\u0027s Outfit Helmet",
-  "clickcommand": "viewrecipe",
+  "displayname": "§aMiner's Outfit Helmet",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+15\",1:\"\",2:\"§6Full Set Bonus: Haste\",3:\"§7Grants the wearer with\",4:\"§7§apermanent Haste II§7 while\",5:\"§7worn.\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§a§lUNCOMMON HELMET\"],color:8026468,Name:\"§aMiner's Outfit Helmet\"},ExtraAttributes:{id:\"MINER_OUTFIT_HELMET\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+15\",1:\"\",2:\"§6Full Set Bonus: Haste\",3:\"§7Grants the wearer with\",4:\"§7§apermanent Haste II§7 while\",5:\"§7worn.\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§a§lUNCOMMON HELMET\"],color:8026468,Name:\"§aMiner\u0027s Outfit Helmet\"},ExtraAttributes:{color:\"122:121:100\",originTag:\"QUICK_CRAFTING\",id:\"MINER_OUTFIT_HELMET\",uuid:\"c2b3bc0c-63ca-4ca4-b4a7-3e475f6fa628\",timestamp:\"3/31/20 12:46 AM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Defense: §a+15",
     "",
@@ -16,5 +13,23 @@
     "",
     "§7§8This item can be reforged!",
     "§a§lUNCOMMON HELMET"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_COBBLESTONE:1",
+    "A2": "ENCHANTED_COBBLESTONE:1",
+    "A3": "ENCHANTED_COBBLESTONE:1",
+    "B1": "ENCHANTED_COBBLESTONE:1",
+    "B2": "",
+    "B3": "ENCHANTED_COBBLESTONE:1",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  },
+  "internalname": "MINER_OUTFIT_HELMET",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Miner_Armor"
   ]
 }

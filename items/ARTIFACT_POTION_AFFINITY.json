@@ -1,11 +1,8 @@
 {
-  "internalname": "ARTIFACT_POTION_AFFINITY",
   "itemid": "minecraft:skull",
-  "displayname": "Potion Affinity Artifact",
-  "clickcommand": "viewrecipe",
+  "displayname": "§9Potion Affinity Artifact",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"63036731-6e1e-3c99-99b7-59d6628fcdaf\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzcyNDY2NjAzYmFlOTA2M2NlN2Q5NDM1MTEwMzQ2OWJlY2EzYzVmZTJiMWU5NzdlNjQyN2RlZjM3Njk5ZWM5In19fQ==\"}]}},display:{Lore:[0:\"§eUnique Effect: Potion Affinity\",1:\"§7Increases the duration of any\",2:\"§7consumed Potion by §a50%§7 when\",3:\"§7held in your inventory.\",4:\"\",5:\"§7§8This item can be reforged!\",6:\"§9§lRARE ACCESSORY\"],Name:\"§9Potion Affinity Artifact\"},ExtraAttributes:{id:\"ARTIFACT_POTION_AFFINITY\"}}",
   "damage": 3,
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"63036731-6e1e-3c99-99b7-59d6628fcdaf\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzcyNDY2NjAzYmFlOTA2M2NlN2Q5NDM1MTEwMzQ2OWJlY2EzYzVmZTJiMWU5NzdlNjQyN2RlZjM3Njk5ZWM5In19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§eUnique Effect: Potion Affinity\",1:\"§7Increases the duration of any\",2:\"§7consumed Potion by §a50%§7 when\",3:\"§7held in your inventory.\",4:\"\",5:\"§7§8This item can be reforged!\",6:\"§9§lRARE ACCESSORY\"],Name:\"§9Potion Affinity Artifact\"},ExtraAttributes:{originTag:\"QUICK_CRAFTING\",id:\"ARTIFACT_POTION_AFFINITY\",uuid:\"043b3364-0e80-46bc-a55c-39930771fdd7\",timestamp:\"3/29/20 9:50 PM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§eUnique Effect: Potion Affinity",
     "§7Increases the duration of any",
@@ -14,5 +11,23 @@
     "",
     "§7§8This item can be reforged!",
     "§9§lRARE ACCESSORY"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_NETHER_STALK:32",
+    "A2": "ENCHANTED_NETHER_STALK:32",
+    "A3": "ENCHANTED_NETHER_STALK:32",
+    "B1": "ENCHANTED_NETHER_STALK:32",
+    "B2": "RING_POTION_AFFINITY:1",
+    "B3": "ENCHANTED_NETHER_STALK:32",
+    "C1": "ENCHANTED_NETHER_STALK:32",
+    "C2": "ENCHANTED_NETHER_STALK:32",
+    "C3": "ENCHANTED_NETHER_STALK:32"
+  },
+  "internalname": "ARTIFACT_POTION_AFFINITY",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Potion_Affinity_Artifact"
   ]
 }

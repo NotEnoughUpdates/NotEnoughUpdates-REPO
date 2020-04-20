@@ -1,11 +1,8 @@
 {
-  "internalname": "PRISMARINE_BOW",
   "itemid": "minecraft:bow",
-  "displayname": "Prismarine Bow",
-  "clickcommand": "viewrecipe",
+  "displayname": "§aPrismarine Bow",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+50\",1:\"§7Strength: §c+25\",2:\"\",3:\"§7Will consume §aPrismarine\",4:\"§aShards§7 in your inventory or\",5:\"§7Quiver to deal §a+300%§7 damage\",6:\"§7to §9Squids, Guardians and Elder\",7:\"§9Guardians§7.\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§a§lUNCOMMON BOW\"],Name:\"§aPrismarine Bow\"},ExtraAttributes:{id:\"PRISMARINE_BOW\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+50\",1:\"§7Strength: §c+25\",2:\"\",3:\"§7Will consume §aPrismarine\",4:\"§aShards§7 in your inventory or\",5:\"§7Quiver to deal §a+300%§7 damage\",6:\"§7to §9Squids, Guardians and Elder\",7:\"§9Guardians§7.\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§a§lUNCOMMON BOW\"],Name:\"§aPrismarine Bow\"},ExtraAttributes:{originTag:\"CRAFTING_GRID_SHIFT\",id:\"PRISMARINE_BOW\",uuid:\"87482d08-1815-4cd3-a1cb-1038793bf019\",timestamp:\"9/24/19 6:15 PM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Damage: §c+50",
     "§7Strength: §c+25",
@@ -18,5 +15,23 @@
     "",
     "§7§8This item can be reforged!",
     "§a§lUNCOMMON BOW"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "PRISMARINE_SHARD:16",
+    "A3": "STRING:1",
+    "B1": "PRISMARINE_SHARD:16",
+    "B2": "",
+    "B3": "STRING:1",
+    "C1": "",
+    "C2": "PRISMARINE_SHARD:16",
+    "C3": "STRING:1"
+  },
+  "internalname": "PRISMARINE_BOW",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Prismarine_Bow"
   ]
 }

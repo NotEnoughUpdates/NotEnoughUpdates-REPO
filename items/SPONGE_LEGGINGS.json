@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:leather_leggings",
   "displayname": "§5Sponge Leggings",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+100\",1:\"\",2:\"§6Full Set Bonus: Absorb\",3:\"§7§9Doubles§7 your §a❈ Defense§7\",4:\"§7while in water.\",5:\"\",6:\"§7§8This item can be reforged!\",7:\"§5§lEPIC LEGGINGS\",8:\"\",9:\"§eClick to view recipe!\"],color:16768081,Name:\"§5Sponge Leggings\"},ExtraAttributes:{id:\"SPONGE_LEGGINGS\"}}",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+100\",1:\"\",2:\"§6Full Set Bonus: Absorb\",3:\"§7§9Doubles§7 your §a❈ Defense§7\",4:\"§7while in water.\",5:\"\",6:\"§7§8This item can be reforged!\",7:\"§5§lEPIC LEGGINGS\"],color:16768081,Name:\"§5Sponge Leggings\"},ExtraAttributes:{id:\"SPONGE_LEGGINGS\"}}",
   "damage": 0,
   "lore": [
     "§7Defense: §a+100",
@@ -13,7 +13,22 @@
     "§7§8This item can be reforged!",
     "§5§lEPIC LEGGINGS"
   ],
+  "recipe": {
+    "A1": "ENCHANTED_WET_SPONGE:1",
+    "A2": "ENCHANTED_WET_SPONGE:1",
+    "A3": "ENCHANTED_WET_SPONGE:1",
+    "B1": "ENCHANTED_WET_SPONGE:1",
+    "B2": "",
+    "B3": "ENCHANTED_WET_SPONGE:1",
+    "C1": "ENCHANTED_WET_SPONGE:1",
+    "C2": "",
+    "C3": "ENCHANTED_WET_SPONGE:1"
+  },
   "internalname": "SPONGE_LEGGINGS",
   "clickcommand": "viewrecipe",
-  "modver": "1.0.0"
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Sponge_Armor"
+  ]
 }

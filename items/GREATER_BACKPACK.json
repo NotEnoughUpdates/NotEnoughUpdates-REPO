@@ -1,16 +1,31 @@
 {
-  "internalname": "GREATER_BACKPACK",
   "itemid": "minecraft:skull",
-  "displayname": "Greater Backpack",
-  "clickcommand": "viewrecipe",
+  "displayname": "§5Greater Backpack",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"f1e3c520-3f66-38f0-a110-70e3c183df38\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NjgyMTMwNTE0MjYsInByb2ZpbGVJZCI6IjgyYzYwNmM1YzY1MjRiNzk4YjkxYTEyZDNhNjE2OTc3IiwicHJvZmlsZU5hbWUiOiJOb3ROb3RvcmlvdXNOZW1vIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82MmYzYjNhMDU0ODFjZGU3NzI0MDAwNWMwZGRjZWUxYzA2OWU1NTA0YTYyY2UwOTc3ODc5ZjU1YTM5Mzk2MTQ2In19fQ\"}]}},display:{Lore:[0:\"§7A special portable bag with\",1:\"§7§a36§7 slots which can hold any\",2:\"§7item within.\",3:\"\",4:\"§5§lEPIC\"],Name:\"§5Greater Backpack\"},ExtraAttributes:{id:\"GREATER_BACKPACK\"}}",
   "damage": 3,
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"ea87e334-3aad-343d-a795-1dccf42f3844\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdlYTZhOGY1MjRiZTk4OWYyMzRhZGM5MDg3NzllZTM2YTAwMjA5ZjEyNjM5ZjFmZDAzYTljZmYxYzA5YjMzOWEifX19\"}]}},display:{Lore:[0:\"§7A special portable bag with\",1:\"§7§a36§7 slots which can hold any\",2:\"§7item within.\",3:\"\",4:\"§5§lEPIC\"],Name:\"§5Greater Backpack\"},ExtraAttributes:{originTag:\"CRAFTING_GRID_SHIFT\",id:\"GREATER_BACKPACK\",backpack_color:\"WHITE\",uuid:\"32ba0b4f-6dd4-48a7-bccb-a18a89af84df\",timestamp:\"3/27/20 9:11 AM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7A special portable bag with",
     "§7§a36§7 slots which can hold any",
     "§7item within.",
     "",
     "§5§lEPIC"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_LEATHER:4",
+    "A2": "ENCHANTED_LEATHER:4",
+    "A3": "ENCHANTED_LEATHER:4",
+    "B1": "ENCHANTED_LEATHER:4",
+    "B2": "LARGE_BACKPACK:1",
+    "B3": "ENCHANTED_LEATHER:4",
+    "C1": "ENCHANTED_LEATHER:4",
+    "C2": "ENCHANTED_LEATHER:4",
+    "C3": "ENCHANTED_LEATHER:4"
+  },
+  "internalname": "GREATER_BACKPACK",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Backpack"
   ]
 }

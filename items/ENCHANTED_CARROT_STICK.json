@@ -1,12 +1,27 @@
 {
-  "internalname": "ENCHANTED_CARROT_STICK",
   "itemid": "minecraft:carrot_on_a_stick",
-  "displayname": "Enchanted Carrot on a Stick",
-  "clickcommand": "",
-  "damage": 0,
+  "displayname": "§aEnchanted Carrot on a Stick",
   "nbttag": "{ench:[],Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Carrot on a Stick\"},ExtraAttributes:{id:\"ENCHANTED_CARROT_STICK\"}}",
-  "modver": "1.0.0",
+  "damage": 0,
   "lore": [
     "§a§lUNCOMMON"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "",
+    "A3": "STICK",
+    "B1": "",
+    "B2": "STICK",
+    "B3": "ENCHANTED_CARROT",
+    "C1": "STICK",
+    "C2": "",
+    "C3": "ENCHANTED_CARROT"
+  },
+  "internalname": "ENCHANTED_CARROT_STICK",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Carrot_on_a_Stick"
   ]
 }

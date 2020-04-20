@@ -1,19 +1,34 @@
 {
-  "internalname": "WAND_OF_HEALING",
   "itemid": "minecraft:stick",
-  "displayname": "Wand of Healing",
-  "clickcommand": "viewrecipe",
+  "displayname": "§aWand of Healing",
+  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§6Item Ability: Small Heal §e§lRIGHT CLICK\",1:\"§7Heal §c20❤§7/s for 7s.\",2:\"§7§8Wand heals don't stack.\",3:\"§8Mana Cost: §360\",4:\"§8Cooldown: §a1s\",5:\"\",6:\"§c☠ §5Requires Zombie LVL 1\",7:\"§a§lUNCOMMON WAND\"],Name:\"§aWand of Healing\"},ExtraAttributes:{id:\"WAND_OF_HEALING\"}}",
   "damage": 0,
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§6Item Ability: Small Heal §e§lRIGHT CLICK\",1:\"§7Heal §c20❤§7/s for 7s.\",2:\"§7§8Wand heals don\u0027t stack.\",3:\"§8Mana Cost: §360\",4:\"§8Cooldown: §a1s\",5:\"\",6:\"§c☠ §5Requires Zombie LVL 1\",7:\"§a§lUNCOMMON WAND\"],Name:\"§aWand of Healing\"},ExtraAttributes:{originTag:\"CRAFTING_GRID_COLLECT\",id:\"WAND_OF_HEALING\",uuid:\"f701c56d-3e58-4d58-a109-5f6553ba0da2\",timestamp:\"3/26/20 1:31 AM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§6Item Ability: Small Heal §e§lRIGHT CLICK",
     "§7Heal §c20❤§7/s for 7s.",
-    "§7§8Wand heals don\u0027t stack.",
+    "§7§8Wand heals don't stack.",
     "§8Mana Cost: §360",
     "§8Cooldown: §a1s",
     "",
     "§c☠ §5Requires Zombie LVL 1",
     "§a§lUNCOMMON WAND"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "",
+    "A3": "REVENANT_FLESH:8",
+    "B1": "",
+    "B2": "STICK:1",
+    "B3": "",
+    "C1": "REVENANT_FLESH:8",
+    "C2": "",
+    "C3": ""
+  },
+  "internalname": "WAND_OF_HEALING",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Wand_of_Healing"
   ]
 }

@@ -1,11 +1,8 @@
 {
-  "internalname": "SAVANA_BOW",
   "itemid": "minecraft:bow",
-  "displayname": "Savanna Bow",
-  "clickcommand": "viewrecipe",
+  "displayname": "§aSavanna Bow",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+50\",1:\"\",2:\"§7All damage dealt with this bow\",3:\"§7is §adoubled§7.\",4:\"\",5:\"§7§8This item can be reforged!\",6:\"§a§lUNCOMMON BOW\"],Name:\"§aSavanna Bow\"},ExtraAttributes:{id:\"SAVANA_BOW\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+50\",1:\"\",2:\"§7All damage dealt with this bow\",3:\"§7is §adoubled§7.\",4:\"\",5:\"§7§8This item can be reforged!\",6:\"§a§lUNCOMMON BOW\"],Name:\"§aSavanna Bow\"},ExtraAttributes:{originTag:\"QUICK_CRAFTING\",id:\"SAVANA_BOW\",uuid:\"86c2ceac-7449-4b2d-8e43-f20aa3a35ca2\",timestamp:\"3/30/20 11:00 AM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Damage: §c+50",
     "",
@@ -14,5 +11,23 @@
     "",
     "§7§8This item can be reforged!",
     "§a§lUNCOMMON BOW"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "ENCHANTED_ACACIA_LOG:1",
+    "A3": "ENCHANTED_STRING:1",
+    "B1": "ENCHANTED_ACACIA_LOG:1",
+    "B2": "",
+    "B3": "ENCHANTED_STRING:1",
+    "C1": "",
+    "C2": "ENCHANTED_ACACIA_LOG:1",
+    "C3": "ENCHANTED_STRING:1"
+  },
+  "internalname": "SAVANA_BOW",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Savanna_Bow"
   ]
 }

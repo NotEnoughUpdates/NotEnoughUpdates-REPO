@@ -1,17 +1,32 @@
 {
   "internalname": "RED_CLAW_RING",
   "itemid": "minecraft:skull",
-  "displayname": "Itchy Red Claw Ring",
-  "clickcommand": "viewrecipe",
+  "displayname": "§9Red Claw Ring",
+  "clickcommand": "",
   "damage": 3,
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"b866bfe4-7bf7-310c-b45b-8098ed832ec4\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NzA1NDk5OTYyODEsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU5ZDliMzI3ZmY4MmY2ZTEwOWI4NzQ2YzQ4YmZiN2Y2NDFlMTU1Mjg1NTQ5M2RkNDExOGJlMjRkNWIwMmJjMGEifX19\"}]}},display:{Lore:[0:\"§7Strength: §c+2 §8(Itchy +2)\",1:\"§7Crit Damage: §c+11% §8(Itchy +8%)\",2:\"§7Attack Speed: §c+2% §8(Itchy +2%)\",3:\"\",4:\"§c☠ §5Requires Wolf LVL 5\",5:\"§9§lRARE ACCESSORY\"],Name:\"§9Itchy Red Claw Ring\"},ExtraAttributes:{modifier:\"itchy\",originTag:\"CRAFTING_GRID_SHIFT\",id:\"RED_CLAW_RING\",uuid:\"ef410e8e-0eb9-4c90-b06b-3eb0ae7f77eb\",timestamp:\"12/24/19 6:02 PM\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"b866bfe4-7bf7-310c-b45b-8098ed832ec4\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NzA1NDk5OTYyODEsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU5ZDliMzI3ZmY4MmY2ZTEwOWI4NzQ2YzQ4YmZiN2Y2NDFlMTU1Mjg1NTQ5M2RkNDExOGJlMjRkNWIwMmJjMGEifX19\"}]}},display:{Lore:[0:\"§7Crit Damage: §c+3%\",1:\"\",2:\"§7§8This item can be reforged!\",3:\"§c☠ §5Requires Wolf LVL 5\",4:\"§9§lRARE ACCESSORY\"],Name:\"§9Red Claw Ring\"},ExtraAttributes:{originTag:\"QUICK_CRAFTING\",id:\"RED_CLAW_RING\",uuid:\"b2ed840d-c2e7-4d3d-9f01-43d1da456a6e\",timestamp:\"3/31/20 3:26 PM\"}}",
   "modver": "1.0.0",
   "lore": [
-    "§7Strength: §c+2 §8(Itchy +2)",
-    "§7Crit Damage: §c+11% §8(Itchy +8%)",
-    "§7Attack Speed: §c+2% §8(Itchy +2%)",
+    "§7Crit Damage: §c+3%",
     "",
+    "§7§8This item can be reforged!",
     "§c☠ §5Requires Wolf LVL 5",
     "§9§lRARE ACCESSORY"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_LEATHER:8",
+    "A2": "GOLDEN_TOOTH:2",
+    "A3": "ENCHANTED_LEATHER:8",
+    "B1": "GOLDEN_TOOTH:2",
+    "B2": "RED_CLAW_TALISMAN:1",
+    "B3": "GOLDEN_TOOTH:2",
+    "C1": "ENCHANTED_LEATHER:8",
+    "C2": "GOLDEN_TOOTH:2",
+    "C3": "ENCHANTED_LEATHER:8"
+  },
+  "clickcommand": "viewrecipe",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Red_Claw_Ring"
   ]
 }

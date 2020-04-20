@@ -1,11 +1,8 @@
 {
-  "internalname": "SPEEDSTER_CHESTPLATE",
   "itemid": "minecraft:leather_chestplate",
-  "displayname": "Speedster Chestplate",
-  "clickcommand": "viewrecipe",
+  "displayname": "§5Speedster Chestplate",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+120\",1:\"§7Speed: §a+15\",2:\"\",3:\"§6Full Set Bonus: Bonus Speed\",4:\"§7Increases §f✦ Speed §7by\",5:\"§7§a+20§7.\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§5§lEPIC CHESTPLATE\"],color:14744823,Name:\"§5Speedster Chestplate\"},ExtraAttributes:{id:\"SPEEDSTER_CHESTPLATE\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+120\",1:\"§7Speed: §a+15\",2:\"\",3:\"§6Full Set Bonus: Bonus Speed\",4:\"§7Increases §f✦ Speed §7by\",5:\"§7§a+20§7.\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§5§lEPIC CHESTPLATE\"],color:14744823,Name:\"§5Speedster Chestplate\"},ExtraAttributes:{color:\"224:252:247\",originTag:\"QUICK_CRAFTING\",id:\"SPEEDSTER_CHESTPLATE\",uuid:\"31ba2510-b998-4547-ab7c-a426321b1dcd\",timestamp:\"3/14/20 8:23 AM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Defense: §a+120",
     "§7Speed: §a+15",
@@ -16,5 +13,23 @@
     "",
     "§7§8This item can be reforged!",
     "§5§lEPIC CHESTPLATE"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_SUGAR_CANE:1",
+    "A2": "",
+    "A3": "ENCHANTED_SUGAR_CANE:1",
+    "B1": "ENCHANTED_SUGAR_CANE:1",
+    "B2": "ENCHANTED_SUGAR_CANE:1",
+    "B3": "ENCHANTED_SUGAR_CANE:1",
+    "C1": "ENCHANTED_SUGAR_CANE:1",
+    "C2": "ENCHANTED_SUGAR_CANE:1",
+    "C3": "ENCHANTED_SUGAR_CANE:1"
+  },
+  "internalname": "SPEEDSTER_CHESTPLATE",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Speedster_Armor"
   ]
 }

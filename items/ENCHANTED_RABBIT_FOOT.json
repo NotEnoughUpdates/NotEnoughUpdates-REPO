@@ -1,13 +1,28 @@
 {
-  "internalname": "ENCHANTED_RABBIT_FOOT",
   "itemid": "minecraft:rabbit_foot",
-  "displayname": "Enchanted Rabbit Foot",
-  "clickcommand": "viewrecipe",
-  "damage": 0,
+  "displayname": "§9Enchanted Rabbit Foot",
   "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§9§lRARE\"],Name:\"§9Enchanted Rabbit Foot\"},ExtraAttributes:{id:\"ENCHANTED_RABBIT_FOOT\"}}",
-  "modver": "1.0.0",
+  "damage": 0,
   "lore": [
     "§8Brewing Ingredient",
     "§9§lRARE"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "RABBIT_FOOT:32",
+    "A3": "",
+    "B1": "RABBIT_FOOT:32",
+    "B2": "RABBIT_FOOT:32",
+    "B3": "RABBIT_FOOT:32",
+    "C1": "",
+    "C2": "RABBIT_FOOT:32",
+    "C3": ""
+  },
+  "internalname": "ENCHANTED_RABBIT_FOOT",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Rabbit_Foot"
   ]
 }

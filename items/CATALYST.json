@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:nether_star",
   "displayname": "§fCatalyst",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Increases the number of\",1:\"§7resources created by this minion\",2:\"§7by §ax3§7 for 3 hours§7!\",3:\"\",4:\"§f§lCOMMON\",5:\"\",6:\"§eClick to view recipe!\"],Name:\"§fCatalyst\"},ExtraAttributes:{id:\"CATALYST\"}}",
+  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Increases the number of\",1:\"§7resources created by this minion\",2:\"§7by §ax3§7 for 3 hours§7!\",3:\"\",4:\"§f§lCOMMON\"],Name:\"§fCatalyst\"},ExtraAttributes:{id:\"CATALYST\"}}",
   "damage": 0,
   "lore": [
     "§7Increases the number of",
@@ -10,7 +10,22 @@
     "",
     "§f§lCOMMON"
   ],
+  "recipe": {
+    "A1": "ENDER_STONE:1",
+    "A2": "ENDER_STONE:1",
+    "A3": "ENDER_STONE:1",
+    "B1": "ENDER_STONE:1",
+    "B2": "CRYSTAL_FRAGMENT:1",
+    "B3": "ENDER_STONE:1",
+    "C1": "ENDER_STONE:1",
+    "C2": "ENDER_STONE:1",
+    "C3": "ENDER_STONE:1"
+  },
   "internalname": "CATALYST",
   "clickcommand": "viewrecipe",
-  "modver": "1.0.0"
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Catalyst"
+  ]
 }

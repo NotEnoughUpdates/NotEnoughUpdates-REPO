@@ -1,11 +1,8 @@
 {
-  "internalname": "POTION_AFFINITY_TALISMAN",
   "itemid": "minecraft:skull",
-  "displayname": "Potion Affinity Talisman",
-  "clickcommand": "viewrecipe",
+  "displayname": "§fPotion Affinity Talisman",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"61a45bfa-cdfa-3a02-81dc-6a01439cfc02\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2E5NDNiYWY3MTQ1ODU5NmFmZjRlYmE4NzlmOGFjNWQyYmEyNjdjOTgzODVlNjc2NzNmNDhlYmVhNWZhIn19fQ==\"}]}},display:{Lore:[0:\"§eUnique Effect: Potion Affinity\",1:\"§7Increases the duration of any\",2:\"§7consumed Potion by §a10%§7 when\",3:\"§7held in your inventory.\",4:\"\",5:\"§7§8This item can be reforged!\",6:\"§f§lCOMMON ACCESSORY\"],Name:\"§fPotion Affinity Talisman\"},ExtraAttributes:{id:\"POTION_AFFINITY_TALISMAN\"}}",
   "damage": 3,
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"61a45bfa-cdfa-3a02-81dc-6a01439cfc02\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2E5NDNiYWY3MTQ1ODU5NmFmZjRlYmE4NzlmOGFjNWQyYmEyNjdjOTgzODVlNjc2NzNmNDhlYmVhNWZhIn19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§eUnique Effect: Potion Affinity\",1:\"§7Increases the duration of any\",2:\"§7consumed Potion by §a10%§7 when\",3:\"§7held in your inventory.\",4:\"\",5:\"§7§8This item can be reforged!\",6:\"§f§lCOMMON ACCESSORY\"],Name:\"§fPotion Affinity Talisman\"},ExtraAttributes:{originTag:\"CRAFTING_GRID_SHIFT\",id:\"POTION_AFFINITY_TALISMAN\",uuid:\"986619e6-429f-44a4-8ecd-8ed33e0c9189\",timestamp:\"3/30/20 1:19 PM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§eUnique Effect: Potion Affinity",
     "§7Increases the duration of any",
@@ -14,5 +11,23 @@
     "",
     "§7§8This item can be reforged!",
     "§f§lCOMMON ACCESSORY"
+  ],
+  "recipe": {
+    "A1": "NETHER_STALK:16",
+    "A2": "NETHER_STALK:16",
+    "A3": "NETHER_STALK:16",
+    "B1": "NETHER_STALK:16",
+    "B2": "NETHER_STALK:16",
+    "B3": "NETHER_STALK:16",
+    "C1": "NETHER_STALK:16",
+    "C2": "NETHER_STALK:16",
+    "C3": "NETHER_STALK:16"
+  },
+  "internalname": "POTION_AFFINITY_TALISMAN",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Potion_Affinity_Talisman"
   ]
 }

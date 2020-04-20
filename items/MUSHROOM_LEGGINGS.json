@@ -1,11 +1,8 @@
 {
-  "internalname": "MUSHROOM_LEGGINGS",
   "itemid": "minecraft:leather_leggings",
-  "displayname": "Mushroom Leggings",
-  "clickcommand": "viewrecipe",
+  "displayname": "§fMushroom Leggings",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+10 HP\",1:\"§7Defense: §a+5\",2:\"\",3:\"§eFull Set Bonus: Night Affinity\",4:\"§7Grants the wearer with\",5:\"§7§apermanent Night Vision§7 while\",6:\"§7worn, and during the night, the\",7:\"§7stats of the armor pieces are\",8:\"§7§atripled§7.\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§f§lCOMMON LEGGINGS\"],color:16711680,Name:\"§fMushroom Leggings\"},ExtraAttributes:{id:\"MUSHROOM_LEGGINGS\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+10 HP\",1:\"§7Defense: §a+5\",2:\"\",3:\"§eFull Set Bonus: Night Affinity\",4:\"§7Grants the wearer with\",5:\"§7§apermanent Night Vision§7 while\",6:\"§7worn, and during the night, the\",7:\"§7stats of the armor pieces are\",8:\"§7§atripled§7.\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§f§lCOMMON LEGGINGS\"],color:16711680,Name:\"§fMushroom Leggings\"},ExtraAttributes:{color:\"255:0:0\",originTag:\"CRAFTING_GRID_SHIFT\",id:\"MUSHROOM_LEGGINGS\",uuid:\"db97f19f-6708-4de6-837f-f4d05af662e8\",timestamp:\"8/12/19 6:01 PM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Health: §a+10 HP",
     "§7Defense: §a+5",
@@ -19,5 +16,23 @@
     "",
     "§7§8This item can be reforged!",
     "§f§lCOMMON LEGGINGS"
+  ],
+  "recipe": {
+    "A1": "RED_MUSHROOM:1",
+    "A2": "RED_MUSHROOM:1",
+    "A3": "RED_MUSHROOM:1",
+    "B1": "RED_MUSHROOM:1",
+    "B2": "",
+    "B3": "RED_MUSHROOM:1",
+    "C1": "RED_MUSHROOM:1",
+    "C2": "",
+    "C3": "RED_MUSHROOM:1"
+  },
+  "internalname": "MUSHROOM_LEGGINGS",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Mushroom_Armor"
   ]
 }

@@ -1,21 +1,10 @@
 {
-  "internalname": "FARMER_ROD",
   "itemid": "minecraft:fishing_rod",
-  "displayname": "Farmer\u0027s Rod",
-  "clickcommand": "viewrecipe",
+  "displayname": "§aFarmer's Rod",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+45\",1:\"\",2:\"§7Chance to fish up farm animals!\",3:\"\",4:\"§7Increases fishing speed by §940%\",5:\"\",6:\"§7§8This item can be reforged!\",7:\"§a§lUNCOMMON FISHING ROD\"],Name:\"§aFarmer's Rod\"},ExtraAttributes:{id:\"FARMER_ROD\"}}",
   "damage": 0,
-  "nbttag": "{ench:[],Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+45\",1:\"\",2:\"§9Caster V\",3:\"§9Frail V\",4:\"§9Looting III\",5:\"§9Luck of the Sea V\",6:\"§9Lure V\",7:\"§9Spiked Hook V\",8:\"§9Telekinesis I\",9:\"\",10:\"§7Chance to fish up farm animals!\",11:\"\",12:\"§7Increases fishing speed by §940%\",13:\"\",14:\"§7§8This item can be reforged!\",15:\"§a§lUNCOMMON FISHING ROD\"],Name:\"§aFarmer\u0027s Rod\"},ExtraAttributes:{originTag:\"CRAFTING_GRID_COLLECT\",id:\"FARMER_ROD\",enchantments:{caster:5,spiked_hook:5,looting:3,frail:5,telekinesis:1,luck_of_the_sea:5,lure:5},uuid:\"7b3c2f65-9cd2-4aa8-b61d-2aed44335f7c\",anvil_uses:2,timestamp:\"10/27/19 8:43 AM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Damage: §c+45",
-    "",
-    "§9Caster V",
-    "§9Frail V",
-    "§9Looting III",
-    "§9Luck of the Sea V",
-    "§9Lure V",
-    "§9Spiked Hook V",
-    "§9Telekinesis I",
     "",
     "§7Chance to fish up farm animals!",
     "",
@@ -23,5 +12,19 @@
     "",
     "§7§8This item can be reforged!",
     "§a§lUNCOMMON FISHING ROD"
-  ]
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "",
+    "A3": "ENCHANTED_CLAY_BALL:1",
+    "B1": "",
+    "B2": "HAY_BLOCK:32",
+    "B3": "STRING:1",
+    "C1": "HAY_BLOCK:32",
+    "C2": "",
+    "C3": "STRING:1"
+  },
+  "internalname": "FARMER_ROD",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0"
 }

@@ -1,11 +1,8 @@
 {
-  "internalname": "ANGLER_LEGGINGS",
   "itemid": "minecraft:leather_leggings",
-  "displayname": "Angler Leggings",
-  "clickcommand": "viewrecipe",
+  "displayname": "§fAngler Leggings",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+30\",1:\"\",2:\"§6Full Set Bonus: Depth Champion\",3:\"§7Take §a-30% §7damage from Sea Creatures.\",4:\"§7Increase their spawn chance by §e4%§7.\",5:\"\",6:\"§6Full Set Bonus: Deepness Within\",7:\"§7Gain §c10❤ §7per Fishing level.\",8:\"§7Fishing: §eLevel XVII\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§f§lCOMMON LEGGINGS\"],color:720975,Name:\"§fAngler Leggings\"},ExtraAttributes:{id:\"ANGLER_LEGGINGS\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+30\",1:\"\",2:\"§6Full Set Bonus: Depth Champion\",3:\"§7Take §a-30% §7damage from Sea Creatures.\",4:\"§7Increase their spawn chance by §e4%§7.\",5:\"\",6:\"§6Full Set Bonus: Deepness Within\",7:\"§7Gain §c10❤ §7per Fishing level.\",8:\"§7Fishing: §eLevel IX\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§f§lCOMMON LEGGINGS\"],color:720975,Name:\"§fAngler Leggings\"},ExtraAttributes:{color:\"11:0:79\",originTag:\"CRAFTING_GRID_COLLECT\",id:\"ANGLER_LEGGINGS\",uuid:\"1dba655b-cf4b-4ff9-826c-942bcf6bae29\",timestamp:\"3/31/20 2:37 AM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Defense: §a+30",
     "",
@@ -15,9 +12,27 @@
     "",
     "§6Full Set Bonus: Deepness Within",
     "§7Gain §c10❤ §7per Fishing level.",
-    "§7Fishing: §eLevel IX",
+    "§7Fishing: §eLevel XVII",
     "",
     "§7§8This item can be reforged!",
     "§f§lCOMMON LEGGINGS"
+  ],
+  "recipe": {
+    "A1": "RAW_FISH:1",
+    "A2": "RAW_FISH:1",
+    "A3": "RAW_FISH:1",
+    "B1": "RAW_FISH:1",
+    "B2": "",
+    "B3": "RAW_FISH:1",
+    "C1": "RAW_FISH:1",
+    "C2": "",
+    "C3": "RAW_FISH:1"
+  },
+  "internalname": "ANGLER_LEGGINGS",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Angler_Armor"
   ]
 }

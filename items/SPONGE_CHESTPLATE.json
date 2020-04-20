@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:leather_chestplate",
   "displayname": "§5Sponge Chestplate",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+145\",1:\"\",2:\"§6Full Set Bonus: Absorb\",3:\"§7§9Doubles§7 your §a❈ Defense§7\",4:\"§7while in water.\",5:\"\",6:\"§7§8This item can be reforged!\",7:\"§5§lEPIC CHESTPLATE\",8:\"\",9:\"§eClick to view recipe!\"],color:16768081,Name:\"§5Sponge Chestplate\"},ExtraAttributes:{id:\"SPONGE_CHESTPLATE\"}}",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+145\",1:\"\",2:\"§6Full Set Bonus: Absorb\",3:\"§7§9Doubles§7 your §a❈ Defense§7\",4:\"§7while in water.\",5:\"\",6:\"§7§8This item can be reforged!\",7:\"§5§lEPIC CHESTPLATE\"],color:16768081,Name:\"§5Sponge Chestplate\"},ExtraAttributes:{id:\"SPONGE_CHESTPLATE\"}}",
   "damage": 0,
   "lore": [
     "§7Defense: §a+145",
@@ -13,7 +13,22 @@
     "§7§8This item can be reforged!",
     "§5§lEPIC CHESTPLATE"
   ],
+  "recipe": {
+    "A1": "ENCHANTED_WET_SPONGE:1",
+    "A2": "",
+    "A3": "ENCHANTED_WET_SPONGE:1",
+    "B1": "ENCHANTED_WET_SPONGE:1",
+    "B2": "ENCHANTED_WET_SPONGE:1",
+    "B3": "ENCHANTED_WET_SPONGE:1",
+    "C1": "ENCHANTED_WET_SPONGE:1",
+    "C2": "ENCHANTED_WET_SPONGE:1",
+    "C3": "ENCHANTED_WET_SPONGE:1"
+  },
   "internalname": "SPONGE_CHESTPLATE",
   "clickcommand": "viewrecipe",
-  "modver": "1.0.0"
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Sponge_Armor"
+  ]
 }

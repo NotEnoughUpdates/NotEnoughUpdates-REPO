@@ -1,12 +1,27 @@
 {
-  "internalname": "ENCHANTED_DIAMOND",
   "itemid": "minecraft:diamond",
-  "displayname": "Enchanted Diamond",
-  "clickcommand": "viewrecipe",
-  "damage": 0,
+  "displayname": "§aEnchanted Diamond",
   "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Diamond\"},ExtraAttributes:{id:\"ENCHANTED_DIAMOND\"}}",
-  "modver": "1.0.0",
+  "damage": 0,
   "lore": [
     "§a§lUNCOMMON"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "DIAMOND:32",
+    "A3": "",
+    "B1": "DIAMOND:32",
+    "B2": "DIAMOND:32",
+    "B3": "DIAMOND:32",
+    "C1": "",
+    "C2": "DIAMOND:32",
+    "C3": ""
+  },
+  "internalname": "ENCHANTED_DIAMOND",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Diamond"
   ]
 }

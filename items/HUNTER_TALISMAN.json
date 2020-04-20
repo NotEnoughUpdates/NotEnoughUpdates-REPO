@@ -1,10 +1,10 @@
 {
   "internalname": "HUNTER_TALISMAN",
   "itemid": "minecraft:skull",
-  "displayname": "Itchy Hunter Talisman",
-  "clickcommand": "viewrecipe",
+  "displayname": "§aItchy Hunter Talisman",
+  "clickcommand": "",
   "damage": 3,
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"5eac7b84-83f3-30d4-9c4c-2fa242f0ac1d\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1Njk2MDc1Mzc1MTUsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVjNTc3ZTdkMzFlNWUwNGMyY2U3MWUxM2UzOTYyMTkyZDgwYmQ1NGI1NWVmYWFjYWFlYTEyOTY2ZmUyN2JmOSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Strength: §c+2 §8(Itchy +2)\",1:\"§7Crit Damage: §c+5% §8(Itchy +5%)\",2:\"§7Attack Speed: §c+2% §8(Itchy +2%)\",3:\"\",4:\"§7Gain §b+2% §7Combat XP from\",5:\"§7monster kills.\",6:\"\",7:\"§c☠ §5Requires Wolf LVL 7\",8:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aItchy Hunter Talisman\"},ExtraAttributes:{modifier:\"itchy\",originTag:\"CRAFTING_GRID_COLLECT\",id:\"HUNTER_TALISMAN\",uuid:\"d22ac9b5-b170-432b-856f-cc70fe180a9f\",timestamp:\"1/27/20 6:21 PM\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"5eac7b84-83f3-30d4-9c4c-2fa242f0ac1d\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1Njk2MDc1Mzc1MTUsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVjNTc3ZTdkMzFlNWUwNGMyY2U3MWUxM2UzOTYyMTkyZDgwYmQ1NGI1NWVmYWFjYWFlYTEyOTY2ZmUyN2JmOSJ9fX0=\"}]}},display:{Lore:[0:\"§7Strength: §c+2 §8(Itchy +2)\",1:\"§7Crit Damage: §c+5% §8(Itchy +5%)\",2:\"§7Attack Speed: §c+2% §8(Itchy +2%)\",3:\"\",4:\"§7Gain §b+2% §7Combat XP from\",5:\"§7monster kills.\",6:\"\",7:\"§c☠ §5Requires Wolf LVL 7\",8:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aItchy Hunter Talisman\"},ExtraAttributes:{modifier:\"itchy\",originTag:\"CRAFTING_GRID_COLLECT\",id:\"HUNTER_TALISMAN\",uuid:\"3b6c1ea6-3824-41e5-8bbf-7150cda94145\",timestamp:\"1/21/20 7:46 PM\"}}",
   "modver": "1.0.0",
   "lore": [
     "§7Strength: §c+2 §8(Itchy +2)",
@@ -16,5 +16,21 @@
     "",
     "§c☠ §5Requires Wolf LVL 7",
     "§a§lUNCOMMON ACCESSORY"
+  ],
+  "recipe": {
+    "A1": "GOLDEN_TOOTH:8",
+    "A2": "GOLDEN_TOOTH:8",
+    "A3": "GOLDEN_TOOTH:8",
+    "B1": "GOLDEN_TOOTH:8",
+    "B2": "ENCHANTED_ROTTEN_FLESH:32",
+    "B3": "GOLDEN_TOOTH:8",
+    "C1": "GOLDEN_TOOTH:8",
+    "C2": "GOLDEN_TOOTH:8",
+    "C3": "GOLDEN_TOOTH:8"
+  },
+  "clickcommand": "viewrecipe",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Hunter_Talisman"
   ]
 }

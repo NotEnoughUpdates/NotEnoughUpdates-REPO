@@ -1,13 +1,28 @@
 {
-  "internalname": "ENCHANTED_GLOWSTONE_DUST",
   "itemid": "minecraft:glowstone_dust",
-  "displayname": "Enchanted Glowstone Dust",
-  "clickcommand": "viewrecipe",
-  "damage": 0,
+  "displayname": "§aEnchanted Glowstone Dust",
   "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Glowstone Dust\"},ExtraAttributes:{id:\"ENCHANTED_GLOWSTONE_DUST\"}}",
-  "modver": "1.0.0",
+  "damage": 0,
   "lore": [
     "§8Brewing Ingredient",
     "§a§lUNCOMMON"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "GLOWSTONE_DUST:32",
+    "A3": "",
+    "B1": "GLOWSTONE_DUST:32",
+    "B2": "GLOWSTONE_DUST:32",
+    "B3": "GLOWSTONE_DUST:32",
+    "C1": "",
+    "C2": "GLOWSTONE_DUST:32",
+    "C3": ""
+  },
+  "internalname": "ENCHANTED_GLOWSTONE_DUST",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Glowstone_Dust"
   ]
 }

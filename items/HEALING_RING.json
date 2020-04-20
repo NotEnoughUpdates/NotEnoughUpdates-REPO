@@ -1,15 +1,30 @@
 {
-  "internalname": "HEALING_RING",
   "itemid": "minecraft:skull",
-  "displayname": "Healing Ring",
-  "clickcommand": "viewrecipe",
+  "displayname": "§aHealing Ring",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"51090ac9-8d3f-3164-9242-2a4dc08a5246\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzg3OWZlNzU0M2NhMWQ1ODU1ZTk2MTUxNGNmZjdlMjcyOGQyNzQwY2EzYzMzMzIwZDg0ZGQwNTNhZWE1ZGNiN2QifX19\"}]}},display:{Lore:[0:\"§7Increases healing by §a10.0%.\",1:\"\",2:\"§7§8This item can be reforged!\",3:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aHealing Ring\"},ExtraAttributes:{id:\"HEALING_RING\"}}",
   "damage": 3,
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"51090ac9-8d3f-3164-9242-2a4dc08a5246\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzg3OWZlNzU0M2NhMWQ1ODU1ZTk2MTUxNGNmZjdlMjcyOGQyNzQwY2EzYzMzMzIwZDg0ZGQwNTNhZWE1ZGNiN2QifX19\"}]}},display:{Lore:[0:\"§7Increases healing by §a10.0%.\",1:\"\",2:\"§7§8This item can be reforged!\",3:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aHealing Ring\"},ExtraAttributes:{originTag:\"QUICK_CRAFTING\",id:\"HEALING_RING\",uuid:\"0dcb4403-1952-4710-b5f1-05de3675bdfb\",timestamp:\"3/30/20 8:52 PM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Increases healing by §a10.0%.",
     "",
     "§7§8This item can be reforged!",
     "§a§lUNCOMMON ACCESSORY"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "ENCHANTED_WATER_LILY:1",
+    "A3": "",
+    "B1": "ENCHANTED_WATER_LILY:1",
+    "B2": "HEALING_TALISMAN:1",
+    "B3": "ENCHANTED_WATER_LILY:1",
+    "C1": "",
+    "C2": "ENCHANTED_WATER_LILY:1",
+    "C3": ""
+  },
+  "internalname": "HEALING_RING",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Healing_Ring"
   ]
 }

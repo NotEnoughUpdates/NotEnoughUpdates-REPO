@@ -1,11 +1,8 @@
 {
-  "internalname": "GUARDIAN_CHESTPLATE",
   "itemid": "minecraft:leather_chestplate",
-  "displayname": "Guardian Chestplate",
-  "clickcommand": "viewrecipe",
+  "displayname": "§9Guardian Chestplate",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+20 HP\",1:\"§7Defense: §a+50\",2:\"\",3:\"§6Item Ability: Block Damage\",4:\"§7If you are at full §c❤ Health§7,\",5:\"§7the first damage you take will\",6:\"§7be nullified.\",7:\"§8Cooldown: §a60s\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§9§lRARE CHESTPLATE\"],color:1143697,Name:\"§9Guardian Chestplate\"},ExtraAttributes:{id:\"GUARDIAN_CHESTPLATE\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+20 HP\",1:\"§7Defense: §a+50\",2:\"\",3:\"§6Item Ability: Block Damage\",4:\"§7If you are at full §c❤ Health§7,\",5:\"§7the first damage you take will\",6:\"§7be nullified.\",7:\"§8Cooldown: §a60s\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§9§lRARE CHESTPLATE\"],color:1143697,Name:\"§9Guardian Chestplate\"},ExtraAttributes:{color:\"17:115:145\",originTag:\"QUICK_CRAFTING\",id:\"GUARDIAN_CHESTPLATE\",uuid:\"9061447c-466d-4b55-a889-2fff26252168\",timestamp:\"3/15/20 3:34 AM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Health: §a+20 HP",
     "§7Defense: §a+50",
@@ -18,5 +15,23 @@
     "",
     "§7§8This item can be reforged!",
     "§9§lRARE CHESTPLATE"
+  ],
+  "recipe": {
+    "A1": "PRISMARINE_SHARD:64",
+    "A2": "",
+    "A3": "PRISMARINE_SHARD:64",
+    "B1": "PRISMARINE_SHARD:64",
+    "B2": "PRISMARINE_CRYSTALS:64",
+    "B3": "PRISMARINE_SHARD:64",
+    "C1": "PRISMARINE_CRYSTALS:64",
+    "C2": "PRISMARINE_CRYSTALS:64",
+    "C3": "PRISMARINE_CRYSTALS:64"
+  },
+  "internalname": "GUARDIAN_CHESTPLATE",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Guardian_Chestplate"
   ]
 }

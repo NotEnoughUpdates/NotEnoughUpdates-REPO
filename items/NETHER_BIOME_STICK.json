@@ -1,11 +1,8 @@
 {
-  "internalname": "NETHER_BIOME_STICK",
   "itemid": "minecraft:stick",
-  "displayname": "Nether Biome Stick",
-  "clickcommand": "viewrecipe",
+  "displayname": "§fNether Biome Stick",
+  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Allows you to change the biome\",1:\"§7at the targeted block on your\",2:\"§7private island to §bNether§7.\",3:\"§7Right-click to use, or\",4:\"§7Left-click to change the radius\",5:\"§7it effects.\",6:\"\",7:\"§7Selected Radius: §b3\",8:\"\",9:\"§f§lCOMMON\"],Name:\"§fNether Biome Stick\"},ExtraAttributes:{id:\"NETHER_BIOME_STICK\"}}",
   "damage": 0,
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Allows you to change the biome\",1:\"§7at the targeted block on your\",2:\"§7private island to §bNether§7.\",3:\"§7Right-click to use, or\",4:\"§7Left-click to change the radius\",5:\"§7it effects.\",6:\"\",7:\"§7Selected Radius: §b5\",8:\"\",9:\"§f§lCOMMON\"],Name:\"§fNether Biome Stick\"},ExtraAttributes:{id:\"NETHER_BIOME_STICK\",radius:5}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Allows you to change the biome",
     "§7at the targeted block on your",
@@ -14,8 +11,26 @@
     "§7Left-click to change the radius",
     "§7it effects.",
     "",
-    "§7Selected Radius: §b5",
+    "§7Selected Radius: §b3",
     "",
     "§f§lCOMMON"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "",
+    "A3": "MAGMA_CREAM:64",
+    "B1": "",
+    "B2": "STICK:1",
+    "B3": "",
+    "C1": "STICK:1",
+    "C2": "",
+    "C3": ""
+  },
+  "internalname": "NETHER_BIOME_STICK",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Biome_Stick"
   ]
 }

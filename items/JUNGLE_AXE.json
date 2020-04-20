@@ -1,11 +1,8 @@
 {
-  "internalname": "JUNGLE_AXE",
   "itemid": "minecraft:wooden_axe",
-  "displayname": "Jungle Axe",
-  "clickcommand": "viewrecipe",
+  "displayname": "§aJungle Axe",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7A powerful Wooden Axe which can\",1:\"§7break multiple logs in a single\",2:\"§7hit!\",3:\"§8Cooldown: §a2s\",4:\"\",5:\"§a§lUNCOMMON AXE\"],Name:\"§aJungle Axe\"},ExtraAttributes:{id:\"JUNGLE_AXE\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7A powerful Wooden Axe which can\",1:\"§7break multiple logs in a single\",2:\"§7hit!\",3:\"§8Cooldown: §a2s\",4:\"\",5:\"§a§lUNCOMMON AXE\"],Name:\"§aJungle Axe\"},ExtraAttributes:{originTag:\"QUICK_CRAFTING\",id:\"JUNGLE_AXE\",uuid:\"a275fdf5-7981-4b63-b37c-84436fe9af38\",timestamp:\"3/30/20 10:29 PM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7A powerful Wooden Axe which can",
     "§7break multiple logs in a single",
@@ -13,5 +10,23 @@
     "§8Cooldown: §a2s",
     "",
     "§a§lUNCOMMON AXE"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "ENCHANTED_JUNGLE_LOG:1",
+    "A3": "ENCHANTED_JUNGLE_LOG:1",
+    "B1": "",
+    "B2": "STICK:1",
+    "B3": "ENCHANTED_JUNGLE_LOG:1",
+    "C1": "",
+    "C2": "STICK:1",
+    "C3": ""
+  },
+  "internalname": "JUNGLE_AXE",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Jungle_Axe"
   ]
 }

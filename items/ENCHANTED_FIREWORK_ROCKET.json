@@ -1,12 +1,27 @@
 {
   "itemid": "minecraft:fireworks",
   "displayname": "§9Enchanted Firework Rocket",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9§lRARE\",1:\"\",2:\"§eClick to view recipe!\"],Name:\"§9Enchanted Firework Rocket\"},ExtraAttributes:{id:\"ENCHANTED_FIREWORK_ROCKET\"}}",
+  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9§lRARE\"],Name:\"§9Enchanted Firework Rocket\"},ExtraAttributes:{id:\"ENCHANTED_FIREWORK_ROCKET\"}}",
   "damage": 0,
   "lore": [
     "§9§lRARE"
   ],
+  "recipe": {
+    "A1": "",
+    "A2": "ENCHANTED_GUNPOWDER:16",
+    "A3": "",
+    "B1": "ENCHANTED_GUNPOWDER:16",
+    "B2": "PAPER:16",
+    "B3": "ENCHANTED_GUNPOWDER:16",
+    "C1": "",
+    "C2": "ENCHANTED_GUNPOWDER:16",
+    "C3": ""
+  },
   "internalname": "ENCHANTED_FIREWORK_ROCKET",
   "clickcommand": "viewrecipe",
-  "modver": "1.0.0"
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Firework_Rocket"
+  ]
 }

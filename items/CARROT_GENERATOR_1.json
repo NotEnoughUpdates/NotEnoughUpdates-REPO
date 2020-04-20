@@ -1,16 +1,35 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Carrot Minion",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"3a394733-b862-3676-ab4f-60fca79bd18c\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MTkwOTgyNTEsInByb2ZpbGVJZCI6IjVkMjRiYTBiMjg4YzQyOTM4YmExMGVjOTkwNjRkMjU5IiwicHJvZmlsZU5hbWUiOiIxbnYzbnQxdjN0NGwzbnQiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRiYWVhOTkwYjQ1ZDMzMDk5OGNiMGMxZjg1MTVjMjdiMjRmOTNiZmYxZGYwZGIwNTZlNjQ3ZjgyMDBkMDNiOWQifX19\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and harvesting\",2:\"§7carrots. Requires dirt or soil\",3:\"§7nearby so carrots can be\",4:\"§7planted.\",5:\"\",6:\"§eClick to view recipes!\"],Name:\"§9Carrot Minion\"},ExtraAttributes:{id:\"CARROT_GENERATOR_1\",generator_tier:1}}",
+  "displayname": "§9Carrot Minion I",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"3a394733-b862-3676-ab4f-60fca79bd18c\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MTkwOTgyNTEsInByb2ZpbGVJZCI6IjVkMjRiYTBiMjg4YzQyOTM4YmExMGVjOTkwNjRkMjU5IiwicHJvZmlsZU5hbWUiOiIxbnYzbnQxdjN0NGwzbnQiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRiYWVhOTkwYjQ1ZDMzMDk5OGNiMGMxZjg1MTVjMjdiMjRmOTNiZmYxZGYwZGIwNTZlNjQ3ZjgyMDBkMDNiOWQifX19\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and harvesting\",2:\"§7carrots. Requires dirt or soil\",3:\"§7nearby so carrots can be\",4:\"§7planted. Minions also work when\",5:\"§7you are offline!\",6:\"\",7:\"§7Time Between Actions: §a20s\",8:\"§7Max Storage: §e64\"],Name:\"§9Carrot Minion I\"},ExtraAttributes:{id:\"CARROT_GENERATOR_1\",generator_tier:1}}",
   "damage": 3,
   "lore": [
     "§7Place this minion and it will",
     "§7start generating and harvesting",
     "§7carrots. Requires dirt or soil",
     "§7nearby so carrots can be",
-    "§7planted."
+    "§7planted. Minions also work when",
+    "§7you are offline!",
+    "",
+    "§7Time Between Actions: §a20s",
+    "§7Max Storage: §e64"
   ],
+  "recipe": {
+    "A1": "CARROT_ITEM:16",
+    "A2": "CARROT_ITEM:16",
+    "A3": "CARROT_ITEM:16",
+    "B1": "CARROT_ITEM:16",
+    "B2": "WOOD_HOE:1",
+    "B3": "CARROT_ITEM:16",
+    "C1": "CARROT_ITEM:16",
+    "C2": "CARROT_ITEM:16",
+    "C3": "CARROT_ITEM:16"
+  },
   "internalname": "CARROT_GENERATOR_1",
   "clickcommand": "viewrecipe",
-  "modver": "1.0.0"
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Carrot_Minion"
+  ]
 }

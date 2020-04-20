@@ -1,12 +1,27 @@
 {
-  "internalname": "ENCHANTED_ENDSTONE",
   "itemid": "minecraft:end_stone",
-  "displayname": "Enchanted End Stone",
-  "clickcommand": "viewrecipe",
-  "damage": 0,
+  "displayname": "§fEnchanted End Stone",
   "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fEnchanted End Stone\"},ExtraAttributes:{id:\"ENCHANTED_ENDSTONE\"}}",
-  "modver": "1.0.0",
+  "damage": 0,
   "lore": [
     "§f§lCOMMON"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "ENDER_STONE:32",
+    "A3": "",
+    "B1": "ENDER_STONE:32",
+    "B2": "ENDER_STONE:32",
+    "B3": "ENDER_STONE:32",
+    "C1": "",
+    "C2": "ENDER_STONE:32",
+    "C3": ""
+  },
+  "internalname": "ENCHANTED_ENDSTONE",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_End_Stone"
   ]
 }

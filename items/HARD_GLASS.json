@@ -1,15 +1,30 @@
 {
-  "internalname": "HARD_GLASS",
   "itemid": "minecraft:stained_glass",
-  "displayname": "Hard Glass",
-  "clickcommand": "viewrecipe",
+  "displayname": "§fHard Glass",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Special hardened glass which\",1:\"§7doesn't break to explosions.\",2:\"\",3:\"§f§lCOMMON\"],Name:\"§fHard Glass\"},ExtraAttributes:{id:\"HARD_GLASS\"}}",
   "damage": 7,
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Special hardened glass which\",1:\"§7doesn\u0027t break to explosions.\",2:\"\",3:\"§f§lCOMMON\"],Name:\"§fHard Glass\"},ExtraAttributes:{id:\"HARD_GLASS\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Special hardened glass which",
-    "§7doesn\u0027t break to explosions.",
+    "§7doesn't break to explosions.",
     "",
     "§f§lCOMMON"
+  ],
+  "recipe": {
+    "A1": "COAL:1",
+    "A2": "COAL:1",
+    "A3": "COAL:1",
+    "B1": "COAL:1",
+    "B2": "ENCHANTED_SAND:1",
+    "B3": "COAL:1",
+    "C1": "COAL:1",
+    "C2": "COAL:1",
+    "C3": "COAL:1"
+  },
+  "internalname": "HARD_GLASS",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Hard_Glass"
   ]
 }

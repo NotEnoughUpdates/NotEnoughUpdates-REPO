@@ -1,15 +1,30 @@
 {
-  "internalname": "HARDENED_DIAMOND_CHESTPLATE",
   "itemid": "minecraft:diamond_chestplate",
-  "displayname": "Hardened Diamond Chestplate",
-  "clickcommand": "viewrecipe",
+  "displayname": "§9Hardened Diamond Chestplate",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+120\",1:\"\",2:\"§7§8This item can be reforged!\",3:\"§9§lRARE CHESTPLATE\"],Name:\"§9Hardened Diamond Chestplate\"},ExtraAttributes:{id:\"HARDENED_DIAMOND_CHESTPLATE\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+120\",1:\"\",2:\"§7§8This item can be reforged!\",3:\"§9§lRARE CHESTPLATE\"],Name:\"§9Hardened Diamond Chestplate\"},ExtraAttributes:{originTag:\"CRAFTING_GRID_SHIFT\",id:\"HARDENED_DIAMOND_CHESTPLATE\",uuid:\"99906b2f-10ba-48c5-9b83-9be9119c36fb\",timestamp:\"3/15/20 9:21 AM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Defense: §a+120",
     "",
     "§7§8This item can be reforged!",
     "§9§lRARE CHESTPLATE"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_DIAMOND:1",
+    "A2": "",
+    "A3": "ENCHANTED_DIAMOND:1",
+    "B1": "ENCHANTED_DIAMOND:1",
+    "B2": "ENCHANTED_DIAMOND:1",
+    "B3": "ENCHANTED_DIAMOND:1",
+    "C1": "ENCHANTED_DIAMOND:1",
+    "C2": "ENCHANTED_DIAMOND:1",
+    "C3": "ENCHANTED_DIAMOND:1"
+  },
+  "internalname": "HARDENED_DIAMOND_CHESTPLATE",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Hardened_Diamond_Armor"
   ]
 }

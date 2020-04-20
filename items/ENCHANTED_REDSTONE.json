@@ -1,13 +1,28 @@
 {
-  "internalname": "ENCHANTED_REDSTONE",
   "itemid": "minecraft:redstone",
-  "displayname": "Enchanted Redstone",
-  "clickcommand": "viewrecipe",
-  "damage": 0,
+  "displayname": "§aEnchanted Redstone",
   "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Redstone\"},ExtraAttributes:{id:\"ENCHANTED_REDSTONE\"}}",
-  "modver": "1.0.0",
+  "damage": 0,
   "lore": [
     "§8Brewing Ingredient",
     "§a§lUNCOMMON"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "REDSTONE:32",
+    "A3": "",
+    "B1": "REDSTONE:32",
+    "B2": "REDSTONE:32",
+    "B3": "REDSTONE:32",
+    "C1": "",
+    "C2": "REDSTONE:32",
+    "C3": ""
+  },
+  "internalname": "ENCHANTED_REDSTONE",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Redstone"
   ]
 }

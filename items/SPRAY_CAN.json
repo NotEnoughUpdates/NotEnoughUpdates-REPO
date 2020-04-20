@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§fSpray Can",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"66b309b4-64a0-3e77-8180-3dd580c523c8\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NjMyNjI3NTk0NjMsInByb2ZpbGVJZCI6IjU3MGIwNWJhMjZmMzRhOGViZmRiODBlY2JjZDdlNjIwIiwicHJvZmlsZU5hbWUiOiJMb3JkU29ubnkiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2EwNjRkOTc5NmVkNWZhYjQ0NWRiYzkwYjQxNjZjNGUyNzQyMjg4MzI3MTliNTMxOGEwMDEyNmEyOTA5NmE0ZjEifX19\"}]}},display:{Lore:[0:\"§7§7Right-click on any wall\",1:\"§7of your choice to spray.\",2:\"\",3:\"§7§7Left-click to access the\",4:\"§7Ink Manager and Spray\",5:\"§7Selector.\",6:\"\",7:\"§f§lCOMMON\",8:\"\",9:\"§eClick to view recipe!\"],Name:\"§fSpray Can\"},ExtraAttributes:{id:\"SPRAY_CAN\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"66b309b4-64a0-3e77-8180-3dd580c523c8\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NjMyNjI3NTk0NjMsInByb2ZpbGVJZCI6IjU3MGIwNWJhMjZmMzRhOGViZmRiODBlY2JjZDdlNjIwIiwicHJvZmlsZU5hbWUiOiJMb3JkU29ubnkiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2EwNjRkOTc5NmVkNWZhYjQ0NWRiYzkwYjQxNjZjNGUyNzQyMjg4MzI3MTliNTMxOGEwMDEyNmEyOTA5NmE0ZjEifX19\"}]}},display:{Lore:[0:\"§7§7Right-click on any wall\",1:\"§7of your choice to spray.\",2:\"\",3:\"§7§7Left-click to access the\",4:\"§7Ink Manager and Spray\",5:\"§7Selector.\",6:\"\",7:\"§f§lCOMMON\"],Name:\"§fSpray Can\"},ExtraAttributes:{id:\"SPRAY_CAN\"}}",
   "damage": 3,
   "lore": [
     "§7§7Right-click on any wall",
@@ -13,7 +13,22 @@
     "",
     "§f§lCOMMON"
   ],
+  "recipe": {
+    "A1": "GLASS:1",
+    "A2": "REDSTONE:1",
+    "A3": "GLASS:1",
+    "B1": "GLASS:1",
+    "B2": "",
+    "B3": "GLASS:1",
+    "C1": "GLASS:1",
+    "C2": "GLASS:1",
+    "C3": "GLASS:1"
+  },
   "internalname": "SPRAY_CAN",
   "clickcommand": "viewrecipe",
-  "modver": "1.0.0"
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Spray_Can"
+  ]
 }

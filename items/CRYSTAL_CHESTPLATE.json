@@ -1,11 +1,8 @@
 {
-  "internalname": "CRYSTAL_CHESTPLATE",
   "itemid": "minecraft:leather_chestplate",
-  "displayname": "Crystal Chestplate",
-  "clickcommand": "viewrecipe",
+  "displayname": "§5Crystal Chestplate",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+35\",1:\"§7Intelligence: §a+120\",2:\"\",3:\"§6Full Set Bonus: Refraction\",4:\"§7The stats of this armor change\",5:\"§7from §a0§7 to §a200%§7 depending\",6:\"§7on the current light level.\",7:\"\",8:\"§7Current Light Level\",9:\"§a0➡15§8 (0%➡200%)\",10:\"\",11:\"§7§8This item can be reforged!\",12:\"§5§lEPIC CHESTPLATE\"],color:16577535,Name:\"§5Crystal Chestplate\"},ExtraAttributes:{id:\"CRYSTAL_CHESTPLATE\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+35\",1:\"§7Intelligence: §a+120\",2:\"\",3:\"§6Full Set Bonus: Refraction\",4:\"§7The stats of this armor change\",5:\"§7from §a0§7 to §a200%§7 depending\",6:\"§7on the current light level.\",7:\"\",8:\"§7Current Light Level\",9:\"§67§8 (100.0%)\",10:\"\",11:\"§7§8This item can be reforged!\",12:\"§5§lEPIC CHESTPLATE\"],color:16577535,Name:\"§5Crystal Chestplate\"},ExtraAttributes:{color:\"252:243:255\",originTag:\"CRAFTING_GRID_SHIFT\",id:\"CRYSTAL_CHESTPLATE\",uuid:\"5d912ea6-316f-49ca-af36-6b7b10499514\",timestamp:\"3/31/20 2:53 AM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Defense: §a+35",
     "§7Intelligence: §a+120",
@@ -16,9 +13,27 @@
     "§7on the current light level.",
     "",
     "§7Current Light Level",
-    "§67§8 (100.0%)",
+    "§a0➡15§8 (0%➡200%)",
     "",
     "§7§8This item can be reforged!",
     "§5§lEPIC CHESTPLATE"
+  ],
+  "recipe": {
+    "A1": "CRYSTAL_FRAGMENT:1",
+    "A2": "",
+    "A3": "CRYSTAL_FRAGMENT:1",
+    "B1": "CRYSTAL_FRAGMENT:1",
+    "B2": "CRYSTAL_FRAGMENT:1",
+    "B3": "CRYSTAL_FRAGMENT:1",
+    "C1": "CRYSTAL_FRAGMENT:1",
+    "C2": "CRYSTAL_FRAGMENT:1",
+    "C3": "CRYSTAL_FRAGMENT:1"
+  },
+  "internalname": "CRYSTAL_CHESTPLATE",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Crystal_Armor"
   ]
 }

@@ -1,16 +1,31 @@
 {
-  "internalname": "GRAPPLING_HOOK",
   "itemid": "minecraft:fishing_rod",
-  "displayname": "Grappling Hook",
-  "clickcommand": "viewrecipe",
-  "damage": 0,
+  "displayname": "§aGrappling Hook",
   "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Travel around in style using\",1:\"§7this Grappling Hook.\",2:\"§82 Second Cooldown\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aGrappling Hook\"},ExtraAttributes:{id:\"GRAPPLING_HOOK\"}}",
-  "modver": "1.0.0",
+  "damage": 0,
   "lore": [
     "§7Travel around in style using",
     "§7this Grappling Hook.",
     "§82 Second Cooldown",
     "",
     "§a§lUNCOMMON"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_STRING:1",
+    "A2": "ENCHANTED_STRING:1",
+    "A3": "",
+    "B1": "ENCHANTED_STRING:1",
+    "B2": "STICK:1",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": "STICK:1"
+  },
+  "internalname": "GRAPPLING_HOOK",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Grappling_Hook"
   ]
 }

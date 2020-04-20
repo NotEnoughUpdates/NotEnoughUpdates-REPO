@@ -1,12 +1,27 @@
 {
-  "internalname": "ENCHANTED_GOLDEN_CARROT",
   "itemid": "minecraft:golden_carrot",
-  "displayname": "Enchanted Golden Carrot",
-  "clickcommand": "viewrecipe",
-  "damage": 0,
+  "displayname": "§aEnchanted Golden Carrot",
   "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Golden Carrot\"},ExtraAttributes:{id:\"ENCHANTED_GOLDEN_CARROT\"}}",
-  "modver": "1.0.0",
+  "damage": 0,
   "lore": [
     "§a§lUNCOMMON"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "ENCHANTED_CARROT:32",
+    "A3": "",
+    "B1": "ENCHANTED_CARROT:32",
+    "B2": "GOLDEN_CARROT:32",
+    "B3": "ENCHANTED_CARROT:32",
+    "C1": "",
+    "C2": "ENCHANTED_CARROT:32",
+    "C3": ""
+  },
+  "internalname": "ENCHANTED_GOLDEN_CARROT",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Golden_Carrot"
   ]
 }

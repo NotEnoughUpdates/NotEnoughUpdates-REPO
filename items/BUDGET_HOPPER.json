@@ -1,11 +1,8 @@
 {
-  "internalname": "BUDGET_HOPPER",
   "itemid": "minecraft:hopper",
-  "displayname": "Budget Hopper",
-  "clickcommand": "viewrecipe",
+  "displayname": "§aBudget Hopper",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7This item can be placed inside\",1:\"§7any minion. Automatically sells\",2:\"§7generated items when the minion\",3:\"§7has no space. Items are sold for\",4:\"§7§a50.0% §7of their selling\",5:\"§7price.\",6:\"\",7:\"§a§lUNCOMMON\"],Name:\"§aBudget Hopper\"},ExtraAttributes:{id:\"BUDGET_HOPPER\"}}",
   "damage": 0,
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7This item can be placed inside\",1:\"§7any minion. Automatically sells\",2:\"§7generated items when the minion\",3:\"§7has no space. Items are sold for\",4:\"§7§a50.0% §7of their selling\",5:\"§7price.\",6:\"\",7:\"§a§lUNCOMMON\"],Name:\"§aBudget Hopper\"},ExtraAttributes:{originTag:\"QUICK_CRAFTING\",id:\"BUDGET_HOPPER\",uuid:\"032eec7a-53d0-4fa6-a1cc-b7d42bb0c5fd\",timestamp:\"3/30/20 11:16 AM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7This item can be placed inside",
     "§7any minion. Automatically sells",
@@ -15,5 +12,23 @@
     "§7price.",
     "",
     "§a§lUNCOMMON"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_IRON:1",
+    "A2": "",
+    "A3": "ENCHANTED_IRON:1",
+    "B1": "ENCHANTED_IRON:1",
+    "B2": "CHEST:1",
+    "B3": "ENCHANTED_IRON:1",
+    "C1": "",
+    "C2": "ENCHANTED_IRON:1",
+    "C3": ""
+  },
+  "internalname": "BUDGET_HOPPER",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Budget_Hopper"
   ]
 }

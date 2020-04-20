@@ -1,11 +1,8 @@
 {
-  "internalname": "LEGEND_ROD",
   "itemid": "minecraft:fishing_rod",
-  "displayname": "Rod of Legends",
-  "clickcommand": "viewrecipe",
+  "displayname": "§5Rod of Legends",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+100\",1:\"\",2:\"§7§7Increases sea creature catch\",3:\"§7rate by §96%\",4:\"\",5:\"§7Increases fishing speed by §970%\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§5§lEPIC FISHING ROD\"],Name:\"§5Rod of Legends\"},ExtraAttributes:{id:\"LEGEND_ROD\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+100\",1:\"\",2:\"§7§7Increases sea creature catch\",3:\"§7rate by §96%\",4:\"\",5:\"§7Increases fishing speed by §970%\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§5§lEPIC FISHING ROD\"],Name:\"§5Rod of Legends\"},ExtraAttributes:{originTag:\"LEGEND_ROD\",id:\"LEGEND_ROD\",uuid:\"070cf9a8-91c6-41f9-adae-2427cb111aaf\",timestamp:\"3/30/20 9:30 PM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Damage: §c+100",
     "",
@@ -16,5 +13,23 @@
     "",
     "§7§8This item can be reforged!",
     "§5§lEPIC FISHING ROD"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_WATER_LILY:16",
+    "A2": "ENCHANTED_WATER_LILY:16",
+    "A3": "ENCHANTED_WATER_LILY:16",
+    "B1": "ENCHANTED_WATER_LILY:16",
+    "B2": "CHAMP_ROD:1",
+    "B3": "ENCHANTED_WATER_LILY:16",
+    "C1": "ENCHANTED_WATER_LILY:16",
+    "C2": "ENCHANTED_WATER_LILY:16",
+    "C3": "ENCHANTED_WATER_LILY:16"
+  },
+  "internalname": "LEGEND_ROD",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Rod_of_Legends"
   ]
 }

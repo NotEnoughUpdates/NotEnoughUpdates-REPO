@@ -1,15 +1,34 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Obsidian Minion",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"58c0f4df-db55-3492-be5d-2e72f289aaa9\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MTk5NDcyMTUsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzMyMGMyOWFiOTY2NjM3Y2I5YWVjYzM0ZWU3NmQ1YTAxMzA0NjFlMGM0ZmRiMDhjZGFmODA5MzlmYTEyMDkxMDIifX19\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and mining\",2:\"§7obsidian! Requires an open area\",3:\"§7to place obsidian.\",4:\"\",5:\"§eClick to view recipes!\"],Name:\"§9Obsidian Minion\"},ExtraAttributes:{id:\"OBSIDIAN_GENERATOR_1\",generator_tier:1}}",
+  "displayname": "§9Obsidian Minion I",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"58c0f4df-db55-3492-be5d-2e72f289aaa9\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MTk5NDcyMTUsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzMyMGMyOWFiOTY2NjM3Y2I5YWVjYzM0ZWU3NmQ1YTAxMzA0NjFlMGM0ZmRiMDhjZGFmODA5MzlmYTEyMDkxMDIifX19\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and mining\",2:\"§7obsidian! Requires an open area\",3:\"§7to place obsidian. Minions also\",4:\"§7work when you are offline!\",5:\"\",6:\"§7Time Between Actions: §a45s\",7:\"§7Max Storage: §e64\"],Name:\"§9Obsidian Minion I\"},ExtraAttributes:{id:\"OBSIDIAN_GENERATOR_1\",generator_tier:1}}",
   "damage": 3,
   "lore": [
     "§7Place this minion and it will",
     "§7start generating and mining",
     "§7obsidian! Requires an open area",
-    "§7to place obsidian."
+    "§7to place obsidian. Minions also",
+    "§7work when you are offline!",
+    "",
+    "§7Time Between Actions: §a45s",
+    "§7Max Storage: §e64"
   ],
+  "recipe": {
+    "A1": "OBSIDIAN:10",
+    "A2": "OBSIDIAN:10",
+    "A3": "OBSIDIAN:10",
+    "B1": "OBSIDIAN:10",
+    "B2": "WOOD_PICKAXE:1",
+    "B3": "OBSIDIAN:10",
+    "C1": "OBSIDIAN:10",
+    "C2": "OBSIDIAN:10",
+    "C3": "OBSIDIAN:10"
+  },
   "internalname": "OBSIDIAN_GENERATOR_1",
   "clickcommand": "viewrecipe",
-  "modver": "1.0.0"
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Obsidian_Minion"
+  ]
 }

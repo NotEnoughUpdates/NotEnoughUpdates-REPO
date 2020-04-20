@@ -1,17 +1,32 @@
 {
-  "internalname": "AATROX_BATPHONE",
   "itemid": "minecraft:skull",
-  "displayname": "Maddox Batphone",
-  "clickcommand": "viewrecipe",
+  "displayname": "§aMaddox Batphone",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"cf814560-079b-3f43-98ce-d440ba66f2b3\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1Njc5OTg1NDE4MDYsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzkzMzZkN2NjOTVjYmY2Njg5ZjVlOGM5NTQyOTRlYzhkMWVmYzQ5NGE0MDMxMzI1YmI0MjdiYzgxZDU2YTQ4NGQifX19\"}]}},display:{Lore:[0:\"§6Item Ability: Whassup? §e§lRIGHT CLICK\",1:\"§7Lets you call §5Maddox§7, when\",2:\"§7he's not busy.\",3:\"\",4:\"§c☠ §5Requires Wolf LVL 3\",5:\"§a§lUNCOMMON\"],Name:\"§aMaddox Batphone\"},ExtraAttributes:{id:\"AATROX_BATPHONE\"}}",
   "damage": 3,
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"cf814560-079b-3f43-98ce-d440ba66f2b3\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1Njc5OTg1NDE4MDYsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzkzMzZkN2NjOTVjYmY2Njg5ZjVlOGM5NTQyOTRlYzhkMWVmYzQ5NGE0MDMxMzI1YmI0MjdiYzgxZDU2YTQ4NGQifX19\"}]}},display:{Lore:[0:\"§6Item Ability: Whassup? §e§lRIGHT CLICK\",1:\"§7Lets you call §5Maddox§7, when\",2:\"§7he\u0027s not busy.\",3:\"\",4:\"§c☠ §5Requires Wolf LVL 3\",5:\"§a§lUNCOMMON\"],Name:\"§aMaddox Batphone\"},ExtraAttributes:{originTag:\"UNKNOWN\",id:\"AATROX_BATPHONE\",uuid:\"c2f63ad5-f689-4e51-9976-7e3c921c8f38\",timestamp:\"3/30/20 10:09 AM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§6Item Ability: Whassup? §e§lRIGHT CLICK",
     "§7Lets you call §5Maddox§7, when",
-    "§7he\u0027s not busy.",
+    "§7he's not busy.",
     "",
     "§c☠ §5Requires Wolf LVL 3",
     "§a§lUNCOMMON"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_COBBLESTONE:10",
+    "A2": "ENCHANTED_COBBLESTONE:10",
+    "A3": "ENCHANTED_COBBLESTONE:10",
+    "B1": "ENCHANTED_COBBLESTONE:10",
+    "B2": "REDSTONE_GENERATOR_8:1",
+    "B3": "ENCHANTED_COBBLESTONE:10",
+    "C1": "ENCHANTED_COBBLESTONE:10",
+    "C2": "AATROX_PHONE_NUMBER:1",
+    "C3": "ENCHANTED_COBBLESTONE:10"
+  },
+  "internalname": "AATROX_BATPHONE",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Maddox_Batphone"
   ]
 }

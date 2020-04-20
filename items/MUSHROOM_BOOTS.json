@@ -1,11 +1,8 @@
 {
-  "internalname": "MUSHROOM_BOOTS",
   "itemid": "minecraft:leather_boots",
-  "displayname": "Mushroom Boots",
-  "clickcommand": "viewrecipe",
+  "displayname": "§fMushroom Boots",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+15 HP\",1:\"\",2:\"§eFull Set Bonus: Night Affinity\",3:\"§7Grants the wearer with\",4:\"§7§apermanent Night Vision§7 while\",5:\"§7worn, and during the night, the\",6:\"§7stats of the armor pieces are\",7:\"§7§atripled§7.\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§f§lCOMMON BOOTS\"],color:16711680,Name:\"§fMushroom Boots\"},ExtraAttributes:{id:\"MUSHROOM_BOOTS\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+15 HP\",1:\"\",2:\"§eFull Set Bonus: Night Affinity\",3:\"§7Grants the wearer with\",4:\"§7§apermanent Night Vision§7 while\",5:\"§7worn, and during the night, the\",6:\"§7stats of the armor pieces are\",7:\"§7§atripled§7.\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§f§lCOMMON BOOTS\"],color:16711680,Name:\"§fMushroom Boots\"},ExtraAttributes:{color:\"255:0:0\",originTag:\"CRAFTING_GRID_COLLECT\",id:\"MUSHROOM_BOOTS\",uuid:\"4bc06281-e1bb-414c-ae06-0d3481212428\",timestamp:\"3/26/20 1:42 PM\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Health: §a+15 HP",
     "",
@@ -18,5 +15,23 @@
     "",
     "§7§8This item can be reforged!",
     "§f§lCOMMON BOOTS"
+  ],
+  "recipe": {
+    "A1": "RED_MUSHROOM:1",
+    "A2": "",
+    "A3": "RED_MUSHROOM:1",
+    "B1": "RED_MUSHROOM:1",
+    "B2": "",
+    "B3": "RED_MUSHROOM:1",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  },
+  "internalname": "MUSHROOM_BOOTS",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Mushroom_Armor"
   ]
 }

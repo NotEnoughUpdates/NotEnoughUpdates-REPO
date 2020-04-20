@@ -1,12 +1,27 @@
 {
-  "internalname": "ENCHANTED_SNOW_BLOCK",
   "itemid": "minecraft:snow",
-  "displayname": "Enchanted Snow Block",
-  "clickcommand": "viewrecipe",
-  "damage": 0,
+  "displayname": "§aEnchanted Snow Block",
   "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Snow Block\"},ExtraAttributes:{id:\"ENCHANTED_SNOW_BLOCK\"}}",
-  "modver": "1.0.0",
+  "damage": 0,
   "lore": [
     "§a§lUNCOMMON"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "SNOW_BLOCK:32",
+    "A3": "",
+    "B1": "SNOW_BLOCK:32",
+    "B2": "SNOW_BLOCK:32",
+    "B3": "SNOW_BLOCK:32",
+    "C1": "",
+    "C2": "SNOW_BLOCK:32",
+    "C3": ""
+  },
+  "internalname": "ENCHANTED_SNOW_BLOCK",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Snow_Block"
   ]
 }

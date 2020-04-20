@@ -1,12 +1,27 @@
 {
-  "internalname": "ENCHANTED_RABBIT_HIDE",
   "itemid": "minecraft:rabbit_hide",
-  "displayname": "Enchanted Rabbit Hide",
-  "clickcommand": "viewrecipe",
-  "damage": 0,
+  "displayname": "§9Enchanted Rabbit Hide",
   "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9§lRARE\"],Name:\"§9Enchanted Rabbit Hide\"},ExtraAttributes:{id:\"ENCHANTED_RABBIT_HIDE\"}}",
-  "modver": "1.0.0",
+  "damage": 0,
   "lore": [
     "§9§lRARE"
+  ],
+  "recipe": {
+    "A1": "RABBIT_HIDE:64",
+    "A2": "RABBIT_HIDE:64",
+    "A3": "RABBIT_HIDE:64",
+    "B1": "RABBIT_HIDE:64",
+    "B2": "RABBIT_HIDE:64",
+    "B3": "RABBIT_HIDE:64",
+    "C1": "RABBIT_HIDE:64",
+    "C2": "RABBIT_HIDE:64",
+    "C3": "RABBIT_HIDE:64"
+  },
+  "internalname": "ENCHANTED_RABBIT_HIDE",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Rabbit_Hide"
   ]
 }
