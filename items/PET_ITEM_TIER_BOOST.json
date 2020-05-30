@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:hopper",
+  "displayname": "§6Tier Boost",
+  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§8Consumed on use\",1:\"\",2:\"§7§7Pet items can boost pets in\",3:\"§7various ways but pets can only\",4:\"§7hold 1 item at a time so choose\",5:\"§7wisely!\",6:\"\",7:\"§7§7Boosts the §ararity §7of your\",8:\"§7pet by 1 tier!\",9:\"\",10:\"§7§eRight click on your pet to\",11:\"§egive it this item!\",12:\"\",13:\"§6§lLEGENDARY PET ITEM\"],Name:\"§6Tier Boost\"},ExtraAttributes:{id:\"PET_ITEM_TIER_BOOST\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Consumed on use",
+    "",
+    "§7§7Pet items can boost pets in",
+    "§7various ways but pets can only",
+    "§7hold 1 item at a time so choose",
+    "§7wisely!",
+    "",
+    "§7§7Boosts the §ararity §7of your",
+    "§7pet by 1 tier!",
+    "",
+    "§7§eRight click on your pet to",
+    "§egive it this item!",
+    "",
+    "§6§lLEGENDARY PET ITEM"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_IRON_BLOCK:2",
+    "A2": "",
+    "A3": "ENCHANTED_IRON_BLOCK:2",
+    "B1": "ENCHANTED_IRON_BLOCK:2",
+    "B2": "PET_ITEM_TIER_BOOST_DROP:1",
+    "B3": "ENCHANTED_IRON_BLOCK:2",
+    "C1": "",
+    "C2": "ENCHANTED_IRON_BLOCK:2",
+    "C3": ""
+  },
+  "internalname": "PET_ITEM_TIER_BOOST",
+  "clickcommand": "viewrecipe",
+  "modver": "1.0.0"
+}
