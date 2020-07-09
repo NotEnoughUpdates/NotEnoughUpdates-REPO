@@ -1,17 +1,18 @@
 {
   "internalname": "ZOMBIE_ARTIFACT",
   "itemid": "minecraft:skull",
-  "displayname": "§9Zombie Artifact",
-  "clickcommand": "",
+  "displayname": "§9Superior Zombie Artifact",
+  "clickcommand": "viewrecipe",
   "damage": 3,
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"e4508bd9-b77e-3557-82b5-3ae5fada63b3\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzNmYjRlNWRiOTdmNDc5YzY2YTQyYmJkOGE3ZDc4MWRhZjIwMWE4ZGRhZjc3YWZjZjRhZWY4Nzc3OWFhOGI0In19fQ==\"}]}},display:{Lore:[0:\"§7Reduces the damage taken from\",1:\"§7§7Zombies by §a15%§7.\",2:\"\",3:\"§7§8This item can be reforged!\",4:\"§c☠ §5Requires Zombie LVL 7\",5:\"§9§lRARE ACCESSORY\"],Name:\"§9Zombie Artifact\"},ExtraAttributes:{originTag:\"CRAFTING_GRID_COLLECT\",id:\"ZOMBIE_ARTIFACT\",uuid:\"34c72dff-3595-49ce-aa48-b0087c65d142\",timestamp:\"3/31/20 1:15 AM\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"e4508bd9-b77e-3557-82b5-3ae5fada63b3\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzNmYjRlNWRiOTdmNDc5YzY2YTQyYmJkOGE3ZDc4MWRhZjIwMWE4ZGRhZjc3YWZjZjRhZWY4Nzc3OWFhOGI0In19fQ==\"}]}},display:{Lore:[0:\"§7Strength: §c+4 §8(Superior +4)\",1:\"§7Crit Damage: §c+2% §8(Superior +2%)\",2:\"\",3:\"§7Reduces the damage taken from\",4:\"§7§7Zombies by §a15%§7.\",5:\"\",6:\"§9§lRARE ACCESSORY\"],Name:\"§9Superior Zombie Artifact\"},ExtraAttributes:{modifier:\"superior\",id:\"ZOMBIE_ARTIFACT\"}}",
   "modver": "1.0.0",
   "lore": [
+    "§7Strength: §c+4 §8(Superior +4)",
+    "§7Crit Damage: §c+2% §8(Superior +2%)",
+    "",
     "§7Reduces the damage taken from",
     "§7§7Zombies by §a15%§7.",
     "",
-    "§7§8This item can be reforged!",
-    "§c☠ §5Requires Zombie LVL 7",
     "§9§lRARE ACCESSORY"
   ],
   "recipe": {
@@ -25,7 +26,6 @@
     "C2": "ENCHANTED_DIAMOND:8",
     "C3": "ENCHANTED_IRON:8"
   },
-  "clickcommand": "viewrecipe",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Zombie_Artifact"

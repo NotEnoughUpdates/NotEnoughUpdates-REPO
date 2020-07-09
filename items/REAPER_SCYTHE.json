@@ -1,17 +1,13 @@
 {
   "internalname": "REAPER_SCYTHE",
   "itemid": "minecraft:diamond_hoe",
-  "displayname": "§6Spicy Reaper Scythe",
-  "clickcommand": "",
+  "displayname": "§6Reaper Scythe",
+  "clickcommand": "viewrecipe",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+353 §e(+20)\",1:\"§7Strength: §c+25 §e(+20) §8(Spicy +5)\",2:\"§7Crit Chance: §c+1% §8(Spicy +1%)\",3:\"§7Crit Damage: §c+50% §8(Spicy +50%)\",4:\"§7Attack Speed: §c+10% §8(Spicy +10%)\",5:\"\",6:\"§7Speed: §a+10\",7:\"\",8:\"§6Item Ability: Desecration §e§lRIGHT CLICK\",9:\"§7Within 3 seconds of killing an\",10:\"§7enemy, Desecrate their grave to\",11:\"§7spawn a zombie.\",12:\"§7§8Zombies lose 2% HP/s.\",13:\"§7§8Copies 30% of your stats.\",14:\"§7§8Up to 5 zombies at once.\",15:\"§8Mana Cost: §3150\",16:\"\",17:\"§c☠ §5Requires Zombie LVL 7\",18:\"§6§lLEGENDARY SCHWERT\"],Name:\"§6Spicy Reaper Scythe\"},ExtraAttributes:{hot_potato_count:10,hotPotatoBonus:\"STRENGTH=20;DAMAGE=20;\",modifier:\"spicy\",originTag:\"QUICK_CRAFTING\",id:\"REAPER_SCYTHE\",uuid:\"5027c6f3-886f-4453-b7d6-660c2dac755c\",anvil_uses:10,timestamp:\"4/1/20 11:28 AM\"}}",
+  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+333\",1:\"\",2:\"§7Speed: §a+10\",3:\"\",4:\"§6Item Ability: Desecration §e§lRIGHT CLICK\",5:\"§7Within 3 seconds of killing an\",6:\"§7enemy, Desecrate their grave to\",7:\"§7spawn a zombie.\",8:\"§7§8Zombies lose 2% HP/s.\",9:\"§7§8Copies 30% of your stats.\",10:\"§7§8Up to 5 zombies at once.\",11:\"§8Mana Cost: §3150\",12:\"\",13:\"§7§8This item can be reforged!\",14:\"§6§lLEGENDARY SWORD\"],Name:\"§6Reaper Scythe\"},ExtraAttributes:{originTag:\"CRAFTING_GRID_COLLECT\",id:\"REAPER_SCYTHE\",uuid:\"321ccf65-2353-42b3-9241-f4b37e18ca45\",timestamp:\"5/1/20 8:53 AM\"}}",
   "modver": "1.0.0",
   "lore": [
-    "§7Damage: §c+353 §e(+20)",
-    "§7Strength: §c+25 §e(+20) §8(Spicy +5)",
-    "§7Crit Chance: §c+1% §8(Spicy +1%)",
-    "§7Crit Damage: §c+50% §8(Spicy +50%)",
-    "§7Attack Speed: §c+10% §8(Spicy +10%)",
+    "§7Damage: §c+333",
     "",
     "§7Speed: §a+10",
     "",
@@ -24,8 +20,8 @@
     "§7§8Up to 5 zombies at once.",
     "§8Mana Cost: §3150",
     "",
-    "§c☠ §5Requires Zombie LVL 7",
-    "§6§lLEGENDARY SCHWERT"
+    "§7§8This item can be reforged!",
+    "§6§lLEGENDARY SWORD"
   ],
   "recipe": {
     "A1": "SCYTHE_BLADE:1",
@@ -38,7 +34,6 @@
     "C2": "",
     "C3": "REAPER_SWORD:1"
   },
-  "clickcommand": "viewrecipe",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Reaper_Scythe"

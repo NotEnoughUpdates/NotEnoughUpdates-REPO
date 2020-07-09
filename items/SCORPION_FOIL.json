@@ -2,9 +2,9 @@
   "internalname": "SCORPION_FOIL",
   "itemid": "minecraft:wooden_sword",
   "displayname": "§5Scorpion Foil",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+100\",1:\"§7Strength: §c+100\",2:\"\",3:\"§7Deal §a250% §7damage against Spiders.\",4:\"\",5:\"§6Item Ability: Heartstopper\",6:\"§7You have §e4 Ⓞ tickers§7.\",7:\"§7Blocking clears §e1 Ⓞ §7and heals §c60❤§7.\",8:\"§7Once all tickers are cleared,\",9:\"§7your next attack is empowered\",10:\"§7for §c+250% damage§7.\",11:\"§8Tickers refill after 5 seconds.\",12:\"\",13:\"§7§8This item can be reforged!\",14:\"§c☠ §5Requires Spider LVL 6\",15:\"§5§lEPIC SWORD\"],Name:\"§5Scorpion Foil\"},ExtraAttributes:{originTag:\"QUICK_CRAFTING\",id:\"SCORPION_FOIL\",uuid:\"e8a9c054-06ba-46a0-8efb-4e7c1a7e5b5d\",timestamp:\"3/12/20 1:55 AM\"}}",
+  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+100\",1:\"§7Strength: §c+100\",2:\"\",3:\"§7Deal §a250% §7damage against Spiders.\",4:\"\",5:\"§6Item Ability: Heartstopper\",6:\"§7You have §e4 Ⓞ tickers§7.\",7:\"§7Blocking clears §e1 Ⓞ §7and heals §c60❤§7.\",8:\"§7Once all tickers are cleared,\",9:\"§7your next attack is empowered\",10:\"§7for §c+250% damage§7.\",11:\"§8Tickers refill after 5 seconds.\",12:\"\",13:\"§7§8This item can be reforged!\",14:\"§7§4☠ §cRequires §5Spider Slayer 6\",15:\"§5§lEPIC SWORD\"],Name:\"§5Scorpion Foil\"},ExtraAttributes:{id:\"SCORPION_FOIL\"}}",
   "modver": "1.0.0",
   "lore": [
     "§7Damage: §c+100",
@@ -21,7 +21,7 @@
     "§8Tickers refill after 5 seconds.",
     "",
     "§7§8This item can be reforged!",
-    "§c☠ §5Requires Spider LVL 6",
+    "§7§4☠ §cRequires §5Spider Slayer 6",
     "§5§lEPIC SWORD"
   ],
   "recipe": {
@@ -35,7 +35,6 @@
     "C2": "STICK:1",
     "C3": "TARANTULA_SILK:4"
   },
-  "clickcommand": "viewrecipe",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Scorpion_Foil"

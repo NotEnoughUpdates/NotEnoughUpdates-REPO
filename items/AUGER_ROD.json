@@ -1,10 +1,17 @@
 {
   "itemid": "minecraft:fishing_rod",
-  "displayname": "§5Auger Rod",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+80\",1:\"\",2:\"§7Breaks nearby ice blocks where\",3:\"§7it lands.\",4:\"\",5:\"§7Triples the chance of the sea\",6:\"§7creatures that you spawn to be\",7:\"§7winter sea creatures.\",8:\"\",9:\"§7Increases fishing speed by §950%\",10:\"\",11:\"§7§8This item can be reforged!\",12:\"§5§lEPIC FISHING ROD\"],Name:\"§5Auger Rod\"},ExtraAttributes:{id:\"AUGER_ROD\"}}",
+  "displayname": "§5Salty Auger Rod",
+  "nbttag": "{ench:[],Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+80\",1:\"§7Sea Creature Chance: §c+9% §8(Salty +3%)\",2:\"\",3:\"§9Angler VI, §9Blessing V\",4:\"§9Caster VI, §9Frail VI\",5:\"§9Looting IV, §9Luck of the Sea VI\",6:\"§9Lure VI, §9Magnet VI\",7:\"§9Spiked Hook VI, §9Telekinesis I\",8:\"\",9:\"§7Breaks nearby ice blocks where\",10:\"§7it lands.\",11:\"\",12:\"§7Triples the chance of the sea\",13:\"§7creatures that you spawn to be\",14:\"§7winter sea creatures.\",15:\"\",16:\"§7Increases fishing speed by §950%\",17:\"\",18:\"§5§lEPIC FISHING ROD\"],Name:\"§5Salty Auger Rod\"},ExtraAttributes:{modifier:\"salty\",id:\"AUGER_ROD\",enchantments:{caster:6,spiked_hook:6,looting:4,frail:6,angler:6,telekinesis:1,luck_of_the_sea:6,magnet:6,lure:6,blessing:5},anvil_uses:1}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+80",
+    "§7Sea Creature Chance: §c+9% §8(Salty +3%)",
+    "",
+    "§9Angler VI, §9Blessing V",
+    "§9Caster VI, §9Frail VI",
+    "§9Looting IV, §9Luck of the Sea VI",
+    "§9Lure VI, §9Magnet VI",
+    "§9Spiked Hook VI, §9Telekinesis I",
     "",
     "§7Breaks nearby ice blocks where",
     "§7it lands.",
@@ -15,7 +22,6 @@
     "",
     "§7Increases fishing speed by §950%",
     "",
-    "§7§8This item can be reforged!",
     "§5§lEPIC FISHING ROD"
   ],
   "recipe": {
