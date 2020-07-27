@@ -502,7 +502,8 @@
                     15.0
                 ],
                 "statNums": {
-                    "INTELLIGENCE": 1.0
+                    "INTELLIGENCE": 1.0,
+                    "SEA_CREATURE_CHANCE": 0.0
                 }
             },
             "100": {
@@ -512,7 +513,8 @@
                     15.0
                 ],
                 "statNums": {
-                    "INTELLIGENCE": 100.0
+                    "INTELLIGENCE": 100.0,
+                    "SEA_CREATURE_CHANCE": 4.304347826086957
                 }
             },
             "interp": "1:70"
@@ -526,7 +528,8 @@
                     0.1
                 ],
                 "statNums": {
-                    "INTELLIGENCE": 1.0
+                    "INTELLIGENCE": 1.0,
+                    "SEA_CREATURE_CHANCE": 0.0
                 }
             },
             "100": {
@@ -537,7 +540,8 @@
                     10.0
                 ],
                 "statNums": {
-                    "INTELLIGENCE": 100.0
+                    "INTELLIGENCE": 100.0,
+                    "SEA_CREATURE_CHANCE": 5.0
                 }
             },
             "interp": "1:100"
@@ -552,7 +556,8 @@
                     5.0
                 ],
                 "statNums": {
-                    "INTELLIGENCE": 1.0
+                    "INTELLIGENCE": 1.0,
+                    "SEA_CREATURE_CHANCE": 0.0
                 }
             },
             "100": {
@@ -564,7 +569,8 @@
                     5.0
                 ],
                 "statNums": {
-                    "INTELLIGENCE": 100.0
+                    "INTELLIGENCE": 100.0,
+                    "SEA_CREATURE_CHANCE": 4.351648351648351
                 }
             },
             "interp": "1:92"
@@ -578,7 +584,8 @@
                     0.1
                 ],
                 "statNums": {
-                    "INTELLIGENCE": 1.0
+                    "INTELLIGENCE": 1.0,
+                    "SEA_CREATURE_CHANCE": 0.0
                 }
             },
             "100": {
@@ -589,7 +596,8 @@
                     6.98695652173913
                 ],
                 "statNums": {
-                    "INTELLIGENCE": 100.0
+                    "INTELLIGENCE": 100.0,
+                    "SEA_CREATURE_CHANCE": 4.304347826086957
                 }
             },
             "interp": "1:93"
@@ -602,7 +610,8 @@
                     20.0
                 ],
                 "statNums": {
-                    "INTELLIGENCE": 1.0
+                    "INTELLIGENCE": 1.0,
+                    "SEA_CREATURE_CHANCE": 0.0
                 }
             },
             "100": {
@@ -612,7 +621,8 @@
                     20.0
                 ],
                 "statNums": {
-                    "INTELLIGENCE": 100.0
+                    "INTELLIGENCE": 100.0,
+                    "SEA_CREATURE_CHANCE": 4.125
                 }
             },
             "interp": "1:73"
@@ -755,13 +765,17 @@
                 "otherNums": [
                     0.1
                 ],
-                "statNums": {}
+                "statNums": {
+                    "CRIT_DAMAGE": 0.0
+                }
             },
             "100": {
                 "otherNums": [
                     10.0
                 ],
-                "statNums": {}
+                "statNums": {
+                    "CRIT_DAMAGE": 74.57142857142857
+                }
             },
             "interp": "1:78"
         },
@@ -772,7 +786,9 @@
                     0.5,
                     5.0
                 ],
-                "statNums": {}
+                "statNums": {
+                    "CRIT_DAMAGE": 0.0
+                }
             },
             "100": {
                 "otherNums": [
@@ -780,7 +796,9 @@
                     50.0,
                     5.0
                 ],
-                "statNums": {}
+                "statNums": {
+                    "CRIT_DAMAGE": 74.68699839486358
+                }
             },
             "interp": "1:90"
         },
@@ -792,7 +810,9 @@
                     5.0,
                     0.18028169014084572
                 ],
-                "statNums": {}
+                "statNums": {
+                    "CRIT_DAMAGE": 0
+                }
             },
             "100": {
                 "otherNums": [
@@ -801,7 +821,9 @@
                     5.0,
                     25.0
                 ],
-                "statNums": {}
+                "statNums": {
+                    "CRIT_DAMAGE": 75.0
+                }
             },
             "interp": "29:100"
         },
@@ -812,7 +834,9 @@
                     0.4,
                     5.0
                 ],
-                "statNums": {}
+                "statNums": {
+                    "CRIT_DAMAGE": 0.0
+                }
             },
             "100": {
                 "otherNums": [
@@ -820,7 +844,9 @@
                     40.0,
                     5.0
                 ],
-                "statNums": {}
+                "statNums": {
+                    "CRIT_DAMAGE": 74.58904109589041
+                }
             },
             "interp": "1:74"
         },
@@ -829,13 +855,17 @@
                 "otherNums": [
                     0.2
                 ],
-                "statNums": {}
+                "statNums": {
+                    "CRIT_DAMAGE": 0.0
+                }
             },
             "100": {
                 "otherNums": [
                     20.0
                 ],
-                "statNums": {}
+                "statNums": {
+                    "CRIT_DAMAGE": 75.0
+                }
             },
             "interp": "1:67"
         }
@@ -897,6 +927,8 @@
                     0.3
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 0.0,
+                    "CRIT_DAMAGE": 0.0,
                     "STRENGTH": 0.0
                 }
             },
@@ -907,6 +939,8 @@
                     30.0
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 10.0,
+                    "CRIT_DAMAGE": 50.0,
                     "STRENGTH": 50.0
                 }
             },
@@ -921,6 +955,8 @@
                     0.1
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 0.0,
+                    "CRIT_DAMAGE": 0.0,
                     "STRENGTH": 0.0
                 }
             },
@@ -932,6 +968,8 @@
                     10.0
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 10.0,
+                    "CRIT_DAMAGE": 50.0,
                     "STRENGTH": 50.0
                 }
             },
@@ -1046,6 +1084,7 @@
                     0.1
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 0.0,
                     "HEALTH": 1.0
                 }
             },
@@ -1054,6 +1093,7 @@
                     4.879310344827586
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 3.413793103448276,
                     "HEALTH": 100.0
                 }
             },
@@ -1067,6 +1107,7 @@
                     20.2
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 0.0,
                     "HEALTH": 1.0
                 }
             },
@@ -1077,6 +1118,7 @@
                     45.03684210526316
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 3.473684210526316,
                     "HEALTH": 100.0
                 }
             },
@@ -1091,6 +1133,7 @@
                     0.2
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 0.0,
                     "HEALTH": 1.0
                 }
             },
@@ -1102,6 +1145,7 @@
                     25.0
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 5.0,
                     "HEALTH": 100.0
                 }
             },
@@ -1115,6 +1159,7 @@
                     20.1
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 0.0,
                     "HEALTH": 1.0
                 }
             },
@@ -1125,6 +1170,7 @@
                     30.0
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 4.040816326530612,
                     "HEALTH": 100.0
                 }
             },
@@ -1136,6 +1182,7 @@
                     0.1
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 0.0,
                     "HEALTH": 1.0
                 }
             },
@@ -1144,6 +1191,7 @@
                     10.0
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 3.735849056603773,
                     "HEALTH": 100.0
                 }
             },
@@ -1404,6 +1452,7 @@
                     0.1
                 ],
                 "statNums": {
+                    "BONUS_ATTACK_SPEED": 0.0,
                     "STRENGTH": 0.0
                 }
             },
@@ -1413,6 +1462,7 @@
                     10.0
                 ],
                 "statNums": {
+                    "BONUS_ATTACK_SPEED": 14.60655737704918,
                     "STRENGTH": 38.950819672131146
                 }
             },
@@ -1426,6 +1476,7 @@
                     0.1
                 ],
                 "statNums": {
+                    "BONUS_ATTACK_SPEED": 0.0,
                     "STRENGTH": 0.0
                 }
             },
@@ -1436,6 +1487,7 @@
                     10.0
                 ],
                 "statNums": {
+                    "BONUS_ATTACK_SPEED": 15.0,
                     "STRENGTH": 40.0
                 }
             },
@@ -1938,6 +1990,7 @@
                     5.3
                 ],
                 "statNums": {
+                    "CRIT_DAMAGE": 0.0,
                     "INTELLIGENCE": 1.0
                 }
             },
@@ -1947,6 +2000,7 @@
                     40.0
                 ],
                 "statNums": {
+                    "CRIT_DAMAGE": 10.0,
                     "INTELLIGENCE": 100.0
                 }
             },
@@ -1961,6 +2015,7 @@
                     20.0
                 ],
                 "statNums": {
+                    "CRIT_DAMAGE": 0.0,
                     "INTELLIGENCE": 1.0
                 }
             },
@@ -1972,6 +2027,7 @@
                     20.0
                 ],
                 "statNums": {
+                    "CRIT_DAMAGE": 10.0,
                     "INTELLIGENCE": 100.0
                 }
             },
@@ -2282,7 +2338,8 @@
                     15.0
                 ],
                 "statNums": {
-                    "DEFENSE": 2.0
+                    "DEFENSE": 2.0,
+                    "TRUE_DEFENSE": 0.0
                 }
             },
             "100": {
@@ -2290,7 +2347,8 @@
                     15.0
                 ],
                 "statNums": {
-                    "DEFENSE": 200.0
+                    "DEFENSE": 200.0,
+                    "TRUE_DEFENSE": 10.025316455696203
                 }
             },
             "interp": "1:80"
@@ -2303,7 +2361,8 @@
                     0.29999999999999893
                 ],
                 "statNums": {
-                    "DEFENSE": 2.0
+                    "DEFENSE": 2.0,
+                    "TRUE_DEFENSE": 0
                 }
             },
             "100": {
@@ -2313,7 +2372,8 @@
                     30.0
                 ],
                 "statNums": {
-                    "DEFENSE": 200.0
+                    "DEFENSE": 200.0,
+                    "TRUE_DEFENSE": 10.0
                 }
             },
             "interp": "44:100"
@@ -2325,7 +2385,8 @@
                     0.2
                 ],
                 "statNums": {
-                    "DEFENSE": 2.0
+                    "DEFENSE": 2.0,
+                    "TRUE_DEFENSE": 0.0
                 }
             },
             "100": {
@@ -2334,7 +2395,8 @@
                     20.0
                 ],
                 "statNums": {
-                    "DEFENSE": 200.0
+                    "DEFENSE": 200.0,
+                    "TRUE_DEFENSE": 9.209302325581396
                 }
             },
             "interp": "1:87"
@@ -2345,7 +2407,8 @@
                     15.0
                 ],
                 "statNums": {
-                    "DEFENSE": 2.0
+                    "DEFENSE": 2.0,
+                    "TRUE_DEFENSE": 0.0
                 }
             },
             "100": {
@@ -2353,7 +2416,8 @@
                     15.0
                 ],
                 "statNums": {
-                    "DEFENSE": 200.0
+                    "DEFENSE": 200.0,
+                    "TRUE_DEFENSE": 9.9
                 }
             },
             "interp": "1:61"
@@ -2368,6 +2432,7 @@
                     10.0
                 ],
                 "statNums": {
+                    "ABILITY_DAMAGE": 0.0,
                     "INTELLIGENCE": 1.0
                 }
             },
@@ -2378,6 +2443,7 @@
                     10.0
                 ],
                 "statNums": {
+                    "ABILITY_DAMAGE": 50.0,
                     "INTELLIGENCE": 100.0
                 }
             },
@@ -2392,6 +2458,7 @@
                     0.2
                 ],
                 "statNums": {
+                    "ABILITY_DAMAGE": 0.0,
                     "INTELLIGENCE": 1.0
                 }
             },
@@ -2403,6 +2470,7 @@
                     25.0
                 ],
                 "statNums": {
+                    "ABILITY_DAMAGE": 50.0,
                     "INTELLIGENCE": 100.0
                 }
             },
@@ -2528,13 +2596,19 @@
                 "otherNums": [
                     0.1
                 ],
-                "statNums": {}
+                "statNums": {
+                    "CRIT_CHANCE": 0.0,
+                    "CRIT_DAMAGE": 0.0
+                }
             },
             "100": {
                 "otherNums": [
                     10.0
                 ],
-                "statNums": {}
+                "statNums": {
+                    "CRIT_CHANCE": 13.655172413793103,
+                    "CRIT_DAMAGE": 30.724137931034484
+                }
             },
             "interp": "1:30"
         },
@@ -2546,7 +2620,10 @@
                     0.2,
                     8.0
                 ],
-                "statNums": {}
+                "statNums": {
+                    "CRIT_CHANCE": 0.0,
+                    "CRIT_DAMAGE": 0.0
+                }
             },
             "100": {
                 "otherNums": [
@@ -2555,7 +2632,10 @@
                     17.014285714285716,
                     8.0
                 ],
-                "statNums": {}
+                "statNums": {
+                    "CRIT_CHANCE": 14.142857142857142,
+                    "CRIT_DAMAGE": 29.857142857142854
+                }
             },
             "interp": "1:64"
         },
@@ -2569,7 +2649,10 @@
                     60.0,
                     15.0
                 ],
-                "statNums": {}
+                "statNums": {
+                    "CRIT_CHANCE": 0.0,
+                    "CRIT_DAMAGE": 0.0
+                }
             },
             "100": {
                 "otherNums": [
@@ -2580,7 +2663,10 @@
                     60.0,
                     15.0
                 ],
-                "statNums": {}
+                "statNums": {
+                    "CRIT_CHANCE": 14.92857142857143,
+                    "CRIT_DAMAGE": 29.85714285714286
+                }
             },
             "interp": "1:91"
         },
@@ -2589,13 +2675,19 @@
                 "otherNums": [
                     0.1
                 ],
-                "statNums": {}
+                "statNums": {
+                    "CRIT_CHANCE": 0.0,
+                    "CRIT_DAMAGE": 0.0
+                }
             },
             "100": {
                 "otherNums": [
                     14.95
                 ],
-                "statNums": {}
+                "statNums": {
+                    "CRIT_CHANCE": 14.4375,
+                    "CRIT_DAMAGE": 28.875
+                }
             },
             "interp": "1:49"
         }
@@ -2609,10 +2701,7 @@
                     1.5,
                     0.4
                 ],
-                "statNums": {
-					"INTELLIGENCE": 1,
-					"SPEED": 0
-				}
+                "statNums": {}
             },
             "100": {
                 "otherNums": [
@@ -2621,10 +2710,7 @@
                     150.0,
                     40.0
                 ],
-                "statNums": {
-					"INTELLIGENCE": 100,
-					"SPEED": 50
-				}
+                "statNums": {}
             },
             "interp": "1:61"
         }
@@ -2641,11 +2727,7 @@
                     5.0,
                     1.0
                 ],
-                "statNums": {
-					"DAMAGE": 0,
-					"STRENGTH": 0,
-					"CRIT_DAMAGE": 0
-				}
+                "statNums": {}
             },
             "100": {
                 "otherNums": [
@@ -2657,11 +2739,7 @@
                     5.0,
                     1.0
                 ],
-                "statNums": {
-					"DAMAGE": 25,
-					"STRENGTH": 25,
-					"CRIT_DAMAGE": 25
-				}
+                "statNums": {}
             },
             "interp": "1:87"
         }
@@ -2675,6 +2753,7 @@
                     0.4
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 0.0,
                     "STRENGTH": 0.0
                 }
             },
@@ -2685,6 +2764,7 @@
                     40.0
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 9.0,
                     "STRENGTH": 9.0
                 }
             },
@@ -2699,6 +2779,7 @@
                     0.3
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 0.0,
                     "STRENGTH": 0.0
                 }
             },
@@ -2710,6 +2791,7 @@
                     30.0
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 9.428571428571429,
                     "STRENGTH": 9.428571428571429
                 }
             },
@@ -2826,6 +2908,8 @@
                     0.4
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 0.0,
+                    "CRIT_DAMAGE": 0.0,
                     "STRENGTH": 0.0
                 }
             },
@@ -2836,6 +2920,8 @@
                     40.0
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 9.9,
+                    "CRIT_DAMAGE": 29.7,
                     "STRENGTH": 9.9
                 }
             },
@@ -2849,6 +2935,8 @@
                     0.1
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 0.0,
+                    "CRIT_DAMAGE": 0.0,
                     "STRENGTH": 5.0
                 }
             },
@@ -2857,6 +2945,8 @@
                     4.966101694915254
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 5.033898305084746,
+                    "CRIT_DAMAGE": 50.33898305084746,
                     "STRENGTH": 15.067796610169491
                 }
             },
@@ -2870,6 +2960,8 @@
                     10.0
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 0.0,
+                    "CRIT_DAMAGE": 0.0,
                     "STRENGTH": 5.0
                 }
             },
@@ -2880,6 +2972,8 @@
                     10.0
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 4.311846689895471,
+                    "CRIT_DAMAGE": 50.01742160278746,
                     "STRENGTH": 14.658536585365853
                 }
             },
@@ -2895,6 +2989,8 @@
                     15.0
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 0.0,
+                    "CRIT_DAMAGE": 0.0,
                     "STRENGTH": 5.0
                 }
             },
@@ -2907,6 +3003,8 @@
                     15.0
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 5.0,
+                    "CRIT_DAMAGE": 50.0,
                     "STRENGTH": 15.0
                 }
             },
@@ -2920,6 +3018,8 @@
                     10.0
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 0.0,
+                    "CRIT_DAMAGE": 0.0,
                     "STRENGTH": 5.0
                 }
             },
@@ -2930,6 +3030,8 @@
                     10.0
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 4.304347826086957,
+                    "CRIT_DAMAGE": 49.5,
                     "STRENGTH": 14.684782608695652
                 }
             },
@@ -2941,6 +3043,8 @@
                     0.1
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 0.0,
+                    "CRIT_DAMAGE": 0.0,
                     "STRENGTH": 5.0
                 }
             },
@@ -2949,6 +3053,8 @@
                     10.0
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 4.876847290640394,
+                    "CRIT_DAMAGE": 49.581280788177345,
                     "STRENGTH": 14.10344827586207
                 }
             },
@@ -3015,6 +3121,8 @@
                     0.5
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 0.0,
+                    "CRIT_DAMAGE": 0.0,
                     "DEFENSE": 0.0,
                     "INTELLIGENCE": 0.0,
                     "STRENGTH": 0.0
@@ -3026,6 +3134,8 @@
                     50.0
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 3.8076923076923075,
+                    "CRIT_DAMAGE": 24.115384615384613,
                     "DEFENSE": 24.115384615384613,
                     "INTELLIGENCE": 24.115384615384613,
                     "STRENGTH": 24.115384615384613
@@ -3042,6 +3152,8 @@
                     3.0
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 0.0,
+                    "CRIT_DAMAGE": 0.0,
                     "DEFENSE": 0.0,
                     "INTELLIGENCE": 0.0,
                     "STRENGTH": 0.0
@@ -3055,6 +3167,8 @@
                     3.0
                 ],
                 "statNums": {
+                    "CRIT_CHANCE": 5.0,
+                    "CRIT_DAMAGE": 25.0,
                     "DEFENSE": 25.0,
                     "INTELLIGENCE": 25.0,
                     "STRENGTH": 25.0
@@ -3070,8 +3184,10 @@
                     0.09999999999999964
                 ],
                 "statNums": {
+                    "CRIT_DAMAGE": 0,
                     "HEALTH": 0,
-                    "SPEED": 0.1999999999999993
+                    "SPEED": 0.1999999999999993,
+                    "TRUE_DEFENSE": 0
                 }
             },
             "100": {
@@ -3079,8 +3195,10 @@
                     10.0
                 ],
                 "statNums": {
+                    "CRIT_DAMAGE": 9.350649350649352,
                     "HEALTH": 50.0,
-                    "SPEED": 20.0
+                    "SPEED": 20.0,
+                    "TRUE_DEFENSE": 9.636363636363637
                 }
             },
             "interp": "45:60"
@@ -3093,8 +3211,10 @@
                     10.0
                 ],
                 "statNums": {
+                    "CRIT_DAMAGE": 0.0,
                     "HEALTH": 0.0,
-                    "SPEED": 0.0
+                    "SPEED": 0.0,
+                    "TRUE_DEFENSE": 0.0
                 }
             },
             "100": {
@@ -3104,8 +3224,10 @@
                     10.0
                 ],
                 "statNums": {
+                    "CRIT_DAMAGE": 9.138461538461538,
                     "HEALTH": 50.261538461538464,
-                    "SPEED": 19.8
+                    "SPEED": 19.8,
+                    "TRUE_DEFENSE": 9.138461538461538
                 }
             },
             "interp": "1:66"
@@ -3119,8 +3241,10 @@
                     0.3
                 ],
                 "statNums": {
+                    "CRIT_DAMAGE": 0.0,
                     "HEALTH": 0.0,
-                    "SPEED": 0.0
+                    "SPEED": 0.0,
+                    "TRUE_DEFENSE": 0.0
                 }
             },
             "100": {
@@ -3131,8 +3255,10 @@
                     30.0
                 ],
                 "statNums": {
+                    "CRIT_DAMAGE": 10.0,
                     "HEALTH": 50.0,
-                    "SPEED": 20.0
+                    "SPEED": 20.0,
+                    "TRUE_DEFENSE": 10.0
                 }
             },
             "interp": "1:100"
@@ -3147,6 +3273,7 @@
                     0.2
                 ],
                 "statNums": {
+                    "CRIT_DAMAGE": 0.0,
                     "HEALTH": 1.0
                 }
             },
@@ -3157,6 +3284,7 @@
                     20.0
                 ],
                 "statNums": {
+                    "CRIT_DAMAGE": 29.526315789473685,
                     "HEALTH": 100.0
                 }
             },
