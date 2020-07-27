@@ -2611,7 +2611,7 @@
                 ],
                 "statNums": {
 					"INTELLIGENCE": 1,
-					"SPEED": 0,
+					"SPEED": 0
 				}
             },
             "100": {
@@ -2623,7 +2623,7 @@
                 ],
                 "statNums": {
 					"INTELLIGENCE": 100,
-					"SPEED": 50,
+					"SPEED": 50
 				}
             },
             "interp": "1:61"
@@ -2641,7 +2641,11 @@
                     5.0,
                     1.0
                 ],
-                "statNums": {}
+                "statNums": {
+					"DAMAGE": 0,
+					"STRENGTH": 0,
+					"CRIT_DAMAGE": 0
+				}
             },
             "100": {
                 "otherNums": [
@@ -2653,7 +2657,11 @@
                     5.0,
                     1.0
                 ],
-                "statNums": {}
+                "statNums": {
+					"DAMAGE": 25,
+					"STRENGTH": 25,
+					"CRIT_DAMAGE": 25
+				}
             },
             "interp": "1:87"
         }
