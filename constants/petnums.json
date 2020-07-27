@@ -134,45 +134,45 @@
         "EPIC": {
             "1": {
                 "otherNums": [
-                    1.0634146341463406,
-                    1.1560975609756095,
+                    1.1,
+                    1.1,
                     15.0,
                     1.0
                 ],
                 "statNums": {
-                    "INTELLIGENCE": 0.8048780487804876,
-                    "SPEED": 0,
-                    "STRENGTH": 4.902439024390244
+                    "INTELLIGENCE": 0.0,
+                    "SPEED": 0.0,
+                    "STRENGTH": 5.0
                 }
             },
             "100": {
                 "otherNums": [
-                    15.068292682926831,
-                    12.021951219512196,
+                    15.05,
+                    12.05,
                     15.0,
                     100.0
                 ],
                 "statNums": {
-                    "INTELLIGENCE": 49.09756097560975,
-                    "SPEED": 8.64,
-                    "STRENGTH": 29.048780487804876
+                    "INTELLIGENCE": 49.5,
+                    "SPEED": 9.0,
+                    "STRENGTH": 29.0
                 }
             },
-            "interp": "26:67"
+            "interp": "1:67"
         },
         "LEGENDARY": {
             "1": {
                 "otherNums": [
-                    1.2125,
-                    1.1625,
+                    1.2,
+                    1.1,
                     15.0,
                     1.0,
                     5.2
                 ],
                 "statNums": {
-                    "INTELLIGENCE": 0.5,
-                    "SPEED": 0,
-                    "STRENGTH": 5.25
+                    "INTELLIGENCE": 0.0,
+                    "SPEED": 0.0,
+                    "STRENGTH": 5.0
                 }
             },
             "100": {
@@ -189,7 +189,7 @@
                     "STRENGTH": 30.0
                 }
             },
-            "interp": "12:100"
+            "interp": "1:100"
         },
         "RARE": {
             "1": {
@@ -226,26 +226,26 @@
             "1": {
                 "otherNums": [
                     1.0,
-                    0.2129032258064516,
-                    0.2129032258064516
+                    0.1,
+                    0.1
                 ],
                 "statNums": {
                     "INTELLIGENCE": 1.0,
-                    "SPEED": 1.193548387096774
+                    "SPEED": 0.0
                 }
             },
             "100": {
                 "otherNums": [
                     100.0,
-                    14.903225806451612,
-                    14.903225806451612
+                    15.0,
+                    15.0
                 ],
                 "statNums": {
                     "INTELLIGENCE": 100.0,
-                    "SPEED": 23.548387096774192
+                    "SPEED": 25.0
                 }
             },
-            "interp": "40:71"
+            "interp": "1:100"
         }
     },
     "BLAZE": {
@@ -297,6 +297,25 @@
         }
     },
     "BLUE_WHALE": {
+        "COMMON": {
+            "1": {
+                "otherNums": [
+                    0.5
+                ],
+                "statNums": {
+                    "HEALTH": 2.0
+                }
+            },
+            "100": {
+                "otherNums": [
+                    50.0
+                ],
+                "statNums": {
+                    "HEALTH": 200.0
+                }
+            },
+            "interp": "1:64"
+        },
         "EPIC": {
             "1": {
                 "otherNums": [
@@ -311,14 +330,14 @@
             "100": {
                 "otherNums": [
                     200.0,
-                    3.046153846153846,
+                    3.057352941176471,
                     25.0
                 ],
                 "statNums": {
                     "HEALTH": 200.0
                 }
             },
-            "interp": "1:66"
+            "interp": "1:69"
         },
         "LEGENDARY": {
             "1": {
@@ -359,14 +378,14 @@
             "100": {
                 "otherNums": [
                     150.0,
-                    3.1499999999999995,
+                    3.005357142857143,
                     30.0
                 ],
                 "statNums": {
                     "HEALTH": 200.0
                 }
             },
-            "interp": "1:45"
+            "interp": "1:57"
         },
         "UNCOMMON": {
             "1": {
@@ -385,7 +404,7 @@
                     "HEALTH": 200.0
                 }
             },
-            "interp": "1:40"
+            "interp": "1:53"
         }
     },
     "CHICKEN": {
@@ -446,13 +465,13 @@
             "100": {
                 "otherNums": [
                     40.0,
-                    74.75882352941176
+                    74.66923076923077
                 ],
                 "statNums": {
                     "HEALTH": 200.0
                 }
             },
-            "interp": "1:18"
+            "interp": "1:27"
         },
         "UNCOMMON": {
             "1": {
@@ -483,8 +502,7 @@
                     15.0
                 ],
                 "statNums": {
-                    "INTELLIGENCE": 1.0,
-                    "SEA_CREATURE_CHANCE": 0.0
+                    "INTELLIGENCE": 1.0
                 }
             },
             "100": {
@@ -494,8 +512,7 @@
                     15.0
                 ],
                 "statNums": {
-                    "INTELLIGENCE": 100.0,
-                    "SEA_CREATURE_CHANCE": 4.304347826086957
+                    "INTELLIGENCE": 100.0
                 }
             },
             "interp": "1:70"
@@ -509,8 +526,7 @@
                     0.1
                 ],
                 "statNums": {
-                    "INTELLIGENCE": 1.0,
-                    "SEA_CREATURE_CHANCE": 0.0
+                    "INTELLIGENCE": 1.0
                 }
             },
             "100": {
@@ -521,8 +537,7 @@
                     10.0
                 ],
                 "statNums": {
-                    "INTELLIGENCE": 100.0,
-                    "SEA_CREATURE_CHANCE": 5.0
+                    "INTELLIGENCE": 100.0
                 }
             },
             "interp": "1:100"
@@ -537,8 +552,7 @@
                     5.0
                 ],
                 "statNums": {
-                    "INTELLIGENCE": 1.0,
-                    "SEA_CREATURE_CHANCE": 0.0
+                    "INTELLIGENCE": 1.0
                 }
             },
             "100": {
@@ -550,8 +564,7 @@
                     5.0
                 ],
                 "statNums": {
-                    "INTELLIGENCE": 100.0,
-                    "SEA_CREATURE_CHANCE": 4.351648351648351
+                    "INTELLIGENCE": 100.0
                 }
             },
             "interp": "1:92"
@@ -565,8 +578,7 @@
                     0.1
                 ],
                 "statNums": {
-                    "INTELLIGENCE": 1.0,
-                    "SEA_CREATURE_CHANCE": 0.0
+                    "INTELLIGENCE": 1.0
                 }
             },
             "100": {
@@ -577,8 +589,7 @@
                     6.98695652173913
                 ],
                 "statNums": {
-                    "INTELLIGENCE": 100.0,
-                    "SEA_CREATURE_CHANCE": 4.304347826086957
+                    "INTELLIGENCE": 100.0
                 }
             },
             "interp": "1:93"
@@ -591,22 +602,20 @@
                     20.0
                 ],
                 "statNums": {
-                    "INTELLIGENCE": 1.0,
-                    "SEA_CREATURE_CHANCE": 0.0
+                    "INTELLIGENCE": 1.0
                 }
             },
             "100": {
                 "otherNums": [
-                    3.9895522388059703,
+                    3.9875,
                     10.0,
                     20.0
                 ],
                 "statNums": {
-                    "INTELLIGENCE": 100.0,
-                    "SEA_CREATURE_CHANCE": 4.432835820895522
+                    "INTELLIGENCE": 100.0
                 }
             },
-            "interp": "1:68"
+            "interp": "1:73"
         }
     },
     "ELEPHANT": {
@@ -648,17 +657,17 @@
             },
             "100": {
                 "otherNums": [
-                    20.000000000000004,
+                    20.0,
                     100.0,
-                    0.9209302325581395,
+                    1.0421052631578946,
                     10.0
                 ],
                 "statNums": {
                     "HEALTH": 100.0,
-                    "INTELLIGENCE": 75.97674418604652
+                    "INTELLIGENCE": 75.03157894736842
                 }
             },
-            "interp": "1:44"
+            "interp": "1:96"
         },
         "LEGENDARY": {
             "1": {
@@ -704,17 +713,17 @@
             },
             "100": {
                 "otherNums": [
-                    15.070731707317073,
+                    15.028571428571428,
                     100.0,
-                    0.724390243902439,
+                    0.7857142857142857,
                     10.0
                 ],
                 "statNums": {
                     "HEALTH": 100.0,
-                    "INTELLIGENCE": 74.85365853658536
+                    "INTELLIGENCE": 75.42857142857143
                 }
             },
-            "interp": "1:42"
+            "interp": "1:64"
         },
         "UNCOMMON": {
             "1": {
@@ -729,7 +738,7 @@
             },
             "100": {
                 "otherNums": [
-                    15.362499999999997,
+                    14.95,
                     100.0
                 ],
                 "statNums": {
@@ -737,7 +746,7 @@
                     "INTELLIGENCE": 74.25
                 }
             },
-            "interp": "1:25"
+            "interp": "1:41"
         }
     },
     "ENDERMAN": {
@@ -746,17 +755,13 @@
                 "otherNums": [
                     0.1
                 ],
-                "statNums": {
-                    "CRIT_DAMAGE": 0.0
-                }
+                "statNums": {}
             },
             "100": {
                 "otherNums": [
                     10.0
                 ],
-                "statNums": {
-                    "CRIT_DAMAGE": 74.57142857142857
-                }
+                "statNums": {}
             },
             "interp": "1:78"
         },
@@ -767,9 +772,7 @@
                     0.5,
                     5.0
                 ],
-                "statNums": {
-                    "CRIT_DAMAGE": 0.0
-                }
+                "statNums": {}
             },
             "100": {
                 "otherNums": [
@@ -777,9 +780,7 @@
                     50.0,
                     5.0
                 ],
-                "statNums": {
-                    "CRIT_DAMAGE": 74.68699839486358
-                }
+                "statNums": {}
             },
             "interp": "1:90"
         },
@@ -791,9 +792,7 @@
                     5.0,
                     0.18028169014084572
                 ],
-                "statNums": {
-                    "CRIT_DAMAGE": 0
-                }
+                "statNums": {}
             },
             "100": {
                 "otherNums": [
@@ -802,9 +801,7 @@
                     5.0,
                     25.0
                 ],
-                "statNums": {
-                    "CRIT_DAMAGE": 75.0
-                }
+                "statNums": {}
             },
             "interp": "29:100"
         },
@@ -815,9 +812,7 @@
                     0.4,
                     5.0
                 ],
-                "statNums": {
-                    "CRIT_DAMAGE": 0.0
-                }
+                "statNums": {}
             },
             "100": {
                 "otherNums": [
@@ -825,30 +820,24 @@
                     40.0,
                     5.0
                 ],
-                "statNums": {
-                    "CRIT_DAMAGE": 74.95714285714286
-                }
+                "statNums": {}
             },
-            "interp": "1:71"
+            "interp": "1:74"
         },
         "UNCOMMON": {
             "1": {
                 "otherNums": [
                     0.2
                 ],
-                "statNums": {
-                    "CRIT_DAMAGE": 0.0
-                }
+                "statNums": {}
             },
             "100": {
                 "otherNums": [
                     20.0
                 ],
-                "statNums": {
-                    "CRIT_DAMAGE": 75.04838709677419
-                }
+                "statNums": {}
             },
-            "interp": "1:63"
+            "interp": "1:67"
         }
     },
     "ENDERMITE": {
@@ -903,14 +892,12 @@
         "EPIC": {
             "1": {
                 "otherNums": [
-                    0.25,
+                    0.2,
                     0.5,
-                    0.3000000000000007
+                    0.3
                 ],
                 "statNums": {
-                    "CRIT_CHANCE": 0,
-                    "CRIT_DAMAGE": 0.5,
-                    "STRENGTH": 0.5
+                    "STRENGTH": 0.0
                 }
             },
             "100": {
@@ -920,12 +907,10 @@
                     30.0
                 ],
                 "statNums": {
-                    "CRIT_CHANCE": 10.0,
-                    "CRIT_DAMAGE": 50.0,
                     "STRENGTH": 50.0
                 }
             },
-            "interp": "52:100"
+            "interp": "1:100"
         },
         "LEGENDARY": {
             "1": {
@@ -936,8 +921,6 @@
                     0.1
                 ],
                 "statNums": {
-                    "CRIT_CHANCE": 0.0,
-                    "CRIT_DAMAGE": 0.0,
                     "STRENGTH": 0.0
                 }
             },
@@ -949,8 +932,6 @@
                     10.0
                 ],
                 "statNums": {
-                    "CRIT_CHANCE": 10.0,
-                    "CRIT_DAMAGE": 50.0,
                     "STRENGTH": 50.0
                 }
             },
@@ -995,40 +976,18 @@
             },
             "100": {
                 "otherNums": [
-                    15.008235294117647,
+                    15.006896551724138,
                     50.0,
                     30.0
                 ],
                 "statNums": {
-                    "DEFENSE": 50.08235294117647,
-                    "STRENGTH": 50.08235294117647
+                    "DEFENSE": 50.06896551724138,
+                    "STRENGTH": 50.06896551724138
                 }
             },
-            "interp": "1:86"
+            "interp": "1:88"
         },
-        "RARE": {
-            "1": {
-                "otherNums": [
-                    0.1,
-                    0.4
-                ],
-                "statNums": {
-                    "DEFENSE": 0.0,
-                    "STRENGTH": 0.0
-                }
-            },
-            "100": {
-                "otherNums": [
-                    12.523529411764706,
-                    40.0
-                ],
-                "statNums": {
-                    "DEFENSE": 50.470588235294116,
-                    "STRENGTH": 50.470588235294116
-                }
-            },
-            "interp": "1:52"
-        }
+        "RARE": {}
     },
     "GHOUL": {
         "EPIC": {
@@ -1052,7 +1011,7 @@
                     "INTELLIGENCE": 74.25
                 }
             },
-            "interp": "1:45"
+            "interp": "1:57"
         },
         "LEGENDARY": {
             "1": {
@@ -1087,20 +1046,18 @@
                     0.1
                 ],
                 "statNums": {
-                    "CRIT_CHANCE": 0.0,
                     "HEALTH": 1.0
                 }
             },
             "100": {
                 "otherNums": [
-                    5.050000000000001
+                    4.879310344827586
                 ],
                 "statNums": {
-                    "CRIT_CHANCE": 3.8076923076923075,
                     "HEALTH": 100.0
                 }
             },
-            "interp": "1:53"
+            "interp": "1:59"
         },
         "EPIC": {
             "1": {
@@ -1110,7 +1067,6 @@
                     20.2
                 ],
                 "statNums": {
-                    "CRIT_CHANCE": 0.0,
                     "HEALTH": 1.0
                 }
             },
@@ -1121,11 +1077,35 @@
                     45.03684210526316
                 ],
                 "statNums": {
-                    "CRIT_CHANCE": 3.473684210526316,
                     "HEALTH": 100.0
                 }
             },
             "interp": "1:58"
+        },
+        "LEGENDARY": {
+            "1": {
+                "otherNums": [
+                    0.2,
+                    0.5,
+                    20.4,
+                    0.2
+                ],
+                "statNums": {
+                    "HEALTH": 1.0
+                }
+            },
+            "100": {
+                "otherNums": [
+                    25.0,
+                    50.0,
+                    60.0,
+                    25.0
+                ],
+                "statNums": {
+                    "HEALTH": 100.0
+                }
+            },
+            "interp": "1:100"
         },
         "RARE": {
             "1": {
@@ -1135,7 +1115,6 @@
                     20.1
                 ],
                 "statNums": {
-                    "CRIT_CHANCE": 0.0,
                     "HEALTH": 1.0
                 }
             },
@@ -1146,7 +1125,6 @@
                     30.0
                 ],
                 "statNums": {
-                    "CRIT_CHANCE": 4.040816326530612,
                     "HEALTH": 100.0
                 }
             },
@@ -1158,7 +1136,6 @@
                     0.1
                 ],
                 "statNums": {
-                    "CRIT_CHANCE": 0.0,
                     "HEALTH": 1.0
                 }
             },
@@ -1167,7 +1144,6 @@
                     10.0
                 ],
                 "statNums": {
-                    "CRIT_CHANCE": 3.735849056603773,
                     "HEALTH": 100.0
                 }
             },
@@ -1246,15 +1222,15 @@
             },
             "100": {
                 "otherNums": [
-                    1.9368421052631577,
+                    1.9068965517241379,
                     3.0
                 ],
                 "statNums": {
-                    "DEFENSE": 50.368421052631575,
+                    "DEFENSE": 49.5,
                     "INTELLIGENCE": 100.0
                 }
             },
-            "interp": "1:58"
+            "interp": "1:59"
         },
         "EPIC": {
             "1": {
@@ -1414,10 +1390,10 @@
                 "otherNums": [],
                 "statNums": {
                     "INTELLIGENCE": 49.5,
-                    "SPEED": 22.846153846153847
+                    "SPEED": 24.75
                 }
             },
-            "interp": "1:27"
+            "interp": "1:41"
         }
     },
     "HOUND": {
@@ -1428,21 +1404,19 @@
                     0.1
                 ],
                 "statNums": {
-                    "BONUS_ATTACK_SPEED": 0.0,
                     "STRENGTH": 0.0
                 }
             },
             "100": {
                 "otherNums": [
-                    4.952941176470588,
+                    4.968852459016393,
                     10.0
                 ],
                 "statNums": {
-                    "BONUS_ATTACK_SPEED": 13.588235294117649,
-                    "STRENGTH": 38.82352941176471
+                    "STRENGTH": 38.950819672131146
                 }
             },
-            "interp": "1:52"
+            "interp": "1:62"
         },
         "LEGENDARY": {
             "1": {
@@ -1452,7 +1426,6 @@
                     0.1
                 ],
                 "statNums": {
-                    "BONUS_ATTACK_SPEED": 0.0,
                     "STRENGTH": 0.0
                 }
             },
@@ -1463,7 +1436,6 @@
                     10.0
                 ],
                 "statNums": {
-                    "BONUS_ATTACK_SPEED": 15.0,
                     "STRENGTH": 40.0
                 }
             },
@@ -1573,7 +1545,7 @@
                     "INTELLIGENCE": -100.0
                 }
             },
-            "interp": "1:34"
+            "interp": "1:41"
         },
         "LEGENDARY": {
             "1": {
@@ -1590,13 +1562,13 @@
                 "otherNums": [
                     50.0,
                     100.0,
-                    7.071428571428571
+                    9.580645161290322
                 ],
                 "statNums": {
                     "INTELLIGENCE": -100.0
                 }
             },
-            "interp": "1:29"
+            "interp": "1:32"
         },
         "RARE": {
             "1": {
@@ -1644,6 +1616,56 @@
             },
             "interp": "6:77"
         },
+        "LEGENDARY": {
+            "1": {
+                "otherNums": [
+                    0.1999999999999975,
+                    0.5,
+                    0.3000000000000007,
+                    80.0
+                ],
+                "statNums": {
+                    "SPEED": 0,
+                    "STRENGTH": 0.5
+                }
+            },
+            "100": {
+                "otherNums": [
+                    20.0,
+                    50.0,
+                    30.0,
+                    80.0
+                ],
+                "statNums": {
+                    "SPEED": 24.333333333333332,
+                    "STRENGTH": 50.0
+                }
+            },
+            "interp": "46:70"
+        },
+        "RARE": {
+            "1": {
+                "otherNums": [
+                    0.1,
+                    0.3
+                ],
+                "statNums": {
+                    "SPEED": 0.0,
+                    "STRENGTH": 0.0
+                }
+            },
+            "100": {
+                "otherNums": [
+                    10.0,
+                    30.0
+                ],
+                "statNums": {
+                    "SPEED": 23.89655172413793,
+                    "STRENGTH": 49.5
+                }
+            },
+            "interp": "1:59"
+        },
         "UNCOMMON": {
             "1": {
                 "otherNums": [
@@ -1656,14 +1678,14 @@
             },
             "100": {
                 "otherNums": [
-                    5.05
+                    4.852
                 ],
                 "statNums": {
-                    "SPEED": 24.75,
+                    "SPEED": 23.759999999999998,
                     "STRENGTH": 49.5
                 }
             },
-            "interp": "1:49"
+            "interp": "1:51"
         }
     },
     "MAGMA_CUBE": {
@@ -1722,28 +1744,29 @@
         "RARE": {
             "1": {
                 "otherNums": [
-                    0.23225806451612874,
-                    0.20000000000000018
+                    0.2,
+                    0.2
                 ],
                 "statNums": {
-                    "DEFENSE": 0.4516129032258065,
-                    "HEALTH": 0.67741935483871,
-                    "STRENGTH": 0
+                    "DEFENSE": 0.0,
+                    "HEALTH": 0.0,
+                    "STRENGTH": 0.0
                 }
             },
             "100": {
                 "otherNums": [
-                    25.14193548387097,
+                    25.18571428571429,
                     20.0
                 ],
                 "statNums": {
-                    "DEFENSE": 32.38709677419355,
-                    "HEALTH": 48.58064516129032,
-                    "STRENGTH": 18.363636363636363
+                    "DEFENSE": 33.0,
+                    "HEALTH": 49.5,
+                    "STRENGTH": 18.857142857142854
                 }
             },
-            "interp": "12:43"
-        }
+            "interp": "1:43"
+        },
+        "UNCOMMON": {}
     },
     "MONKEY": {
         "COMMON": {
@@ -1904,7 +1927,8 @@
                 }
             },
             "interp": "1:100"
-        }
+        },
+        "UNCOMMON": {}
     },
     "PARROT": {
         "EPIC": {
@@ -1914,7 +1938,6 @@
                     5.3
                 ],
                 "statNums": {
-                    "CRIT_DAMAGE": 0.0,
                     "INTELLIGENCE": 1.0
                 }
             },
@@ -1924,7 +1947,6 @@
                     40.0
                 ],
                 "statNums": {
-                    "CRIT_DAMAGE": 10.0,
                     "INTELLIGENCE": 100.0
                 }
             },
@@ -1939,7 +1961,6 @@
                     20.0
                 ],
                 "statNums": {
-                    "CRIT_DAMAGE": 0.0,
                     "INTELLIGENCE": 1.0
                 }
             },
@@ -1951,7 +1972,6 @@
                     20.0
                 ],
                 "statNums": {
-                    "CRIT_DAMAGE": 10.0,
                     "INTELLIGENCE": 100.0
                 }
             },
@@ -1977,49 +1997,49 @@
             "100": {
                 "otherNums": [
                     20.0,
-                    4.052439024390244,
+                    3.98,
                     3.0,
                     4.0,
-                    13.052439024390244,
-                    4.414634146341464
+                    12.98,
+                    4.2
                 ],
                 "statNums": {
                     "INTELLIGENCE": 150.0,
                     "STRENGTH": 59.5
                 }
             },
-            "interp": "1:83"
+            "interp": "1:91"
         },
         "LEGENDARY": {
             "1": {
                 "otherNums": [
-                    15.15,
-                    1.9958333333333336,
+                    15.2,
+                    2.0,
                     3.0,
                     4.0,
-                    1.1520833333333336,
-                    2.3958333333333335
+                    1.1,
+                    2.0
                 ],
                 "statNums": {
                     "INTELLIGENCE": 51.0,
-                    "STRENGTH": 10.5
+                    "STRENGTH": 10.0
                 }
             },
             "100": {
                 "otherNums": [
-                    30.0,
-                    4.058333333333334,
+                    29.985714285714284,
+                    4.057142857142857,
                     3.0,
                     4.0,
-                    14.970833333333333,
-                    4.458333333333333
+                    14.985714285714288,
+                    4.571428571428571
                 ],
                 "statNums": {
                     "INTELLIGENCE": 150.0,
-                    "STRENGTH": 60.0
+                    "STRENGTH": 60.14285714285714
                 }
             },
-            "interp": "30:78"
+            "interp": "1:78"
         }
     },
     "PIG": {
@@ -2079,11 +2099,12 @@
                     50.0
                 ],
                 "statNums": {
-                    "SPEED": 25.384615384615383
+                    "SPEED": 23.57142857142857
                 }
             },
-            "interp": "1:40"
-        }
+            "interp": "1:43"
+        },
+        "UNCOMMON": {}
     },
     "PIGMAN": {
         "EPIC": {
@@ -2114,10 +2135,10 @@
         "LEGENDARY": {
             "1": {
                 "otherNums": [
-                    0.3000000000000007,
-                    0.40000000000000036,
-                    0.1999999999999993,
-                    0.1999999999999993,
+                    0.3,
+                    0.4,
+                    0.2,
+                    0.2,
                     100.0
                 ],
                 "statNums": {
@@ -2129,16 +2150,16 @@
                 "otherNums": [
                     30.0,
                     40.0,
-                    24.95,
-                    24.95,
+                    25.00689655172414,
+                    25.00689655172414,
                     100.0
                 ],
                 "statNums": {
-                    "DEFENSE": 49.5,
-                    "STRENGTH": 49.5
+                    "DEFENSE": 50.06896551724138,
+                    "STRENGTH": 50.06896551724138
                 }
             },
-            "interp": "33:81"
+            "interp": "1:88"
         }
     },
     "RABBIT": {
@@ -2148,8 +2169,7 @@
                     0.3
                 ],
                 "statNums": {
-                    "HEALTH": 1.0,
-                    "SPEED": 0.0
+                    "HEALTH": 1.0
                 }
             },
             "100": {
@@ -2157,8 +2177,7 @@
                     30.0
                 ],
                 "statNums": {
-                    "HEALTH": 100.0,
-                    "SPEED": 19.8
+                    "HEALTH": 100.0
                 }
             },
             "interp": "1:66"
@@ -2263,8 +2282,7 @@
                     15.0
                 ],
                 "statNums": {
-                    "DEFENSE": 2.0,
-                    "TRUE_DEFENSE": 0.0
+                    "DEFENSE": 2.0
                 }
             },
             "100": {
@@ -2272,11 +2290,10 @@
                     15.0
                 ],
                 "statNums": {
-                    "DEFENSE": 200.0,
-                    "TRUE_DEFENSE": 10.043478260869566
+                    "DEFENSE": 200.0
                 }
             },
-            "interp": "1:70"
+            "interp": "1:80"
         },
         "LEGENDARY": {
             "1": {
@@ -2286,8 +2303,7 @@
                     0.29999999999999893
                 ],
                 "statNums": {
-                    "DEFENSE": 2.0,
-                    "TRUE_DEFENSE": 0
+                    "DEFENSE": 2.0
                 }
             },
             "100": {
@@ -2297,11 +2313,10 @@
                     30.0
                 ],
                 "statNums": {
-                    "DEFENSE": 200.0,
-                    "TRUE_DEFENSE": 9.55813953488372
+                    "DEFENSE": 200.0
                 }
             },
-            "interp": "44:94"
+            "interp": "44:100"
         },
         "RARE": {
             "1": {
@@ -2310,8 +2325,7 @@
                     0.2
                 ],
                 "statNums": {
-                    "DEFENSE": 2.0,
-                    "TRUE_DEFENSE": 0.0
+                    "DEFENSE": 2.0
                 }
             },
             "100": {
@@ -2320,8 +2334,7 @@
                     20.0
                 ],
                 "statNums": {
-                    "DEFENSE": 200.0,
-                    "TRUE_DEFENSE": 9.209302325581396
+                    "DEFENSE": 200.0
                 }
             },
             "interp": "1:87"
@@ -2332,8 +2345,7 @@
                     15.0
                 ],
                 "statNums": {
-                    "DEFENSE": 2.0,
-                    "TRUE_DEFENSE": 0.0
+                    "DEFENSE": 2.0
                 }
             },
             "100": {
@@ -2341,11 +2353,10 @@
                     15.0
                 ],
                 "statNums": {
-                    "DEFENSE": 200.0,
-                    "TRUE_DEFENSE": 9.166666666666666
+                    "DEFENSE": 200.0
                 }
             },
-            "interp": "1:55"
+            "interp": "1:61"
         }
     },
     "SHEEP": {
@@ -2357,7 +2368,6 @@
                     10.0
                 ],
                 "statNums": {
-                    "ABILITY_DAMAGE": 0.0,
                     "INTELLIGENCE": 1.0
                 }
             },
@@ -2368,7 +2378,6 @@
                     10.0
                 ],
                 "statNums": {
-                    "ABILITY_DAMAGE": 50.0,
                     "INTELLIGENCE": 100.0
                 }
             },
@@ -2383,7 +2392,6 @@
                     0.2
                 ],
                 "statNums": {
-                    "ABILITY_DAMAGE": 0.0,
                     "INTELLIGENCE": 1.0
                 }
             },
@@ -2395,7 +2403,6 @@
                     25.0
                 ],
                 "statNums": {
-                    "ABILITY_DAMAGE": 50.0,
                     "INTELLIGENCE": 100.0
                 }
             },
@@ -2437,15 +2444,15 @@
             },
             "100": {
                 "otherNums": [
-                    14.950000000000001,
+                    15.0,
                     30.0
                 ],
                 "statNums": {
                     "DEFENSE": 100.0,
-                    "HEALTH": 19.317073170731707
+                    "HEALTH": 20.0
                 }
             },
-            "interp": "1:83"
+            "interp": "1:100"
         },
         "LEGENDARY": {
             "1": {
@@ -2509,13 +2516,28 @@
                 ],
                 "statNums": {
                     "DEFENSE": 100.0,
-                    "HEALTH": 20.20408163265306
+                    "HEALTH": 18.857142857142858
                 }
             },
-            "interp": "1:50"
+            "interp": "1:64"
         }
     },
     "SKELETON": {
+        "COMMON": {
+            "1": {
+                "otherNums": [
+                    0.1
+                ],
+                "statNums": {}
+            },
+            "100": {
+                "otherNums": [
+                    10.0
+                ],
+                "statNums": {}
+            },
+            "interp": "1:30"
+        },
         "EPIC": {
             "1": {
                 "otherNums": [
@@ -2524,24 +2546,18 @@
                     0.2,
                     8.0
                 ],
-                "statNums": {
-                    "CRIT_CHANCE": 0.0,
-                    "CRIT_DAMAGE": 0.0
-                }
+                "statNums": {}
             },
             "100": {
                 "otherNums": [
                     20.0,
                     3.0,
-                    17.03,
+                    17.014285714285716,
                     8.0
                 ],
-                "statNums": {
-                    "CRIT_CHANCE": 13.86,
-                    "CRIT_DAMAGE": 29.7
-                }
+                "statNums": {}
             },
-            "interp": "1:51"
+            "interp": "1:64"
         },
         "LEGENDARY": {
             "1": {
@@ -2553,10 +2569,7 @@
                     60.0,
                     15.0
                 ],
-                "statNums": {
-                    "CRIT_CHANCE": 0.0,
-                    "CRIT_DAMAGE": 0.0
-                }
+                "statNums": {}
             },
             "100": {
                 "otherNums": [
@@ -2567,12 +2580,24 @@
                     60.0,
                     15.0
                 ],
-                "statNums": {
-                    "CRIT_CHANCE": 14.92857142857143,
-                    "CRIT_DAMAGE": 29.85714285714286
-                }
+                "statNums": {}
             },
             "interp": "1:91"
+        },
+        "UNCOMMON": {
+            "1": {
+                "otherNums": [
+                    0.1
+                ],
+                "statNums": {}
+            },
+            "100": {
+                "otherNums": [
+                    14.95
+                ],
+                "statNums": {}
+            },
+            "interp": "1:49"
         }
     },
     "SKELETON_HORSE": {
@@ -2602,11 +2627,11 @@
         "LEGENDARY": {
             "1": {
                 "otherNums": [
-                    -0.25,
-                    -0.25,
-                    -0.25,
-                    4.0609375,
-                    0.15,
+                    0.0,
+                    0.0,
+                    0.0,
+                    4.0,
+                    0.1,
                     5.0,
                     1.0
                 ],
@@ -2614,17 +2639,17 @@
             },
             "100": {
                 "otherNums": [
-                    24.5,
-                    24.5,
-                    24.5,
-                    7.928125,
-                    15.0,
+                    24.174418604651162,
+                    24.174418604651162,
+                    24.174418604651162,
+                    8.029069767441861,
+                    15.065116279069766,
                     5.0,
                     1.0
                 ],
                 "statNums": {}
             },
-            "interp": "2:66"
+            "interp": "1:87"
         }
     },
     "SPIDER": {
@@ -2636,7 +2661,6 @@
                     0.4
                 ],
                 "statNums": {
-                    "CRIT_CHANCE": 0.0,
                     "STRENGTH": 0.0
                 }
             },
@@ -2647,7 +2671,6 @@
                     40.0
                 ],
                 "statNums": {
-                    "CRIT_CHANCE": 9.0,
                     "STRENGTH": 9.0
                 }
             },
@@ -2662,7 +2685,6 @@
                     0.3
                 ],
                 "statNums": {
-                    "CRIT_CHANCE": 0.0,
                     "STRENGTH": 0.0
                 }
             },
@@ -2674,7 +2696,6 @@
                     30.0
                 ],
                 "statNums": {
-                    "CRIT_CHANCE": 9.428571428571429,
                     "STRENGTH": 9.428571428571429
                 }
             },
@@ -2748,16 +2769,16 @@
             },
             "100": {
                 "otherNums": [
-                    74.78947368421052,
+                    74.96610169491525,
                     30.0,
-                    15.210526315789476
+                    15.033898305084746
                 ],
                 "statNums": {
-                    "HEALTH": 49.5,
-                    "INTELLIGENCE": 49.5
+                    "HEALTH": 50.33898305084746,
+                    "INTELLIGENCE": 50.33898305084746
                 }
             },
-            "interp": "1:39"
+            "interp": "1:60"
         },
         "UNCOMMON": {
             "1": {
@@ -2782,42 +2803,16 @@
         }
     },
     "TARANTULA": {
-        "EPIC": {
-            "1": {
-                "otherNums": [
-                    0.3,
-                    0.5
-                ],
-                "statNums": {
-                    "CRIT_CHANCE": 0.0,
-                    "CRIT_DAMAGE": 0.0,
-                    "STRENGTH": 0.0
-                }
-            },
-            "100": {
-                "otherNums": [
-                    30.0,
-                    50.0
-                ],
-                "statNums": {
-                    "CRIT_CHANCE": 9.705882352941178,
-                    "CRIT_DAMAGE": 29.11764705882353,
-                    "STRENGTH": 9.705882352941178
-                }
-            },
-            "interp": "1:52"
-        },
+        "EPIC": {},
         "LEGENDARY": {
             "1": {
                 "otherNums": [
-                    0.30000000000000004,
+                    0.3,
                     0.5,
-                    0.3999999999999999
+                    0.4
                 ],
                 "statNums": {
-                    "CRIT_CHANCE": -0.37037037037037035,
-                    "CRIT_DAMAGE": 0,
-                    "STRENGTH": -0.37037037037037035
+                    "STRENGTH": 0.0
                 }
             },
             "100": {
@@ -2827,12 +2822,10 @@
                     40.0
                 ],
                 "statNums": {
-                    "CRIT_CHANCE": 8.796296296296296,
-                    "CRIT_DAMAGE": 27.25,
-                    "STRENGTH": 8.796296296296296
+                    "STRENGTH": 9.9
                 }
             },
-            "interp": "5:59"
+            "interp": "1:71"
         }
     },
     "TIGER": {
@@ -2842,8 +2835,6 @@
                     0.1
                 ],
                 "statNums": {
-                    "CRIT_CHANCE": 0.0,
-                    "CRIT_DAMAGE": 0.0,
                     "STRENGTH": 5.0
                 }
             },
@@ -2852,8 +2843,6 @@
                     4.966101694915254
                 ],
                 "statNums": {
-                    "CRIT_CHANCE": 5.033898305084746,
-                    "CRIT_DAMAGE": 50.33898305084746,
                     "STRENGTH": 15.067796610169491
                 }
             },
@@ -2867,8 +2856,6 @@
                     10.0
                 ],
                 "statNums": {
-                    "CRIT_CHANCE": 0.0,
-                    "CRIT_DAMAGE": 0.0,
                     "STRENGTH": 5.0
                 }
             },
@@ -2879,8 +2866,6 @@
                     10.0
                 ],
                 "statNums": {
-                    "CRIT_CHANCE": 4.311846689895471,
-                    "CRIT_DAMAGE": 50.01742160278746,
                     "STRENGTH": 14.658536585365853
                 }
             },
@@ -2896,8 +2881,6 @@
                     15.0
                 ],
                 "statNums": {
-                    "CRIT_CHANCE": 0.0,
-                    "CRIT_DAMAGE": 0.0,
                     "STRENGTH": 5.0
                 }
             },
@@ -2910,8 +2893,6 @@
                     15.0
                 ],
                 "statNums": {
-                    "CRIT_CHANCE": 5.0,
-                    "CRIT_DAMAGE": 50.0,
                     "STRENGTH": 15.0
                 }
             },
@@ -2925,8 +2906,6 @@
                     10.0
                 ],
                 "statNums": {
-                    "CRIT_CHANCE": 0.0,
-                    "CRIT_DAMAGE": 0.0,
                     "STRENGTH": 5.0
                 }
             },
@@ -2937,12 +2916,10 @@
                     10.0
                 ],
                 "statNums": {
-                    "CRIT_CHANCE": 4.013513513513514,
-                    "CRIT_DAMAGE": 49.5,
-                    "STRENGTH": 14.364864864864865
+                    "STRENGTH": 14.684782608695652
                 }
             },
-            "interp": "1:75"
+            "interp": "1:93"
         },
         "UNCOMMON": {
             "1": {
@@ -2950,8 +2927,6 @@
                     0.1
                 ],
                 "statNums": {
-                    "CRIT_CHANCE": 0.0,
-                    "CRIT_DAMAGE": 0.0,
                     "STRENGTH": 5.0
                 }
             },
@@ -2960,8 +2935,6 @@
                     10.0
                 ],
                 "statNums": {
-                    "CRIT_CHANCE": 4.876847290640394,
-                    "CRIT_DAMAGE": 49.581280788177345,
                     "STRENGTH": 14.10344827586207
                 }
             },
@@ -3008,16 +2981,16 @@
             },
             "100": {
                 "otherNums": [
-                    20.03,
-                    50.05,
+                    19.935714285714283,
+                    49.932142857142864,
                     24.95
                 ],
                 "statNums": {
-                    "DEFENSE": 100.0,
+                    "DEFENSE": 129.46428571428572,
                     "HEALTH": 49.5
                 }
             },
-            "interp": "1:81"
+            "interp": "1:85"
         }
     },
     "WITHER_SKELETON": {
@@ -3028,8 +3001,6 @@
                     0.5
                 ],
                 "statNums": {
-                    "CRIT_CHANCE": 0.0,
-                    "CRIT_DAMAGE": 0.0,
                     "DEFENSE": 0.0,
                     "INTELLIGENCE": 0.0,
                     "STRENGTH": 0.0
@@ -3041,14 +3012,12 @@
                     50.0
                 ],
                 "statNums": {
-                    "CRIT_CHANCE": 4.876847290640394,
-                    "CRIT_DAMAGE": 24.38423645320197,
-                    "DEFENSE": 23.89655172413793,
-                    "INTELLIGENCE": 23.89655172413793,
-                    "STRENGTH": 23.89655172413793
+                    "DEFENSE": 24.115384615384613,
+                    "INTELLIGENCE": 24.115384615384613,
+                    "STRENGTH": 24.115384615384613
                 }
             },
-            "interp": "1:59"
+            "interp": "1:79"
         },
         "LEGENDARY": {
             "1": {
@@ -3059,8 +3028,6 @@
                     3.0
                 ],
                 "statNums": {
-                    "CRIT_CHANCE": 0.0,
-                    "CRIT_DAMAGE": 0.0,
                     "DEFENSE": 0.0,
                     "INTELLIGENCE": 0.0,
                     "STRENGTH": 0.0
@@ -3074,8 +3041,6 @@
                     3.0
                 ],
                 "statNums": {
-                    "CRIT_CHANCE": 5.0,
-                    "CRIT_DAMAGE": 25.0,
                     "DEFENSE": 25.0,
                     "INTELLIGENCE": 25.0,
                     "STRENGTH": 25.0
@@ -3091,10 +3056,8 @@
                     0.09999999999999964
                 ],
                 "statNums": {
-                    "CRIT_DAMAGE": 0,
                     "HEALTH": 0,
-                    "SPEED": 0.1999999999999993,
-                    "TRUE_DEFENSE": 0
+                    "SPEED": 0.1999999999999993
                 }
             },
             "100": {
@@ -3102,10 +3065,8 @@
                     10.0
                 ],
                 "statNums": {
-                    "CRIT_DAMAGE": 9.350649350649352,
                     "HEALTH": 50.0,
-                    "SPEED": 20.0,
-                    "TRUE_DEFENSE": 9.636363636363637
+                    "SPEED": 20.0
                 }
             },
             "interp": "45:60"
@@ -3118,10 +3079,8 @@
                     10.0
                 ],
                 "statNums": {
-                    "CRIT_DAMAGE": 0.0,
                     "HEALTH": 0.0,
-                    "SPEED": 0.0,
-                    "TRUE_DEFENSE": 0.0
+                    "SPEED": 0.0
                 }
             },
             "100": {
@@ -3131,10 +3090,8 @@
                     10.0
                 ],
                 "statNums": {
-                    "CRIT_DAMAGE": 9.138461538461538,
                     "HEALTH": 50.261538461538464,
-                    "SPEED": 19.8,
-                    "TRUE_DEFENSE": 9.138461538461538
+                    "SPEED": 19.8
                 }
             },
             "interp": "1:66"
@@ -3148,10 +3105,8 @@
                     0.3
                 ],
                 "statNums": {
-                    "CRIT_DAMAGE": 0.0,
                     "HEALTH": 0.0,
-                    "SPEED": 0.0,
-                    "TRUE_DEFENSE": 0.0
+                    "SPEED": 0.0
                 }
             },
             "100": {
@@ -3162,13 +3117,36 @@
                     30.0
                 ],
                 "statNums": {
-                    "CRIT_DAMAGE": 10.0,
                     "HEALTH": 50.0,
-                    "SPEED": 20.0,
-                    "TRUE_DEFENSE": 10.0
+                    "SPEED": 20.0
                 }
             },
             "interp": "1:100"
+        }
+    },
+    "ZOMBIE": {
+        "LEGENDARY": {
+            "1": {
+                "otherNums": [
+                    0.2,
+                    0.2,
+                    0.2
+                ],
+                "statNums": {
+                    "HEALTH": 1.0
+                }
+            },
+            "100": {
+                "otherNums": [
+                    25.03684210526316,
+                    25.03684210526316,
+                    20.0
+                ],
+                "statNums": {
+                    "HEALTH": 100.0
+                }
+            },
+            "interp": "1:58"
         }
     }
 }
