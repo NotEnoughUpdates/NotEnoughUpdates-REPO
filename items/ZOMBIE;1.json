@@ -1,28 +1,26 @@
 {
   "internalname": "ZOMBIE;1",
-  "itemid": 397,
-  "displayname": "§7[Lvl 39] §aZombie",
+  "itemid": "minecraft:skull",
+  "displayname": "§7[Lvl {LVL}] §aZombie",
   "clickcommand": "",
   "damage": 3,
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"1c760ea5-2e91-3c2e-b52a-e17d11733658\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZmYzg1NGJiODRjZjRiNzY5NzI5Nzk3M2UwMmI3OWJjMTA2OTg0NjBiNTFhNjM5YzYwZTVlNDE3NzM0ZTExIn19fQ==\"}]}},display:{Lore:[0:\"§8Combat Pet\",1:\"\",2:\"§7Crit Damage: §a+11\",3:\"§7Health: §a+39\",4:\"\",5:\"§6Chomp\",6:\"§7§7Gain +§a7.8 §7hp per zombie\",7:\"§7kill\",8:\"\",9:\"§6Held Item: §fCombat Exp Boost\",10:\"§7§7Gives +§a20% §7pet exp\",11:\"§7for Combat.\",12:\"\",13:\"§7§eRight-click to add this pet to\",14:\"§eyour pet menu!\",15:\"\",16:\"§a§lUNCOMMON\"],Name:\"§7[Lvl 39] §aZombie\"},ExtraAttributes:{petInfo:\"{\"type\":\"ZOMBIE\",\"active\":false,\"exp\":59902.82707199979,\"tier\":\"UNCOMMON\",\"hideInfo\":false,\"heldItem\":\"PET_ITEM_COMBAT_SKILL_BOOST_COMMON\",\"candyUsed\":0}\",originTag:\"UNKNOWN\",id:\"PET\",uuid:\"cc7eca33-9912-407f-9560-7c3a583512ae\",timestamp:\"7/5/20 12:10 PM\"}}",
-  "modver": "1.0.0",
+  "nbttag": "{SkullOwner:{Id:\"1c760ea5-2e91-3c2e-b52a-e17d11733658\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZmYzg1NGJiODRjZjRiNzY5NzI5Nzk3M2UwMmI3OWJjMTA2OTg0NjBiNTFhNjM5YzYwZTVlNDE3NzM0ZTExIn19fQ\u003d\u003d\"}]}}, display:{Lore:[0:\"§8Combat Pet\",1:\"\",2:\"§7Crit Damage: §a{CRIT_DAMAGE}\",3:\"§7Health: §a{HEALTH}\",4:\"\",5:\"§6Chomp\",6:\"§7§7Gain +§a{0} §7hp per zombie\",7:\"§7kill\",8:\"\",9:\"§7§eRight-click to add this pet to\",10:\"§eyour pet menu!\",11:\"\",12:\"§a§lUNCOMMON\"],Name:\"§7[Lvl {LVL}] §aZombie\"},ExtraAttributes:{petInfo:\"{\\\"type\\\":\\\"ZOMBIE\\\",\\\"active\\\":false,\\\"exp\\\":275.0,\\\"tier\\\":\\\"UNCOMMON\\\",\\\"hideInfo\\\":false,\\\"candyUsed\\\":0}\", id:\"ZOMBIE;1\"}}",
+  "modver": "1.2-REL",
   "lore": [
     "§8Combat Pet",
     "",
-    "§7Crit Damage: §a+11",
-    "§7Health: §a+39",
+    "§7Crit Damage: §a{CRIT_DAMAGE}",
+    "§7Health: §a{HEALTH}",
     "",
     "§6Chomp",
-    "§7§7Gain +§a7.8 §7hp per zombie",
+    "§7§7Gain +§a{0} §7hp per zombie",
     "§7kill",
-    "",
-    "§6Held Item: §fCombat Exp Boost",
-    "§7§7Gives +§a20% §7pet exp",
-    "§7for Combat.",
     "",
     "§7§eRight-click to add this pet to",
     "§eyour pet menu!",
     "",
     "§a§lUNCOMMON"
-  ]
+  ],
+  "crafttext": "",
+  "infoType": ""
 }

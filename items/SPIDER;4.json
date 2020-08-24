@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§f§f§7[Lvl {LVL}] §6Spider",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"7c63f3cf-a963-311a-aeca-3a075b417806\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q1NDE1NDFkYWFmZjUwODk2Y2QyNThiZGJkZDRjZjgwYzNiYTgxNjczNTcyNjA3OGJmZTM5MzkyN2U1N2YxIn19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§8Combat Pet\",1:\"\",2:\"§7Crit Chance: §a{CRIT_CHANCE}\",3:\"§7Strength: §a{STRENGTH}\",4:\"\",5:\"§6One With The Spider\",6:\"§7§7Gain §a{0} §c❁ Strength §7for\",7:\"§7every nearby spider\",8:\"§8Max 10 spiders\",9:\"\",10:\"§6Web-weaver\",11:\"§7§7Upon hitting a monster it\",12:\"§7becomes slowed by §a10%\",13:\"\",14:\"§6Spider Whisperer\",15:\"§7§7Spider and tarantula minions\",16:\"§7work §a{2}% §7faster while on\",17:\"§7your island\",18:\"\",19:\"§7§eRight-click to add this pet to\",20:\"§eyour pet menu!\",21:\"\",22:\"§6§lLEGENDARY\"],Name:\"§f§f§7[Lvl {LVL}] §6Spider\"},ExtraAttributes:{petInfo:\"{\\\"type\\\":\\\"SPIDER\\\",\\\"active\\\":false,\\\"exp\\\":2.5354059678784613E7,\\\"tier\\\":\\\"LEGENDARY\\\",\\\"hideInfo\\\":false,\\\"heldItem\\\":\\\"PET_ITEM_SHARPENED_CLAWS_UNCOMMON\\\",\\\"candyUsed\\\":0}\",originTag:\"UNKNOWN\",id:\"SPIDER;4\",uuid:\"311ecd10-3aef-46ca-85e7-91f613ce7509\",timestamp:\"7/14/20 7:38 PM\"},AttributeModifiers:[]}",
+  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"7c63f3cf-a963-311a-aeca-3a075b417806\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q1NDE1NDFkYWFmZjUwODk2Y2QyNThiZGJkZDRjZjgwYzNiYTgxNjczNTcyNjA3OGJmZTM5MzkyN2U1N2YxIn19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§8Combat Pet\",1:\"\",2:\"§7Crit Chance: §a{CRIT_CHANCE}\",3:\"§7Strength: §a{STRENGTH}\",4:\"\",5:\"§6One With The Spider\",6:\"§7§7Gain §a{0} §c❁ Strength §7for\",7:\"§7every nearby spider\",8:\"§8Max 10 spiders\",9:\"\",10:\"§6Web-weaver\",11:\"§7§7Upon hitting a monster it\",12:\"§7becomes slowed by §a{2}%\",13:\"\",14:\"§6Spider Whisperer\",15:\"§7§7Spider and tarantula minions\",16:\"§7work §a{3}% §7faster while on\",17:\"§7your island\",18:\"\",19:\"§7§eRight-click to add this pet to\",20:\"§eyour pet menu!\",21:\"\",22:\"§6§lLEGENDARY\"],Name:\"§f§f§7[Lvl {LVL}] §6Spider\"},ExtraAttributes:{petInfo:\"{\\\"type\\\":\\\"SPIDER\\\",\\\"active\\\":false,\\\"exp\\\":2.5354059678784613E7,\\\"tier\\\":\\\"LEGENDARY\\\",\\\"hideInfo\\\":false,\\\"heldItem\\\":\\\"PET_ITEM_SHARPENED_CLAWS_UNCOMMON\\\",\\\"candyUsed\\\":0}\",originTag:\"UNKNOWN\",id:\"SPIDER;4\",uuid:\"311ecd10-3aef-46ca-85e7-91f613ce7509\",timestamp:\"7/14/20 7:38 PM\"},AttributeModifiers:[]}",
   "damage": 3,
   "lore": [
     "§8Combat Pet",
@@ -16,11 +16,11 @@
     "",
     "§6Web-weaver",
     "§7§7Upon hitting a monster it",
-    "§7becomes slowed by §a10%",
+    "§7becomes slowed by §a{2}%",
     "",
     "§6Spider Whisperer",
     "§7§7Spider and tarantula minions",
-    "§7work §a{2}% §7faster while on",
+    "§7work §a{3}% §7faster while on",
     "§7your island",
     "",
     "§7§eRight-click to add this pet to",
@@ -31,6 +31,6 @@
   "internalname": "SPIDER;4",
   "crafttext": "",
   "clickcommand": "",
-  "modver": "REL-1.0.0",
+  "modver": "1.2-REL",
   "infoType": ""
 }
