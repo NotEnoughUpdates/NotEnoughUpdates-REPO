@@ -353,7 +353,7 @@
                 ],
                 "statNums": {
                     "CRIT_DAMAGE": 0.0,
-                    "DEFENSE": 9.208333333333332,
+                    "DEFENSE": 10.0,
                     "INTELLIGENCE": 1.0
                 }
             },
@@ -1025,6 +1025,46 @@
             "100": {
                 "otherNums": [
                     40
+                ],
+                "statNums": {
+                    "INTELLIGENCE": 100.0
+                }
+            },
+            "interp": "5:57"
+        },
+		"COMMON": {
+            "1": {
+                "otherNums": [
+                    0.3999999999999999
+                ],
+                "statNums": {
+                    "INTELLIGENCE": 1.0
+                }
+            },
+            "100": {
+                "otherNums": [
+                    40
+                ],
+                "statNums": {
+                    "INTELLIGENCE": 100.0
+                }
+            },
+            "interp": "5:57"
+        },
+		"RARE": {
+            "1": {
+                "otherNums": [
+                    0.5,
+					5
+                ],
+                "statNums": {
+                    "INTELLIGENCE": 1.0
+                }
+            },
+            "100": {
+                "otherNums": [
+                    50,
+					10
                 ],
                 "statNums": {
                     "INTELLIGENCE": 100.0
@@ -2048,7 +2088,30 @@
             },
             "100": {
                 "otherNums": [
-                    25
+                    20.0
+                ],
+                "statNums": {
+                    "DEFENSE": 35.0,
+                    "HEALTH": 50.0,
+                    "STRENGTH": 20.0
+                }
+            },
+            "interp": "1:63"
+        },
+		"COMMON": {
+            "1": {
+                "otherNums": [
+                    0.2
+                ],
+                "statNums": {
+                    "DEFENSE": 0.0,
+                    "HEALTH": 0.0,
+                    "STRENGTH": 0.0
+                }
+            },
+            "100": {
+                "otherNums": [
+                    20.0
                 ],
                 "statNums": {
                     "DEFENSE": 35.0,
@@ -3137,6 +3200,55 @@
         }
     },
     "SPIDER": {
+		"UNCOMMON": {
+            "1": {
+                "otherNums": [
+                    0.1,
+					10.0
+                ],
+                "statNums": {
+                    "CRIT_CHANCE": 0.0,
+                    "STRENGTH": 0.0
+                }
+            },
+            "100": {
+                "otherNums": [
+                    10.0,
+					10.0,
+                ],
+                "statNums": {
+                    "CRIT_CHANCE": 10.0,
+                    "STRENGTH": 10.0
+                }
+            },
+            "interp": "1:45"
+        },
+		"RARE": {
+            "1": {
+                "otherNums": [
+                    0.1,
+					10.0,
+					0.4
+					
+                ],
+                "statNums": {
+                    "CRIT_CHANCE": 0.0,
+                    "STRENGTH": 0.0
+                }
+            },
+            "100": {
+                "otherNums": [
+                    10.0,
+					10.0,
+					40.0
+                ],
+                "statNums": {
+                    "CRIT_CHANCE": 10.0,
+                    "STRENGTH": 10.0
+                }
+            },
+            "interp": "1:45"
+        },
         "EPIC": {
             "1": {
                 "otherNums": [
@@ -3851,6 +3963,27 @@
                 }
             },
             "interp": "1:64"
+        },
+		"UNCOMMON": {
+            "1": {
+                "otherNums": [
+                    0.2
+                ],
+                "statNums": {
+                    "CRIT_DAMAGE": 0.0,
+                    "HEALTH": 1.0
+                }
+            },
+            "100": {
+                "otherNums": [
+                    20
+                ],
+                "statNums": {
+                    "CRIT_DAMAGE": 30.0,
+                    "HEALTH": 100.0
+                }
+            },
+            "interp": "1:70"
         }
     }
 }
