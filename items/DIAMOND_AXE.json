@@ -1,14 +1,24 @@
 {
-  "internalname": "DIAMOND_AXE",
   "itemid": "minecraft:diamond_axe",
-  "displayname": "§aDiamond Axe",
-  "clickcommand": "",
+  "displayname": "§fDiamond Axe",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fDiamond Axe\"},ExtraAttributes:{id:\"DIAMOND_AXE\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+30\",1:\"\",2:\"§a§lUNCOMMON AXE\"],Name:\"§aDiamond Axe\"},ExtraAttributes:{originTag:\"CRAFTING_GRID_SHIFT\",id:\"DIAMOND_AXE\",uuid:\"22943add-0ba5-4c02-b471-fd14644bc054\",timestamp:\"7/8/20 9:07 PM\"}}",
-  "modver": "1.0.0",
   "lore": [
-    "§7Damage: §c+30",
-    "",
-    "§a§lUNCOMMON AXE"
-  ]
+    "§f§lCOMMON"
+  ],
+  "internalname": "DIAMOND_AXE",
+  "modver": "1.3-REL",
+  "vanilla": true,
+  "clickcommand": "viewrecipe",
+  "recipe": {
+    "A1": "DIAMOND:1",
+    "A2": "DIAMOND:1",
+    "A3": "",
+    "B1": "DIAMOND:1",
+    "B2": "STICK:1",
+    "B3": "",
+    "C1": "",
+    "C2": "STICK:1",
+    "C3": ""
+  }
 }

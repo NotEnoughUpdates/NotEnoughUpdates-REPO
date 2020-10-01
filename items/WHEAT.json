@@ -1,16 +1,24 @@
 {
   "itemid": "minecraft:wheat",
   "displayname": "§fWheat",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\",1:\"\",2:\"§eClick to view recipe!\"],Name:\"§fWheat\"},ExtraAttributes:{id:\"WHEAT\"}}",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fWheat\"},ExtraAttributes:{id:\"WHEAT\"}}",
   "damage": 0,
   "lore": [
     "§f§lCOMMON"
   ],
   "internalname": "WHEAT",
-  "clickcommand": "",
-  "modver": "1.0.0",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Wheat"
-  ]
+  "modver": "1.3-REL",
+  "vanilla": true,
+  "clickcommand": "viewrecipe",
+  "recipe": {
+    "A1": "HAY_BLOCK:1",
+    "A2": "",
+    "A3": "",
+    "B1": "",
+    "B2": "",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  }
 }
