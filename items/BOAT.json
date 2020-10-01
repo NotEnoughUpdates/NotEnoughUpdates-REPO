@@ -1,12 +1,24 @@
 {
-  "internalname": "BOAT",
-  "itemid": 333,
+  "itemid": "minecraft:boat",
   "displayname": "§fBoat",
-  "clickcommand": "",
-  "damage": 0,
   "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBoat\"},ExtraAttributes:{id:\"BOAT\"}}",
-  "modver": "1.0.0",
+  "damage": 0,
   "lore": [
     "§f§lCOMMON"
-  ]
+  ],
+  "internalname": "BOAT",
+  "modver": "1.3-REL",
+  "vanilla": true,
+  "clickcommand": "viewrecipe",
+  "recipe": {
+    "A1": "WOOD:1",
+    "A2": "",
+    "A3": "WOOD:1",
+    "B1": "WOOD:1",
+    "B2": "WOOD:1",
+    "B3": "WOOD:1",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  }
 }

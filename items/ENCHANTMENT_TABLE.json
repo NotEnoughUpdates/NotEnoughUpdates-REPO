@@ -1,16 +1,24 @@
 {
-  "internalname": "ENCHANTMENT_TABLE",
   "itemid": "minecraft:enchanting_table",
   "displayname": "§fEnchantment Table",
-  "clickcommand": "",
-  "damage": 0,
   "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fEnchantment Table\"},ExtraAttributes:{id:\"ENCHANTMENT_TABLE\"}}",
-  "modver": "1.0.0",
+  "damage": 0,
   "lore": [
     "§f§lCOMMON"
   ],
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Enchantment_Table"
-  ]
+  "internalname": "ENCHANTMENT_TABLE",
+  "modver": "1.3-REL",
+  "vanilla": true,
+  "clickcommand": "viewrecipe",
+  "recipe": {
+    "A1": "",
+    "A2": "BOOK:1",
+    "A3": "",
+    "B1": "DIAMOND:1",
+    "B2": "OBSIDIAN:1",
+    "B3": "DIAMOND:1",
+    "C1": "OBSIDIAN:1",
+    "C2": "OBSIDIAN:1",
+    "C3": "OBSIDIAN:1"
+  }
 }
