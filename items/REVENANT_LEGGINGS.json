@@ -1,7 +1,7 @@
 {
-  "itemid": "minecraft:chainmail_leggings",
+  "itemid": "minecraft:diamond_leggings",
   "displayname": "§5Revenant Leggings",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Health: §a+120 HP\",1:\"§7Defense: §a+50\",2:\"\",3:\"§6Full Set Bonus: Trolling The Reaper\",4:\"§7Healing Wands heal §a+50%§7.\",5:\"§7Gain §a+100❈ §7against Zombies.\",6:\"\",7:\"§6Piece Bonus: Zombie Bulwark\",8:\"§7Kill Zombies to accumulate\",9:\"§7defense against them.\",10:\"§7Piece Bonus: §a+0❈\",11:\"§7Next Upgrade: §a+20❈ §8(§a0§7/§c50§8)\",12:\"\",13:\"§7§8This item can be reforged!\",14:\"§5§lEPIC LEGGINGS\"],Name:\"§5Revenant Leggings\"},ExtraAttributes:{id:\"REVENANT_LEGGINGS\"}}",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+120 HP\",1:\"§7Defense: §a+50\",2:\"\",3:\"§6Full Set Bonus: Trolling The Reaper\",4:\"§7Healing Wands heal §a+50%§7.\",5:\"§7Gain §a+100❈ §7against Zombies.\",6:\"\",7:\"§6Piece Bonus: Zombie Bulwark\",8:\"§7Kill Zombies to accumulate\",9:\"§7defense against them.\",10:\"§7Piece Bonus: §a+0❈\",11:\"§7Next Upgrade: §a+20❈ §8(§a0§7/§c50§8)\",12:\"\",13:\"§7§8This item can be reforged!\",14:\"§7§4☠ §cRequires §5Zombie Slayer 4\",15:\"§5§lEPIC LEGGINGS\"],Name:\"§5Revenant Leggings\"},ExtraAttributes:{id:\"REVENANT_LEGGINGS\"}}",
   "damage": 0,
   "lore": [
     "§7Health: §a+120 HP",
@@ -18,6 +18,7 @@
     "§7Next Upgrade: §a+20❈ §8(§a0§7/§c50§8)",
     "",
     "§7§8This item can be reforged!",
+    "§7§4☠ §cRequires §5Zombie Slayer 4",
     "§5§lEPIC LEGGINGS"
   ],
   "recipe": {
@@ -31,10 +32,10 @@
     "C2": "",
     "C3": "ENCHANTED_DIAMOND:16"
   },
-  "slayer_req": "ZOMBIE_4",
   "internalname": "REVENANT_LEGGINGS",
   "clickcommand": "viewrecipe",
-  "modver": "1.0.0",
+  "modver": "1.3-REL",
+  "crafttext": "Requires Zombie Slayer 4",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Revenant_Armor"
