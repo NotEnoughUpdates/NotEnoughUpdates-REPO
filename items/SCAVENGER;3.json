@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:enchanted_book",
-  "displayname": "§fEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Scavenger III\",1:\"§7Scavenge §60.9 Coins §7per\",2:\"§7monster level on kill.\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{originTag:\"SHOP_PURCHASE\",id:\"SCAVENGER;3\",enchantments:{scavenger:3},uuid:\"d2f069a2-5150-4afb-a93d-3091a5c2d6dc\",anvil_uses:2,timestamp:\"10/6/20 9:04 PM\"}}",
+  "displayname": "§f§f§fEnchanted Book",
+  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Scavenger III\",1:\"§7Scavenge §60.9 Coins §7per\",2:\"§7monster level on kill.\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§f§lCOMMON\"],Name:\"§f§f§fEnchanted Book\"},ExtraAttributes:{id:\"ENCHANTED_BOOK\",enchantments:{scavenger:3}}}",
   "damage": 0,
   "lore": [
     "§9Scavenger III",
@@ -14,8 +14,9 @@
     "§f§lCOMMON"
   ],
   "internalname": "SCAVENGER;3",
+  "parent": "SCAVENGER;2",
   "crafttext": "",
   "clickcommand": "",
-  "modver": "1.3-REL",
+  "modver": "1.4-REL",
   "infoType": ""
 }

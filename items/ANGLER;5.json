@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:enchanted_book",
-  "displayname": "§aEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Angler V\",1:\"§7Increase chance to catch sea\",2:\"§7creatures by §a5%§7.\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Book\"},ExtraAttributes:{originTag:\"QUICK_CRAFTING\",id:\"ANGLER;5\",enchantments:{angler:5},uuid:\"4a66e039-5ff9-43c7-9b1f-aee184be7c24\",anvil_uses:1,timestamp:\"10/6/20 9:49 PM\"}}",
+  "displayname": "§f§f§aEnchanted Book",
+  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Angler V\",1:\"§7Increase chance to catch sea\",2:\"§7creatures by §a5%§7.\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§a§lUNCOMMON\"],Name:\"§f§f§aEnchanted Book\"},ExtraAttributes:{id:\"ENCHANTED_BOOK\",id:\"ANGLER;5\",enchantments:{angler:5}}}",
   "damage": 0,
   "lore": [
     "§9Angler V",
@@ -16,6 +16,7 @@
   "internalname": "ANGLER;5",
   "crafttext": "",
   "clickcommand": "",
-  "modver": "1.3-REL",
+  "parent": "ANGLER;4",
+  "modver": "1.4-REL",
   "infoType": ""
 }
