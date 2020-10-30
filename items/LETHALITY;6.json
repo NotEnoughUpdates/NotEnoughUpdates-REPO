@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§f§f§9Enchanted Book",
-  "nbttag": "{ench:[],overrideMeta:1b,HideFlags:254,display:{Lore:[0:\"§9Lethality VI\",1:\"§7Reduces the armor of your target\",2:\"§7by §a18% §7for §68 §7seconds\",3:\"§7each time you hit them with\",4:\"§7melee. Stacks up to §a5 §7times.\",5:\"\",6:\"§7Use this on an item in an Anvil\",7:\"§7to apply it!\",8:\"\",9:\"§9§lRARE\"],Name:\"§f§f§9Enchanted Book\"},ExtraAttributes:{originTag:\"UNKNOWN\",id:\"LETHALITY;6\",enchantments:{lethality:6},uuid:\"de5a4483-55ad-4ba9-93bf-6a4cf43e98ca\",timestamp:\"10/8/20 3:51 AM\"},AttributeModifiers:[]}",
+  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Lethality VI\",1:\"§7Reduces the armor of your target\",2:\"§7by §a18% §7for §68 §7seconds\",3:\"§7each time you hit them with\",4:\"§7melee. Stacks up to §a5 §7times.\",5:\"\",6:\"§7Use this on an item in an Anvil\",7:\"§7to apply it!\",8:\"\",9:\"§9§lRARE\"],Name:\"§f§f§9Enchanted Book\"},ExtraAttributes:{id:\"ENCHANTED_BOOK\",id:\"LETHALITY;6\",enchantments:{lethality:6}}}",
   "damage": 0,
   "lore": [
     "§9Lethality VI",
@@ -16,11 +16,8 @@
     "§9§lRARE"
   ],
   "internalname": "LETHALITY;6",
+  "parent": "LETHALITY;4",
   "crafttext": "",
   "clickcommand": "",
-  "modver": "1.3-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Enchantments"
-  ]
+  "modver": "1.3-REL"
 }
