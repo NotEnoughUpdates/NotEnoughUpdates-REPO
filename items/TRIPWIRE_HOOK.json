@@ -1,5 +1,5 @@
 {
-  "itemid": 131,
+  "itemid": "minecraft:tripwire_hook",
   "displayname": "§fTripwire Hook",
   "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fTripwire Hook\"},ExtraAttributes:{id:\"TRIPWIRE_HOOK\"}}",
   "damage": 0,
@@ -7,6 +7,18 @@
     "§f§lCOMMON"
   ],
   "internalname": "TRIPWIRE_HOOK",
-  "clickcommand": "",
-  "modver": "1.0.0"
+  "modver": "1.3-REL",
+  "vanilla": true,
+  "clickcommand": "viewrecipe",
+  "recipe": {
+    "A1": "IRON_INGOT:1",
+    "A2": "",
+    "A3": "",
+    "B1": "STICK:1",
+    "B2": "",
+    "B3": "",
+    "C1": "WOOD:1",
+    "C2": "",
+    "C3": ""
+  }
 }

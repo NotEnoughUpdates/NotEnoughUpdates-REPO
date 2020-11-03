@@ -1,12 +1,24 @@
 {
-  "internalname": "COOKIE",
-  "itemid": 357,
+  "itemid": "minecraft:cookie",
   "displayname": "§fCookie",
-  "clickcommand": "",
-  "damage": 0,
   "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fCookie\"},ExtraAttributes:{id:\"COOKIE\"}}",
-  "modver": "1.0.0",
+  "damage": 0,
   "lore": [
     "§f§lCOMMON"
-  ]
+  ],
+  "internalname": "COOKIE",
+  "modver": "1.3-REL",
+  "vanilla": true,
+  "clickcommand": "viewrecipe",
+  "recipe": {
+    "A1": "WHEAT:1",
+    "A2": "INK_SACK-3:1",
+    "A3": "WHEAT:1",
+    "B1": "",
+    "B2": "",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  }
 }

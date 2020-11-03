@@ -1,5 +1,5 @@
 {
-  "itemid": 321,
+  "itemid": "minecraft:painting",
   "displayname": "§fPainting",
   "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fPainting\"},ExtraAttributes:{id:\"PAINTING\"}}",
   "damage": 0,
@@ -7,6 +7,18 @@
     "§f§lCOMMON"
   ],
   "internalname": "PAINTING",
-  "clickcommand": "",
-  "modver": "1.0.0"
+  "modver": "1.3-REL",
+  "vanilla": true,
+  "clickcommand": "viewrecipe",
+  "recipe": {
+    "A1": "STICK:1",
+    "A2": "STICK:1",
+    "A3": "STICK:1",
+    "B1": "STICK:1",
+    "B2": "WOOL:1",
+    "B3": "STICK:1",
+    "C1": "STICK:1",
+    "C2": "STICK:1",
+    "C3": "STICK:1"
+  }
 }

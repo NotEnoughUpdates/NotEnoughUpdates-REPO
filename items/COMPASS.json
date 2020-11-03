@@ -1,16 +1,24 @@
 {
   "itemid": "minecraft:compass",
   "displayname": "§fCompass",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\",1:\"\",2:\"§eClick to view recipe!\"],Name:\"§fCompass\"},ExtraAttributes:{id:\"COMPASS\"}}",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fCompass\"},ExtraAttributes:{id:\"COMPASS\"}}",
   "damage": 0,
   "lore": [
     "§f§lCOMMON"
   ],
   "internalname": "COMPASS",
-  "clickcommand": "",
-  "modver": "1.0.0",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Compass"
-  ]
+  "modver": "1.3-REL",
+  "vanilla": true,
+  "clickcommand": "viewrecipe",
+  "recipe": {
+    "A1": "",
+    "A2": "IRON_INGOT:1",
+    "A3": "",
+    "B1": "IRON_INGOT:1",
+    "B2": "REDSTONE:1",
+    "B3": "IRON_INGOT:1",
+    "C1": "",
+    "C2": "IRON_INGOT:1",
+    "C3": ""
+  }
 }

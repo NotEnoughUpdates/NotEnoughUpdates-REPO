@@ -1,15 +1,24 @@
 {
-  "internalname": "IRON_HELMET",
   "itemid": "minecraft:iron_helmet",
   "displayname": "§fIron Helmet",
-  "clickcommand": "",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fIron Helmet\"},ExtraAttributes:{id:\"IRON_HELMET\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+10\",1:\"\",2:\"§7§8This item can be reforged!\",3:\"§f§lCOMMON HELMET\"],Name:\"§fIron Helmet\"},ExtraAttributes:{originTag:\"CRAFTING_GRID_COLLECT\",id:\"IRON_HELMET\",uuid:\"51befea9-f7a8-41ee-a628-2037bb1fdbbd\",timestamp:\"7/8/20 1:07 PM\"}}",
-  "modver": "1.0.0",
   "lore": [
-    "§7Defense: §a+10",
-    "",
-    "§7§8This item can be reforged!",
-    "§f§lCOMMON HELMET"
-  ]
+    "§f§lCOMMON"
+  ],
+  "internalname": "IRON_HELMET",
+  "modver": "1.3-REL",
+  "vanilla": true,
+  "clickcommand": "viewrecipe",
+  "recipe": {
+    "A1": "IRON_INGOT:1",
+    "A2": "IRON_INGOT:1",
+    "A3": "IRON_INGOT:1",
+    "B1": "IRON_INGOT:1",
+    "B2": "",
+    "B3": "IRON_INGOT:1",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  }
 }

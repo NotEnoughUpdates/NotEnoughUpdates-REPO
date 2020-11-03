@@ -1,12 +1,25 @@
 {
-  "internalname": "STAINED_GLASS_PANE-15",
-  "itemid": 160,
+  "itemid": "minecraft:stained_glass_pane",
   "displayname": "§fBlack Stained Glass Pane",
-  "clickcommand": "",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBlack Stained Glass Pane\"},ExtraAttributes:{id:\"STAINED_GLASS_PANE\"}}",
   "damage": 15,
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBlack Stained Glass Pane\"},ExtraAttributes:{id:\"STAINED_GLASS_PANE:15\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§f§lCOMMON"
-  ]
+  ],
+  "internalname": "STAINED_GLASS_PANE-15",
+  "parent": "STAINED_GLASS_PANE",
+  "modver": "1.3-REL",
+  "vanilla": true,
+  "clickcommand": "viewrecipe",
+  "recipe": {
+    "A1": "STAINED_GLASS-15:1",
+    "A2": "STAINED_GLASS-15:1",
+    "A3": "STAINED_GLASS-15:1",
+    "B1": "STAINED_GLASS-15:1",
+    "B2": "STAINED_GLASS-15:1",
+    "B3": "STAINED_GLASS-15:1",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  }
 }

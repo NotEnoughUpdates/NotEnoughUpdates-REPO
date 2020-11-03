@@ -1,15 +1,24 @@
 {
-  "internalname": "STONE_SWORD",
-  "itemid": 272,
+  "itemid": "minecraft:stone_sword",
   "displayname": "§fStone Sword",
-  "clickcommand": "",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fStone Sword\"},ExtraAttributes:{id:\"STONE_SWORD\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+25\",1:\"\",2:\"§7§8This item can be reforged!\",3:\"§f§lCOMMON SWORD\"],Name:\"§fStone Sword\"},ExtraAttributes:{originTag:\"CRAFTING_GRID_SHIFT\",id:\"STONE_SWORD\",uuid:\"67ed3ad4-9630-49d6-b0c5-edba90f37caa\",timestamp:\"4/14/20 4:49 PM\"}}",
-  "modver": "1.0.0",
   "lore": [
-    "§7Damage: §c+25",
-    "",
-    "§7§8This item can be reforged!",
-    "§f§lCOMMON SWORD"
-  ]
+    "§f§lCOMMON"
+  ],
+  "internalname": "STONE_SWORD",
+  "modver": "1.3-REL",
+  "vanilla": true,
+  "clickcommand": "viewrecipe",
+  "recipe": {
+    "A1": "COBBLESTONE:1",
+    "A2": "",
+    "A3": "",
+    "B1": "COBBLESTONE:1",
+    "B2": "",
+    "B3": "",
+    "C1": "STICK:1",
+    "C2": "",
+    "C3": ""
+  }
 }

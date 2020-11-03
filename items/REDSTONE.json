@@ -1,17 +1,24 @@
 {
   "itemid": "minecraft:redstone",
   "displayname": "§fRedstone",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§f§lCOMMON\",2:\"\",3:\"§eClick to view recipe!\"],Name:\"§fRedstone\"},ExtraAttributes:{id:\"REDSTONE\"}}",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fRedstone\"},ExtraAttributes:{id:\"REDSTONE\"}}",
   "damage": 0,
   "lore": [
-    "§8Brewing Ingredient",
     "§f§lCOMMON"
   ],
   "internalname": "REDSTONE",
-  "clickcommand": "",
-  "modver": "1.0.0",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Redstone"
-  ]
+  "modver": "1.3-REL",
+  "vanilla": true,
+  "clickcommand": "viewrecipe",
+  "recipe": {
+    "A1": "REDSTONE_BLOCK:1",
+    "A2": "",
+    "A3": "",
+    "B1": "",
+    "B2": "",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  }
 }

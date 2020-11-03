@@ -1,12 +1,14 @@
 {
-  "internalname": "COAL-1",
-  "itemid": 263,
+  "itemid": "minecraft:coal",
   "displayname": "§fCharcoal",
-  "clickcommand": "",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fCharcoal\"},ExtraAttributes:{id:\"COAL-1\"}}",
   "damage": 1,
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fCharcoal\"},ExtraAttributes:{id:\"COAL:1\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§f§lCOMMON"
-  ]
+  ],
+  "parent": "COAL",
+  "internalname": "COAL-1",
+  "modver": "1.3-REL",
+  "vanilla": true,
+  "clickcommand": ""
 }

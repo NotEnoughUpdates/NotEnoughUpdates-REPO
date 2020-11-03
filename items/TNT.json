@@ -1,12 +1,24 @@
 {
-  "internalname": "TNT",
   "itemid": "minecraft:tnt",
   "displayname": "§fTNT",
-  "clickcommand": "",
-  "damage": 0,
   "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fTNT\"},ExtraAttributes:{id:\"TNT\"}}",
-  "modver": "1.0.0",
+  "damage": 0,
   "lore": [
     "§f§lCOMMON"
-  ]
+  ],
+  "internalname": "TNT",
+  "modver": "1.3-REL",
+  "vanilla": true,
+  "clickcommand": "viewrecipe",
+  "recipe": {
+    "A1": "SULPHUR:1",
+    "A2": "SAND:1",
+    "A3": "SULPHUR:1",
+    "B1": "SAND:1",
+    "B2": "SULPHUR:1",
+    "B3": "SAND:1",
+    "C1": "SULPHUR:1",
+    "C2": "SAND:1",
+    "C3": "SULPHUR:1"
+  }
 }
