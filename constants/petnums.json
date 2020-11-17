@@ -3307,7 +3307,30 @@
         }
     },
     "SPIDER": {
-		"UNCOMMON": {
+        "COMMON":{
+            "1":{
+                "otherNums": [
+                    0.1,
+					10.0
+                ],
+                "statNums": {
+                    "CRIT_CHANCE": 0.0,
+                    "STRENGTH": 0.0
+                }
+            },
+            "100":{
+                "otherNums": [
+                    10.0,
+                    10.0
+                ],
+                "statNums": {
+                    "CRIT_CHANCE": 10.0,
+                    "STRENGTH": 10.0
+                }
+            },
+            "interp": "1:100"
+        },
+        "UNCOMMON": {
             "1": {
                 "otherNums": [
                     0.1,
@@ -4094,6 +4117,29 @@
             "100": {
                 "otherNums": [
                     20
+                ],
+                "statNums": {
+                    "CRIT_DAMAGE": 30.0,
+                    "HEALTH": 100.0
+                }
+            },
+            "interp": "1:70"
+        },
+        "RARE": {
+            "1": {
+                "otherNums": [
+                    0.2,
+                    0.2
+                ],
+                "statNums": {
+                    "CRIT_DAMAGE": 0.0,
+                    "HEALTH": 1.0
+                }
+            },
+            "100": {
+                "otherNums": [
+                    25,
+                    25
                 ],
                 "statNums": {
                     "CRIT_DAMAGE": 30.0,
