@@ -1,1194 +1,737 @@
 {
-   "parents": [
-      {
-        "id": "GOLD_RECORD",
-        "children":[
-            "GREEN_RECORD",
-            "RECORD_3",
-            "RECORD_4",
-            "RECORD_5",
-            "RECORD_6",
-            "RECORD_7",
-            "RECORD_8",
-            "RECORD_9",
-            "RECORD_10",
-            "RECORD_11",
-            "RECORD_12"
-        ]
-      },
-      {
-        "id": "BAT_PERSON_TALISMAN",
-        "children":[
-            "BAT_PERSON_ARTIFACT",
-            "BAT_PERSON_RING"
-        ]
-      },
-      {
-         "id": "WOOD_DOOR",
-         "children": [
-            "ACACIA_DOOR_ITEM",
-            "BIRCH_DOOR_ITEM",
-            "DARK_OAK_DOOR_ITEM",
-            "JUNGLE_DOOR_ITEM",
-            "SPRUCE_DOOR_ITEM"
-         ]
-      },
-      {
-         "id": "FENCE_GATE",
-         "children": [
-            "ACACIA_FENCE_GATE",
-            "BIRCH_FENCE_GATE",
-            "DARK_OAK_FENCE_GATE",
-            "JUNGLE_FENCE_GATE",
-            "SPRUCE_FENCE_GATE"
-         ]
-      },
-      {
-         "id": "FENCE",
-         "children": [
-            "ACACIA_FENCE",
-            "BIRCH_FENCE",
-            "DARK_OAK_FENCE",
-            "JUNGLE_FENCE",
-            "SPRUCE_FENCE"
-         ]
-      },
-      {
-         "id": "WOOD_STAIRS",
-         "children": [
-            "ACACIA_STAIRS",
-            "BIRCH_WOOD_STAIRS",
-            "DARK_OAK_STAIRS",
-            "JUNGLE_WOOD_STAIRS",
-            "SPRUCE_WOOD_STAIRS"
-         ]
-      },
-      {
-         "id": "RAILS",
-         "children": [
-            "ACTIVATOR_RAIL",
-            "DETECTOR_RAIL",
-            "POWERED_RAIL"
-         ]
-      },
-      {
-         "id": "PET_ITEM_ALL_SKILLS_BOOST_COMMON",
-         "children": [
-            "ALL_SKILLS_SUPER_BOOST"
-         ]
-      },
-      {
-         "id": "AIMING;4",
-         "children": [
-            "AIMING;5"
-         ]
-      },
-      {
-         "id": "ANGLER;4",
-         "children": [
-            "ANGLER;5",
-            "ANGLER;6"
-         ]
-      },
-      {
-         "id": "POTION_AFFINITY_TALISMAN",
-         "children": [
-            "ARTIFACT_POTION_AFFINITY",
-            "RING_POTION_AFFINITY"
-         ]
-      },
-      {
-         "id": "BANE_OF_ARTHROPODS;4",
-         "children": [
-            "BANE_OF_ARTHROPODS;6",
-            "BANE_OF_ARTHROPODS;5"
-         ]
-      },
-      {
-         "id": "BANNER",
-         "children": [
-            "BANNER-10",
-            "BANNER-11",
-            "BANNER-1",
-            "BANNER-13",
-            "BANNER-12",
-            "BANNER-15",
-            "BANNER-14",
-            "BANNER-3",
-            "BANNER-2",
-            "BANNER-4",
-            "BANNER-6",
-            "BANNER-5",
-            "BANNER-7",
-            "BANNER-8",
-            "BANNER-9"
-         ]
-      },
-      {
-         "id": "BAT_TALISMAN",
-         "children": [
-            "BAT_ARTIFACT",
-            "BAT_RING"
-         ]
-      },
-      {
-         "id": "BEASTMASTER_CREST_COMMON",
-         "children": [
-            "BEASTMASTER_CREST_RARE",
-            "BEASTMASTER_CREST_EPIC",
-            "BEASTMASTER_CREST_UNCOMMON",
-            "BEASTMASTER_CREST_LEGENDARY"
-         ]
-      },
-      {
-         "id": "BIG_BRAIN;3",
-         "children": [
-            "BIG_BRAIN;4",
-            "BIG_BRAIN;5"
-         ]
-      },
-      {
-         "id": "PET_ITEM_BIG_TEETH_COMMON",
-         "children": [
-            "BIGGER_TEETH"
-         ]
-      },
-      {
-         "id": "FOREST_BIOME_STICK",
-         "children": [
-            "BIRCH_FOREST_BIOME_STICK",
-            "DEEP_OCEAN_BIOME_STICK",
-            "DESERT_BIOME_STICK",
-            "END_BIOME_STICK",
-            "JUNGLE_BIOME_STICK",
-            "NETHER_BIOME_STICK",
-            "ROOFED_FOREST_BIOME_STICK",
-            "SAVANA_BIOME_STICK",
-            "TAIGA_BIOME_STICK"
-         ]
-      },
-      {
-         "id": "BLAST_PROTECTION;4",
-         "children": [
-            "BLAST_PROTECTION;5"
-         ]
-      },
-      {
-         "id": "BLESSING;4",
-         "children": [
-            "BLESSING;5"
-         ]
-      },
-      {
-         "id": "PIGGY_BANK",
-         "children": [
-            "BROKEN_PIGGY_BANK",
-            "CRACKED_PIGGY_BANK"
-         ]
-      },
-      {
-         "id": "SMOOTH_STAIRS",
-         "children": [
-            "BRICK_STAIRS",
-            "COBBLESTONE_STAIRS",
-            "NETHER_BRICK_STAIRS",
-            "QUARTZ_STAIRS"
-         ]
-      },
-      {
-         "id": "CANDY_TALISMAN",
-         "children": [
-            "CANDY_ARTIFACT",
-            "CANDY_RING",
-            "CANDY_RELIC"
-         ]
-      },
-      {
-         "id": "CARPET",
-         "children": [
-            "CARPET-1",
-            "CARPET-12",
-            "CARPET-10",
-            "CARPET-11",
-            "CARPET-13",
-            "CARPET-14",
-            "CARPET-15",
-            "CARPET-2",
-            "CARPET-3",
-            "CARPET-4",
-            "CARPET-5",
-            "CARPET-6",
-            "CARPET-8",
-            "CARPET-9",
-            "CARPET-7"
-         ]
-      },
-      {
-         "id": "CASTER;4",
-         "children": [
-            "CASTER;5",
-            "CASTER;6"
-         ]
-      },
-      {
-         "id": "CLEAVE;4",
-         "children": [
-            "CLEAVE;5"
-         ]
-      },
-      {
-         "id": "COAL",
-         "children": [
-            "COAL-1"
-         ]
-      },
-      {
-         "id": "COBBLE_WALL",
-         "children": [
-            "COBBLE_WALL-1"
-         ]
-      },
-      {
-         "id": "CRITICAL;4",
-         "children": [
-            "CRITICAL;5",
-            "CRITICAL;6"
-         ]
-      },
-      {
-         "id": "SHADY_RING",
-         "children": [
-            "CROOKED_ARTIFACT",
-            "SEAL_OF_THE_FAMILY"
-         ]
-      },
-      {
-         "id": "MINING_1_TRAVEL_SCROLL",
-         "children": [
-            "DANGER_1_TRAVEL_SCROLL",
-            "DANGER_3_TRAVEL_SCROLL",
-            "DANGER_2_TRAVEL_SCROLL",
-            "DRAGON_NEST_TRAVEL_SCROLL",
-            "FARMING_1_TRAVEL_SCROLL",
-            "FARMING_2_TRAVEL_SCROLL",
-            "FORAGING_1_TRAVEL_SCROLL",
-            "HUB_DA_TRAVEL_SCROLL",
-            "HUB_CRYPTS_TRAVEL_SCROLL",
-            "HUB_CASTLE_TRAVEL_SCROLL",
-            "MINING_2_TRAVEL_SCROLL",
-            "NETHER_FORTRESS_BOSS_TRAVEL_SCROLL",
-            "PARK_CAVE_TRAVEL_SCROLL",
-            "PARK_JUNGLE_TRAVEL_SCROLL",
-            "SPIDERS_DEN_TOP_TRAVEL_SCROLL"
-         ]
-      },
-      {
-         "id": "HUB_PORTAL",
-         "children": [
-            "DANGER_1_PORTAL",
-            "DANGER_3_PORTAL",
-            "DANGER_2_PORTAL",
-            "FARMING_1_PORTAL",
-            "FARMING_2_PORTAL",
-            "FORAGING_1_PORTAL",
-            "FORAGING_3_PORTAL",
-            "FORAGING_4_PORTAL",
-            "FORAGING_2_PORTAL",
-            "FORAGING_5_PORTAL",
-            "MINING_1_PORTAL",
-            "MINING_2_PORTAL"
-         ]
-      },
-      {
-         "id": "CUBISM;4",
-         "children": [
-            "CUBISM;5"
-         ]
-      },
-      {
-         "id": "DEPTH_STRIDER;2",
-         "children": [
-            "DEPTH_STRIDER;3"
-         ]
-      },
-      {
-         "id": "DIRT",
-         "children": [
-            "DIRT-1"
-         ]
-      },
-      {
-         "id": "DRAGON_HUNTER;1",
-         "children": [
-            "DRAGON_HUNTER;5"
-         ]
-      },
-      {
-         "id": "RAGGEDY_SHARK_TOOTH_NECKLACE",
-         "children": [
-            "DULL_SHARK_TOOTH_NECKLACE",
-            "HONED_SHARK_TOOTH_NECKLACE",
-            "RAZOR_SHARP_SHARK_TOOTH_NECKLACE",
-            "SHARP_SHARK_TOOTH_NECKLACE"
-         ]
-      },
-      {
-         "id": "EFFICIENCY;4",
-         "children": [
-            "EFFICIENCY;5"
-         ]
-      },
-      {
-         "id": "ENDER_SLAYER;4",
-         "children": [
-            "ENDER_SLAYER;6",
-            "ENDER_SLAYER;5"
-         ]
-      },
-      {
-         "id": "EXECUTE;4",
-         "children": [
-            "EXECUTE;5"
-         ]
-      },
-      {
-         "id": "EXPERIENCE;2",
-         "children": [
-            "EXPERIENCE;4",
-            "EXPERIENCE;3"
-         ]
-      },
-      {
-         "id": "FEATHER_TALISMAN",
-         "children": [
-            "FEATHER_ARTIFACT",
-            "FEATHER_RING"
-         ]
-      },
-      {
-         "id": "FEATHER_FALLING;4",
-         "children": [
-            "FEATHER_FALLING;6",
-            "FEATHER_FALLING;10"
-         ]
-      },
-      {
-         "id": "FIRST_STRIKE;3",
-         "children": [
-            "FIRST_STRIKE;4"
-         ]
-      },
-      {
-         "id": "FRAIL;4",
-         "children": [
-            "FRAIL;5",
-            "FRAIL;6"
-         ]
-      },
-      {
-         "id": "GIANT_KILLER;4",
-         "children": [
-            "GIANT_KILLER;5",
-            "GIANT_KILLER;7",
-            "GIANT_KILLER;6"
-         ]
-      },
-      {
-         "id": "GOLDEN_APPLE",
-         "children": [
-            "GOLDEN_APPLE-1"
-         ]
-      },
-      {
-         "id": "PET_ITEM_IRON_CLAWS_COMMON",
-         "children": [
-            "GOLD_CLAWS",
-            "PET_ITEM_SHARPENED_CLAWS_UNCOMMON"
-         ]
-      },
-      {
-         "id": "SIMPLE_CARROT_CANDY",
-         "children": [
-            "GREAT_CARROT_CANDY",
-            "SUPERB_CARROT_CANDY",
-            "ULTIMATE_CARROT_CANDY"
-         ]
-      },
-      {
-         "id": "WHITE_GIFT",
-         "children": [
-            "GREEN_GIFT",
-            "RED_GIFT"
-         ]
-      },
-      {
-         "id": "BASE_GRIFFIN_UPGRADE_STONE",
-         "children": [
-            "GRIFFIN_UPGRADE_STONE_LEGENDARY",
-            "GRIFFIN_UPGRADE_STONE_EPIC",
-            "GRIFFIN_UPGRADE_STONE_UNCOMMON",
-            "GRIFFIN_UPGRADE_STONE_RARE"
-         ]
-      },
-      {
-         "id": "GROWTH;4",
-         "children": [
-            "GROWTH;5",
-            "GROWTH;7",
-            "GROWTH;6"
-         ]
-      },
-      {
-         "id": "HEALING_TALISMAN",
-         "children": [
-            "HEALING_RING"
-         ]
-      },
-      {
-         "id": "INFINITE_QUIVER;4",
-         "children": [
-            "INFINITE_QUIVER;6",
-            "INFINITE_QUIVER;10"
-         ]
-      },
-      {
-         "id": "INK_SACK",
-         "children": [
-            "INK_SACK-1",
-            "INK_SACK-10",
-            "INK_SACK-11",
-            "INK_SACK-12",
-            "INK_SACK-13",
-            "INK_SACK-14",
-            "INK_SACK-3",
-            "INK_SACK-2",
-            "INK_SACK-15",
-            "INK_SACK-6",
-            "INK_SACK-4",
-            "INK_SACK-5",
-            "INK_SACK-8",
-            "INK_SACK-9",
-            "INK_SACK-7"
-         ]
-      },
-      {
-         "id": "INTIMIDATION_TALISMAN",
-         "children": [
-            "INTIMIDATION_ARTIFACT",
-            "INTIMIDATION_RING"
-         ]
-      },
-      {
-         "id": "SMALL_AGRONOMY_SACK",
-         "children": [
-            "LARGE_AGRONOMY_SACK",
-            "MEDIUM_AGRONOMY_SACK"
-         ]
-      },
-      {
-         "id": "SMALL_ENCHANTED_CHEST",
-         "children": [
-            "LARGE_ENCHANTED_CHEST",
-            "MEDIUM_ENCHANTED_CHEST",
-            "XLARGE_ENCHANTED_CHEST",
-            "XXLARGE_ENCHANTED_CHEST"
-         ]
-      },
-      {
-         "id": "SMALL_COMBAT_SACK",
-         "children": [
-            "LARGE_COMBAT_SACK",
-            "MEDIUM_COMBAT_SACK"
-         ]
-      },
-      {
-         "id": "SMALL_FISHING_SACK",
-         "children": [
-            "LARGE_FISHING_SACK",
-            "MEDIUM_FISHING_SACK"
-         ]
-      },
-      {
-         "id": "SMALL_MINING_SACK",
-         "children": [
-            "LARGE_MINING_SACK",
-            "MEDIUM_MINING_SACK"
-         ]
-      },
-      {
-         "id": "SMALL_FORAGING_SACK",
-         "children": [
-            "LARGE_FORAGING_SACK",
-            "MEDIUM_FORAGING_SACK"
-         ]
-      },
-      {
-         "id": "SMALL_HUSBANDRY_SACK",
-         "children": [
-            "LARGE_HUSBANDRY_SACK",
-            "MEDIUM_HUSBANDRY_SACK"
-         ]
-      },
-      {
-         "id": "SMALL_SLAYER_SACK",
-         "children": [
-            "LARGE_SLAYER_SACK",
-            "MEDIUM_SLAYER_SACK"
-         ]
-      },
-      {
-         "id": "LEAVES",
-         "children": [
-            "LEAVES-2",
-            "LEAVES-3",
-            "LEAVES-1",
-            "LEAVES_2-1",
-            "LEAVES_2"
-         ]
-      },
-      {
-         "id": "LETHALITY;4",
-         "children": [
-            "LETHALITY;6",
-            "LETHALITY;5"
-         ]
-      },
-      {
-         "id": "LIFE_STEAL;2",
-         "children": [
-            "LIFE_STEAL;3",
-            "LIFE_STEAL;4"
-         ]
-      },
-      {
-         "id": "LOG",
-         "children": [
-            "LOG-1",
-            "LOG-2",
-            "LOG-3",
-            "LOG_2-1",
-            "LOG_2"
-         ]
-      },
-      {
-         "id": "LOOTING;2",
-         "children": [
-            "LOOTING;4",
-            "LOOTING;3"
-         ]
-      },
-      {
-         "id": "LUCK;4",
-         "children": [
-            "LUCK;5",
-            "LUCK;6"
-         ]
-      },
-      {
-         "id": "LUCK_OF_THE_SEA;4",
-         "children": [
-            "LUCK_OF_THE_SEA;6",
-            "LUCK_OF_THE_SEA;5"
-         ]
-      },
-      {
-         "id": "LURE;4",
-         "children": [
-            "LURE;5",
-            "LURE;6"
-         ]
-      },
-      {
-         "id": "MAGNET;4",
-         "children": [
-            "MAGNET;6",
-            "MAGNET;5"
-         ]
-      },
-      {
-         "id": "STONE",
-         "children": [
-            "MONSTER_EGG",
-            "STONE-1",
-            "STONE-4",
-            "STONE-2",
-            "STONE-5",
-            "STONE-3",
-            "STONE-6"
-         ]
-      },
-      {
-         "id": "OVERLOAD;1",
-         "children": [
-            "OVERLOAD;5"
-         ]
-      },
-      {
-         "id": "PERFECT_BOOTS_1",
-         "children": [
-            "PERFECT_BOOTS_11",
-            "PERFECT_BOOTS_10",
-            "PERFECT_BOOTS_12",
-            "PERFECT_BOOTS_2",
-            "PERFECT_BOOTS_3",
-            "PERFECT_BOOTS_5",
-            "PERFECT_BOOTS_4",
-            "PERFECT_BOOTS_8",
-            "PERFECT_BOOTS_6",
-            "PERFECT_BOOTS_7",
-            "PERFECT_BOOTS_9"
-         ]
-      },
-      {
-         "id": "PERFECT_CHESTPLATE_1",
-         "children": [
-            "PERFECT_CHESTPLATE_10",
-            "PERFECT_CHESTPLATE_12",
-            "PERFECT_CHESTPLATE_11",
-            "PERFECT_CHESTPLATE_2",
-            "PERFECT_CHESTPLATE_3",
-            "PERFECT_CHESTPLATE_5",
-            "PERFECT_CHESTPLATE_4",
-            "PERFECT_CHESTPLATE_7",
-            "PERFECT_CHESTPLATE_6",
-            "PERFECT_CHESTPLATE_8",
-            "PERFECT_CHESTPLATE_9"
-         ]
-      },
-      {
-         "id": "PERFECT_HELMET_1",
-         "children": [
-            "PERFECT_HELMET_12",
-            "PERFECT_HELMET_11",
-            "PERFECT_HELMET_10",
-            "PERFECT_HELMET_3",
-            "PERFECT_HELMET_2",
-            "PERFECT_HELMET_6",
-            "PERFECT_HELMET_4",
-            "PERFECT_HELMET_7",
-            "PERFECT_HELMET_5",
-            "PERFECT_HELMET_8",
-            "PERFECT_HELMET_9"
-         ]
-      },
-      {
-         "id": "PERFECT_LEGGINGS_1",
-         "children": [
-            "PERFECT_LEGGINGS_10",
-            "PERFECT_LEGGINGS_11",
-            "PERFECT_LEGGINGS_12",
-            "PERFECT_LEGGINGS_2",
-            "PERFECT_LEGGINGS_3",
-            "PERFECT_LEGGINGS_4",
-            "PERFECT_LEGGINGS_6",
-            "PERFECT_LEGGINGS_5",
-            "PERFECT_LEGGINGS_9",
-            "PERFECT_LEGGINGS_8",
-            "PERFECT_LEGGINGS_7"
-         ]
-      },
-      {
-         "id": "PERSONAL_COMPACTOR_4000",
-         "children": [
-            "PERSONAL_COMPACTOR_5000",
-            "PERSONAL_COMPACTOR_6000"
-         ]
-      },
-      {
-         "id": "PET_ITEM_COMBAT_SKILL_BOOST_COMMON",
-         "children": [
-            "PET_ITEM_COMBAT_SKILL_BOOST_RARE",
-            "PET_ITEM_COMBAT_SKILL_BOOST_UNCOMMON",
-            "PET_ITEM_COMBAT_SKILL_BOOST_EPIC"
-         ]
-      },
-      {
-         "id": "PET_ITEM_FARMING_SKILL_BOOST_COMMON",
-         "children": [
-            "PET_ITEM_FARMING_SKILL_BOOST_EPIC",
-            "PET_ITEM_FARMING_SKILL_BOOST_RARE"
-         ]
-      },
-      {
-         "id": "PET_ITEM_FISHING_SKILL_BOOST_COMMON",
-         "children": [
-            "PET_ITEM_FISHING_SKILL_BOOST_EPIC",
-            "PET_ITEM_FISHING_SKILL_BOOST_RARE",
-            "PET_ITEM_FISHING_SKILL_BOOST_UNCOMMON"
-         ]
-      },
-      {
-         "id": "PET_ITEM_FORAGING_SKILL_BOOST_COMMON",
-         "children": [
-            "PET_ITEM_FORAGING_SKILL_BOOST_EPIC"
-         ]
-      },
-      {
-         "id": "REINFORCED_SCALES",
-         "children": [
-            "PET_ITEM_HARDENED_SCALES_UNCOMMON"
-         ]
-      },
-      {
-         "id": "PET_ITEM_MINING_SKILL_BOOST_COMMON",
-         "children": [
-            "PET_ITEM_MINING_SKILL_BOOST_RARE"
-         ]
-      },
-      {
-         "id": "POWER;4",
-         "children": [
-            "POWER;5",
-            "POWER;6",
-            "POWER;7"
-         ]
-      },
-      {
-         "id": "PRISMARINE",
-         "children": [
-            "PRISMARINE-2",
-            "PRISMARINE-1"
-         ]
-      },
-      {
-         "id": "PROTECTION;4",
-         "children": [
-            "PROTECTION;5",
-            "PROTECTION;6",
-            "PROTECTION;7"
-         ]
-      },
-      {
-         "id": "GREEN_CANDY",
-         "children": [
-            "PURPLE_CANDY"
-         ]
-      },
-      {
-         "id": "QUARTZ_BLOCK",
-         "children": [
-            "QUARTZ_BLOCK-1",
-            "QUARTZ_BLOCK-2"
-         ]
-      },
-      {
-         "id": "RED_CLAW_TALISMAN",
-         "children": [
-            "RED_CLAW_RING",
-            "RED_CLAW_ARTIFACT"
-         ]
-      },
-      {
-         "id": "RED_SANDSTONE",
-         "children": [
-            "RED_SANDSTONE-2",
-            "RED_SANDSTONE-1"
-         ]
-      },
-      {
-         "id": "REJUVENATE;1",
-         "children": [
-            "REJUVENATE;5"
-         ]
-      },
-      {
-         "id": "POORLY_WRAPPED_ROCK",
-         "children": [
-            "ROSE_BOUQUET",
-            "YELLOW_ROCK"
-         ]
-      },
-      {
-         "id": "SAND",
-         "children": [
-            "SAND-1"
-         ]
-      },
-      {
-         "id": "SANDSTONE",
-         "children": [
-            "SANDSTONE-1",
-            "SANDSTONE-2"
-         ]
-      },
-      {
-         "id": "SCARF_STUDIES",
-         "children": [
-            "SCARF_THESIS",
-            "SCARF_GRIMOIRE"
-         ]
-      },
-      {
-         "id": "SCAVENGER;2",
-         "children": [
-            "SCAVENGER;3",
-            "SCAVENGER;4",
-            "SCAVENGER;5"
-         ]
-      },
-      {
-         "id": "SEA_CREATURE_TALISMAN",
-         "children": [
-            "SEA_CREATURE_RING",
-            "SEA_CREATURE_ARTIFACT"
-         ]
-      },
-      {
-         "id": "SHARPNESS;4",
-         "children": [
-            "SHARPNESS;5",
-            "SHARPNESS;7",
-            "SHARPNESS;6"
-         ]
-      },
-      {
-         "id": "SMITE;4",
-         "children": [
-            "SMITE;5",
-            "SMITE;6",
-            "SMITE;7"
-         ]
-      },
-      {
-         "id": "SMOOTH_BRICK",
-         "children": [
-            "SMOOTH_BRICK-1",
-            "SMOOTH_BRICK-3"
-         ]
-      },
-      {
-         "id": "SPEED_TALISMAN",
-         "children": [
-            "SPEED_ARTIFACT",
-            "SPEED_RING"
-         ]
-      },
-      {
-         "id": "SPIDER_TALISMAN",
-         "children": [
-            "SPIDER_ARTIFACT",
-            "SPIDER_RING"
-         ]
-      },
-      {
-         "id": "SPIKED_HOOK;4",
-         "children": [
-            "SPIKED_HOOK;6",
-            "SPIKED_HOOK;5"
-         ]
-      },
-      {
-         "id": "STAINED_CLAY",
-         "children": [
-            "STAINED_CLAY-1",
-            "STAINED_CLAY-10",
-            "STAINED_CLAY-11",
-            "STAINED_CLAY-12",
-            "STAINED_CLAY-13",
-            "STAINED_CLAY-14",
-            "STAINED_CLAY-2",
-            "STAINED_CLAY-3",
-            "STAINED_CLAY-5",
-            "STAINED_CLAY-15",
-            "STAINED_CLAY-6",
-            "STAINED_CLAY-4",
-            "STAINED_CLAY-9",
-            "STAINED_CLAY-7",
-            "STAINED_CLAY-8"
-         ]
-      },
-      {
-         "id": "STAINED_GLASS",
-         "children": [
-            "STAINED_GLASS-1",
-            "STAINED_GLASS-10",
-            "STAINED_GLASS-13",
-            "STAINED_GLASS-11",
-            "STAINED_GLASS-2",
-            "STAINED_GLASS-14",
-            "STAINED_GLASS-15",
-            "STAINED_GLASS-3",
-            "STAINED_GLASS-4",
-            "STAINED_GLASS-5",
-            "STAINED_GLASS-6",
-            "STAINED_GLASS-7",
-            "STAINED_GLASS-8",
-            "STAINED_GLASS-9",
-            "STAINED_GLASS-12"
-         ]
-      },
-      {
-         "id": "STAINED_GLASS_PANE",
-         "children": [
-            "STAINED_GLASS_PANE-1",
-            "STAINED_GLASS_PANE-10",
-            "STAINED_GLASS_PANE-12",
-            "STAINED_GLASS_PANE-11",
-            "STAINED_GLASS_PANE-14",
-            "STAINED_GLASS_PANE-13",
-            "STAINED_GLASS_PANE-2",
-            "STAINED_GLASS_PANE-15",
-            "STAINED_GLASS_PANE-3",
-            "STAINED_GLASS_PANE-4",
-            "STAINED_GLASS_PANE-5",
-            "STAINED_GLASS_PANE-6",
-            "STAINED_GLASS_PANE-8",
-            "STAINED_GLASS_PANE-7",
-            "STAINED_GLASS_PANE-9"
-         ]
-      },
-      {
-         "id": "ADAPTIVE_BOOTS",
-         "children": [
-            "STARRED_ADAPTIVE_BOOTS"
-         ]
-      },
-      {
-         "id": "ADAPTIVE_CHESTPLATE",
-         "children": [
-            "STARRED_ADAPTIVE_CHESTPLATE"
-         ]
-      },
-      {
-         "id": "ADAPTIVE_HELMET",
-         "children": [
-            "STARRED_ADAPTIVE_HELMET"
-         ]
-      },
-      {
-         "id": "BONZO_MASK",
-         "children": [
-            "STARRED_BONZO_MASK"
-         ]
-      },
-      {
-         "id": "ADAPTIVE_LEGGINGS",
-         "children": [
-            "STARRED_ADAPTIVE_LEGGINGS"
-         ]
-      },
-      {
-         "id": "BONZO_STAFF",
-         "children": [
-            "STARRED_BONZO_STAFF"
-         ]
-      },
-      {
-         "id": "LAST_BREATH",
-         "children": [
-            "STARRED_LAST_BREATH"
-         ]
-      },
-      {
-         "id": "SHADOW_ASSASSIN_BOOTS",
-         "children": [
-            "STARRED_SHADOW_ASSASSIN_BOOTS"
-         ]
-      },
-      {
-         "id": "SHADOW_ASSASSIN_CHESTPLATE",
-         "children": [
-            "STARRED_SHADOW_ASSASSIN_CHESTPLATE"
-         ]
-      },
-      {
-         "id": "SHADOW_ASSASSIN_LEGGINGS",
-         "children": [
-            "STARRED_SHADOW_ASSASSIN_LEGGINGS"
-         ]
-      },
-      {
-         "id": "SHADOW_ASSASSIN_HELMET",
-         "children": [
-            "STARRED_SHADOW_ASSASSIN_HELMET"
-         ]
-      },
-      {
-         "id": "SHADOW_FURY",
-         "children": [
-            "STARRED_SHADOW_FURY"
-         ]
-      },
-      {
-         "id": "STEP",
-         "children": [
-            "STEP-3",
-            "STEP-5",
-            "STEP-4",
-            "STEP-6",
-            "STEP-7",
-            "STEP-1"
-         ]
-      },
-      {
-         "id": "STONE_BLADE",
-         "children": [
-            "STARRED_STONE_BLADE"
-         ]
-      },
-      {
-         "id": "SUGAR_RUSH;1",
-         "children": [
-            "SUGAR_RUSH;3"
-         ]
-      },
-      {
-         "id": "COMPACTOR",
-         "children": [
-            "SUPER_COMPACTOR_3000"
-         ]
-      },
-      {
-         "id": "THUNDERLORD;4",
-         "children": [
-            "THUNDERLORD;5",
-            "THUNDERLORD;6"
-         ]
-      },
-      {
-         "id": "ULTIMATE_BANK;1",
-         "children": [
-            "ULTIMATE_BANK;5"
-         ]
-      },
-      {
-         "id": "ULTIMATE_CHIMERA;1",
-         "children": [
-            "ULTIMATE_CHIMERA;5"
-         ]
-      },
-      {
-         "id": "ULTIMATE_COMBO;1",
-         "children": [
-            "ULTIMATE_COMBO;5"
-         ]
-      },
-      {
-         "id": "ULTIMATE_LAST_STAND;1",
-         "children": [
-            "ULTIMATE_LAST_STAND;5"
-         ]
-      },
-      {
-         "id": "ULTIMATE_LEGION;1",
-         "children": [
-            "ULTIMATE_LEGION;5"
-         ]
-      },
-      {
-         "id": "ULTIMATE_NO_PAIN_NO_GAIN;1",
-         "children": [
-            "ULTIMATE_NO_PAIN_NO_GAIN;5"
-         ]
-      },
-      {
-         "id": "ULTIMATE_REND;1",
-         "children": [
-            "ULTIMATE_REND;5"
-         ]
-      },
-      {
-         "id": "ULTIMATE_SWARM;1",
-         "children": [
-            "ULTIMATE_SWARM;5"
-         ]
-      },
-      {
-         "id": "ULTIMATE_WISDOM;1",
-         "children": [
-            "ULTIMATE_WISDOM;5"
-         ]
-      },
-      {
-         "id": "ULTIMATE_WISE;1",
-         "children": [
-            "ULTIMATE_WISE;5"
-         ]
-      },
-      {
-         "id": "VAMPIRISM;4",
-         "children": [
-            "VAMPIRISM;5",
-            "VAMPIRISM;6"
-         ]
-      },
-      {
-         "id": "VENOMOUS;4",
-         "children": [
-            "VENOMOUS;5"
-         ]
-      },
-      {
-         "id": "VICIOUS;3",
-         "children": [
-            "VICIOUS;4",
-            "VICIOUS;5"
-         ]
-      },
-      {
-         "id": "ULTIMATE_JERRY;1",
-         "children": [
-            "ULTIMATE_JERRY;5"
-         ]
-      },
-      {
-         "id": "WEDDING_RING_0",
-         "children": [
-            "WEDDING_RING_1"
-         ]
-      },
-      {
-         "id": "WOLF_TALISMAN",
-         "children": [
-            "WOLF_RING"
-         ]
-      },
-      {
-         "id": "WOOD",
-         "children": [
-            "WOOD-1",
-            "WOOD-2",
-            "WOOD-5",
-            "WOOD-3",
-            "WOOD-4"
-         ]
-      },
-      {
-         "id": "WOOD_STEP",
-         "children": [
-            "WOOD_STEP-1",
-            "WOOD_STEP-2",
-            "WOOD_STEP-4",
-            "WOOD_STEP-5",
-            "WOOD_STEP-3"
-         ]
-      },
-      {
-         "id": "WOOL",
-         "children": [
-            "WOOL-1",
-            "WOOL-10",
-            "WOOL-11",
-            "WOOL-14",
-            "WOOL-12",
-            "WOOL-15",
-            "WOOL-2",
-            "WOOL-4",
-            "WOOL-3",
-            "WOOL-5",
-            "WOOL-7",
-            "WOOL-6",
-            "WOOL-9",
-            "WOOL-13",
-            "WOOL-8"
-         ]
-      },
-      {
-         "id": "ZOMBIE_TALISMAN",
-         "children": [
-            "ZOMBIE_ARTIFACT",
-            "ZOMBIE_RING"
-         ]
-      }
-   ]
+    "ADAPTIVE_BOOTS": [
+        "STARRED_ADAPTIVE_BOOTS"
+    ],
+    "ADAPTIVE_CHESTPLATE": [
+        "STARRED_ADAPTIVE_CHESTPLATE"
+    ],
+    "ADAPTIVE_HELMET": [
+        "STARRED_ADAPTIVE_HELMET"
+    ],
+    "ADAPTIVE_LEGGINGS": [
+        "STARRED_ADAPTIVE_LEGGINGS"
+    ],
+    "AIMING;4": [
+        "AIMING;1",
+        "AIMING;2",
+        "AIMING;3",
+        "AIMING;5"
+    ],
+    "ANGLER;4": [
+        "ANGLER;1",
+        "ANGLER;2",
+        "ANGLER;3",
+        "ANGLER;5",
+        "ANGLER;6"
+    ],
+    "BANE_OF_ARTHROPODS;4": [
+        "BANE_OF_ARTHROPODS;1",
+        "BANE_OF_ARTHROPODS;2",
+        "BANE_OF_ARTHROPODS;3",
+        "BANE_OF_ARTHROPODS;5",
+        "BANE_OF_ARTHROPODS;6"
+    ],
+    "BANNER": [
+        "BANNER-1",
+        "BANNER-10",
+        "BANNER-11",
+        "BANNER-12",
+        "BANNER-13",
+        "BANNER-14",
+        "BANNER-15",
+        "BANNER-2",
+        "BANNER-3",
+        "BANNER-4",
+        "BANNER-5",
+        "BANNER-6",
+        "BANNER-7",
+        "BANNER-8",
+        "BANNER-9"
+    ],
+    "BIG_BRAIN;3": [
+        "BIG_BRAIN;4",
+        "BIG_BRAIN;5"
+    ],
+    "BLAST_PROTECTION;4": [
+        "BLAST_PROTECTION;1",
+        "BLAST_PROTECTION;2",
+        "BLAST_PROTECTION;3",
+        "BLAST_PROTECTION;5"
+    ],
+    "BLESSING;4": [
+        "BLESSING;1",
+        "BLESSING;2",
+        "BLESSING;3",
+        "BLESSING;5"
+    ],
+    "BONZO_MASK": [
+        "STARRED_BONZO_MASK"
+    ],
+    "BONZO_STAFF": [
+        "STARRED_BONZO_STAFF"
+    ],
+    "CARPET": [
+        "CARPET-1",
+        "CARPET-10",
+        "CARPET-11",
+        "CARPET-12",
+        "CARPET-13",
+        "CARPET-14",
+        "CARPET-15",
+        "CARPET-2",
+        "CARPET-3",
+        "CARPET-4",
+        "CARPET-5",
+        "CARPET-6",
+        "CARPET-7",
+        "CARPET-8",
+        "CARPET-9"
+    ],
+    "CASTER;4": [
+        "CASTER;1",
+        "CASTER;2",
+        "CASTER;3",
+        "CASTER;5",
+        "CASTER;6"
+    ],
+    "CLEAVE;4": [
+        "CLEAVE;1",
+        "CLEAVE;2",
+        "CLEAVE;3",
+        "CLEAVE;5"
+    ],
+    "COAL": [
+        "COAL-1"
+    ],
+    "COBBLE_WALL": [
+        "COBBLE_WALL-1"
+    ],
+    "CRITICAL;4": [
+        "CRITICAL;1",
+        "CRITICAL;2",
+        "CRITICAL;3",
+        "CRITICAL;5",
+        "CRITICAL;6"
+    ],
+    "CUBISM;4": [
+        "CUBISM;1",
+        "CUBISM;2",
+        "CUBISM;3",
+        "CUBISM;5"
+    ],
+    "DEPTH_STRIDER;2": [
+        "DEPTH_STRIDER;1",
+        "DEPTH_STRIDER;3"
+    ],
+    "DIRT": [
+        "DIRT-1"
+    ],
+    "DRAGON_HUNTER;1": [
+        "DRAGON_HUNTER;2",
+        "DRAGON_HUNTER;3",
+        "DRAGON_HUNTER;4",
+        "DRAGON_HUNTER;5"
+    ],
+    "EFFICIENCY;4": [
+        "EFFICIENCY;1",
+        "EFFICIENCY;2",
+        "EFFICIENCY;3",
+        "EFFICIENCY;5"
+    ],
+    "ENDER_SLAYER;4": [
+        "ENDER_SLAYER;1",
+        "ENDER_SLAYER;2",
+        "ENDER_SLAYER;3",
+        "ENDER_SLAYER;5",
+        "ENDER_SLAYER;6"
+    ],
+    "EXECUTE;4": [
+        "EXECUTE;1",
+        "EXECUTE;2",
+        "EXECUTE;3",
+        "EXECUTE;5"
+    ],
+    "EXPERIENCE;2": [
+        "EXPERIENCE;1",
+        "EXPERIENCE;3",
+        "EXPERIENCE;4"
+    ],
+    "FEATHER_FALLING;4": [
+        "FEATHER_FALLING;1",
+        "FEATHER_FALLING;10",
+        "FEATHER_FALLING;2",
+        "FEATHER_FALLING;3",
+        "FEATHER_FALLING;5",
+        "FEATHER_FALLING;6",
+        "FEATHER_FALLING;7",
+        "FEATHER_FALLING;8",
+        "FEATHER_FALLING;9"
+    ],
+    "FIRE_ASPECT;1": [
+        "FIRE_ASPECT;2"
+    ],
+    "FIRE_PROTECTION;4": [
+        "FIRE_PROTECTION;1",
+        "FIRE_PROTECTION;2",
+        "FIRE_PROTECTION;3",
+        "FIRE_PROTECTION;5"
+    ],
+    "FIRST_STRIKE;3": [
+        "FIRST_STRIKE;1",
+        "FIRST_STRIKE;2",
+        "FIRST_STRIKE;4"
+    ],
+    "FORTUNE;2": [
+        "FORTUNE;1",
+        "FORTUNE;3"
+    ],
+    "FRAIL;4": [
+        "FRAIL;1",
+        "FRAIL;2",
+        "FRAIL;3",
+        "FRAIL;5",
+        "FRAIL;6"
+    ],
+    "FROST_WALKER;1": [
+        "FROST_WALKER;2"
+    ],
+    "GIANT_KILLER;4": [
+        "GIANT_KILLER;1",
+        "GIANT_KILLER;2",
+        "GIANT_KILLER;3",
+        "GIANT_KILLER;5",
+        "GIANT_KILLER;6",
+        "GIANT_KILLER;7"
+    ],
+    "GOLDEN_APPLE": [
+        "GOLDEN_APPLE-1"
+    ],
+    "GROWTH;4": [
+        "GROWTH;1",
+        "GROWTH;2",
+        "GROWTH;3",
+        "GROWTH;5",
+        "GROWTH;6",
+        "GROWTH;7"
+    ],
+    "HARVESTING;5": [
+        "HARVESTING;1",
+        "HARVESTING;2",
+        "HARVESTING;3",
+        "HARVESTING;4"
+    ],
+    "IMPALING;2": [
+        "IMPALING;1",
+        "IMPALING;3"
+    ],
+    "INFINITE_QUIVER;4": [
+        "INFINITE_QUIVER;1",
+        "INFINITE_QUIVER;10",
+        "INFINITE_QUIVER;2",
+        "INFINITE_QUIVER;3",
+        "INFINITE_QUIVER;5",
+        "INFINITE_QUIVER;6",
+        "INFINITE_QUIVER;7",
+        "INFINITE_QUIVER;8",
+        "INFINITE_QUIVER;9"
+    ],
+    "INK_SACK": [
+        "INK_SACK-1",
+        "INK_SACK-10",
+        "INK_SACK-11",
+        "INK_SACK-12",
+        "INK_SACK-13",
+        "INK_SACK-14",
+        "INK_SACK-15",
+        "INK_SACK-2",
+        "INK_SACK-3",
+        "INK_SACK-4",
+        "INK_SACK-5",
+        "INK_SACK-6",
+        "INK_SACK-7",
+        "INK_SACK-8",
+        "INK_SACK-9"
+    ],
+    "KNOCKBACK;1": [
+        "KNOCKBACK;2"
+    ],
+    "LAST_BREATH": [
+        "STARRED_LAST_BREATH"
+    ],
+    "LETHALITY;4": [
+        "LETHALITY;1",
+        "LETHALITY;2",
+        "LETHALITY;3",
+        "LETHALITY;5",
+        "LETHALITY;6"
+    ],
+    "LIFE_STEAL;2": [
+        "LIFE_STEAL;1",
+        "LIFE_STEAL;3",
+        "LIFE_STEAL;4"
+    ],
+    "LOG": [
+        "LOG-1",
+        "LOG-2",
+        "LOG-3"
+    ],
+    "LOG_2": [
+        "LOG_2-1"
+    ],
+    "LOOTING;2": [
+        "LOOTING;1",
+        "LOOTING;3",
+        "LOOTING;4"
+    ],
+    "LUCK;4": [
+        "LUCK;1",
+        "LUCK;2",
+        "LUCK;3",
+        "LUCK;5",
+        "LUCK;6"
+    ],
+    "LUCK_OF_THE_SEA;4": [
+        "LUCK_OF_THE_SEA;1",
+        "LUCK_OF_THE_SEA;2",
+        "LUCK_OF_THE_SEA;3",
+        "LUCK_OF_THE_SEA;5",
+        "LUCK_OF_THE_SEA;6"
+    ],
+    "LURE;4": [
+        "LURE;1",
+        "LURE;2",
+        "LURE;3",
+        "LURE;5",
+        "LURE;6"
+    ],
+    "MAGNET;4": [
+        "MAGNET;1",
+        "MAGNET;2",
+        "MAGNET;3",
+        "MAGNET;5",
+        "MAGNET;6"
+    ],
+    "OVERLOAD;1": [
+        "OVERLOAD;2",
+        "OVERLOAD;3",
+        "OVERLOAD;4",
+        "OVERLOAD;5"
+    ],
+    "PERFECT_BOOTS_1": [
+        "PERFECT_BOOTS_10",
+        "PERFECT_BOOTS_11",
+        "PERFECT_BOOTS_12",
+        "PERFECT_BOOTS_2",
+        "PERFECT_BOOTS_3",
+        "PERFECT_BOOTS_4",
+        "PERFECT_BOOTS_5",
+        "PERFECT_BOOTS_6",
+        "PERFECT_BOOTS_7",
+        "PERFECT_BOOTS_8",
+        "PERFECT_BOOTS_9"
+    ],
+    "PERFECT_CHESTPLATE_1": [
+        "PERFECT_CHESTPLATE_10",
+        "PERFECT_CHESTPLATE_11",
+        "PERFECT_CHESTPLATE_12",
+        "PERFECT_CHESTPLATE_2",
+        "PERFECT_CHESTPLATE_3",
+        "PERFECT_CHESTPLATE_4",
+        "PERFECT_CHESTPLATE_5",
+        "PERFECT_CHESTPLATE_6",
+        "PERFECT_CHESTPLATE_7",
+        "PERFECT_CHESTPLATE_8",
+        "PERFECT_CHESTPLATE_9"
+    ],
+    "PERFECT_HELMET_1": [
+        "PERFECT_HELMET_10",
+        "PERFECT_HELMET_11",
+        "PERFECT_HELMET_12",
+        "PERFECT_HELMET_2",
+        "PERFECT_HELMET_3",
+        "PERFECT_HELMET_4",
+        "PERFECT_HELMET_5",
+        "PERFECT_HELMET_6",
+        "PERFECT_HELMET_7",
+        "PERFECT_HELMET_8",
+        "PERFECT_HELMET_9"
+    ],
+    "PERFECT_LEGGINGS_1": [
+        "PERFECT_LEGGINGS_10",
+        "PERFECT_LEGGINGS_11",
+        "PERFECT_LEGGINGS_12",
+        "PERFECT_LEGGINGS_2",
+        "PERFECT_LEGGINGS_3",
+        "PERFECT_LEGGINGS_4",
+        "PERFECT_LEGGINGS_5",
+        "PERFECT_LEGGINGS_6",
+        "PERFECT_LEGGINGS_7",
+        "PERFECT_LEGGINGS_8",
+        "PERFECT_LEGGINGS_9"
+    ],
+    "POWER;4": [
+        "POWER;1",
+        "POWER;2",
+        "POWER;3",
+        "POWER;5",
+        "POWER;6",
+        "POWER;7"
+    ],
+    "PRISMARINE": [
+        "PRISMARINE-1",
+        "PRISMARINE-2"
+    ],
+    "PROJECTILE_PROTECTION;4": [
+        "PROJECTILE_PROTECTION;1",
+        "PROJECTILE_PROTECTION;2",
+        "PROJECTILE_PROTECTION;3",
+        "PROJECTILE_PROTECTION;5"
+    ],
+    "PROTECTION;4": [
+        "PROTECTION;1",
+        "PROTECTION;2",
+        "PROTECTION;3",
+        "PROTECTION;5",
+        "PROTECTION;6",
+        "PROTECTION;7"
+    ],
+    "PUNCH;1": [
+        "PUNCH;2"
+    ],
+    "QUARTZ_BLOCK": [
+        "QUARTZ_BLOCK-1",
+        "QUARTZ_BLOCK-2"
+    ],
+    "RED_SANDSTONE": [
+        "RED_SANDSTONE-1",
+        "RED_SANDSTONE-2"
+    ],
+    "REJUVENATE;1": [
+        "REJUVENATE;2",
+        "REJUVENATE;3",
+        "REJUVENATE;4",
+        "REJUVENATE;5"
+    ],
+    "RESPIRATION;2": [
+        "RESPIRATION;3",
+        "RESPIRATION;3"
+    ],
+    "SAND": [
+        "SAND-1"
+    ],
+    "SANDSTONE": [
+        "SANDSTONE-1",
+        "SANDSTONE-2"
+    ],
+    "SCAVENGER;2": [
+        "SCAVENGER;1",
+        "SCAVENGER;3",
+        "SCAVENGER;4",
+        "SCAVENGER;5"
+    ],
+    "SHADOW_ASSASSIN_BOOTS": [
+        "STARRED_SHADOW_ASSASSIN_BOOTS"
+    ],
+    "SHADOW_ASSASSIN_CHESTPLATE": [
+        "STARRED_SHADOW_ASSASSIN_CHESTPLATE"
+    ],
+    "SHADOW_ASSASSIN_HELMET": [
+        "STARRED_SHADOW_ASSASSIN_HELMET"
+    ],
+    "SHADOW_ASSASSIN_LEGGINGS": [
+        "STARRED_SHADOW_ASSASSIN_LEGGINGS"
+    ],
+    "SHADOW_FURY": [
+        "STARRED_SHADOW_FURY"
+    ],
+    "SHARPNESS;4": [
+        "SHARPNESS;1",
+        "SHARPNESS;2",
+        "SHARPNESS;3",
+        "SHARPNESS;5",
+        "SHARPNESS;6",
+        "SHARPNESS;7"
+    ],
+    "SMITE;4": [
+        "SMITE;1",
+        "SMITE;2",
+        "SMITE;3",
+        "SMITE;5",
+        "SMITE;6",
+        "SMITE;7"
+    ],
+    "SMOOTH_BRICK": [
+        "SMOOTH_BRICK-1",
+        "SMOOTH_BRICK-3"
+    ],
+    "SNIPE;1": [
+        "SNIPE;2",
+        "SNIPE;3"
+    ],
+    "SPIKED_HOOK;4": [
+        "SPIKED_HOOK;1",
+        "SPIKED_HOOK;2",
+        "SPIKED_HOOK;3",
+        "SPIKED_HOOK;5",
+        "SPIKED_HOOK;6"
+    ],
+    "STAINED_CLAY": [
+        "STAINED_CLAY-1",
+        "STAINED_CLAY-10",
+        "STAINED_CLAY-11",
+        "STAINED_CLAY-12",
+        "STAINED_CLAY-13",
+        "STAINED_CLAY-14",
+        "STAINED_CLAY-15",
+        "STAINED_CLAY-2",
+        "STAINED_CLAY-3",
+        "STAINED_CLAY-4",
+        "STAINED_CLAY-5",
+        "STAINED_CLAY-6",
+        "STAINED_CLAY-7",
+        "STAINED_CLAY-8",
+        "STAINED_CLAY-9"
+    ],
+    "STAINED_GLASS": [
+        "STAINED_GLASS-1",
+        "STAINED_GLASS-10",
+        "STAINED_GLASS-11",
+        "STAINED_GLASS-12",
+        "STAINED_GLASS-13",
+        "STAINED_GLASS-14",
+        "STAINED_GLASS-15",
+        "STAINED_GLASS-2",
+        "STAINED_GLASS-3",
+        "STAINED_GLASS-4",
+        "STAINED_GLASS-5",
+        "STAINED_GLASS-6",
+        "STAINED_GLASS-7",
+        "STAINED_GLASS-8",
+        "STAINED_GLASS-9"
+    ],
+    "STAINED_GLASS_PANE": [
+        "STAINED_GLASS_PANE-1",
+        "STAINED_GLASS_PANE-10",
+        "STAINED_GLASS_PANE-11",
+        "STAINED_GLASS_PANE-12",
+        "STAINED_GLASS_PANE-13",
+        "STAINED_GLASS_PANE-14",
+        "STAINED_GLASS_PANE-15",
+        "STAINED_GLASS_PANE-2",
+        "STAINED_GLASS_PANE-3",
+        "STAINED_GLASS_PANE-4",
+        "STAINED_GLASS_PANE-5",
+        "STAINED_GLASS_PANE-6",
+        "STAINED_GLASS_PANE-7",
+        "STAINED_GLASS_PANE-8",
+        "STAINED_GLASS_PANE-9"
+    ],
+    "STEP": [
+        "STEP-1",
+        "STEP-3",
+        "STEP-4",
+        "STEP-5",
+        "STEP-6",
+        "STEP-7"
+    ],
+    "STONE": [
+        "STONE-1",
+        "STONE-2",
+        "STONE-3",
+        "STONE-4",
+        "STONE-5",
+        "STONE-6"
+    ],
+    "STONE_BLADE": [
+        "STARRED_STONE_BLADE"
+    ],
+    "SUGAR_RUSH;1": [
+        "SUGAR_RUSH;2",
+        "SUGAR_RUSH;3"
+    ],
+    "THORNS;2": [
+        "THORNS;1",
+        "THORNS;3"
+    ],
+    "THUNDERLORD;4": [
+        "THUNDERLORD;1",
+        "THUNDERLORD;2",
+        "THUNDERLORD;3",
+        "THUNDERLORD;5",
+        "THUNDERLORD;6"
+    ],
+    "TURBO_CACTUS;1": [
+        "TURBO_CACTUS;2",
+        "TURBO_CACTUS;3",
+        "TURBO_CACTUS;4",
+        "TURBO_CACTUS;5"
+    ],
+    "TURBO_CANE;1": [
+        "TURBO_CANE;2",
+        "TURBO_CANE;3",
+        "TURBO_CANE;4",
+        "TURBO_CANE;5"
+    ],
+    "TURBO_CARROT;1": [
+        "TURBO_CARROT;2",
+        "TURBO_CARROT;3",
+        "TURBO_CARROT;4",
+        "TURBO_CARROT;5"
+    ],
+    "TURBO_COCO;1": [
+        "TURBO_COCO;2",
+        "TURBO_COCO;3",
+        "TURBO_COCO;4",
+        "TURBO_COCO;5"
+    ],
+    "TURBO_MELON;1": [
+        "TURBO_MELON;2",
+        "TURBO_MELON;3",
+        "TURBO_MELON;4",
+        "TURBO_MELON;5"
+    ],
+    "TURBO_MUSHROOMS;1": [
+        "TURBO_MUSHROOMS;2",
+        "TURBO_MUSHROOMS;3",
+        "TURBO_MUSHROOMS;4",
+        "TURBO_MUSHROOMS;5"
+    ],
+    "TURBO_POTATO;1": [
+        "TURBO_POTATO;2",
+        "TURBO_POTATO;3",
+        "TURBO_POTATO;4",
+        "TURBO_POTATO;5"
+    ],
+    "TURBO_PUMPKIN;1": [
+        "TURBO_PUMPKIN;2",
+        "TURBO_PUMPKIN;3",
+        "TURBO_PUMPKIN;4",
+        "TURBO_PUMPKIN;5"
+    ],
+    "TURBO_WARTS;1": [
+        "TURBO_WARTS;2",
+        "TURBO_WARTS;3",
+        "TURBO_WARTS;4",
+        "TURBO_WARTS;5"
+    ],
+    "TURBO_WHEAT;1": [
+        "TURBO_WHEAT;2",
+        "TURBO_WHEAT;3",
+        "TURBO_WHEAT;4",
+        "TURBO_WHEAT;5"
+    ],
+    "ULTIMATE_BANK;1": [
+        "ULTIMATE_BANK;2",
+        "ULTIMATE_BANK;3",
+        "ULTIMATE_BANK;4",
+        "ULTIMATE_BANK;5"
+    ],
+    "ULTIMATE_CHIMERA;1": [
+        "ULTIMATE_CHIMERA;2",
+        "ULTIMATE_CHIMERA;3",
+        "ULTIMATE_CHIMERA;4",
+        "ULTIMATE_CHIMERA;5"
+    ],
+    "ULTIMATE_COMBO;1": [
+        "ULTIMATE_COMBO;2",
+        "ULTIMATE_COMBO;3",
+        "ULTIMATE_COMBO;4",
+        "ULTIMATE_COMBO;5"
+    ],
+    "ULTIMATE_JERRY;1": [
+        "ULTIMATE_JERRY;2",
+        "ULTIMATE_JERRY;3",
+        "ULTIMATE_JERRY;4",
+        "ULTIMATE_JERRY;5"
+    ],
+    "ULTIMATE_LAST_STAND;1": [
+        "ULTIMATE_LAST_STAND;2",
+        "ULTIMATE_LAST_STAND;3",
+        "ULTIMATE_LAST_STAND;4",
+        "ULTIMATE_LAST_STAND;5"
+    ],
+    "ULTIMATE_LEGION;1": [
+        "ULTIMATE_LEGION;2",
+        "ULTIMATE_LEGION;3",
+        "ULTIMATE_LEGION;4",
+        "ULTIMATE_LEGION;5"
+    ],
+    "ULTIMATE_NO_PAIN_NO_GAIN;1": [
+        "ULTIMATE_NO_PAIN_NO_GAIN;2",
+        "ULTIMATE_NO_PAIN_NO_GAIN;3",
+        "ULTIMATE_NO_PAIN_NO_GAIN;4",
+        "ULTIMATE_NO_PAIN_NO_GAIN;5"
+    ],
+    "ULTIMATE_REND;1": [
+        "ULTIMATE_REND;2",
+        "ULTIMATE_REND;3",
+        "ULTIMATE_REND;4",
+        "ULTIMATE_REND;5"
+    ],
+    "ULTIMATE_SWARM;1": [
+        "ULTIMATE_SWARM;2",
+        "ULTIMATE_SWARM;3",
+        "ULTIMATE_SWARM;4",
+        "ULTIMATE_SWARM;5"
+    ],
+    "ULTIMATE_WISDOM;1": [
+        "ULTIMATE_WISDOM;2",
+        "ULTIMATE_WISDOM;3",
+        "ULTIMATE_WISDOM;4",
+        "ULTIMATE_WISDOM;5"
+    ],
+    "ULTIMATE_WISE;1": [
+        "ULTIMATE_WISE;2",
+        "ULTIMATE_WISE;3",
+        "ULTIMATE_WISE;4",
+        "ULTIMATE_WISE;5"
+    ],
+    "VAMPIRISM;4": [
+        "VAMPIRISM;1",
+        "VAMPIRISM;2",
+        "VAMPIRISM;3",
+        "VAMPIRISM;5",
+        "VAMPIRISM;6"
+    ],
+    "VENOMOUS;4": [
+        "VENOMOUS;1",
+        "VENOMOUS;2",
+        "VENOMOUS;3",
+        "VENOMOUS;5"
+    ],
+    "VICIOUS;3": [
+        "VICIOUS;4",
+        "VICIOUS;5"
+    ],
+    "WOOD": [
+        "WOOD-1",
+        "WOOD-2",
+        "WOOD-3",
+        "WOOD-4",
+        "WOOD-5"
+    ],
+    "WOOD_STEP": [
+        "WOOD_STEP-1",
+        "WOOD_STEP-2",
+        "WOOD_STEP-3",
+        "WOOD_STEP-4",
+        "WOOD_STEP-5"
+    ],
+    "WOOL": [
+        "WOOL-1",
+        "WOOL-10",
+        "WOOL-11",
+        "WOOL-12",
+        "WOOL-13",
+        "WOOL-14",
+        "WOOL-15",
+        "WOOL-2",
+        "WOOL-3",
+        "WOOL-4",
+        "WOOL-5",
+        "WOOL-6",
+        "WOOL-7",
+        "WOOL-8",
+        "WOOL-9"
+    ]
 }
