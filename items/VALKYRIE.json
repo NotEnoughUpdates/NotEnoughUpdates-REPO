@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:iron_sword",
   "displayname": "§6Valkyrie",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Gear Score: §d516 §8(954)\",1:\"§7Damage: §c+288 §8(+564.48)\",2:\"§7Strength: §c+138 §8(+270.48)\",3:\"\",4:\"§7Intelligence: §a+60 §8(+117.6)\",5:\"§7Ferocity: §a+60\",6:\"\",7:\"§7Deals +§c50% §7damage to\",8:\"§7Withers. Grants §c+1 §c❁ Damage\",9:\"§c§7and §a+1 §c❁ Strength §7per\",10:\"§7§cCatacombs §7level.\",11:\"\",12:\"§7Your Catacombs Level: §c18\",13:\"\",14:\"§eRight-click to use your class ability!\",15:\"\",16:\"§7§8This item can be reforged!\",17:\"§aPerfect 70000 / 70000\",18:\"§7§4❣ §cRequires §aCatacombs Floor VII\",19:\"§aCompletion\",20:\"§6§lLEGENDARY DUNGEON SWORD\"],Name:\"§6Valkyrie\"},ExtraAttributes:{id:\"VALKYRIE\"}}",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Gear Score: §d516\",1:\"§7Damage: §c+288\",2:\"§7Strength: §c+138\",3:\"\",4:\"§7Intelligence: §a+60\",5:\"§7Ferocity: §a+60\",6:\"\",7:\"§7Deals +§c50% §7damage to\",8:\"§7Withers. Grants §c+1 §c❁ Damage\",9:\"§c§7and §a+1 §c❁ Strength §7per\",10:\"§7§cCatacombs §7level.\",11:\"\",12:\"§7Your Catacombs Level: §c0\",13:\"\",14:\"§eRight-click to use your class ability!\",15:\"\",16:\"§7§8This item can be reforged!\",17:\"§aPerfect 70000 / 70000\",18:\"§7§4❣ §cRequires §aCatacombs Floor VII\",19:\"§aCompletion\",20:\"§6§lLEGENDARY DUNGEON SWORD\"],Name:\"§6Valkyrie\"},ExtraAttributes:{id:\"VALKYRIE\"}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d516 §8(954)",
-    "§7Damage: §c+288 §8(+564.48)",
-    "§7Strength: §c+138 §8(+270.48)",
+    "§7Gear Score: §d516",
+    "§7Damage: §c+288",
+    "§7Strength: §c+138",
     "",
-    "§7Intelligence: §a+60 §8(+117.6)",
+    "§7Intelligence: §a+60",
     "§7Ferocity: §a+60",
     "",
     "§7Deals +§c50% §7damage to",
@@ -16,7 +16,7 @@
     "§c§7and §a+1 §c❁ Strength §7per",
     "§7§cCatacombs §7level.",
     "",
-    "§7Your Catacombs Level: §c18",
+    "§7Your Catacombs Level: §c0",
     "",
     "§eRight-click to use your class ability!",
     "",
@@ -38,6 +38,9 @@
     "C3": "GIANT_FRAGMENT_DIAMOND:1"
   },
   "internalname": "VALKYRIE",
+  "parent": "NECRON_BLADE",
   "clickcommand": "viewrecipe",
-  "modver": "1.5-REL"
+  "modver": "1.6-REL",
+  "crafttext": "",
+  "infoType": ""
 }
