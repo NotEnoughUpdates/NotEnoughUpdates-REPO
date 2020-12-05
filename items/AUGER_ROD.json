@@ -1,11 +1,11 @@
 {
   "itemid": "minecraft:fishing_rod",
-  "displayname": "§5Auger Rod",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+80\",1:\"§7Sea Creature Chance: §c+6%\",2:\"\",3:\"§7Breaks nearby ice blocks where\",4:\"§7it lands.\",5:\"\",6:\"§7Triples the chance of the sea\",7:\"§7creatures that you spawn to be\",8:\"§7winter sea creatures.\",9:\"\",10:\"§7Increases fishing speed by §950%\",11:\"\",12:\"§5§lEPIC FISHING ROD\"],Name:\"§5Auger Rod\"},ExtraAttributes:{modifier:\"salty\",id:\"AUGER_ROD\"}}",
+  "displayname": "§6Auger Rod",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+135\",1:\"§7Strength: §c+90\",2:\"\",3:\"§7Breaks nearby ice blocks where\",4:\"§7it lands.\",5:\"\",6:\"§7Triples the chance of the sea\",7:\"§7creatures that you spawn to be\",8:\"§7winter sea creatures.\",9:\"\",10:\"§7Increases fishing speed by §975%\",11:\"\",12:\"§7§8This item can be reforged!\",13:\"§6§lLEGENDARY FISHING ROD\"],Name:\"§6Auger Rod\"},ExtraAttributes:{id:\"AUGER_ROD\"}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+80",
-    "§7Sea Creature Chance: §c+6%",
+    "§7Damage: §c+135",
+    "§7Strength: §c+90",
     "",
     "§7Breaks nearby ice blocks where",
     "§7it lands.",
@@ -14,27 +14,28 @@
     "§7creatures that you spawn to be",
     "§7winter sea creatures.",
     "",
-    "§7Increases fishing speed by §950%",
+    "§7Increases fishing speed by §975%",
     "",
-    "§5§lEPIC FISHING ROD"
+    "§7§8This item can be reforged!",
+    "§6§lLEGENDARY FISHING ROD"
   ],
   "recipe": {
     "A1": "",
-    "A2": "",
-    "A3": "STICK:1",
-    "B1": "",
-    "B2": "STICK:1",
-    "B3": "ENCHANTED_PACKED_ICE:64",
-    "C1": "STICK:1",
-    "C2": "",
-    "C3": "ENCHANTED_PACKED_ICE:64"
+    "A2": "ENCHANTED_PACKED_ICE:32",
+    "A3": "",
+    "B1": "ENCHANTED_PACKED_ICE:32",
+    "B2": "YETI_ROD:1",
+    "B3": "ENCHANTED_PACKED_ICE:32",
+    "C1": "",
+    "C2": "ENCHANTED_PACKED_ICE:32",
+    "C3": ""
   },
   "internalname": "AUGER_ROD",
   "clickcommand": "viewrecipe",
-  "modver": "1.1-REL",
+  "modver": "1.7.1-REL",
+  "crafttext": "Requires: Ice X",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Auger_Rod"
-  ],
-  "crafttext": "Requires: Ice X"
+  ]
 }
