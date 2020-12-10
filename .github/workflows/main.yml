@@ -26,5 +26,5 @@ jobs:
         run: |
           #!/bin/bash
           for filename in items/*.json; do
-            npx jsonlint "$filename"
+            npx jsonlint "$filename" > /dev/null
           done
