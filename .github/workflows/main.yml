@@ -20,6 +20,8 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v2
+      - name: debug this stupid thing
+        run: ls -al
       - name: validate constants
         uses: anyone-developer/anyone-validate-json@main
         with:
