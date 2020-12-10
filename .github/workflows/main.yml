@@ -22,9 +22,19 @@ jobs:
         uses: actions/checkout@v2
       - name: install jsonlint
         run: npm i jsonlint
+      - name: lint constants
+        run: |
+          #!/bin/bash
+          echo "Linting contants..."
+          for filename in constants/*.json; do
+            npx jsonlint "$filename" > /dev/null
+          done
+          echo "Linted."
       - name: lint items
         run: |
           #!/bin/bash
+          echo "Linting items..."
           for filename in items/*.json; do
             npx jsonlint "$filename" > /dev/null
           done
+          echo "Linted"
