@@ -25,7 +25,7 @@ jobs:
           #!/bin/bash
           echo "Linting contants..."
           for filename in constants/*.json; do
-            if ! python -mjson.tool "$filename" > /dev/null ; then
+            if ! python -mjson.tool "$filename" &> /dev/null ; then
                 echo "Linting $filename failed:"
                 python -mjson.tool "$filename" > /dev/null
             fi
@@ -36,7 +36,7 @@ jobs:
           #!/bin/bash
           echo "Linting contants..."
           for filename in items/*.json; do
-            if ! python -mjson.tool "$filename" > /dev/null ; then
+            if ! python -mjson.tool "$filename" &> /dev/null ; then
                 echo "Linting $filename failed:"
                 python -mjson.tool "$filename" > /dev/null
             fi
