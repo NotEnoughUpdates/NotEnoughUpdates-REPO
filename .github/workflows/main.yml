@@ -20,17 +20,11 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v2
-      - name: debug this stupid thing
-        run: ls -al
-      - name: validate constants
-        uses: anyone-developer/anyone-validate-json@main
-        with:
-          file-extension: '.json'
-          ignore-directories: '.git'
-          read-path: 'constants'
-      - name: validate items
-        uses: anyone-developer/anyone-validate-json@main
-        with:
-          file-extension: '.json'
-          ignore-directories: '.git'
-          read-path: 'items'
+      - name: install jsonlint
+        run: npm i jsonlint
+      - name: lint items
+        run: |
+          #!/bin/bash
+          for filename in items/*.json; do
+            npx jsonlint "$filename"
+          done
