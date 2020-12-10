@@ -18,7 +18,9 @@ jobs:
     name: Validate json
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
-        uses: actions/checkout@v2
       - name: validate
-        uses: ocular-d/json-linter@0.0.1
+        uses: anyone-developer/anyone-validate-json@main
+        with:
+          file-extension: '.json'
+          ignore-directories: '.git'
+          read-path: '.'
