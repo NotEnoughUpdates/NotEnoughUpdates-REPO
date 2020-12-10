@@ -18,6 +18,8 @@ jobs:
     name: Validate json
     runs-on: ubuntu-latest
     steps:
+      - name: checkout
+        uses: actions/checkout@v2
       - name: validate constants
         uses: anyone-developer/anyone-validate-json@main
         with:
