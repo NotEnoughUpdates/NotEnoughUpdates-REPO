@@ -25,14 +25,20 @@ jobs:
           #!/bin/bash
           echo "Linting contants..."
           for filename in constants/*.json; do
-            python -mjson.tool "$filename" > /dev/null
+            if ! python -mjson.tool "$filename" > /dev/null ; then
+                echo "Linting $filename failed:"
+                python -mjson.tool "$filename" > /dev/null
+            fi
           done
           echo "Linted."
       - name: lint items
         run: |
           #!/bin/bash
-          echo "Linting items..."
+          echo "Linting contants..."
           for filename in items/*.json; do
-            python -mjson.tool "$filename" > /dev/null
+            if ! python -mjson.tool "$filename" > /dev/null ; then
+                echo "Linting $filename failed:"
+                python -mjson.tool "$filename" > /dev/null
+            fi
           done
-          echo "Linted"
+          echo "Linted."
