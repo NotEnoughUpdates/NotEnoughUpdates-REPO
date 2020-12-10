@@ -18,9 +18,15 @@ jobs:
     name: Validate json
     runs-on: ubuntu-latest
     steps:
-      - name: validate
+      - name: validate constants
         uses: anyone-developer/anyone-validate-json@main
         with:
           file-extension: '.json'
           ignore-directories: '.git'
-          read-path: '.'
+          read-path: 'constants'
+      - name: validate items
+        uses: anyone-developer/anyone-validate-json@main
+        with:
+          file-extension: '.json'
+          ignore-directories: '.git'
+          read-path: 'items'
