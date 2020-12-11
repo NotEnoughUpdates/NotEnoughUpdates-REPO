@@ -812,8 +812,7 @@
                     0.2,
                     100.0,
                     0.0,
-                    10.0,
-                    0.2
+                    0.5
                 ],
                 "statNums": {
                     "HEALTH": 1.0,
@@ -825,8 +824,7 @@
                     20,
                     100,
                     1,
-                    10,
-                    25
+                    50
                 ],
                 "statNums": {
                     "HEALTH": 100.0,
@@ -3307,7 +3305,30 @@
         }
     },
     "SPIDER": {
-		"UNCOMMON": {
+        "COMMON":{
+            "1":{
+                "otherNums": [
+                    0.1,
+					10.0
+                ],
+                "statNums": {
+                    "CRIT_CHANCE": 0.0,
+                    "STRENGTH": 0.0
+                }
+            },
+            "100":{
+                "otherNums": [
+                    10.0,
+                    10.0
+                ],
+                "statNums": {
+                    "CRIT_CHANCE": 10.0,
+                    "STRENGTH": 10.0
+                }
+            },
+            "interp": "1:100"
+        },
+        "UNCOMMON": {
             "1": {
                 "otherNums": [
                     0.1,
@@ -4016,6 +4037,7 @@
                 "statNums": {
                     "CRIT_DAMAGE": 0.0,
                     "HEALTH": 0.0,
+                    "SPEED": 0.0,
                     "TRUE_DEFENSE": 0.0
                 }
             },
@@ -4026,6 +4048,7 @@
                 "statNums": {
                     "CRIT_DAMAGE": 10.0,
                     "HEALTH": 50.0,
+                    "SPEED": 20.0,
                     "TRUE_DEFENSE": 10.0
                 }
             },
@@ -4094,6 +4117,29 @@
             "100": {
                 "otherNums": [
                     20
+                ],
+                "statNums": {
+                    "CRIT_DAMAGE": 30.0,
+                    "HEALTH": 100.0
+                }
+            },
+            "interp": "1:70"
+        },
+        "RARE": {
+            "1": {
+                "otherNums": [
+                    0.2,
+                    0.2
+                ],
+                "statNums": {
+                    "CRIT_DAMAGE": 0.0,
+                    "HEALTH": 1.0
+                }
+            },
+            "100": {
+                "otherNums": [
+                    25,
+                    25
                 ],
                 "statNums": {
                     "CRIT_DAMAGE": 30.0,
