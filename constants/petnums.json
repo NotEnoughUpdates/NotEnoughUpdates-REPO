@@ -103,23 +103,23 @@
         "LEGENDARY": {
             "1": {
                 "otherNums": [
-                    0.8,
+                    0.2,
                     0.3,
                     0.5,
-                    0.2
+                    0.5
                 ],
                 "statNums": {
-                    "SEA_CREATURE_CHANCE": 0.0,
+                    "SEA_CREATURE_CHANCE": 0.05,
                     "INTELLIGENCE": 1.0,
-                    "SPEED": 0.0
+                    "SPEED": 0.05
                 }
             },
             "100": {
                 "otherNums": [
-                    75,
+                    20,
                     30,
                     50,
-                    20
+                    50
                 ],
                 "statNums": {
                     "SEA_CREATURE_CHANCE": 5.0,
@@ -217,8 +217,9 @@
                     1.0
                 ],
                 "statNums": {
-                    "INTELLIGENCE": 0.0,
-                    "SCHNELLIGKEIT": 0.0
+                    "STRENGTH": 5.0,
+                    "INTELLIGENCE": 0.5,
+                    "SPEED": 0.1
                 }
             },
             "100": {
@@ -229,8 +230,9 @@
                     100
                 ],
                 "statNums": {
+                    "STRENGTH": 30.0,
                     "INTELLIGENCE": 50.0,
-                    "SCHNELLIGKEIT": 10.0
+                    "SPEED": 10.0
                 }
             },
             "interp": "1:27"
@@ -2969,6 +2971,73 @@
                 "otherNums": [
                     20,
                     10,
+                    10
+                ],
+                "statNums": {
+                    "ABILITY_DAMAGE": 50.0,
+                    "INTELLIGENCE": 100.0
+                }
+            },
+            "interp": "1:100"
+        },
+        "RARE": {
+            "1": {
+                "otherNums": [
+                    0.1,
+                    0.1,
+                    10.0
+                ],
+                "statNums": {
+                    "ABILITY_DAMAGE": 0.0,
+                    "INTELLIGENCE": 1.0
+                }
+            },
+            "100": {
+                "otherNums": [
+                    10,
+                    10,
+                    10
+                ],
+                "statNums": {
+                    "ABILITY_DAMAGE": 50.0,
+                    "INTELLIGENCE": 100.0
+                }
+            },
+            "interp": "1:100"
+        },
+        "COMMON": {
+          "1": {
+              "otherNums": [
+                  0.1
+              ],
+              "statNums": {
+                  "ABILITY_DAMAGE": 0.0,
+                  "INTELLIGENCE": 1.0
+              }
+          },
+          "100": {
+              "otherNums": [
+                  10
+              ],
+              "statNums": {
+                  "ABILITY_DAMAGE": 50.0,
+                  "INTELLIGENCE": 100.0
+              }
+          },
+          "interp": "1:100"
+      },
+        "UNCOMMON": {
+            "1": {
+                "otherNums": [
+                    0.1
+                ],
+                "statNums": {
+                    "ABILITY_DAMAGE": 0.0,
+                    "INTELLIGENCE": 1.0
+                }
+            },
+            "100": {
+                "otherNums": [
                     10
                 ],
                 "statNums": {
