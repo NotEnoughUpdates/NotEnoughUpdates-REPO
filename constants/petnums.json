@@ -1179,7 +1179,7 @@
         "LEGENDARY": {
             "1": {
                 "otherNums": [
-                    0.1,
+                    0.4,
                     0.5,
                     0.3
                 ],
@@ -1190,7 +1190,7 @@
             },
             "100": {
                 "otherNums": [
-                    15,
+                    40,
                     50,
                     30
                 ],
@@ -1204,7 +1204,7 @@
         "RARE": {
             "1": {
                 "otherNums": [
-                    0.1,
+                    0.3,
                     0.4
                 ],
                 "statNums": {
@@ -1214,7 +1214,7 @@
             },
             "100": {
                 "otherNums": [
-                    12,
+                    30,
                     40
                 ],
                 "statNums": {
@@ -4184,6 +4184,27 @@
             },
             "interp": "1:70"
         },
+        "COMMON": {
+                "1": {
+                    "otherNums": [
+                        0.2
+                    ],
+                    "statNums": {
+                        "CRIT_DAMAGE": 0.0,
+                        "HEALTH": 1.0
+                    }
+                },
+                "100": {
+                    "otherNums": [
+                        20
+                    ],
+                    "statNums": {
+                        "CRIT_DAMAGE": 30.0,
+                        "HEALTH": 100.0
+                    }
+                },
+                "interp": "1:70"
+            },
         "RARE": {
             "1": {
                 "otherNums": [
