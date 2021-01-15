@@ -4271,7 +4271,7 @@
                 "otherNums": [
                 ],
                 "statNums": {
-                   "CRIT_CHANCE": 10,
+                    "CRIT_CHANCE": 10,
                     "CRIT_DAMAGE": 50,
 					"STRENGTH": 25,
 					"MAGIC_FIND": 10,
@@ -4296,7 +4296,7 @@
                 "otherNums": [
                 ],
                 "statNums": {
-                   "CRIT_CHANCE": 10,
+                    "CRIT_CHANCE": 10,
                     "CRIT_DAMAGE": 50,
 					"STRENGTH": 25,
 					"MAGIC_FIND": 10,
@@ -4323,7 +4323,7 @@
 					16
                 ],
                 "statNums": {
-                   "CRIT_CHANCE": 10,
+                    "CRIT_CHANCE": 10,
                     "CRIT_DAMAGE": 50,
 					"STRENGTH": 25,
 					"MAGIC_FIND": 10,
@@ -4352,7 +4352,7 @@
 					15
                 ],
                 "statNums": {
-                   "CRIT_CHANCE": 10,
+                    "CRIT_CHANCE": 10,
                     "CRIT_DAMAGE": 50,
 					"STRENGTH": 25,
 					"MAGIC_FIND": 10,
@@ -4361,5 +4361,49 @@
             },
             "interp": "1:70"
         }
-	}
+    },
+    "MITHRIL_GOLEM":{
+        "EPIC":{
+            "1":{
+                "otherNums":[
+                    1,
+                    0.2
+                ],
+                "statNums":{
+                    "TRUE_DEFENSE": 0.5
+                }
+            },
+            "100":{
+                "otherNums":[
+                    100,
+                    20.0
+                ],
+                "statNums":{
+                    "TRUE_DEFENSE": 50.0
+                }
+            }
+        },
+        "LEGENDARY":{
+            "1":{
+                "otherNums":[
+                    1,
+                    0.2,
+                    0.2
+                ],
+                "statNums":{
+                    "TRUE_DEFENSE": 0.5
+                }
+            },
+            "100":{
+                "otherNums":[
+                    100,
+                    20.0,
+                    20.0
+                ],
+                "statNums":{
+                    "TRUE_DEFENSE": 50.0
+                }
+            }
+        }
+    }
 }
