@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:leather_boots",
   "displayname": "§5Mineral Boots",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+70\",1:\"§7Speed: §a+10\",2:\"\",3:\"§7Each piece of this armor grants\",4:\"§7the ability to §9automatically\",5:\"§9mine §a2 §7extra nearby blocks\",6:\"§7while mining (very short\",7:\"§7cooldown).\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§5§lEPIC BOOTS\"],color:13428223,Name:\"§5Mineral Boots\"},ExtraAttributes:{id:\"MINERAL_BOOTS\"}}",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+70\",1:\"§7Speed: §a+10\",2:\"\",3:\"§7Each piece of this armor grants\",4:\"§7the ability to §9automatically\",5:\"§9mine §a2 §7extra nearby blocks\",6:\"§7while mining (very short\",7:\"§7cooldown, blocks must require\",8:\"§7breaking power of less than 4).\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§5§lEPIC BOOTS\"],color:13428223,Name:\"§5Mineral Boots\"},ExtraAttributes:{id:\"MINERAL_BOOTS\"}}",
   "damage": 0,
   "lore": [
     "§7Defense: §a+70",
@@ -11,7 +11,8 @@
     "§7the ability to §9automatically",
     "§9mine §a2 §7extra nearby blocks",
     "§7while mining (very short",
-    "§7cooldown).",
+    "§7cooldown, blocks must require",
+    "§7breaking power of less than 4).",
     "",
     "§7§8This item can be reforged!",
     "§5§lEPIC BOOTS"
@@ -29,8 +30,7 @@
   },
   "internalname": "MINERAL_BOOTS",
   "clickcommand": "viewrecipe",
-  "modver": "1.3-REL",
-  "crafttext": "",
+  "modver": "1.7.1-REL",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Mineral_Armor"
