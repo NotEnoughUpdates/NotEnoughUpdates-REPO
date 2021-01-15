@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:chainmail_chestplate",
   "displayname": "§5Mithril Coat",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+125\",1:\"§7Speed: §a+15\",2:\"\",3:\"§6Item Ability: Mithril\u0027s Protection\",4:\"§7§7Any damage taken is max §a40%\",5:\"§a§7of the wearer\u0027s §c❤ Health§7.\",6:\"§7Gain §cRegeneration\",7:\"§c%%gray%(0:05) %when this effect\",8:\"§cdoes reduce damage\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§5§lEPIC CHESTPLATE\"],Name:\"§5Mithril Coat\"},ExtraAttributes:{id:\"MITHRIL_COAT\"}}",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+125\",1:\"§7Speed: §a+15\",2:\"\",3:\"§6Item Ability: Mithril\u0027s Protection\",4:\"§7§7Any damage taken is max §a40%\",5:\"§a§7of the wearer\u0027s §c❤ Health§7.\",6:\"§7Gain §cRegeneration §7when this\",7:\"§7ability activates.\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§5§lEPIC CHESTPLATE\"],Name:\"§5Mithril Coat\"},ExtraAttributes:{id:\"MITHRIL_COAT\"}}",
   "damage": 0,
   "lore": [
     "§7Defense: §a+125",
@@ -10,9 +10,8 @@
     "§6Item Ability: Mithril\u0027s Protection",
     "§7§7Any damage taken is max §a40%",
     "§a§7of the wearer\u0027s §c❤ Health§7.",
-    "§7Gain §cRegeneration",
-    "§c%%gray%(0:05) %when this effect",
-    "§cdoes reduce damage",
+    "§7Gain §cRegeneration §7when this",
+    "§7ability activates.",
     "",
     "§7§8This item can be reforged!",
     "§5§lEPIC CHESTPLATE"
@@ -30,6 +29,5 @@
   },
   "internalname": "MITHRIL_COAT",
   "clickcommand": "viewrecipe",
-  "modver": "1.7.1-REL",
-  "crafttext": "Requires: Mithril V"
+  "modver": "1.7.1-REL"
 }
