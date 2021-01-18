@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:chainmail_boots",
-  "displayname": "§f§f§9Sorrow Boots",
-  "nbttag": "{overrideMeta:1b,Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Magic Find: §a+5\",1:\"§7Mining Speed: §a+50\",2:\"§7Mining Fortune: §a+20\",3:\"\",4:\"§6Item Ability: Mist Aura\",5:\"§7Hides the wearer in a guise of\",6:\"§7mist.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§9§lRARE BOOTS\"],Name:\"§f§f§9Sorrow Boots\"},ExtraAttributes:{originTag:\"QUICK_CRAFTING\",id:\"SORROW_BOOTS\",uuid:\"f09bf6a2-c4e8-4ba1-ab0c-310ed405b46f\"},AttributeModifiers:[]}",
+  "displayname": "§9Sorrow Boots",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Magic Find: §a+5\",1:\"§7Mining Speed: §a+50\",2:\"§7Mining Fortune: §a+20\",3:\"\",4:\"§6Item Ability: Mist Aura\",5:\"§7Hides the wearer in a guise of\",6:\"§7mist.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§9§lRARE BOOTS\"],Name:\"§9Sorrow Boots\"},ExtraAttributes:{id:\"SORROW_BOOTS\"}}",
   "damage": 0,
   "lore": [
     "§7Magic Find: §a+5",
@@ -15,9 +15,18 @@
     "§7§8This item can be reforged!",
     "§9§lRARE BOOTS"
   ],
+  "recipe": {
+    "A1": "SORROW:3",
+    "A2": "",
+    "A3": "SORROW:3",
+    "B1": "SORROW:3",
+    "B2": "",
+    "B3": "SORROW:3",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  },
   "internalname": "SORROW_BOOTS",
-  "crafttext": "",
-  "clickcommand": "",
-  "modver": "1.7.1-REL",
-  "infoType": ""
+  "clickcommand": "viewrecipe",
+  "modver": "1.7.1-REL"
 }
