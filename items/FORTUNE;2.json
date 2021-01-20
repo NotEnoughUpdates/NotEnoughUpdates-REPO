@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§fEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Fortune II\",1:\"§7Increases your chance to gain\",2:\"§7double drops when mining by\",3:\"§7§a20%§7.\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"ENCHANTED_BOOK\",enchantments:{fortune:2}}}",
+  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Fortune II\",1:\"§7Grants §a+20 §6☘ Mining\",2:\"§6Fortune§7, which increases your\",3:\"§7chance for multiple drops.\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"FORTUNE;2\",enchantments:{fortune:2}}}",
   "damage": 0,
   "lore": [
     "§9Fortune II",
-    "§7Increases your chance to gain",
-    "§7double drops when mining by",
-    "§7§a20%§7.",
+    "§7Grants §a+20 §6☘ Mining",
+    "§6Fortune§7, which increases your",
+    "§7chance for multiple drops.",
     "",
     "§7Use this on an item in an Anvil",
     "§7to apply it!",
@@ -27,6 +27,7 @@
   },
   "internalname": "FORTUNE;2",
   "clickcommand": "viewrecipe",
-  "modver": "1.0.0",
-  "crafttext": "Requires: Gold Ingot VIII"
+  "modver": "1.7.1-REL",
+  "crafttext": "Requires: Gold Ingot VIII",
+  "infoType": ""
 }
