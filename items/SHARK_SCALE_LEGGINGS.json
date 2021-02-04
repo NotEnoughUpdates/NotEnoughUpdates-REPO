@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:leather_leggings",
   "displayname": "§6Shark Scale Leggings",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Sea Creature Chance: §c+2.5%\",1:\"\",2:\"§7Health: §a+150 HP\",3:\"§7Defense: §a+150\",4:\"\",5:\"§6Full Set Bonus: Absorb\",6:\"§7§9Doubles§7 your §a❈ Defense§7\",7:\"§7while in water.\",8:\"\",9:\"§6Full Set Bonus: Reflect\",10:\"§7§7Your sharp scales reflect\",11:\"§7§915% §7of damage onto the\",12:\"§7attacker.\",13:\"\",14:\"§7§8This item can be reforged!\",15:\"§6§lLEGENDARY LEGGINGS\"],color:11430,Name:\"§6Shark Scale Leggings\"},ExtraAttributes:{id:\"SHARK_SCALE_LEGGINGS\"}}",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Sea Creature Chance: §c+2.5%\",1:\"\",2:\"§7Health: §a+150 HP\",3:\"§7Defense: §a+150\",4:\"\",5:\"§6Full Set Bonus: Absorb\",6:\"§7§9Doubles§7 your §a❈ Defense§7\",7:\"§7while in water.\",8:\"\",9:\"§6Full Set Bonus: Reflect\",10:\"§7§7Your sharp scales reflect\",11:\"§7§915% §7of damage onto the\",12:\"§7attacker.\",13:\"\",14:\"§7§8This item can be reforged!\",15:\"§4❣ §cRequires §aFishing Skill 24\",16:\"§6§lLEGENDARY LEGGINGS\"],color:11430,Name:\"§6Shark Scale Leggings\"},ExtraAttributes:{id:\"SHARK_SCALE_LEGGINGS\"}}",
   "damage": 0,
   "lore": [
     "§7Sea Creature Chance: §c+2.5%",
@@ -19,12 +19,24 @@
     "§7attacker.",
     "",
     "§7§8This item can be reforged!",
+    "§4❣ §cRequires §aFishing Skill 24",
     "§6§lLEGENDARY LEGGINGS"
   ],
   "internalname": "SHARK_SCALE_LEGGINGS",
+  "recipe": {
+    "A1": "ENCHANTED_SHARK_FIN:1",
+    "A2": "SPONGE_LEGGINGS:1",
+    "A3": "ENCHANTED_SHARK_FIN:1",
+    "B1": "",
+    "B2": "",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  },
   "crafttext": "",
   "clickcommand": "viewrecipe",
-  "modver": "1.3-REL",
+  "modver": "2.0.0-REL",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Shark_Scale_Armor"
