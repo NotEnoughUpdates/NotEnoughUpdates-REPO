@@ -529,6 +529,49 @@
       }
     }
   },
+  "DIAMOND_ATOM":{
+    "internalName":"DIAMOND_ATOM",
+    "reforgeName":"Perfect",
+    "reforgeType":"blacksmith/reforge_stone",
+    "itemTypes":"ARMOR",
+    "requiredRarities":[
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts":{
+      "COMMON":25000,
+      "UNCOMMON":50000,
+      "RARE":150000,
+      "EPIC":300000,
+      "LEGENDARY":600000,
+      "MYTHIC":800000
+    },
+    "reforgeAbility":"Increases §a❈ Defense §7by §a+2%",
+    "reforgeStats":{
+      "COMMON":{
+        "defense":25
+      },
+      "UNCOMMON":{
+        "defense":35
+      },
+      "RARE":{
+        "defense":50
+      },
+      "EPIC":{
+        "defense":65
+      },
+      "LEGENDARY":{
+        "defense":80
+      },
+      "MYTHIC":{
+        "defense":110
+      }
+    }
+  },
   "ENDSTONE_GEODE":{
     "internalName":"ENDSTONE_GEODE",
     "reforgeName":"Warped",
@@ -630,6 +673,39 @@
       },
       "MYTHIC":{
         "health":240
+      }
+    }
+  },
+  "JERRY_STONE":{
+    "internalName":"JERRY_STONE",
+    "reforgeName":"Jerry's",
+    "reforgeType":"blacksmith/reforge_stone",
+    "itemTypes":"SWORD",
+    "requiredRarities":[
+      "COMMON",
+      "UNCOMMON",
+      "RARE"
+    ],
+    "reforgeCosts":{
+      "COMMON":1,
+      "UNCOMMON":2,
+      "RARE":3
+    },
+    "reforgeStats":{
+      "COMMON":{
+        "strength":25,
+        "crit_chance":10,
+        "crit_damage":50
+      },
+      "UNCOMMON":{
+        "strength":25,
+        "crit_chance":10,
+        "crit_damage":50
+      },
+      "RARE":{
+        "strength":25,
+        "crit_chance":10,
+        "crit_damage":50
       }
     }
   },
@@ -1081,6 +1157,67 @@
       }
     }
   },
+  "PREMIUM_FLESH":{
+    "internalName":"PREMIUM_FLESH",
+    "reforgeName":"Undead",
+    "reforgeType":"blacksmith/reforge_stone",
+    "itemTypes":"ARMOR",
+    "requiredRarities":[
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts":{
+      "COMMON":5000,
+      "UNCOMMON":15000,
+      "RARE":30000,
+      "EPIC":75000,
+      "LEGENDARY":150000,
+      "MYTHIC":300000
+    },
+    "reforgeAbility":"Decreases damage taken from Zombie Pigmen, Zombies, Withers, and Skeletons by §a+2",
+    "reforgeStats":{
+      "COMMON":{
+        "strength":1,
+        "bonus_attack_speed":1,
+        "health":8,
+        "defense":6
+      },
+      "UNCOMMON":{
+        "strength":2,
+        "bonus_attack_speed":2,
+        "health":8,
+        "defense":8
+      },
+      "RARE":{
+        "strength":2,
+        "bonus_attack_speed":3,
+        "health":12,
+        "defense":12
+      },
+      "EPIC":{
+        "strength":3,
+        "bonus_attack_speed":4,
+        "health":18,
+        "defense":18
+      },
+      "LEGENDARY":{
+        "strength":5,
+        "bonus_attack_speed":5,
+        "health":25,
+        "defense":25
+      },
+      "MYTHIC":{
+        "strength":7,
+        "bonus_attack_speed":6,
+        "health":33,
+        "defense":33
+      }
+    }
+  },
   "PURE_MITHRIL":{
     "internalName":"PURE_MITHRIL",
     "reforgeName":"Mithraic",
@@ -1100,22 +1237,22 @@
       "EPIC":125000,
       "LEGENDARY":250000
     },
-    "reforgeAbility":"Grants a §a10% chance to gain 1 extra Mithril when mining Mithril Ore.",
+    "reforgeAbility":"Grants a §a10% §7chance to gain §a1 §7extra Mithril when mining Mithril Ore.",
     "reforgeStats":{
       "COMMON":{
-        "miningSpeed":6
+        "mining_speed":6
       },
       "UNCOMMON":{
-        "miningSpeed":12
+        "mining_speed":12
       },
       "RARE":{
-        "miningSpeed":20
+        "mining_speed":20
       },
       "EPIC":{
-        "miningSpeed":30
+        "mining_speed":30
       },
       "LEGENDARY":{
-        "miningSpeed":40
+        "mining_speed":40
       }
     }
   },
@@ -1216,6 +1353,61 @@
       }
     }
   },
+  "RED_SCARF":{
+    "internalName":"RED_SCARF",
+    "reforgeName":"Loving",
+    "reforgeType":"blacksmith/reforge_stone",
+    "itemTypes":"CHESTPLATE",
+    "requiredRarities":[
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts":{
+      "COMMON":30000,
+      "UNCOMMON":75000,
+      "RARE":150000,
+      "EPIC":300000,
+      "LEGENDARY":600000,
+      "MYTHIC":2000000
+    },
+    "reforgeAbility":"Increases ability damage by §a+5%",
+    "reforgeStats":{
+      "COMMON":{
+        "health":4,
+        "defense":4,
+        "intelligence":20
+      },
+      "UNCOMMON":{
+        "health":5,
+        "defense":5,
+        "intelligence":40
+      },
+      "RARE":{
+        "health":6,
+        "defense":6,
+        "intelligence":60
+      },
+      "EPIC":{
+        "health":8,
+        "defense":7,
+        "intelligence":80
+      },
+      "LEGENDARY":{
+        "health":10,
+        "defense":10,
+        "intelligence":100
+      },
+      "MYTHIC":{
+        "health":14,
+        "defense":14,
+        "intelligence":120
+      }
+    }
+  },
   "REFINED_AMBER":{
     "internalName":"REFINED_AMBER",
     "reforgeName":"Refined",
@@ -1311,6 +1503,44 @@
         "health":16,
         "defense":4,
         "speed":4
+      }
+    }
+  },
+  "ROCK_GEMSTONE":{
+    "internalName":"ROCK_GEMSTONE",
+    "reforgeName":"Auspicious",
+    "reforgeType":"blacksmith/reforge_stone",
+    "itemTypes":"PICKAXE",
+    "requiredRarities":[
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY"
+    ],
+    "reforgeCosts":{
+      "COMMON":20000,
+      "UNCOMMON":40000,
+      "RARE":80000,
+      "EPIC":150000,
+      "LEGENDARY":300000
+    },
+    "reforgeAbility":"Grants §a+8 §6☘ Mining §6Fortune§7, which increases your §7chance for multiple crops.",
+    "reforgeStats":{
+      "COMMON":{
+        "mining_speed":7
+      },
+      "UNCOMMON":{
+        "mining_speed":14
+      },
+      "RARE":{
+        "mining_speed":23
+      },
+      "EPIC":{
+        "mining_speed":34
+      },
+      "LEGENDARY":{
+        "mining_speed":45
       }
     }
   },
@@ -1520,6 +1750,73 @@
       "MYTHIC":{
         "strength":20,
         "crit_damage":20
+      }
+    }
+  },
+  "AOTE_STONE":{
+    "internalName":"AOTE_STONE",
+    "reforgeName":"Warped",
+    "reforgeType":"blacksmith/reforge_stone",
+    "itemTypes":"SWORD",
+    "requiredRarities":[
+      "RARE",
+      "EPIC"
+    ],
+    "reforgeCosts":{
+      "RARE":5000000,
+      "EPIC":10000000
+    },
+    "reforgeStats":{
+      "RARE":{
+        "damage":165,
+        "strength":165
+      },
+      "EPIC":{
+        "damage":165,
+        "strength":165
+      }
+    }
+  },
+  "WITHER_BLOOD":{
+    "internalName":"WITHER_BLOOD",
+    "reforgeName":"Withered",
+    "reforgeType":"blacksmith/reforge_stone",
+    "itemTypes":"SWORD",
+    "requiredRarities":[
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts":{
+      "COMMON":10000,
+      "UNCOMMON":20000,
+      "RARE":30000,
+      "EPIC":40000,
+      "LEGENDARY":50000,
+      "MYTHIC":60000
+    },
+    "reforgeAbility":"Grants §a+1 §c❁ Strength §7per §cCatacombs §7level.",
+    "reforgeStats":{
+      "COMMON":{
+        "strength":60
+      },
+      "UNCOMMON":{
+        "strength":60
+      },
+      "RARE":{
+        "strength":60
+      },
+      "EPIC":{
+        "strength":60
+      },
+      "LEGENDARY":{
+        "strength":60
+      },
+      "MYTHIC":{
+        "strength":60
       }
     }
   }
