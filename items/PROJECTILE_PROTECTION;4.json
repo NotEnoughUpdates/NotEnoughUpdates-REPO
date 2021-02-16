@@ -1,11 +1,11 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§fEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Projectile Protection IV\",1:\"§7Grants §a+12 §a❈ Defense\",2:\"§a§7against projectiles.\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"ENCHANTED_BOOK\",enchantments:{projectile_protection:4}}}",
+  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Projectile Protection IV\",1:\"§7Grants §a+28 §a❈ Defense\",2:\"§a§7against projectiles.\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"PROJECTILE_PROTECTION;4\",enchantments:{projectile_protection:4}}}",
   "damage": 0,
   "lore": [
     "§9Projectile Protection IV",
-    "§7Grants §a+12 §a❈ Defense",
+    "§7Grants §a+28 §a❈ Defense",
     "§a§7against projectiles.",
     "",
     "§7Use this on an item in an Anvil",
@@ -26,6 +26,7 @@
   },
   "internalname": "PROJECTILE_PROTECTION;4",
   "clickcommand": "viewrecipe",
-  "modver": "1.0.0",
-  "crafttext": "Requires: Feather I"
+  "modver": "1.7.1-REL",
+  "crafttext": "Requires: Feather I",
+  "infoType": ""
 }

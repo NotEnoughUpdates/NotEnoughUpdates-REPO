@@ -1,0 +1,35 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Magma Cube Minion II",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"1f8cc746-5716-3ad3-9590-c2bc83728d0d\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5Mzc1MTk3MjAsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIxMmZmNDdmNWM4YjM4ZTk2ZTk0MGI5OTU3OTU4ZTM3ZDYxMDkxOGRmOWI2NjRiMGMxMWJkNjI0Njc5OWY0YWYifX19\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and slaying\",2:\"§7Magma Cubes! Minions also work\",3:\"§7when you are offline!\",4:\"\",5:\"§7Time Between Actions: §a32s\",6:\"§7Max Storage: §e192\"],Name:\"§9Magma Cube Minion II\"},ExtraAttributes:{id:\"MAGMA_CUBE_GENERATOR_2\",generator_tier:2}}",
+  "damage": 3,
+  "lore": [
+    "§7Place this minion and it will",
+    "§7start generating and slaying",
+    "§7Magma Cubes! Minions also work",
+    "§7when you are offline!",
+    "",
+    "§7Time Between Actions: §a32s",
+    "§7Max Storage: §e192"
+  ],
+  "recipe": {
+    "A1": "MAGMA_CREAM:20",
+    "A2": "MAGMA_CREAM:20",
+    "A3": "MAGMA_CREAM:20",
+    "B1": "MAGMA_CREAM:20",
+    "B2": "MAGMA_CUBE_GENERATOR_1:1",
+    "B3": "MAGMA_CREAM:20",
+    "C1": "MAGMA_CREAM:20",
+    "C2": "MAGMA_CREAM:20",
+    "C3": "MAGMA_CREAM:20"
+  },
+  "internalname": "MAGMA_CUBE_GENERATOR_2",
+  "clickcommand": "viewrecipe",
+  "modver": "1.7.1-REL",
+  "useneucraft": true,
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Magma_Cube_Minion"
+  ],
+  "crafttext": "Requires: Magma Cream I"
+}

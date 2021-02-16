@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Gold Minion III",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"ec223ebf-2a02-3808-a17a-871ceaab254f\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzY5MTAwMjIsInByb2ZpbGVJZCI6IjVkODgxNDRhMzhjYzRkZWVhODA3MzYwODc2YzIxYzU4IiwicHJvZmlsZU5hbWUiOiJSZW1WTiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGJkNDhiMTdhODJkNWUzOTUwMzRkMDFkYjYxYzc2ZjEzZjg4ZGE2ZTVhMGIxYzFkMTk4ZmJkYjA4MDVhNzczOSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and mining gold\",2:\"§7ore! Requires an open area to\",3:\"§7place gold ore. Minions also\",4:\"§7work when you are offline!\",5:\"\",6:\"§7Time Between Actions: §a20s\",7:\"§7Max Storage: §e192\"],Name:\"§9Gold Minion III\"},ExtraAttributes:{id:\"GOLD_GENERATOR_3\",generator_tier:3}}",
+  "damage": 3,
+  "lore": [
+    "§7Place this minion and it will",
+    "§7start generating and mining gold",
+    "§7ore! Requires an open area to",
+    "§7place gold ore. Minions also",
+    "§7work when you are offline!",
+    "",
+    "§7Time Between Actions: §a20s",
+    "§7Max Storage: §e192"
+  ],
+  "recipe": {
+    "A1": "GOLD_INGOT:40",
+    "A2": "GOLD_INGOT:40",
+    "A3": "GOLD_INGOT:40",
+    "B1": "GOLD_INGOT:40",
+    "B2": "GOLD_GENERATOR_2:1",
+    "B3": "GOLD_INGOT:40",
+    "C1": "GOLD_INGOT:40",
+    "C2": "GOLD_INGOT:40",
+    "C3": "GOLD_INGOT:40"
+  },
+  "internalname": "GOLD_GENERATOR_3",
+  "clickcommand": "viewrecipe",
+  "modver": "1.7.1-REL",
+  "useneucraft": true,
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Gold_Minion"
+  ],
+  "crafttext": "Requires: Gold Ingot I"
+}

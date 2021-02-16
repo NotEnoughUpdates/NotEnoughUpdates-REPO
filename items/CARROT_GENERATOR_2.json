@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Carrot Minion II",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"417cb9f8-a8b9-3bcd-80ac-9caf3b95035b\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzM1MzU1NDMsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzMyYTBhMTY5NWQ1MGUwYTljZWQ0YjkxZWRmZDQyYWZkNDFiNGU3MzdhYTVkMTc0Yzc0YjEzOTYzZmIwMjI1NTYifX19\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and harvesting\",2:\"§7carrots. Requires dirt or soil\",3:\"§7nearby so carrots can be\",4:\"§7planted. Minions also work when\",5:\"§7you are offline!\",6:\"\",7:\"§7Time Between Actions: §a20s\",8:\"§7Max Storage: §e192\"],Name:\"§9Carrot Minion II\"},ExtraAttributes:{id:\"CARROT_GENERATOR_2\",generator_tier:2}}",
+  "damage": 3,
+  "lore": [
+    "§7Place this minion and it will",
+    "§7start generating and harvesting",
+    "§7carrots. Requires dirt or soil",
+    "§7nearby so carrots can be",
+    "§7planted. Minions also work when",
+    "§7you are offline!",
+    "",
+    "§7Time Between Actions: §a20s",
+    "§7Max Storage: §e192"
+  ],
+  "recipe": {
+    "A1": "CARROT_ITEM:32",
+    "A2": "CARROT_ITEM:32",
+    "A3": "CARROT_ITEM:32",
+    "B1": "CARROT_ITEM:32",
+    "B2": "CARROT_GENERATOR_1:1",
+    "B3": "CARROT_ITEM:32",
+    "C1": "CARROT_ITEM:32",
+    "C2": "CARROT_ITEM:32",
+    "C3": "CARROT_ITEM:32"
+  },
+  "internalname": "CARROT_GENERATOR_2",
+  "clickcommand": "viewrecipe",
+  "modver": "1.7.1-REL",
+  "useneucraft": true,
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Carrot_Minion"
+  ],
+  "crafttext": "Requires: Carrot I"
+}

@@ -1,11 +1,8 @@
 {
-  "internalname": "SUPER_MAGIC_MUSHROOM_SOUP",
   "itemid": "minecraft:mushroom_stew",
   "displayname": "§9Mystical Mushroom Soup",
-  "clickcommand": "",
-  "damage": 0,
   "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Consuming this Mushroom Soup on\",1:\"§7your private island allows the\",2:\"§7player to fly for §a200\",3:\"§aminutes§7. Leaving the private\",4:\"§7island will pause the effect!\",5:\"\",6:\"§9§lRARE\"],Name:\"§9Mystical Mushroom Soup\"},ExtraAttributes:{id:\"SUPER_MAGIC_MUSHROOM_SOUP\"}}",
-  "modver": "1.5-REL",
+  "damage": 0,
   "lore": [
     "§7Consuming this Mushroom Soup on",
     "§7your private island allows the",
@@ -15,7 +12,21 @@
     "",
     "§9§lRARE"
   ],
+  "recipe": {
+    "A1": "",
+    "A2": "ENCHANTED_GLOWSTONE_DUST:1",
+    "A3": "",
+    "B1": "ENCHANTED_RED_MUSHROOM:1",
+    "B2": "ENCHANTED_BROWN_MUSHROOM:1",
+    "B3": "ENCHANTED_REDSTONE:1",
+    "C1": "",
+    "C2": "BOWL:1",
+    "C3": ""
+  },
+  "internalname": "SUPER_MAGIC_MUSHROOM_SOUP",
+  "clickcommand": "viewrecipe",
   "crafttext": "Requires: Mushroom VII",
+  "modver": "2.0.0-REL",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Mystical_Mushroom_Soup"

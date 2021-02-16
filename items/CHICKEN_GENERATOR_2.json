@@ -1,0 +1,35 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Chicken Minion II",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"64b8c3bb-d87d-3321-bec6-455e9307e582\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzM5NTg0MDIsInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJ4RmFpaUxlUiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2FlMzlmMjlhMGNjNGQ4YWM4Mjc3ZTdhNGU2ZDU2YjBlNDJmMDQyNjdhOWY5MDMzZmNiYTEwOTc1MWViZmZmNSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and slaying\",2:\"§7Chickens! Minions also work when\",3:\"§7you are offline!\",4:\"\",5:\"§7Time Between Actions: §a26s\",6:\"§7Max Storage: §e320\"],Name:\"§9Chicken Minion II\"},ExtraAttributes:{id:\"CHICKEN_GENERATOR_2\",generator_tier:2}}",
+  "damage": 3,
+  "lore": [
+    "§7Place this minion and it will",
+    "§7start generating and slaying",
+    "§7Chickens! Minions also work when",
+    "§7you are offline!",
+    "",
+    "§7Time Between Actions: §a26s",
+    "§7Max Storage: §e320"
+  ],
+  "recipe": {
+    "A1": "RAW_CHICKEN:16",
+    "A2": "RAW_CHICKEN:16",
+    "A3": "RAW_CHICKEN:16",
+    "B1": "RAW_CHICKEN:16",
+    "B2": "CHICKEN_GENERATOR_1:1",
+    "B3": "RAW_CHICKEN:16",
+    "C1": "RAW_CHICKEN:16",
+    "C2": "RAW_CHICKEN:16",
+    "C3": "RAW_CHICKEN:16"
+  },
+  "internalname": "CHICKEN_GENERATOR_2",
+  "clickcommand": "viewrecipe",
+  "modver": "1.7.1-REL",
+  "useneucraft": true,
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Chicken_Minion"
+  ],
+  "crafttext": "Requires: Raw Chicken I"
+}

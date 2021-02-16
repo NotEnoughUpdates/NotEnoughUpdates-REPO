@@ -12,7 +12,8 @@
     "helmet",
     "chestplate",
     "leggings",
-    "boots"
+    "boots",
+    "drill"
   ],
 
   "tier_colors": {
@@ -20,7 +21,11 @@
     "uncommon": "§a",
     "rare": "§9",
     "epic": "§5",
-    "legendary": "§6"
+    "legendary": "§6",
+    "mythic": "§d",
+    "supreme": "§4",
+    "special": "§c",
+    "very special": "§c"
   },
 
   "special_enchants": [
@@ -96,7 +101,9 @@
     "intelligence": 0,
     "sea_creature_chance": 20,
     "magic_find": 10,
-    "pet_luck": 0
+    "pet_luck": 0,
+    "ferocity": 0,
+    "ability_damage": 0
   },
 
   "slayer_cost": [
@@ -121,6 +128,7 @@
     "hub": "Hub",
     "mining_1": "Gold Mine",
     "mining_2": "Deep Caverns",
+    "mining_3": "Dwarven Mines",
     "combat_1": "Spider's Den",
     "combat_2": "Blazing Fortress",
     "combat_3": "The End",
@@ -128,8 +136,8 @@
     "farming_2": "Mushroom Desert",
     "foraging_1": "The Park",
     "winter": "Jerry's Workshop",
-	"dungeon": "Dungeon",
-	"dungeon_hub": "Dungeon Hub"
+    "dungeon": "Dungeon",
+    "dungeon_hub": "Dungeon Hub"
   },
 
   "bag_size": {
@@ -269,16 +277,16 @@
     ],
     "CANDY_RING": [
       "CANDY_ARTIFACT",
-	  "CANDY_RELIC"
+      "CANDY_RELIC"
     ],
     "CANDY_TALISMAN": [
       "CANDY_RING",
       "CANDY_ARTIFACT",
-	  "CANDY_RELIC"
+      "CANDY_RELIC"
     ],
-	"CANDY_ARTIFACT": [
-	  "CANDY_RELIC"
-	],
+    "CANDY_ARTIFACT": [
+      "CANDY_RELIC"
+    ],
     "INTIMIDATION_RING": [
       "INTIMIDATION_ARTIFACT"
     ],
@@ -333,165 +341,202 @@
     ],
     "PERSONAL_COMPACTOR_4000": [
       "PERSONAL_COMPACTOR_5000",
-      "PERSONAL_COMPACTOR_6000"
+      "PERSONAL_COMPACTOR_6000",
+      "PERSONAL_COMPACTOR_7000"
     ],
     "PERSONAL_COMPACTOR_5000": [
-      "PERSONAL_COMPACTOR_6000"
+      "PERSONAL_COMPACTOR_6000",
+      "PERSONAL_COMPACTOR_7000"
     ],
-	"SCARF_STUDIES": [
-	  "SCARF_THESIS",
-	  "SCARF_GRIMOIRE"
-	],
-	"SCARF_THESIS": [
-	  "SCARF_GRIMOIRE"
-	],
-	"CAT_TALISMAN": [
-	  "LYNX_TALISMAN",
-	  "CHEETAH_TALISMAN"
-	],
-	"LYNX_TALISMAN": [
-	  "CHEETAH_TALISMAN"
-	],
-	"SHADY_RING": [
-	  "CROOKED_ARTIFACT",
-	  "SEAL_OF_THE_FAMILY"
-	],
-	"CROOKED_ARTIFACT": [
-	  "SEAL_OF_THE_FAMILY"
-	],
-	"TREASURE_TALISMAN": [
-	  "TREASURE_RING",
-	  "TREASURE_ARTIFACT"
-	],
-	"TREASURE_RING": [
-	  "TREASURE_ARTIFACT"
-	],
-	"BEASTMASTER_CREST_COMMON": [
-	  "BEASTMASTER_CREST_UNCOMMON",
-	  "BEASTMASTER_CREST_RARE",
-	  "BEASTMASTER_CREST_EPIC",
-	  "BEASTMASTER_CREST_LEGENDARY"
-	],
-	"BEASTMASTER_CREST_UNCOMMON": [
-	  "BEASTMASTER_CREST_RARE",
-	  "BEASTMASTER_CREST_EPIC",
-	  "BEASTMASTER_CREST_LEGENDARY"
-	],
-	"BEASTMASTER_CREST_RARE": [
-	  "BEASTMASTER_CREST_EPIC",
-	  "BEASTMASTER_CREST_LEGENDARY"
-	],
-	"BEASTMASTER_CREST_EPIC": [
-	  "BEASTMASTER_CREST_LEGENDARY"
-	],
-	"RAGGEDY_SHARK_TOOTH_NECKLACE": [
-	  "DULL_SHARK_TOOTH_NECKLACE",
-	  "HONED_SHARK_TOOTH_NECKLACE",
-	  "SHARP_SHARK_TOOTH_NECKLACE",
-	  "RAZOR_SHARP_SHARK_TOOTH_NECKLACE"
-	],
-	"DULL_SHARK_TOOTH_NECKLACE": [
-	  "HONED_SHARK_TOOTH_NECKLACE",
-	  "SHARP_SHARK_TOOTH_NECKLACE",
-	  "RAZOR_SHARP_SHARK_TOOTH_NECKLACE"
-	],
-	"HONED_SHARK_TOOTH_NECKLACE": [
-	  "SHARP_SHARK_TOOTH_NECKLACE",
-	  "RAZOR_SHARP_SHARK_TOOTH_NECKLACE"
-	],
-	"SHARP_SHARK_TOOTH_NECKLACE": [
-	  "RAZOR_SHARP_SHARK_TOOTH_NECKLACE"
-	],
-	"WEDDING_RING_0": [
-	  "WEDDING_RING_1",
-	  "WEDDING_RING_2",
-	  "WEDDING_RING_3",
-	  "WEDDING_RING_4",
-	  "WEDDING_RING_5",
-	  "WEDDING_RING_6",
-	  "WEDDING_RING_7",
-	  "WEDDING_RING_8",
-	  "WEDDING_RING_9"
-	],
-	"WEDDING_RING_1": [
-	  "WEDDING_RING_2",
-	  "WEDDING_RING_3",
-	  "WEDDING_RING_4",
-	  "WEDDING_RING_5",
-	  "WEDDING_RING_6",
-	  "WEDDING_RING_7",
-	  "WEDDING_RING_8",
-	  "WEDDING_RING_9"
-	],
-	"WEDDING_RING_2": [
-	  "WEDDING_RING_3",
-	  "WEDDING_RING_4",
-	  "WEDDING_RING_5",
-	  "WEDDING_RING_6",
-	  "WEDDING_RING_7",
-	  "WEDDING_RING_8",
-	  "WEDDING_RING_9"
-	],
-	"WEDDING_RING_3": [
-	  "WEDDING_RING_4",
-	  "WEDDING_RING_5",
-	  "WEDDING_RING_6",
-	  "WEDDING_RING_7",
-	  "WEDDING_RING_8",
-	  "WEDDING_RING_9"
-	],
-	"WEDDING_RING_4": [
-	  "WEDDING_RING_5",
-	  "WEDDING_RING_6",
-	  "WEDDING_RING_7",
-	  "WEDDING_RING_8",
-	  "WEDDING_RING_9"
-	],
-	"WEDDING_RING_5": [
-	  "WEDDING_RING_6",
-	  "WEDDING_RING_7",
-	  "WEDDING_RING_8",
-	  "WEDDING_RING_9"
-	],
-	"WEDDING_RING_6": [
-	  "WEDDING_RING_7",
-	  "WEDDING_RING_8",
-	  "WEDDING_RING_9"
-	],
-	"WEDDING_RING_7": [
-	  "WEDDING_RING_8",
-	  "WEDDING_RING_9"
-	],
-	"WEDDING_RING_8": [
-	  "WEDDING_RING_9"
-	],
-	"BAT_PERSON_TALISMAN": [
-	  "BAT_PERSON_RING",
-	  "BAT_PERSON_ARTIFACT"
-	],
-	"BAT_PERSON_RING": [
-	  "BAT_PERSON_ARTIFACT"
-	],
-	"WITHER_ARTIFACT": [
-	  "WITHER_RELIC"
-	],
-	"LUCKY_HOOF": [
-	  "ETERNAL_HOOF"
-	]
+    "PERSONAL_COMPACTOR_6000": [
+      "PERSONAL_COMPACTOR_7000"
+    ],
+    "SCARF_STUDIES": [
+      "SCARF_THESIS",
+      "SCARF_GRIMOIRE"
+    ],
+    "SCARF_THESIS": [
+      "SCARF_GRIMOIRE"
+    ],
+    "CAT_TALISMAN": [
+      "LYNX_TALISMAN",
+      "CHEETAH_TALISMAN"
+    ],
+    "LYNX_TALISMAN": [
+      "CHEETAH_TALISMAN"
+    ],
+    "SHADY_RING": [
+      "CROOKED_ARTIFACT",
+      "SEAL_OF_THE_FAMILY"
+    ],
+    "CROOKED_ARTIFACT": [
+      "SEAL_OF_THE_FAMILY"
+    ],
+    "TREASURE_TALISMAN": [
+      "TREASURE_RING",
+      "TREASURE_ARTIFACT"
+    ],
+    "TREASURE_RING": [
+      "TREASURE_ARTIFACT"
+    ],
+    "BEASTMASTER_CREST_COMMON": [
+      "BEASTMASTER_CREST_UNCOMMON",
+      "BEASTMASTER_CREST_RARE",
+      "BEASTMASTER_CREST_EPIC",
+      "BEASTMASTER_CREST_LEGENDARY"
+    ],
+    "BEASTMASTER_CREST_UNCOMMON": [
+      "BEASTMASTER_CREST_RARE",
+      "BEASTMASTER_CREST_EPIC",
+      "BEASTMASTER_CREST_LEGENDARY"
+    ],
+    "BEASTMASTER_CREST_RARE": [
+      "BEASTMASTER_CREST_EPIC",
+      "BEASTMASTER_CREST_LEGENDARY"
+    ],
+    "BEASTMASTER_CREST_EPIC": [
+      "BEASTMASTER_CREST_LEGENDARY"
+    ],
+    "RAGGEDY_SHARK_TOOTH_NECKLACE": [
+      "DULL_SHARK_TOOTH_NECKLACE",
+      "HONED_SHARK_TOOTH_NECKLACE",
+      "SHARP_SHARK_TOOTH_NECKLACE",
+      "RAZOR_SHARP_SHARK_TOOTH_NECKLACE"
+    ],
+    "DULL_SHARK_TOOTH_NECKLACE": [
+      "HONED_SHARK_TOOTH_NECKLACE",
+      "SHARP_SHARK_TOOTH_NECKLACE",
+      "RAZOR_SHARP_SHARK_TOOTH_NECKLACE"
+    ],
+    "HONED_SHARK_TOOTH_NECKLACE": [
+      "SHARP_SHARK_TOOTH_NECKLACE",
+      "RAZOR_SHARP_SHARK_TOOTH_NECKLACE"
+    ],
+    "SHARP_SHARK_TOOTH_NECKLACE": [
+      "RAZOR_SHARP_SHARK_TOOTH_NECKLACE"
+    ],
+    "WEDDING_RING_0": [
+      "WEDDING_RING_1",
+      "WEDDING_RING_2",
+      "WEDDING_RING_3",
+      "WEDDING_RING_4",
+      "WEDDING_RING_5",
+      "WEDDING_RING_6",
+      "WEDDING_RING_7",
+      "WEDDING_RING_8",
+      "WEDDING_RING_9"
+    ],
+    "WEDDING_RING_1": [
+      "WEDDING_RING_2",
+      "WEDDING_RING_3",
+      "WEDDING_RING_4",
+      "WEDDING_RING_5",
+      "WEDDING_RING_6",
+      "WEDDING_RING_7",
+      "WEDDING_RING_8",
+      "WEDDING_RING_9"
+    ],
+    "WEDDING_RING_2": [
+      "WEDDING_RING_3",
+      "WEDDING_RING_4",
+      "WEDDING_RING_5",
+      "WEDDING_RING_6",
+      "WEDDING_RING_7",
+      "WEDDING_RING_8",
+      "WEDDING_RING_9"
+    ],
+    "WEDDING_RING_3": [
+      "WEDDING_RING_4",
+      "WEDDING_RING_5",
+      "WEDDING_RING_6",
+      "WEDDING_RING_7",
+      "WEDDING_RING_8",
+      "WEDDING_RING_9"
+    ],
+    "WEDDING_RING_4": [
+      "WEDDING_RING_5",
+      "WEDDING_RING_6",
+      "WEDDING_RING_7",
+      "WEDDING_RING_8",
+      "WEDDING_RING_9"
+    ],
+    "WEDDING_RING_5": [
+      "WEDDING_RING_6",
+      "WEDDING_RING_7",
+      "WEDDING_RING_8",
+      "WEDDING_RING_9"
+    ],
+    "WEDDING_RING_6": [
+      "WEDDING_RING_7",
+      "WEDDING_RING_8",
+      "WEDDING_RING_9"
+    ],
+    "WEDDING_RING_7": [
+      "WEDDING_RING_8",
+      "WEDDING_RING_9"
+    ],
+    "WEDDING_RING_8": [
+      "WEDDING_RING_9"
+    ],
+    "BAT_PERSON_TALISMAN": [
+      "BAT_PERSON_RING",
+      "BAT_PERSON_ARTIFACT"
+    ],
+    "BAT_PERSON_RING": [
+      "BAT_PERSON_ARTIFACT"
+    ],
+    "WITHER_ARTIFACT": [
+      "WITHER_RELIC"
+    ],
+    "LUCKY_HOOF": [
+      "ETERNAL_HOOF"
+    ],
+    "JERRY_TALISMAN_GREEN": [
+      "JERRY_TALISMAN_BLUE",
+      "JERRY_TALISMAN_PURPLE",
+      "JERRY_TALISMAN_GOLDEN"
+    ],
+    "JERRY_TALISMAN_BLUE": [
+      "JERRY_TALISMAN_PURPLE",
+      "JERRY_TALISMAN_GOLDEN"
+    ],
+    "JERRY_TALISMAN_PURPLE": [
+      "JERRY_TALISMAN_GOLDEN"
+    ],
+    "TITANIUM_TALISMAN": [
+      "TITANIUM_RING",
+      "TITANIUM_ARTIFACT",
+      "TITANIUM_RELIC"
+    ],
+    "TITANIUM_RING": [
+      "TITANIUM_ARTIFACT",
+      "TITANIUM_RELIC"
+    ],
+    "TITANIUM_ARTIFACT": [
+      "TITANIUM_RELIC"
+    ]
   },
-  
+
   "special_bois": [
-	"503450fc72c24e87824394e264977437",
-	"41c4be4ac82c4c02aed3a63ba2cf9dda",
-	"d0e05de76067454dbeaec6d19d886191",
-	"6625863ce58a406d9e5fffc1b3a80a27",
-	"4667f660ac284390b8f2f9be39c8e0b0",
-	"cfdbc3e5051148faae4318a5ca514ab7",
-	"2c3f5fc730c14821ae5c2e3f07868b1a",
-	"689ff4bbf61e4e0594e01066892b0bbe",
-	"a5761ff3c7104cabb4f43e7f017a8dbf",
-	"7fd80955792d4206b43ae8f559f20b56",
-	"4f0e53f2bc1e464fa86af515e22390c7"
+    "503450fc72c24e87824394e264977437",
+    "41c4be4ac82c4c02aed3a63ba2cf9dda",
+    "d0e05de76067454dbeaec6d19d886191",
+    "6625863ce58a406d9e5fffc1b3a80a27",
+    "4667f660ac284390b8f2f9be39c8e0b0",
+    "cfdbc3e5051148faae4318a5ca514ab7",
+    "2c3f5fc730c14821ae5c2e3f07868b1a",
+    "689ff4bbf61e4e0594e01066892b0bbe",
+    "a5761ff3c7104cabb4f43e7f017a8dbf",
+    "f94771a6e4c4457495e7aa821c370e3d",
+    "4f0e53f2bc1e464fa86af515e22390c7",
+    "baa6c0a7c3494f7d9257c92dd886b890",
+    "783f560bff974363b5cfd61c496ba278",
+    "d82f5572054f4b7cb3d73e614098bbcb",
+    "e40ba3dfb5254b488649969d6d22ab1c",
+    "62b17c445d774a669cf6a9032005ae23",
+    "daf2a9b923264cc2b1a9d49194886c70",
+    "fdd2f6547ad141bc9d8223fff41a40cc",
+    "38184ab9506a42e69ecf65d5bc006f86"
   ],
 
   "ranks": {

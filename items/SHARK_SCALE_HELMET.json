@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§6Shark Scale Helmet",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"bafabf7d-16e6-32fb-9720-812419bacc73\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzkwMTE2ZGE1MTRhNzNkZGQ5Mjk1NDkxODUyYWRjNTg4MDA3ZjJhY2Q3ZGUyNjk3ODhhMjEyOGQ4ZTRhNzY0YiJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Sea Creature Chance: §c+2.5%\",1:\"\",2:\"§7Health: §a+120 HP\",3:\"§7Defense: §a+120\",4:\"\",5:\"§6Full Set Bonus: Absorb\",6:\"§7§9Doubles§7 your §a❈ Defense§7\",7:\"§7while in water.\",8:\"\",9:\"§6Full Set Bonus: Reflect\",10:\"§7§7Your sharp scales reflect\",11:\"§7§915% §7of damage onto the\",12:\"§7attacker.\",13:\"\",14:\"§7§8This item can be reforged!\",15:\"§6§lLEGENDARY HELMET\"],Name:\"§6Shark Scale Helmet\"},ExtraAttributes:{id:\"SHARK_SCALE_HELMET\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"bafabf7d-16e6-32fb-9720-812419bacc73\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzkwMTE2ZGE1MTRhNzNkZGQ5Mjk1NDkxODUyYWRjNTg4MDA3ZjJhY2Q3ZGUyNjk3ODhhMjEyOGQ4ZTRhNzY0YiJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Sea Creature Chance: §c+2.5%\",1:\"\",2:\"§7Health: §a+120 HP\",3:\"§7Defense: §a+120\",4:\"\",5:\"§6Full Set Bonus: Absorb\",6:\"§7§9Doubles§7 your §a❈ Defense§7\",7:\"§7while in water.\",8:\"\",9:\"§6Full Set Bonus: Reflect\",10:\"§7§7Your sharp scales reflect\",11:\"§7§915% §7of damage onto the\",12:\"§7attacker.\",13:\"\",14:\"§7§8This item can be reforged!\",15:\"§4❣ §cRequires §aFishing Skill 24\",16:\"§6§lLEGENDARY HELMET\"],Name:\"§6Shark Scale Helmet\"},ExtraAttributes:{id:\"SHARK_SCALE_HELMET\"}}",
   "damage": 3,
   "lore": [
     "§7Sea Creature Chance: §c+2.5%",
@@ -19,12 +19,24 @@
     "§7attacker.",
     "",
     "§7§8This item can be reforged!",
+    "§4❣ §cRequires §aFishing Skill 24",
     "§6§lLEGENDARY HELMET"
   ],
   "internalname": "SHARK_SCALE_HELMET",
+  "recipe": {
+    "A1": "ENCHANTED_SHARK_FIN:1",
+    "A2": "SPONGE_HELMET:1",
+    "A3": "ENCHANTED_SHARK_FIN:1",
+    "B1": "",
+    "B2": "",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  },
   "crafttext": "",
   "clickcommand": "viewrecipe",
-  "modver": "1.3-REL",
+  "modver": "2.0.0-REL",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Shark_Scale_Armor"

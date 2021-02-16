@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:diamond_hoe",
   "displayname": "§6Reaper Scythe",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+333\",1:\"\",2:\"§7Speed: §a+10\",3:\"\",4:\"§6Item Ability: Raise Souls §e§lRIGHT CLICK\",5:\"§7Monsters you kill using this\",6:\"§7item will drop their soul. You\",7:\"§7can click on their souls on the\",8:\"§7ground using this item to absorb\",9:\"§7them and then spawn them to\",10:\"§7fight by your side.\",11:\"§7\",12:\"§7Mana cost is based on the power\",13:\"§7of the monsters that you summon.\",14:\"§7Shift right-click to view and\",15:\"§7remove souls from this item. If\",16:\"§7your summoned monster dies the\",17:\"§7soul will be removed.\",18:\"§8Cooldown: §a1s\",19:\"\",20:\"§7Max Souls: §d3\",21:\"\",22:\"§7§8This item can be reforged!\",23:\"§6§lLEGENDARY SWORD\"],Name:\"§6Reaper Scythe\"},ExtraAttributes:{id:\"REAPER_SCYTHE\"}}",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+333\",1:\"\",2:\"§7Speed: §a+10\",3:\"\",4:\"§6Item Ability: Raise Souls §e§lRIGHT CLICK\",5:\"§7Monsters you kill using this\",6:\"§7item will drop their soul. You\",7:\"§7can click on their souls on the\",8:\"§7ground using this item to absorb\",9:\"§7them and then spawn them to\",10:\"§7fight by your side.\",11:\"§7\",12:\"§7Mana cost is based on the power\",13:\"§7of the monsters that you summon.\",14:\"§7Shift right-click to view and\",15:\"§7remove souls from this item. If\",16:\"§7your summoned monster dies the\",17:\"§7soul will be removed.\",18:\"§8Cooldown: §a1s\",19:\"\",20:\"§7Max Souls: §d3\",21:\"\",22:\"§7§8This item can be reforged!\",23:\"§7§4☠ §cRequires §5Zombie Slayer 7\",24:\"§6§lLEGENDARY SWORD\"],Name:\"§6Reaper Scythe\"},ExtraAttributes:{id:\"REAPER_SCYTHE\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+333",
@@ -27,6 +27,7 @@
     "§7Max Souls: §d3",
     "",
     "§7§8This item can be reforged!",
+    "§7§4☠ §cRequires §5Zombie Slayer 7",
     "§6§lLEGENDARY SWORD"
   ],
   "recipe": {
@@ -42,10 +43,11 @@
   },
   "internalname": "REAPER_SCYTHE",
   "clickcommand": "viewrecipe",
-  "modver": "1.5-REL",
-  "crafttext": "",
+  "slayer_req": "ZOMBIE_7",
+  "modver": "1.7.1-REL",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Reaper_Scythe"
-  ]
+  ],
+  "crafttext": ""
 }

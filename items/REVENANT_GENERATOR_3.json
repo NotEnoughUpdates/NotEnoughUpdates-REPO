@@ -1,0 +1,34 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Revenant Minion III",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"577bba90-e798-3e73-8761-f79ea88abd47\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1Njg1MzgzMjQ3MjgsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2QzODY1NDgyMzc3ZmI1NGJjMDdkYzc2MzNhNWEyNWJiYWFlY2MzZTk5NzhjMDRiZjYwODc3NmRhMWY4YTE1NGEifX19\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and struggling\",2:\"§7with Revenants! Minions also\",3:\"§7work when you are offline!\",4:\"\",5:\"§7Time Between Actions: §a26s\",6:\"§7Max Storage: §e192\"],Name:\"§9Revenant Minion III\"},ExtraAttributes:{id:\"REVENANT_GENERATOR_3\",generator_tier:3}}",
+  "damage": 3,
+  "lore": [
+    "§7Place this minion and it will",
+    "§7start generating and struggling",
+    "§7with Revenants! Minions also",
+    "§7work when you are offline!",
+    "",
+    "§7Time Between Actions: §a26s",
+    "§7Max Storage: §e192"
+  ],
+  "recipe": {
+    "A1": "REVENANT_FLESH:40",
+    "A2": "REVENANT_FLESH:40",
+    "A3": "REVENANT_FLESH:40",
+    "B1": "REVENANT_FLESH:40",
+    "B2": "REVENANT_GENERATOR_2:1",
+    "B3": "REVENANT_FLESH:40",
+    "C1": "REVENANT_FLESH:40",
+    "C2": "ZOMBIE_GENERATOR_2:1",
+    "C3": "REVENANT_FLESH:40"
+  },
+  "internalname": "REVENANT_GENERATOR_3",
+  "clickcommand": "viewrecipe",
+  "modver": "1.7.1-REL",
+  "useneucraft": true,
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Revenant_Minion"
+  ]
+}

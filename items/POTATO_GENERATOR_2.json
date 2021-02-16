@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Potato Minion II",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"98870bd8-dd5b-3e9a-a9fc-710e01b2fa32\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5NDY2NzIwNDQsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZjZTA2ZmI1ZDg1N2YxYjgyMWI0ZjZmNDQ4MTQ2NGIyNDcxNjUwNzMzYmY3YmFhM2UxZjZiNDE1NTVhYWI1NjEifX19\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and harvesting\",2:\"§7potatoes. Requires dirt or soil\",3:\"§7nearby so potatoes can be\",4:\"§7planted. Minions also work when\",5:\"§7you are offline!\",6:\"\",7:\"§7Time Between Actions: §a20s\",8:\"§7Max Storage: §e192\"],Name:\"§9Potato Minion II\"},ExtraAttributes:{id:\"POTATO_GENERATOR_2\",generator_tier:2}}",
+  "damage": 3,
+  "lore": [
+    "§7Place this minion and it will",
+    "§7start generating and harvesting",
+    "§7potatoes. Requires dirt or soil",
+    "§7nearby so potatoes can be",
+    "§7planted. Minions also work when",
+    "§7you are offline!",
+    "",
+    "§7Time Between Actions: §a20s",
+    "§7Max Storage: §e192"
+  ],
+  "recipe": {
+    "A1": "POTATO_ITEM:32",
+    "A2": "POTATO_ITEM:32",
+    "A3": "POTATO_ITEM:32",
+    "B1": "POTATO_ITEM:32",
+    "B2": "POTATO_GENERATOR_1:1",
+    "B3": "POTATO_ITEM:32",
+    "C1": "POTATO_ITEM:32",
+    "C2": "POTATO_ITEM:32",
+    "C3": "POTATO_ITEM:32"
+  },
+  "internalname": "POTATO_GENERATOR_2",
+  "clickcommand": "viewrecipe",
+  "modver": "1.7.1-REL",
+  "useneucraft": true,
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Potato_Minion"
+  ]
+}

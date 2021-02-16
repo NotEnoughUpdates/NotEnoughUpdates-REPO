@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:bow",
   "displayname": "§5Scorpion Bow",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+110\",1:\"§7Strength: §c+10\",2:\"\",3:\"§6Item Ability: Stinger\",4:\"§8Fully charged shots while sneaking\",5:\"§7Slows the victim and deal §c35x\",6:\"§c§7your §cStrength ❁ §7as damage\",7:\"§7per second for §a6s§7.\",8:\"§8Mana Cost: §3150\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§5§lEPIC BOW\"],Name:\"§5Scorpion Bow\"},ExtraAttributes:{id:\"SCORPION_BOW\"}}",
+  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+110\",1:\"§7Strength: §c+10\",2:\"\",3:\"§6Item Ability: Stinger\",4:\"§8Fully charged shots while sneaking\",5:\"§7Slows the victim and deal §c35x\",6:\"§c§7your §cStrength ❁ §7as damage\",7:\"§7per second for §a6s§7.\",8:\"§8Mana Cost: §3150\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§7§4☠ §cRequires §5Spider Slayer 3\",12:\"§5§lEPIC BOW\"],Name:\"§5Scorpion Bow\"},ExtraAttributes:{id:\"SCORPION_BOW\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+110",
@@ -15,6 +15,7 @@
     "§8Mana Cost: §3150",
     "",
     "§7§8This item can be reforged!",
+    "§7§4☠ §cRequires §5Spider Slayer 3",
     "§5§lEPIC BOW"
   ],
   "recipe": {
@@ -31,9 +32,10 @@
   "slayer_req": "SPIDER_3",
   "internalname": "SCORPION_BOW",
   "clickcommand": "viewrecipe",
-  "modver": "1.0.0",
+  "modver": "1.7.1-REL",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Scorpion_Bow"
-  ]
+  ],
+  "crafttext": ""
 }

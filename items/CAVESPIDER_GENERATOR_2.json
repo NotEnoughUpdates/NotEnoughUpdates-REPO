@@ -1,0 +1,35 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Cave Spider Minion II",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"daf5f693-6226-3f51-b40f-e6c25dd6c52f\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzM3Nzk0NzEsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjc3ZmI5YTcxN2VjODFkNDVmODliNzNmMGFjZDRlZTAzYzllMzk2NjAxYTJkZTYwZjI3MTllNDQ1OGM3MzI1YiJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and slaying\",2:\"§7Cave Spiders! Minions also work\",3:\"§7when you are offline!\",4:\"\",5:\"§7Time Between Actions: §a26s\",6:\"§7Max Storage: §e256\"],Name:\"§9Cave Spider Minion II\"},ExtraAttributes:{id:\"CAVESPIDER_GENERATOR_2\",generator_tier:2}}",
+  "damage": 3,
+  "lore": [
+    "§7Place this minion and it will",
+    "§7start generating and slaying",
+    "§7Cave Spiders! Minions also work",
+    "§7when you are offline!",
+    "",
+    "§7Time Between Actions: §a26s",
+    "§7Max Storage: §e256"
+  ],
+  "recipe": {
+    "A1": "SPIDER_EYE:20",
+    "A2": "SPIDER_EYE:20",
+    "A3": "SPIDER_EYE:20",
+    "B1": "SPIDER_EYE:20",
+    "B2": "CAVESPIDER_GENERATOR_1:1",
+    "B3": "SPIDER_EYE:20",
+    "C1": "SPIDER_EYE:20",
+    "C2": "SPIDER_EYE:20",
+    "C3": "SPIDER_EYE:20"
+  },
+  "internalname": "CAVESPIDER_GENERATOR_2",
+  "clickcommand": "viewrecipe",
+  "modver": "1.7.1-REL",
+  "useneucraft": true,
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Cave_Spider_Minion"
+  ],
+  "crafttext": "Requires: Spider Eye I"
+}
