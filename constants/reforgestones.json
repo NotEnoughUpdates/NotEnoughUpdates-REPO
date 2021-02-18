@@ -1819,5 +1819,60 @@
         "strength":170
       }
     }
+  },
+  "SALMON_OPAL":{
+    "internalName":"SALMON_OPAL",
+    "reforgeName":"Headstrong",
+    "reforgeType":"blacksmith/reforge_stone",
+    "itemTypes":"BOW",
+    "requiredRarities":[
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts":{
+      "COMMON":15000,
+      "UNCOMMON":30000,
+      "RARE":60000,
+      "EPIC":125000,
+      "LEGENDARY":250000,
+      "MYTHIC":500000
+    },
+    "reforgeAbility":"§7Deal §a+8% §7extra damage when arrows hit the head of a mob.",
+    "reforgeStats":{
+      "COMMON":{
+        "strength":2,
+        "crit_chance":10,
+        "crit_damage":4
+      },
+      "UNCOMMON":{
+        "strength":5,
+        "crit_chance":11,
+        "crit_damage":8
+      },
+      "RARE":{
+        "strength":10,
+        "crit_chance":12,
+        "crit_damage":16
+      },
+      "EPIC":{
+        "strength":16,
+        "crit_chance":13,
+        "crit_damage":28
+      },
+      "LEGENDARY":{
+        "strength":23,
+        "crit_chance":15,
+        "crit_damage":42
+      },
+      "MYTHIC":{
+        "strength":33,
+        "crit_chance":17,
+        "crit_damage":60
+      }
+    }
   }
 }
