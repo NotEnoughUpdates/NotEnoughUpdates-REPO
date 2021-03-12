@@ -1,17 +1,22 @@
+<!-- markdownlint-disable no-inline-html -->
 <h1 align="center"> NotEnoughUpdates-REPO </h1>
 
 <p align="center">
-  <a href="https://discord.gg/moulberry" target="_blank">
-    <img src="https://img.shields.io/discord/516977525906341928?label=discord&style=plastic" alt="discord">
-  </a>
+  <!-- lint -->
   <a href="https://github.com/Moulberry/NotEnoughUpdates-REPO/actions" target="_blank">
-    <img src="https://img.shields.io/github/workflow/status/Moulberry/NotEnoughUpdates-REPO/JSON/master?label=lint&style=plastic" alt="lint">
+    <img src="https://img.shields.io/github/workflow/status/Moulberry/NotEnoughUpdates-REPO/JSON/master?label=lint&logo=github&logoColor=FFFFFF" alt="lint">
   </a>
-  <a href="https://github.com/Moulberry/NotEnoughUpdates-REPO/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/Moulberry/NotEnoughUpdates-REPO?style=plastic&color=44CC11" alt="license">
+  <!-- license -->
+  <a href="https://github.com/Moulberry/NotEnoughUpdates-REPO/blob/master/LICENSE" target="_blank">
+    <img src="https://img.shields.io/github/license/Moulberry/NotEnoughUpdates-REPO?color=success&logo=github&logoColor=FFFFFF" alt="license">
   </a>
-  <a>
-    <img src="https://img.shields.io/tokei/lines/github/Moulberry/NotEnoughUpdates-REPO?color=44CC11&style=plastic" alt="lines">
+  <!-- lines -->
+  <a href="https://github.com/Moulberry/NotEnoughUpdates-REPO">
+    <img src="https://img.shields.io/tokei/lines/github/Moulberry/NotEnoughUpdates-REPO?color=success&logo=github&logoColor=FFFFFF" alt="lines">
+  </a>
+  <!-- discord -->
+  <a href="https://discord.gg/moulberry" target="_blank">
+    <img src="https://img.shields.io/discord/516977525906341928?label=discord&color=success&logo=discord&logoColor=FFFFFF" alt="discord">
   </a>
 </p>
 
@@ -34,10 +39,12 @@ I would also highly recommend disabling auto update if you are in the middle of 
 
 Once you have these options enabled you can edit and add items in-game using the following keybinds:
 
-* `k` - Open the item editor.
+* `k` - Opens the item editor.
 * `o` - While in an items recipe menu, add the recipe.
 * `y` - Opens a pane on the right side of your inventory.
-* `left ctrl` - Hold to show the NBT data of an item. 
+* `left ctrl` - Hold to show the NBT data of an item.
+  * `h` - copies the nbt data to your clipboard.
+* `n` - While viewing the essence guide, prints the essence costs to your log.
 
 Once you have made the changes you would like you can find the files located in `.minecraft\config\notenoughupdates\repo`.
 
