@@ -4,19 +4,19 @@
 <p align="center">
   <!-- lint -->
   <a href="https://github.com/Moulberry/NotEnoughUpdates-REPO/actions" target="_blank">
-    <img src="https://img.shields.io/github/workflow/status/Moulberry/NotEnoughUpdates-REPO/JSON/master?label=lint&logo=github&logoColor=FFFFFF" alt="lint">
+    <img src="https://img.shields.io/github/workflow/status/Moulberry/NotEnoughUpdates-REPO/JSON/master?label=lint&logo=github&logoColor=FFFFFF&style=for-the-badge" alt="lint">
   </a>
   <!-- license -->
   <a href="https://github.com/Moulberry/NotEnoughUpdates-REPO/blob/master/LICENSE" target="_blank">
-    <img src="https://img.shields.io/github/license/Moulberry/NotEnoughUpdates-REPO?color=success&logo=github&logoColor=FFFFFF" alt="license">
+    <img src="https://img.shields.io/github/license/Moulberry/NotEnoughUpdates-REPO?color=success&logo=github&logoColor=FFFFFF&style=for-the-badge" alt="license">
   </a>
   <!-- lines -->
   <a href="https://github.com/Moulberry/NotEnoughUpdates-REPO">
-    <img src="https://img.shields.io/tokei/lines/github/Moulberry/NotEnoughUpdates-REPO?color=success&logo=github&logoColor=FFFFFF" alt="lines">
+    <img src="https://img.shields.io/tokei/lines/github/Moulberry/NotEnoughUpdates-REPO?color=success&logo=github&logoColor=FFFFFF&style=for-the-badge" alt="lines">
   </a>
   <!-- discord -->
   <a href="https://discord.gg/moulberry" target="_blank">
-    <img src="https://img.shields.io/discord/516977525906341928?label=discord&color=success&logo=discord&logoColor=FFFFFF" alt="discord">
+    <img src="https://img.shields.io/discord/516977525906341928?label=discord&color=success&logo=discord&logoColor=FFFFFF&style=for-the-badge" alt="discord">
   </a>
 </p>
 
