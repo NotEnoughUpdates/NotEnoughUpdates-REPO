@@ -40,6 +40,7 @@ I would also highly recommend disabling auto update if you are in the middle of 
 Once you have these options enabled you can edit and add items in-game using the following keybinds:
 
 * `k` - Opens the item editor.
+  * TIP: typing 2 `&` converts into `§`
 * `o` - While in an items recipe menu, add the recipe.
 * `y` - Opens a pane on the right side of your inventory.
 * `left ctrl` - Hold to show the NBT data of an item.
