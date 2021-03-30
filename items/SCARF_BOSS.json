@@ -1,21 +1,22 @@
 {
-  "itemid": "minecraft:spawn_egg",
+  "itemid": "minecraft:skull",
   "displayname": "§6Scarf (Boss)",
-  "nbttag": "{ench:[],display:{Lore:[0:\"§7Scarf is the boss of Floor 2 of the Catacombs.\",1:\"§7He is a \u0027Apprentice Necromancer and has two\",2:\"§7phases. In the first phase he summons 4 undead survents\",3:\"§7while he hides behind a barrier. Once all 4 are\",4:\"§7defeated, the barrier comes down and you must kill him in the 2nd phase\",5:\"\",6:\"§c❤ Health§8: §c1.000.000\",7:\"\",8:\"§6§lPossible Drops:\",9:\"§9Scarf\u0027s Studies §a(1x)\",10:\"§5Adaptive Blade §a(1x)\",11:\"§9Red Scarf §a(1x)\"],Name:\"§6Scarf (Boss)\"},ExtraAttributes:{id:\"SCARF_BOSS\"}}",
-  "damage": 93,
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"8b3dcb43-f6a8-3f11-969a-88c0811bb5c\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU4OTc5MzA2ODgzOSwKICAicHJvZmlsZUlkIiA6ICIyYzEwNjRmY2Q5MTc0MjgyODRlM2JmN2ZhYTdlM2UxYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOYWVtZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83ZGU3YmJiZGYyMmJmZTE3OTgwZDRlMjA2ODdlMzg2ZjExZDU5ZWUxZGI2ZjhiNDc2MjM5MWI3OWE1YWM1MzJkIgogICAgfQogIH0KfQ\"}]}},display:{Lore:[0:\"§7Scarf is the boss of Floor 2 of the Catacombs.\",1:\"§7He is an \u0027Apprentice Necromancer and has two\",2:\"§7phases. In the first phase he summons 4 undead servants\",3:\"§7while he hides behind a barrier. Once all 4 are\",4:\"§7defeated, the barrier comes down\",5:\"§7and you must kill him in the second phase.\",6:\"\",7:\"§c❤ Health§8: §c1.000.000\",8:\"\",9:\"§6§lPossible Drops:\",10:\"§9Red Scarf §a(1x)\",11:\"§9Scarf\u0027s Studies §a(1x)\",12:\"§5Adaptive Blade §a(1x)\"],Name:\"§6Scarf (Boss)\"},ExtraAttributes:{id:\"SCARF_BOSS\"}}",
+  "damage": 3,
   "lore": [
     "§7Scarf is the boss of Floor 2 of the Catacombs.",
-    "§7He is a \u0027Apprentice Necromancer and has two",
-    "§7phases. In the first phase he summons 4 undead survents",
+    "§7He is an \u0027Apprentice Necromancer and has two",
+    "§7phases. In the first phase he summons 4 undead servants",
     "§7while he hides behind a barrier. Once all 4 are",
-    "§7defeated, the barrier comes down and you must kill him in the 2nd phase",
+    "§7defeated, the barrier comes down",
+    "§7and you must kill him in the second phase.",
     "",
     "§c❤ Health§8: §c1.000.000",
     "",
     "§6§lPossible Drops:",
+    "§9Red Scarf §a(1x)",
     "§9Scarf\u0027s Studies §a(1x)",
-    "§5Adaptive Blade §a(1x)",
-    "§9Red Scarf §a(1x)"
+    "§5Adaptive Blade §a(1x)"
   ],
   "internalname": "SCARF_BOSS",
   "clickcommand": "",
@@ -24,6 +25,5 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Scarf"
   ],
-  "entityrender": "Zombie",
   "crafttext": ""
 }
