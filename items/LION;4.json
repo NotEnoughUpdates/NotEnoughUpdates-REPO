@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§f§f§7[Lvl {LVL}] §6Lion",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"7e3ed445-3545-3c76-993b-8f292ea576c6\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzhmZjQ3M2JkNTJiNGRiMmMwNmYxYWM4N2ZlMTM2N2JjZTc1NzRmYWMzMzBmZmFjNzk1NjIyOWY4MmVmYmExIn19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§8Foraging Pet\",1:\"\",2:\"§7Strength: §a{STRENGTH}\",3:\"§7Speed: §a{SPEED}\",4:\"\",5:\"§6Primal Force\",6:\"§7§7Adds §a§c+{0}❁ Damage §7to your\",7:\"§7weapons\",8:\"\",9:\"§6First Pounce\",10:\"§7§7Increases damage dealt by\",11:\"§7§a{1}% §7on your first hit on a\",12:\"§7mob\",13:\"\",14:\"§6King of the Jungle\",15:\"§7§7Deal §c+{2}% §c❁ Damage\",16:\"§c§7against mobs below level §a80\",17:\"\",18:\"§7§eRight-click to add this pet to\",19:\"§eyour pet menu!\",20:\"\",21:\"§6§lLEGENDARY\"],Name:\"§f§f§7[Lvl {LVL}] §6Lion\"},ExtraAttributes:{petInfo:\"{\\\"type\\\":\\\"LION\\\",\\\"active\\\":false,\\\"exp\\\":0.0,\\\"tier\\\":\\\"LEGENDARY\\\",\\\"hideInfo\\\":false}\",id:\"LION;4\"},AttributeModifiers:[]}",
+  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"7e3ed445-3545-3c76-993b-8f292ea576c6\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzhmZjQ3M2JkNTJiNGRiMmMwNmYxYWM4N2ZlMTM2N2JjZTc1NzRmYWMzMzBmZmFjNzk1NjIyOWY4MmVmYmExIn19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§8Foraging Pet\",1:\"\",2:\"§7Strength: §a{STRENGTH}\",3:\"§7Speed: §a{SPEED}\",4:\"\",5:\"§6Primal Force\",6:\"§7§7Adds §a§c+{0}❁ Damage §7to your\",7:\"§7weapons\",8:\"\",9:\"§6First Pounce\",10:\"§7First Strike\",11:\"§7Triple-Strike§7, and §d§lCombo\",12:\"§7are §a{1}% §7more effective\",13:\"\",14:\"§6King of the Jungle\",15:\"§7§7Deal §c+{2}% §c❁ Damage\",16:\"§7against mobs that have\",17:\"§7attacked you.\",18:\"\",19:\"§7§eRight-click to add this pet to\",20:\"§eyour pet menu!\",21:\"\",22:\"§6§lLEGENDARY\"],Name:\"§f§f§7[Lvl {LVL}] §6Lion\"},ExtraAttributes:{petInfo:\"{\\\"type\\\":\\\"LION\\\",\\\"active\\\":false,\\\"exp\\\":0.0,\\\"tier\\\":\\\"LEGENDARY\\\",\\\"hideInfo\\\":false}\",id:\"LION;4\"},AttributeModifiers:[]}",
   "damage": 3,
   "lore": [
     "§8Foraging Pet",
@@ -14,13 +14,14 @@
     "§7weapons",
     "",
     "§6First Pounce",
-    "§7§7Increases damage dealt by",
-    "§7§a{1}% §7on your first hit on a",
-    "§7mob",
+    "§7First Strike",
+    "§7Triple-Strike§7, and §d§lCombo",
+    "§7are §a{1}% §7more effective",
     "",
     "§6King of the Jungle",
     "§7§7Deal §c+{2}% §c❁ Damage",
-    "§c§7against mobs below level §a80",
+    "§7against mobs that have",
+    "§7attacked you.",
     "",
     "§7§eRight-click to add this pet to",
     "§eyour pet menu!",
@@ -29,7 +30,7 @@
   ],
   "internalname": "LION;4",
   "clickcommand": "",
-  "modver": "REL-1.0.0",
+  "modver": "2.0.0-REL",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Lion_Pet"
