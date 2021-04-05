@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:enchanted_book",
-  "displayname": "§9Enchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Life Steal IV\",1:\"§7Heals for §a0.4%§7 of the damage\",2:\"§7you deal to mobs.\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§9§lRARE\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"ENCHANTED_BOOK\",enchantments:{life_steal:4}}}",
+  "displayname": "§fEnchanted Book",
+  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Life Steal IV\",1:\"§7Heals for §a2% §7of your max\",2:\"§7health each time you hit a mob.\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§a Bought from the Fear Mongerer for 1.5m\",8:\"§a+ 32 Purple Candy\",9:\"\",10:\"§fUNCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"LIFE_STEAL;4\",enchantments:{life_steal:4}}}",
   "damage": 0,
   "lore": [
     "§9Life Steal IV",
-    "§7Heals for §a0.4%§7 of the damage",
-    "§7you deal to mobs.",
+    "§7Heals for §a2% §7of your max",
+    "§7health each time you hit a mob.",
     "",
     "§7Use this on an item in an Anvil",
     "§7to apply it!",
@@ -14,9 +14,12 @@
     "§a Bought from the Fear Mongerer for 1.5m",
     "§a+ 32 Purple Candy",
     "",
-    "§9§lRARE"
+    "§fUNCOMMON"
   ],
   "internalname": "LIFE_STEAL;4",
   "parent": "LIFE_STEAL;2",
-  "modver": "1.0.0"
+  "modver": "2.0.0-REL",
+  "crafttext": "",
+  "clickcommand": "",
+  "infoType": ""
 }
