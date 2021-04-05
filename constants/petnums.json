@@ -1915,7 +1915,8 @@
         ],
         "statNums": {
           "SPEED": 0.0,
-          "STRENGTH": 0.0
+          "STRENGTH": 0.0,
+          "FEROCITY": 0.0
         }
       },
       "100": {
@@ -1924,7 +1925,8 @@
         ],
         "statNums": {
           "SPEED": 25.0,
-          "STRENGTH": 50.0
+          "STRENGTH": 50.0,
+          "FEROCITY": 5.0
         }
       },
       "interp": "1:60"
@@ -1933,21 +1935,23 @@
       "1": {
         "otherNums": [
           0.1,
-          0.4
+          1.0
         ],
         "statNums": {
           "SPEED": 0.0,
-          "STRENGTH": 0.0
+          "STRENGTH": 0.0,
+          "FEROCITY": 0.0
         }
       },
       "100": {
         "otherNums": [
           15,
-          40
+          100
         ],
         "statNums": {
           "SPEED": 25.0,
-          "STRENGTH": 50.0
+          "STRENGTH": 50.0,
+          "FEROCITY": 5.0
         }
       },
       "interp": "1:83"
@@ -1956,25 +1960,25 @@
       "1": {
         "otherNums": [
           0.2,
-          0.5,
-          0.3,
-          80.0
+          1.0,
+          0.1
         ],
         "statNums": {
           "SPEED": 0.0,
-          "STRENGTH": 0.0
+          "STRENGTH": 0.0,
+          "FEROCITY": 0.0
         }
       },
       "100": {
         "otherNums": [
           20,
-          50,
-          30,
-          80
+          100,
+          15
         ],
         "statNums": {
           "SPEED": 25.0,
-          "STRENGTH": 50.0
+          "STRENGTH": 50.0,
+          "FEROCITY": 5.0
         }
       },
       "interp": "1:86"
@@ -1983,21 +1987,23 @@
       "1": {
         "otherNums": [
           0.1,
-          0.3
+          0.8
         ],
         "statNums": {
           "SPEED": 0.0,
-          "STRENGTH": 0.0
+          "STRENGTH": 0.0,
+          "FEROCITY": 0.0
         }
       },
       "100": {
         "otherNums": [
           10,
-          30
+          75
         ],
         "statNums": {
           "SPEED": 25.0,
-          "STRENGTH": 50.0
+          "STRENGTH": 50.0,
+          "FEROCITY": 5.0
         }
       },
       "interp": "1:62"
@@ -2009,7 +2015,8 @@
         ],
         "statNums": {
           "SPEED": 0.0,
-          "STRENGTH": 0.0
+          "STRENGTH": 0.0,
+          "FEROCITY": 0.0
         }
       },
       "100": {
@@ -2018,7 +2025,8 @@
         ],
         "statNums": {
           "SPEED": 25.0,
-          "STRENGTH": 50.0
+          "STRENGTH": 50.0,
+          "FEROCITY": 5.0
         }
       },
       "interp": "1:69"
@@ -3491,8 +3499,7 @@
     "EPIC": {
       "1": {
         "otherNums": [
-          10.0,
-          5.0
+          5.5
         ],
         "statNums": {
           "INTELLIGENCE": 1.0,
@@ -3501,8 +3508,7 @@
       },
       "100": {
         "otherNums": [
-          10,
-          5
+          50
         ],
         "statNums": {
           "INTELLIGENCE": 100.0,
@@ -3514,8 +3520,6 @@
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          10.0,
-          5.0,
           5.5
         ],
         "statNums": {
@@ -3525,8 +3529,6 @@
       },
       "100": {
         "otherNums": [
-          10,
-          5,
           50
         ],
         "statNums": {
@@ -3716,7 +3718,7 @@
     "COMMON": {
       "1": {
         "otherNums": [
-          0.2
+          0.1
         ],
         "statNums": {
           "FEROCITY": 0.0,
@@ -3727,10 +3729,10 @@
       },
       "100": {
         "otherNums": [
-          20
+          15
         ],
         "statNums": {
-          "FEROCITY": 10.0,
+          "FEROCITY": 25.0,
           "CRIT_CHANCE": 5.0,
           "CRIT_DAMAGE": 50.0,
           "STRENGTH": 15.0
@@ -3741,7 +3743,7 @@
     "EPIC": {
       "1": {
         "otherNums": [
-          1.0,
+          0.5,
           0.6,
           10.0
         ],
@@ -3754,12 +3756,12 @@
       },
       "100": {
         "otherNums": [
-          100,
+          50,
           55,
           10
         ],
         "statNums": {
-          "FEROCITY": 10.0,
+          "FEROCITY": 25.0,
           "CRIT_CHANCE": 5.0,
           "CRIT_DAMAGE": 50.0,
           "STRENGTH": 15.0
@@ -3770,7 +3772,7 @@
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          1.0,
+          0.5,
           0.6,
           10.0,
           0.2,
@@ -3785,14 +3787,14 @@
       },
       "100": {
         "otherNums": [
-          100,
+          50,
           55,
           10,
           20,
           15
         ],
         "statNums": {
-          "FEROCITY": 10.0,
+          "FEROCITY": 25.0,
           "CRIT_CHANCE": 5.0,
           "CRIT_DAMAGE": 50.0,
           "STRENGTH": 15.0
@@ -3803,7 +3805,7 @@
     "RARE": {
       "1": {
         "otherNums": [
-          0.5,
+          0.3,
           0.3,
           10.0
         ],
@@ -3816,12 +3818,12 @@
       },
       "100": {
         "otherNums": [
-          50,
+          33,
           30,
           10
         ],
         "statNums": {
-          "FEROCITY": 10.0,
+          "FEROCITY": 25.0,
           "CRIT_CHANCE": 5.0,
           "CRIT_DAMAGE": 50.0,
           "STRENGTH": 15.0
@@ -3832,7 +3834,7 @@
     "UNCOMMON": {
       "1": {
         "otherNums": [
-          0.5
+          0.3
         ],
         "statNums": {
           "FEROCITY": 0.0,
@@ -3843,10 +3845,10 @@
       },
       "100": {
         "otherNums": [
-          50
+          33
         ],
         "statNums": {
-          "FEROCITY": 10.0,
+          "FEROCITY": 25.0,
           "CRIT_CHANCE": 5.0,
           "CRIT_DAMAGE": 50.0,
           "STRENGTH": 15.0
