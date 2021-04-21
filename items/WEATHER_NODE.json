@@ -1,0 +1,32 @@
+{
+  "itemid": "minecraft:lapis_block",
+  "displayname": "§aWeather Node",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Place it down and click it to\",1:\"§7change the weather on your\",2:\"§7island.\",3:\"\",4:\"§7The node will remember your\",5:\"§7choice!\",6:\"\",7:\"§a§lUNCOMMON\"],Name:\"§aWeather Node\"},ExtraAttributes:{id:\"WEATHER_NODE\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Place it down and click it to",
+    "§7change the weather on your",
+    "§7island.",
+    "",
+    "§7The node will remember your",
+    "§7choice!",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_REDSTONE:1",
+    "A2": "ENCHANTED_REDSTONE:1",
+    "A3": "ENCHANTED_REDSTONE:1",
+    "B1": "ENCHANTED_REDSTONE:1",
+    "B2": "LAPIS_BLOCK:1",
+    "B3": "ENCHANTED_REDSTONE:1",
+    "C1": "ENCHANTED_REDSTONE:1",
+    "C2": "ENCHANTED_REDSTONE:1",
+    "C3": "ENCHANTED_REDSTONE:1"
+  },
+  "internalname": "WEATHER_NODE",
+  "crafttext": "Requires Prismarine Shard VI",
+  "clickcommand": "viewrecipe",
+  "modver": "2.0.0-REL",
+  "infoType": ""
+}
