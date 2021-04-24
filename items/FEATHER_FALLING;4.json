@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§fEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Feather Falling IV\",1:\"§7Increases how high you can fall\",2:\"§7before taking fall damage by\",3:\"§7§a4§7 and reduces fall damage by\",4:\"§7§a20%§7.\",5:\"\",6:\"§7Use this on an item in an Anvil\",7:\"§7to apply it!\",8:\"\",9:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"ENCHANTED_BOOK\",enchantments:{feather_falling:4}}}",
+  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Feather Falling IV\",1:\"§7Increases how high you can fall\",2:\"§7before taking fall damage by\",3:\"§7§a4§7 and reduces fall damage by\",4:\"§7§a20%§7.\",5:\"\",6:\"§7Use this on an item in an Anvil\",7:\"§7to apply it!\",8:\"\",9:\"§6Source:\",10:\"§aI-V: §7Enchantment Table,\",11:\"§7Feather Collection\",12:\"\",13:\"§6Applied To:\",14:\"§7- §fBoots\",15:\"\",16:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"FEATHER_FALLING;4\",enchantments:{feather_falling:4}}}",
   "damage": 0,
   "lore": [
     "§9Feather Falling IV",
@@ -12,6 +12,13 @@
     "",
     "§7Use this on an item in an Anvil",
     "§7to apply it!",
+    "",
+    "§6Source:",
+    "§aI-V: §7Enchantment Table,",
+    "§7Feather Collection",
+    "",
+    "§6Applied To:",
+    "§7- §fBoots",
     "",
     "§f§lCOMMON"
   ],
@@ -28,6 +35,7 @@
   },
   "internalname": "FEATHER_FALLING;4",
   "clickcommand": "viewrecipe",
-  "modver": "1.0.0",
-  "crafttext": "Requires: Feather II"
+  "modver": "2.0.0-REL",
+  "crafttext": "Requires: Feather II",
+  "infoType": ""
 }
