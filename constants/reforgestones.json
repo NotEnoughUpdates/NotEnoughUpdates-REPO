@@ -795,6 +795,54 @@
       }
     }
   },
+  "LUCKY_DICE":{
+    "internalName":"LUCKY_DICE",
+    "reforgeName":"Lucky",
+    "reforgeType":"blacksmith/reforge_stone",
+    "itemTypes":"ROD",
+    "requiredRarities":[
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts":{
+      "COMMON":20000,
+      "UNCOMMON":40000,
+      "RARE":80000,
+      "EPIC":150000,
+      "LEGENDARY":300000,
+      "MYTHIC":60000
+    },
+    "reforgeStats":{
+      "COMMON":{
+        "sea_creature_chance":1,
+        "magic_find":1
+      },
+      "UNCOMMON":{
+        "sea_creature_chance":2,
+        "magic_find":2
+      },
+      "RARE":{
+        "sea_creature_chance":2,
+        "magic_find":3
+      },
+      "EPIC":{
+        "sea_creature_chance":3,
+        "magic_find":4
+      },
+      "LEGENDARY":{
+        "sea_creature_chance":5,
+        "magic_find":5
+      },
+      "MYTHIC":{
+        "sea_creature_chance":7,
+        "magic_find":6
+      }
+    }
+  },
   "MIDAS_JEWEL":{
     "internalName":"MIDAS_JEWEL",
     "reforgeName":"Gilded",
