@@ -676,6 +676,54 @@
       }
     }
   },
+  "HARDENED_WOOD":{
+    "internalName":"HARDENED_WOOD",
+    "reforgeName":"Stiff",
+    "reforgeType":"blacksmith/reforge_stone",
+    "itemTypes":"ROD",
+    "requiredRarities":[
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts":{
+      "COMMON":4000,
+      "UNCOMMON":7500,
+      "RARE":15000,
+      "EPIC":40000,
+      "LEGENDARY":75000,
+      "MYTHIC":150000
+    },
+    "reforgeStats":{
+      "COMMON":{
+        "sea_creature_chance":1,
+        "strength":2
+      },
+      "UNCOMMON":{
+        "sea_creature_chance":2,
+        "strength":4
+      },
+      "RARE":{
+        "sea_creature_chance":2,
+        "strength":6
+      },
+      "EPIC":{
+        "sea_creature_chance":3,
+        "strength":8
+      },
+      "LEGENDARY":{
+        "sea_creature_chance":5,
+        "strength":10
+      },
+      "MYTHIC":{
+        "sea_creature_chance":7,
+        "strength":12
+      }
+    }
+  },
   "JERRY_STONE":{
     "internalName":"JERRY_STONE",
     "reforgeName":"Jerry's",
