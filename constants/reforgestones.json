@@ -109,6 +109,54 @@
       }
     }
   },
+  "BULKY_STONE":{
+    "internalName":"BULKY_STONE",
+    "reforgeName":"Bulky",
+    "reforgeType":"blacksmith/reforge_stone",
+    "itemTypes":"SWORD",
+    "requiredRarities":[
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts":{
+      "COMMON":20000,
+      "UNCOMMON":40000,
+      "RARE":80000,
+      "EPIC":150000,
+      "LEGENDARY":300000,
+      "MYTHIC":600000
+    },
+    "reforgeStats":{
+      "COMMON":{
+        "health":4,
+        "defense":2
+      },
+      "UNCOMMON":{
+        "health":6,
+        "defense":3
+      },
+      "RARE":{
+        "health":9,
+        "defense":5
+      },
+      "EPIC":{
+        "health":12,
+        "defense":8
+      },
+      "LEGENDARY":{
+        "health":15,
+        "defense":13
+      },
+      "MYTHIC":{
+        "health":20,
+        "defense":21
+      }
+    }
+  },
   "CANDY_CORN":{
     "internalName":"CANDY_CORN",
     "reforgeName":"Candied",
