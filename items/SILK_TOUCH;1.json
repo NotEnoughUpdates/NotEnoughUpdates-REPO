@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§fEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Silk Touch I\",1:\"§7Allows you to collect normally\",2:\"§7unobtainable block drops.\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"ENCHANTED_BOOK\",enchantments:{silk_touch:1}}}",
+  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Silk Touch I\",1:\"§7Allows you to collect normally\",2:\"§7unobtainable block drops.\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§6Source:\",8:\"§aI: §7Enchantment Table,\",9:\"§7String Collection\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fTools\",13:\"\",14:\"§6Conflicts:\",15:\"§7- §cFortune\",16:\"§7- §cSmelting Touch\",17:\"\",18:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"SILK_TOUCH;1\",enchantments:{silk_touch:1}}}",
   "damage": 0,
   "lore": [
     "§9Silk Touch I",
@@ -10,6 +10,17 @@
     "",
     "§7Use this on an item in an Anvil",
     "§7to apply it!",
+    "",
+    "§6Source:",
+    "§aI: §7Enchantment Table,",
+    "§7String Collection",
+    "",
+    "§6Applied To:",
+    "§7- §fTools",
+    "",
+    "§6Conflicts:",
+    "§7- §cFortune",
+    "§7- §cSmelting Touch",
     "",
     "§f§lCOMMON"
   ],
@@ -26,5 +37,7 @@
   },
   "internalname": "SILK_TOUCH;1",
   "clickcommand": "viewrecipe",
-  "modver": "1.0.0"
+  "modver": "2.0.0-REL",
+  "crafttext": "",
+  "infoType": ""
 }

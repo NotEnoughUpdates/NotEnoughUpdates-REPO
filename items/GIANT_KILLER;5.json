@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§f§f§aEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Giant Killer V\",1:\"§7Increases damage dealt by §a0.5%\",2:\"§a§7for each percent of extra\",3:\"§7health that your target has\",4:\"§7above you up to 25.\",5:\"\",6:\"§7Use this on an item in an Anvil\",7:\"§7to apply it!\",8:\"\",9:\"§a§lUNCOMMON\"],Name:\"§f§f§aEnchanted Book\"},ExtraAttributes:{id:\"ENCHANTED_BOOK\",enchantments:{giant_killer:5}}}",
+  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Giant Killer V\",1:\"§7Increases damage dealt by §a0.5%\",2:\"§a§7for each percent of extra\",3:\"§7health that your target has\",4:\"§7above you up to 25.\",5:\"\",6:\"§7Use this on an item in an Anvil\",7:\"§7to apply it!\",8:\"\",9:\"§6Source:\",10:\"§aI-V: §7Enchantment Table,\",11:\"§7Ghast Tear Collection\",12:\"\",13:\"§6Applied To:\",14:\"§7- §fSword\",15:\"§7- §fFishing Weapon\",16:\"\",17:\"§6Conflicts:\",18:\"§7- §cTitan Killer\",19:\"\",20:\"§a§lUNCOMMON\"],Name:\"§f§f§aEnchanted Book\"},ExtraAttributes:{id:\"GIANT_KILLER;5\",enchantments:{giant_killer:5}}}",
   "damage": 0,
   "lore": [
     "§9Giant Killer V",
@@ -13,12 +13,23 @@
     "§7Use this on an item in an Anvil",
     "§7to apply it!",
     "",
+    "§6Source:",
+    "§aI-V: §7Enchantment Table,",
+    "§7Ghast Tear Collection",
+    "",
+    "§6Applied To:",
+    "§7- §fSword",
+    "§7- §fFishing Weapon",
+    "",
+    "§6Conflicts:",
+    "§7- §cTitan Killer",
+    "",
     "§a§lUNCOMMON"
   ],
   "internalname": "GIANT_KILLER;5",
   "parent": "GIANT_KILLER;4",
   "crafttext": "",
   "clickcommand": "",
-  "modver": "1.4-REL",
+  "modver": "2.0.0-REL",
   "infoType": ""
 }

@@ -109,6 +109,104 @@
       }
     }
   },
+  "BULKY_STONE":{
+    "internalName":"BULKY_STONE",
+    "reforgeName":"Bulky",
+    "reforgeType":"blacksmith/reforge_stone",
+    "itemTypes":"SWORD",
+    "requiredRarities":[
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts":{
+      "COMMON":20000,
+      "UNCOMMON":40000,
+      "RARE":80000,
+      "EPIC":150000,
+      "LEGENDARY":300000,
+      "MYTHIC":600000
+    },
+    "reforgeStats":{
+      "COMMON":{
+        "health":4,
+        "defense":2
+      },
+      "UNCOMMON":{
+        "health":6,
+        "defense":3
+      },
+      "RARE":{
+        "health":9,
+        "defense":5
+      },
+      "EPIC":{
+        "health":12,
+        "defense":8
+      },
+      "LEGENDARY":{
+        "health":15,
+        "defense":13
+      },
+      "MYTHIC":{
+        "health":20,
+        "defense":21
+      }
+    }
+  },
+  "GOLDEN_BALL":{
+    "internalName":"GOLDEN_BALL",
+    "reforgeName":"Bountiful",
+    "reforgeType":"blacksmith/reforge_stone",
+    "itemTypes":"HOE",
+    "requiredRarities":[
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts":{
+      "COMMON":20000,
+      "UNCOMMON":40000,
+      "RARE":80000,
+      "EPIC":150000,
+      "LEGENDARY":300000,
+      "MYTHIC":600000
+    },
+    "reforgeAbility":{
+      "COMMON":"§7Grants §a+1 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. §7Grants §a+0.2 §7Coins on crop break.",
+      "UNCOMMON":"§7Grants §a+2 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. §7Grants §a+0.2 §7Coins on crop break.",
+      "RARE":"§7Grants §a+3 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. §7Grants §a+0.2 §7Coins on crop break.",
+      "EPIC":"§7Grants §a+5 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. §7Grants §a+0.2 §7Coins on crop break.",
+      "LEGENDARY":"§7Grants §a+7 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. §7Grants §a+0.2 §7Coins on crop break.",
+      "MYTHIC":"§7Grants §a+10 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. §7Grants §a+0.2 §7Coins on crop break."
+    },
+    "reforgeStats":{
+      "COMMON":{
+        "speed":1
+      },
+      "UNCOMMON":{
+        "speed":2
+      },
+      "RARE":{
+        "speed":3
+      },
+      "EPIC":{
+        "speed":5
+      },
+      "LEGENDARY":{
+        "speed":8
+      },
+      "MYTHIC":{
+        "speed":13
+      }
+    }
+  },
   "CANDY_CORN":{
     "internalName":"CANDY_CORN",
     "reforgeName":"Candied",
@@ -586,10 +684,10 @@
       "MYTHIC"
     ],
     "reforgeCosts":{
-      "COMMON":100000,
-      "UNCOMMON":100000,
-      "RARE":100000,
-      "EPIC":100000,
+      "COMMON":5000,
+      "UNCOMMON":10000,
+      "RARE":20000,
+      "EPIC":50000,
       "LEGENDARY":100000,
       "MYTHIC":200000
     },
@@ -673,6 +771,54 @@
       },
       "MYTHIC":{
         "health":240
+      }
+    }
+  },
+  "HARDENED_WOOD":{
+    "internalName":"HARDENED_WOOD",
+    "reforgeName":"Stiff",
+    "reforgeType":"blacksmith/reforge_stone",
+    "itemTypes":"ROD",
+    "requiredRarities":[
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts":{
+      "COMMON":4000,
+      "UNCOMMON":7500,
+      "RARE":15000,
+      "EPIC":40000,
+      "LEGENDARY":75000,
+      "MYTHIC":150000
+    },
+    "reforgeStats":{
+      "COMMON":{
+        "sea_creature_chance":1,
+        "strength":2
+      },
+      "UNCOMMON":{
+        "sea_creature_chance":2,
+        "strength":4
+      },
+      "RARE":{
+        "sea_creature_chance":2,
+        "strength":6
+      },
+      "EPIC":{
+        "sea_creature_chance":3,
+        "strength":8
+      },
+      "LEGENDARY":{
+        "sea_creature_chance":5,
+        "strength":10
+      },
+      "MYTHIC":{
+        "sea_creature_chance":7,
+        "strength":12
       }
     }
   },
@@ -792,6 +938,54 @@
       },
       "MYTHIC":{
         "crit_damage":20
+      }
+    }
+  },
+  "LUCKY_DICE":{
+    "internalName":"LUCKY_DICE",
+    "reforgeName":"Lucky",
+    "reforgeType":"blacksmith/reforge_stone",
+    "itemTypes":"ROD",
+    "requiredRarities":[
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts":{
+      "COMMON":20000,
+      "UNCOMMON":40000,
+      "RARE":80000,
+      "EPIC":150000,
+      "LEGENDARY":300000,
+      "MYTHIC":600000
+    },
+    "reforgeStats":{
+      "COMMON":{
+        "sea_creature_chance":1,
+        "magic_find":1
+      },
+      "UNCOMMON":{
+        "sea_creature_chance":2,
+        "magic_find":2
+      },
+      "RARE":{
+        "sea_creature_chance":2,
+        "magic_find":3
+      },
+      "EPIC":{
+        "sea_creature_chance":3,
+        "magic_find":4
+      },
+      "LEGENDARY":{
+        "sea_creature_chance":5,
+        "magic_find":5
+      },
+      "MYTHIC":{
+        "sea_creature_chance":7,
+        "magic_find":6
       }
     }
   },
