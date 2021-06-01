@@ -43,10 +43,10 @@ Once you have these options enabled you can edit and add items in-game using the
   * TIP: typing 2 `&` converts into `§`
 * `o` - While in an items recipe menu, add the recipe.
 * `y` - Opens a pane on the right side of your inventory.
-* `left ctrl` - Hold to show the NBT data of an item.
-  * `h` - copies the nbt data to your clipboard.
+* left `ctrl` - Hold to show the NBT data of an item.
+  * left `ctrl`+`h` - copies the nbt data to your clipboard.
 * `n` - While viewing the essence guide, prints the essence costs to your log.
 
 Once you have made the changes you would like you can find the files located in `.minecraft\config\notenoughupdates\repo`.
 
-If you need further help on how to contribute feel free to join the [discord](https://discord.gg/moulberry) or contact `IRONM00N#0001`.
+If you need further help on how to contribute feel free to join the [discord](https://discord.gg/moulberry) or contact `IRONM00N#0001` on discord.
