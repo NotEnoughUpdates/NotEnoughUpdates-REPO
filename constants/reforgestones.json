@@ -1954,11 +1954,13 @@
     "itemTypes":"SWORD",
     "requiredRarities":[
       "RARE",
-      "EPIC"
+      "EPIC",
+      "LEGENDARY"
     ],
     "reforgeCosts":{
       "RARE":5000000,
-      "EPIC":10000000
+      "EPIC":10000000,
+      "LEGENDARY": 20000000
     },
     "reforgeStats":{
       "RARE":{
@@ -1966,6 +1968,10 @@
         "strength":165
       },
       "EPIC":{
+        "damage":165,
+        "strength":165
+      },
+      "LEGENDARY":{
         "damage":165,
         "strength":165
       }
