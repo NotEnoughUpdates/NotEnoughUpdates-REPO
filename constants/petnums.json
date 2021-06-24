@@ -942,6 +942,31 @@
       },
       "interp": "1:100"
     },
+    "MYTHIC": {
+      "1": {
+        "otherNums": [
+          0.3,
+          0.5,
+          0.2,
+          0.4
+        ],
+        "statNums": {
+          "CRIT_DAMAGE": 0.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          30,
+          50,
+          25,
+          40
+        ],
+        "statNums": {
+          "CRIT_DAMAGE": 75.0
+        }
+      },
+      "interp": "1:100"
+    },
     "RARE": {
       "1": {
         "otherNums": [
@@ -2073,7 +2098,7 @@
         "otherNums": [
           0.3,
           0.2,
-          1.0
+          0.5
         ],
         "statNums": {
           "DEFENSE": 0.0,
@@ -2085,7 +2110,7 @@
         "otherNums": [
           30,
           25,
-          100
+          50
         ],
         "statNums": {
           "DEFENSE": 30.0,

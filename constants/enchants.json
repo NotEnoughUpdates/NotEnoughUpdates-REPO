@@ -18,7 +18,8 @@
       "life_steal",
       "looting",
       "luck",
-      "prosecute",
+      "mana_steal",
+      "PROSECUTE",
       "scavenger",
       "sharpness",
       "smite",
@@ -78,6 +79,15 @@
       "smelting_touch",
       "telekinesis"
     ],
+    "DRILL": [
+      "compact",
+      "efficiency",
+      "experience",
+      "fortune",
+      "silk_touch",
+      "smelting_touch",
+      "telekinesis"
+    ],
     "FISHING ROD": [
       "angler",
       "blessing",
@@ -90,6 +100,55 @@
       "magnet",
       "spiked_hook",
       "telekinesis"
+    ],
+    "FISHING WEAPON": [
+      "angler",
+      "blessing",
+      "caster",
+      "expertise",
+      "frail",
+      "looting",
+      "luck_of_the_sea",
+      "lure",
+      "magnet",
+      "spiked_hook",
+      "telekinesis",
+      "bane_of_arthropods",
+      "cleave",
+      "critical",
+      "cubism",
+      "dragon_hunter",
+      "ender_slayer",
+      "execute",
+      "experience",
+      "fire_aspect",
+      "first_strike",
+      "giant_killer",
+      "impaling",
+      "knockback",
+      "lethality",
+      "life_steal",
+      "looting",
+      "luck",
+      "mana_steal",
+      "PROSECUTE",
+      "scavenger",
+      "sharpness",
+      "smite",
+      "syphon",
+      "titan_killer",
+      "thunderlord",
+      "thunderbolt",
+      "triple_strike",
+      "vampirism",
+      "venomous",
+      "vicious",
+      "ultimate_one_for_all",
+      "ultimate_soul_eater",
+      "ultimate_chimera",
+      "ultimate_combo",
+      "ultimate_swarm",
+      "ultimate_wise"
     ],
     "SHOVEL": [
       "efficiency",
@@ -152,6 +211,7 @@
       "growth",
       "rejuvenate",
       "respite",
+      "smarty_pants",
       "thorns",
       "ultimate_bank",
       "ultimate_last_stand",
@@ -214,10 +274,11 @@
       "thunderbolt"
     ], [
       "syphon",
-      "life_steal"
+      "life_steal",
+      "mana_steal"
     ], [
       "execute",
-      "prosecute"
+      "PROSECUTE"
     ], [
       "depth_strider",
       "frost_walker"
@@ -280,7 +341,10 @@
       "luck"
     ], [
       "ultimate_one_for_all",
-      "prosecute"
+      "mana_steal"
+    ], [
+      "ultimate_one_for_all",
+      "PROSECUTE"
     ], [
       "ultimate_one_for_all",
       "scavenger"
@@ -335,7 +399,7 @@
     "critical": 5,
     "ender_slayer": 5,
     "execute": 5,
-    "prosecute": 5,
+    "PROSECUTE": 5,
     "fire_aspect": 2,
     "first_strike": 4,
     "triple-strike": 5,
@@ -421,5 +485,365 @@
     "ultimate_no_pain_no_gain": 5,
     "ultimate_wisdom": 5,
     "cultivating": 10
-  }
+  },
+  "enchants_xp_cost": {
+    "sharpness": [
+        10,
+        15,
+        20,
+        25,
+        30
+    ],
+    "smite": [
+        10,
+        15,
+        20,
+        25,
+        30
+    ],
+    "bane_of_arthropods": [
+        10,
+        15,
+        20,
+        25,
+        30
+    ],
+    "telekinesis": [
+        5
+    ],
+    "knockback": [
+        15,
+        30
+    ],
+    "fire_aspect": [
+        15,
+        30
+    ],
+    "experience": [
+        15,
+        30,
+        45
+    ],
+    "looting": [
+        15,
+        30,
+        45
+    ],
+    "scavenger": [
+        10,
+        20,
+        30
+    ],
+    "luck": [
+        10,
+        20,
+        30,
+        40,
+        50
+    ],
+    "cubism": [
+        10,
+        20,
+        30,
+        40,
+        50
+    ],
+    "cleave": [
+        10,
+        20,
+        30,
+        40,
+        50
+    ],
+    "life_steal": [
+        20,
+        25,
+        30
+    ],
+    "giant_killer": [
+        10,
+        20,
+        30,
+        40,
+        50
+    ],
+    "critical": [
+        10,
+        20,
+        30,
+        40,
+        50
+    ],
+    "first_strike": [
+        20,
+        30,
+        40,
+        75
+    ],
+    "ender_slayer": [
+        10,
+        15,
+        20,
+        25,
+        30
+    ],
+    "impaling": [
+        30,
+        40,
+        50
+    ],
+    "execute": [
+        20,
+        25,
+        30,
+        40,
+        50
+    ],
+    "thunderlord": [
+        20,
+        25,
+        30,
+        40,
+        50
+    ],
+    "lethality": [
+        20,
+        25,
+        30,
+        40,
+        50
+    ],
+    "syphon": [
+        20,
+        25,
+        30
+    ],
+    "vampirism": [
+        20,
+        25,
+        30,
+        40,
+        50
+    ],
+    "venomous": [
+        20,
+        25,
+        30,
+        40,
+        50
+    ],
+    "triple_strike": [
+        20,
+        30,
+        40,
+        75
+    ],
+    "thunderbolt": [
+        20,
+        25,
+        30,
+        40,
+        50
+    ],
+    "PROSECUTE": [
+        20,
+        25,
+        30,
+        40,
+        50
+    ],
+    "titan_killer": [
+        10,
+        20,
+        30,
+        40,
+        50
+    ],
+    "power": [
+        10,
+        20,
+        30,
+        40,
+        50
+    ],
+    "punch": [
+        15,
+        30
+    ],
+    "flame": [
+        25
+    ],
+    "infinite_quiver": [
+        10,
+        15,
+        20,
+        25,
+        30
+    ],
+    "snipe": [
+        20,
+        25,
+        30
+    ],
+    "aiming": [
+        10,
+        20,
+        30,
+        40,
+        50
+    ],
+    "chance": [
+        15,
+        30,
+        45
+    ],
+    "piercing": [
+        30
+    ],
+    "efficiency": [
+        10,
+        15,
+        20,
+        25,
+        30
+    ],
+    "smelting_touch": [
+        5
+    ],
+    "silk_touch": [
+        10
+    ],
+    "fortune": [
+        15,
+        30,
+        45
+    ],
+    "lure": [
+        10,
+        15,
+        20,
+        25,
+        30
+    ],
+    "luck_of_the_sea": [
+        10,
+        15,
+        20,
+        25,
+        30
+    ],
+    "angler": [
+        10,
+        20,
+        30,
+        40,
+        50
+    ],
+    "blessing": [
+        10,
+        20,
+        30,
+        40,
+        50
+    ],
+    "magnet": [
+        20,
+        25,
+        30,
+        40,
+        50
+    ],
+    "frail": [
+        20,
+        25,
+        30,
+        40,
+        50
+    ],
+    "caster": [
+        20,
+        25,
+        30,
+        40,
+        50
+    ],
+    "spiked_hook": [
+        10,
+        20,
+        30,
+        40,
+        50
+    ],
+    "harvesting": [
+        5,
+        10,
+        15,
+        20,
+        25
+    ],
+    "projectile_protection": [
+        10,
+        15,
+        20,
+        25,
+        30
+    ],
+    "protection": [
+        10,
+        15,
+        20,
+        25,
+        30
+    ],
+    "blast_protection": [
+        10,
+        15,
+        20,
+        25,
+        30
+    ],
+    "fire_protection": [
+        10,
+        15,
+        20,
+        25,
+        30
+    ],
+    "respiration": [
+        10,
+        20,
+        30
+    ],
+    "aqua_affinity": [
+        15
+    ],
+    "thorns": [
+        15,
+        30,
+        45
+    ],
+    "growth": [
+        10,
+        20,
+        30,
+        40,
+        50
+    ],
+    "feather_falling": [
+        10,
+        15,
+        20,
+        25,
+        30
+    ],
+    "frost_walker": [
+        10,
+        20
+    ],
+    "depth_strider": [
+        10,
+        20,
+        30
+    ]
+ }
 }
