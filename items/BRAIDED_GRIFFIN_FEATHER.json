@@ -1,11 +1,22 @@
 {
   "itemid": "minecraft:string",
-  "displayname": "§f§f§5Braided Grffin Feather",
-  "nbttag": "{ench:[],overrideMeta:1b,HideFlags:254,display:{Lore:[0:\"§5§lEPIC\"],Name:\"§f§f§5Braided Grffin Feather\"},ExtraAttributes:{id:\"BRAIDED_GRIFFIN_FEATHER\"},AttributeModifiers:[]}",
+  "displayname": "§f§f§5Braided Griffin Feather",
+  "nbttag": "{ench:[],overrideMeta:1b,HideFlags:254,display:{Lore:[0:\"§5§lEPIC\"],Name:\"§f§f§5Braided Griffin Feather\"},ExtraAttributes:{id:\"BRAIDED_GRIFFIN_FEATHER\"},AttributeModifiers:[]}",
   "damage": 0,
   "lore": [
     "§5§lEPIC"
   ],
+  "recipe": {
+    "A1": "GRIFFIN_FEATHER:32",
+    "A2": "SOUL_STRING:64",
+    "A3": "GRIFFIN_FEATHER:32",
+    "B1": "SOUL_STRING:64",
+    "B2": "GRIFFIN_FEATHER:32",
+    "B3": "SOUL_STRING:64",
+    "C1": "GRIFFIN_FEATHER:32",
+    "C2": "SOUL_STRING:64",
+    "C3": "GRIFFIN_FEATHER:32"
+  },
   "internalname": "BRAIDED_GRIFFIN_FEATHER",
   "crafttext": "",
   "clickcommand": "viewrecipe",
