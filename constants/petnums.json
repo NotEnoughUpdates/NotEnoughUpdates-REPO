@@ -1,6 +1,6 @@
 {
   "GOLDEN_DRAGON": {
-    "COMMON": {
+    "LEGENDARY": {
 	  "1": {
 	    "otherNums": [
 		  
@@ -63,6 +63,25 @@
 	   },
       "interp": "1:100"
 	},
+	"UNCOMMON": {
+	  "1": {
+	    "otherNums": [
+		  
+		],
+		"statNums": {
+		  "DEFENSE": 2.0
+		  }
+		},
+		"100": {
+		  "otherNums": [
+		   
+		  ],
+		  "statNums": {
+		    "DEFENSE": 200
+		}
+	   },
+      "interp": "1:100"
+	},
 	"RARE": {
 	  "1": {
 	    "otherNums": [
@@ -94,6 +113,27 @@
 		"100": {
 		  "otherNums": [
 		    30.0
+		  ],
+		  "statNums": {
+		    "DEFENSE": 200
+		}
+	   },
+      "interp": "1:100"
+	},
+	"LEGENDARY": {
+	  "1": {
+	    "otherNums": [
+		  57.9,
+		  99.5
+		],
+		"statNums": {
+		  "DEFENSE": 2.0
+		  }
+		},
+		"100": {
+		  "otherNums": [
+		    30.0,
+			50
 		  ],
 		  "statNums": {
 		    "DEFENSE": 200
