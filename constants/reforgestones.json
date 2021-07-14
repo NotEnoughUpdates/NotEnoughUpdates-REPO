@@ -822,6 +822,38 @@
       }
     }
   },
+  "HOT_STUFF":{
+    "internalName":"HOT_STUFF",
+    "reforgeName":"Heated",
+    "reforgeType":"blacksmith/reforge_stone",
+    "itemTypes":"PICKAXE",
+    "requiredRarities":[
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY"
+    ],
+    "reforgeCosts":{
+      "COMMON":20000,
+      "UNCOMMON":40000,
+      "RARE":80000,
+      "EPIC":150000,
+      "LEGENDARY":300000
+    },
+	"reforgeStats":{
+      "COMMON":{
+        "mining_speed":1
+      }
+	  },
+    "reforgeAbility":{
+      "COMMON":"§7Grants §aincreased §6⸕ Mining §6Speed §7the deeper the you §7venture.",
+      "UNCOMMON":"§7Grants §aincreased §6⸕ Mining §6Speed §7the deeper the you §7venture.",
+      "RARE":"§7Grants §aincreased §6⸕ Mining §6Speed §7the deeper the you §7venture.",
+      "EPIC":"§7Grants §aincreased §6⸕ Mining §6Speed §7the deeper the you §7venture.",
+      "LEGENDARY":"§7Grants §aincreased §6⸕ Mining §6Speed §7the deeper the you §7venture."
+    }
+	},
   "JERRY_STONE":{
     "internalName":"JERRY_STONE",
     "reforgeName":"Jerry's",
