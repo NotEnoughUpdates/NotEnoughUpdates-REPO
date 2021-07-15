@@ -39,10 +39,54 @@
 		  "FEROCITY": 10.0,
 		  "STRENGTH": 25.0
 		}
-	   },
+	    },
       "interp": "1:100"
-	}
-},
+	  },
+    "EPIC": {
+      "1": {
+        "otherNums": [
+        0.1
+       ],
+      "statNums": {
+        "FEROCITY": 0.0,
+        "STRENGTH": 0.0
+        }
+      },
+      "100": {
+        "otherNums": [
+        10.0
+        ],
+        "statNums": {
+        "FEROCITY": 10.0,
+        "STRENGTH": 25.0
+      }
+        },
+        "interp": "1:100"
+     },
+     "LEGENDARY": {
+      "1": {
+        "otherNums": [
+        0.1,
+        0.1
+       ],
+      "statNums": {
+        "FEROCITY": 0.0,
+        "STRENGTH": 0.0
+        }
+      },
+      "100": {
+        "otherNums": [
+        10.0,
+        15.0
+        ],
+        "statNums": {
+        "FEROCITY": 10.0,
+        "STRENGTH": 25.0
+      }
+        },
+        "interp": "1:100"
+    }
+  },
   "ARMADILLO": {
     "COMMON": {
 	  "1": {
