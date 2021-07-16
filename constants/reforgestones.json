@@ -887,6 +887,54 @@
       }
     }
   },
+  "JADERALD":{
+    "internalName":"JADERALD",
+    "reforgeName":"Jaded",
+    "reforgeType":"blacksmith/reforge_stone",
+    "itemTypes":"ARMOR",
+    "requiredRarities":[
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts":{
+      "COMMON":20000,
+      "UNCOMMON":40000,
+      "RARE":80000,
+      "EPIC":150000,
+      "LEGENDARY":300000,
+      "MYTHIC":600000
+    },
+    "reforgeStats":{
+      "COMMON":{
+        "mining_speed":5,
+        "mining_fortune":5
+      },
+      "UNCOMMON":{
+        "mining_speed":12,
+        "mining_fortune":10
+      },
+      "RARE":{
+        "mining_speed":20,
+        "mining_fortune":15
+      },
+      "EPIC":{
+        "mining_speed":30,
+        "mining_fortune":20
+      },
+      "LEGENDARY":{
+        "mining_speed":45,
+        "mining_fortune":25
+      },
+      "MYTHIC":{
+        "mining_speed":60,
+        "mining_fortune":30
+      }
+    }
+  },
   "LAPIS_CRYSTAL":{
     "internalName":"LAPIS_CRYSTAL",
     "reforgeName":"Magnetic",
