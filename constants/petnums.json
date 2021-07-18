@@ -1,25 +1,4 @@
 {
-  "GOLDEN_DRAGON": {
-    "LEGENDARY": {
-	  "1": {
-	    "otherNums": [
-		  
-		],
-		"statNums": {
-		  
-		  }
-		},
-		"100": {
-		  "otherNums": [
-		    
-		  ],
-		  "statNums": {
-		  
-		}
-	   },
-      "interp": "1:100"
-	}
-},
   "BAL": {
     "COMMON": {
 	  "1": {
@@ -39,10 +18,54 @@
 		  "FEROCITY": 10.0,
 		  "STRENGTH": 25.0
 		}
-	   },
+	    },
       "interp": "1:100"
-	}
-},
+	  },
+    "EPIC": {
+      "1": {
+        "otherNums": [
+        0.1
+       ],
+      "statNums": {
+        "FEROCITY": 0.0,
+        "STRENGTH": 0.0
+        }
+      },
+      "100": {
+        "otherNums": [
+        10.0
+        ],
+        "statNums": {
+        "FEROCITY": 10.0,
+        "STRENGTH": 25.0
+      }
+        },
+        "interp": "1:100"
+     },
+     "LEGENDARY": {
+      "1": {
+        "otherNums": [
+        0.1,
+        0.1
+       ],
+      "statNums": {
+        "FEROCITY": 0.0,
+        "STRENGTH": 0.0
+        }
+      },
+      "100": {
+        "otherNums": [
+        10.0,
+        15.0
+        ],
+        "statNums": {
+        "FEROCITY": 10.0,
+        "STRENGTH": 25.0
+      }
+        },
+        "interp": "1:100"
+    }
+  },
   "ARMADILLO": {
     "COMMON": {
 	  "1": {
@@ -1747,6 +1770,33 @@
         }
       },
       "interp": "1:53"
+    }
+  },
+  "GOLDEN_DRAGON": {
+    "LEGENDARY": {
+      "1": {
+        "otherNums": [
+          50.0,
+          20.0,
+          0.1
+        ],
+        "statNums": {
+          "BONUS_ATTACK_SPEED": 25.0,
+          "STRENGTH": 25.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          100,
+          40,
+          0.2
+        ],
+        "statNums": {
+          "BONUS_ATTACK_SPEED": 50.0,
+          "STRENGTH": 50.0
+        }
+      },
+      "interp": "1:100"
     }
   },
   "HORSE": {
