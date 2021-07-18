@@ -1,4 +1,46 @@
 {
+  "AMBER_MATERIAL":{
+    "internalName":"AMBER_MATERIAL",
+    "reforgeName":"Ambered",
+    "reforgeType":"blacksmith/reforge_stone",
+    "itemTypes":"PICKAXE",
+    "requiredRarities":[
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts":{
+      "COMMON":20000,
+      "UNCOMMON":40000,
+      "RARE":80000,
+      "EPIC":150000,
+      "LEGENDARY":300000,
+      "MYTHIC":600000
+    },
+    "reforgeStats":{
+      "COMMON":{
+        "mining_speed":25
+      },
+      "UNCOMMON":{
+        "mining_speed":31
+      },
+      "RARE":{
+        "mining_speed":38
+      },
+      "EPIC":{
+        "mining_speed":46
+      },
+      "LEGENDARY":{
+        "mining_speed":55
+      },
+      "MYTHIC":{
+        "mining_speed":65
+      }
+    }
+  },
   "BEATING_HEART":{
     "internalName":"BEATING_HEART",
     "reforgeName":"Bloody",
