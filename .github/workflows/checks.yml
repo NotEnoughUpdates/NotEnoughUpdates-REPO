@@ -15,7 +15,9 @@ jobs:
     - uses: actions/checkout@v2
       with:
         repository: DeDiamondPro/neu-repo-action
-    - name: Run action
+    - name: Install dependencies
       run: #!/bin/bash
            npm i --only=prod
+    - name: Run action
+      run: #!/bin/bash
            node index.js
