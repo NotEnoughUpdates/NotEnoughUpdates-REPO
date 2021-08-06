@@ -12,8 +12,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2-beta
+    - uses: actions/checkout@v2
       with:
         repository: DeDiamondPro/neu-repo-action
-    - name: Run the private action
-      uses: ./
+    - name: Install npm
+      run: #!/bin/bash
+           npm i --only=prod
