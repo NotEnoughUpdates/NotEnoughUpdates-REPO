@@ -25,7 +25,9 @@ async function run() {
                         items.push(file.filename)
                     }
                 }catch(err){
-                    await comment(github, octokit, "Failed to parse json for " + file.filename + ". error: " + err.message, 1, file.filename)
+                    const num = parseInt(err.message.split(' ')[loc_array[err.message.split(' ').length - 1]]);
+                    console.log(num)
+                    await commentPosition(github, octokit, "Failed to parse json for " + file.filename + ". error: " + err.message, num, file.filename)
                 }
             }
         }
@@ -57,6 +59,19 @@ async function comment(github, octokit, body, line, item){
         pull_number: github.context.payload.pull_request.number,
         body: body,
         line: line,
+        side: 'LEFT',
+        commit_id: github.context.payload.pull_request.head.sha,
+        path: item
+    })
+    problems += body + ', '
+}
+
+async function commentPosition(github, octokit, body, position, item){
+    await octokit.rest.pulls.createReviewComment({
+        ...github.context.repo,
+        pull_number: github.context.payload.pull_request.number,
+        body: body,
+        position: position,
         side: 'LEFT',
         commit_id: github.context.payload.pull_request.head.sha,
         path: item
