@@ -50,6 +50,7 @@ async function run() {
             lines[lines.length -1] = lines[lines.length -1].substring(0, lines[lines.length -1].length-1)
             same = true;
             for(const l in lines){
+                console.log(lines[l], file.lore[l]), lines[l] != file.lore[l]
                 if(lines[l] != file.lore[l]){
                     same = false;
                 }
