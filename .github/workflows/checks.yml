@@ -18,7 +18,7 @@ jobs:
       run: npm i --only=prod
 
     - name: run-checks
-      uses: ./.github/actions/issue-maker
+      uses: ./.github/actions/check-files
       with: 
         repo-token: ${{secrets.GITHUB_TOKEN}}
 
