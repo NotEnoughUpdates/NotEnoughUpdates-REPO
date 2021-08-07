@@ -57,7 +57,7 @@ async function run() {
             }
             if(!same)
                 comment(github, octokit, 'The lore does not match the lore in the nbt tag for file ' + item + ".", 
-                getWordLine(fs.readFileSync(item).toString(), '"nbttag"'), item);
+                getWordLine(fs.readFileSync(item).toString(), '"lore:"'), item);
             if(file.nbttag.includes("uuid:\""))
                 comment(github, octokit, 'The nbt tag for item ' + item + " contains a uuid, this is not allowed.", 
                 getWordLine(fs.readFileSync(item).toString(), '"nbttag"'), item);
@@ -74,15 +74,19 @@ async function run() {
 }
 
 async function comment(github, octokit, body, line, item){
-    await octokit.rest.pulls.createReviewComment({
-        ...github.context.repo,
-        pull_number: github.context.payload.pull_request.number,
-        body: body,
-        line: line,
-        side: 'LEFT',
-        commit_id: github.context.payload.pull_request.head.sha,
-        path: item
-    })
+    try{
+        await octokit.rest.pulls.createReviewComment({
+            ...github.context.repo,
+            pull_number: github.context.payload.pull_request.number,
+            body: body,
+            line: line,
+            side: 'LEFT',
+            commit_id: github.context.payload.pull_request.head.sha,
+            path: item
+        })
+    }catch(err){
+        console.err(err)
+    }
     problems += body + ', '
 }
 
