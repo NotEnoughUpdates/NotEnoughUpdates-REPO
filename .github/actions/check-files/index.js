@@ -16,20 +16,21 @@ async function run() {
         for(const i in changed.data){
             const file = changed.data[i];
             if(file.filename.startsWith('items') && file.status != 'deleted'){
-                items.push('./' + file.filename)
+                items.push(file.filename)
             }
         }
         for(const i in items){
             const item = items[i];
             const file = require(resolve(item))
             if(typeof file.internalname == 'undefined'){
-                console.log(github.context.sha)
                 await octokit.rest.pulls.createReviewComment({
                     ...github.context.repo,
                     pull_number: github.context.payload.pull_request.number,
                     body: item + " Does not have mandetory field internalname",
                     line: 2,
-                    side: 'LEFT'
+                    side: 'LEFT',
+                    commit_id: github.context.sha,
+                    path: item
                 })
                 /*await octokit.rest.issues.createComment({
                     ...github.context.repo,
