@@ -13,12 +13,18 @@ async function run() {
             const item = items[i];
             const file = require(resolve('./items/' + item))
             if(typeof file.internalname == 'undefined'){
-                await octokit.rest.issues.createComment({
+                octokit.rest.pulls.createReviewComment({
+                    ...github.context.repo,
+                    pull_number: github.context.payload.pull_request.number,
+                    body: item + " Does not have mandetory field internalname",
+                    path: './items/' + item,
+                    line: 1
+                })
+                /*await octokit.rest.issues.createComment({
                     ...github.context.repo,
                     issue_number: github.context.payload.pull_request.number,
-                    body: file + " Does not have mandetory field internalname"
-                  });
-            
+                    body: item + " Does not have mandetory field internalname"
+                  });*/
                 core.setFailed(file + " Does not have mandetory field internalname");
             } else if(typeof file.displayname == 'undefined'){
                 core.setFailed(item + " Does not have mandetory field displayname");
