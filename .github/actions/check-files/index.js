@@ -24,10 +24,10 @@ async function run() {
             const item = items[i];
             const file = require(resolve(item))
             if(typeof file.internalname == 'undefined'){
-                await comment(github, octokit, item + ' does not have mandetory field internalname', 1, items)
+                await comment(github, octokit, item + ' does not have mandetory field internalname', 1, item)
             } 
             if(typeof file.displayname == 'undefined'){
-                await comment(github, octokit, item + ' does not have mandetory field displayname', 1, items)
+                await comment(github, octokit, item + ' does not have mandetory field displayname', 1, item)
             }
             let nbt = file.nbttag
             nbt = JSON.parse(nbt)
