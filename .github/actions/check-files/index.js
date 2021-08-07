@@ -19,7 +19,7 @@ async function run() {
                 items.push(file.filename)
             }
         }
-        console.log(github.context.pull_request)
+        console.log(github.context.payload.pull_request)
         for(const i in items){
             const item = items[i];
             const file = require(resolve(item))
