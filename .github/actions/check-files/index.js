@@ -45,11 +45,11 @@ async function run() {
                     errors++;
                     annotations1.push({
                         title: 'Parsing JSON failed for ' + file.filename,
-                        message: err,
+                        message: err.message,
                         annotation_level: 'failure',
                         path: file.filename,
-                        start_line: line,
-                        end_line: line
+                        start_line: parseInt(line),
+                        end_line: parseInt(line)
                     })
                 }
             }
