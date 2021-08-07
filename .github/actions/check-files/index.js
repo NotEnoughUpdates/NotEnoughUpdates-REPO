@@ -45,9 +45,10 @@ async function run() {
                 await comment(github, octokit, item + ' does not have mandetory field displayname', 1, item)
             }
             const nbt = file.nbttag;
-            const displayRegex = /display:{Lore:\[(.*)]/g;
-            const match = displayRegex.exec(nbt)
-            console.log(match.groups)
+            const display = nbt.split('display:{Lore:[')[1].split('],')[0]
+            console.log(display)
+            const lines = display.split(/((\\",)?[0-9]+:\\")/g)
+            console.log(lines)
         }
         if(problems != ''){
             core.setFailed(problems)
