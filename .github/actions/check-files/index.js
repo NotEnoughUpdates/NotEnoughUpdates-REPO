@@ -8,14 +8,15 @@ async function run() {
         const token = core.getInput("repo-token");
         const octokit = github.getOctokit(token);
         
+        const changed = await octokit.rest.pulls.listFiles({
+            ...github.context.repo,
+            pull_number: github.context.payload.pull_request.number,
+        })
+
         const items = fs.readdirSync(resolve('./items/'));
         for(const i in items){
             const item = items[i];
             const file = require(resolve('./items/' + item))
-            const changed = await octokit.rest.pulls.listFiles({
-                ...github.context.repo,
-                pull_number: github.context.payload.pull_request.number,
-            })
             console.log(changed)
             if(typeof file.internalname == 'undefined'){
                 octokit.rest.pulls.createReviewComment({
