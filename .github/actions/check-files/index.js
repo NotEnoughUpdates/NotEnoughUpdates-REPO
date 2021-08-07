@@ -1,6 +1,7 @@
 const core = require("@actions/core");
 const github = require("@actions/github");
 const resolve = require('path').resolve;
+const fs = require('fs')
 
 let problems = '';
 
@@ -16,8 +17,16 @@ async function run() {
         const items = []
         for(const i in changed.data){
             const file = changed.data[i];
-            if(file.filename.startsWith('items') && file.status != 'deleted'){
-                items.push(file.filename)
+            if(file.filename.endsWith('.json') && file.status != 'deleted'){
+                const string = await fs.readFile(resolve(file.filename))
+                try{
+                    JSON.parse(string)
+                    if(file.filename.startsWith('items')){
+                        items.push(file.filename)
+                    }
+                }catch(err){
+                    comment(github, octokit, "Failed to parse json for " + file.filename + ". error: " + err.message, 1, item)
+                }
             }
         }
         for(const i in items){
@@ -29,10 +38,10 @@ async function run() {
             if(typeof file.displayname == 'undefined'){
                 await comment(github, octokit, item + ' does not have mandetory field displayname', 1, item)
             }
-            let nbt = file.nbttag
+            /*let nbt = file.nbttag
             console.log(nbt)
             nbt = JSON.parse(nbt)
-            console.log(nbt)
+            console.log(nbt)*/
         }
         if(problems != ''){
             core.setFailed(problems)
