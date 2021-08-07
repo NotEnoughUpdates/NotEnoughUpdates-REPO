@@ -12,12 +12,12 @@ async function run() {
             ...github.context.repo,
             pull_number: github.context.payload.pull_request.number,
         })
+        console.log(changed)
 
         const items = fs.readdirSync(resolve('./items/'));
         for(const i in items){
             const item = items[i];
             const file = require(resolve('./items/' + item))
-            console.log(changed)
             if(typeof file.internalname == 'undefined'){
                 octokit.rest.pulls.createReviewComment({
                     ...github.context.repo,
