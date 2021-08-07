@@ -36,24 +36,18 @@ async function run() {
                         items.push(file.filename)
                     }
                 }catch(err){
-                    console.log('1')
                     const num = parseInt(err.message.split(' ')[err.message.split(' ').length - 1]);
                     let line = undefined;
-                    console.log('2')
                     if(typeof num == 'number'){
                         line = getlineNumberofChar(string, num)
                     }
-                    console.log('3')
                     core.error("Failed to parse json for " + file.filename + "Error occured at line: " + line + ". error: " + err.message)
-                    console.log('4')
                     errors++;
-                    console.log('5')
                     annotations1.push({
                         title: 'Parsing JSON failed for ' + file.filename,
                         summary: err,
                         annotation_level: 'failure'
                     })
-                    console.log('6')
                 }
             }
         }
@@ -134,7 +128,7 @@ async function run() {
 
 function getlineNumberofChar(data, index) {
     const perLine = data.split('\n');
-    const total_length = 0;
+    let total_length = 0;
     for (let i in perLine) {
         total_length += perLine[i].length;
         if (total_length >= index)
