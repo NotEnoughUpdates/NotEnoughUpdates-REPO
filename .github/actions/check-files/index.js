@@ -21,17 +21,14 @@ async function run() {
                 const string = fs.readFileSync(resolve(file.filename))
                 try{
                     JSON.parse(string)
-                    console.log("parsed json")
                     if(file.filename.startsWith('items')){
                         items.push(file.filename)
                     }
                 }catch(err){
-                    console.log(err)
-                    await comment(github, octokit, "Failed to parse json for " + file.filename + ". error: " + err.message, 1, item)
+                    await comment(github, octokit, "Failed to parse json for " + file.filename + ". error: " + err.message, 1, file.filename)
                 }
             }
         }
-        console.log(items)
         for(const i in items){
             const item = items[i];
             const file = require(resolve(item))
