@@ -11,11 +11,12 @@ async function run() {
         const token = core.getInput("repo-token");
         const octokit = github.getOctokit(token);
 
-        const check = octokit.rest.checks.create({
+        const check = await octokit.rest.checks.create({
             ...github.context.repo,
-            commit_id: github.context.payload.pull_request.head.sha,
+            head_sha: github.context.payload.pull_request.head.sha,
             status: 'in_progress',
-            started_at: new Date().toISOString()
+            started_at: new Date().toISOString(),
+            name: 'Automated repo checks.'
         })
         
         const changed = await octokit.rest.pulls.listFiles({
