@@ -3,7 +3,8 @@ const github = require("@actions/github");
 const resolve = require('path').resolve;
 const fs = require('fs')
 
-let problems = '';
+let errors = 0;
+let warnings = 0;
 
 async function run() {
     try {
@@ -27,11 +28,12 @@ async function run() {
                     }
                 }catch(err){
                     const num = parseInt(err.message.split(' ')[err.message.split(' ').length - 1]);
-                    let line = 1;
+                    let line = undefined;
                     if(typeof num == 'number'){
                         line = getlineNumberofChar(string, num)
                     }
-                    await comment(github, octokit, "Failed to parse json for " + file.filename + ". error: " + err.message, line, file.filename)
+                    core.error("Failed to parse json for " + file.filename + "Error occured at line: " + line + ". error: " + err.message)
+                    errors++;
                 }
             }
         }
@@ -40,12 +42,16 @@ async function run() {
             const item = items[i];
             const file = require(resolve(item))
             if(typeof file.internalname == 'undefined'){
-                await comment(github, octokit, item + ' does not have mandetory field internalname', 1, item)
-                core.error(item + ' does not have mandetory field internalname')
+                core.error(item + ' does not have mandetory field internalname.')
+                errors++;
             } 
             if(typeof file.displayname == 'undefined'){
-                await comment(github, octokit, item + ' does not have mandetory field displayname', 1, item)
-                core.error(item + ' does not have mandetory field displayname')
+                core.error(item + ' does not have mandetory field displayname.')
+                errors++;
+            }
+            if(typeof file.itemid == 'undefined'){
+                core.error(item + ' does not have mandetory field itemid.')
+                errors++;
             }
             const display = file.nbttag.split('display:{Lore:[')[1].split('],')[0]
             let lines = display.split(/",[0-9]+:"/g)
@@ -58,43 +64,37 @@ async function run() {
                 }
             }
             if(!same){
-                await comment(github, octokit, 'The lore does not match the lore in the nbt tag for file ' + item + '.', 
-                getWordLine(fs.readFileSync(item).toString(), '"lore"'), item);
                 core.warning('The lore does not match the lore in the nbt tag for file ' + item + ".")
+                warnings++;
             }
             if(file.nbttag.includes("uuid:\"")){
-                await comment(github, octokit, 'The nbt tag for item ' + item + ' contains a uuid, this is not allowed.', 
-                getWordLine(fs.readFileSync(item).toString(), '"nbttag"'), item);
                 core.warning('The nbt tag for item ' + item + ' contains a uuid, this is not allowed.',)
+                warnings++;
             }
             if(file.nbttag.includes("timestamp:\"")){
-                await comment(github, octokit, 'The nbt tag for item ' + item + ' contains a timestamp, this is not allowed.', 
-                getWordLine(fs.readFileSync(item).toString(), '"nbttag"'), item);
                 core.warning('The nbt tag for item ' + item + ' contains a timestamp, this is not allowed.')
+                warnings++;
             }
         }
-        if(problems != ''){
-            core.setFailed(problems)
+        if(errors == 0 && warnings == 0){
+            octokit.rest.pulls.createReview({
+                ...github.context.repo,
+                pull_number: github.context.payload.pull_request.number,
+                commit_id: github.context.payload.pull_request.head.sha,
+                event: 'APPROVE'
+            })
+        }else{
+            octokit.rest.pulls.createReview({
+                ...github.context.repo,
+                pull_number: github.context.payload.pull_request.number,
+                commit_id: github.context.payload.pull_request.head.sha,
+                event: 'REQUEST_CHANGES',
+                body: `I've detected ${errors} big problem(s) that need to be fixed and ${warnings} small problem(s) that you might want to take a look at.\n
+                You can see them [here](${github.context.action.link()})`
+            })
         }
     } catch (err) { 
         core.setFailed(err.message);
-    }
-}
-
-async function comment(github, octokit, body, line, item){
-    problems += body + ', '
-    try{
-        await octokit.rest.pulls.createReviewComment({
-            ...github.context.repo,
-            pull_number: github.context.payload.pull_request.number,
-            body: body,
-            line: line,
-            side: 'LEFT',
-            commit_id: github.context.payload.pull_request.head.sha,
-            path: item
-        })
-    }catch(err){
-        console.error(err)
     }
 }
 
@@ -106,15 +106,6 @@ function getlineNumberofChar(data, index) {
         if (total_length >= index)
             return i + 1;
     }
-}
-
-function getWordLine(input, word){
-    const line = input.split('\n');
-    for (let i in line) {
-        if(line[i].includes(word))
-            return parseInt(i);
-    }
-    return 1;
 }
   
 run()
