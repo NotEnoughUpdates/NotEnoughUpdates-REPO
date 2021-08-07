@@ -22,7 +22,9 @@ async function run() {
                 string = string.toString();
                 try{
                     JSON.parse(string)
+                    console.log('parsed', file.filename, file.filename.startsWith('items'))
                     if(file.filename.startsWith('items')){
+                        console.log('added')
                         items.push(file.filename)
                     }
                 }catch(err){
