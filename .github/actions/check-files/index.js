@@ -35,7 +35,7 @@ async function run() {
                 }
             }
         }
-        
+
         for(const i in items){
             const item = items[i];
             const file = require(resolve(item))
@@ -56,13 +56,13 @@ async function run() {
                 }
             }
             if(!same)
-                comment(github, octokot, 'The lore does not match the lore in the nbt tag for file ' + item + ".", 
+                comment(github, octokit, 'The lore does not match the lore in the nbt tag for file ' + item + ".", 
                 getWordLine(fs.readFileSync(item).toString(), '"nbttag"'), item);
             if(file.nbttag.includes("uuid:\""))
-                comment(github, octokot, 'The nbt tag for item ' + item + " contains a uuid, this is not allowed.", 
+                comment(github, octokit, 'The nbt tag for item ' + item + " contains a uuid, this is not allowed.", 
                 getWordLine(fs.readFileSync(item).toString(), '"nbttag"'), item);
             if(file.nbttag.includes("timestamp:\""))
-                comment(github, octokot, 'The nbt tag for item ' + item + " contains a timestamp, this is not allowed.", 
+                comment(github, octokit, 'The nbt tag for item ' + item + " contains a timestamp, this is not allowed.", 
                 getWordLine(fs.readFileSync(item).toString(), '"nbttag"'), item);
         }
         if(problems != ''){
