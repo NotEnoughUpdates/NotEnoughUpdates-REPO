@@ -30,6 +30,7 @@ async function run() {
                 await comment(github, octokit, item + ' does not have mandetory field displayname', 1, item)
             }
             let nbt = file.nbttag
+            console.log(nbt)
             nbt = JSON.parse(nbt)
             console.log(nbt)
         }
