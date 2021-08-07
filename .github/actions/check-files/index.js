@@ -26,8 +26,8 @@ async function run() {
                     }
                 }catch(err){
                     const num = parseInt(err.message.split(' ')[err.message.split(' ').length - 1]);
-                    console.log(num)
-                    await commentPosition(github, octokit, "Failed to parse json for " + file.filename + ". error: " + err.message, num, file.filename)
+                    console.log(typeof num)
+                    await commentPosition(github, octokit, "Failed to parse json for " + file.filename + ". error: " + err.message, 73, file.filename)
                 }
             }
         }
