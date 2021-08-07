@@ -16,8 +16,9 @@ async function run() {
             head_sha: github.context.payload.pull_request.head.sha,
             status: 'in_progress',
             started_at: new Date().toISOString(),
-            name: 'Linting JSON'
+            name: 'Parsing JSON'
         })
+        const annotations1 = [];
         
         const changed = await octokit.rest.pulls.listFiles({
             ...github.context.repo,
@@ -37,6 +38,11 @@ async function run() {
                 }catch(err){
                     const num = parseInt(err.message.split(' ')[err.message.split(' ').length - 1]);
                     let line = undefined;
+                    annotations1.push({
+                        title: 'Parsing JSON failed for ' + file.filename,
+                        summary: err,
+                        annotation_level: 'failure'
+                    })
                     if(typeof num == 'number'){
                         line = getlineNumberofChar(string, num)
                     }
@@ -53,9 +59,9 @@ async function run() {
             conclusion: (errors > 0 ? 'failure' : (warnings > 0 ? 'neutral' : 'success')),
             status: 'completed',
             output: {
-                title: "Test",
-                summary: "Test2",
-                annotations: []
+                title: "Parsing JSON results",
+                summary: "The reseults after parsing all of the changed JSON files.",
+                annotations: annotations1
             }
         })
 
