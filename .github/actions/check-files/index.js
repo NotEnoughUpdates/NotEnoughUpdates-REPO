@@ -20,7 +20,7 @@ async function run() {
             if(file.filename.endsWith('.json') && file.status != 'deleted'){
                 let string = fs.readFileSync(resolve(file.filename))
                 string = string.toString();
-                console.log(string.toString())
+                console.log(string.split('\n'))
                 try{
                     JSON.parse(string)
                     if(file.filename.startsWith('items')){
