@@ -12,6 +12,7 @@ async function run() {
         const items = fs.readdirSync(resolve('./items/'));
         for(const i in items){
             const item = items[i];
+            console.log(item)
             const file = require(resolve('./items/' + item))
             if(typeof file.internalname == 'undefined'){
                 core.setFailed(file + " Does not have mandetory field internalname");
