@@ -10,6 +10,13 @@ async function run() {
     try {
         const token = core.getInput("repo-token");
         const octokit = github.getOctokit(token);
+
+        const check = octokit.rest.checks.create({
+            ...github.context.repo,
+            commit_id: github.context.payload.pull_request.head.sha,
+            status: 'in_progress',
+            started_at: new Date().toISOString()
+        })
         
         const changed = await octokit.rest.pulls.listFiles({
             ...github.context.repo,
@@ -89,10 +96,16 @@ async function run() {
                 pull_number: github.context.payload.pull_request.number,
                 commit_id: github.context.payload.pull_request.head.sha,
                 event: 'REQUEST_CHANGES',
-                body: `I've detected ${errors} big problem(s) that need to be fixed and ${warnings} small problem(s) that you might want to take a look at.\n
-                You can see them [here](${github.context.action.link()})`
+                body: `I've detected ${errors} big problem(s) that need to be fixed and ${warnings} small problem(s) that you might want to take a look at.`
             })
         }
+
+        console.log(check)
+        /*octokit.rest.checks.update({
+            ...github.context.repo,
+            check_run_id: check.
+            commit_id: github.context.payload.pull_request.head.sha,
+        })*/
     } catch (err) { 
         core.setFailed(err.message);
     }
