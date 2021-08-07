@@ -24,10 +24,10 @@ async function run() {
             const item = items[i];
             const file = require(resolve(item))
             if(typeof file.internalname == 'undefined'){
-                await comment(github, item + ' does not have mandetory field internalname')
+                await comment(github, octokit, item + ' does not have mandetory field internalname')
             } 
             if(typeof file.displayname == 'undefined'){
-                await comment(github, item + ' does not have mandetory field displayname')
+                await comment(github, octokit, item + ' does not have mandetory field displayname')
             }
             let nbt = file.nbttag
             nbt = JSON.parse(nbt)
@@ -41,7 +41,7 @@ async function run() {
     }
 }
 
-async function comment(github, body, line, item){
+async function comment(github, octokit, body, line, item){
     await octokit.rest.pulls.createReviewComment({
         ...github.context.repo,
         pull_number: github.context.payload.pull_request.number,
