@@ -21,13 +21,13 @@ async function run() {
         }
         for(const i in items){
             const item = items[i];
-            const file = require(resolve('./items/' + item))
+            const file = require(resolve(item))
             if(typeof file.internalname == 'undefined'){
                 octokit.rest.pulls.createReviewComment({
                     ...github.context.repo,
                     pull_number: github.context.payload.pull_request.number,
                     body: item + " Does not have mandetory field internalname",
-                    path: './items/' + item,
+                    path: item,
                     line: 1
                 })
                 /*await octokit.rest.issues.createComment({
