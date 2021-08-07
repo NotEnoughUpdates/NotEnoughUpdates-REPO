@@ -73,7 +73,7 @@ async function commentPosition(github, octokit, body, position, item){
         body: body,
         commit_id: github.context.payload.pull_request.head.sha,
         path: item,
-        position: 1
+        position: 10
     })
     problems += body + ', '
 }
