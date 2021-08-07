@@ -21,6 +21,3 @@ jobs:
     - name: Run action
       run: #!/bin/bash
            node index.js
-    - name: get files changed
-      run: #!/bin/bash
-           git diff-tree --no-commit-id
