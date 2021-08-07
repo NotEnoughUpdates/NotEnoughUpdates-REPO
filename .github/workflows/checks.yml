@@ -15,7 +15,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: install dependencies
-      run: npm i only=prod
+      run: npm i --only=prod
 
     - name: run-checks
       uses: ./.github/actions/issue-maker
