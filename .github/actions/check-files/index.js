@@ -22,9 +22,7 @@ async function run() {
                 string = string.toString();
                 try{
                     JSON.parse(string)
-                    console.log('parsed', file.filename, file.filename.startsWith('items'))
                     if(file.filename.startsWith('items')){
-                        console.log('added')
                         items.push(file.filename)
                     }
                 }catch(err){
@@ -37,7 +35,7 @@ async function run() {
                 }
             }
         }
-        console.log(items)
+        
         for(const i in items){
             const item = items[i];
             const file = require(resolve(item))
@@ -53,7 +51,6 @@ async function run() {
             lines[lines.length -1] = lines[lines.length -1].substring(0, lines[lines.length -1].length-1)
             same = true;
             for(const l in lines){
-                console.log(lines[l], file.lore[l]), lines[l] != file.lore[l]
                 if(lines[l] != file.lore[l]){
                     same = false;
                 }
@@ -108,4 +105,4 @@ function getWordLine(input, word){
     return 1;
 }
   
-//run()
+run()
