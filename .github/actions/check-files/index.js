@@ -179,7 +179,7 @@ async function run() {
                 pull_number: github.context.payload.pull_request.number,
                 commit_id: github.context.payload.pull_request.head.sha,
                 event: 'REQUEST_CHANGES',
-                body: `I've detected ${errors} big problem(s) that need to be fixed and ${warnings} small problem(s) that you might want to take a look at.`
+                body: `I've detected some problems you might want to take a look at, you can see them as annotations in the files tab.`
             })
         }
 
