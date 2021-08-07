@@ -16,7 +16,7 @@ async function run() {
             head_sha: github.context.payload.pull_request.head.sha,
             status: 'in_progress',
             started_at: new Date().toISOString(),
-            name: 'Automated repo checks.'
+            name: 'Linting JSON'
         })
         
         const changed = await octokit.rest.pulls.listFiles({
@@ -45,6 +45,19 @@ async function run() {
                 }
             }
         }
+
+        octokit.rest.checks.update({
+            ...github.context.repo,
+            check_run_id: check.data.id,
+            commit_id: github.context.payload.pull_request.head.sha,
+            conclusion: (errors > 0 ? 'failure' : (warnings > 0 ? 'neutral' : 'succes')),
+            status: 'completed',
+            output: {
+                title: "Test",
+                summary: "Test2",
+                annotations: []
+            }
+        })
 
         for(const i in items){
             const item = items[i];
@@ -102,11 +115,6 @@ async function run() {
         }
 
         console.log(check)
-        /*octokit.rest.checks.update({
-            ...github.context.repo,
-            check_run_id: check.
-            commit_id: github.context.payload.pull_request.head.sha,
-        })*/
     } catch (err) { 
         core.setFailed(err.message);
     }
