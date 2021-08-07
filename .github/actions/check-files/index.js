@@ -56,13 +56,13 @@ async function run() {
                 }
             }
             if(!same)
-                comment(github, octokit, 'The lore does not match the lore in the nbt tag for file ' + item + ".", 
+                await comment(github, octokit, 'The lore does not match the lore in the nbt tag for file ' + item + ".", 
                 getWordLine(fs.readFileSync(item).toString(), '"lore:"'), item);
             if(file.nbttag.includes("uuid:\""))
-                comment(github, octokit, 'The nbt tag for item ' + item + " contains a uuid, this is not allowed.", 
+                await comment(github, octokit, 'The nbt tag for item ' + item + " contains a uuid, this is not allowed.", 
                 getWordLine(fs.readFileSync(item).toString(), '"nbttag"'), item);
             if(file.nbttag.includes("timestamp:\""))
-                comment(github, octokit, 'The nbt tag for item ' + item + " contains a timestamp, this is not allowed.", 
+                await comment(github, octokit, 'The nbt tag for item ' + item + " contains a timestamp, this is not allowed.", 
                 getWordLine(fs.readFileSync(item).toString(), '"nbttag"'), item);
         }
         if(problems != ''){
