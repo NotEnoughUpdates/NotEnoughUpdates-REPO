@@ -44,8 +44,10 @@ async function run() {
             if(typeof file.displayname == 'undefined'){
                 await comment(github, octokit, item + ' does not have mandetory field displayname', 1, item)
             }
-            var objJSON = await eval("(function(){return " + file.nbttag + ";})()");
-            console.log(objJSON.result);
+            const nbt = file.nbttag;
+            const displayRegex = /display:{Lore:\[(.*)]/g;
+            const match = displayRegex.exec(nbt)
+            console.log(match)
         }
         if(problems != ''){
             core.setFailed(problems)
