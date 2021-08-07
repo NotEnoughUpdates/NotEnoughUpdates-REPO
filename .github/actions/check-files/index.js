@@ -13,8 +13,7 @@ async function run() {
             const item = items[i];
             const file = require(resolve('./items/' + item))
             if(typeof file.internalname == 'undefined'){
-                console.log(octokit)
-                await octokit.issues.createComment({
+                await octokit.rest.issues.createComment({
                     ...github.context.repo,
                     issue_number: github.context.payload.pull_request.number,
                     body: file + " Does not have mandetory field internalname"
