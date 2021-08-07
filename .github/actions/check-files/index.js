@@ -47,7 +47,7 @@ async function run() {
             const nbt = file.nbttag;
             const displayRegex = /display:{Lore:\[(.*)]/g;
             const match = displayRegex.exec(nbt)
-            console.log(match)
+            console.log(match.groups)
         }
         if(problems != ''){
             core.setFailed(problems)
