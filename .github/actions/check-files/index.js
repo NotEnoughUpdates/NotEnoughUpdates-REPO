@@ -14,7 +14,7 @@ async function run() {
             const file = require(resolve('./items/' + item))
             const changed = await octokit.rest.pulls.listFiles({
                 ...github.context.repo,
-                pull_number: context.payload.pull_request.number,
+                pull_number: github.context.payload.pull_request.number,
             })
             console.log(changed)
             if(typeof file.internalname == 'undefined'){
