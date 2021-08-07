@@ -3,22 +3,30 @@ const github = require("@actions/github");
 const resolve = require('path').resolve;
 const fs = require('fs')
 
-let errors = 0;
-let warnings = 0;
+let failed = false;
+let erroredCheck2 = false;
 
 async function run() {
     try {
         const token = core.getInput("repo-token");
         const octokit = github.getOctokit(token);
 
-        const check = await octokit.rest.checks.create({
+        const check1 = await octokit.rest.checks.create({
             ...github.context.repo,
             head_sha: github.context.payload.pull_request.head.sha,
             status: 'in_progress',
             started_at: new Date().toISOString(),
             name: 'Parsing JSON'
         })
-        let annotations1 = [];
+        const check2 = await octokit.rest.checks.create({
+            ...github.context.repo,
+            head_sha: github.context.payload.pull_request.head.sha,
+            status: 'queued',
+            started_at: new Date().toISOString(),
+            name: 'File checks'
+        })
+        const annotations1 = [];
+        const annotations2 = [];
         
         const changed = await octokit.rest.pulls.listFiles({
             ...github.context.repo,
@@ -41,47 +49,74 @@ async function run() {
                     if(typeof num == 'number'){
                         line = getlineNumberofChar(string, num)
                     }
-                    core.error("Failed to parse json for " + file.filename + "Error occured at line: " + line + ". error: " + err.message)
-                    errors++;
+                    failed = true;
                     annotations1.push({
                         title: 'Parsing JSON failed for ' + file.filename,
                         message: err.message,
                         annotation_level: 'failure',
                         path: file.filename,
-                        start_line: parseInt(line),
-                        end_line: parseInt(line)
+                        start_line: line,
+                        end_line: line
                     })
                 }
             }
         }
 
         octokit.rest.checks.update({
-            ...github.context.repo,
-            check_run_id: check.data.id,
+            ...github.context.repo, 
+            check_run_id: check1.data.id,
             commit_id: github.context.payload.pull_request.head.sha,
-            conclusion: (errors > 0 ? 'failure' : (warnings > 0 ? 'neutral' : 'success')),
+            conclusion: (annotations1.length > 0 ? 'failure' : 'success'),
             status: 'completed',
             output: {
                 title: "Parsing JSON results",
-                summary: "The reseults after parsing all of the changed JSON files.",
+                summary: "The results after parsing all of the changed JSON files.",
                 annotations: annotations1
             }
+        })
+        octokit.rest.checks.update({
+            ...github.context.repo, 
+            check_run_id: check2.data.id,
+            commit_id: github.context.payload.pull_request.head.sha,
+            status: 'in_progress',
         })
 
         for(const i in items){
             const item = items[i];
             const file = require(resolve(item))
             if(typeof file.internalname == 'undefined'){
-                core.error(item + ' does not have mandetory field internalname.')
-                errors++;
+                core.error(item + ' does not have mandatory  field internalname.')
+                annotations2.push({
+                    title: item + ' does not have mandatory field internalname.',
+                    message: 'The field internalname is required and this file doesn\'t have it.',
+                    annotation_level: 'failure',
+                    path: item,
+                    start_line: 1,
+                    end_line: 1
+                })
+                erroredCheck2 = true;
             } 
             if(typeof file.displayname == 'undefined'){
-                core.error(item + ' does not have mandetory field displayname.')
-                errors++;
+                annotations2.push({
+                    title: item + ' does not have mandatory field displayname.',
+                    message: 'The field displayname is required and this file doesn\'t have it.',
+                    annotation_level: 'failure',
+                    path: item,
+                    start_line: 1,
+                    end_line: 1
+                })
+                erroredCheck2 = true;
             }
             if(typeof file.itemid == 'undefined'){
-                core.error(item + ' does not have mandetory field itemid.')
-                errors++;
+                annotations2.push({
+                    title: item + ' does not have mandatory field itemid.',
+                    message: 'The field itemid is required and this file doesn\'t have it.',
+                    annotation_level: 'failure',
+                    path: item,
+                    start_line: 1,
+                    end_line: 1
+                })
+                erroredCheck2 = true;
             }
             const display = file.nbttag.split('display:{Lore:[')[1].split('],')[0]
             let lines = display.split(/",[0-9]+:"/g)
@@ -94,26 +129,51 @@ async function run() {
                 }
             }
             if(!same){
-                core.warning('The lore does not match the lore in the nbt tag for file ' + item + ".")
-                warnings++;
+                annotations2.push({
+                    title: 'The lore in the nbt tag and lore of ' + item + ' is not the same.',
+                    message: 'The lore of the nbt tag and the lore in the array is not the same, please fix this.',
+                    annotation_level: 'warning',
+                    path: item,
+                    start_line: getWordLine(fs.readFileSync(item).toString(), '"nbttag"'),
+                    end_line:  getWordLine(fs.readFileSync(item).toString(), '"nbttag"')
+                })
             }
             if(file.nbttag.includes("uuid:\"")){
-                core.warning('The nbt tag for item ' + item + ' contains a uuid, this is not allowed.',)
-                warnings++;
+                annotations2.push({
+                    title: 'The nbt tag for item ' + item + ' contains a uuid.',
+                    message: 'The nbt tag for item ' + item + ' contains a uuid, this is not allowed.',
+                    annotation_level: 'warning',
+                    path: item,
+                    start_line: getWordLine(fs.readFileSync(item).toString(), '"nbttag"'),
+                    end_line:  getWordLine(fs.readFileSync(item).toString(), '"nbttag"')
+                })
             }
             if(file.nbttag.includes("timestamp:\"")){
                 core.warning('The nbt tag for item ' + item + ' contains a timestamp, this is not allowed.')
-                warnings++;
+                annotations2.push({
+                    title: 'The nbt tag for item ' + item + ' contains a timestamp',
+                    message: 'The nbt tag for item ' + item + ' contains a timestamp, this is not allowed.',
+                    annotation_level: 'warning',
+                    path: item,
+                    start_line: getWordLine(fs.readFileSync(item).toString(), '"nbttag"'),
+                    end_line:  getWordLine(fs.readFileSync(item).toString(), '"nbttag"')
+                })
             }
         }
-        if(errors == 0 && warnings == 0){
-            octokit.rest.pulls.createReview({
-                ...github.context.repo,
-                pull_number: github.context.payload.pull_request.number,
-                commit_id: github.context.payload.pull_request.head.sha,
-                event: 'APPROVE'
-            })
-        }else{
+
+        octokit.rest.checks.update({
+            ...github.context.repo, 
+            check_run_id: check2.data.id,
+            commit_id: github.context.payload.pull_request.head.sha,
+            conclusion: (erroredCheck2 ? 'failure' : (annotations2 > 0 ? 'neutral' : 'success')),
+            status: 'completed',
+            output: {
+                title: "File checks conclusions",
+                summary: "The results after checking all files for mistakes.",
+                annotations: annotations2
+            }
+        })
+        if(annotations1.length > 0 || annotations2.length > 0) {
             octokit.rest.pulls.createReview({
                 ...github.context.repo,
                 pull_number: github.context.payload.pull_request.number,
@@ -123,20 +183,31 @@ async function run() {
             })
         }
 
-        console.log(check)
+        if(failed){
+            core.setFailed('This action has failed, I have left some annotations in the files tab of the pull request.')
+        }
     } catch (err) { 
         core.setFailed(err.message);
     }
 }
 
 function getlineNumberofChar(data, index) {
-    const perLine = data.split('\n');
+    const line = data.split('\n');
     let total_length = 0;
-    for (let i in perLine) {
+    for (const i in line) {
         total_length += perLine[i].length;
         if (total_length >= index)
-            return i + 1;
+            return parseInt(i) + 1;
     }
+}
+
+function getWordLine(input, word){
+    const line = input.split('\n');
+    for (let i in line) {
+        if(line[i].includes(word))
+            return parseInt(i);
+    }
+    return 1;
 }
   
 run()
