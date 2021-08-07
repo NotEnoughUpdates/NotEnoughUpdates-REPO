@@ -13,6 +13,7 @@ async function run() {
             const item = items[i];
             const file = require(resolve('./items/' + item))
             if(typeof file.internalname == 'undefined'){
+                console.log(octokit)
                 await octokit.issues.createComment({
                     ...github.context.repo,
                     issue_number: github.context.payload.pull_request.number,
