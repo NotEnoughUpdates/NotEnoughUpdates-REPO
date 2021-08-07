@@ -41,9 +41,11 @@ async function run() {
             const file = require(resolve(item))
             if(typeof file.internalname == 'undefined'){
                 await comment(github, octokit, item + ' does not have mandetory field internalname', 1, item)
+                core.error(item + ' does not have mandetory field internalname')
             } 
             if(typeof file.displayname == 'undefined'){
                 await comment(github, octokit, item + ' does not have mandetory field displayname', 1, item)
+                core.error(item + ' does not have mandetory field displayname')
             }
             const display = file.nbttag.split('display:{Lore:[')[1].split('],')[0]
             let lines = display.split(/",[0-9]+:"/g)
@@ -55,15 +57,21 @@ async function run() {
                     same = false;
                 }
             }
-            if(!same)
-                await comment(github, octokit, 'The lore does not match the lore in the nbt tag for file ' + item + ".", 
-                getWordLine(fs.readFileSync(item).toString(), '"lore:"'), item);
-            if(file.nbttag.includes("uuid:\""))
-                await comment(github, octokit, 'The nbt tag for item ' + item + " contains a uuid, this is not allowed.", 
+            if(!same){
+                await comment(github, octokit, 'The lore does not match the lore in the nbt tag for file ' + item + '.', 
+                getWordLine(fs.readFileSync(item).toString(), '"lore"'), item);
+                core.warning('The lore does not match the lore in the nbt tag for file ' + item + ".")
+            }
+            if(file.nbttag.includes("uuid:\"")){
+                await comment(github, octokit, 'The nbt tag for item ' + item + ' contains a uuid, this is not allowed.', 
                 getWordLine(fs.readFileSync(item).toString(), '"nbttag"'), item);
-            if(file.nbttag.includes("timestamp:\""))
-                await comment(github, octokit, 'The nbt tag for item ' + item + " contains a timestamp, this is not allowed.", 
+                core.warning('The nbt tag for item ' + item + ' contains a uuid, this is not allowed.',)
+            }
+            if(file.nbttag.includes("timestamp:\"")){
+                await comment(github, octokit, 'The nbt tag for item ' + item + ' contains a timestamp, this is not allowed.', 
                 getWordLine(fs.readFileSync(item).toString(), '"nbttag"'), item);
+                core.warning('The nbt tag for item ' + item + ' contains a timestamp, this is not allowed.')
+            }
         }
         if(problems != ''){
             core.setFailed(problems)
