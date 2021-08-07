@@ -44,6 +44,7 @@ async function run() {
             if(typeof file.displayname == 'undefined'){
                 await comment(github, octokit, item + ' does not have mandetory field displayname', 1, item)
             }
+            console.log(file.nbttag.HideFlags)
         }
         if(problems != ''){
             core.setFailed(problems)
