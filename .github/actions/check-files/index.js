@@ -44,13 +44,25 @@ async function run() {
             if(typeof file.displayname == 'undefined'){
                 await comment(github, octokit, item + ' does not have mandetory field displayname', 1, item)
             }
-            const nbt = file.nbttag;
-            const display = nbt.split('display:{Lore:[')[1].split('],')[0]
-            console.log(display)
-            let lines = display.split(/(",)?[0-9]+:"/g)
-            lines = lines.splice(0, lines.length - 2)
+            const display = file.nbttag.split('display:{Lore:[')[1].split('],')[0]
+            let lines = display.split(/",[0-9]+:"/g)
+            lines[0] = lines[0].substring(3)
             lines[lines.length -1] = lines[lines.length -1].substring(0, lines[lines.length -1].length-1)
-            console.log(lines)
+            same = true;
+            for(const l in lines){
+                if(lines[l] != file.lore[l]){
+                    same = false;
+                }
+            }
+            if(!same)
+                comment(github, octokot, 'The lore does not match the lore in the nbt tag for file ' + item + ".", 
+                getWordLine(fs.readFileSync(item).toString(), '"nbttag"'), item);
+            if(file.nbttag.includes("uuid:\""))
+                comment(github, octokot, 'The nbt tag for item ' + item + " contains a uuid, this is not allowed.", 
+                getWordLine(fs.readFileSync(item).toString(), '"nbttag"'), item);
+            if(file.nbttag.includes("timestamp:\""))
+                comment(github, octokot, 'The nbt tag for item ' + item + " contains a timestamp, this is not allowed.", 
+                getWordLine(fs.readFileSync(item).toString(), '"nbttag"'), item);
         }
         if(problems != ''){
             core.setFailed(problems)
@@ -74,13 +86,22 @@ async function comment(github, octokit, body, line, item){
 }
 
 function getlineNumberofChar(data, index) {
-    var perLine = data.split('\n');
-    var total_length = 0;
-    for (i = 0; i < perLine.length; i++) {
+    const perLine = data.split('\n');
+    const total_length = 0;
+    for (let i in perLine) {
         total_length += perLine[i].length;
         if (total_length >= index)
             return i + 1;
     }
 }
+
+function getWordLine(input, word){
+    const line = input.split('\n');
+    for (let i in line) {
+        if(line[i].includes(word))
+            return i;
+    }
+    return 1;
+}
   
-run()
+//run()
