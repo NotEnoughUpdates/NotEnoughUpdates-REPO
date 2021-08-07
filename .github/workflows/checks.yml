@@ -2,9 +2,6 @@ name: checks
 
 # Controls when the action will run. 
 on:
-  # Triggers the workflow on push or pull request events but only for the master branch
-  push:
-    branches: [ master, alpha ]
   pull_request:
     branches: [ master, alpha ]
 
@@ -13,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    
+
     - name: run-checks
       uses: ./.github/actions/check-files
       with: 
