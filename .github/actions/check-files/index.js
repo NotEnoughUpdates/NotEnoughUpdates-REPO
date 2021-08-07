@@ -19,6 +19,7 @@ async function run() {
             const file = changed.data[i];
             if(file.filename.endsWith('.json') && file.status != 'deleted'){
                 const string = fs.readFileSync(resolve(file.filename))
+                console.log(string)
                 try{
                     JSON.parse(string)
                     if(file.filename.startsWith('items')){
@@ -26,8 +27,11 @@ async function run() {
                     }
                 }catch(err){
                     const num = parseInt(err.message.split(' ')[err.message.split(' ').length - 1]);
-                    console.log(typeof num)
-                    await commentPosition(github, octokit, "Failed to parse json for " + file.filename + ". error: " + err.message, 73, file.filename)
+                    let line = 1;
+                    if(typeof num == 'number'){
+
+                    }
+                    await comment(github, octokit, "Failed to parse json for " + file.filename + ". error: " + err.message, line, file.filename)
                 }
             }
         }
@@ -62,18 +66,6 @@ async function comment(github, octokit, body, line, item){
         side: 'LEFT',
         commit_id: github.context.payload.pull_request.head.sha,
         path: item
-    })
-    problems += body + ', '
-}
-
-async function commentPosition(github, octokit, body, position, item){
-    await octokit.rest.pulls.createReviewComment({
-        ...github.context.repo,
-        pull_number: github.context.payload.pull_request.number,
-        body: body,
-        commit_id: github.context.payload.pull_request.head.sha,
-        path: item,
-        position: 10
     })
     problems += body + ', '
 }
