@@ -12,9 +12,13 @@ async function run() {
             ...github.context.repo,
             pull_number: github.context.payload.pull_request.number,
         })
-        console.log(changed)
-
-        const items = fs.readdirSync(resolve('./items/'));
+        const items = []
+        for(const i in changed.data){
+            const file = changed.data[i];
+            if(file.filename.startsWith('items') && file.status != 'deleted'){
+                items.push('./' + file.filename)
+            }
+        }
         for(const i in items){
             const item = items[i];
             const file = require(resolve('./items/' + item))
