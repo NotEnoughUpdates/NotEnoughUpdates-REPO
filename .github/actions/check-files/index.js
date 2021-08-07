@@ -100,7 +100,7 @@ function getWordLine(input, word){
     const line = input.split('\n');
     for (let i in line) {
         if(line[i].includes(word))
-            return i;
+            return parseInt(i);
     }
     return 1;
 }
