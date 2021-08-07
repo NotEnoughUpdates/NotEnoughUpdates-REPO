@@ -50,7 +50,7 @@ async function run() {
             ...github.context.repo,
             check_run_id: check.data.id,
             commit_id: github.context.payload.pull_request.head.sha,
-            conclusion: (errors > 0 ? 'failure' : (warnings > 0 ? 'neutral' : 'succes')),
+            conclusion: (errors > 0 ? 'failure' : (warnings > 0 ? 'neutral' : 'success')),
             status: 'completed',
             output: {
                 title: "Test",
