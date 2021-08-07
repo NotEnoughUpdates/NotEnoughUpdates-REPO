@@ -1,0 +1,11 @@
+name: "Repo checks"
+
+description: "Checks if all the files are fine."
+
+inputs:
+  repo-token:
+    description: "Token with permissions to do repo things"
+
+runs:
+  using: "node12"
+  main: "index.js"

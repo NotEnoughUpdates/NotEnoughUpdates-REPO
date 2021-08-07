@@ -13,11 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-      with:
-        repository: DeDiamondPro/neu-repo-action
-    - name: Install dependencies
-      run: #!/bin/bash
-           npm i --only=prod
-    - name: Run action
-      run: #!/bin/bash
-           node index.js
+
+    - name: install dependencies
+      run: npm i only=prod
+
+    - name: run-checks
+      uses: ./.github/actions/issue-maker
+      with: 
+        repo-token: ${{secrets.GITHUB_TOKEN}}
+
