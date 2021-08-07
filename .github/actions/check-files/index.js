@@ -74,6 +74,7 @@ async function run() {
 }
 
 async function comment(github, octokit, body, line, item){
+    problems += body + ', '
     try{
         await octokit.rest.pulls.createReviewComment({
             ...github.context.repo,
@@ -87,7 +88,6 @@ async function comment(github, octokit, body, line, item){
     }catch(err){
         console.error(err)
     }
-    problems += body + ', '
 }
 
 function getlineNumberofChar(data, index) {
