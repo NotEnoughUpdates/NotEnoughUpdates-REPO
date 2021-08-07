@@ -18,7 +18,7 @@ async function run() {
             started_at: new Date().toISOString(),
             name: 'Parsing JSON'
         })
-        const annotations1 = [];
+        let annotations1 = [];
         
         const changed = await octokit.rest.pulls.listFiles({
             ...github.context.repo,
