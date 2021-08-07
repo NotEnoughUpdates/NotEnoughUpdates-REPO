@@ -20,7 +20,6 @@ async function run() {
             if(file.filename.endsWith('.json') && file.status != 'deleted'){
                 let string = fs.readFileSync(resolve(file.filename))
                 string = string.toString();
-                console.log(string.split('\n'))
                 try{
                     JSON.parse(string)
                     if(file.filename.startsWith('items')){
@@ -30,7 +29,7 @@ async function run() {
                     const num = parseInt(err.message.split(' ')[err.message.split(' ').length - 1]);
                     let line = 1;
                     if(typeof num == 'number'){
-
+                        line = getlineNumberofChar(string, num)
                     }
                     await comment(github, octokit, "Failed to parse json for " + file.filename + ". error: " + err.message, line, file.filename)
                 }
@@ -69,6 +68,16 @@ async function comment(github, octokit, body, line, item){
         path: item
     })
     problems += body + ', '
+}
+
+function getlineNumberofChar(data, index) {
+    var perLine = data.split('\n');
+    var total_length = 0;
+    for (i = 0; i < perLine.length; i++) {
+        total_length += perLine[i].length;
+        if (total_length >= index)
+            return i + 1;
+    }
 }
   
 run()
