@@ -19,7 +19,8 @@ async function run() {
             const file = changed.data[i];
             if(file.filename.endsWith('.json') && file.status != 'deleted'){
                 const string = fs.readFileSync(resolve(file.filename))
-                console.log(string)
+                string = string.toString();
+                console.log(string.toString())
                 try{
                     JSON.parse(string)
                     if(file.filename.startsWith('items')){
