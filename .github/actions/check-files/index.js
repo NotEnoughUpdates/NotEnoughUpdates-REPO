@@ -21,11 +21,13 @@ async function run() {
                 const string = await fs.readFile(resolve(file.filename))
                 try{
                     JSON.parse(string)
+                    console.log("parsed json")
                     if(file.filename.startsWith('items')){
                         items.push(file.filename)
                     }
                 }catch(err){
-                    comment(github, octokit, "Failed to parse json for " + file.filename + ". error: " + err.message, 1, item)
+                    console.log(err)
+                    await comment(github, octokit, "Failed to parse json for " + file.filename + ". error: " + err.message, 1, item)
                 }
             }
         }
