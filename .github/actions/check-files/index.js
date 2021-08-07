@@ -35,6 +35,7 @@ async function run() {
                 }
             }
         }
+        console.log(items)
         for(const i in items){
             const item = items[i];
             const file = require(resolve(item))
