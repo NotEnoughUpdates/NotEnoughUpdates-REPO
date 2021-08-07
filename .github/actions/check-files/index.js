@@ -85,7 +85,7 @@ async function comment(github, octokit, body, line, item){
             path: item
         })
     }catch(err){
-        console.err(err)
+        console.error(err)
     }
     problems += body + ', '
 }
