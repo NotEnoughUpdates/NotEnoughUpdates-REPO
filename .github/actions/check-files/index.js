@@ -48,7 +48,7 @@ async function run() {
             const display = nbt.split('display:{Lore:[')[1].split('],')[0]
             console.log(display)
             const lines = display.split(/(",)?[0-9]+:"/g)
-            console.log(lines)
+            lines = lines.splice(0, lines.length - 2)
             lines[lines.length -1] = lines[lines.length -1].substring(0, lines[lines.length -1].length-1)
             console.log(lines)
         }
