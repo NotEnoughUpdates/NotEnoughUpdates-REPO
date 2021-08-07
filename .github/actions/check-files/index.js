@@ -195,7 +195,7 @@ function getlineNumberofChar(data, index) {
     const line = data.split('\n');
     let total_length = 0;
     for (const i in line) {
-        total_length += perLine[i].length;
+        total_length += line[i].length;
         if (total_length >= index)
             return parseInt(i) + 1;
     }
