@@ -25,7 +25,7 @@ async function run() {
                         items.push(file.filename)
                     }
                 }catch(err){
-                    const num = parseInt(err.message.split(' ')[loc_array[err.message.split(' ').length - 1]]);
+                    const num = parseInt(err.message.split(' ')[err.message.split(' ').length - 1]);
                     console.log(num)
                     await commentPosition(github, octokit, "Failed to parse json for " + file.filename + ". error: " + err.message, num, file.filename)
                 }
@@ -72,7 +72,6 @@ async function commentPosition(github, octokit, body, position, item){
         pull_number: github.context.payload.pull_request.number,
         body: body,
         position: position,
-        side: 'LEFT',
         commit_id: github.context.payload.pull_request.head.sha,
         path: item
     })
