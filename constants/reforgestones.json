@@ -1,4 +1,46 @@
 {
+  "AMBER_MATERIAL":{
+    "internalName":"AMBER_MATERIAL",
+    "reforgeName":"Ambered",
+    "reforgeType":"blacksmith/reforge_stone",
+    "itemTypes":"PICKAXE",
+    "requiredRarities":[
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts":{
+      "COMMON":20000,
+      "UNCOMMON":40000,
+      "RARE":80000,
+      "EPIC":150000,
+      "LEGENDARY":300000,
+      "MYTHIC":600000
+    },
+    "reforgeStats":{
+      "COMMON":{
+        "mining_speed":25
+      },
+      "UNCOMMON":{
+        "mining_speed":31
+      },
+      "RARE":{
+        "mining_speed":38
+      },
+      "EPIC":{
+        "mining_speed":46
+      },
+      "LEGENDARY":{
+        "mining_speed":55
+      },
+      "MYTHIC":{
+        "mining_speed":65
+      }
+    }
+  },
   "BEATING_HEART":{
     "internalName":"BEATING_HEART",
     "reforgeName":"Bloody",
@@ -364,14 +406,16 @@
       "UNCOMMON",
       "RARE",
       "EPIC",
-      "LEGENDARY"
+      "LEGENDARY",
+      "MYTHIC"
     ],
     "reforgeCosts":{
       "COMMON":15000,
       "UNCOMMON":30000,
       "RARE":60000,
       "EPIC":125000,
-      "LEGENDARY":250000
+      "LEGENDARY":250000,
+      "MYTHIC":500000
     },
     "reforgeStats":{
       "COMMON":{
@@ -388,6 +432,9 @@
       },
       "LEGENDARY":{
         "mining_speed":55
+      },
+      "MYTHIC":{
+        "mining_speed":75
       }
     }
   },
@@ -822,6 +869,34 @@
       }
     }
   },
+  "HOT_STUFF":{
+    "internalName":"HOT_STUFF",
+    "reforgeName":"Heated",
+    "reforgeType":"blacksmith/reforge_stone",
+    "itemTypes":"PICKAXE",
+    "requiredRarities":[
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts":{
+      "COMMON":20000,
+      "UNCOMMON":40000,
+      "RARE":80000,
+      "EPIC":150000,
+      "LEGENDARY":300000,
+      "MYTHIC":600000
+    },
+	  "reforgeStats":{
+      "COMMON":{
+        "mining_speed":1
+      }
+	  },
+    "reforgeAbility":"§7Grants §aincreased §6⸕ Mining §6Speed §7the deeper the you §7venture."
+	},
   "JERRY_STONE":{
     "internalName":"JERRY_STONE",
     "reforgeName":"Jerry's",
@@ -855,6 +930,54 @@
       }
     }
   },
+  "JADERALD":{
+    "internalName":"JADERALD",
+    "reforgeName":"Jaded",
+    "reforgeType":"blacksmith/reforge_stone",
+    "itemTypes":"ARMOR",
+    "requiredRarities":[
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts":{
+      "COMMON":20000,
+      "UNCOMMON":40000,
+      "RARE":80000,
+      "EPIC":150000,
+      "LEGENDARY":300000,
+      "MYTHIC":600000
+    },
+    "reforgeStats":{
+      "COMMON":{
+        "mining_speed":5,
+        "mining_fortune":5
+      },
+      "UNCOMMON":{
+        "mining_speed":12,
+        "mining_fortune":10
+      },
+      "RARE":{
+        "mining_speed":20,
+        "mining_fortune":15
+      },
+      "EPIC":{
+        "mining_speed":30,
+        "mining_fortune":20
+      },
+      "LEGENDARY":{
+        "mining_speed":45,
+        "mining_fortune":25
+      },
+      "MYTHIC":{
+        "mining_speed":60,
+        "mining_fortune":30
+      }
+    }
+  },
   "LAPIS_CRYSTAL":{
     "internalName":"LAPIS_CRYSTAL",
     "reforgeName":"Magnetic",
@@ -865,21 +988,24 @@
       "UNCOMMON",
       "RARE",
       "EPIC",
-      "LEGENDARY"
+      "LEGENDARY",
+      "MYTHIC"
     ],
     "reforgeCosts":{
       "COMMON":250,
       "UNCOMMON":500,
       "RARE":1000,
       "EPIC":2500,
-      "LEGENDARY":5000
+      "LEGENDARY":5000,
+      "MYTHIC":10000
     },
     "reforgeAbility":{
       "COMMON":"Gain §a+10% §7extra experience§r§7 when mining.",
       "UNCOMMON":"Gain §a+12% §7extra experience§r§7 when mining.",
       "RARE":"Gain §a+14% §7extra experience§r§7 when mining.",
       "EPIC":"Gain §a+16% §7extra experience§r§7 when mining.",
-      "LEGENDARY":"Gain §a+18% §7extra experience§r§7 when mining."
+      "LEGENDARY":"Gain §a+18% §7extra experience§r§7 when mining.",
+      "MYTHIC":"Gain §a+20% §7extra experience§r§7 when mining."
     },
     "reforgeStats":{
       "COMMON":{
@@ -1148,14 +1274,16 @@
       "UNCOMMON",
       "RARE",
       "EPIC",
-      "LEGENDARY"
+      "LEGENDARY",
+      "MYTHIC"
     ],
     "reforgeCosts":{
       "COMMON":100,
       "UNCOMMON":250,
       "RARE":500,
       "EPIC":1000,
-      "LEGENDARY":2500
+      "LEGENDARY":2500,
+      "MYTHIC":15000
     },
     "reforgeAbility":"Grants §a+3 §6☘ Mining §6Fortune§7 which increases your §7chance for multiple drops.",
     "reforgeStats":{
@@ -1177,6 +1305,10 @@
       },
       "LEGENDARY":{
         "defense":9,
+        "intelligence":1
+      },
+      "MYTHIC":{
+        "defense":12,
         "intelligence":1
       }
     }
@@ -1612,21 +1744,24 @@
       "UNCOMMON",
       "RARE",
       "EPIC",
-      "LEGENDARY"
+      "LEGENDARY",
+      "SPECIAL"
     ],
     "reforgeCosts":{
       "COMMON":10000,
       "UNCOMMON":10000,
       "RARE":10000,
       "EPIC":10000,
-      "LEGENDARY":10000
+      "LEGENDARY":10000,
+      "SPECIAL":10000
     },
     "reforgeAbility":{
       "COMMON":"Gain §a+1% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted block for ores that you mine.",
       "UNCOMMON":"Gain §a+2% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted block for ores that you mine.",
       "RARE":"Gain §a+3% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted block for ores that you mine.",
       "EPIC":"Gain §a+4% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted block for ores that you mine.",
-      "LEGENDARY":"Gain §a+5% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted block for ores that you mine."
+      "LEGENDARY":"Gain §a+5% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted block for ores that you mine.",
+      "SPECIAL":"Gain §a+8% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted block for ores that you mine."
     },
     "reforgeStats":{
       "COMMON":{
@@ -1643,6 +1778,9 @@
       },
       "LEGENDARY":{
         "defense":16
+      },
+      "SPECIAL":{
+        "defense":20
       }
     }
   },
@@ -1710,14 +1848,16 @@
       "UNCOMMON",
       "RARE",
       "EPIC",
-      "LEGENDARY"
+      "LEGENDARY",
+      "MYTHIC"
     ],
     "reforgeCosts":{
       "COMMON":20000,
       "UNCOMMON":40000,
       "RARE":80000,
       "EPIC":150000,
-      "LEGENDARY":300000
+      "LEGENDARY":300000,
+      "MYTHIC":300000
     },
     "reforgeAbility":"Grants §a+8 §6☘ Mining §6Fortune§7, which increases your §7chance for multiple drops.",
     "reforgeStats":{
@@ -1734,6 +1874,9 @@
         "mining_speed":34
       },
       "LEGENDARY":{
+        "mining_speed":45
+      },
+      "MYTHIC":{
         "mining_speed":45
       }
     }
@@ -1954,11 +2097,13 @@
     "itemTypes":"SWORD",
     "requiredRarities":[
       "RARE",
-      "EPIC"
+      "EPIC",
+      "LEGENDARY"
     ],
     "reforgeCosts":{
       "RARE":5000000,
-      "EPIC":10000000
+      "EPIC":10000000,
+      "LEGENDARY": 20000000
     },
     "reforgeStats":{
       "RARE":{
@@ -1968,6 +2113,11 @@
       "EPIC":{
         "damage":165,
         "strength":165
+      },
+      "LEGENDARY":{
+        "damage":165,
+        "strength":165,
+        "intelligence":65
       }
     }
   },

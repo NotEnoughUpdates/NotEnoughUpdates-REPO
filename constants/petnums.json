@@ -1,4 +1,176 @@
-{
+{ 
+  "AMMONITE": {
+  "LEGENDARY": {
+      "1": {
+        "otherNums": [
+        0,
+        0,
+        0,
+        0
+       ],
+      "statNums": {
+        "SEA_CREATURE_CHANCE": 0.0
+        }
+      },
+      "100": {
+        "otherNums": [
+        1.0,
+        2.0,
+        2.0,
+        0.6
+        ],
+        "statNums": {
+        "SEA_CREATURE_CHANCE": 7
+      }
+        },
+        "interp": "1:100"
+    }
+  },
+  "BAL": {
+    "EPIC": {
+      "1": {
+        "otherNums": [
+        0.1
+       ],
+      "statNums": {
+        "FEROCITY": 0.0,
+        "STRENGTH": 0.0
+        }
+      },
+      "100": {
+        "otherNums": [
+        10.0
+        ],
+        "statNums": {
+        "FEROCITY": 10.0,
+        "STRENGTH": 25.0
+      }
+        },
+        "interp": "1:100"
+     },
+     "LEGENDARY": {
+      "1": {
+        "otherNums": [
+        0.1,
+        0.1
+       ],
+      "statNums": {
+        "FEROCITY": 0.0,
+        "STRENGTH": 0.0
+        }
+      },
+      "100": {
+        "otherNums": [
+        10.0,
+        15.0
+        ],
+        "statNums": {
+        "FEROCITY": 10.0,
+        "STRENGTH": 25.0
+      }
+        },
+        "interp": "1:100"
+    }
+  },
+  "ARMADILLO": {
+    "COMMON": {
+	  "1": {
+	    "otherNums": [
+		  
+		],
+		"statNums": {
+		  "DEFENSE": 2.0
+		  }
+		},
+		"100": {
+		  "otherNums": [
+		  
+		  ],
+		  "statNums": {
+		    "DEFENSE": 200
+		}
+	   },
+      "interp": "1:100"
+	},
+	"UNCOMMON": {
+	  "1": {
+	    "otherNums": [
+		  
+		],
+		"statNums": {
+		  "DEFENSE": 2.0
+		  }
+		},
+		"100": {
+		  "otherNums": [
+		   
+		  ],
+		  "statNums": {
+		    "DEFENSE": 200
+		}
+	   },
+      "interp": "1:100"
+	},
+	"RARE": {
+	  "1": {
+	    "otherNums": [
+		  57.9
+		],
+		"statNums": {
+		  "DEFENSE": 2.0
+		  }
+		},
+		"100": {
+		  "otherNums": [
+		    30.0
+		  ],
+		  "statNums": {
+		    "DEFENSE": 200
+		}
+	   },
+      "interp": "1:100"
+	},
+	"EPIC": {
+	  "1": {
+	    "otherNums": [
+		  57.9
+		],
+		"statNums": {
+		  "DEFENSE": 2.0
+		  }
+		},
+		"100": {
+		  "otherNums": [
+		    30.0
+		  ],
+		  "statNums": {
+		    "DEFENSE": 200
+		}
+	   },
+      "interp": "1:100"
+	},
+	"LEGENDARY": {
+	  "1": {
+	    "otherNums": [
+		  57.9,
+		  99.5
+		],
+		"statNums": {
+		  "DEFENSE": 2.0
+		  }
+		},
+		"100": {
+		  "otherNums": [
+		    30.0,
+			50
+		  ],
+		  "statNums": {
+		    "DEFENSE": 200
+		}
+	   },
+      "interp": "1:100"
+	}
+   },
   "BABY_YETI": {
     "EPIC": {
       "1": {
@@ -369,8 +541,8 @@
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          0.20000000000000284,
-          0.4000000000000057
+          0.2,
+          0.4
         ],
         "statNums": {
           "CRIT_DAMAGE": 0.0,
@@ -1604,6 +1776,33 @@
         }
       },
       "interp": "1:53"
+    }
+  },
+  "GOLDEN_DRAGON": {
+    "LEGENDARY": {
+      "1": {
+        "otherNums": [
+          50.0,
+          20.0,
+          0.1
+        ],
+        "statNums": {
+          "BONUS_ATTACK_SPEED": 25.0,
+          "STRENGTH": 25.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          100,
+          40,
+          0.2
+        ],
+        "statNums": {
+          "BONUS_ATTACK_SPEED": 50.0,
+          "STRENGTH": 50.0
+        }
+      },
+      "interp": "1:100"
     }
   },
   "HORSE": {
@@ -3693,6 +3892,121 @@
         }
       },
       "interp": "1:56"
+    }
+  },
+  "SCATHA": {
+    "COMMON": {
+      "1": {
+        "otherNums": [
+          1.2
+        ],
+        "statNums": {
+          "MINING_SPEED": 0.0,
+          "DEFENSE": 0.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          100
+        ],
+        "statNums": {
+          "MINING_SPEED": 100.0,
+          "DEFENSE": 100.0
+        }
+      },
+      "interp": "1:69"
+    },
+    "UNCOMMON": {
+      "1": {
+        "otherNums": [
+          1.2
+        ],
+        "statNums": {
+          "MINING_SPEED": 0.0,
+          "DEFENSE": 0.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          100
+        ],
+        "statNums": {
+          "MINING_SPEED": 100.0,
+          "DEFENSE": 100.0
+        }
+      },
+      "interp": "1:69"
+    },
+    "RARE": {
+      "1": {
+        "otherNums": [
+          1.2,
+          0
+        ],
+        "statNums": {
+          "MINING_SPEED": 0.0,
+          "DEFENSE": 0.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          100,
+          2.5
+        ],
+        "statNums": {
+          "MINING_SPEED": 100.0,
+          "DEFENSE": 100.0
+        }
+      },
+      "interp": "1:69"
+    },
+    "EPIC": {
+      "1": {
+        "otherNums": [
+          1.2,
+          0
+        ],
+        "statNums": {
+          "MINING_SPEED": 0.0,
+          "DEFENSE": 0.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          125,
+          3.0
+        ],
+        "statNums": {
+          "MINING_SPEED": 100.0,
+          "DEFENSE": 100.0
+        }
+      },
+      "interp": "1:69"
+    },
+    "LEGENDARY": {
+      "1": {
+        "otherNums": [
+          1.2,
+          0,
+          0
+        ],
+        "statNums": {
+          "MINING_SPEED": 0.0,
+          "DEFENSE": 0.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          125,
+          3.0,
+          100
+        ],
+        "statNums": {
+          "MINING_SPEED": 100.0,
+          "DEFENSE": 100.0
+        }
+      },
+      "interp": "1:69"
     }
   },
   "TARANTULA": {

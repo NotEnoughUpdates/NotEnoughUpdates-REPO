@@ -30,7 +30,8 @@
     "UNCOMMON": 2,
     "RARE": 3,
     "EPIC": 4,
-    "LEGENDARY": 5
+    "LEGENDARY": 5,
+    "MYTHIC": 6
   },
   "bonus_stats": {
     "skill_taming": {
@@ -92,11 +93,11 @@
     "skill_enchanting": {
       "1": {
         "intelligence": 1,
-    "ability_damage": 0.5
+        "ability_damage": 0.5
       },
       "15": {
         "intelligence": 2,
-    "ability_damage": 0.5
+        "ability_damage": 0.5
       }
     },
 
@@ -111,13 +112,11 @@
 
     "skill_carpentry": {
       "1": {
-
       }
     },
 
     "skill_runecrafting": {
       "1": {
-
       }
     },
 
@@ -180,6 +179,36 @@
       },
       "8": {
         "speed": 1
+      },
+      "9": {
+        "health": 5
+      }
+    },
+
+    "slayer_enderman": {
+      "1": {
+        "health": 1
+      },
+      "2": {
+        "intelligence": 1
+      },
+      "3": {
+        "health": 2
+      },
+      "4": {
+        "intelligence": 2
+      },
+      "5": {
+        "health": 3
+      },
+      "6": {
+        "intelligence": 3
+      },
+      "7": {
+        "health": 4
+      },
+      "8": {
+        "intelligence": 4
       },
       "9": {
         "health": 5
