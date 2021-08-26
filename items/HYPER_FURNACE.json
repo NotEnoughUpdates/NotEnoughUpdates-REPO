@@ -1,15 +1,27 @@
 {
-  "internalname": "HYPER_FURNACE",
   "itemid": "minecraft:furnace",
   "displayname": "§aHyper Furnace",
   "clickcommand": "",
   "damage": 0,
   "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§a§lUNCOMMON\"],Name:\"§aHyper Furnace\"},ExtraAttributes:{id:\"HYPER_FURNACE\"}}",
-  "modver": "1.5-REL",
   "lore": [
     "§a§lUNCOMMON"
   ],
+  "recipe": {
+    "A1": "ENCHANTED_COBBLESTONE:8",
+    "A2": "ENCHANTED_COBBLESTONE:8",
+    "A3": "ENCHANTED_COBBLESTONE:8",
+    "B1": "ENCHANTED_COBBLESTONE:8",
+    "B2": "ENCHANTED_COAL:8",
+    "B3": "ENCHANTED_COBBLESTONE:8",
+    "C1": "ENCHANTED_COBBLESTONE:8",
+    "C2": "ENCHANTED_COBBLESTONE:8",
+    "C3": "ENCHANTED_COBBLESTONE:8"
+  },
+  "internalname": "HYPER_FURNACE",
   "crafttext": "Requires: Cobblestone VIII",
+  "clickcommand": "viewrecipe",
+  "modver": "2.0.0-REL",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Hyper_Furnace"
