@@ -4,6 +4,8 @@ name: NotEnoughUpdates REPO Workflow
 on:
   pull_request:
     branches: [ master, alpha ]
+  push:
+    branches: [ master, alpha ]
   workflow_dispatch:
 
 jobs:
