@@ -5,6 +5,8 @@ on:
   pull_request:
     branches: [ master, alpha ]
 
+workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
