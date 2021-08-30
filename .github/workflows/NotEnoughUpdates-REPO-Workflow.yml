@@ -15,6 +15,6 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: run-checks
-      uses: NotEnoughUpdates/NotEnoughUpdates-REPO-Workflow@main
+      uses: NotEnoughUpdates/NotEnoughUpdates-REPO-Workflow@main2
       with: 
         repo-token: ${{secrets.GITHUB_TOKEN}}
