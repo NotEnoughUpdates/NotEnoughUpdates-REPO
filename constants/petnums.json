@@ -1,176 +1,160 @@
-{ 
+{
   "AMMONITE": {
-  "LEGENDARY": {
+    "LEGENDARY": {
       "1": {
         "otherNums": [
-        0,
-        0,
-        0,
-        0
-       ],
-      "statNums": {
-        "SEA_CREATURE_CHANCE": 0.0
+          0,
+          0,
+          0,
+          0
+        ],
+        "statNums": {
+          "SEA_CREATURE_CHANCE": 0.0
         }
       },
       "100": {
         "otherNums": [
-        1.0,
-        2.0,
-        2.0,
-        0.6
+          1.0,
+          2.0,
+          2.0,
+          0.6
         ],
         "statNums": {
-        "SEA_CREATURE_CHANCE": 7
+          "SEA_CREATURE_CHANCE": 7
+        }
       }
-        },
-        "interp": "1:100"
     }
   },
   "BAL": {
     "EPIC": {
       "1": {
         "otherNums": [
-        0.1
-       ],
-      "statNums": {
-        "FEROCITY": 0.0,
-        "STRENGTH": 0.0
+          0.1
+        ],
+        "statNums": {
+          "FEROCITY": 0.0,
+          "STRENGTH": 0.0
         }
       },
       "100": {
         "otherNums": [
-        10.0
+          10.0
         ],
         "statNums": {
-        "FEROCITY": 10.0,
-        "STRENGTH": 25.0
+          "FEROCITY": 10.0,
+          "STRENGTH": 25.0
+        }
       }
-        },
-        "interp": "1:100"
-     },
-     "LEGENDARY": {
+    },
+    "LEGENDARY": {
       "1": {
         "otherNums": [
-        0.1,
-        0.1
-       ],
-      "statNums": {
-        "FEROCITY": 0.0,
-        "STRENGTH": 0.0
+          0.1,
+          0.1
+        ],
+        "statNums": {
+          "FEROCITY": 0.0,
+          "STRENGTH": 0.0
         }
       },
       "100": {
         "otherNums": [
-        10.0,
-        15.0
+          10.0,
+          15.0
         ],
         "statNums": {
-        "FEROCITY": 10.0,
-        "STRENGTH": 25.0
+          "FEROCITY": 10.0,
+          "STRENGTH": 25.0
+        }
       }
-        },
-        "interp": "1:100"
     }
   },
   "ARMADILLO": {
     "COMMON": {
-	  "1": {
-	    "otherNums": [
-		  
-		],
-		"statNums": {
-		  "DEFENSE": 2.0
-		  }
-		},
-		"100": {
-		  "otherNums": [
-		  
-		  ],
-		  "statNums": {
-		    "DEFENSE": 200
-		}
-	   },
-      "interp": "1:100"
-	},
-	"UNCOMMON": {
-	  "1": {
-	    "otherNums": [
-		  
-		],
-		"statNums": {
-		  "DEFENSE": 2.0
-		  }
-		},
-		"100": {
-		  "otherNums": [
-		   
-		  ],
-		  "statNums": {
-		    "DEFENSE": 200
-		}
-	   },
-      "interp": "1:100"
-	},
-	"RARE": {
-	  "1": {
-	    "otherNums": [
-		  57.9
-		],
-		"statNums": {
-		  "DEFENSE": 2.0
-		  }
-		},
-		"100": {
-		  "otherNums": [
-		    30.0
-		  ],
-		  "statNums": {
-		    "DEFENSE": 200
-		}
-	   },
-      "interp": "1:100"
-	},
-	"EPIC": {
-	  "1": {
-	    "otherNums": [
-		  57.9
-		],
-		"statNums": {
-		  "DEFENSE": 2.0
-		  }
-		},
-		"100": {
-		  "otherNums": [
-		    30.0
-		  ],
-		  "statNums": {
-		    "DEFENSE": 200
-		}
-	   },
-      "interp": "1:100"
-	},
-	"LEGENDARY": {
-	  "1": {
-	    "otherNums": [
-		  57.9,
-		  99.5
-		],
-		"statNums": {
-		  "DEFENSE": 2.0
-		  }
-		},
-		"100": {
-		  "otherNums": [
-		    30.0,
-			50
-		  ],
-		  "statNums": {
-		    "DEFENSE": 200
-		}
-	   },
-      "interp": "1:100"
-	}
-   },
+      "1": {
+        "otherNums": [],
+        "statNums": {
+          "DEFENSE": 2.0
+        }
+      },
+      "100": {
+        "otherNums": [],
+        "statNums": {
+          "DEFENSE": 200
+        }
+      }
+    },
+    "UNCOMMON": {
+      "1": {
+        "otherNums": [],
+        "statNums": {
+          "DEFENSE": 2.0
+        }
+      },
+      "100": {
+        "otherNums": [],
+        "statNums": {
+          "DEFENSE": 200
+        }
+      }
+    },
+    "RARE": {
+      "1": {
+        "otherNums": [
+          57.9
+        ],
+        "statNums": {
+          "DEFENSE": 2.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          30.0
+        ],
+        "statNums": {
+          "DEFENSE": 200
+        }
+      }
+    },
+    "EPIC": {
+      "1": {
+        "otherNums": [
+          57.9
+        ],
+        "statNums": {
+          "DEFENSE": 2.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          30.0
+        ],
+        "statNums": {
+          "DEFENSE": 200
+        }
+      }
+    },
+    "LEGENDARY": {
+      "1": {
+        "otherNums": [
+          57.9,
+          99.5
+        ],
+        "statNums": {
+          "DEFENSE": 2.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          30.0,
+          50
+        ],
+        "statNums": {
+          "DEFENSE": 200
+        }
+      }
+    }
+  },
   "BABY_YETI": {
     "EPIC": {
       "1": {
@@ -192,8 +176,7 @@
           "INTELLIGENCE": 75.0,
           "STRENGTH": 40.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -217,8 +200,7 @@
           "INTELLIGENCE": 75.0,
           "STRENGTH": 40.0
         }
-      },
-      "interp": "1:100"
+      }
     }
   },
   "BAT": {
@@ -240,8 +222,7 @@
           "INTELLIGENCE": 100.0,
           "SPEED": 5.0
         }
-      },
-      "interp": "1:23"
+      }
     },
     "EPIC": {
       "1": {
@@ -265,8 +246,7 @@
           "INTELLIGENCE": 100.0,
           "SPEED": 5.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -292,8 +272,7 @@
           "INTELLIGENCE": 100.0,
           "SPEED": 5.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "RARE": {
       "1": {
@@ -317,8 +296,7 @@
           "INTELLIGENCE": 100.0,
           "SPEED": 5.0
         }
-      },
-      "interp": "1:51"
+      }
     },
     "UNCOMMON": {
       "1": {
@@ -338,8 +316,7 @@
           "INTELLIGENCE": 100.0,
           "SPEED": 5.0
         }
-      },
-      "interp": "1:23"
+      }
     }
   },
   "BEE": {
@@ -367,8 +344,7 @@
           "SPEED": 10.0,
           "STRENGTH": 30.0
         }
-      },
-      "interp": "1:74"
+      }
     },
     "EPIC": {
       "1": {
@@ -396,8 +372,7 @@
           "INTELLIGENCE": 50.0,
           "SPEED": 10.0
         }
-      },
-      "interp": "1:27"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -427,8 +402,7 @@
           "SPEED": 10.0,
           "STRENGTH": 30.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "RARE": {
       "1": {
@@ -456,8 +430,7 @@
           "SPEED": 10.0,
           "STRENGTH": 30.0
         }
-      },
-      "interp": "1:65"
+      }
     },
     "UNCOMMON": {
       "1": {
@@ -483,8 +456,7 @@
           "SPEED": 10.0,
           "STRENGTH": 30.0
         }
-      },
-      "interp": "1:59"
+      }
     }
   },
   "BLACK_CAT": {
@@ -510,8 +482,7 @@
           "INTELLIGENCE": 100.0,
           "SPEED": 25.0
         }
-      },
-      "interp": "1:100"
+      }
     }
   },
   "BLAZE": {
@@ -535,8 +506,7 @@
           "DEFENSE": 30.0,
           "INTELLIGENCE": 100.0
         }
-      },
-      "interp": "1:92"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -560,8 +530,7 @@
           "DEFENSE": 30.0,
           "INTELLIGENCE": 100.0
         }
-      },
-      "interp": "72:96"
+      }
     }
   },
   "BLUE_WHALE": {
@@ -581,8 +550,7 @@
         "statNums": {
           "HEALTH": 200.0
         }
-      },
-      "interp": "1:64"
+      }
     },
     "EPIC": {
       "1": {
@@ -604,8 +572,7 @@
         "statNums": {
           "HEALTH": 200.0
         }
-      },
-      "interp": "1:79"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -631,8 +598,7 @@
           "DEFENSE": 25.0,
           "HEALTH": 200.0
         }
-      },
-      "interp": "70:100"
+      }
     },
     "RARE": {
       "1": {
@@ -654,8 +620,7 @@
         "statNums": {
           "HEALTH": 200.0
         }
-      },
-      "interp": "1:70"
+      }
     },
     "UNCOMMON": {
       "1": {
@@ -673,8 +638,7 @@
         "statNums": {
           "HEALTH": 200.0
         }
-      },
-      "interp": "1:75"
+      }
     }
   },
   "CHICKEN": {
@@ -694,8 +658,7 @@
         "statNums": {
           "HEALTH": 200.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "EPIC": {
       "1": {
@@ -715,8 +678,7 @@
         "statNums": {
           "HEALTH": 200.0
         }
-      },
-      "interp": "1:67"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -738,8 +700,7 @@
         "statNums": {
           "HEALTH": 200.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "RARE": {
       "1": {
@@ -759,8 +720,7 @@
         "statNums": {
           "HEALTH": 200.0
         }
-      },
-      "interp": "1:42"
+      }
     },
     "UNCOMMON": {
       "1": {
@@ -778,8 +738,7 @@
         "statNums": {
           "HEALTH": 200.0
         }
-      },
-      "interp": "1:63"
+      }
     }
   },
   "DOLPHIN": {
@@ -805,8 +764,7 @@
           "INTELLIGENCE": 100.0,
           "SEA_CREATURE_CHANCE": 5.0
         }
-      },
-      "interp": "1:84"
+      }
     },
     "EPIC": {
       "1": {
@@ -832,8 +790,7 @@
           "INTELLIGENCE": 100.0,
           "SEA_CREATURE_CHANCE": 5.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -861,8 +818,7 @@
           "INTELLIGENCE": 100.0,
           "SEA_CREATURE_CHANCE": 5.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "RARE": {
       "1": {
@@ -888,8 +844,7 @@
           "INTELLIGENCE": 100.0,
           "SEA_CREATURE_CHANCE": 5.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "UNCOMMON": {
       "1": {
@@ -913,8 +868,7 @@
           "INTELLIGENCE": 100.0,
           "SEA_CREATURE_CHANCE": 5.0
         }
-      },
-      "interp": "1:80"
+      }
     }
   },
   "ELEPHANT": {
@@ -938,8 +892,7 @@
           "HEALTH": 100.0,
           "INTELLIGENCE": 75.0
         }
-      },
-      "interp": "1:51"
+      }
     },
     "EPIC": {
       "1": {
@@ -965,8 +918,7 @@
           "HEALTH": 100.0,
           "INTELLIGENCE": 75.0
         }
-      },
-      "interp": "1:96"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -992,8 +944,7 @@
           "HEALTH": 100.0,
           "INTELLIGENCE": 75.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "RARE": {
       "1": {
@@ -1019,8 +970,7 @@
           "HEALTH": 100.0,
           "INTELLIGENCE": 75.0
         }
-      },
-      "interp": "1:82"
+      }
     },
     "UNCOMMON": {
       "1": {
@@ -1042,8 +992,7 @@
           "HEALTH": 100.0,
           "INTELLIGENCE": 75.0
         }
-      },
-      "interp": "1:69"
+      }
     }
   },
   "ENDERMAN": {
@@ -1063,8 +1012,7 @@
         "statNums": {
           "CRIT_DAMAGE": 75.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "EPIC": {
       "1": {
@@ -1086,8 +1034,7 @@
         "statNums": {
           "CRIT_DAMAGE": 75.0
         }
-      },
-      "interp": "1:90"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -1111,8 +1058,7 @@
         "statNums": {
           "CRIT_DAMAGE": 75.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "MYTHIC": {
       "1": {
@@ -1136,8 +1082,7 @@
         "statNums": {
           "CRIT_DAMAGE": 75.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "RARE": {
       "1": {
@@ -1159,8 +1104,7 @@
         "statNums": {
           "CRIT_DAMAGE": 75.0
         }
-      },
-      "interp": "1:98"
+      }
     },
     "UNCOMMON": {
       "1": {
@@ -1178,8 +1122,7 @@
         "statNums": {
           "CRIT_DAMAGE": 75.0
         }
-      },
-      "interp": "1:89"
+      }
     }
   },
   "ENDERMITE": {
@@ -1201,8 +1144,7 @@
         "statNums": {
           "INTELLIGENCE": 100.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -1226,8 +1168,7 @@
         "statNums": {
           "INTELLIGENCE": 100.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "UNCOMMON": {
       "1": {
@@ -1245,8 +1186,7 @@
         "statNums": {
           "INTELLIGENCE": 100.0
         }
-      },
-      "interp": "5:57"
+      }
     },
     "COMMON": {
       "1": {
@@ -1264,8 +1204,7 @@
         "statNums": {
           "INTELLIGENCE": 100.0
         }
-      },
-      "interp": "5:57"
+      }
     },
     "RARE": {
       "1": {
@@ -1285,8 +1224,7 @@
         "statNums": {
           "INTELLIGENCE": 100.0
         }
-      },
-      "interp": "5:57"
+      }
     }
   },
   "ENDER_DRAGON": {
@@ -1314,8 +1252,7 @@
           "CRIT_DAMAGE": 50.0,
           "STRENGTH": 50.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -1343,8 +1280,7 @@
           "CRIT_DAMAGE": 50.0,
           "STRENGTH": 50.0
         }
-      },
-      "interp": "1:100"
+      }
     }
   },
   "FLYING_FISH": {
@@ -1368,8 +1304,7 @@
           "DEFENSE": 50.0,
           "STRENGTH": 50.0
         }
-      },
-      "interp": "1:72"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -1393,8 +1328,7 @@
           "DEFENSE": 50.0,
           "STRENGTH": 50.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "RARE": {
       "1": {
@@ -1416,8 +1350,7 @@
           "DEFENSE": 50.0,
           "STRENGTH": 50.0
         }
-      },
-      "interp": "1:82"
+      }
     }
   },
   "GHOUL": {
@@ -1443,8 +1376,7 @@
           "HEALTH": 100.0,
           "INTELLIGENCE": 75.0
         }
-      },
-      "interp": "1:73"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -1470,8 +1402,7 @@
           "HEALTH": 100.0,
           "INTELLIGENCE": 75.0
         }
-      },
-      "interp": "1:81"
+      }
     }
   },
   "GIRAFFE": {
@@ -1493,8 +1424,7 @@
           "CRIT_CHANCE": 5.0,
           "HEALTH": 100.0
         }
-      },
-      "interp": "1:67"
+      }
     },
     "EPIC": {
       "1": {
@@ -1518,8 +1448,7 @@
           "CRIT_CHANCE": 5.0,
           "HEALTH": 100.0
         }
-      },
-      "interp": "1:88"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -1545,8 +1474,7 @@
           "CRIT_CHANCE": 5.0,
           "HEALTH": 100.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "RARE": {
       "1": {
@@ -1570,8 +1498,7 @@
           "CRIT_CHANCE": 5.0,
           "HEALTH": 100.0
         }
-      },
-      "interp": "1:60"
+      }
     },
     "UNCOMMON": {
       "1": {
@@ -1591,8 +1518,7 @@
           "CRIT_CHANCE": 5.0,
           "HEALTH": 100.0
         }
-      },
-      "interp": "1:68"
+      }
     }
   },
   "GOLEM": {
@@ -1618,8 +1544,7 @@
           "HEALTH": 150.0,
           "STRENGTH": 50.0
         }
-      },
-      "interp": "1:83"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -1649,8 +1574,7 @@
           "HEALTH": 150.0,
           "STRENGTH": 50.0
         }
-      },
-      "interp": "1:100"
+      }
     }
   },
   "GUARDIAN": {
@@ -1674,8 +1598,7 @@
           "DEFENSE": 50.0,
           "INTELLIGENCE": 100.0
         }
-      },
-      "interp": "1:80"
+      }
     },
     "EPIC": {
       "1": {
@@ -1699,8 +1622,7 @@
           "DEFENSE": 50.0,
           "INTELLIGENCE": 100.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -1726,8 +1648,7 @@
           "DEFENSE": 50.0,
           "INTELLIGENCE": 100.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "RARE": {
       "1": {
@@ -1751,8 +1672,7 @@
           "DEFENSE": 50.0,
           "INTELLIGENCE": 100.0
         }
-      },
-      "interp": "1:69"
+      }
     },
     "UNCOMMON": {
       "1": {
@@ -1774,8 +1694,7 @@
           "DEFENSE": 50.0,
           "INTELLIGENCE": 100.0
         }
-      },
-      "interp": "1:53"
+      }
     }
   },
   "GOLDEN_DRAGON": {
@@ -1801,8 +1720,7 @@
           "BONUS_ATTACK_SPEED": 50.0,
           "STRENGTH": 50.0
         }
-      },
-      "interp": "1:100"
+      }
     }
   },
   "HORSE": {
@@ -1820,8 +1738,7 @@
           "INTELLIGENCE": 50.0,
           "SPEED": 25.0
         }
-      },
-      "interp": "1:58"
+      }
     },
     "EPIC": {
       "1": {
@@ -1841,8 +1758,7 @@
           "INTELLIGENCE": 50.0,
           "SPEED": 25.0
         }
-      },
-      "interp": "1:42"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -1864,8 +1780,7 @@
           "INTELLIGENCE": 50.0,
           "SPEED": 25.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "RARE": {
       "1": {
@@ -1885,8 +1800,7 @@
           "INTELLIGENCE": 50.0,
           "SPEED": 25.0
         }
-      },
-      "interp": "1:47"
+      }
     },
     "UNCOMMON": {
       "1": {
@@ -1902,8 +1816,7 @@
           "INTELLIGENCE": 50.0,
           "SPEED": 25.0
         }
-      },
-      "interp": "1:41"
+      }
     }
   },
   "HOUND": {
@@ -1929,8 +1842,7 @@
           "FEROCITY": 5.0,
           "STRENGTH": 40.0
         }
-      },
-      "interp": "1:83"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -1956,8 +1868,7 @@
           "FEROCITY": 5.0,
           "STRENGTH": 40.0
         }
-      },
-      "interp": "1:100"
+      }
     }
   },
   "JELLYFISH": {
@@ -1987,8 +1898,7 @@
         "statNums": {
           "HEALTH": 200.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -2018,8 +1928,7 @@
         "statNums": {
           "HEALTH": 200.0
         }
-      },
-      "interp": "1:100"
+      }
     }
   },
   "JERRY": {
@@ -2041,8 +1950,7 @@
         "statNums": {
           "INTELLIGENCE": -100.0
         }
-      },
-      "interp": "1:58"
+      }
     },
     "EPIC": {
       "1": {
@@ -2062,8 +1970,7 @@
         "statNums": {
           "INTELLIGENCE": -100.0
         }
-      },
-      "interp": "1:45"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -2085,8 +1992,7 @@
         "statNums": {
           "INTELLIGENCE": -100.0
         }
-      },
-      "interp": "1:69"
+      }
     },
     "RARE": {
       "1": {
@@ -2106,8 +2012,7 @@
         "statNums": {
           "INTELLIGENCE": -100.0
         }
-      },
-      "interp": "1:54"
+      }
     },
     "UNCOMMON": {
       "1": {
@@ -2127,8 +2032,7 @@
         "statNums": {
           "INTELLIGENCE": -100.0
         }
-      },
-      "interp": "1:16"
+      }
     }
   },
   "LION": {
@@ -2154,8 +2058,7 @@
           "STRENGTH": 50.0,
           "FEROCITY": 5.0
         }
-      },
-      "interp": "1:60"
+      }
     },
     "EPIC": {
       "1": {
@@ -2181,8 +2084,7 @@
           "STRENGTH": 50.0,
           "FEROCITY": 5.0
         }
-      },
-      "interp": "1:83"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -2210,8 +2112,7 @@
           "STRENGTH": 50.0,
           "FEROCITY": 5.0
         }
-      },
-      "interp": "1:86"
+      }
     },
     "RARE": {
       "1": {
@@ -2237,8 +2138,7 @@
           "STRENGTH": 50.0,
           "FEROCITY": 5.0
         }
-      },
-      "interp": "1:62"
+      }
     },
     "UNCOMMON": {
       "1": {
@@ -2262,8 +2162,7 @@
           "STRENGTH": 50.0,
           "FEROCITY": 5.0
         }
-      },
-      "interp": "1:69"
+      }
     }
   },
   "MAGMA_CUBE": {
@@ -2289,8 +2188,7 @@
           "HEALTH": 50.0,
           "STRENGTH": 20.0
         }
-      },
-      "interp": "1:63"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -2316,8 +2214,7 @@
           "HEALTH": 50.0,
           "STRENGTH": 20.0
         }
-      },
-      "interp": "1:65"
+      }
     },
     "RARE": {
       "1": {
@@ -2341,8 +2238,7 @@
           "HEALTH": 50.0,
           "STRENGTH": 20.0
         }
-      },
-      "interp": "1:46"
+      }
     },
     "UNCOMMON": {
       "1": {
@@ -2364,8 +2260,7 @@
           "HEALTH": 50.0,
           "STRENGTH": 20.0
         }
-      },
-      "interp": "1:63"
+      }
     },
     "COMMON": {
       "1": {
@@ -2387,8 +2282,7 @@
           "HEALTH": 50.0,
           "STRENGTH": 20.0
         }
-      },
-      "interp": "1:63"
+      }
     }
   },
   "MEGALODON": {
@@ -2401,7 +2295,7 @@
         "statNums": {
           "STRENGTH": 0.0,
           "MAGIC_FIND": 0.0,
-          "FEROCITY":0.0
+          "FEROCITY": 0.0
         }
       },
       "100": {
@@ -2414,8 +2308,7 @@
           "MAGIC_FIND": 10.0,
           "FEROCITY": 5.0
         }
-      },
-      "interp": "1:83"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -2441,8 +2334,7 @@
           "MAGIC_FIND": 10.0,
           "FEROCITY": 5.0
         }
-      },
-      "interp": "1:100"
+      }
     }
   },
   "MONKEY": {
@@ -2464,8 +2356,7 @@
           "INTELLIGENCE": 50.0,
           "SPEED": 20.0
         }
-      },
-      "interp": "1:87"
+      }
     },
     "EPIC": {
       "1": {
@@ -2487,8 +2378,7 @@
           "INTELLIGENCE": 50.0,
           "SPEED": 20.0
         }
-      },
-      "interp": "1:86"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -2512,8 +2402,7 @@
           "INTELLIGENCE": 50.0,
           "SPEED": 20.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "RARE": {
       "1": {
@@ -2535,8 +2424,7 @@
           "INTELLIGENCE": 50.0,
           "SPEED": 20.0
         }
-      },
-      "interp": "1:81"
+      }
     },
     "UNCOMMON": {
       "1": {
@@ -2556,8 +2444,7 @@
           "INTELLIGENCE": 50.0,
           "SPEED": 20.0
         }
-      },
-      "interp": "1:86"
+      }
     }
   },
   "OCELOT": {
@@ -2579,8 +2466,7 @@
           "SPEED": 50.0,
           "FEROCITY": 10.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "EPIC": {
       "1": {
@@ -2602,8 +2488,7 @@
           "SPEED": 50.0,
           "FEROCITY": 10.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -2627,8 +2512,7 @@
           "SPEED": 50.0,
           "FEROCITY": 10.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "RARE": {
       "1": {
@@ -2650,8 +2534,7 @@
           "SPEED": 50.0,
           "FEROCITY": 10.0
         }
-      },
-      "interp": "1:80"
+      }
     },
     "UNCOMMON": {
       "1": {
@@ -2671,8 +2554,7 @@
           "SPEED": 50.0,
           "FEROCITY": 10.0
         }
-      },
-      "interp": "1:79"
+      }
     }
   },
   "PARROT": {
@@ -2696,8 +2578,7 @@
           "CRIT_DAMAGE": 10.0,
           "INTELLIGENCE": 100.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -2723,8 +2604,7 @@
           "CRIT_DAMAGE": 10.0,
           "INTELLIGENCE": 100.0
         }
-      },
-      "interp": "1:100"
+      }
     }
   },
   "PHOENIX": {
@@ -2756,8 +2636,7 @@
           "INTELLIGENCE": 150.0,
           "STRENGTH": 60.0
         }
-      },
-      "interp": "1:83"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -2787,8 +2666,7 @@
           "INTELLIGENCE": 150.0,
           "STRENGTH": 60.0
         }
-      },
-      "interp": "1:100"
+      }
     }
   },
   "PIG": {
@@ -2808,8 +2686,7 @@
         "statNums": {
           "SPEED": 25.0
         }
-      },
-      "interp": "1:50"
+      }
     },
     "EPIC": {
       "1": {
@@ -2829,8 +2706,7 @@
         "statNums": {
           "SPEED": 25.0
         }
-      },
-      "interp": "1:52"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -2850,8 +2726,7 @@
         "statNums": {
           "SPEED": 25.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "RARE": {
       "1": {
@@ -2871,8 +2746,7 @@
         "statNums": {
           "SPEED": 25.0
         }
-      },
-      "interp": "1:72"
+      }
     },
     "UNCOMMON": {
       "1": {
@@ -2890,8 +2764,7 @@
         "statNums": {
           "SPEED": 25.0
         }
-      },
-      "interp": "1:35"
+      }
     }
   },
   "PIGMAN": {
@@ -2919,8 +2792,7 @@
           "DEFENSE": 50.0,
           "STRENGTH": 50.0
         }
-      },
-      "interp": "1:82"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -2950,8 +2822,7 @@
           "DEFENSE": 50.0,
           "STRENGTH": 50.0
         }
-      },
-      "interp": "1:100"
+      }
     }
   },
   "RABBIT": {
@@ -2973,8 +2844,7 @@
           "HEALTH": 100.0,
           "SPEED": 20.0
         }
-      },
-      "interp": "1:78"
+      }
     },
     "EPIC": {
       "1": {
@@ -2996,8 +2866,7 @@
           "HEALTH": 100.0,
           "SPEED": 20.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -3021,8 +2890,7 @@
           "HEALTH": 100.0,
           "SPEED": 20.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "RARE": {
       "1": {
@@ -3044,8 +2912,7 @@
           "HEALTH": 100.0,
           "SPEED": 20.0
         }
-      },
-      "interp": "1:90"
+      }
     },
     "UNCOMMON": {
       "1": {
@@ -3065,8 +2932,7 @@
           "HEALTH": 100.0,
           "SPEED": 20.0
         }
-      },
-      "interp": "1:62"
+      }
     }
   },
   "ROCK": {
@@ -3088,8 +2954,7 @@
           "DEFENSE": 200.0,
           "TRUE_DEFENSE": 10.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "EPIC": {
       "1": {
@@ -3111,8 +2976,7 @@
           "DEFENSE": 200.0,
           "TRUE_DEFENSE": 10.0
         }
-      },
-      "interp": "1:80"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -3136,8 +3000,7 @@
           "DEFENSE": 200.0,
           "TRUE_DEFENSE": 10.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "RARE": {
       "1": {
@@ -3159,8 +3022,7 @@
           "DEFENSE": 200.0,
           "TRUE_DEFENSE": 10.0
         }
-      },
-      "interp": "1:87"
+      }
     },
     "UNCOMMON": {
       "1": {
@@ -3180,8 +3042,7 @@
           "DEFENSE": 200.0,
           "TRUE_DEFENSE": 10.0
         }
-      },
-      "interp": "1:90"
+      }
     }
   },
   "SHEEP": {
@@ -3207,8 +3068,7 @@
           "ABILITY_DAMAGE": 20.0,
           "INTELLIGENCE": 100.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "RARE": {
       "1": {
@@ -3232,8 +3092,7 @@
           "ABILITY_DAMAGE": 20.0,
           "INTELLIGENCE": 100.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "COMMON": {
       "1": {
@@ -3253,8 +3112,7 @@
           "ABILITY_DAMAGE": 20.0,
           "INTELLIGENCE": 100.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "UNCOMMON": {
       "1": {
@@ -3274,8 +3132,7 @@
           "ABILITY_DAMAGE": 20.0,
           "INTELLIGENCE": 100.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -3301,8 +3158,7 @@
           "ABILITY_DAMAGE": 20.0,
           "INTELLIGENCE": 100.0
         }
-      },
-      "interp": "1:100"
+      }
     }
   },
   "SILVERFISH": {
@@ -3324,8 +3180,7 @@
           "DEFENSE": 100.0,
           "HEALTH": 20.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "EPIC": {
       "1": {
@@ -3347,8 +3202,7 @@
           "DEFENSE": 100.0,
           "HEALTH": 20.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -3370,8 +3224,7 @@
           "DEFENSE": 100.0,
           "HEALTH": 20.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "RARE": {
       "1": {
@@ -3393,8 +3246,7 @@
           "DEFENSE": 100.0,
           "HEALTH": 20.0
         }
-      },
-      "interp": "1:79"
+      }
     },
     "UNCOMMON": {
       "1": {
@@ -3414,8 +3266,7 @@
           "DEFENSE": 100.0,
           "HEALTH": 20.0
         }
-      },
-      "interp": "1:64"
+      }
     }
   },
   "SKELETON": {
@@ -3437,8 +3288,7 @@
           "CRIT_CHANCE": 15.0,
           "CRIT_DAMAGE": 30.0
         }
-      },
-      "interp": "1:64"
+      }
     },
     "EPIC": {
       "1": {
@@ -3464,8 +3314,7 @@
           "CRIT_CHANCE": 15.0,
           "CRIT_DAMAGE": 30.0
         }
-      },
-      "interp": "1:65"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -3495,8 +3344,7 @@
           "CRIT_CHANCE": 15.0,
           "CRIT_DAMAGE": 30.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "RARE": {
       "1": {
@@ -3522,8 +3370,7 @@
           "CRIT_CHANCE": 15.0,
           "CRIT_DAMAGE": 30.0
         }
-      },
-      "interp": "1:52"
+      }
     },
     "UNCOMMON": {
       "1": {
@@ -3543,8 +3390,7 @@
           "CRIT_CHANCE": 15.0,
           "CRIT_DAMAGE": 30.0
         }
-      },
-      "interp": "1:49"
+      }
     }
   },
   "SKELETON_HORSE": {
@@ -3568,8 +3414,7 @@
           "INTELLIGENCE": 100.0,
           "SPEED": 50.0
         }
-      },
-      "interp": "1:64"
+      }
     }
   },
   "SNOWMAN": {
@@ -3599,13 +3444,12 @@
           "DAMAGE": 25.0,
           "STRENGTH": 25.0
         }
-      },
-      "interp": "1:87"
+      }
     }
   },
   "SPIDER": {
-    "COMMON":{
-      "1":{
+    "COMMON": {
+      "1": {
         "otherNums": [
           0.1,
           10.0
@@ -3615,7 +3459,7 @@
           "STRENGTH": 0.0
         }
       },
-      "100":{
+      "100": {
         "otherNums": [
           10.0,
           10.0
@@ -3624,8 +3468,7 @@
           "CRIT_CHANCE": 10.0,
           "STRENGTH": 10.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "UNCOMMON": {
       "1": {
@@ -3647,8 +3490,7 @@
           "CRIT_CHANCE": 10.0,
           "STRENGTH": 10.0
         }
-      },
-      "interp": "1:45"
+      }
     },
     "RARE": {
       "1": {
@@ -3656,7 +3498,6 @@
           0.1,
           10.0,
           0.4
-
         ],
         "statNums": {
           "CRIT_CHANCE": 0.0,
@@ -3673,8 +3514,7 @@
           "CRIT_CHANCE": 10.0,
           "STRENGTH": 10.0
         }
-      },
-      "interp": "1:45"
+      }
     },
     "EPIC": {
       "1": {
@@ -3698,8 +3538,7 @@
           "CRIT_CHANCE": 10.0,
           "STRENGTH": 10.0
         }
-      },
-      "interp": "1:45"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -3725,8 +3564,7 @@
           "CRIT_CHANCE": 10.0,
           "STRENGTH": 10.0
         }
-      },
-      "interp": "1:100"
+      }
     }
   },
   "SPIRIT": {
@@ -3748,8 +3586,7 @@
           "INTELLIGENCE": 100.0,
           "SPEED": 30.0
         }
-      },
-      "interp": "1:61"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -3769,8 +3606,7 @@
           "INTELLIGENCE": 100.0,
           "SPEED": 30.0
         }
-      },
-      "interp": "1:85"
+      }
     }
   },
   "SQUID": {
@@ -3792,8 +3628,7 @@
           "HEALTH": 50.0,
           "INTELLIGENCE": 50.0
         }
-      },
-      "interp": "1:69"
+      }
     },
     "EPIC": {
       "1": {
@@ -3817,8 +3652,7 @@
           "HEALTH": 50.0,
           "INTELLIGENCE": 50.0
         }
-      },
-      "interp": "1:78"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -3844,8 +3678,7 @@
           "HEALTH": 50.0,
           "INTELLIGENCE": 50.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "RARE": {
       "1": {
@@ -3869,8 +3702,7 @@
           "HEALTH": 50.0,
           "INTELLIGENCE": 50.0
         }
-      },
-      "interp": "1:75"
+      }
     },
     "UNCOMMON": {
       "1": {
@@ -3890,8 +3722,7 @@
           "HEALTH": 50.0,
           "INTELLIGENCE": 50.0
         }
-      },
-      "interp": "1:56"
+      }
     }
   },
   "SCATHA": {
@@ -3913,8 +3744,7 @@
           "MINING_SPEED": 100.0,
           "DEFENSE": 100.0
         }
-      },
-      "interp": "1:69"
+      }
     },
     "UNCOMMON": {
       "1": {
@@ -3934,8 +3764,7 @@
           "MINING_SPEED": 100.0,
           "DEFENSE": 100.0
         }
-      },
-      "interp": "1:69"
+      }
     },
     "RARE": {
       "1": {
@@ -3957,8 +3786,7 @@
           "MINING_SPEED": 100.0,
           "DEFENSE": 100.0
         }
-      },
-      "interp": "1:69"
+      }
     },
     "EPIC": {
       "1": {
@@ -3980,8 +3808,7 @@
           "MINING_SPEED": 100.0,
           "DEFENSE": 100.0
         }
-      },
-      "interp": "1:69"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -4005,8 +3832,7 @@
           "MINING_SPEED": 100.0,
           "DEFENSE": 100.0
         }
-      },
-      "interp": "1:69"
+      }
     }
   },
   "TARANTULA": {
@@ -4032,8 +3858,7 @@
           "CRIT_DAMAGE": 30.0,
           "STRENGTH": 10.0
         }
-      },
-      "interp": "1:65"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -4059,8 +3884,7 @@
           "CRIT_DAMAGE": 30.0,
           "STRENGTH": 10.0
         }
-      },
-      "interp": "1:100"
+      }
     }
   },
   "TIGER": {
@@ -4086,8 +3910,7 @@
           "CRIT_DAMAGE": 50.0,
           "STRENGTH": 15.0
         }
-      },
-      "interp": "1:90"
+      }
     },
     "EPIC": {
       "1": {
@@ -4115,8 +3938,7 @@
           "CRIT_DAMAGE": 50.0,
           "STRENGTH": 15.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -4148,8 +3970,7 @@
           "CRIT_DAMAGE": 50.0,
           "STRENGTH": 15.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "RARE": {
       "1": {
@@ -4177,8 +3998,7 @@
           "CRIT_DAMAGE": 50.0,
           "STRENGTH": 15.0
         }
-      },
-      "interp": "1:93"
+      }
     },
     "UNCOMMON": {
       "1": {
@@ -4202,8 +4022,7 @@
           "CRIT_DAMAGE": 50.0,
           "STRENGTH": 15.0
         }
-      },
-      "interp": "1:92"
+      }
     }
   },
   "TURTLE": {
@@ -4229,8 +4048,7 @@
           "DEFENSE": 100.0,
           "HEALTH": 50.0
         }
-      },
-      "interp": "1:86"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -4254,8 +4072,7 @@
           "DEFENSE": 100.0,
           "HEALTH": 50.0
         }
-      },
-      "interp": "1:100"
+      }
     }
   },
   "WITHER_SKELETON": {
@@ -4285,8 +4102,7 @@
           "INTELLIGENCE": 25.0,
           "STRENGTH": 25.0
         }
-      },
-      "interp": "1:79"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -4318,8 +4134,7 @@
           "INTELLIGENCE": 25.0,
           "STRENGTH": 25.0
         }
-      },
-      "interp": "1:100"
+      }
     }
   },
   "WOLF": {
@@ -4345,8 +4160,7 @@
           "SPEED": 20.0,
           "TRUE_DEFENSE": 10.0
         }
-      },
-      "interp": "1:60"
+      }
     },
     "EPIC": {
       "1": {
@@ -4374,8 +4188,7 @@
           "SPEED": 20.0,
           "TRUE_DEFENSE": 10.0
         }
-      },
-      "interp": "1:75"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -4405,8 +4218,7 @@
           "SPEED": 20.0,
           "TRUE_DEFENSE": 10.0
         }
-      },
-      "interp": "1:100"
+      }
     },
     "RARE": {
       "1": {
@@ -4434,8 +4246,7 @@
           "SPEED": 20.0,
           "TRUE_DEFENSE": 10.0
         }
-      },
-      "interp": "1:57"
+      }
     },
     "UNCOMMON": {
       "1": {
@@ -4459,8 +4270,7 @@
           "SPEED": 20.0,
           "TRUE_DEFENSE": 10.0
         }
-      },
-      "interp": "1:72"
+      }
     }
   },
   "ZOMBIE": {
@@ -4484,8 +4294,7 @@
           "CRIT_DAMAGE": 30.0,
           "HEALTH": 100.0
         }
-      },
-      "interp": "1:70"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -4509,8 +4318,7 @@
           "CRIT_DAMAGE": 30.0,
           "HEALTH": 100.0
         }
-      },
-      "interp": "1:64"
+      }
     },
     "UNCOMMON": {
       "1": {
@@ -4530,30 +4338,28 @@
           "CRIT_DAMAGE": 30.0,
           "HEALTH": 100.0
         }
-      },
-      "interp": "1:70"
+      }
     },
     "COMMON": {
-        "1": {
-          "otherNums": [
-            0.2
-          ],
-          "statNums": {
-            "CRIT_DAMAGE": 0.0,
-            "HEALTH": 1.0
-          }
-        },
-        "100": {
-          "otherNums": [
-            20
-          ],
-          "statNums": {
-            "CRIT_DAMAGE": 30.0,
-            "HEALTH": 100.0
-          }
-        },
-        "interp": "1:70"
+      "1": {
+        "otherNums": [
+          0.2
+        ],
+        "statNums": {
+          "CRIT_DAMAGE": 0.0,
+          "HEALTH": 1.0
+        }
       },
+      "100": {
+        "otherNums": [
+          20
+        ],
+        "statNums": {
+          "CRIT_DAMAGE": 30.0,
+          "HEALTH": 100.0
+        }
+      }
+    },
     "RARE": {
       "1": {
         "otherNums": [
@@ -4574,15 +4380,13 @@
           "CRIT_DAMAGE": 30.0,
           "HEALTH": 100.0
         }
-      },
-      "interp": "1:70"
+      }
     }
   },
-   "GRIFFIN": {
+  "GRIFFIN": {
     "COMMON": {
       "1": {
-        "otherNums": [
-        ],
+        "otherNums": [],
         "statNums": {
           "CRIT_CHANCE": 0.1,
           "CRIT_DAMAGE": 0.5,
@@ -4592,22 +4396,19 @@
         }
       },
       "100": {
-        "otherNums": [
-        ],
+        "otherNums": [],
         "statNums": {
-           "CRIT_CHANCE": 10,
+          "CRIT_CHANCE": 10,
           "CRIT_DAMAGE": 50,
           "STRENGTH": 25,
           "MAGIC_FIND": 10,
           "INTELLIGENCE": 10
         }
-      },
-      "interp": "1:70"
+      }
     },
     "UNCOMMON": {
       "1": {
-        "otherNums": [
-        ],
+        "otherNums": [],
         "statNums": {
           "CRIT_CHANCE": 0.1,
           "CRIT_DAMAGE": 0.5,
@@ -4617,8 +4418,7 @@
         }
       },
       "100": {
-        "otherNums": [
-        ],
+        "otherNums": [],
         "statNums": {
           "CRIT_CHANCE": 10,
           "CRIT_DAMAGE": 50,
@@ -4626,13 +4426,11 @@
           "MAGIC_FIND": 10,
           "INTELLIGENCE": 10
         }
-      },
-      "interp": "1:70"
+      }
     },
     "RARE": {
       "1": {
-        "otherNums": [
-        ],
+        "otherNums": [],
         "statNums": {
           "CRIT_CHANCE": 0.1,
           "CRIT_DAMAGE": 0.5,
@@ -4642,8 +4440,7 @@
         }
       },
       "100": {
-        "otherNums": [
-        ],
+        "otherNums": [],
         "statNums": {
           "CRIT_CHANCE": 10,
           "CRIT_DAMAGE": 50,
@@ -4651,8 +4448,7 @@
           "MAGIC_FIND": 10,
           "INTELLIGENCE": 10
         }
-      },
-      "interp": "1:70"
+      }
     },
     "EPIC": {
       "1": {
@@ -4678,8 +4474,7 @@
           "MAGIC_FIND": 10,
           "INTELLIGENCE": 10
         }
-      },
-      "interp": "1:70"
+      }
     },
     "LEGENDARY": {
       "1": {
@@ -4707,114 +4502,113 @@
           "MAGIC_FIND": 10,
           "INTELLIGENCE": 10
         }
-      },
-      "interp": "1:70"
+      }
     }
   },
-  "MITHRIL_GOLEM":{
-    "COMMON":{
-      "1":{
-        "otherNums":[
+  "MITHRIL_GOLEM": {
+    "COMMON": {
+      "1": {
+        "otherNums": [
           0.5
         ],
-        "statNums":{
+        "statNums": {
           "TRUE_DEFENSE": 0.5
         }
       },
-      "100":{
-        "otherNums":[
+      "100": {
+        "otherNums": [
           50
         ],
-        "statNums":{
+        "statNums": {
           "TRUE_DEFENSE": 50.0
         }
       }
     },
-    "UNCOMMON":{
-      "1":{
-        "otherNums":[
+    "UNCOMMON": {
+      "1": {
+        "otherNums": [
           0.8
         ],
-        "statNums":{
+        "statNums": {
           "TRUE_DEFENSE": 0.5
         }
       },
-      "100":{
-        "otherNums":[
+      "100": {
+        "otherNums": [
           80
         ],
-        "statNums":{
+        "statNums": {
           "TRUE_DEFENSE": 50.0
         }
       }
     },
-    "RARE":{
-      "1":{
-        "otherNums":[
+    "RARE": {
+      "1": {
+        "otherNums": [
           0.8,
           0.1
         ],
-        "statNums":{
+        "statNums": {
           "TRUE_DEFENSE": 0.5
         }
       },
-      "100":{
-        "otherNums":[
+      "100": {
+        "otherNums": [
           80,
           10
         ],
-        "statNums":{
+        "statNums": {
           "TRUE_DEFENSE": 50.0
         }
       }
     },
-    "EPIC":{
-      "1":{
-        "otherNums":[
+    "EPIC": {
+      "1": {
+        "otherNums": [
           1,
           0.2
         ],
-        "statNums":{
+        "statNums": {
           "TRUE_DEFENSE": 0.5
         }
       },
-      "100":{
-        "otherNums":[
+      "100": {
+        "otherNums": [
           100,
           20.0
         ],
-        "statNums":{
+        "statNums": {
           "TRUE_DEFENSE": 50.0
         }
       }
     },
-    "LEGENDARY":{
-      "1":{
-        "otherNums":[
+    "LEGENDARY": {
+      "1": {
+        "otherNums": [
           1,
           0.2,
           0.2
         ],
-        "statNums":{
+        "statNums": {
           "TRUE_DEFENSE": 0.5
         }
       },
-      "100":{
-        "otherNums":[
+      "100": {
+        "otherNums": [
           100,
           20.0,
           20.0
         ],
-        "statNums":{
+        "statNums": {
           "TRUE_DEFENSE": 50.0
         }
       }
     }
   },
-  "GRANDMA_WOLF":{
-    "COMMON":{
-      "1":{
-        "otherNums":[
+  "GRANDMA_WOLF": {
+    "COMMON": {
+      "1": {
+        "otherNums": [
           8,
           6,
           4,
@@ -4822,13 +4616,13 @@
           3,
           2
         ],
-        "statNums":{
+        "statNums": {
           "HEALTH": 1,
-          "STRENGTH":0
+          "STRENGTH": 0
         }
       },
-      "100":{
-        "otherNums":[
+      "100": {
+        "otherNums": [
           10,
           8,
           6,
@@ -4836,15 +4630,15 @@
           4,
           3
         ],
-        "statNums":{
+        "statNums": {
           "HEALTH": 25,
-          "STRENGTH":100
+          "STRENGTH": 100
         }
       }
     },
-    "UNCOMMON":{
-      "1":{
-        "otherNums":[
+    "UNCOMMON": {
+      "1": {
+        "otherNums": [
           8,
           6,
           4,
@@ -4852,13 +4646,13 @@
           3,
           2
         ],
-        "statNums":{
+        "statNums": {
           "HEALTH": 1,
-          "STRENGTH":0
+          "STRENGTH": 0
         }
       },
-      "100":{
-        "otherNums":[
+      "100": {
+        "otherNums": [
           10,
           8,
           6,
@@ -4866,15 +4660,15 @@
           4,
           3
         ],
-        "statNums":{
+        "statNums": {
           "HEALTH": 25,
-          "STRENGTH":100
+          "STRENGTH": 100
         }
       }
     },
-    "RARE":{
-      "1":{
-        "otherNums":[
+    "RARE": {
+      "1": {
+        "otherNums": [
           8,
           6,
           4,
@@ -4882,13 +4676,13 @@
           3,
           2
         ],
-        "statNums":{
+        "statNums": {
           "HEALTH": 1,
-          "STRENGTH":0
+          "STRENGTH": 0
         }
       },
-      "100":{
-        "otherNums":[
+      "100": {
+        "otherNums": [
           10,
           8,
           6,
@@ -4896,15 +4690,15 @@
           4,
           3
         ],
-        "statNums":{
+        "statNums": {
           "HEALTH": 25,
-          "STRENGTH":100
+          "STRENGTH": 100
         }
       }
     },
-    "EPIC":{
-      "1":{
-        "otherNums":[
+    "EPIC": {
+      "1": {
+        "otherNums": [
           8,
           6,
           4,
@@ -4912,13 +4706,13 @@
           3,
           2
         ],
-        "statNums":{
+        "statNums": {
           "HEALTH": 1,
-          "STRENGTH":0
+          "STRENGTH": 0
         }
       },
-      "100":{
-        "otherNums":[
+      "100": {
+        "otherNums": [
           10,
           8,
           6,
@@ -4926,15 +4720,15 @@
           4,
           3
         ],
-        "statNums":{
+        "statNums": {
           "HEALTH": 25,
-          "STRENGTH":100
+          "STRENGTH": 100
         }
       }
     },
-    "LEGENDARY":{
-      "1":{
-        "otherNums":[
+    "LEGENDARY": {
+      "1": {
+        "otherNums": [
           8,
           6,
           4,
@@ -4942,13 +4736,13 @@
           3,
           2
         ],
-        "statNums":{
+        "statNums": {
           "HEALTH": 1,
-          "STRENGTH":0
+          "STRENGTH": 0
         }
       },
-      "100":{
-        "otherNums":[
+      "100": {
+        "otherNums": [
           10,
           8,
           6,
@@ -4956,9 +4750,9 @@
           4,
           3
         ],
-        "statNums":{
+        "statNums": {
           "HEALTH": 25,
-          "STRENGTH":100
+          "STRENGTH": 100
         }
       }
     }
@@ -4986,8 +4780,7 @@
           "HEALTH": 100.0,
           "STRENGTH": 50.0
         }
-      },
-      "interp": "1:87"
+      }
     }
   }
 }
