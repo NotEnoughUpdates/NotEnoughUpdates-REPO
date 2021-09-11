@@ -1,18 +1,19 @@
 {
   "itemid": "minecraft:iron_sword",
   "displayname": "§fSpider Sword",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+30\",1:\"\",2:\"§7Deals §a+100% §7damage to §7Cave\",3:\"§7Spiders§7, §7Spiders§7, and\",4:\"§7§7Silverfish§7.\",5:\"\",6:\"§7§8This item can be reforged!\",7:\"§f§lCOMMON SWORD\"],Name:\"§fSpider Sword\"},ExtraAttributes:{id:\"SPIDER_SWORD\"}}",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+30\",1:\"\",2:\"§7Deals §a+100% §7damage to\",3:\"§7§7Spiders§7, §7Cave Spiders§7,\",4:\"§7and §7Silverfish§7.\",5:\"\",6:\"§7§8This item can be reforged!\",7:\"§f§lCOMMON SWORD\"],Name:\"§fSpider Sword\"},ExtraAttributes:{originTag:\"SHOP_PURCHASE\",id:\"SPIDER_SWORD\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+30",
     "",
-    "§7Deals §a+100% §7damage to §7Cave",
-    "§7Spiders§7, §7Spiders§7, and",
-    "§7§7Silverfish§7.",
+    "§7Deals §a+100% §7damage to",
+    "§7§7Spiders§7, §7Cave Spiders§7,",
+    "§7and §7Silverfish§7.",
     "",
     "§7§8This item can be reforged!",
     "§f§lCOMMON SWORD"
   ],
+  "internalname": "SPIDER_SWORD",
   "recipe": {
     "A1": "",
     "A2": "SPIDER_EYE:1",
@@ -24,9 +25,8 @@
     "C2": "STICK:1",
     "C3": ""
   },
-  "internalname": "SPIDER_SWORD",
   "clickcommand": "viewrecipe",
-  "modver": "1.0.0",
+  "modver": "2.0.0-REL",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Spider_Sword"
