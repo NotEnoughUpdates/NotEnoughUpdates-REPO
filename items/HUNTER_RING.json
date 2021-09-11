@@ -1,16 +1,14 @@
 {
-  "internalname": "HUNTER_RING",
   "itemid": "minecraft:skull",
   "displayname": "§9Hunter Ring",
-  "clickcommand": "viewrecipe",
+  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"5eac7b84-83f3-30d4-9c4c-2fa242f0ac1d\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1Njk2MDc1Mzc1MTUsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVjNTc3ZTdkMzFlNWUwNGMyY2U3MWUxM2UzOTYyMTkyZDgwYmQ1NGI1NWVmYWFjYWFlYTEyOTY2ZmUyN2JmOSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Gain §b+5% §7Combat XP from\",1:\"§7monster kills.\",2:\"\",3:\"§7§8This item can be reforged!\",4:\"§7§4☠ §cRequires §5Wolf Slayer 7.\",5:\"§9§lRARE ACCESSORY\"],Name:\"§9Hunter Ring\"},ExtraAttributes:{originTag:\"CRAFTING_GRID_COLLECT\",id:\"HUNTER_RING\"},AttributeModifiers:[]}",
   "damage": 3,
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"5eac7b84-83f3-30d4-9c4c-2fa242f0ac1d\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1Njk2MDc1Mzc1MTUsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVjNTc3ZTdkMzFlNWUwNGMyY2U3MWUxM2UzOTYyMTkyZDgwYmQ1NGI1NWVmYWFjYWFlYTEyOTY2ZmUyN2JmOSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Gain §b+5% §7Combat XP from\",1:\"§7monster kills.\",2:\"\",3:\"§7§4☠ §cRequires §5Wolf Slayer 7\",4:\"§9§lRARE ACCESSORY\"],Name:\"§9Hunter Ring\"},ExtraAttributes:{modifier:\"itchy\",id:\"HUNTER_RING\"}}",
-  "modver": "1.0.0",
   "lore": [
     "§7Gain §b+5% §7Combat XP from",
     "§7monster kills.",
     "",
-    "§7§4☠ §cRequires §5Wolf Slayer 7",
+    "§7§8This item can be reforged!",
+    "§7§4☠ §cRequires §5Wolf Slayer 7.",
     "§9§lRARE ACCESSORY"
   ],
   "recipe": {
@@ -21,13 +19,16 @@
     "B2": "GRIZZLY_BAIT:1",
     "B3": "GOLDEN_TOOTH:32",
     "C1": "GOLDEN_TOOTH:32",
-    "C2": "GOLDEN_TOOTH:32",
+    "C2": "HUNTER_TALISMAN:1",
     "C3": "GOLDEN_TOOTH:32"
   },
   "slayer_req": "WOLF_7",
+  "internalname": "HUNTER_RING",
+  "crafttext": "",
+  "clickcommand": "viewrecipe",
+  "modver": "2.0.0-REL",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Hunter_Ring"
-  ],
-  "crafttext": ""
+  ]
 }
