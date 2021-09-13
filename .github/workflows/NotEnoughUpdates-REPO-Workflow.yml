@@ -2,10 +2,10 @@ name: NotEnoughUpdates REPO Workflow
 
 # Controls when the action will run. 
 on:
-  pull_request:
-    branches: [ master, alpha ]
+  pull_request_target:
+    branches: [ master ]
   push:
-    branches: [ master, alpha ]
+    branches: [ master ]
   workflow_dispatch:
 
 jobs:
