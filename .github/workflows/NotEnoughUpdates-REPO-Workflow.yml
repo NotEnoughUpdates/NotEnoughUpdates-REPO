@@ -17,9 +17,9 @@ jobs:
       run: |
         if [ $EVENT == 'pull_request_target' ]
         then
-            echo "::set-output name=sha::github.event.pull_request.head.sha"
+            echo "::set-output name=sha::$github.event.pull_request.head.sha"
         else
-            echo "::set-output name=sha::github.context.sha"
+            echo "::set-output name=sha::$github.context.sha"
         fi
       env:
         EVENT: ${{ github.event_name }}
