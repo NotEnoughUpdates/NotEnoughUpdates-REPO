@@ -1,0 +1,18 @@
+name: NotEnoughUpdates REPO Workflow
+
+# Controls when the action will run. 
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: run-checks
+      uses: NotEnoughUpdates/NotEnoughUpdates-REPO-Workflow@main
+      with: 
+        repo-token: ${{secrets.GITHUB_TOKEN}}
