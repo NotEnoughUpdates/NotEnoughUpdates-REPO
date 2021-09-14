@@ -2,9 +2,9 @@ name: NotEnoughUpdates REPO Workflow
 
 # Controls when the action will run. 
 on:
-  push:
-    branches: [ master ]
   pull_request_target:
+    branches: [ master ]
+  push:
     branches: [ master ]
   workflow_dispatch:
 
@@ -12,11 +12,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    - name: find head
+      id: sha
+      run: |
+        if [$github.event_name == 'pull_request_target']
+        then
+            echo "::set-output name=sha::github.event.pull_request.head.sha"
+        else
+            echo "::set-output name=sha::github.context.sha"
+        fi
     - uses: actions/checkout@v2
-      if: ${{ github.event_name == 'pull_request_target' }}
       with: 
-        ref: ${{ github.event.pull_request.head.sha }}
-
+        ref: ${{ steps.sha.outputs.sha }}
     - name: run-checks
       uses: NotEnoughUpdates/NotEnoughUpdates-REPO-Workflow@main
       with: 
