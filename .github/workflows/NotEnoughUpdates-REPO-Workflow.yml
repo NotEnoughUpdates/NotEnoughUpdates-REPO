@@ -17,12 +17,14 @@ jobs:
       run: |
         if [ $EVENT == 'pull_request_target' ]
         then
-            echo "::set-output name=sha::$github.event.pull_request.head.sha"
+            echo "::set-output name=sha::$PR"
         else
-            echo "::set-output name=sha::$github.context.sha"
+            echo "::set-output name=sha::$HEAD"
         fi
       env:
         EVENT: ${{ github.event_name }}
+        PR: ${{ github.event.pull_request.head.sha }}
+        HEAD: ${{ github.context.sha }}
     - uses: actions/checkout@v2
       with: 
         ref: ${{ steps.sha.outputs.sha }}
