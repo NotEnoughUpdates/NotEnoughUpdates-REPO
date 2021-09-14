@@ -4,14 +4,15 @@ name: NotEnoughUpdates REPO Workflow
 on:
   pull_request_target:
     branches: [ master ]
-  push:
-    branches: [ master ]
-  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v2
+      with:
+       ref: ${{ github.event.pull_request.head.sha }}
+
 
     - name: run-checks
       uses: NotEnoughUpdates/NotEnoughUpdates-REPO-Workflow@main
