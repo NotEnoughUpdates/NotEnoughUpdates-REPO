@@ -989,7 +989,8 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
       "COMMON": 250,
@@ -997,7 +998,8 @@
       "RARE": 1000,
       "EPIC": 2500,
       "LEGENDARY": 5000,
-      "MYTHIC": 10000
+      "MYTHIC": 10000,
+      "DIVINE": 15000
     },
     "reforgeAbility": {
       "COMMON": "Gain §a+10% §7extra experience§r§7 when mining.",
@@ -1005,7 +1007,8 @@
       "RARE": "Gain §a+14% §7extra experience§r§7 when mining.",
       "EPIC": "Gain §a+16% §7extra experience§r§7 when mining.",
       "LEGENDARY": "Gain §a+18% §7extra experience§r§7 when mining.",
-      "MYTHIC": "Gain §a+20% §7extra experience§r§7 when mining."
+      "MYTHIC": "Gain §a+20% §7extra experience§r§7 when mining.",
+      "DIVINE": "Gain §a+22% §7extra experience§r§7 when mining."
     },
     "reforgeStats": {
       "COMMON": {
@@ -1022,6 +1025,9 @@
       },
       "LEGENDARY": {
         "defense": 10
+      },
+      "DIVINE": {
+        "defense": 14
       }
     }
   },
@@ -1859,7 +1865,8 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
       "COMMON": 20000,
@@ -1867,7 +1874,8 @@
       "RARE": 80000,
       "EPIC": 150000,
       "LEGENDARY": 300000,
-      "MYTHIC": 300000
+      "MYTHIC": 300000,
+      "DIVINE": 300000
     },
     "reforgeAbility": "Grants §a+8 §6☘ Mining §6Fortune§7, which increases your §7chance for multiple drops.",
     "reforgeStats": {
@@ -1887,7 +1895,10 @@
         "mining_speed": 45
       },
       "MYTHIC": {
-        "mining_speed": 45
+        "mining_speed": 65
+      },
+      "DIVINE": {
+        "mining_speed": 75
       }
     }
   },
