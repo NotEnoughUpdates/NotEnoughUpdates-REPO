@@ -12,8 +12,22 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    - name: Find HEAD
+      id: sha
+      run: |
+        if [ $EVENT == 'pull_request_target' ]
+        then
+            echo "::set-output name=sha::$PR"
+        else
+            echo "::set-output name=sha::$HEAD"
+        fi
+      env:
+        EVENT: ${{ github.event_name }}
+        PR: ${{ github.event.pull_request.head.sha }}
+        HEAD: ${{ github.context.sha }}
     - uses: actions/checkout@v2
-
+      with: 
+        ref: ${{ steps.sha.outputs.sha }}
     - name: run-checks
       uses: NotEnoughUpdates/NotEnoughUpdates-REPO-Workflow@main
       with: 
