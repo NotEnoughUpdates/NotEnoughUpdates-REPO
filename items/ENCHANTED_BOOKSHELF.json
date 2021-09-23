@@ -1,13 +1,16 @@
 {
   "itemid": "minecraft:bookshelf",
   "displayname": "§aEnchanted Bookshelf",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Counts as §a15§7 Bookshelves\",1:\"§7when placed near an Enchanting\",2:\"§7Table\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Bookshelf\"},ExtraAttributes:{id:\"ENCHANTED_BOOKSHELF\"}}",
+  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Place near an §9Enchantment\",1:\"§9Table to provide Bookshelf\",2:\"§7Power. The higher the Bookshelf\",3:\"§7Power, the more enchantments are\",4:\"§7available.\",5:\"\",6:\"§7Bookshelf Power: §915\",7:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Bookshelf\"},ExtraAttributes:{id:\"ENCHANTED_BOOKSHELF\"}}",
   "damage": 0,
   "lore": [
-    "§7Counts as §a15§7 Bookshelves",
-    "§7when placed near an Enchanting",
-    "§7Table",
+    "§7Place near an §9Enchantment",
+    "§9Table to provide Bookshelf",
+    "§7Power. The higher the Bookshelf",
+    "§7Power, the more enchantments are"
+    "§7available.",
     "",
+    "§7Bookshelf Power: §915",
     "§a§lUNCOMMON"
   ],
   "recipe": {
@@ -23,7 +26,7 @@
   },
   "internalname": "ENCHANTED_BOOKSHELF",
   "clickcommand": "viewrecipe",
-  "modver": "1.0.0",
+  "modver": "2.0.0",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Bookshelf"
