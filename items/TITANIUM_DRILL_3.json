@@ -43,18 +43,20 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Titanium_Drill_DR-X555"
   ],
-  "recipe": {
-    "type": "forge",
-    "inputs": [
-      "TITANIUM_DRILL_2:1",
-      "PLASMA:20",
-      "REFINED_TITANIUM:32",
-      "REFINED_DIAMOND:20",
-      "MITHRIL_PLATE:15",
-      "ENCHANTED_IRON_BLOCK:2"
-    ],
-    "count": 1,
-    "overrideOutputId": "TITANIUM_DRILL_3",
-    "duration": 30
-  }
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "REFINED_DIAMOND:20",
+        "ENCHANTED_IRON_BLOCK:2",
+        "PLASMA:20",
+        "TITANIUM_DRILL_2:1",
+        "REFINED_TITANIUM:32",
+        "MITHRIL_PLATE:15"
+      ],
+      "count": 1,
+      "overrideOutputId": "TITANIUM_DRILL_3",
+      "duration": 30
+    }
+  ]
 }

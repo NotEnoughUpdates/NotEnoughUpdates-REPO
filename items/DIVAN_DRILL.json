@@ -43,14 +43,17 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Divan%27s_Drill"
   ],
-  "recipe": {
-    "type": "forge",
-    "inputs": [
-      "SKYBLOCK_COIN:50000000",
-      "DIVAN_ALLOY:1",
-      "TITANIUM_DRILL_4:1"
-    ],
-    "count": 1,
-    "overrideOutputId": "DIVAN_DRILL"
-  }
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "TITANIUM_DRILL_4:1",
+        "SKYBLOCK_COIN:50000000",
+        "DIVAN_ALLOY:1"
+      ],
+      "count": 1,
+      "overrideOutputId": "DIVAN_DRILL",
+      "duration": 216000
+    }
+  ]
 }

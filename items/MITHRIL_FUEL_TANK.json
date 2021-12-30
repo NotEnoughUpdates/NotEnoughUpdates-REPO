@@ -24,14 +24,16 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Mithril-Infused_Fuel_Tank"
   ],
-  "recipe": {
-    "type": "forge",
-    "inputs": [
-      "MITHRIL_PLATE:3",
-      "FUEL_TANK:5"
-    ],
-    "count": 1,
-    "overrideOutputId": "MITHRIL_FUEL_TANK",
-    "duration": 36000
-  }
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "MITHRIL_PLATE:3",
+        "FUEL_TANK:5"
+      ],
+      "count": 1,
+      "overrideOutputId": "MITHRIL_FUEL_TANK",
+      "duration": 36000
+    }
+  ]
 }

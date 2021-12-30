@@ -28,14 +28,16 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Amber_Material"
   ],
-  "recipe": {
-    "type": "forge",
-    "inputs": [
-      "GOLDEN_PLATE:1",
-      "FINE_AMBER_GEM:12"
-    ],
-    "count": 1,
-    "overrideOutputId": "AMBER_MATERIAL",
-    "duration": 25200
-  }
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "GOLDEN_PLATE:1",
+        "FINE_AMBER_GEM:12"
+      ],
+      "count": 1,
+      "overrideOutputId": "AMBER_MATERIAL",
+      "duration": 25200
+    }
+  ]
 }

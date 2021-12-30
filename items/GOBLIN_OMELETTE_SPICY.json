@@ -26,14 +26,16 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Spicy_Goblin_Omelette"
   ],
-  "recipe": {
-    "type": "forge",
-    "inputs": [
-      "GOBLIN_EGG_RED:99",
-      "FLAWLESS_RUBY_GEM:1"
-    ],
-    "count": 1,
-    "overrideOutputId": "GOBLIN_OMELETTE_SPICY",
-    "duration": 72000
-  }
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "GOBLIN_EGG_RED:99",
+        "FLAWLESS_RUBY_GEM:1"
+      ],
+      "count": 1,
+      "overrideOutputId": "GOBLIN_OMELETTE_SPICY",
+      "duration": 72000
+    }
+  ]
 }

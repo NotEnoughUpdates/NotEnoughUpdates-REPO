@@ -14,16 +14,18 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Mithril_Plate"
   ],
-  "recipe": {
-    "type": "forge",
-    "inputs": [
-      "ENCHANTED_IRON_BLOCK:1",
-      "REFINED_TITANIUM:1",
-      "GOLDEN_PLATE:1",
-      "REFINED_MITHRIL:5"
-    ],
-    "count": 1,
-    "overrideOutputId": "MITHRIL_PLATE",
-    "duration": 64800
-  }
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "GOLDEN_PLATE:1",
+        "REFINED_TITANIUM:1",
+        "REFINED_MITHRIL:5",
+        "ENCHANTED_IRON_BLOCK:1"
+      ],
+      "count": 1,
+      "overrideOutputId": "MITHRIL_PLATE",
+      "duration": 64800
+    }
+  ]
 }

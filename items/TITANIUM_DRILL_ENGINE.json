@@ -24,16 +24,18 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Titanium-Plated_Drill_Engine"
   ],
-  "recipe": {
-    "type": "forge",
-    "inputs": [
-      "MITHRIL_PLATE:4",
-      "REFINED_TITANIUM:5",
-      "PLASMA:5",
-      "DRILL_ENGINE:10"
-    ],
-    "count": 1,
-    "overrideOutputId": "TITANIUM_DRILL_ENGINE",
-    "duration": 108000
-  }
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "DRILL_ENGINE:10",
+        "PLASMA:5",
+        "MITHRIL_PLATE:4",
+        "REFINED_TITANIUM:5"
+      ],
+      "count": 1,
+      "overrideOutputId": "TITANIUM_DRILL_ENGINE",
+      "duration": 108000
+    }
+  ]
 }

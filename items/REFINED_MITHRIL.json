@@ -8,10 +8,21 @@
   ],
   "internalname": "REFINED_MITHRIL",
   "crafttext": "",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Refined_Mithril"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "ENCHANTED_MITHRIL:160"
+      ],
+      "count": 1,
+      "overrideOutputId": "REFINED_MITHRIL",
+      "duration": 21600
+    }
   ]
 }

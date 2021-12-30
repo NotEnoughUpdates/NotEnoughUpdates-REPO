@@ -21,16 +21,18 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Travel_Scrolls"
   ],
-  "recipe": {
-    "type": "forge",
-    "inputs": [
-      "SKYBLOCK_COIN:50000",
-      "FLAWED_RUBY_GEM:48",
-      "ENCHANTED_ENDER_PEARL:16",
-      "FINE_RUBY_GEM:80"
-    ],
-    "count": 1,
-    "overrideOutputId": "CRYSTAL_HOLLOWS_TRAVEL_SCROLL",
-    "duration": 36000
-  }
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "FLAWED_RUBY_GEM:48",
+        "SKYBLOCK_COIN:50000",
+        "ENCHANTED_ENDER_PEARL:16",
+        "FINE_RUBY_GEM:80"
+      ],
+      "count": 1,
+      "overrideOutputId": "CRYSTAL_HOLLOWS_TRAVEL_SCROLL",
+      "duration": 36000
+    }
+  ]
 }

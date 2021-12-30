@@ -26,15 +26,17 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Beacon"
   ],
-  "recipe": {
-    "type": "forge",
-    "inputs": [
-      "PLASMA:1",
-      "BEACON_3:1",
-      "REFINED_MITHRIL:20"
-    ],
-    "count": 1,
-    "overrideOutputId": "BEACON_4",
-    "duration": 144000
-  }
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "REFINED_MITHRIL:20",
+        "BEACON_3:1",
+        "PLASMA:1"
+      ],
+      "count": 1,
+      "overrideOutputId": "BEACON_4",
+      "duration": 144000
+    }
+  ]
 }

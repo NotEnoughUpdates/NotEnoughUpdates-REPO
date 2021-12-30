@@ -44,14 +44,16 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Gemstone_Drill_Model_LT-522"
   ],
-  "recipe": {
-    "type": "forge",
-    "inputs": [
-      "GEMSTONE_DRILL_1:1",
-      "GEMSTONE_MIXTURE:3"
-    ],
-    "count": 1,
-    "overrideOutputId": "GEMSTONE_DRILL_2",
-    "duration": 30
-  }
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "GEMSTONE_DRILL_1:1",
+        "GEMSTONE_MIXTURE:3"
+      ],
+      "count": 1,
+      "overrideOutputId": "GEMSTONE_DRILL_2",
+      "duration": 30
+    }
+  ]
 }
