@@ -25,14 +25,16 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Mithril-Plated_Drill_Engine"
   ],
-  "recipe": {
-    "type": "forge",
-    "inputs": [
-      "MITHRIL_PLATE:3",
-      "DRILL_ENGINE:2"
-    ],
-    "count": 1,
-    "overrideOutputId": "MITHRIL_DRILL_ENGINE",
-    "duration": 54000
-  }
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "MITHRIL_PLATE:3",
+        "DRILL_ENGINE:2"
+      ],
+      "count": 1,
+      "overrideOutputId": "MITHRIL_DRILL_ENGINE",
+      "duration": 54000
+    }
+  ]
 }

@@ -17,13 +17,15 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Refined_Diamond"
   ],
-  "recipe": {
-    "type": "forge",
-    "inputs": [
-      "ENCHANTED_DIAMOND_BLOCK:2"
-    ],
-    "count": 1,
-    "overrideOutputId": "REFINED_DIAMOND",
-    "duration": 28800
-  }
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "ENCHANTED_DIAMOND_BLOCK:2"
+      ],
+      "count": 1,
+      "overrideOutputId": "REFINED_DIAMOND",
+      "duration": 28800
+    }
+  ]
 }

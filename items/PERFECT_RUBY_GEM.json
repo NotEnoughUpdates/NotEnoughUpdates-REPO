@@ -20,14 +20,16 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Gemstone"
   ],
-  "recipe": {
-    "type": "forge",
-    "inputs": [
-      "RUBY_CRYSTAL:1",
-      "FLAWLESS_RUBY_GEM:5"
-    ],
-    "count": 1,
-    "overrideOutputId": "PERFECT_RUBY_GEM",
-    "duration": 72000
-  }
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "RUBY_CRYSTAL:1",
+        "FLAWLESS_RUBY_GEM:5"
+      ],
+      "count": 1,
+      "overrideOutputId": "PERFECT_RUBY_GEM",
+      "duration": 72000
+    }
+  ]
 }

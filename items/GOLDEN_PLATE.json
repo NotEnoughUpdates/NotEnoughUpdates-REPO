@@ -14,15 +14,17 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Golden_Plate"
   ],
-  "recipe": {
-    "type": "forge",
-    "inputs": [
-      "REFINED_DIAMOND:1",
-      "ENCHANTED_GOLD_BLOCK:2",
-      "GLACITE_JEWEL:5"
-    ],
-    "count": 1,
-    "overrideOutputId": "GOLDEN_PLATE",
-    "duration": 21600
-  }
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "ENCHANTED_GOLD_BLOCK:2",
+        "REFINED_DIAMOND:1",
+        "GLACITE_JEWEL:5"
+      ],
+      "count": 1,
+      "overrideOutputId": "GOLDEN_PLATE",
+      "duration": 21600
+    }
+  ]
 }

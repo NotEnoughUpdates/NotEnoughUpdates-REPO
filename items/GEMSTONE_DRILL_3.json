@@ -43,16 +43,18 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Topaz_Drill_KGR-12"
   ],
-  "recipe": {
-    "type": "forge",
-    "inputs": [
-      "FLAWLESS_TOPAZ_GEM:1",
-      "GEMSTONE_MIXTURE:3",
-      "MAGMA_CORE:5",
-      "GEMSTONE_DRILL_2:1"
-    ],
-    "count": 1,
-    "overrideOutputId": "GEMSTONE_DRILL_3",
-    "duration": 30
-  }
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "FLAWLESS_TOPAZ_GEM:1",
+        "GEMSTONE_MIXTURE:3",
+        "GEMSTONE_DRILL_2:1",
+        "MAGMA_CORE:5"
+      ],
+      "count": 1,
+      "overrideOutputId": "GEMSTONE_DRILL_3",
+      "duration": 30
+    }
+  ]
 }

@@ -26,16 +26,18 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Titanium-Infused_Fuel_Tank"
   ],
-  "recipe": {
-    "type": "forge",
-    "inputs": [
-      "FUEL_TANK:10",
-      "REFINED_TITANIUM:10",
-      "REFINED_MITHRIL:10",
-      "REFINED_DIAMOND:10"
-    ],
-    "count": 1,
-    "overrideOutputId": "TITANIUM_FUEL_TANK",
-    "duration": 90000
-  }
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "REFINED_DIAMOND:10",
+        "REFINED_TITANIUM:10",
+        "FUEL_TANK:10",
+        "REFINED_MITHRIL:10"
+      ],
+      "count": 1,
+      "overrideOutputId": "TITANIUM_FUEL_TANK",
+      "duration": 90000
+    }
+  ]
 }

@@ -43,19 +43,21 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Titanium_Drill_DR-X655"
   ],
-  "recipe": {
-    "type": "forge",
-    "inputs": [
-      "TITANIUM_DRILL_3:1",
-      "CORLEONITE:30",
-      "REFINED_TITANIUM:12",
-      "FLAWLESS_RUBY_GEM:1",
-      "REFINED_DIAMOND:5",
-      "GEMSTONE_MIXTURE:16",
-      "MITHRIL_PLATE:5"
-    ],
-    "count": 1,
-    "overrideOutputId": "TITANIUM_DRILL_4",
-    "duration": 30
-  }
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "GEMSTONE_MIXTURE:16",
+        "FLAWLESS_RUBY_GEM:1",
+        "MITHRIL_PLATE:5",
+        "REFINED_TITANIUM:12",
+        "CORLEONITE:30",
+        "TITANIUM_DRILL_3:1",
+        "REFINED_DIAMOND:5"
+      ],
+      "count": 1,
+      "overrideOutputId": "TITANIUM_DRILL_4",
+      "duration": 30
+    }
+  ]
 }

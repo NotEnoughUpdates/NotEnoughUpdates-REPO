@@ -27,14 +27,16 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Rock_Gemstone"
   ],
-  "recipe": {
-    "type": "forge",
-    "inputs": [
-      "TREASURITE:64",
-      "ENCHANTED_COBBLESTONE:128"
-    ],
-    "count": 1,
-    "overrideOutputId": "ROCK_GEMSTONE",
-    "duration": 79200
-  }
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "TREASURITE:64",
+        "ENCHANTED_COBBLESTONE:128"
+      ],
+      "count": 1,
+      "overrideOutputId": "ROCK_GEMSTONE",
+      "duration": 79200
+    }
+  ]
 }

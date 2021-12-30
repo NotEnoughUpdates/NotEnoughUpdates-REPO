@@ -41,15 +41,17 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Mithril_Drill_SX-R226"
   ],
-  "recipe": {
-    "type": "forge",
-    "inputs": [
-      "DRILL_ENGINE:1",
-      "REFINED_MITHRIL:3",
-      "FUEL_TANK:1"
-    ],
-    "count": 1,
-    "overrideOutputId": "MITHRIL_DRILL_1",
-    "duration": 14400
-  }
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "REFINED_MITHRIL:3",
+        "DRILL_ENGINE:1",
+        "FUEL_TANK:1"
+      ],
+      "count": 1,
+      "overrideOutputId": "MITHRIL_DRILL_1",
+      "duration": 14400
+    }
+  ]
 }

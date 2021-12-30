@@ -26,15 +26,17 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Ruby-Polished_Drill_Engine"
   ],
-  "recipe": {
-    "type": "forge",
-    "inputs": [
-      "MITHRIL_DRILL_ENGINE:1",
-      "SUPERLITE_MOTOR:10",
-      "FINE_RUBY_GEM:10"
-    ],
-    "count": 1,
-    "overrideOutputId": "RUBY_POLISHED_DRILL_ENGINE",
-    "duration": 72000
-  }
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "SUPERLITE_MOTOR:10",
+        "MITHRIL_DRILL_ENGINE:1",
+        "FINE_RUBY_GEM:10"
+      ],
+      "count": 1,
+      "overrideOutputId": "RUBY_POLISHED_DRILL_ENGINE",
+      "duration": 72000
+    }
+  ]
 }

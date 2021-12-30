@@ -19,14 +19,16 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Titanium_Artifact"
   ],
-  "recipe": {
-    "type": "forge",
-    "inputs": [
-      "TITANIUM_RING:1",
-      "REFINED_TITANIUM:12"
-    ],
-    "count": 1,
-    "overrideOutputId": "TITANIUM_ARTIFACT",
-    "duration": 129600
-  }
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "REFINED_TITANIUM:12",
+        "TITANIUM_RING:1"
+      ],
+      "count": 1,
+      "overrideOutputId": "TITANIUM_ARTIFACT",
+      "duration": 129600
+    }
+  ]
 }

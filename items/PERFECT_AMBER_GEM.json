@@ -20,14 +20,16 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Gemstone"
   ],
-  "recipe": {
-    "type": "forge",
-    "inputs": [
-      "FLAWLESS_AMBER_GEM:5",
-      "AMBER_CRYSTAL:1"
-    ],
-    "count": 1,
-    "overrideOutputId": "PERFECT_AMBER_GEM",
-    "duration": 72000
-  }
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "AMBER_CRYSTAL:1",
+        "FLAWLESS_AMBER_GEM:5"
+      ],
+      "count": 1,
+      "overrideOutputId": "PERFECT_AMBER_GEM",
+      "duration": 72000
+    }
+  ]
 }

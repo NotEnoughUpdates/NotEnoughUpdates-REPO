@@ -27,14 +27,16 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Sunny_Side_Goblin_Omelette"
   ],
-  "recipe": {
-    "type": "forge",
-    "inputs": [
-      "FINE_TOPAZ_GEM:1",
-      "GOBLIN_EGG_YELLOW:99"
-    ],
-    "count": 1,
-    "overrideOutputId": "GOBLIN_OMELETTE_SUNNY_SIDE",
-    "duration": 72000
-  }
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "GOBLIN_EGG_YELLOW:99",
+        "FINE_TOPAZ_GEM:1"
+      ],
+      "count": 1,
+      "overrideOutputId": "GOBLIN_OMELETTE_SUNNY_SIDE",
+      "duration": 72000
+    }
+  ]
 }

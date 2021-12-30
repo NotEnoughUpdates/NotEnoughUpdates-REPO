@@ -23,15 +23,17 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Divan_Armor"
   ],
-  "recipe": {
-    "type": "forge",
-    "inputs": [
-      "FLAWLESS_RUBY_GEM:1",
-      "GEMSTONE_MIXTURE:10",
-      "DIVAN_FRAGMENT:5"
-    ],
-    "count": 1,
-    "overrideOutputId": "DIVAN_HELMET",
-    "duration": 82800
-  }
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "FLAWLESS_RUBY_GEM:1",
+        "GEMSTONE_MIXTURE:10",
+        "DIVAN_FRAGMENT:5"
+      ],
+      "count": 1,
+      "overrideOutputId": "DIVAN_HELMET",
+      "duration": 82800
+    }
+  ]
 }

@@ -21,14 +21,16 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Gemstone"
   ],
-  "recipe": {
-    "type": "forge",
-    "inputs": [
-      "JADE_CRYSTAL:1",
-      "FLAWLESS_JADE_GEM:5"
-    ],
-    "count": 1,
-    "overrideOutputId": "PERFECT_JADE_GEM",
-    "duration": 72000
-  }
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "FLAWLESS_JADE_GEM:5",
+        "JADE_CRYSTAL:1"
+      ],
+      "count": 1,
+      "overrideOutputId": "PERFECT_JADE_GEM",
+      "duration": 72000
+    }
+  ]
 }

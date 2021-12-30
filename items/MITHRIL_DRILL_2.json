@@ -41,15 +41,17 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Mithril_Drill_SX-R326"
   ],
-  "recipe": {
-    "type": "forge",
-    "inputs": [
-      "GOLDEN_PLATE:10",
-      "MITHRIL_DRILL_1:1",
-      "MITHRIL_PLATE:2"
-    ],
-    "count": 1,
-    "overrideOutputId": "MITHRIL_DRILL_2",
-    "duration": 30
-  }
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "GOLDEN_PLATE:10",
+        "MITHRIL_DRILL_1:1",
+        "MITHRIL_PLATE:2"
+      ],
+      "count": 1,
+      "overrideOutputId": "MITHRIL_DRILL_2",
+      "duration": 30
+    }
+  ]
 }

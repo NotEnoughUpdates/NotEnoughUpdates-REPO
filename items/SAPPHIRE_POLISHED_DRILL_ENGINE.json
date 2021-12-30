@@ -26,16 +26,18 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Sapphire-polished_Drill_Engine"
   ],
-  "recipe": {
-    "type": "forge",
-    "inputs": [
-      "FTX_3070:25",
-      "TITANIUM_DRILL_ENGINE:1",
-      "FINE_SAPPHIRE_GEM:20",
-      "ELECTRON_TRANSMITTER:25"
-    ],
-    "count": 1,
-    "overrideOutputId": "SAPPHIRE_POLISHED_DRILL_ENGINE",
-    "duration": 108000
-  }
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "TITANIUM_DRILL_ENGINE:1",
+        "FTX_3070:25",
+        "ELECTRON_TRANSMITTER:25",
+        "FINE_SAPPHIRE_GEM:20"
+      ],
+      "count": 1,
+      "overrideOutputId": "SAPPHIRE_POLISHED_DRILL_ENGINE",
+      "duration": 108000
+    }
+  ]
 }
