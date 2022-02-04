@@ -1,13 +1,20 @@
 {
   "itemid": "minecraft:name_tag",
   "displayname": "§aName Tag",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§a§lUNCOMMON\"],Name:\"§aName Tag\"},ExtraAttributes:{id:\"NAME_TAG\"}}",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Right-click to apply a name to\",1:\"§7this Name Tag. Can be applied to\",2:\"§7mobs.\",3:\"\",4:\"§8§l* §8Co-op Soulbound §8§l*\",5:\"§a§lUNCOMMON\"],Name:\"§aName Tag\"},ExtraAttributes:{id:\"NAME_TAG\"}}",
   "damage": 0,
   "lore": [
+    "§7Right-click to apply a name to",
+    "§7this Name Tag. Can be applied to",
+    "§7mobs.",
+    "",
+    "§8§l* §8Co-op Soulbound §8§l*",
     "§a§lUNCOMMON"
   ],
   "internalname": "NAME_TAG",
-  "modver": "2.0.0-REL",
+  "modver": "2.1.0-REL",
   "vanilla": true,
-  "clickcommand": ""
+  "clickcommand": "",
+  "crafttext": "",
+  "infoType": ""
 }
