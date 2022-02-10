@@ -5,7 +5,7 @@
   "clickcommand": "",
   "damage": 0,
   "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+50\",1:\"\",2:\"§7Speed: §a+40\",3:\"\",4:\"§7§8This item can be reforged!\",5:\"§a§lUNCOMMON SWORD\"],Name:\"§aHunter Knife\"},ExtraAttributes:{id:\"HUNTER_KNIFE\"}}",
-  "modver": "1.0.0",
+  "modver": "2.1.0-REL",
   "lore": [
     "§7Damage: §c+50",
     "",
@@ -17,5 +17,12 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Hunter_Knife"
+  ],
+  "recipes": [
+    {
+    "type": "trade",
+    "cost": "ENCHANTED_EMERALD:10",
+    "result": "HUNTER_KNIFE"
+    }
   ]
 }
