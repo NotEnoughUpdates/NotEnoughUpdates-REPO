@@ -8,7 +8,7 @@
   </a>
   <!-- license -->
   <a href="https://github.com/NotEnoughUpdates/NotEnoughUpdates-REPO/blob/master/LICENSE" target="_blank">
-    <img src="https://img.shields.io/github/license/Moulberry/NotEnoughUpdates-REPO?color=success&logo=github&logoColor=FFFFFF" alt="license">
+    <img src="https://img.shields.io/github/license/NotEnoughUpdates/NotEnoughUpdates-REPO?color=success&logo=github&logoColor=FFFFFF" alt="license">
   </a>
   <!-- lines -->
   <a href="https://github.com/NotEnoughUpdates/NotEnoughUpdates-REPO">
