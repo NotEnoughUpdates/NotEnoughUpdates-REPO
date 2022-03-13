@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§3Water Hydra (Sea Creature)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"33f37f6f-40aa-3fc0-bcf7-b2635f3f66d0\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjFmZmJkYTkyNDQyODczZDU0MDUxZTRlMTdlYTQ3Mjc4Y2IzYjc0N2Q3OTgwNzBiYTgzYmM0YTlkZTU4ZGQifX19\"}]}},display:{Lore:[0:\"§7Water Hydra is a Legendary Sea Creature that spawns\",1:\"§7while fishing after unlocking it at Fishing Level XIX (19).\",2:\"§7It is a zombie with the head of a sea dragon and blue\",3:\"§7dyed leather armor. \",4:\"\",5:\"§c❤ Health§8: §c500.000\",6:\"\",7:\"§cDrops:\",8:\"§7- §7Clownfish\",9:\"§7- §7Lily Pad\",10:\"§7- §7Pufferfish\",11:\"§7- §7Raw Fish\",12:\"§7- §7Raw Salmon\",13:\"§7- §7Sponge\",14:\"§7- §9Enchanted Book\",15:\"   §7(Luck of the Sea VI)\",16:\"§7- §9Fish Affinty Talisman\",17:\"§7- §5Fishing Exp Boost\",18:\"§7- §5Water Hydra Head\",19:\"\",20:\"§cRequirements:\",21:\"§7- Fishing Skill 19\",22:\"§7- §bFished from water\",23:\"\",24:\"§6§lLEGENDARY\"],Name:\"§3Water Hydra (Sea Creature)\"},ExtraAttributes:{id:\"WATER_HYDRA_SC\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"33f37f6f-40aa-3fc0-bcf7-b2635f3f66d0\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjFmZmJkYTkyNDQyODczZDU0MDUxZTRlMTdlYTQ3Mjc4Y2IzYjc0N2Q3OTgwNzBiYTgzYmM0YTlkZTU4ZGQifX19\"}]}},display:{Lore:[0:\"§7Water Hydra is a Legendary Sea Creature that spawns\",1:\"§7while fishing after unlocking it at Fishing Level XIX (19).\",2:\"§7It is a zombie with the head of a sea dragon and blue\",3:\"§7dyed leather armor. \",4:\"\",5:\"§c❤ Health§8: §c500.000\",6:\"\",7:\"§6§lLEGENDARY\"],Name:\"§3Water Hydra (Sea Creature)\"},ExtraAttributes:{id:\"WATER_HYDRA_SC\"}}",
   "damage": 3,
   "lore": [
     "§7Water Hydra is a Legendary Sea Creature that spawns",
@@ -11,31 +11,66 @@
     "",
     "§c❤ Health§8: §c500.000",
     "",
-    "§cDrops:",
-    "§7- §7Clownfish",
-    "§7- §7Lily Pad",
-    "§7- §7Pufferfish",
-    "§7- §7Raw Fish",
-    "§7- §7Raw Salmon",
-    "§7- §7Sponge",
-    "§7- §9Enchanted Book",
-    "   §7(Luck of the Sea VI)",
-    "§7- §9Fish Affinty Talisman",
-    "§7- §5Fishing Exp Boost",
-    "§7- §5Water Hydra Head",
-    "",
-    "§cRequirements:",
-    "§7- Fishing Skill 19",
-    "§7- §bFished from water",
-    "",
     "§6§lLEGENDARY"
   ],
   "internalname": "WATER_HYDRA_SC",
   "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Water_Hydra"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§3Water Hydra",
+      "coins": 1,
+      "xp": 1,
+      "render": "@neurepo:mobs/water_hydra.json",
+      "type": "drops",
+      "extra": [
+        "§cRequirements:",
+        "§7- Fishing Skill 19",
+        "§7- §bFished from water"
+      ],
+      "drops": [
+        {
+          "id": "RAW_FISH:10",
+          "chance": "§fCommon 100%"
+        },
+        {
+          "id": "RAW_FISH-2",
+          "chance": "§aUncommon 100%"
+        },
+        {
+          "id": "RAW_FISH-1",
+          "chance": "§fCommon 100%"
+        },
+        {
+          "id": "RAW_FISH-3",
+          "chance": "§fCommon 100%"
+        },
+        {
+          "id": "SPONGE",
+          "chance": "§fCommon 50%"
+        },
+        {
+          "id": "LILY_PAD:8",
+          "chance": "§fCommon 75%"
+        },
+        {
+          "id": "FISH_AFFINITY_TALISMAN",
+          "chance": "§aUncommon 15%"
+        },
+        {
+          "id": "WATER_HYDRA_HEAD",
+          "chance": "§aUncommon 7%"
+        },
+        {
+          "id": "PET_ITEM_FISHING_SKILL_BOOST_EPIC",
+          "chance": "§6Legendary 0.02%"
+        }
+      ]
+    }
+  ]
 }

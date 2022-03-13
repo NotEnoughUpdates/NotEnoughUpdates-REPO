@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§3Yeti (Sea Creature)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"0f7e2dc4-3319-41d6-85dc-cc7a9bae89bb\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWIxMjY4MTRmYzNmYTg0NmRhZDkzNGMzNDk2MjhhN2ExZGU1YjQxNTAyMWEwM2VmNDIxMWQ2MjUxNGQ1In19fQ\"}]}},display:{Lore:[0:\"§7The Yeti is a Legendary mob unlocked from Fishing\",1:\"§7level 25. It can only be fished at Jerry Pond.\",2:\"§7It uses a similar ability to the \\\"Terrain Toss\\\" ability\",3:\"§7of the Yeti Sword.\",4:\"\",5:\"§c❤ Health§8: §c2.000.000\",6:\"\",7:\"§cDrops:\",8:\"§7- §7Ice\",9:\"§7- §7Lily Pad\",10:\"§7- §7Raw Fish\",11:\"§7- §7Sponge\",12:\"§7- §aEnchanted Lily Pad\",13:\"§7- §9Hunk of Blue Ice\",14:\"§7- §cRed Gift\",15:\"§7- §5Baby Yeti Pet\",16:\"§7- §5Yeti Rod\",17:\"§7- §6Baby Yeti Pet\",18:\"§7- §6Hilt of True Ice\",19:\"\",20:\"§cRequirements:\",21:\"§7- Fishing Skill 25\",22:\"§7- §bJerry Pond\",23:\"§7- §bFished from water\",24:\"\",25:\"§6§lLEGENDARY\"],Name:\"§3Yeti (Sea Creature)\"},ExtraAttributes:{id:\"YETI_SC\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"0f7e2dc4-3319-41d6-85dc-cc7a9bae89bb\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWIxMjY4MTRmYzNmYTg0NmRhZDkzNGMzNDk2MjhhN2ExZGU1YjQxNTAyMWEwM2VmNDIxMWQ2MjUxNGQ1In19fQ\"}]}},display:{Lore:[0:\"§7The Yeti is a Legendary mob unlocked from Fishing\",1:\"§7level 25. It can only be fished at Jerry Pond.\",2:\"§7It uses a similar ability to the \\\"Terrain Toss\\\" ability\",3:\"§7of the Yeti Sword.\",4:\"\",5:\"§c❤ Health§8: §c2.000.000\",6:\"\",7:\"§6§lLEGENDARY\"],Name:\"§3Yeti (Sea Creature)\"},ExtraAttributes:{id:\"YETI_SC\"}}",
   "damage": 3,
   "lore": [
     "§7The Yeti is a Legendary mob unlocked from Fishing",
@@ -11,32 +11,73 @@
     "",
     "§c❤ Health§8: §c2.000.000",
     "",
-    "§cDrops:",
-    "§7- §7Ice",
-    "§7- §7Lily Pad",
-    "§7- §7Raw Fish",
-    "§7- §7Sponge",
-    "§7- §aEnchanted Lily Pad",
-    "§7- §9Hunk of Blue Ice",
-    "§7- §cRed Gift",
-    "§7- §5Baby Yeti Pet",
-    "§7- §5Yeti Rod",
-    "§7- §6Baby Yeti Pet",
-    "§7- §6Hilt of True Ice",
-    "",
-    "§cRequirements:",
-    "§7- Fishing Skill 25",
-    "§7- §bJerry Pond",
-    "§7- §bFished from water",
-    "",
     "§6§lLEGENDARY"
   ],
   "internalname": "YETI_SC",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Yeti"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§3Yeti",
+      "coins": 1,
+      "xp": 1,
+      "render": "@neurepo:mobs/yeti.json",
+      "type": "drops",
+      "extra": [
+        "§cRequirements:",
+        "§7- Fishing Skill 24",
+        "§7- §2Mithril Deposits",
+        "§7- §bPrecursor Remnants",
+        "§7- §2Jungle",
+        "§7- §bFished from water"
+      ],
+      "drops": [
+        {
+          "id": "ICE:20",
+          "chance": "§fCommon 100%"
+        },
+        {
+          "id": "LILY_PAD:32",
+          "chance": "§aUnommon 25%"
+        },
+        {
+          "id": "RAW_FISH:20",
+          "chance": "§fCommon 100%"
+        },
+        {
+          "id": "SPONGE",
+          "chance": "§fCommon 100%"
+        },
+        {
+          "id": "HUNK_OF_BLUE_ICE",
+          "chance": "§aUncommon 20%"
+        },
+        {
+          "id": "RED_GIFT",
+          "chance": "§fCommon 100%"
+        },
+        {
+          "id": "BABY_YETI;3",
+          "chance": "§aUncommon 3%"
+        },
+        {
+          "id": "YETI_ROD",
+          "chance": "§aUncommon 2%"
+        },
+        {
+          "id": "BABY_YETI;4",
+          "chance": "§9Rare 0.8%"
+        },
+        {
+          "id": "HILT_OF_TRUE_ICE",
+          "chance": "§aUncommon 1.5%"
+        }
+      ]
+    }
+  ]
 }

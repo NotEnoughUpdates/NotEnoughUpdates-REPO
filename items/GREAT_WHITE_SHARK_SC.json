@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§3Great White Shark (Sea Creature)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"27b73cfa-c464-3eec-a7b7-3cfac4641eec\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzdlYjEyMTAyYjcxNmU2Y2ZkNWIzMWY2ZDhkNjE1YTE0MDQxOTg3MzYyNmEwZjM2MDk1N2UyZjUwN2IifX19\"}]}},display:{Lore:[0:\"§7The Great White Shark is one of 4 sharks added in the fishing aspect of the\",1:\"§7community center update. It can be caught during fishing festivals\",2:\"§7while Marina is mayor by those of at least Fishing Level 24.\",3:\"\",4:\"§c❤ Health§8: §c1.500.000\",5:\"\",6:\"§cDrops:\",7:\"§7- §9Shark Fin\",8:\"§7- §6Great White Shark Tooth\",9:\"§7- §5Megalodon\",10:\"§7- §6Megalodon\",11:\"\",12:\"§cRequirements:\",13:\"§7- Fishing Skill 24\",14:\"§7- §9Fishing Festival\",15:\"§7- §bFished from water\",16:\"\",17:\"§c§lSPECIAL\"],Name:\"§3Great White Shark (Sea Creature)\"},ExtraAttributes:{id:\"GREAT_WHITE_SHARK_SC\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"27b73cfa-c464-3eec-a7b7-3cfac4641eec\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzdlYjEyMTAyYjcxNmU2Y2ZkNWIzMWY2ZDhkNjE1YTE0MDQxOTg3MzYyNmEwZjM2MDk1N2UyZjUwN2IifX19\"}]}},display:{Lore:[0:\"§7The Great White Shark is one of 4 sharks added in the fishing aspect of the\",1:\"§7community center update. It can be caught during fishing festivals\",2:\"§7while Marina is mayor by those of at least Fishing Level 24.\",3:\"\",4:\"§c❤ Health§8: §c1.500.000\",5:\"\",6:\"§c§lSPECIAL\"],Name:\"§3Great White Shark (Sea Creature)\"},ExtraAttributes:{id:\"GREAT_WHITE_SHARK_SC\"}}",
   "damage": 3,
   "lore": [
     "§7The Great White Shark is one of 4 sharks added in the fishing aspect of the",
@@ -10,25 +10,43 @@
     "",
     "§c❤ Health§8: §c1.500.000",
     "",
-    "§cDrops:",
-    "§7- §9Shark Fin",
-    "§7- §6Great White Shark Tooth",
-    "§7- §5Megalodon",
-    "§7- §6Megalodon",
-    "",
-    "§cRequirements:",
-    "§7- Fishing Skill 24",
-    "§7- §9Fishing Festival",
-    "§7- §bFished from water",
-    "",
     "§c§lSPECIAL"
   ],
   "internalname": "GREAT_WHITE_SHARK_SC",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Great_White_Shark"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§3Great White Shark",
+      "coins": 40,
+      "xp": 160,
+      "render": "@neurepo:mobs/great_white_shark.json",
+      "type": "drops",
+      "extra": [
+        "§cRequirements:",
+        "§7- Fishing Skill 24",
+        "§7- §9Fishing Festival",
+        "§7- §bFished from water"
+      ],
+      "drops": [
+        {
+          "id": "SHARK_FIN:16",
+          "chance": "§fCommon 100%"
+        },
+        {
+          "id": "GREAT_WHITE_SHARK_TOOTH",
+          "chance": "§aUncommon 10%"
+        },
+        {
+          "id": "MEGALODON;4",
+          "chance": "§9Rare 1%"
+        }
+      ]
+    }
+  ]
 }

@@ -34,11 +34,75 @@
     "§6Warden Heart §a(1x) §8(§cRNGesus Incarnate \u003c\u003c1%§8)"
   ],
   "internalname": "REVENANT_HORROR_5_BOSS",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Revenant_Horror"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "xp": 1500,
+      "name": "§6Revenant Horror V",
+	    "render": "@neurepo:mobs/revenant_horror_5.json",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "REVENANT_FLESH",
+          "extra": ["x63-64"],
+          "chance": "§2Guaranteed 100%"
+        },
+        {
+          "id": "FOUL_FLESH",
+          "extra": ["x3-4"],
+          "chance": "§9Occasional 13.77%"
+        },
+        {
+          "id": "ZOMBIE_SLAYER_RUNE;1",
+          "chance": "§bRare 5.42%"
+        },
+        {
+          "id": "UNDEAD_CATALYST",
+          "chance": "§5Extraordinary 1.69%"
+        },
+        {
+          "id": "SMITE;6",
+          "chance": "§5Extraordinary 0.69%"
+        },
+        {
+          "id": "BEHEADED_HORROR",
+          "chance": "§dPray RNGesus 0.14%"
+        },
+        {
+          "id": "REVENANT_CATALYST",
+          "chance": "§5Extraordinary 0.86%"
+        },
+        {
+          "id": "SNAKE_RUNE;1",
+          "chance": "§dPray RNGesus 0.14%"
+        },
+        {
+          "id": "SCYTHE_BLADE",
+          "chance": "§dPray RNGesus \u003c1%"
+        },
+        {
+          "id": "REVENANT_VISECRA",
+          "chance": "§9Occasional 13.77%"
+        },
+        {
+          "id": "SHARD_OF_THE_SHREDDED",
+          "chance": "§dPray RNGesus 0.06%"
+        },
+        {
+          "id": "SMITE;7",
+          "chance": "§dPray RNGesus 0.05%"
+        },
+        {
+          "id": "WARDEN_HEART",
+          "chance": "§cRNGesus Incarnate 0.01%"
+        }
+      ]
+    }
+  ]
 }

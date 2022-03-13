@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§3Sea Witch (Sea Creature)",
-  "nbttag": "{SkullOwner:{Id:\"7f92b3d6-5ee0-4ab6-afae-2206b9514a63\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjBlMTNkMTg0NzRmYzk0ZWQ1NWFlYjcwNjk1NjZlNDY4N2Q3NzNkYWMxNmY0YzNmODcyMmZjOTViZjlmMmRmYSJ9fX0\u003d\u003d\"}]}},display:{Lore:[0:\"§7The Sea Witch is a sea creature that can be\",1:\"§7spawned by using Light Bait during the daytime.\",2:\"\",3:\"§c❤ Health§8: §c6.000\",4:\"\",5:\"§cDrops:\",6:\"§7- §7Clownfish\",7:\"§7- §7Lily Pad\",8:\"§7- §7Raw Salmon\",9:\"§7- §9Fairy\u0027s Fedora\",10:\"§7- §9Fairy\u0027s Galoshes\",11:\"§7- §9Fairy\u0027s Polo\",12:\"§7- §9Fairy\u0027s Trousers\",13:\"\",14:\"§cRequirements:\",15:\"§7- Fishing Skill 7\",16:\"§7- §bFished from water\",17:\"\",18:\"§a§lUNCOMMON\"],Name:\"§3Sea Witch (Sea Creature)\"},ExtraAttributes:{id:\"SEA_WITCH_SC\"}}",
+  "nbttag": "{SkullOwner:{Id:\"7f92b3d6-5ee0-4ab6-afae-2206b9514a63\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjBlMTNkMTg0NzRmYzk0ZWQ1NWFlYjcwNjk1NjZlNDY4N2Q3NzNkYWMxNmY0YzNmODcyMmZjOTViZjlmMmRmYSJ9fX0\u003d\u003d\"}]}},display:{Lore:[0:\"§7The Sea Witch is a sea creature that can be\",1:\"§7spawned by using Light Bait during the daytime.\",2:\"\",3:\"§c❤ Health§8: §c6.000\",4:\"\",5:\"§a§lUNCOMMON\"],Name:\"§3Sea Witch (Sea Creature)\"},ExtraAttributes:{id:\"SEA_WITCH_SC\"}}",
   "damage": 3,
   "lore": [
     "§7The Sea Witch is a sea creature that can be",
@@ -9,27 +9,58 @@
     "",
     "§c❤ Health§8: §c6.000",
     "",
-    "§cDrops:",
-    "§7- §7Clownfish",
-    "§7- §7Lily Pad",
-    "§7- §7Raw Salmon",
-    "§7- §9Fairy\u0027s Fedora",
-    "§7- §9Fairy\u0027s Galoshes",
-    "§7- §9Fairy\u0027s Polo",
-    "§7- §9Fairy\u0027s Trousers",
-    "",
-    "§cRequirements:",
-    "§7- Fishing Skill 7",
-    "§7- §bFished from water",
-    "",
     "§a§lUNCOMMON"
   ],
   "internalname": "SEA_WITCH_SC",
   "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Sea_Witch"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§3Sea Witch",
+      "coins": 10,
+      "xp": 30,
+      "render": "Witch",
+      "type": "drops",
+      "extra": [
+        "§cRequirements:",
+        "§7- Fishing Skill 7",
+        "§7- §bFished from water"
+      ],
+      "drops": [
+        {
+          "id": "LILY_PAD",
+          "chance": "§fCommon 100%"
+        },
+        {
+          "id": "RAW_FISH-2",
+          "chance": "§aUncommon 100%"
+        },
+        {
+          "id": "RAW_FISH-1",
+          "chance": "§fCommon 100%"
+        },
+        {
+          "id": "FAIRY_HELMET",
+          "chance": "§aUncommon 5%"
+        },
+        {
+          "id": "FAIRY_CHESTPLATE",
+          "chance": "§aUncommon 5%"
+        },
+        {
+          "id": "FAIRY_LEGGINGS",
+          "chance": "§aUncommon 5%"
+        },
+        {
+          "id": "FAIRY_BOOTS",
+          "chance": "§aUncommon 5%"
+        }
+      ]
+    }
+  ]
 }

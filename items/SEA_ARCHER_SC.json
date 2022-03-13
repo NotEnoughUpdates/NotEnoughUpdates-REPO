@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§3Sea Archer (Sea Creature)",
-  "nbttag": "{display:{Lore:[0:\"§7The Sea Archer is an Uncommon sea creature that\",1:\"§7spawns while fishing after unlocking Fishing level IX.\",2:\"§7He looks like a normal Skeleton, and carries an\",3:\"§7enchanted Bow. He also wears an Enchanted Armor,\",4:\"§7probably a dyed Leather Armor.\",5:\"\",6:\"§c❤ Health§8: §c7.000\",7:\"\",8:\"§cDrops:\",9:\"§7- §7Bone\",10:\"§7- §7Enchanted Bone\",11:\"§7- §7Lily Pad\",12:\"§7- §7Raw Fish\",13:\"\",14:\"§cRequirements:\",15:\"§7- Fishing Skill 9\",16:\"§7- §bFished from water\",17:\"\",18:\"§a§lUNCOMMON\"],Name:\"§3Sea Archer (Sea Creature)\"},ExtraAttributes:{id:\"SEA_ARCHER_SC\"}}",
+  "nbttag": "{display:{Lore:[0:\"§7The Sea Archer is an Uncommon sea creature that\",1:\"§7spawns while fishing after unlocking Fishing level IX.\",2:\"§7He looks like a normal Skeleton, and carries an\",3:\"§7enchanted Bow. He also wears an Enchanted Armor,\",4:\"§7probably a dyed Leather Armor.\",5:\"\",6:\"§c❤ Health§8: §c7.000\",7:\"\",8:\"§a§lUNCOMMON\"],Name:\"§3Sea Archer (Sea Creature)\"},ExtraAttributes:{id:\"SEA_ARCHER_SC\"}}",
   "damage": 0,
   "lore": [
     "§7The Sea Archer is an Uncommon sea creature that",
@@ -12,24 +12,46 @@
     "",
     "§c❤ Health§8: §c7.000",
     "",
-    "§cDrops:",
-    "§7- §7Bone",
-    "§7- §7Enchanted Bone",
-    "§7- §7Lily Pad",
-    "§7- §7Raw Fish",
-    "",
-    "§cRequirements:",
-    "§7- Fishing Skill 9",
-    "§7- §bFished from water",
-    "",
     "§a§lUNCOMMON"
   ],
   "internalname": "SEA_ARCHER_SC",
   "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Sea_Archer"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§3Sea Archer",
+      "coins": 10,
+      "xp": 20,
+      "render": "@neurepo:mobs/sea_archer.json",
+      "type": "drops",
+      "extra": [
+        "§cRequirements:",
+        "§7- Fishing Skill 8",
+        "§7- §bFished from water"
+      ],
+      "drops": [
+        {
+          "id": "LILY_PAD",
+          "chance": "§fCommon 100%"
+        },
+        {
+          "id": "RAW_FISH:2",
+          "chance": "§fCommon 100%"
+        },
+        {
+          "id": "BONE:8",
+          "chance": "§fCommon 100%"
+        },
+        {
+          "id": "ENCHANTED_BONE",
+          "chance": "§9Rare 1%"
+        }
+      ]
+    }
+  ]
 }

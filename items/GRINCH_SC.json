@@ -22,11 +22,35 @@
     "§a§lUNCOMMON"
   ],
   "internalname": "GRINCH_SC",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "modver": "2.0.0-REL",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Grinch"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§3Grinch",
+      "coins": 10,
+      "xp": 25,
+      "render": "@neurepo:mobs/grinch.json",
+      "type": "drops",
+      "extra": [
+        "§cRequirements:",
+        "§7- Fishing Skill 21",
+        "§7- §bJerry Pond",
+        "§7- §bFished from water"
+      ],
+      "drops": [
+        {
+          "id": "WHITE_GIFT:1",
+          "chance": "§fCommon 100%"
+        },
+        {
+          "id": "GREEN_GIFT"
+        }
+      ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§3Blue Shark (Sea Creature)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"c6e8f0dc-1966-3c37-86e8-f0dc19661c37\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzgxZTFkMDZlNWYwNjU0YTY4MmEzMjY0OTA1YjVkYzRiOGU3YjYxM2FiNjY5N2FjNDVmMmUwZGEzYmM5YjRmZCJ9fX0\"}]}},display:{Lore:[0:\"§7The Blue Shark is one of 4 sharks added in the fishing aspect of the\",1:\"§7community center update. It can be caught during fishing festivals\",2:\"§7while Marina is mayor by those of at least Fishing Level 10.\",3:\"\",4:\"§c❤ Health§8: §c25.000\",5:\"\",6:\"§cDrops:\",7:\"§7- §9Shark Fin\",8:\"§7- §9Blue Shark Tooth\",9:\"\",10:\"§cRequirements:\",11:\"§7- Fishing Skill 10\",12:\"§7- §9Fishing Festival\",13:\"§7- §bFished from water\",14:\"\",15:\"§c§lSPECIAL\"],Name:\"§3Blue Shark (Sea Creature)\"},ExtraAttributes:{id:\"BLUE_SHARK_SC\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"c6e8f0dc-1966-3c37-86e8-f0dc19661c37\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzgxZTFkMDZlNWYwNjU0YTY4MmEzMjY0OTA1YjVkYzRiOGU3YjYxM2FiNjY5N2FjNDVmMmUwZGEzYmM5YjRmZCJ9fX0\"}]}},display:{Lore:[0:\"§7The Blue Shark is one of 4 sharks added in the fishing aspect of the\",1:\"§7community center update. It can be caught during fishing festivals\",2:\"§7while Marina is mayor by those of at least Fishing Level 10.\",3:\"\",4:\"§c❤ Health§8: §c25.000\",5:\"\",6:\"§c§lSPECIAL\"],Name:\"§3Blue Shark (Sea Creature)\"},ExtraAttributes:{id:\"BLUE_SHARK_SC\"}}",
   "damage": 3,
   "lore": [
     "§7The Blue Shark is one of 4 sharks added in the fishing aspect of the",
@@ -10,23 +10,37 @@
     "",
     "§c❤ Health§8: §c25.000",
     "",
-    "§cDrops:",
-    "§7- §9Shark Fin",
-    "§7- §9Blue Shark Tooth",
-    "",
-    "§cRequirements:",
-    "§7- Fishing Skill 10",
-    "§7- §9Fishing Festival",
-    "§7- §bFished from water",
-    "",
     "§c§lSPECIAL"
   ],
   "internalname": "BLUE_SHARK_SC",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Blue_Shark"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§3Blue Shark",
+      "render": "@neurepo:mobs/blue_shark.json",
+      "type": "drops",
+      "extra": [
+        "§cRequirements:",
+        "§7- Fishing Skill 10",
+        "§7- §9Fishing Festival",
+        "§7- §bFished from water"
+      ],
+      "drops": [
+        {
+          "id": "SHARK_FIN",
+          "chance": "§fCommon 100%"
+        },
+        {
+          "id": "BLUE_SHARK_TOOTH",
+          "chance": "§aUncommon 10%"
+        }
+      ]
+    }
+  ]
 }
