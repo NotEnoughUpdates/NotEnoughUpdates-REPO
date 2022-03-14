@@ -20,5 +20,29 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Bat"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§aBat Piñata",
+      "coins": 100,
+      "xp": 100,
+      "level": 25,
+      "render": "Bat",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "GREEN_CANDY",
+          "chance": "§fCommon 90%"
+        },
+        {
+          "id": "PURPLE_CANDY",
+          "chance": "§aUncommon 10%"
+        },
+        {
+          "id": "BAT_THE_FISH",
+          "chance": "§aUncommon 2%"
+        }
+      ]
+    }
+  ]
 }

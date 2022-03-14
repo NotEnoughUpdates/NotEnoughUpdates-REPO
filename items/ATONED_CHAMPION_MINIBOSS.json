@@ -1,24 +1,35 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§5Atoned Champion (Miniboss)",
-  "nbttag": "{display:{Lore:[0:\"§7The Atoned Champion is a Revenant Horror\",1:\"§7Miniboss that very rarely spawns after killing a\",2:\"§7Zombie during Revenant Horror Tier V Quests.\",3:\"\",4:\"§c❤ Health§8: §c600.000\",5:\"\",6:\"§6§lPossible Drops:\",7:\"§aRevenant Flesh\"],Name:\"§5Atoned Champion (Miniboss)\"},ExtraAttributes:{id:\"ATONED_CHAMPION_MINIBOSS\"}}",
+  "nbttag": "{display:{Lore:[0:\"§7The Atoned Champion is a Revenant Horror\",1:\"§7Miniboss that very rarely spawns after killing a\",2:\"§7Zombie during Revenant Horror Tier V Quests.\",3:\"\",4:\"§c❤ Health§8: §c600.000\"],Name:\"§5Atoned Champion (Miniboss)\"},ExtraAttributes:{id:\"ATONED_CHAMPION_MINIBOSS\"}}",
   "damage": 2,
   "lore": [
     "§7The Atoned Champion is a Revenant Horror",
     "§7Miniboss that very rarely spawns after killing a",
     "§7Zombie during Revenant Horror Tier V Quests.",
     "",
-    "§c❤ Health§8: §c600.000",
-    "",
-    "§6§lPossible Drops:",
-    "§aRevenant Flesh"
+    "§c❤ Health§8: §c600.000"
   ],
   "internalname": "ATONED_CHAMPION_MINIBOSS",
   "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Atoned_Champion"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§5Atoned Champion",
+      "render": "@neurepo:mobs/atoned_champion",
+      "level": 390,
+      "type": "drops",
+      "drops": [
+        {
+          "id": "REVENANT_FLESH:2",
+          "chance": "§fCommon 100%"
+        }
+      ]
+    }
+  ]
 }
