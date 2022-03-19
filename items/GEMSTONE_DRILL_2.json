@@ -34,20 +34,26 @@
     "§7§8This item can be reforged!",
     "§7§4❣ §cRequires §5Heart of the",
     "§5Mountain Tier 4",
-    "§9§lRARE DRILL",
-    "",
-    "§eItems Required",
-    "§9Ruby Drill Model TX-15 §7x1",
-    "§9Gemstone Mixture §7x3",
-    "",
-    "§7Duration: §b30s"
+    "§9§lRARE DRILL"
   ],
   "internalname": "GEMSTONE_DRILL_2",
   "crafttext": "",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Gemstone_Drill_LT-522"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "GEMSTONE_DRILL_1:1",
+        "GEMSTONE_MIXTURE:3"
+      ],
+      "count": 1,
+      "overrideOutputId": "GEMSTONE_DRILL_2",
+      "duration": 30
+    }
   ]
 }
