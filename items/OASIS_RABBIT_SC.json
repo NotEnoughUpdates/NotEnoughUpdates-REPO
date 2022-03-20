@@ -1,54 +1,31 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§3Oasis Rabbit (Sea Creature)",
-  "nbttag": "{SkullOwner:{Id:\"caeacf99-0d47-454a-9849-3d2b85b135ac\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2QyNzE5MjcxYzcxNDk4MDIyNmZmMWJlZjRjYmIxZDU0NDExY2UzYTkxNGQ3ZGY3MzFiY2M3ZjYxZTk0ZTVjIn19fQ\"}]}},display:{Lore:[0:\"§c❤ Health§8: §c10.000\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§3Oasis Rabbit (Sea Creature)\"},ExtraAttributes:{id:\"OASIS_RABBIT_SC\"}}",
+  "nbttag": "{SkullOwner:{Id:\"caeacf99-0d47-454a-9849-3d2b85b135ac\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2QyNzE5MjcxYzcxNDk4MDIyNmZmMWJlZjRjYmIxZDU0NDExY2UzYTkxNGQ3ZGY3MzFiY2M3ZjYxZTk0ZTVjIn19fQ\"}]}},display:{Lore:[0:\"§c❤ Health§8: §c10.000\",1:\"\",2:\"§cDrops:\",3:\"§7- §7Lily Pad\",4:\"§7- §7Rabbit Hide\",5:\"§7- §7Rabbit\u0027s Foot\",6:\"§7- §7Raw Rabbit\",7:\"§7- §aEnchanted Raw Rabbit\",8:\"\",9:\"§cRequirements:\",10:\"§7- Fishing Skill 10\",11:\"§7- §bOasis\",12:\"§7- §bFished from water\",13:\"\",14:\"§a§lUNCOMMON\"],Name:\"§3Oasis Rabbit (Sea Creature)\"},ExtraAttributes:{id:\"OASIS_RABBIT_SC\"}}",
   "damage": 3,
   "lore": [
     "§c❤ Health§8: §c10.000",
+    "",
+    "§cDrops:",
+    "§7- §7Lily Pad",
+    "§7- §7Rabbit Hide",
+    "§7- §7Rabbit\u0027s Foot",
+    "§7- §7Raw Rabbit",
+    "§7- §aEnchanted Raw Rabbit",
+    "",
+    "§cRequirements:",
+    "§7- Fishing Skill 10",
+    "§7- §bOasis",
+    "§7- §bFished from water",
     "",
     "§a§lUNCOMMON"
   ],
   "internalname": "OASIS_RABBIT_SC",
   "clickcommand": "",
-  "modver": "2.1.0-REL",
+  "modver": "2.0.0-REL",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Carrot_King"
   ],
-  "crafttext": "",
-  "recipes": [
-    {
-      "name": "§3Oasis Rabbit",
-      "render": "Rabbit",
-      "type": "drops",
-      "extra": [
-        "§cRequirements:",
-        "§7- Fishing Skill 10",
-        "§7- §bOasis",
-        "§7- §bFished from water"
-      ],
-      "drops": [
-        {
-          "id": "LILY_PAD",
-          "chance": "§fCommon 100%"
-        },
-        {
-          "id": "RABBIT_HIDE",
-          "chance": "§fCommon 100%"
-        },
-        {
-          "id": "RABBIT_FOOT",
-          "chance": "§fCommon 100%"
-        },
-        {
-          "id": "RAW_RABBIT",
-          "chance": "§aUncommon 15%"
-        },
-        {
-          "id": "ENCHANTED_RAW_RABBIT",
-          "chance": "§aUncommon 15%"
-        }
-      ]
-    }
-  ]
+  "crafttext": ""
 }

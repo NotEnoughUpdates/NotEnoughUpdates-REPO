@@ -1,47 +1,27 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§3Lava Blaze (Sea Creature)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"118fe834-28aa-3b0d-afe6-f0c52d01afe8\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ\"}]}},display:{Lore:[0:\"\",1:\"§5§lEPIC\"],Name:\"§3Lava Blaze (Sea Creature)\"},ExtraAttributes:{id:\"LAVA_BLAZE_SC\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"118fe834-28aa-3b0d-afe6-f0c52d01afe8\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ\"}]}},display:{Lore:[0:\"§cDrops:\",1:\"§7- §7✎ Rough Sapphire Gemstone\",2:\"§7- §aEternal Flame Ring\",3:\"§7- §9Magma Core\",4:\"\",5:\"§cRequirements:\",6:\"§7- Fishing Skill 20\",7:\"§7- §cMagma Fields\",8:\"§7- §cFished from lava\",9:\"\",10:\"§5§lEPIC\"],Name:\"§3Lava Blaze (Sea Creature)\"},ExtraAttributes:{id:\"LAVA_BLAZE_SC\"}}",
   "damage": 3,
   "lore": [
+    "§cDrops:",
+    "§7- §7✎ Rough Sapphire Gemstone",
+    "§7- §aEternal Flame Ring",
+    "§7- §9Magma Core",
+    "",
+    "§cRequirements:",
+    "§7- Fishing Skill 20",
+    "§7- §cMagma Fields",
+    "§7- §cFished from lava",
     "",
     "§5§lEPIC"
   ],
   "internalname": "LAVA_BLAZE_SC",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
+  "clickcommand": "",
+  "modver": "2.0.0-REL",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Lava_Blaze"
   ],
-  "crafttext": "",
-  "recipes": [
-    {
-      "name": "§3Lava Blaze",
-      "coins": 10,
-      "xp": 10,
-      "render": "Blaze",
-      "type": "drops",
-      "extra": [
-        "§cRequirements:",
-        "§7- Fishing Skill 20",
-        "§7- §cMagma Fields",
-        "§7- §cFished from lava"
-      ],
-      "drops": [
-        {
-          "id": "ROUGH_SAPPHIRE_GEMSTONE",
-          "chance": "§fCommon 100%"
-        },
-        {
-          "id": "ETERNAL_FLAME_RING",
-          "chance": "§9Rare 0.5%"
-        },
-        {
-          "id": "MAGMA_CORE",
-          "chance": "§9Rare 0.2%"
-        }
-      ]
-    }
-  ]
+  "crafttext": ""
 }
