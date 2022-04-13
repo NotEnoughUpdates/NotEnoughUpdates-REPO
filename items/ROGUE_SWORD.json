@@ -5,7 +5,7 @@
   "clickcommand": "",
   "damage": 0,
   "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+20\",1:\"\",2:\"§6Ability: Speed Boost §e§lRIGHT CLICK\",3:\"§7Increases your movement §f✦\",4:\"§fSpeed §7by §a+20 §7for §a30\",5:\"§a§7seconds.\",6:\"§8Mana Cost: §350\",7:\"§8Half speed if already active.\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§f§lCOMMON SWORD\"],Name:\"§fRogue Sword\"},ExtraAttributes:{id:\"ROGUE_SWORD\"}}",
-  "modver": "2.0.0-REL",
+  "modver": "2.1.0-REL",
   "lore": [
     "§7Damage: §c+20",
     "",
@@ -21,7 +21,15 @@
   ],
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Rogue_Sword"
+    "https://hypixel-skyblock.fandom.com/wiki/Rogue_Sword",
+    "https://wiki.hypixel.net/Rogue_Sword"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+    "type": "trade",
+    "cost": "EMERALD:120",
+    "result": "ROGUE_SWORD"
+    }
+  ]
 }

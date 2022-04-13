@@ -5,7 +5,7 @@
   "clickcommand": "",
   "damage": 0,
   "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Reduces the damage taken from\",1:\"§7§7Skeletons by §a5%§7.\",2:\"\",3:\"§7§8This item can be reforged!\",4:\"§f§lCOMMON ACCESSORY\"],Name:\"§fSkeleton Talisman\"},ExtraAttributes:{id:\"SKELETON_TALISMAN\"}}",
-  "modver": "1.0.0",
+  "modver": "2.1.0-REL",
   "lore": [
     "§7Reduces the damage taken from",
     "§7§7Skeletons by §a5%§7.",
@@ -15,6 +15,14 @@
   ],
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Skeleton_Talisman"
+    "https://hypixel-skyblock.fandom.com/wiki/Skeleton_Talisman",
+    "https://wiki.hypixel.net/Skeleton_Talisman"
+  ],
+  "recipes": [
+    {
+    "type": "trade",
+    "cost": "EMERALD:10",
+    "result": "SKELETON_TALISMAN"
+    }
   ]
 }
