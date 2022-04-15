@@ -1,28 +1,16 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§6Sadan (Boss)",
-  "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"7233b46d-7ee3-38d9-859b-3642e454fe05\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwMDg4ODE0Njk5NiwKICAicHJvZmlsZUlkIiA6ICJhMmY4MzQ1OTVjODk0YTI3YWRkMzA0OTcxNmNhOTEwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJiUHVuY2giLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmEwNmNiMGM0NzFjMWM5YmMxNjlhZjI3MGNkNDY2ZWE3MDE5NDY3NzYwNTZlNDcyZWNkYWViNDlmMGY0YTRkYyIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7Sadan is the boss of Floor 6 of the Catacombs.\",1:\"§7He is a 'Necromancer Lord' and has three phases.\",2:\"§7In the first he summons a teracotta army that must\",3:\"§7be survied for 100 seconds. After that he summons four\",4:\"§7giants and once killed, he merges them into himself.\",5:\"\",6:\"§c❤ Health§8: §c40.000.000\",7:\"\",8:\"§6§lPossible Drops:\",9:\"§9Ancient Rose §a(1x)\",10:\"§5Giant Tooth §a(1x)\",11:\"§5Sadan's Brooch §a(1x)\",12:\"§6Necromancer Lord Helmet §a(1x)\",13:\"§6Necromancer Lord Chestplate §a(1x)\",14:\"§6Necromancer Lord Leggings §a(1x)\",15:\"§6Necromancer Lord Boots §a(1x)\",16:\"§6Necromancer Lord Sword §a(1x)\",17:\"§6Giant's Sword §a(1x)\",18:\"§6Precursor Eye §a(1x)\"],Name:\"§6Sadan (Boss)\"},ExtraAttributes:{id:\"SADAN_BOSS\"}}",
+  "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"7233b46d-7ee3-38d9-859b-3642e454fe05\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwMDg4ODE0Njk5NiwKICAicHJvZmlsZUlkIiA6ICJhMmY4MzQ1OTVjODk0YTI3YWRkMzA0OTcxNmNhOTEwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJiUHVuY2giLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmEwNmNiMGM0NzFjMWM5YmMxNjlhZjI3MGNkNDY2ZWE3MDE5NDY3NzYwNTZlNDcyZWNkYWViNDlmMGY0YTRkYyIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7Sadan is the boss of Floor 6 of the Catacombs.\",1:\"§7He is a \u0027Necromancer Lord\u0027 and has three phases.\",2:\"§7In the first he summons a teracotta army that must\",3:\"§7be survied for 100 seconds. After that he summons four\",4:\"§7giants and once killed, he merges them into himself.\",5:\"\",6:\"§c❤ Health§8: §c40.000.000\"],Name:\"§6Sadan (Boss)\"},ExtraAttributes:{id:\"SADAN_BOSS\"}}",
   "damage": 3,
   "lore": [
     "§7Sadan is the boss of Floor 6 of the Catacombs.",
-    "§7He is a 'Necromancer Lord' and has three phases.",
+    "§7He is a \u0027Necromancer Lord\u0027 and has three phases.",
     "§7In the first he summons a teracotta army that must",
     "§7be survied for 100 seconds. After that he summons four",
     "§7giants and once killed, he merges them into himself.",
     "",
-    "§c❤ Health§8: §c40.000.000",
-    "",
-    "§6§lPossible Drops:",
-    "§9Ancient Rose §a(1x)",
-    "§5Giant Tooth §a(1x)",
-    "§5Sadan's Brooch §a(1x)",
-    "§6Necromancer Lord Helmet §a(1x)",
-    "§6Necromancer Lord Chestplate §a(1x)",
-    "§6Necromancer Lord Leggings §a(1x)",
-    "§6Necromancer Lord Boots §a(1x)",
-    "§6Necromancer Lord Sword §a(1x)",
-    "§6Giant's Sword §a(1x)",
-    "§6Precursor Eye §a(1x)"
+    "§c❤ Health§8: §c40.000.000"
   ],
   "internalname": "SADAN_BOSS",
   "clickcommand": "",
@@ -32,5 +20,59 @@
     "https://hypixel-skyblock.fandom.com/wiki/Sadan",
     "https://wiki.hypixel.net/Sadan"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§cSadan",
+      "render": "@neurepo:mobs/sadan.json",
+      "panorama": "dungeon",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "GOLEM_POPPY",
+          "chance": "10.32%"
+        },
+        {
+          "id": "GIANT_TOOTH",
+          "chance": "3.4%"
+        },
+        {
+          "id": "NECROMANCER_LORD_HELMET",
+          "chance": "1.47%"
+        },
+        {
+          "id": "NECROMANCER_LORD_CHESTPLATE",
+          "chance": "0.29%"
+        },
+        {
+          "id": "NECROMANCER_LORD_LEGGINGS",
+          "chance": "1.71%"
+        },
+        {
+          "id": "NECROMANCER_LORD_BOOTS",
+          "chance": "7.56%"
+        },
+        {
+          "id": "NECROMANCER_SWORD",
+          "chance": "0.73%"
+        },
+        {
+          "id": "SADAN_BROOCH",
+          "chance": "4.13%"
+        },
+        {
+          "id": "GIANTS_SWORD",
+          "chance": "0.11%"
+        },
+        {
+          "id": "PRECURSOR_EYE",
+          "chance": "0.07%"
+        },
+        {
+          "id": "SUMMONING_RING",
+          "chance": "0.37%"
+        }
+      ]
+    }
+  ]
 }

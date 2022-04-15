@@ -1,31 +1,17 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§6Necron (Boss)",
-  "nbttag": "{ench:[],overrideMeta:1b,display:{Lore:[0:\"§7Necron is the boss of Floor 7 of the Catacombs. He is\",1:\"§7a 'Wither Lord' and has 4 phases. In the 1st he must be\",2:\"§7killed after being frozen by Energy Crystals. In the 2nd he\",3:\"§7must be crushed with Pillars. In the 3rd the Player must solve\",4:\"§7terminals and must be killed again normally in the 4th.\",5:\"\",6:\"§c❤ Health§8: §c1.000.000.000\",7:\"§a❈ Defense§8: §a300\",8:\"\",9:\"§6§lPossible Drops:\",10:\"§9Wither Catalyst §a(1x)\",11:\"§5Implosion §a(1x)\",12:\"§5Wither Shield §a(1x)\",13:\"§5Shadow Warp §a(1x)\",14:\"§5Precursor Gear §a(1x)\",15:\"§5Wither Blood §a(1x)\",16:\"§5Necron's Handle §a(1x)\",17:\"§6Wither Helmet §a(1x)\",18:\"§6Wither Chestplate §a(1x)\",19:\"§6Wither Leggings §a(1x)\",20:\"§6Wither Boots §a(1x)\",21:\"§6Auto Recombobulator §a(1x)\"],Name:\"§6Necron (Boss)\"},ExtraAttributes:{id:\"NECRON_BOSS\"}}",
+  "nbttag": "{ench:[],overrideMeta:1b,display:{Lore:[0:\"§7Necron is the boss of Floor 7 of the Catacombs. He is\",1:\"§7a \u0027Wither Lord\u0027 and has 4 phases. In the 1st he must be\",2:\"§7killed after being frozen by Energy Crystals. In the 2nd he\",3:\"§7must be crushed with Pillars. In the 3rd the Player must solve\",4:\"§7terminals and must be killed again normally in the 4th.\",5:\"\",6:\"§c❤ Health§8: §c1,000.000.000\",7:\"§a❈ Defense§8: §a300\"],Name:\"§6Necron (Boss)\"},ExtraAttributes:{id:\"NECRON_BOSS\"}}",
   "damage": 1,
   "lore": [
     "§7Necron is the boss of Floor 7 of the Catacombs. He is",
-    "§7a 'Wither Lord' and has 4 phases. In the 1st he must be",
+    "§7a \u0027Wither Lord\u0027 and has 4 phases. In the 1st he must be",
     "§7killed after being frozen by Energy Crystals. In the 2nd he",
     "§7must be crushed with Pillars. In the 3rd the Player must solve",
     "§7terminals and must be killed again normally in the 4th.",
     "",
-    "§c❤ Health§8: §c1.000.000.000",
-    "§a❈ Defense§8: §a300",
-    "",
-    "§6§lPossible Drops:",
-    "§9Wither Catalyst §a(1x)",
-    "§5Implosion §a(1x)",
-    "§5Wither Shield §a(1x)",
-    "§5Shadow Warp §a(1x)",
-    "§5Precursor Gear §a(1x)",
-    "§5Wither Blood §a(1x)",
-    "§5Necron's Handle §a(1x)",
-    "§6Wither Helmet §a(1x)",
-    "§6Wither Chestplate §a(1x)",
-    "§6Wither Leggings §a(1x)",
-    "§6Wither Boots §a(1x)",
-    "§6Auto Recombobulator §a(1x)"
+    "§c❤ Health§8: §c1,000.000.000",
+    "§a❈ Defense§8: §a300"
   ],
   "internalname": "NECRON_BOSS",
   "clickcommand": "",
@@ -35,5 +21,83 @@
     "https://hypixel-skyblock.fandom.com/wiki/Necron",
     "https://wiki.hypixel.net/Necron"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§cNecron",
+      "render": "Wither",
+      "panorama": "dungeon",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "NECRON_HANDLE",
+          "chance": "0.03%"
+        },
+        {
+          "id": "WITHER_SHIELD_SCROLL",
+          "chance": "0.1%"
+        },
+        {
+          "id": "IMPLOSION_SCROLL",
+          "chance": "0.1%"
+        },
+        {
+          "id": "SHADOW_WARP_SCROLL",
+          "chance": "0.1%"
+        },
+        {
+          "id": "AUTO_RECOMBOBULATOR",
+          "chance": "0.54%"
+        },
+        {
+          "id": "MAXOR_THE_FISH",
+          "chance": "0.33%"
+        },
+        {
+          "id": "STORM_THE_FISH",
+          "chance": "0.33%"
+        },
+        {
+          "id": "GOLDOR_THE_FISH",
+          "chance": "0.33%"
+        },
+        {
+          "id": "ULTIMATE_ONE_FOR_ALL;1",
+          "chance": "0.54%"
+        },
+        {
+          "id": "WITHER_CLOAK",
+          "chance": "5.27%"
+        },
+        {
+          "id": "WITHER_BLOOD",
+          "chance": "5.58%"
+        },
+        {
+          "id": "WITHER_CATALYST",
+          "chance": "5.21%"
+        },
+        {
+          "id": "PRECURSOR_GEAR",
+          "chance": "15.89%"
+        },
+        {
+          "id": "WITHER_HELMET",
+          "chance": "0.54%"
+        },
+        {
+          "id": "WITHER_CHESTPLATE",
+          "chance": "3.23%"
+        },
+        {
+          "id": "WITHER_LEGGINGS",
+          "chance": "1.71%"
+        },
+        {
+          "id": "WITHER_BOOTS",
+          "chance": "6.23%"
+        }
+      ]
+    }
+  ]
 }

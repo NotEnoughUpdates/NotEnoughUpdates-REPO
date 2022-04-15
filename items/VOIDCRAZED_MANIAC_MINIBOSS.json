@@ -1,0 +1,37 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§5Voidcrazed Maniac (Miniboss)",
+  "nbttag": "{SkullOwner:{Id:\"0de98464-1274-4dd6-bba8-370efa5d41a8\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E1OWJiMGE3YTMyOTY1YjNkOTBkOGVhZmE4OTlkMTgzNWY0MjQ1MDllYWRkNGU2YjcwOWFkYTUwYjljZiJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7The Voidling Maniac is a Enderman Slayer\",1:\"§7Miniboss that very rarely spawns after killing a\",2:\"§7Enderman during Voidgloom Seraph Tier IV Quests.\",3:\"\",4:\"§c❤ Health§8: §c75,000,000\"],Name:\"§5Voidcrazed Maniac (Miniboss)\"},ExtraAttributes:{id:\"VOIDCRAZED_MANIAC_MINIBOSS\"}}",
+  "damage": 3,
+  "lore": [
+    "§7The Voidling Maniac is a Enderman Slayer",
+    "§7Miniboss that very rarely spawns after killing a",
+    "§7Enderman during Voidgloom Seraph Tier IV Quests.",
+    "",
+    "§c❤ Health§8: §c75,000,000"
+  ],
+  "internalname": "VOIDCRAZED_MANIAC_MINIBOSS",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Voidcrazed_Maniac",
+    "https://wiki.hypixel.net/Voidcrazed_Maniac"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 730,
+      "name": "§4Voidcrazed Maniac",
+      "render": "Enderman",
+      "type": "drops",
+      "panorama": "combat_3",
+      "drops": [
+        {
+          "id": "NULL_SPHERE",
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}
