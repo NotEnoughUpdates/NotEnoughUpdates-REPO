@@ -22,5 +22,20 @@
     "https://hypixel-skyblock.fandom.com/wiki/Mimic",
     "https://wiki.hypixel.net/Mimic"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§cMimic",
+      "coins": 1,
+      "xp": 30,
+      "render": "@neurepo:mobs/mimic.json",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "MIMIC_FRAGMENT",
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
 }
