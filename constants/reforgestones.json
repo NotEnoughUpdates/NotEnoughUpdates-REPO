@@ -139,53 +139,57 @@
       }
     }
   },
-  "GOLDEN_BALL": {
-    "internalName": "GOLDEN_BALL",
-    "reforgeName": "Bountiful",
+  "BLAZE_WAX": {
+    "internalName": "BLAZE_WAX",
+    "reforgeName": "Waxed",
     "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "HOE",
+    "itemTypes": "EQUIPMENT",
     "requiredRarities": [
       "COMMON",
       "UNCOMMON",
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 20000,
-      "UNCOMMON": 40000,
-      "RARE": 80000,
-      "EPIC": 150000,
-      "LEGENDARY": 300000,
-      "MYTHIC": 600000
-    },
-    "reforgeAbility": {
-      "COMMON": "§7Grants §a+1 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. §7Grants §a+0.2 §7Coins on crop break.",
-      "UNCOMMON": "§7Grants §a+2 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. §7Grants §a+0.2 §7Coins on crop break.",
-      "RARE": "§7Grants §a+3 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. §7Grants §a+0.2 §7Coins on crop break.",
-      "EPIC": "§7Grants §a+5 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. §7Grants §a+0.2 §7Coins on crop break.",
-      "LEGENDARY": "§7Grants §a+7 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. §7Grants §a+0.2 §7Coins on crop break.",
-      "MYTHIC": "§7Grants §a+10 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. §7Grants §a+0.2 §7Coins on crop break."
+      "COMMON": 7500,
+      "UNCOMMON": 15000,
+      "RARE": 30000,
+      "EPIC": 75000,
+      "LEGENDARY": 150000,
+      "MYTHIC": 300000,
+      "DIVINE": 400000
     },
     "reforgeStats": {
       "COMMON": {
-        "speed": 1
+        "health": 5,
+        "crit_chance": 2
       },
       "UNCOMMON": {
-        "speed": 2
+        "health": 6,
+        "crit_chance": 3
       },
       "RARE": {
-        "speed": 3
+        "health": 8,
+        "crit_chance": 4
       },
       "EPIC": {
-        "speed": 5
+        "health": 10,
+        "crit_chance": 5
       },
       "LEGENDARY": {
-        "speed": 8
+        "health": 12,
+        "crit_chance": 6
       },
       "MYTHIC": {
-        "speed": 13
+        "health": 15,
+        "crit_chance": 7
+      },
+      "DIVINE": {
+        "health": 20,
+        "crit_chance": 8
       }
     }
   },
@@ -711,6 +715,56 @@
       }
     }
   },
+  "GOLDEN_BALL": {
+    "internalName": "GOLDEN_BALL",
+    "reforgeName": "Bountiful",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "HOE",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts": {
+      "COMMON": 20000,
+      "UNCOMMON": 40000,
+      "RARE": 80000,
+      "EPIC": 150000,
+      "LEGENDARY": 300000,
+      "MYTHIC": 600000
+    },
+    "reforgeAbility": {
+      "COMMON": "§7Grants §a+1 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. §7Grants §a+0.2 §7Coins on crop break.",
+      "UNCOMMON": "§7Grants §a+2 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. §7Grants §a+0.2 §7Coins on crop break.",
+      "RARE": "§7Grants §a+3 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. §7Grants §a+0.2 §7Coins on crop break.",
+      "EPIC": "§7Grants §a+5 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. §7Grants §a+0.2 §7Coins on crop break.",
+      "LEGENDARY": "§7Grants §a+7 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. §7Grants §a+0.2 §7Coins on crop break.",
+      "MYTHIC": "§7Grants §a+10 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. §7Grants §a+0.2 §7Coins on crop break."
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "speed": 1
+      },
+      "UNCOMMON": {
+        "speed": 2
+      },
+      "RARE": {
+        "speed": 3
+      },
+      "EPIC": {
+        "speed": 5
+      },
+      "LEGENDARY": {
+        "speed": 8
+      },
+      "MYTHIC": {
+        "speed": 13
+      }
+    }
+  },
   "HARDENED_WOOD": {
     "internalName": "HARDENED_WOOD",
     "reforgeName": "Stiff",
@@ -1028,6 +1082,53 @@
       "MYTHIC": {
         "damage": 90,
         "strength": 90
+      }
+    }
+  },
+  "METEOR_SHARD": {
+    "internalName": "METEOR_SHARD",
+    "reforgeName": "Fortified",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "EQUIPMENT",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 7500,
+      "UNCOMMON": 15000,
+      "RARE": 30000,
+      "EPIC": 75000,
+      "LEGENDARY": 150000,
+      "MYTHIC": 300000,
+      "DIVINE": 400000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "defense": 12
+      },
+      "UNCOMMON": {
+        "defense": 14
+      },
+      "RARE": {
+        "defense": 17
+      },
+      "EPIC": {
+        "defense": 20
+      },
+      "LEGENDARY": {
+        "defense": 25
+      },
+      "MYTHIC": {
+        "defense": 30
+      },
+      "DIVINE": {
+        "defense": 36
       }
     }
   },
