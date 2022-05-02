@@ -1886,6 +1886,60 @@
       }
     }
   },
+  "SEARING_STONE": {
+    "internalName": "SEARING_STONE",
+    "reforgeName": "Strengthened",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "EQUIPMENT",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 7500,
+      "UNCOMMON": 15000,
+      "RARE": 30000,
+      "EPIC": 75000,
+      "LEGENDARY": 150000,
+      "MYTHIC": 300000,
+      "DIVINE": 400000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "defense": 3,
+        "strength": 2
+      },
+      "UNCOMMON": {
+        "defense": 4,
+        "strength": 3
+      },
+      "RARE": {
+        "defense": 5,
+        "strength": 4
+      },
+      "EPIC": {
+        "defense": 6,
+        "strength": 5
+      },
+      "LEGENDARY": {
+        "defense": 8,
+        "strength": 6
+      },
+      "MYTHIC": {
+        "defense": 10,
+        "strength": 7
+      },
+      "DIVINE": {
+        "defense": 12,
+        "strength": 8
+      }
+    }
+  },
   "TOIL_LOG": {
     "internalName": "TOIL_LOG",
     "reforgeName": "Toil",
