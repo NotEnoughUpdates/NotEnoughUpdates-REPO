@@ -1,13 +1,12 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§fZombie Talisman",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Reduces the damage taken from\",1:\"§7§7Zombies by §a5%§7.\",2:\"\",3:\"§7§8This item can be reforged!\",4:\"§f§lCOMMON ACCESSORY\"],Name:\"§fZombie Talisman\"},ExtraAttributes:{id:\"ZOMBIE_TALISMAN\"}}",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Reduces the damage taken from\",1:\"§7§7Zombies by §a5%§7.\",2:\"\",3:\"§f§lCOMMON ACCESSORY\"],Name:\"§fZombie Talisman\"},ExtraAttributes:{id:\"ZOMBIE_TALISMAN\"}}",
   "damage": 2,
   "lore": [
     "§7Reduces the damage taken from",
     "§7§7Zombies by §a5%§7.",
     "",
-    "§7§8This item can be reforged!",
     "§f§lCOMMON ACCESSORY"
   ],
   "internalname": "ZOMBIE_TALISMAN",
@@ -20,9 +19,9 @@
   ],
   "recipes": [
     {
-    "type": "trade",
-    "cost": "EMERALD:10",
-    "result": "ZOMBIE_TALISMAN"
+      "type": "trade",
+      "cost": "EMERALD:10",
+      "result": "ZOMBIE_TALISMAN"
     }
   ]
 }

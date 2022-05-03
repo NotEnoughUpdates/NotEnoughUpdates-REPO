@@ -4,13 +4,12 @@
   "displayname": "§fSkeleton Talisman",
   "clickcommand": "",
   "damage": 0,
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Reduces the damage taken from\",1:\"§7§7Skeletons by §a5%§7.\",2:\"\",3:\"§7§8This item can be reforged!\",4:\"§f§lCOMMON ACCESSORY\"],Name:\"§fSkeleton Talisman\"},ExtraAttributes:{id:\"SKELETON_TALISMAN\"}}",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Reduces the damage taken from\",1:\"§7§7Skeletons by §a5%§7.\",2:\"\",3:\"§f§lCOMMON ACCESSORY\"],Name:\"§fSkeleton Talisman\"},ExtraAttributes:{id:\"SKELETON_TALISMAN\"}}",
   "modver": "2.1.0-REL",
   "lore": [
     "§7Reduces the damage taken from",
     "§7§7Skeletons by §a5%§7.",
     "",
-    "§7§8This item can be reforged!",
     "§f§lCOMMON ACCESSORY"
   ],
   "infoType": "WIKI_URL",
@@ -20,9 +19,9 @@
   ],
   "recipes": [
     {
-    "type": "trade",
-    "cost": "EMERALD:10",
-    "result": "SKELETON_TALISMAN"
+      "type": "trade",
+      "cost": "EMERALD:10",
+      "result": "SKELETON_TALISMAN"
     }
   ]
 }
