@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:leather_chestplate",
   "displayname": "§6Magma Lord Chestplate",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Strength: §c+10\",1:\"§7Crit Damage: §c+35%\",2:\"§7Sea Creature Chance: §c+4.5%\",3:\"§7Health: §a+250\",4:\"§7Defense: §a+240\",5:\" §8[§7⚔§8] §8[§7⚔§8]\",6:\"\",7:\"§7Damage taken by §cLava Sea\",8:\"§cCreatures §7is reduced by §a15%\",9:\"§a§7and damage dealt is increased\",10:\"§7by §c1.3x§7.\",11:\"\",12:\"§7§8This item can be reforged!\",13:\"§6§lLEGENDARY CHESTPLATE\"],color:7278344,Name:\"§6Magma Lord Chestplate\"},ExtraAttributes:{id:\"MAGMA_LORD_CHESTPLATE\"}}",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Strength: §c+10\",1:\"§7Crit Damage: §c+35%\",2:\"§7Sea Creature Chance: §c+4.5%\",3:\"§7Health: §a+250\",4:\"§7Defense: §a+240\",5:\" §8[§7⚔§8] §8[§7⚔§8]\",6:\"\",7:\"§8Tiered Bonus: Fireproof (0/2)\",8:\"§7Provides immunity to §6nether\",9:\"§6magma§7.\",10:\"\",11:\"§8Tiered Bonus: Lord\u0027s Blessing (0/5)\",12:\"§7Grants §3+1α Sea Creature\",13:\"§3Chance§7.\",14:\"§7Grants §b+5✯ Magic Find §7on\",15:\"§7Lava Sea Creatures.\",16:\"\",17:\"§7Damage taken by §cLava Sea\",18:\"§cCreatures §7is reduced by §a15%\",19:\"§a§7and damage dealt is increased\",20:\"§7by §c1.3x§7.\",21:\"\",22:\"§7§8This item can be reforged!\",23:\"§6§lLEGENDARY CHESTPLATE\"],color:7278344,Name:\"§6Magma Lord Chestplate\"},ExtraAttributes:{id:\"MAGMA_LORD_CHESTPLATE\"}}",
   "damage": 0,
   "lore": [
     "§7Strength: §c+10",
@@ -11,6 +11,16 @@
     "§7Defense: §a+240",
     " §8[§7⚔§8] §8[§7⚔§8]",
     "",
+    "§8Tiered Bonus: Fireproof (0/2)",
+    "§7Provides immunity to §6nether",
+    "§6magma§7.",
+    "",
+    "§8Tiered Bonus: Lord\u0027s Blessing (0/5)",
+    "§7Grants §3+1α Sea Creature",
+    "§3Chance§7.",
+    "§7Grants §b+5✯ Magic Find §7on",
+    "§7Lava Sea Creatures.",
+    "",
     "§7Damage taken by §cLava Sea",
     "§cCreatures §7is reduced by §a15%",
     "§a§7and damage dealt is increased",
@@ -19,9 +29,23 @@
     "§7§8This item can be reforged!",
     "§6§lLEGENDARY CHESTPLATE"
   ],
+  "recipe": {
+    "A1": "MAGMA_LORD_FRAGMENT:1",
+    "A2": "",
+    "A3": "MAGMA_LORD_FRAGMENT:1",
+    "B1": "MAGMA_LORD_FRAGMENT:1",
+    "B2": "MAGMA_LORD_FRAGMENT:1",
+    "B3": "MAGMA_LORD_FRAGMENT:1",
+    "C1": "MAGMA_LORD_FRAGMENT:1",
+    "C2": "MAGMA_LORD_FRAGMENT:1",
+    "C3": "MAGMA_LORD_FRAGMENT:1"
+  },
   "internalname": "MAGMA_LORD_CHESTPLATE",
-  "crafttext": "",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "modver": "2.1.0-REL",
-  "infoType": ""
+  "crafttext": "",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Magma_Lord_Armor"
+  ]
 }
