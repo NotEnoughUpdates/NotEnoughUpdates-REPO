@@ -1400,11 +1400,11 @@
     }
   },
   "FLYING_FISH": {
-    "EPIC": {
+    "RARE": {
       "1": {
         "otherNums": [
-          0.1,
-          0.5
+          0.4,
+          0.8
         ],
         "statNums": {
           "DEFENSE": 0.0,
@@ -1413,8 +1413,30 @@
       },
       "100": {
         "otherNums": [
-          15,
-          50
+          40,
+          80
+        ],
+        "statNums": {
+          "DEFENSE": 50.0,
+          "STRENGTH": 50.0
+        }
+      }
+    },
+    "EPIC": {
+      "1": {
+        "otherNums": [
+          0.5,
+          1.0
+        ],
+        "statNums": {
+          "DEFENSE": 0.0,
+          "STRENGTH": 0.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          50,
+          100
         ],
         "statNums": {
           "DEFENSE": 50.0,
@@ -1425,9 +1447,9 @@
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          0.4,
           0.5,
-          0.3
+          1.0,
+          0.2
         ],
         "statNums": {
           "DEFENSE": 0.0,
@@ -1436,9 +1458,9 @@
       },
       "100": {
         "otherNums": [
-          40,
           50,
-          30
+          100,
+          20
         ],
         "statNums": {
           "DEFENSE": 50.0,
@@ -1446,11 +1468,13 @@
         }
       }
     },
-    "RARE": {
+    "MYTHIC": {
       "1": {
         "otherNums": [
-          0.3,
-          0.4
+          0.5,
+          1.0,
+          0.2,
+          0.5
         ],
         "statNums": {
           "DEFENSE": 0.0,
@@ -1459,8 +1483,10 @@
       },
       "100": {
         "otherNums": [
-          30,
-          40
+          50,
+          100,
+          20,
+          50
         ],
         "statNums": {
           "DEFENSE": 50.0,
