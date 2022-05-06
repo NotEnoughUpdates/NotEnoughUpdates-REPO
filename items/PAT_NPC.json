@@ -1,0 +1,38 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Pat (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"05c67dc9-4108-50e4-ac28-3e7574847eab\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTI2Mjk0NjdjZjU0NGU3OWVkMTQ4ZDNkMzg0Mjg3NmYyZDg4NDE4OThiNGIyZTZmNjBkZmMxZTAyZjExNzlmMyJ9fX0\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Pat (NPC)\"},ExtraAttributes:{id:\"PAT_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "PAT_NPC",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Pat",
+    "https://wiki.hypixel.net/Pat"
+  ],
+  "crafttext": "",
+  "x": -135,
+  "y": 75,
+  "z": -98,
+  "island": "hub",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:65"
+      ],
+      "result": "GRAVEL:15"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:60"
+      ],
+      "result": "FLINT:10"
+    }
+  ]
+}

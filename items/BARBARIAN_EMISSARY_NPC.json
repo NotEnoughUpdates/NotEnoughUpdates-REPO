@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Barbarian Emissary (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"bb81a611-bda5-5be3-8dc7-6de8fe76c12e\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM2MzBkOWIwMjA4OGVhMTkyNGE4NzIyNDJhYmM3NWI2MjYyYzJhY2E5MmFlY2Y4NzE0YTU3YTQxZWVhMGI5ZCJ9fX0\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Barbarian Emissary (NPC)\"},ExtraAttributes:{id:\"BARBARIAN_EMISSARY_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "BARBARIAN_EMISSARY_NPC",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "",
+  "crafttext": "",
+  "x": -581,
+  "y": 101,
+  "z": -711,
+  "island": "crimson_isle",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:8000",
+        "ENCHANTED_RED_SAND:2",
+        "CORRUPTED_NETHER_STAR:2"
+      ],
+      "result": "KUUDRA_TIER_KEY"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:100000"
+      ],
+      "result": "THORNLEAF_SCYTHE"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Mine Merchant (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"dea43de3-5b35-575d-ae74-e813ad92616a\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjA4OTkwNjU2NDkyZDcyMmE4ZWE4OTZiODE2ZDAxOTExMzY4YjM4N2EyYWM0YmM3NGY3MGEwYWVkZDdlYjdmOCJ9fX0\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Mine Merchant (NPC)\"},ExtraAttributes:{id:\"MINE_MERCHANT_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "MINE_MERCHANT_NPC",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Mine_Merchant",
+    "https://wiki.hypixel.net/Mine_Merchant"
+  ],
+  "crafttext": "",
+  "x": -9,
+  "y": 70,
+  "z": -125,
+  "island": "hub",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:8"
+      ],
+      "result": "COAL:2"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:22"
+      ],
+      "result": "IRON_INGOT:4"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:12"
+      ],
+      "result": "GOLD_INGOT:2"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:8"
+      ],
+      "result": "COAL:2"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:12"
+      ],
+      "result": "ROOKIE_PICKAXE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:35"
+      ],
+      "result": "PROMISING_PICKAXE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "GOLD_INGOT:3"
+      ],
+      "result": "GOLD_PICKAXE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:16"
+      ],
+      "result": "TORCH:16"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:12"
+      ],
+      "result": "GRAVEL:2"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:3"
+      ],
+      "result": "COBBLESTONE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:4"
+      ],
+      "result": "STONE:2"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:100"
+      ],
+      "result": "ONYX"
+    }
+  ]
+}
