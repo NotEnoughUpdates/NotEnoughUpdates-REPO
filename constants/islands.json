@@ -1,0 +1,295 @@
+{
+  "area_names": {
+    "dynamic": "Private Island",
+    "hub": "Hub",
+    "mining_1": "Gold Mine",
+    "mining_2": "Deep Caverns",
+    "mining_3": "Dwarven Mines",
+    "combat_1": "Spider's Den",
+    "crimson_isle": "Crimson Isle",
+    "combat_3": "The End",
+    "farming_1": "The Farming Islands",
+    "foraging_1": "The Park",
+    "winter": "Jerry's Workshop",
+    "dungeon": "Dungeon",
+    "dungeon_hub": "Dungeon Hub",
+    "crystal_hollows": "Crystal Hollows"
+  },
+  "teleporters": [
+    {
+      "from": "hub",
+      "to": "foraging_1",
+      "x": -221,
+      "y": 75,
+      "z": -15
+    },
+    {
+      "from": "foraging_1",
+      "to": "hub",
+      "x": -275,
+      "y": 84,
+      "z": -14
+    },
+    {
+      "from": "dungeon_hub",
+      "to": "hub",
+      "x": 17.5,
+      "y": 128,
+      "z": 0.5
+    },
+    {
+      "from": "hub",
+      "to": "dungeon_hub",
+      "x": -44.5,
+      "y": 90,
+      "z": 11.5
+    },
+    {
+      "from": "mining_1",
+      "to": "hub",
+      "x": -4.5,
+      "y": 76,
+      "z": -272.5
+    },
+    {
+      "from": "hub",
+      "to": "mining_1",
+      "x": -9.5,
+      "y": 68,
+      "z": -228.5
+    },
+    {
+      "from": "mining_2",
+      "to": "mining_1",
+      "x": -4,
+      "y": 159,
+      "z": 85
+    },
+    {
+      "from": "mining_1",
+      "to": "mining_2",
+      "x": -8,
+      "y": 70,
+      "z": -393
+    },
+    {
+      "from": "farming_1",
+      "to": "hub",
+      "x": 113.5,
+      "y": 73,
+      "z": -207.5
+    },
+    {
+      "from": "hub",
+      "to": "farming_1",
+      "x": 76.5,
+      "y": 74,
+      "z": -181.5
+    },
+    {
+      "from": "combat_1",
+      "to": "hub",
+      "x": 202.5,
+      "y": 85,
+      "z": -233.5
+    },
+    {
+      "from": "hub",
+      "to": "combat_1",
+      "x": -159.5,
+      "y": 75,
+      "z": -158.5
+    },
+    {
+      "from": "crimson_isle",
+      "to": "combat_1",
+      "x": -361,
+      "y": 82,
+      "z": -425
+    },
+    {
+      "from": "combat_1",
+      "to": "crimson_isle",
+      "x": -355,
+      "y": 89,
+      "z": -347
+    },
+    {
+      "from": "combat_3",
+      "to": "combat_1",
+      "x": -503,
+      "y": 103,
+      "z": -275
+    },
+    {
+      "from": "combat_1",
+      "to": "combat_3",
+      "x": -378,
+      "y": 121,
+      "z": -261
+    },
+    {
+      "from": "mining_3",
+      "to": "mining_2",
+      "x": -78,
+      "y": 202,
+      "z": -124
+    },
+    {
+      "from": "mining_2",
+      "to": "mining_3",
+      "x": 43,
+      "y": 152,
+      "z": 15
+    }
+  ],
+  "island_warps": [
+    {
+    "warp": "nether",
+    "mode": "crimson_isle",
+    "x": -361,
+    "y": 80,
+    "z": -430
+    },
+    {
+      "warp": "deep",
+      "mode": "mining_2",
+      "x": 4,
+      "y": 157,
+      "z": 80
+    },
+    {
+      "warp": "gold",
+      "mode": "mining_1",
+      "x": -8,
+      "y": 68,
+      "z": -393
+    },
+    {
+      "warp": "mines",
+      "mode": "mining_3",
+      "x": -49,
+      "y": 200,
+      "z": -121
+    },
+    {
+      "warp": "forge",
+      "mode": "mining_3",
+      "x": 0,
+      "y": 149,
+      "z": -68
+    },
+    {
+      "warp": "barn",
+      "mode": "farming_1",
+      "x": 113,
+      "y": 71,
+      "z": -207
+    },
+    {
+      "warp": "desert",
+      "mode": "farming_1",
+      "x": 160,
+      "y": 77,
+      "z": -370
+    },
+    {
+      "warp": "park",
+      "mode": "foraging_1",
+      "x": -279,
+      "y": 82,
+      "z": -14
+    },
+    {
+      "warp": "dungeon_hub",
+      "mode": "dungeon_hub",
+      "x": -31,
+      "y": 121,
+      "z": 0
+    },
+    {
+      "warp": "spider",
+      "mode": "combat_1",
+      "x": -203,
+      "y": 83,
+      "z": -233
+    },
+    {
+      "warp": "end",
+      "mode": "combat_3",
+      "x": -503,
+      "y": 101,
+      "z": -275
+    },
+    {
+      "warp": "castle",
+      "mode": "hub",
+      "x": -250,
+      "y": 130,
+      "z": 45
+    },
+    {
+      "warp": "crypts",
+      "mode": "hub",
+      "x": -162,
+      "y": 61,
+      "z": -100
+    },
+    {
+      "warp": "museum",
+      "mode": "hub",
+      "x": -76,
+      "y": 76,
+      "z": 80
+    },
+    {
+      "warp": "jungle",
+      "mode": "foraging_1",
+      "x": -463,
+      "y": 133,
+      "z": -128
+    },
+    {
+      "warp": "howl",
+      "mode": "foraging_1",
+      "x": -333,
+      "y": 90,
+      "z": -55
+    },
+    {
+      "warp": "nest",
+      "mode": "combat_1",
+      "x": -189,
+      "y": 176,
+      "z": -310
+    },
+    {
+      "warp": "drag",
+      "mode": "combat_3",
+      "x": -607,
+      "y": 22,
+      "z": -276
+    },
+    {
+      "warp": "void",
+      "mode": "combat_3",
+      "x": -570,
+      "y": 7,
+      "z": -318
+    },
+    {
+      "warp": "hub",
+      "mode": "hub",
+      "x": -3,
+      "y": 70,
+      "z": -70
+    },
+    {
+      "warp": "kuudra",
+      "mode": "crimson_isle",
+      "x": -373,
+      "y": 114,
+      "z": -1034
+    }
+  ]
+}
