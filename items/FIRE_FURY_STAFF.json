@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:blaze_rod",
   "displayname": "§5Fire Fury Staff",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Damage: §c+100\",1:\"§7Intelligence: §a+300\",2:\" §8[§7✎§8]\",3:\"\",4:\"§6Ability: Firestorm §e§lRIGHT CLICK\",5:\"§7Shoots a projectile that on\",6:\"§7impact creates a firestorm,\",7:\"§7dealing up to §c154,149.4\",8:\"§c§7damage over 10 seconds to mobs\",9:\"§7in a 7 block radius.\",10:\"§8Mana Cost: §31,000\",11:\"§8Cooldown: §a20s\",12:\"\",13:\"§7§8This item can be reforged!\",14:\"§5§lEPIC SWORD\"],Name:\"§5Fire Fury Staff\"},ExtraAttributes:{id:\"FIRE_FURY_STAFF\"}}",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Damage: §c+100\",1:\"§7Intelligence: §a+300\",2:\" §8[§7✎§8]\",3:\"\",4:\"§6Ability: Firestorm §e§lRIGHT CLICK\",5:\"§7Shoots a projectile that on\",6:\"§7impact creates a firestorm,\",7:\"§7dealing up to §c362,555.8\",8:\"§c§7damage over 10 seconds to mobs\",9:\"§7in a 7 block radius.\",10:\"§8Mana Cost: §31,000\",11:\"§8Cooldown: §a20s\",12:\"\",13:\"§7§8This item can be reforged!\",14:\"§5§lEPIC SWORD\"],Name:\"§5Fire Fury Staff\"},ExtraAttributes:{id:\"FIRE_FURY_STAFF\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+100",
@@ -11,7 +11,7 @@
     "§6Ability: Firestorm §e§lRIGHT CLICK",
     "§7Shoots a projectile that on",
     "§7impact creates a firestorm,",
-    "§7dealing up to §c154,149.4",
+    "§7dealing up to §c362,555.8",
     "§c§7damage over 10 seconds to mobs",
     "§7in a 7 block radius.",
     "§8Mana Cost: §31,000",
@@ -20,10 +20,21 @@
     "§7§8This item can be reforged!",
     "§5§lEPIC SWORD"
   ],
+  "recipe": {
+    "A1": "",
+    "A2": "",
+    "A3": "COMPACT_OOZE:20",
+    "B1": "",
+    "B2": "REKINDLED_EMBER_FRAGMENT:20",
+    "B3": "",
+    "C1": "STICK:1",
+    "C2": "",
+    "C3": ""
+  },
   "internalname": "FIRE_FURY_STAFF",
-  "crafttext": "",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "modver": "2.1.0-REL",
+  "crafttext": "",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Fire_Fury_Staff"

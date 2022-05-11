@@ -1400,11 +1400,11 @@
     }
   },
   "FLYING_FISH": {
-    "EPIC": {
+    "RARE": {
       "1": {
         "otherNums": [
-          0.1,
-          0.5
+          0.4,
+          0.8
         ],
         "statNums": {
           "DEFENSE": 0.0,
@@ -1413,8 +1413,30 @@
       },
       "100": {
         "otherNums": [
-          15,
-          50
+          40,
+          80
+        ],
+        "statNums": {
+          "DEFENSE": 50.0,
+          "STRENGTH": 50.0
+        }
+      }
+    },
+    "EPIC": {
+      "1": {
+        "otherNums": [
+          0.5,
+          1.0
+        ],
+        "statNums": {
+          "DEFENSE": 0.0,
+          "STRENGTH": 0.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          50,
+          100
         ],
         "statNums": {
           "DEFENSE": 50.0,
@@ -1425,9 +1447,9 @@
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          0.4,
           0.5,
-          0.3
+          1.0,
+          0.2
         ],
         "statNums": {
           "DEFENSE": 0.0,
@@ -1436,9 +1458,9 @@
       },
       "100": {
         "otherNums": [
-          40,
           50,
-          30
+          100,
+          20
         ],
         "statNums": {
           "DEFENSE": 50.0,
@@ -1446,11 +1468,13 @@
         }
       }
     },
-    "RARE": {
+    "MYTHIC": {
       "1": {
         "otherNums": [
-          0.3,
-          0.4
+          0.5,
+          1.0,
+          0.2,
+          0.5
         ],
         "statNums": {
           "DEFENSE": 0.0,
@@ -1459,8 +1483,10 @@
       },
       "100": {
         "otherNums": [
-          30,
-          40
+          50,
+          100,
+          20,
+          50
         ],
         "statNums": {
           "DEFENSE": 50.0,
@@ -2142,6 +2168,122 @@
       }
     }
   },
+  "KUUDRA": {
+    "COMMON": {
+      "1": {
+        "otherNums": [
+          0.0,
+          0.0
+        ],
+        "statNums": {
+          "HEALTH": 0.0,
+          "STRENGTH": 0.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          10,
+          10
+        ],
+        "statNums": {
+          "HEALTH": 400.0,
+          "STRENGTH": 40.0
+        }
+      }
+    },
+    "UNCOMMON": {
+      "1": {
+        "otherNums": [
+          0.0,
+          0.0
+        ],
+        "statNums": {
+          "HEALTH": 0.0,
+          "STRENGTH": 0.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          15,
+          15
+        ],
+        "statNums": {
+          "HEALTH": 400.0,
+          "STRENGTH": 40.0
+        }
+      }
+    },
+    "RARE": {
+      "1": {
+        "otherNums": [
+          0.0,
+          0.0
+        ],
+        "statNums": {
+          "HEALTH": 0.0,
+          "STRENGTH": 0.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          15,
+          15
+        ],
+        "statNums": {
+          "HEALTH": 400.0,
+          "STRENGTH": 40.0
+        }
+      }
+    },
+    "EPIC": {
+      "1": {
+        "otherNums": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "statNums": {
+          "HEALTH": 0.0,
+          "STRENGTH": 0.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          20,
+          20,
+          20
+        ],
+        "statNums": {
+          "HEALTH": 400.0,
+          "STRENGTH": 40.0
+        }
+      }
+    },
+    "LEGENDARY": {
+      "1": {
+        "otherNums": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "statNums": {
+          "HEALTH": 0.0,
+          "STRENGTH": 0.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          20,
+          20,
+          20
+        ],
+        "statNums": {
+          "HEALTH": 400.0,
+          "STRENGTH": 40.0
+        }
+      }
+    }
+  },
   "LION": {
     "COMMON": {
       "1": {
@@ -2561,7 +2703,7 @@
           0.3
         ],
         "statNums": {
-          "FARMING_FORTUNE": 0.0,
+          "FARMING_FORTUNE": 11.0,
           "HEALTH": 1.0
         }
       },
@@ -2570,7 +2712,7 @@
           30
         ],
         "statNums": {
-          "FARMING_FORTUNE": 50.0,
+          "FARMING_FORTUNE": 110.0,
           "HEALTH": 100.0
         }
       }
@@ -2581,7 +2723,7 @@
           0.3
         ],
         "statNums": {
-          "FARMING_FORTUNE": 0.0,
+          "FARMING_FORTUNE": 11.0,
           "HEALTH": 1.0
         }
       },
@@ -2590,7 +2732,7 @@
           30
         ],
         "statNums": {
-          "FARMING_FORTUNE": 50.0,
+          "FARMING_FORTUNE": 110.0,
           "HEALTH": 100.0
         }
       }
@@ -2598,19 +2740,21 @@
     "RARE": {
       "1": {
         "otherNums": [
-          0.4
+          0.4,
+          2.0
         ],
         "statNums": {
-          "FARMING_FORTUNE": 0.0,
+          "FARMING_FORTUNE": 11.0,
           "HEALTH": 1.0
         }
       },
       "100": {
         "otherNums": [
-          40
+          40,
+          100
         ],
         "statNums": {
-          "FARMING_FORTUNE": 50.0,
+          "FARMING_FORTUNE": 110.0,
           "HEALTH": 100.0
         }
       }
@@ -2618,19 +2762,21 @@
     "EPIC": {
       "1": {
         "otherNums": [
-          0.4
+          0.4,
+          2.0
         ],
         "statNums": {
-          "FARMING_FORTUNE": 0.0,
+          "FARMING_FORTUNE": 11.0,
           "HEALTH": 1.0
         }
       },
       "100": {
         "otherNums": [
-          40
+          40,
+          100
         ],
         "statNums": {
-          "FARMING_FORTUNE": 50.0,
+          "FARMING_FORTUNE": 110.0,
           "HEALTH": 100.0
         }
       }
@@ -2638,19 +2784,23 @@
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          0.4
+          0.4,
+          2.0,
+          40
         ],
         "statNums": {
-          "FARMING_FORTUNE": 0.0,
+          "FARMING_FORTUNE": 11.0,
           "HEALTH": 1.0
         }
       },
       "100": {
         "otherNums": [
-          40
+          40,
+          100,
+          20
         ],
         "statNums": {
-          "FARMING_FORTUNE": 50.0,
+          "FARMING_FORTUNE": 110.0,
           "HEALTH": 100.0
         }
       }
