@@ -14,7 +14,18 @@
   ],
   "internalname": "PERFECT_OPAL_GEM",
   "crafttext": "",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "modver": "2.1.0-REL",
-  "infoType": ""
+  "infoType": "",
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "FLAWLESS_OPAL_GEM:5"
+      ],
+      "count": 1,
+      "overrideOutputId": "PERFECT_OPAL_GEM",
+      "duration": 72000
+    }
+  ]
 }
