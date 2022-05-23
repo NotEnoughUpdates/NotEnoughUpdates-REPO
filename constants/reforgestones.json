@@ -1750,14 +1750,14 @@
       "VERY SPECIAL": 10000
     },
     "reforgeAbility": {
-      "COMMON": "Gain §a+1% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted block for ores that you mine.",
-      "UNCOMMON": "Gain §a+2% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted block for ores that you mine.",
-      "RARE": "Gain §a+3% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted block for ores that you mine.",
-      "EPIC": "Gain §a+4% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted block for ores that you mine.",
-      "LEGENDARY": "Gain §a+5% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted block for ores that you mine.",
-      "MYTHIC": "Gain §a+6% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted block for ores that you mine.",
-      "SPECIAL": "Gain §a+8% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted block for ores that you mine.",
-      "VERY SPECIAL": "Gain §a+5% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted block for ores that you mine."
+      "COMMON": "Gain §a+1% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
+      "UNCOMMON": "Gain §a+2% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
+      "RARE": "Gain §a+3% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
+      "EPIC": "Gain §a+4% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
+      "LEGENDARY": "Gain §a+5% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
+      "MYTHIC": "Gain §a+6% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
+      "SPECIAL": "Gain §a+8% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
+      "VERY SPECIAL": "Gain §a+5% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine."
     },
     "reforgeStats": {
       "COMMON": {
@@ -2038,6 +2038,60 @@
       "DIVINE": {
         "defense": 12,
         "strength": 8
+      }
+    }
+  },
+  "SHINY_PRISM": {
+    "internalName": "SHINY_PRISM",
+    "reforgeName": "Glistering",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "EQUIPMENT",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 7500,
+      "UNCOMMON": 15000,
+      "RARE": 30000,
+      "EPIC": 75000,
+      "LEGENDARY": 150000,
+      "MYTHIC": 300000,
+      "DIVINE": 400000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "intelligence": 2,
+        "mining_fortune": 5
+      },
+      "UNCOMMON": {
+        "intelligence": 3,
+        "mining_fortune": 6
+      },
+      "RARE": {
+        "intelligence": 4,
+        "mining_fortune": 8
+      },
+      "EPIC": {
+        "intelligence": 5,
+        "mining_fortune": 10
+      },
+      "LEGENDARY": {
+        "intelligence": 6,
+        "mining_fortune": 12
+      },
+      "MYTHIC": {
+        "intelligence": 7,
+        "mining_fortune": 15
+      },
+      "DIVINE": {
+        "intelligence": 8,
+        "mining_fortune": 16
       }
     }
   },
