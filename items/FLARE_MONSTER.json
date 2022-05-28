@@ -1,0 +1,49 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aFlare (Monster)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"118fe834-28aa-3b0d-afe6-f0c52d01afe8\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ\"}]}},display:{Lore:[0:\"§7They started the fire.\",1:\"\",2:\"§c❤ Health§8: §c5,000,000\"],Name:\"§aFlare (Monster)\"},ExtraAttributes:{id:\"FLARE_MONSTER\"}}",
+  "damage": 3,
+  "lore": [
+    "§7They started the fire.",
+    "",
+    "§c❤ Health§8: §c5,000,000"
+  ],
+  "internalname": "FLARE_MONSTER",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Flare",
+    "https://wiki.hypixel.net/Flare"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 90,
+      "coins": 20,
+      "xp": 100,
+      "combat_xp": 0,
+      "name": "§fFlare",
+      "type": "drops",
+      "panorama": "crimson_isle",
+      "render": "Blaze",
+      "extra": [],
+      "drops": [
+        {
+          "id": "BLAZE_ROD:1",
+          "extra": [],
+          "chance": "x2-3"
+        },
+        {
+          "id": "GAZING_PEARL:1",
+          "extra": [],
+          "chance": "5%"
+        },
+        {
+          "id": "DYE_FLAME:1",
+          "chance": "0.00001%"
+        }
+      ]
+    }
+  ]
+}

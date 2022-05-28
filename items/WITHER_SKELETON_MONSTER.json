@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§aWither Skeleton (Monster)",
-  "nbttag": "{display:{Lore:[0:\"§7Keepers of the Blazing Fortress.\",1:\"\",2:\"§c❤ Health§8: §c250\"],Name:\"§aWither Skeleton (Monster)\"},ExtraAttributes:{id:\"WITHER_SKELETON_MONSTER\"}}",
+  "nbttag": "{display:{Lore:[0:\"§7Keepers of the Crimson Isle.\",1:\"\",2:\"§c❤ Health§8: §c1,000,000\"],Name:\"§aWither Skeleton (Monster)\"},ExtraAttributes:{id:\"WITHER_SKELETON_MONSTER\"}}",
   "damage": 1,
   "lore": [
-    "§7Keepers of the Blazing Fortress.",
+    "§7Keepers of the Crimson Isle.",
     "",
-    "§c❤ Health§8: §c250"
+    "§c❤ Health§8: §c1,000,000"
   ],
   "internalname": "WITHER_SKELETON_MONSTER",
   "clickcommand": "viewrecipe",
@@ -19,31 +19,85 @@
   "crafttext": "",
   "recipes": [
     {
-      "level": 25,
+      "level": 10,
       "coins": 4,
       "xp": 15,
       "combat_xp": 13,
-      "name": "§cWither Skeleton",
-      "panorama": "combat_2",
+      "name": "§fWither Skeleton",
       "render": "@neurepo:mobs/witherskeleton.json",
       "type": "drops",
-      "extra": [],
+      "panorama": "crimson_isle",
       "drops": [
-        {
-          "id": "BONE:3",
-          "chance": "100%"
-        },
         {
           "id": "COAL:1",
           "chance": "50%"
+        },
+        {
+          "id": "BONE:1",
+          "chance": "x3"
+        },
+        {
+          "id": "ENCHANTED_COAL:1",
+          "chance": "1%"
+        },
+        {
+          "id": "ENCHANTED_CHARCOAL:1",
+          "chance": "1%"
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "coins": 20,
+      "xp": 100,
+      "combat_xp": 0,
+      "name": "§fWither Skeleton",
+      "render": "@neurepo:mobs/witherskeleton.json",
+      "type": "drops",
+      "panorama": "crimson_isle",
+      "drops": [
+        {
+          "id": "COAL:1",
+          "extra": [],
+          "chance": "50%"
+        },
+        {
+          "id": "BONE:1",
+          "extra": [],
+          "chance": "x3"
+        },
+        {
+          "id": "WITHER_SOUL:1",
+          "extra": [],
+          "chance": "20%"
+        },
+        {
+          "id": "ENCHANTED_COAL:1",
+          "chance": "1%"
         },
         {
           "id": "ENCHANTED_CHARCOAL:1",
           "chance": "1%"
         },
         {
-          "id": "ENCHANTED_COAL:1",
-          "chance": "1%"
+          "id": "RAMPART_HELMET:1",
+          "chance": "0.1%"
+        },
+        {
+          "id": "RAMPART_CHESTPLATE:1",
+          "chance": "0.1%"
+        },
+        {
+          "id": "RAMPART_LEGGINGS:1",
+          "chance": "0.1%"
+        },
+        {
+          "id": "RAMPART_BOOTS:1",
+          "chance": "0.1%"
+        },
+        {
+          "id": "SWORD_OF_BAD_HEALTH:1",
+          "chance": "0.05%"
         },
         {
           "id": "DYE_BONE:1",

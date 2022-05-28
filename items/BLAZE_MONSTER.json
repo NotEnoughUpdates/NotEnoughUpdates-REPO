@@ -23,14 +23,19 @@
       "coins": 5,
       "xp": 30,
       "combat_xp": 0,
-      "name": "§cBlaze",
-      "render": "Blaze",
-      "panorama": "combat_2",
+      "name": "§fBlaze",
       "type": "drops",
+      "panorama": "crimson_isle",
+      "render": "Blaze",
+      "extra": [],
       "drops": [
         {
           "id": "BLAZE_ROD:1",
           "extra": []
+        },
+        {
+          "id": "DYE_FLAME:1",
+          "chance": "0.00001%"
         }
       ]
     },
@@ -39,10 +44,11 @@
       "coins": 10,
       "xp": 35,
       "combat_xp": 0,
-      "name": "§cBlaze",
-      "render": "Blaze",
-      "panorama": "combat_2",
+      "name": "§fBlaze",
       "type": "drops",
+      "panorama": "crimson_isle",
+      "render": "Blaze",
+      "extra": [],
       "drops": [
         {
           "id": "BLAZE_ROD:1",
@@ -50,9 +56,55 @@
           "chance": "x2"
         },
         {
-          "id": "BLAZE_HAT:1",
+          "id": "DYE_FLAME:1",
+          "chance": "0.00001%"
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "coins": 20,
+      "xp": 100,
+      "combat_xp": 0,
+      "name": "§fBlaze",
+      "type": "drops",
+      "panorama": "crimson_isle",
+      "render": "Blaze",
+      "extra": [],
+      "drops": [
+        {
+          "id": "BLAZE_ROD:1",
           "extra": [],
-          "chance": "5%"
+          "chance": "x1-2"
+        },
+        {
+          "id": "BLAZE_ASHES:1",
+          "extra": [],
+          "chance": "20%"
+        },
+        {
+          "id": "RAMPART_HELMET:1",
+          "chance": "0.1%"
+        },
+        {
+          "id": "RAMPART_CHESTPLATE:1",
+          "chance": "0.1%"
+        },
+        {
+          "id": "RAMPART_LEGGINGS:1",
+          "chance": "0.1%"
+        },
+        {
+          "id": "RAMPART_BOOTS:1",
+          "chance": "0.1%"
+        },
+        {
+          "id": "SWORD_OF_BAD_HEALTH:1",
+          "chance": "0.05%"
+        },
+        {
+          "id": "DYE_FLAME:1",
+          "chance": "0.00001%"
         }
       ]
     }
