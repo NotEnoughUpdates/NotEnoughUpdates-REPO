@@ -19,29 +19,65 @@
   "crafttext": "",
   "recipes": [
     {
-      "level": 210,
-      "coins": 100,
-      "xp": 200,
-      "name": "§cMoogma",
-      "render": "Mooshroom",
+      "level": 200,
+      "coins": 20,
+      "xp": 100,
+      "combat_xp": 0,
+      "name": "§fMagma Slug",
+      "type": "drops",
       "panorama": "crimson_isle",
+      "render": "MagmaCube",
       "extra": [
         "§cRequirements:",
-        "§7- Fishing Skill 28",
+        "§7- Fishing Skill 27",
         "§7- §6Crimson Isle Lava"
       ],
-      "type": "drops",
       "drops": [
         {
-          "id": "MAGMA_FISH:9",
-          "chance": "100%"
+          "id": "MAGMA_FISH:1",
+          "extra": [],
+          "chance": "x5"
         },
         {
-          "id": "MOOGMA_PELT:1",
+          "id": "LUMP_OF_MAGMA:1",
+          "extra": [],
           "chance": "x1-2"
         },
         {
-          "id": "MOOGMA_LEGGINGS:1",
+          "id": "SLUG_BOOTS:1",
+          "extra": [],
+          "chance": "2%"
+        }
+      ]
+    },
+    {
+      "level": 200,
+      "coins": 20,
+      "xp": 100,
+      "combat_xp": 0,
+      "name": "§fBaby Magma Slug",
+      "type": "drops",
+      "panorama": "crimson_isle",
+      "render": "MagmaCube",
+      "extra": [
+        "§cRequirements:",
+        "§7- Fishing Skill 27",
+        "§7- §6Crimson Isle Lava"
+      ],
+      "drops": [
+        {
+          "id": "MAGMA_FISH:1",
+          "extra": [],
+          "chance": "x5"
+        },
+        {
+          "id": "LUMP_OF_MAGMA:1",
+          "extra": [],
+          "chance": "x1-2"
+        },
+        {
+          "id": "SLUG_BOOTS:1",
+          "extra": [],
           "chance": "2%"
         }
       ]

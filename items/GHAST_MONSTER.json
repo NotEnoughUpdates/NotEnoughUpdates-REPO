@@ -27,14 +27,61 @@
       "coins": 30,
       "xp": 32,
       "combat_xp": 0,
-      "name": "§cGhast",
-      "panorama": "combat_2",
+      "name": "§fGhast",
       "render": "Ghast",
       "type": "drops",
+      "panorama": "crimson_isle",
+      "extra": [],
       "drops": [
         {
           "id": "GHAST_TEAR:1",
           "extra": []
+        }
+      ]
+    },
+    {
+      "level": 85,
+      "coins": 400,
+      "xp": 500,
+      "combat_xp": 0,
+      "name": "§fGhast",
+      "type": "drops",
+      "render": "Ghast",
+      "panorama": "crimson_isle",
+      "extra": [],
+      "drops": [
+        {
+          "id": "GHAST_TEAR:1",
+          "extra": [],
+          "chance": "x1-2"
+        },
+        {
+          "id": "TENTACLE_MEAT:1",
+          "extra": [],
+          "chance": "10%"
+        }
+      ]
+    },
+    {
+      "level": 90,
+      "coins": 400,
+      "xp": 500,
+      "combat_xp": 0,
+      "name": "§fDive Ghast",
+      "type": "drops",
+      "render": "Ghast",
+      "panorama": "crimson_isle",
+      "extra": [],
+      "drops": [
+        {
+          "id": "GHAST_TEAR:1",
+          "extra": [],
+          "chance": "x2"
+        },
+        {
+          "id": "TENTACLE_MEAT:1",
+          "extra": [],
+          "chance": "10%"
         }
       ]
     }
