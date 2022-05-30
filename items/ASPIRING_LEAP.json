@@ -1,8 +1,8 @@
 {
-  "itemid": "minecraft:ender_pearl",
-  "displayname": "§5Aspiring Leap",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§6Ability: Aspiring Leap §e§lRIGHT CLICK\",1:\"§7Allows you to teleport to co-op\",2:\"§7members on your private island!\",3:\"§8Cooldown: §a5s\",4:\"\",5:\"§5§lEPIC DUNGEON ITEM\"],Name:\"§5Aspiring Leap\"},ExtraAttributes:{id:\"ASPIRING_LEAP\"}}",
-  "damage": 0,
+  "itemid": "minecraft:skull",
+  "displayname": "§f§f§5Aspiring Leap",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"ce901cc9-c491-3307-9bd2-f272bdef8413\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1MjE0NjkwNTM1OCwKICAicHJvZmlsZUlkIiA6ICJhMWU4OThjNWEyNmY0MTYyOTQyYmNmNmM1MzRiMTE5ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0b21keGlpaSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hMzgyNjE4MWNlOTAxMmI2NjU4NjVmM2FjMDA2NjMwN2I0ZDAyZGEyODE1NDAxMDRlMDQ2MWZmZWZhNzQ1OWZkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§6Ability: Aspiring Leap §e§lRIGHT CLICK\",1:\"§7Allows you to teleport to co-op\",2:\"§7members on your private island!\",3:\"§8Cooldown: §a5s\",4:\"\",5:\"§5§lEPIC DUNGEON ITEM\"],Name:\"§f§f§5Aspiring Leap\"},ExtraAttributes:{id:\"ASPIRING_LEAP\"}}",
+  "damage": 3,
   "lore": [
     "§6Ability: Aspiring Leap §e§lRIGHT CLICK",
     "§7Allows you to teleport to co-op",
@@ -13,6 +13,7 @@
   ],
   "internalname": "ASPIRING_LEAP",
   "crafttext": "",
+  "clickcommand": "viewrecipe",
   "recipe": {
     "A1": "",
     "A2": "SPIRIT_LEAP:16",
@@ -24,8 +25,7 @@
     "C2": "SPIRIT_LEAP:16",
     "C3": ""
   },
-  "clickcommand": "viewrecipe",
-  "modver": "2.0.0-REL",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Aspiring_Leap"
