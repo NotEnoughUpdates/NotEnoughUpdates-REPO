@@ -917,6 +917,55 @@
       }
     }
   },
+  "KUUDRA_MANDIBLE": {
+    "internalName": "KUUDRA_MANDIBLE",
+    "reforgeName": "Chomp",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "ROD",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts": {
+      "COMMON": 20000,
+      "UNCOMMON": 40000,
+      "RARE": 80000,
+      "EPIC": 150000,
+      "LEGENDARY": 300000,
+      "MYTHIC": 600000
+    },
+    "reforgeAbility": "§7Lava Sea Creatures have their max Health reduced for each unique lava sea creature that you've killed with this rod!",
+    "reforgeStats": {
+      "COMMON": {
+        "strength": 5,
+        "crit_chance": 5
+      },
+      "UNCOMMON": {
+        "strength": 10,
+        "crit_chance": 10
+      },
+      "RARE": {
+        "strength": 17,
+        "crit_chance": 17
+      },
+      "EPIC": {
+        "strength": 25,
+        "crit_chance": 25
+      },
+      "LEGENDARY": {
+        "strength": 35,
+        "crit_chance": 35
+      },
+      "MYTHIC": {
+        "strength": 50,
+        "crit_chance": 50
+      }
+    }
+  },
   "LAPIS_CRYSTAL": {
     "internalName": "LAPIS_CRYSTAL",
     "reforgeName": "Magnetic",
