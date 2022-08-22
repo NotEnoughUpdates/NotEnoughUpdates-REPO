@@ -6,26 +6,9 @@
   "lore": [
     "§7The Magma Cube Boss (or just simply called the",
     "§7Magma Boss by the community) is a hostile mob",
-    "§7found in the Blazing Fortress.",
+    "§7found in the Magma Chamberm within the Blazing Volcano.",
     "",
-    "§c❤ Health§8: §c150.000",
-    "§7Coins per Kill: §6125",
-    "§7Combat XP: §3200",
-    "",
-    "§6§lPossible Drops:",
-    "§fCommon Loot",
-    "§8 ■ §fMagma Cream",
-    "§8 ■ §aEnchanted Magma Cream",
-    "",
-    "§aUncommon Loot",
-    "§8 ■ §9Ember Fragment",
-    "",
-    "§9Rare Loot",
-    "§8 ■ §5Travel Scroll to Magma Fields",
-    "",
-    "§6Legendary Loot",
-    "§8 ■ §7[Lvl 1] §5Magma Cube",
-    "§8 ■ §7[Lvl 1] §6Magma Cube"
+    "§c❤ Health§8: §c200,000,000"
   ],
   "internalname": "MAGMA_CUBE_BOSS",
   "clickcommand": "viewrecipe",
@@ -33,12 +16,12 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Magma_Cube_Boss",
-    "https://wiki.hypixel.net/Magma_Cube"
+    "https://wiki.hypixel.net/Magma_Cube_Boss"
   ],
   "crafttext": "",
   "recipes": [
     {
-      "level": 100,
+      "level": 500,
       "coins": 125,
       "xp": 200,
       "combat_xp": 200,
@@ -47,19 +30,29 @@
       "type": "drops",
       "drops": [
         {
-          "id": "MAGMA_CREAM",
+          "id": "MAGMA_CREAM:20",
           "extra": [],
-          "chance": "x1-7"
+          "chance": "100%"
+        },
+        {
+          "id": "MAGMA_CREAM:10",
+          "extra": [],
+          "chance": "70%"
+        },
+        {
+          "id": "MAGMA_CREAM:5",
+          "extra": [],
+          "chance": "50%"
         },
         {
           "id": "MOLTEN_CUBE",
           "extra": [],
-          "chance": "0.1%"
+          "chance": "0.5%"
         },
         {
           "id": "MAGMA_CUBE;3",
           "extra": [],
-          "chance": "10%"
+          "chance": "1.5%"
         },
         {
           "id": "MAGMA_CUBE;4",
@@ -67,19 +60,34 @@
           "chance": "2%"
         },
         {
-          "id": "EMBER_FRAGMENT",
+          "id": "ENCHANTED_MAGMA_CREAM",
           "extra": [],
           "chance": "50%"
-        },
-        {
-          "id": "NETHER_FORTRESS_BOSS_TRAVEL_SCROLL",
-          "extra": [],
-          "chance": "35%"
         },
         {
           "id": "ENCHANTED_MAGMA_CREAM",
           "extra": [],
           "chance": "50%"
+        },
+        {
+          "id": "COMPACT_OOZE",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "REKINDLED_EMBER_FRAGMENT",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "MAGMA_URCHIN",
+          "extra": [],
+          "chance": "2%"
+        },
+        {
+          "id": "FIRE_FURY_STAFF",
+          "extra": [],
+          "chance": "0.5%"
         }
       ]
     }
