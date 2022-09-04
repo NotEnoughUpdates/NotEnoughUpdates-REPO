@@ -41,7 +41,8 @@
       "ultimate_inferno",
       "ultimate_fatal_tempo",
       "tabasco",
-      "champion"
+      "champion",
+      "divine_gift"
     ],
     "BOW": [
       "aiming",
@@ -65,7 +66,9 @@
       "smoldering",
       "ultimate_inferno",
       "ultimate_fatal_tempo",
-      "tabasco"
+      "divine_gift",
+      "tabasco",
+      "ultimate_duplex"
     ],
     "AXE": [
       "efficiency",
@@ -166,7 +169,8 @@
       "ultimate_fatal_tempo",
       "ultimate_flash",
       "tabasco",
-      "champion"
+      "champion",
+      "divine_gift"
     ],
     "SHOVEL": [
       "efficiency",
@@ -316,7 +320,8 @@
       "ultimate_inferno",
       "ultimate_fatal_tempo",
       "tabasco",
-      "champion"
+      "champion",
+      "divine_gift"
     ],
     "GAUNTLET": [
       "bane_of_arthropods",
@@ -366,7 +371,8 @@
       "ultimate_inferno",
       "ultimate_fatal_tempo",
       "tabasco",
-      "champion"
+      "champion",
+      "divine_gift"
     ],
     "GLOVES": [
       "cayenne"
@@ -598,21 +604,27 @@
       15,
       20,
       25,
-      30
+      30,
+      100,
+      200
     ],
     "smite": [
       10,
       15,
       20,
       25,
-      30
+      30,
+      100,
+      200
     ],
     "bane_of_arthropods": [
       10,
       15,
       20,
       25,
-      30
+      30,
+      100,
+      200
     ],
     "knockback": [
       15,
@@ -625,70 +637,88 @@
     "experience": [
       15,
       30,
-      45
+      45,
+      75
     ],
     "looting": [
       15,
       30,
-      45
+      45,
+      100,
+      200
     ],
     "scavenger": [
       10,
       20,
-      30
+      30,
+      40,
+      50
     ],
     "luck": [
       10,
       20,
       30,
       40,
-      50
+      50,
+      75,
+      200
     ],
     "cubism": [
       10,
       20,
       30,
       40,
-      50
+      50,
+      200
     ],
     "cleave": [
       10,
       20,
       30,
       40,
-      50
+      50,
+      200
     ],
     "life_steal": [
       20,
       25,
-      30
+      30,
+      50,
+      200
     ],
     "giant_killer": [
       10,
       20,
       30,
       40,
-      50
+      50,
+      100,
+      200
     ],
     "critical": [
       10,
       20,
       30,
       40,
-      50
+      50,
+      75,
+      200
     ],
     "first_strike": [
       20,
       30,
       40,
-      75
+      75,
+      200
     ],
     "ender_slayer": [
       10,
       20,
       25,
       30,
-      40
+      40,
+      75,
+      200
     ],
     "impaling": [
       30,
@@ -700,74 +730,88 @@
       25,
       30,
       40,
-      50
+      50,
+      200
     ],
     "thunderlord": [
       20,
       25,
       30,
       40,
-      50
+      50,
+      200
     ],
     "lethality": [
       20,
       25,
       30,
       40,
-      50
+      50,
+      200
     ],
     "syphon": [
       20,
       25,
-      30
+      30,
+      45,
+      200
     ],
     "vampirism": [
       20,
       25,
       30,
       40,
-      50
+      50,
+      200
     ],
     "venomous": [
       20,
       25,
       30,
       40,
-      50
+      50,
+      200
     ],
     "triple_strike": [
       20,
       30,
       40,
-      75
+      75,
+      200
     ],
     "thunderbolt": [
       20,
       25,
       30,
       40,
-      50
+      50,
+      200
     ],
     "PROSECUTE": [
       20,
       25,
       30,
       40,
-      50
+      50,
+      200
     ],
     "titan_killer": [
       10,
       20,
       30,
       40,
-      50
+      50,
+      100,
+      200
     ],
     "power": [
       10,
       20,
       30,
       40,
-      50
+      50,
+      95,
+      200
     ],
     "punch": [
       15,
@@ -781,7 +825,11 @@
       15,
       20,
       25,
-      30
+      30,
+      60,
+      80,
+      100,
+      140
     ],
     "snipe": [
       20,
@@ -798,7 +846,9 @@
     "chance": [
       15,
       30,
-      45
+      45,
+      100,
+      200
     ],
     "piercing": [
       30
@@ -826,21 +876,24 @@
       15,
       20,
       25,
-      30
+      30,
+      50
     ],
     "luck_of_the_sea": [
       10,
       15,
       20,
       25,
-      30
+      30,
+      50
     ],
     "angler": [
       10,
       20,
       30,
       40,
-      50
+      50,
+      75
     ],
     "blessing": [
       10,
@@ -854,34 +907,39 @@
       25,
       30,
       40,
-      50
+      50,
+      75
     ],
     "frail": [
       20,
       25,
       30,
       40,
-      50
+      50,
+      75
     ],
     "pristine": [
       25,
-      25,
-      25,
-      25
+      50,
+      100,
+      150,
+      200
     ],
     "caster": [
       20,
       25,
       30,
       40,
-      50
+      50,
+      75
     ],
     "spiked_hook": [
       10,
       20,
       30,
       40,
-      50
+      50,
+      75
     ],
     "harvesting": [
       5,
@@ -895,28 +953,36 @@
       15,
       20,
       25,
-      30
+      30,
+      100,
+      200
     ],
     "protection": [
       10,
       15,
       20,
       25,
-      30
+      30,
+      100,
+      200
     ],
     "blast_protection": [
       10,
       15,
       20,
       25,
-      30
+      30,
+      100,
+      200
     ],
     "fire_protection": [
       10,
       15,
       20,
       25,
-      30
+      30,
+      100,
+      200
     ],
     "respiration": [
       10,
@@ -936,14 +1002,20 @@
       20,
       30,
       40,
-      50
+      50,
+      95,
+      199
     ],
     "feather_falling": [
       10,
       15,
       20,
       25,
-      30
+      30,
+      60,
+      80,
+      100,
+      140
     ],
     "frost_walker": [
       10,
@@ -956,6 +1028,391 @@
     ],
     "rainbow": [
       10
+    ],
+    "champion": [
+      10
+    ],
+    "expertise": [
+      25
+    ],
+    "tabasco": [
+      500,
+      500,
+      500
+    ],
+    "smoldering": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "divine_gift": [
+      50,
+      100,
+      150
+    ],
+    "charm": [
+      20,
+      25,
+      30,
+      40,
+      50
+    ],
+    "vicious": [
+      0,
+      0,
+      60,
+      80,
+      100
+    ],
+    "big_brain": [
+      0,
+      0,
+      60,
+      80,
+      100
+    ],
+    "rejuvenate": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "true_protection": [
+      40
+    ],
+    "mana_vampire": [
+      30,
+      45,
+      60,
+      75,
+      90,
+      180,
+      240,
+      300,
+      360,
+      420
+    ],
+    "ferocious_mana": [
+      30,
+      45,
+      60,
+      75,
+      90,
+      180,
+      240,
+      300,
+      360,
+      420
+    ],
+    "hardened_mana": [
+      30,
+      45,
+      60,
+      75,
+      90,
+      180,
+      240,
+      300,
+      360,
+      420
+    ],
+    "strong_mana": [
+      30,
+      45,
+      60,
+      75,
+      90,
+      180,
+      240,
+      300,
+      360,
+      420
+    ],
+    "counter_strike": [
+      0,
+      0,
+      60,
+      80,
+      100
+    ],
+    "smarty_pants": [
+      20,
+      40,
+      60,
+      80,
+      100
+    ],
+    "sugar_rush": [
+      20,
+      25,
+      30
+    ],
+    "respite": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "dragon_hunter": [
+      50,
+      100,
+      150,
+      200,
+      250
+    ],
+    "mana_steal": [
+      20,
+      25,
+      30
+    ],
+    "corruption": [
+      20,
+      25,
+      30,
+      40,
+      50
+    ],
+    "turbo_pumpkin": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "turbo_cacti": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "turbo_cane": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "turbo_carrot": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "turbo_melon": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "turbo_mushrooms": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "turbo_potato": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "turbo_warts": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "turbo_wheat": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "turbo_cocoa": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "replenish": [
+      50
+    ],
+    "hecatomb": [
+      25
+    ],
+    "compact": [
+      25
+    ],
+    "one_for_all": [
+      50
+    ],
+    "ultimate_wise": [
+      50,
+      100,
+      150,
+      200,
+      250
+    ],
+    "combo": [
+      50,
+      100,
+      150,
+      200,
+      250
+    ],
+    "chimera": [
+      50,
+      100,
+      150,
+      200,
+      250
+    ],
+    "swarm": [
+      50,
+      100,
+      150,
+      200,
+      250
+    ],
+    "soul_eater": [
+      50,
+      100,
+      150,
+      200,
+      250
+    ],
+    "fatal_tempo": [
+      50,
+      100,
+      150,
+      200,
+      250
+    ],
+    "inferno": [
+      50,
+      100,
+      150,
+      200,
+      250
+    ],
+    "flash": [
+      50,
+      100,
+      150,
+      200,
+      250
+    ],
+    "bank": [
+      50,
+      100,
+      150,
+      200,
+      250
+    ],
+    "wisdom": [
+      50,
+      100,
+      150,
+      200,
+      250
+    ],
+    "habanero_tactics": [
+      0,
+      0,
+      0,
+      250,
+      300
+    ],
+    "no_pain_no_gain": [
+      50,
+      100,
+      150,
+      200,
+      250
+    ],
+    "last_stand": [
+      50,
+      100,
+      150,
+      200,
+      250
+    ],
+    "legion": [
+      50,
+      100,
+      150,
+      200,
+      250
+    ],
+    "duplex": [
+      50,
+      100,
+      150,
+      200,
+      250
+    ],
+    "rend": [
+      50,
+      100,
+      150,
+      200,
+      250
+    ],
+    "XP_BOTTLE": [
+      0
     ]
+  },
+  "max_xp_table_levels": {
+    "sharpness" : 5,
+    "smite": 5,
+    "bane_of_arthropods": 5,
+    "looting": 3,
+    "cubism": 5,
+    "cleave": 5,
+    "life_steal": 3,
+    "giant_killer": 5,
+    "critical": 5,
+    "first_strike": 4,
+    "triple_strike": 4,
+    "ender_slayer": 5,
+    "execute": 5,
+    "thunderlord": 5,
+    "lethality": 5,
+    "syphon": 3,
+    "vampirism": 5,
+    "venomous": 5,
+    "thunderbolt": 5,
+    "PROSECUTE": 5,
+    "titan_killer": 5,
+    "luck": 5,
+    "protection": 5,
+    "blast_protection": 5,
+    "projectile_protection": 5,
+    "fire_protection": 5,
+    "thorns": 3,
+    "growth": 5,
+    "frost_walker": 2,
+    "feather_falling": 5,
+    "depth_strider": 3,
+    "aqua_affinity": 1,
+    "respiration": 3,
+    "silk_touch": 1,
+    "smelting_touch": 1,
+    "fortune": 3,
+    "experience": 3,
+    "efficiency": 5,
+    "harvesting": 5
   }
 }
