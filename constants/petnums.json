@@ -5308,24 +5308,50 @@
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          2.0,
+          2.05,
           20
         ],
         "statNums": {
-          "CRIT_DAMAGE": 0.0,
-          "HEALTH": 0.0,
-          "STRENGTH": 0.0
+          "CRIT_DAMAGE": 0.25,
+          "HEALTH": 1.25,
+          "STRENGTH": 0.6
         }
       },
       "100": {
         "otherNums": [
           7,
-          40
+          60
         ],
         "statNums": {
-          "CRIT_DAMAGE": 10.0,
-          "HEALTH": 100.0,
-          "STRENGTH": 50.0
+          "CRIT_DAMAGE": 25.0,
+          "HEALTH": 125.0,
+          "STRENGTH": 60.0
+        }
+      }
+    },
+    "MYTHIC": {
+      "1": {
+        "otherNums": [
+          2.05,
+          20
+        ],
+        "statNums": {
+          "CRIT_DAMAGE": 0.25,
+          "HEALTH": 2,
+          "STRENGTH": 0.6,
+          "SPEED": 100
+        }
+      },
+      "100": {
+        "otherNums": [
+          7,
+          60
+        ],
+        "statNums": {
+          "CRIT_DAMAGE": 25.0,
+          "HEALTH": 200.0,
+          "STRENGTH": 60.0,
+          "SPEED": 200
         }
       }
     }
