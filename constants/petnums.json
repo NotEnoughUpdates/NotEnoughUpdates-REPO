@@ -4,9 +4,7 @@
       "1": {
         "otherNums": [
           0,
-          0,
-          0,
-          0
+          1
         ],
         "statNums": {
           "SEA_CREATURE_CHANCE": 0.12
@@ -15,9 +13,7 @@
       "100": {
         "otherNums": [
           1.0,
-          2.0,
-          2.0,
-          0.9
+          100
         ],
         "statNums": {
           "SEA_CREATURE_CHANCE": 12
@@ -849,7 +845,7 @@
     "COMMON": {
       "1": {
         "otherNums": [
-          0.0,
+          0.06,
           10.0,
           15.0
         ],
@@ -860,7 +856,7 @@
       },
       "100": {
         "otherNums": [
-          3,
+          6,
           10,
           15
         ],
@@ -885,7 +881,7 @@
       },
       "100": {
         "otherNums": [
-          5,
+          10,
           10,
           25,
           10
@@ -912,7 +908,7 @@
       },
       "100": {
         "otherNums": [
-          5,
+          10,
           10,
           25,
           10,
@@ -927,7 +923,7 @@
     "RARE": {
       "1": {
         "otherNums": [
-          0.0,
+          0.08,
           10.0,
           20.0,
           0.1
@@ -939,7 +935,7 @@
       },
       "100": {
         "otherNums": [
-          4,
+          8,
           10,
           20,
           7
@@ -953,7 +949,7 @@
     "UNCOMMON": {
       "1": {
         "otherNums": [
-          0.0,
+          0.08,
           10.0,
           20.0
         ],
@@ -964,7 +960,7 @@
       },
       "100": {
         "otherNums": [
-          4,
+          8,
           10,
           20
         ],
@@ -2088,7 +2084,6 @@
     "EPIC": {
       "1": {
         "otherNums": [
-          1.0,
           0.5,
           0.01
         ],
@@ -2098,7 +2093,6 @@
       },
       "100": {
         "otherNums": [
-          100,
           50,
           1
         ],
@@ -2110,7 +2104,6 @@
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          1.0,
           0.5,
           0.01,
           0.5
@@ -2121,7 +2114,6 @@
       },
       "100": {
         "otherNums": [
-          100,
           50,
           1,
           50
@@ -5316,24 +5308,50 @@
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          2.0,
+          2.05,
           20
         ],
         "statNums": {
-          "CRIT_DAMAGE": 0.0,
-          "HEALTH": 0.0,
-          "STRENGTH": 0.0
+          "CRIT_DAMAGE": 0.25,
+          "HEALTH": 1.25,
+          "STRENGTH": 0.6
         }
       },
       "100": {
         "otherNums": [
           7,
-          40
+          60
         ],
         "statNums": {
-          "CRIT_DAMAGE": 10.0,
-          "HEALTH": 100.0,
-          "STRENGTH": 50.0
+          "CRIT_DAMAGE": 25.0,
+          "HEALTH": 125.0,
+          "STRENGTH": 60.0
+        }
+      }
+    },
+    "MYTHIC": {
+      "1": {
+        "otherNums": [
+          2.05,
+          20
+        ],
+        "statNums": {
+          "CRIT_DAMAGE": 0.25,
+          "HEALTH": 2,
+          "STRENGTH": 0.6,
+          "SPEED": 100
+        }
+      },
+      "100": {
+        "otherNums": [
+          7,
+          60
+        ],
+        "statNums": {
+          "CRIT_DAMAGE": 25.0,
+          "HEALTH": 200.0,
+          "STRENGTH": 60.0,
+          "SPEED": 200
         }
       }
     }
