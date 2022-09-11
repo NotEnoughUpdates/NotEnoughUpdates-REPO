@@ -1626,6 +1626,54 @@
       }
     }
   },
+  "PITCHIN_KOI": {
+    "internalName": "PITCHIN_KOI",
+    "reforgeName": "Pitchin'",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "ROD",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts": {
+      "COMMON": 5000,
+      "UNCOMMON": 20000,
+      "RARE": 40000,
+      "EPIC": 80000,
+      "LEGENDARY": 120000,
+      "MYTHIC": 280000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "fishing_speed": 1,
+        "sea_creature_chance": 1
+      },
+      "UNCOMMON": {
+        "fishing_speed": 2,
+        "sea_creature_chance": 1
+      },
+      "RARE": {
+        "fishing_speed": 4,
+        "sea_creature_chance": 2
+      },
+      "EPIC": {
+        "fishing_speed": 6,
+        "sea_creature_chance": 3
+      },
+      "LEGENDARY": {
+        "fishing_speed": 8,
+        "sea_creature_chance": 4
+      },
+      "MYTHIC": {
+        "fishing_speed": 10,
+        "sea_creature_chance": 5
+      }
+    }
+  },
   "RARE_DIAMOND": {
     "internalName": "RARE_DIAMOND",
     "reforgeName": "Reinforced",
