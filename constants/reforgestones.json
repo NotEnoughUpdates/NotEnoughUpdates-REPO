@@ -678,6 +678,49 @@
       }
     }
   },
+  "ENTROPY_SUPPRESSOR": {
+    "internalName": "ENTROPY_SUPPRESSOR",
+    "reforgeName": "Coldfused",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "SWORD",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts": {
+      "COMMON": 60000,
+      "UNCOMMON": 125000,
+      "RARE": 250000,
+      "EPIC": 500000,
+      "LEGENDARY": 1000000,
+      "MYTHIC": 20000000
+    },
+    "reforgeAbility": "§8Only if Wisp is equipped §c+75❁ Strength §9+55☠ Crit Damage §7Deal §62x §7to fire pillars, breaking one §7grants §f+30❂ True Defense §7and §c+1.15x §cdamage §7for §a60s§7.",
+    "reforgeStats": {
+      "COMMON": {
+        "magic_find": 2
+      },
+      "UNCOMMON": {
+        "magic_find": 2
+      },
+      "RARE": {
+        "magic_find": 2
+      },
+      "EPIC": {
+        "magic_find": 2
+      },
+      "LEGENDARY": {
+        "magic_find": 2
+      },
+      "MYTHIC": {
+        "magic_find": 2
+      }
+    }
+  },
   "GIANT_TOOTH": {
     "internalName": "GIANT_TOOTH",
     "reforgeName": "Giant",
@@ -947,27 +990,33 @@
     "reforgeStats": {
       "COMMON": {
         "strength": 5,
-        "crit_chance": 5
+        "crit_chance": 5,
+        "fishing_speed": 1
       },
       "UNCOMMON": {
         "strength": 10,
-        "crit_chance": 10
+        "crit_chance": 10,
+        "fishing_speed": 2
       },
       "RARE": {
         "strength": 17,
-        "crit_chance": 17
+        "crit_chance": 17,
+        "fishing_speed": 4
       },
       "EPIC": {
         "strength": 25,
-        "crit_chance": 25
+        "crit_chance": 25,
+        "fishing_speed": 6
       },
       "LEGENDARY": {
         "strength": 35,
-        "crit_chance": 35
+        "crit_chance": 35,
+        "fishing_speed": 8
       },
       "MYTHIC": {
         "strength": 50,
-        "crit_chance": 50
+        "crit_chance": 50,
+        "fishing_speed": 10
       }
     }
   },
@@ -1957,7 +2006,7 @@
       "LEGENDARY": 1000000,
       "MYTHIC": 2000000
     },
-    "reforgeAbility": "Any healing on others is increased by §a10% §7while in dungeons.",
+    "reforgeAbility": "§7Grants §a+10☄ Mending §7while in Dungeons, which increases your healing on others..",
     "reforgeStats": {
       "COMMON": {
         "health": 10,
