@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Sheep Minion VIII",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"d8bf402b-eb17-39f5-9ac9-1c63d95977fa\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5NDU3NTEyMDksInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2YwNGRlNzE3NjVlNDZiZTliY2RiNmM0OTlmOTU0YzliYzgzMTU2M2Q1Mjc3NmM1OTNjMTZjOTkxMTNiY2IyZDkifX19\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and slaying\",2:\"§7Sheep! Minions also work when\",3:\"§7you are offline!\",4:\"\",5:\"§7Time Between Actions: §a18s\",6:\"§7Max Storage: §e768\"],Name:\"§9Sheep Minion VIII\"},ExtraAttributes:{id:\"SHEEP_GENERATOR_8\",generator_tier:8}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"d8bf402b-eb17-39f5-9ac9-1c63d95977fa\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5NDU3NTEyMDksInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2YwNGRlNzE3NjVlNDZiZTliY2RiNmM0OTlmOTU0YzliYzgzMTU2M2Q1Mjc3NmM1OTNjMTZjOTkxMTNiY2IyZDkifX19\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and slaying\",2:\"§7Sheep! Minions also work when\",3:\"§7you are offline!\",4:\"\",5:\"§7Time Between Actions: §a18s\",6:\"§7Max Storage: §e768\",7:\"\",8:\"§9§lRARE\"],Name:\"§9Sheep Minion VIII\"},ExtraAttributes:{id:\"SHEEP_GENERATOR_8\",generator_tier:8}}",
   "damage": 3,
   "lore": [
     "§7Place this minion and it will",
@@ -10,7 +10,9 @@
     "§7you are offline!",
     "",
     "§7Time Between Actions: §a18s",
-    "§7Max Storage: §e768"
+    "§7Max Storage: §e768",
+    "",
+    "§9§lRARE"
   ],
   "recipe": {
     "A1": "ENCHANTED_MUTTON:16",
@@ -25,10 +27,11 @@
   },
   "internalname": "SHEEP_GENERATOR_8",
   "clickcommand": "viewrecipe",
-  "modver": "1.7.1-REL",
+  "modver": "2.1.0-REL",
   "useneucraft": true,
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Sheep_Minion"
-  ]
+  ],
+  "crafttext": ""
 }
