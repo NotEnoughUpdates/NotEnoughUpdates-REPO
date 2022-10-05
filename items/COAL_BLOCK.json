@@ -1,9 +1,13 @@
 {
   "itemid": "minecraft:coal_block",
   "displayname": "§fBlock of Coal",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBlock of Coal\"},ExtraAttributes:{id:\"COAL_BLOCK\"}}",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Increases the speed of\",1:\"§7your minion by §a5%§7\",2:\"§7for 5 hours§7!\",3:\"\",4:\"§f§lCOMMON\"],Name:\"§fBlock of Coal\"},ExtraAttributes:{id:\"COAL_BLOCK\"}}",
   "damage": 0,
   "lore": [
+    "§7Increases the speed of",
+    "§7your minion by §a5%§7",
+    "§7for 5 hours§7!",
+    "",
     "§f§lCOMMON"
   ],
   "internalname": "COAL_BLOCK",
@@ -21,6 +25,7 @@
     "C2": "COAL:1",
     "C3": "COAL:1"
   },
+  "crafttext": "",
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Block_Of_Coal"
