@@ -27,7 +27,7 @@ This repository is used in order to store the various JSON files used for the Mi
 In order to contribute to the item repo you should enable the item editor tools by editing your config, in your configNew.json (`.minecraft\config\notenoughupdates\configNew.json`) ensure the following values are set:
 
 ```json
-"repositoryEditing": true,
+"enableItemEditing": true,
 "dev": true,
 ```
 
