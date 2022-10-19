@@ -27,7 +27,7 @@ This repository is used in order to store the various JSON files used for the Mi
 In order to contribute to the item repo you should enable the item editor tools by editing your config, in your configNew.json (`.minecraft\config\notenoughupdates\configNew.json`) ensure the following values are set:
 
 ```json
-"enableItemEditing": true,
+"repositoryEditing": true,
 "dev": true,
 ```
 
@@ -45,7 +45,7 @@ Once you have these options enabled you can edit and add items in-game using the
 - `y` - Opens a pane on the left side of your inventory.
 - left `ctrl` - Hold to show the NBT data of an item.
   - left `ctrl`+`h` - copies the nbt data to your clipboard.
-- `n` - While viewing the essence guide, prints the essence costs to your log.
+- `b` - While viewing the essence guide of an item, add the essence to the essencecost.json.
 
 Once you have made the changes you would like you can find the files located in `.minecraft\config\notenoughupdates\repo`.
 
