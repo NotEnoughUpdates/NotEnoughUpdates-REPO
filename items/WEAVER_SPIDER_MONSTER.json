@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Weaver Spider (Monster)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"97414c0c-623b-3df3-b1f6-bbcaddafc7fc\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIxNDM4ZjY0NmRjMDQ1MTU5NjdlODE5NWNjYzNkMzFlMjNiMDJmOWFhMGFjOTE0ZWRjMjgyMmY5ODM5NGI4NiJ9fX0\"}]}},display:{Lore:[0:\"§7The Weaver Spider is a spider that acts normally, but\",1:\"§7it can also shoot webs that slow you down for a small\",2:\"§7amount of time. Weaver Spiders can be found in the\",3:\"§7Spider\u0027s Den, usually higher up in the nest. \",4:\"\",5:\"§c❤ Health§8: §c160\",6:\"§7Coins per Kill: §62-12\",7:\"§7Combat XP: §39-36\",8:\"\",9:\"§6§lPossible Drops:\",10:\"§fCommon Loot\",11:\"§8 ■ §fSpider Eye §8(§a50%-80%§8)\",12:\"§8 ■ §fString §8x2\",13:\"\",14:\"§9Rare Loot §8[Lv42-50]\",15:\"§8 ■ §9Arachne\u0027s Keeper Fragment §8(§a0.2%§8)\",16:\"\",17:\"§6Legendary Loot\",18:\"§8 ■ §5 Travel Scroll to Spider\u0027s Den\",19:\"     §5Top of Nest §8(§a0.02%§8)\",20:\"\",21:\"§dRNGesus Loot\",22:\"§8 ■ §7[Lvl 1] §5Tarantula §8(§a0.004%§8)\",23:\"§8 ■ §7[Lvl 1] §6Tarantula §8(§a0.001%§8)\"],Name:\"§9Weaver Spider (Monster)\"},ExtraAttributes:{id:\"WEAVER_SPIDER_MONSTER\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"97414c0c-623b-3df3-b1f6-bbcaddafc7fc\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIxNDM4ZjY0NmRjMDQ1MTU5NjdlODE5NWNjYzNkMzFlMjNiMDJmOWFhMGFjOTE0ZWRjMjgyMmY5ODM5NGI4NiJ9fX0\"}]}},display:{Lore:[0:\"§7The Weaver Spider is a spider that acts normally, but\",1:\"§7it can also shoot webs that slow you down for a small\",2:\"§7amount of time. Weaver Spiders can be found in the\",3:\"§7Spider\u0027s Den, usually higher up in the nest. \",4:\"\",5:\"§c❤ Health§8: §c160\"],Name:\"§9Weaver Spider (Monster)\"},ExtraAttributes:{id:\"WEAVER_SPIDER_MONSTER\"}}",
   "damage": 3,
   "lore": [
     "§7The Weaver Spider is a spider that acts normally, but",
@@ -9,32 +9,85 @@
     "§7amount of time. Weaver Spiders can be found in the",
     "§7Spider\u0027s Den, usually higher up in the nest. ",
     "",
-    "§c❤ Health§8: §c160",
-    "§7Coins per Kill: §62-12",
-    "§7Combat XP: §39-36",
-    "",
-    "§6§lPossible Drops:",
-    "§fCommon Loot",
-    "§8 ■ §fSpider Eye §8(§a50%-80%§8)",
-    "§8 ■ §fString §8x2",
-    "",
-    "§9Rare Loot §8[Lv42-50]",
-    "§8 ■ §9Arachne\u0027s Keeper Fragment §8(§a0.2%§8)",
-    "",
-    "§6Legendary Loot",
-    "§8 ■ §5 Travel Scroll to Spider\u0027s Den",
-    "     §5Top of Nest §8(§a0.02%§8)",
-    "",
-    "§dRNGesus Loot",
-    "§8 ■ §7[Lvl 1] §5Tarantula §8(§a0.004%§8)",
-    "§8 ■ §7[Lvl 1] §6Tarantula §8(§a0.001%§8)"
+    "§c❤ Health§8: §c160"
   ],
   "internalname": "WEAVER_SPIDER_MONSTER",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Weaver_Spider"
+    "https://hypixel-skyblock.fandom.com/wiki/Weaver_Spider",
+    "https://wiki.hypixel.net/Weaver_Spider"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 3,
+      "coins": 2,
+      "xp": 8,
+      "combat_xp": 10,
+      "name": "§cWeaver Spider",
+      "panorama": "combat_1",
+      "render": "Spider",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "SPIDER_EYE",
+          "chance": "50%"
+        },
+        {
+          "id": "STRING",
+          "chance": "100%"
+        },
+        {
+          "id": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+          "chance": "0.02%"
+        },
+        {
+          "id": "TARANTULA;3",
+          "chance": "0.002%"
+        },
+        {
+          "id": "TARANTULA;4",
+          "chance": "0.001%"
+        }
+      ]
+    },
+    {
+      "level": 42,
+      "coins": 10,
+      "xp": 10,
+      "combat_xp": 28,
+      "name": "§cWeaver Spider",
+      "panorama": "combat_1",
+      "render": "Spider",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "SPIDER_EYE",
+          "chance": "80%"
+        },
+        {
+          "id": "STRING",
+          "chance": "25%"
+        },
+        {
+          "id": "ARACHNE_KEEPER_FRAGMENT",
+          "chance": "0.2%"
+        },
+        {
+          "id": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+          "chance": "0.02%"
+        },
+        {
+          "id": "TARANTULA;3",
+          "chance": "0.004%"
+        },
+        {
+          "id": "TARANTULA;4",
+          "chance": "0.001%"
+        }
+      ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§6Tarantula Broodfather I (Boss)",
-  "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"7c63f3cf-a963-311a-aeca-3a075b417806\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q1NDE1NDFkYWFmZjUwODk2Y2QyNThiZGJkZDRjZjgwYzNiYTgxNjczNTcyNjA3OGJmZTM5MzkyN2U1N2YxIn19fQ\"}]}},display:{Lore:[0:\"§8Beginner\",1:\"\",2:\"§7Health: §c750❤\",3:\"§7Damage: §c35 §7per second\",4:\"\",5:\"§eCombat Jump\",6:\"§7The spider will often attempt to\",7:\"§7jump behind you.\",8:\"\",9:\"§7Reward: §d5 Spider Slayer XP\",10:\"§8+ Possible Drops:\",11:\"§aTarantula Web §a(1x-3x) §8(§2Guaranteed 100%§8)\"],Name:\"§6Tarantula Broodfather I (Boss)\"},ExtraAttributes:{id:\"TARANTULA_BROODFATHER_1_BOSS\"}}",
+  "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"7c63f3cf-a963-311a-aeca-3a075b417806\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q1NDE1NDFkYWFmZjUwODk2Y2QyNThiZGJkZDRjZjgwYzNiYTgxNjczNTcyNjA3OGJmZTM5MzkyN2U1N2YxIn19fQ\"}]}},display:{Lore:[0:\"§8Beginner\",1:\"\",2:\"§7Health: §c750❤\",3:\"§7Damage: §c35 §7per second\",4:\"\",5:\"§eCombat Jump\",6:\"§7The spider will often attempt to\",7:\"§7jump behind you.\"],Name:\"§6Tarantula Broodfather I (Boss)\"},ExtraAttributes:{id:\"TARANTULA_BROODFATHER_1_BOSS\"}}",
   "damage": 3,
   "lore": [
     "§8Beginner",
@@ -11,18 +11,31 @@
     "",
     "§eCombat Jump",
     "§7The spider will often attempt to",
-    "§7jump behind you.",
-    "",
-    "§7Reward: §d5 Spider Slayer XP",
-    "§8+ Possible Drops:",
-    "§aTarantula Web §a(1x-3x) §8(§2Guaranteed 100%§8)"
+    "§7jump behind you."
   ],
   "internalname": "TARANTULA_BROODFATHER_1_BOSS",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Tarantula_Broodfather"
+    "https://hypixel-skyblock.fandom.com/wiki/Tarantula_Broodfather",
+    "https://wiki.hypixel.net/Tarantula_Broodfather"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "xp": 5,
+      "name": "§6Tarantula Broodfather I",
+      "panorama": "combat_1",
+      "render": "Spider",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "TARANTULA_WEB",
+          "extra": ["x1-3"],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
 }

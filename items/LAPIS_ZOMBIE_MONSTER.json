@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Lapis Zombie (Monster)",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7These zombies adapted to their\",1:\"§7environment, using the lapis\",2:\"§7around them as a defense\",3:\"§7mechanism.\",4:\"\",5:\"§c❤ Health§8: §c200\",6:\"§7Coins per Kill: §65\",7:\"§7Combat XP: §312\",8:\"\",9:\"§6§lPossible Drops:\",10:\"§fCommon Loot\",11:\"§8 ■ §fRotten Flesh §8x1-2\",12:\"\",13:\"§9Rare Loot\",14:\"§8 ■ §9Lapis Helmet §8(§a1%§8)\",15:\"§8 ■ §9Lapis Chestplate §8(§a1%§8)\",16:\"§8 ■ §9Lapis Leggings §8(§a1%§8)\",17:\"§8 ■ §9Lapis Boots §8(§a1%§8)\",18:\"§8 ■ §9Lapis Crystal §8(§a1%§8)\",19:\"\",20:\"§dRNGesus Loot\",21:\"§8 ■ §5Exp Share Core §8(§a0.01%§8)\"],Name:\"§9Lapis Zombie (Monster)\"},ExtraAttributes:{id:\"LAPIS_ZOMBIE_MONSTER\"}}",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7These zombies adapted to their\",1:\"§7environment, using the lapis\",2:\"§7around them as a defense\",3:\"§7mechanism.\",4:\"\",5:\"§c❤ Health§8: §c200\"],Name:\"§9Lapis Zombie (Monster)\"},ExtraAttributes:{id:\"LAPIS_ZOMBIE_MONSTER\"}}",
   "damage": 2,
   "lore": [
     "§7These zombies adapted to their",
@@ -9,30 +9,57 @@
     "§7around them as a defense",
     "§7mechanism.",
     "",
-    "§c❤ Health§8: §c200",
-    "§7Coins per Kill: §65",
-    "§7Combat XP: §312",
-    "",
-    "§6§lPossible Drops:",
-    "§fCommon Loot",
-    "§8 ■ §fRotten Flesh §8x1-2",
-    "",
-    "§9Rare Loot",
-    "§8 ■ §9Lapis Helmet §8(§a1%§8)",
-    "§8 ■ §9Lapis Chestplate §8(§a1%§8)",
-    "§8 ■ §9Lapis Leggings §8(§a1%§8)",
-    "§8 ■ §9Lapis Boots §8(§a1%§8)",
-    "§8 ■ §9Lapis Crystal §8(§a1%§8)",
-    "",
-    "§dRNGesus Loot",
-    "§8 ■ §5Exp Share Core §8(§a0.01%§8)"
+    "§c❤ Health§8: §c200"
   ],
   "internalname": "LAPIS_ZOMBIE_MONSTER",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Lapis_Zombie"
+    "https://hypixel-skyblock.fandom.com/wiki/Lapis_Zombie",
+    "https://wiki.hypixel.net/Lapis_Zombie"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 17,
+      "coins": 5,
+      "xp": 10,
+      "combat_xp": 12,
+      "name": "§cLapis Zombie",
+      "render": "@neurepo:mobs/lapis_zombie.json",
+      "panorama": "mining_2",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ROTTEN_FLESH",
+          "chance": "100%"
+        },
+        {
+          "id": "LAPIS_CRYSTAL",
+          "chance": "1%"
+        },
+        {
+          "id": "LAPIS_ARMOR_HELMET",
+          "chance": "1%"
+        },
+        {
+          "id": "LAPIS_ARMOR_CHESTPLATE",
+          "chance": "1%"
+        },
+        {
+          "id": "LAPIS_ARMOR_LEGGINGS",
+          "chance": "1%"
+        },
+        {
+          "id": "LAPIS_ARMOR_BOOTS",
+          "chance": "1%"
+        },
+        {
+          "id": "PET_ITEM_EXP_SHARE_DROP:1",
+          "chance": "0.01%"
+        }
+      ]
+    }
+  ]
 }

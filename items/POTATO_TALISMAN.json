@@ -4,7 +4,7 @@
   "displayname": "§fPotato Talisman",
   "clickcommand": "",
   "damage": 3,
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"2fc11c51-700f-35d7-8e19-71d8549daef9\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5MjUzMTI1MDg3MCwKICAicHJvZmlsZUlkIiA6ICI4MmEyZDY5OTMwOTM0NjkxOGE3NDc4ZTI2YWEyMGJmMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJMY3V0ZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zMTg0NzZlM2NmMGQ1ZmM4YWIxNzYxMDY1Y2YwZTM3MmIxMTAwNGVkNGM5NzE1NjM5NmUxN2M4NjliNGFhMzg5IgogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7Speed: §a+1\",1:\"\",2:\"§7Your potato minions farm §a5%\",3:\"§a§7faster while wearing on your\",4:\"§7island.\",5:\"\",6:\"§7§8Forged by the Potato King\",7:\"§8after winning the Great\",8:\"§8Potato War.\",9:\"\",10:\"§f§lCOMMON ACCESSORY\"],Name:\"§fPotato Talisman\"},ExtraAttributes:{id:\"POTATO_TALISMAN\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"2fc11c51-700f-35d7-8e19-71d8549daef9\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5MjUzMTI1MDg3MCwKICAicHJvZmlsZUlkIiA6ICI4MmEyZDY5OTMwOTM0NjkxOGE3NDc4ZTI2YWEyMGJmMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJMY3V0ZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zMTg0NzZlM2NmMGQ1ZmM4YWIxNzYxMDY1Y2YwZTM3MmIxMTAwNGVkNGM5NzE1NjM5NmUxN2M4NjliNGFhMzg5IgogICAgfQogIH0KfQ==\"}]}},display:{Lore:[0:\"§7Speed: §a+1\",1:\"\",2:\"§7Your potato minions farm §a5%\",3:\"§a§7faster while wearing on your\",4:\"§7island.\",5:\"\",6:\"§7§8Forged by the Potato King\",7:\"§8after winning the Great\",8:\"§8Potato War.\",9:\"\",10:\"§f§lCOMMON ACCESSORY\"],Name:\"§fPotato Talisman\"},ExtraAttributes:{id:\"POTATO_TALISMAN\"}}",
   "modver": "2.1.0-REL",
   "lore": [
     "§7Speed: §a+1",
@@ -22,6 +22,14 @@
   "crafttext": "",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Potato_Talisman"
+    "https://hypixel-skyblock.fandom.com/wiki/Potato_Talisman",
+    "https://wiki.hypixel.net/Potato_Talisman"
+  ],
+  "recipes": [
+    {
+      "type": "trade",
+      "cost": "EMERALD:200",
+      "result": "POTATO_TALISMAN"
+    }
   ]
 }

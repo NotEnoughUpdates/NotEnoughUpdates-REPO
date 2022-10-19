@@ -1,0 +1,62 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9An (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"c133529c-af45-5015-b3c4-53fb48a835a6\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTdmN2JkMTAyNjMxMTExYWFhNDIyM2MyYTdlNjQyOGQyYThhOTRiMGQ4MTQwOGVjMzVmYzNkNWFkZDc1ZDBiOSJ9fX0\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9An (NPC)\"},ExtraAttributes:{id:\"AN_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "AN_NPC",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "",
+  "x": -622,
+  "y": 110,
+  "z": -742,
+  "island": "crimson_isle",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:20"
+      ],
+      "result": "SAND-1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:50"
+      ],
+      "result": "BLAZE_ROD"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:20"
+      ],
+      "result": "MAGMA_CREAM"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:50"
+      ],
+      "result": "QUARTZ"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:10"
+      ],
+      "result": "NETHER_STALK"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:200"
+      ],
+      "result": "GHAST_TEAR"
+    }
+  ],
+  "crafttext": ""
+}

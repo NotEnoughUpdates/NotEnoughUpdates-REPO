@@ -1,0 +1,110 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§6Inferno Demonlord III (Boss)",
+  "nbttag": "{SkullOwner:{Id:\"118fe834-28aa-3b0d-afe6-f0c52d01afe8\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ\"}]}},display:{Lore:[0:\"§8Challenging\",1:\"\",2:\"§7Health: §c45,000,000❤\",3:\"§7Demons damage: §c15,000§7/s\",4:\"§7Demons health: §c5,000,000❤\",5:\"\",6:\"§6Immolate\",7:\"§8Passive\",8:\"§7Deals §c100 §7+ §c20% §7of your max §c❤\",9:\"§c§7as §ftrue §7damage every second.\",10:\"\",11:\"§bHellion Shield\",12:\"§8Passive\",13:\"§7Match the attunement on your\",14:\"§7dagger to damage the boss.\",15:\"\",16:\"§5Demonsplit\",17:\"§8At 66% HP and 33% HP\",18:\"§7Splits into two powerful demons.\",19:\"\",20:\"§cFire Pillars\",21:\"§8Starting at 66% HP\",22:\"§7Spawns fire pillars.\",23:\"§7Destroy them or die.\",24:\"\",25:\"§dDDR Apocalypse\",26:\"§8Starting at 33% HP\",27:\"§7Spawns dangerous fire pits which\",28:\"§7you need to dodge.\"],Name:\"§6Inferno Demonlord III (Boss)\"},ExtraAttributes:{id:\"INFERNO_DEMONLORD_3_BOSS\"}}",
+  "damage": 3,
+  "lore": [
+    "§8Challenging",
+    "",
+    "§7Health: §c45,000,000❤",
+    "§7Demons damage: §c15,000§7/s",
+    "§7Demons health: §c5,000,000❤",
+    "",
+    "§6Immolate",
+    "§8Passive",
+    "§7Deals §c100 §7+ §c20% §7of your max §c❤",
+    "§c§7as §ftrue §7damage every second.",
+    "",
+    "§bHellion Shield",
+    "§8Passive",
+    "§7Match the attunement on your",
+    "§7dagger to damage the boss.",
+    "",
+    "§5Demonsplit",
+    "§8At 66% HP and 33% HP",
+    "§7Splits into two powerful demons.",
+    "",
+    "§cFire Pillars",
+    "§8Starting at 66% HP",
+    "§7Spawns fire pillars.",
+    "§7Destroy them or die.",
+    "",
+    "§dDDR Apocalypse",
+    "§8Starting at 33% HP",
+    "§7Spawns dangerous fire pits which",
+    "§7you need to dodge."
+  ],
+  "internalname": "INFERNO_DEMONLORD_3_BOSS",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Inferno_Demonlord",
+    "https://wiki.hypixel.net/Inferno_Demonlord"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "xp": 1,
+      "name": "§6Inferno Demonlord III",
+      "render": "Blaze",
+      "panorama": "crimson_isle",
+      "coins": 1,
+      "combat_xp": 200,
+      "type": "drops",
+      "drops": [
+        {
+          "id": "DERELICT_ASHE",
+          "extra": [
+            "x60-80"
+          ],
+          "chance": "100%"
+        },
+        {
+          "id": "ARROW_BUNDLE_MAGMA",
+          "chance": "8.11%"
+        },
+        {
+          "id": "MANA_DISINTEGRATOR",
+          "chance": "3.78%"
+        },
+        {
+          "id": "SCORCHED_BOOKS",
+          "chance": "2.16%"
+        },
+        {
+          "id": "KELVIN_INVERTER",
+          "chance": "2.70%"
+        },
+        {
+          "id": "BLAZE_ROD_DISTILLATE",
+          "chance": "4.86%"
+        },
+        {
+          "id": "GLOWSTONE_DUST_DISTILLATE",
+          "chance": "4.86%"
+        },
+        {
+          "id": "MAGMA_CREAM_DISTILLATE",
+          "chance": "4.86%"
+        },
+        {
+          "id": "NETHER_STALK_DISTILLATE",
+          "chance": "4.86%"
+        },
+        {
+          "id": "CRUDE_GABAGOOL_DISTILLATE",
+          "chance": "2.70%"
+        },
+        {
+          "id": "SCORCHED_POWER_CRYSTAL",
+          "chance": "3.24%"
+        },
+        {
+          "id": "ARCHFIEND_DICE",
+          "chance": "1.08%"
+        }
+      ]
+    }
+  ]
+}

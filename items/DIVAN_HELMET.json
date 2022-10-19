@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§6Helmet Of Divan",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"0d4846bb-7eb0-3b66-a04f-c50a6ee167d1\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODNmNjllZjI3ZjMxMjBhNTEwNTBlNmJlNjZhMGUzZjhlODlhZjg4OGQ0ODA2NzE2YmY4NmY1OTBkYTYzODMxNyJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Health: §a+100\",1:\"§7Defense: §a+130\",2:\"§7Mining Speed: §a+80\",3:\"§7Mining Fortune: §a+30\",4:\" §8[§8⸕§8] §8[§8☘§8] §8[§8⸕§8] §8[§8☘§8] §8[§8✧§8]\",5:\"\",6:\"§7§8This item can be reforged!\",7:\"§7§4❣ §cRequires §5Heart of the\",8:\"§5Mountain Tier 6.\",9:\"§6§lLEGENDARY HELMET\",10:\"\",11:\"§eItems Required\",12:\"§5Divan Fragment §7x5\",13:\"§9Gemstone Mixture §7x10\",14:\"§5❤ §5Flawless Ruby Gemstone §7x1\",15:\"\",16:\"§7Duration: §b23h\"],Name:\"§6Helmet Of Divan\"},ExtraAttributes:{id:\"DIVAN_HELMET\"},AttributeModifiers:[]}",
+  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"0d4846bb-7eb0-3b66-a04f-c50a6ee167d1\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODNmNjllZjI3ZjMxMjBhNTEwNTBlNmJlNjZhMGUzZjhlODlhZjg4OGQ0ODA2NzE2YmY4NmY1OTBkYTYzODMxNyJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Health: §a+100\",1:\"§7Defense: §a+130\",2:\"§7Mining Speed: §a+80\",3:\"§7Mining Fortune: §a+30\",4:\" §8[§8⸕§8] §8[§8☘§8] §8[§8⸕§8] §8[§8☘§8] §8[§8✧§8]\",5:\"\",6:\"§7§8This item can be reforged!\",7:\"§7§4❣ §cRequires §5Heart of the\",8:\"§5Mountain Tier 6.\",9:\"§6§lLEGENDARY HELMET\"],Name:\"§6Helmet Of Divan\"},ExtraAttributes:{id:\"DIVAN_HELMET\"},AttributeModifiers:[]}",
   "damage": 3,
   "lore": [
     "§7Health: §a+100",
@@ -13,21 +13,28 @@
     "§7§8This item can be reforged!",
     "§7§4❣ §cRequires §5Heart of the",
     "§5Mountain Tier 6.",
-    "§6§lLEGENDARY HELMET",
-    "",
-    "§eItems Required",
-    "§5Divan Fragment §7x5",
-    "§9Gemstone Mixture §7x10",
-    "§5❤ §5Flawless Ruby Gemstone §7x1",
-    "",
-    "§7Duration: §b23h"
+    "§6§lLEGENDARY HELMET"
   ],
   "internalname": "DIVAN_HELMET",
   "crafttext": "",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Divan_Armor"
+    "https://hypixel-skyblock.fandom.com/wiki/Divan_Armor",
+    "https://wiki.hypixel.net/Helmet_Of_Divan"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "FLAWLESS_RUBY_GEM:1",
+        "GEMSTONE_MIXTURE:10",
+        "DIVAN_FRAGMENT:5"
+      ],
+      "count": 1,
+      "overrideOutputId": "DIVAN_HELMET",
+      "duration": 82800
+    }
   ]
 }

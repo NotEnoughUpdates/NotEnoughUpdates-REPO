@@ -15,19 +15,26 @@
     "§7Requires §aMining Skill Level",
     "§aXV§7!",
     "",
-    "§9§lRARE REFORGE STONE",
-    "",
-    "§eItems Required",
-    "§5Refined Diamond §7x3",
-    "",
-    "§7Duration: §b6h"
+    "§9§lRARE REFORGE STONE"
   ],
   "internalname": "DIAMONITE",
   "crafttext": "",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Diamonite"
+    "https://hypixel-skyblock.fandom.com/wiki/Diamonite",
+    "https://wiki.hypixel.net/Diamonite"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "REFINED_DIAMOND:3"
+      ],
+      "count": 1,
+      "overrideOutputId": "DIAMONITE",
+      "duration": 21600
+    }
   ]
 }

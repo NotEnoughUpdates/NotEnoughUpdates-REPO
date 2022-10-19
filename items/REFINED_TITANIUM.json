@@ -1,22 +1,29 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§6Refined Titanium",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"3eb7b44c-9955-3dcb-ad6c-2174f55eafb6\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxODk0OTM4MzMxOSwKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA0YmFhYmY3ZWY4NTQ4MjVhYWUxOTkyZTRhNzVmZjcyODZlZDE2NTRkOGYxYTA4OTUyZTdiODY2OWNmNjkyZCIKICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§6§lLEGENDARY\",1:\"\",2:\"§eItems Required\",3:\"§5Enchanted Titanium §7x16\",4:\"\",5:\"§7Duration: §b12h\"],Name:\"§6Refined Titanium\"},ExtraAttributes:{id:\"REFINED_TITANIUM\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"3eb7b44c-9955-3dcb-ad6c-2174f55eafb6\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxODk0OTM4MzMxOSwKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA0YmFhYmY3ZWY4NTQ4MjVhYWUxOTkyZTRhNzVmZjcyODZlZDE2NTRkOGYxYTA4OTUyZTdiODY2OWNmNjkyZCIKICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§6§lLEGENDARY\"],Name:\"§6Refined Titanium\"},ExtraAttributes:{id:\"REFINED_TITANIUM\"}}",
   "damage": 3,
   "lore": [
-    "§6§lLEGENDARY",
-    "",
-    "§eItems Required",
-    "§5Enchanted Titanium §7x16",
-    "",
-    "§7Duration: §b12h"
+    "§6§lLEGENDARY"
   ],
   "internalname": "REFINED_TITANIUM",
   "crafttext": "",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Refined_Titanium"
+    "https://hypixel-skyblock.fandom.com/wiki/Refined_Titanium",
+    "https://wiki.hypixel.net/Refined_Titanium"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "ENCHANTED_TITANIUM:16"
+      ],
+      "count": 1,
+      "overrideOutputId": "REFINED_TITANIUM",
+      "duration": 43200
+    }
   ]
 }

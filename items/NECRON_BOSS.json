@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§6Necron (Boss)",
-  "nbttag": "{ench:[],overrideMeta:1b,display:{Lore:[0:\"§7Necron is the boss of Floor 7 of the Catacombs. He is\",1:\"§7a \u0027Wither Lord\u0027 and has 4 phases. In the 1st he must be\",2:\"§7killed after being frozen by Energy Crystals. In the 2nd he\",3:\"§7must be crushed with Pillars. In the 3rd the Player must solve\",4:\"§7terminals and must be killed again normally in the 4th.\",5:\"\",6:\"§c❤ Health§8: §c1.000.000.000\",7:\"§a❈ Defense§8: §a300\",8:\"\",9:\"§6§lPossible Drops:\",10:\"§9Wither Catalyst §a(1x)\",11:\"§5Implosion §a(1x)\",12:\"§5Wither Shield §a(1x)\",13:\"§5Shadow Warp §a(1x)\",14:\"§5Precursor Gear §a(1x)\",15:\"§5Wither Blood §a(1x)\",16:\"§5Necron\u0027s Handle §a(1x)\",17:\"§6Wither Helmet §a(1x)\",18:\"§6Wither Chestplate §a(1x)\",19:\"§6Wither Leggings §a(1x)\",20:\"§6Wither Boots §a(1x)\",21:\"§6Auto Recombobulator §a(1x)\"],Name:\"§6Necron (Boss)\"},ExtraAttributes:{id:\"NECRON_BOSS\"}}",
+  "nbttag": "{ench:[],overrideMeta:1b,display:{Lore:[0:\"§7Necron is the boss of Floor 7 of the Catacombs. He is\",1:\"§7a \u0027Wither Lord\u0027 and has 4 phases. In the 1st he must be\",2:\"§7killed after being frozen by Energy Crystals. In the 2nd he\",3:\"§7must be crushed with Pillars. In the 3rd the Player must solve\",4:\"§7terminals and must be killed again normally in the 4th.\",5:\"\",6:\"§7Maxor:\",7:\"§c❤ Health§8: §c100.000.000\",8:\"§c❤ Health §8(MM): §c800.000.000\",9:\"§a❈ Defense §8(MM): §a1.000\",10:\"\",11:\"§7Storm:\",12:\"§c❤ Health§8: §c400.000.000\",13:\"§c❤ Health §8(MM): §c1.000.000.000\",14:\"§a❈ Defense §8(MM): §a1.200\",15:\"\",16:\"§7Goldor:\",17:\"§c❤ Health§8: §c750.000.000\",18:\"§c❤ Health §8(MM): §c1.200.000.000\",19:\"§a❈ Defense §8(MM): §a1.800\",20:\"\",21:\"§7Necron:\",22:\"§c❤ Health§8: §c1.000.000.000\",23:\"§c❤ Health §8(MM): §c1.400.000.000\",24:\"§a❈ Defense §8(MM): §a2.100\",25:\"\",26:\"§7Withered Dragon §8(MM):\",27:\"§c❤ Health§8: §c900.000.000\",28:\"§a❈ Defense: §a3.700\"],Name:\"§6Necron (Boss)\"},ExtraAttributes:{id:\"NECRON_BOSS\"}}",
   "damage": 1,
   "lore": [
     "§7Necron is the boss of Floor 7 of the Catacombs. He is",
@@ -10,29 +10,303 @@
     "§7must be crushed with Pillars. In the 3rd the Player must solve",
     "§7terminals and must be killed again normally in the 4th.",
     "",
-    "§c❤ Health§8: §c1.000.000.000",
-    "§a❈ Defense§8: §a300",
+    "§7Maxor:",
+    "§c❤ Health§8: §c100.000.000",
+    "§c❤ Health §8(MM): §c800.000.000",
+    "§a❈ Defense §8(MM): §a1.000",
     "",
-    "§6§lPossible Drops:",
-    "§9Wither Catalyst §a(1x)",
-    "§5Implosion §a(1x)",
-    "§5Wither Shield §a(1x)",
-    "§5Shadow Warp §a(1x)",
-    "§5Precursor Gear §a(1x)",
-    "§5Wither Blood §a(1x)",
-    "§5Necron\u0027s Handle §a(1x)",
-    "§6Wither Helmet §a(1x)",
-    "§6Wither Chestplate §a(1x)",
-    "§6Wither Leggings §a(1x)",
-    "§6Wither Boots §a(1x)",
-    "§6Auto Recombobulator §a(1x)"
+    "§7Storm:",
+    "§c❤ Health§8: §c400.000.000",
+    "§c❤ Health §8(MM): §c1.000.000.000",
+    "§a❈ Defense §8(MM): §a1.200",
+    "",
+    "§7Goldor:",
+    "§c❤ Health§8: §c750.000.000",
+    "§c❤ Health §8(MM): §c1.200.000.000",
+    "§a❈ Defense §8(MM): §a1.800",
+    "",
+    "§7Necron:",
+    "§c❤ Health§8: §c1.000.000.000",
+    "§c❤ Health §8(MM): §c1.400.000.000",
+    "§a❈ Defense §8(MM): §a2.100",
+    "",
+    "§7Withered Dragon §8(MM):",
+    "§c❤ Health§8: §c900.000.000",
+    "§a❈ Defense: §a3.700"
   ],
   "internalname": "NECRON_BOSS",
   "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Necron"
+    "https://hypixel-skyblock.fandom.com/wiki/Necron",
+    "https://wiki.hypixel.net/Necron"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§cNecron",
+      "render": "Wither",
+      "panorama": "dungeon",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "NECRON_HANDLE",
+          "chance": "0.09%",
+          "extra": ["§e§lChest Price: §635,000,000 coins"]
+        },
+        {
+          "id": "WITHER_SHIELD_SCROLL",
+          "chance": "0.1%",
+          "extra": ["§e§lChest Price: §63,300,000 coins"]
+        },
+        {
+          "id": "IMPLOSION_SCROLL",
+          "chance": "0.1%",
+          "extra": ["§e§lChest Price: §63,300,000 coins"]
+        },
+        {
+          "id": "SHADOW_WARP_SCROLL",
+          "chance": "0.1%",
+          "extra": ["§e§lChest Price: §63,300,000 coins"]
+        },
+        {
+          "id": "AUTO_RECOMBOBULATOR",
+          "chance": "0.54%",
+          "extra": ["§e§lChest Price: §610,000,000 coins"]
+        },
+        {
+          "id": "MAXOR_THE_FISH",
+          "chance": "0.33%",
+          "extra": ["§e§lChest Price: §62,000,000 coins"]
+        },
+        {
+          "id": "STORM_THE_FISH",
+          "chance": "0.33%",
+          "extra": ["§e§lChest Price: §62,000,000 coins"]
+        },
+        {
+          "id": "GOLDOR_THE_FISH",
+          "chance": "0.33%",
+          "extra": ["§e§lChest Price: §62,000,000 coins"]
+        },
+        {
+          "id": "ULTIMATE_ONE_FOR_ALL;1",
+          "chance": "0.54%",
+          "extra": ["§e§lChest Price: §62,000,000 coins"]
+        },
+        {
+          "id": "WITHER_CLOAK",
+          "chance": "5.27%",
+          "extra": ["§e§lChest Price: §64,500,000 coins"]
+        },
+        {
+          "id": "WITHER_BLOOD",
+          "chance": "5.58%",
+          "extra": ["§e§lChest Price: §63,000,000 coins"]
+        },
+        {
+          "id": "WITHER_CATALYST",
+          "chance": "5.21%",
+          "extra": ["§e§lChest Price: §62,000,000 coins"]
+        },
+        {
+          "id": "PRECURSOR_GEAR",
+          "chance": "15.89%",
+          "extra": ["§e§lChest Price: §62,000,000 coins"]
+        },
+        {
+          "id": "WITHER_HELMET",
+          "chance": "5.58%",
+          "extra": ["§e§lChest Price: §64,000,000 coins"]
+        },
+        {
+          "id": "WITHER_CHESTPLATE",
+          "chance": "0.54%",
+          "extra": ["§e§lChest Price: §610,000,000 coins"]
+        },
+        {
+          "id": "WITHER_LEGGINGS",
+          "chance": "3.23%",
+          "extra": ["§e§lChest Price: §66,000,000 coins"]
+        },
+        {
+          "id": "WITHER_BOOTS",
+          "chance": "6.23%",
+          "extra": [
+            "§e§lChest Price: §62,500,000 coins"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "§cNecron (Master Mode)",
+      "render": "Wither",
+      "panorama": "dungeon",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "NECRON_HANDLE",
+          "chance": "0.11%",
+          "extra": [
+            "§e§lChest Price: §635,000,000 coins"
+          ]
+        },
+        {
+          "id": "WITHER_SHIELD_SCROLL",
+          "chance": "0.1%",
+          "extra": [
+            "§e§lChest Price: §63,300,000 coins"
+          ]
+        },
+        {
+          "id": "IMPLOSION_SCROLL",
+          "chance": "0.1%",
+          "extra": [
+            "§e§lChest Price: §63,300,000 coins"
+          ]
+        },
+        {
+          "id": "SHADOW_WARP_SCROLL",
+          "chance": "0.1%",
+          "extra": [
+            "§e§lChest Price: §63,300,000 coins"
+          ]
+        },
+        {
+          "id": "AUTO_RECOMBOBULATOR",
+          "chance": "0.86%",
+          "extra": [
+            "§e§lChest Price: §610,000,000 coins"
+          ]
+        },
+        {
+          "id": "MAXOR_THE_FISH",
+          "chance": "0.1%",
+          "extra": [
+            "§e§lChest Price: §62,000,000 coins"
+          ]
+        },
+        {
+          "id": "STORM_THE_FISH",
+          "chance": "0.1%",
+          "extra": [
+            "§e§lChest Price: §62,000,000 coins"
+          ]
+        },
+        {
+          "id": "GOLDOR_THE_FISH",
+          "chance": "0.1%",
+          "extra": [
+            "§e§lChest Price: §62,000,000 coins"
+          ]
+        },
+        {
+          "id": "ULTIMATE_ONE_FOR_ALL;1",
+          "chance": "0.98%",
+          "extra": [
+            "§e§lChest Price: §62,000,000 coins"
+          ]
+        },
+        {
+          "id": "WITHER_CLOAK",
+          "chance": "6.7%",
+          "extra": [
+            "§e§lChest Price: §64,500,000 coins"
+          ]
+        },
+        {
+          "id": "WITHER_BLOOD",
+          "chance": "6.85%",
+          "extra": [
+            "§e§lChest Price: §63,000,000 coins"
+          ]
+        },
+        {
+          "id": "WITHER_CATALYST",
+          "chance": "6%",
+          "extra": [
+            "§e§lChest Price: §62,000,000 coins"
+          ]
+        },
+        {
+          "id": "PRECURSOR_GEAR",
+          "chance": "17.5%",
+          "extra": [
+            "§e§lChest Price: §62,000,000 coins"
+          ]
+        },
+        {
+          "id": "WITHER_HELMET",
+          "chance": "6.85%",
+          "extra": [
+            "§e§lChest Price: §64,000,000 coins"
+          ]
+        },
+        {
+          "id": "WITHER_CHESTPLATE",
+          "chance": "0.92%",
+          "extra": [
+            "§e§lChest Price: §610,000,000 coins"
+          ]
+        },
+        {
+          "id": "WITHER_LEGGINGS",
+          "chance": "4.46%",
+          "extra": [
+            "§e§lChest Price: §66,000,000 coins"
+          ]
+        },
+        {
+          "id": "WITHER_BOOTS",
+          "chance": "7.18%",
+          "extra": [
+            "§e§lChest Price: §62,500,000 coins"
+          ]
+        },
+        {
+          "id": "FIFTH_MASTER_STAR",
+          "chance": "0.32%",
+          "extra": [
+            "§e§lChest Price: §69,000,000 coins"
+          ]
+        },
+        {
+          "id": "",
+          "chance": "0.04%",
+          "extra": [
+            "§e§lChest Price: §610,000,000 coins"
+          ]
+        },
+        {
+          "id": "THUNDERLORD;7",
+          "chance": "0.3%",
+          "extra": [
+            "§e§lChest Price: §62,000,000 coins"
+          ]
+        },
+        {
+          "id": "DARK_CLAYMORE",
+          "chance": "0.07%",
+          "extra": [
+            "§e§lChest Price: §650,000,000 coins"
+          ]
+        },
+        {
+          "id": "MASTER_SKULL_TIER_5",
+          "chance": "0.33%",
+          "extra": [
+            "§e§lChest Price: §632,000,000 coins"
+          ]
+        },
+        {
+          "id": "MASTER_SKULL_TIER_4",
+          "chance": "2.2%",
+          "extra": [
+            "§e§lChest Price: §68,000,000 coins"
+          ]
+        }
+      ]
+    }
+  ]
 }

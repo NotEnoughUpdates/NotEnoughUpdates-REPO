@@ -1,30 +1,54 @@
 {
   "itemid": "minecraft:packed_ice",
   "displayname": "§9Ice Walker (Monster)",
-  "nbttag": "{display:{Lore:[0:\"§7The Ice Walker is a mob that spawns in the Great\",1:\"§7Ice Wall area in the Dwarven Mines. They are\",2:\"§7required to be killed for one commission.\",3:\"\",4:\"§c❤ Health§8: §c888\",5:\"§7Combat XP: §340\",6:\"\",7:\"§6§lPossible Drops:\",8:\"§9Rare Loot\",9:\"§8 ■ §9Glacite Jewel §8(§a0.5%§8)\",10:\"§8 ■ §5Glacite Helmet §8(§a0.25%§8)\",11:\"§8 ■ §5Glacite Chestplate §8(§a0.25%§8)\",12:\"§8 ■ §5Glacite Leggings §8(§a0.25%§8)\",13:\"§8 ■ §5Glacite Boots §8(§a0.25%§8)\"],Name:\"§9Ice Walker (Monster)\"},ExtraAttributes:{id:\"ICE_WALKER_MONSTER\"}}",
+  "nbttag": "{display:{Lore:[0:\"§7The Ice Walker is a mob that spawns in the Great\",1:\"§7Ice Wall area in the Dwarven Mines. They are\",2:\"§7required to be killed for one commission.\",3:\"\",4:\"§c❤ Health§8: §c888\"],Name:\"§9Ice Walker (Monster)\"},ExtraAttributes:{id:\"ICE_WALKER_MONSTER\"}}",
   "damage": 0,
   "lore": [
     "§7The Ice Walker is a mob that spawns in the Great",
     "§7Ice Wall area in the Dwarven Mines. They are",
     "§7required to be killed for one commission.",
     "",
-    "§c❤ Health§8: §c888",
-    "§7Combat XP: §340",
-    "",
-    "§6§lPossible Drops:",
-    "§9Rare Loot",
-    "§8 ■ §9Glacite Jewel §8(§a0.5%§8)",
-    "§8 ■ §5Glacite Helmet §8(§a0.25%§8)",
-    "§8 ■ §5Glacite Chestplate §8(§a0.25%§8)",
-    "§8 ■ §5Glacite Leggings §8(§a0.25%§8)",
-    "§8 ■ §5Glacite Boots §8(§a0.25%§8)"
+    "§c❤ Health§8: §c888"
   ],
   "internalname": "ICE_WALKER_MONSTER",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Ice_Walker"
+    "https://hypixel-skyblock.fandom.com/wiki/Ice_Walker",
+    "https://wiki.hypixel.net/Ice_Walker"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 45,
+      "combat_xp": 40,
+      "name": "§cIce Walker",
+      "render": "@neurepo:mobs/ice_walker.json",
+      "panorama": "mining_3",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "GLACITE_JEWEL",
+          "chance": "0.5%"
+        },
+        {
+          "id": "GLACITE_HELMET",
+          "chance": "0.25%"
+        },
+        {
+          "id": "GLACITE_CHESTPLATE",
+          "chance": "0.25%"
+        },
+        {
+          "id": "GLACITE_LEGGINGS",
+          "chance": "0.25%"
+        },
+        {
+          "id": "GLACITE_BOOTS",
+          "chance": "0.25%"
+        }
+      ]
+    }
+  ]
 }
