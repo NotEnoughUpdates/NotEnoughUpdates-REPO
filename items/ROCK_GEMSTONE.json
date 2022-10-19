@@ -17,20 +17,27 @@
     "§7Requires §aMining Skill Level",
     "§aXXI§7!",
     "",
-    "§9§lRARE REFORGE STONE",
-    "",
-    "§eItems Required",
-    "§aEnchanted Cobblestone §7x128",
-    "§5Treasurite §7x64",
-    "",
-    "§7Duration: §b22h"
+    "§9§lRARE REFORGE STONE"
   ],
   "internalname": "ROCK_GEMSTONE",
   "crafttext": "",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Rock_Gemstone"
+    "https://hypixel-skyblock.fandom.com/wiki/Rock_Gemstone",
+    "https://wiki.hypixel.net/Rock_Gemstone"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "TREASURITE:64",
+        "ENCHANTED_COBBLESTONE:128"
+      ],
+      "count": 1,
+      "overrideOutputId": "ROCK_GEMSTONE",
+      "duration": 79200
+    }
   ]
 }

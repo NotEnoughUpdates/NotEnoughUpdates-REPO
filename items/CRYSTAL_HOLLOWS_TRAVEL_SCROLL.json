@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:map",
   "displayname": "§9Travel Scroll to the Crystal Hollows",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,display:{Lore:[0:\"§7Consume this item to add its\",1:\"§7destination to your fast travel\",2:\"§7options.\",3:\"\",4:\"§7Island: §aCrystal Hollows\",5:\"§7Teleport: §eEntrance\",6:\"\",7:\"§9§lRARE TRAVEL SCROLL\",8:\"\",9:\"§eItems Required\",10:\"§a❤ §aFlawed Ruby Gemstone §7x48\",11:\"§9❤ §9Fine Ruby Gemstone §7x80\",12:\"§aEnchanted Ender Pearl §7x16\",13:\"§650,000 Coins\",14:\"\",15:\"§7Duration: §b10h\"],Name:\"§9Travel Scroll to the Crystal Hollows\"},ExtraAttributes:{id:\"CRYSTAL_HOLLOWS_TRAVEL_SCROLL\"},AttributeModifiers:[]}",
+  "nbttag": "{overrideMeta:1b,HideFlags:254,display:{Lore:[0:\"§7Consume this item to add its\",1:\"§7destination to your fast travel\",2:\"§7options.\",3:\"\",4:\"§7Island: §aCrystal Hollows\",5:\"§7Teleport: §eEntrance\",6:\"\",7:\"§9§lRARE TRAVEL SCROLL\"],Name:\"§9Travel Scroll to the Crystal Hollows\"},ExtraAttributes:{id:\"CRYSTAL_HOLLOWS_TRAVEL_SCROLL\"},AttributeModifiers:[]}",
   "damage": 0,
   "lore": [
     "§7Consume this item to add its",
@@ -11,22 +11,29 @@
     "§7Island: §aCrystal Hollows",
     "§7Teleport: §eEntrance",
     "",
-    "§9§lRARE TRAVEL SCROLL",
-    "",
-    "§eItems Required",
-    "§a❤ §aFlawed Ruby Gemstone §7x48",
-    "§9❤ §9Fine Ruby Gemstone §7x80",
-    "§aEnchanted Ender Pearl §7x16",
-    "§650,000 Coins",
-    "",
-    "§7Duration: §b10h"
+    "§9§lRARE TRAVEL SCROLL"
   ],
   "internalname": "CRYSTAL_HOLLOWS_TRAVEL_SCROLL",
   "crafttext": "",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Travel_Scrolls"
+    "https://hypixel-skyblock.fandom.com/wiki/Travel_Scrolls",
+    "https://wiki.hypixel.net/Travel_Scroll_To_The_Crystal_Hollows"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "FLAWED_RUBY_GEM:48",
+        "SKYBLOCK_COIN:50000",
+        "ENCHANTED_ENDER_PEARL:16",
+        "FINE_RUBY_GEM:80"
+      ],
+      "count": 1,
+      "overrideOutputId": "CRYSTAL_HOLLOWS_TRAVEL_SCROLL",
+      "duration": 36000
+    }
   ]
 }

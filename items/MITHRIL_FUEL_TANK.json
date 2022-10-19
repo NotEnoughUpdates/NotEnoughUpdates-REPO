@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Mithril-Infused Fuel Tank",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"894f7fb5-932e-30f8-a1f3-948d105fb451\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxMDYzNjYwMzY2NCwKICAicHJvZmlsZUlkIiA6ICJjNTBhZmE4YWJlYjk0ZTQ1OTRiZjFiNDI1YTk4MGYwMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUd29FQmFlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2VjYjMxNmY3YTIyN2E4YzU5ZDU4YWUwZGQ2NzY4ZmU0ZmE1NDZkNTViOWNmZGQ1NmNmZTQwYjY1ODZkODFjMjQiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§8Drill Part\",1:\"\",2:\"§7Part Type: §6Fuel Tank\",3:\"\",4:\"§7Increases the fuel capacity to\",5:\"§7§210,000§7.\",6:\"\",7:\"§7Can be applied to Drills by\",8:\"§7talking to a §2Drill Mechanic§7!\",9:\"\",10:\"§9§lRARE\",11:\"\",12:\"§eItems Required\",13:\"§9Mithril Plate §7x3\",14:\"§9Fuel Tank §7x5\",15:\"\",16:\"§7Duration: §b10h\"],Name:\"§9Mithril-Infused Fuel Tank\"},ExtraAttributes:{id:\"MITHRIL_FUEL_TANK\"},AttributeModifiers:[]}",
+  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"894f7fb5-932e-30f8-a1f3-948d105fb451\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxMDYzNjYwMzY2NCwKICAicHJvZmlsZUlkIiA6ICJjNTBhZmE4YWJlYjk0ZTQ1OTRiZjFiNDI1YTk4MGYwMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUd29FQmFlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2VjYjMxNmY3YTIyN2E4YzU5ZDU4YWUwZGQ2NzY4ZmU0ZmE1NDZkNTViOWNmZGQ1NmNmZTQwYjY1ODZkODFjMjQiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§8Drill Part\",1:\"\",2:\"§7Part Type: §6Fuel Tank\",3:\"\",4:\"§7Increases the fuel capacity to\",5:\"§7§210,000§7.\",6:\"\",7:\"§7Can be applied to Drills by\",8:\"§7talking to a §2Drill Mechanic§7!\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Mithril-Infused Fuel Tank\"},ExtraAttributes:{id:\"MITHRIL_FUEL_TANK\"},AttributeModifiers:[]}",
   "damage": 3,
   "lore": [
     "§8Drill Part",
@@ -14,20 +14,26 @@
     "§7Can be applied to Drills by",
     "§7talking to a §2Drill Mechanic§7!",
     "",
-    "§9§lRARE",
-    "",
-    "§eItems Required",
-    "§9Mithril Plate §7x3",
-    "§9Fuel Tank §7x5",
-    "",
-    "§7Duration: §b10h"
+    "§9§lRARE"
   ],
   "internalname": "MITHRIL_FUEL_TANK",
   "crafttext": "",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Mithril-Infused_Fuel_Tank"
+    "https://hypixel-skyblock.fandom.com/wiki/Mithril-Infused_Fuel_Tank",
+    "https://wiki.hypixel.net/Mithril-Infused_Fuel_Tank"  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "MITHRIL_PLATE:3",
+        "FUEL_TANK:5"
+      ],
+      "count": 1,
+      "overrideOutputId": "MITHRIL_FUEL_TANK",
+      "duration": 36000
+    }
   ]
 }

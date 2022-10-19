@@ -1,22 +1,29 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§5Refined Mithril",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"d448b288-ea09-312f-86bf-b6b597a6bc90\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxMDk5NjQ2NTYzMCwKICAicHJvZmlsZUlkIiA6ICI2ZmU4OTUxZDVhY2M0NDc3OWI2ZmYxMmU3YzFlOTQ2MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJlcGhlbXJhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM1YTc2NjMzMDA2MTliYjZhMTU2ZDc2MzUxYWMwNWY3YjNjYWZlYWMzMWUyZmYwNGM1NWNjOWYyMzYzMjc4MzIiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§5§lEPIC\",1:\"\",2:\"§eItems Required\",3:\"§9Enchanted Mithril §7x160\",4:\"\",5:\"§7Duration: §b6h\"],Name:\"§5Refined Mithril\"},ExtraAttributes:{id:\"REFINED_MITHRIL\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"d448b288-ea09-312f-86bf-b6b597a6bc90\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxMDk5NjQ2NTYzMCwKICAicHJvZmlsZUlkIiA6ICI2ZmU4OTUxZDVhY2M0NDc3OWI2ZmYxMmU3YzFlOTQ2MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJlcGhlbXJhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM1YTc2NjMzMDA2MTliYjZhMTU2ZDc2MzUxYWMwNWY3YjNjYWZlYWMzMWUyZmYwNGM1NWNjOWYyMzYzMjc4MzIiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§5§lEPIC\"],Name:\"§5Refined Mithril\"},ExtraAttributes:{id:\"REFINED_MITHRIL\"}}",
   "damage": 3,
   "lore": [
-    "§5§lEPIC",
-    "",
-    "§eItems Required",
-    "§9Enchanted Mithril §7x160",
-    "",
-    "§7Duration: §b6h"
+    "§5§lEPIC"
   ],
   "internalname": "REFINED_MITHRIL",
   "crafttext": "",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Refined_Mithril"
+    "https://hypixel-skyblock.fandom.com/wiki/Refined_Mithril",
+    "https://wiki.hypixel.net/Refined_Mithril"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "ENCHANTED_MITHRIL:160"
+      ],
+      "count": 1,
+      "overrideOutputId": "REFINED_MITHRIL",
+      "duration": 21600
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Gemstone Fuel Tank",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"de8d4c78-9bd3-3f01-91a8-0b45dab9f2ed\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyNTQ5MjY3ODAzMiwKICAicHJvZmlsZUlkIiA6ICI1ZjE4ZmY4NTEyZGQ0NmQ1OGY1MjJlYjg2MDg2ZjU5MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUYWtlb3MiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWZlZjcyMmRhMDVhZThiZDgxMzI5MDVhMTFiNWI2ZGZiZjhlN2FlMGFmNTk5YzgyNjZlMTYwZmIwNWU2MTU5YiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§8Drill Part\",1:\"\",2:\"§7Part Type: §6Fuel Tank\",3:\"\",4:\"§7Increases the fuel capacity to\",5:\"§7§250,000§7.\",6:\"\",7:\"§7Can be applied to Drills by\",8:\"§7talking to a §2Drill Mechanic§7!\",9:\"\",10:\"§7§4❣ §cRequires §5Heart of the\",11:\"§5Mountain Tier 5.\",12:\"§9§lRARE\",13:\"\",14:\"§eItems Required\",15:\"§9Titanium-Infused Fuel Tank §7x1\",16:\"§9Control Switch §7x30\",17:\"§9Gemstone Mixture §7x10\",18:\"\",19:\"§7Duration: §b1d 4h\"],Name:\"§9Gemstone Fuel Tank\"},ExtraAttributes:{id:\"GEMSTONE_FUEL_TANK\"}}",
+  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"de8d4c78-9bd3-3f01-91a8-0b45dab9f2ed\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyNTQ5MjY3ODAzMiwKICAicHJvZmlsZUlkIiA6ICI1ZjE4ZmY4NTEyZGQ0NmQ1OGY1MjJlYjg2MDg2ZjU5MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUYWtlb3MiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWZlZjcyMmRhMDVhZThiZDgxMzI5MDVhMTFiNWI2ZGZiZjhlN2FlMGFmNTk5YzgyNjZlMTYwZmIwNWU2MTU5YiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§8Drill Part\",1:\"\",2:\"§7Part Type: §6Fuel Tank\",3:\"\",4:\"§7Increases the fuel capacity to\",5:\"§7§250,000§7.\",6:\"\",7:\"§7Can be applied to Drills by\",8:\"§7talking to a §2Drill Mechanic§7!\",9:\"\",10:\"§7§4❣ §cRequires §5Heart of the\",11:\"§5Mountain Tier 5.\",12:\"§9§lRARE\"],Name:\"§9Gemstone Fuel Tank\"},ExtraAttributes:{id:\"GEMSTONE_FUEL_TANK\"},AttributeModifiers:[]}",
   "damage": 3,
   "lore": [
     "§8Drill Part",
@@ -16,21 +16,28 @@
     "",
     "§7§4❣ §cRequires §5Heart of the",
     "§5Mountain Tier 5.",
-    "§9§lRARE",
-    "",
-    "§eItems Required",
-    "§9Titanium-Infused Fuel Tank §7x1",
-    "§9Control Switch §7x30",
-    "§9Gemstone Mixture §7x10",
-    "",
-    "§7Duration: §b1d 4h"
+    "§9§lRARE"
   ],
   "internalname": "GEMSTONE_FUEL_TANK",
   "crafttext": "",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Gemstone_Fuel_Tank"
+    "https://hypixel-skyblock.fandom.com/wiki/Gemstone_Fuel_Tank",
+    "https://wiki.hypixel.net/Gemstone_Fuel_Tank"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "CONTROL_SWITCH:30",
+        "GEMSTONE_MIXTURE:10",
+        "TITANIUM_FUEL_TANK:1"
+      ],
+      "count": 1,
+      "overrideOutputId": "GEMSTONE_FUEL_TANK",
+      "duration": 108000
+    }
   ]
 }

@@ -1,33 +1,109 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§aWither Skeleton (Monster)",
-  "nbttag": "{display:{Lore:[0:\"§7The Wither Skeleton is a mob in the Blazing Fortress.\",1:\"§7It has 250 HP and will always be level 10. It has a\",2:\"§7chance to drop Coal, Enchanted Coal or Enchanted\",3:\"§7Charcoal on death.\",4:\"\",5:\"§c❤ Health§8: §c250\",6:\"§7Coins per Kill: §64\",7:\"§7Combat XP: §313\",8:\"\",9:\"§6§lPossible Drops:\",10:\"§fCommon Loot\",11:\"§8 ■ §fCoal §8(§a50%§8)\",12:\"§8 ■ §fBone §8x3\",13:\"\",14:\"§9Rare Loot §8[Lvl 42-50]\",15:\"§8 ■ §aEnchanted Coal §8(§a1%§8)\",16:\"§8 ■ §aEnchanted Charcoal §8(§a1%§8)\"],Name:\"§aWither Skeleton (Monster)\"},ExtraAttributes:{id:\"WITHER_SKELETON_MONSTER\"}}",
+  "nbttag": "{display:{Lore:[0:\"§7Keepers of the Crimson Isle.\",1:\"\",2:\"§c❤ Health§8: §c1,000,000\"],Name:\"§aWither Skeleton (Monster)\"},ExtraAttributes:{id:\"WITHER_SKELETON_MONSTER\"}}",
   "damage": 1,
   "lore": [
-    "§7The Wither Skeleton is a mob in the Blazing Fortress.",
-    "§7It has 250 HP and will always be level 10. It has a",
-    "§7chance to drop Coal, Enchanted Coal or Enchanted",
-    "§7Charcoal on death.",
+    "§7Keepers of the Crimson Isle.",
     "",
-    "§c❤ Health§8: §c250",
-    "§7Coins per Kill: §64",
-    "§7Combat XP: §313",
-    "",
-    "§6§lPossible Drops:",
-    "§fCommon Loot",
-    "§8 ■ §fCoal §8(§a50%§8)",
-    "§8 ■ §fBone §8x3",
-    "",
-    "§9Rare Loot §8[Lvl 42-50]",
-    "§8 ■ §aEnchanted Coal §8(§a1%§8)",
-    "§8 ■ §aEnchanted Charcoal §8(§a1%§8)"
+    "§c❤ Health§8: §c1,000,000"
   ],
   "internalname": "WITHER_SKELETON_MONSTER",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Wither_Skeleton"
+    "https://hypixel-skyblock.fandom.com/wiki/Wither_Skeleton",
+    "https://wiki.hypixel.net/Wither_Skeleton"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 10,
+      "coins": 4,
+      "xp": 15,
+      "combat_xp": 13,
+      "name": "§fWither Skeleton",
+      "render": "@neurepo:mobs/witherskeleton.json",
+      "type": "drops",
+      "panorama": "crimson_isle",
+      "drops": [
+        {
+          "id": "COAL:1",
+          "chance": "50%"
+        },
+        {
+          "id": "BONE:1",
+          "chance": "x3"
+        },
+        {
+          "id": "ENCHANTED_COAL:1",
+          "chance": "1%"
+        },
+        {
+          "id": "ENCHANTED_CHARCOAL:1",
+          "chance": "1%"
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "coins": 20,
+      "xp": 100,
+      "combat_xp": 0,
+      "name": "§fWither Skeleton",
+      "render": "@neurepo:mobs/witherskeleton.json",
+      "type": "drops",
+      "panorama": "crimson_isle",
+      "drops": [
+        {
+          "id": "COAL:1",
+          "extra": [],
+          "chance": "50%"
+        },
+        {
+          "id": "BONE:1",
+          "extra": [],
+          "chance": "x3"
+        },
+        {
+          "id": "WITHER_SOUL:1",
+          "extra": [],
+          "chance": "20%"
+        },
+        {
+          "id": "ENCHANTED_COAL:1",
+          "chance": "1%"
+        },
+        {
+          "id": "ENCHANTED_CHARCOAL:1",
+          "chance": "1%"
+        },
+        {
+          "id": "RAMPART_HELMET:1",
+          "chance": "0.1%"
+        },
+        {
+          "id": "RAMPART_CHESTPLATE:1",
+          "chance": "0.1%"
+        },
+        {
+          "id": "RAMPART_LEGGINGS:1",
+          "chance": "0.1%"
+        },
+        {
+          "id": "RAMPART_BOOTS:1",
+          "chance": "0.1%"
+        },
+        {
+          "id": "SWORD_OF_BAD_HEALTH:1",
+          "chance": "0.05%"
+        },
+        {
+          "id": "DYE_BONE:1",
+          "chance": "0.0000333%"
+        }
+      ]
+    }
+  ]
 }

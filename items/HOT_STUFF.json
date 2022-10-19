@@ -12,13 +12,7 @@
     "",
     "§7§8§oOooh, das hot!",
     "",
-    "§6§lLEGENDARY",
-    "",
-    "§eItems Required",
-    "§fHard Stone §7x128",
-    "§f⸕ §fRough Amber Gemstone §7x64",
-    "",
-    "§7Duration: §b1d"
+    "§6§lLEGENDARY"
   ],
   "recipe": {
     "A1": "ENCHANTED_HARD_STONE:12",
@@ -37,6 +31,19 @@
   "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Hot_Stuff"
+    "https://hypixel-skyblock.fandom.com/wiki/Hot_Stuff",
+    "https://wiki.hypixel.net/Hot_Stuff"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "ROUGH_AMBER_GEM:64",
+        "HARD_STONE:128"
+      ],
+      "count": 1,
+      "overrideOutputId": "HOT_STUFF",
+      "duration": 86400
+    }
   ]
 }

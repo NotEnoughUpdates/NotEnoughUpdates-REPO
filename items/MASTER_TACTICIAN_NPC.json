@@ -1,0 +1,44 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Master Tactician (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"8419e7f3-043a-58c8-8ed6-52649a53fe77\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTJiN2FjYmZhOTMwOGEyMmU3NTA2YTM2YmNjYWZkMDE2MGFmYTBkNTAwODE4ZWZlZTlmYTk4MzUyMTRjMTRmYSJ9fX0\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Master Tactician (NPC)\"},ExtraAttributes:{id:\"MASTER_TACTICIAN_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "MASTER_TACTICIAN_NPC",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Master_Tactician",
+    "https://wiki.hypixel.net/Master_Tactician"
+  ],
+  "x": -463,
+  "y": 112,
+  "z": -16,
+  "island": "foraging_1",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:35000"
+      ],
+      "result": "TACTICIAN_SWORD"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "ENCHANTED_OAK_LOG:320",
+        "ENCHANTED_SPRUCE_LOG:320",
+        "ENCHANTED_BIRCH_LOG:320",
+        "ENCHANTED_DARK_OAK_LOG:320",
+        "ENCHANTED_ACACIA_LOG:320",
+        "ENCHANTED_JUNGLE_LOG:320",
+        "SKYBLOCK_COIN:1464000"
+      ],
+      "result": "WOOD_SINGULARITY"
+    }
+  ],
+  "crafttext": ""
+}

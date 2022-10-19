@@ -1,33 +1,58 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Super Tank Zombie (Monster)",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Heftiest zombie.\",1:\"\",2:\"§7Coins per Kill: §61\",3:\"§7Combat XP: §370-168\",4:\"\",5:\"§6§lPossible Drops:\",6:\"§aUncommon Loot\",7:\"§8 ■ §5Super Heavy Chestplate §8(§a2.5%§8)\",8:\"§8 ■ §5Super Heavy Helmet §8(§a2.5%§8)\",9:\"§8 ■ §5Super Heavy Boots §8(§a2.5%§8)\",10:\"§8 ■ §5Super Heavy Leggings §8(§a2.5%§8)\",11:\"\",12:\"§9Rare Loot\",13:\"§8 ■ §5Earth Shard §8(§a0.1%§8)\",14:\"\",15:\"§6Legendary Loot\",16:\"§8 ■ §9Premium Flesh §8(§a0.1%§8)\"],Name:\"§9Super Tank Zombie (Monster)\"},ExtraAttributes:{id:\"SUPER_TANK_ZOMBIE_MONSTER\"}}",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Heftiest zombie.\",1:\"\",2:\"§c❤ Health§8: §c20,000 - 90,000\",3:\"§c❤ Health §8(MM) : §c180,000 - 1.050,000\"],Name:\"§9Super Tank Zombie (Monster)\"},ExtraAttributes:{id:\"SUPER_TANK_ZOMBIE_MONSTER\"}}",
   "damage": 2,
   "lore": [
     "§7Heftiest zombie.",
     "",
-    "§7Coins per Kill: §61",
-    "§7Combat XP: §370-168",
-    "",
-    "§6§lPossible Drops:",
-    "§aUncommon Loot",
-    "§8 ■ §5Super Heavy Chestplate §8(§a2.5%§8)",
-    "§8 ■ §5Super Heavy Helmet §8(§a2.5%§8)",
-    "§8 ■ §5Super Heavy Boots §8(§a2.5%§8)",
-    "§8 ■ §5Super Heavy Leggings §8(§a2.5%§8)",
-    "",
-    "§9Rare Loot",
-    "§8 ■ §5Earth Shard §8(§a0.1%§8)",
-    "",
-    "§6Legendary Loot",
-    "§8 ■ §9Premium Flesh §8(§a0.1%§8)"
+    "§c❤ Health§8: §c20,000 - 90,000",
+    "§c❤ Health §8(MM) : §c180,000 - 1.050,000"
   ],
   "internalname": "SUPER_TANK_ZOMBIE_MONSTER",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Super_Tank_Zombie"
+    "https://hypixel-skyblock.fandom.com/wiki/Super_Tank_Zombie",
+    "https://wiki.hypixel.net/Super_Tank_Zombie"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "combat_xp": 70,
+      "coins": 1,
+      "xp": 30,
+      "name": "§cSuper Tank Zombie",
+      "panorama": "dungeon",
+      "render": "@neurepo:mobs/super_tank_zombie.json",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "SUPER_HEAVY_HELMET",
+          "chance": "5%"
+        },
+        {
+          "id": "SUPER_HEAVY_CHESTPLATE",
+          "chance": "5%"
+        },
+        {
+          "id": "SUPER_HEAVY_LEGGINGS",
+          "chance": "5%"
+        },
+        {
+          "id": "SUPER_HEAVY_BOOTS",
+          "chance": "5%"
+        },
+        {
+          "id": "EARTH_SHARD",
+          "chance": "1%"
+        },
+        {
+          "id": "PREMIUM_FLESH",
+          "chance": "0.1%"
+        }
+      ]
+    }
+  ]
 }

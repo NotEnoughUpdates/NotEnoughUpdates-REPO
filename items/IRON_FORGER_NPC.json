@@ -1,0 +1,66 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Iron Forger (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"de9bc142-fd02-5dcf-a00f-410b70d463ea\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDY0MmFmMWU0OTcwMzcyNzViMjU4ZjU0NGZkZGJkYzY3NDZlODAxNzU5N2NhNjk4OGU2NjUzMTA1Y2MyIn19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Iron Forger (NPC)\"},ExtraAttributes:{id:\"IRON_FORGER_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "IRON_FORGER_NPC",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Iron_Forger",
+    "https://wiki.hypixel.net/Iron_Forger"
+  ],
+  "x": -2,
+  "y": 77,
+  "z": -308,
+  "island": "mining_1",
+  "crafttext": "",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:110"
+      ],
+      "result": "IRON_INGOT:20"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:10"
+      ],
+      "result": "IRON_HELMET"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:16"
+      ],
+      "result": "IRON_CHESTPLATE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:14"
+      ],
+      "result": "IRON_LEGGINGS"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:9"
+      ],
+      "result": "IRON_BOOTS"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:60"
+      ],
+      "result": "IRON_PICKAXE"
+    }
+  ]
+}

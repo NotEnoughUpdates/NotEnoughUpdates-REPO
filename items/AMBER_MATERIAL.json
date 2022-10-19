@@ -11,26 +11,33 @@
     "§7when combined with a pickaxe§7.",
     "",
     "§7§8§oPut a bunch of Amber",
-    "§8§otogether and it\u0027ll make more",
+    "§8§otogether and it'll make more",
     "§8§oAmber - Throin the Forger.",
     "",
     "§7Requires §aMining Skill Level",
     "§aXXX§7!",
     "",
-    "§5§lEPIC REFORGE STONE",
-    "",
-    "§eItems Required",
-    "§9⸕ §9Fine Amber Gemstone §7x12",
-    "§9Golden Plate §7x1",
-    "",
-    "§7Duration: §b7h"
+    "§5§lEPIC REFORGE STONE"
   ],
   "internalname": "AMBER_MATERIAL",
   "crafttext": "",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Amber_Material"
+    "https://hypixel-skyblock.fandom.com/wiki/Amber_Material",
+    "https://wiki.hypixel.net/Amber_Material"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "GOLDEN_PLATE:1",
+        "FINE_AMBER_GEM:12"
+      ],
+      "count": 1,
+      "overrideOutputId": "AMBER_MATERIAL",
+      "duration": 25200
+    }
   ]
 }

@@ -21,10 +21,18 @@
   },
   "internalname": "DESERT_ISLAND",
   "clickcommand": "viewrecipe",
-  "modver": "1.0.0",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Desert_Island"
+    "https://hypixel-skyblock.fandom.com/wiki/Desert_Island",
+    "https://wiki.hypixel.net/Desert_Island"
   ],
-  "crafttext": "Requires: Cactus V"
+  "crafttext": "Requires: Cactus V",
+  "recipes": [
+    {
+    "type": "trade",
+    "cost": "EMERALD:25",
+    "result": "DESERT_ISLAND"
+    }
+  ]
 }

@@ -1,0 +1,43 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aMatcho (Monster)",
+  "nbttag": "{SkullOwner:{Id:\"61db73be-677f-554a-9450-e306a7ff0449\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWYyZGFhYmI3OGExZjdhYTEyZDE0NWQ4OGMwY2E0NmI5ZTg1NmY1NTM0ZTkyODZlNTU1ZmFmMGMyOTFmNGZkNSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Has quite a explosive temper\",1:\"\",2:\"§c❤ Health§8: §c2,000,000\"],Name:\"§aMatcho (Monster)\"},ExtraAttributes:{id:\"MATCHO_MONSTER\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Has quite a explosive temper",
+    "",
+    "§c❤ Health§8: §c2,000,000"
+  ],
+  "internalname": "MATCHO_MONSTER",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Matcho",
+    "https://wiki.hypixel.net/Matcho"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 100,
+      "coins": 300,
+      "xp": 300,
+      "combat_xp": 0,
+      "name": "§fMatcho",
+      "render": "@neurepo:mobs/matcho.json",
+      "type": "drops",
+      "panorama": "crimson_isle",
+      "extra": [],
+      "drops": [
+        {
+          "id": "SULPHUR_ORE:1",
+          "chance": "50%"
+        },
+        {
+          "id": "MATCH_STICKS:2",
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

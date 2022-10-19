@@ -1,0 +1,73 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Hilda (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"da8fe8ed-0f9d-5c3f-a418-7d50ead96648\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTRlNTA3OTVjYTQyOGFhYmMzZjM4MDI2Y2RjZjc0NDQ5OGM5ODEwZDkyMjAyNmI4YmFlYmExN2Q0ZmUyNjM1NiJ9fX0\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Scoop (NPC)\"},ExtraAttributes:{id:\"SCOOP_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "HILDA_NPC",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "",
+  "x": -47,
+  "y": 109,
+  "z": -780,
+  "island": "crimson_isle",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "GHAST_GENERATOR_11:1",
+        "SILVER_FANG:1024",
+        "SKYBLOCK_COIN:2000000"
+      ],
+      "result": "GHAST_GENERATOR_12"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "QUARTZ_GENERATOR_11:1",
+        "ENCHANTED_QUARTZ_BLOCK:16",
+        "SKYBLOCK_COIN:2000000"
+      ],
+      "result": "QUARTZ_GENERATOR_12"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "GLOWSTONE_GENERATOR_11:1",
+        "ENCHANTED_GLOWSTONE:32",
+        "SKYBLOCK_COIN:2000000"
+      ],
+      "result": "GLOWSTONE_GENERATOR_12"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "BLAZE_GENERATOR_11:1",
+        "ENCHANTED_BLAZE_ROD:16",
+        "SKYBLOCK_COIN:2000000"
+      ],
+      "result": "BLAZE_GENERATOR_12"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "MAGMA_CUBE_GENERATOR_11:1",
+        "ENCHANTED_MAGMA_CREAM:1024",
+        "SKYBLOCK_COIN:2000000"
+      ],
+      "result": "MAGMA_CUBE_GENERATOR_12"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "MYCELIUM_GENERATOR_11:1",
+        "ENCHANTED_MYCELIUM_CUBE:32",
+        "SKYBLOCK_COIN:2000000"
+      ],
+      "result": "MYCELIUM_GENERATOR_12"
+    }
+  ]
+}

@@ -1,30 +1,46 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Treasure Hoarder (Monster)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"b0f13fc2-07a5-3964-8303-784f802e5f0f\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5MDE1NjYzNDYzOCwKICAicHJvZmlsZUlkIiA6ICI5MWZlMTk2ODdjOTA0NjU2YWExZmMwNTk4NmRkM2ZlNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJoaGphYnJpcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iMmIxMmE4MTRjZWQ4YWYwMmNkZGYyOWEzN2U3ZjMwMTFlNDMwZThhMThiMzhiNzA2ZjI3YzZiZDMxNjUwYjY1IgogICAgfQogIH0KfQ\"}]}},display:{Lore:[0:\"§7Treasure Hoarders are mobs that spawn in the\",1:\"§7Upper Mines area of the Dwarven Mines. They\",2:\"§7drop the Treasurite material used in the Forge.\",3:\"\",4:\"§c❤ Health§8: §c22.000\",5:\"§7Combat XP: §370\",6:\"\",7:\"§6§lPossible Drops:\",8:\"§fCommon Loot\",9:\"§8 ■ §9Starfall §8x1-2\",10:\"\",11:\"§9Rare Loot\",12:\"§8 ■ §5Treasurite §8(§a0.5%§8)\",13:\"§8 ■ §9Salmon Opal §8(§a1%§8)\"],Name:\"§9Treasure Hoarder (Monster)\"},ExtraAttributes:{id:\"TREASURE_HOARDER_MONSTER\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"b0f13fc2-07a5-3964-8303-784f802e5f0f\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5MDE1NjYzNDYzOCwKICAicHJvZmlsZUlkIiA6ICI5MWZlMTk2ODdjOTA0NjU2YWExZmMwNTk4NmRkM2ZlNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJoaGphYnJpcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iMmIxMmE4MTRjZWQ4YWYwMmNkZGYyOWEzN2U3ZjMwMTFlNDMwZThhMThiMzhiNzA2ZjI3YzZiZDMxNjUwYjY1IgogICAgfQogIH0KfQ\"}]}},display:{Lore:[0:\"§7Treasure Hoarders are mobs that spawn in the\",1:\"§7Upper Mines area of the Dwarven Mines. They\",2:\"§7drop the Treasurite material used in the Forge.\",3:\"\",4:\"§c❤ Health§8: §c22,000\"],Name:\"§9Treasure Hoarder (Monster)\"},ExtraAttributes:{id:\"TREASURE_HOARDER_MONSTER\"}}",
   "damage": 3,
   "lore": [
     "§7Treasure Hoarders are mobs that spawn in the",
     "§7Upper Mines area of the Dwarven Mines. They",
     "§7drop the Treasurite material used in the Forge.",
     "",
-    "§c❤ Health§8: §c22.000",
-    "§7Combat XP: §370",
-    "",
-    "§6§lPossible Drops:",
-    "§fCommon Loot",
-    "§8 ■ §9Starfall §8x1-2",
-    "",
-    "§9Rare Loot",
-    "§8 ■ §5Treasurite §8(§a0.5%§8)",
-    "§8 ■ §9Salmon Opal §8(§a1%§8)"
+    "§c❤ Health§8: §c22,000"
   ],
   "internalname": "TREASURE_HOARDER_MONSTER",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Treasure_Hoarder"
+    "https://hypixel-skyblock.fandom.com/wiki/Treasure_Hoarder",
+    "https://wiki.hypixel.net/Treasure_Hoarder"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 70,
+      "combat_xp": 70,
+      "name": "§cTreasure Hoarder",
+      "render": "@neurepo:mobs/treasure_hoarder.json",
+      "panorama": "mining_3",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "STARFALL",
+          "chance": "x1-2"
+        },
+        {
+          "id": "SALMON_OPAL:1",
+          "chance": "1%"
+        },
+        {
+          "id": "TREASURITE",
+          "chance": "0.5%"
+        }
+      ]
+    }
+  ]
 }

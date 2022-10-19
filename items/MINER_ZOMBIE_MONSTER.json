@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Miner Zombie (Monster)",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Like their skeleton\",1:\"§7counterparts these zombies have\",2:\"§7bedazzled themselves throughout\",3:\"§7the years.\",4:\"\",5:\"§c❤ Health§8: §c250-300\",6:\"§7Coins per Kill: §612-15\",7:\"§7Combat XP: §320-24\",8:\"\",9:\"§6§lPossible Drops:\",10:\"§fCommon Loot\",11:\"§8 ■ §fRotten Flesh §8x1-2\",12:\"\",13:\"§9Rare Loot\",14:\"§8 ■ §9Miner Helmet §8(§a1%§8)\",15:\"§8 ■ §9Miner Chestplate §8(§a1%§8)\",16:\"§8 ■ §9Miner Leggings §8(§a1%§8)\",17:\"§8 ■ §9Miner Boots §8(§a1%§8)\",18:\"\",19:\"§dRNGesus Loot\",20:\"§8 ■ §5Exp Share Core §8(§a0.01%§8)\"],Name:\"§9Miner Zombie (Monster)\"},ExtraAttributes:{id:\"MINER_ZOMBIE_MONSTER\"}}",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Like their skeleton\",1:\"§7counterparts these zombies have\",2:\"§7bedazzled themselves throughout\",3:\"§7the years.\",4:\"\",5:\"§c❤ Health§8: §c250 - 300\"],Name:\"§9Miner Zombie (Monster)\"},ExtraAttributes:{id:\"MINER_ZOMBIE_MONSTER\"}}",
   "damage": 2,
   "lore": [
     "§7Like their skeleton",
@@ -9,29 +9,53 @@
     "§7bedazzled themselves throughout",
     "§7the years.",
     "",
-    "§c❤ Health§8: §c250-300",
-    "§7Coins per Kill: §612-15",
-    "§7Combat XP: §320-24",
-    "",
-    "§6§lPossible Drops:",
-    "§fCommon Loot",
-    "§8 ■ §fRotten Flesh §8x1-2",
-    "",
-    "§9Rare Loot",
-    "§8 ■ §9Miner Helmet §8(§a1%§8)",
-    "§8 ■ §9Miner Chestplate §8(§a1%§8)",
-    "§8 ■ §9Miner Leggings §8(§a1%§8)",
-    "§8 ■ §9Miner Boots §8(§a1%§8)",
-    "",
-    "§dRNGesus Loot",
-    "§8 ■ §5Exp Share Core §8(§a0.01%§8)"
+    "§c❤ Health§8: §c250 - 300"
   ],
   "internalname": "MINER_ZOMBIE_MONSTER",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Miner_Zombie"
+    "https://hypixel-skyblock.fandom.com/wiki/Miner_Zombie",
+    "https://wiki.hypixel.net/Miner_Zombie"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 15,
+      "coins": 12,
+      "xp": 30,
+      "combat_xp": 20,
+      "name": "§cMiner Zombie",
+      "render": "@neurepo:mobs/miner_zombie.json",
+      "panorama": "mining_2",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ROTTEN_FLESH",
+          "chance": "100%"
+        },
+        {
+          "id": "TANK_MINER_HELMET",
+          "chance": "1%"
+        },
+        {
+          "id": "TANK_MINER_CHESTPLATE",
+          "chance": "1%"
+        },
+        {
+          "id": "TANK_MINER_LEGGINGS",
+          "chance": "1%"
+        },
+        {
+          "id": "TANK_MINER_BOOTS",
+          "chance": "1%"
+        },
+        {
+          "id": "PET_ITEM_EXP_SHARE_DROP:1",
+          "chance": "0.01%"
+        }
+      ]
+    }
+  ]
 }
