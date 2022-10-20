@@ -1,20 +1,39 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§5Revenant Sycophant (Miniboss)",
-  "nbttag": "{display:{Lore:[0:\"§7The Revenant Sycophant is a Revenant Horror/Zombie\",1:\"§7Slayer Miniboss that has a Small chance to be spawned\",2:\"§7when a player with an active Revenant Horror Tier III+\",3:\"§7Quest kills a Zombie.\"],Name:\"§5Revenant Sycophant (Miniboss)\"},ExtraAttributes:{id:\"REVENANT_SYCOPHANT_MINIBOSS\"}}",
+  "nbttag": "{display:{Lore:[0:\"§7The Revenant Sycophant is a Revenant Horror/Zombie\",1:\"§7Slayer Miniboss that has a small chance to be spawned\",2:\"§7when a player with an active Revenant Horror Tier III+\",3:\"§7Quest kills a Zombie.\",4:\"\",5:\"§c❤ Health§8: §c24,000\"],Name:\"§5Revenant Sycophant (Miniboss)\"},ExtraAttributes:{id:\"REVENANT_SYCOPHANT_MINIBOSS\"}}",
   "damage": 2,
   "lore": [
     "§7The Revenant Sycophant is a Revenant Horror/Zombie",
-    "§7Slayer Miniboss that has a Small chance to be spawned",
+    "§7Slayer Miniboss that has a small chance to be spawned",
     "§7when a player with an active Revenant Horror Tier III+",
-    "§7Quest kills a Zombie."
+    "§7Quest kills a Zombie.",
+    "",
+    "§c❤ Health§8: §c24,000"
   ],
   "internalname": "REVENANT_SYCOPHANT_MINIBOSS",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Revenant_Sycophant"
+    "https://hypixel-skyblock.fandom.com/wiki/Revenant_Sycophant",
+    "https://wiki.hypixel.net/Revenant_Sycophant"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§cRevenant Sycophant",
+      "render": "@neurepo:mobs/revenant_sycophant.json",
+      "level": 80,
+      "combat_xp": 360,
+      "type": "drops",
+      "panorama": "hub",
+      "drops": [
+        {
+          "id": "REVENANT_FLESH:1",
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
 }

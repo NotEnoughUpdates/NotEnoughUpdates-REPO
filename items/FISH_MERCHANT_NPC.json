@@ -1,0 +1,59 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Fish Merchant (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"a167b970-0625-5848-9945-a3af3db31031\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTJjNGVlMDQ3OWI5MDFmMTc3YzI4Njg5NWRhMzEwYTgwNmRmZTg5N2M5YTg2NzhiOWRlODhhYmJiMWJmZjRiMSJ9fX0\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Fish Merchant (NPC)\"},ExtraAttributes:{id:\"FISH_MERCHANT_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "FISH_MERCHANT_NPC",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Fish_Merchant",
+    "https://wiki.hypixel.net/Fish_Merchant"
+  ],
+  "crafttext": "",
+  "x": 52,
+  "y": 70,
+  "z": -83,
+  "island": "hub",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:100"
+      ],
+      "result": "FISHING_ROD"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:20"
+      ],
+      "result": "RAW_FISH"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:30"
+      ],
+      "result": "RAW_FISH-1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:100"
+      ],
+      "result": "RAW_FISH-2"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:40"
+      ],
+      "result": "RAW_FISH-3"
+    }
+  ]
+}

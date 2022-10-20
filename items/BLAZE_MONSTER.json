@@ -1,31 +1,113 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§aBlaze (Monster)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"118fe834-28aa-3b0d-afe6-f0c52d01afe8\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ\"}]}},display:{Lore:[0:\"§7Blazes are found in the Blazing Fortress near\",1:\"§7the very top of the area, or to the right of the\",2:\"§7main entrance stairs. They can also be found on\",3:\"§7your Private Island if spawned by a Blaze Minion. \",4:\"\",5:\"§c❤ Health§8: §c500\",6:\"§7Coins per Kill: §65-10\",7:\"§7Combat XP: §310\",8:\"\",9:\"§6§lPossible Drops:\",10:\"§fCommon Loot\",11:\"§8 ■ §fBlaze Rod §8x2-4\",12:\"\",13:\"§aUncommon Loot §8[Lvl 15]\",14:\"§8 ■ §aBlaze Hat §8(§a5%§8)\"],Name:\"§aBlaze (Monster)\"},ExtraAttributes:{id:\"BLAZE_MONSTER\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"118fe834-28aa-3b0d-afe6-f0c52d01afe8\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ\"}]}},display:{Lore:[0:\"§7They started the fire.\",1:\"\",2:\"§c❤ Health§8: §c500\"],Name:\"§aBlaze (Monster)\"},ExtraAttributes:{id:\"BLAZE_MONSTER\"}}",
   "damage": 3,
   "lore": [
-    "§7Blazes are found in the Blazing Fortress near",
-    "§7the very top of the area, or to the right of the",
-    "§7main entrance stairs. They can also be found on",
-    "§7your Private Island if spawned by a Blaze Minion. ",
+    "§7They started the fire.",
     "",
-    "§c❤ Health§8: §c500",
-    "§7Coins per Kill: §65-10",
-    "§7Combat XP: §310",
-    "",
-    "§6§lPossible Drops:",
-    "§fCommon Loot",
-    "§8 ■ §fBlaze Rod §8x2-4",
-    "",
-    "§aUncommon Loot §8[Lvl 15]",
-    "§8 ■ §aBlaze Hat §8(§a5%§8)"
+    "§c❤ Health§8: §c500"
   ],
   "internalname": "BLAZE_MONSTER",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Blaze"
+    "https://hypixel-skyblock.fandom.com/wiki/Blaze",
+    "https://wiki.hypixel.net/Blaze"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 12,
+      "coins": 5,
+      "xp": 30,
+      "combat_xp": 0,
+      "name": "§fBlaze",
+      "type": "drops",
+      "panorama": "crimson_isle",
+      "render": "Blaze",
+      "extra": [],
+      "drops": [
+        {
+          "id": "BLAZE_ROD:1",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "DYE_FLAME:1",
+          "chance": "0.00001%"
+        }
+      ]
+    },
+    {
+      "level": 15,
+      "coins": 10,
+      "xp": 35,
+      "combat_xp": 0,
+      "name": "§fBlaze",
+      "type": "drops",
+      "panorama": "crimson_isle",
+      "render": "Blaze",
+      "extra": [],
+      "drops": [
+        {
+          "id": "BLAZE_ROD:2",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "DYE_FLAME:1",
+          "chance": "0.00001%"
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "coins": 20,
+      "xp": 100,
+      "combat_xp": 0,
+      "name": "§fBlaze",
+      "type": "drops",
+      "panorama": "crimson_isle",
+      "render": "Blaze",
+      "extra": [],
+      "drops": [
+        {
+          "id": "BLAZE_ROD:1",
+          "extra": ["x1-2"],
+          "chance": "100%"
+        },
+        {
+          "id": "BLAZE_ASHES:1",
+          "extra": [],
+          "chance": "20%"
+        },
+        {
+          "id": "RAMPART_HELMET:1",
+          "chance": "0.1%"
+        },
+        {
+          "id": "RAMPART_CHESTPLATE:1",
+          "chance": "0.1%"
+        },
+        {
+          "id": "RAMPART_LEGGINGS:1",
+          "chance": "0.1%"
+        },
+        {
+          "id": "RAMPART_BOOTS:1",
+          "chance": "0.1%"
+        },
+        {
+          "id": "SWORD_OF_BAD_HEALTH:1",
+          "chance": "0.05%"
+        },
+        {
+          "id": "DYE_FLAME:1",
+          "chance": "0.00001%"
+        }
+      ]
+    }
+  ]
 }

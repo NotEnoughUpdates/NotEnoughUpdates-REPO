@@ -1,0 +1,115 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Zog (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"36b69155-7b30-5fae-b9b9-66aa15bb5800\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmJiY2Y3M2E0NjAzYjVhYTU0OTFjZWZjMTU1Zjc3MGRlMWE4MjQ2NmE1ODUwNjA0YmE1ZWEyNDk4MGNiNTQ3OSJ9fX0\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Zog (NPC)\"},ExtraAttributes:{id:\"ZOG_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "ZOG_NPC",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Zog",
+    "https://wiki.hypixel.net/Zog"
+  ],
+  "crafttext": "",
+  "x": 33,
+  "y": 72,
+  "z": -96,
+  "island": "hub",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:50000"
+      ],
+      "result": "PET_ITEM_ALL_SKILLS_BOOST_COMMON"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:60000"
+      ],
+      "result": "PET_ITEM_FARMING_SKILL_BOOST_COMMON"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:60000"
+      ],
+      "result": "PET_ITEM_FISHING_SKILL_BOOST_COMMON"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:60000"
+      ],
+      "result": "PET_ITEM_FORAGING_SKILL_BOOST_COMMON"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:60000"
+      ],
+      "result": "PET_ITEM_MINING_SKILL_BOOST_COMMON"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:60000"
+      ],
+      "result": "PET_ITEM_COMBAT_SKILL_BOOST_COMMON"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:500000"
+      ],
+      "result": "PET_ITEM_MINING_SKILL_BOOST_RARE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:500000"
+      ],
+      "result": "PET_ITEM_FARMING_SKILL_BOOST_RARE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:750000"
+      ],
+      "result": "PET_ITEM_BIG_TEETH_COMMON"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:750000"
+      ],
+      "result": "PET_ITEM_IRON_CLAWS_COMMON"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:1000000"
+      ],
+      "result": "PET_ITEM_HARDENED_SCALES_UNCOMMON"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:1000000"
+      ],
+      "result": "PET_ITEM_SHARPENED_CLAWS_UNCOMMON"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:5000000"
+      ],
+      "result": "PET_ITEM_BUBBLEGUM"
+    }
+  ]
+}

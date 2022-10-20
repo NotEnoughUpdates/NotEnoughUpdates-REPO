@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:iron_pickaxe",
   "displayname": "§f§f§aMithril Pickaxe",
-  "nbttag": "{ench:[],overrideMeta:1b,Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§8Breaking Power 5\",1:\"\",2:\"§7Damage: §c+40\",3:\"§7Mining Speed: §a+280\",4:\"\",5:\"§7Grants §a+20 §6↑ Mining Speed\",6:\"§6§7when mining Mithril Ore§7.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§7§4❣ §cRequires §5Heart of the\",10:\"§5Mountain Tier 2§c.\",11:\"§a§lUNCOMMON PICKAXE\",12:\"\",13:\"§eItems Required\",14:\"§9Enchanted Mithril §7x30\",15:\"§9Bejeweled Handle §7x1\",16:\"§aEnchanted Gold §7x10\",17:\"\",18:\"§7Duration: §b45m\"],Name:\"§f§f§aMithril Pickaxe\"},ExtraAttributes:{id:\"MITHRIL_PICKAXE\"},AttributeModifiers:[]}",
+  "nbttag": "{ench:[],overrideMeta:1b,Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§8Breaking Power 5\",1:\"\",2:\"§7Damage: §c+40\",3:\"§7Mining Speed: §a+280\",4:\"\",5:\"§7Grants §a+20 §6↑ Mining Speed\",6:\"§6§7when mining Mithril Ore§7.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§7§4❣ §cRequires §5Heart of the\",10:\"§5Mountain Tier 2§c.\",11:\"§a§lUNCOMMON PICKAXE\"],Name:\"§f§f§aMithril Pickaxe\"},ExtraAttributes:{id:\"MITHRIL_PICKAXE\"},AttributeModifiers:[]}",
   "damage": 0,
   "lore": [
     "§8Breaking Power 5",
@@ -15,14 +15,7 @@
     "§7§8This item can be reforged!",
     "§7§4❣ §cRequires §5Heart of the",
     "§5Mountain Tier 2§c.",
-    "§a§lUNCOMMON PICKAXE",
-    "",
-    "§eItems Required",
-    "§9Enchanted Mithril §7x30",
-    "§9Bejeweled Handle §7x1",
-    "§aEnchanted Gold §7x10",
-    "",
-    "§7Duration: §b45m"
+    "§a§lUNCOMMON PICKAXE"
   ],
   "internalname": "MITHRIL_PICKAXE",
   "crafttext": "",
@@ -30,6 +23,20 @@
   "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Mithril_Pickaxe"
+    "https://hypixel-skyblock.fandom.com/wiki/Mithril_Pickaxe",
+    "https://wiki.hypixel.net/Mithril_Pickaxe"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "ENCHANTED_MITHRIL:30",
+        "ENCHANTED_GOLD:10",
+        "BEJEWELED_HANDLE:1"
+      ],
+      "count": 1,
+      "overrideOutputId": "MITHRIL_PICKAXE",
+      "duration": 2700
+    }
   ]
 }

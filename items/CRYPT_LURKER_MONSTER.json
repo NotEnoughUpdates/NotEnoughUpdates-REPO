@@ -1,24 +1,38 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Crypt Lurker (Monster)",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Lurking in the shadows\",1:\"\",2:\"§7Coins per Kill: §61\",3:\"§7Combat XP: §340-102\",4:\"\",5:\"§6§lPossible Drops:\",6:\"§6Legendary Loot\",7:\"§8■ §9Premium Flesh §8(§a0.1%§8)\"],Name:\"§9Crypt Lurker (Monster)\"},ExtraAttributes:{id:\"CRYPT_LURKER_MONSTER\"}}",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Lurking in the shadows\",1:\"\",2:\"§c❤ Health§8: §c12,000 - 420,000\",3:\"§c❤ Health §8(MM) : §c850,000 - 13,000,000\"],Name:\"§9Crypt Lurker (Monster)\"},ExtraAttributes:{id:\"CRYPT_LURKER_MONSTER\"}}",
   "damage": 2,
   "lore": [
     "§7Lurking in the shadows",
     "",
-    "§7Coins per Kill: §61",
-    "§7Combat XP: §340-102",
-    "",
-    "§6§lPossible Drops:",
-    "§6Legendary Loot",
-    "§8■ §9Premium Flesh §8(§a0.1%§8)"
+    "§c❤ Health§8: §c12,000 - 420,000",
+    "§c❤ Health §8(MM) : §c850,000 - 13,000,000"
   ],
   "internalname": "CRYPT_LURKER_MONSTER",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Crypt_Lurker"
+    "https://hypixel-skyblock.fandom.com/wiki/Crypt_Lurker",
+    "https://wiki.hypixel.net/Crypt_Lurker"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "combat_xp": 40,
+      "coins": 1,
+      "xp": 30,
+      "name": "§cCrypt Dreadlord",
+      "panorama": "dungeon",
+      "render": "@neurepo:mobs/crypt_lurker.json",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "PREMIUM_FLESH",
+          "chance": "5%"
+        }
+      ]
+    }
+  ]
 }

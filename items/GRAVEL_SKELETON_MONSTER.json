@@ -1,25 +1,42 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§aGravel Skeleton (Monster)",
-  "nbttag": "{display:{Lore:[0:\"§7These Skeletons just never say\",1:\"§7die.\",2:\"\",3:\"§c❤ Health§8: §c100\",4:\"§7Coins per Kill: §62-12\",5:\"\",6:\"§6§lPossible Drops:\",7:\"§fCommon Loot\",8:\"§8 ■ §fBone §8x3-6\"],Name:\"§aGravel Skeleton (Monster)\"},ExtraAttributes:{id:\"GRAVEL_SKELETON_MONSTER\"}}",
+  "nbttag": "{display:{Lore:[0:\"§7These Skeletons just never say\",1:\"§7die.\",2:\"\",3:\"§c❤ Health§8: §c100\"],Name:\"§aGravel Skeleton (Monster)\"},ExtraAttributes:{id:\"GRAVEL_SKELETON_MONSTER\"}}",
   "damage": 0,
   "lore": [
     "§7These Skeletons just never say",
     "§7die.",
     "",
-    "§c❤ Health§8: §c100",
-    "§7Coins per Kill: §62-12",
-    "",
-    "§6§lPossible Drops:",
-    "§fCommon Loot",
-    "§8 ■ §fBone §8x3-6"
+    "§c❤ Health§8: §c100"
   ],
   "internalname": "GRAVEL_SKELETON_MONSTER",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Skeleton"
+    "https://hypixel-skyblock.fandom.com/wiki/Skeleton",
+    "https://wiki.hypixel.net/Gravel_Skeleton"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 2,
+      "coins": 1,
+      "xp": 1,
+      "name": "§cGravel Skeleton",
+      "panorama": "combat_1",
+      "render": "Skeleton",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "BONE",
+          "chance": "x3-6"
+        },
+        {
+          "id": "DYE_BONE",
+          "chance": "0.0000333%"
+        }
+      ]
+    }
+  ]
 }

@@ -1,0 +1,123 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Bulvar (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"f0b1b524-c57a-5ef8-a999-19e185013bd7\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjEzY2YwY2E3OWEzNjExYjhlMDVmZTllMjY0ZmIyYmY4ZDI3ZTQ2NGRjMTJkYzZlOTVkZDBhZTBjMzM1YTU2MSJ9fX0\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Bulvar (NPC)\"},ExtraAttributes:{id:\"BULVAR_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "BULVAR_NPC",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Bulvar",
+    "https://wiki.hypixel.net/Bulvar"
+  ],
+  "crafttext": "",
+  "x": -16,
+  "y": 203,
+  "z": -99,
+  "island": "mining_3",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:2000000",
+        "ENCHANTED_COBBLESTONE:1024",
+        "COBBLESTONE_GENERATOR_11"
+      ],
+      "result": "COBBLESTONE_GENERATOR_12"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:2000000",
+        "ENCHANTED_OBSIDIAN:1024",
+        "OBSIDIAN_GENERATOR_11"
+      ],
+      "result": "OBSIDIAN_GENERATOR_12"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:2000000",
+        "ENCHANTED_COAL_BLOCK:16",
+        "COAL_GENERATOR_11"
+      ],
+      "result": "COAL_GENERATOR_12"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:2000000",
+        "ENCHANTED_IRON_BLOCK:16",
+        "IRON_GENERATOR_11"
+      ],
+      "result": "IRON_GENERATOR_12"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:2000000",
+        "ENCHANTED_GOLD_BLOCK:16",
+        "GOLD_GENERATOR_11"
+      ],
+      "result": "GOLD_GENERATOR_12"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:2000000",
+        "ENCHANTED_DIAMOND_BLOCK:16",
+        "DIAMOND_GENERATOR_11"
+      ],
+      "result": "DIAMOND_GENERATOR_12"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:2000000",
+        "ENCHANTED_LAPIS_LAZULI_BLOCK:64",
+        "LAPIS_GENERATOR_11"
+      ],
+      "result": "LAPIS_GENERATOR_12"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:2000000",
+        "ENCHANTED_EMERALD_BLOCK:16",
+        "EMERALD_GENERATOR_11"
+      ],
+      "result": "EMERALD_GENERATOR_12"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:2000000",
+        "ENCHANTED_REDSTONE_BLOCK:32",
+        "REDSTONE_GENERATOR_11"
+      ],
+      "result": "REDSTONE_GENERATOR_12"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:2000000",
+        "REFINED_MITHRIL:16",
+        "MITHRIL_GENERATOR_11"
+      ],
+      "result": "MITHRIL_GENERATOR_12"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:2000000",
+        "CONCENTRATED_STONE:32",
+        "HARD_STONE_GENERATOR_11"
+      ],
+      "result": "HARD_STONE_GENERATOR_12"
+    }
+  ]
+}

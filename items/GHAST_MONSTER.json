@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§aGhast (Monster)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"69725d7d-1933-3dea-87bd-a3052482ab2c\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU4YTM4ZTlhZmJkM2RhMTBkMTliNTc3YzU1YzdiZmQ2YjRmMmU0MDdlNDRkNDAxN2IyM2JlOTE2N2FiZmYwMiJ9fX0\"}]}},display:{Lore:[0:\"§7Ghasts are mobs found in the northern end of\",1:\"§7the Blazing Fortress at nighttime (8:30 PM - 5:00\",2:\"§7AM skyblock time) in the sky within the zone where\",3:\"§7level 9 Magma Cubes spawn, or the Magma Cube Boss.\",4:\"§7It can also be spawned from Ghast Minions.\",5:\"\",6:\"§c❤ Health§8: §c330\",7:\"§7Coins per Kill: §630\",8:\"§7Combat XP: §350\",9:\"\",10:\"§6§lPossible Drops:\",11:\"§fCommon Loot\",12:\"§8 ■ §fGhast Tear\"],Name:\"§aGhast (Monster)\"},ExtraAttributes:{id:\"GHAST_MONSTER\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"69725d7d-1933-3dea-87bd-a3052482ab2c\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU4YTM4ZTlhZmJkM2RhMTBkMTliNTc3YzU1YzdiZmQ2YjRmMmU0MDdlNDRkNDAxN2IyM2JlOTE2N2FiZmYwMiJ9fX0\"}]}},display:{Lore:[0:\"§7Ghasts are mobs found in the northern end of\",1:\"§7the Blazing Fortress at nighttime (8:30 PM - 5:00\",2:\"§7AM skyblock time) in the sky within the zone where\",3:\"§7level 9 Magma Cubes spawn, or the Magma Cube Boss.\",4:\"§7It can also be spawned from Ghast Minions.\",5:\"\",6:\"§c❤ Health§8: §c330\"],Name:\"§aGhast (Monster)\"},ExtraAttributes:{id:\"GHAST_MONSTER\"}}",
   "damage": 3,
   "lore": [
     "§7Ghasts are mobs found in the northern end of",
@@ -10,20 +10,81 @@
     "§7level 9 Magma Cubes spawn, or the Magma Cube Boss.",
     "§7It can also be spawned from Ghast Minions.",
     "",
-    "§c❤ Health§8: §c330",
-    "§7Coins per Kill: §630",
-    "§7Combat XP: §350",
-    "",
-    "§6§lPossible Drops:",
-    "§fCommon Loot",
-    "§8 ■ §fGhast Tear"
+    "§c❤ Health§8: §c330"
   ],
   "internalname": "GHAST_MONSTER",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Ghast"
+    "https://hypixel-skyblock.fandom.com/wiki/Ghast",
+    "https://wiki.hypixel.net/Ghast"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 17,
+      "coins": 30,
+      "xp": 32,
+      "combat_xp": 0,
+      "name": "§fGhast",
+      "render": "Ghast",
+      "type": "drops",
+      "panorama": "crimson_isle",
+      "extra": [],
+      "drops": [
+        {
+          "id": "GHAST_TEAR:1",
+          "extra": [],
+          "chance": "100%"
+        }
+      ]
+    },
+    {
+      "level": 85,
+      "coins": 400,
+      "xp": 500,
+      "combat_xp": 0,
+      "name": "§fGhast",
+      "type": "drops",
+      "render": "Ghast",
+      "panorama": "crimson_isle",
+      "extra": [],
+      "drops": [
+        {
+          "id": "GHAST_TEAR:1",
+          "extra": ["x1-2"],
+          "chance": "100%"
+        },
+        {
+          "id": "TENTACLE_MEAT:1",
+          "extra": [],
+          "chance": "10%"
+        }
+      ]
+    },
+    {
+      "level": 90,
+      "coins": 400,
+      "xp": 500,
+      "combat_xp": 0,
+      "name": "§fDive Ghast",
+      "type": "drops",
+      "render": "Ghast",
+      "panorama": "crimson_isle",
+      "extra": [],
+      "drops": [
+        {
+          "id": "GHAST_TEAR:1",
+          "extra": [],
+          "chance": "x2"
+        },
+        {
+          "id": "TENTACLE_MEAT:1",
+          "extra": [],
+          "chance": "10%"
+        }
+      ]
+    }
+  ]
 }
