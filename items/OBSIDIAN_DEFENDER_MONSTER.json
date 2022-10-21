@@ -1,39 +1,62 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Obsidian Defender (Monster)",
-  "nbttag": "{overrideMeta:1b,display:{Lore:[0:\"§7Obsidian Defenders are types of Wither Skeletons\",1:\"§7found exclusively in the Dragon\u0027s Nest. Obsidian\",2:\"§7Defenders are hostile, inflict the Wither potion\",3:\"§7effect, and are extremely fast. They are also\",4:\"§7completely immune to all knockback. \",5:\"\",6:\"§c❤ Health§8: §c10.000\",7:\"§7Coins per Kill: §615\",8:\"§7Combat XP: §340\",9:\"\",10:\"§6§lPossible Drops:\",11:\"§fCommon Loot\",12:\"§8 ■ §fObsidian §8x2-3\",13:\"\",14:\"§9Rare Loot \",15:\"§8 ■ §aEnchanted Obsidian §8(§a1%§8)\",16:\"\",17:\"§6Legendary Loot\",18:\"§8 ■ §5Obsidian Chestplate §8(§a0.1%§8)\",19:\"\",20:\"§dRNGesus Loot\",21:\"§8 ■ §9Combat Exp Boost §8(§a0.01%§8)\",22:\"§8 ■ §5Combat Exp Boost §8(§a0.0033%§8)\"],Name:\"§9Obsidian Defender (Monster)\"},ExtraAttributes:{id:\"OBSIDIAN_DEFENDER_MONSTER\"}}",
+  "nbttag": "{overrideMeta:1b,display:{Lore:[0:\"§7Obsidian Defenders are types of Wither Skeletons\",1:\"§7found exclusively in the Dragon's Nest. Obsidian\",2:\"§7Defenders are hostile, inflict the Wither potion\",3:\"§7effect, and are extremely fast. They are also\",4:\"§7completely immune to all knockback. \",5:\"\",6:\"§c❤ Health§8: §c10,000\"],Name:\"§9Obsidian Defender (Monster)\"},ExtraAttributes:{id:\"OBSIDIAN_DEFENDER_MONSTER\"}}",
   "damage": 1,
   "lore": [
     "§7Obsidian Defenders are types of Wither Skeletons",
-    "§7found exclusively in the Dragon\u0027s Nest. Obsidian",
+    "§7found exclusively in the Dragon's Nest. Obsidian",
     "§7Defenders are hostile, inflict the Wither potion",
     "§7effect, and are extremely fast. They are also",
     "§7completely immune to all knockback. ",
     "",
-    "§c❤ Health§8: §c10.000",
-    "§7Coins per Kill: §615",
-    "§7Combat XP: §340",
-    "",
-    "§6§lPossible Drops:",
-    "§fCommon Loot",
-    "§8 ■ §fObsidian §8x2-3",
-    "",
-    "§9Rare Loot ",
-    "§8 ■ §aEnchanted Obsidian §8(§a1%§8)",
-    "",
-    "§6Legendary Loot",
-    "§8 ■ §5Obsidian Chestplate §8(§a0.1%§8)",
-    "",
-    "§dRNGesus Loot",
-    "§8 ■ §9Combat Exp Boost §8(§a0.01%§8)",
-    "§8 ■ §5Combat Exp Boost §8(§a0.0033%§8)"
+    "§c❤ Health§8: §c10,000"
   ],
   "internalname": "OBSIDIAN_DEFENDER_MONSTER",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Obsidian_Defender"
+    "https://hypixel-skyblock.fandom.com/wiki/Obsidian_Defender",
+    "https://wiki.hypixel.net/Obsidian_Defender"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 55,
+      "coins": 15,
+      "xp": 10,
+      "combat_xp": 40,
+      "name": "§cObsidian Defender",
+      "render": "@neurepo:mobs/obsidian_defender.json",
+      "panorama": "combat_3",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "OBSIDIAN",
+          "chance": "x2-3"
+        },
+        {
+          "id": "ENCHANTED_OBSIDIAN",
+          "chance": "1%"
+        },
+        {
+          "id": "OBSIDIAN_CHESTPLATE",
+          "chance": "0.1%"
+        },
+        {
+          "id": "PET_ITEM_COMBAT_SKILL_BOOST_EPIC:1",
+          "chance": "0.003%"
+        },
+        {
+          "id": "PET_ITEM_COMBAT_SKILL_BOOST_RARE:1",
+          "chance": "0.015%"
+        },
+        {
+          "id": "DYE_BONE:1",
+          "chance": "0.0000333%"
+        }
+      ]
+    }
+  ]
 }

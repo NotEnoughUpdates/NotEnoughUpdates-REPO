@@ -1,0 +1,63 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Bubu (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"8a5274d6-2de4-58f6-97d9-e0da45e141ac\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjVmMzFjMWMyMTVhNTdlOTM3ZmQ3NWFiMzU3ODJmODVlYzI0MmExYjFmOTUwYTI2YTQyYmI1ZTBhYTVjYmVkYSJ9fX0\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Bubu (NPC)\"},ExtraAttributes:{id:\"BUBU_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "BUBU_NPC",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Bubu",
+    "https://wiki.hypixel.net/Bubu"
+  ],
+  "crafttext": "",
+  "x": -10,
+  "y": 203,
+  "z": -103,
+  "island": "mining_3",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:10000"
+      ],
+      "result": "FRACTURED_MITHRIL_PICKAXE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:100000",
+        "MITHRIL_ORE:200"
+      ],
+      "result": "BANDAGED_MITHRIL_PICKAXE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:1000000",
+        "TITANIUM_ORE:100",
+        "BEJEWELED_HANDLE"
+      ],
+      "result": "TITANIUM_PICKAXE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "TITANIUM_PICKAXE",
+        "REFINED_TITANIUM:3"
+      ],
+      "result": "REFINED_TITANIUM_PICKAXE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:20000"
+      ],
+      "result": "BIOFUEL"
+    }
+  ]
+}

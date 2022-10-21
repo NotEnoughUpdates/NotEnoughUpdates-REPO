@@ -1,0 +1,74 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Marthos (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"93324018-76ca-5219-b371-c2405ed9a5cd\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTk1MWQ3NDI4Y2Q1ZjRhNzNmOTQyOGU4YjMwNzVmNzE3ZGJmZGQyODY3OWM0ZWM4NDJiZmY4YTBkNTEyOTlkZiJ9fX0\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Marthos (NPC)\"},ExtraAttributes:{id:\"MARTHOS_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "MARTHOS_NPC",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "",
+  "x": -645,
+  "y": 103,
+  "z": -826,
+  "island": "crimson_isle",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "GHAST_GENERATOR_11:1",
+        "SILVER_FANG:1024",
+        "SKYBLOCK_COIN:2000000"
+      ],
+      "result": "GHAST_GENERATOR_12"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "QUARTZ_GENERATOR_11:1",
+        "ENCHANTED_QUARTZ_BLOCK:16",
+        "SKYBLOCK_COIN:2000000"
+      ],
+      "result": "QUARTZ_GENERATOR_12"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "GLOWSTONE_GENERATOR_11:1",
+        "ENCHANTED_GLOWSTONE:32",
+        "SKYBLOCK_COIN:2000000"
+      ],
+      "result": "GLOWSTONE_GENERATOR_12"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "BLAZE_GENERATOR_11:1",
+        "ENCHANTED_BLAZE_ROD:16",
+        "SKYBLOCK_COIN:2000000"
+      ],
+      "result": "BLAZE_GENERATOR_12"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "MAGMA_CUBE_GENERATOR_11:1",
+        "ENCHANTED_MAGMA_CREAM:1024",
+        "SKYBLOCK_COIN:2000000"
+      ],
+      "result": "MAGMA_CUBE_GENERATOR_12"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "RED_SAND_GENERATOR_11:1",
+        "ENCHANTED_RED_SAND_CUBE:32",
+        "SKYBLOCK_COIN:2000000"
+      ],
+      "result": "RED_SAND_GENERATOR_12"
+    }
+  ],
+  "crafttext": ""
+}

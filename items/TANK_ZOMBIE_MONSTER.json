@@ -1,30 +1,54 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Tank Zombie (Monster)",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Hefty zombie.\",1:\"\",2:\"§7Coins per Kill: §61\",3:\"§7Combat XP: §370-168\",4:\"\",5:\"§6§lPossible Drops:\",6:\"§aUncommon Loot\",7:\"§8 ■ §9Heavy Chestplate §8(§a5%§8)\",8:\"§8 ■ §9Heavy Helmet §8(§a5%§8)\",9:\"§8 ■ §9Heavy Boots §8(§a5%§8)\",10:\"§8 ■ §9Heavy Leggings §8(§a5%§8)\",11:\"\",12:\"§6Legendary Loot\",13:\"§8 ■ §9Premium Flesh §8(§a0.1%§8)\"],Name:\"§9Tank Zombie (Monster)\"},ExtraAttributes:{id:\"TANK_ZOMBIE_MONSTER\"}}",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Hefty zombie.\",1:\"\",2:\"§c❤ Health§8: §c1,500 - 14,000\",3:\"§c❤ Health §8(MM) : §c60,000 - 225,000\"],Name:\"§9Tank Zombie (Monster)\"},ExtraAttributes:{id:\"TANK_ZOMBIE_MONSTER\"}}",
   "damage": 2,
   "lore": [
     "§7Hefty zombie.",
     "",
-    "§7Coins per Kill: §61",
-    "§7Combat XP: §370-168",
-    "",
-    "§6§lPossible Drops:",
-    "§aUncommon Loot",
-    "§8 ■ §9Heavy Chestplate §8(§a5%§8)",
-    "§8 ■ §9Heavy Helmet §8(§a5%§8)",
-    "§8 ■ §9Heavy Boots §8(§a5%§8)",
-    "§8 ■ §9Heavy Leggings §8(§a5%§8)",
-    "",
-    "§6Legendary Loot",
-    "§8 ■ §9Premium Flesh §8(§a0.1%§8)"
+    "§c❤ Health§8: §c1,500 - 14,000",
+    "§c❤ Health §8(MM) : §c60,000 - 225,000"
   ],
   "internalname": "TANK_ZOMBIE_MONSTER",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Tank_Zombie"
+    "https://hypixel-skyblock.fandom.com/wiki/Tank_Zombie",
+    "https://wiki.hypixel.net/Tank_Zombie"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "combat_xp": 60,
+      "coins": 1,
+      "xp": 30,
+      "name": "§cTank Zombie",
+      "panorama": "dungeon",
+      "render": "@neurepo:mobs/tank_zombie.json",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "HEAVY_HELMET",
+          "chance": "5%"
+        },
+        {
+          "id": "HEAVY_CHESTPLATE",
+          "chance": "5%"
+        },
+        {
+          "id": "HEAVY_LEGGINGS",
+          "chance": "5%"
+        },
+        {
+          "id": "HEAVY_BOOTS",
+          "chance": "5%"
+        },
+        {
+          "id": "PREMIUM_FLESH",
+          "chance": "0.1%"
+        }
+      ]
+    }
+  ]
 }

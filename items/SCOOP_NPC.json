@@ -1,0 +1,31 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Scoop (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"b4b6817a-6d05-5866-83fb-febf20baa76b\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTg5OGFkNThkMzY2NGNmYWNmMWJmMTFhYWQ5ZjUxM2QyNWE4YjliYjkxYTc3MzgyYjMyYzEwYjdkMGE0YmM5YiJ9fX0\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Scoop (NPC)\"},ExtraAttributes:{id:\"SCOOP_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "SCOOP_NPC",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Scoop",
+    "https://wiki.hypixel.net/Scoop"
+  ],
+  "crafttext": "",
+  "x": 5,
+  "y": 183,
+  "z": 25,
+  "island": "hub",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:2500"
+      ],
+      "result": "SNOW_SHOVEL"
+    }
+  ]
+}

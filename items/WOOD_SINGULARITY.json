@@ -5,7 +5,7 @@
   "clickcommand": "",
   "damage": 3,
   "nbttag": "{HideFlags:254,SkullOwner:{Id:\"d1b4c7be-3c99-35cd-9e99-24469b28f7cf\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2FkNTdkMWY2MDQ3OGFmNmFlMWI2YjFjMjhjZWU1MzRkNWRiYjhjOGNhYjg3OTYzZTljMmVmMGM2YWM1OCJ9fX0=\"}]}},display:{Lore:[0:\"§7Combine this seriously large\",1:\"§7pile of wood in an Anvil with\",2:\"§7any §6wooden §7sword to add\",3:\"§7§c+100❁ Strength §7to it!\",4:\"§8Can only be applied once.\",5:\"\",6:\"§6§lLEGENDARY\"],Name:\"§6Wood Singularity\"},ExtraAttributes:{id:\"WOOD_SINGULARITY\"}}",
-  "modver": "1.0.0",
+  "modver": "2.1.0-REL",
   "lore": [
     "§7Combine this seriously large",
     "§7pile of wood in an Anvil with",
@@ -17,6 +17,14 @@
   ],
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Wood_Singularity"
+    "https://hypixel-skyblock.fandom.com/wiki/Wood_Singularity",
+    "https://wiki.hypixel.net/Wood_Singularity"
+  ],
+  "recipes": [
+    {
+    "type": "trade",
+    "cost": "ENCHANTED_EMERALD:6",
+    "result": "WOOD_SINGULARITY"
+    }
   ]
 }

@@ -1,0 +1,101 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Lumber Merchant (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"b121ac01-0112-5e60-89c9-dcc9b58274af\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY0Y2NhYmJlMDU0Zjg1NDZmMmU5MzZiZjkxNDU5OWQ3ZDc0NDkxYmFhODQ3MmRkMDc5ODI1M2ZkOGRkYSJ9fX0\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Lumber Merchant (NPC)\"},ExtraAttributes:{id:\"LUMBER_MERCHANT_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "LUMBER_MERCHANT_NPC",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Lumber_Merchant",
+    "https://wiki.hypixel.net/Lumber_Merchant"
+  ],
+  "crafttext": "",
+  "x": -50,
+  "y": 72,
+  "z": -69,
+  "island": "hub",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:25"
+      ],
+      "result": "LOG"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:25"
+      ],
+      "result": "LOG-2"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:25"
+      ],
+      "result": "LOG-1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:25"
+      ],
+      "result": "LOG_2-1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:25"
+      ],
+      "result": "LOG_2"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:25"
+      ],
+      "result": "LOG-3"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:12"
+      ],
+      "result": "ROOKIE_AXE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:35"
+      ],
+      "result": "PROMISING_AXE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:25"
+      ],
+      "result": "DIRT-2"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:100"
+      ],
+      "result": "SWEET_AXE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:100"
+      ],
+      "result": "EFFICIENT_AXE"
+    }
+  ]
+}

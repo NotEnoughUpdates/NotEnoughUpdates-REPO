@@ -1,33 +1,55 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§3Tiger Shark (Sea Creature)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"9759a0b6-2a7f-4265-8271-e5dd183e0fb4\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk0YWU0MzNiMzAxYzdmYjdjNjhjYmE2MjViMGJkMzZiMGIxNDE5MGYyMGUzNGE3YzhlZTBkOWRlMDZkNTNiOSJ9fX0\u003d\u003d\u003d\"}]}},display:{Lore:[0:\"§7The Tiger Shark is one of 4 sharks added in the fishing aspect of the\",1:\"§7community center update. It can be caught during fishing festivals\",2:\"§7while Marina is mayor by those of at least Fishing Level 18.\",3:\"\",4:\"§c❤ Health§8: §c250.000\",5:\"\",6:\"§cDrops:\",7:\"§7- §9Shark Fin\",8:\"§7- §5Tiger Shark Tooth\",9:\"§7- §5Megalodon\",10:\"\",11:\"§cRequirements:\",12:\"§7- Fishing Skill 18\",13:\"§7- §9Fishing Festival\",14:\"§7- §bFished from water\",15:\"\",16:\"§c§lSPECIAL\"],Name:\"§3Tiger Shark (Sea Creature)\"},ExtraAttributes:{id:\"TIGER_SHARK_SC\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"9759a0b6-2a7f-4265-8271-e5dd183e0fb4\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk0YWU0MzNiMzAxYzdmYjdjNjhjYmE2MjViMGJkMzZiMGIxNDE5MGYyMGUzNGE3YzhlZTBkOWRlMDZkNTNiOSJ9fX0===\"}]}},display:{Lore:[0:\"§7The Tiger Shark is one of 4 sharks added in the fishing aspect of the\",1:\"§7community center update. It can be caught during fishing festivals\",2:\"§7while Marina is mayor by those of at least Fishing Level 18.\",3:\"\",4:\"§c❤ Health§8: §c250,000\",5:\"\",6:\"§c§lSPECIAL\"],Name:\"§3Tiger Shark (Sea Creature)\"},ExtraAttributes:{id:\"TIGER_SHARK_SC\"}}",
   "damage": 3,
   "lore": [
     "§7The Tiger Shark is one of 4 sharks added in the fishing aspect of the",
     "§7community center update. It can be caught during fishing festivals",
     "§7while Marina is mayor by those of at least Fishing Level 18.",
     "",
-    "§c❤ Health§8: §c250.000",
-    "",
-    "§cDrops:",
-    "§7- §9Shark Fin",
-    "§7- §5Tiger Shark Tooth",
-    "§7- §5Megalodon",
-    "",
-    "§cRequirements:",
-    "§7- Fishing Skill 18",
-    "§7- §9Fishing Festival",
-    "§7- §bFished from water",
+    "§c❤ Health§8: §c250,000",
     "",
     "§c§lSPECIAL"
   ],
   "internalname": "TIGER_SHARK_SC",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Tiger_Shark"
+    "https://hypixel-skyblock.fandom.com/wiki/Tiger_Shark",
+    "https://wiki.hypixel.net/Tiger_Shark"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§cTiger Shark",
+      "level": 50,
+      "coins": 20,
+      "xp": 80,
+      "render": "@neurepo:mobs/tiger_shark.json",
+      "panorama": "hub",
+      "type": "drops",
+      "extra": [
+        "§cRequirements:",
+        "§7- Fishing Skill 18",
+        "§7- §9Fishing Festival",
+        "§7- §bFished from water"
+      ],
+      "drops": [
+        {
+          "id": "SHARK_FIN:8",
+          "chance": "100%"
+        },
+        {
+          "id": "TIGER_SHARK_TOOTH",
+          "chance": "10%"
+        },
+        {
+          "id": "MEGALODON;3",
+          "chance": "1%"
+        }
+      ]
+    }
+  ]
 }

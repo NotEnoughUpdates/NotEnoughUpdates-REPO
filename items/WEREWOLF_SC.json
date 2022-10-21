@@ -1,35 +1,63 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§3Werewolf (Sea Creature)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"c8e41e94-9c30-38af-80c6-05b2ed6d5c53\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwMzY2ODk3MjkwMywKICAicHJvZmlsZUlkIiA6ICIzYTNmNzhkZmExZjQ0OTllYjE5NjlmYzlkOTEwZGYwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVyb2Ryb2dvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NlNDYwNmM2ZDk3M2E5OTlhZWMxNjg3YzdlMDc1ZjdkMzdkYjgxODVlODhiODQ0NTA3ZjE2YjNlMmIzZWI2OTAiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7The Werewolf is an epic sea creature added in the Spooky\",1:\"§7Festival v2 update. It can only be caught from 1 hour before\",2:\"§7until 1 hour after the Spooky Festival by those above Fishing 17\",3:\"\",4:\"§c❤ Health§8: §c50.000\",5:\"\",6:\"§cDrops:\",7:\"§7- §7Lily Pad\",8:\"§7- §aGreen Candy\",9:\"§7- §9Werewolf Skin\",10:\"§7- §5Deep Sea Orb\",11:\"§7- §5Purple Candy\",12:\"\",13:\"§cRequirements:\",14:\"§7- Fishing Skill 14\",15:\"§7- §5Spooky Festival\",16:\"§7- §bFished from water\",17:\"\",18:\"§5§lEPIC\"],Name:\"§3Werewolf (Sea Creature)\"},ExtraAttributes:{id:\"WEREWOLF_SC\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"c8e41e94-9c30-38af-80c6-05b2ed6d5c53\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwMzY2ODk3MjkwMywKICAicHJvZmlsZUlkIiA6ICIzYTNmNzhkZmExZjQ0OTllYjE5NjlmYzlkOTEwZGYwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVyb2Ryb2dvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NlNDYwNmM2ZDk3M2E5OTlhZWMxNjg3YzdlMDc1ZjdkMzdkYjgxODVlODhiODQ0NTA3ZjE2YjNlMmIzZWI2OTAiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7The Werewolf is an epic sea creature added in the Spooky\",1:\"§7Festival v2 update. It can only be caught from 1 hour before\",2:\"§7until 1 hour after the Spooky Festival by those above Fishing 17\",3:\"\",4:\"§c❤ Health§8: §c50,000\",5:\"\",6:\"§5§lEPIC\"],Name:\"§3Werewolf (Sea Creature)\"},ExtraAttributes:{id:\"WEREWOLF_SC\"}}",
   "damage": 3,
   "lore": [
     "§7The Werewolf is an epic sea creature added in the Spooky",
     "§7Festival v2 update. It can only be caught from 1 hour before",
     "§7until 1 hour after the Spooky Festival by those above Fishing 17",
     "",
-    "§c❤ Health§8: §c50.000",
-    "",
-    "§cDrops:",
-    "§7- §7Lily Pad",
-    "§7- §aGreen Candy",
-    "§7- §9Werewolf Skin",
-    "§7- §5Deep Sea Orb",
-    "§7- §5Purple Candy",
-    "",
-    "§cRequirements:",
-    "§7- Fishing Skill 14",
-    "§7- §5Spooky Festival",
-    "§7- §bFished from water",
+    "§c❤ Health§8: §c50,000",
     "",
     "§5§lEPIC"
   ],
   "internalname": "WEREWOLF_SC",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Werewolf"
+    "https://hypixel-skyblock.fandom.com/wiki/Werewolf",
+    "https://wiki.hypixel.net/Werewolf"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§cWerewolf",
+      "level": 50,
+      "coins": 1000,
+      "xp": 50,
+      "render": "@neurepo:mobs/werewolf.json",
+      "panorama": "hub",
+      "type": "drops",
+      "extra": [
+        "§cRequirements:",
+        "§7- Fishing Skill 14",
+        "§7- §5Spooky Festival",
+        "§7- §bFished from water"
+      ],
+      "drops": [
+        {
+          "id": "WATER_LILY:8",
+          "chance": "100%"
+        },
+        {
+          "id": "GREEN_CANDY:2",
+          "chance": "100%"
+        },
+        {
+          "id": "DEEP_SEA_ORB",
+          "chance": "1%"
+        },
+        {
+          "id": "PURPLE_CANDY:1",
+          "chance": "100%"
+        },
+        {
+          "id": "WEREWOLF_SKIN",
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
 }

@@ -1,0 +1,66 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Gold Forger (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"ae0ee847-791a-560d-8ab6-917ad029d970\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2U3ZDk3NDFlMzYxZDRiOTUxY2M0ZTZjZjE1NTIxYTY1MzlmZWE5NGVkMWM4NGUwNmU3NWMwOGFkYmMwOWUifX19\"}]}},display:{Lore:[0:\"\"],Name:\"§9Gold Forger (NPC)\"},ExtraAttributes:{id:\"GOLD_FORGER_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "GOLD_FORGER_NPC",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Gold_Forger",
+    "https://wiki.hypixel.net/Gold_Forger"
+  ],
+  "x": -28,
+  "y": 76,
+  "z": -295,
+  "island": "mining_1",
+  "crafttext": "",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:110"
+      ],
+      "result": "GOLD_INGOT:20"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:10"
+      ],
+      "result": "GOLD_HELMET"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:16"
+      ],
+      "result": "GOLD_CHESTPLATE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:14"
+      ],
+      "result": "GOLD_LEGGINGS"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:9"
+      ],
+      "result": "GOLD_BOOTS"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:80"
+      ],
+      "result": "FANCY_SWORD"
+    }
+  ]
+}

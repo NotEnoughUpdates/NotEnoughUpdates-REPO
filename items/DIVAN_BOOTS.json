@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:golden_boots",
   "displayname": "§6Boots Of Divan",
-  "nbttag": "{overrideMeta:1b,Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+80\",1:\"§7Defense: §a+110\",2:\"§7Mining Speed: §a+80\",3:\"§7Mining Fortune: §a+30\",4:\" §8[§8⸕§8] §8[§8☘§8] §8[§8⸕§8] §8[§8☘§8] §8[§8✧§8]\",5:\"\",6:\"§7§8This item can be reforged!\",7:\"§7§4❣ §cRequires §5Heart of the\",8:\"§5Mountain Tier 6.\",9:\"§6§lLEGENDARY BOOTS\",10:\"\",11:\"§eItems Required\",12:\"§5Divan Fragment §7x4\",13:\"§9Gemstone Mixture §7x10\",14:\"§5❤ §5Flawless Ruby Gemstone §7x1\",15:\"\",16:\"§7Duration: §b23h\"],Name:\"§6Boots Of Divan\"},ExtraAttributes:{id:\"DIVAN_BOOTS\"},AttributeModifiers:[]}",
+  "nbttag": "{overrideMeta:1b,Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+80\",1:\"§7Defense: §a+110\",2:\"§7Mining Speed: §a+80\",3:\"§7Mining Fortune: §a+30\",4:\" §8[§8⸕§8] §8[§8☘§8] §8[§8⸕§8] §8[§8☘§8] §8[§8✧§8]\",5:\"\",6:\"§7§8This item can be reforged!\",7:\"§7§4❣ §cRequires §5Heart of the\",8:\"§5Mountain Tier 6.\",9:\"§6§lLEGENDARY BOOTS\"],Name:\"§6Boots Of Divan\"},ExtraAttributes:{id:\"DIVAN_BOOTS\"},AttributeModifiers:[]}",
   "damage": 0,
   "lore": [
     "§7Health: §a+80",
@@ -13,21 +13,28 @@
     "§7§8This item can be reforged!",
     "§7§4❣ §cRequires §5Heart of the",
     "§5Mountain Tier 6.",
-    "§6§lLEGENDARY BOOTS",
-    "",
-    "§eItems Required",
-    "§5Divan Fragment §7x4",
-    "§9Gemstone Mixture §7x10",
-    "§5❤ §5Flawless Ruby Gemstone §7x1",
-    "",
-    "§7Duration: §b23h"
+    "§6§lLEGENDARY BOOTS"
   ],
   "internalname": "DIVAN_BOOTS",
   "crafttext": "",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Divan_Armor"
+    "https://hypixel-skyblock.fandom.com/wiki/Divan_Armor",
+    "https://wiki.hypixel.net/Boots_Of_Divan"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "GEMSTONE_MIXTURE:10",
+        "FLAWLESS_RUBY_GEM:1",
+        "DIVAN_FRAGMENT:4"
+      ],
+      "count": 1,
+      "overrideOutputId": "DIVAN_BOOTS",
+      "duration": 82800
+    }
   ]
 }
