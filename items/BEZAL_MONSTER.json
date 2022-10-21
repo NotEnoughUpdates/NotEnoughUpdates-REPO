@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§aBezal (Monster)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"118fe834-28aa-3b0d-afe6-f0c52d01afe8\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ\"}]}},display:{Lore:[0:\"§7They started the fire.\",1:\"\",2:\"§c❤ Health§8: §c2,000,000\"],Name:\"§aBezal (Monster)\"},ExtraAttributes:{id:\"BEZAL_MONSTER\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"118fe834-28aa-3b0d-afe6-f0c52d01afe8\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ\"}]}},display:{Lore:[0:\"§7They started the fire.\",1:\"\",2:\"§c❤ Health§8: §c1,000,000\"],Name:\"§aBezal (Monster)\"},ExtraAttributes:{id:\"BEZAL_MONSTER\"}}",
   "damage": 3,
   "lore": [
     "§7They started the fire.",
     "",
-    "§c❤ Health§8: §c2,000,000"
+    "§c❤ Health§8: §c1,000,000"
   ],
   "internalname": "BEZAL_MONSTER",
   "clickcommand": "viewrecipe",
@@ -38,6 +38,26 @@
           "id": "BEZOS:1",
           "extra": [],
           "chance": "10%"
+        },
+        {
+          "id": "RAMPART_HELMET:1",
+          "extra": [],
+          "chance": "0.2%"
+        },
+        {
+          "id": "RAMPART_CHESTPLATE:1",
+          "extra": [],
+          "chance": "0.2%"
+        },
+        {
+          "id": "RAMPART_LEGGINGS:1",
+          "extra": [],
+          "chance": "0.2%"
+        },
+        {
+          "id": "RAMPART_BOOTS:1",
+          "extra": [],
+          "chance": "0.2%"
         }
       ]
     }

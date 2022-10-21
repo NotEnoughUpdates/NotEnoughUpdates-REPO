@@ -1236,105 +1236,139 @@
     }
   },
   "ENDERMITE": {
-    "EPIC": {
+    "COMMON": {
       "1": {
         "otherNums": [
-          0.5,
-          5.0
+          1.0
         ],
         "statNums": {
-          "INTELLIGENCE": 1.0
+          "INTELLIGENCE": 1.0,
+          "PET_LUCK": 0
         }
       },
       "100": {
         "otherNums": [
-          50,
-          10
+          100
         ],
         "statNums": {
-          "INTELLIGENCE": 100.0
-        }
-      }
-    },
-    "LEGENDARY": {
-      "1": {
-        "otherNums": [
-          0.5,
-          5.0,
-          0.5,
-          0.3,
-          0.1
-        ],
-        "statNums": {
-          "INTELLIGENCE": 1.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          50,
-          10,
-          50,
-          30,
-          10
-        ],
-        "statNums": {
-          "INTELLIGENCE": 100.0
+          "INTELLIGENCE": 100.0,
+          "PET_LUCK": 10
         }
       }
     },
     "UNCOMMON": {
       "1": {
         "otherNums": [
-          0.3999999999999999
+          1.0
         ],
         "statNums": {
-          "INTELLIGENCE": 1.0
+          "INTELLIGENCE": 1.0,
+          "PET_LUCK": 0
         }
       },
       "100": {
         "otherNums": [
-          40
+          100
         ],
         "statNums": {
-          "INTELLIGENCE": 100.0
-        }
-      }
-    },
-    "COMMON": {
-      "1": {
-        "otherNums": [
-          0.3999999999999999
-        ],
-        "statNums": {
-          "INTELLIGENCE": 1.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          40
-        ],
-        "statNums": {
-          "INTELLIGENCE": 100.0
+          "INTELLIGENCE": 100.0,
+          "PET_LUCK": 10
         }
       }
     },
     "RARE": {
       "1": {
         "otherNums": [
-          0.5,
-          5
+          1.0,
+          0.4
         ],
         "statNums": {
-          "INTELLIGENCE": 1.0
+          "INTELLIGENCE": 1.0,
+          "PET_LUCK": 0
         }
       },
       "100": {
         "otherNums": [
+          100,
+          40
+        ],
+        "statNums": {
+          "INTELLIGENCE": 100.0,
+          "PET_LUCK": 10
+        }
+      }
+    },
+    "EPIC": {
+      "1": {
+        "otherNums": [
+          1.0,
+          4.0
+        ],
+        "statNums": {
+          "INTELLIGENCE": 1.0,
+          "PET_LUCK": 0
+        }
+      },
+      "100": {
+        "otherNums": [
+          100,
+          40
+        ],
+        "statNums": {
+          "INTELLIGENCE": 100.0,
+          "PET_LUCK": 10
+        }
+      }
+    },
+    "LEGENDARY": {
+      "1": {
+        "otherNums": [
+          1.0,
+          0.4,
+          0
+        ],
+        "statNums": {
+          "INTELLIGENCE": 1.0,
+          "PET_LUCK": 0
+        }
+      },
+      "100": {
+        "otherNums": [
+          100,
+          40,
+          3
+        ],
+        "statNums": {
+          "INTELLIGENCE": 100.0,
+          "PET_LUCK": 0
+        }
+      }
+    },
+    "MYTHIC": {
+      "1": {
+        "otherNums": [
+          1.5,
+          0.4,
+          0.5,
+          0,
+          0.1
+        ],
+        "statNums": {
+          "INTELLIGENCE": 1.0,
+          "PET_LUCK": 10
+        }
+      },
+      "100": {
+        "otherNums": [
+          100,
+          40,
           50,
+          3,
           10
         ],
         "statNums": {
-          "INTELLIGENCE": 100.0
+          "INTELLIGENCE": 150.0,
+          "PET_LUCK": 10
         }
       }
     }
