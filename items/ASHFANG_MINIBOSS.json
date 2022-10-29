@@ -1,0 +1,55 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§5Ashfang (Miniboss)",
+  "nbttag": "{SkullOwner:{Id:\"1bc8810e-2b57-3a89-8e00-a47a057d6ecc\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2QyYTViNGIxMDliZDc4OGVkYmEwMTcxZDBhYWI4YTU1MzA1YWMyZjU2MTg0ZGY3MGEzMTljZDQ4OGEzNmMzZSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7They also call themselves \\\"the\",1:\"§7Twins\\\".\",2:\"\",3:\"§c❤ Health§8: §c50,000,000\"],Name:\"§5Ashfang (Miniboss)\"},ExtraAttributes:{id:\"ASHFANG_MINIBOSS\"}}",
+  "damage": 3,
+  "lore": [
+    "§7They also call themselves \"the",
+    "§7Twins\".",
+    "",
+    "§c❤ Health§8: §c50,000,000"
+  ],
+  "internalname": "ASHFANG_MINIBOSS",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Ashfang",
+    "https://wiki.hypixel.net/Ashfang"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§8Ashfang",
+      "level": 200,
+      "coins": 500,
+      "xp": 2500,
+      "combat_xp": 2000,
+      "render": "Blaze",
+      "type": "drops",
+      "panorama": "crimson_isle",
+      "drops": [
+        {
+          "id": "BLAZE_ROD:20",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_BLAZE_POWDER:1",
+          "chance": "50%"
+        },
+        {
+          "id": "LUMINO_FIBER:1",
+          "chance": "100%"
+        },
+        {
+          "id": "MAGMA_URCHIN:1",
+          "chance": "2%"
+        },
+        {
+          "id": "FIRE_VEIL_WAND:1",
+          "chance": "0.5%"
+        }
+      ]
+    }
+  ]
+}

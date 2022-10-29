@@ -1,0 +1,96 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Bartender (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"dfe24556-f0e9-5e84-b9f0-772c60865ff0\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmJkMTE3MmEzMTA4MzFkNWRiYjg0Yzk5N2IzZjU1NmUxNjllYTY0MWM4NTI0OTEzYTE5MTFiZTU5ODViNCJ9fX0\u003d\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Bartender (NPC)\"},ExtraAttributes:{id:\"BARTENDER_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "BARTENDER_NPC",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Bartender",
+    "https://wiki.hypixel.net/Bartender"
+  ],
+  "crafttext": "",
+  "x": -74,
+  "y": 73,
+  "z": -56,
+  "island": "hub",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:1000"
+      ],
+      "result": "CHEAP_COFFEE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:1000"
+      ],
+      "result": "TEPID_GREEN_TEA"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:1000"
+      ],
+      "result": "PULPOUS_ORANGE_JUICE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:1200"
+      ],
+      "result": "BITTER_ICE_TEA"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:1500"
+      ],
+      "result": "KNOCKOFF_COLA"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:5000"
+      ],
+      "result": "DECENT_COFFEE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:2000000",
+        "REVENANT_GENERATOR_11",
+        "REVENANT_VISCERA:64"
+      ],
+      "result": "REVENANT_GENERATOR_12"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:150000"
+      ],
+      "result": "WOLF_FUR_MIXIN"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:150000"
+      ],
+      "result": "SPIDER_EGG_MIXIN"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:150000"
+      ],
+      "result": "END_PORTAL_FUMES_MIXIN"
+    }
+  ]
+}

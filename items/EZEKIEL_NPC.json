@@ -1,0 +1,50 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Ezekiel (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"38f0cdef-6282-516d-ba6d-e9c1064d5522\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFhNzA0MTU4ZmRhMzM3ZGNlY2Y1ZWMxOWQ2NzIzZDE3Y2NhZTNhMzEwNjY3OTI0ZjM3ZGQ5NjIwMmVkYmQwYSJ9fX0\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Ezekiel (NPC)\"},ExtraAttributes:{id:\"EZEKIEL_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "EZEKIEL_NPC",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "",
+  "crafttext": "",
+  "x": -28,
+  "y": 109,
+  "z": -771,
+  "island": "crimson_isle",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:70000"
+      ],
+      "result": "HOT_CHOCOLATE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:50000"
+      ],
+      "result": "BLACK_COFFEE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "MUSHROOM_SPORE:5",
+        "SKYBLOCK_COIN:1000"
+      ],
+      "result": "MARSH_SPORE_SOUP"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "MUSHROOM_SPORE:50",
+        "SKYBLOCK_COIN:20000"
+      ],
+      "result": "SCARLETON_PREMIUM"
+    }
+  ]
+}

@@ -1,19 +1,37 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§5Mutant Tarantula (Miniboss)",
-  "nbttag": "{SkullOwner:{Id:\"7c63f3cf-a963-311a-aeca-3a075b417806\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q1NDE1NDFkYWFmZjUwODk2Y2QyNThiZGJkZDRjZjgwYzNiYTgxNjczNTcyNjA3OGJmZTM5MzkyN2U1N2YxIn19fQ\u003d\"}]}},display:{Lore:[0:\"§7The Mutant Tarantula is a Tarantula Broodfather\",1:\"§7Miniboss. It spawns very rarely when a player doing\",2:\"§7the Tarantula Broodfather Tier IV quest kills a spider.\"],Name:\"§5Mutant Tarantula (Miniboss)\"},ExtraAttributes:{id:\"MUTANT_TARANTULA_MINIBOSS\"}}",
+  "nbttag": "{SkullOwner:{Id:\"7c63f3cf-a963-311a-aeca-3a075b417806\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q1NDE1NDFkYWFmZjUwODk2Y2QyNThiZGJkZDRjZjgwYzNiYTgxNjczNTcyNjA3OGJmZTM5MzkyN2U1N2YxIn19fQ\u003d\"}]}},display:{Lore:[0:\"§7The Mutant Tarantula is a Tarantula Broodfather\",1:\"§7Miniboss. It spawns very rarely when a player doing\",2:\"§7the Tarantula Broodfather Tier IV quest kills a spider.\",3:\"\",4:\"§c❤ Health§8: §c576,000\"],Name:\"§5Mutant Tarantula (Miniboss)\"},ExtraAttributes:{id:\"MUTANT_TARANTULA_MINIBOSS\"}}",
   "damage": 3,
   "lore": [
     "§7The Mutant Tarantula is a Tarantula Broodfather",
     "§7Miniboss. It spawns very rarely when a player doing",
-    "§7the Tarantula Broodfather Tier IV quest kills a spider."
+    "§7the Tarantula Broodfather Tier IV quest kills a spider.",
+    "",
+    "§c❤ Health§8: §c576,000"
   ],
   "internalname": "MUTANT_TARANTULA_MINIBOSS",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
-  "crafttext": "",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "crafttext": "viewrecipe",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Mutant_Tarantula"
+    "https://hypixel-skyblock.fandom.com/wiki/Mutant_Tarantula",
+    "https://wiki.hypixel.net/Mutant_Tarantula"
+  ],
+  "recipes": [
+    {
+      "name": "§4Mutant Tarantula",
+      "render": "Spider",
+      "level": 380,
+      "type": "drops",
+      "panorama": "combat_2",
+      "drops": [
+        {
+          "id": "TARANTULA_WEB:5",
+          "chance": "100%"
+        }
+      ]
+    }
   ]
 }

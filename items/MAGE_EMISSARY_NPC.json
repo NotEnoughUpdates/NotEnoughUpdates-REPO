@@ -1,0 +1,77 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Mage Emissary (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"eeef334e-11e2-547d-a291-cffc36a98dda\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjIyNjUzODMwMmY4Nzk2ZGQ5NmIzNTI1ZGYyZjA2MGNiNjVmYTA5ZjI5YzNjYjYwNzNhZTkyZTAwN2UwZDM4ZiJ9fX0\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Barbarian Shop (NPC)\"},ExtraAttributes:{id:\"BARBARIAN_SHOP_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "MAGE_EMISSARY_NPC",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "",
+  "info": [
+    ""
+  ],
+  "x": -132,
+  "y": 91,
+  "z": -723,
+  "island": "crimson_isle",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:95000"
+      ],
+      "result": "SPORE_HARVESTER"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:4750"
+      ],
+      "result": "GRAND_EXP_BOTTLE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:712500"
+      ],
+      "result": "TITANIC_EXP_BOTTLE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:95000",
+        "ENCHANTED_MYCELIUM:500"
+      ],
+      "result": "ATOMINIZER"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:95000",
+        "MUSHROOM_SPORE:1000"
+      ],
+      "result": "CHARMINIZER"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:7600",
+        "ENCHANTED_MYCELIUM:2",
+        "CORRUPTED_NETHER_STAR:2"
+      ],
+      "result": "KUUDRA_TIER_KEY"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:38000",
+        "ENCHANTED_MYCELIUM:6",
+        "CORRUPTED_NETHER_STAR:2"
+      ],
+      "result": "KUUDRA_HOT_TIER_KEY"
+    }
+  ]
+}

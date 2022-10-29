@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§6Livid (Boss)",
-  "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"ead1c479-f4db-3337-a85e-84f3f3845b39\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5ODk3NzI1OTM1NywKICAicHJvZmlsZUlkIiA6ICJlNzkzYjJjYTdhMmY0MTI2YTA5ODA5MmQ3Yzk5NDE3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVfSG9zdGVyX01hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jMTAwN2M1YjcxMTRhYmVjNzM0MjA2ZDRmYzYxM2RhNGYzYTBlOTlmNzFmZjk0OWNlZGFkYzk5MDc5MTM1YTBiIgogICAgfQogIH0KfQ\"}]}},display:{Lore:[0:\"§7Livid is the boss of Floor 5 of the Catacombs. He is a\",1:\"§7\u0027Master Necromancer\u0027 and has only one phase. In this\",2:\"§7phase he makes eight clones of himself. Each with\",3:\"§7different abilities. The player must kill the\",4:\"§7true livid to complete the boss fight.\",5:\"\",6:\"§c❤ Health§8: §c7.000.000\",7:\"\",8:\"§6§lPossible Drops:\",9:\"§9Dark Orb §a(1x)\",10:\"§9Warped Stone §a(1x)\",11:\"§5Shadow Assassin Helmet §a(1x)\",12:\"§5Shadow Assassin Chestplate §a(1x)\",13:\"§5Shadow Assassin Leggings §a(1x)\",14:\"§5Shadow Assassin Boots §a(1x)\",15:\"§6Livid Dagger §a(1x)\",16:\"§6Last Breath §a(1x)\",17:\"§6Shadow Fury §a(1x)\"],Name:\"§6Livid (Boss)\"},ExtraAttributes:{id:\"LIVID_BOSS\"}}",
+  "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"ead1c479-f4db-3337-a85e-84f3f3845b39\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5ODk3NzI1OTM1NywKICAicHJvZmlsZUlkIiA6ICJlNzkzYjJjYTdhMmY0MTI2YTA5ODA5MmQ3Yzk5NDE3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVfSG9zdGVyX01hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jMTAwN2M1YjcxMTRhYmVjNzM0MjA2ZDRmYzYxM2RhNGYzYTBlOTlmNzFmZjk0OWNlZGFkYzk5MDc5MTM1YTBiIgogICAgfQogIH0KfQ\"}]}},display:{Lore:[0:\"§7Livid is the boss of Floor 5 of the Catacombs. He is a\",1:\"§7\u0027Master Necromancer\u0027 and has only one phase. In this\",2:\"§7phase he makes eight clones of himself. Each with\",3:\"§7different abilities. The player must kill the\",4:\"§7true livid to complete the boss fight.\",5:\"\",6:\"§c❤ Health§8: §c7,000.000\",7:\"§c❤ Health §8(MM): §c600.000.000\"],Name:\"§6Livid (Boss)\"},ExtraAttributes:{id:\"LIVID_BOSS\"}}",
   "damage": 3,
   "lore": [
     "§7Livid is the boss of Floor 5 of the Catacombs. He is a",
@@ -10,25 +10,165 @@
     "§7different abilities. The player must kill the",
     "§7true livid to complete the boss fight.",
     "",
-    "§c❤ Health§8: §c7.000.000",
-    "",
-    "§6§lPossible Drops:",
-    "§9Dark Orb §a(1x)",
-    "§9Warped Stone §a(1x)",
-    "§5Shadow Assassin Helmet §a(1x)",
-    "§5Shadow Assassin Chestplate §a(1x)",
-    "§5Shadow Assassin Leggings §a(1x)",
-    "§5Shadow Assassin Boots §a(1x)",
-    "§6Livid Dagger §a(1x)",
-    "§6Last Breath §a(1x)",
-    "§6Shadow Fury §a(1x)"
+    "§c❤ Health§8: §c7,000.000",
+    "§c❤ Health §8(MM): §c600.000.000"
   ],
   "internalname": "LIVID_BOSS",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Livid"
+    "https://hypixel-skyblock.fandom.com/wiki/Livid",
+    "https://wiki.hypixel.net/Livid"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§cLivid",
+      "render": "@neurepo:mobs/livid.json",
+      "panorama": "dungeon",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "DARK_ORB",
+          "chance": "1.63%",
+          "extra": ["§e§lChest Price: §6250,000 coins"]
+        },
+        {
+          "id": "AOTE_STONE",
+          "chance": "0.58%",
+          "extra": ["§e§lChest Price: §65,000,000 coins"]
+        },
+        {
+          "id": "SHADOW_ASSASSIN_HELMET",
+          "chance": "5.04%",
+          "extra": ["§e§lChest Price: §62,000,000 coins"]
+        },
+        {
+          "id": "SHADOW_ASSASSIN_CHESTPLATE",
+          "chance": "0.58%",
+          "extra": ["§e§lChest Price: §66,000,000 coins"]
+        },
+        {
+          "id": "SHADOW_ASSASSIN_LEGGINGS",
+          "chance": "1.45%",
+          "extra": ["§e§lChest Price: §64,000,000 coins"]
+        },
+        {
+          "id": "SHADOW_ASSASSIN_BOOTS",
+          "chance": "7.56%",
+          "extra": ["§e§lChest Price: §62,000,000 coins"]
+        },
+        {
+          "id": "LIVID_DAGGER",
+          "chance": "1.16%",
+          "extra": ["§e§lChest Price: §67,000,000 coins"]
+        },
+        {
+          "id": "SHADOW_FURY",
+          "chance": "0.29%",
+          "extra": ["§e§lChest Price: §615,000,000 coins"]
+        },
+        {
+          "id": "LAST_BREATH",
+          "chance": "0.29%",
+          "extra": [
+            "§e§lChest Price: §67,000,000 coins"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "§cLivid (Master Mode)",
+      "render": "@neurepo:mobs/livid.json",
+      "panorama": "dungeon",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "DARK_ORB",
+          "chance": "2.49%",
+          "extra": [
+            "§e§lChest Price: §6250,000 coins"
+          ]
+        },
+        {
+          "id": "AOTE_STONE",
+          "chance": "1.12%",
+          "extra": [
+            "§e§lChest Price: §65,000,000 coins"
+          ]
+        },
+        {
+          "id": "SHADOW_ASSASSIN_HELMET",
+          "chance": "6.71%",
+          "extra": [
+            "§e§lChest Price: §62,000,000 coins"
+          ]
+        },
+        {
+          "id": "SHADOW_ASSASSIN_CHESTPLATE",
+          "chance": "0.69%",
+          "extra": [
+            "§e§lChest Price: §66,000,000 coins"
+          ]
+        },
+        {
+          "id": "SHADOW_ASSASSIN_LEGGINGS",
+          "chance": "2.79%",
+          "extra": [
+            "§e§lChest Price: §64,000,000 coins"
+          ]
+        },
+        {
+          "id": "SHADOW_ASSASSIN_BOOTS",
+          "chance": "10.07%",
+          "extra": [
+            "§e§lChest Price: §62,000,000 coins"
+          ]
+        },
+        {
+          "id": "LIVID_DAGGER",
+          "chance": "1.38%",
+          "extra": [
+            "§e§lChest Price: §67,000,000 coins"
+          ]
+        },
+        {
+          "id": "SHADOW_FURY",
+          "chance": "0.34%",
+          "extra": [
+            "§e§lChest Price: §615,000,000 coins"
+          ]
+        },
+        {
+          "id": "LAST_BREATH",
+          "chance": "0.34%",
+          "extra": [
+            "§e§lChest Price: §67,000,000 coins"
+          ]
+        },
+        {
+          "id": "THIRD_MASTER_STAR",
+          "chance": "0.69%",
+          "extra": [
+            "§e§lChest Price: §67,000,000 coins"
+          ]
+        },
+        {
+          "id": "MASTER_SKULL_TIER_3",
+          "chance": "1.96%",
+          "extra": [
+            "§e§lChest Price: §62,000,000 coins"
+          ]
+        },
+        {
+          "id": "MASTER_SKULL_TIER_4",
+          "chance": "2.93%",
+          "extra": [
+            "§e§lChest Price: §68,000,000 coins"
+          ]
+        }
+      ]
+    }
+  ]
 }

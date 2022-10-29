@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§cSiamese Lynxes (Mythological Creature)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"664dd492-3fcd-443b-9e61-4c7ebd9e4e10\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY1N2NkNWMyOTg5ZmY5NzU3MGZlYzRkZGNkYzY5MjZhNjhhMzM5MzI1MGMxYmUxZjBiMTE0YTFkYjEifX19\"}]}},display:{Lore:[0:\"§7Siamese Lynxes, also known as Bagheera and Azrael,\",1:\"§7in-game are the second most common mobs found in\",2:\"§7the Mythological Ritual. Their health scales\",3:\"§7depending on the rarity of your Griffin Pet. You\",4:\"§7have to hit the lynxes one at a time, the correct\",5:\"§7one being indicated by angry villager particles.\",6:\"\",7:\"§c❤ Health§8:\",8:\"§8[§fGriffin§8/§aGriffin§8] §c2 × 30.000 ❤\",9:\"§8[§9Griffin§8/§5Griffin§8] §c2 × 150.000 ❤\",10:\"§8[§6Griffin§8] §c2 × 800.000 ❤\",11:\"\",12:\"§6§lPossible Drops:\",13:\"§8[§fGriffin§8/§aGriffin§8]: §aAncient Claws §8x1-2\",14:\"§8[§9Griffin§8/§5Griffin§8]: §aAncient Claws §8x2-4\",15:\"§8[§6Griffin§8]: §aAncient Claws §8x10-20\",16:\"§8[§6Griffin§8]: §aEnchanted Gold §8x1-2\",17:\"§8[§6Griffin§8]: §9Dwarf Turtle Shelmet\",18:\"§8[§6Griffin§8]: §5Crochet Tiger Plushie\",19:\"§8[§6Griffin§8]: §5Antique Remedies\",20:\"§8[§6Griffin§8]: §6Crown of Greed\",21:\"\",22:\"§a§lUNCOMMON\"],Name:\"§cSiamese Lynxes (Mythological Creature)\"},ExtraAttributes:{id:\"SIAMESE_LYNXES_MONSTER\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"664dd492-3fcd-443b-9e61-4c7ebd9e4e10\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY1N2NkNWMyOTg5ZmY5NzU3MGZlYzRkZGNkYzY5MjZhNjhhMzM5MzI1MGMxYmUxZjBiMTE0YTFkYjEifX19\"}]}},display:{Lore:[0:\"§7Siamese Lynxes, also known as Bagheera and Azrael,\",1:\"§7in-game are the second most common mobs found in\",2:\"§7the Mythological Ritual. Their health scales\",3:\"§7depending on the rarity of your Griffin Pet. You\",4:\"§7have to hit the lynxes one at a time, the correct\",5:\"§7one being indicated by angry villager particles.\",6:\"\",7:\"§c❤ Health§8:\",8:\"§8[§fGriffin§8/§aGriffin§8] §c2 × 30,000 ❤\",9:\"§8[§9Griffin§8/§5Griffin§8] §c2 × 150,000 ❤\",10:\"§8[§6Griffin§8] §c2 × 800,000 ❤\",11:\"\",12:\"§a§lUNCOMMON\"],Name:\"§cSiamese Lynxes (Mythological Creature)\"},ExtraAttributes:{id:\"SIAMESE_LYNXES_MONSTER\"}}",
   "damage": 3,
   "lore": [
     "§7Siamese Lynxes, also known as Bagheera and Azrael,",
@@ -12,28 +12,104 @@
     "§7one being indicated by angry villager particles.",
     "",
     "§c❤ Health§8:",
-    "§8[§fGriffin§8/§aGriffin§8] §c2 × 30.000 ❤",
-    "§8[§9Griffin§8/§5Griffin§8] §c2 × 150.000 ❤",
-    "§8[§6Griffin§8] §c2 × 800.000 ❤",
-    "",
-    "§6§lPossible Drops:",
-    "§8[§fGriffin§8/§aGriffin§8]: §aAncient Claws §8x1-2",
-    "§8[§9Griffin§8/§5Griffin§8]: §aAncient Claws §8x2-4",
-    "§8[§6Griffin§8]: §aAncient Claws §8x10-20",
-    "§8[§6Griffin§8]: §aEnchanted Gold §8x1-2",
-    "§8[§6Griffin§8]: §9Dwarf Turtle Shelmet",
-    "§8[§6Griffin§8]: §5Crochet Tiger Plushie",
-    "§8[§6Griffin§8]: §5Antique Remedies",
-    "§8[§6Griffin§8]: §6Crown of Greed",
+    "§8[§fGriffin§8/§aGriffin§8] §c2 × 30,000 ❤",
+    "§8[§9Griffin§8/§5Griffin§8] §c2 × 150,000 ❤",
+    "§8[§6Griffin§8] §c2 × 800,000 ❤",
     "",
     "§a§lUNCOMMON"
   ],
   "internalname": "SIAMESE_LYNXES_MONSTER",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Siamese_Lynxes"
+    "https://hypixel-skyblock.fandom.com/wiki/Siamese_Lynxes",
+    "https://wiki.hypixel.net/Siamese_Lynx"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 25,
+      "coins": 80,
+      "xp": 5,
+      "combat_xp": 20,
+      "name": "§cSiamese Lynx",
+      "panorama": "hub",
+      "render": "Ocelot",
+      "extra": [
+        "§cRequirements:",
+        "§7- §fGriffin",
+        "§7Chance: 42.86%",
+        "§7- §aGriffin",
+        "§7Chance: 40%"
+      ],
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ANCIENT_CLAW",
+          "chance": "100%"
+        }
+      ]
+    },
+    {
+      "level": 85,
+      "coins": 250,
+      "xp": 8,
+      "combat_xp": 50,
+      "name": "§cSiamese Lynx",
+      "panorama": "hub",
+      "render": "Ocelot",
+      "extra": [
+        "§cRequirements:",
+        "§7- §9Griffin",
+        "§7Chance: 27.87%",
+        "§7- §5Griffin",
+        "§7Chance: 19.05%"
+      ],
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ANCIENT_CLAW:2",
+          "chance": "100%"
+        }
+      ]
+    },
+    {
+      "level": 165,
+      "coins": 1500,
+      "xp": 9,
+      "combat_xp": 70,
+      "name": "§cSiamese Lynx",
+      "panorama": "hub",
+      "render": "Ocelot",
+      "extra": [
+        "§cRequirements:",
+        "§7- §6Griffin",
+        "§7Chance: 18.52%"
+      ],
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ANCIENT_CLAW:10",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_GOLD",
+          "chance": "100%"
+        },
+        {
+          "id": "DWARF_TURTLE_SHELMET",
+          "chance": "0.25%"
+        },
+        {
+          "id": "ANTIQUE_REMEDIES",
+          "chance": "0.25%"
+        },
+        {
+          "id": "CROCHET_TIGER_PLUSHIE",
+          "chance": "0.25%"
+        }
+      ]
+    }
+  ]
 }

@@ -18,19 +18,26 @@
     "§7Requires §aMining Skill Level",
     "§aXVIII§7!",
     "",
-    "§9§lRARE REFORGE STONE",
-    "",
-    "§eItems Required",
-    "§5Refined Mithril §7x2",
-    "",
-    "§7Duration: §b12h"
+    "§9§lRARE REFORGE STONE"
   ],
   "internalname": "PURE_MITHRIL",
   "crafttext": "",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Pure_Mithril"
+    "https://hypixel-skyblock.fandom.com/wiki/Pure_Mithril",
+    "https://wiki.hypixel.net/Pure_Mithril"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "REFINED_MITHRIL:2"
+      ],
+      "count": 1,
+      "overrideOutputId": "PURE_MITHRIL",
+      "duration": 43200
+    }
   ]
 }

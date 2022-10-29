@@ -1,0 +1,58 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§5Mage Outlaw (Miniboss)",
+  "nbttag": "{SkullOwner:{Id:\"1d16c26c-d937-336f-821a-371968d050c2\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NDA4Mjg3Mzk2NywKICAicHJvZmlsZUlkIiA6ICJiNzQ3OWJhZTI5YzQ0YjIzYmE1NjI4MzM3OGYwZTNjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTeWxlZXgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWJlYzk5YjNhMDUwZmQyNzc1Mjg0MDc2NzYzNjZlMjBiOTIwMDZhZDg4ZDE0NzI3YTRkOTllYjhjYjI3M2I2MiIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7Ate too much Sulphur.\",1:\"\",2:\"§c❤ Health§8: §c70,000,000\"],Name:\"§5Mage Outlaw (Miniboss)\"},ExtraAttributes:{id:\"MAGE_OUTLAW_MINIBOSS\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Ate too much Sulphur.",
+    "",
+    "§c❤ Health§8: §c70,000,000"
+  ],
+  "internalname": "MAGE_OUTLAW_MINIBOSS",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Mage_Outlaw",
+    "https://wiki.hypixel.net/Mage_Outlaw"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§5§k§lM§5§lMage Outlaw§k§lM",
+      "level": 200,
+      "coins": 100,
+      "xp": 5000,
+      "combat_xp": 4000,
+      "render": "@neurepo:mobs/mage_outlaw.json",
+      "type": "drops",
+      "panorama": "crimson_isle",
+      "drops": [
+        {
+          "id": "GLOWSTONE_DUST:20",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_GLOWSTONE_DUST:1",
+          "chance": "50%"
+        },
+        {
+          "id": "SPELL_POWDER",
+          "chance": "100%"
+        },
+        {
+          "id": "MAGMA_URCHIN",
+          "chance": "2%"
+        },
+        {
+          "id": "FIRE_FREEZE_STAFF",
+          "chance": "0.5%"
+        },
+        {
+          "id": "WAND_OF_STRENGTH",
+          "chance": "0.5%"
+        }
+      ]
+    }
+  ]
+}

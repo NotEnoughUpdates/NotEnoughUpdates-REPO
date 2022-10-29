@@ -1,25 +1,46 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Scared Skeleton (Monster)",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Scared of its own shadow.\",1:\"\",2:\"§7Coins per Kill: §61\",3:\"§7Combat XP: §340-72\",4:\"\",5:\"§6§lPossible Drops:\",6:\"§aUncommon Loot\",7:\"§8■ §fEnchanted Bone §8(§a5%§8)\",8:\"§8■ §9Machine Gun Bow §8(§a5%§8)\"],Name:\"§9Scared Skeleton (Monster)\"},ExtraAttributes:{id:\"SCARED_SKELETON_MONSTER\"}}",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Scared of its own shadow.\",1:\"\",2:\"§c❤ Health§8: §c19,000 - 44,000\",3:\"§c❤ Health §8(MM) : §c1,800,000 - 3,300,000\"],Name:\"§9Scared Skeleton (Monster)\"},ExtraAttributes:{id:\"SCARED_SKELETON_MONSTER\"}}",
   "damage": 0,
   "lore": [
     "§7Scared of its own shadow.",
     "",
-    "§7Coins per Kill: §61",
-    "§7Combat XP: §340-72",
-    "",
-    "§6§lPossible Drops:",
-    "§aUncommon Loot",
-    "§8■ §fEnchanted Bone §8(§a5%§8)",
-    "§8■ §9Machine Gun Bow §8(§a5%§8)"
+    "§c❤ Health§8: §c19,000 - 44,000",
+    "§c❤ Health §8(MM) : §c1,800,000 - 3,300,000"
   ],
   "internalname": "SCARED_SKELETON_MONSTER",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Dungeon_Skeletons"
+    "https://hypixel-skyblock.fandom.com/wiki/Dungeon_Skeletons",
+    "https://wiki.hypixel.net/Scared_Skeleton"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "combat_xp": 40,
+      "coins": 5,
+      "xp": 30,
+      "name": "§cScared Skeleton",
+      "panorama": "dungeon",
+      "render": "@neurepo:mobs/undead_skeleton.json",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ENCHANTED_BONE",
+          "chance": "5%"
+        },
+        {
+          "id": "MACHINE_GUN_BOW",
+          "chance": "5%"
+        },
+        {
+          "id": "DYE_BONE",
+          "chance": "0.0000333%"
+        }
+      ]
+    }
+  ]
 }

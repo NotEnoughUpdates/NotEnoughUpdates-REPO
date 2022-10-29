@@ -1,36 +1,60 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Howling Spirit (Monster)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"802a167c-cbcd-3a1f-becd-5b1a25a4cf15\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjdjOGJlZjZiZWI3N2UyOWFmODYyN2VjZGMzOGQ4NmFhMmZlYTdjY2QxNjNkYzczYzAwZjlmMjU4ZjlhMTQ1NyJ9fX0\"}]}},display:{Lore:[0:\"§7The Howling Spirits are a Lv 35 Wolf that spawns in\",1:\"§7the Howling Cave in the Park. They have 7,000 HP\",2:\"§7and are nothing more than just buffed Pack Spirits. \",3:\"\",4:\"§c❤ Health§8: §c7.000\",5:\"§7Coins per Kill: §611\",6:\"§7Combat XP: §315\",7:\"\",8:\"§6§lPossible Drops:\",9:\"§aUncommon Loot\",10:\"§8 ■ §fAcacia Wood §8(§a15%§8)\",11:\"§8 ■ §fSpruce Wood §8(§a15%§8)\",12:\"§8 ■ §fDark Oak Wood §8(§a15%§8)\",13:\"\",14:\"§6Legendary Loot\",15:\"§8 ■ §5Travel Scroll to Howling Cave §8(§a0.02%§8)\",16:\"\",17:\"§dRNGesus Loot\",18:\"§8 ■ §4More Info Needed\",19:\"§8 ■ §4More Info Needed\"],Name:\"§9Howling Spirit (Monster)\"},ExtraAttributes:{id:\"HOWLING_SPIRIT_MONSTER\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"802a167c-cbcd-3a1f-becd-5b1a25a4cf15\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjdjOGJlZjZiZWI3N2UyOWFmODYyN2VjZGMzOGQ4NmFhMmZlYTdjY2QxNjNkYzczYzAwZjlmMjU4ZjlhMTQ1NyJ9fX0\"}]}},display:{Lore:[0:\"§7The Howling Spirits are a Lv 35 Wolf that spawns in\",1:\"§7the Howling Cave in the Park. They have 7,000 HP\",2:\"§7and are nothing more than just buffed Pack Spirits. \",3:\"\",4:\"§c❤ Health§8: §c7,000\"],Name:\"§9Howling Spirit (Monster)\"},ExtraAttributes:{id:\"HOWLING_SPIRIT_MONSTER\"}}",
   "damage": 3,
   "lore": [
     "§7The Howling Spirits are a Lv 35 Wolf that spawns in",
     "§7the Howling Cave in the Park. They have 7,000 HP",
     "§7and are nothing more than just buffed Pack Spirits. ",
     "",
-    "§c❤ Health§8: §c7.000",
-    "§7Coins per Kill: §611",
-    "§7Combat XP: §315",
-    "",
-    "§6§lPossible Drops:",
-    "§aUncommon Loot",
-    "§8 ■ §fAcacia Wood §8(§a15%§8)",
-    "§8 ■ §fSpruce Wood §8(§a15%§8)",
-    "§8 ■ §fDark Oak Wood §8(§a15%§8)",
-    "",
-    "§6Legendary Loot",
-    "§8 ■ §5Travel Scroll to Howling Cave §8(§a0.02%§8)",
-    "",
-    "§dRNGesus Loot",
-    "§8 ■ §4More Info Needed",
-    "§8 ■ §4More Info Needed"
+    "§c❤ Health§8: §c7,000"
   ],
   "internalname": "HOWLING_SPIRIT_MONSTER",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Howling_Spirit"
+    "https://hypixel-skyblock.fandom.com/wiki/Howling_Spirit",
+    "https://wiki.hypixel.net/Howling_Spirit"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 35,
+      "coins": 11,
+      "xp": 10,
+      "combat_xp": 15,
+      "name": "§bHowling Spirit",
+      "panorama": "foraging_1",
+      "render": "Wolf",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "LOG_2",
+          "chance": "15%"
+        },
+        {
+          "id": "LOG-1",
+          "chance": "15%"
+        },
+        {
+          "id": "LOG_2-1",
+          "chance": "15%"
+        },
+        {
+          "id": "PARK_CAVE_TRAVEL_SCROLL",
+          "chance": "0.02%"
+        },
+        {
+          "id": "HOUND;3",
+          "chance": "0.003%"
+        },
+        {
+          "id": "HOUND;4",
+          "chance": "0.001%"
+        }
+      ]
+    }
+  ]
 }

@@ -1,19 +1,38 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§5Pack Enforcer (Miniboss)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"7e9af289-f295-3f8c-bd54-58b7667d5759\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjlkMWQzMTEzZWM0M2FjMjk2MWRkNTlmMjgxNzVmYjQ3MTg4NzNjNmM0NDhkZmNhODcyMjMxN2Q2NyJ9fX0\"}]}},display:{Lore:[0:\"§7The Pack Enforcer is a Sven Packmaster Miniboss\",1:\"§7that has a small chance to be spawned upon killing\",2:\"§7a Wolf During a Sven Packmaster Tier III+ Quest.\"],Name:\"§5Pack Enforcer (Miniboss)\"},ExtraAttributes:{id:\"PACK_ENFORCER_MINIBOSS\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"7e9af289-f295-3f8c-bd54-58b7667d5759\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjlkMWQzMTEzZWM0M2FjMjk2MWRkNTlmMjgxNzVmYjQ3MTg4NzNjNmM0NDhkZmNhODcyMjMxN2Q2NyJ9fX0\"}]}},display:{Lore:[0:\"§7The Pack Enforcer is a Sven Packmaster Miniboss\",1:\"§7that has a small chance to be spawned upon killing\",2:\"§7a Wolf During a Sven Packmaster Tier III Quest.\",3:\"\",4:\"§c❤ Health§8: §c45,000\"],Name:\"§5Pack Enforcer (Miniboss)\"},ExtraAttributes:{id:\"PACK_ENFORCER_MINIBOSS\"}}",
   "damage": 3,
   "lore": [
     "§7The Pack Enforcer is a Sven Packmaster Miniboss",
     "§7that has a small chance to be spawned upon killing",
-    "§7a Wolf During a Sven Packmaster Tier III+ Quest."
+    "§7a Wolf During a Sven Packmaster Tier III Quest.",
+    "",
+    "§c❤ Health§8: §c45,000"
   ],
   "internalname": "PACK_ENFORCER_MINIBOSS",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Pack_Enforcer"
+    "https://hypixel-skyblock.fandom.com/wiki/Pack_Enforcer",
+    "https://wiki.hypixel.net/Pack_Enforcer"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§cPack Enforcer",
+      "render": "Wolf",
+      "level": 110,
+      "combat_xp": 70,
+      "type": "drops",
+      "panorama": "hub",
+      "drops": [
+        {
+          "id": "WOLF_TOOTH:1",
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
 }

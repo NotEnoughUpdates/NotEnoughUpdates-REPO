@@ -1,30 +1,115 @@
 {
   "itemid": "minecraft:ender_chest",
   "displayname": "§9Zealot (Monster)",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Zealots are a type of Enderman found exclusively\",1:\"§7in the Dragon\u0027s Nest. Zealots are not hostile towards\",2:\"§7players, unless provoked, like normal Enderman. \",3:\"\",4:\"§c❤ Health§8: §c13.000\",5:\"§7Coins per Kill: §615\",6:\"§7Combat XP: §340\",7:\"\",8:\"§6§lPossible Drops:\",9:\"§fCommon Loot\",10:\"§8 ■ §fEnder Pearl §8x2-4\",11:\"\",12:\"§aUncommon Loot\",13:\"§8 ■ §aEnchanted Ender Pearl §8(§a2%§8)\"],Name:\"§9Zealot (Monster)\"},ExtraAttributes:{id:\"ZEALOT_MONSTER\"}}",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Zealots are a type of Enderman found exclusively\",1:\"§7in the Dragon's Nest. Zealots are not hostile towards\",2:\"§7players, unless provoked, like normal Enderman. \",3:\"\",4:\"§c❤ Health§8: §c13,000\"],Name:\"§9Zealot (Monster)\"},ExtraAttributes:{id:\"ZEALOT_MONSTER\"}}",
   "damage": 0,
   "lore": [
     "§7Zealots are a type of Enderman found exclusively",
-    "§7in the Dragon\u0027s Nest. Zealots are not hostile towards",
+    "§7in the Dragon's Nest. Zealots are not hostile towards",
     "§7players, unless provoked, like normal Enderman. ",
     "",
-    "§c❤ Health§8: §c13.000",
-    "§7Coins per Kill: §615",
-    "§7Combat XP: §340",
-    "",
-    "§6§lPossible Drops:",
-    "§fCommon Loot",
-    "§8 ■ §fEnder Pearl §8x2-4",
-    "",
-    "§aUncommon Loot",
-    "§8 ■ §aEnchanted Ender Pearl §8(§a2%§8)"
+    "§c❤ Health§8: §c13,000"
   ],
   "internalname": "ZEALOT_MONSTER",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Zealot"
+    "https://hypixel-skyblock.fandom.com/wiki/Zealot",
+    "https://wiki.hypixel.net/Zealot"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 55,
+      "coins": 15,
+      "xp": 10,
+      "combat_xp": 40,
+      "name": "§cZealot",
+      "render": "Enderman",
+      "panorama": "combat_3",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ENDER_PEARL",
+          "extra": [],
+          "chance": "x2-4"
+        },
+        {
+          "id": "ENCHANTED_ENDER_PEARL",
+          "extra": [],
+          "chance": "x2-4"
+        }
+      ]
+    },
+    {
+      "level": 55,
+      "coins": 15,
+      "xp": 10,
+      "combat_xp": 40,
+      "name": "§cZealot (Enderchest)",
+      "render": "@neurepo:mobs/zealot.json",
+      "panorama": "combat_3",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ENDER_PEARL:1",
+          "extra": [],
+          "chance": "x2-4"
+        },
+        {
+          "id": "ENCHANTED_ENDER_PEARL",
+          "extra": [],
+          "chance": "2%"
+        },
+        {
+          "id": "ENCHANTED_ENDSTONE",
+          "extra": [],
+          "chance": "24.39%"
+        },
+        {
+          "id": "ENCHANTED_OBSIDIAN",
+          "extra": [],
+          "chance": "16.26%"
+        },
+        {
+          "id": "ENCHANTED_EYE_OF_ENDER",
+          "extra": [],
+          "chance": "6.50%"
+        },
+        {
+          "id": "CRYSTAL_FRAGMENT",
+          "extra": [],
+          "chance": "12.20%"
+        }
+      ]
+    },
+    {
+      "level": 55,
+      "coins": 15,
+      "xp": 10,
+      "combat_xp": 40,
+      "name": "§cZealot (Special)",
+      "panorama": "combat_3",
+      "render": "Enderman",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ENDER_PEARL",
+          "extra": [],
+          "chance": "x2-4"
+        },
+        {
+          "id": "ENCHANTED_ENDER_PEARL",
+          "extra": [],
+          "chance": "x2-4"
+        },
+        {
+          "id": "SUMMONING_EYE",
+          "extra": [],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
 }

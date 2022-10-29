@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Watcher (Monster)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"00a702b9-7bad-3205-a04b-52478d8c0e7f\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGFhOGZjOGRlNjQxN2I0OGQ0OGM4MGI0NDNjZjUzMjZlM2Q5ZGE0ZGJlOWIyNWZjZDQ5NTQ5ZDk2MTY4ZmMwIn19fQ\"}]}},display:{Lore:[0:\"§7The Watcher is a naturally-spawning skeleton in The End.\",1:\"§7They are Level 55 and have what appears to be a\",2:\"§7Summoning Eye on their head. They are often found near\",3:\"§7the middle and back areas. \",4:\"\",5:\"§c❤ Health§8: §c9.500\",6:\"§7Coins per Kill: §615\",7:\"§7Combat XP: §340\",8:\"\",9:\"§6§lPossible Drops:\",10:\"§fCommon Loot\",11:\"§8 ■ §fArrow §8x1-4\",12:\"§8 ■ §fEnder Pearl §8x1-2\",13:\"\",14:\"§9Rare Loot §8[Lvl 42-50]\",15:\"§8 ■ §aEnchanted Bone §8(§a1%§8)\",16:\"\",17:\"§6Legendary Loot\",18:\"§8 ■ §9Combat Exp Boost §8(§a0.015%§8)\",19:\"§8 ■ §5End Stone Bow §8(§a0.1%§8)\",20:\"\",21:\"§dRNGesus Loot\",22:\"§8 ■ §5Combat Exp Boost §8(§a0.002%§8)\"],Name:\"§9Watcher (Monster)\"},ExtraAttributes:{id:\"WATCHER_MONSTER\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"00a702b9-7bad-3205-a04b-52478d8c0e7f\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGFhOGZjOGRlNjQxN2I0OGQ0OGM4MGI0NDNjZjUzMjZlM2Q5ZGE0ZGJlOWIyNWZjZDQ5NTQ5ZDk2MTY4ZmMwIn19fQ\"}]}},display:{Lore:[0:\"§7The Watcher is a naturally-spawning skeleton in The End.\",1:\"§7They are Level 55 and have what appears to be a\",2:\"§7Summoning Eye on their head. They are often found near\",3:\"§7the middle and back areas. \",4:\"\",5:\"§c❤ Health§8: §c9,500\"],Name:\"§9Watcher (Monster)\"},ExtraAttributes:{id:\"WATCHER_MONSTER\"}}",
   "damage": 3,
   "lore": [
     "§7The Watcher is a naturally-spawning skeleton in The End.",
@@ -9,31 +9,57 @@
     "§7Summoning Eye on their head. They are often found near",
     "§7the middle and back areas. ",
     "",
-    "§c❤ Health§8: §c9.500",
-    "§7Coins per Kill: §615",
-    "§7Combat XP: §340",
-    "",
-    "§6§lPossible Drops:",
-    "§fCommon Loot",
-    "§8 ■ §fArrow §8x1-4",
-    "§8 ■ §fEnder Pearl §8x1-2",
-    "",
-    "§9Rare Loot §8[Lvl 42-50]",
-    "§8 ■ §aEnchanted Bone §8(§a1%§8)",
-    "",
-    "§6Legendary Loot",
-    "§8 ■ §9Combat Exp Boost §8(§a0.015%§8)",
-    "§8 ■ §5End Stone Bow §8(§a0.1%§8)",
-    "",
-    "§dRNGesus Loot",
-    "§8 ■ §5Combat Exp Boost §8(§a0.002%§8)"
+    "§c❤ Health§8: §c9,500"
   ],
   "internalname": "WATCHER_MONSTER",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Watcher"
+    "https://hypixel-skyblock.fandom.com/wiki/Watcher",
+    "https://wiki.hypixel.net/Watcher"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 55,
+      "coins": 15,
+      "xp": 10,
+      "combat_xp": 40,
+      "name": "§cWatcher",
+      "render": "@neurepo:mobs/watcher.json",
+      "panorama": "dungeon",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ARROW:1",
+          "chance": "x1-4"
+        },
+        {
+          "id": "ENDER_PEARL:1",
+          "chance": "x1-2"
+        },
+        {
+          "id": "ENCHANTED_BONE:1",
+          "chance": "1%"
+        },
+        {
+          "id": "END_STONE_BOW:1",
+          "chance": "0.1%"
+        },
+        {
+          "id": "PET_ITEM_COMBAT_SKILL_BOOST_EPIC:1",
+          "chance": "0.002%"
+        },
+        {
+          "id": "PET_ITEM_COMBAT_SKILL_BOOST_RARE:1",
+          "chance": "0.015%"
+        },
+        {
+          "id": "DYE_BONE:1",
+          "chance": "0.0000333%"
+        }
+      ]
+    }
+  ]
 }
