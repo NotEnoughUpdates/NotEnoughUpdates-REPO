@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§6Arachne (Boss)",
-  "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"7c63f3cf-a963-311a-aeca-3a075b417806\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q1NDE1NDFkYWFmZjUwODk2Y2QyNThiZGJkZDRjZjgwYzNiYTgxNjczNTcyNjA3OGJmZTM5MzkyN2U1N2YxIn19fQ\"}]}},display:{Lore:[0:\"§7The strongest spider in the den.\",1:\"\",2:\"§c❤ Health§8: §c10,000,000-20,000,000\"],Name:\"§6Arachne (Boss)\"},ExtraAttributes:{id:\"ARACHNE_BOSS\"}}",
+  "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"7c63f3cf-a963-311a-aeca-3a075b417806\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q1NDE1NDFkYWFmZjUwODk2Y2QyNThiZGJkZDRjZjgwYzNiYTgxNjczNTcyNjA3OGJmZTM5MzkyN2U1N2YxIn19fQ\"}]}},display:{Lore:[0:\"§7The strongest spider in the den.\",1:\"\",2:\"§c❤ Health§8: §c20,000 - 100,000\"],Name:\"§6Arachne (Boss)\"},ExtraAttributes:{id:\"ARACHNE_BOSS\"}}",
   "damage": 3,
   "lore": [
     "§7The strongest spider in the den.",
     "",
-    "§c❤ Health§8: §c10,000,000-20,000,000"
+    "§c❤ Health§8: §c20,000 - 100,000"
   ],
   "internalname": "ARACHNE_BOSS",
   "clickcommand": "viewrecipe",
@@ -47,6 +47,34 @@
         {
           "id": "SOUL_STRING",
           "chance": "x5-6"
+        },
+        {
+          "id": "ARACHNE_HELMET",
+          "chance": "10%"
+        },
+        {
+          "id": "ARACHNE_CHESTPLATE",
+          "chance": "10%"
+        },
+        {
+          "id": "ARACHNE_LEGGINGS",
+          "chance": "10%"
+        },
+        {
+          "id": "ARACHNE_BOOTS",
+          "chance": "10%"
+        },
+        {
+          "id": "LUXURIOUS_SPOOL",
+          "chance": "100%"
+        },
+        {
+          "id": "ARACHNE_FANG",
+          "chance": "10%"
+        },
+        {
+          "id": "ESSENCE_SPIDER:8",
+          "chance": "100%"
         }
       ]
     },
@@ -79,6 +107,34 @@
         {
           "id": "SOUL_STRING",
           "chance": "x30-32"
+        },
+        {
+          "id": "ARACHNE_HELMET",
+          "chance": "25%"
+        },
+        {
+          "id": "ARACHNE_CHESTPLATE",
+          "chance": "25%"
+        },
+        {
+          "id": "ARACHNE_LEGGINGS",
+          "chance": "25%"
+        },
+        {
+          "id": "ARACHNE_BOOTS",
+          "chance": "25%"
+        },
+        {
+          "id": "LUXURIOUS_SPOOL",
+          "chance": "100%"
+        },
+        {
+          "id": "ARACK",
+          "chance": "25%"
+        },
+        {
+          "id": "ESSENCE_SPIDER:30",
+          "chance": "100%"
         }
       ]
     }
