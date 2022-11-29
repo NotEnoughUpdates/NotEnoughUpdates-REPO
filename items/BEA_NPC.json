@@ -1,0 +1,60 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Bea (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"4d28ca10-b847-2a56-9a6c-ebed120bfe46\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1ODIzMDAzNTg3ODYsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2UzYzM0YjllNTFmMzUyZDZjNjljODIxYTFmYzI5ZjUwMDUwOTgwM2ExZWVjMDI0YzM4NzAxNWI1YzQzYzc3M2EiLCJtZXRhZGF0YSI6eyJtb2RlbCI6InNsaW0ifX19fQ\"}]}},display:{Lore:[0:\"\"],Name:\"§9Bea (NPC)\"},ExtraAttributes:{id:\"BEA_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "BEA_NPC",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Bea",
+    "https://wiki.hypixel.net/Bea"
+  ],
+  "crafttext": "",
+  "x": 30,
+  "y": 72,
+  "z": -91,
+  "island": "hub",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:4999",
+        "COAL_BLOCK:2",
+        "GOLD_BLOCK:2"
+      ],
+      "result": "BEE;0"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:50000",
+        "COAL_BLOCK:128",
+        "GOLD_BLOCK:128"
+      ],
+      "result": "BEE;2"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:200000",
+        "ENCHANTED_COAL_BLOCK:1",
+        "ENCHANTED_GOLD_BLOCK:1"
+      ],
+      "result": "BEE;3"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:650000",
+        "ENCHANTED_COAL_BLOCK:8",
+        "ENCHANTED_GOLD_BLOCK:8"
+      ],
+      "result": "BEE;4"
+    }
+  ]
+}
