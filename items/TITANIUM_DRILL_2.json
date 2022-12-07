@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:prismarine_shard",
   "displayname": "§5Titanium Drill DR-X455",
-  "nbttag": "{ench:[],overrideMeta:1b,HideFlags:254,display:{Lore:[0:\"§8Breaking Power 8\",1:\"\",2:\"§7Damage: §c+75\",3:\"§7Mining Speed: §a+900\",4:\"§7Mining Fortune: §a+40\",5:\" §8[§7⸕§8]\",6:\"\",7:\"§7Fuel Tank: §cNot Installed\",8:\"§7§7Increases fuel capacity with\",9:\"§7part installed.\",10:\"\",11:\"§7Drill Engine: §cNot Installed\",12:\"§7§7Increases §6⸕ Mining Speed\",13:\"§6§7with part installed.\",14:\"\",15:\"§7Upgrade Module: §cNot Installed\",16:\"§7§7Applies a passive upgrade with\",17:\"§7part installed.\",18:\"\",19:\"§7Apply Drill Parts to this Drill\",20:\"§7by talking to §2Jotraeline\",21:\"§2Greatforge §7in the §2Dwarven\",22:\"§2Mines§7!\",23:\"\",24:\"§7Fuel: §23,000§8/3k\",25:\"\",26:\"§7§8This item can be reforged!\",27:\"§7§4❣ §cRequires §5Heart of the\",28:\"§5Mountain Tier 5\",29:\"§5§lEPIC DRILL\",30:\"\",31:\"§eItems Required\",32:\"§5Titanium Drill DR-X355 §7x1\",33:\"§5Refined Diamond §7x10\",34:\"§6Refined Titanium §7x16\",35:\"§9Mithril Plate §7x6\",36:\"\",37:\"§7Duration: §b30s\"],Name:\"§5Titanium Drill DR-X455\"},ExtraAttributes:{drill_fuel:3000,modifier:\"originTag:\\\"UNKNOWN\\\"\",id:\"TITANIUM_DRILL_2\",enchantments:{}},AttributeModifiers:[]}",
+  "nbttag": "{ench:[],overrideMeta:1b,HideFlags:254,display:{Lore:[0:\"§8Breaking Power 8\",1:\"\",2:\"§7Damage: §c+75\",3:\"§7Mining Speed: §a+900\",4:\"§7Mining Fortune: §a+40\",5:\" §8[§7⸕§8]\",6:\"\",7:\"§7Fuel Tank: §cNot Installed\",8:\"§7§7Increases fuel capacity with\",9:\"§7part installed.\",10:\"\",11:\"§7Drill Engine: §cNot Installed\",12:\"§7§7Increases §6⸕ Mining Speed\",13:\"§6§7with part installed.\",14:\"\",15:\"§7Upgrade Module: §cNot Installed\",16:\"§7§7Applies a passive upgrade with\",17:\"§7part installed.\",18:\"\",19:\"§7Apply Drill Parts to this Drill\",20:\"§7by talking to §2Jotraeline\",21:\"§2Greatforge §7in the §2Dwarven\",22:\"§2Mines§7!\",23:\"\",24:\"§7Fuel: §23,000§8/3k\",25:\"\",26:\"§7§8This item can be reforged!\",27:\"§7§4❣ §cRequires §5Heart of the\",28:\"§5Mountain Tier 5\",29:\"§5§lEPIC DRILL\"],Name:\"§5Titanium Drill DR-X455\"},ExtraAttributes:{drill_fuel:3000,modifier:\"originTag:\\\"UNKNOWN\\\"\",id:\"TITANIUM_DRILL_2\",enchantments:{}},AttributeModifiers:[]}",
   "damage": 0,
   "lore": [
     "§8Breaking Power 8",
@@ -33,22 +33,29 @@
     "§7§8This item can be reforged!",
     "§7§4❣ §cRequires §5Heart of the",
     "§5Mountain Tier 5",
-    "§5§lEPIC DRILL",
-    "",
-    "§eItems Required",
-    "§5Titanium Drill DR-X355 §7x1",
-    "§5Refined Diamond §7x10",
-    "§6Refined Titanium §7x16",
-    "§9Mithril Plate §7x6",
-    "",
-    "§7Duration: §b30s"
+    "§5§lEPIC DRILL"
   ],
   "internalname": "TITANIUM_DRILL_2",
   "crafttext": "",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Titanium_Drill_DR-X455"
+    "https://hypixel-skyblock.fandom.com/wiki/Titanium_Drill_DR-X455",
+    "https://wiki.hypixel.net/Titanium_Drill_DR-X455"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "MITHRIL_PLATE:6",
+        "REFINED_TITANIUM:16",
+        "REFINED_DIAMOND:10",
+        "TITANIUM_DRILL_1:1"
+      ],
+      "count": 1,
+      "overrideOutputId": "TITANIUM_DRILL_2",
+      "duration": 30
+    }
   ]
 }

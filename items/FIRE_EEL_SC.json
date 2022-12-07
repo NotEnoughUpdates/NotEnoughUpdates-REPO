@@ -1,0 +1,50 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§3Fire Eel (Sea Creature)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"23d6aba2-9fc8-5ffd-8b15-2378a417573c\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzg0ODQ2OTJhMmNkNGVlNWQxOTUxNDU1NWQwOGVjYzcyZWVmNDNjNDdiNDAxOGY0NzJmNTY4YTFjYWE5NmEwMCJ9fX0\u003d\"}]}},display:{Lore:[0:\"§c❤ Health§8: §c4,000,000\",1:\"\",2:\"§9§lRARE\"],Name:\"§3Fire Eel (Sea Creature)\"},ExtraAttributes:{id:\"FIRE_EEL_SC\"}}",
+  "damage": 3,
+  "lore": [
+    "§c❤ Health§8: §c4,000,000",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "FIRE_EEL_SC",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Fire_Eel",
+    "https://wiki.hypixel.net/Fire_Eel"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§cFire Eel",
+      "level": 240,
+      "coins": 1200,
+      "xp": 2000,
+      "render": "@neurepo:mobs/fire_eel.json",
+      "panorama": "crimson_isle",
+      "type": "drops",
+      "extra": [
+        "§cRequirements:",
+        "§7- Fishing Skill 34",
+        "§7- §6Crimson Isle Lava"
+      ],
+      "drops": [
+        {
+          "id": "MAGMA_FISH:50",
+          "chance": "100%"
+        },
+        {
+          "id": "ORB_OF_ENERGY",
+          "chance": "100%"
+        },
+        {
+          "id": "STAFF_OF_THE_VOLCANO",
+          "chance": "5%"
+        }
+      ]
+    }
+  ]
+}

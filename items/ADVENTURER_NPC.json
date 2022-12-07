@@ -1,0 +1,101 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Adventurer (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"1ca9aff8-1471-51fe-ae2a-b5b6b297ebe4\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTcyOThmZjRlYzNiYTBhMDg4NDM1N2Y0ZDFhOWNjZWM0ZWU4ZDhkODFiNDk4MTEzOGVmOTRiOGE3NWYzZGQifX19\"}]}},display:{Lore:[0:\"\"],Name:\"§9Adventurer (NPC)\"},ExtraAttributes:{id:\"ADVENTURER_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "ADVENTURER_NPC",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Adventurer",
+    "https://wiki.hypixel.net/Adventurer"
+  ],
+  "crafttext": "",
+  "x": -42,
+  "y": 72,
+  "z": -65,
+  "island": "hub",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:8"
+      ],
+      "result": "ROTTEN_FLESH"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:8"
+      ],
+      "result": "BONE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:10"
+      ],
+      "result": "STRING"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:14"
+      ],
+      "result": "SLIME_BALL"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:10"
+      ],
+      "result": "SULPHUR"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:500"
+      ],
+      "result": "ZOMBIE_TALISMAN"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:500"
+      ],
+      "result": "SKELETON_TALISMAN"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:2500"
+      ],
+      "result": "VILLAGE_TALISMAN"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:2500"
+      ],
+      "result": "MINE_TALISMAN"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:10000"
+      ],
+      "result": "INTIMIDATION_TALISMAN"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:10000"
+      ],
+      "result": "SCAVENGER_TALISMAN"
+    }
+  ]
+}

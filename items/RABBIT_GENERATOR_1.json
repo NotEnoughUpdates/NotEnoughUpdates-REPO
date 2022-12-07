@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Rabbit Minion I",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"fbb8165f-a72b-37b9-bde2-6d9dbd72ae3e\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MjAwNzAyMTIsInByb2ZpbGVJZCI6IjU2Njc1YjIyMzJmMDRlZTA4OTE3OWU5YzkyMDZjZmU4IiwicHJvZmlsZU5hbWUiOiJUaGVJbmRyYSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWY1OWMwNTJkMzM5YmI2MzA1Y2FkMzcwZmQ4YzUyZjU4MjY5YTk1N2RmYWY0MzNhMjU1NTk3ZDk1ZTY4YTM3MyJ9fX0=\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and slaying\",2:\"§7Rabbits! Minions also work when\",3:\"§7you are offline!\",4:\"\",5:\"§7Time Between Actions: §a26s\",6:\"§7Max Storage: §e192\"],Name:\"§9Rabbit Minion I\"},ExtraAttributes:{id:\"RABBIT_GENERATOR_1\",generator_tier:1}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"fbb8165f-a72b-37b9-bde2-6d9dbd72ae3e\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MjAwNzAyMTIsInByb2ZpbGVJZCI6IjU2Njc1YjIyMzJmMDRlZTA4OTE3OWU5YzkyMDZjZmU4IiwicHJvZmlsZU5hbWUiOiJUaGVJbmRyYSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWY1OWMwNTJkMzM5YmI2MzA1Y2FkMzcwZmQ4YzUyZjU4MjY5YTk1N2RmYWY0MzNhMjU1NTk3ZDk1ZTY4YTM3MyJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and slaying\",2:\"§7Rabbits! Minions also work when\",3:\"§7you are offline!\",4:\"\",5:\"§7Time Between Actions: §a26s\",6:\"§7Max Storage: §e192\",7:\"\",8:\"§9§lRARE\"],Name:\"§9Rabbit Minion I\"},ExtraAttributes:{id:\"RABBIT_GENERATOR_1\",generator_tier:1}}",
   "damage": 3,
   "lore": [
     "§7Place this minion and it will",
@@ -10,7 +10,9 @@
     "§7you are offline!",
     "",
     "§7Time Between Actions: §a26s",
-    "§7Max Storage: §e192"
+    "§7Max Storage: §e192",
+    "",
+    "§9§lRARE"
   ],
   "recipe": {
     "A1": "RABBIT:8",
@@ -24,11 +26,13 @@
     "C3": "RABBIT:8"
   },
   "internalname": "RABBIT_GENERATOR_1",
+  "crafttext": "Requires: Raw Rabbit I",
   "clickcommand": "viewrecipe",
-  "modver": "1.0.0",
+  "modver": "2.1.0-REL",
   "useneucraft": true,
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Rabbit_Minion"
+    "https://hypixel-skyblock.fandom.com/wiki/Rabbit_Minion",
+    "https://wiki.hypixel.net/Rabbit_Minion"
   ]
 }

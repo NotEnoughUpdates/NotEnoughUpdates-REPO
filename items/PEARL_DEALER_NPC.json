@@ -1,0 +1,73 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Pearl Dealer (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"9733d005-216e-54a2-aaf5-8b58877b8413\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2EyYTRlZGU4ZWU5YzYyZTJlMTQ4ZTE1ZTdkNmViN2EzNDliOTA2OTdlN2UyNmRlNWY1M2I5NzY0ZjMzNWFlZCJ9fX0\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Pearl Dealer (NPC)\"},ExtraAttributes:{id:\"PEARL_DEALER_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "PEARL_DEALER_NPC",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Pearl_Dealer",
+    "https://wiki.hypixel.net/Pearl_Dealer"
+  ],
+  "x": -505,
+  "y": 103,
+  "z": -285,
+  "island": "combat_3",
+  "crafttext": "",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:10"
+      ],
+      "result": "ENDER_STONE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:50"
+      ],
+      "result": "OBSIDIAN"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:10000"
+      ],
+      "result": "SILENT_PEARL:8"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:200000"
+      ],
+      "result": "REMNANT_OF_THE_EYE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:499999"
+      ],
+      "result": "STONK_PICKAXE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:1000000"
+      ],
+      "result": "DRAGON_HUNTER;1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:1500000"
+      ],
+      "result": "ENDER_SLAYER;6"
+    }
+  ]
+}

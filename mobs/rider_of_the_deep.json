@@ -1,0 +1,23 @@
+{
+  "entity": "Chicken",
+  "modifiers": [
+    {
+      "type": "riding",
+      "entity": "Zombie",
+      "modifiers": [
+        {
+          "type": "equipment",
+          "hand": "DIAMOND_SWORD",
+          "helmet": "CHAINMAIL_HELMET",
+          "chestplate": "CHAINMAIL_CHESTPLATE",
+          "leggings": "CHAINMAIL_LEGGINGS",
+          "feet": "CHAINMAIL_BOOTS"
+        },
+        {
+          "type": "age",
+          "baby": "true"
+        }
+      ]
+    }
+  ]
+}

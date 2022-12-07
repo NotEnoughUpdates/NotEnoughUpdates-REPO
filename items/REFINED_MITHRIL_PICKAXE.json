@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:iron_pickaxe",
   "displayname": "§9Refined Mithril Pickaxe",
-  "nbttag": "{ench:[],overrideMeta:1b,Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§8Breaking Power 5\",1:\"\",2:\"§7Damage: §c+50\",3:\"§7Mining Speed: §a+300\",4:\"\",5:\"§7Grants §a+50 §6↑ Mining Speed\",6:\"§6§7when mining Mithril Ore§7.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§9§lRARE PICKAXE\",10:\"\",11:\"§eItems Required\",12:\"§5Refined Mithril §7x3\",13:\"§9Bejeweled Handle §7x2\",14:\"§5Refined Diamond §7x1\",15:\"§aEnchanted Gold §7x30\",16:\"\",17:\"§7Duration: §b22h\"],Name:\"§9Refined Mithril Pickaxe\"},ExtraAttributes:{id:\"REFINED_MITHRIL_PICKAXE\"},AttributeModifiers:[]}",
+  "nbttag": "{ench:[],overrideMeta:1b,Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§8Breaking Power 5\",1:\"\",2:\"§7Damage: §c+50\",3:\"§7Mining Speed: §a+300\",4:\"\",5:\"§7Grants §a+50 §6↑ Mining Speed\",6:\"§6§7when mining Mithril Ore§7.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§9§lRARE PICKAXE\"],Name:\"§9Refined Mithril Pickaxe\"},ExtraAttributes:{id:\"REFINED_MITHRIL_PICKAXE\"},AttributeModifiers:[]}",
   "damage": 0,
   "lore": [
     "§8Breaking Power 5",
@@ -13,22 +13,29 @@
     "§6§7when mining Mithril Ore§7.",
     "",
     "§7§8This item can be reforged!",
-    "§9§lRARE PICKAXE",
-    "",
-    "§eItems Required",
-    "§5Refined Mithril §7x3",
-    "§9Bejeweled Handle §7x2",
-    "§5Refined Diamond §7x1",
-    "§aEnchanted Gold §7x30",
-    "",
-    "§7Duration: §b22h"
+    "§9§lRARE PICKAXE"
   ],
   "internalname": "REFINED_MITHRIL_PICKAXE",
   "crafttext": "",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Refined_Mithril_Pickaxe"
+    "https://hypixel-skyblock.fandom.com/wiki/Refined_Mithril_Pickaxe",
+    "https://wiki.hypixel.net/Refined_Mithril_Pickaxe"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "REFINED_DIAMOND:1",
+        "ENCHANTED_GOLD:30",
+        "BEJEWELED_HANDLE:2",
+        "REFINED_MITHRIL:3"
+      ],
+      "count": 1,
+      "overrideOutputId": "REFINED_MITHRIL_PICKAXE",
+      "duration": 79200
+    }
   ]
 }

@@ -5,12 +5,19 @@
   "clickcommand": "",
   "damage": 0,
   "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fWater Bottle\"},ExtraAttributes:{bottle_of_jyrre_seconds:290,id:\"BOTTLE_OF_JYRRE\"}}",
-  "modver": "1.0.0",
+  "modver": "2.1.0-REL",
   "lore": [
     "§f§lCOMMON"
   ],
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Bottle_of_Jyrre"
+  ],
+  "recipes": [
+    {
+    "type": "trade",
+    "cost": "ENCHANTED_EMERALD:2",
+    "result": "BOTTLE_OF_JYRRE"
+    }
   ]
 }

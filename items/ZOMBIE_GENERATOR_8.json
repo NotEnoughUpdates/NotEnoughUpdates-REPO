@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Zombie Minion VIII",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"700ce7a5-60cb-3be9-b4df-f8a1c25cf2ec\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzYzNDM2MDIsInByb2ZpbGVJZCI6Ijc1MTQ0NDgxOTFlNjQ1NDY4Yzk3MzlhNmUzOTU3YmViIiwicHJvZmlsZU5hbWUiOiJUaGFua3NNb2phbmciLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U0MGIyMGFiYTViM2MyNzlkZWU0MmIzOWQ4ZTAzZGUyNWNiZWFkMzQyMTY1NWYwY2YxYmVhNDNlZDBiNDI3MmUifX19\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and slaying\",2:\"§7Zombies! Minions also work when\",3:\"§7you are offline!\",4:\"\",5:\"§7Time Between Actions: §a20s\",6:\"§7Max Storage: §e768\"],Name:\"§9Zombie Minion VIII\"},ExtraAttributes:{id:\"ZOMBIE_GENERATOR_8\",generator_tier:8}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"700ce7a5-60cb-3be9-b4df-f8a1c25cf2ec\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzYzNDM2MDIsInByb2ZpbGVJZCI6Ijc1MTQ0NDgxOTFlNjQ1NDY4Yzk3MzlhNmUzOTU3YmViIiwicHJvZmlsZU5hbWUiOiJUaGFua3NNb2phbmciLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U0MGIyMGFiYTViM2MyNzlkZWU0MmIzOWQ4ZTAzZGUyNWNiZWFkMzQyMTY1NWYwY2YxYmVhNDNlZDBiNDI3MmUifX19\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and slaying\",2:\"§7Zombies! Minions also work when\",3:\"§7you are offline!\",4:\"\",5:\"§7Time Between Actions: §a20s\",6:\"§7Max Storage: §e768\",7:\"\",8:\"§9§lRARE\"],Name:\"§9Zombie Minion VIII\"},ExtraAttributes:{id:\"ZOMBIE_GENERATOR_8\",generator_tier:8}}",
   "damage": 3,
   "lore": [
     "§7Place this minion and it will",
@@ -10,7 +10,9 @@
     "§7you are offline!",
     "",
     "§7Time Between Actions: §a20s",
-    "§7Max Storage: §e768"
+    "§7Max Storage: §e768",
+    "",
+    "§9§lRARE"
   ],
   "recipe": {
     "A1": "ENCHANTED_ROTTEN_FLESH:8",
@@ -25,10 +27,12 @@
   },
   "internalname": "ZOMBIE_GENERATOR_8",
   "clickcommand": "viewrecipe",
-  "modver": "2.0.0-REL",
+  "modver": "2.1.0-REL",
   "useneucraft": true,
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Zombie_Minion"
-  ]
+    "https://hypixel-skyblock.fandom.com/wiki/Zombie_Minion",
+    "https://wiki.hypixel.net/Zombie_Minion_VIII"
+  ],
+  "crafttext": ""
 }

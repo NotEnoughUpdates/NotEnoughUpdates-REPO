@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§6⸕ §6Perfect Amber Gemstone",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"a049882d-0f0e-3ed6-82c9-1852557efc88\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyNDk3OTI5MzQ4MCwKICAicHJvZmlsZUlkIiA6ICI5OTdjZjFlMmY1NGQ0YzEyOWY2ZjU5ZTVlNjU1YjZmNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJpbzEyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM3YWUyMzZjZGVjM2YyYTZmNTFlYWUxNWUyYzhmNjIyOGIzNGYxMzdkYTE1NjlmZWM5ZTgwM2Y5Y2Q4MTc1OWQiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7A perfectly §6refined §6Amber§7.\",1:\"\",2:\"§7§7Some say that when §eharnessed\",3:\"§eproperly§7, it can give its\",4:\"§7owner extra §6⸕ Mining Speed§7.\",5:\"\",6:\"§6§lLEGENDARY\",7:\"\",8:\"§eItems Required\",9:\"§5⸕ §5Flawless Amber Gemstone §7x5\",10:\"§6Amber Crystal §7x1\",11:\"\",12:\"§7Duration: §b20h\"],Name:\"§6⸕ §6Perfect Amber Gemstone\"},ExtraAttributes:{id:\"PERFECT_AMBER_GEM\"},AttributeModifiers:[]}",
+  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"a049882d-0f0e-3ed6-82c9-1852557efc88\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyNDk3OTI5MzQ4MCwKICAicHJvZmlsZUlkIiA6ICI5OTdjZjFlMmY1NGQ0YzEyOWY2ZjU5ZTVlNjU1YjZmNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJpbzEyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM3YWUyMzZjZGVjM2YyYTZmNTFlYWUxNWUyYzhmNjIyOGIzNGYxMzdkYTE1NjlmZWM5ZTgwM2Y5Y2Q4MTc1OWQiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7A perfectly §6refined §6Amber§7.\",1:\"\",2:\"§7§7Some say that when §eharnessed\",3:\"§eproperly§7, it can give its\",4:\"§7owner extra §6⸕ Mining Speed§7.\",5:\"\",6:\"§6§lLEGENDARY\"],Name:\"§6⸕ §6Perfect Amber Gemstone\"},ExtraAttributes:{id:\"PERFECT_AMBER_GEM\"},AttributeModifiers:[]}",
   "damage": 3,
   "lore": [
     "§7A perfectly §6refined §6Amber§7.",
@@ -10,20 +10,27 @@
     "§eproperly§7, it can give its",
     "§7owner extra §6⸕ Mining Speed§7.",
     "",
-    "§6§lLEGENDARY",
-    "",
-    "§eItems Required",
-    "§5⸕ §5Flawless Amber Gemstone §7x5",
-    "§6Amber Crystal §7x1",
-    "",
-    "§7Duration: §b20h"
+    "§6§lLEGENDARY"
   ],
   "internalname": "PERFECT_AMBER_GEM",
   "crafttext": "",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Gemstone"
+    "https://hypixel-skyblock.fandom.com/wiki/Gemstone",
+    "https://wiki.hypixel.net/%E2%B8%95_Perfect_Amber_Gemstone"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "AMBER_CRYSTAL:1",
+        "FLAWLESS_AMBER_GEM:5"
+      ],
+      "count": 1,
+      "overrideOutputId": "PERFECT_AMBER_GEM",
+      "duration": 72000
+    }
   ]
 }

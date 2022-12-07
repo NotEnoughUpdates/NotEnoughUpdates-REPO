@@ -1,0 +1,108 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Jax (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"cd8f4798-7327-281d-aef9-3fb98e73162c\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyNTcyODU3NTQyNiwKICAicHJvZmlsZUlkIiA6ICI0NWY3YTJlNjE3ODE0YjJjODAwODM5MmRmN2IzNWY0ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJfSnVzdERvSXQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWRiODUwMzIxNDYxMDZiMTlmMGJlZDA2Y2FhMDNhYjk5OWYwODA3OTY3NjgwNGU2ZTBkZjJmZjFkMjhlMmNiMSIKICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Jax (NPC)\"},ExtraAttributes:{id:\"JAX_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "JAX_NPC",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Jax",
+    "https://wiki.hypixel.net/Jax"
+  ],
+  "crafttext": "",
+  "x": 5,
+  "y": 63,
+  "z": -134,
+  "island": "hub",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:1000"
+      ],
+      "result": "ARROW_SWAPPER:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:320"
+      ],
+      "result": "ARROW:64"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "IRON_INGOT:24"
+      ],
+      "result": "REINFORCED_IRON_ARROW:64"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "GOLD_INGOT:40"
+      ],
+      "result": "GOLD_TIPPED_ARROW:64"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "REDSTONE_BLOCK:24"
+      ],
+      "result": "REDSTONE_TIPPED_ARROW:64"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "EMERALD_BLOCK:24"
+      ],
+      "result": "EMERALD_TIPPED_ARROW:64"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SLIME_BLOCK:24"
+      ],
+      "result": "BOUNCY_ARROW:64"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "PACKED_ICE:64"
+      ],
+      "result": "ICY_ARROW:64"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "ENCHANTED_SAND:2"
+      ],
+      "result": "ARMORSHRED_ARROW:64"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "COAL_BLOCK:24"
+      ],
+      "result": "EXPLOSIVE_ARROW:64"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "TARANTULA_WEB:64"
+      ],
+      "result": "GLUE_ARROW:64"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "ENCHANTED_CACTUS_GREEN:8"
+      ],
+      "result": "NANSORB_ARROW:64"
+    }
+  ]
+}

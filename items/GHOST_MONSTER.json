@@ -1,34 +1,56 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Ghost (Monster)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"c5752211-7503-3e77-9890-d1cf6ba1d0e7\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTgxOTc3OTE4YTExODBlMGRlYzg3OWU2YmNkMWFhMzk0OTQ5NzdiYjkxM2JlMmFiMDFhZmYxZGIxZmE0In19fQ\"}]}},display:{Lore:[0:\"§7Ghosts are powerful mobs that spawn in the\",1:\"§7mist area of the Dwarven mines. They appear as\",2:\"§7the outer part of charged creepers.\",3:\"\",4:\"§c❤ Health§8: §c1.000.000\",5:\"§7Combat XP: §3100\",6:\"§7Coins: §60-1,000,000 §8(§dPray RNGeusus§8)\",7:\"\",8:\"§6§lPossible Drops:\",9:\"§9Rare Loot\",10:\"§8 ■ §9Volta §8(§a0.2%§8)\",11:\"§8 ■ §9Sorrow §8(§a0.12%§8)\",12:\"\",13:\"§6Legendary Loot\",14:\"§8 ■ §9Plasma §8(§a0.1%§8)\",15:\"\",16:\"§dRNGesus Loot\",17:\"§8 ■ §9Ghostly Boots §8(§a0.01%§8)\"],Name:\"§9Ghost (Monster)\"},ExtraAttributes:{id:\"GHOST_MONSTER\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"c5752211-7503-3e77-9890-d1cf6ba1d0e7\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTgxOTc3OTE4YTExODBlMGRlYzg3OWU2YmNkMWFhMzk0OTQ5NzdiYjkxM2JlMmFiMDFhZmYxZGIxZmE0In19fQ\"}]}},display:{Lore:[0:\"§7Ghosts are powerful mobs that spawn in the\",1:\"§7mist area of the Dwarven mines. They appear as\",2:\"§7the outer part of charged creepers.\",3:\"\",4:\"§c❤ Health§8: §c1,000,000\",5:\"§7Coins: §60-1,000,000 §8(§dPray RNGeusus§8)\"],Name:\"§9Ghost (Monster)\"},ExtraAttributes:{id:\"GHOST_MONSTER\"}}",
   "damage": 3,
   "lore": [
     "§7Ghosts are powerful mobs that spawn in the",
     "§7mist area of the Dwarven mines. They appear as",
     "§7the outer part of charged creepers.",
     "",
-    "§c❤ Health§8: §c1.000.000",
-    "§7Combat XP: §3100",
-    "§7Coins: §60-1,000,000 §8(§dPray RNGeusus§8)",
-    "",
-    "§6§lPossible Drops:",
-    "§9Rare Loot",
-    "§8 ■ §9Volta §8(§a0.2%§8)",
-    "§8 ■ §9Sorrow §8(§a0.12%§8)",
-    "",
-    "§6Legendary Loot",
-    "§8 ■ §9Plasma §8(§a0.1%§8)",
-    "",
-    "§dRNGesus Loot",
-    "§8 ■ §9Ghostly Boots §8(§a0.01%§8)"
+    "§c❤ Health§8: §c1,000,000",
+    "§7Coins: §60-1,000,000 §8(§dPray RNGeusus§8)"
   ],
   "internalname": "GHOST_MONSTER",
-  "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Ghost"
+    "https://hypixel-skyblock.fandom.com/wiki/Ghost",
+    "https://wiki.hypixel.net/Ghost"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 250,
+      "coins": 0,
+      "xp": 0,
+      "combat_xp": 100,
+      "name": "§cGhost",
+      "panorama": "mining_3",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "VOLTA:1",
+          "extra": [],
+          "chance": "0.2%"
+        },
+        {
+          "id": "PLASMA:1",
+          "extra": [],
+          "chance": "0.1%"
+        },
+        {
+          "id": "GHOST_BOOTS:1",
+          "extra": [],
+          "chance": "0.01%"
+        },
+        {
+          "id": "SORROW:1",
+          "extra": [],
+          "chance": "0.12%"
+        }
+      ]
+    }
+  ]
 }

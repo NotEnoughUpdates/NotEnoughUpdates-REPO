@@ -63,12 +63,12 @@
       "MYTHIC": 10000
     },
     "reforgeAbility": {
-      "COMMON": "Gain §a+1% §7Farming exp. §7Grants §a+5 §6☘ Farming §6Fortune§7, which increases your §7chance for double crops.",
-      "UNCOMMON": "Gain §a+2% §7Farming exp. §7Grants §a+7 §6☘ Farming §6Fortune§7, which increases your §7chance for double crops.",
-      "RARE": "Gain §a+3% §7Farming exp. §7Grants §a+9 §6☘ Farming §6Fortune§7, which increases your §7chance for double crops.",
-      "EPIC": "Gain §a+4% §7Farming exp. §7Grants §a+13 §6☘ Farming §6Fortune§7, which increases your §7chance for double crops.",
-      "LEGENDARY": "Gain §a+5% §7Farming exp. §7Grants §a+16 §6☘ Farming §6Fortune§7, which increases your §7chance for double crops.",
-      "MYTHIC": "Gain §a+6% §7Farming exp. §7Grants §a+20 §6☘ Farming §6Fortune§7, which increases your §7chance for double crops."
+      "COMMON": "Grants §6+5☘ Farming Fortune §7and §3+1☯ Farming Wisdom§7.",
+      "UNCOMMON": "Grants §6+7☘ Farming Fortune §7and §3+2☯ Farming Wisdom§7.",
+      "RARE": "Grants §6+9☘ Farming Fortune §7and §3+3☯ Farming Wisdom§7.",
+      "EPIC": "Grants §6+13☘ Farming Fortune §7and §3+4☯ Farming Wisdom§7.",
+      "LEGENDARY": "Grants §6+16☘ Farming Fortune §7and §3+6☯ Farming Wisdom§7.",
+      "MYTHIC": "Grants §6+20☘ Farming Fortune §7and §3+6☯ Farming Wisdom§7."
     },
     "reforgeStats": {
       "COMMON": {
@@ -270,23 +270,28 @@
       },
       "UNCOMMON": {
         "crit_chance": 4,
-        "sea_creature_chance": 0.6
+        "sea_creature_chance": 0.6,
+        "fishing_speed": 1
       },
       "RARE": {
         "crit_chance": 6,
-        "sea_creature_chance": 0.7
+        "sea_creature_chance": 0.7,
+        "fishing_speed": 2
       },
       "EPIC": {
         "crit_chance": 8,
-        "sea_creature_chance": 0.8
+        "sea_creature_chance": 0.8,
+        "fishing_speed": 3
       },
       "LEGENDARY": {
         "crit_chance": 10,
-        "sea_creature_chance": 0.9
+        "sea_creature_chance": 0.9,
+        "fishing_speed": 4
       },
       "MYTHIC": {
         "crit_chance": 12,
-        "sea_creature_chance": 1
+        "sea_creature_chance": 1,
+        "fishing_speed": 5
       }
     }
   },
@@ -613,7 +618,7 @@
   },
   "ENDSTONE_GEODE": {
     "internalName": "ENDSTONE_GEODE",
-    "reforgeName": "Warped",
+    "reforgeName": "Hyper",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "ARMOR",
     "requiredRarities": [
@@ -670,6 +675,49 @@
         "strength": 12,
         "bonus_attack_speed": 7,
         "speed": 5
+      }
+    }
+  },
+  "ENTROPY_SUPPRESSOR": {
+    "internalName": "ENTROPY_SUPPRESSOR",
+    "reforgeName": "Coldfused",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "SWORD",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts": {
+      "COMMON": 60000,
+      "UNCOMMON": 125000,
+      "RARE": 250000,
+      "EPIC": 500000,
+      "LEGENDARY": 1000000,
+      "MYTHIC": 20000000
+    },
+    "reforgeAbility": "§8Only if Wisp is equipped §c+75❁ Strength §9+55☠ Crit Damage §7Deal §62x §7to fire pillars, breaking one §7grants §f+30❂ True Defense §7and §c+1.15x §cdamage §7for §a60s§7.",
+    "reforgeStats": {
+      "COMMON": {
+        "magic_find": 2
+      },
+      "UNCOMMON": {
+        "magic_find": 2
+      },
+      "RARE": {
+        "magic_find": 2
+      },
+      "EPIC": {
+        "magic_find": 2
+      },
+      "LEGENDARY": {
+        "magic_find": 2
+      },
+      "MYTHIC": {
+        "magic_find": 2
       }
     }
   },
@@ -824,7 +872,8 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
       "COMMON": 20000,
@@ -832,9 +881,10 @@
       "RARE": 80000,
       "EPIC": 150000,
       "LEGENDARY": 300000,
-      "MYTHIC": 600000
+      "MYTHIC": 600000,
+      "DIVINE": 600000
     },
-    "reforgeAbility": "§7Grants §aincreased §6⸕ Mining §6Speed §7the deeper the you §7venture."
+    "reforgeAbility": "§7Grants §aincreased §6⸕ Mining Speed §7the deeper you venture."
   },
   "JERRY_STONE": {
     "internalName": "JERRY_STONE",
@@ -914,6 +964,61 @@
       "MYTHIC": {
         "mining_speed": 60,
         "mining_fortune": 30
+      }
+    }
+  },
+  "KUUDRA_MANDIBLE": {
+    "internalName": "KUUDRA_MANDIBLE",
+    "reforgeName": "Chomp",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "ROD",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts": {
+      "COMMON": 20000,
+      "UNCOMMON": 40000,
+      "RARE": 80000,
+      "EPIC": 150000,
+      "LEGENDARY": 300000,
+      "MYTHIC": 600000
+    },
+    "reforgeAbility": "§7Lava Sea Creatures have their max Health reduced for each unique lava sea creature that you've killed with this rod!",
+    "reforgeStats": {
+      "COMMON": {
+        "strength": 5,
+        "crit_chance": 5,
+        "fishing_speed": 1
+      },
+      "UNCOMMON": {
+        "strength": 10,
+        "crit_chance": 10,
+        "fishing_speed": 2
+      },
+      "RARE": {
+        "strength": 17,
+        "crit_chance": 17,
+        "fishing_speed": 4
+      },
+      "EPIC": {
+        "strength": 25,
+        "crit_chance": 25,
+        "fishing_speed": 6
+      },
+      "LEGENDARY": {
+        "strength": 35,
+        "crit_chance": 35,
+        "fishing_speed": 8
+      },
+      "MYTHIC": {
+        "strength": 50,
+        "crit_chance": 50,
+        "fishing_speed": 10
       }
     }
   },
@@ -1572,6 +1677,54 @@
       }
     }
   },
+  "PITCHIN_KOI": {
+    "internalName": "PITCHIN_KOI",
+    "reforgeName": "Pitchin'",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "ROD",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts": {
+      "COMMON": 5000,
+      "UNCOMMON": 20000,
+      "RARE": 40000,
+      "EPIC": 80000,
+      "LEGENDARY": 120000,
+      "MYTHIC": 280000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "fishing_speed": 1,
+        "sea_creature_chance": 1
+      },
+      "UNCOMMON": {
+        "fishing_speed": 2,
+        "sea_creature_chance": 1
+      },
+      "RARE": {
+        "fishing_speed": 4,
+        "sea_creature_chance": 2
+      },
+      "EPIC": {
+        "fishing_speed": 6,
+        "sea_creature_chance": 3
+      },
+      "LEGENDARY": {
+        "fishing_speed": 8,
+        "sea_creature_chance": 4
+      },
+      "MYTHIC": {
+        "fishing_speed": 10,
+        "sea_creature_chance": 5
+      }
+    }
+  },
   "RARE_DIAMOND": {
     "internalName": "RARE_DIAMOND",
     "reforgeName": "Reinforced",
@@ -1736,6 +1889,7 @@
       "EPIC",
       "LEGENDARY",
       "MYTHIC",
+      "DIVINE",
       "SPECIAL",
       "VERY SPECIAL"
     ],
@@ -1746,18 +1900,20 @@
       "EPIC": 10000,
       "MYTHIC": 10000,
       "LEGENDARY": 10000,
+      "DIVINE": 10000,
       "SPECIAL": 10000,
       "VERY SPECIAL": 10000
     },
     "reforgeAbility": {
-      "COMMON": "Gain §a+1% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
-      "UNCOMMON": "Gain §a+2% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
-      "RARE": "Gain §a+3% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
-      "EPIC": "Gain §a+4% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
-      "LEGENDARY": "Gain §a+5% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
-      "MYTHIC": "Gain §a+6% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
-      "SPECIAL": "Gain §a+8% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
-      "VERY SPECIAL": "Gain §a+5% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine."
+      "COMMON": "Grants §3+1☯ Mining Wisdom§7.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
+      "UNCOMMON": "Grants §3+2☯ Mining Wisdom§7.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
+      "RARE": "Grants §3+3☯ Mining Wisdom§7.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
+      "EPIC": "Grants §3+4☯ Mining Wisdom§7.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
+      "LEGENDARY": "Grants §3+5☯ Mining Wisdom§7.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
+      "MYTHIC": "Grants §3+6☯ Mining Wisdom§7.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
+      "DIVINE": "Grants §3+7☯ Mining Wisdom§7.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
+      "SPECIAL": "Grants §3+8☯ Mining Wisdom§7.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
+      "VERY SPECIAL": "Grants §3+9☯ Mining Wisdom§7.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine."
     },
     "reforgeStats": {
       "COMMON": {
@@ -1777,6 +1933,9 @@
       },
       "MYTHIC": {
         "defense": 20
+      },
+      "DIVINE": {
+        "defense": 24
       },
       "SPECIAL": {
         "defense": 20
@@ -1806,8 +1965,8 @@
       "RARE": 80000,
       "EPIC": 150000,
       "LEGENDARY": 300000,
-      "MYTHIC": 300000,
-      "DIVINE": 300000
+      "MYTHIC": 600000,
+      "DIVINE": 600000
     },
     "reforgeAbility": "Grants §a+8 §6☘ Mining §6Fortune§7, which increases your §7chance for multiple drops.",
     "reforgeStats": {
@@ -1855,7 +2014,7 @@
       "LEGENDARY": 1000000,
       "MYTHIC": 2000000
     },
-    "reforgeAbility": "Any healing on others is increased by §a10% §7while in dungeons.",
+    "reforgeAbility": "§7Grants §a+10☄ Mending §7while in Dungeons, which increases your healing on others..",
     "reforgeStats": {
       "COMMON": {
         "health": 10,

@@ -1,0 +1,58 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Odawa (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"d5e6def2-216b-537a-b0c8-b210ad2ba51d\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmI3Y2FmNGJkOTM2MTgxZjZiYTEwYjBhNmJkYTE0NGFhYjAzNjRlOGM4NmVmY2FkNjA3ZmVmNGJkNzcwODE3In19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Odawa (NPC)\"},ExtraAttributes:{id:\"ODAWA_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "ODAWA_NPC",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Odawa",
+    "https://wiki.hypixel.net/Odawa"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SLUDGE_JUICE:20",
+        "WOOD:20"
+      ],
+      "result": "KALHUIKI_MASK"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SLUDGE_JUICE:500",
+        "JUNGLE_HEART:4"
+      ],
+      "result": "JUNGLE_AMULET"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SLUDGE_JUICE:100",
+        "JUNGLE_HEART:1"
+      ],
+      "result": "TRIBAL_SPEAR"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SLUDGE_JUICE:100"
+      ],
+      "result": "JUNGLE_KEY"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SLUDGE_JUICE:200"
+      ],
+      "result": "JUNGLE_PICKAXE"
+    }
+  ]
+}

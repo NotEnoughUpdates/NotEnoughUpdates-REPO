@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:prismarine_shard",
   "displayname": "§9Gemstone Drill LT-522",
-  "nbttag": "{ench:[],overrideMeta:1b,HideFlags:254,display:{Lore:[0:\"§8Breaking Power 8\",1:\"\",2:\"§7Damage: §c+75\",3:\"§7Mining Speed: §a+300\",4:\"\",5:\"§7Gives §a+800§7 §dGemstone §6⸕ Mining Speed\",6:\"§7Gives §a+80§7 §dGemstone §6☘ Mining Fortune\",7:\"\",8:\"§7Fuel Tank: §cNot Installed\",9:\"§7§7Increases fuel capacity with\",10:\"§7part installed.\",11:\"\",12:\"§7Drill Engine: §cNot Installed\",13:\"§7§7Increases §6⸕ Mining Speed\",14:\"§6§7with part installed.\",15:\"\",16:\"§7Upgrade Module: §cNot Installed\",17:\"§7§7Applies a passive upgrade with\",18:\"§7part installed.\",19:\"\",20:\"§7Apply Drill Parts to this Drill\",21:\"§7by talking to §2Jotraeline\",22:\"§2Greatforge §7in the §2Dwarven\",23:\"§2Mines§7!\",24:\"\",25:\"§7Fuel: §23,000§8/3k\",26:\"\",27:\"§7§8This item can be reforged!\",28:\"§7§4❣ §cRequires §5Heart of the\",29:\"§5Mountain Tier 4\",30:\"§9§lRARE DRILL\",31:\"\",32:\"§eItems Required\",33:\"§9Ruby Drill Model TX-15 §7x1\",34:\"§9Gemstone Mixture §7x3\",35:\"\",36:\"§7Duration: §b30s\"],Name:\"§9Gemstone Drill LT-522\"},ExtraAttributes:{id:\"GEMSTONE_DRILL_2\"},AttributeModifiers:[]}",
+  "nbttag": "{ench:[],overrideMeta:1b,HideFlags:254,display:{Lore:[0:\"§8Breaking Power 8\",1:\"\",2:\"§7Damage: §c+75\",3:\"§7Mining Speed: §a+300\",4:\"\",5:\"§7Gives §a+800§7 §dGemstone §6⸕ Mining Speed\",6:\"§7Gives §a+80§7 §dGemstone §6☘ Mining Fortune\",7:\"\",8:\"§7Fuel Tank: §cNot Installed\",9:\"§7§7Increases fuel capacity with\",10:\"§7part installed.\",11:\"\",12:\"§7Drill Engine: §cNot Installed\",13:\"§7§7Increases §6⸕ Mining Speed\",14:\"§6§7with part installed.\",15:\"\",16:\"§7Upgrade Module: §cNot Installed\",17:\"§7§7Applies a passive upgrade with\",18:\"§7part installed.\",19:\"\",20:\"§7Apply Drill Parts to this Drill\",21:\"§7by talking to §2Jotraeline\",22:\"§2Greatforge §7in the §2Dwarven\",23:\"§2Mines§7!\",24:\"\",25:\"§7Fuel: §23,000§8/3k\",26:\"\",27:\"§7§8This item can be reforged!\",28:\"§7§4❣ §cRequires §5Heart of the\",29:\"§5Mountain Tier 4\",30:\"§9§lRARE DRILL\"],Name:\"§9Gemstone Drill LT-522\"},ExtraAttributes:{id:\"GEMSTONE_DRILL_2\"},AttributeModifiers:[]}",
   "damage": 0,
   "lore": [
     "§8Breaking Power 8",
@@ -34,20 +34,27 @@
     "§7§8This item can be reforged!",
     "§7§4❣ §cRequires §5Heart of the",
     "§5Mountain Tier 4",
-    "§9§lRARE DRILL",
-    "",
-    "§eItems Required",
-    "§9Ruby Drill Model TX-15 §7x1",
-    "§9Gemstone Mixture §7x3",
-    "",
-    "§7Duration: §b30s"
+    "§9§lRARE DRILL"
   ],
   "internalname": "GEMSTONE_DRILL_2",
   "crafttext": "",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Gemstone_Drill_LT-522"
+    "https://hypixel-skyblock.fandom.com/wiki/Gemstone_Drill_Model_LT-522",
+    "https://wiki.hypixel.net/Gemstone_Drill_LT-522"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "GEMSTONE_DRILL_1:1",
+        "GEMSTONE_MIXTURE:3"
+      ],
+      "count": 1,
+      "overrideOutputId": "GEMSTONE_DRILL_2",
+      "duration": 30
+    }
   ]
 }

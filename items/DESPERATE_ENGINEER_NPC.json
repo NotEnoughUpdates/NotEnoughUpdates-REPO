@@ -1,0 +1,26 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Desperate Engineer (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"0dae11c3-e014-54ca-9487-6e6619af5dd2\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzc1ZWE0MjA1MGE0NzhmMjgzOTQ4ODQxMjBiNDIwOTFhYTQyMTIxNTQ4NzZkYzNkNzIwNjJhZWEwN2NhYzBlOSJ9fX0\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Scoop (NPC)\"},ExtraAttributes:{id:\"SCOOP_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "DESPERATE_ENGINEER_NPC",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "",
+  "x": -290,
+  "y": 129,
+  "z": -982,
+  "island": "crimson_isle",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:3700000"
+      ],
+      "result": "MOODY_GRAPPLESHOT"
+    }
+  ]
+}
