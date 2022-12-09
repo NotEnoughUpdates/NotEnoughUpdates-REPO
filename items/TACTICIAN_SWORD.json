@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:wooden_sword",
-  "displayname": "§9Tactician's Sword",
-  "nbttag": "{overrideMeta:1b,Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+50\",1:\"§7Crit Chance: §c+20%\",2:\"\",3:\"§7§7Gains §c+15 Damage §7for\",4:\"§7each Combat collection of\",5:\"§7Tier VII and over of its\",6:\"§7wearer.\",7:\"\",8:\"§7Your Collections: §e§k0§7/§e10\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§9§lRARE SWORD\"],Name:\"§9Tactician's Sword\"},ExtraAttributes:{id:\"TACTICIAN_SWORD\"},AttributeModifiers:[]}",
+  "displayname": "§9Tactician\u0027s Sword",
+  "nbttag": "{overrideMeta:1b,Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+50\",1:\"§7Crit Chance: §c+20%\",2:\"\",3:\"§7§7Gains §c+15 Damage §7for\",4:\"§7each Combat collection of\",5:\"§7Tier VII and over of its\",6:\"§7wearer.\",7:\"\",8:\"§7Your Collections: §e§k0§7/§e11\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§9§lRARE SWORD\"],Name:\"§9Tactician\u0027s Sword\"},ExtraAttributes:{id:\"TACTICIAN_SWORD\"},AttributeModifiers:[]}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+50",
@@ -12,7 +12,7 @@
     "§7Tier VII and over of its",
     "§7wearer.",
     "",
-    "§7Your Collections: §e§k0§7/§e10",
+    "§7Your Collections: §e§k0§7/§e11",
     "",
     "§7§8This item can be reforged!",
     "§9§lRARE SWORD"
@@ -28,9 +28,9 @@
   ],
   "recipes": [
     {
-    "type": "trade",
-    "cost": "ENCHANTED_EMERALD:9",
-    "result": "TACTICIAN_SWORD"
+      "type": "trade",
+      "cost": "ENCHANTED_EMERALD:9",
+      "result": "TACTICIAN_SWORD"
     }
   ]
 }
