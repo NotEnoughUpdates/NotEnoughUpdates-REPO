@@ -1,285 +1,399 @@
 {
   "ESSENCE_UNDEAD": {
-    "catacombs_boss_luck": [
-      100,
-      1000,
-      10000,
-      100000
-    ],
-    "catacombs_looting": [
-      1000,
-      2000,
-      3000,
-      4000,
-      5000
-    ],
-    "revive_stone": [
-      200000
-    ],
-    "catacombs_health": [
-      1000,
-      2500,
-      5000,
-      10000,
-      25000
-    ],
-    "catacombs_defense": [
-      1000,
-      4000,
-      6000,
-      8000,
-      10000
-    ],
-    "catacombs_strength": [
-      1000,
-      4000,
-      6000,
-      8000,
-      10000
-    ],
-    "catacombs_intelligence": [
-      1000,
-      4000,
-      6000,
-      8000,
-      10000
-    ],
-    "catacombs_crit_damage": [
-      1000,
-      3000,
-      10000,
-      20000,
-      50000
-    ]
+    "catacombs_boss_luck": {
+      "costs": [
+        100,
+        1000,
+        10000,
+        100000
+      ],
+      "name": "Boss Luck"
+    },
+    "catacombs_looting": {
+      "costs": [
+        1000,
+        2000,
+        3000,
+        4000,
+        5000
+      ],
+      "name": "Looting"
+    },
+    "revive_stone": {
+      "costs": [
+        200000
+      ],
+      "name": "Help of the Fairies"
+    },
+    "catacombs_health": {
+      "costs": [
+        1000,
+        2500,
+        5000,
+        10000,
+        25000
+      ],
+      "name": "Health Essence"
+    },
+    "catacombs_defense": {
+      "costs": [
+        1000,
+        4000,
+        6000,
+        8000,
+        10000
+      ],
+      "name": "Defense Essence"
+    },
+    "catacombs_strength": {
+      "costs": [
+        1000,
+        4000,
+        6000,
+        8000,
+        10000
+      ],
+      "name": "Strength Essence"
+    },
+    "catacombs_intelligence": {
+      "costs": [
+        1000,
+        4000,
+        6000,
+        8000,
+        10000
+      ],
+      "name": "Intelligence Essence"
+    },
+    "catacombs_crit_damage": {
+      "costs": [
+        1000,
+        3000,
+        10000,
+        20000,
+        50000
+      ],
+      "name": "Critical Essence"
+    }
   },
   "ESSENCE_WITHER": {
-    "permanent_health": [
-      100,
-      250,
-      500,
-      1000,
-      1500
-    ],
-    "permanent_defense": [
-      100,
-      250,
-      500,
-      1000,
-      1500
-    ],
-    "permanent_speed": [
-      100,
-      250
-    ],
-    "permanent_intelligence": [
-      100,
-      250,
-      500,
-      1000,
-      1500
-    ],
-    "permanent_strength": [
-      100,
-      250,
-      500,
-      1000,
-      1500
-    ],
-    "forbidden_blessing": [
-      200,
-      400,
-      600,
-      800,
-      1000,
-      1200,
-      1400,
-      1600,
-      1800,
-      2000
-    ]
+    "permanent_health": {
+      "costs": [
+        100,
+        250,
+        500,
+        1000,
+        1500
+      ],
+      "name": "Forbidden Health"
+    },
+    "permanent_defense": {
+      "costs": [
+        100,
+        250,
+        500,
+        1000,
+        1500
+      ],
+      "name": "Forbidden Defense"
+    },
+    "permanent_speed": {
+      "costs": [
+        100,
+        250
+      ],
+      "name": "Forbidden Speed"
+    },
+    "permanent_intelligence": {
+      "costs": [
+        100,
+        250,
+        500,
+        1000,
+        1500
+      ],
+      "name": "Forbidden Intelligence"
+    },
+    "permanent_strength": {
+      "costs": [
+        100,
+        250,
+        500,
+        1000,
+        1500
+      ],
+      "name": "Forbidden Strength"
+    },
+    "forbidden_blessing": {
+      "costs": [
+        200,
+        400,
+        600,
+        800,
+        1000,
+        1200,
+        1400,
+        1600,
+        1800,
+        2000
+      ],
+      "name": "Forbidden Blessing"
+    }
   },
   "ESSENCE_DRAGON": {
-    "flat_damage_vs_ender": [
-      100,
-      200,
-      300,
-      400,
-      500
-    ],
-    "mana_after_ender_kill": [
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100
-    ],
-    "fero_vs_dragons": [
-      125,
-      250,
-      500,
-      1000,
-      1500
-    ],
-    "inc_zealots_odds": [
-      150,
-      500,
-      1250,
-      2000,
-      3000
-    ],
-    "combat_wisdom_in_end": [
-      250,
-      1250,
-      5000
-    ],
-    "edrag_cd": [
-      500,
-      1500,
-      2500,
-      3500,
-      4000
-    ],
-    "dragon_reforges_buff": [
-      1500,
-      2250,
-      3250,
-      4500,
-      6500
-    ],
-    "increased_sup_chances": [
-      2000
-    ]
+    "flat_damage_vs_ender": {
+      "costs": [
+        100,
+        200,
+        300,
+        400,
+        500
+      ],
+      "name": "One Punch"
+    },
+    "mana_after_ender_kill": {
+      "costs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "name": "Recharge"
+    },
+    "fero_vs_dragons": {
+      "costs": [
+        125,
+        250,
+        500,
+        1000,
+        1500
+      ],
+      "name": "Rageborn"
+    },
+    "inc_zealots_odds": {
+      "costs": [
+        150,
+        500,
+        1250,
+        2000,
+        3000
+      ],
+      "name": "Zealuck"
+    },
+    "combat_wisdom_in_end": {
+      "costs": [
+        250,
+        1250,
+        5000
+      ],
+      "name": "Ender Training"
+    },
+    "edrag_cd": {
+      "costs": [
+        500,
+        1500,
+        2500,
+        3500,
+        4000
+      ],
+      "name": "Infused Dragon"
+    },
+    "dragon_reforges_buff": {
+      "costs": [
+        1500,
+        2250,
+        3250,
+        4500,
+        6500
+      ],
+      "name": "Two-Headed Strike"
+    },
+    "increased_sup_chances": {
+      "costs": [
+        2000
+      ],
+      "name": "Dragon Piper"
+    }
   },
   "ESSENCE_SPIDER": {
-    "empowered_agility": [
-      50,
-      75,
-      100,
-      150,
-      250,
-      400,
-      750,
-      1000,
-      1750,
-      2500
-    ],
-    "vermin_control": [
-      100,
-      500,
-      1000,
-      3000,
-      5000
-    ],
-    "bane": [
-      100,
-      500,
-      1000,
-      3000,
-      5000
-    ],
-    "spider_training": [
-      250,
-      1250,
-      5000
-    ]
+    "empowered_agility": {
+      "costs": [
+        50,
+        75,
+        100,
+        150,
+        250,
+        400,
+        750,
+        1000,
+        1750,
+        2500
+      ],
+      "name": "Empowered Agility"
+    },
+    "vermin_control": {
+      "costs": [
+        100,
+        500,
+        1000,
+        3000,
+        5000
+      ],
+      "name": "Vermin Control"
+    },
+    "bane": {
+      "costs": [
+        100,
+        500,
+        1000,
+        3000,
+        5000
+      ],
+      "name": "Bane"
+    },
+    "spider_training": {
+      "costs": [
+        250,
+        1250,
+        5000
+      ],
+      "name": "Spider Training"
+    }
   },
   "ICE_ESSENCE": {
-    "cold_efficiency": [
-      1000,
-      1500,
-      2000,
-      3000,
-      5000
-    ],
-    "cooled_forges": [
-      100,
-      1000,
-      2000,
-      3000,
-      5000
-    ],
-    "frozen_skin": [
-      1000,
-      1500,
-      2000,
-      3000,
-      5000
-    ],
-    "season_of_joy": [
-      200,
-      400,
-      800,
-      1500,
-      2100,
-      3000,
-      3000,
-      4000,
-      4000,
-      4000
-    ]
+    "cold_efficiency": {
+      "costs": [
+        1000,
+        1500,
+        2000,
+        3000,
+        5000
+      ],
+      "name": "Cold Efficiency"
+    },
+    "cooled_forges": {
+      "costs": [
+        100,
+        1000,
+        2000,
+        3000,
+        5000
+      ],
+      "name": "Cooled Forges"
+    },
+    "frozen_skin": {
+      "costs": [
+        1000,
+        1500,
+        2000,
+        3000,
+        5000
+      ],
+      "name": "Frozen Skin"
+    },
+    "season_of_joy": {
+      "costs": [
+        200,
+        400,
+        800,
+        1500,
+        2100,
+        3000,
+        3000,
+        4000,
+        4000,
+        4000
+      ],
+      "name": "Season of Joy"
+    }
   },
   "ESSENCE_CRIMSON": {
-    "strongarm_kuudra": [
-      1000,
-      2000
-    ],
-    "fresh_tools_kuudra": [
-      200,
-      400,
-      600,
-      800,
-      1000
-    ],
-    "headstart_kuudra": [
-      100,
-      200,
-      300,
-      400,
-      500
-    ],
-    "master_kuudra": [
-      5000
-    ],
-    "fungus_fortuna": [
-      100,
-      200,
-      300,
-      400,
-      500,
-      600,
-      700,
-      800,
-      900,
-      1000
-    ],
-    "harena_fortuna": [
-      100,
-      200,
-      300,
-      400,
-      500,
-      600,
-      700,
-      800,
-      900,
-      1000
-    ],
-    "crimson_training": [
-      250,
-      1250,
-      5000
-    ],
-    "wither_piper": [
-      500,
-      100000,
-      100000,
-      100000,
-      100000
-    ]
+    "strongarm_kuudra": {
+      "costs": [
+        1000,
+        2000
+      ],
+      "name": "Strong Arm"
+    },
+    "fresh_tools_kuudra": {
+      "costs": [
+        200,
+        400,
+        600,
+        800,
+        1000
+      ],
+      "name": "Fresh Tools"
+    },
+    "headstart_kuudra": {
+      "costs": [
+        100,
+        200,
+        300,
+        400,
+        500
+      ],
+      "name": "Head Start"
+    },
+    "master_kuudra": {
+      "costs": [
+        5000
+      ],
+      "name": "Kuudra Master"
+    },
+    "fungus_fortuna": {
+      "costs": [
+        100,
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800,
+        900,
+        1000
+      ],
+      "name": "Fungus Fortune"
+    },
+    "harena_fortuna": {
+      "costs": [
+        100,
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800,
+        900,
+        1000
+      ],
+      "name": "Harena Fortune"
+    },
+    "crimson_training": {
+      "costs": [
+        250,
+        1250,
+        5000
+      ],
+      "name": "Crimson Training"
+    },
+    "wither_piper": {
+      "costs": [
+        500,
+        100000,
+        100000,
+        100000,
+        100000
+      ],
+      "name": "Wither Piper"
+    }
   }
 }
