@@ -3534,20 +3534,28 @@
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          1.0
+          1.0,
+          0.1,
+          0.05,
+          0.2
         ],
         "statNums": {
           "HEALTH": 1.0,
-          "SEA_CREATURE_CHANCE": 0.05
+          "SEA_CREATURE_CHANCE": 0.05,
+          "FISHING_SPEED": 0.25
         }
       },
       "100": {
         "otherNums": [
-          100
+          75,
+          10,
+          5,
+          20
         ],
         "statNums": {
           "HEALTH": 100.0,
-          "SEA_CREATURE_CHANCE": 5.0
+          "SEA_CREATURE_CHANCE": 5.0,
+          "FISHING_SPEED": 25.0
         }
       }
     }
