@@ -4,7 +4,7 @@
 <p align="center">
   <!-- lint -->
   <a href="https://github.com/NotEnoughUpdates/NotEnoughUpdates-REPO/actions" target="_blank">
-    <img src="https://img.shields.io/github/workflow/status/NotEnoughUpdates/NotEnoughUpdates-REPO/JSON/master?label=lint&logo=github&logoColor=FFFFFF" alt="lint">
+    <img src="https://img.shields.io/github/actions/workflow/status/NotEnoughUpdates/NotEnoughUpdates-REPO/NotEnoughUpdates-REPO-Workflow.yml?label=lint&logo=github&logoColor=FFFFFF&branch=master" alt="lint">
   </a>
   <!-- license -->
   <a href="https://github.com/NotEnoughUpdates/NotEnoughUpdates-REPO/blob/master/LICENSE" target="_blank">
