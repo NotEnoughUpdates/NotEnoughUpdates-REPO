@@ -1,12 +1,13 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§9Enchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Infinite Quiver VI\",1:\"§7Saves arrows §a18.0%§7 of the time\",2:\"§7when you fire your bow.\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§6Source:\",8:\"§aVI: §7Dungeon\",9:\"\",10:\"§6Applied To:\",11:\"§7- §fBow\",12:\"\",13:\"§9§lRARE\"],Name:\"§9Enchanted Book\"},ExtraAttributes:{id:\"INFINITE_QUIVER;6\",enchantments:{infinite_quiver:6}}}",
+  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Infinite Quiver VI\",1:\"§7Saves arrows §a18%§7 of the time\",2:\"§7when you fire your bow. Disabled\",3:\"§7while sneaking.\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aVI: §7Dungeon\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fBow\",13:\"\",14:\"§9§lRARE\"],Name:\"§9Enchanted Book\"},ExtraAttributes:{id:\"INFINITE_QUIVER;6\",enchantments:{infinite_quiver:6}}}",
   "damage": 0,
   "lore": [
     "§9Infinite Quiver VI",
-    "§7Saves arrows §a18.0%§7 of the time",
-    "§7when you fire your bow.",
+    "§7Saves arrows §a18%§7 of the time",
+    "§7when you fire your bow. Disabled",
+    "§7while sneaking.",
     "",
     "§7Use this on an item in an Anvil",
     "§7to apply it!",
@@ -21,7 +22,7 @@
   ],
   "internalname": "INFINITE_QUIVER;6",
   "parent": "INFINITE_QUIVER;4",
-  "modver": "2.0.0-REL",
+  "modver": "2.1.0-REL",
   "crafttext": "",
   "clickcommand": "",
   "infoType": ""
