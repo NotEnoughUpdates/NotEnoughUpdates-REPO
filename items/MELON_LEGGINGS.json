@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:leather_leggings",
   "displayname": "§aMelon Leggings",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+150\",1:\"§7Defense: §a+25\",2:\"§7Speed: §a+3\",3:\"§7Farming Fortune: §a+20\",4:\"\",5:\"§8Tiered Bonus: Cropier Crops (0/4)\",6:\"§7§7Farming Wheat, Carrot, and\",7:\"§7Potatoes have a §a0.03% §7chance\",8:\"§7of dropping a Cropie.\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§a§lUNCOMMON LEGGINGS\"],color:9018912,Name:\"§aMelon Leggings\"},ExtraAttributes:{id:\"MELON_LEGGINGS\"}}",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+150\",1:\"§7Defense: §a+25\",2:\"§7Speed: §a+3\",3:\"§7Farming Fortune: §a+20\",4:\"\",5:\"§8Tiered Bonus: Cropier Crops (0/4)\",6:\"§7§7Farming Wheat, Carrot, and\",7:\"§7Potatoes has a §a0.03% §7chance\",8:\"§7of dropping a Cropie.\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§a§lUNCOMMON LEGGINGS\"],color:9018912,Name:\"§aMelon Leggings\"},ExtraAttributes:{id:\"MELON_LEGGINGS\"}}",
   "damage": 0,
   "lore": [
     "§7Health: §a+150",
@@ -11,15 +11,26 @@
     "",
     "§8Tiered Bonus: Cropier Crops (0/4)",
     "§7§7Farming Wheat, Carrot, and",
-    "§7Potatoes have a §a0.03% §7chance",
+    "§7Potatoes has a §a0.03% §7chance",
     "§7of dropping a Cropie.",
     "",
     "§7§8This item can be reforged!",
     "§a§lUNCOMMON LEGGINGS"
   ],
+  "recipe": {
+    "A1": "ENCHANTED_MELON_BLOCK:5",
+    "A2": "ENCHANTED_MELON_BLOCK:5",
+    "A3": "ENCHANTED_MELON_BLOCK:5",
+    "B1": "ENCHANTED_MELON_BLOCK:5",
+    "B2": "",
+    "B3": "ENCHANTED_MELON_BLOCK:5",
+    "C1": "ENCHANTED_MELON_BLOCK:5",
+    "C2": "",
+    "C3": "ENCHANTED_MELON_BLOCK:5"
+  },
   "internalname": "MELON_LEGGINGS",
-  "crafttext": "",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "modver": "2.1.0-REL",
+  "crafttext": "",
   "infoType": ""
 }
