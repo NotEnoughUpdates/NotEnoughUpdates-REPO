@@ -1,0 +1,115 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Einary (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"d5aee785-d4ac-26cd-82e8-9012ab2e117d\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwNzY1ODkxMDIyMiwKICAicHJvZmlsZUlkIiA6ICI0ZmFkNjk2NTIxNGI0NGQ4YjAxYzlhZTVjZDQ0MDVjOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJoaXBfYXNpYW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGEwMmY0ZmQyZDY4YTc4YjhkYTNhNDZiM2QwMDRhZDk0NzI0NTNjODA4MjhiNzM1NGEyNTkwYTE3OTQ4YzE5OCIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"\"],Name:\"§9Anita (NPC)\"},ExtraAttributes:{id:\"ANITA_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "EINARY_NPC",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Einary",
+    "https://wiki.hypixel.net/Einary"
+  ],
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_NORTH_STAR:20"
+      ],
+      "result": "WHITE_GIFT_TALISMAN:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_NORTH_STAR:40",
+        "WHITE_GIFT_TALISMAN:1"
+      ],
+      "result": "GREEN_GIFT_TALISMAN:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_NORTH_STAR:60",
+        "GREEN_GIFT_TALISMAN:1"
+      ],
+      "result": "BLUE_GIFT_TALISMAN:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_NORTH_STAR:100",
+        "BLUE_GIFT_TALISMAN:1"
+      ],
+      "result": "PURPLE_GIFT_TALISMAN:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_NORTH_STAR:200",
+        "PURPLE_GIFT_TALISMAN:1",
+        "GOLD_GIFT:1"
+      ],
+      "result": "GOLD_GIFT_TALISMAN:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_NORTH_STAR:60"
+      ],
+      "result": "REINDEER;4:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_NORTH_STAR:10"
+      ],
+      "result": "SNOW_CLOAK:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_NORTH_STAR:10"
+      ],
+      "result": "SNOW_BELT:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_NORTH_STAR:10"
+      ],
+      "result": "SNOW_GLOVES:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_NORTH_STAR:10"
+      ],
+      "result": "SNOW_NECKLACE:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_NORTH_STAR:300",
+        "ICE_GENERATOR_11:1",
+        "SKYBLOCK_COIN:1000000",
+        "ENCHANTED_ICE:1024"
+      ],
+      "result": "ICE_GENERATOR_12"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_NORTH_STAR:500",
+        "SNOW_GENERATOR_11:1",
+        "SKYBLOCK_COIN:2000000",
+        "ENCHANTED_SNOW_BLOCK:1024"
+      ],
+      "result": "SNOW_GENERATOR_12"
+    }
+  ],
+  "crafttext": ""
+}

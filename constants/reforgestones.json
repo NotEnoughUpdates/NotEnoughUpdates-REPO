@@ -872,7 +872,8 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
       "COMMON": 20000,
@@ -880,7 +881,8 @@
       "RARE": 80000,
       "EPIC": 150000,
       "LEGENDARY": 300000,
-      "MYTHIC": 600000
+      "MYTHIC": 600000,
+      "DIVINE": 600000
     },
     "reforgeAbility": "§7Grants §aincreased §6⸕ Mining Speed §7the deeper you venture."
   },
@@ -1887,6 +1889,7 @@
       "EPIC",
       "LEGENDARY",
       "MYTHIC",
+      "DIVINE",
       "SPECIAL",
       "VERY SPECIAL"
     ],
@@ -1897,18 +1900,20 @@
       "EPIC": 10000,
       "MYTHIC": 10000,
       "LEGENDARY": 10000,
+      "DIVINE": 10000,
       "SPECIAL": 10000,
       "VERY SPECIAL": 10000
     },
     "reforgeAbility": {
-      "COMMON": "Gain §a+1% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
-      "UNCOMMON": "Gain §a+2% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
-      "RARE": "Gain §a+3% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
-      "EPIC": "Gain §a+4% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
-      "LEGENDARY": "Gain §a+5% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
-      "MYTHIC": "Gain §a+6% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
-      "SPECIAL": "Gain §a+8% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
-      "VERY SPECIAL": "Gain §a+5% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine."
+      "COMMON": "Grants §3+1☯ Mining Wisdom§7.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
+      "UNCOMMON": "Grants §3+2☯ Mining Wisdom§7.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
+      "RARE": "Grants §3+3☯ Mining Wisdom§7.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
+      "EPIC": "Grants §3+4☯ Mining Wisdom§7.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
+      "LEGENDARY": "Grants §3+5☯ Mining Wisdom§7.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
+      "MYTHIC": "Grants §3+6☯ Mining Wisdom§7.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
+      "DIVINE": "Grants §3+7☯ Mining Wisdom§7.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
+      "SPECIAL": "Grants §3+8☯ Mining Wisdom§7.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
+      "VERY SPECIAL": "Grants §3+9☯ Mining Wisdom§7.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine."
     },
     "reforgeStats": {
       "COMMON": {
@@ -1928,6 +1933,9 @@
       },
       "MYTHIC": {
         "defense": 20
+      },
+      "DIVINE": {
+        "defense": 24
       },
       "SPECIAL": {
         "defense": 20
@@ -1957,8 +1965,8 @@
       "RARE": 80000,
       "EPIC": 150000,
       "LEGENDARY": 300000,
-      "MYTHIC": 300000,
-      "DIVINE": 300000
+      "MYTHIC": 600000,
+      "DIVINE": 600000
     },
     "reforgeAbility": "Grants §a+8 §6☘ Mining §6Fortune§7, which increases your §7chance for multiple drops.",
     "reforgeStats": {
