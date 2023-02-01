@@ -1,11 +1,10 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Obsidian Tablet",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"2798c400-5442-3e29-9a7e-63afb04ab088\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1MDAyODM0NjAyNywKICAicHJvZmlsZUlkIiA6ICI4YjgyM2E1YmU0Njk0YjhiOTE0NmE5MWRhMjk4ZTViNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTZXBoaXRpcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xYTE1OWQ5YWMyZmRiMTY0ODU4YjYzNTBlMDNjMTkyNGYxN2U1YWE4NjExYTM0N2Q1NWI2Yjg5ODIwZmFmMDk0IgogICAgfQogIH0KfQ\"}]}},display:{Lore:[0:\"§8Power Stone\",1:\"\",2:\"§7Combine §a9x §7of this stone at the\",3:\"§7§6Thaumaturgist §7to permanently\",4:\"§7unlock the §aMythical §7power.\",5:\"\",6:\"§7At §6§k1,000§r §6Magical Power§7:\",7:\"§c+§k185❤§r §cHealth\",8:\"§a+§k132❈§r §aDefense\",9:\"§f+§k31✦§r §fSpeed\",10:\"§c+§k132❁§r §cStrength\",11:\"§b+§k198✎§r §bIntelligence\",12:\"§9+§k53☣§r §9Crit Chance\",13:\"§9+§k132☠§r §9Crit Damage\",14:\"\",15:\"§7Unique Power Bonus:\",16:\"§c+150❤ Health\",17:\"§c+40❁ Strength\",18:\"\",19:\"§7Requires §aCombat Skill Level XX§7!\",20:\"\",21:\"§9§lRARE POWER STONE\"],Name:\"§9Obsidian Tablet\"},ExtraAttributes:{id:\"OBSIDIAN_TABLET\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"2798c400-5442-3e29-9a7e-63afb04ab088\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1MDAyODM0NjAyNywKICAicHJvZmlsZUlkIiA6ICI4YjgyM2E1YmU0Njk0YjhiOTE0NmE5MWRhMjk4ZTViNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTZXBoaXRpcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xYTE1OWQ5YWMyZmRiMTY0ODU4YjYzNTBlMDNjMTkyNGYxN2U1YWE4NjExYTM0N2Q1NWI2Yjg5ODIwZmFmMDk0IgogICAgfQogIH0KfQ\"}]}},display:{Lore:[0:\"§8Power Stone\",1:\"§7Combine §a9x §7of this stone at the\",2:\"§7§6Thaumaturgist §7to permanently\",3:\"§7unlock the §aMythical §7power.\",4:\"\",5:\"§7At §6§k1,000§r §6Magical Power§7:\",6:\"§c+§k185❤§r §cHealth\",7:\"§a+§k132❈§r §aDefense\",8:\"§f+§k31✦§r §fSpeed\",9:\"§c+§k132❁§r §cStrength\",10:\"§b+§k198✎§r §bIntelligence\",11:\"§9+§k53☣§r §9Crit Chance\",12:\"§9+§k132☠§r §9Crit Damage\",13:\"\",14:\"§7Unique Power Bonus:\",15:\"§c+150❤ Health\",16:\"§c+40❁ Strength\",17:\"\",18:\"§7Requires §aCombat Skill Level XX§7!\",19:\"\",20:\"§9§lRARE POWER STONE\"],Name:\"§9Obsidian Tablet\"},ExtraAttributes:{id:\"OBSIDIAN_TABLET\"}}",
   "damage": 3,
   "lore": [
     "§8Power Stone",
-    "",
     "§7Combine §a9x §7of this stone at the",
     "§7§6Thaumaturgist §7to permanently",
     "§7unlock the §aMythical §7power.",
@@ -27,10 +26,21 @@
     "",
     "§9§lRARE POWER STONE"
   ],
+  "recipe": {
+    "A1": "ENCHANTED_OBSIDIAN:24",
+    "A2": "ENCHANTED_OBSIDIAN:24",
+    "A3": "ENCHANTED_OBSIDIAN:24",
+    "B1": "ENCHANTED_OBSIDIAN:24",
+    "B2": "SUMMONING_EYE:1",
+    "B3": "ENCHANTED_OBSIDIAN:24",
+    "C1": "ENCHANTED_OBSIDIAN:24",
+    "C2": "ENCHANTED_OBSIDIAN:24",
+    "C3": "ENCHANTED_OBSIDIAN:24"
+  },
   "internalname": "OBSIDIAN_TABLET",
-  "crafttext": "",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "modver": "2.1.0-REL",
+  "crafttext": "Requires: Obisidan XI",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Obsidian_Tablet",
