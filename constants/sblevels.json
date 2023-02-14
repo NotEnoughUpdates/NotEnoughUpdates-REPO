@@ -12,13 +12,14 @@
     "360": "DARK_RED"
   },
   "category_xp": {
-    "core_task": 13223,
+    "core_task": 13423,
     "dungeon_task": 2760,
     "essence_shop_task": 856,
     "slaying_task": 6125,
-    "skill_related_task": 3885,
+    "skill_related_task": 4085,
     "miscellaneous_task": 1351,
-    "story_task": 105
+    "story_task": 105,
+    "event_task": 525
   },
   "core_task": {
     "skill_level_up": 7500,
@@ -28,7 +29,16 @@
     "collections_xp": 4,
     "accessory_bag_xp": 1,
     "pet_score_xp": 3,
-    "fairy_souls_xp": 10
+    "fairy_souls_xp": 10,
+    "bank_upgrades": 200,
+    "bank_upgrades_xp": {
+      "BANK_UPGRADE_GOLD": 20,
+      "BANK_UPGRADE_DELUXE": 25,
+      "BANK_UPGRADE_SUPER_DELUXE":30,
+      "BANK_UPGRADE_PREMIER": 35,
+      "BANK_UPGRADE_LUXURIOUS": 40,
+      "BANK_UPGRADE_PALATIAL": 50
+    }
   },
   "dungeon_task": {
     "catacombs_level_up": 1220,
@@ -172,19 +182,19 @@
     },
     "community_shop_upgrades_xp": 10,
     "harp_songs_names": {
-      "song_hymn_joy_perfect_completions": 4,
-      "song_frere_jacques_perfect_completions": 4,
-      "song_amazing_grace_perfect_completions": 4,
-      "song_brahms_perfect_completions": 8,
-      "song_happy_birthday_perfect_completions": 8,
-      "song_greensleeves_perfect_completions": 8,
-      "song_jeopardy_perfect_completions": 16,
-      "song_minuet_perfect_completions": 16,
-      "song_joy_world_perfect_completions": 16,
-      "song_pure_imagination_perfect_completions": 28,
-      "song_vie_en_rose_perfect_completions": 28,
-      "song_fire_and_flames_perfect_completions": 48,
-      "song_pachelbel_perfect_completions": 48
+      "SONG_HYMN_JOY": 4,
+      "SONG_FRERE_JACQUES": 4,
+      "SONG_AMAZING_GRACE": 4,
+      "SONG_BRAHMS": 8,
+      "SONG_HAPPY_BIRTHDAY": 8,
+      "SONG_GREENSLEEVES": 8,
+      "SONG_JEOPARDY": 16,
+      "SONG_MINUET": 16,
+      "SONG_JOY_WORLD": 16,
+      "SONG_PURE_IMAGINATION": 28,
+      "SONG_VIE_EN_ROSE": 28,
+      "SONG_FIRE_AND_FLAMES": 48,
+      "SONG_PACHELBEL": 48
     },
     "community_shop_upgrades_max": {
       "island_size": 1,
@@ -200,6 +210,7 @@
       "commission_milestone": 255,
       "potm": 475,
       "rock_milestone": 100,
+      "crystal_nucleus": 200,
       "hotm_xp": [
         35,
         45,
@@ -233,7 +244,8 @@
         100000,
         250000
       ],
-      "rock_milestone_xp": 20
+      "rock_milestone_xp": 20,
+      "crystal_nucleus_xp": 4
     },
     "farming": {
       "farming": 250,
@@ -286,5 +298,18 @@
       "talk_to_banker",
       "help_elle"
     ]
+  },
+  "event_task": {
+    "mining_fiesta": 200,
+    "fishing_festival": 100,
+    "spooky_festival": 225,
+    "spooky_festival_xp": {
+      "SPOOKY_FESTIVAL_WOOD": 10,
+      "SPOOKY_FESTIVAL_STONE": 20,
+      "SPOOKY_FESTIVAL_IRON": 30,
+      "SPOOKY_FESTIVAL_GOLD": 40,
+      "SPOOKY_FESTIVAL_DIAMOND": 50,
+      "SPOOKY_FESTIVAL_EMERALD": 75
+    }
   }
 }
