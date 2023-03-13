@@ -1,0 +1,34 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Drakuu (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"a94da853-7926-2b75-9da0-8ab60dbdd8b9\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0MjM1NDA1MDAwNywKICAicHJvZmlsZUlkIiA6ICIwMGZiNTRiOWI4NDA0YTA0YTViMmJhMzBlYzBlYTAxMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrbGxveWQ3MCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jMGNkNjI2YmFmMTYzY2ZkNGZlNzY4ZjQ3NTNmODBkNTBkZDExOTc3MDBlNGMzYTJkNTg1MGNmNzliZWIwOTQ3IgogICAgfQogIH0KfQ\"}]}},display:{Lore:[0:\"\"],Name:\"§9Drakuu (NPC)\"},ExtraAttributes:{id:\"DRAKUU_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "DRAKUU_NPC",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "infoType": "WIKI_URL",
+  "x": -325,
+  "y": 191,
+  "z": -1016,
+  "island": "crimson_isle",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:100000000",
+        "ENCHANTED_MYCELIUM:1024",
+        "ENCHANTED_RED_SAND:1024",
+        "KUUDRA_TEETH:64"
+      ],
+      "result": "KUUDRA_FOLLOWER_ARTIFACT"
+    }
+  ],
+  "crafttext": "",
+  "info": [
+    "https://wiki.hypixel.net/Drakuu",
+    "https://hypixel-skyblock.fandom.com/wiki/Drakuu"
+  ]
+}
