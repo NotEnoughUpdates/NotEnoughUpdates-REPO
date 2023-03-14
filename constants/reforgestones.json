@@ -446,17 +446,53 @@
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "ARMOR",
     "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
       "EPIC",
       "LEGENDARY",
       "MYTHIC"
     ],
     "reforgeCosts": {
+      "COMMON": 60000,
+      "UNCOMMON": 125000,
+      "RARE": 250000,
       "EPIC": 500000,
       "LEGENDARY": 1000000,
       "MYTHIC": 2000000
     },
     "reforgeAbility": "Increases most stats by §a1%",
     "reforgeStats": {
+      "COMMON": {
+        "strength": 3,
+        "crit_chance": 2,
+        "crit_damage": 3,
+        "bonus_attack_speed": 1,
+        "health": 2,
+        "defense": 2,
+        "speed": 1,
+        "intelligence": 3
+      },
+      "UNCOMMON": {
+        "strength": 4,
+        "crit_chance": 4,
+        "crit_damage": 4,
+        "bonus_attack_speed": 1,
+        "health": 3,
+        "defense": 3,
+        "speed": 1,
+        "intelligence": 4
+      },
+      "RARE": {
+        "strength": 6,
+        "crit_chance": 6,
+        "crit_damage": 6,
+        "bonus_attack_speed": 2,
+        "health": 4,
+        "defense": 4,
+        "speed": 1,
+        "intelligence": 6
+      },
       "EPIC": {
         "strength": 8,
         "crit_chance": 8,
