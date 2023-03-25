@@ -733,7 +733,7 @@
       "RARE": 250000,
       "EPIC": 500000,
       "LEGENDARY": 1000000,
-      "MYTHIC": 20000000
+      "MYTHIC": 2000000
     },
     "reforgeAbility": "§8Only if Wisp is equipped §c+75❁ Strength §9+55☠ Crit Damage §7Deal §62x §7to fire pillars, breaking one §7grants §f+30❂ True Defense §7and §c+1.15x §cdamage §7for §a60s§7.",
     "reforgeStats": {
@@ -2029,6 +2029,54 @@
       }
     }
   },
+  "RUSTY_ANCHOR": {
+    "internalName": "RUSTY_ANCHOR",
+    "reforgeName": "Treacherous",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "ROD",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts": {
+      "COMMON": 5000,
+      "UNCOMMON": 20000,
+      "RARE": 40000,
+      "EPIC": 80000,
+      "LEGENDARY": 120000,
+      "MYTHIC": 280000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "strength": 5,
+        "sea_creature_chance": 1
+      },
+      "UNCOMMON": {
+        "strength": 10,
+        "sea_creature_chance": 2
+      },
+      "RARE": {
+        "strength": 15,
+        "sea_creature_chance": 2
+      },
+      "EPIC": {
+        "strength": 20,
+        "sea_creature_chance": 3
+      },
+      "LEGENDARY": {
+        "strength": 25,
+        "sea_creature_chance": 5
+      },
+      "MYTHIC": {
+        "strength": 30,
+        "sea_creature_chance": 7
+      }
+    }
+  },
   "SADAN_BROOCH": {
     "internalName": "SADAN_BROOCH",
     "reforgeName": "Empowered",
@@ -2075,6 +2123,48 @@
       "MYTHIC": {
         "health": 50,
         "defense": 50
+      }
+    }
+  },
+  "SALT_CUBE": {
+    "internalName": "SALT_CUBE",
+    "reforgeName": "Salty",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "ROD",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts": {
+      "COMMON": 2500,
+      "UNCOMMON": 10000,
+      "RARE": 20000,
+      "EPIC": 40000,
+      "LEGENDARY": 80000,
+      "MYTHIC": 120000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "sea_creature_chance": 1
+      },
+      "UNCOMMON": {
+        "sea_creature_chance": 2
+      },
+      "RARE": {
+        "sea_creature_chance": 2
+      },
+      "EPIC": {
+        "sea_creature_chance": 3
+      },
+      "LEGENDARY": {
+        "sea_creature_chance": 5
+      },
+      "MYTHIC": {
+        "sea_creature_chance": 7
       }
     }
   },
