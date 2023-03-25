@@ -1509,14 +1509,18 @@
       "UNCOMMON",
       "RARE",
       "EPIC",
-      "LEGENDARY"
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
       "COMMON": 25000,
       "UNCOMMON": 50000,
       "RARE": 100000,
       "EPIC": 200000,
-      "LEGENDARY": 400000
+      "LEGENDARY": 400000,
+      "MYTHIC": 800000,
+      "DIVINE": 800000
     },
     "reforgeAbility": "Deals §a+1 §7extra damage to §5Star Sentries §7and increases the chance for §9Starfall §7to drop from them by §a20%§7.",
     "reforgeStats": {
@@ -1544,6 +1548,16 @@
         "strength": 20,
         "defense": 20,
         "mining_speed": 15
+      },
+      "MYTHIC": {
+        "strength": 25,
+        "defense": 25,
+        "mining_speed": 20
+      },
+      "DIVINE": {
+        "strength": 30,
+        "defense": 30,
+        "mining_speed": 25
       }
     }
   },
@@ -1685,14 +1699,18 @@
       "UNCOMMON",
       "RARE",
       "EPIC",
-      "LEGENDARY"
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
       "COMMON": 15000,
       "UNCOMMON": 30000,
       "RARE": 60000,
       "EPIC": 125000,
-      "LEGENDARY": 250000
+      "LEGENDARY": 250000,
+      "MYTHIC": 500000,
+      "DIVINE": 500000
     },
     "reforgeAbility": "Grants a §a10% §7chance to gain §a1 §7extra §fMithril when mining Mithril Ore.",
     "reforgeStats": {
@@ -1710,6 +1728,12 @@
       },
       "LEGENDARY": {
         "mining_speed": 40
+      },
+      "MYTHIC": {
+        "mining_speed": 55
+      },
+      "DIVINE": {
+        "mining_speed": 70
       }
     }
   },
