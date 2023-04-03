@@ -139,6 +139,54 @@
       }
     }
   },
+  "BURROWING_SPORES": {
+    "internalName": "BURROWING_SPORES",
+    "reforgeName": "Rooted",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "EQUIPMENT",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts": {
+      "COMMON": 20000,
+      "UNCOMMON": 40000,
+      "RARE": 80000,
+      "EPIC": 150000,
+      "LEGENDARY": 300000,
+      "MYTHIC": 600000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "health": 2,
+        "farming_fortune": 4
+      },
+      "UNCOMMON": {
+        "health": 5,
+        "farming_fortune": 6
+      },
+      "RARE": {
+        "health": 8,
+        "farming_fortune": 8
+      },
+      "EPIC": {
+        "health": 11,
+        "farming_fortune": 10
+      },
+      "LEGENDARY": {
+        "health": 14,
+        "farming_fortune": 12
+      },
+      "MYTHIC": {
+        "health": 17,
+        "farming_fortune": 14
+      }
+    }
+  },
   "BLAZE_WAX": {
     "internalName": "BLAZE_WAX",
     "reforgeName": "Waxed",
@@ -757,6 +805,54 @@
       }
     }
   },
+  "FLOWERING_BOUQUET": {
+    "internalName": "FLOWERING_BOUQUET",
+    "reforgeName": "Blooming",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "EQUIPMENT",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts": {
+      "COMMON": 5000,
+      "UNCOMMON": 10000,
+      "RARE": 20000,
+      "EPIC": 50000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 200000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "speed": 4,
+        "farming_fortune": 1
+      },
+      "UNCOMMON": {
+        "speed": 4,
+        "farming_fortune": 2
+      },
+      "RARE": {
+        "speed": 5,
+        "farming_fortune": 3
+      },
+      "EPIC": {
+        "speed": 5,
+        "farming_fortune": 4
+      },
+      "LEGENDARY": {
+        "speed": 6,
+        "farming_fortune": 5
+      },
+      "MYTHIC": {
+        "speed": 6,
+        "farming_fortune": 6
+      }
+    }
+  },
   "GIANT_TOOTH": {
     "internalName": "GIANT_TOOTH",
     "reforgeName": "Giant",
@@ -1108,6 +1204,54 @@
       },
       "DIVINE": {
         "defense": 14
+      }
+    }
+  },
+  "LARGE_WALNUT": {
+    "internalName": "LARGE_WALNUT",
+    "reforgeName": "Earthly",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "AXE",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts": {
+      "COMMON": 5000,
+      "UNCOMMON": 10000,
+      "RARE": 20000,
+      "EPIC": 50000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 200000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "speed": 1,
+        "farming_fortune": 1
+      },
+      "UNCOMMON": {
+        "speed": 1,
+        "farming_fortune": 4
+      },
+      "RARE": {
+        "speed": 1,
+        "farming_fortune": 6
+      },
+      "EPIC": {
+        "speed": 1,
+        "farming_fortune": 8
+      },
+      "LEGENDARY": {
+        "speed": 1,
+        "farming_fortune": 10
+      },
+      "MYTHIC": {
+        "speed": 1,
+        "farming_fortune": 12
       }
     }
   },
@@ -1496,6 +1640,54 @@
         "strength": 34,
         "crit_chance": 15,
         "crit_damage": 70
+      }
+    }
+  },
+  "OVERGROWN_GRASS": {
+    "internalName": "OVERGROWN_GRASS",
+    "reforgeName": "Mossy",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "ARMOR",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts": {
+      "COMMON": 20000,
+      "UNCOMMON": 40000,
+      "RARE": 80000,
+      "EPIC": 150000,
+      "LEGENDARY": 300000,
+      "MYTHIC": 600000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "speed": 3,
+        "farming_fortune": 5
+      },
+      "UNCOMMON": {
+        "speed": 3,
+        "farming_fortune": 10
+      },
+      "RARE": {
+        "speed": 5,
+        "farming_fortune": 15
+      },
+      "EPIC": {
+        "speed": 5,
+        "farming_fortune": 20
+      },
+      "LEGENDARY": {
+        "speed": 7,
+        "farming_fortune": 25
+      },
+      "MYTHIC": {
+        "speed": 7,
+        "farming_fortune": 30
       }
     }
   },
@@ -2189,6 +2381,48 @@
       },
       "MYTHIC": {
         "sea_creature_chance": 7
+      }
+    }
+  },
+  "SKYMART_BROCHURE": {
+    "internalName": "SKYMART_BROCHURE",
+    "reforgeName": "Bustling",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "ARMOR",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts": {
+      "COMMON": 1000,
+      "UNCOMMON": 2000,
+      "RARE": 3000,
+      "EPIC": 6000,
+      "LEGENDARY": 10000,
+      "MYTHIC": 15000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "farming_fortune": 1
+      },
+      "UNCOMMON": {
+        "farming_fortune": 2
+      },
+      "RARE": {
+        "farming_fortune": 4
+      },
+      "EPIC": {
+        "farming_fortune": 6
+      },
+      "LEGENDARY": {
+        "farming_fortune": 8
+      },
+      "MYTHIC": {
+        "farming_fortune": 10
       }
     }
   },
