@@ -313,6 +313,36 @@
           "SPEED": 5.0
         }
       }
+    },
+    "MYTHIC": {
+      "1": {
+        "otherNums": [
+          0.2,
+          0.3,
+          0.5,
+          0.5,
+          0.0
+        ],
+        "statNums": {
+          "INTELLIGENCE": 1.0,
+          "SPEED": 0.05,
+          "SEA_CREATURE_CHANCE": 0.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          20,
+          30,
+          50,
+          50,
+          25
+        ],
+        "statNums": {
+          "INTELLIGENCE": 100.0,
+          "SPEED": 5.0,
+          "SEA_CREATURE_CHANCE": 5.0
+        }
+      }
     }
   },
   "BEE": {
@@ -2240,7 +2270,7 @@
         "otherNums": [
           50,
           100,
-          9
+          10
         ],
         "statNums": {
           "INTELLIGENCE": -100.0
@@ -2281,6 +2311,24 @@
         "otherNums": [
           50,
           100
+        ],
+        "statNums": {
+          "INTELLIGENCE": -100.0
+        }
+      }
+    },
+    "MYTHIC": {
+      "1": {
+        "otherNums": [
+          0.0
+        ],
+        "statNums": {
+          "INTELLIGENCE": -1.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          50
         ],
         "statNums": {
           "INTELLIGENCE": -100.0
