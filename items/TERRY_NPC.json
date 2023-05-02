@@ -1,0 +1,54 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Terry (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"fdfa7fbc-926f-2d82-914e-e7c9380b8891\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzljM2I3MjI0MmYzOGIxNWMxMzEyZmFjODRlN2NjNzMzMjkyMzZkMjAyMThlMGFiNzhkMDhlMmFjNDc4MDZhNDgifX19\"}]},Name:\"fdfa7fbc-926f-2d82-914e-e7c9380b8891\"},display:{Lore:[0:\"\"],Name:\"§9Terry (NPC)\"},ExtraAttributes:{id:\"TERRY_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "TERRY_NPC",
+  "clickcommand": "",
+  "modver": "2.1.1-PRE",
+  "x": -92,
+  "y": 79,
+  "z": 26,
+  "island": "winter",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "result": "SALT_CUBE:1",
+      "cost": [
+        "ICE_HUNK:64"
+      ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "RUSTY_ANCHOR:1",
+      "cost": [
+        "BLUE_ICE_HUNK:64"
+      ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "TERRY_SNOWGLOBE:1",
+      "cost": [
+        "ICE_HUNK:32",
+        "BLUE_ICE_HUNK:8"
+      ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "FROZEN_BAUBLE:1",
+      "cost": [
+        "ICE_HUNK:64",
+        "BLUE_ICE_HUNK:32"
+      ]
+    }
+  ],
+  "crafttext": "",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Terry",
+    "https://wiki.hypixel.net/Terry"
+  ]
+}
