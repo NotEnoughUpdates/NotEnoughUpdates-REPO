@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§6Maxor's Helmet",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"ee05abe4-347b-3ea5-8248-fae93392140e\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwNTYyMzMwNDc1OCwKICAicHJvZmlsZUlkIiA6ICI0ZDcwNDg2ZjUwOTI0ZDMzODZiYmZjOWMxMmJhYjRhZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJzaXJGYWJpb3pzY2hlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RiZmIwZWQ1OTU5MTkwZDQxNWU3MjZhMTVmMjk4NDAwN2E2N2E1ZmQ0ZWE1NjcxZDBkNjc2ZjlmNjQxYjViYWMiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Gear Score: §d397\",1:\"§7Crit Damage: §c+45%\",2:\"§7Health: §a+180\",3:\"§7Defense: §a+80\",4:\"§7Speed: §a+30\",5:\"§7Intelligence: §a+15\",6:\" §8[§8⚔§8] §8[§8⚔§8]\",7:\"\",8:\"§7Reduces the damage you take from\",9:\"§7withers by §c10% §7and increases\",10:\"§7your arrow damage by §c5.0%§7.\",11:\"\",12:\"§6Full Set Bonus: Witherborn\",13:\"§7Spawns a wither minion every\",14:\"§7§e30 §7seconds up to a maximum\",15:\"§7§a1 §7wither. Your withers will\",16:\"§7travel to and explode on nearby\",17:\"§7enemies.\",18:\"\",19:\"§7§8This item can be reforged!\",20:\"§7§4❣ §cRequires §aCatacombs Floor VII\",21:\"§aCompletion\",22:\"§6§lLEGENDARY DUNGEON HELMET\"],Name:\"§6Maxor's Helmet\"},ExtraAttributes:{dungeon_item_level:0,id:\"SPEED_WITHER_HELMET\"}}",
+  "displayname": "§6Maxor\u0027s Helmet",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"ee05abe4-347b-3ea5-8248-fae93392140e\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwNTYyMzMwNDc1OCwKICAicHJvZmlsZUlkIiA6ICI0ZDcwNDg2ZjUwOTI0ZDMzODZiYmZjOWMxMmJhYjRhZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJzaXJGYWJpb3pzY2hlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RiZmIwZWQ1OTU5MTkwZDQxNWU3MjZhMTVmMjk4NDAwN2E2N2E1ZmQ0ZWE1NjcxZDBkNjc2ZjlmNjQxYjViYWMiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Gear Score: §d397\",1:\"§7Crit Damage: §c+45%\",2:\"§7Health: §a+180\",3:\"§7Defense: §a+80\",4:\"§7Speed: §a+30\",5:\"§7Intelligence: §a+15\",6:\" §8[§8⚔§8] §8[§8⚔§8]\",7:\"\",8:\"§7Reduces the damage you take from\",9:\"§7withers by §c10% §7and increases\",10:\"§7your arrow damage by §c5.0%§7.\",11:\"\",12:\"§6Full Set Bonus: Witherborn\",13:\"§7Spawns a wither minion every\",14:\"§7§e30 §7seconds up to a maximum\",15:\"§7§a1 §7wither. Your withers will\",16:\"§7travel to and explode on nearby\",17:\"§7enemies.\",18:\"\",19:\"§7§8This item can be reforged!\",20:\"§7§4❣ §cRequires §aThe Catacombs Floor\",21:\"§aVII Completion§c.\",22:\"§6§lLEGENDARY DUNGEON HELMET\"],Name:\"§6Maxor\u0027s Helmet\"},ExtraAttributes:{dungeon_item_level:0,id:\"SPEED_WITHER_HELMET\"}}",
   "damage": 3,
   "lore": [
     "§7Gear Score: §d397",
@@ -24,8 +24,8 @@
     "§7enemies.",
     "",
     "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aCatacombs Floor VII",
-    "§aCompletion",
+    "§7§4❣ §cRequires §aThe Catacombs Floor",
+    "§aVII Completion§c.",
     "§6§lLEGENDARY DUNGEON HELMET"
   ],
   "recipe": {
@@ -42,11 +42,11 @@
   "internalname": "SPEED_WITHER_HELMET",
   "parent": "WITHER_HELMET",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
+  "modver": "2.1.1-PRE",
   "crafttext": "",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Maxor%27s_Armor",
-    "https://wiki.hypixel.net/Maxor's_Helmet"
+    "https://wiki.hypixel.net/Maxor\u0027s_Helmet"
   ]
 }
