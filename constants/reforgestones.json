@@ -853,6 +853,60 @@
       }
     }
   },
+  "FROZEN_BAUBLE": {
+    "internalName": "FROZEN_BAUBLE",
+    "reforgeName": "Festive",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "ARMOR",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts": {
+      "COMMON": 25000,
+      "UNCOMMON": 75000,
+      "RARE": 150000,
+      "EPIC": 250000,
+      "LEGENDARY": 400000,
+      "MYTHIC": 600000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "intelligence": 5,
+        "sea_creature_chance": 0.05,
+        "fishing_speed": 2
+      },
+      "UNCOMMON": {
+        "intelligence": 10,
+        "sea_creature_chance": 0.05,
+        "fishing_speed": 3
+      },
+      "RARE": {
+        "intelligence": 15,
+        "sea_creature_chance": 0.1,
+        "fishing_speed": 4
+      },
+      "EPIC": {
+        "intelligence": 20,
+        "sea_creature_chance": 0.15,
+        "fishing_speed": 6
+      },
+      "LEGENDARY": {
+        "intelligence": 25,
+        "sea_creature_chance": 0.2,
+        "fishing_speed": 8
+      },
+      "MYTHIC": {
+        "intelligence": 30,
+        "sea_creature_chance": 0.25,
+        "fishing_speed": 10
+      }
+    }
+  },
   "GIANT_TOOTH": {
     "internalName": "GIANT_TOOTH",
     "reforgeName": "Giant",
@@ -2635,6 +2689,54 @@
       "DIVINE": {
         "intelligence": 8,
         "mining_fortune": 16
+      }
+    }
+  },
+  "TERRY_SNOWGLOBE": {
+    "internalName": "TERRY_SNOWGLOBE",
+    "reforgeName": "Snowy",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "EQUIPMENT",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts": {
+      "COMMON": 10000,
+      "UNCOMMON": 25000,
+      "RARE": 50000,
+      "EPIC": 100000,
+      "LEGENDARY": 200000,
+      "MYTHIC": 300000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "sea_creature_chance": 0.2,
+        "fishing_speed": 0.5
+      },
+      "UNCOMMON": {
+        "sea_creature_chance": 0.2,
+        "fishing_speed": 1
+      },
+      "RARE": {
+        "sea_creature_chance": 0.4,
+        "fishing_speed": 1.5
+      },
+      "EPIC": {
+        "sea_creature_chance": 0.6,
+        "fishing_speed": 2
+      },
+      "LEGENDARY": {
+        "sea_creature_chance": 0.8,
+        "fishing_speed": 2.5
+      },
+      "MYTHIC": {
+        "sea_creature_chance": 1,
+        "fishing_speed": 3
       }
     }
   },
