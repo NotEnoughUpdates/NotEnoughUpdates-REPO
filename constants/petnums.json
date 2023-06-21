@@ -4126,6 +4126,30 @@
           "STRENGTH": 10.0
         }
       }
+    },
+    "MYTHIC": {
+      "1": {
+        "otherNums": [
+          0.1,
+          0.4,
+          0.3
+        ],
+        "statNums": {
+          "CRIT_CHANCE": 0.1,
+          "STRENGTH": 0.1
+        }
+      },
+      "100": {
+        "otherNums": [
+          10,
+          40,
+          30
+        ],
+        "statNums": {
+          "CRIT_CHANCE": 10.0,
+          "STRENGTH": 10.0
+        }
+      }
     }
   },
   "SPIRIT": {
@@ -4518,7 +4542,7 @@
         "otherNums": [
           0.3,
           0.5,
-          0.5
+          1
         ],
         "statNums": {
           "CRIT_CHANCE": 0.0,
@@ -4530,7 +4554,33 @@
         "otherNums": [
           30,
           50,
-          50
+          1.5
+        ],
+        "statNums": {
+          "CRIT_CHANCE": 10.0,
+          "CRIT_DAMAGE": 30.0,
+          "STRENGTH": 10.0
+        }
+      }
+    },
+    "MYTHIC": {
+      "1": {
+        "otherNums": [
+          0.3,
+          0.5,
+          1
+        ],
+        "statNums": {
+          "CRIT_CHANCE": 0.0,
+          "CRIT_DAMAGE": 0.0,
+          "STRENGTH": 0.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          30,
+          50,
+          1.5
         ],
         "statNums": {
           "CRIT_CHANCE": 10.0,
