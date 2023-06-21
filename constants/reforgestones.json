@@ -907,6 +907,61 @@
       }
     }
   },
+  "FULL_JAW_FANGING_KIT": {
+    "internalName": "FULL_JAW_FANGING_KIT",
+    "reforgeName": "Fanged",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "SWORD",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts": {
+      "COMMON": 10000,
+      "UNCOMMON": 12500,
+      "RARE": 25000,
+      "EPIC": 50000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 250000
+    },
+    "reforgeAbility": "Every 7th melee hit on an enemy deals +100% damage.",
+    "reforgeStats": {
+      "COMMON": {
+        "strength": 30,
+        "bonus_attack_speed": 2,
+        "crit_chance": 3
+      },
+      "UNCOMMON": {
+        "strength": 35,
+        "bonus_attack_speed": 3,
+        "crit_chance": 4
+      },
+      "RARE": {
+        "strength": 40,
+        "bonus_attack_speed": 4,
+        "crit_chance": 5
+      },
+      "EPIC": {
+        "strength": 50,
+        "bonus_attack_speed": 6,
+        "crit_chance": 7
+      },
+      "LEGENDARY": {
+        "strength": 60,
+        "bonus_attack_speed": 9,
+        "crit_chance": 8
+      },
+      "MYTHIC": {
+        "strength": 65,
+        "bonus_attack_speed": 10,
+        "crit_chance": 10
+      }
+    }
+  },
   "GIANT_TOOTH": {
     "internalName": "GIANT_TOOTH",
     "reforgeName": "Giant",
@@ -1932,6 +1987,67 @@
         "bonus_attack_speed": 6,
         "health": 33,
         "defense": 33
+      }
+    }
+  },
+  "PRESUMED_GALLON_OF_RED_PAINT": {
+    "internalName": "PRESUMED_GALLON_OF_RED_PAINT",
+    "reforgeName": "Blood-Soaked",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "EQUIPMENT",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts": {
+      "COMMON": 7500,
+      "UNCOMMON": 15000,
+      "RARE": 30000,
+      "EPIC": 75000,
+      "LEGENDARY": 150000,
+      "MYTHIC": 300000,
+      "DIVINE": 400000
+    },
+    "reforgeAbility": "Heal 1.15x more from Vampirism and Lifesteal.",
+    "reforgeStats": {
+      "COMMON": {
+        "health": 6,
+        "defense": 1,
+        "vitality": 1
+      },
+      "UNCOMMON": {
+        "health": 8,
+        "defense": 2,
+        "vitality": 1
+      },
+      "RARE": {
+        "health": 8,
+        "defense": 3,
+        "vitality": 2
+      },
+      "EPIC": {
+        "health": 9,
+        "defense": 4,
+        "vitality": 2
+      },
+      "LEGENDARY": {
+        "health": 10,
+        "defense": 5,
+        "vitality": 3
+      },
+      "MYTHIC": {
+        "health": 12,
+        "defense": 6,
+        "vitality": 3
+      },
+      "DIVINE": {
+        "health": 14,
+        "defense": 7,
+        "vitality": 4
       }
     }
   },
