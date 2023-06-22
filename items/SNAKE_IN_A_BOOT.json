@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:leather_boots",
   "displayname": "§5Snake-in-a-Boot",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Rift Time: §a+60s\",1:\"§7Speed: §a+7\",2:\"\",3:\"§7You\u0027ve got a friend in me.\",4:\"\",5:\"§5§lEPIC BOOTS\"],color:1704012,Name:\"§5Snake-in-a-Boot\"},ExtraAttributes:{lm_evo:113,id:\"SNAKE_IN_A_BOOT\"}}",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Rift Time: §a+60s\",1:\"§7Speed: §a+7\",2:\"\",3:\"§7You\u0027ve got a friend in me.\",4:\"\",5:\"§5§lEPIC BOOTS\"],color:1704012,Name:\"§5Snake-in-a-Boot\"},ExtraAttributes:{id:\"SNAKE_IN_A_BOOT\"}}",
   "damage": 0,
   "lore": [
     "§7Rift Time: §a+60s",
@@ -11,9 +11,20 @@
     "",
     "§5§lEPIC BOOTS"
   ],
+  "recipe": {
+    "A1": "",
+    "A2": "",
+    "A3": "",
+    "B1": "METAL_HEART:5",
+    "B2": "",
+    "B3": "METAL_HEART:5",
+    "C1": "METAL_HEART:5",
+    "C2": "",
+    "C3": "EXCEEDINGLY_COMFY_SNEAKERS:1"
+  },
   "internalname": "SNAKE_IN_A_BOOT",
-  "crafttext": "Requires: Living Metal Heart I",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "modver": "2.1.1-PRE",
+  "crafttext": "Requires: Living Metal Heart I",
   "infoType": ""
 }
