@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aVolt (Monster)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"52f34fb2-8211-49c9-8089-b56ef817e60e\",hypixelPopulated:1b,Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY3MzYzNzQ1OTAwOCwKICAicHJvZmlsZUlkIiA6ICJmMTA0NzMxZjljYTU0NmI0OTkzNjM4NTlkZWY5N2NjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ6aWFkODciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2FlYTYyNTFlNThlM2QyMDU1MmEwMzVkNDI0NTYxZWFlZTA4M2ZlYWNkMWU2Y2IzYzJhNWNmOTQ1Y2U2ZDc2ZSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},Name:\"§897d94b2-5656-46df-ba23-966ca6c74b80\"},display:{Lore:[0:\"§c❤ Health§8: §c160\"],Name:\"§aVolt (Monster)\"},ExtraAttributes:{id:\"VOLT_MONSTER\"}}",
+  "damage": 3,
+  "lore": [
+    "§c❤ Health§8: §c160"
+  ],
+  "internalname": "VOLT_MONSTER",
+  "crafttext": "",
+  "clickcommand": "",
+  "modver": "2.1.1-PRE",
+  "infoType": "",
+  "recipes": [
+    {
+      "coins": 0,
+      "xp": 0,
+      "name": "§eVolt",
+      "render": "@neurepo:mobs/volt.json",
+      "level": 4,
+      "combat_xp": 6,
+      "type": "drops",
+      "panorama": "rift",
+      "drops": [
+        {
+          "id": "SKYBLOCK_MOTE:155",
+          "chance": "100%"
+        },
+        {
+          "id": "VOLT_CRUX:1",
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}
