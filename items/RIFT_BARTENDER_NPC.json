@@ -1,0 +1,46 @@
+{
+  "internalname": "RIFT_BARTENDER_NPC",
+  "itemid": "minecraft:skull",
+  "displayname": "§9Rift Bartender (NPC)",
+  "clickcommand": "viewrecipe",
+  "damage": 3,
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"\"],Name:\"§9Rift Bartender (NPC)\"},ExtraAttributes:{id:\"RIFT_BARTENDER_NPC\"}}",
+  "modver": "2.1.1-PRE",
+  "infoType": "WIKI_URL",
+  "info": [
+    "TODO"
+  ],
+  "lore": [
+    ""
+  ],
+  "x": -121,
+  "y": 74,
+  "z": 172,
+  "island": "rift",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "result": "RIFT_SPEED_ELIXIR:1.0",
+      "cost": [
+        "SHAME_CRUX:5.0",
+        "ABIPHONE_XIII_PRO:1.0"
+      ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "RIFT_JUMP_ELIXIR:1.0",
+      "cost": [
+        "SHAME_CRUX:5.0",
+        "ABICASE_BLUE_AQUA:1.0"
+      ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "RIFT_STRENGTH_ELIXIR:1.0",
+      "cost": [
+        "SHAME_CRUX:5.0",
+        "ABIPHONE_XII_MEGA_COLOR:1.0"
+      ]
+    }
+  ]
+}
