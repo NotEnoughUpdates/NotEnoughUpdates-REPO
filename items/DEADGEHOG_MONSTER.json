@@ -1,0 +1,49 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aDeadgehog (Monster)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"e478fc5c-1c7c-445b-a929-2660b084d2fd\",hypixelPopulated:1b,Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU4OTk2MzczNTIzMiwKICAicHJvZmlsZUlkIiA6ICJiMGQ3MzJmZTAwZjc0MDdlOWU3Zjc0NjMwMWNkOThjYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJPUHBscyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mZDRjMTQyYzM4MmE2YmUwMGNhZWVlOWEwMjMwNmYwNjU0NGU2ZTQ2Yjk1M2JjYzhjYWM2NWU1Yzg5ZDQ3OTBhIgogICAgfQogIH0KfQ\u003d\u003d\"}]},Name:\"§e478fc5c-1c7c-445b-a929-2660b084d2fd\"},display:{Lore:[0:\"§7Found near the §3Black Lagoon§7\",1:\"§7in §dthe Rift§7.\",2:\"\",3:\"§7Shoots terrifying arrows that deal\",4:\"§a9sф §7Damage.\",5:\"\",6:\"§7Also has a melee attack that deals\",7:\"§a2sф §7Damage.\",8:\"\",9:\"§c❤ Health§8: §c150\"],Name:\"§aDeadgehog (Monster)\"},ExtraAttributes:{id:\"DEADGEHOG_MONSTER\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Found near the §3Black Lagoon§7",
+    "§7in §dthe Rift§7.",
+    "",
+    "§7Shoots terrifying arrows that deal",
+    "§a9sф §7Damage.",
+    "",
+    "§7Also has a melee attack that deals",
+    "§a2sф §7Damage.",
+    "",
+    "§c❤ Health§8: §c150"
+  ],
+  "internalname": "DEADGEHOG_MONSTER",
+  "crafttext": "",
+  "clickcommand": "",
+  "modver": "2.1.1-PRE",
+  "infoType": "",
+  "recipes": [
+    {
+      "coins": 0,
+      "xp": 0,
+      "name": "§2Deadgehog",
+      "render": "@neurepo:mobs/deadgehog.json",
+      "level": 1,
+      "combat_xp": 6,
+      "type": "drops",
+      "panorama": "rift",
+      "drops": [
+        {
+          "id": "SKYBLOCK_MOTE:150",
+          "chance": "100%"
+        },
+        {
+          "id": "DEADGEHOG_SPINE:3",
+          "chance": "100%"
+        },
+        {
+          "id": "DEADGEHOG_SPINE:1",
+          "chance": "50%"
+        }
+      ]
+    }
+  ]
+}

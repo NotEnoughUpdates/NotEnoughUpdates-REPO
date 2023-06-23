@@ -1,0 +1,39 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aShy (Monster)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"897d94b2-5656-46df-ba23-966ca6c74b80\",hypixelPopulated:1b,Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NzU4NzkyNDI4NywKICAicHJvZmlsZUlkIiA6ICJmMTYwZTMxMzJjYWM0YjRiOWM5OTk2NDQ1OGIxOWM0ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb255S0tLIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FjOWFkY2Q5NzVhOTE2OTE0YjVkMjlhZGFjZjVmNTJlNzk1MTQ3ODU4MzQ3NjU1MmE0ZjZmZThkOTRmNDhjMmEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},Name:\"§897d94b2-5656-46df-ba23-966ca6c74b80\"},display:{Lore:[0:\"§7A very shy boy, only found\",1:\"§7in §dthe Rift§7.\",2:\"\",3:\"§c❤ Health§8: §c110\"],Name:\"§aShy (Monster)\"},ExtraAttributes:{id:\"SHY_MONSTER\"}}",
+  "damage": 3,
+  "lore": [
+    "§7A very shy boy, only found",
+    "§7in §dthe Rift§7.",
+    "",
+    "§c❤ Health§8: §c110"
+  ],
+  "internalname": "SHY_MONSTER",
+  "crafttext": "",
+  "clickcommand": "",
+  "modver": "2.1.1-PRE",
+  "infoType": "",
+  "recipes": [
+    {
+      "coins": 0,
+      "xp": 0,
+      "name": "§2Shy",
+      "render": "@neurepo:mobs/shy.json",
+      "level": 1,
+      "combat_xp": 6,
+      "type": "drops",
+      "panorama": "rift",
+      "drops": [
+        {
+          "id": "SKYBLOCK_MOTE:100",
+          "chance": "100%"
+        },
+        {
+          "id": "SHAME_CRUX:1",
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§dArgofay Bugshopper (Rift NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"6b6329e4-89fe-227b-8bd1-4ba0f11bd999\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2MxZmQ4YjczNGFmMTYwZGNhMzVhODhmMTVkYWVlYjk0ZTA5Y2Q0NmYxMjRiNzE2ZDBjM2JkYjY3MWUwMmJiMjYifX19\"}]},Name:\"6b6329e4-89fe-227b-8bd1-4ba0f11bd999\"},display:{Lore:[0:\"\"],Name:\"§dArgofay Bugshopper (Rift NPC)\"},ExtraAttributes:{id:\"ARGOFAY_BUGSHOPPER_RIFT_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "ARGOFAY_BUGSHOPPER_RIFT_NPC",
+  "clickcommand": "",
+  "modver": "2.1.1-PRE",
+  "x": -95,
+  "y": 111,
+  "z": 95,
+  "island": "rift",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "result": "LARVA_HOOK:1.0",
+      "cost": [
+        "SHAME_CRUX:6.0"
+      ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "EMPTY_ODONATA_BOTTLE:1.0",
+      "cost": [
+        "SHAME_CRUX:2.0",
+        "SKYBLOCK_MOTE:400.0"
+      ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "HARMONIOUS_SURGERY_TOOLKIT:1.0",
+      "cost": [
+        "BOTTLED_ODONATA:1.0",
+        "SKYBLOCK_MOTE:2000.0"
+      ]
+    }
+  ],
+  "crafttext": "",
+  "infoType": ""
+}

@@ -1,0 +1,70 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§dKat (Rift NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"9ee934fd-ce71-2b39-a5b0-7d42e61a13ab\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFjMWYyMDBhMTczOGE0ZTJiMTg5NmJmMTI5MjY1MGYyNmE2YjM2ZTA0Y2RhMWNkNzg1ZGVmYzdhZjk3MmRjZDkifX19\"}]},Name:\"9ee934fd-ce71-2b39-a5b0-7d42e61a13ab\"},display:{Lore:[0:\"\"],Name:\"§dKat (Rift NPC)\"},ExtraAttributes:{id:\"KAT_RIFT_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "KAT_RIFT_NPC",
+  "clickcommand": "",
+  "modver": "2.1.1-PRE",
+  "x": -34,
+  "y": 71,
+  "z": -90,
+  "island": "rift",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "result": "DISINFESTOR_GLOVES:1",
+      "cost": [
+        "SHADOW_CRUX:12",
+        "SKYBLOCK_FLY:4",
+        "SKYBLOCK_SPIDER:4",
+        "SKYBLOCK_SILVERFISH:4"
+      ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "VERMIN_BELT:1",
+      "cost": [
+        "LEECH_BELT:1",
+        "SKYBLOCK_FLY:15"
+      ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "RIFT_FERRET;3:1",
+      "cost": [
+        "RIFTWART_ROOTS:12",
+        "SKYBLOCK_FLY:20",
+        "SKYBLOCK_SPIDER:10",
+        "SKYBLOCK_SILVERFISH:20"
+      ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "KEY_TO_KAT_SOUL:1",
+      "cost": [
+        "SKYBLOCK_SILVERFISH:40"
+      ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "FAKE_NEUROSCIENCE_DEGREE:1",
+      "cost": [
+        "VOLT_CRUX:10",
+        "SHADOW_CRUX:10",
+        "SKYBLOCK_MOTE:5000",
+        "SKYBLOCK_FLY:30",
+        "SKYBLOCK_SPIDER:40",
+        "SKYBLOCK_SILVERFISH:60"
+      ]
+    }
+  ],
+  "crafttext": "",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Kat_(Rift)"
+  ]
+}
