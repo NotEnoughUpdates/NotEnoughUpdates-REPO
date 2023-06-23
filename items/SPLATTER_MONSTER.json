@@ -1,0 +1,40 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aSplatter (Monster)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"63e6f909-0604-4e00-be9d-f69b6d8a13f7\",hypixelPopulated:1b,Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY3NzE1NDQ5MTkyNSwKICAicHJvZmlsZUlkIiA6ICI4M2EwYjZmOGVjMWI0YTU3OGQ2NmJlZDE2MmQ4M2I4MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTbmlwZWRfQnlfS2NhbHMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWQ5MGIyZTJmMzk2ZjA0ZTY3YmRiNWQ2NzYyYTkyMjI4ZTE4YWFlMmNjMzU5NTIyYjFiMTc5MmMwN2YwM2QxNCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},Name:\"§897d94b2-5656-46df-ba23-966ca6c74b80\"},display:{Lore:[0:\"§c❤ Health§8: §c135\"],Name:\"§aSplatter (Monster)\"},ExtraAttributes:{id:\"SPLATTER_MONSTER\"}}",
+  "damage": 3,
+  "lore": [
+    "§c❤ Health§8: §c135"
+  ],
+  "internalname": "SPLATTER_MONSTER",
+  "crafttext": "",
+  "clickcommand": "",
+  "modver": "2.1.1-PRE",
+  "infoType": "",
+  "recipes": [
+    {
+      "coins": 0,
+      "xp": 0,
+      "name": "§4Splatter",
+      "render": "@neurepo:mobs/splatter.json",
+      "level": 6,
+      "combat_xp": 30,
+      "type": "drops",
+      "panorama": "rift",
+      "drops": [
+        {
+          "id": "SKYBLOCK_MOTE:150",
+          "chance": "100%"
+        },
+        {
+          "id": "SPLATTER_CRUX:1",
+          "chance": "100%"
+        },
+        {
+          "id": "HEMOVIBE:1",
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}
