@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:spider_eye",
   "displayname": "§5Frozen Water Pungi",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§6Ability: Snake Taming §e§lHOLD RIGHT CLICK\",1:\"§7Aim at a §9Living Metal Snake\",2:\"§9§7to deeply calm it, allowing\",3:\"§7§eanother player §7to mine it.\",4:\"\",5:\"§5§lEPIC\"],Name:\"§5Frozen Water Pungi\"},ExtraAttributes:{id:\"FROZEN_WATER_PUNGI\"}}",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§6Ability: Snake Taming §e§lHOLD RIGHT CLICK\",1:\"§7Aim at a §9Living Metal Snake\",2:\"§9§7to deeply calm it, allowing\",3:\"§7§eanother player §7to mine it.\",4:\"\",5:\"§5§lEPIC\"],Name:\"§5Frozen Water Pungi\"},ExtraAttributes:{id:\"FROZEN_WATER_PUNGI\",uuid:\"a49e5f92-ef2c-49cd-9f86-5f9eb3b88f8c\",timestamp:\"6/24/23 10:13 PM\"}}",
   "damage": 0,
   "lore": [
     "§6Ability: Snake Taming §e§lHOLD RIGHT CLICK",
@@ -11,12 +11,18 @@
     "",
     "§5§lEPIC"
   ],
+  "recipe": {
+    "A1": "FROZEN_WATER:16",
+    "A2": "FROZEN_WATER:16",
+    "A3": "FROZEN_WATER:16",
+    "B1": "FROZEN_WATER:16",
+    "B2": "NULLIFIED_METAL:8",
+    "B3": "FROZEN_WATER:16",
+    "C1": "FROZEN_WATER:16",
+    "C2": "FROZEN_WATER:16",
+    "C3": "FROZEN_WATER:16"
+  },
   "internalname": "FROZEN_WATER_PUNGI",
-  "crafttext": "",
-  "clickcommand": "",
-  "modver": "2.1.1-PRE",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://wiki.hypixel.net/Frozen_Water_Pungi"
-  ]
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE"
 }
