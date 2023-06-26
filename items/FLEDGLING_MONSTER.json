@@ -1,0 +1,44 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aFledgling (Monster)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"9873a3cb-988e-26c1-a75b-7f38296f8398\",hypixelPopulated:1b,Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNmODNiYmFhMTA5YWUyMGZiYTU5MWRjNjZlNThmMmQwYzNlZTI1YTkzNTQ3MGYzMWNlYzM4MzhlMmZhNDM0MSJ9fX0\u003d\"}]},Name:\"§897d94b2-5656-46df-ba23-966ca6c74b80\"},display:{Lore:[0:\"§c❤ Health§8: §c210\"],Name:\"§aFledgling (Monster)\"},ExtraAttributes:{id:\"FLEDGLING_MONSTER\"}}",
+  "damage": 3,
+  "lore": [
+    "§c❤ Health§8: §c210"
+  ],
+  "internalname": "FLEDGLING_MONSTER",
+  "crafttext": "",
+  "clickcommand": "",
+  "modver": "2.1.1-PRE",
+  "infoType": "",
+  "recipes": [
+    {
+      "coins": 0,
+      "xp": 0,
+      "name": "§cFledgling",
+      "render": "@neurepo:mobs/fledgling.json",
+      "level": 8,
+      "combat_xp": 20,
+      "type": "drops",
+      "panorama": "rift",
+      "drops": [
+        {
+          "id": "SKYBLOCK_MOTE:250",
+          "chance": "100%"
+        },
+        {
+          "id": "HEMOVIBE:1",
+          "chance": "100%"
+        },
+        {
+          "id": "HEMOVIBE:1",
+          "chance": "50%"
+        },
+        {
+          "id": "VAMPIRIC_MELON:1",
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}
