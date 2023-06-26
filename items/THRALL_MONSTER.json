@@ -1,0 +1,38 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aThrall (Monster)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"8599e4bb-c0d9-41d9-944d-785aab8c5b24\",hypixelPopulated:1b,Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY4MDQ4Nzc0MTg2NSwKICAicHJvZmlsZUlkIiA6ICI4NDk1NTRmOWYzMGQ0NWQxYjUwNGY4ZDYzZmExZTM1OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSYWtoYVNoaSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hZDBiOGNkODY1ZDViMDBmMGQ1ZDAwZmRjYzI4NDMxNjQxMjAyMWVmYzA5YzY3ODIyM2Y4M2I1YTNmOTRkNTBkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\"}]},Name:\"§897d94b2-5656-46df-ba23-966ca6c74b80\"},display:{Lore:[0:\"§c❤ Health§8: §c190\"],Name:\"§aThrall (Monster)\"},ExtraAttributes:{id:\"THRALL_MONSTER\"}}",
+  "damage": 3,
+  "lore": [
+    "§c❤ Health§8: §c190"
+  ],
+  "internalname": "THRALL_MONSTER",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "infoType": "",
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§cThrall",
+      "render": "@neurepo:mobs/thrall.json",
+      "level": 6,
+      "combat_xp": 30,
+      "type": "drops",
+      "panorama": "rift",
+      "drops": [
+        {
+          "id": "SKYBLOCK_MOTE:200",
+          "chance": "100%"
+        },
+        {
+          "id": "HEMOVIBE:1",
+          "chance": "100%"
+        },
+        {
+          "id": "VAMPIRIC_MELON:1",
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}
