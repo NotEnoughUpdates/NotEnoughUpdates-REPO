@@ -1,0 +1,77 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§4Riftstalker Bloodfiend IV (Boss)",
+  "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"267e70c5-17d6-2c6c-a9d7-599bf08e9593\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWFhMjllYTk2MTc1N2RjM2M5MGJmYWJmMzAyYzVhYmU5ZDMwOGZiNGE3ZDM4NjRlNTc4OGFkMmNjOTE2MGFhMiJ9fX0\u003d\"}]}},display:{Lore:[0:\"§8Truly Painful\",1:\"\",2:\"§7Health: §c2,400❤\",3:\"§7Damage: §c1 §7per second\",4:\"\",5:\"§7Has §c7 §7abilities over §45\",6:\"§4§7phases!\"],Name:\"§4Riftstalker Bloodfiend IV (Boss)\"},ExtraAttributes:{id:\"RIFTSTALKER_BLOODFIEND_4_BOSS\"}}",
+  "damage": 3,
+  "lore": [
+    "§8Truly Painful",
+    "",
+    "§7Health: §c2,400❤",
+    "§7Damage: §c1 §7per second",
+    "",
+    "§7Has §c7 §7abilities over §45",
+    "§4§7phases!"
+  ],
+  "internalname": "RIFTSTALKER_BLOODFIEND_4_BOSS",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Riftstalker_Bloodfiend",
+    "https://wiki.hypixel.net/Riftstalker_Bloodfiend"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "xp": 120,
+      "name": "§4Riftstalker Bloodfiend IV",
+      "render": "@neurepo:mobs/riftstalker_bloodfiend.json",
+      "panorama": "rift",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "COVEN_SEAL",
+          "extra": [
+            "x52-64"
+          ],
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_BOOK_BUNDLE_QUANTUM",
+          "extra": [],
+          "chance": "12.20%"
+        },
+        {
+          "id": "SOULTWIST_RUNE;1",
+          "extra": [],
+          "chance": "10.87%"
+        },
+        {
+          "id": "BUBBA_BLISTER",
+          "extra": [],
+          "chance": "9.15%"
+        },
+        {
+          "id": "CHOCOLATE_CHIP",
+          "extra": [],
+          "chance": "9.15%"
+        },
+        {
+          "id": "GUARDIAN_LUCKY_BLOCK",
+          "extra": [],
+          "chance": "6.10%"
+        },
+        {
+          "id": "MCGRUBBER_BURGER",
+          "extra": [],
+          "chance": "1.22%"
+        },
+        {
+          "id": "UNFANGED_VAMPIRE_PART",
+          "extra": [],
+          "chance": "1.22%"
+        }
+      ]
+    }
+  ]
+}
