@@ -1,0 +1,67 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§4Riftstalker Bloodfiend III (Boss)",
+  "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"267e70c5-17d6-2c6c-a9d7-599bf08e9593\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWFhMjllYTk2MTc1N2RjM2M5MGJmYWJmMzAyYzVhYmU5ZDMwOGZiNGE3ZDM4NjRlNTc4OGFkMmNjOTE2MGFhMiJ9fX0\u003d\"}]}},display:{Lore:[0:\"§8Challenging\",1:\"\",2:\"§7Health: §c1,800❤\",3:\"§7Damage: §c1 §7per second\",4:\"\",5:\"§7Has §c7 §7abilities over §45\",6:\"§4§7phases!\"],Name:\"§4Riftstalker Bloodfiend III (Boss)\"},ExtraAttributes:{id:\"RIFTSTALKER_BLOODFIEND_3_BOSS\"}}",
+  "damage": 3,
+  "lore": [
+    "§8Challenging",
+    "",
+    "§7Health: §c1,800❤",
+    "§7Damage: §c1 §7per second",
+    "",
+    "§7Has §c7 §7abilities over §45",
+    "§4§7phases!"
+  ],
+  "internalname": "RIFTSTALKER_BLOODFIEND_3_BOSS",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Riftstalker_Bloodfiend",
+    "https://wiki.hypixel.net/Riftstalker_Bloodfiend"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "xp": 60,
+      "name": "§4Riftstalker Bloodfiend III",
+      "render": "@neurepo:mobs/riftstalker_bloodfiend.json",
+      "panorama": "rift",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "COVEN_SEAL",
+          "extra": [
+            "x28-48"
+          ],
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_BOOK_BUNDLE_QUANTUM",
+          "extra": [],
+          "chance": "12.5%"
+        },
+        {
+          "id": "SOULTWIST_RUNE;1",
+          "extra": [],
+          "chance": "11.11%"
+        },
+        {
+          "id": "BUBBA_BLISTER",
+          "extra": [],
+          "chance": "9.37%"
+        },
+        {
+          "id": "CHOCOLATE_CHIP",
+          "extra": [],
+          "chance": "9.37%"
+        },
+        {
+          "id": "GUARDIAN_LUCKY_BLOCK",
+          "extra": [],
+          "chance": "6.25%"
+        }
+      ]
+    }
+  ]
+}
