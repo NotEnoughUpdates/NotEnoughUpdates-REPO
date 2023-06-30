@@ -1,0 +1,42 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§4Riftstalker Bloodfiend I (Boss)",
+  "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"267e70c5-17d6-2c6c-a9d7-599bf08e9593\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWFhMjllYTk2MTc1N2RjM2M5MGJmYWJmMzAyYzVhYmU5ZDMwOGZiNGE3ZDM4NjRlNTc4OGFkMmNjOTE2MGFhMiJ9fX0\u003d\"}]}},display:{Lore:[0:\"§8Beginner\",1:\"\",2:\"§7Health: §c625❤\",3:\"§7Damage: §c0.5 §7per second\",4:\"\",5:\"§7Has §c4 §7abilities over §43\",6:\"§4§7phases!\"],Name:\"§4Riftstalker Bloodfiend I (Boss)\"},ExtraAttributes:{id:\"RIFTSTALKER_BLOODFIEND_1_BOSS\"}}",
+  "damage": 3,
+  "lore": [
+    "§8Beginner",
+    "",
+    "§7Health: §c625❤",
+    "§7Damage: §c0.5 §7per second",
+    "",
+    "§7Has §c4 §7abilities over §43",
+    "§4§7phases!"
+  ],
+  "internalname": "RIFTSTALKER_BLOODFIEND_1_BOSS",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Riftstalker_Bloodfiend",
+    "https://wiki.hypixel.net/Riftstalker_Bloodfiend"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "xp": 10,
+      "name": "§4Riftstalker Bloodfiend I",
+      "render": "@neurepo:mobs/riftstalker_bloodfiend.json",
+      "panorama": "rift",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "COVEN_SEAL",
+          "extra": [
+            "x1-3"
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}
