@@ -1,0 +1,44 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§dttemme .rD (Rift NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"00000000-0000-0000-0000-000000000000\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmI5NWRjMDBiZTQxOTIxOGRhM2VjMTY2ODVjZjA5OTAyYzE5M2YwMDRhMDlmNGY3M2VhYTJiOWRkMTA4MGM1ZSJ9fX0\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§dttemme .rD (Rift NPC)\"},ExtraAttributes:{id:\"TTEMME_RD_RIFT_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "TTEMME_RD_RIFT_NPC",
+  "crafttext": "",
+  "clickcommand": "",
+  "modver": "2.1.1-PRE",
+  "infoType": "",
+  "island": "rift",
+  "x": -293,
+  "y": 56,
+  "z": -87,
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_MOTE:10000",
+        "SHADOW_CRUX:10"
+      ],
+      "result": "RIFT_TROPHY_MIRRORED"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "WYLD_CHESTPLATE:1",
+        "SHADOW_CRUX:12"
+      ],
+      "result": "ETALPTSEHC_NORI"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SHADOW_CRUX:16",
+        "SKYBLOCK_MOTE:5000"
+      ],
+      "result": "ENCHANTED_BOOK_BUNDLE_REFLECTION"
+    }
+  ]
+}
