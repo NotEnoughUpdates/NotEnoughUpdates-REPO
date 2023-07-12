@@ -2,30 +2,34 @@
   "sblevel_colours": {
     "1": "GRAY",
     "40": "WHITE",
-    "80": "GREEN",
-    "120": "BLUE",
-    "160": "DARK_PURPLE",
-    "200": "GOLD",
-    "240": "LIGHT_PURPLE",
-    "280": "AQUA",
-    "320": "RED",
-    "360": "DARK_RED"
+    "80": "YELLOW",
+    "120": "GREEN",
+    "160": "DARK_GREEN",
+    "200": "AQUA",
+    "240": "DARK_AQUA",
+    "280": "BLUE",
+    "320": "LIGHT_PURPLE",
+    "360": "PURPLE",
+    "400": "GOLD",
+    "440": "RED",
+    "480": "DARK_RED"
   },
   "category_xp": {
-    "core_task": 13594,
+    "core_task": 13804,
     "dungeon_task": 2760,
     "essence_shop_task": 856,
     "slaying_task": 7075,
     "skill_related_task": 4085,
-    "miscellaneous_task": 2091,
-    "story_task": 125,
-    "event_task": 525
+    "miscellaneous_task": 2136,
+    "story_task": 416,
+    "event_task": 625
   },
   "core_task": {
     "skill_level_up": 7500,
     "fairy_souls": 480,
     "collections": 2580,
     "craft_minions": 2834,
+    "fast_travel_unlocked": 210,
     "collections_xp": 4,
     "accessory_bag_xp": 1,
     "pet_score_xp": 3,
@@ -38,7 +42,8 @@
       "BANK_UPGRADE_PREMIER": 35,
       "BANK_UPGRADE_LUXURIOUS": 40,
       "BANK_UPGRADE_PALATIAL": 50
-    }
+    },
+    "fast_travel_unlocked_xp": 15
   },
   "dungeon_task": {
     "catacombs_level_up": 1220,
@@ -151,6 +156,7 @@
     "personal_bank_upgrades": 110,
     "community_shop_upgrades": 120,
     "timecharm": 700,
+    "unlocking_relays": 45,
     "unlocking_powers_xp": 15,
     "reaper_peppers_xp": 10,
     "accessory_bag_upgrades_xp": 2,
@@ -203,7 +209,8 @@
       "guests_count": 1,
       "coins_allowance": 5
     },
-    "timecharm_xp": 100
+    "timecharm_xp": 100,
+    "unlocking_relays_xp": 5
   },
   "skill_related_task": {
     "mining": {
@@ -276,7 +283,9 @@
   },
   "story_task": {
     "complete_objectives": 125,
+    "rift_guide": 291,
     "complete_objectives_xp": 5,
+    "rift_guide_xp": 3,
     "complete_objectives_names": [
       "explore_hub",
       "talk_to_lumberjack",
@@ -309,6 +318,7 @@
     "mining_fiesta": 200,
     "fishing_festival": 100,
     "spooky_festival": 225,
+    "jacob_farming_contest": 100,
     "spooky_festival_xp": {
       "SPOOKY_FESTIVAL_WOOD": 10,
       "SPOOKY_FESTIVAL_STONE": 20,
@@ -316,6 +326,7 @@
       "SPOOKY_FESTIVAL_GOLD": 40,
       "SPOOKY_FESTIVAL_DIAMOND": 50,
       "SPOOKY_FESTIVAL_EMERALD": 75
-    }
+    },
+    "jacob_farming_contest_xp": 10
   }
 }
