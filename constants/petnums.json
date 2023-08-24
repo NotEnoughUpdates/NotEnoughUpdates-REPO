@@ -349,9 +349,9 @@
     "COMMON": {
       "1": {
         "otherNums": [
-          1.0,
-          1.0,
-          15.0
+          1.02,
+          1.02,
+          1.01
         ],
         "statNums": {
           "INTELLIGENCE": 0.0,
@@ -363,93 +363,7 @@
         "otherNums": [
           3,
           3,
-          15
-        ],
-        "statNums": {
-          "INTELLIGENCE": 50.0,
-          "SPEED": 10.0,
-          "STRENGTH": 30.0
-        }
-      }
-    },
-    "EPIC": {
-      "1": {
-        "otherNums": [
-          1.1,
-          1.1,
-          15.0,
-          1.0
-        ],
-        "statNums": {
-          "STRENGTH": 5.0,
-          "INTELLIGENCE": 0.5,
-          "SPEED": 0.1
-        }
-      },
-      "100": {
-        "otherNums": [
-          15,
-          12,
-          15,
-          100
-        ],
-        "statNums": {
-          "STRENGTH": 30.0,
-          "INTELLIGENCE": 50.0,
-          "SPEED": 10.0
-        }
-      }
-    },
-    "LEGENDARY": {
-      "1": {
-        "otherNums": [
-          1.2,
-          1.1,
-          15.0,
-          1.0,
-          5.2
-        ],
-        "statNums": {
-          "INTELLIGENCE": 0.0,
-          "SPEED": 0.0,
-          "STRENGTH": 5.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          20,
-          15,
-          15,
-          100,
-          25
-        ],
-        "statNums": {
-          "INTELLIGENCE": 50.0,
-          "SPEED": 10.0,
-          "STRENGTH": 30.0
-        }
-      }
-    },
-    "RARE": {
-      "1": {
-        "otherNums": [
-          1.1,
-          1.1,
-          15.0,
-          0.5
-        ],
-        "statNums": {
-          "INTELLIGENCE": 0.0,
-          "SPEED": 0.0,
-          "STRENGTH": 5.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          10,
-          8,
-          15,
-          50
+          2
         ],
         "statNums": {
           "INTELLIGENCE": 50.0,
@@ -461,9 +375,9 @@
     "UNCOMMON": {
       "1": {
         "otherNums": [
-          1.0,
-          1.0,
-          15.0
+          1.02,
+          1.02,
+          1.01
         ],
         "statNums": {
           "INTELLIGENCE": 0.0,
@@ -473,14 +387,112 @@
       },
       "100": {
         "otherNums": [
-          5,
-          5,
-          15
+          3,
+          3,
+          2
         ],
         "statNums": {
           "INTELLIGENCE": 50.0,
           "SPEED": 10.0,
           "STRENGTH": 30.0
+        }
+      }
+    },
+    "RARE": {
+      "1": {
+        "otherNums": [
+          1.05,
+          1.04,
+          1.02
+        ],
+        "statNums": {
+          "INTELLIGENCE": 0.0,
+          "SPEED": 0.0,
+          "STRENGTH": 5.0,
+          "MINING_WISDOM": 0.2,
+          "FARMING_WISDOM": 0.2,
+          "FORAGING_WISDOM": 0.2
+        }
+      },
+      "100": {
+        "otherNums": [
+          6,
+          5,
+          3
+        ],
+        "statNums": {
+          "INTELLIGENCE": 50.0,
+          "SPEED": 10.0,
+          "STRENGTH": 30.0,
+          "MINING_WISDOM": 20,
+          "FARMING_WISDOM": 20,
+          "FORAGING_WISDOM": 20
+        }
+      }
+    },
+    "EPIC": {
+      "1": {
+        "otherNums": [
+          1.09,
+          1.07,
+          1.04
+        ],
+        "statNums": {
+          "STRENGTH": 5.0,
+          "INTELLIGENCE": 0.5,
+          "SPEED": 0.1,
+          "MINING_WISDOM": 0.3,
+          "FARMING_WISDOM": 0.3,
+          "FORAGING_WISDOM": 0.3
+        }
+      },
+      "100": {
+        "otherNums": [
+          10,
+          8,
+          5
+        ],
+        "statNums": {
+          "STRENGTH": 30.0,
+          "INTELLIGENCE": 50.0,
+          "SPEED": 10.0,
+          "MINING_WISDOM": 30,
+          "FARMING_WISDOM": 30,
+          "FORAGING_WISDOM": 30
+        }
+      }
+    },
+    "LEGENDARY": {
+      "1": {
+        "otherNums": [
+          1.09,
+          1.07,
+          1.04,
+          5
+        ],
+        "statNums": {
+          "STRENGTH": 5.0,
+          "INTELLIGENCE": 0.5,
+          "SPEED": 0.1,
+          "MINING_WISDOM": 0.3,
+          "FARMING_WISDOM": 0.3,
+          "FORAGING_WISDOM": 0.3
+        }
+      },
+      "100": {
+        "otherNums": [
+          10,
+          8,
+          5,
+          25
+        ],
+        "statNums": {
+          "STRENGTH": 30.0,
+          "INTELLIGENCE": 50.0,
+          "SPEED": 10.0,
+          "MINING_WISDOM": 30,
+          "FARMING_WISDOM": 30,
+          "FORAGING_WISDOM": 30
         }
       }
     }
@@ -1041,7 +1053,7 @@
       },
       "100": {
         "otherNums": [
-          1.4
+          1.3
         ],
         "statNums": {
           "HEALTH": 100.0
@@ -1104,7 +1116,7 @@
           0.2,
           100.0,
           0.0,
-          1.8
+          1.5
         ],
         "statNums": {
           "HEALTH": 1.0,
@@ -1116,7 +1128,7 @@
           20,
           100,
           1,
-          180
+          150
         ],
         "statNums": {
           "HEALTH": 100.0,
