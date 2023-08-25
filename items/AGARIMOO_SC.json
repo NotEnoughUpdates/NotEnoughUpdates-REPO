@@ -1,0 +1,46 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§3Agarimoo (Sea Creature)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"2b9eb675-2097-4b51-8fec-c1a51562f19c\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTE2M2JjNDE2YjhlNjA1OGY5MmIyMzFlOWE1MjRiN2ZlMTE4ZWI2ZTdlZWFiNGFkMTZkMWI1MmEzZWMwNGZjZCJ9fX0\u003d\"}]}},display:{Lore:[0:\"§c❤ Health§8: §c55,000\",1:\"\",2:\"§9§lRARE\"],Name:\"§3Agarimoo (Sea Creature)\"},ExtraAttributes:{id:\"AGARIMOO_SC\"}}",
+  "damage": 3,
+  "lore": [
+    "§c❤ Health§8: §c55,000",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "AGARIMOO_SC",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Agarimoo",
+    "https://wiki.hypixel.net/Agarimoo"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§cAgarimoo",
+      "level": 35,
+      "coins": 60,
+      "xp": 32,
+      "render": "Mooshroom",
+      "panorama": "hub",
+      "type": "drops",
+      "extra": [
+        "§cRequirements:",
+        "§7- §aChumcap Bucket",
+        "§7- §bFished from water"
+      ],
+      "drops": [
+        {
+          "id": "RED_MUSHROOM:35",
+          "chance": "100%"
+        },
+        {
+          "id": "AGARIMOO_TONGUE:3",
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

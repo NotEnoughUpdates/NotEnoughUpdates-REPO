@@ -1,0 +1,44 @@
+{
+  "itemid": "minecraft:ender_chest",
+  "displayname": "§9Zealot Bruiser (Monster)",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§c❤ Health§8: §c65,000\"],Name:\"§9Zealot Bruiser (Monster)\"},ExtraAttributes:{id:\"ZEALOT_BRUISER_MONSTER\"}}",
+  "damage": 0,
+  "lore": [
+    "§c❤ Health§8: §c65,000"
+  ],
+  "internalname": "ZEALOT_BRUISER_MONSTER",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Zealot_Bruiser",
+    "https://wiki.hypixel.net/Zealot_Bruiser"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 100,
+      "coins": 24,
+      "xp": 20,
+      "combat_xp": 78,
+      "name": "§cZealot Bruiser",
+      "render": "Enderman",
+      "panorama": "combat_3",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ENDER_PEARL",
+          "extra": [
+            "x2-4"
+          ],
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_ENDER_PEARL",
+          "extra": [],
+          "chance": "4%"
+        }
+      ]
+    }
+  ]
+}
