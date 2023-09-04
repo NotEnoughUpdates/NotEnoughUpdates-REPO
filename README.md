@@ -49,4 +49,4 @@ Once you have these options enabled you can edit and add items in-game using the
 
 Once you have made the changes you would like you can find the files located in `.minecraft\config\notenoughupdates\repo`.
 
-If you need further help on how to contribute feel free to join the [discord](https://discord.gg/moulberry) or contact `IRONM00N#0001` on discord.
+If you need further help on how to contribute feel free to join the [discord](https://discord.gg/moulberry).
