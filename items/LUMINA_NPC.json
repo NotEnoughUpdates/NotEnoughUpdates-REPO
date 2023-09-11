@@ -7,12 +7,35 @@
     ""
   ],
   "internalname": "LUMINA_NPC",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "modver": "2.1.1-PRE",
   "x": 78,
   "y": 200,
   "z": -110,
   "island": "mining_3",
   "crafttext": "",
-  "infoType": ""
+  "infoType": "",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:32"
+      ],
+      "result": "TORCH:64"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:10000"
+      ],
+      "result": "LANTERN"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:100000"
+      ],
+      "result": "INFINI_TORCH"
+    }
+  ]
 }
