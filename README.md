@@ -34,7 +34,7 @@ In order to contribute to the item repo you should enable the item editor tools 
 I would also highly recommend disabling auto update if you are in the middle of making changes otherwise they will be overwritten.
 
 ```json
-"autoupdate": false,
+"autoupdate_new": false,
 ```
 
 Once you have these options enabled you can edit and add items in-game using the following keybinds:
