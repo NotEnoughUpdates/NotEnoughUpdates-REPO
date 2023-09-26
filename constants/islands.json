@@ -15,7 +15,8 @@
     "dungeon_hub": "Dungeon Hub",
     "crystal_hollows": "Crystal Hollows",
     "garden": "The Garden",
-    "rift": "Rift"
+    "rift": "Rift",
+    "kuudra": "Kuudra's Hollow"
   },
   "teleporters": [
     {
@@ -154,11 +155,15 @@
   ],
   "island_warps": [
     {
-    "warp": "nether",
-    "mode": "crimson_isle",
-    "x": -361,
-    "y": 80,
-    "z": -430
+      "warp": "nether",
+      "aliases": [
+        "isle",
+        "crimson"
+      ],
+      "mode": "crimson_isle",
+      "x": -361,
+      "y": 80,
+      "z": -430
     },
     {
       "warp": "deep",
@@ -177,6 +182,9 @@
     {
       "warp": "mines",
       "mode": "mining_3",
+      "aliases": [
+        "dmines"
+      ],
       "x": -49,
       "y": 200,
       "z": -121
@@ -225,6 +233,9 @@
     },
     {
       "warp": "spider",
+      "aliases": [
+        "spiders"
+      ],
       "mode": "combat_1",
       "x": -203,
       "y": 83,
@@ -246,6 +257,9 @@
     },
     {
       "warp": "crypts",
+      "aliases": [
+        "crypt"
+      ],
       "mode": "hub",
       "x": -162,
       "y": 61,
@@ -267,6 +281,9 @@
     },
     {
       "warp": "howl",
+      "aliases": [
+        "howling_cave"
+      ],
       "mode": "foraging_1",
       "x": -333,
       "y": 90,
@@ -274,6 +291,9 @@
     },
     {
       "warp": "nest",
+      "aliases": [
+        "mound"
+      ],
       "mode": "combat_1",
       "x": -189,
       "y": 176,
@@ -288,6 +308,9 @@
     },
     {
       "warp": "void",
+      "aliases": [
+        "sepulture"
+      ],
       "mode": "combat_3",
       "x": -570,
       "y": 7,
@@ -316,10 +339,52 @@
     },
     {
       "warp": "wizard",
+      "aliases": [
+        "wiz",
+        "tower"
+      ],
       "mode": "hub",
       "x": 42,
       "y": 122,
       "z": 69
+    },
+    {
+      "warp": "crystals",
+      "aliases": [
+        "cn",
+        "ch",
+        "hollows",
+        "nucleus"
+      ],
+      "mode": "crystal_hollows",
+      "x": 513,
+      "y": 106,
+      "z": 526
+    },
+    {
+      "warp": "arachne",
+      "mode": "combat_1",
+      "x": -282,
+      "y": 47,
+      "z": -198
+    },
+    {
+      "warp": "smold",
+      "mode": "crimson_isle",
+      "x": -283,
+      "y": 108,
+      "z": -1031,
+      "aliases": [
+        "smoldering",
+        "smoldering_tomb"
+      ]
+    },
+    {
+      "warp": "garden",
+      "mode": "garden",
+      "x": -5,
+      "y": 71,
+      "z": 17
     }
   ]
 }
