@@ -12,7 +12,7 @@
   </a>
   <!-- lines -->
   <a href="https://github.com/NotEnoughUpdates/NotEnoughUpdates-REPO">
-    <img src="https://img.shields.io/tokei/lines/github/NotEnoughUpdates/NotEnoughUpdates-REPO?color=success&logo=github&logoColor=FFFFFF" alt="lines">
+    <img src="https://tokei.rs/b1/github/NotEnoughUpdates/NotEnoughUpdates-REPO" alt="lines">
   </a>
   <!-- discord -->
   <a href="https://discord.gg/moulberry" target="_blank">
