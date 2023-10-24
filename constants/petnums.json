@@ -1063,6 +1063,24 @@
       }
     }
   },
+  "EERIE": {
+    "COMMON": {
+      "1": {
+        "otherNums": [],
+        "statNums": {
+          "SPEED": 0.1,
+          "INTELLIGENCE": 0.5
+        }
+      },
+      "100": {
+        "otherNums": [],
+        "statNums": {
+          "SPEED": 10,
+          "INTELLIGENCE": 60
+        }
+      }
+    }
+  },
   "ELEPHANT": {
     "COMMON": {
       "1": {
@@ -2033,7 +2051,7 @@
           "MAGIC_FIND": 10.0
         }
       },
-      "stats_levelling_curve":"101:200:1"
+      "stats_levelling_curve": "101:200:1"
     }
   },
   "GLACIAL_WISP": {
@@ -3023,7 +3041,7 @@
         }
       }
     }
-  }, 
+  },
   "OCELOT": {
     "COMMON": {
       "1": {
@@ -5359,6 +5377,30 @@
           100,
           20.0,
           20.0
+        ],
+        "statNums": {
+          "TRUE_DEFENSE": 50.0
+        }
+      }
+    },
+    "MYTHIC": {
+      "1": {
+        "otherNums": [
+          1,
+          0.2,
+          0.2,
+          0.1
+        ],
+        "statNums": {
+          "TRUE_DEFENSE": 0.5
+        }
+      },
+      "100": {
+        "otherNums": [
+          100,
+          20.0,
+          20.0,
+          10
         ],
         "statNums": {
           "TRUE_DEFENSE": 50.0
