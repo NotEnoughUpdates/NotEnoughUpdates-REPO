@@ -457,11 +457,16 @@
     },
     "eager_miner": {
       "costs": [
-        150,
+        100,
+        200,
+        300,
+        400,
         500,
-        1250,
-        2000,
-        3000
+        600,
+        700,
+        800,
+        900,
+        1000
       ],
       "name": "Eager Miner"
     },
@@ -480,5 +485,69 @@
       ],
       "name": "Midas Lure"
     }
-  }  
+  },
+  "ESSENCE_DIAMOND": {
+    "radiant_fisher": {
+      "costs": [
+        200,
+        400,
+        600,
+        800,
+        1000,
+        1200,
+        1400,
+        1600,
+        1800,
+        2000
+      ],
+      "name": "Radiant Fisher"
+    },
+    "diamond_in_the_rough": {
+      "costs": [
+        1000,
+        1500,
+        2000,
+        3000,
+        5000
+      ],
+      "name": "Diamond in the Rough"
+    },
+    "rhinestone_infusion": {
+      "costs": [
+        2000
+      ],
+      "name": "Rhinestone Infusion"
+    },
+    "under_pressure": {
+      "costs": [
+        125,
+        250,
+        500,
+        1000,
+        1500
+      ],
+      "name": "Under Pressure"
+    },
+    "high_roller": {
+      "costs": [
+        5000
+      ],
+      "name": "High Roller"
+    },
+    "return_to_sender": {
+      "costs": [
+        50,
+        75,
+        100,
+        150,
+        250,
+        400,
+        750,
+        1000,
+        1750,
+        2500
+      ],
+      "name": "Return to Sender"
+    }
+  }
 }
