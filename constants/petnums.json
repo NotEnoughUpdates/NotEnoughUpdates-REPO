@@ -645,7 +645,9 @@
         ],
         "statNums": {
           "INTELLIGENCE": 1.0,
-          "SPEED": 0.0
+          "SPEED": 1.25,
+          "PET_LUCK": 0.15,
+          "MAGIC_FIND": 0.15
         }
       },
       "100": {
@@ -656,7 +658,39 @@
         ],
         "statNums": {
           "INTELLIGENCE": 100.0,
-          "SPEED": 25.0
+          "SPEED": 125.0,
+          "PET_LUCK": 15.0,
+          "MAGIC_FIND": 15.0
+        }
+      }
+    },
+    "MYTHIC": {
+      "1": {
+        "otherNums": [
+          1.0,
+          0.15,
+          0.15,
+          0.1
+        ],
+        "statNums": {
+          "INTELLIGENCE": 1.0,
+          "SPEED": 1.25,
+          "PET_LUCK": 0.15,
+          "MAGIC_FIND": 0.15
+        }
+      },
+      "100": {
+        "otherNums": [
+          100,
+          15,
+          15,
+          15
+        ],
+        "statNums": {
+          "INTELLIGENCE": 100.0,
+          "SPEED": 125.0,
+          "PET_LUCK": 15.0,
+          "MAGIC_FIND": 15.0
         }
       }
     }
