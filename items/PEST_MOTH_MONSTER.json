@@ -1,0 +1,80 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aMoth (Pest)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"e36704a8-21e6-30f2-a2d7-a197bc679485\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5Njg3MDQwNTk1NCwKICAicHJvZmlsZUlkIiA6ICJiMTUyZDlhZTE1MTM0OWNmOWM2NmI0Y2RjMTA5NTZjOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaXNxdW90aCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NTQ4NWM0YjM0ZTViNTQ3MGJlOTRkZTEwMGU2MWY3ODE2ZjgxYmM1YTExZGZkZjBlY2NmODkwMTcyZGE1ZDBhIgogICAgfQogIH0KfQ\"}]}},display:{Lore:[0:\"§7Fluttering around a Garden near\",1:\"§7you.\",2:\"\",3:\"§7Attracted to §aHoney Jar§7.\",4:\"\",5:\"§c❤ Health§8: §c600\"],Name:\"§aMoth (Pest)\"},ExtraAttributes:{id:\"PEST_MOTH_MONSTER\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Fluttering around a Garden near",
+    "§7you.",
+    "",
+    "§7Attracted to §aHoney Jar§7.",
+    "",
+    "§c❤ Health§8: §c600"
+  ],
+  "internalname": "PEST_MOTH_MONSTER",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Moth"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 1,
+      "coins": 25,
+      "xp": 10,
+      "panorama": "garden",
+      "render": "@neurepo:mobs/pest_moth.json",
+      "name": "§aMoth",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ENCHANTED_COCOA:1",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "COMPOST:1",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "HONEY_JAR:1",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "DUNG:1",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "PLANT_MATTER:1",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "CHEESE_FUEL:1",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "VINYL_WINGS_OF_HARMONY:1",
+          "extra": [],
+          "chance": "2%"
+        },
+        {
+          "id": "ENCHANTED_COOKIE:1",
+          "extra": [],
+          "chance": "1%"
+        },
+        {
+          "id": "WRIGGLING_LARVA:1",
+          "extra": [],
+          "chance": "0.5%"
+        }
+      ]
+    }
+  ]
+}

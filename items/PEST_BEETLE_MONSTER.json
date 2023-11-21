@@ -1,0 +1,84 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aBeetle (Pest)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"50060768-8fe7-3cb9-9a62-dad9fce68f5b\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5Njg3MDQzNTQwNCwKICAicHJvZmlsZUlkIiA6ICJiMDU4MTFjYTdmNDk0YTM5OTZiNDU4ZjcwMmQ2MzJiOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJVeWlsIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM1NTkwZDUzMjZhNjVkNTViMmJjNjBjNWNkMTk0YzEzZDYxMjU2NThkM2Q0YzYwZWNlMWQ5YmVjZmFjZWE5M2MiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7A particularly gross pest.\",1:\"\",2:\"§7Attracted to §aDung§7.\",3:\"\",4:\"§c❤ Health§8: §c600\"],Name:\"§aBeetle (Pest)\"},ExtraAttributes:{id:\"PEST_BEETLE_MONSTER\"}}",
+  "damage": 3,
+  "lore": [
+    "§7A particularly gross pest.",
+    "",
+    "§7Attracted to §aDung§7.",
+    "",
+    "§c❤ Health§8: §c600"
+  ],
+  "internalname": "PEST_BEETLE_MONSTER",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Beetle"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 1,
+      "coins": 25,
+      "xp": 10,
+      "panorama": "garden",
+      "render": "@neurepo:mobs/pest_beetle.json",
+      "name": "§aBeetle",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ENCHANTED_NETHER_STALK:1",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_BROWN_MUSHROOM:1",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "COMPOST:1",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "HONEY_JAR:1",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "DUNG:1",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "PLANT_MATTER:1",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "CHEESE_FUEL:1",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "PESTERMINATOR;1:1",
+          "extra": [],
+          "chance": "3.5%"
+        },
+        {
+          "id": "VINYL_BEETLE:1",
+          "extra": [],
+          "chance": "2%"
+        },
+        {
+          "id": "MUTANT_NETHER_STALK:1",
+          "extra": [],
+          "chance": "1%"
+        }
+      ]
+    }
+  ]
+}

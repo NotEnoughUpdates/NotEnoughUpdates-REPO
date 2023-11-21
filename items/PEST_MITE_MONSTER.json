@@ -1,0 +1,79 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aMite (Pest)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"adaea028-9916-318c-84ee-601a380ae76b\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5Njg3MDQxOTcyNSwKICAicHJvZmlsZUlkIiA6ICJkYjYzNWE3MWI4N2U0MzQ5YThhYTgwOTMwOWFhODA3NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbmdlbHMxNzQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmU2YmFmNjQzMWE5ZGFhMmNhNjA0ZDVhM2MyNmU5YTc2MWQ1OTUyZjA4MTcxNzRhNGZlMGI3NjQ2MTZlMjFmZiIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7Try and you just mite.\",1:\"\",2:\"§7Attracted to §aTasty Cheese§7.\",3:\"\",4:\"§c❤ Health§8: §c600\"],Name:\"§aMite (Pest)\"},ExtraAttributes:{id:\"PEST_MITE_MONSTER\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Try and you just mite.",
+    "",
+    "§7Attracted to §aTasty Cheese§7.",
+    "",
+    "§c❤ Health§8: §c600"
+  ],
+  "internalname": "PEST_MITE_MONSTER",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Mite"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 1,
+      "coins": 25,
+      "xp": 10,
+      "panorama": "garden",
+      "render": "@neurepo:mobs/pest_mite.json",
+      "name": "§aMite",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ENCHANTED_CACTUS_GREEN:1",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "COMPOST:1",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "HONEY_JAR:1",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "DUNG:1",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "PLANT_MATTER:1",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "CHEESE_FUEL:1",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "VINYL_DYNAMITES:1",
+          "extra": [],
+          "chance": "2%"
+        },
+        {
+          "id": "ENCHANTED_CACTUS:1",
+          "extra": [],
+          "chance": "1%"
+        },
+        {
+          "id": "ATMOSPHERIC_FILTER:1",
+          "extra": [],
+          "chance": "0.25%"
+        }
+      ]
+    }
+  ]
+}

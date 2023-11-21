@@ -1,0 +1,80 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aFly (Pest)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"d4a3cbe9-b7be-3fc4-9fc5-a132fc7e1749\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5Njk0NTA2MzI4MSwKICAicHJvZmlsZUlkIiA6ICJjN2FmMWNkNjNiNTE0Y2YzOGY4NWQ2ZDUxNzhjYThlNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJtb25zdGVyZ2FtZXIzMTUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWQ5MGU3Nzc4MjZhNTI0NjEzNjhlMjZkMWIyZTE5YmZhMWJhNTgyZDYwMjQ4M2U1NDVmNDEyNGQwZjczMTg0MiIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7A common Garden pest, known for\",1:\"§7its big eyes.\",2:\"\",3:\"§7Attracted to §aDung§7.\",4:\"\",5:\"§c❤ Health§8: §c600\"],Name:\"§aFly (Pest)\"},ExtraAttributes:{id:\"PEST_FLY_MONSTER\"}}",
+  "damage": 3,
+  "lore": [
+    "§7A common Garden pest, known for",
+    "§7its big eyes.",
+    "",
+    "§7Attracted to §aDung§7.",
+    "",
+    "§c❤ Health§8: §c600"
+  ],
+  "internalname": "PEST_FLY_MONSTER",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Fly"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 1,
+      "coins": 25,
+      "xp": 10,
+      "panorama": "garden",
+      "render": "@neurepo:mobs/pest_fly.json",
+      "name": "§aFly",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ENCHANTED_HAY_BLOCK:1",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "COMPOST:1",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "HONEY_JAR:1",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "DUNG:1",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "PLANT_MATTER:1",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "CHEESE_FUEL:1",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "BEADY_EYES:1",
+          "extra": [],
+          "chance": "2.5%"
+        },
+        {
+          "id": "VINYL_PRETTY_FLY:1",
+          "extra": [],
+          "chance": "2%"
+        },
+        {
+          "id": "TIGHTLY_TIED_HAY_BALE:1",
+          "extra": [],
+          "chance": "1%"
+        }
+      ]
+    }
+  ]
+}

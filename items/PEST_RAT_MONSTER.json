@@ -1,0 +1,80 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aRat (Pest)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"8842a457-5e25-3ad0-958e-dfbebbb1129c\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxODQxOTcwMTc1MywKICAicHJvZmlsZUlkIiA6ICI3MzgyZGRmYmU0ODU0NTVjODI1ZjkwMGY4OGZkMzJmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJCdUlJZXQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYThhYmI0NzFkYjBhYjc4NzAzMDExOTc5ZGM4YjQwNzk4YTk0MWYzYTRkZWMzZWM2MWNiZWVjMmFmOGNmZmU4IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7Pretty loud, and pretty\",1:\"§7annoying.\",2:\"\",3:\"§7Attracted to §aPlant Matter§7.\",4:\"\",5:\"§c❤ Health§8: §c600\"],Name:\"§aRat (Pest)\"},ExtraAttributes:{id:\"PEST_RAT_MONSTER\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Pretty loud, and pretty",
+    "§7annoying.",
+    "",
+    "§7Attracted to §aPlant Matter§7.",
+    "",
+    "§c❤ Health§8: §c600"
+  ],
+  "internalname": "PEST_RAT_MONSTER",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Rat(Pest)"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 1,
+      "coins": 25,
+      "xp": 10,
+      "panorama": "garden",
+      "render": "@neurepo:mobs/pest_rat.json",
+      "name": "§aRat",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ENCHANTED_PUMPKIN:1",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "COMPOST:1",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "HONEY_JAR:1",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "DUNG:1",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "PLANT_MATTER:1",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "CHEESE_FUEL:1",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "VINYL_RODENT_REVOLUTION:1",
+          "extra": [],
+          "chance": "2%"
+        },
+        {
+          "id": "POLISHED_PUMPKIN:1",
+          "extra": [],
+          "chance": "1%"
+        },
+        {
+          "id": "RAT;4:1",
+          "extra": [],
+          "chance": "0.2%"
+        }
+      ]
+    }
+  ]
+}

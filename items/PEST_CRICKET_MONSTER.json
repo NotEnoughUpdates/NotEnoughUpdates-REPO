@@ -1,0 +1,80 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aCricket (Pest)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"a1ef995c-6cc2-3629-9712-9585d0ca3a88\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5Njg3MDQ1NDYxMywKICAicHJvZmlsZUlkIiA6ICI5MThhMDI5NTU5ZGQ0Y2U2YjE2ZjdhNWQ1M2VmYjQxMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJCZWV2ZWxvcGVyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdiNTBkNmU2YmY5MDdmYTRlM2M0NGY0NjVjZDJjNGY3OTEyNGI1NzAzYTJkZjIyZmFjNjM3NmIxYjkxNzAzY2YiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Usually just a hop, skip, and a\",1:\"§7jump away.\",2:\"\",3:\"§7Attracted to §aHoney Jar§7.\",4:\"\",5:\"§c❤ Health§8: §c600\"],Name:\"§aCricket (Pest)\"},ExtraAttributes:{id:\"PEST_CRICKET_MONSTER\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Usually just a hop, skip, and a",
+    "§7jump away.",
+    "",
+    "§7Attracted to §aHoney Jar§7.",
+    "",
+    "§c❤ Health§8: §c600"
+  ],
+  "internalname": "PEST_CRICKET_MONSTER",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Cricket"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 1,
+      "coins": 25,
+      "xp": 10,
+      "panorama": "garden",
+      "render": "@neurepo:mobs/pest_cricket.json",
+      "name": "§aCricket",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ENCHANTED_CARROT:1",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "COMPOST:1",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "HONEY_JAR:1",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "DUNG:1",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "PLANT_MATTER:1",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "CHEESE_FUEL:1",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "ENCHANTED_GOLDEN_CARROT:1",
+          "extra": [],
+          "chance": "1%"
+        },
+        {
+          "id": "VINYL_CRICKET_CHOIR:1",
+          "extra": [],
+          "chance": "2%"
+        },
+        {
+          "id": "CHIRPING_STEREO:1",
+          "extra": [],
+          "chance": "0.5%"
+        }
+      ]
+    }
+  ]
+}
