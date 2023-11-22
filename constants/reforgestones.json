@@ -41,6 +41,55 @@
       }
     }
   },
+  "BEADY_EYES": {
+    "internalName": "BEADY_EYES",
+    "reforgeName": "Beady",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "VACUUM",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts": {
+      "COMMON": 10000,
+      "UNCOMMON": 20000,
+      "RARE": 50000,
+      "EPIC": 75000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 150000
+    },
+    "reforgeAbility": "§7§6Pests §7drop §a+3 §7crops.",
+    "reforgeStats": {
+      "COMMON": {
+        "intelligence": 10,
+        "damage": 5
+      },
+      "UNCOMMON": {
+        "intelligence": 20,
+        "damage": 10
+      },
+      "RARE": {
+        "intelligence": 30,
+        "damage": 15
+      },
+      "EPIC": {
+        "intelligence": 40,
+        "damage": 20
+      },
+      "LEGENDARY": {
+        "intelligence": 50,
+        "damage": 25
+      },
+      "MYTHIC": {
+        "intelligence": 60,
+        "damage": 30
+      }
+    }
+  },
   "BLESSED_FRUIT": {
     "internalName": "BLESSED_FRUIT",
     "reforgeName": "Blessed",
@@ -287,6 +336,49 @@
       "MYTHIC": {
         "health": 10,
         "defense": 5
+      }
+    }
+  },
+  "CLIPPED_WINGS": {
+    "internalName": "CLIPPED_WINGS",
+    "reforgeName": "Buzzing",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "VACUUM",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts": {
+      "COMMON": 10000,
+      "UNCOMMON": 20000,
+      "RARE": 50000,
+      "EPIC": 75000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 150000
+    },
+    "reforgeAbility": "Doubles the §c❁ Damage §7dealt §7by §aVacuums§7.",
+    "reforgeStats": {
+      "COMMON": {
+        "speed": 3
+      },
+      "UNCOMMON": {
+        "speed": 4
+      },
+      "RARE": {
+        "speed": 5
+      },
+      "EPIC": {
+        "speed": 7
+      },
+      "LEGENDARY": {
+        "speed": 10
+      },
+      "MYTHIC": {
+        "speed": 15
       }
     }
   },
