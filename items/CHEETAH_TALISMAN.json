@@ -1,18 +1,18 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§5Cheetah Talisman",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"cda9d88a-3da9-3c59-8bd7-3c3777784486\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTU1M2Y4ODU2ZGQ0NmRlN2UwNWQ0NmY1ZmMyZmI1OGVhZmJhNjgyOWIxMWIxNjBhMTU0NTYyMmU4OWNhYWEzMyJ9fX0\"}]}},display:{Lore:[0:\"§7Speed: §a+3\",1:\"\",2:\"§8§l* §8Co-op Soulbound §8§l*\",3:\"§5§lEPIC ACCESSORY\"],Name:\"§5Cheetah Talisman\"},ExtraAttributes:{id:\"CHEETAH_TALISMAN\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"cda9d88a-3da9-3c59-8bd7-3c3777784486\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTU1M2Y4ODU2ZGQ0NmRlN2UwNWQ0NmY1ZmMyZmI1OGVhZmJhNjgyOWIxMWIxNjBhMTU0NTYyMmU4OWNhYWEzMyJ9fX0\"}]}},display:{Lore:[0:\"§7Speed: §a+3\",1:\"\",2:\"§8§l* §8Soulbound §8§l*\",3:\"§5§lEPIC ACCESSORY\"],Name:\"§5Cheetah Talisman\"},ExtraAttributes:{id:\"CHEETAH_TALISMAN\"}}",
   "damage": 3,
   "lore": [
     "§7Speed: §a+3",
     "",
-    "§8§l* §8Co-op Soulbound §8§l*",
+    "§8§l* §8Soulbound §8§l*",
     "§5§lEPIC ACCESSORY"
   ],
   "internalname": "CHEETAH_TALISMAN",
   "crafttext": "",
   "clickcommand": "",
-  "modver": "2.1.0-REL",
+  "modver": "2.1.1-PRE",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Cheetah_Talisman",
@@ -20,9 +20,9 @@
   ],
   "recipes": [
     {
-    "type": "trade",
-    "cost": "ENCHANTED_EMERALD:32",
-    "result": "CHEEETAH_TALISMAN"
+      "type": "trade",
+      "cost": "ENCHANTED_EMERALD:32",
+      "result": "CHEEETAH_TALISMAN"
     }
   ]
 }
