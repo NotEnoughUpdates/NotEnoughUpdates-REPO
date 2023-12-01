@@ -4290,7 +4290,47 @@
       ]
     }
   },
+  "STARRED_ICE_SPRAY_WAND": {
+    "type": "Ice",
+    "1": 20,
+    "2": 50,
+    "3": 100,
+    "4": 200,
+    "5": 300,
+    "items": {
+      "4": [
+        "SKYBLOCK_COIN:10000"
+      ],
+      "5": [
+        "SKYBLOCK_COIN:25000"
+      ]
+    }
+  },
   "YETI_SWORD": {
+    "type": "Ice",
+    "dungeonize": 100,
+    "1": 100,
+    "2": 150,
+    "3": 200,
+    "4": 250,
+    "5": 300,
+    "items": {
+      "4": [
+        "SKYBLOCK_COIN:10000"
+      ],
+      "5": [
+        "SKYBLOCK_COIN:25000"
+      ]
+    },
+    "catacombs_requirements": [
+      {
+        "type": "DUNGEON_SKILL",
+        "dungeon_type": "CATACOMBS",
+        "level": 22
+      }
+    ]
+  },
+  "STARRED_YETI_SWORD": {
     "type": "Ice",
     "dungeonize": 100,
     "1": 100,
@@ -12812,6 +12852,30 @@
     }
   },
   "GLACIAL_SCYTHE": {
+    "type": "Ice",
+    "dungeonize": 50,
+    "1": 10,
+    "2": 15,
+    "3": 20,
+    "4": 25,
+    "5": 30,
+    "items": {
+      "4": [
+        "SKYBLOCK_COIN:10000"
+      ],
+      "5": [
+        "SKYBLOCK_COIN:25000"
+      ]
+    },
+    "catacombs_requirements": [
+      {
+        "type": "DUNGEON_SKILL",
+        "dungeon_type": "CATACOMBS",
+        "level": 10
+      }
+    ]
+  },
+  "STARRED_GLACIAL_SCYTHE": {
     "type": "Ice",
     "dungeonize": 50,
     "1": 10,
