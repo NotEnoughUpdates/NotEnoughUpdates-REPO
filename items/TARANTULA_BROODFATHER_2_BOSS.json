@@ -4,7 +4,7 @@
   "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"7c63f3cf-a963-311a-aeca-3a075b417806\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q1NDE1NDFkYWFmZjUwODk2Y2QyNThiZGJkZDRjZjgwYzNiYTgxNjczNTcyNjA3OGJmZTM5MzkyN2U1N2YxIn19fQ\"}]}},display:{Lore:[0:\"§8Beginner\",1:\"\",2:\"§7Health: §c30,000❤\",3:\"§7Damage: §c45 §7per second\",4:\"\",5:\"§eCombat Jump\",6:\"§7The spider will often attempt to\",7:\"§7jump behind you.\",8:\"\",9:\"§cNoxious\",10:\"§7Deals AOE damage every second,\",11:\"§7reducing your healing by 50%.\"],Name:\"§6Tarantula Broodfather II (Boss)\"},ExtraAttributes:{id:\"TARANTULA_BROODFATHER_2_BOSS\"}}",
   "damage": 3,
   "lore": [
-    "§8Beginner",
+    "§8Strong",
     "",
     "§7Health: §c30,000❤",
     "§7Damage: §c45 §7per second",
@@ -15,7 +15,7 @@
     "",
     "§cNoxious",
     "§7Deals AOE damage every second,",
-    "§7reducing your healing by 50%."
+    "§7reducing your §4♨ Vitality§7 by 50%."
   ],
   "internalname": "TARANTULA_BROODFATHER_2_BOSS",
   "clickcommand": "viewrecipe",
@@ -36,7 +36,9 @@
       "drops": [
         {
           "id": "TARANTULA_WEB",
-          "extra": ["x9-18"],
+          "extra": [
+            "x9-18"
+          ],
           "chance": "100%"
         },
         {
