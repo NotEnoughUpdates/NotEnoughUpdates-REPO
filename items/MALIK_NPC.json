@@ -1,0 +1,39 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Malik (NPC)",
+  "nbttag": "{SkullOwner:{Id:\"2e8b3678-7fde-2009-b823-dbb41ec95fb7\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FkMjY1YjAwNGI0MTAwNTJmZjE1YmMwOWFjOGM0OGU4ZWYwY2E5YWE2NmYzN2I0NDY0NDE3NTY2N2YxNGY2MDYifX19\"}]},Name:\"2e8b3678-7fde-2009-b823-dbb41ec95fb7\"},display:{Lore:[0:\"\"],Name:\"§9Malik (NPC)\"},ExtraAttributes:{id:\"MALIK_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "MALIK_NPC",
+  "clickcommand": "",
+  "modver": "2.1.1-PRE",
+  "x": -63,
+  "y": 122,
+  "z": 6,
+  "island": "dungeon_hub",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "ESSENCE_WITHER:25000"
+      ],
+      "result": "INFINITE_SPIRIT_LEAP:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "ESSENCE_WITHER:100"
+      ],
+      "result": "SECRET_TRACKER:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "ESSENCE_UNDEAD:50000"
+      ],
+      "result": "INFINITE_SUPERBOOM_TNT:1"
+    }
+  ]
+}
