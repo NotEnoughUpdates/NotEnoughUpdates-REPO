@@ -1,0 +1,29 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Baker (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"5e49c811-ad15-2b7e-ad56-f4663a9164a2\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzEwOGI3YjVhYWU1MzU3OTc2OWMwMTNhMjY1NmEzM2QyZmI4MzE4Njg1ZDc0YWNlMWExYzY2NWFkNjdhODNiMzgifX19\"}]},Name:\"5e49c811-ad15-2b7e-ad56-f4663a9164a2\"},display:{Lore:[0:\"§7The Baker visits the SkyBlock Hub\",1:\"§7every year during the §dNew Year Celebration\",2:\"§7to hand out §cNew Year Cakes§7.\"],Name:\"§9Baker (NPC)\"},ExtraAttributes:{id:\"BAKER_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    "§7The Baker visits the SkyBlock Hub",
+    "§7every year during the §dNew Year Celebration",
+    "§7to hand out §cNew Year Cakes§7."
+  ],
+  "internalname": "BAKER_NPC",
+  "clickcommand": "",
+  "modver": "2.1.1-PRE",
+  "x": -6,
+  "y": 71,
+  "z": -47,
+  "island": "hub",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "result": "NEW_YEAR_CAKE_BAG:1.0",
+      "cost": [
+        "SKYBLOCK_COIN:250000.0"
+      ]
+    }
+  ],
+  "crafttext": "",
+  "infoType": ""
+}
