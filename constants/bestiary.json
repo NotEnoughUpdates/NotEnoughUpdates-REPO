@@ -156,7 +156,11 @@
       525,
       625,
       750,
-      1500
+      1500,
+      3000,
+      4500,
+      6000,
+      7500
     ],
     "7": [
       1,
@@ -179,7 +183,11 @@
       275,
       375,
       500,
-      1000
+      1000,
+      1500,
+      2000,
+      2500,
+      3000
     ]
   },
   "dynamic": {
@@ -580,7 +588,7 @@
           "splitter_spider_silverfish_50",
           "jockey_shot_silverfish_42"
         ],
-        "bracket": 1
+        "bracket": 2
       },
       {
         "name": "§aSpider Jockey",
@@ -592,7 +600,7 @@
           "spider_jockey_42",
           "spider_jockey_5"
         ],
-        "bracket": 2
+        "bracket": 3
       },
       {
         "name": "§aSplitter Spider",
@@ -620,7 +628,7 @@
           "voracious_spider_45",
           "voracious_spider_10"
         ],
-        "bracket": 1
+        "bracket": 2
       },
       {
         "name": "§aWeaver Spider",
@@ -698,13 +706,12 @@
       },
       {
         "name": "§aObsidian Defender",
-        "skullOwner": "d0e05de7-6067-454d-beae-c6d19d886191",
-        "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY1NTYzMjg1MTE1NCwKICAicHJvZmlsZUlkIiA6ICJkMGUwNWRlNzYwNjc0NTRkYmVhZWM2ZDE5ZDg4NjE5MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNb3VsYmVycnkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmNlMTU1MjI0ZWE0YmM0OWE4ZTkxOTA3MzdjYjA0MTdkOGE3YzM4YTAzN2Q4ZDAzODJkZGU0ODI5YzEwMzU5MCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+        "item": "obsidian",
         "cap": 10000,
         "mobs": [
           "obsidian_wither_55"
         ],
-        "bracket": 4
+        "bracket": 5
       },
       {
         "name": "§a§dVoidling Extremist",
@@ -734,7 +741,7 @@
         "mobs": [
           "watcher_55"
         ],
-        "bracket": 4
+        "bracket": 5
       },
       {
         "name": "§aZealot",
@@ -744,7 +751,7 @@
           "zealot_bruiser_100",
           "zealot_enderman_55"
         ],
-        "bracket": 3
+        "bracket": 4
       }
     ]
   },
@@ -907,8 +914,6 @@
         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzRlOWM2ZTk4NTgyZmZkOGZmOGZlYjMzMjJjZDE4NDljNDNmYjE2YjE1OGFiYjExY2E3YjQyZWRhNzc0M2ViIn19fQ==",
         "cap": 10000,
         "mobs": [
-          "kada_knight_90",
-          "magma_cube_rider_90",
           "pigman_12"
         ],
         "bracket": 3
@@ -921,7 +926,7 @@
         "mobs": [
           "wither_skeleton_70"
         ],
-        "bracket": 3
+        "bracket": 4
       },
       {
         "name": "§aWither Spectre",
@@ -952,6 +957,26 @@
           "vanquisher_100"
         ],
         "bracket": 5
+      },
+      {
+        "name": "§aKada Knight",
+        "skullOwner": "3fc29372-e78e-3ad6-b0b0-05ca0a84babd",
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzRlOWM2ZTk4NTgyZmZkOGZmOGZlYjMzMjJjZDE4NDljNDNmYjE2YjE1OGFiYjExY2E3YjQyZWRhNzc0M2ViIn19fQ==",
+        "cap": 3000,
+        "mobs": [
+          "kada_knight_90"
+        ],
+        "bracket": 4
+      },
+      {
+        "name": "§aMagma Cube Rider",
+        "skullOwner": "3fc29372-e78e-3ad6-b0b0-05ca0a84babd",
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzRlOWM2ZTk4NTgyZmZkOGZmOGZlYjMzMjJjZDE4NDljNDNmYjE2YjE1OGFiYjExY2E3YjQyZWRhNzc0M2ViIn19fQ==",
+        "cap": 3000,
+        "mobs": [
+          "magma_cube_rider_90"
+        ],
+        "bracket": 4
       }
     ]
   },
@@ -1551,7 +1576,7 @@
           "explosive_imp_400",
           "explosive_imp_500"
         ],
-        "bracket": 3
+        "bracket": 4
       },
       {
         "name": "§aInferno Magma Cube",
@@ -1639,7 +1664,8 @@
       },
       {
         "name": "§aMagma Follower",
-        "item": "spawn_egg",
+        "skullOwner": "35f02923-7bec-3869-9ef5-b42a4794cac8",
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzg5NTdkNTAyM2M5MzdjNGM0MWFhMjQxMmQ0MzQxMGJkYTIzY2Y3OWE5ZjZhYjM2Yjc2ZmVmMmQ3YzQyOSJ9fX0=",
         "cap": 30,
         "mobs": [
           "magma_follower_100",
@@ -2244,7 +2270,7 @@
           "master_diamond_guy_160",
           "master_diamond_guy_170"
         ],
-        "bracket": 5
+        "bracket": 7
       },
       {
         "name": "§aBat",
@@ -2394,7 +2420,7 @@
           "master_tentaclees_100",
           "master_tentaclees_110"
         ],
-        "bracket": 4
+        "bracket": 5
       },
       {
         "name": "§aGolem",
@@ -2424,7 +2450,7 @@
           "master_king_midas_160",
           "master_king_midas_170"
         ],
-        "bracket": 5
+        "bracket": 6
       },
       {
         "name": "§a§d§lLost Adventurer",
@@ -2523,7 +2549,7 @@
           "master_lost_adventurer_163",
           "master_lost_adventurer_164"
         ],
-        "bracket": 5
+        "bracket": 7
       },
       {
         "name": "§aMimic",
@@ -2574,7 +2600,7 @@
           "master_shadow_assassin_170",
           "master_shadow_assassin_171"
         ],
-        "bracket": 5
+        "bracket": 7
       },
       {
         "name": "§aSkeleton Grunt",
@@ -2917,7 +2943,7 @@
           "master_zombie_knight_116",
           "master_zombie_knight_126"
         ],
-        "bracket": 4
+        "bracket": 5
       },
       {
         "name": "§aZombie Lord",
