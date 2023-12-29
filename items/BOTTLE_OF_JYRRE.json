@@ -1,12 +1,22 @@
 {
   "internalname": "BOTTLE_OF_JYRRE",
   "itemid": "minecraft:potion",
-  "displayname": "§fWater Bottle",
+  "displayname": "§f§cLost Bottle of Jyrre",
   "clickcommand": "",
   "damage": 0,
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fWater Bottle\"},ExtraAttributes:{bottle_of_jyrre_seconds:290,id:\"BOTTLE_OF_JYRRE\"}}",
-  "modver": "2.1.0-REL",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Provides a boost to your §b✎\",1:\"§bIntelligence§7! The longer this item\",2:\"§7stays in your inventory, the more\",3:\"§7intelligent you will be after drinking\",4:\"§7it. Must be kept in your inventory at\",5:\"§7all times!\",6:\"\",7:\"§7Intelligence Bonus: §b0\",8:\"§7Duration: §b10 Minutes\",9:\"\",10:\"§f§lCOMMON\"],Name:\"§f§cLost Bottle of Jyrre\"},ExtraAttributes:{bottle_of_jyrre_seconds:40,bottle_of_jyrre_last_update:1703624609113L,originTag:\"UNKNOWN\",id:\"BOTTLE_OF_JYRRE\"}}",
+  "modver": "2.1.1-PRE",
   "lore": [
+    "§7Provides a boost to your §b✎",
+    "§bIntelligence§7! The longer this item",
+    "§7stays in your inventory, the more",
+    "§7intelligent you will be after drinking",
+    "§7it. Must be kept in your inventory at",
+    "§7all times!",
+    "",
+    "§7Intelligence Bonus: §b0",
+    "§7Duration: §b10 Minutes",
+    "",
     "§f§lCOMMON"
   ],
   "infoType": "WIKI_URL",
@@ -15,9 +25,10 @@
   ],
   "recipes": [
     {
-    "type": "trade",
-    "cost": "ENCHANTED_EMERALD:2",
-    "result": "BOTTLE_OF_JYRRE"
+      "type": "trade",
+      "cost": "ENCHANTED_EMERALD:2",
+      "result": "BOTTLE_OF_JYRRE"
     }
-  ]
+  ],
+  "crafttext": ""
 }
