@@ -1,0 +1,52 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Diamond Goblin (Monster)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"81435058-f0e1-2bda-b932-aa34dbb702c3\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE3Mjg1MDkwNmI3ZjBkOTUyYzBlNTA4MDczY2M0MzlmZDMzNzRjY2Y1Yjg4OWMwNmY3ZThkOTBjYzBjYzI1NWMifX19\"}]},Name:\"81435058-f0e1-2bda-b932-aa34dbb702c3\"},display:{Lore:[0:\"§7The §bDiamond Goblin §7has a §a3.33% §7chance \",1:\"§7to replace a §6Golden Goblin §7when it is spawned.\",2:\"\",3:\"§c❤ Health§8: §c5\"],Name:\"§9Diamond Goblin (Monster)\"},ExtraAttributes:{id:\"DIAMOND_GOBLIN_MONSTER\"}}",
+  "damage": 3,
+  "lore": [
+    "§7The §bDiamond Goblin §7has a §a3.33% §7chance ",
+    "§7to replace a §6Golden Goblin §7when it is spawned.",
+    "",
+    "§c❤ Health§8: §c5"
+  ],
+  "internalname": "DIAMOND_GOBLIN_MONSTER",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Diamond_Goblin",
+    "https://wiki.hypixel.net/Diamond_Goblin"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 500,
+      "coins": 250,
+      "xp": 100,
+      "combat_xp": 20,
+      "name": "§cDiamond Goblin",
+      "panorama": "mining_3",
+      "render": "@neurepo:mobs/diamond_goblin.json",
+      "type": "drops",
+      "extra": [
+        "§7Other Drops:",
+        "§7+ §2400 Mithril Powder",
+        "§7+ §d400 Gemstone Powder"
+      ],
+      "drops": [
+        {
+          "id": "ESSENCE_DIAMOND:20",
+          "chance": "100%"
+        },
+        {
+          "id": "MITHRIL_ORE:20",
+          "chance": "100%"
+        },
+        {
+          "id": "PET_ITEM_PURE_MITHRIL_GEM:1",
+          "chance": "1%"
+        }
+      ]
+    }
+  ]
+}
