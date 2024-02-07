@@ -1,0 +1,35 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Gregory (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"c9540683-51e4-3942-ad17-4f2c3f3ae4b7\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgyMmQ4ZTc1MWM4ZjJmZDRjODk0MmM0NGJkYjJmNWNhNGQ4YWU4ZTU3NWVkM2ViMzRjMThhODZlOTNiIn19fQ\u003d\u003d\"}]},Name:\"c9540683-51e4-3942-ad17-4f2c3f3ae4b7\"},display:{Lore:[0:\"§7This NPC only appears during an\",1:\"§7Ender Dragon fight in §5The End§7.\"],Name:\"§9Gregory (NPC)\"},ExtraAttributes:{id:\"GREGORY_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    "§7This NPC only appears during an",
+    "§7Ender Dragon fight in §5The End§7."
+  ],
+  "internalname": "GREGORY_NPC",
+  "clickcommand": "",
+  "modver": "2.1.1-PRE",
+  "x": -608,
+  "y": 23,
+  "z": -285,
+  "island": "combat_3",
+  "crafttext": "",
+  "infoType": "",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:240"
+      ],
+      "result": "ARROW:20"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:500"
+      ],
+      "result": "DECENT_BOW"
+    }
+  ]
+}
