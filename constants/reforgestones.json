@@ -290,6 +290,21 @@
       }
     }
   },
+  "BOO_STONE": {
+    "internalName": "BOO_STONE",
+    "reforgeName": "Greater Spook",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "ARMOR",
+    "requiredRarities": [
+      "EPIC",
+      "LEGENDARY"
+    ],
+    "reforgeCosts": {
+      "EPIC": 10000,
+      "LEGENDARY": 10000
+    },
+    "reforgeAbility": "Grants §a+1 §5Fear§7."
+  },
   "CANDY_CORN": {
     "internalName": "CANDY_CORN",
     "reforgeName": "Candied",
@@ -1032,7 +1047,7 @@
       "LEGENDARY": 100000,
       "MYTHIC": 250000
     },
-    "reforgeAbility": "Every 7th melee hit on an enemy deals +100% damage.",
+    "reforgeAbility": "Every §c7th§7 melee hit on an enemy deals §c+100%§7 damage.",
     "reforgeStats": {
       "COMMON": {
         "strength": 30,
@@ -1333,7 +1348,7 @@
       "LEGENDARY": 300000,
       "MYTHIC": 600000
     },
-    "reforgeAbility": "§7Decreases the health of Lava Sea Creatures by 1% for each unique Lava Sea Creature you have killed with this rod in your inventory.",
+    "reforgeAbility": "§7Decreases the health of Lava Sea Creatures by §c1%§7 for each unique Lava Sea Creature you have killed with this rod in your inventory.",
     "reforgeStats": {
       "COMMON": {
         "strength": 5,
@@ -1465,48 +1480,6 @@
       "MYTHIC": {
         "speed": 1,
         "farming_fortune": 12
-      }
-    }
-  },
-  "LUXURIOUS_SPOOL": {
-    "internalName": "LUXURIOUS_SPOOL",
-    "reforgeName": "Silky",
-    "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "ACCESSORY",
-    "requiredRarities": [
-      "COMMON",
-      "UNCOMMON",
-      "RARE",
-      "EPIC",
-      "LEGENDARY",
-      "MYTHIC"
-    ],
-    "reforgeCosts": {
-      "COMMON": 250,
-      "UNCOMMON": 500,
-      "RARE": 1000,
-      "EPIC": 2500,
-      "LEGENDARY": 5000,
-      "MYTHIC": 10000
-    },
-    "reforgeStats": {
-      "COMMON": {
-        "crit_damage": 5
-      },
-      "UNCOMMON": {
-        "crit_damage": 6
-      },
-      "RARE": {
-        "crit_damage": 8
-      },
-      "EPIC": {
-        "crit_damage": 10
-      },
-      "LEGENDARY": {
-        "crit_damage": 15
-      },
-      "MYTHIC": {
-        "crit_damage": 20
       }
     }
   },
@@ -2100,7 +2073,7 @@
     "internalName": "PRESUMED_GALLON_OF_RED_PAINT",
     "reforgeName": "Blood-Soaked",
     "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "EQUIPMENT",
+    "itemTypes": "CLOAK",
     "requiredRarities": [
       "COMMON",
       "UNCOMMON",
@@ -2118,7 +2091,7 @@
       "MYTHIC": 300000,
       "DIVINE": 400000
     },
-    "reforgeAbility": "Heal 1.15x more from Vampirism and Lifesteal.",
+    "reforgeAbility": "Heal §a1.15x§7 more from §9Vampirism§7 and §9Lifesteal.",
     "reforgeStats": {
       "COMMON": {
         "health": 6,
