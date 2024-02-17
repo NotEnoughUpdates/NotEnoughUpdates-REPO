@@ -1,17 +1,18 @@
 {
   "itemid": "minecraft:bow",
   "displayname": "§5Explosive Bow",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+100\",1:\"§7Strength: §c+20\",2:\"\",3:\"§6Ability: Explosive Shot\",4:\"§7Creates an explosion on impact!\",5:\"§7Every Monster caught in this\",6:\"§7explosion takes the full damage\",7:\"§7of the weapon!\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§5§lEPIC BOW\"],Name:\"§5Explosive Bow\"},ExtraAttributes:{id:\"EXPLOSIVE_BOW\"}}",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+100\",1:\"§7Strength: §c+20\",2:\"\",3:\"§6Ability: Explosive Shot \",4:\"§7Creates an explosion on impact!\",5:\"§7Every Monster caught in this\",6:\"§7explosion takes the full damage of\",7:\"§7the weapon!\",8:\"§8Acts as Superboom TNT!\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§5§lEPIC BOW\"],Name:\"§5Explosive Bow\"},ExtraAttributes:{id:\"EXPLOSIVE_BOW\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+100",
     "§7Strength: §c+20",
     "",
-    "§6Ability: Explosive Shot",
+    "§6Ability: Explosive Shot ",
     "§7Creates an explosion on impact!",
     "§7Every Monster caught in this",
-    "§7explosion takes the full damage",
-    "§7of the weapon!",
+    "§7explosion takes the full damage of",
+    "§7the weapon!",
+    "§8Acts as Superboom TNT!",
     "",
     "§7§8This item can be reforged!",
     "§5§lEPIC BOW"
@@ -29,7 +30,7 @@
   },
   "internalname": "EXPLOSIVE_BOW",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
+  "modver": "2.1.1-PRE",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Explosive_Bow",
