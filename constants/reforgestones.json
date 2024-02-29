@@ -1039,7 +1039,11 @@
     "internalName": "FULL_JAW_FANGING_KIT",
     "reforgeName": "Fanged",
     "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "SWORD",
+    "itemTypes": {
+      "itemid" : [
+        "minecraft:iron_sword"
+      ]
+    },
     "requiredRarities": [
       "COMMON",
       "UNCOMMON",
