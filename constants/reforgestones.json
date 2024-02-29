@@ -873,7 +873,16 @@
     "internalName": "ENTROPY_SUPPRESSOR",
     "reforgeName": "Coldfused",
     "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "SWORD",
+    "itemTypes": {
+      "internalName" : [
+        "FIREDUST_DAGGER",
+        "KINDLEBANE_DAGGER",
+        "MAWDREDGE_DAGGER",
+        "PYROCHAOS_DAGGER",
+        "TWILIGHT_DAGGER",
+        "DEATHRIPPER_DAGGER"
+      ]
+    },
     "requiredRarities": [
       "COMMON",
       "UNCOMMON",
