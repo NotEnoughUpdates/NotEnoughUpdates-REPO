@@ -294,7 +294,18 @@
     "internalName": "BOO_STONE",
     "reforgeName": "Greater Spook",
     "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "ARMOR",
+    "itemTypes": {
+      "internalName": [
+        "GREAT_SPOOK_HELMET",
+        "GREAT_SPOOK_CHESTPLATE",
+        "GREAT_SPOOK_LEGGINGS",
+        "GREAT_SPOOK_BOOTS",
+        "GREAT_SPOOK_BELT",
+        "GREAT_SPOOK_CLOAK",
+        "GREAT_SPOOK_NECKLACE",
+        "GREAT_SPOOK_GLOVES"
+      ]
+    },
     "requiredRarities": [
       "EPIC",
       "LEGENDARY"
@@ -873,7 +884,16 @@
     "internalName": "ENTROPY_SUPPRESSOR",
     "reforgeName": "Coldfused",
     "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "SWORD",
+    "itemTypes": {
+      "internalName": [
+        "FIREDUST_DAGGER",
+        "KINDLEBANE_DAGGER",
+        "MAWDREDGE_DAGGER",
+        "PYROCHAOS_DAGGER",
+        "TWILIGHT_DAGGER",
+        "DEATHRIPPER_DAGGER"
+      ]
+    },
     "requiredRarities": [
       "COMMON",
       "UNCOMMON",
@@ -1030,7 +1050,11 @@
     "internalName": "FULL_JAW_FANGING_KIT",
     "reforgeName": "Fanged",
     "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "SWORD",
+    "itemTypes": {
+      "itemId": [
+        "minecraft:iron_sword"
+      ]
+    },
     "requiredRarities": [
       "COMMON",
       "UNCOMMON",
@@ -1250,7 +1274,12 @@
     "internalName": "JERRY_STONE",
     "reforgeName": "Jerry's",
     "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "SWORD",
+    "itemTypes": {
+      "internalName" : [
+        "ASPECT_OF_THE_JERRY",
+        "ASPECT_OF_THE_JERRY_SIGNATURE"
+      ]
+    },
     "requiredRarities": [
       "COMMON",
       "UNCOMMON",
@@ -1535,7 +1564,12 @@
     "internalName": "MIDAS_JEWEL",
     "reforgeName": "Gilded",
     "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "SWORD",
+    "itemTypes": {
+      "internalName": [
+        "MIDAS\u0027_SWORD",
+        "MIDAS_STAFF"
+      ]
+    },
     "requiredRarities": [
       "LEGENDARY",
       "MYTHIC"
@@ -2995,7 +3029,12 @@
     "internalName": "AOTE_STONE",
     "reforgeName": "Warped",
     "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "SWORD",
+    "itemTypes": {
+      "internalName" : [
+        "ASPECT_OF_THE_END",
+        "ASPECT_OF_THE_VOID"
+      ]
+    },
     "requiredRarities": [
       "RARE",
       "EPIC",
