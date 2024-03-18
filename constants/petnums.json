@@ -1288,12 +1288,52 @@
           0.1
         ],
         "statNums": {
-          "CRIT_DAMAGE": 0.0
+          "CRIT_DAMAGE": 0.75
         }
       },
       "100": {
         "otherNums": [
           10
+        ],
+        "statNums": {
+          "CRIT_DAMAGE": 75.0
+        }
+      }
+    },
+    "UNCOMMON": {
+      "1": {
+        "otherNums": [
+          0.2
+        ],
+        "statNums": {
+          "CRIT_DAMAGE": 0.75
+        }
+      },
+      "100": {
+        "otherNums": [
+          20
+        ],
+        "statNums": {
+          "CRIT_DAMAGE": 75.0
+        }
+      }
+    },
+    "RARE": {
+      "1": {
+        "otherNums": [
+          0.2,
+          0.4,
+          5.0
+        ],
+        "statNums": {
+          "CRIT_DAMAGE": 0.75
+        }
+      },
+      "100": {
+        "otherNums": [
+          20,
+          40,
+          5
         ],
         "statNums": {
           "CRIT_DAMAGE": 75.0
@@ -1308,7 +1348,7 @@
           5.0
         ],
         "statNums": {
-          "CRIT_DAMAGE": 0.0
+          "CRIT_DAMAGE": 0.75
         }
       },
       "100": {
@@ -1331,7 +1371,7 @@
           0.2
         ],
         "statNums": {
-          "CRIT_DAMAGE": 0.0
+          "CRIT_DAMAGE": 0.75
         }
       },
       "100": {
@@ -1355,7 +1395,7 @@
           1.0
         ],
         "statNums": {
-          "CRIT_DAMAGE": 0.0
+          "CRIT_DAMAGE": 0.75
         }
       },
       "100": {
@@ -1364,46 +1404,6 @@
           50,
           25,
           1.4
-        ],
-        "statNums": {
-          "CRIT_DAMAGE": 75.0
-        }
-      }
-    },
-    "RARE": {
-      "1": {
-        "otherNums": [
-          0.2,
-          0.4,
-          5.0
-        ],
-        "statNums": {
-          "CRIT_DAMAGE": 0.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          20,
-          40,
-          5
-        ],
-        "statNums": {
-          "CRIT_DAMAGE": 75.0
-        }
-      }
-    },
-    "UNCOMMON": {
-      "1": {
-        "otherNums": [
-          0.2
-        ],
-        "statNums": {
-          "CRIT_DAMAGE": 0.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          20
         ],
         "statNums": {
           "CRIT_DAMAGE": 75.0
@@ -1965,18 +1965,16 @@
     "COMMON": {
       "1": {
         "otherNums": [
-          0.2,
-          3.0
+          0.2
         ],
         "statNums": {
-          "DEFENSE": 0.0,
+          "DEFENSE": 0.5,
           "INTELLIGENCE": 1.0
         }
       },
       "100": {
         "otherNums": [
-          2,
-          3
+          2
         ],
         "statNums": {
           "DEFENSE": 50.0,
@@ -1984,49 +1982,21 @@
         }
       }
     },
-    "EPIC": {
+    "UNCOMMON": {
       "1": {
         "otherNums": [
           0.2,
-          3.0,
-          0.3
+          0.25
         ],
         "statNums": {
-          "DEFENSE": 0.0,
+          "DEFENSE": 0.5,
           "INTELLIGENCE": 1.0
         }
       },
       "100": {
         "otherNums": [
-          15,
-          3,
-          30
-        ],
-        "statNums": {
-          "DEFENSE": 50.0,
-          "INTELLIGENCE": 100.0
-        }
-      }
-    },
-    "LEGENDARY": {
-      "1": {
-        "otherNums": [
-          0.2,
-          3.0,
-          0.3,
-          0.3
-        ],
-        "statNums": {
-          "DEFENSE": 0.0,
-          "INTELLIGENCE": 1.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          20,
-          3,
-          30,
-          30
+          6,
+          25
         ],
         "statNums": {
           "DEFENSE": 50.0,
@@ -2042,7 +2012,7 @@
           0.2
         ],
         "statNums": {
-          "DEFENSE": 0.0,
+          "DEFENSE": 0.5,
           "INTELLIGENCE": 1.0
         }
       },
@@ -2058,21 +2028,45 @@
         }
       }
     },
-    "UNCOMMON": {
+    "EPIC": {
       "1": {
         "otherNums": [
           0.2,
-          3.0
+          0.3
         ],
         "statNums": {
-          "DEFENSE": 0.0,
+          "DEFENSE": 0.5,
           "INTELLIGENCE": 1.0
         }
       },
       "100": {
         "otherNums": [
-          6,
-          3
+          15,
+          30
+        ],
+        "statNums": {
+          "DEFENSE": 50.0,
+          "INTELLIGENCE": 100.0
+        }
+      }
+    },
+    "LEGENDARY": {
+      "1": {
+        "otherNums": [
+          0.2,
+          0.3,
+          0.3
+        ],
+        "statNums": {
+          "DEFENSE": 0.5,
+          "INTELLIGENCE": 1.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          20,
+          30,
+          30
         ],
         "statNums": {
           "DEFENSE": 50.0,
@@ -2089,7 +2083,7 @@
           0.1
         ],
         "statNums": {
-          "DEFENSE": 0.0,
+          "DEFENSE": 0.5,
           "INTELLIGENCE": 1.0
         }
       },
@@ -2183,6 +2177,42 @@
         }
       }
     },
+    "UNCOMMON": {
+      "1": {
+        "otherNums": [],
+        "statNums": {
+          "INTELLIGENCE": 0.5,
+          "SPEED": 0.25
+        }
+      },
+      "100": {
+        "otherNums": [],
+        "statNums": {
+          "INTELLIGENCE": 50.0,
+          "SPEED": 25.0
+        }
+      }
+    },
+    "RARE": {
+      "1": {
+        "otherNums": [
+          1.1
+        ],
+        "statNums": {
+          "INTELLIGENCE": 0.5,
+          "SPEED": 0.25
+        }
+      },
+      "100": {
+        "otherNums": [
+          110
+        ],
+        "statNums": {
+          "INTELLIGENCE": 50.0,
+          "SPEED": 25.0
+        }
+      }
+    },
     "EPIC": {
       "1": {
         "otherNums": [
@@ -2219,42 +2249,6 @@
           120,
           25
         ],
-        "statNums": {
-          "INTELLIGENCE": 50.0,
-          "SPEED": 25.0
-        }
-      }
-    },
-    "RARE": {
-      "1": {
-        "otherNums": [
-          1.1
-        ],
-        "statNums": {
-          "INTELLIGENCE": 0.5,
-          "SPEED": 0.25
-        }
-      },
-      "100": {
-        "otherNums": [
-          110
-        ],
-        "statNums": {
-          "INTELLIGENCE": 50.0,
-          "SPEED": 25.0
-        }
-      }
-    },
-    "UNCOMMON": {
-      "1": {
-        "otherNums": [],
-        "statNums": {
-          "INTELLIGENCE": 0.5,
-          "SPEED": 0.25
-        }
-      },
-      "100": {
-        "otherNums": [],
         "statNums": {
           "INTELLIGENCE": 50.0,
           "SPEED": 25.0
@@ -2383,6 +2377,46 @@
         }
       }
     },
+    "UNCOMMON": {
+      "1": {
+        "otherNums": [
+          50.0,
+          100.0
+        ],
+        "statNums": {
+          "INTELLIGENCE": -1.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          50,
+          100
+        ],
+        "statNums": {
+          "INTELLIGENCE": -100.0
+        }
+      }
+    },
+    "RARE": {
+      "1": {
+        "otherNums": [
+          50.0,
+          100.0
+        ],
+        "statNums": {
+          "INTELLIGENCE": -1.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          50,
+          100
+        ],
+        "statNums": {
+          "INTELLIGENCE": -100.0
+        }
+      }
+    },
     "EPIC": {
       "1": {
         "otherNums": [
@@ -2419,46 +2453,6 @@
           50,
           100,
           10
-        ],
-        "statNums": {
-          "INTELLIGENCE": -100.0
-        }
-      }
-    },
-    "RARE": {
-      "1": {
-        "otherNums": [
-          50.0,
-          100.0
-        ],
-        "statNums": {
-          "INTELLIGENCE": -1.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          50,
-          100
-        ],
-        "statNums": {
-          "INTELLIGENCE": -100.0
-        }
-      }
-    },
-    "UNCOMMON": {
-      "1": {
-        "otherNums": [
-          50.0,
-          100.0
-        ],
-        "statNums": {
-          "INTELLIGENCE": -1.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          50,
-          100
         ],
         "statNums": {
           "INTELLIGENCE": -100.0
@@ -2614,15 +2608,65 @@
           0.03
         ],
         "statNums": {
-          "SPEED": 0.0,
-          "STRENGTH": 0.0,
-          "FEROCITY": 0.0
+          "SPEED": 0.25,
+          "STRENGTH": 0.5,
+          "FEROCITY": 0.05
         }
       },
       "100": {
         "otherNums": [
           3,
           3
+        ],
+        "statNums": {
+          "SPEED": 25.0,
+          "STRENGTH": 50.0,
+          "FEROCITY": 5.0
+        }
+      }
+    },
+    "UNCOMMON": {
+      "1": {
+        "otherNums": [
+          0.05,
+          0.05
+        ],
+        "statNums": {
+          "SPEED": 0.25,
+          "STRENGTH": 0.5,
+          "FEROCITY": 0.05
+        }
+      },
+      "100": {
+        "otherNums": [
+          5,
+          5
+        ],
+        "statNums": {
+          "SPEED": 25.0,
+          "STRENGTH": 50.0,
+          "FEROCITY": 5.0
+        }
+      }
+    },
+    "RARE": {
+      "1": {
+        "otherNums": [
+          0.1,
+          0.1,
+          0.8
+        ],
+        "statNums": {
+          "SPEED": 0.25,
+          "STRENGTH": 0.5,
+          "FEROCITY": 0.05
+        }
+      },
+      "100": {
+        "otherNums": [
+          10,
+          10,
+          75
         ],
         "statNums": {
           "SPEED": 25.0,
@@ -2639,9 +2683,9 @@
           1.0
         ],
         "statNums": {
-          "SPEED": 0.0,
-          "STRENGTH": 0.0,
-          "FEROCITY": 0.0
+          "SPEED": 0.25,
+          "STRENGTH": 0.5,
+          "FEROCITY": 0.05
         }
       },
       "100": {
@@ -2666,9 +2710,9 @@
           15
         ],
         "statNums": {
-          "SPEED": 0.0,
-          "STRENGTH": 0.0,
-          "FEROCITY": 0.0
+          "SPEED": 0.25,
+          "STRENGTH": 0.5,
+          "FEROCITY": 0.05
         }
       },
       "100": {
@@ -2677,56 +2721,6 @@
           20,
           100,
           150
-        ],
-        "statNums": {
-          "SPEED": 25.0,
-          "STRENGTH": 50.0,
-          "FEROCITY": 5.0
-        }
-      }
-    },
-    "RARE": {
-      "1": {
-        "otherNums": [
-          0.1,
-          0.1,
-          0.8
-        ],
-        "statNums": {
-          "SPEED": 0.0,
-          "STRENGTH": 0.0,
-          "FEROCITY": 0.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          10,
-          10,
-          75
-        ],
-        "statNums": {
-          "SPEED": 25.0,
-          "STRENGTH": 50.0,
-          "FEROCITY": 5.0
-        }
-      }
-    },
-    "UNCOMMON": {
-      "1": {
-        "otherNums": [
-          0.05,
-          0.05
-        ],
-        "statNums": {
-          "SPEED": 0.0,
-          "STRENGTH": 0.0,
-          "FEROCITY": 0.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          5,
-          5
         ],
         "statNums": {
           "SPEED": 25.0,
@@ -2919,13 +2913,55 @@
           0.4
         ],
         "statNums": {
-          "INTELLIGENCE": 0.0,
-          "SPEED": 0.0
+          "INTELLIGENCE": 0.5,
+          "SPEED": 0.2
         }
       },
       "100": {
         "otherNums": [
           40
+        ],
+        "statNums": {
+          "INTELLIGENCE": 50.0,
+          "SPEED": 20.0
+        }
+      }
+    },
+    "UNCOMMON": {
+      "1": {
+        "otherNums": [
+          0.5
+        ],
+        "statNums": {
+          "INTELLIGENCE": 0.5,
+          "SPEED": 0.2
+        }
+      },
+      "100": {
+        "otherNums": [
+          50
+        ],
+        "statNums": {
+          "INTELLIGENCE": 50.0,
+          "SPEED": 20.0
+        }
+      }
+    },
+    "RARE": {
+      "1": {
+        "otherNums": [
+          0.5,
+          0.8
+        ],
+        "statNums": {
+          "INTELLIGENCE": 0.5,
+          "SPEED": 0.2
+        }
+      },
+      "100": {
+        "otherNums": [
+          50,
+          80
         ],
         "statNums": {
           "INTELLIGENCE": 50.0,
@@ -2940,8 +2976,8 @@
           1.0
         ],
         "statNums": {
-          "INTELLIGENCE": 0.0,
-          "SPEED": 0.0
+          "INTELLIGENCE": 0.5,
+          "SPEED": 0.2
         }
       },
       "100": {
@@ -2963,56 +2999,14 @@
           0.5
         ],
         "statNums": {
-          "INTELLIGENCE": 0.0,
-          "SPEED": 0.0
+          "INTELLIGENCE": 0.5,
+          "SPEED": 0.2
         }
       },
       "100": {
         "otherNums": [
           60,
           100,
-          50
-        ],
-        "statNums": {
-          "INTELLIGENCE": 50.0,
-          "SPEED": 20.0
-        }
-      }
-    },
-    "RARE": {
-      "1": {
-        "otherNums": [
-          0.5,
-          0.8
-        ],
-        "statNums": {
-          "INTELLIGENCE": 0.0,
-          "SPEED": 0.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          50,
-          80
-        ],
-        "statNums": {
-          "INTELLIGENCE": 50.0,
-          "SPEED": 20.0
-        }
-      }
-    },
-    "UNCOMMON": {
-      "1": {
-        "otherNums": [
-          0.5
-        ],
-        "statNums": {
-          "INTELLIGENCE": 0.0,
-          "SPEED": 0.0
-        }
-      },
-      "100": {
-        "otherNums": [
           50
         ],
         "statNums": {
@@ -3139,13 +3133,55 @@
           0.2
         ],
         "statNums": {
-          "SPEED": 0.0,
-          "FEROCITY": 0.0
+          "SPEED": 0.5,
+          "FEROCITY": 0.1
         }
       },
       "100": {
         "otherNums": [
           20
+        ],
+        "statNums": {
+          "SPEED": 50.0,
+          "FEROCITY": 10.0
+        }
+      }
+    },
+    "UNCOMMON": {
+      "1": {
+        "otherNums": [
+          0.2
+        ],
+        "statNums": {
+          "SPEED": 0.5,
+          "FEROCITY": 0.1
+        }
+      },
+      "100": {
+        "otherNums": [
+          25
+        ],
+        "statNums": {
+          "SPEED": 50.0,
+          "FEROCITY": 10.0
+        }
+      }
+    },
+    "RARE": {
+      "1": {
+        "otherNums": [
+          0.2,
+          0.2
+        ],
+        "statNums": {
+          "SPEED": 0.5,
+          "FEROCITY": 0.1
+        }
+      },
+      "100": {
+        "otherNums": [
+          25,
+          25
         ],
         "statNums": {
           "SPEED": 50.0,
@@ -3160,8 +3196,8 @@
           0.3
         ],
         "statNums": {
-          "SPEED": 0.0,
-          "FEROCITY": 0.0
+          "SPEED": 0.5,
+          "FEROCITY": 0.1
         }
       },
       "100": {
@@ -3183,8 +3219,8 @@
           0.3
         ],
         "statNums": {
-          "SPEED": 0.0,
-          "FEROCITY": 0.0
+          "SPEED": 0.5,
+          "FEROCITY": 0.1
         }
       },
       "100": {
@@ -3192,48 +3228,6 @@
           30,
           30,
           30
-        ],
-        "statNums": {
-          "SPEED": 50.0,
-          "FEROCITY": 10.0
-        }
-      }
-    },
-    "RARE": {
-      "1": {
-        "otherNums": [
-          0.2,
-          0.2
-        ],
-        "statNums": {
-          "SPEED": 0.0,
-          "FEROCITY": 0.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          25,
-          25
-        ],
-        "statNums": {
-          "SPEED": 50.0,
-          "FEROCITY": 10.0
-        }
-      }
-    },
-    "UNCOMMON": {
-      "1": {
-        "otherNums": [
-          0.2
-        ],
-        "statNums": {
-          "SPEED": 0.0,
-          "FEROCITY": 0.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          25
         ],
         "statNums": {
           "SPEED": 50.0,
@@ -3379,12 +3373,50 @@
           0.3
         ],
         "statNums": {
-          "SPEED": 0.0
+          "SPEED": 0.25
         }
       },
       "100": {
         "otherNums": [
           30
+        ],
+        "statNums": {
+          "SPEED": 25.0
+        }
+      }
+    },
+    "UNCOMMON": {
+      "1": {
+        "otherNums": [
+          0.4
+        ],
+        "statNums": {
+          "SPEED": 0.25
+        }
+      },
+      "100": {
+        "otherNums": [
+          40
+        ],
+        "statNums": {
+          "SPEED": 25.0
+        }
+      }
+    },
+    "RARE": {
+      "1": {
+        "otherNums": [
+          0.4,
+          0.4
+        ],
+        "statNums": {
+          "SPEED": 0.25
+        }
+      },
+      "100": {
+        "otherNums": [
+          40,
+          40
         ],
         "statNums": {
           "SPEED": 25.0
@@ -3398,7 +3430,7 @@
           0.5
         ],
         "statNums": {
-          "SPEED": 0.0
+          "SPEED": 0.25
         }
       },
       "100": {
@@ -3418,51 +3450,13 @@
           0.5
         ],
         "statNums": {
-          "SPEED": 0.0
+          "SPEED": 0.25
         }
       },
       "100": {
         "otherNums": [
           50,
           50
-        ],
-        "statNums": {
-          "SPEED": 25.0
-        }
-      }
-    },
-    "RARE": {
-      "1": {
-        "otherNums": [
-          0.4,
-          0.4
-        ],
-        "statNums": {
-          "SPEED": 0.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          40,
-          40
-        ],
-        "statNums": {
-          "SPEED": 25.0
-        }
-      }
-    },
-    "UNCOMMON": {
-      "1": {
-        "otherNums": [
-          0.4
-        ],
-        "statNums": {
-          "SPEED": 0.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          40
         ],
         "statNums": {
           "SPEED": 25.0
@@ -3532,12 +3526,54 @@
         ],
         "statNums": {
           "HEALTH": 1.0,
-          "SPEED": 0.0
+          "SPEED": 0.2
         }
       },
       "100": {
         "otherNums": [
           30
+        ],
+        "statNums": {
+          "HEALTH": 100.0,
+          "SPEED": 20.0
+        }
+      }
+    },
+    "UNCOMMON": {
+      "1": {
+        "otherNums": [
+          0.4
+        ],
+        "statNums": {
+          "HEALTH": 1.0,
+          "SPEED": 0.2
+        }
+      },
+      "100": {
+        "otherNums": [
+          40
+        ],
+        "statNums": {
+          "HEALTH": 100.0,
+          "SPEED": 20.0
+        }
+      }
+    },
+    "RARE": {
+      "1": {
+        "otherNums": [
+          0.4,
+          0.2
+        ],
+        "statNums": {
+          "HEALTH": 1.0,
+          "SPEED": 0.2
+        }
+      },
+      "100": {
+        "otherNums": [
+          40,
+          25
         ],
         "statNums": {
           "HEALTH": 100.0,
@@ -3553,7 +3589,7 @@
         ],
         "statNums": {
           "HEALTH": 1.0,
-          "SPEED": 0.0
+          "SPEED": 0.2
         }
       },
       "100": {
@@ -3576,7 +3612,7 @@
         ],
         "statNums": {
           "HEALTH": 1.0,
-          "SPEED": 0.0
+          "SPEED": 0.2
         }
       },
       "100": {
@@ -3584,48 +3620,6 @@
           50,
           30,
           30
-        ],
-        "statNums": {
-          "HEALTH": 100.0,
-          "SPEED": 20.0
-        }
-      }
-    },
-    "RARE": {
-      "1": {
-        "otherNums": [
-          0.4,
-          0.2
-        ],
-        "statNums": {
-          "HEALTH": 1.0,
-          "SPEED": 0.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          40,
-          25
-        ],
-        "statNums": {
-          "HEALTH": 100.0,
-          "SPEED": 20.0
-        }
-      }
-    },
-    "UNCOMMON": {
-      "1": {
-        "otherNums": [
-          0.4
-        ],
-        "statNums": {
-          "HEALTH": 1.0,
-          "SPEED": 0.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          40
         ],
         "statNums": {
           "HEALTH": 100.0,
@@ -3659,17 +3653,49 @@
   "ROCK": {
     "COMMON": {
       "1": {
+        "otherNums": [],
+        "statNums": {
+          "DEFENSE": 2.0,
+          "TRUE_DEFENSE": 0.1
+        }
+      },
+      "100": {
+        "otherNums": [],
+        "statNums": {
+          "DEFENSE": 200.0,
+          "TRUE_DEFENSE": 10.0
+        }
+      }
+    },
+    "UNCOMMON": {
+      "1": {
+        "otherNums": [],
+        "statNums": {
+          "DEFENSE": 2.0,
+          "TRUE_DEFENSE": 0.1
+        }
+      },
+      "100": {
+        "otherNums": [],
+        "statNums": {
+          "DEFENSE": 200.0,
+          "TRUE_DEFENSE": 10.0
+        }
+      }
+    },
+    "RARE": {
+      "1": {
         "otherNums": [
-          15.0
+          0.2
         ],
         "statNums": {
           "DEFENSE": 2.0,
-          "TRUE_DEFENSE": 0.0
+          "TRUE_DEFENSE": 0.1
         }
       },
       "100": {
         "otherNums": [
-          15
+          20
         ],
         "statNums": {
           "DEFENSE": 200.0,
@@ -3680,17 +3706,15 @@
     "EPIC": {
       "1": {
         "otherNums": [
-          15.0,
           0.2
         ],
         "statNums": {
           "DEFENSE": 2.0,
-          "TRUE_DEFENSE": 0.0
+          "TRUE_DEFENSE": 0.1
         }
       },
       "100": {
         "otherNums": [
-          15,
           25
         ],
         "statNums": {
@@ -3702,62 +3726,18 @@
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          15.0,
           0.2,
           1.0
         ],
         "statNums": {
           "DEFENSE": 2.0,
-          "TRUE_DEFENSE": 0.0
+          "TRUE_DEFENSE": 0.1
         }
       },
       "100": {
         "otherNums": [
-          15,
           25,
           1.3
-        ],
-        "statNums": {
-          "DEFENSE": 200.0,
-          "TRUE_DEFENSE": 10.0
-        }
-      }
-    },
-    "RARE": {
-      "1": {
-        "otherNums": [
-          15.0,
-          0.2
-        ],
-        "statNums": {
-          "DEFENSE": 2.0,
-          "TRUE_DEFENSE": 0.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          15,
-          20
-        ],
-        "statNums": {
-          "DEFENSE": 200.0,
-          "TRUE_DEFENSE": 10.0
-        }
-      }
-    },
-    "UNCOMMON": {
-      "1": {
-        "otherNums": [
-          15.0
-        ],
-        "statNums": {
-          "DEFENSE": 2.0,
-          "TRUE_DEFENSE": 0.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          15
         ],
         "statNums": {
           "DEFENSE": 200.0,
@@ -4031,7 +4011,7 @@
       },
       "100": {
         "otherNums": [
-          10
+          15
         ],
         "statNums": {
           "CRIT_CHANCE": 15.0,
@@ -4072,7 +4052,7 @@
       },
       "100": {
         "otherNums": [
-          40,
+          25,
           10
         ],
         "statNums": {
@@ -4182,10 +4162,10 @@
     "MYTHIC": {
       "1": {
         "otherNums": [
-          4.0,
+          8.1,
           0.1,
-          5.0,
-          1.0
+          0.1,
+          10.1
         ],
         "statNums": {
           "CRIT_DAMAGE": 0.25,
@@ -4195,10 +4175,10 @@
       },
       "100": {
         "otherNums": [
-          8,
-          15,
-          5,
-          1
+          16,
+          10,
+          10,
+          20
         ],
         "statNums": {
           "CRIT_DAMAGE": 25.0,
@@ -5085,14 +5065,66 @@
           0.1
         ],
         "statNums": {
-          "CRIT_DAMAGE": 0.0,
-          "HEALTH": 0.0,
-          "SPEED": 0.0,
-          "TRUE_DEFENSE": 0.0
+          "CRIT_DAMAGE": 0.1,
+          "HEALTH": 0.5,
+          "SPEED": 0.2,
+          "TRUE_DEFENSE": 0.1
         }
       },
       "100": {
         "otherNums": [
+          10
+        ],
+        "statNums": {
+          "CRIT_DAMAGE": 10.0,
+          "HEALTH": 50.0,
+          "SPEED": 20.0,
+          "TRUE_DEFENSE": 10.0
+        }
+      }
+    },
+    "UNCOMMON": {
+      "1": {
+        "otherNums": [
+          0.2
+        ],
+        "statNums": {
+          "CRIT_DAMAGE": 0.1,
+          "HEALTH": 0.5,
+          "SPEED": 0.2,
+          "TRUE_DEFENSE": 0.1
+        }
+      },
+      "100": {
+        "otherNums": [
+          20
+        ],
+        "statNums": {
+          "CRIT_DAMAGE": 10.0,
+          "HEALTH": 50.0,
+          "SPEED": 20.0,
+          "TRUE_DEFENSE": 10.0
+        }
+      }
+    },
+    "RARE": {
+      "1": {
+        "otherNums": [
+          0.2,
+          0.1,
+          10.0
+        ],
+        "statNums": {
+          "CRIT_DAMAGE": 0.1,
+          "HEALTH": 0.5,
+          "SPEED": 0.2,
+          "TRUE_DEFENSE": 0.1
+        }
+      },
+      "100": {
+        "otherNums": [
+          20,
+          10,
           10
         ],
         "statNums": {
@@ -5111,10 +5143,10 @@
           10.0
         ],
         "statNums": {
-          "CRIT_DAMAGE": 0.0,
-          "HEALTH": 0.0,
-          "SPEED": 0.0,
-          "TRUE_DEFENSE": 0.0
+          "CRIT_DAMAGE": 0.1,
+          "HEALTH": 0.5,
+          "SPEED": 0.2,
+          "TRUE_DEFENSE": 0.1
         }
       },
       "100": {
@@ -5139,10 +5171,10 @@
           0.3
         ],
         "statNums": {
-          "CRIT_DAMAGE": 0.0,
-          "HEALTH": 0.0,
-          "SPEED": 0.0,
-          "TRUE_DEFENSE": 0.0
+          "CRIT_DAMAGE": 0.1,
+          "HEALTH": 0.5,
+          "SPEED": 0.2,
+          "TRUE_DEFENSE": 0.1
         }
       },
       "100": {
@@ -5150,58 +5182,6 @@
           30,
           15,
           30
-        ],
-        "statNums": {
-          "CRIT_DAMAGE": 10.0,
-          "HEALTH": 50.0,
-          "SPEED": 20.0,
-          "TRUE_DEFENSE": 10.0
-        }
-      }
-    },
-    "RARE": {
-      "1": {
-        "otherNums": [
-          0.2,
-          0.1,
-          10.0
-        ],
-        "statNums": {
-          "CRIT_DAMAGE": 0.0,
-          "HEALTH": 0.0,
-          "SPEED": 0.0,
-          "TRUE_DEFENSE": 0.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          20,
-          10,
-          10
-        ],
-        "statNums": {
-          "CRIT_DAMAGE": 10.0,
-          "HEALTH": 50.0,
-          "SPEED": 20.0,
-          "TRUE_DEFENSE": 10.0
-        }
-      }
-    },
-    "UNCOMMON": {
-      "1": {
-        "otherNums": [
-          0.2
-        ],
-        "statNums": {
-          "CRIT_DAMAGE": 0.0,
-          "HEALTH": 0.0,
-          "SPEED": 0.0,
-          "TRUE_DEFENSE": 0.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          20
         ],
         "statNums": {
           "CRIT_DAMAGE": 10.0,
