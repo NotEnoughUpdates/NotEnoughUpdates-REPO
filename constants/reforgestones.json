@@ -121,22 +121,34 @@
     },
     "reforgeStats": {
       "COMMON": {
-        "speed": 5
+        "speed": 5,
+        "farming_fortune": 5,
+        "farming_wisdom" : 1
       },
       "UNCOMMON": {
-        "speed": 7
+        "speed": 7,
+        "farming_fortune": 7,
+        "farming_wisdom" : 2
       },
       "RARE": {
-        "speed": 9
+        "speed": 9,
+        "farming_fortune": 9,
+        "farming_wisdom" : 3
       },
       "EPIC": {
-        "speed": 13
+        "speed": 13,
+        "farming_fortune": 13,
+        "farming_wisdom" : 4
       },
       "LEGENDARY": {
-        "speed": 16
+        "speed": 16,
+        "farming_fortune": 16,
+        "farming_wisdom" : 5
       },
       "MYTHIC": {
-        "speed": 20
+        "speed": 20,
+        "farming_fortune": 20,
+        "farming_wisdom" : 6
       }
     }
   },
@@ -1178,22 +1190,28 @@
     },
     "reforgeStats": {
       "COMMON": {
-        "speed": 1
+        "speed": 1,
+        "farming_fortune" : 1
       },
       "UNCOMMON": {
-        "speed": 2
+        "speed": 2,
+        "farming_fortune" : 2
       },
       "RARE": {
-        "speed": 3
+        "speed": 3,
+        "farming_fortune" : 3
       },
       "EPIC": {
-        "speed": 5
+        "speed": 5,
+        "farming_fortune" : 5
       },
       "LEGENDARY": {
-        "speed": 8
+        "speed": 8,
+        "farming_fortune" : 7
       },
       "MYTHIC": {
-        "speed": 13
+        "speed": 13,
+        "farming_fortune" : 10
       }
     }
   },
@@ -1661,14 +1679,33 @@
       "MYTHIC": 75000
     },
     "reforgeAbility": {
-      "COMMON": "Gain §a+1% §7more Foraging exp.",
-      "UNCOMMON": "Gain §a+1% §7more Foraging exp.",
-      "RARE": "Gain §a+2% §7more Foraging exp.",
-      "EPIC": "Gain §a+2% §7more Foraging exp.",
-      "LEGENDARY": "Gain §a+3% §7more Foraging exp.",
-      "MYTHIC": "Gain §a+3% §7more Foraging exp."
+      "COMMON": "Grants §3+1☯ Foraging Wisdom§7.",
+      "UNCOMMON": "Grants §3+1☯ Foraging Wisdom§7.",
+      "RARE": "Grants §3+2☯ Foraging Wisdom§7.",
+      "EPIC": "Grants §3+2☯ Foraging Wisdom§7.",
+      "LEGENDARY": "Grants §3+3☯ Foraging Wisdom§7.",
+      "MYTHIC": "Grants §3+3☯ Foraging Wisdom§7."
     },
-    "reforgeStats": {}
+    "reforgeStats": {
+      "COMMON": {
+        "foraging_wisdom": 1
+      },
+      "UNCOMMON": {
+        "foraging_wisdom": 1
+      },
+      "RARE": {
+        "foraging_wisdom": 2
+      },
+      "EPIC": {
+        "foraging_wisdom": 2
+      },
+      "LEGENDARY": {
+        "foraging_wisdom": 3
+      },
+      "MYTHIC": {
+        "foraging_wisdom": 3
+      }
+    }
   },
   "MOLTEN_CUBE": {
     "internalName": "MOLTEN_CUBE",
@@ -1786,27 +1823,33 @@
     "reforgeStats": {
       "COMMON": {
         "defense": 3,
-        "intelligence": 1
+        "intelligence": 1,
+        "mining_fortune" : 3
       },
       "UNCOMMON": {
         "defense": 4,
-        "intelligence": 1
+        "intelligence": 1,
+        "mining_fortune" : 3
       },
       "RARE": {
         "defense": 5,
-        "intelligence": 1
+        "intelligence": 1,
+        "mining_fortune" : 3
       },
       "EPIC": {
         "defense": 7,
-        "intelligence": 1
+        "intelligence": 1,
+        "mining_fortune" : 3
       },
       "LEGENDARY": {
         "defense": 9,
-        "intelligence": 1
+        "intelligence": 1,
+        "mining_fortune" : 3
       },
       "MYTHIC": {
         "defense": 12,
-        "intelligence": 1
+        "intelligence": 1,
+        "mining_fortune" : 3
       }
     }
   },
@@ -2383,32 +2426,38 @@
       "COMMON": {
         "health": 4,
         "defense": 4,
-        "intelligence": 20
+        "intelligence": 20,
+        "ability_damage": 5
       },
       "UNCOMMON": {
         "health": 5,
         "defense": 5,
-        "intelligence": 40
+        "intelligence": 40,
+        "ability_damage": 5
       },
       "RARE": {
         "health": 6,
         "defense": 6,
-        "intelligence": 60
+        "intelligence": 60,
+        "ability_damage": 5
       },
       "EPIC": {
         "health": 8,
         "defense": 7,
-        "intelligence": 80
+        "intelligence": 80,
+        "ability_damage": 5
       },
       "LEGENDARY": {
         "health": 10,
         "defense": 10,
-        "intelligence": 100
+        "intelligence": 100,
+        "ability_damage": 5
       },
       "MYTHIC": {
         "health": 14,
         "defense": 14,
-        "intelligence": 120
+        "intelligence": 120,
+        "ability_damage": 5
       }
     }
   },
@@ -2452,31 +2501,40 @@
     },
     "reforgeStats": {
       "COMMON": {
-        "defense": 5
+        "defense": 5,
+        "mining_wisdom" : 1
       },
       "UNCOMMON": {
-        "defense": 7
+        "defense": 7,
+        "mining_wisdom" : 2
       },
       "RARE": {
-        "defense": 10
+        "defense": 10,
+        "mining_wisdom" : 3
       },
       "EPIC": {
-        "defense": 13
+        "defense": 13,
+        "mining_wisdom" : 4
       },
       "LEGENDARY": {
-        "defense": 16
+        "defense": 16,
+        "mining_wisdom" : 5
       },
       "MYTHIC": {
-        "defense": 20
+        "defense": 20,
+        "mining_wisdom" : 6
       },
       "DIVINE": {
-        "defense": 24
+        "defense": 24,
+        "mining_wisdom" : 7
       },
       "SPECIAL": {
-        "defense": 20
+        "defense": 20,
+        "mining_wisdom" : 8
       },
       "VERY SPECIAL": {
-        "defense": 20
+        "defense": 20,
+        "mining_wisdom" : 9
       }
     }
   },
@@ -2506,25 +2564,32 @@
     "reforgeAbility": "Grants §a+8 §6☘ Mining §6Fortune§7, which increases your §7chance for multiple drops.",
     "reforgeStats": {
       "COMMON": {
-        "mining_speed": 7
+        "mining_speed": 7,
+        "mining_fortune" : 8
       },
       "UNCOMMON": {
-        "mining_speed": 14
+        "mining_speed": 14,
+        "mining_fortune" : 8
       },
       "RARE": {
-        "mining_speed": 23
+        "mining_speed": 23,
+        "mining_fortune" : 8
       },
       "EPIC": {
-        "mining_speed": 34
+        "mining_speed": 34,
+        "mining_fortune" : 8
       },
       "LEGENDARY": {
-        "mining_speed": 45
+        "mining_speed": 45,
+        "mining_fortune" : 8
       },
       "MYTHIC": {
-        "mining_speed": 65
+        "mining_speed": 65,
+        "mining_fortune" : 8
       },
       "DIVINE": {
-        "mining_speed": 75
+        "mining_speed": 75,
+        "mining_fortune" : 8
       }
     }
   },
@@ -2789,27 +2854,33 @@
     "reforgeStats": {
       "COMMON": {
         "crit_chance": 1,
-        "crit_damage": 30
+        "crit_damage": 30,
+        "damage" : 15
       },
       "UNCOMMON": {
         "crit_chance": 2,
-        "crit_damage": 40
+        "crit_damage": 40,
+        "damage" : 15
       },
       "RARE": {
         "crit_chance": 3,
-        "crit_damage": 50
+        "crit_damage": 50,
+        "damage" : 15
       },
       "EPIC": {
         "crit_chance": 5,
-        "crit_damage": 65
+        "crit_damage": 65,
+        "damage" : 15
       },
       "LEGENDARY": {
         "crit_chance": 7,
-        "crit_damage": 85
+        "crit_damage": 85,
+        "damage" : 15
       },
       "MYTHIC": {
         "crit_chance": 10,
-        "crit_damage": 110
+        "crit_damage": 110,
+        "damage" : 15
       }
     }
   },
@@ -3001,27 +3072,33 @@
     "reforgeStats": {
       "COMMON": {
         "strength": 5,
-        "crit_damage": 5
+        "crit_damage": 5,
+        "foraging_wisdom" : 1
       },
       "UNCOMMON": {
         "strength": 7,
-        "crit_damage": 7
+        "crit_damage": 7,
+        "foraging_wisdom" : 2
       },
       "RARE": {
         "strength": 10,
-        "crit_damage": 10
+        "crit_damage": 10,
+        "foraging_wisdom" : 3
       },
       "EPIC": {
         "strength": 13,
-        "crit_damage": 13
+        "crit_damage": 13,
+        "foraging_wisdom" : 4
       },
       "LEGENDARY": {
         "strength": 16,
-        "crit_damage": 16
+        "crit_damage": 16,
+        "foraging_wisdom" : 5
       },
       "MYTHIC": {
         "strength": 20,
-        "crit_damage": 20
+        "crit_damage": 20,
+        "foraging_wisdom" : 6
       }
     }
   },
