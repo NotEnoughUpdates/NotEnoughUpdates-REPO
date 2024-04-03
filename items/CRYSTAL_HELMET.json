@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:leather_helmet",
   "displayname": "§5Crystal Helmet",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+20\",1:\"§7Intelligence: §a+65\",2:\"\",3:\"§6Full Set Bonus: Refraction\",4:\"§7The stats of this armor change\",5:\"§7from §a0§7 to §a200%§7 depending\",6:\"§7on the current light level.\",7:\"\",8:\"§7Current Light Level\",9:\"§a15§8 (200.0%)\",10:\"\",11:\"§7§8This item can be reforged!\",12:\"§5§lEPIC HELMET\"],color:16577535,Name:\"§5Crystal Helmet\"},ExtraAttributes:{color:\"252:243:255\",id:\"CRYSTAL_HELMET\"}}",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+20\",1:\"§7Intelligence: §a+65\",2:\"\",3:\"§6Full Set Bonus: Refraction §7(0/4)\",4:\"§7The stats of this armor change from\",5:\"§7§a0§7 to §a200%§7 depending on the current\",6:\"§7light level.\",7:\"\",8:\"§7Current Light Level\",9:\"§c0§8 (0%)\",10:\"\",11:\"§7§8This item can be reforged!\",12:\"§5§lEPIC HELMET\"],color:16577535,Name:\"§5Crystal Helmet\"},ExtraAttributes:{id:\"CRYSTAL_HELMET\"}}",
   "damage": 0,
   "lore": [
     "§7Defense: §a+20",
     "§7Intelligence: §a+65",
     "",
-    "§6Full Set Bonus: Refraction",
-    "§7The stats of this armor change",
-    "§7from §a0§7 to §a200%§7 depending",
-    "§7on the current light level.",
+    "§6Full Set Bonus: Refraction §7(0/4)",
+    "§7The stats of this armor change from",
+    "§7§a0§7 to §a200%§7 depending on the current",
+    "§7light level.",
     "",
     "§7Current Light Level",
-    "§a15§8 (200.0%)",
+    "§c0§8 (0%)",
     "",
     "§7§8This item can be reforged!",
     "§5§lEPIC HELMET"
@@ -31,10 +31,11 @@
   },
   "internalname": "CRYSTAL_HELMET",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
+  "modver": "2.1.1-PRE",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Crystal_Armor",
     "https://wiki.hypixel.net/Crystal_Helmet"
-  ]
+  ],
+  "crafttext": ""
 }
