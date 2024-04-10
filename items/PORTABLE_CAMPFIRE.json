@@ -1,0 +1,40 @@
+{
+  "itemid": "minecraft:furnace",
+  "displayname": "§9Portable Campfire",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Can be placed down in the §bGlacite\",1:\"§bTunnels§7.\",2:\"\",3:\"§7Interacting with a campfire belonging\",4:\"§7to you or another player will reduce\",5:\"§7your §b❄ Cold §7by §a15§7.\",6:\"\",7:\"§7Each campfire can only be\",8:\"§7interacted with once, and you can\",9:\"§7only place one campfire every §a10\",10:\"§aminutes§7.\",11:\"\",12:\"§7§cConsumed on use!\",13:\"\",14:\"§9§lRARE\"],Name:\"§9Portable Campfire\"},ExtraAttributes:{id:\"PORTABLE_CAMPFIRE\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Can be placed down in the §bGlacite",
+    "§bTunnels§7.",
+    "",
+    "§7Interacting with a campfire belonging",
+    "§7to you or another player will reduce",
+    "§7your §b❄ Cold §7by §a15§7.",
+    "",
+    "§7Each campfire can only be",
+    "§7interacted with once, and you can",
+    "§7only place one campfire every §a10",
+    "§aminutes§7.",
+    "",
+    "§7§cConsumed on use!",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "PORTABLE_CAMPFIRE",
+  "crafttext": "",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "infoType": "",
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "REFINED_UMBER:1.0",
+        "MATCH_STICKS:16.0"
+      ],
+      "count": 1,
+      "duration": 1800,
+      "overrideOutputId": "PORTABLE_CAMPFIRE"
+    }
+  ]
+}

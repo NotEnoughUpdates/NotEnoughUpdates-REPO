@@ -1,0 +1,37 @@
+{
+  "itemid": "minecraft:armor_stand",
+  "displayname": "§5Glacite Chisel",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\" §8[§7❥§8] §8[§7❥§8]\",1:\"\",2:\"§7Can be placed in the §6Fossil\",3:\"§6Excavator §7alongside a §9Suspicious\",4:\"§9Scrap §7to begin the excavation\",5:\"§7process!\",6:\"\",7:\"§7Charges: §e20\",8:\"\",9:\"§5§lEPIC CHISEL\"],Name:\"§5Glacite Chisel\"},ExtraAttributes:{id:\"GLACITE_CHISEL\"}}",
+  "damage": 0,
+  "lore": [
+    " §8[§7❥§8] §8[§7❥§8]",
+    "",
+    "§7Can be placed in the §6Fossil",
+    "§6Excavator §7alongside a §9Suspicious",
+    "§9Scrap §7to begin the excavation",
+    "§7process!",
+    "",
+    "§7Charges: §e20",
+    "",
+    "§5§lEPIC CHISEL"
+  ],
+  "internalname": "GLACITE_CHISEL",
+  "crafttext": "",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "infoType": "",
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "REINFORCED_CHISEL:1.0",
+        "BEJEWELED_HANDLE:1.0",
+        "GLACITE_AMALGAMATION:8.0",
+        "MITHRIL_PLATE:1.0"
+      ],
+      "count": 1,
+      "duration": 64800,
+      "overrideOutputId": "GLACITE_CHISEL"
+    }
+  ]
+}
