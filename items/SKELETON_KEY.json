@@ -16,7 +16,19 @@
   ],
   "internalname": "SKELETON_KEY",
   "crafttext": "",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "modver": "2.1.1-PRE",
-  "infoType": ""
+  "infoType": "",
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "PERFECT_PLATE:1.0",
+        "BEJEWELED_HANDLE:1.0"
+      ],
+      "count": 1.0,
+      "overrideOutputId": "SKELETON_KEY",
+      "duration": 1800
+    }
+  ]
 }

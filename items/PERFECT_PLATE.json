@@ -12,7 +12,20 @@
   ],
   "internalname": "PERFECT_PLATE",
   "crafttext": "",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "modver": "2.1.1-PRE",
-  "infoType": ""
+  "infoType": "",
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "UMBER_PLATE:1.0",
+        "TUNGSTEN_PLATE:1.0",
+        "MITHRIL_PLATE:1.0"
+      ],
+      "count": 1.0,
+      "overrideOutputId": "PERFECT_PLATE",
+      "duration": 1800
+    }
+  ]
 }

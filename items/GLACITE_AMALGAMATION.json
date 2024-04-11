@@ -12,7 +12,22 @@
   ],
   "internalname": "GLACITE_AMALGAMATION",
   "crafttext": "",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "modver": "2.1.1-PRE",
-  "infoType": ""
+  "infoType": "",
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "FINE_PERIDOT_GEM:8.0",
+        "FINE_CITRINE_GEM:8.0",
+        "FINE_AQUAMARINE_GEM:8.0",
+        "FINE_ONYX_GEM:8.0",
+        "ENCHANTED_GLACITE:128.0"
+      ],
+      "count": 1.0,
+      "overrideOutputId": "GLACITE_AMALGAMATION",
+      "duration": 14400
+    }
+  ]
 }
