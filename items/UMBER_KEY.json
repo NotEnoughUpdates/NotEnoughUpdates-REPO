@@ -12,7 +12,19 @@
   ],
   "internalname": "UMBER_KEY",
   "crafttext": "",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "modver": "2.1.1-PRE",
-  "infoType": ""
+  "infoType": "",
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "REFINED_UMBER:1.0",
+        "BEJEWELED_HANDLE:1.0"
+      ],
+      "count": 1.0,
+      "overrideOutputId": "UMBER_KEY",
+      "duration": 1800
+    }
+  ]
 }

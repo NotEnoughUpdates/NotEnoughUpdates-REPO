@@ -8,7 +8,19 @@
   ],
   "internalname": "UMBER_PLATE",
   "crafttext": "",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "modver": "2.1.1-PRE",
-  "infoType": ""
+  "infoType": "",
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "REFINED_UMBER:4.0",
+        "GLACITE_AMALGAMATION:1.0"
+      ],
+      "count": 1.0,
+      "overrideOutputId": "UMBER_PLATE",
+      "duration": 7200
+    }
+  ]
 }
