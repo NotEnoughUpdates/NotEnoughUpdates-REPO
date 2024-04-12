@@ -12,7 +12,19 @@
   ],
   "internalname": "TUNGSTEN_KEY",
   "crafttext": "",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "modver": "2.1.1-PRE",
-  "infoType": ""
+  "infoType": "",
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "BEJEWELED_HANDLE:1.0",
+        "REFINED_TUNGSTEN:1.0"
+      ],
+      "count": 1.0,
+      "overrideOutputId": "TUNGSTEN_KEY",
+      "duration": 1800
+    }
+  ]
 }

@@ -8,7 +8,18 @@
   ],
   "internalname": "TUNGSTEN_PLATE",
   "crafttext": "",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "modver": "2.1.1-PRE",
-  "infoType": ""
+  "infoType": "",
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "REFINED_TUNGSTEN:4.0",
+        "GLACITE_AMALGAMATION:1.0"
+      ],
+      "count": 1.0,
+      "overrideOutputId": "TUNGSTEN_PLATE"
+    }
+  ]
 }
