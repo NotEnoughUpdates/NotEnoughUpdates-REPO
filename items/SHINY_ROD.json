@@ -1,15 +1,14 @@
 {
   "itemid": "minecraft:carrot_on_a_stick",
-  "displayname": "§f§f§6Shiny Rod",
-  "nbttag": "{overrideMeta:1b,Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Shiny pigs run away from you\",1:\"§7§e30% §7faster while holding\",2:\"§7this.\",3:\"\",4:\"§7Extract §625% §7extra coins from\",5:\"§7shiny orbs.\",6:\"\",7:\"§6§lLEGENDARY\"],Name:\"§f§f§6Shiny Rod\"},ExtraAttributes:{originTag:\"QUICK_CRAFTING\",id:\"SHINY_ROD\"},AttributeModifiers:[]}",
+  "displayname": "§6Shiny Rod",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Shiny pigs run away from you §e30%\",1:\"§e§7faster while holding this.\",2:\"\",3:\"§7Extract §625% §7extra coins from shiny\",4:\"§7orbs.\",5:\"\",6:\"§6§lLEGENDARY\"],Name:\"§6Shiny Rod\"},ExtraAttributes:{id:\"SHINY_ROD\"}}",
   "damage": 0,
   "lore": [
-    "§7Shiny pigs run away from you",
-    "§7§e30% §7faster while holding",
-    "§7this.",
+    "§7Shiny pigs run away from you §e30%",
+    "§e§7faster while holding this.",
     "",
-    "§7Extract §625% §7extra coins from",
-    "§7shiny orbs.",
+    "§7Extract §625% §7extra coins from shiny",
+    "§7orbs.",
     "",
     "§6§lLEGENDARY"
   ],
@@ -35,9 +34,9 @@
   ],
   "recipes": [
     {
-    "type": "trade",
-    "cost": "EMERALD:200",
-    "result": "SHINY_ROD"
+      "type": "trade",
+      "cost": "EMERALD:200",
+      "result": "SHINY_ROD"
     }
   ]
 }

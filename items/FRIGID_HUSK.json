@@ -27,7 +27,19 @@
   ],
   "internalname": "FRIGID_HUSK",
   "crafttext": "",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "modver": "2.1.1-PRE",
-  "infoType": ""
+  "infoType": "",
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "FLAWLESS_ONYX_GEM:1.0",
+        "GLACITE_AMALGAMATION:4.0"
+      ],
+      "count": 1.0,
+      "overrideOutputId": "FRIGID_HUSK",
+      "duration": 36000
+    }
+  ]
 }
