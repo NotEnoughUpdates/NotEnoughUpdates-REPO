@@ -1004,6 +1004,54 @@
       }
     }
   },
+  "FRIGID_HUSK": {
+    "internalName": "FRIGID_HUSK",
+    "reforgeName": "Glacial",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "PICKAXE",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 20000,
+      "UNCOMMON": 40000,
+      "RARE": 80000,
+      "EPIC": 150000,
+      "LEGENDARY": 300000,
+      "MYTHIC": 600000,
+      "DIVINE": 800000
+    },
+    "reforgeAbility": "§7Grants §6+0.25☘ Mining Fortune §7for §7every §b1 ❄ Cold §7you have.",
+    "reforgeStats": {
+      "COMMON": {
+        "mining_speed": 5
+      },
+      "UNCOMMON": {
+        "mining_speed": 10
+      },
+      "RARE": {
+        "mining_speed": 17
+      },
+      "EPIC": {
+        "mining_speed": 25
+      },
+      "LEGENDARY": {
+        "mining_speed": 37
+      },
+      "MYTHIC": {
+        "mining_speed": 50
+      },
+      "DIVINE": {
+        "mining_speed": 65
+      }
+    }
+  },
   "FROZEN_BAUBLE": {
     "internalName": "FROZEN_BAUBLE",
     "reforgeName": "Festive",
