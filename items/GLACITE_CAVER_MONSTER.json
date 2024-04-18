@@ -1,0 +1,64 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aGlacite Caver (Monster)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"375acd05-cdac-211f-b384-7723cfa42a64\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2VmMzE3OGZiNGJkMmM2MjljMjE4ZWMwM2ZkNGE5NmJmZGM4NDZiMWY1NjI1NzQzYzQ5ZWIyMDViODczYWUwZDUifX19\"}]},Name:\"375acd05-cdac-211f-b384-7723cfa42a64\"},display:{Lore:[0:\"§c❤ Health§8: §c800,000\",1:\"§c❁ Damage§8: §c6,500\",2:\"§a❈ Defense§8: §a1,000\"],Name:\"§aGlacite Caver (Monster)\"},ExtraAttributes:{id:\"GLACITE_CAVER_MONSTER\"}}",
+  "damage": 3,
+  "lore": [
+    "§c❤ Health§8: §c800,000",
+    "§c❁ Damage§8: §c6,500",
+    "§a❈ Defense§8: §a1,000"
+  ],
+  "internalname": "GLACITE_CAVER_MONSTER",
+  "clickcommand": "",
+  "modver": "",
+  "island": "mineshaft",
+  "recipes": [
+    {
+      "level": 200,
+      "coins": 125,
+      "xp": 75,
+      "combat_xp": 85,
+      "name": "§bGlacite Mage",
+      "render": "@neurepo:mobs/glacite_caver.json",
+      "panorama": "mineshaft",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "FINE_CITRINE_GEM:1",
+          "extra": [],
+          "chance": "5%"
+        },
+        {
+          "id": "FINE_AQUAMARINE_GEM:1",
+          "extra": [],
+          "chance": "5%"
+        },
+        {
+          "id": "FINE_ONYX_GEM:1",
+          "extra": [],
+          "chance": "5%"
+        },
+        {
+          "id": "FINE_PERIDOT_GEM:1",
+          "extra": [],
+          "chance": "5%"
+        },
+        {
+          "id": "GLACITE_JEWEL:1",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "GLACITE_SHARD:1",
+          "extra": [],
+          "chance": "0.5%"
+        }
+      ]
+    }
+  ],
+  "crafttext": "",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Glacite_Caver"
+  ]
+}
