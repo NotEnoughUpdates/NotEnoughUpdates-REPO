@@ -1,0 +1,64 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aGlacite Mage (Monster)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"f029d6a6-4386-2ad1-88e1-db6cf7f12df3\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y5NDFkMGU5NDEzYjUwNTA3OTE5ZTI2NzlhMDJhMDM0YTM3Y2QwNjYxYjdjMmRlNjQ2YTA3NmQ2MzYwMzNmNDIifX19\"}]},Name:\"f029d6a6-4386-2ad1-88e1-db6cf7f12df3\"},display:{Lore:[0:\"§c❤ Health§8: §c625,000\",1:\"§c❁ Damage§8: §c6,250\",2:\"§a❈ Defense§8: §a1,000\"],Name:\"§aGlacite Mage (Monster)\"},ExtraAttributes:{id:\"GLACITE_MAGE_MONSTER\"}}",
+  "damage": 3,
+  "lore": [
+    "§c❤ Health§8: §c625,000",
+    "§c❁ Damage§8: §c6,250",
+    "§a❈ Defense§8: §a1,000"
+  ],
+  "internalname": "GLACITE_MAGE_MONSTER",
+  "clickcommand": "",
+  "modver": "",
+  "island": "mineshaft",
+  "recipes": [
+    {
+      "level": 165,
+      "coins": 100,
+      "xp": 80,
+      "combat_xp": 100,
+      "name": "§bGlacite Mage",
+      "render": "@neurepo:mobs/glacite_mage.json",
+      "panorama": "mineshaft",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "FINE_CITRINE_GEM:1",
+          "extra": [],
+          "chance": "5%"
+        },
+        {
+          "id": "FINE_AQUAMARINE_GEM:1",
+          "extra": [],
+          "chance": "5%"
+        },
+        {
+          "id": "FINE_ONYX_GEM:1",
+          "extra": [],
+          "chance": "5%"
+        },
+        {
+          "id": "FINE_PERIDOT_GEM:1",
+          "extra": [],
+          "chance": "5%"
+        },
+        {
+          "id": "GLACITE_JEWEL:1",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "GLACITE_SHARD:1",
+          "extra": [],
+          "chance": "0.5%"
+        }
+      ]
+    }
+  ],
+  "crafttext": "",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Glacite_Mage"
+  ]
+}
