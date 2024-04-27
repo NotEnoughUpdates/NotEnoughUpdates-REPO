@@ -42,5 +42,17 @@
   "crafttext": "Requires: Glacite IX, 50% Chance",
   "clickcommand": "viewrecipe",
   "modver": "",
-  "infoType": ""
+  "infoType": "",
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 1000000,
+      "time": 1209600,
+      "input": "GLACITE_GOLEM;3",
+      "output": "GLACITE_GOLEM;4",
+      "items": [
+        "GLACITE_AMALGAMATION:24"
+      ]
+    }
+  ]
 }
