@@ -18,7 +18,7 @@
     "§7§7As a Rat, you smell §e§lCHEESE§7 nearby!",
     "§7Yummy!",
     "",
-    "§6Rat\u0027s Blessing",
+    "§6Rat's Blessing",
     "§7§7Has a chance to grant a random",
     "§7player §b+{0}✯ Magic Find§7 for §a{1}§7",
     "§7seconds after finding a yummy piece",
@@ -42,5 +42,17 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Rat_Pet",
     "https://wiki.hypixel.net/Rat_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 1000000,
+      "time": 3600,
+      "input": "RAT;4",
+      "output": "RAT;5",
+      "items": [
+        "RAT_JETPACK:1"
+      ]
+    }
   ]
 }

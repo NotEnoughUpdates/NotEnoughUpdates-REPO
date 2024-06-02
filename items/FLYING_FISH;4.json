@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§f§f§7[Lvl {LVL}] §6Flying Fish",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"c7b1a789-f7b4-394f-84a5-9ba19cb347d0\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDBjZDcxZmJiYmJiNjZjN2JhZjc4ODFmNDE1YzY0ZmE4NGY2NTA0OTU4YTU3Y2NkYjg1ODkyNTI2NDdlYSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§8Fishing Pet\",1:\"\",2:\"§7Defense: §a+{DEFENSE}\",3:\"§7Strength: §c+{STRENGTH}\",4:\"\",5:\"§6Quick Reel\",6:\"§7§7Grants §b+{0}☂ Fishing Speed§7.\",7:\"\",8:\"§6Water Bender\",9:\"§7§7Gives §a{1} §c❁ Strength §7and\",10:\"§7§a❈ Defense §7when near water.\",11:\"\",12:\"§6Deep Sea Diver\",13:\"§7§7Increases the stats of Diver\",14:\"§7Armor by §a{2}%\",15:\"\",16:\"§7§eRight-click to add this pet to\",17:\"§eyour pet menu!\",18:\"\",19:\"§6§lLEGENDARY\"],Name:\"§f§f§7[Lvl {LVL}] §6Flying Fish\"},ExtraAttributes:{petInfo:\"{\\\"type\\\":\\\"FLYING_FISH\\\",\\\"active\\\":false,\\\"exp\\\":0.0,\\\"tier\\\":\\\"LEGENDARY\\\",\\\"hideInfo\\\":false}\",id:\"FLYING_FISH;4\"},AttributeModifiers:[]}",
+  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"c7b1a789-f7b4-394f-84a5-9ba19cb347d0\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDBjZDcxZmJiYmJiNjZjN2JhZjc4ODFmNDE1YzY0ZmE4NGY2NTA0OTU4YTU3Y2NkYjg1ODkyNTI2NDdlYSJ9fX0=\"}]}},display:{Lore:[0:\"§8Fishing Pet\",1:\"\",2:\"§7Defense: §a+{DEFENSE}\",3:\"§7Strength: §c+{STRENGTH}\",4:\"\",5:\"§6Quick Reel\",6:\"§7§7Grants §b+{0}☂ Fishing Speed§7.\",7:\"\",8:\"§6Water Bender\",9:\"§7§7Gives §a{1} §c❁ Strength §7and\",10:\"§7§a❈ Defense §7when near water.\",11:\"\",12:\"§6Deep Sea Diver\",13:\"§7§7Increases the stats of Diver\",14:\"§7Armor by §a{2}%\",15:\"\",16:\"§7§eRight-click to add this pet to\",17:\"§eyour pet menu!\",18:\"\",19:\"§6§lLEGENDARY\"],Name:\"§f§f§7[Lvl {LVL}] §6Flying Fish\"},ExtraAttributes:{petInfo:\"{\\\"type\\\":\\\"FLYING_FISH\\\",\\\"active\\\":false,\\\"exp\\\":0.0,\\\"tier\\\":\\\"LEGENDARY\\\",\\\"hideInfo\\\":false}\",id:\"FLYING_FISH;4\"},AttributeModifiers:[]}",
   "damage": 3,
   "lore": [
     "§8Fishing Pet",
@@ -33,5 +33,17 @@
     "https://hypixel-skyblock.fandom.com/wiki/Flying_Fish_Pet",
     "https://wiki.hypixel.net/Flying_Fish_Pet"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 1000000,
+      "time": 864000,
+      "input": "FLYING_FISH;3",
+      "output": "FLYING_FISH;4",
+      "items": [
+        "ENCHANTED_RAW_FISH:64"
+      ]
+    }
+  ]
 }
