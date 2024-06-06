@@ -1,13 +1,15 @@
 {
   "itemid": "minecraft:hay_block",
   "displayname": "§fHay Bale",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fHay Bale\"},ExtraAttributes:{id:\"HAY_BLOCK\"}}",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§f§lCOMMON\"],Name:\"§fHay Bale\"},ExtraAttributes:{id:\"HAY_BLOCK\"}}",
   "damage": 0,
   "lore": [
+    "§7§8Collection Item",
+    "",
     "§f§lCOMMON"
   ],
   "internalname": "HAY_BLOCK",
-  "modver": "2.1.0-REL",
+  "modver": "2.2.2",
   "vanilla": true,
   "clickcommand": "viewrecipe",
   "recipe": {
@@ -24,5 +26,6 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Hay_Bale"
-  ]
+  ],
+  "crafttext": ""
 }
