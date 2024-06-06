@@ -1,0 +1,46 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aToxic Rain Slime (Monster)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"3b70a2f3-319c-38d5-b7d1-5b2425770184\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODk1YWVlYzZiODQyYWRhODY2OWY4NDZkNjViYzQ5NzYyNTk3ODI0YWI5NDRmMjJmNDViZjNiYmI5NDFhYmU2YyJ9fX0\"}]}},display:{Lore:[0:\"§7These Slimes enjoy rain...and\",1:\"§7jumping to their deaths.\",2:\"\",3:\"§c❤ Health§8: §c200 - 400\"],Name:\"§aRain Slime (Monster)\"},ExtraAttributes:{id:\"RAIN_SLIME_MONSTER\"}}",
+  "damage": 3,
+  "lore": [
+    "§7These Slimes enjoy rain...and",
+    "§7jumping to their deaths.",
+    "",
+    "§c❤ Health§8: §c1,500"
+  ],
+  "internalname": "TOXIC_RAIN_SLIME_MONSTER",
+  "clickcommand": "",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Toxic_Rain_Slime",
+    "https://wiki.hypixel.net/Toxic_Rain_Slime"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 20,
+      "coins": 20,
+      "xp": 5,
+      "name": "§cToxic Rain Slime",
+      "panorama": "combat_1",
+      "render": "Slime",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "SLIME_BALL:5",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_SLIME_BALL:1",
+          "chance": "50%"
+        },
+        {
+          "id": "POISON_SAMPLE:1",
+          "chance": "5%"
+        }
+      ]
+    }
+  ]
+}
