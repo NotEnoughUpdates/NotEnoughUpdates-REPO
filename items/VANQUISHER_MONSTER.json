@@ -1,0 +1,37 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Vanquisher (Monster)",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§c❤ Health§8: §c10,000,000\"],Name:\"§9Vanquisher (Monster)\"},ExtraAttributes:{id:\"VANQUISHER_MONSTER\"}}",
+  "damage": 1,
+  "lore": [
+    "§c❤ Health§8: §c10,000,000"
+  ],
+  "internalname": "VANQUISHER_MONSTER",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Vanquisher",
+    "https://wiki.hypixel.net/Vanquisher"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 100,
+      "coins": 100,
+      "xp": 50,
+      "combat_xp": 1000,
+      "name": "§cVanquisher",
+      "render": "Wither",
+      "panorama": "crimson_isle",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "CORRUPTED_NETHER_STAR:3",
+          "extra": [],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

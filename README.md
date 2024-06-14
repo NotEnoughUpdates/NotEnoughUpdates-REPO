@@ -4,7 +4,7 @@
 <p align="center">
   <!-- lint -->
   <a href="https://github.com/NotEnoughUpdates/NotEnoughUpdates-REPO/actions" target="_blank">
-    <img src="https://img.shields.io/github/workflow/status/NotEnoughUpdates/NotEnoughUpdates-REPO/JSON/master?label=lint&logo=github&logoColor=FFFFFF" alt="lint">
+    <img src="https://img.shields.io/github/actions/workflow/status/NotEnoughUpdates/NotEnoughUpdates-REPO/NotEnoughUpdates-REPO-Workflow.yml?label=lint&logo=github&logoColor=FFFFFF&branch=master" alt="lint">
   </a>
   <!-- license -->
   <a href="https://github.com/NotEnoughUpdates/NotEnoughUpdates-REPO/blob/master/LICENSE" target="_blank">
@@ -12,7 +12,7 @@
   </a>
   <!-- lines -->
   <a href="https://github.com/NotEnoughUpdates/NotEnoughUpdates-REPO">
-    <img src="https://img.shields.io/tokei/lines/github/NotEnoughUpdates/NotEnoughUpdates-REPO?color=success&logo=github&logoColor=FFFFFF" alt="lines">
+    <img src="https://tokei.rs/b1/github/NotEnoughUpdates/NotEnoughUpdates-REPO" alt="lines">
   </a>
   <!-- discord -->
   <a href="https://discord.gg/moulberry" target="_blank">
@@ -34,7 +34,7 @@ In order to contribute to the item repo you should enable the item editor tools 
 I would also highly recommend disabling auto update if you are in the middle of making changes otherwise they will be overwritten.
 
 ```json
-"autoupdate": false,
+"autoupdate_new": false,
 ```
 
 Once you have these options enabled you can edit and add items in-game using the following keybinds:
@@ -49,4 +49,4 @@ Once you have these options enabled you can edit and add items in-game using the
 
 Once you have made the changes you would like you can find the files located in `.minecraft\config\notenoughupdates\repo`.
 
-If you need further help on how to contribute feel free to join the [discord](https://discord.gg/moulberry) or contact `IRONM00N#0001` on discord.
+If you need further help on how to contribute feel free to join the [discord](https://discord.gg/moulberry).

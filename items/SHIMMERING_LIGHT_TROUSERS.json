@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:leather_leggings",
   "displayname": "§9Shimmering Light Trousers",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+120\",1:\"§7Defense: §a+100\",2:\"§7Intelligence: §a+100\",3:\" §8[§7⚔§8]\",4:\"\",5:\"§8Tiered Bonus: Shimmer (0/4)\",6:\"§7Increases all §aExperience Orbs\",7:\"§a§7gained from monsters and ores\",8:\"§7by §a200%§7.\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§9§lRARE LEGGINGS\"],color:459547,Name:\"§9Shimmering Light Trousers\"},ExtraAttributes:{id:\"SHIMMERING_LIGHT_TROUSERS\"}}",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+120\",1:\"§7Defense: §a+100\",2:\"§7Intelligence: §a+100\",3:\" §8[§7⚔§8]\",4:\"\",5:\"§8Tiered Bonus: Shimmer (0/4)\",6:\"§7Increases all §aExperience Orbs\",7:\"§a§7gained from monsters and ores\",8:\"§7by §a200%§7.\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§7§4❣ §cRequires §aCombat Skill 22§c.\",12:\"§9§lRARE LEGGINGS\"],color:459547,Name:\"§9Shimmering Light Trousers\"},ExtraAttributes:{id:\"SHIMMERING_LIGHT_TROUSERS\"}}",
   "damage": 0,
   "lore": [
     "§7Health: §a+120",
@@ -15,23 +15,24 @@
     "§7by §a200%§7.",
     "",
     "§7§8This item can be reforged!",
+    "§7§4❣ §cRequires §aCombat Skill 22§c.",
     "§9§lRARE LEGGINGS"
   ],
   "recipe": {
     "A1": "ENCHANTED_MYCELIUM_CUBE:1",
-    "A2": "",
+    "A2": "Z:10",
     "A3": "ENCHANTED_MYCELIUM_CUBE:1",
     "B1": "Y:30",
-    "B2": "Z:10",
+    "B2": "",
     "B3": "Y:30",
     "C1": "ENCHANTED_MYCELIUM_CUBE:1",
-    "C2": "ENCHANTED_MYCELIUM_CUBE:1",
+    "C2": "",
     "C3": "ENCHANTED_MYCELIUM_CUBE:1"
   },
   "internalname": "SHIMMERING_LIGHT_TROUSERS",
-  "crafttext": "Requires: Mycelium IX",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
+  "modver": "2.1.1-PRE",
+  "crafttext": "Requires: Mycelium IX",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Shimmering_Light_Trousers",

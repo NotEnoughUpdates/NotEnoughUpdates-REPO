@@ -1,10 +1,9 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§5Water Orb",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"be51e90b-8e1e-3c3a-a2f6-2ee8c260dd72\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjRjMjJiOGRmMGE4NTNhNDljYjgyZTkwYTYxOGQ2NTAxMjEyMjM2MWM4Mzk4MDYyZmNiYWY3NGQ1Njk2YzJhOSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"§7A perfectly smooth, highly\",2:\"§7condensed orb of pure fish\",3:\"§7matter.\",4:\"§7\",5:\"§7Used as a core ingredient in\",6:\"§7high level fishing crafts.\",7:\"§7\",8:\"§7§8Smells like fish...\",9:\"\",10:\"§5§lEPIC\"],Name:\"§5Water Orb\"},ExtraAttributes:{id:\"WATER_ORB\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"be51e90b-8e1e-3c3a-a2f6-2ee8c260dd72\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjRjMjJiOGRmMGE4NTNhNDljYjgyZTkwYTYxOGQ2NTAxMjEyMjM2MWM4Mzk4MDYyZmNiYWY3NGQ1Njk2YzJhOSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7A perfectly smooth, highly\",1:\"§7condensed orb of pure fish\",2:\"§7matter.\",3:\"§7\",4:\"§7Used as a core ingredient in\",5:\"§7high level fishing crafts.\",6:\"§7\",7:\"§7§8Smells like fish...\",8:\"\",9:\"§eRight-click to view recipes!\",10:\"\",11:\"§5§lEPIC\"],Name:\"§5Water Orb\"},ExtraAttributes:{id:\"WATER_ORB\"}}",
   "damage": 3,
   "lore": [
-    "§eRight-click to view recipes!",
     "§7A perfectly smooth, highly",
     "§7condensed orb of pure fish",
     "§7matter.",
@@ -14,15 +13,17 @@
     "§7",
     "§7§8Smells like fish...",
     "",
+    "§eRight-click to view recipes!",
+    "",
     "§5§lEPIC"
   ],
   "recipe": {
     "A1": "ENCHANTED_RAW_FISH:16",
     "A2": "ENCHANTED_WATER_LILY:8",
     "A3": "ENCHANTED_RAW_SALMON:16",
-    "B1": "ENCHANTED_PRISMARINE_CRYSTALS:16",
+    "B1": "ENCHANTED_PRISMARINE_SHARD:16",
     "B2": "DIVER_FRAGMENT:1",
-    "B3": "ENCHANTED_PRISMARINE_SHARD:16",
+    "B3": "ENCHANTED_PRISMARINE_CRYSTALS:16",
     "C1": "ENCHANTED_SPONGE:4",
     "C2": "ENCHANTED_PUFFERFISH:16",
     "C3": "ENCHANTED_CLOWNFISH:8"

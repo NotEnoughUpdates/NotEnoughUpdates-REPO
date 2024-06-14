@@ -1,31 +1,32 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§6Shark Water Orb",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"63427422-3a2d-3035-b1ac-33fce1885ff7\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODg5MzcyYjYzZWE5MmUyOWQwM2MzNjJhNDZmY2ZjMjBkZDA1YWYzYTVlMjdjZDBkMWFiNDNkZjM3MWExNDIxNSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"§7A disgusting ball of mushed\",2:\"§7shark matter.\",3:\"§7\",4:\"§7§8Are those teeth sticking out?\",5:\"\",6:\"§6§lLEGENDARY\"],Name:\"§6Shark Water Orb\"},ExtraAttributes:{id:\"SHARK_WATER_ORB\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"63427422-3a2d-3035-b1ac-33fce1885ff7\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODg5MzcyYjYzZWE5MmUyOWQwM2MzNjJhNDZmY2ZjMjBkZDA1YWYzYTVlMjdjZDBkMWFiNDNkZjM3MWExNDIxNSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7A disgusting ball of mushed\",1:\"§7shark matter.\",2:\"§7\",3:\"§7§8Are those teeth sticking out?\",4:\"\",5:\"§eRight-click to view recipes!\",6:\"\",7:\"§6§lLEGENDARY\"],Name:\"§6Shark Water Orb\"},ExtraAttributes:{id:\"SHARK_WATER_ORB\"}}",
   "damage": 3,
   "lore": [
-    "§eRight-click to view recipes!",
     "§7A disgusting ball of mushed",
     "§7shark matter.",
     "§7",
     "§7§8Are those teeth sticking out?",
     "",
+    "§eRight-click to view recipes!",
+    "",
     "§6§lLEGENDARY"
   ],
   "recipe": {
-    "A1": "ENCHANTED_SHARK_FIN:3",
+    "A1": "ENCHANTED_SHARK_FIN:1",
     "A2": "GREAT_WHITE_SHARK_TOOTH:1",
-    "A3": "ENCHANTED_SHARK_FIN:3",
-    "B1": "BLUE_SHARK_TOOTH:8",
+    "A3": "ENCHANTED_SHARK_FIN:1",
+    "B1": "BLUE_SHARK_TOOTH:6",
     "B2": "WATER_ORB:1",
-    "B3": "NURSE_SHARK_TOOTH:16",
-    "C1": "ENCHANTED_SHARK_FIN:3",
+    "B3": "NURSE_SHARK_TOOTH:12",
+    "C1": "ENCHANTED_SHARK_FIN:1",
     "C2": "TIGER_SHARK_TOOTH:4",
-    "C3": "ENCHANTED_SHARK_FIN:3"
+    "C3": "ENCHANTED_SHARK_FIN:1"
   },
   "internalname": "SHARK_WATER_ORB",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
+  "modver": "2.1.1-PRE",
   "crafttext": "",
   "infoType": "WIKI_URL",
   "info": [

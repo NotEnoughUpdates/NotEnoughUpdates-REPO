@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aShadow (Monster)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"d1182c14-1580-4af8-891a-fabcfd9c9ecf\",hypixelPopulated:1b,Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0OTIzMTczNTA1MiwKICAicHJvZmlsZUlkIiA6ICIwMGZiNTRiOWI4NDA0YTA0YTViMmJhMzBlYzBlYTAxMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrbGxveWQ3MCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82MTMzYzA4MTEyZWE2NTJhOGY4YjhkZjQ1Y2I2MmYyZGJiNDA3MzdjZGQ0Nzg2NWYxMzVkODRmOTBjODA5ODNlIgogICAgfQogIH0KfQ\"}]},Name:\"§897d94b2-5656-46df-ba23-966ca6c74b80\"},display:{Lore:[0:\"§c❤ Health§8: §c125\"],Name:\"§aShadow (Monster)\"},ExtraAttributes:{id:\"SHADOW_MONSTER\"}}",
+  "damage": 3,
+  "lore": [
+    "§c❤ Health§8: §c125"
+  ],
+  "internalname": "SHADOW_MONSTER",
+  "crafttext": "",
+  "clickcommand": "",
+  "modver": "2.1.1-PRE",
+  "infoType": "",
+  "recipes": [
+    {
+      "coins": 0,
+      "xp": 0,
+      "name": "§8Shadow",
+      "render": "@neurepo:mobs/shadow.json",
+      "level": 3,
+      "combat_xp": 6,
+      "type": "drops",
+      "panorama": "rift",
+      "drops": [
+        {
+          "id": "SKYBLOCK_MOTE:150",
+          "chance": "100%"
+        },
+        {
+          "id": "SHADOW_CRUX:1",
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

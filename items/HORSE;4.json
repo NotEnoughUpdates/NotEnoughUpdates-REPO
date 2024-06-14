@@ -1,21 +1,25 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§f§f§7[Lvl {LVL}] §6Horse",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"7e317c8a-0a4e-3133-9232-83b57d9a784e\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZmY2QzZWMzYmM4NGJhZmI0MTIzZWE0Nzk0NzFmOWQyZjQyZDhmYjljNWYxMWNmNWY0ZTBkOTMyMjYifX19\"}]}},display:{Lore:[0:\"§8Combat Mount\",1:\"\",2:\"§7Intelligence: §a{INTELLIGENCE}\",3:\"§7Speed: §a{SPEED}\",4:\"\",5:\"§6Ridable\",6:\"§7§7Right-click your summoned pet\",7:\"§7to ride it!\",8:\"\",9:\"§6Gallop\",10:\"§7§7Increases the speed of your\",11:\"§7horse by §a{0}%\",12:\"\",13:\"§7§eRight-click to add this pet to\",14:\"§eyour pet menu!\",15:\"\",16:\"§6§lLEGENDARY\"],Name:\"§f§f§7[Lvl {LVL}] §6Horse\"},ExtraAttributes:{petInfo:\"{\\\"type\\\":\\\"HORSE\\\",\\\"active\\\":false,\\\"exp\\\":0.0,\\\"tier\\\":\\\"LEGENDARY\\\",\\\"hideInfo\\\":false}\",id:\"HORSE;4\"},AttributeModifiers:[]}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"7e317c8a-0a4e-3133-9232-83b57d9a784e\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZmY2QzZWMzYmM4NGJhZmI0MTIzZWE0Nzk0NzFmOWQyZjQyZDhmYjljNWYxMWNmNWY0ZTBkOTMyMjYifX19\"}]}},display:{Lore:[0:\"§8Combat Mount\",1:\"\",2:\"§7Speed: §a{SPEED}\",3:\"§7Intelligence: §a{INTELLIGENCE}\",4:\"\",5:\"§6Ridable\",6:\"§7§7Right-click your summoned pet\",7:\"§7to ride it!\",8:\"\",9:\"§6Run\",10:\"§7§7Increases the speed of your\",11:\"§7mount by §a{0}%§7.\",12:\"\",13:\"§6Ride Into Battle\",14:\"§7§7While riding your horse, gain\",15:\"§7+§a{1}% §7bow damage.\",16:\"\",17:\"§7§eRight-click to add this pet to\",18:\"§eyour pet menu!\",19:\"\",20:\"§6§lLEGENDARY\"],Name:\"§f§f§7[Lvl {LVL}] §6Horse\"},ExtraAttributes:{petInfo:\"{\\\"type\\\":\\\"HORSE\\\",\\\"active\\\":false,\\\"exp\\\":0,\\\"tier\\\":\\\"LEGENDARY\\\",\\\"hideInfo\\\":false,\\\"candyUsed\\\":0,\\\"hideRightClick\\\":false}\",id:\"HORSE;4\"}}",
   "damage": 3,
   "lore": [
     "§8Combat Mount",
     "",
-    "§7Intelligence: §a{INTELLIGENCE}",
     "§7Speed: §a{SPEED}",
+    "§7Intelligence: §a{INTELLIGENCE}",
     "",
     "§6Ridable",
     "§7§7Right-click your summoned pet",
     "§7to ride it!",
     "",
-    "§6Gallop",
+    "§6Run",
     "§7§7Increases the speed of your",
-    "§7horse by §a{0}%",
+    "§7mount by §a{0}%§7.",
+    "",
+    "§6Ride Into Battle",
+    "§7§7While riding your horse, gain",
+    "§7+§a{1}% §7bow damage.",
     "",
     "§7§eRight-click to add this pet to",
     "§eyour pet menu!",
@@ -24,7 +28,7 @@
   ],
   "internalname": "HORSE;4",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
+  "modver": "2.1.1-PRE",
   "recipe": {
     "A1": "ENCHANTED_LEATHER:1",
     "A2": "ENCHANTED_LEATHER:1",
@@ -42,5 +46,17 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Horse_Pet",
     "https://wiki.hypixel.net/Horse_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 250000,
+      "time": 86400,
+      "input": "HORSE;3",
+      "output": "HORSE;4",
+      "items": [
+        "ENCHANTED_LEATHER:8"
+      ]
+    }
   ]
 }

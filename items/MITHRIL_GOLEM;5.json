@@ -1,0 +1,54 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§f§f§7[Lvl {LVL}] §dMithril Golem",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"39fb84b5-72d3-3221-b373-aa315e956e83\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxMDY0OTEwODI4NCwKICAicHJvZmlsZUlkIiA6ICI2ZmU4OTUxZDVhY2M0NDc3OWI2ZmYxMmU3YzFlOTQ2MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJlcGhlbXJhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2MxYjJkZmU4ZWQ1ZGZmYzViMTY4N2JjMWMyNDljMzlkZTJkOGE2YzNkOTAzMDVjOTVmNmQxYTFhMzMwYTBiMSIKICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§8Mining Pet\",1:\"\",2:\"§7True Defense: §a{TRUE_DEFENSE}\",3:\"\",4:\"§6Mithril Affinity\",5:\"§7§7Gain §a+{0} §6⸕ Mining Speed\",6:\"§6§7when mining §eMithril§7.\",7:\"\",8:\"§6The Smell Of Powder\",9:\"§7§7Gain §a+{1}% §7more §2Mithril\",10:\"§2Powder §7while mining.\",11:\"\",12:\"§6Danger Averse\",13:\"§7§7Increases most combat stats by\",14:\"§7§a+{2}% §7on mining islands.\",15:\"\",16:\"§6Refined Senses\",17:\"§7§7Increases your §b✯ Magic Find\",18:\"§b§7by §a{3}% §7when on a Mining\",19:\"§7Island.\",20:\"\",21:\"§7§eRight-click to add this pet to\",22:\"§eyour pet menu!\",23:\"\",24:\"§d§lMYTHIC\"],Name:\"§f§f§7[Lvl {LVL}] §dMithril Golem\"},ExtraAttributes:{petInfo:\"{\\\"type\\\":\\\"MITHRIL_GOLEM\\\",\\\"active\\\":false,\\\"exp\\\":0,\\\"tier\\\":\\\"MYTHIC\\\",\\\"hideInfo\\\":false,\\\"candyUsed\\\":0,\\\"uuid\\\":\\\"ecf08219-9f2d-46dc-bd08-0e1ce6875e97\\\",\\\"uniqueId\\\":\\\"01902009-f7ce-415a-b390-84c271c2d412\\\",\\\"hideRightClick\\\":false}\",id:\"MITHRIL_GOLEM;5\"}}",
+  "damage": 3,
+  "lore": [
+    "§8Mining Pet",
+    "",
+    "§7True Defense: §a{TRUE_DEFENSE}",
+    "",
+    "§6Mithril Affinity",
+    "§7§7Gain §a+{0} §6⸕ Mining Speed",
+    "§6§7when mining §eMithril§7.",
+    "",
+    "§6The Smell Of Powder",
+    "§7§7Gain §a+{1}% §7more §2Mithril",
+    "§2Powder §7while mining.",
+    "",
+    "§6Danger Averse",
+    "§7§7Increases most combat stats by",
+    "§7§a+{2}% §7on mining islands.",
+    "",
+    "§6Refined Senses",
+    "§7§7Increases your §b✯ Magic Find",
+    "§b§7by §a{3}% §7when on a Mining",
+    "§7Island.",
+    "",
+    "§7§eRight-click to add this pet to",
+    "§eyour pet menu!",
+    "",
+    "§d§lMYTHIC"
+  ],
+  "internalname": "MITHRIL_GOLEM;5",
+  "crafttext": "",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "infoType": "WIKI_URL",
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 1000000,
+      "time": 3600,
+      "input": "MITHRIL_GOLEM;4",
+      "output": "MITHRIL_GOLEM;5",
+      "items": [
+        "PET_ITEM_PURE_MITHRIL_GEM:1"
+      ]
+    }
+  ],
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Mithril_Golem_Pet",
+    "https://wiki.hypixel.net/Mithril_Golem_Pet"
+  ]
+}

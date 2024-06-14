@@ -1,9 +1,11 @@
 {
   "itemid": "minecraft:experience_bottle",
-  "displayname": "§fBottle o\u0027 Enchanting",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBottle o\u0027 Enchanting\"},ExtraAttributes:{id:\"EXP_BOTTLE\"}}",
+  "displayname": "§fExperience Bottle",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Smash it open to receive experience!\",1:\"\",2:\"§f§lCOMMON\"],Name:\"§fExperience Bottle\"},ExtraAttributes:{id:\"EXP_BOTTLE\"}}",
   "damage": 0,
   "lore": [
+    "§7Smash it open to receive experience!",
+    "",
     "§f§lCOMMON"
   ],
   "recipe": {
@@ -20,6 +22,7 @@
   "internalname": "EXP_BOTTLE",
   "crafttext": "Requires: Lapis Lazuli II",
   "clickcommand": "viewrecipe",
-  "modver": "2.0.0-REL",
-  "vanilla": true
+  "modver": "2.1.1-PRE",
+  "vanilla": true,
+  "infoType": ""
 }

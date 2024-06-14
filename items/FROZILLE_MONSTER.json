@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aFrozille (Monster)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"be4ae126-bb3c-4578-aed6-d820e7ed7998\",hypixelPopulated:1b,Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY3NTM2NDY1MDY0MCwKICAicHJvZmlsZUlkIiA6ICI4M2EwYjZmOGVjMWI0YTU3OGQ2NmJlZDE2MmQ4M2I4MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTbmlwZWRfQnlfS2NhbHMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTdlMWU0YWIwYTdiYTVjZWM4Mjk2ZDkyNWRhNjNiMjVjODMxYTdlOTY2YjI2MDUwZDk5YTMxNDhjZTEwZjYzYiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},Name:\"§897d94b2-5656-46df-ba23-966ca6c74b80\"},display:{Lore:[0:\"§c❤ Health§8: §c135\"],Name:\"§aFrozille (Monster)\"},ExtraAttributes:{id:\"FROZILLE_MONSTER\"}}",
+  "damage": 3,
+  "lore": [
+    "§c❤ Health§8: §c135"
+  ],
+  "internalname": "FROZILLE_MONSTER",
+  "crafttext": "",
+  "clickcommand": "",
+  "modver": "2.1.1-PRE",
+  "infoType": "",
+  "recipes": [
+    {
+      "coins": 0,
+      "xp": 0,
+      "name": "§bFrozille",
+      "render": "@neurepo:mobs/frozille.json",
+      "level": 5,
+      "combat_xp": 6,
+      "type": "drops",
+      "panorama": "rift",
+      "drops": [
+        {
+          "id": "SKYBLOCK_MOTE:150",
+          "chance": "100%"
+        },
+        {
+          "id": "FROSTY_CRUX:1",
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

@@ -1,13 +1,14 @@
 {
   "itemid": "minecraft:blaze_powder",
   "displayname": "§fBlaze Powder",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBlaze Powder\"},ExtraAttributes:{id:\"BLAZE_POWDER\"}}",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§f§lCOMMON\"],Name:\"§fBlaze Powder\"},ExtraAttributes:{id:\"BLAZE_POWDER\"}}",
   "damage": 0,
   "lore": [
+    "§8Brewing Ingredient",
     "§f§lCOMMON"
   ],
   "internalname": "BLAZE_POWDER",
-  "modver": "1.3-REL",
+  "modver": "2.1.1-PRE",
   "vanilla": true,
   "clickcommand": "viewrecipe",
   "recipe": {
@@ -19,10 +20,12 @@
     "B3": "",
     "C1": "",
     "C2": "",
-    "C3": ""
+    "C3": "",
+    "count": 2
   },
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Blaze_Powder"
-  ]
+  ],
+  "crafttext": ""
 }

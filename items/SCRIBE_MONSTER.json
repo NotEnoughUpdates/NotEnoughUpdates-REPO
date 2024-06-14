@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aScribe (Monster)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"67f8f782-f3c0-4f63-89a1-e3142d003a5c\",hypixelPopulated:1b,Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY3Njk2NDE4NDUxMywKICAicHJvZmlsZUlkIiA6ICIzZWUxYWRlMzljZDI0ZjFkOWYwODliYjA2ZTkzNTY5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSdXNvR01SIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ4NWYyMjhiNWM1MTg1YWIyZDczM2RmY2VkOGJmZDliNDE1ODkwOTE1NThmYTI0NDIxZjA4YzE1N2Y5ZGZjNzUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\"}]},Name:\"§897d94b2-5656-46df-ba23-966ca6c74b80\"},display:{Lore:[0:\"§c❤ Health§8: §c130\"],Name:\"§aScribe (Monster)\"},ExtraAttributes:{id:\"SCRIBE_MONSTER\"}}",
+  "damage": 3,
+  "lore": [
+    "§c❤ Health§8: §c130"
+  ],
+  "internalname": "SCRIBE_MONSTER",
+  "crafttext": "",
+  "clickcommand": "",
+  "modver": "2.1.1-PRE",
+  "infoType": "",
+  "recipes": [
+    {
+      "coins": 0,
+      "xp": 0,
+      "name": "§6Scribe",
+      "render": "@neurepo:mobs/scribe.json",
+      "level": 5,
+      "combat_xp": 6,
+      "type": "drops",
+      "panorama": "rift",
+      "drops": [
+        {
+          "id": "SKYBLOCK_MOTE:100",
+          "chance": "100%"
+        },
+        {
+          "id": "SCRIBE_CRUX:1",
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

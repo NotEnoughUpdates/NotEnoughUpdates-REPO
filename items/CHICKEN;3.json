@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§f§f§7[Lvl {LVL}] §5Chicken",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"df0a2ec6-7cea-3132-9ccf-2589a39719ba\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2YzN2Q1MjRjM2VlZDE3MWNlMTQ5ODg3ZWExZGVlNGVkMzk5OTA0NzI3ZDUyMTg2NTY4OGVjZTNiYWM3NWUifX19\"}]}},display:{Lore:[0:\"§8Farming Pet\",1:\"\",2:\"§7Health: §a{HEALTH}\",3:\"\",4:\"§6Light Feet\",5:\"§7§7§7Reduces fall damage by\",6:\"§7§a{0}%\",7:\"\",8:\"§6Eggstra\",9:\"§7§7Killing chickens has a §a{1}%\",10:\"§a§7chance to drop an egg\",11:\"\",12:\"§7§eRight-click to add this pet to\",13:\"§eyour pet menu!\",14:\"\",15:\"§5§lEPIC\"],Name:\"§f§f§7[Lvl {LVL}] §5Chicken\"},ExtraAttributes:{petInfo:\"{\\\"type\\\":\\\"CHICKEN\\\",\\\"active\\\":false,\\\"exp\\\":0.0,\\\"tier\\\":\\\"EPIC\\\",\\\"hideInfo\\\":false}\",id:\"CHICKEN;3\"},AttributeModifiers:[]}",
+  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"df0a2ec6-7cea-3132-9ccf-2589a39719ba\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2YzN2Q1MjRjM2VlZDE3MWNlMTQ5ODg3ZWExZGVlNGVkMzk5OTA0NzI3ZDUyMTg2NTY4OGVjZTNiYWM3NWUifX19\"}]}},display:{Lore:[0:\"§8Farming Pet\",1:\"\",2:\"§7Health: §a{HEALTH}\",3:\"\",4:\"§6Light Feet\",5:\"§7§7§7Reduces fall damage by\",6:\"§7§a{0}%§7.\",7:\"\",8:\"§6Eggstra\",9:\"§7§7Killing chickens has a §a{1}%\",10:\"§a§7chance to drop an egg.\",11:\"\",12:\"§7§eRight-click to add this pet to\",13:\"§eyour pet menu!\",14:\"\",15:\"§5§lEPIC\"],Name:\"§f§f§7[Lvl {LVL}] §5Chicken\"},ExtraAttributes:{petInfo:\"{\\\"type\\\":\\\"CHICKEN\\\",\\\"active\\\":false,\\\"exp\\\":0,\\\"tier\\\":\\\"EPIC\\\",\\\"hideInfo\\\":false,\\\"candyUsed\\\":0}\",id:\"CHICKEN;3\"},AttributeModifiers:[]}",
   "damage": 3,
   "lore": [
     "§8Farming Pet",
@@ -10,11 +10,11 @@
     "",
     "§6Light Feet",
     "§7§7§7Reduces fall damage by",
-    "§7§a{0}%",
+    "§7§a{0}%§7.",
     "",
     "§6Eggstra",
     "§7§7Killing chickens has a §a{1}%",
-    "§a§7chance to drop an egg",
+    "§a§7chance to drop an egg.",
     "",
     "§7§eRight-click to add this pet to",
     "§eyour pet menu!",
@@ -23,7 +23,7 @@
   ],
   "internalname": "CHICKEN;3",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
+  "modver": "2.1.1-PRE",
   "recipe": {
     "A1": "ENCHANTED_RAW_CHICKEN:8",
     "A2": "ENCHANTED_RAW_CHICKEN:8",
@@ -41,5 +41,15 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Chicken_Pet",
     "https://wiki.hypixel.net/Chicken_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 190000,
+      "time": 43200,
+      "input": "CHICKEN;2",
+      "output": "CHICKEN;3",
+      "items": []
+    }
   ]
 }

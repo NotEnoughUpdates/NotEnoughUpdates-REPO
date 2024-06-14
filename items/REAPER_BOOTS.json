@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:leather_boots",
-  "displayname": "§6Reaper Boots",
-  "nbttag": "{overrideMeta:1b,Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Strength: §c+25\",1:\"§7Health: §a+100\",2:\"§7Defense: §a+30\",3:\"§7Intelligence: §a+250\",4:\" §8[§8⚔§8]\",5:\"\",6:\"§6Full Set Bonus: Enrage §e§lSNEAK\",7:\"§7Enrage for §a6s §7gaining §f100✦\",8:\"§fSpeed§7, §c100❁ Damage§7, and §c100❁\",9:\"§cStrength.\",10:\"§8Cooldown: §a25s\",11:\"\",12:\"§6Full Set Bonus: Trolling The Reaper\",13:\"§7Healing Wands heal §a+50%§7.\",14:\"§7Gain §a+100❈ §7against Zombies.\",15:\"§7§7Deal §c200% §7damage to zombies\",16:\"§7but §c1% §7to all other mobs.\",17:\"\",18:\"§6Piece Bonus: Zombie Bulwark\",19:\"§7Kill Zombies to accumulate\",20:\"§7defense against them.\",21:\"§7Piece Bonus: §a+0❈\",22:\"§7Next Upgrade: §a+20❈ §8(§a0§7/§c50§8)\",23:\"\",24:\"§7§8This item can be reforged!\",25:\"§7§4☠ §cRequires §5Zombie Slayer 7\",26:\"§6§lLEGENDARY BOOTS\"],color:1776411,Name:\"§6Reaper Boots\"},ExtraAttributes:{color:\"27:27:27\",id:\"REAPER_BOOTS\"},AttributeModifiers:[]}",
+  "displayname": "§f§f§6Reaper Boots",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Strength: §c+25\",1:\"§7Health: §a+100\",2:\"§7Defense: §a+30\",3:\"§7Intelligence: §a+250\",4:\" §8[§8⚔§8]\",5:\"\",6:\"§6Full Set Bonus: Enrage §e§lSNEAK\",7:\"§7Enrage for §a6s §7gaining §f100✦\",8:\"§fSpeed§7, §c100❁ Damage§7, and §c100❁\",9:\"§cStrength§7.\",10:\"§8Cooldown: §a25s\",11:\"\",12:\"§6Full Set Bonus: Trolling The Reaper §7(0/3)\",13:\"§7Healing Wands heal §a+50%§7.\",14:\"§7Gain §a+100❈ §7against Zombies.\",15:\"§7§7Deal §c+100% §7damage to zombies\",16:\"§7but §c1% §7to all other mobs.\",17:\"\",18:\"§6Piece Bonus: Zombie Bulwark\",19:\"§7Kill Zombies to accumulate\",20:\"§7defense against them.\",21:\"§7Piece Bonus: §a+0❈\",22:\"§7Next Upgrade: §a+20❈ §8(§a0§7/§c50§8)\",23:\"\",24:\"§2This armor piece is undead ༕!\",25:\"\",26:\"§7§8This item can be reforged!\",27:\"§7§4☠ §cRequires §5Zombie Slayer 7§c.\",28:\"§6§lLEGENDARY BOOTS\"],color:1776411,Name:\"§f§f§6Reaper Boots\"},ExtraAttributes:{id:\"REAPER_BOOTS\"}}",
   "damage": 0,
   "lore": [
     "§7Strength: §c+25",
@@ -13,13 +13,13 @@
     "§6Full Set Bonus: Enrage §e§lSNEAK",
     "§7Enrage for §a6s §7gaining §f100✦",
     "§fSpeed§7, §c100❁ Damage§7, and §c100❁",
-    "§cStrength.",
+    "§cStrength§7.",
     "§8Cooldown: §a25s",
     "",
-    "§6Full Set Bonus: Trolling The Reaper",
+    "§6Full Set Bonus: Trolling The Reaper §7(0/3)",
     "§7Healing Wands heal §a+50%§7.",
     "§7Gain §a+100❈ §7against Zombies.",
-    "§7§7Deal §c200% §7damage to zombies",
+    "§7§7Deal §c+100% §7damage to zombies",
     "§7but §c1% §7to all other mobs.",
     "",
     "§6Piece Bonus: Zombie Bulwark",
@@ -28,8 +28,10 @@
     "§7Piece Bonus: §a+0❈",
     "§7Next Upgrade: §a+20❈ §8(§a0§7/§c50§8)",
     "",
+    "§2This armor piece is undead ༕!",
+    "",
     "§7§8This item can be reforged!",
-    "§7§4☠ §cRequires §5Zombie Slayer 7",
+    "§7§4☠ §cRequires §5Zombie Slayer 7§c.",
     "§6§lLEGENDARY BOOTS"
   ],
   "recipe": {
@@ -44,9 +46,9 @@
     "C3": "ENCHANTED_DIAMOND_BLOCK:1"
   },
   "internalname": "REAPER_BOOTS",
-  "crafttext": "Requires Zombie Slayer 7",
+  "crafttext": "Requires: Zombie Slayer 7",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
+  "modver": "2.1.1-PRE",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Reaper_Armor",

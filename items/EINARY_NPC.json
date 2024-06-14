@@ -9,6 +9,10 @@
   "internalname": "EINARY_NPC",
   "clickcommand": "viewrecipe",
   "modver": "2.1.0-REL",
+  "x": -16,
+  "y": 77,
+  "z": 64,
+  "island": "winter",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Einary",
@@ -58,7 +62,7 @@
     {
       "type": "npc_shop",
       "cost": [
-        "SKYBLOCK_NORTH_STAR:40"
+        "SKYBLOCK_NORTH_STAR:60"
       ],
       "result": "REINDEER;4:1"
     },
@@ -95,7 +99,8 @@
       "cost": [
         "SKYBLOCK_NORTH_STAR:300",
         "ICE_GENERATOR_11:1",
-        "SKYBLOCK_COIN:1000000"
+        "SKYBLOCK_COIN:1000000",
+        "ENCHANTED_ICE:1024"
       ],
       "result": "ICE_GENERATOR_12"
     },
@@ -104,9 +109,34 @@
       "cost": [
         "SKYBLOCK_NORTH_STAR:500",
         "SNOW_GENERATOR_11:1",
-        "SKYBLOCK_COIN:2000000"
+        "SKYBLOCK_COIN:2000000",
+        "ENCHANTED_SNOW_BLOCK:1024"
       ],
       "result": "SNOW_GENERATOR_12"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_NORTH_STAR:10",
+        "VOLCANIC_ROCK:1"
+      ],
+      "result": "ULTIMATE_REFRIGERATE;1:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_NORTH_STAR:500",
+        "VOLCANIC_ROCK:10"
+      ],
+      "result": "MAGIC_TOP_HAT:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_NORTH_STAR:10",
+        "VOLCANIC_ROCK:1"
+      ],
+      "result": "WINTER_FRAGMENT:2"
     }
   ],
   "crafttext": ""

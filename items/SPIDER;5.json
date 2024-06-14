@@ -1,0 +1,58 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§f§f§7[Lvl {LVL}] §dSpider",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"7c63f3cf-a963-311a-aeca-3a075b417806\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q1NDE1NDFkYWFmZjUwODk2Y2QyNThiZGJkZDRjZjgwYzNiYTgxNjczNTcyNjA3OGJmZTM5MzkyN2U1N2YxIn19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§8Combat Pet\",1:\"\",2:\"§7Strength: §c{STRENGTH}\",3:\"§7Crit Chance: §c{CRIT_CHANCE}%\",4:\"\",5:\"§6One With The Spider\",6:\"§7§7Applies §c+{0}❁ Strength §7to all\",7:\"§7§4Arachnal Ж §7weapons, armor, and\",8:\"§7equipment you have equipped.\",9:\"\",10:\"§6Web-weaver\",11:\"§7§7Upon hitting a monster, it becomes\",12:\"§7slowed by §a{1}%§7.\",13:\"\",14:\"§6Spider Whisperer\",15:\"§7§7Spider and tarantula minions work\",16:\"§7§a{2}% §7faster while on your island.\",17:\"\",18:\"§6Web Battlefield\",19:\"§7§7Killing mobs grants §c+6❁ Strength\",20:\"§c§7and §b+1✯ Magic Find §7for §a40s §7to all\",21:\"§7players staying within §a20 §7blocks §7of\",22:\"§7where they died. §8Stacks up to 10\",23:\"§8times.\",24:\"\",25:\"§7§eRight-click to add this pet to your\",26:\"§epet menu!\",27:\"\",28:\"§d§lMYTHIC\"],Name:\"§f§f§7[Lvl {LVL}] §dSpider\"},ExtraAttributes:{petInfo:\"{\\\"type\\\":\\\"SPIDER\\\",\\\"active\\\":false,\\\"exp\\\":0,\\\"tier\\\":\\\"MYTHIC\\\",\\\"hideInfo\\\":false,\\\"candyUsed\\\":0,\\\"uuid\\\":\\\"b25630a8-b61a-43e1-8e85-3549b0dddb54\\\",\\\"hideRightClick\\\":false}\",id:\"SPIDER;5\"}}",
+  "damage": 3,
+  "lore": [
+    "§8Combat Pet",
+    "",
+    "§7Strength: §c{STRENGTH}",
+    "§7Crit Chance: §c{CRIT_CHANCE}%",
+    "",
+    "§6One With The Spider",
+    "§7§7Applies §c+{0}❁ Strength §7to all",
+    "§7§4Arachnal Ж §7weapons, armor, and",
+    "§7equipment you have equipped.",
+    "",
+    "§6Web-weaver",
+    "§7§7Upon hitting a monster, it becomes",
+    "§7slowed by §a{1}%§7.",
+    "",
+    "§6Spider Whisperer",
+    "§7§7Spider and tarantula minions work",
+    "§7§a{2}% §7faster while on your island.",
+    "",
+    "§6Web Battlefield",
+    "§7§7Killing mobs grants §c+6❁ Strength",
+    "§c§7and §b+1✯ Magic Find §7for §a40s §7to all",
+    "§7players staying within §a20 §7blocks §7of",
+    "§7where they died. §8Stacks up to 10",
+    "§8times.",
+    "",
+    "§7§eRight-click to add this pet to your",
+    "§epet menu!",
+    "",
+    "§d§lMYTHIC"
+  ],
+  "internalname": "SPIDER;5",
+  "crafttext": "",
+  "clickcommand": "",
+  "modver": "2.1.1-PRE",
+  "infoType": "",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Spider_Pet",
+    "https://wiki.hypixel.net/Spider_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 1000000,
+      "time": 3600,
+      "input": "SPIDER;4",
+      "output": "SPIDER;5",
+      "items": [
+        "FAKE_NEUROSCIENCE_DEGREE:1"
+      ]
+    }
+  ]
+}

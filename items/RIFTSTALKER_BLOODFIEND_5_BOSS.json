@@ -1,0 +1,87 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§4Riftstalker Bloodfiend V (Boss)",
+  "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"267e70c5-17d6-2c6c-a9d7-599bf08e9593\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWFhMjllYTk2MTc1N2RjM2M5MGJmYWJmMzAyYzVhYmU5ZDMwOGZiNGE3ZDM4NjRlNTc4OGFkMmNjOTE2MGFhMiJ9fX0\u003d\"}]}},display:{Lore:[0:\"§8Excruciating\",1:\"\",2:\"§7Health: §c3,000❤\",3:\"§7Damage: §c1.5 §7per second\",4:\"\",5:\"§7Has §c8 §7abilities over §47\",6:\"§4§7phases!\",7:\"\",8:\"§cWARNING: We are not\",9:\"§cresponsible for any damage to\",10:\"§cyour monitor or computer\",11:\"§cperipherals.\"],Name:\"§4Riftstalker Bloodfiend V (Boss)\"},ExtraAttributes:{id:\"RIFTSTALKER_BLOODFIEND_5_BOSS\"}}",
+  "damage": 3,
+  "lore": [
+    "§8Excruciating",
+    "",
+    "§7Health: §c3,000❤",
+    "§7Damage: §c1.5 §7per second",
+    "",
+    "§7Has §c8 §7abilities over §47",
+    "§4§7phases!",
+    "",
+    "§cWARNING: We are not",
+    "§cresponsible for any damage to",
+    "§cyour monitor or computer",
+    "§cperipherals."
+  ],
+  "internalname": "RIFTSTALKER_BLOODFIEND_5_BOSS",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Riftstalker_Bloodfiend",
+    "https://wiki.hypixel.net/Riftstalker_Bloodfiend"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "xp": 150,
+      "name": "§4Riftstalker Bloodfiend V",
+      "render": "@neurepo:mobs/riftstalker_bloodfiend.json",
+      "panorama": "rift",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "COVEN_SEAL",
+          "extra": [
+            "x64-128"
+          ],
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_BOOK_BUNDLE_QUANTUM",
+          "extra": [],
+          "chance": "11.98%"
+        },
+        {
+          "id": "SOULTWIST_RUNE;1",
+          "extra": [],
+          "chance": "10.70%"
+        },
+        {
+          "id": "BUBBA_BLISTER",
+          "extra": [],
+          "chance": "8.98%"
+        },
+        {
+          "id": "CHOCOLATE_CHIP",
+          "extra": [],
+          "chance": "8.98%"
+        },
+        {
+          "id": "GUARDIAN_LUCKY_BLOCK",
+          "extra": [],
+          "chance": "5.99%"
+        },
+        {
+          "id": "MCGRUBBER_BURGER",
+          "extra": [],
+          "chance": "1.20%"
+        },
+        {
+          "id": "UNFANGED_VAMPIRE_PART",
+          "extra": [],
+          "chance": "1.20%"
+        },
+        {
+          "id": "ENCHANTED_BOOK_BUNDLE_THE_ONE",
+          "extra": [],
+          "chance": "1.80%"
+        }
+      ]
+    }
+  ]
+}

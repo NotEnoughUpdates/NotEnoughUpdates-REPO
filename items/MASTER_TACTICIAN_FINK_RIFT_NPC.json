@@ -1,0 +1,26 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§dMaster Tactician Fink (Rift NPC)",
+  "nbttag": "{SkullOwner:{Id:\"e52745a6-826e-2cba-9a53-75526f674d8f\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzg0NTE0OTMyMWVjZmY5Nzc3N2YxOGUwMWFlMmFkYzg4MTE2MDNmYmJjZGE4NTc5ZjZiNGU3NWYyMzZhZDBkOGMifX19\"}]},Name:\"e52745a6-826e-2cba-9a53-75526f674d8f\"},display:{Lore:[0:\"\"],Name:\"§dMaster Tactician Fink (Rift NPC)\"},ExtraAttributes:{id:\"MASTER_TACTICIAN_FINK_RIFT_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "MASTER_TACTICIAN_FINK_RIFT_NPC",
+  "clickcommand": "",
+  "modver": "2.1.1-PRE",
+  "x": -192,
+  "y": 73,
+  "z": -57,
+  "island": "rift",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "LEECH_SWORD",
+        "SKYBLOCK_MOTE:500"
+      ],
+      "result": "TACTICIAN_MURDER_WEAPON"
+    }
+  ]
+}

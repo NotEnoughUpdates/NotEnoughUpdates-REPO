@@ -1,11 +1,10 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Acacia Birdhouse",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"e766fabc-caef-3797-8f00-3b02d984e98e\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTllMzE2YmE0OGU1MWM2ZWI3M2NiMDY4YTJkNDY4ZjY3OGVlZDgyZDQ1MjlkNGIxMmVlYzhiZmE3ODE5YWE4NiJ9fX0\u003d\"}]}},display:{Lore:[0:\"§8Power Stone\",1:\"\",2:\"§7Combine §a9x §7of this stone at the\",3:\"§7§6Thaumaturgist §7to permanently\",4:\"§7unlock the §aForceful §7power.\",5:\"\",6:\"§7At §6§k1,000§r §6Magical Power§7:\",7:\"§c+§k54❤§r §cHealth\",8:\"§c+§k582❁§r §cStrength\",9:\"§9+§k155☠§r §9Crit Damage\",10:\"\",11:\"§7Unique Power Bonus:\",12:\"§c+4⫽ Ferocity\",13:\"\",14:\"§7Requires §aCombat Skill Level XX§7!\",15:\"\",16:\"§9§lRARE POWER STONE\"],Name:\"§9Acacia Birdhouse\"},ExtraAttributes:{id:\"ACACIA_BIRDHOUSE\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"e766fabc-caef-3797-8f00-3b02d984e98e\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTllMzE2YmE0OGU1MWM2ZWI3M2NiMDY4YTJkNDY4ZjY3OGVlZDgyZDQ1MjlkNGIxMmVlYzhiZmE3ODE5YWE4NiJ9fX0\u003d\"}]}},display:{Lore:[0:\"§8Power Stone\",1:\"§7Combine §a9x §7of this stone at the\",2:\"§7§6Thaumaturgist §7to permanently\",3:\"§7unlock the §aForceful §7power.\",4:\"\",5:\"§7At §6§k1,000§r §6Magical Power§7:\",6:\"§c+§k54❤§r §cHealth\",7:\"§c+§k582❁§r §cStrength\",8:\"§9+§k155☠§r §9Crit Damage\",9:\"\",10:\"§7Unique Power Bonus:\",11:\"§c+4⫽ Ferocity\",12:\"\",13:\"§7Requires §aCombat Skill Level XX§7!\",14:\"\",15:\"§9§lRARE POWER STONE\"],Name:\"§9Acacia Birdhouse\"},ExtraAttributes:{id:\"ACACIA_BIRDHOUSE\"}}",
   "damage": 3,
   "lore": [
     "§8Power Stone",
-    "",
     "§7Combine §a9x §7of this stone at the",
     "§7§6Thaumaturgist §7to permanently",
     "§7unlock the §aForceful §7power.",
@@ -22,10 +21,21 @@
     "",
     "§9§lRARE POWER STONE"
   ],
+  "recipe": {
+    "A1": "",
+    "A2": "ENCHANTED_ACACIA_LOG:64",
+    "A3": "",
+    "B1": "ENCHANTED_ACACIA_LOG:64",
+    "B2": "",
+    "B3": "ENCHANTED_ACACIA_LOG:64",
+    "C1": "ENCHANTED_ACACIA_LOG:64",
+    "C2": "ENCHANTED_ACACIA_LOG:64",
+    "C3": "ENCHANTED_ACACIA_LOG:64"
+  },
   "internalname": "ACACIA_BIRDHOUSE",
-  "crafttext": "",
-  "clickcommand": "",
-  "modver": "2.1.0-REL",
+  "crafttext": "Requires: Acacia Wood IX",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Acacia_Birdhouse",

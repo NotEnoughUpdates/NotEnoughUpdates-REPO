@@ -1,11 +1,11 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§fEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Cleave IV\",1:\"§7Deals §a12% §7of your damage\",2:\"§7dealt to other monsters within\",3:\"§7§a4.2 §7blocks of the target.\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aI-V: §7Enchantment Table,\",10:\"§7Pufferfish Collection\",11:\"\",12:\"§6Applied To:\",13:\"§7- §fSword\",14:\"§7- §fFishing Weapon\",15:\"§7- §fGauntlet\",16:\"\",17:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"CLEAVE;4\",enchantments:{cleave:4}}}",
+  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Cleave IV\",1:\"§7Deals §a20% §7of your damage\",2:\"§7dealt to other monsters within\",3:\"§7§a4.2 §7blocks of the target.\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aI-V: §7Enchantment Table,\",10:\"§7Pufferfish Collection\",11:\"\",12:\"§6Applied To:\",13:\"§7- §fSword\",14:\"§7- §fFishing Weapon\",15:\"§7- §fLongsword\",16:\"§7- §fGauntlet\",17:\"\",18:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"CLEAVE;4\",enchantments:{cleave:4}}}",
   "damage": 0,
   "lore": [
     "§9Cleave IV",
-    "§7Deals §a12% §7of your damage",
+    "§7Deals §a20% §7of your damage",
     "§7dealt to other monsters within",
     "§7§a4.2 §7blocks of the target.",
     "",
@@ -19,24 +19,14 @@
     "§6Applied To:",
     "§7- §fSword",
     "§7- §fFishing Weapon",
+    "§7- §fLongsword",
     "§7- §fGauntlet",
     "",
     "§f§lCOMMON"
   ],
-  "recipe": {
-    "A1": "",
-    "A2": "",
-    "A3": "",
-    "B1": "",
-    "B2": "PAPER:8",
-    "B3": "PAPER:8",
-    "C1": "",
-    "C2": "PAPER:8",
-    "C3": "RAW_FISH-3:40"
-  },
   "internalname": "CLEAVE;4",
-  "clickcommand": "viewrecipe",
-  "modver": "2.0.0-REL",
-  "crafttext": "Requires: Pufferfish III",
+  "clickcommand": "",
+  "modver": "2.1.0-REL",
+  "crafttext": "",
   "infoType": ""
 }

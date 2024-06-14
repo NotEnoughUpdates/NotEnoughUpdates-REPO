@@ -1,0 +1,43 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§dShifted (Rift NPC)",
+  "nbttag": "{SkullOwner:{Id:\"0c5ec038-5c50-4902-a696-b633522d8fbd\",hypixelPopulated:1b,Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NzUyOTg4MzI3NzcsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZjMDFiMjEzNTc0ZjYzMDYxNmRkMDBiN2EzYmM2MTc3NGZkN2Q0NjcxMzY0NzZiZDdiN2E5OWVjMjVlZTI3NTcifX19\"}]},Name:\"§0c5ec038-5c50-4902-a696-b633522d8fbd\"},display:{Lore:[0:\"\"],Name:\"§dShifted (Rift NPC)\"},ExtraAttributes:{id:\"SHIFTED_RIFT_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "SHIFTED_RIFT_NPC",
+  "clickcommand": "",
+  "modver": "2.1.1-PRE",
+  "x": -121,
+  "y": 74,
+  "z": 174,
+  "island": "rift",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "result": "RIFT_SPEED_ELIXIR:1.0",
+      "cost": [
+        "SHAME_CRUX:5.0",
+        "SKYBLOCK_MOTE:10000.0"
+      ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "RIFT_JUMP_ELIXIR:1.0",
+      "cost": [
+        "SHAME_CRUX:5.0",
+        "SKYBLOCK_MOTE:5000.0"
+      ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "RIFT_STRENGTH_ELIXIR:1.0",
+      "cost": [
+        "SHAME_CRUX:5.0",
+        "SKYBLOCK_MOTE:12000.0"
+      ]
+    }
+  ]
+
+}

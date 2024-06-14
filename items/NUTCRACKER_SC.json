@@ -1,0 +1,55 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§3Nutcracker (Sea Creature)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"b11f27af-d60d-37b3-b4d8-cf51dc5843df\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzI0MDdlNjZjODFiMTQ0M2MyZTdkZmM0ZDY1ODNlYjE5YzYyMmZhMjJmMzRmYmY5OWZlNmM0NWY3NmEifX19\"}]}},display:{Lore:[0:\"§7The Nutcracker is a Sea Creature that\",1:\"§7requires fishing level XXVIII and can exclusively\",2:\"§7be fished up on the Jerry\u0027s Workshop.\",3:\"\",4:\"§c❤ Health§8: §c4,000,000\"],Name:\"§3Nutcracker (Sea Creature)\"},ExtraAttributes:{id:\"NUTCRACKER_SC\"}}",
+  "damage": 3,
+  "lore": [
+    "§7The Nutcracker is a Sea Creature that",
+    "§7requires fishing level XXVIII and can exclusively",
+    "§7be fished up on the Jerry\u0027s Workshop.",
+    "",
+    "§c❤ Health§8: §c4,000,000"
+  ],
+  "internalname": "NUTCRACKER_SC",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Nutcracker",
+    "https://wiki.hypixel.net/Nutcracker"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 50,
+      "name": "§cNutcracker",
+      "render": "@neurepo:mobs/nutcracker.json",
+      "panorama": "winter",
+      "type": "drops",
+      "extra": [
+        "§cRequirements:",
+        "§7- Fishing Skill 28",
+        "§7- §bJerry's Workshop",
+        "§7- §bFished from water"
+      ],
+      "drops": [
+        {
+          "id": "RED_GIFT:2",
+          "chance": "100%"
+        },
+        {
+          "id": "WALNUT",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_WATER_LILY:2",
+          "chance": "100%"
+        },
+        {
+          "id": "WATER_LILY:120",
+          "chance": "50%"
+        }
+      ]
+    }
+  ]
+}

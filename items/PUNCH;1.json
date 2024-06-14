@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§fEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Punch I\",1:\"§7Increases arrow knockback by\",2:\"§7§a3§7 blocks.\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"ENCHANTED_BOOK\",enchantments:{punch:1}}}",
+  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Punch I\",1:\"§7Increases arrow knockback by\",2:\"§7§a3§7 blocks.\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§6Source:\",8:\"§aI-II: §7Enchantment Table, \",9:\"§7Slime Collection\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fBow\",13:\"\",14:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"PUNCH;1\",enchantments:{punch:1}}}",
   "damage": 0,
   "lore": [
     "§9Punch I",
@@ -11,21 +11,18 @@
     "§7Use this on an item in an Anvil",
     "§7to apply it!",
     "",
+    "§6Source:",
+    "§aI-II: §7Enchantment Table, ",
+    "§7Slime Collection",
+    "",
+    "§6Applied To:",
+    "§7- §fBow",
+    "",
     "§f§lCOMMON"
   ],
-  "recipe": {
-    "A1": "SLIME_BALL:1",
-    "A2": "",
-    "A3": "",
-    "B1": "",
-    "B2": "PAPER:1",
-    "B3": "PAPER:1",
-    "C1": "",
-    "C2": "PAPER:1",
-    "C3": "ARROW:1"
-  },
   "internalname": "PUNCH;1",
-  "clickcommand": "viewrecipe",
-  "modver": "1.0.0",
-  "crafttext": "Requires: Slimeball VI"
+  "clickcommand": "",
+  "modver": "2.1.0-REL",
+  "crafttext": "",
+  "infoType": ""
 }

@@ -1,13 +1,13 @@
 {
-  "internalname": "PROMISING_PICKAXE",
   "itemid": "minecraft:iron_pickaxe",
   "displayname": "§aPromising Pickaxe",
-  "clickcommand": "",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§8Breaking Power 3\",1:\"\",2:\"§7Damage: §c+20\",3:\"§7Mining Speed: §a+190\",4:\"\",5:\"§7Gains a higher level of\",6:\"§7Enchantment when breaking\",7:\"§7blocks.\",8:\"\",9:\"§7Will gain §9Efficiency I§7 after\",10:\"§7breaking §a50§7 more blocks.\",11:\"\",12:\"§7§8This item can be reforged!\",13:\"§a§lUNCOMMON PICKAXE\"],Name:\"§aPromising Pickaxe\"},ExtraAttributes:{id:\"PROMISING_PICKAXE\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+20\",1:\"\",2:\"§7Gains a higher level of\",3:\"§7Enchantment when breaking\",4:\"§7blocks.\",5:\"\",6:\"§7Will gain §9Efficiency I§7 after\",7:\"§7breaking §a50§7 more blocks.\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§a§lUNCOMMON PICKAXE\"],Name:\"§aPromising Pickaxe\"},ExtraAttributes:{id:\"PROMISING_PICKAXE\"}}",
-  "modver": "2.1.0-REL",
   "lore": [
+    "§8Breaking Power 3",
+    "",
     "§7Damage: §c+20",
+    "§7Mining Speed: §a+190",
     "",
     "§7Gains a higher level of",
     "§7Enchantment when breaking",
@@ -19,6 +19,21 @@
     "§7§8This item can be reforged!",
     "§a§lUNCOMMON PICKAXE"
   ],
+  "recipe": {
+    "A1": "IRON_BLOCK:1",
+    "A2": "IRON_BLOCK:1",
+    "A3": "IRON_BLOCK:1",
+    "B1": "",
+    "B2": "STICK:1",
+    "B3": "",
+    "C1": "",
+    "C2": "STICK:1",
+    "C3": ""
+  },
+  "internalname": "PROMISING_PICKAXE",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "crafttext": "",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Promising_Pickaxe",

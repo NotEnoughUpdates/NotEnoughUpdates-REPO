@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§d§lAngry Archeologist (Miniboss)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"db784d7a-fae1-3d60-9a5a-42a1814037f8\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NzU0NzAzOTQwMzEsInByb2ZpbGVJZCI6IjdkYTJhYjNhOTNjYTQ4ZWU4MzA0OGFmYzNiODBlNjhlIiwicHJvZmlsZU5hbWUiOiJHb2xkYXBmZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M0OGM3ODM0NThlNGNmODUxOGU4YWI1ODYzZmJjNGNiOTQ4ZjkwNTY4ZWViOWE2MGQxNmM0ZmRlMmI5NmMwMzMifX19\"}]}},display:{Lore:[0:\"§7Angered by what he\u0027s found\",1:\"§7below.\",2:\"\",3:\"§c❤ Health§8: §c20,000 - 900,000\",4:\"§c❤ Health §8(MM) : §c1,000,000 - 12,000,000\"],Name:\"§d§lAngry Archeologist (Miniboss)\"},ExtraAttributes:{id:\"ANGRY_ARCHEOLOGIST_MINIBOSS\"}}",
+  "displayname": "§d§lAngry Archaeologist (Miniboss)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"db784d7a-fae1-3d60-9a5a-42a1814037f8\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NzU0NzAzOTQwMzEsInByb2ZpbGVJZCI6IjdkYTJhYjNhOTNjYTQ4ZWU4MzA0OGFmYzNiODBlNjhlIiwicHJvZmlsZU5hbWUiOiJHb2xkYXBmZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M0OGM3ODM0NThlNGNmODUxOGU4YWI1ODYzZmJjNGNiOTQ4ZjkwNTY4ZWViOWE2MGQxNmM0ZmRlMmI5NmMwMzMifX19\"}]}},display:{Lore:[0:\"§7Angered by what he\u0027s found\",1:\"§7below.\",2:\"\",3:\"§c❤ Health§8: §c20,000 - 900,000\",4:\"§c❤ Health §8(MM) : §c1,000,000 - 12,000,000\"],Name:\"§d§lAngry Archaeologist (Miniboss)\"},ExtraAttributes:{id:\"ANGRY_ARCHEOLOGIST_MINIBOSS\"}}",
   "damage": 3,
   "lore": [
     "§7Angered by what he\u0027s found",
@@ -12,7 +12,7 @@
   ],
   "internalname": "ANGRY_ARCHEOLOGIST_MINIBOSS",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
+  "modver": "2.1.1-PRE",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Angry_Archaeologist",
@@ -38,7 +38,9 @@
         },
         {
           "id": "ESSENCE_DIAMOND",
-          "extra": ["x3-5"],
+          "extra": [
+            "x3-5"
+          ],
           "chance": "100%"
         }
       ]

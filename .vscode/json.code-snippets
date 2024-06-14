@@ -1,0 +1,20 @@
+{
+    "Player Skull Item": {
+        "body": [
+            "{",
+            " \"itemid\": \"minecraft:skull\",",
+            " \"displayname\": \"$1\",",
+            " \"nbttag\": \"{HideFlags:254,SkullOwner:{Id:\\\"00000000-0000-0000-0000-000000000000\\\",Properties:{textures:[0:{Value:\\\"$2\\\"}]}}}\",",
+            " \"damage\": 3,",
+            " \"lore\": [\"\"],",
+            " \"internalname\": \"$TM_FILENAME_BASE\",",
+            " \"crafttext\": \"\",",
+            " \"clickcommand\": \"\",",
+            " \"modver\": \"2.1.1-PRE\",",
+            " \"infoType\": \"\"",
+            "}"
+        ],
+        "prefix": "playerhead",
+        "description": "Generate a player head with minimal data.\nMake sure to reload through NEU after creation to fix nbttag."
+    }
+}

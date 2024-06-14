@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§f§f§7[Lvl {LVL}] §aMithril Golem",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"39fb84b5-72d3-3221-b373-aa315e956e83\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxMDY0OTEwODI4NCwKICAicHJvZmlsZUlkIiA6ICI2ZmU4OTUxZDVhY2M0NDc3OWI2ZmYxMmU3YzFlOTQ2MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJlcGhlbXJhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2MxYjJkZmU4ZWQ1ZGZmYzViMTY4N2JjMWMyNDljMzlkZTJkOGE2YzNkOTAzMDVjOTVmNmQxYTFhMzMwYTBiMSIKICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§8Mining Pet\",1:\"\",2:\"§7True Defense: §a{TRUE_DEFENSE}\",3:\"\",4:\"§6Mithril Affinity\",5:\"§7§7Gain §a+{0} §6⸕ Mining Speed\",6:\"§6§7when mining §eMithril.\",7:\"\",8:\"§7§eRight-click to add this pet to\",9:\"§eyour pet menu!\",10:\"\",11:\"§a§lUNCOMMON\"],Name:\"§f§f§7[Lvl {LVL}] §aMithril Golem\"},ExtraAttributes:{petInfo:\"{\\\"type\\\":\\\"MITHRIL_GOLEM\\\",\\\"active\\\":false,\\\"exp\\\":0.0,\\\"tier\\\":\\\"UNCOMMON\\\",\\\"hideInfo\\\":false,\\\"candyUsed\\\":0}\",id:\"MITHRIL_GOLEM;1\"},AttributeModifiers:[]}",
+  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"39fb84b5-72d3-3221-b373-aa315e956e83\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxMDY0OTEwODI4NCwKICAicHJvZmlsZUlkIiA6ICI2ZmU4OTUxZDVhY2M0NDc3OWI2ZmYxMmU3YzFlOTQ2MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJlcGhlbXJhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2MxYjJkZmU4ZWQ1ZGZmYzViMTY4N2JjMWMyNDljMzlkZTJkOGE2YzNkOTAzMDVjOTVmNmQxYTFhMzMwYTBiMSIKICAgIH0KICB9Cn0=\"}]}},display:{Lore:[0:\"§8Mining Pet\",1:\"\",2:\"§7True Defense: §a{TRUE_DEFENSE}\",3:\"\",4:\"§6Mithril Affinity\",5:\"§7§7Gain §a+{0} §6⸕ Mining Speed\",6:\"§6§7when mining §eMithril§7.\",7:\"\",8:\"§7§eRight-click to add this pet to\",9:\"§eyour pet menu!\",10:\"\",11:\"§a§lUNCOMMON\"],Name:\"§f§f§7[Lvl {LVL}] §aMithril Golem\"},ExtraAttributes:{petInfo:\"{\\\"type\\\":\\\"MITHRIL_GOLEM\\\",\\\"active\\\":false,\\\"exp\\\":0,\\\"tier\\\":\\\"UNCOMMON\\\",\\\"hideInfo\\\":false,\\\"candyUsed\\\":0}\",id:\"MITHRIL_GOLEM;1\"},AttributeModifiers:[]}",
   "damage": 3,
   "lore": [
     "§8Mining Pet",
@@ -10,7 +10,7 @@
     "",
     "§6Mithril Affinity",
     "§7§7Gain §a+{0} §6⸕ Mining Speed",
-    "§6§7when mining §eMithril.",
+    "§6§7when mining §eMithril§7.",
     "",
     "§7§eRight-click to add this pet to",
     "§eyour pet menu!",
@@ -31,11 +31,21 @@
   "internalname": "MITHRIL_GOLEM;1",
   "crafttext": "Requires: Mithril VII, 35% Chance",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
+  "modver": "2.1.1-PRE",
   "useneucraft": true,
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Mithril_Golem_Pet",
     "https://wiki.hypixel.net/Mithril_Golem_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 10000,
+      "time": 86400,
+      "input": "MITHRIL_GOLEM;0",
+      "output": "MITHRIL_GOLEM;1",
+      "items": []
+    }
   ]
 }

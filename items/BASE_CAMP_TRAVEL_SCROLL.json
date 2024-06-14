@@ -1,0 +1,37 @@
+{
+  "itemid": "minecraft:map",
+  "displayname": "§9Travel Scroll to the Dwarven Base Camp",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Consume this item to add its\",1:\"§7destination to your Fast Travel\",2:\"§7options.\",3:\"\",4:\"§7Island: §aDwarven Mines\",5:\"§7Teleport: §eBase Camp\",6:\"\",7:\"§9§lRARE TRAVEL SCROLL\"],Name:\"§9Travel Scroll to the Dwarven Base Camp\"},ExtraAttributes:{id:\"BASE_CAMP_TRAVEL_SCROLL\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Consume this item to add its",
+    "§7destination to your Fast Travel",
+    "§7options.",
+    "",
+    "§7Island: §aDwarven Mines",
+    "§7Teleport: §eBase Camp",
+    "",
+    "§9§lRARE TRAVEL SCROLL"
+  ],
+  "internalname": "BASE_CAMP_TRAVEL_SCROLL",
+  "crafttext": "",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "infoType": "WIKI_URL",
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "SKYBLOCK_COIN:500000.0",
+        "FLAWLESS_ONYX_GEM:1.0",
+        "ENCHANTED_ENDER_PEARL:16.0"
+      ],
+      "count": 1.0,
+      "overrideOutputId": "BASE_CAMP_TRAVEL_SCROLL",
+      "duration": 36000
+    }
+  ],
+  "info": [
+    "https://wiki.hypixel.net/Travel_Scroll_To_The_Dwarven_Base_Camp"
+  ]
+}

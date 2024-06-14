@@ -1,13 +1,16 @@
 {
   "itemid": "minecraft:redstone",
   "displayname": "§fRedstone",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fRedstone\"},ExtraAttributes:{id:\"REDSTONE\"}}",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§8Brewing Ingredient\",1:\"§7§8Collection Item\",2:\"\",3:\"§f§lCOMMON\"],Name:\"§fRedstone\"},ExtraAttributes:{id:\"REDSTONE\"}}",
   "damage": 0,
   "lore": [
+    "§7§8Brewing Ingredient",
+    "§7§8Collection Item",
+    "",
     "§f§lCOMMON"
   ],
   "internalname": "REDSTONE",
-  "modver": "2.1.0-REL",
+  "modver": "2.2.2",
   "vanilla": true,
   "clickcommand": "viewrecipe",
   "recipe": {
@@ -19,10 +22,12 @@
     "B3": "",
     "C1": "",
     "C2": "",
-    "C3": ""
+    "C3": "",
+    "count": 9
   },
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Redstone"
-  ]
+  ],
+  "crafttext": ""
 }

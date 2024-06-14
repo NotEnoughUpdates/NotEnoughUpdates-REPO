@@ -1,25 +1,34 @@
 {
   "itemid": "minecraft:wooden_sword",
   "displayname": "§9Leech Sword",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Refunds §b3 Mana §7on hit.\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Leech Sword\"},ExtraAttributes:{id:\"LEECH_SWORD\"}}",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Rift Damage: §a+3\",1:\"§7Speed: §a+2\",2:\"\",3:\"§7Regens §b3 Mana §7on hit.\",4:\"\",5:\"§9§lRARE SWORD\"],Name:\"§9Leech Sword\"},ExtraAttributes:{id:\"LEECH_SWORD\"}}",
   "damage": 0,
   "lore": [
-    "§7Refunds §b3 Mana §7on hit.",
+    "§7Rift Damage: §a+3",
+    "§7Speed: §a+2",
     "",
-    "§9§lRARE"
+    "§7Regens §b3 Mana §7on hit.",
+    "",
+    "§9§lRARE SWORD"
   ],
   "recipe": {
-    "A1": "",
-    "A2": "LEECH_SUPREME_FRAGMENT:4",
-    "A3": "",
-    "B1": "",
-    "B2": "LEECH_SUPREME_FRAGMENT:4",
-    "B3": "",
-    "C1": "",
-    "C2": "DEADGEHOG_SPINE:12",
-    "C3": ""
+    "A1": "DEADGEHOG_SPINE:2",
+    "A2": "LEECH_SUPREME_FRAGMENT:2",
+    "A3": "DEADGEHOG_SPINE:2",
+    "B1": "DEADGEHOG_SPINE:2",
+    "B2": "LEECH_SUPREME_FRAGMENT:2",
+    "B3": "DEADGEHOG_SPINE:2",
+    "C1": "DEADGEHOG_SPINE:2",
+    "C2": "WYLD_SWORD:1",
+    "C3": "DEADGEHOG_SPINE:2"
   },
   "internalname": "LEECH_SWORD",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL"
+  "modver": "2.1.1-PRE",
+  "crafttext": "",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Leech_Sword",
+    "https://wiki.hypixel.net/Leech_Sword"
+  ]
 }

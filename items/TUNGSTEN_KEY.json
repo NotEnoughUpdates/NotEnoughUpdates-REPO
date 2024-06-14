@@ -1,0 +1,34 @@
+{
+  "itemid": "minecraft:lever",
+  "displayname": "§5Tungsten Key",
+  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Can be used to open backpacks with\",1:\"§7a Tungsten lock held by §bFrozen\",2:\"§bCorpses §7in the §bGlacite Mineshafts§7.\",3:\"\",4:\"§5§lEPIC\"],Name:\"§5Tungsten Key\"},ExtraAttributes:{id:\"TUNGSTEN_KEY\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Can be used to open backpacks with",
+    "§7a Tungsten lock held by §bFrozen",
+    "§bCorpses §7in the §bGlacite Mineshafts§7.",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "TUNGSTEN_KEY",
+  "crafttext": "Requires: Tungsten IV",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "infoType": "WIKI_URL",
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "ENCHANTED_TUNGSTEN:192.0",
+        "BEJEWELED_HANDLE:1.0"
+      ],
+      "count": 1.0,
+      "overrideOutputId": "TUNGSTEN_KEY",
+      "duration": 30
+    }
+  ],
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Tungsten_Key",
+    "https://wiki.hypixel.net/Tungsten_Key"
+  ]
+}

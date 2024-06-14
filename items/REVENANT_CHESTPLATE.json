@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:diamond_chestplate",
   "displayname": "§5Revenant Chestplate",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Health: §a+180\",1:\"§7Defense: §a+70\",2:\"\",3:\"§6Full Set Bonus: Trolling The Reaper\",4:\"§7Healing Wands heal §a+50%§7.\",5:\"§7Gain §a+100❈ §7against Zombies.\",6:\"\",7:\"§6Piece Bonus: Zombie Bulwark\",8:\"§7Kill Zombies to accumulate\",9:\"§7defense against them.\",10:\"§7Piece Bonus: §a+0❈\",11:\"§7Next Upgrade: §a+20❈ §8(§a0§7/§c50§8)\",12:\"\",13:\"§7§8This item can be reforged!\",14:\"§7§4☠ §cRequires §5Zombie Slayer 4\",15:\"§5§lEPIC CHESTPLATE\"],Name:\"§5Revenant Chestplate\"},ExtraAttributes:{id:\"REVENANT_CHESTPLATE\"}}",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+180\",1:\"§7Defense: §a+70\",2:\"\",3:\"§6Full Set Bonus: Trolling The Reaper\",4:\"§7Healing Wands heal §a+50%§7.\",5:\"§7Gain §a+100❈ §7against Zombies.\",6:\"\",7:\"§6Piece Bonus: Zombie Bulwark\",8:\"§7Kill Zombies to accumulate\",9:\"§7defense against them.\",10:\"§7Piece Bonus: §a+0❈\",11:\"§7Next Upgrade: §a+20❈ §8(§a0§7/§c50§8)\",12:\"\",13:\"§2This armor piece is undead ༕!\",14:\"\",15:\"§7§8This item can be reforged!\",16:\"§7§4☠ §cRequires §5Zombie Slayer 4§c.\",17:\"§5§lEPIC CHESTPLATE\"],Name:\"§5Revenant Chestplate\"},ExtraAttributes:{id:\"REVENANT_CHESTPLATE\"}}",
   "damage": 0,
   "lore": [
     "§7Health: §a+180",
@@ -17,8 +17,10 @@
     "§7Piece Bonus: §a+0❈",
     "§7Next Upgrade: §a+20❈ §8(§a0§7/§c50§8)",
     "",
+    "§2This armor piece is undead ༕!",
+    "",
     "§7§8This item can be reforged!",
-    "§7§4☠ §cRequires §5Zombie Slayer 4",
+    "§7§4☠ §cRequires §5Zombie Slayer 4§c.",
     "§5§lEPIC CHESTPLATE"
   ],
   "recipe": {
@@ -35,7 +37,7 @@
   "slayer_req": "ZOMBIE_5",
   "internalname": "REVENANT_CHESTPLATE",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
+  "modver": "2.1.1-PRE",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Revenant_Armor",

@@ -1,19 +1,20 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§6Warden Helmet",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"4f6eef4a-c9f2-3f84-832b-a94b89a3e167\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVlYjBiZDg1YWFkZGYwZDI5ZWQwODJlYWMwM2ZjYWRlNDNkMGVlODAzYjBlODE2MmFkZDI4YTYzNzlmYjU0ZSJ9fX0=\"}]}},display:{Lore:[0:\"§7Health: §a+300\",1:\"§7Defense: §a+100\",2:\"\",3:\"§6Ability: Brute Force\",4:\"§7Halves your speed but grants\",5:\"§7§c+20% §7base weapon damage for\",6:\"§7every §a25 §7speed\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§7§4☠ §cRequires §5Zombie Slayer 8\",10:\"§6§lLEGENDARY HELMET\"],Name:\"§6Warden Helmet\"},ExtraAttributes:{id:\"WARDEN_HELMET\"},AttributeModifiers:[]}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"4f6eef4a-c9f2-3f84-832b-a94b89a3e167\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVlYjBiZDg1YWFkZGYwZDI5ZWQwODJlYWMwM2ZjYWRlNDNkMGVlODAzYjBlODE2MmFkZDI4YTYzNzlmYjU0ZSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Health: §a+300\",1:\"§7Defense: §a+100\",2:\"\",3:\"§6Ability: Brute Force\",4:\"§7Halves your §f✦ Speed §7but\",5:\"§7grants §c+20% §7base weapon\",6:\"§7damage for every §a25 §f✦\",7:\"§fSpeed§7.\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§7§4☠ §cRequires §5Zombie Slayer 8§c.\",11:\"§6§lLEGENDARY HELMET\"],Name:\"§6Warden Helmet\"},ExtraAttributes:{id:\"WARDEN_HELMET\"}}",
   "damage": 3,
   "lore": [
     "§7Health: §a+300",
     "§7Defense: §a+100",
     "",
     "§6Ability: Brute Force",
-    "§7Halves your speed but grants",
-    "§7§c+20% §7base weapon damage for",
-    "§7every §a25 §7speed",
+    "§7Halves your §f✦ Speed §7but",
+    "§7grants §c+20% §7base weapon",
+    "§7damage for every §a25 §f✦",
+    "§fSpeed§7.",
     "",
     "§7§8This item can be reforged!",
-    "§7§4☠ §cRequires §5Zombie Slayer 8",
+    "§7§4☠ §cRequires §5Zombie Slayer 8§c.",
     "§6§lLEGENDARY HELMET"
   ],
   "recipe": {
@@ -28,10 +29,10 @@
     "C3": ""
   },
   "internalname": "WARDEN_HELMET",
-  "crafttext": "Requires Zombie Slayer 8",
+  "crafttext": "Requires: Zombie Slayer 8",
   "clickcommand": "viewrecipe",
   "slayer_req": "ZOMBIE_8",
-  "modver": "2.1.0-REL",
+  "modver": "2.1.1-PRE",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Warden_Helmet",

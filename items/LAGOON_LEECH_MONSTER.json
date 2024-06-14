@@ -1,0 +1,42 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aLagoon Leech (Monster)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"db3815d5-5c69-43ec-b35c-12d47d6baf14\",hypixelPopulated:1b,Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGY3ZWRlOWM4OGYxYzMzYzk1NGJiYzgxYzhkYTg3MWNhYmZjYzIzZDU1ZjhiNDkzYTU4OWY4MjM5ZDZjMzkifX19\"}]},Name:\"§db3815d5-5c69-43ec-b35c-12d47d6baf14\"},display:{Lore:[0:\"§7Found in the §3Black Lagoon§7.\",1:\"\",2:\"§c❤ Health§8: §c80\"],Name:\"§aLagoon Leech (Monster)\"},ExtraAttributes:{id:\"LAGOON_LEECH_MONSTER\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Found in the §3Black Lagoon§7.",
+    "",
+    "§c❤ Health§8: §c80"
+  ],
+  "internalname": "LAGOON_LEECH_MONSTER",
+  "crafttext": "",
+  "clickcommand": "",
+  "modver": "2.1.1-PRE",
+  "infoType": "",
+  "recipes": [
+    {
+      "coins": 0,
+      "xp": 0,
+      "name": "§2Lagoon Leech",
+      "render": "@neurepo:mobs/lagoon_leech.json",
+      "level": 2,
+      "combat_xp": 6,
+      "type": "drops",
+      "panorama": "rift",
+      "drops": [
+        {
+          "id": "LIL_PAD:6",
+          "chance": "100%"
+        },
+        {
+          "id": "LIL_PAD:3",
+          "chance": "50%"
+        },
+        {
+          "id": "LIL_PAD:3",
+          "chance": "50%"
+        }
+      ]
+    }
+  ]
+}

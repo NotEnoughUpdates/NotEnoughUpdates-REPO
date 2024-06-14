@@ -1,11 +1,11 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§f§fEnchanted Book",
-  "nbttag": "{ench:[],overrideMeta:1b,HideFlags:254,display:{Lore:[0:\"§9Mana Steal III\",1:\"§7Regain §b0.8% §7of your mana on\",2:\"§7hit.\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§6Source:\",8:\"§aI-III: §7Enderman Slayer\",9:\"\",10:\"§6Applied To:\",11:\"§7- §fFishing Weapon\",12:\"§7- §fSword\",13:\"§7- §fGauntlet\",14:\"\",15:\"§6Conflicts:\",16:\"§7- §cLife Steal\",17:\"§7- §cSyphon\",18:\"\",19:\"§f§lCOMMON\"],Name:\"§f§fEnchanted Book\"},ExtraAttributes:{originTag:\"UNKNOWN\",id:\"MANA_STEAL;3\",enchantments:{mana_steal:3}},AttributeModifiers:[]}",
+  "nbttag": "{ench:[],overrideMeta:1b,HideFlags:254,display:{Lore:[0:\"§9Mana Steal III\",1:\"§7Regain §b0.75% §7of your mana on\",2:\"§7hit.\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§6Source:\",8:\"§aI-III: §7Enderman Slayer\",9:\"\",10:\"§6Applied To:\",11:\"§7- §fSword\",12:\"§7- §fFishing Weapon\",13:\"§7- §fLongsword\",14:\"§7- §fGauntlet\",15:\"\",16:\"§6Conflicts:\",17:\"§7- §cLife Steal\",18:\"§7- §cSyphon\",19:\"\",20:\"§f§lCOMMON\"],Name:\"§f§fEnchanted Book\"},ExtraAttributes:{originTag:\"UNKNOWN\",id:\"MANA_STEAL;3\",enchantments:{mana_steal:3}},AttributeModifiers:[]}",
   "damage": 0,
   "lore": [
     "§9Mana Steal III",
-    "§7Regain §b0.8% §7of your mana on",
+    "§7Regain §b0.75% §7of your mana on",
     "§7hit.",
     "",
     "§7Use this on an item in an Anvil",
@@ -15,8 +15,9 @@
     "§aI-III: §7Enderman Slayer",
     "",
     "§6Applied To:",
-    "§7- §fFishing Weapon",
     "§7- §fSword",
+    "§7- §fFishing Weapon",
+    "§7- §fLongsword",
     "§7- §fGauntlet",
     "",
     "§6Conflicts:",
@@ -28,6 +29,6 @@
   "internalname": "MANA_STEAL;3",
   "crafttext": "",
   "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "modver": "2.1.1-PRE",
   "infoType": ""
 }

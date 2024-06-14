@@ -1,0 +1,577 @@
+{
+  "gemstoneTypes": {
+    "RUBY": {
+      "statName": "Health",
+      "stats": {
+        "ROUGH": {
+          "COMMON": 1,
+          "UNCOMMON": 2,
+          "RARE": 3,
+          "EPIC": 4,
+          "LEGENDARY": 5,
+          "MYTHIC": 7
+        },
+        "FLAWED": {
+          "COMMON": 3,
+          "UNCOMMON": 4,
+          "RARE": 5,
+          "EPIC": 6,
+          "LEGENDARY": 8,
+          "MYTHIC": 10
+        },
+        "FINE": {
+          "COMMON": 4,
+          "UNCOMMON": 5,
+          "RARE": 6,
+          "EPIC": 8,
+          "LEGENDARY": 10,
+          "MYTHIC": 14
+        },
+        "FLAWLESS": {
+          "COMMON": 5,
+          "UNCOMMON": 7,
+          "RARE": 10,
+          "EPIC": 14,
+          "LEGENDARY": 18,
+          "MYTHIC": 22
+        },
+        "PERFECT": {
+          "COMMON": 6,
+          "UNCOMMON": 9,
+          "RARE": 13,
+          "EPIC": 18,
+          "LEGENDARY": 24,
+          "MYTHIC": 30
+        }
+      }
+    },
+    "AMBER": {
+      "statName": "Mining Speed",
+      "stats": {
+        "ROUGH": {
+          "COMMON": 4,
+          "UNCOMMON": 8,
+          "RARE": 12,
+          "EPIC": 16,
+          "LEGENDARY": 20,
+          "MYTHIC": 24,
+          "DIVINE": 28
+        },
+        "FLAWED": {
+          "COMMON": 6,
+          "UNCOMMON": 10,
+          "RARE": 14,
+          "EPIC": 18,
+          "LEGENDARY": 24,
+          "MYTHIC": 30,
+          "DIVINE": 36
+        },
+        "FINE": {
+          "COMMON": 10,
+          "UNCOMMON": 14,
+          "RARE": 20,
+          "EPIC": 28,
+          "LEGENDARY": 36,
+          "MYTHIC": 45,
+          "DIVINE": 54
+        },
+        "FLAWLESS": {
+          "COMMON": 14,
+          "UNCOMMON": 20,
+          "RARE": 30,
+          "EPIC": 44,
+          "LEGENDARY": 58,
+          "MYTHIC": 75,
+          "DIVINE": 92
+        },
+        "PERFECT": {
+          "COMMON": 20,
+          "UNCOMMON": 28,
+          "RARE": 40,
+          "EPIC": 60,
+          "LEGENDARY": 80,
+          "MYTHIC": 100,
+          "DIVINE": 120
+        }
+      }
+    },
+    "TOPAZ": {
+      "statName": "Pristine",
+      "stats": {
+        "ROUGH": {
+          "COMMON": 0.4,
+          "UNCOMMON": 0.4,
+          "RARE": 0.4,
+          "EPIC": 0.4,
+          "LEGENDARY": 0.4,
+          "MYTHIC": 0.4,
+          "DIVINE": 0.5
+        },
+        "FLAWED": {
+          "COMMON": 0.8,
+          "UNCOMMON": 0.8,
+          "RARE": 0.8,
+          "EPIC": 0.8,
+          "LEGENDARY": 0.8,
+          "MYTHIC": 0.8,
+          "DIVINE": 0.9
+        },
+        "FINE": {
+          "COMMON": 1.2,
+          "UNCOMMON": 1.2,
+          "RARE": 1.2,
+          "EPIC": 1.2,
+          "LEGENDARY": 1.2,
+          "MYTHIC": 1.2,
+          "DIVINE": 1.3
+        },
+        "FLAWLESS": {
+          "COMMON": 1.6,
+          "UNCOMMON": 1.6,
+          "RARE": 1.6,
+          "EPIC": 1.6,
+          "LEGENDARY": 1.6,
+          "MYTHIC": 1.6,
+          "DIVINE": 1.8
+        },
+        "PERFECT": {
+          "COMMON": 2,
+          "UNCOMMON": 2,
+          "RARE": 2,
+          "EPIC": 2,
+          "LEGENDARY": 2,
+          "MYTHIC": 2,
+          "DIVINE": 2.2
+        }
+      }
+    },
+    "JADE": {
+      "statName": "Mining Fortune",
+      "stats": {
+        "ROUGH": {
+          "COMMON": 2,
+          "UNCOMMON": 4,
+          "RARE": 6,
+          "EPIC": 8,
+          "LEGENDARY": 10,
+          "MYTHIC": 12,
+          "DIVINE": 14
+        },
+        "FLAWED": {
+          "COMMON": 3,
+          "UNCOMMON": 5,
+          "RARE": 7,
+          "EPIC": 10,
+          "LEGENDARY": 14,
+          "MYTHIC": 18,
+          "DIVINE": 22
+        },
+        "FINE": {
+          "COMMON": 5,
+          "UNCOMMON": 7,
+          "RARE": 10,
+          "EPIC": 15,
+          "LEGENDARY": 20,
+          "MYTHIC": 25,
+          "DIVINE": 30
+        },
+        "FLAWLESS": {
+          "COMMON": 7,
+          "UNCOMMON": 10,
+          "RARE": 15,
+          "EPIC": 20,
+          "LEGENDARY": 27,
+          "MYTHIC": 35,
+          "DIVINE": 44
+        },
+        "PERFECT": {
+          "COMMON": 10,
+          "UNCOMMON": 14,
+          "RARE": 20,
+          "EPIC": 30,
+          "LEGENDARY": 40,
+          "MYTHIC": 50,
+          "DIVINE": 60
+        }
+      }
+    },
+    "SAPPHIRE": {
+      "statName": "Intelligence",
+      "stats": {
+        "ROUGH": {
+          "COMMON": 2,
+          "UNCOMMON": 3,
+          "RARE": 4,
+          "EPIC": 5,
+          "LEGENDARY": 6,
+          "MYTHIC": 7
+        },
+        "FLAWED": {
+          "COMMON": 5,
+          "UNCOMMON": 5,
+          "RARE": 6,
+          "EPIC": 7,
+          "LEGENDARY": 8,
+          "MYTHIC": 10
+        },
+        "FINE": {
+          "COMMON": 7,
+          "UNCOMMON": 8,
+          "RARE": 9,
+          "EPIC": 10,
+          "LEGENDARY": 11,
+          "MYTHIC": 12
+        },
+        "FLAWLESS": {
+          "COMMON": 10,
+          "UNCOMMON": 11,
+          "RARE": 12,
+          "EPIC": 14,
+          "LEGENDARY": 17,
+          "MYTHIC": 20
+        },
+        "PERFECT": {
+          "COMMON": 12,
+          "UNCOMMON": 14,
+          "RARE": 17,
+          "EPIC": 20,
+          "LEGENDARY": 24,
+          "MYTHIC": 30
+        }
+      }
+    },
+    "AMETHYST": {
+      "statName": "Defense",
+      "stats": {
+        "ROUGH": {
+          "COMMON": 1,
+          "UNCOMMON": 2,
+          "RARE": 3,
+          "EPIC": 4,
+          "LEGENDARY": 5,
+          "MYTHIC": 7
+        },
+        "FLAWED": {
+          "COMMON": 3,
+          "UNCOMMON": 4,
+          "RARE": 5,
+          "EPIC": 6,
+          "LEGENDARY": 8,
+          "MYTHIC": 10
+        },
+        "FINE": {
+          "COMMON": 4,
+          "UNCOMMON": 5,
+          "RARE": 6,
+          "EPIC": 8,
+          "LEGENDARY": 10,
+          "MYTHIC": 14
+        },
+        "FLAWLESS": {
+          "COMMON": 5,
+          "UNCOMMON": 7,
+          "RARE": 10,
+          "EPIC": 14,
+          "LEGENDARY": 18,
+          "MYTHIC": 22
+        },
+        "PERFECT": {
+          "COMMON": 6,
+          "UNCOMMON": 9,
+          "RARE": 13,
+          "EPIC": 18,
+          "LEGENDARY": 24,
+          "MYTHIC": 30
+        }
+      }
+    },
+    "JASPER": {
+      "statName": "Strength",
+      "stats": {
+        "ROUGH": {
+          "COMMON": 1,
+          "UNCOMMON": 1,
+          "RARE": 1,
+          "EPIC": 2,
+          "LEGENDARY": 3,
+          "MYTHIC": 4
+        },
+        "FLAWED": {
+          "COMMON": 2,
+          "UNCOMMON": 2,
+          "RARE": 3,
+          "EPIC": 4,
+          "LEGENDARY": 4,
+          "MYTHIC": 5
+        },
+        "FINE": {
+          "COMMON": 3,
+          "UNCOMMON": 3,
+          "RARE": 4,
+          "EPIC": 5,
+          "LEGENDARY": 6,
+          "MYTHIC": 7
+        },
+        "FLAWLESS": {
+          "COMMON": 5,
+          "UNCOMMON": 6,
+          "RARE": 7,
+          "EPIC": 8,
+          "LEGENDARY": 10,
+          "MYTHIC": 12
+        },
+        "PERFECT": {
+          "COMMON": 6,
+          "UNCOMMON": 7,
+          "RARE": 9,
+          "EPIC": 11,
+          "LEGENDARY": 13,
+          "MYTHIC": 16
+        }
+      }
+    },
+    "OPAL": {
+      "statName": "True Defense",
+      "stats": {
+        "ROUGH": {
+          "COMMON": 1,
+          "UNCOMMON": 1,
+          "RARE": 1,
+          "EPIC": 2,
+          "LEGENDARY": 2,
+          "MYTHIC": 3
+        },
+        "FLAWED": {
+          "COMMON": 2,
+          "UNCOMMON": 2,
+          "RARE": 2,
+          "EPIC": 3,
+          "LEGENDARY": 3,
+          "MYTHIC": 4
+        },
+        "FINE": {
+          "COMMON": 3,
+          "UNCOMMON": 3,
+          "RARE": 3,
+          "EPIC": 4,
+          "LEGENDARY": 4,
+          "MYTHIC": 5
+        },
+        "FLAWLESS": {
+          "COMMON": 4,
+          "UNCOMMON": 4,
+          "RARE": 5,
+          "EPIC": 6,
+          "LEGENDARY": 8,
+          "MYTHIC": 9
+        },
+        "PERFECT": {
+          "COMMON": 5,
+          "UNCOMMON": 6,
+          "RARE": 7,
+          "EPIC": 9,
+          "LEGENDARY": 11,
+          "MYTHIC": 13
+        }
+      }
+    },
+    "AQUAMARINE": {
+      "statName": "Sea Creature Chance",
+      "chiselBonus": "§a{}% §7chance to gain an additional Chisel §echarge §7upon starting the §6Fossil Excavator§7.",
+      "stats": {
+        "ROUGH": {
+          "COMMON": 0.1,
+          "UNCOMMON": 0.1,
+          "RARE": 0.2,
+          "EPIC": 0.2,
+          "LEGENDARY": 0.3,
+          "MYTHIC": 0.4
+        },
+        "FLAWED": {
+          "COMMON": 0.2,
+          "UNCOMMON": 0.2,
+          "RARE": 0.3,
+          "EPIC": 0.4,
+          "LEGENDARY": 0.6,
+          "MYTHIC": 0.8
+        },
+        "FINE": {
+          "COMMON": 0.5,
+          "UNCOMMON": 0.6,
+          "RARE": 0.7,
+          "EPIC": 0.8,
+          "LEGENDARY": 1,
+          "MYTHIC": 1.2
+        },
+        "FLAWLESS": {
+          "COMMON": 0.9,
+          "UNCOMMON": 1,
+          "RARE": 1.1,
+          "EPIC": 1.2,
+          "LEGENDARY": 1.4,
+          "MYTHIC": 1.6
+        },
+        "PERFECT": {
+          "COMMON": 1.3,
+          "UNCOMMON": 1.4,
+          "RARE": 1.5,
+          "EPIC": 1.6,
+          "LEGENDARY": 1.8,
+          "MYTHIC": 2
+        }
+      }
+    },
+    "CITRINE": {
+      "statName": "Foraging Fortune",
+      "chiselBonus": "§a{}% §7chance to §ehighlight §7a piece of treasure upon starting the §6Fossil Excavator§7.",
+      "stats": {
+        "ROUGH": {
+          "COMMON": 0.5,
+          "UNCOMMON": 1,
+          "RARE": 1.5,
+          "EPIC": 2,
+          "LEGENDARY": 2.5,
+          "MYTHIC": 3
+        },
+        "FLAWED": {
+          "COMMON": 1,
+          "UNCOMMON": 1.5,
+          "RARE": 2,
+          "EPIC": 2.5,
+          "LEGENDARY": 3,
+          "MYTHIC": 4
+        },
+        "FINE": {
+          "COMMON": 1.5,
+          "UNCOMMON": 2,
+          "RARE": 3,
+          "EPIC": 4,
+          "LEGENDARY": 5,
+          "MYTHIC": 6
+        },
+        "FLAWLESS": {
+          "COMMON": 2,
+          "UNCOMMON": 3,
+          "RARE": 4,
+          "EPIC": 5,
+          "LEGENDARY": 6,
+          "MYTHIC": 8
+        },
+        "PERFECT": {
+          "COMMON": 3,
+          "UNCOMMON": 4,
+          "RARE": 5,
+          "EPIC": 6,
+          "LEGENDARY": 8,
+          "MYTHIC": 10
+        }
+      }
+    },
+    "ONYX": {
+      "statName": "Crit Damage",
+      "chiselBonus": "§a{}% §7chance to §espawn §7an additional piece of treasure upon starting the §6Fossil Excavator§7.",
+      "stats": {
+        "ROUGH": {
+          "COMMON": 1,
+          "UNCOMMON": 1,
+          "RARE": 2,
+          "EPIC": 2,
+          "LEGENDARY": 3,
+          "MYTHIC": 4
+        },
+        "FLAWED": {
+          "COMMON": 2,
+          "UNCOMMON": 2,
+          "RARE": 3,
+          "EPIC": 3,
+          "LEGENDARY": 4,
+          "MYTHIC": 6
+        },
+        "FINE": {
+          "COMMON": 3,
+          "UNCOMMON": 3,
+          "RARE": 4,
+          "EPIC": 5,
+          "LEGENDARY": 6,
+          "MYTHIC": 8
+        },
+        "FLAWLESS": {
+          "COMMON": 4,
+          "UNCOMMON": 5,
+          "RARE": 6,
+          "EPIC": 7,
+          "LEGENDARY": 8,
+          "MYTHIC": 10
+        },
+        "PERFECT": {
+          "COMMON": 5,
+          "UNCOMMON": 6,
+          "RARE": 7,
+          "EPIC": 8,
+          "LEGENDARY": 10,
+          "MYTHIC": 12
+        }
+      }
+    },
+    "PERIDOT": {
+      "statName": "Farming Fortune",
+      "chiselBonus": "§7Gain §a+{}% §dFossil Dust §7when using the §6Fossil Excavator§7.",
+      "stats": {
+        "ROUGH": {
+          "COMMON": 0.5,
+          "UNCOMMON": 1,
+          "RARE": 1.5,
+          "EPIC": 2,
+          "LEGENDARY": 2.5,
+          "MYTHIC": 3
+        },
+        "FLAWED": {
+          "COMMON": 1,
+          "UNCOMMON": 1.5,
+          "RARE": 2,
+          "EPIC": 2.5,
+          "LEGENDARY": 3,
+          "MYTHIC": 4
+        },
+        "FINE": {
+          "COMMON": 1.5,
+          "UNCOMMON": 2,
+          "RARE": 3,
+          "EPIC": 4,
+          "LEGENDARY": 5,
+          "MYTHIC": 6
+        },
+        "FLAWLESS": {
+          "COMMON": 2,
+          "UNCOMMON": 3,
+          "RARE": 4,
+          "EPIC": 5,
+          "LEGENDARY": 6,
+          "MYTHIC": 8
+        },
+        "PERFECT": {
+          "COMMON": 3,
+          "UNCOMMON": 4,
+          "RARE": 5,
+          "EPIC": 6,
+          "LEGENDARY": 8,
+          "MYTHIC": 10
+        }
+      }
+    }
+  },
+  "removalCosts": {
+    "ROUGH": 1,
+    "FLAWED": 100,
+    "FINE": 10000,
+    "FLAWLESS": 100000,
+    "PERFECT": 500000
+  },
+  "chiselPercentages": {
+    "ROUGH": 30,
+    "FLAWED": 40,
+    "FINE": 50,
+    "FLAWLESS": 60,
+    "PERFECT": 100
+  }
+}

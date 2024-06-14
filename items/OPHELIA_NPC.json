@@ -10,6 +10,7 @@
   "clickcommand": "viewrecipe",
   "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
+  "crafttext": "",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Ophelia",
     "https://wiki.hypixel.net/Ophelia"
@@ -19,48 +20,6 @@
   "z": -7,
   "island": "dungeon_hub",
   "recipes": [
-    {
-      "type": "npc_shop",
-      "cost": [
-        "SKYBLOCK_COIN:80000"
-      ],
-      "result": "UNDEAD_BOW"
-    },
-    {
-      "type": "npc_shop",
-      "cost": [
-        "SKYBLOCK_COIN:200"
-      ],
-      "result": "ARROW"
-    },
-    {
-      "type": "npc_shop",
-      "cost": [
-        "SKYBLOCK_COIN:80000"
-      ],
-      "result": "SUPER_CLEAVER"
-    },
-    {
-      "type": "npc_shop",
-      "cost": [
-        "SKYBLOCK_COIN:80000"
-      ],
-      "result": "STONE_CHESTPLATE"
-    },
-    {
-      "type": "npc_shop",
-      "cost": [
-        "SKYBLOCK_COIN:80000"
-      ],
-      "result": "MENDER_HELMET"
-    },
-    {
-      "type": "npc_shop",
-      "cost": [
-        "SKYBLOCK_COIN:80000"
-      ],
-      "result": "DARK_GOGGLES"
-    },
     {
       "type": "npc_shop",
       "cost": [
@@ -106,9 +65,150 @@
     {
       "type": "npc_shop",
       "cost": [
+        "SKYBLOCK_COIN:5000"
+      ],
+      "result": "POTION_DUNGEON;1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:10000"
+      ],
+      "result": "POTION_DUNGEON;2"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:15000"
+      ],
+      "result": "POTION_DUNGEON;3"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:20000"
+      ],
+      "result": "POTION_DUNGEON;4"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:25000"
+      ],
+      "result": "POTION_DUNGEON;5"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:30000"
+      ],
+      "result": "POTION_DUNGEON;6"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
         "SKYBLOCK_COIN:35000"
       ],
-      "result": "POTION"
+      "result": "POTION_DUNGEON;7"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:80000"
+      ],
+      "result": "SUPER_CLEAVER"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:800000",
+        "SUPER_CLEAVER"
+      ],
+      "result": "HYPER_CLEAVER"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:5000000",
+        "HYPER_CLEAVER"
+      ],
+      "result": "GIANT_CLEAVER"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:80000"
+      ],
+      "result": "UNDEAD_BOW"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:800000",
+        "UNDEAD_BOW"
+      ],
+      "result": "SUPER_UNDEAD_BOW"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:5000000",
+        "SUPER_UNDEAD_BOW"
+      ],
+      "result": "DEATH_BOW"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:200"
+      ],
+      "result": "ARROW"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:80000"
+      ],
+      "result": "DARK_GOGGLES"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:800000",
+        "DARK_GOGGLES"
+      ],
+      "result": "SHADOW_GOGGLES"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:5000000",
+        "SHADOW_GOGGLES"
+      ],
+      "result": "WITHER_GOGGLES"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:80000"
+      ],
+      "result": "MENDER_HELMET"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:800000",
+        "MENDER_HELMET"
+      ],
+      "result": "MENDER_FEDORA"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:5000000",
+        "MENDER_FEDORA"
+      ],
+      "result": "MENDER_CROWN"
     },
     {
       "type": "npc_shop",
@@ -120,73 +220,25 @@
     {
       "type": "npc_shop",
       "cost": [
-        "SKYBLOCK_COIN:800000"
+        "SKYBLOCK_COIN:80000"
       ],
-      "result": "SUPER_UNDEAD_BOW"
+      "result": "STONE_CHESTPLATE"
     },
     {
       "type": "npc_shop",
       "cost": [
-        "SKYBLOCK_COIN:800000"
-      ],
-      "result": "HYPER_CLEAVER"
-    },
-    {
-      "type": "npc_shop",
-      "cost": [
-        "SKYBLOCK_COIN:800000"
+        "SKYBLOCK_COIN:800000",
+        "STONE_CHESTPLATE"
       ],
       "result": "METAL_CHESTPLATE"
     },
     {
       "type": "npc_shop",
       "cost": [
-        "SKYBLOCK_COIN:800000"
-      ],
-      "result": "MENDER_FEDORA"
-    },
-    {
-      "type": "npc_shop",
-      "cost": [
-        "SKYBLOCK_COIN:800000"
-      ],
-      "result": "SHADOW_GOGGLES"
-    },
-    {
-      "type": "npc_shop",
-      "cost": [
-        "SKYBLOCK_COIN:5000000"
-      ],
-      "result": "DEATH_BOW"
-    },
-    {
-      "type": "npc_shop",
-      "cost": [
-        "SKYBLOCK_COIN:5000000"
-      ],
-      "result": "GIANT_CLEAVER"
-    },
-    {
-      "type": "npc_shop",
-      "cost": [
-        "SKYBLOCK_COIN:5000000"
+        "SKYBLOCK_COIN:5000000",
+        "METAL_CHESTPLATE"
       ],
       "result": "STEEL_CHESTPLATE"
-    },
-    {
-      "type": "npc_shop",
-      "cost": [
-        "SKYBLOCK_COIN:5000000"
-      ],
-      "result": "MENDER_CROWN"
-    },
-    {
-      "type": "npc_shop",
-      "cost": [
-        "SKYBLOCK_COIN:5000000"
-      ],
-      "result": "WITHER_GOGGLES"
     }
-  ],
-  "crafttext": ""
+  ]
 }

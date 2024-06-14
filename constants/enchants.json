@@ -69,17 +69,19 @@
       "divine_gift",
       "tabasco",
       "ultimate_duplex",
-      "vicious"
+      "vicious",
+      "toxophilite"
     ],
     "AXE": [
       "efficiency",
       "replenish",
       "silk_touch",
-      "turbo_cactus",
       "turbo_coco",
       "turbo_melon",
       "turbo_pumpkin",
-      "delicate"
+      "delicate",
+      "sunder",
+      "dedication"
     ],
     "PICKAXE": [
       "compact",
@@ -88,7 +90,8 @@
       "fortune",
       "silk_touch",
       "pristine",
-      "smelting_touch"
+      "smelting_touch",
+      "paleontologist"
     ],
     "DRILL": [
       "compact",
@@ -97,7 +100,8 @@
       "fortune",
       "pristine",
       "silk_touch",
-      "smelting_touch"
+      "smelting_touch",
+      "paleontologist"
     ],
     "FISHING ROD": [
       "angler",
@@ -183,13 +187,15 @@
       "replenish",
       "harvesting",
       "turbo_wheat",
+      "turbo_cactus",
       "turbo_cane",
       "turbo_warts",
       "turbo_carrot",
       "turbo_potato",
       "turbo_mushrooms",
       "cultivating",
-      "delicate"
+      "delicate",
+      "dedication"
     ],
     "HELMET": [
       "big_brain",
@@ -214,7 +220,11 @@
       "ferocious_mana",
       "hecatomb",
       "ultimate_habanero_tactics",
-      "ultimate_bobbin_time"
+      "ultimate_bobbin_time",
+      "transylvanian",
+      "pesterminator",
+      "ultimate_refrigerate",
+      "ice_cold"
     ],
     "CHESTPLATE": [
       "protection",
@@ -237,7 +247,11 @@
       "mana_vampire",
       "ferocious_mana",
       "ultimate_habanero_tactics",
-      "ultimate_bobbin_time"
+      "ultimate_bobbin_time",
+      "reflection",
+      "pesterminator",
+      "ultimate_refrigerate",
+      "ice_cold"
     ],
     "LEGGINGS": [
       "protection",
@@ -259,7 +273,10 @@
       "mana_vampire",
       "ferocious_mana",
       "ultimate_habanero_tactics",
-      "ultimate_bobbin_time"
+      "ultimate_bobbin_time",
+      "pesterminator",
+      "ultimate_refrigerate",
+      "ice_cold"
     ],
     "BOOTS": [
       "protection",
@@ -284,7 +301,10 @@
       "mana_vampire",
       "ferocious_mana",
       "ultimate_habanero_tactics",
-      "ultimate_bobbin_time"
+      "ultimate_bobbin_time",
+      "pesterminator",
+      "ultimate_refrigerate",
+      "ice_cold"
     ],
     "LONGSWORD": [
       "bane_of_arthropods",
@@ -369,7 +389,6 @@
       "ultimate_wise",
       "compact",
       "efficiency",
-      "experience",
       "fortune",
       "silk_touch",
       "pristine",
@@ -379,7 +398,8 @@
       "ultimate_fatal_tempo",
       "tabasco",
       "champion",
-      "divine_gift"
+      "divine_gift",
+      "paleontologist"
     ],
     "GLOVES": [
       "cayenne",
@@ -387,19 +407,25 @@
     ],
     "BELT": [
       "cayenne",
-      "prosperity"
+      "prosperity",
+      "green_thumb"
     ],
     "NECKLACE": [
       "cayenne",
-      "prosperity"
+      "prosperity",
+      "green_thumb",
+      "quantum",
+      "ultimate_the_one"
     ],
     "BRACELET": [
       "cayenne",
-      "prosperity"
+      "prosperity",
+      "green_thumb"
     ],
     "CLOAK": [
       "cayenne",
-      "prosperity"
+      "prosperity",
+      "green_thumb"
     ]
   },
   "enchant_pools": [
@@ -431,7 +457,8 @@
       "ultimate_fatal_tempo",
       "ultimate_flash",
       "ultimate_habanero_tactics",
-      "ultimate_bobbin_time"
+      "ultimate_bobbin_time",
+      "ultimate_refrigerate"
     ],
     [
       "protection",
@@ -609,6 +636,10 @@
     [
       "ultimate_one_for_all",
       "smoldering"
+    ],
+    [
+      "reflection",
+      "thorns"
     ]
   ],
   "enchants_xp_cost": {
@@ -833,7 +864,7 @@
     ],
     "flame": [
       25,
-      0
+      50
     ],
     "infinite_quiver": [
       10,
@@ -1200,7 +1231,7 @@
       40,
       50
     ],
-    "turbo_cacti": [
+    "turbo_cactus": [
       10,
       20,
       30,
@@ -1256,7 +1287,7 @@
       40,
       50
     ],
-    "turbo_cocoa": [
+    "turbo_coco": [
       10,
       20,
       30,
@@ -1300,6 +1331,59 @@
       100,
       100,
       200
+    ],
+    "sunder": [
+      5,
+      10,
+      15,
+      20,
+      25
+    ],
+    "dedication": [
+      20,
+      25,
+      30,
+      100
+    ],
+    "quantum": [
+      50,
+      50,
+      100
+    ],
+    "reflection": [
+      20,
+      40,
+      60,
+      80,
+      100
+    ],
+    "transylvanian": [
+      100,
+      150
+    ],
+    "pesterminator": [
+      5,
+      9,
+      13,
+      18,
+      23
+    ],
+    "paleontologist": [
+      23,
+      45,
+      91,
+      136,
+      179
+    ],
+    "ice_cold": [
+      27,
+      41,
+      55,
+      68,
+      82
+    ],
+    "toxophilite": [
+      25
     ],
     "one_for_all": [
       50
@@ -1423,12 +1507,23 @@
       120,
       140
     ],
+    "refrigerate": [
+      50,
+      100,
+      150,
+      200,
+      250
+    ],
+    "the_one": [
+      250,
+      300
+    ],
     "XP_BOTTLE": [
       0
     ]
   },
   "max_xp_table_levels": {
-    "sharpness" : 5,
+    "sharpness": 5,
     "smite": 5,
     "bane_of_arthropods": 5,
     "looting": 3,
@@ -1467,14 +1562,28 @@
     "experience": 3,
     "efficiency": 5,
     "harvesting": 5,
-    "piscary": 5
+    "piscary": 5,
+    "spiked_hook": 5,
+    "caster": 5,
+    "frail": 5,
+    "angler": 5,
+    "chance": 3,
+    "power": 5,
+    "infinite_quiver": 5,
+    "lure": 5,
+    "magnet": 5,
+    "luck_of_the_sea": 5
   },
   "enchant_mapping_id": [
     "prosecute",
-    "dragon_tracer"
+    "dragon_tracer",
+    "turbo_cocoa",
+    "turbo_cacti"
   ],
-  "enchant_mapping_item" : [
+  "enchant_mapping_item": [
     "PROSECUTE",
-    "aiming"
+    "aiming",
+    "turbo_coco",
+    "turbo_cactus"
   ]
 }

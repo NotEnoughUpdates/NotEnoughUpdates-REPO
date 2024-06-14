@@ -1,0 +1,26 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§dFairylosopher (NPC)",
+  "nbttag": "{SkullOwner:{Id:\"66b017ba-d20d-28f7-93aa-172d29f787d5\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2VlZDY2NDdkZmQ0YmI1MjUyMWEzZTM0OGM4YzU2NmM5NzMxMDA3NWZiN2I4ZTM2ZThhN2IzY2MwYTlkMGQ2YjEifX19\"}]},Name:\"66b017ba-d20d-28f7-93aa-172d29f787d5\"},display:{Lore:[0:\"\"],Name:\"§dFairylosopher (NPC)\"},ExtraAttributes:{id:\"FAIRYLOSOPHER_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "FAIRYLOSOPHER_NPC",
+  "clickcommand": "",
+  "modver": "2.1.1-PRE",
+  "x": 256,
+  "y": 131,
+  "z": 76,
+  "island": "rift",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_MOTE:10000",
+        "SPLATTER_CRUX:32"
+      ],
+      "result": "SKYBLOCK_ENIGMA_SOUL:1"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§3Reindrake (Sea Creature)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"80b9ea26-3dc8-3346-bf7d-76b069a70e99\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY3MTc2MzUyNTg5OCwKICAicHJvZmlsZUlkIiA6ICI4MTc1MTc4NzQ2MjE0NmY2YjllOWM3MTYyMWRiODQwZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFwcGVhcmFuY2UiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzBiZWI0YzdmNWY4ZDE0YmUzYTA0ZjZmYTM1NzNmYThiZDU5ZWEyMjM2YjY2ZjA1ZmJhNTdjNjc4Y2EzNzc3NiIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7The Reindrake is a Legendary mob unlocked from Fishing\",1:\"§7level 35. It can only be fished on the Jerry Island.\",2:\"\",3:\"§c❤ Health§8: §c2,500 (hits)\",4:\"\",5:\"§6§lLEGENDARY\"],Name:\"§3Reindrake (Sea Creature)\"},ExtraAttributes:{id:\"REINDRAKE_SC\"}}",
+  "damage": 3,
+  "lore": [
+    "§7The Reindrake is a Legendary mob unlocked from Fishing",
+    "§7level 35. It can only be fished on the Jerry Island.",
+    "",
+    "§c❤ Health§8: §c2,500 (hits)",
+    "",
+    "§6§lLEGENDARY"
+  ],
+  "internalname": "REINDRAKE_SC",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Reindrake",
+    "https://wiki.hypixel.net/Reindrake"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§cReindrake",
+      "panorama": "winter",
+      "render": "Dragon",
+      "type": "drops",
+      "extra": [
+        "§cRequirements:",
+        "§7- Fishing Skill 35",
+        "§7- §bJerry's Workshop",
+        "§7- §bFished from water"
+      ],
+      "drops": [
+        {
+          "id": "WHITE_GIFT",
+          "chance": "65%"
+        },
+        {
+          "id": "GREEN_GIFT",
+          "chance": "25%"
+        },
+        {
+          "id": "RED_GIFT",
+          "chance": "10%"
+        },
+        {
+          "id": "PROSPERITY;1",
+          "extra": [
+            "Only drops for the player who spawned the Reindrake"
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

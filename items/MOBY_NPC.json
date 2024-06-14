@@ -1,0 +1,87 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Moby (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"4e18839d-6ff6-27c3-ae70-f715f3403b71\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzliNjg4NTQ1ZTMyNmU0ZjFmZDFjNDA1ODczZDljNWI4YmJlNjlkZDI2ODg5Y2UzZGVhMTBiNGQ5ZTNkN2I0ZGIifX19\"}]},Name:\"4e18839d-6ff6-27c3-ae70-f715f3403b71\"},display:{Lore:[0:\"\"],Name:\"§9Moby (NPC)\"},ExtraAttributes:{id:\"MOBY_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "MOBY_NPC",
+  "clickcommand": "",
+  "modver": "2.1.1-PRE",
+  "x": 206,
+  "y": 44,
+  "z": -500,
+  "island": "farming_1",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "result": "EMPTY_CHUM_BUCKET:1",
+      "cost": [
+        "SKYBLOCK_COIN:1940",
+        "GLOWING_MUSHROOM:8"
+      ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "GLOWY_CHUM_BAIT:16",
+      "cost": [
+        "FULL_CHUM_BUCKET:1",
+        "GLOWING_MUSHROOM:4"
+      ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "LUMINOUS_BRACELET:1",
+      "cost": [
+        "FULL_CHUM_BUCKET:2",
+        "GLOWING_MUSHROOM:10"
+      ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "CHUM_ROD:1",
+      "cost": [
+        "FULL_CHUM_BUCKET:4",
+        "GLOWING_MUSHROOM:15"
+      ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "MOBYS_SHEARS:1",
+      "cost": [
+        "FULL_CHUM_BUCKET:5",
+        "GLOWING_MUSHROOM:15"
+      ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "POTION_MUSHED_GLOWY_TONIC;1:1",
+      "cost": [
+        "FULL_CHUM_BUCKET:8",
+        "GLOWING_MUSHROOM:10"
+      ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "CHUMMING_TALISMAN:1",
+      "cost": [
+        "FULL_CHUM_BUCKET:32"
+      ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "MUSHED_MUSHROOM_MIXIN:1",
+      "cost": [
+        "FULL_CHUM_BUCKET:64",
+        "GLOWING_MUSHROOM:80"
+      ]
+    }
+  ],
+  "crafttext": "",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Moby",
+    "https://wiki.hypixel.net/Moby"
+  ]
+}

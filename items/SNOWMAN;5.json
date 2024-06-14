@@ -1,0 +1,61 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§7[Lvl {LVL}] §dSnowman",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"5127dd66-cb9f-3da5-a05f-0538d6841e46\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5OTM5NDU3NzY3OSwKICAicHJvZmlsZUlkIiA6ICJlZTg4M2RmMjM0ZWI0YWM1YTFlNDEwODhhYzZkZWIxNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJUdW5lc0Jsb2NrIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzkwMzQ4NWNiMWNkODgyZmRkN2ZhYWYxMzU5ZmZjM2JkNGQ1MzQxYzgxYzE3ZTk1NTI3MjA0ZTU1NGRhZDgxODgiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§8Combat Pet\",1:\"\",2:\"§7Fight alongside your pet\",3:\"§7Snowman!\",4:\"\",5:\"§7Damage: §c{DAMAGE}\",6:\"§7Strength: §c{STRENGTH}\",7:\"§7Crit Damage: §c{CRIT_DAMAGE}%\",8:\"\",9:\"§6Blizzard\",10:\"§7§7Enemies within §a{0} §7blocks are slowed\",11:\"§7by §a25% §7and deal §a{1}% §7less damage.\",12:\"\",13:\"§6Frostbite\",14:\"§7§7Your freezing aura slows enemy\",15:\"§7attacks causing you to take §a{2}%\",16:\"§a§7reduced damage.\",17:\"\",18:\"§6Snow Cannon\",19:\"§7§7Shoots a snowball towards an enemy\",20:\"§7when you attack dealing §a{3}% §7of\",21:\"§7your last dealt melee damage. §8(1s\",22:\"§8cooldown).\",23:\"\",24:\"§6Ouch!\",25:\"§7§7§7Your snowballs have §a50% §7chance of\",26:\"§7dealing §cdouble §7damage!\",27:\"\",28:\"§7§eRight-click to add this pet to your\",29:\"§epet menu!\",30:\"\",31:\"§d§lMYTHIC\"],Name:\"§7[Lvl {LVL}] §dSnowman\"},ExtraAttributes:{petInfo:\"{\\\"type\\\":\\\"SNOWMAN\\\",\\\"active\\\":false,\\\"exp\\\":0,\\\"tier\\\":\\\"MYTHIC\\\",\\\"hideInfo\\\":false,\\\"candyUsed\\\":0,\\\"uuid\\\":\\\"b956167f-83b8-4c96-b14b-bcb6bc0f1824\\\",\\\"uniqueId\\\":\\\"511de5d1-c485-4f71-9df4-b5fe89851584\\\",\\\"hideRightClick\\\":false}\",id:\"SNOWMAN;5\"}}",
+  "damage": 3,
+  "lore": [
+    "§8Combat Pet",
+    "",
+    "§7Fight alongside your pet",
+    "§7Snowman!",
+    "",
+    "§7Damage: §c{DAMAGE}",
+    "§7Strength: §c{STRENGTH}",
+    "§7Crit Damage: §c{CRIT_DAMAGE}%",
+    "",
+    "§6Blizzard",
+    "§7§7Enemies within §a{0} §7blocks are slowed",
+    "§7by §a25% §7and deal §a{1}% §7less damage.",
+    "",
+    "§6Frostbite",
+    "§7§7Your freezing aura slows enemy",
+    "§7attacks causing you to take §a{2}%",
+    "§a§7reduced damage.",
+    "",
+    "§6Snow Cannon",
+    "§7§7Shoots a snowball towards an enemy",
+    "§7when you attack dealing §a{3}% §7of",
+    "§7your last dealt melee damage. §8(1s",
+    "§8cooldown).",
+    "",
+    "§6Ouch!",
+    "§7§7§7Your snowballs have §a50% §7chance of",
+    "§7dealing §cdouble §7damage!",
+    "",
+    "§7§eRight-click to add this pet to your",
+    "§epet menu!",
+    "",
+    "§d§lMYTHIC"
+  ],
+  "internalname": "SNOWMAN;5",
+  "crafttext": "",
+  "clickcommand": "",
+  "modver": "2.1.1-PRE",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Snowman_Pet",
+    "https://wiki.hypixel.net/Snowman_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 1000000,
+      "time": 3600,
+      "input": "SNOWMAN;4",
+      "output": "SNOWMAN;5",
+      "items": [
+        "MAGIC_TOP_HAT:1"
+      ]
+    }
+  ]
+}

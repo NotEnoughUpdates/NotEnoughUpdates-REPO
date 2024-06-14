@@ -1,0 +1,61 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§3Plhlegblast (Sea Creature)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"5e2ff5d0-7ca5-3d0b-b987-4add5fa9336c\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg3MDU2MjRkYWEyOTU2YWE0NTk1NmM4MWJhYjVmNGZkYjJjNzRhNTk2MDUxZTI0MTkyMDM5YWVhM2E4YjgifX19\"}]}},display:{Lore:[0:\"§7The Plhlegblast is a type of Sea Creature\",1:\"§7which can be fished up in the\",2:\"§7Plhlegblast Pool in the Crimson Isle.\",3:\"\",4:\"§c❤ Health§8: §c500,000,000\",5:\"\",6:\"§f§lCOMMON\"],Name:\"§3Plhlegblast (Sea Creature)\"},ExtraAttributes:{id:\"PLHLEGBLAST_SC\"}}",
+  "damage": 3,
+  "lore": [
+    "§7The Plhlegblast is a type of Sea Creature",
+    "§7which can be fished up in the",
+    "§7Plhlegblast Pool in the Crimson Isle.",
+    "",
+    "§c❤ Health§8: §c500,000,000",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "PLHLEGBLAST_SC",
+  "clickcommand": "",
+  "modver": "2.1.1-PRE",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Plhlegblast",
+    "https://wiki.hypixel.net/Plhlegblast"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§cPlhlegblast",
+      "level": 300,
+      "coins": 1000,
+      "xp": 300,
+      "render": "Squid",
+      "panorama": "crimson_isle",
+      "type": "drops",
+      "extra": [
+        "§cRequirements:",
+        "§7- Fishing Skill 27",
+        "§7- §6Crimson Isle Lava",
+        "§7- §cPlhlegeblast Pool"
+      ],
+      "drops": [
+        {
+          "id": "WATER_LILY:1",
+          "chance": "100%"
+        },
+        {
+          "id": "INK_SACK",
+          "extra": [
+            "x1-30"
+          ],
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_WATER_LILY",
+          "extra": [
+            "x1-2"
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

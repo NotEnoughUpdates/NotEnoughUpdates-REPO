@@ -73,7 +73,7 @@
     "alchemy": 50,
     "runecrafting": 25,
     "catacombs": 50,
-    "HOTM": 7,
+    "HOTM": 10,
     "social": 25
   },
   "runecrafting_xp": [
@@ -158,6 +158,13 @@
       100000,
       400000,
       1000000
+    ],
+    "vampire": [
+      20,
+      75,
+      240,
+      840,
+      2400
     ]
   },
   "slayer_boss_xp": [
@@ -167,12 +174,38 @@
     500,
     1500
   ],
+  "slayer_boss_xp_type": {
+    "vampire": [
+      10,
+      25,
+      60,
+      120,
+      150
+    ]
+  },
   "slayer_highest_tier": {
     "Revenant Horror": 5,
     "Tarantula Broodfather": 4,
     "Sven Packmaster": 4,
     "Voidgloom Seraph": 4,
-    "Inferno Demonlord": 4
+    "Inferno Demonlord": 4,
+    "Riftstalker Bloodfiend": 5
+  },
+  "fancy_name_to_slayer": {
+    "Revenant Horror": "zombie",
+    "Tarantula Broodfather": "spider",
+    "Sven Packmaster": "wolf",
+    "Voidgloom Seraph": "enderman",
+    "Inferno Demonlord":"blaze",
+    "Riftstalker Bloodfiend": "vampire"
+  },
+  "slayer_to_highest_tier": {
+    "zombie": 5,
+    "spider": 4,
+    "wolf": 4,
+    "enderman": 4,
+    "blaze": 4,
+    "vampire": 5
   },
   "slayer_tier_colors": [
     "§a",
@@ -293,7 +326,10 @@
     25000,
     60000,
     100000,
-    150000
+    150000,
+    210000,
+    290000,
+    400000
   ],
   "social": [
     50,

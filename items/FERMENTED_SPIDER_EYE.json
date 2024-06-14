@@ -1,13 +1,14 @@
 {
   "itemid": "minecraft:fermented_spider_eye",
   "displayname": "§fFermented Spider Eye",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fFermented Spider Eye\"},ExtraAttributes:{id:\"FERMENTED_SPIDER_EYE\"}}",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§f§lCOMMON\"],Name:\"§fFermented Spider Eye\"},ExtraAttributes:{id:\"FERMENTED_SPIDER_EYE\"}}",
   "damage": 0,
   "lore": [
+    "§8Brewing Ingredient",
     "§f§lCOMMON"
   ],
   "internalname": "FERMENTED_SPIDER_EYE",
-  "modver": "2.1.0-REL",
+  "modver": "2.1.1-PRE",
   "vanilla": true,
   "clickcommand": "viewrecipe",
   "recipe": {
@@ -24,5 +25,6 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Fermented_Spider_Eye"
-  ]
+  ],
+  "crafttext": ""
 }

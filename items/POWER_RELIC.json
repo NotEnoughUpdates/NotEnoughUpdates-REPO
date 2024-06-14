@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§5Relic of Power",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"0d03b59a-2bb1-3f62-94e5-aa08db7a23fc\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxMDEwODgyNzM3NiwKICAicHJvZmlsZUlkIiA6ICI1OWZmOTU1YzMxYjk0MWI0YWQwNDg4NDk0ODkzNzUzOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdhMzQ5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q4ZmRjODcwMjNjZmYyNjM1NjQ3N2YyZTA5N2EyZGU4M2I1NTBkODhhNmYxYTg3N2RhNGY5NWM0ZGIxMTU2N2YiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\" §8[§7☘§8] §8[§7⸕§8] §8[§7✧§8] §8[§7✎§8] §8[§7❈§8] §8[§7❁§8] §8[§7❤§8] §8[§7❂§8] §8[§7☠§8] §8[§7☘§8] §8[§7☘§8] §8[§7α§8]\",1:\"\",2:\"§7Allows you to harness the power of\",3:\"§7§a12§7 Gemstones, although only half of\",4:\"§7the normal power can be harnessed!\",5:\"\",6:\"§5§lEPIC ACCESSORY\"],Name:\"§5Relic of Power\"},ExtraAttributes:{id:\"POWER_RELIC\"}}",
+  "damage": 3,
+  "lore": [
+    " §8[§7☘§8] §8[§7⸕§8] §8[§7✧§8] §8[§7✎§8] §8[§7❈§8] §8[§7❁§8] §8[§7❤§8] §8[§7❂§8] §8[§7☠§8] §8[§7☘§8] §8[§7☘§8] §8[§7α§8]",
+    "",
+    "§7Allows you to harness the power of",
+    "§7§a12§7 Gemstones, although only half of",
+    "§7the normal power can be harnessed!",
+    "",
+    "§5§lEPIC ACCESSORY"
+  ],
+  "internalname": "POWER_RELIC",
+  "crafttext": "",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "infoType": "WIKI_URL",
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "POWER_ARTIFACT:1.0",
+        "PERFECT_PLATE:1.0",
+        "GLACITE_AMALGAMATION:32.0"
+      ],
+      "count": 1.0,
+      "duration": 28800,
+      "overrideOutputId": "POWER_RELIC"
+    }
+  ],
+  "info": [
+    "https://wiki.hypixel.net/Relic_Of_Power"
+  ]
+}

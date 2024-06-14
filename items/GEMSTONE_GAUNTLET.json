@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§6Gemstone Gauntlet",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"4d32846a-7945-345a-8f48-f107f6c92b15\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyMDIzOTE2MTcwMywKICAicHJvZmlsZUlkIiA6ICI5ZDIyZGRhOTVmZGI0MjFmOGZhNjAzNTI1YThkZmE4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYWZlRHJpZnQ0OCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83YmYwMWMxOThmNmUxNjk2NWUyMzAyMzVjZDIyYTVhOWY0YTQwZTQwOTQxMjM0NDc4OTQ4ZmY5YTU2ZTUxNzc1IgogICAgfQogIH0KfQ\"}]}},display:{Lore:[0:\"§8Breaking Power 9\",1:\"\",2:\"§7Damage: §c+200\",3:\"§7Mining Speed: §a+1,600\",4:\" §8[§7☘§8] §8[§7⸕§8] §8[§7✧§8] §8[§7✎§8] §8[§7❈§8]\",5:\"\",6:\"§7§7Harness the true power of the\",7:\"§7§dGemstones§7! Each gemstone placed in\",8:\"§7here will boost its associated\",9:\"§7§astat§7.\",10:\"\",11:\"§7§eCan be used as both a §csword §eand\",12:\"§ea §9pickaxe§e.\",13:\"\",14:\"§7§7Your Gemstones:\",15:\"  §8§aJade: ?? (none equipped)\",16:\"  §8§6Amber: ?? (none equipped)\",17:\"  §8§eTopaz: ?? (none equipped)\",18:\"  §8§bSapphire: ?? (none equipped)\",19:\"  §8§5Amethyst: ?? (none equipped)\",20:\"\",21:\"§7§8This item can be reforged!\",22:\"§7§4❣ §cRequires §5Heart of the\",23:\"§5Mountain Tier 6.\",24:\"§6§lLEGENDARY GAUNTLET\"],Name:\"§6Gemstone Gauntlet\"},ExtraAttributes:{id:\"GEMSTONE_GAUNTLET\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"4d32846a-7945-345a-8f48-f107f6c92b15\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyMDIzOTE2MTcwMywKICAicHJvZmlsZUlkIiA6ICI5ZDIyZGRhOTVmZGI0MjFmOGZhNjAzNTI1YThkZmE4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYWZlRHJpZnQ0OCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83YmYwMWMxOThmNmUxNjk2NWUyMzAyMzVjZDIyYTVhOWY0YTQwZTQwOTQxMjM0NDc4OTQ4ZmY5YTU2ZTUxNzc1IgogICAgfQogIH0KfQ\"}]}},display:{Lore:[0:\"§8Breaking Power 9\",1:\"\",2:\"§7Damage: §c+200\",3:\"§7Mining Speed: §a+1,600\",4:\" §8[§7☘§8] §8[§7⸕§8] §8[§7✧§8] §8[§7✎§8] §8[§7❈§8]\",5:\"\",6:\"§7§7Harness the true power of the\",7:\"§7§dGemstones§7! Each gemstone placed in\",8:\"§7here will boost its associated\",9:\"§7§astat§7.\",10:\"\",11:\"§7§eCan be used as both a §csword §eand\",12:\"§ea §9pickaxe§e.\",13:\"\",14:\"§7§7Your Gemstones:\",15:\"  §8§aJade: ?? (none equipped)\",16:\"  §8§6Amber: ?? (none equipped)\",17:\"  §8§eTopaz: ?? (none equipped)\",18:\"  §8§bSapphire: ?? (none equipped)\",19:\"  §8§5Amethyst: ?? (none equipped)\",20:\"\",21:\"§7§8This item can be reforged!\",22:\"§7§4❣ §cRequires §5Heart of the Mountain Tier 6§c.\",23:\"§6§lLEGENDARY GAUNTLET\"],Name:\"§6Gemstone Gauntlet\"},ExtraAttributes:{id:\"GEMSTONE_GAUNTLET\"}}",
   "damage": 3,
   "lore": [
     "§8Breaking Power 9",
@@ -26,8 +26,7 @@
     "  §8§5Amethyst: ?? (none equipped)",
     "",
     "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §5Heart of the",
-    "§5Mountain Tier 6.",
+    "§7§4❣ §cRequires §5Heart of the Mountain Tier 6§c.",
     "§6§lLEGENDARY GAUNTLET"
   ],
   "recipe": {
@@ -42,9 +41,9 @@
     "C3": "FLAWLESS_RUBY_GEM:1"
   },
   "internalname": "GEMSTONE_GAUNTLET",
-  "crafttext": "Requires Gemstone Collection XI",
+  "crafttext": "Requires: Gemstone XI",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
+  "modver": "2.1.1-PRE",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Gemstone_Gauntlet",

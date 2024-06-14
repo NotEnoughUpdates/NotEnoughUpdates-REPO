@@ -12,17 +12,6 @@
     "",
     "§9§lRARE"
   ],
-  "recipe": {
-    "A1": "CRUDE_GABAGOOL:3",
-    "A2": "CRUDE_GABAGOOL:3",
-    "A3": "CRUDE_GABAGOOL:3",
-    "B1": "CRUDE_GABAGOOL:3",
-    "B2": "SULPHURIC_COAL:1",
-    "B3": "CRUDE_GABAGOOL:3",
-    "C1": "CRUDE_GABAGOOL:3",
-    "C2": "CRUDE_GABAGOOL:3",
-    "C3": "CRUDE_GABAGOOL:3"
-  },
   "internalname": "FUEL_GABAGOOL",
   "crafttext": "",
   "clickcommand": "viewrecipe",
@@ -31,5 +20,32 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Fuel_Gabagool",
     "https://wiki.hypixel.net/Fuel_Gabagool"
+  ],
+  "recipes": [
+    {
+      "type": "crafting",
+      "A1": "CRUDE_GABAGOOL:3",
+      "A2": "CRUDE_GABAGOOL:3",
+      "A3": "CRUDE_GABAGOOL:3",
+      "B1": "CRUDE_GABAGOOL:3",
+      "B2": "SULPHURIC_COAL:1",
+      "B3": "CRUDE_GABAGOOL:3",
+      "C1": "CRUDE_GABAGOOL:3",
+      "C2": "CRUDE_GABAGOOL:3",
+      "C3": "CRUDE_GABAGOOL:3"
+    },
+    {
+      "type": "crafting",
+      "A1": "SULPHURIC_COAL:1",
+      "A2": "SULPHURIC_COAL:1",
+      "A3": "SULPHURIC_COAL:1",
+      "B1": "SULPHURIC_COAL:1",
+      "B2": "VERY_CRUDE_GABAGOOL:1",
+      "B3": "SULPHURIC_COAL:1",
+      "C1": "SULPHURIC_COAL:1",
+      "C2": "SULPHURIC_COAL:1",
+      "C3": "SULPHURIC_COAL:1",
+      "count": 8
+    }
   ]
 }

@@ -1,0 +1,52 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Diamond Goblin (Monster)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"73295c81-4085-34e9-83e4-fcaf4b335156\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5NjI5MTQ2NDM2NywKICAicHJvZmlsZUlkIiA6ICI2NTk0YzdiMTExOWE0Njc3ODc0Y2ZmOWNlMzM3NzYxOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXJzaG1lbGxvMjIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFkMjExNjgyN2E0MWE3MTM2NjBiYjUyYzliYTNiYzZkZDAzODE3NWFmYjc0YTQ3M2I4NWYwY2Y2MGZmNzBlMiIKICAgIH0KICB9Cn0=\"}]},Name:\"81435058-f0e1-2bda-b932-aa34dbb702c3\"},display:{Lore:[0:\"§7The §bDiamond Goblin §7has a §a3.33% §7chance \",1:\"§7to replace a §6Golden Goblin §7when it is spawned.\",2:\"\",3:\"§c❤ Health§8: §c5\"],Name:\"§9Diamond Goblin (Monster)\"},ExtraAttributes:{id:\"DIAMOND_GOBLIN_MONSTER\"}}",
+  "damage": 3,
+  "lore": [
+    "§7The §bDiamond Goblin §7has a §a3.33% §7chance ",
+    "§7to replace a §6Golden Goblin §7when it is spawned.",
+    "",
+    "§c❤ Health§8: §c5"
+  ],
+  "internalname": "DIAMOND_GOBLIN_MONSTER",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Diamond_Goblin",
+    "https://wiki.hypixel.net/Diamond_Goblin"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 500,
+      "coins": 250,
+      "xp": 100,
+      "combat_xp": 20,
+      "name": "§cDiamond Goblin",
+      "panorama": "mining_3",
+      "render": "@neurepo:mobs/diamond_goblin.json",
+      "type": "drops",
+      "extra": [
+        "§7Other Drops:",
+        "§7+ §2400 Mithril Powder",
+        "§7+ §d400 Gemstone Powder"
+      ],
+      "drops": [
+        {
+          "id": "ESSENCE_DIAMOND:20",
+          "chance": "100%"
+        },
+        {
+          "id": "MITHRIL_ORE:20",
+          "chance": "100%"
+        },
+        {
+          "id": "PET_ITEM_PURE_MITHRIL_GEM:1",
+          "chance": "1%"
+        }
+      ]
+    }
+  ]
+}

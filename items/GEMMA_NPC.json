@@ -1,0 +1,26 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Gemma (NPC)",
+  "nbttag": "{SkullOwner:{Id:\"79720ae3-58ee-23f4-a80b-9c84b9bf0e77\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M4NmFkNGRkYjQwZTkxMjhhZTBiNWEzMTI2ZWZlNzNmNDE0OWM3NTdiYWMxNDhmY2ZiZWE2ZjdhYmE4Zjg1NjkifX19\"}]},Name:\"79720ae3-58ee-23f4-a80b-9c84b9bf0e77\"},display:{Lore:[0:\"\"],Name:\"§9Gemma (NPC)\"},ExtraAttributes:{id:\"GEMMA_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "GEMMA_NPC",
+  "clickcommand": "",
+  "modver": "2.1.1-PRE",
+  "x": 476,
+  "y": 107,
+  "z": 514,
+  "island": "crystal_hollows",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "ESSENCE_DIAMOND:1000",
+        "REFINED_DIAMOND:2"
+      ],
+      "result": "PERFECTLY_CUT_DIAMOND"
+    }
+  ]
+}

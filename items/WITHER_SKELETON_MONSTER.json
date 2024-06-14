@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§aWither Skeleton (Monster)",
-  "nbttag": "{display:{Lore:[0:\"§7Keepers of the Crimson Isle.\",1:\"\",2:\"§c❤ Health§8: §c600,000\"],Name:\"§aWither Skeleton (Monster)\"},ExtraAttributes:{id:\"WITHER_SKELETON_MONSTER\"}}",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Keepers of the Crimson Isle.\",1:\"\",2:\"§c❤ Health§8: §c300,000\"],Name:\"§aWither Skeleton (Monster)\"},ExtraAttributes:{id:\"WITHER_SKELETON_MONSTER\"}}",
   "damage": 1,
   "lore": [
     "§7Keepers of the Crimson Isle.",
     "",
-    "§c❤ Health§8: §c600,000"
+    "§c❤ Health§8: §c300,000"
   ],
   "internalname": "WITHER_SKELETON_MONSTER",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
+  "modver": "2.1.1-PRE",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Wither_Skeleton",
@@ -18,34 +18,6 @@
   ],
   "crafttext": "",
   "recipes": [
-    {
-      "level": 10,
-      "coins": 4,
-      "xp": 15,
-      "combat_xp": 13,
-      "name": "§fWither Skeleton",
-      "render": "@neurepo:mobs/witherskeleton.json",
-      "type": "drops",
-      "panorama": "crimson_isle",
-      "drops": [
-        {
-          "id": "COAL:1",
-          "chance": "50%"
-        },
-        {
-          "id": "BONE:1",
-          "chance": "x3"
-        },
-        {
-          "id": "ENCHANTED_COAL:1",
-          "chance": "1%"
-        },
-        {
-          "id": "ENCHANTED_CHARCOAL:1",
-          "chance": "1%"
-        }
-      ]
-    },
     {
       "level": 70,
       "coins": 20,

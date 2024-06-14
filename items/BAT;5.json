@@ -1,0 +1,57 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§7[Lvl {LVL}] §dBat",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"3705268c-7a68-4283-940d-c9f5440e7aa0\",hypixelPopulated:1b,Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzgyZmMzZjcxYjQxNzY5Mzc2YTllOTJmZTNhZGJhYWMzNzcyYjk5OWIyMTljOWQ2YjQ2ODBiYTk5ODNlNTI3In19fQ\u003d\u003d\"}]},Name:\"§3705268c-7a68-4283-940d-c9f5440e7aa0\"},display:{Lore:[0:\"§8Mining Pet\",1:\"\",2:\"§7Intelligence: §a{INTELLIGENCE}\",3:\"§7Speed: §a{SPEED}\",4:\"§7Sea Creature Chance: §c+{SEA_CREATURE_CHANCE}%\",5:\"\",6:\"§6Candy Lover\",7:\"§7§7Increases the chance for mobs\",8:\"§7to drop Candy by §a{0}%§7.\",9:\"\",10:\"§6Nightmare\",11:\"§7§7§7During night, gain §a{1}\",12:\"§a§b✎ Intelligence§7, §a{2} §f✦\",13:\"§fSpeed§7, and night vision.\",14:\"\",15:\"§6Wings of Steel\",16:\"§7§7Deals §a{3}% §7damage to\",17:\"§6Spooky §7enemies during the\",18:\"§6Spooky Festival§7.\",19:\"\",20:\"§6Sonar\",21:\"§7§7+§a{4}% §7chance to fish up\",22:\"§7spooky sea creatures.\",23:\"\",24:\"§7§eRight-click to add this pet to\",25:\"§eyour pet menu!\",26:\"\",27:\"§d§lMYTHIC\"],Name:\"§7[Lvl {LVL}] §dBat\"},ExtraAttributes:{petInfo:\"{\\\"type\\\":\\\"BAT\\\",\\\"active\\\":false,\\\"exp\\\":0,\\\"tier\\\":\\\"MYTHIC\\\",\\\"hideInfo\\\":false,\\\"candyUsed\\\":0,\\\"uuid\\\":\\\"8f9e896c-d9c8-4614-a3e1-5f5d9d7781e9\\\",\\\"hideRightClick\\\":false}\",id:\"BAT;5\"}}",
+  "damage": 3,
+  "lore": [
+    "§8Mining Pet",
+    "",
+    "§7Intelligence: §a{INTELLIGENCE}",
+    "§7Speed: §a{SPEED}",
+    "§7Sea Creature Chance: §c+{SEA_CREATURE_CHANCE}%",
+    "",
+    "§6Candy Lover",
+    "§7§7Increases the chance for mobs",
+    "§7to drop Candy by §a{0}%§7.",
+    "",
+    "§6Nightmare",
+    "§7§7§7During night, gain §a{1}",
+    "§a§b✎ Intelligence§7, §a{2} §f✦",
+    "§fSpeed§7, and night vision.",
+    "",
+    "§6Wings of Steel",
+    "§7§7Deals §a{3}% §7damage to",
+    "§6Spooky §7enemies during the",
+    "§6Spooky Festival§7.",
+    "",
+    "§6Sonar",
+    "§7§7+§a{4}% §7chance to fish up",
+    "§7spooky sea creatures.",
+    "",
+    "§7§eRight-click to add this pet to",
+    "§eyour pet menu!",
+    "",
+    "§d§lMYTHIC"
+  ],
+  "internalname": "BAT;5",
+  "crafttext": "",
+  "clickcommand": "",
+  "modver": "2.1.1-PRE",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Bat_Pet",
+    "https://wiki.hypixel.net/Bat_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 100000,
+      "time": 3600,
+      "input": "BAT;4",
+      "output": "BAT;5",
+      "items": [
+        "PET_ITEM_VAMPIRE_FANG:1"
+      ]
+    }
+  ]
+}
