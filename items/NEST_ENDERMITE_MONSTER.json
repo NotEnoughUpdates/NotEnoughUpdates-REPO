@@ -1,0 +1,46 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aNest Endermite (Monster)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"b3224e56-73d2-32f9-9081-a23b7512035b\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWJjN2I5ZDM2ZmI5MmI2YmYyOTJiZTczZDMyYzZjNWIwZWNjMjViNDQzMjNhNTQxZmFlMWYxZTY3ZTM5M2EzZSJ9fX0\"}]}},display:{Lore:[0:\"§7The Nest Endermite can be found while mining §5Ender Nodes§7.\",1:\"§7They have a §a33.21 §7chance to spawn from §eEndstone §7nodes,\",2:\"§7and a §a30.54% §7chance to spawn from §5Obsidian §7nodes.\",3:\"\",4:\"§c❤ Health§8: §c4,500\"],Name:\"§aNest Endermite (Monster)\"},ExtraAttributes:{id:\"NEST_ENDERMITE_MONSTER\"}}",
+  "damage": 3,
+  "lore": [
+    "§7The Nest Endermite can be found while mining §5Ender Nodes§7.",
+    "§7They have a §a33.21 §7chance to spawn from §eEndstone §7nodes,",
+    "§7and a §a30.54% §7chance to spawn from §5Obsidian §7nodes.",
+    "",
+    "§c❤ Health§8: §c4,500"
+  ],
+  "internalname": "NEST_ENDERMITE_MONSTER",
+  "clickcommand": "viewrecipe",
+  "modver": "2.3.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Nest_Endermite",
+    "https://wiki.hypixel.net/Nest_Endermite"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 50,
+      "coins": 22,
+      "xp": 24,
+      "combat_xp": 38,
+      "name": "§cNest Endermite",
+      "panorama": "combat_3",
+      "render": "Endermite",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ENCHANTED_ENDSTONE:1",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "MITE_GEL:1",
+          "extra": [],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}
