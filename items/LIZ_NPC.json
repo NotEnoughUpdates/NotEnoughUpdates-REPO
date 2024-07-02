@@ -12,5 +12,35 @@
   "x": -55,
   "y": 73,
   "z": -56,
-  "island": "hub"
+  "island": "hub",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "STOCK_OF_STONKS:20"
+      ],
+      "result": "GOLDEN_BOUNTY:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "STOCK_OF_STONKS:50"
+      ],
+      "result": "AVARICIOUS_CHALICE:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "STOCK_OF_STONKS:3"
+      ],
+      "result": "GOLDEN_FRAGMENT:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "STOCK_OF_STONKS:1"
+      ],
+      "result": "FRESHLY_MINTED_COINS:1"
+    }
+  ]
 }
