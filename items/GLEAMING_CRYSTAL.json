@@ -1,0 +1,39 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§5Gleaming Crystal",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"821967c9-d02a-346f-affb-800ebfaf0cd2\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwNjA3Nzk5ODU0MiwKICAicHJvZmlsZUlkIiA6ICIxMWY3ZTIxMDMyOGE0MjRmYTU0NmFlZDk1M2FkNGU3ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ2b2lkd2lyZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82MTU2MTAxMjk4MmMyMGQ0MGM2MDRiMmRiOWVkZGI4NDc5OTQ0NzE1YjkxZWZiYzEyZGZhYjE3NzVjODYxMGEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§8Reforge Stone\",1:\"§7§8Combinable in Reforge Anvil\",2:\"\",3:\"§7Applies the §9Lustrous §7reforge when\",4:\"§7combined with a pickaxe§7.\",5:\"\",6:\"§9Lustrous §7(§6Legendary§7):\",7:\"§7Mining Speed: §a+25\",8:\"§7Mining Fortune: §a+16\",9:\"\",10:\"§7Requires §aMining Skill Level XXIV§7!\",11:\"\",12:\"§5§lEPIC REFORGE STONE\"],Name:\"§5Gleaming Crystal\"},ExtraAttributes:{id:\"GLEAMING_CRYSTAL\"}}",
+  "damage": 3,
+  "lore": [
+    "§8Reforge Stone",
+    "§7§8Combinable in Reforge Anvil",
+    "",
+    "§7Applies the §9Lustrous §7reforge when",
+    "§7combined with a pickaxe§7.",
+    "",
+    "§9Lustrous §7(§6Legendary§7):",
+    "§7Mining Speed: §a+25",
+    "§7Mining Fortune: §a+16",
+    "",
+    "§7Requires §aMining Skill Level XXIV§7!",
+    "",
+    "§5§lEPIC REFORGE STONE"
+  ],
+  "internalname": "GLEAMING_CRYSTAL",
+  "crafttext": "",
+  "clickcommand": "viewrecipe",
+  "modver": "2.3.0",
+  "infoType": "",
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "GLOSSY_GEMSTONE:32.0",
+        "REFINED_MITHRIL:1.0",
+        "REFINED_DIAMOND:2.0"
+      ],
+      "count": 1.0,
+      "overrideOutputId": "GLEAMING_CRYSTAL",
+      "duration": 32400
+    }
+  ]
+}
