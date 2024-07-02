@@ -20,7 +20,18 @@
   ],
   "internalname": "MITHRIL_NECKLACE",
   "crafttext": "",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "modver": "2.3.0",
-  "infoType": ""
+  "infoType": "",
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "ENCHANTED_MITHRIL:3.0"
+      ],
+      "count": 1.0,
+      "overrideOutputId": "MITHRIL_NECKLACE",
+      "duration": 2700
+    }
+  ]
 }

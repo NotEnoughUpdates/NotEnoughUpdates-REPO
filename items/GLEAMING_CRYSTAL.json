@@ -20,7 +20,20 @@
   ],
   "internalname": "GLEAMING_CRYSTAL",
   "crafttext": "",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "modver": "2.3.0",
-  "infoType": ""
+  "infoType": "",
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "GLOSSY_GEMSTONE:32.0",
+        "REFINED_MITHRIL:1.0",
+        "REFINED_DIAMOND:2.0"
+      ],
+      "count": 1.0,
+      "overrideOutputId": "GLEAMING_CRYSTAL",
+      "duration": 32400
+    }
+  ]
 }

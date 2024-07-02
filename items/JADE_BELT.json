@@ -19,7 +19,19 @@
   ],
   "internalname": "JADE_BELT",
   "crafttext": "",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "modver": "2.3.0",
-  "infoType": ""
+  "infoType": "",
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "FLAWLESS_JADE_GEM:2.0",
+        "GLOSSY_GEMSTONE:32.0"
+      ],
+      "count": 1.0,
+      "overrideOutputId": "JADE_BELT",
+      "duration": 64800
+    }
+  ]
 }

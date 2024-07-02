@@ -19,7 +19,19 @@
   ],
   "internalname": "AMBER_NECKLACE",
   "crafttext": "",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "modver": "2.3.0",
-  "infoType": ""
+  "infoType": "",
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "GLOSSY_GEMSTONE:32.0",
+        "FLAWLESS_AMBER_GEM:2.0"
+      ],
+      "count": 1.0,
+      "overrideOutputId": "AMBER_NECKLACE",
+      "duration": 64800
+    }
+  ]
 }

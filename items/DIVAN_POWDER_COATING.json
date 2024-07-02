@@ -22,7 +22,21 @@
   ],
   "internalname": "DIVAN_POWDER_COATING",
   "crafttext": "",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "modver": "2.3.0",
-  "infoType": ""
+  "infoType": "",
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "ENCHANTED_GOLD_BLOCK:16.0",
+        "REFINED_MINERAL:32.0",
+        "GLOSSY_GEMSTONE:32.0",
+        "DIVAN_FRAGMENT:5.0"
+      ],
+      "count": 1.0,
+      "duration": 97200,
+      "overrideOutputId": "DIVAN_POWDER_COATING"
+    }
+  ]
 }
