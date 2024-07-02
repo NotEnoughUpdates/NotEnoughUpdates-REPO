@@ -1214,6 +1214,60 @@
       }
     }
   },
+  "GLEAMING_CRYSTAL": {
+    "internalName": "GLEAMING_CRYSTAL",
+    "reforgeName": "Lustrous",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "PICKAXE",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 20000,
+      "UNCOMMON": 40000,
+      "RARE": 80000,
+      "EPIC": 150000,
+      "LEGENDARY": 300000,
+      "MYTHIC": 600000,
+      "DIVINE": 800000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "mining_speed": 5,
+        "mining_fortune": 5
+      },
+      "UNCOMMON": {
+        "mining_speed": 10,
+        "mining_fortune": 7
+      },
+      "RARE": {
+        "mining_speed": 15,
+        "mining_fortune": 9
+      },
+      "EPIC": {
+        "mining_speed": 20,
+        "mining_fortune": 12
+      },
+      "LEGENDARY": {
+        "mining_speed": 25,
+        "mining_fortune": 16
+      },
+      "MYTHIC": {
+        "mining_speed": 30,
+        "mining_fortune": 20
+      },
+      "DIVINE": {
+        "mining_speed": 35,
+        "mining_fortune": 25
+      }
+    }
+  },
   "GOLDEN_BALL": {
     "internalName": "GOLDEN_BALL",
     "reforgeName": "Bountiful",
