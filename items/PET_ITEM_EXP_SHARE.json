@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:yellow_flower",
   "displayname": "§5Exp Share",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§8Consumed on use\",1:\"\",2:\"§7§7Pet items can boost pets in various\",3:\"§7ways but pets can only hold 1 item at\",4:\"§7a time so choose wisely!\",5:\"\",6:\"§7§7While unequipped this pet gains §a25%\",7:\"§a§7of the equipped pet\u0027s Exp, this is\",8:\"§7split between all pets holding the item.\",9:\"\",10:\"§7§eRight-click on your summoned pet to\",11:\"§egive it this item!\",12:\"\",13:\"§5§lEPIC PET ITEM\"],Name:\"§5Exp Share\"},ExtraAttributes:{id:\"PET_ITEM_EXP_SHARE\"}}",
+  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§8Consumed on use\",1:\"\",2:\"§7§7Pet items can boost pets in various\",3:\"§7ways but pets can only hold 1 item at\",4:\"§7a time so choose wisely!\",5:\"\",6:\"§7§7While equipped in a Exp Share slot\",7:\"§7this pet gains §a+15% §7Exp Share rate.\",8:\"\",9:\"§7§eRight-click on your summoned pet to\",10:\"§egive it this item!\",11:\"\",12:\"§5§lEPIC PET ITEM\"],Name:\"§5Exp Share\"},ExtraAttributes:{id:\"PET_ITEM_EXP_SHARE\"}}",
   "damage": 0,
   "lore": [
     "§8Consumed on use",
@@ -10,9 +10,8 @@
     "§7ways but pets can only hold 1 item at",
     "§7a time so choose wisely!",
     "",
-    "§7§7While unequipped this pet gains §a25%",
-    "§a§7of the equipped pet\u0027s Exp, this is",
-    "§7split between all pets holding the item.",
+    "§7§7While equipped in a Exp Share slot",
+    "§7this pet gains §a+15% §7Exp Share rate.",
     "",
     "§7§eRight-click on your summoned pet to",
     "§egive it this item!",
@@ -32,7 +31,7 @@
   },
   "internalname": "PET_ITEM_EXP_SHARE",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
+  "modver": "2.3.0",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Pet_Items",
