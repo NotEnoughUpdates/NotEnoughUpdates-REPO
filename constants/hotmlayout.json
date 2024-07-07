@@ -61,6 +61,23 @@
           "§7Titanium Ore."
         ]
       },
+      "mining_speed_boost": {
+        "name": "Mining Speed Boost",
+        "x": 1,
+        "y": 8,
+        "maxLevel": 1,
+        "powder": "MITHRIL",
+        "item": "(api level0)",
+        "cost": "",
+        "chance": "",
+        "lore": [
+          "",
+          "§6Pickaxe Ability: Mining Speed Boost",
+          "§7Grants §a+§a300% §6⸕ Mining Speed §7for",
+          "§7§a20s§7.",
+          "§8Cooldown: §a120s"
+        ]
+      },
       "forge_time": {
         "name": "Quick Forge",
         "x": 4,
@@ -73,6 +90,24 @@
         "lore": [
           "§7Decreases the time it takes to forge",
           "§7by §a{decrease}%§7."
+        ]
+      },
+      "pickobulus": {
+        "name": "Pickobulus",
+        "x": 5,
+        "y": 8,
+        "maxLevel": 1,
+        "powder": "MITHRIL",
+        "item": "(api level0)",
+        "cost": "",
+        "chance": "",
+        "lore": [
+          "",
+          "§6Pickaxe Ability: Pickobulus",
+          "§7Throw your pickaxe to create an",
+          "§7explosion on impact, mining all ores",
+          "§7within a §a2 §7block radius.",
+          "§8Cooldown: §a110s"
         ]
       },
       "random_event": {
@@ -249,12 +284,53 @@
         "y": 5,
         "maxLevel": 10,
         "powder": "(if (lt level 6) MITHRIL (if (lt level 8) GEMSTONE GLACITE))",
+        "item": ":REDSTONE_BLOCK",
         "cost": "0",
         "lore": [
           "Das hier ist immer da",
           {
             "onlyIf": "(lt level 6)",
             "text": "Das hier ist nur am anfang da"
+          },
+          {
+            "text": "§7§8+§c1 Pickaxe Ability Level",
+            "onlyIf": "(lt= level 2)"
+          },
+          {
+            "text": "§7§8+§a1 Forge Slot",
+            "onlyIf": "(lt= level 3)"
+          },
+          {
+            "text": "§7§8+§a1 Commission Slot",
+            "onlyIf": "(lt= level 3)"
+          },
+          {
+            "text": "§7§8+§21 Base Mithril Powder §7when mining §2Mithril§7.",
+            "onlyIf": "(lt= level 4)"
+          },
+          {
+            "text": "§8+§51 Token of the Mountain",
+            "onlyIf": "(lt= level 5)"
+          },
+          {
+            "text": "§7§8+§d2 Base Gemstone Powder §7when mining §dGemstones§7.",
+            "onlyIf": "(lt= level 6)"
+          },
+          {
+            "text": "§8+§51 Token of the Mountain",
+            "onlyIf": "(lt= level 7)"
+          },
+          {
+            "text": "§7§8+§b3 Base Glacite Powder §7when mining §bGlacite§7.",
+            "onlyIf": "(lt= level 8)"
+          },
+          {
+            "text": "§7§8+§a10% chance §7for §bGlacite Mineshafts §7to spawn.",
+            "onlyIf": "(lt= level 9)"
+          },
+          {
+            "text": "§8+§52 Token of the Mountain",
+            "onlyIf": "(lt= level 10)"
           }
         ]
       },
@@ -284,6 +360,24 @@
         "lore": [
           "§7Mining Mithril Ore near §5Fallen",
           "§5Crystals §7gives §ax3 §7Mithril Powder§7."
+        ]
+      },
+      "vein_seeker": {
+        "name": "Vein Seeker",
+        "x": 0,
+        "y": 4,
+        "maxLevel": 1,
+        "powder": "GEMSTONE",
+        "item": "(api level0)",
+        "cost": "",
+        "chance": "",
+        "lore": [
+          "",
+          "§6Pickaxe Ability: Vein Seeker",
+          "§7Points in the direction of the",
+          "§7nearest vein and grants §a+§a3 §6Mining",
+          "§6Spread §7for §a14s§7.",
+          "§8Cooldown: §a60s"
         ]
       },
       "lonesome_miner": {
@@ -360,6 +454,24 @@
           "§7chests while mining in the §5Crystal",
           "§5Hollows §7by §a+§a{statChance}% §7and reduces the",
           "§7amount of locks on the chests by §a{statLocks}§7."
+        ]
+      },
+      "maniac_miner": {
+        "name": "Maniac Miner",
+        "x": 6,
+        "y": 4,
+        "maxLevel": 1,
+        "powder": "GEMSTONE",
+        "item": "(api level0)",
+        "cost": "",
+        "chance": "",
+        "lore": [
+          "",
+          "§6Pickaxe Ability: Maniac Miner",
+          "§7Spends all your Mana and grants §a+1",
+          "§a§6⸕ Mining Speed §7for every §b10 Mana",
+          "§b§7spent, for §a§a15s§7.",
+          "§8Cooldown: §a59s"
         ]
       },
       "mining_speed_2": {
@@ -552,6 +664,24 @@
           "§7inside the §bGlacite Mineshafts§7."
         ]
       },
+      "gemstone_infusion": {
+        "name": "Gemstone Infusion",
+        "x": 0,
+        "y": 0,
+        "maxLevel": 1,
+        "powder": "GLACITE",
+        "item": "(api level0)",
+        "cost": "",
+        "chance": "",
+        "lore": [
+          "",
+          "§6Pickaxe Ability: Gemstone Infusion",
+          "§7Increases the effectiveness of",
+          "§7§6every Gemstone §7in your pick's",
+          "§7Gemstone Slots by §a50% §7for §a16s§7.",
+          "§8Cooldown: §a140s"
+        ]
+      },
       "gifts_from_the_departed": {
         "name": "Gifts from the Departed",
         "x": 1,
@@ -621,6 +751,23 @@
         "lore": [
           "§7Grants §a+§a{stat} §6☘ Mining Fortune §7while",
           "§7inside a §bGlacite Mineshaft§7."
+        ]
+      },
+      "hazardous_miner": {
+        "name": "Hazardous Miner",
+        "x": 6,
+        "y": 0,
+        "maxLevel": 1,
+        "powder": "GLACITE",
+        "item": "(api level0)",
+        "cost": "",
+        "chance": "",
+        "lore": [
+          "",
+          "§6Pickaxe Ability: Hazardous Miner",
+          "§7Grants §a+40 §6⸕ Mining Speed §7for §a16.5s§7",
+          "§7for each enemy within §a20 §7blocks.",
+          "§8Cooldown: §a140s"
         ]
       }
     }
