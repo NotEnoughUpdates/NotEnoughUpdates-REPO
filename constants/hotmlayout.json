@@ -3,7 +3,9 @@
     "(defun min (l r) (if (lt l r) l r))",
     "(defun max (l r) (if (lt l r) r l))",
     "(defun round-decimals (number places) (/ (round (* number (pow 10 places))) (pow 10 places)))",
-    "(defun id (x) (if true x x))"
+    "(defun id (x) (if true x x))",
+    "(defun npi (level0 maxLevel) (if (= level0 0) :COAL (if (= level0 maxLevel) :DIAMOND :EMERALD)))",
+    "(defun api (level0) (if (= level0 0) :COAL_BLOCK :EMERALD_BLOCK))"
   ],
   "hotm": {
     "powders": {
@@ -20,10 +22,11 @@
     "perks": {
       "miningSpeed ": {
         "name": "Mining Speed",
-        "x": 4,
-        "y": 10,
+        "x": 3,
+        "y": 9,
         "maxLevel": 50,
         "powder": "MITHRIL",
+        "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 3)",
         "stat": "(* level 20)",
         "lore": [
@@ -32,10 +35,11 @@
       },
       "miningFortune": {
         "name": "Mining Fortune",
-        "x": 4,
-        "y": 9,
+        "x": 3,
+        "y": 8,
         "maxLevel": 50,
         "powder": "MITHRIL",
+        "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 3.05)",
         "stat": "(* level 5)",
         "lore": [
@@ -44,10 +48,11 @@
       },
       "titanium_insanium": {
         "name": "Titanium Insanium",
-        "x": 3,
-        "y": 9,
+        "x": 2,
+        "y": 8,
         "maxLevel": 50,
         "powder": "MITHRIL",
+        "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 3.1)",
         "chance": "(round-decimals (+ 2 (* level 0.1)) 1)",
         "lore": [
@@ -58,10 +63,11 @@
       },
       "forge_time": {
         "name": "Quick Forge",
-        "x": 5,
-        "y": 9,
+        "x": 4,
+        "y": 8,
         "maxLevel": 20,
         "powder": "MITHRIL",
+        "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 4)",
         "decrease": "(if (lt level 20) (+ 10 (* level 0.5)) 30)",
         "lore": [
@@ -71,10 +77,11 @@
       },
       "random_event": {
         "name": "Luck of the Cave",
-        "x": 2,
-        "y": 8,
+        "x": 1,
+        "y": 7,
         "maxLevel": 45,
         "powder": "MITHRIL",
+        "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 3.07)",
         "stat": "(+ level 5)",
         "lore": [
@@ -90,10 +97,11 @@
       },
       "daily_powder": {
         "name": "Daily Powder",
-        "x": 4,
-        "y": 8,
+        "x": 3,
+        "y": 7,
         "maxLevel": 100,
         "powder": "MITHRIL",
+        "item": "(npi level0 maxLevel)",
         "cost": "(+ 200 (* level 18))",
         "stat": "(+ 364 (* level 36))",
         "lore": [
@@ -104,10 +112,11 @@
       },
       "fallen_star_bonus": {
         "name": "Crystallized",
-        "x": 6,
-        "y": 8,
+        "x": 5,
+        "y": 7,
         "maxLevel": 30,
         "powder": "MITHRIL",
+        "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 3.4)",
         "stat": "(+ 20 (* 6 (- level 1)))",
         "lore": [
@@ -117,10 +126,11 @@
       },
       "daily_effect": {
         "name": "Sky Mall",
-        "x": 1,
-        "y": 7,
+        "x": 0,
+        "y": 6,
         "maxLevel": 1,
         "powder": "MITHRIL",
+        "item": "(npi level0 maxLevel)",
         "cost": "0",
         "lore": [
           "§7Every SkyBlock day, you receive a",
@@ -142,10 +152,11 @@
       },
       "mining_madness": {
         "name": "Mining Madness",
-        "x": 2,
-        "y": 7,
+        "x": 1,
+        "y": 6,
         "maxLevel": 1,
         "powder": "MITHRIL",
+        "item": "(npi level0 maxLevel)",
         "cost": "0",
         "lore": [
           "§7Grants §a+50 §6⸕ Mining Speed §7and §6☘",
@@ -154,10 +165,11 @@
       },
       "mining_experience": {
         "name": "Seasoned Mineman",
-        "x": 3,
-        "y": 7,
+        "x": 2,
+        "y": 6,
         "maxLevel": 100,
         "powder": "MITHRIL",
+        "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 2.3)",
         "stat": "(round-decimals (+ 5 (* level 0.1)) 1)",
         "lore": [
@@ -166,10 +178,11 @@
       },
       "efficient_miner": {
         "name": "Efficient Miner",
-        "x": 4,
-        "y": 7,
+        "x": 3,
+        "y": 6,
         "maxLevel": 100,
         "powder": "MITHRIL",
+        "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 2.6)",
         "statChance": "(round-decimals (+ 10.4 (* level 0.4)) 1)",
         "statBlocks": "(round (max (+ 0.31 (* level 0.06)) 1))",
@@ -180,10 +193,11 @@
       },
       "experience_orbs": {
         "name": "Orbiter",
-        "x": 5,
-        "y": 7,
+        "x": 4,
+        "y": 6,
         "maxLevel": 80,
         "powder": "MITHRIL",
+        "item": "(npi level0 maxLevel)",
         "cost": "(* (+ level 1) 70)",
         "stat": "(round-decimals (+ (* level 0.01) 0.21) 2)",
         "lore": [
@@ -194,10 +208,11 @@
       },
       "front_loaded": {
         "name": "Front Loaded",
-        "x": 6,
-        "y": 7,
+        "x": 5,
+        "y": 6,
         "maxLevel": 1,
         "powder": "MITHRIL",
+        "item": "(npi level0 maxLevel)",
         "cost": "0",
         "lore": [
           "§7Grants §a+100 §6⸕ Mining Speed §7and §6☘",
@@ -208,10 +223,11 @@
       },
       "precision_mining": {
         "name": "Precision Mining",
-        "x": 7,
-        "y": 7,
+        "x": 6,
+        "y": 6,
         "maxLevel": 1,
         "powder": "MITHRIL",
+        "item": "(npi level0 maxLevel)",
         "cost": "0",
         "lore": [
           {
@@ -229,8 +245,8 @@
       },
       "special_0": {
         "name": "Peak of the Mountain",
-        "x": 4,
-        "y": 6,
+        "x": 3,
+        "y": 5,
         "maxLevel": 10,
         "powder": "(if (lt level 6) MITHRIL (if (lt level 8) GEMSTONE GLACITE))",
         "cost": "0",
@@ -244,10 +260,11 @@
       },
       "goblin_killer": {
         "name": "Goblin Killer",
-        "x": 2,
-        "y": 6,
+        "x": 1,
+        "y": 5,
         "maxLevel": 1,
         "powder": "MITHRIL",
+        "item": "(npi level0 maxLevel)",
         "cost": "0",
         "lore": [
           "§7Killing a §6Golden Goblin §7or §bDiamond",
@@ -258,10 +275,11 @@
       },
       "star_powder": {
         "name": "Star Powder",
-        "x": 6,
-        "y": 6,
+        "x": 5,
+        "y": 5,
         "maxLevel": 1,
         "powder": "MITHRIL",
+        "item": "(npi level0 maxLevel)",
         "cost": "0",
         "lore": [
           "§7Mining Mithril Ore near §5Fallen",
@@ -270,10 +288,11 @@
       },
       "lonesome_miner": {
         "name": "Lonesome Miner",
-        "x": 2,
-        "y": 5,
+        "x": 1,
+        "y": 4,
         "maxLevel": 45,
         "powder": "GEMSTONE",
+        "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 3.07)",
         "stat": "(+ (* level 0.5) 4.5)",
         "lore": [
@@ -286,10 +305,11 @@
       },
       "professional": {
         "name": "Professional",
-        "x": 3,
-        "y": 5,
+        "x": 2,
+        "y": 4,
         "maxLevel": 140,
         "powder": "GEMSTONE",
+        "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 2.3)",
         "stat": "(+ (* level 5) 50)",
         "lore": [
@@ -299,10 +319,11 @@
       },
       "mole": {
         "name": "Mole",
-        "x": 4,
-        "y": 5,
+        "x": 3,
+        "y": 4,
         "maxLevel": 190,
         "powder": "GEMSTONE",
+        "item": "(npi level0 maxLevel)",
         "cost": "",
         "lore": [
           "§7When mining Hard Stone, you have a",
@@ -312,10 +333,11 @@
       },
       "fortunate": {
         "name": "Fortunate",
-        "x": 5,
-        "y": 5,
+        "x": 4,
+        "y": 4,
         "maxLevel": 20,
         "powder": "GEMSTONE",
+        "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 3.05)",
         "stat": "(+ (* level 4) 20)",
         "lore": [
@@ -325,10 +347,11 @@
       },
       "great_explorer": {
         "name": "Great Explorer",
-        "x": 6,
-        "y": 5,
+        "x": 5,
+        "y": 4,
         "maxLevel": 20,
         "powder": "GEMSTONE",
+        "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 4)",
         "statChance": "(+ (* level 4) 16)",
         "statLocks": "(+ (/ level 5) 1)",
@@ -341,10 +364,11 @@
       },
       "mining_speed_2": {
         "name": "Mining Speed II",
-        "x": 2,
-        "y": 4,
+        "x": 1,
+        "y": 3,
         "maxLevel": 50,
         "powder": "GEMSTONE",
+        "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 3.2)",
         "stat": "(* level 40)",
         "lore": [
@@ -353,10 +377,11 @@
       },
       "powder_buff": {
         "name": "Powder Buff",
-        "x": 4,
-        "y": 4,
+        "x": 3,
+        "y": 3,
         "maxLevel": 50,
         "powder": "GEMSTONE",
+        "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 3.2)",
         "stat": "(id level)",
         "lore": [
@@ -366,10 +391,11 @@
       },
       "mining_fortune_2": {
         "name": "Mining Fortune II",
-        "x": 6,
-        "y": 4,
+        "x": 5,
+        "y": 3,
         "maxLevel": 50,
         "powder": "GEMSTONE",
+        "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 3.2)",
         "stat": "(* level 5)",
         "lore": [
@@ -378,10 +404,11 @@
       },
       "keen_eye": {
         "name": "Keen Eye",
-        "x": 1,
-        "y": 3,
+        "x": 0,
+        "y": 2,
         "maxLevel": 1,
         "powder": "GLACITE",
+        "item": "(npi level0 maxLevel)",
         "cost": "0",
         "lore": [
           "§7Whenever you enter a §bGlacite",
@@ -391,10 +418,11 @@
       },
       "warm_hearted": {
         "name": "Warm Hearted",
-        "x": 2,
-        "y": 3,
+        "x": 1,
+        "y": 2,
         "maxLevel": 50,
         "powder": "GLACITE",
+        "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 3.1)",
         "stat": "(* level 0.2)",
         "lore": [
@@ -403,10 +431,11 @@
       },
       "dust_collector": {
         "name": "Dust Collector",
-        "x": 3,
-        "y": 3,
+        "x": 2,
+        "y": 2,
         "maxLevel": 20,
         "powder": "GLACITE",
+        "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 1) 4)",
         "stat": "(* level 1)",
         "lore": [
@@ -416,10 +445,11 @@
       },
       "daily_grind": {
         "name": "Daily Grind",
-        "x": 4,
-        "y": 3,
+        "x": 3,
+        "y": 2,
         "maxLevel": 100,
         "powder": "GLACITE",
+        "item": "(npi level0 maxLevel)",
         "cost": "0",
         "lore": [
           "§7§7Your first daily commission in each",
@@ -432,10 +462,11 @@
       },
       "strong_arm": {
         "name": "Strong Arm",
-        "x": 5,
-        "y": 3,
+        "x": 4,
+        "y": 2,
         "maxLevel": 100,
         "powder": "GLACITE",
+        "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 2.3)",
         "stat": "(* level 5)",
         "lore": [
@@ -445,10 +476,11 @@
       },
       "no_stone_unturned": {
         "name": "No Stone Unturned",
-        "x": 6,
-        "y": 3,
+        "x": 5,
+        "y": 2,
         "maxLevel": 50,
         "powder": "GLACITE",
+        "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 3.05)",
         "stat": "(* level 0.5)",
         "lore": [
@@ -459,10 +491,11 @@
       },
       "mineshaft_mayhem": {
         "name": "Mineshaft Mayhem",
-        "x": 7,
-        "y": 3,
+        "x": 6,
+        "y": 2,
         "maxLevel": 1,
         "powder": "GLACITE",
+        "item": "(npi level0 maxLevel)",
         "cost": "0",
         "lore": [
           "§7Every time you enter a §bGlacite",
@@ -478,10 +511,11 @@
       },
       "surveyor": {
         "name": "Surveyor",
-        "x": 2,
-        "y": 2,
+        "x": 1,
+        "y": 1,
         "maxLevel": 20,
         "powder": "GLACITE",
+        "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 4)",
         "stat": "(* level 0.75)",
         "lore": [
@@ -492,10 +526,11 @@
       },
       "subzero_mining": {
         "name": "SubZero Mining",
-        "x": 4,
-        "y": 2,
+        "x": 3,
+        "y": 1,
         "maxLevel": 100,
         "powder": "GLACITE",
+        "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 2.3)",
         "stat": "(* level 1)",
         "lore": [
@@ -505,10 +540,11 @@
       },
       "eager_adventurer": {
         "name": "Eager Adventurer",
-        "x": 6,
-        "y": 2,
+        "x": 5,
+        "y": 1,
         "maxLevel": 100,
         "powder": "GLACITE",
+        "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 2.3)",
         "stat": "(* level 2)",
         "lore": [
@@ -518,10 +554,11 @@
       },
       "gifts_from_the_departed": {
         "name": "Gifts from the Departed",
-        "x": 2,
-        "y": 1,
+        "x": 1,
+        "y": 0,
         "maxLevel": 100,
         "powder": "GLACITE",
+        "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 2.45)",
         "stat": "(* level 0.2)",
         "lore": [
@@ -531,10 +568,11 @@
       },
       "frozen_solid": {
         "name": "Frozen Solid",
-        "x": 3,
-        "y": 1,
+        "x": 2,
+        "y": 0,
         "maxLevel": 1,
         "powder": "GLACITE",
+        "item": "(npi level0 maxLevel)",
         "cost": "0",
         "lore": [
           "§7Gain §a2x §bGlacite Powder §7from killing",
@@ -544,10 +582,11 @@
       },
       "hungry_for_more": {
         "name": "Dead Man's Chest",
-        "x": 4,
-        "y": 1,
+        "x": 3,
+        "y": 0,
         "maxLevel": 50,
         "powder": "GLACITE",
+        "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 3.2)",
         "stat": "(* level 1)",
         "lore": [
@@ -558,10 +597,11 @@
       },
       "excavator": {
         "name": "Excavator",
-        "x": 5,
-        "y": 1,
+        "x": 4,
+        "y": 0,
         "maxLevel": 50,
         "powder": "GLACITE",
+        "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 3)",
         "stat": "(* level 0.2)",
         "lore": [
@@ -571,10 +611,11 @@
       },
       "rags_of_riches": {
         "name": "Rags to Riches",
-        "x": 6,
-        "y": 1,
+        "x": 5,
+        "y": 0,
         "maxLevel": 50,
         "powder": "GLACITE",
+        "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 3.05)",
         "stat": "(* level 2)",
         "lore": [
