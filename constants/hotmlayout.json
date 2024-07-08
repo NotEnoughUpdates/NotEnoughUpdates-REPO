@@ -54,10 +54,10 @@
         "powder": "MITHRIL",
         "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 3.1)",
-        "chance": "(round-decimals (+ 2 (* level 0.1)) 1)",
+        "stat": "(round-decimals (+ 2 (* level 0.1)) 1)",
         "lore": [
           "§7When mining Mithril Ore, you have a",
-          "§7§a{chance}% §7chance to convert the block into",
+          "§7§a{stat}% §7chance to convert the block into",
           "§7Titanium Ore."
         ]
       },
@@ -69,12 +69,13 @@
         "powder": "MITHRIL",
         "item": "(api level0)",
         "cost": "",
-        "chance": "",
+        "statBoost": "(if (lt potm 2) \"200\" \"300\")",
+        "statDuration": "(if (lt potm 2) \"15\" \"20\")",
         "lore": [
           "",
           "§6Pickaxe Ability: Mining Speed Boost",
-          "§7Grants §a+§a300% §6⸕ Mining Speed §7for",
-          "§7§a20s§7.",
+          "§7Grants §a+§a{statBoost}% §6⸕ Mining Speed §7for",
+          "§7§a{statDuration}s§7.",
           "§8Cooldown: §a120s"
         ]
       },
@@ -100,14 +101,14 @@
         "powder": "MITHRIL",
         "item": "(api level0)",
         "cost": "",
-        "chance": "",
+        "stat": "(if (lt potm 2) \"120\" \"110\")",
         "lore": [
           "",
           "§6Pickaxe Ability: Pickobulus",
           "§7Throw your pickaxe to create an",
           "§7explosion on impact, mining all ores",
           "§7within a §a2 §7block radius.",
-          "§8Cooldown: §a110s"
+          "§8Cooldown: §a{stat}s"
         ]
       },
       "random_event": {
@@ -370,13 +371,14 @@
         "powder": "GEMSTONE",
         "item": "(api level0)",
         "cost": "",
-        "chance": "",
+        "statSpread": "(if (lt potm 2) \"2\" \"3\")",
+        "statDuration": "(if (lt potm 2) \"12\" \"14\")",
         "lore": [
           "",
           "§6Pickaxe Ability: Vein Seeker",
           "§7Points in the direction of the",
-          "§7nearest vein and grants §a+§a3 §6Mining",
-          "§6Spread §7for §a14s§7.",
+          "§7nearest vein and grants §a+§a{statSpread} §6Mining",
+          "§6Spread §7for §a{statDuration}s§7.",
           "§8Cooldown: §a60s"
         ]
       },
@@ -419,9 +421,11 @@
         "powder": "GEMSTONE",
         "item": "(npi level0 maxLevel)",
         "cost": "",
+        "statChance": "(+ 50 (* 5 (- level 1)))",
+        "statBlocks": "",
         "lore": [
           "§7When mining Hard Stone, you have a",
-          "§7§a95% §7chance to mine §a10 §7adjacent",
+          "§7§a{statChance}% §7chance to mine §a10 §7adjacent",
           "§7Hard Stone blocks."
         ]
       },
@@ -448,7 +452,7 @@
         "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 4)",
         "statChance": "(+ (* level 4) 16)",
-        "statLocks": "(+ (/ level 5) 1)",
+        "statLocks": "(round (+ (/ level 5) 1))",
         "lore": [
           "§7Boosts the chance to find treasure",
           "§7chests while mining in the §5Crystal",
@@ -464,14 +468,15 @@
         "powder": "GEMSTONE",
         "item": "(api level0)",
         "cost": "",
-        "chance": "",
+        "statDuration": "(if (lt potm 2) \"10\" \"15\")",
+        "statCooldown": "(if (lt potm 2) \"60\" \"59\")",
         "lore": [
           "",
           "§6Pickaxe Ability: Maniac Miner",
           "§7Spends all your Mana and grants §a+1",
           "§a§6⸕ Mining Speed §7for every §b10 Mana",
-          "§b§7spent, for §a§a15s§7.",
-          "§8Cooldown: §a59s"
+          "§b§7spent, for §a§a{statDuration}s§7.",
+          "§8Cooldown: §a{statCooldown}s"
         ]
       },
       "mining_speed_2": {
@@ -562,14 +567,15 @@
         "maxLevel": 100,
         "powder": "GLACITE",
         "item": "(npi level0 maxLevel)",
-        "cost": "0",
+        "cost": "(+ 200 (* (+ level 1) 18))",
+        "stat": "(* level 50)",
         "lore": [
           "§7§7Your first daily commission in each",
           "§7Mining Zone grants bonus powder:",
           "",
-          "§2Dwarven Mines§7: §a+§a5,000 §2Mithril Powder",
-          "§5Crystal Hollows§7: §a+§a5,000 §dGemstone Powder",
-          "§bGlacite Tunnels§7: §a+§a5,000 §bGlacite Powder"
+          "§2Dwarven Mines§7: §a+§a{stat} §2Mithril Powder",
+          "§5Crystal Hollows§7: §a+§a{stat} §dGemstone Powder",
+          "§bGlacite Tunnels§7: §a+§a{stat} §bGlacite Powder"
         ]
       },
       "strong_arm": {
@@ -672,13 +678,14 @@
         "powder": "GLACITE",
         "item": "(api level0)",
         "cost": "",
-        "chance": "",
+        "statBoost": "(if (lt potm 2) \"25\" \"50\")",
+        "statDuration": "(if (lt potm 2) \"14\" \"16\")",
         "lore": [
           "",
           "§6Pickaxe Ability: Gemstone Infusion",
           "§7Increases the effectiveness of",
           "§7§6every Gemstone §7in your pick's",
-          "§7Gemstone Slots by §a50% §7for §a16s§7.",
+          "§7Gemstone Slots by §a{statBoost}% §7for §a{statDuration}s§7.",
           "§8Cooldown: §a140s"
         ]
       },
@@ -761,11 +768,12 @@
         "powder": "GLACITE",
         "item": "(api level0)",
         "cost": "",
-        "chance": "",
+        "statBoost": "(if (lt potm 2) \"30\" \"40\")",
+        "statDuration": "(if (lt potm 2) \"14\" \"16.5\")",
         "lore": [
           "",
           "§6Pickaxe Ability: Hazardous Miner",
-          "§7Grants §a+40 §6⸕ Mining Speed §7for §a16.5s§7",
+          "§7Grants §a+{statBoost} §6⸕ Mining Speed §7for §a{statDuration}s§7",
           "§7for each enemy within §a20 §7blocks.",
           "§8Cooldown: §a140s"
         ]
