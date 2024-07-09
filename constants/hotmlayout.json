@@ -266,14 +266,7 @@
         "item": "(npi level0 maxLevel)",
         "cost": "0",
         "lore": [
-          {
-            "text": "§7When mining ore, a particle target",
-            "onlyIf": "(lt level 10)"
-          },
-          {
-            "text": "§7When mining ore, a particle target",
-            "onlyIf": "(lt level 10)"
-          },
+          "§7When mining ore, a particle target",
           "§7appears on the block that increases",
           "§7your §6⸕ Mining Speed §7by §a30% §7when",
           "§7aiming at it."
@@ -286,52 +279,47 @@
         "maxLevel": 10,
         "powder": "(if (lt level 6) MITHRIL (if (lt level 8) GEMSTONE GLACITE))",
         "item": ":REDSTONE_BLOCK",
-        "cost": "0",
+        "cost": "(list.at (list.new 0 50000 75000 100000 125000 500000 750000 1000000 1250000 1500000 0) level)",
         "lore": [
-          "Das hier ist immer da",
-          {
-            "onlyIf": "(lt level 6)",
-            "text": "Das hier ist nur am anfang da"
-          },
           {
             "text": "§7§8+§c1 Pickaxe Ability Level",
-            "onlyIf": "(lt= level 2)"
+            "onlyIf": "(gt level 0)"
           },
           {
             "text": "§7§8+§a1 Forge Slot",
-            "onlyIf": "(lt= level 3)"
+            "onlyIf": "(gt level 1)"
           },
           {
             "text": "§7§8+§a1 Commission Slot",
-            "onlyIf": "(lt= level 3)"
+            "onlyIf": "(gt level 2)"
           },
           {
             "text": "§7§8+§21 Base Mithril Powder §7when mining §2Mithril§7.",
-            "onlyIf": "(lt= level 4)"
+            "onlyIf": "(gt level 3)"
           },
           {
             "text": "§8+§51 Token of the Mountain",
-            "onlyIf": "(lt= level 5)"
+            "onlyIf": "(gt level 4)"
           },
           {
             "text": "§7§8+§d2 Base Gemstone Powder §7when mining §dGemstones§7.",
-            "onlyIf": "(lt= level 6)"
+            "onlyIf": "(gt level 5)"
           },
           {
             "text": "§8+§51 Token of the Mountain",
-            "onlyIf": "(lt= level 7)"
+            "onlyIf": "(gt level 6)"
           },
           {
             "text": "§7§8+§b3 Base Glacite Powder §7when mining §bGlacite§7.",
-            "onlyIf": "(lt= level 8)"
+            "onlyIf": "(gt level 7)"
           },
           {
             "text": "§7§8+§a10% chance §7for §bGlacite Mineshafts §7to spawn.",
-            "onlyIf": "(lt= level 9)"
+            "onlyIf": "(gt level 8)"
           },
           {
             "text": "§8+§52 Token of the Mountain",
-            "onlyIf": "(lt= level 10)"
+            "onlyIf": "(gt level 9)"
           }
         ]
       },
@@ -420,12 +408,12 @@
         "maxLevel": 190,
         "powder": "GEMSTONE",
         "item": "(npi level0 maxLevel)",
-        "cost": "",
-        "statChance": "(+ 50 (* 5 (- level 1)))",
-        "statBlocks": "",
+        "cost": "(pow (+ level 2) 2.2)",
+        "statChance": "(* 100 (- (+ 0.45 (* 0.05 level)) (floor (+ 0.45 (* 0.05 level)))))",
+        "statBlocks": "(+ (floor (+ 0.45 (* 0.05 level))) 1)",
         "lore": [
           "§7When mining Hard Stone, you have a",
-          "§7§a{statChance}% §7chance to mine §a10 §7adjacent",
+          "§7§a{statChance}% §7chance to mine §a{statBlocks} §7adjacent",
           "§7Hard Stone blocks."
         ]
       },
