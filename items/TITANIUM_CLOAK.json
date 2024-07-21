@@ -1,0 +1,43 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Titanium Cloak",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"0c3ebf33-7819-3225-8fb9-9dc8b1cec97a\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwODM1NTc5ODUyOCwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ5ODIxNDEwNjMxMTg2YzZmM2ZiYmFlNWYwZWY1Yjk0N2Y0NzVlYjMyMDI3YThhYWQwYTQ1NjUxMjU0N2MyMDkiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Mining Speed: §a+30\",1:\"§7Mining Fortune: §a+10\",2:\"\",3:\"§7Grants §6+10☘ Mining Fortune §7while\",4:\"§7mining §2Mithril §7and §fTitanium§7.\",5:\"§7\",6:\"§6Full Set Bonus: True Dwarf §7(0/4)\",7:\"§7Grants §6+50⸕ Mining Speed §7and §6+40☘\",8:\"§6Mining Fortune §7while in the §2Dwarven\",9:\"§2Mines§7.\",10:\"\",11:\"§7§8This item can be reforged!\",12:\"§9§lRARE CLOAK\"],Name:\"§9Titanium Cloak\"},ExtraAttributes:{id:\"TITANIUM_CLOAK\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Mining Speed: §a+30",
+    "§7Mining Fortune: §a+10",
+    "",
+    "§7Grants §6+10☘ Mining Fortune §7while",
+    "§7mining §2Mithril §7and §fTitanium§7.",
+    "§7",
+    "§6Full Set Bonus: True Dwarf §7(0/4)",
+    "§7Grants §6+50⸕ Mining Speed §7and §6+40☘",
+    "§6Mining Fortune §7while in the §2Dwarven",
+    "§2Mines§7.",
+    "",
+    "§7§8This item can be reforged!",
+    "§9§lRARE CLOAK"
+  ],
+  "internalname": "TITANIUM_CLOAK",
+  "crafttext": "Requires: HotM 5",
+  "clickcommand": "viewrecipe",
+  "modver": "2.3.0",
+  "infoType": "WIKI_URL",
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "MITHRIL_CLOAK:1.0",
+        "REFINED_TITANIUM:1.0",
+        "REFINED_MINERAL:16.0"
+      ],
+      "count": 1.0,
+      "overrideOutputId": "TITANIUM_CLOAK",
+      "duration": 16200
+    }
+  ],
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Titanium_Cloak",
+    "https://wiki.hypixel.net/Titanium_Cloak"
+  ]
+}

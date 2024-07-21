@@ -1,9 +1,11 @@
 {
   "itemid": "minecraft:packed_ice",
   "displayname": "§fPacked Ice",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fPacked Ice\"},ExtraAttributes:{id:\"PACKED_ICE\"}}",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§f§lCOMMON\"],Name:\"§fPacked Ice\"},ExtraAttributes:{id:\"PACKED_ICE\"}}",
   "damage": 0,
   "lore": [
+    "§7§8Collection Item",
+    "",
     "§f§lCOMMON"
   ],
   "recipe": {
@@ -19,7 +21,8 @@
   },
   "internalname": "PACKED_ICE",
   "clickcommand": "viewrecipe",
-  "modver": "1.7.1-REL",
+  "modver": "2.2.2",
   "vanilla": true,
-  "crafttext": "Requires: Ice III"
+  "crafttext": "Requires: Ice III",
+  "infoType": ""
 }
