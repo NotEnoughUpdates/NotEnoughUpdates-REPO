@@ -1,0 +1,768 @@
+{
+  "prelude": [
+    "(defun min (l r) (if (lt l r) l r))",
+    "(defun max (l r) (if (lt l r) r l))",
+    "(defun round-decimals (number places) (/ (round (* number (pow 10 places))) (pow 10 places)))",
+    "(defun id (x) (if true x x))",
+    "(defun npi (level0 maxLevel) (if (= level0 0) :COAL (if (= level0 maxLevel) :DIAMOND :EMERALD)))",
+    "(defun api (level0) (if (= level0 0) :COAL_BLOCK :EMERALD_BLOCK))"
+  ],
+  "hotm": {
+    "powders": {
+      "GLACITE": {
+        "costLine": "§7Cost: §b{cost} Glacite Powder"
+      },
+      "GEMSTONE": {
+        "costLine": "§7Cost: §d{cost} Gemstone Powder"
+      },
+      "MITHRIL": {
+        "costLine": "§7Cost: §2{cost} Mithril Powder"
+      }
+    },
+    "perks": {
+      "mining_speed": {
+        "name": "Mining Speed",
+        "x": 3,
+        "y": 9,
+        "maxLevel": 50,
+        "powder": "MITHRIL",
+        "item": "(npi level0 maxLevel)",
+        "cost": "(pow (+ level 2) 3)",
+        "stat": "(* level 20)",
+        "lore": [
+          "§7Grants §a+§a{stat} §6⸕ Mining Speed§7."
+        ]
+      },
+      "mining_fortune": {
+        "name": "Mining Fortune",
+        "x": 3,
+        "y": 8,
+        "maxLevel": 50,
+        "powder": "MITHRIL",
+        "item": "(npi level0 maxLevel)",
+        "cost": "(pow (+ level 2) 3.05)",
+        "stat": "(* level 5)",
+        "lore": [
+          "§7Grants §a+§a{stat} §6☘ Mining Fortune§7."
+        ]
+      },
+      "titanium_insanium": {
+        "name": "Titanium Insanium",
+        "x": 2,
+        "y": 8,
+        "maxLevel": 50,
+        "powder": "MITHRIL",
+        "item": "(npi level0 maxLevel)",
+        "cost": "(pow (+ level 2) 3.1)",
+        "stat": "(round-decimals (+ 2 (* level 0.1)) 1)",
+        "lore": [
+          "§7When mining Mithril Ore, you have a",
+          "§7§a{stat}% §7chance to convert the block into",
+          "§7Titanium Ore."
+        ]
+      },
+      "mining_speed_boost": {
+        "name": "Mining Speed Boost",
+        "x": 1,
+        "y": 8,
+        "maxLevel": 1,
+        "powder": "MITHRIL",
+        "item": "(api level0)",
+        "cost": "",
+        "statBoost": "(if (lt potm 2) \"200\" \"300\")",
+        "statDuration": "(if (lt potm 2) \"15\" \"20\")",
+        "lore": [
+          "",
+          "§6Pickaxe Ability: Mining Speed Boost",
+          "§7Grants §a+§a{statBoost}% §6⸕ Mining Speed §7for",
+          "§7§a{statDuration}s§7.",
+          "§8Cooldown: §a120s"
+        ]
+      },
+      "forge_time": {
+        "name": "Quick Forge",
+        "x": 4,
+        "y": 8,
+        "maxLevel": 20,
+        "powder": "MITHRIL",
+        "item": "(npi level0 maxLevel)",
+        "cost": "(pow (+ level 2) 4)",
+        "decrease": "(if (lt level 20) (+ 10 (* level 0.5)) 30)",
+        "lore": [
+          "§7Decreases the time it takes to forge",
+          "§7by §a{decrease}%§7."
+        ]
+      },
+      "pickobulus": {
+        "name": "Pickobulus",
+        "x": 5,
+        "y": 8,
+        "maxLevel": 1,
+        "powder": "MITHRIL",
+        "item": "(api level0)",
+        "cost": "",
+        "stat": "(if (lt potm 2) \"120\" \"110\")",
+        "lore": [
+          "",
+          "§6Pickaxe Ability: Pickobulus",
+          "§7Throw your pickaxe to create an",
+          "§7explosion on impact, mining all ores",
+          "§7within a §a2 §7block radius.",
+          "§8Cooldown: §a{stat}s"
+        ]
+      },
+      "random_event": {
+        "name": "Luck of the Cave",
+        "x": 1,
+        "y": 7,
+        "maxLevel": 45,
+        "powder": "MITHRIL",
+        "item": "(npi level0 maxLevel)",
+        "cost": "(pow (+ level 2) 3.07)",
+        "stat": "(+ level 5)",
+        "lore": [
+          "§7Increases the chance for you to",
+          "§7trigger rare occurrences in the",
+          "§7§2Dwarven Mines §7by §a{stat}%§7.",
+          "",
+          "§7Rare occurrences include:",
+          "§7 • §6Golden Goblins",
+          "§7 • §5Fallen Stars",
+          "§7 • §6Powder Ghasts"
+        ]
+      },
+      "daily_powder": {
+        "name": "Daily Powder",
+        "x": 3,
+        "y": 7,
+        "maxLevel": 100,
+        "powder": "MITHRIL",
+        "item": "(npi level0 maxLevel)",
+        "cost": "(+ 200 (* level 18))",
+        "stat": "(+ 364 (* level 36))",
+        "lore": [
+          "§7Gain §a+§a{stat} §abase Powder §7from the",
+          "§7first ore you mine every day. Works",
+          "§7for all Powder types."
+        ]
+      },
+      "fallen_star_bonus": {
+        "name": "Crystallized",
+        "x": 5,
+        "y": 7,
+        "maxLevel": 30,
+        "powder": "MITHRIL",
+        "item": "(npi level0 maxLevel)",
+        "cost": "(pow (+ level 2) 3.4)",
+        "stat": "(+ 20 (* 6 (- level 1)))",
+        "lore": [
+          "§7Grants §a+§a{stat} §6⸕ Mining Speed §7and §a+§a{stat}",
+          "§a§6☘ Mining Fortune §7near §5Fallen Stars§7."
+        ]
+      },
+      "daily_effect": {
+        "name": "Sky Mall",
+        "x": 0,
+        "y": 6,
+        "maxLevel": 1,
+        "powder": "MITHRIL",
+        "item": "(npi level0 maxLevel)",
+        "cost": "0",
+        "lore": [
+          "§7Every SkyBlock day, you receive a",
+          "§7random buff in the §2Dwarven Mines§7.",
+          "",
+          "§7Possible Buffs",
+          "§8 ■ §7Gain §a+100 §6⸕ Mining Speed§7.",
+          "§8 ■ §7Gain §a+50 §6☘ Mining Fortune§7.",
+          "§8 ■ §7Gain §a+15% §7more Powder while mining.",
+          "§8 ■ §7Reduce Pickaxe Ability cooldown by",
+          "    §7§a20%§7.",
+          "§8 ■ §7§a10x §7chance to find Golden and",
+          "    §7Diamond Goblins.",
+          "§8 ■ §7Gain §a5x §9Titanium §7drops."
+        ]
+      },
+      "mining_madness": {
+        "name": "Mining Madness",
+        "x": 1,
+        "y": 6,
+        "maxLevel": 1,
+        "powder": "MITHRIL",
+        "item": "(npi level0 maxLevel)",
+        "cost": "0",
+        "lore": [
+          "§7Grants §a+50 §6⸕ Mining Speed §7and §6☘",
+          "§6Mining Fortune§7."
+        ]
+      },
+      "mining_experience": {
+        "name": "Seasoned Mineman",
+        "x": 2,
+        "y": 6,
+        "maxLevel": 100,
+        "powder": "MITHRIL",
+        "item": "(npi level0 maxLevel)",
+        "cost": "(pow (+ level 2) 2.3)",
+        "stat": "(round-decimals (+ 5 (* level 0.1)) 1)",
+        "lore": [
+          "§7Grants §3+{stat}☯ Mining Wisdom§7."
+        ]
+      },
+      "efficient_miner": {
+        "name": "Efficient Miner",
+        "x": 3,
+        "y": 6,
+        "maxLevel": 100,
+        "powder": "MITHRIL",
+        "item": "(npi level0 maxLevel)",
+        "cost": "(pow (+ level 2) 2.6)",
+        "statChance": "(round-decimals (+ 10.4 (* level 0.4)) 1)",
+        "statBlocks": "(round (max (+ 0.31 (* level 0.06)) 1))",
+        "lore": [
+          "§7When mining ores, you have a §a{statChance}%",
+          "§a§7chance to mine §a{statBlocks} §7adjacent ores."
+        ]
+      },
+      "experience_orbs": {
+        "name": "Orbiter",
+        "x": 4,
+        "y": 6,
+        "maxLevel": 80,
+        "powder": "MITHRIL",
+        "item": "(npi level0 maxLevel)",
+        "cost": "(* (+ level 1) 70)",
+        "stat": "(round-decimals (+ (* level 0.01) 0.21) 2)",
+        "lore": [
+          "§7When mining ores, you have a §a{stat}%",
+          "§a§7chance to get a random amount of",
+          "§7experience orbs."
+        ]
+      },
+      "front_loaded": {
+        "name": "Front Loaded",
+        "x": 5,
+        "y": 6,
+        "maxLevel": 1,
+        "powder": "MITHRIL",
+        "item": "(npi level0 maxLevel)",
+        "cost": "0",
+        "lore": [
+          "§7Grants §a+100 §6⸕ Mining Speed §7and §6☘",
+          "§6Mining Fortune §7as well as §a+2 base",
+          "§apowder §7for the first §e2,500 §7ores you",
+          "§7mine in a day."
+        ]
+      },
+      "precision_mining": {
+        "name": "Precision Mining",
+        "x": 6,
+        "y": 6,
+        "maxLevel": 1,
+        "powder": "MITHRIL",
+        "item": "(npi level0 maxLevel)",
+        "cost": "0",
+        "lore": [
+          "§7When mining ore, a particle target",
+          "§7appears on the block that increases",
+          "§7your §6⸕ Mining Speed §7by §a30% §7when",
+          "§7aiming at it."
+        ]
+      },
+      "special_0": {
+        "name": "Peak of the Mountain",
+        "x": 3,
+        "y": 5,
+        "maxLevel": 10,
+        "powder": "(if (lt level 6) MITHRIL (if (lt level 8) GEMSTONE GLACITE))",
+        "item": ":REDSTONE_BLOCK",
+        "cost": "(list.at (list.new 0 50000 75000 100000 125000 500000 750000 1000000 1250000 1500000 0) level)",
+        "lore": [
+          {
+            "text": "§7§8+§c1 Pickaxe Ability Level",
+            "onlyIf": "(gt level 0)"
+          },
+          {
+            "text": "§7§8+§a1 Forge Slot",
+            "onlyIf": "(gt level 1)"
+          },
+          {
+            "text": "§7§8+§a1 Commission Slot",
+            "onlyIf": "(gt level 2)"
+          },
+          {
+            "text": "§7§8+§21 Base Mithril Powder §7when mining §2Mithril§7.",
+            "onlyIf": "(gt level 3)"
+          },
+          {
+            "text": "§8+§51 Token of the Mountain",
+            "onlyIf": "(gt level 4)"
+          },
+          {
+            "text": "§7§8+§d2 Base Gemstone Powder §7when mining §dGemstones§7.",
+            "onlyIf": "(gt level 5)"
+          },
+          {
+            "text": "§8+§51 Token of the Mountain",
+            "onlyIf": "(gt level 6)"
+          },
+          {
+            "text": "§7§8+§b3 Base Glacite Powder §7when mining §bGlacite§7.",
+            "onlyIf": "(gt level 7)"
+          },
+          {
+            "text": "§7§8+§a10% chance §7for §bGlacite Mineshafts §7to spawn.",
+            "onlyIf": "(gt level 8)"
+          },
+          {
+            "text": "§8+§52 Token of the Mountain",
+            "onlyIf": "(gt level 9)"
+          }
+        ]
+      },
+      "goblin_killer": {
+        "name": "Goblin Killer",
+        "x": 1,
+        "y": 5,
+        "maxLevel": 1,
+        "powder": "MITHRIL",
+        "item": "(npi level0 maxLevel)",
+        "cost": "0",
+        "lore": [
+          "§7Killing a §6Golden Goblin §7or §bDiamond",
+          "§bGoblin §7gives §2200 §7extra §2Mithril Powder§7,",
+          "§7while killing other Goblins gives some",
+          "§7based on their wits."
+        ]
+      },
+      "star_powder": {
+        "name": "Star Powder",
+        "x": 5,
+        "y": 5,
+        "maxLevel": 1,
+        "powder": "MITHRIL",
+        "item": "(npi level0 maxLevel)",
+        "cost": "0",
+        "lore": [
+          "§7Mining Mithril Ore near §5Fallen",
+          "§5Crystals §7gives §ax3 §7Mithril Powder§7."
+        ]
+      },
+      "vein_seeker": {
+        "name": "Vein Seeker",
+        "x": 0,
+        "y": 4,
+        "maxLevel": 1,
+        "powder": "GEMSTONE",
+        "item": "(api level0)",
+        "cost": "",
+        "statSpread": "(if (lt potm 2) \"2\" \"3\")",
+        "statDuration": "(if (lt potm 2) \"12\" \"14\")",
+        "lore": [
+          "",
+          "§6Pickaxe Ability: Vein Seeker",
+          "§7Points in the direction of the",
+          "§7nearest vein and grants §a+§a{statSpread} §6Mining",
+          "§6Spread §7for §a{statDuration}s§7.",
+          "§8Cooldown: §a60s"
+        ]
+      },
+      "lonesome_miner": {
+        "name": "Lonesome Miner",
+        "x": 1,
+        "y": 4,
+        "maxLevel": 45,
+        "powder": "GEMSTONE",
+        "item": "(npi level0 maxLevel)",
+        "cost": "(pow (+ level 2) 3.07)",
+        "stat": "(+ (* level 0.5) 4.5)",
+        "lore": [
+          "§7Increases §c❁ Strength§7, §9☣ Crit",
+          "§9Chance§7, §9☠ Crit Damage§7, §a❈ Defense§7,",
+          "§7and §c❤ Health §7statistics gain by §a{stat}%",
+          "§a§7while in the §5Crystal Hollows§7 and",
+          "§7§bGlacite Tunnels§7."
+        ]
+      },
+      "professional": {
+        "name": "Professional",
+        "x": 2,
+        "y": 4,
+        "maxLevel": 140,
+        "powder": "GEMSTONE",
+        "item": "(npi level0 maxLevel)",
+        "cost": "(pow (+ level 2) 2.3)",
+        "stat": "(+ (* level 5) 50)",
+        "lore": [
+          "§7Gain §a+§a{stat} §6⸕ Mining Speed§7 when mining",
+          "§7Gemstones."
+        ]
+      },
+      "mole": {
+        "name": "Mole",
+        "x": 3,
+        "y": 4,
+        "maxLevel": 190,
+        "powder": "GEMSTONE",
+        "item": "(npi level0 maxLevel)",
+        "cost": "(pow (+ level 2) 2.2)",
+        "statChance": "(* 100 (- (+ 0.45 (* 0.05 level)) (floor (+ 0.45 (* 0.05 level)))))",
+        "statBlocks": "(+ (floor (+ 0.45 (* 0.05 level))) 1)",
+        "lore": [
+          "§7When mining Hard Stone, you have a",
+          "§7§a{statChance}% §7chance to mine §a{statBlocks} §7adjacent",
+          "§7Hard Stone blocks."
+        ]
+      },
+      "fortunate": {
+        "name": "Fortunate",
+        "x": 4,
+        "y": 4,
+        "maxLevel": 20,
+        "powder": "GEMSTONE",
+        "item": "(npi level0 maxLevel)",
+        "cost": "(pow (+ level 2) 3.05)",
+        "stat": "(+ (* level 4) 20)",
+        "lore": [
+          "§7Grants §a+§a{stat} §6☘ Mining Fortune§7 when",
+          "§7mining Gemstones."
+        ]
+      },
+      "great_explorer": {
+        "name": "Great Explorer",
+        "x": 5,
+        "y": 4,
+        "maxLevel": 20,
+        "powder": "GEMSTONE",
+        "item": "(npi level0 maxLevel)",
+        "cost": "(pow (+ level 2) 4)",
+        "statChance": "(+ (* level 4) 16)",
+        "statLocks": "(round (+ (/ level 5) 1))",
+        "lore": [
+          "§7Boosts the chance to find treasure",
+          "§7chests while mining in the §5Crystal",
+          "§5Hollows §7by §a+§a{statChance}% §7and reduces the",
+          "§7amount of locks on the chests by §a{statLocks}§7."
+        ]
+      },
+      "maniac_miner": {
+        "name": "Maniac Miner",
+        "x": 6,
+        "y": 4,
+        "maxLevel": 1,
+        "powder": "GEMSTONE",
+        "item": "(api level0)",
+        "cost": "",
+        "statDuration": "(if (lt potm 2) \"10\" \"15\")",
+        "statCooldown": "(if (lt potm 2) \"60\" \"59\")",
+        "lore": [
+          "",
+          "§6Pickaxe Ability: Maniac Miner",
+          "§7Spends all your Mana and grants §a+1",
+          "§a§6⸕ Mining Speed §7for every §b10 Mana",
+          "§b§7spent, for §a§a{statDuration}s§7.",
+          "§8Cooldown: §a{statCooldown}s"
+        ]
+      },
+      "mining_speed_2": {
+        "name": "Mining Speed II",
+        "x": 1,
+        "y": 3,
+        "maxLevel": 50,
+        "powder": "GEMSTONE",
+        "item": "(npi level0 maxLevel)",
+        "cost": "(pow (+ level 2) 3.2)",
+        "stat": "(* level 40)",
+        "lore": [
+          "§7Grants §a+§a{stat} §6⸕ Mining Speed§7."
+        ]
+      },
+      "powder_buff": {
+        "name": "Powder Buff",
+        "x": 3,
+        "y": 3,
+        "maxLevel": 50,
+        "powder": "GEMSTONE",
+        "item": "(npi level0 maxLevel)",
+        "cost": "(pow (+ level 2) 3.2)",
+        "stat": "(id level)",
+        "lore": [
+          "§7Gain §a+§a{stat}% §7more Powder from any",
+          "§7source."
+        ]
+      },
+      "mining_fortune_2": {
+        "name": "Mining Fortune II",
+        "x": 5,
+        "y": 3,
+        "maxLevel": 50,
+        "powder": "GEMSTONE",
+        "item": "(npi level0 maxLevel)",
+        "cost": "(pow (+ level 2) 3.2)",
+        "stat": "(* level 5)",
+        "lore": [
+          "§7Grants §a+§a{stat} §6☘ Mining Fortune§7."
+        ]
+      },
+      "keen_eye": {
+        "name": "Keen Eye",
+        "x": 0,
+        "y": 2,
+        "maxLevel": 1,
+        "powder": "GLACITE",
+        "item": "(npi level0 maxLevel)",
+        "cost": "0",
+        "lore": [
+          "§7Whenever you enter a §bGlacite",
+          "§bMineshaft§7 one highlighted Hard Stone",
+          "§7block will contain §a+250 §bGlacite Powder§7."
+        ]
+      },
+      "warm_hearted": {
+        "name": "Warm Hearted",
+        "x": 1,
+        "y": 2,
+        "maxLevel": 50,
+        "powder": "GLACITE",
+        "item": "(npi level0 maxLevel)",
+        "cost": "(pow (+ level 2) 3.1)",
+        "stat": "(* level 0.2)",
+        "lore": [
+          "§7Grants §a+§a{stat} §b❄ Cold Resistance§7."
+        ]
+      },
+      "dust_collector": {
+        "name": "Dust Collector",
+        "x": 2,
+        "y": 2,
+        "maxLevel": 20,
+        "powder": "GLACITE",
+        "item": "(npi level0 maxLevel)",
+        "cost": "(pow (+ level 1) 4)",
+        "stat": "(* level 1)",
+        "lore": [
+          "§7Receive §a{stat}% §7more §fFossil Dust §7from",
+          "§7all sources."
+        ]
+      },
+      "daily_grind": {
+        "name": "Daily Grind",
+        "x": 3,
+        "y": 2,
+        "maxLevel": 100,
+        "powder": "GLACITE",
+        "item": "(npi level0 maxLevel)",
+        "cost": "(+ 200 (* (+ level 1) 18))",
+        "stat": "(* level 50)",
+        "lore": [
+          "§7§7Your first daily commission in each",
+          "§7Mining Zone grants bonus powder:",
+          "",
+          "§2Dwarven Mines§7: §a+§a{stat} §2Mithril Powder",
+          "§5Crystal Hollows§7: §a+§a{stat} §dGemstone Powder",
+          "§bGlacite Tunnels§7: §a+§a{stat} §bGlacite Powder"
+        ]
+      },
+      "strong_arm": {
+        "name": "Strong Arm",
+        "x": 4,
+        "y": 2,
+        "maxLevel": 100,
+        "powder": "GLACITE",
+        "item": "(npi level0 maxLevel)",
+        "cost": "(pow (+ level 2) 2.3)",
+        "stat": "(* level 5)",
+        "lore": [
+          "§7Gain §a+§a{stat} §6⸕ Mining Speed§7 when mining",
+          "§7Tungsten or Umber."
+        ]
+      },
+      "no_stone_unturned": {
+        "name": "No Stone Unturned",
+        "x": 5,
+        "y": 2,
+        "maxLevel": 50,
+        "powder": "GLACITE",
+        "item": "(npi level0 maxLevel)",
+        "cost": "(pow (+ level 2) 3.05)",
+        "stat": "(* level 0.5)",
+        "lore": [
+          "§7Increases your chances of finding a",
+          "§7§9Suspicious Scrap §7when mining in a",
+          "§7§bGlacite Mineshaft §7by §a§a{stat}%§7."
+        ]
+      },
+      "mineshaft_mayhem": {
+        "name": "Mineshaft Mayhem",
+        "x": 6,
+        "y": 2,
+        "maxLevel": 1,
+        "powder": "GLACITE",
+        "item": "(npi level0 maxLevel)",
+        "cost": "0",
+        "lore": [
+          "§7Every time you enter a §bGlacite",
+          "§bMineshaft§7, you receive a random buff.",
+          "",
+          "§7Possible Buffs",
+          "§8 ■ §a+5% §7chance to find a §9Suspicious Scrap§7.",
+          "§8 ■ §7Gain §a+100 §6☘ Mining Fortune§7",
+          "§8 ■ §7Gain §a+200 §6⸕ Mining Speed§7",
+          "§8 ■ §7Gain §a+10 §b❄ Cold Resistance§7",
+          "§8 ■ §7Reduce Pickaxe Ability cooldown by §a25%§7."
+        ]
+      },
+      "surveyor": {
+        "name": "Surveyor",
+        "x": 1,
+        "y": 1,
+        "maxLevel": 20,
+        "powder": "GLACITE",
+        "item": "(npi level0 maxLevel)",
+        "cost": "(pow (+ level 2) 4)",
+        "stat": "(* level 0.75)",
+        "lore": [
+          "§7Increases your chances of finding a",
+          "§7§bGlacite Mineshaft §7when mining in the",
+          "§7§bGlacite Tunnels §7by §a§a{stat}%§7."
+        ]
+      },
+      "subzero_mining": {
+        "name": "SubZero Mining",
+        "x": 3,
+        "y": 1,
+        "maxLevel": 100,
+        "powder": "GLACITE",
+        "item": "(npi level0 maxLevel)",
+        "cost": "(pow (+ level 2) 2.3)",
+        "stat": "(* level 1)",
+        "lore": [
+          "§7Grants §a+§a{stat}§7 §6☘ Mining Fortune §7when",
+          "§7mining §bGlacite§7."
+        ]
+      },
+      "eager_adventurer": {
+        "name": "Eager Adventurer",
+        "x": 5,
+        "y": 1,
+        "maxLevel": 100,
+        "powder": "GLACITE",
+        "item": "(npi level0 maxLevel)",
+        "cost": "(pow (+ level 2) 2.3)",
+        "stat": "(* level 2)",
+        "lore": [
+          "§7Grants §a+§a{stat}§7 §6⸕ Mining Speed §7while",
+          "§7inside the §bGlacite Mineshafts§7."
+        ]
+      },
+      "gemstone_infusion": {
+        "name": "Gemstone Infusion",
+        "x": 0,
+        "y": 0,
+        "maxLevel": 1,
+        "powder": "GLACITE",
+        "item": "(api level0)",
+        "cost": "",
+        "statBoost": "(if (lt potm 2) \"25\" \"50\")",
+        "statDuration": "(if (lt potm 2) \"14\" \"16\")",
+        "lore": [
+          "",
+          "§6Pickaxe Ability: Gemstone Infusion",
+          "§7Increases the effectiveness of",
+          "§7§6every Gemstone §7in your pick's",
+          "§7Gemstone Slots by §a{statBoost}% §7for §a{statDuration}s§7.",
+          "§8Cooldown: §a140s"
+        ]
+      },
+      "gifts_from_the_departed": {
+        "name": "Gifts from the Departed",
+        "x": 1,
+        "y": 0,
+        "maxLevel": 100,
+        "powder": "GLACITE",
+        "item": "(npi level0 maxLevel)",
+        "cost": "(pow (+ level 2) 2.45)",
+        "stat": "(* level 0.2)",
+        "lore": [
+          "§7Gain a §a§a{stat}% §7chance to get an extra",
+          "§7item when looting a §bFrozen Corpse§7."
+        ]
+      },
+      "frozen_solid": {
+        "name": "Frozen Solid",
+        "x": 2,
+        "y": 0,
+        "maxLevel": 1,
+        "powder": "GLACITE",
+        "item": "(npi level0 maxLevel)",
+        "cost": "0",
+        "lore": [
+          "§7Gain §a2x §bGlacite Powder §7from killing",
+          "§7mobs in the §bGlacite Tunnels §7and",
+          "§7§bGlacite Mineshafts§7."
+        ]
+      },
+      "hungry_for_more": {
+        "name": "Dead Man's Chest",
+        "x": 3,
+        "y": 0,
+        "maxLevel": 50,
+        "powder": "GLACITE",
+        "item": "(npi level0 maxLevel)",
+        "cost": "(pow (+ level 2) 3.2)",
+        "stat": "(* level 1)",
+        "lore": [
+          "§7Gain a §a§a{stat}% §7chance to spawn §a1",
+          "§a§7additional §bFrozen Corpse §7when you",
+          "§7enter a §bGlacite Mineshaft§7."
+        ]
+      },
+      "excavator": {
+        "name": "Excavator",
+        "x": 4,
+        "y": 0,
+        "maxLevel": 50,
+        "powder": "GLACITE",
+        "item": "(npi level0 maxLevel)",
+        "cost": "(pow (+ level 2) 3)",
+        "stat": "(* level 0.2)",
+        "lore": [
+          "§7§9Suspicious Scraps §7are §a§a{stat}% §7more",
+          "§7likely to contain a fossil."
+        ]
+      },
+      "rags_of_riches": {
+        "name": "Rags to Riches",
+        "x": 5,
+        "y": 0,
+        "maxLevel": 50,
+        "powder": "GLACITE",
+        "item": "(npi level0 maxLevel)",
+        "cost": "(pow (+ level 2) 3.05)",
+        "stat": "(* level 2)",
+        "lore": [
+          "§7Grants §a+§a{stat} §6☘ Mining Fortune §7while",
+          "§7inside a §bGlacite Mineshaft§7."
+        ]
+      },
+      "hazardous_miner": {
+        "name": "Hazardous Miner",
+        "x": 6,
+        "y": 0,
+        "maxLevel": 1,
+        "powder": "GLACITE",
+        "item": "(api level0)",
+        "cost": "",
+        "statBoost": "(if (lt potm 2) \"30\" \"40\")",
+        "statDuration": "(if (lt potm 2) \"14\" \"16.5\")",
+        "lore": [
+          "",
+          "§6Pickaxe Ability: Hazardous Miner",
+          "§7Grants §a+{statBoost} §6⸕ Mining Speed §7for §a{statDuration}s§7",
+          "§7for each enemy within §a20 §7blocks.",
+          "§8Cooldown: §a140s"
+        ]
+      }
+    }
+  }
+}
