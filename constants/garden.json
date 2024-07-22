@@ -812,11 +812,26 @@
     ]
   },
   "barn": {
-    "default_1": "WOOD-5",
-    "default_2": "QUARTZ_BLOCK",
-    "default_3": "LOG-1",
-    "default_4": "RED_SANDSTONE",
-    "cabin": "STAINED_CLAY-3"
+    "default_1": {
+      "name": "Default",
+      "item": "WOOD-5"
+    },
+    "default_2": {
+      "name": "Red",
+      "item": "QUARTZ_BLOCK"
+    },
+    "default_3": {
+      "name": "Medieval",
+      "item": "LOG-1"
+    },
+    "default_4": {
+      "name": "Sunny",
+      "item": "RED_SANDSTONE"
+    },
+    "cabin": {
+      "name": "Cabin",
+      "item": "STAINED_CLAY-3"
+    }
   },
   "crop_upgrades": [
     5,
