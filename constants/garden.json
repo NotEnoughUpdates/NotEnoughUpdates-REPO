@@ -927,5 +927,982 @@
     1000,
     2000,
     4000
-  ]
+  ],
+  "composter_upgrades": {
+    "speed": {
+      "1": {
+        "upgrade": 20,
+        "items": {
+          "enchanted_hay_bale": 16
+        },
+        "copper": 100
+      },
+      "2": {
+        "upgrade": 40,
+        "items": {
+          "enchanted_golden_carrot": 2
+        },
+        "copper": 150
+      },
+      "3": {
+        "upgrade": 60,
+        "items": {
+          "enchanted_hay_bale": 32
+        },
+        "copper": 200
+      },
+      "4": {
+        "upgrade": 80,
+        "items": {
+          "enchanted_golden_carrot": 4
+        },
+        "copper": 250
+      },
+      "5": {
+        "upgrade": 100,
+        "items": {
+          "enchanted_hay_bale": 64
+        },
+        "copper": 300
+      },
+      "6": {
+        "upgrade": 120,
+        "items": {
+          "enchanted_golden_carrot": 8
+        },
+        "copper": 350
+      },
+      "7": {
+        "upgrade": 140,
+        "items": {
+          "tightly_tied_hay_bale": 1
+        },
+        "copper": 400
+      },
+      "8": {
+        "upgrade": 160,
+        "items": {
+          "enchanted_golden_carrot": 16,
+          "cropie": 3
+        },
+        "copper": 500
+      },
+      "9": {
+        "upgrade": 180,
+        "items": {
+          "tightly_tied_hay_bale": 2,
+          "cropie": 6
+        },
+        "copper": 600
+      },
+      "10": {
+        "upgrade": 200,
+        "items": {
+          "enchanted_golden_carrot": 32,
+          "cropie": 12
+        },
+        "copper": 700
+      },
+      "11": {
+        "upgrade": 220,
+        "items": {
+          "tightly_tied_hay_bale": 3,
+          "cropie": 32
+        },
+        "copper": 800
+      },
+      "12": {
+        "upgrade": 240,
+        "items": {
+          "enchanted_golden_carrot": 48,
+          "cropie": 64
+        },
+        "copper": 900
+      },
+      "13": {
+        "upgrade": 260,
+        "items": {
+          "tightly_tied_hay_bale": 4,
+          "cropie": 128
+        },
+        "copper": 1000
+      },
+      "14": {
+        "upgrade": 280,
+        "items": {
+          "enchanted_golden_carrot": 64,
+          "squash": 3
+        },
+        "copper": 1200
+      },
+      "15": {
+        "upgrade": 300,
+        "items": {
+          "tightly_tied_hay_bale": 6,
+          "squash": 6
+        },
+        "copper": 1400
+      },
+      "16": {
+        "upgrade": 320,
+        "items": {
+          "enchanted_golden_carrot": 96,
+          "squash": 12
+        },
+        "copper": 1600
+      },
+      "17": {
+        "upgrade": 340,
+        "items": {
+          "tightly_tied_hay_bale": 8,
+          "squash": 32
+        },
+        "copper": 1800
+      },
+      "18": {
+        "upgrade": 360,
+        "items": {
+          "enchanted_golden_carrot": 128,
+          "squash": 64
+        },
+        "copper": 2000
+      },
+      "19": {
+        "upgrade": 380,
+        "items": {
+          "tightly_tied_hay_bale": 10,
+          "squash": 128
+        },
+        "copper": 2250
+      },
+      "20": {
+        "upgrade": 400,
+        "items": {
+          "enchanted_golden_carrot": 192,
+          "fermento": 3
+        },
+        "copper": 2500
+      },
+      "21": {
+        "upgrade": 420,
+        "items": {
+          "tightly_tied_hay_bale": 13,
+          "fermento": 6
+        },
+        "copper": 2750
+      },
+      "22": {
+        "upgrade": 440,
+        "items": {
+          "enchanted_golden_carrot": 256,
+          "fermento": 12
+        },
+        "copper": 3000
+      },
+      "23": {
+        "upgrade": 460,
+        "items": {
+          "tightly_tied_hay_bale": 16,
+          "condensed_fermento": 4
+        },
+        "copper": 3300
+      },
+      "24": {
+        "upgrade": 480,
+        "items": {
+          "enchanted_golden_carrot": 320,
+          "condensed_fermento": 7
+        },
+        "copper": 3600
+      },
+      "25": {
+        "upgrade": 500,
+        "items": {
+          "tightly_tied_hay_bale": 20,
+          "condensed_fermento": 14
+        },
+        "copper": 4000
+      }
+    },
+    "multi_drop": {
+      "1": {
+        "upgrade": 3,
+        "items": {
+          "enchanted_baked_potato": 1
+        },
+        "copper": 100
+      },
+      "2": {
+        "upgrade": 6,
+        "items": {
+          "enchanted_pumpkin": 64
+        },
+        "copper": 150
+      },
+      "3": {
+        "upgrade": 9,
+        "items": {
+          "enchanted_baked_potato": 2
+        },
+        "copper": 200
+      },
+      "4": {
+        "upgrade": 12,
+        "items": {
+          "polished_pumpkin": 1
+        },
+        "copper": 250
+      },
+      "5": {
+        "upgrade": 15,
+        "items": {
+          "enchanted_baked_potato": 4
+        },
+        "copper": 300
+      },
+      "6": {
+        "upgrade": 18,
+        "items": {
+          "polished_pumpkin": 2
+        },
+        "copper": 350
+      },
+      "7": {
+        "upgrade": 21,
+        "items": {
+          "enchanted_baked_potato": 8
+        },
+        "copper": 400
+      },
+      "8": {
+        "upgrade": 24,
+        "items": {
+          "polished_pumpkin": 4,
+          "cropie": 3
+        },
+        "copper": 500
+      },
+      "9": {
+        "upgrade": 27,
+        "items": {
+          "enchanted_baked_potato": 16,
+          "cropie": 6
+        },
+        "copper": 600
+      },
+      "10": {
+        "upgrade": 30,
+        "items": {
+          "polished_pumpkin": 8,
+          "cropie": 12
+        },
+        "copper": 700
+      },
+      "11": {
+        "upgrade": 33,
+        "items": {
+          "enchanted_baked_potato": 32,
+          "cropie": 32
+        },
+        "copper": 800
+      },
+      "12": {
+        "upgrade": 36,
+        "items": {
+          "polished_pumpkin": 16,
+          "cropie": 64
+        },
+        "copper": 900
+      },
+      "13": {
+        "upgrade": 39,
+        "items": {
+          "enchanted_baked_potato": 48,
+          "cropie": 128
+        },
+        "copper": 1000
+      },
+      "14": {
+        "upgrade": 42,
+        "items": {
+          "polished_pumpkin": 32,
+          "squash": 3
+        },
+        "copper": 1200
+      },
+      "15": {
+        "upgrade": 45,
+        "items": {
+          "enchanted_baked_potato": 64,
+          "squash": 6
+        },
+        "copper": 1400
+      },
+      "16": {
+        "upgrade": 48,
+        "items": {
+          "polished_pumpkin": 48,
+          "squash": 12
+        },
+        "copper": 1600
+      },
+      "17": {
+        "upgrade": 51,
+        "items": {
+          "enchanted_baked_potato": 96,
+          "squash": 32
+        },
+        "copper": 1800
+      },
+      "18": {
+        "upgrade": 54,
+        "items": {
+          "polished_pumpkin": 64,
+          "squash": 64
+        },
+        "copper": 2000
+      },
+      "19": {
+        "upgrade": 57,
+        "items": {
+          "enchanted_baked_potato": 128,
+          "squash": 128
+        },
+        "copper": 2250
+      },
+      "20": {
+        "upgrade": 60,
+        "items": {
+          "polished_pumpkin": 96,
+          "fermento": 3
+        },
+        "copper": 2500
+      },
+      "21": {
+        "upgrade": 63,
+        "items": {
+          "enchanted_baked_potato": 192,
+          "fermento": 6
+        },
+        "copper": 2750
+      },
+      "22": {
+        "upgrade": 66,
+        "items": {
+          "polished_pumpkin": 128,
+          "fermento": 12
+        },
+        "copper": 3000
+      },
+      "23": {
+        "upgrade": 69,
+        "items": {
+          "enchanted_baked_potato": 256,
+          "condensed_fermento": 4
+        },
+        "copper": 3300
+      },
+      "24": {
+        "upgrade": 72,
+        "items": {
+          "polished_pumpkin": 192,
+          "condensed_fermento": 7
+        },
+        "copper": 3600
+      },
+      "25": {
+        "upgrade": 75,
+        "items": {
+          "enchanted_baked_potato": 320,
+          "condensed_fermento": 14
+        },
+        "copper": 4000
+      }
+    },
+    "fuel_cap": {
+      "1": {
+        "upgrade": 130000,
+        "items": {
+          "enchanted_sugar_cane": 1
+        },
+        "copper": 100
+      },
+      "2": {
+        "upgrade": 160000,
+        "items": {
+          "enchanted_melon_block": 4
+        },
+        "copper": 150
+      },
+      "3": {
+        "upgrade": 190000,
+        "items": {
+          "enchanted_sugar_cane": 2
+        },
+        "copper": 200
+      },
+      "4": {
+        "upgrade": 220000,
+        "items": {
+          "enchanted_melon_block": 8
+        },
+        "copper": 250
+      },
+      "5": {
+        "upgrade": 250000,
+        "items": {
+          "enchanted_sugar_cane": 4
+        },
+        "copper": 300
+      },
+      "6": {
+        "upgrade": 280000,
+        "items": {
+          "enchanted_melon_block": 16
+        },
+        "copper": 350
+      },
+      "7": {
+        "upgrade": 310000,
+        "items": {
+          "enchanted_sugar_cane": 8
+        },
+        "copper": 400
+      },
+      "8": {
+        "upgrade": 340000,
+        "items": {
+          "enchanted_melon_block": 32,
+          "cropie": 3
+        },
+        "copper": 500
+      },
+      "9": {
+        "upgrade": 370000,
+        "items": {
+          "enchanted_sugar_cane": 16,
+          "cropie": 6
+        },
+        "copper": 600
+      },
+      "10": {
+        "upgrade": 400000,
+        "items": {
+          "enchanted_melon_block": 48,
+          "cropie": 12
+        },
+        "copper": 700
+      },
+      "11": {
+        "upgrade": 430000,
+        "items": {
+          "enchanted_sugar_cane": 32,
+          "cropie": 32
+        },
+        "copper": 800
+      },
+      "12": {
+        "upgrade": 460000,
+        "items": {
+          "enchanted_melon_block": 64,
+          "cropie": 64
+        },
+        "copper": 900
+      },
+      "13": {
+        "upgrade": 490000,
+        "items": {
+          "enchanted_sugar_cane": 48,
+          "cropie": 128
+        },
+        "copper": 1000
+      },
+      "14": {
+        "upgrade": 520000,
+        "items": {
+          "enchanted_melon_block": 96,
+          "squash": 3
+        },
+        "copper": 1200
+      },
+      "15": {
+        "upgrade": 550000,
+        "items": {
+          "enchanted_sugar_cane": 64,
+          "squash": 6
+        },
+        "copper": 1400
+      },
+      "16": {
+        "upgrade": 580000,
+        "items": {
+          "enchanted_melon_block": 128,
+          "squash": 12
+        },
+        "copper": 1600
+      },
+      "17": {
+        "upgrade": 610000,
+        "items": {
+          "enchanted_sugar_cane": 96,
+          "squash": 32
+        },
+        "copper": 1800
+      },
+      "18": {
+        "upgrade": 640000,
+        "items": {
+          "enchanted_melon_block": 192,
+          "squash": 64
+        },
+        "copper": 2000
+      },
+      "19": {
+        "upgrade": 670000,
+        "items": {
+          "enchanted_sugar_cane": 128,
+          "squash": 128
+        },
+        "copper": 2250
+      },
+      "20": {
+        "upgrade": 700000,
+        "items": {
+          "enchanted_melon_block": 256,
+          "fermento": 3
+        },
+        "copper": 2500
+      },
+      "21": {
+        "upgrade": 730000,
+        "items": {
+          "enchanted_sugar_cane": 192,
+          "fermento": 6
+        },
+        "copper": 2750
+      },
+      "22": {
+        "upgrade": 760000,
+        "items": {
+          "enchanted_melon_block": 384,
+          "fermento": 12
+        },
+        "copper": 3000
+      },
+      "23": {
+        "upgrade": 790000,
+        "items": {
+          "enchanted_sugar_cane": 256,
+          "condensed_fermento": 4
+        },
+        "copper": 3300
+      },
+      "24": {
+        "upgrade": 820000,
+        "items": {
+          "enchanted_melon_block": 512,
+          "condensed_fermento": 7
+        },
+        "copper": 3600
+      },
+      "25": {
+        "upgrade": 850000,
+        "items": {
+          "enchanted_sugar_cane": 320,
+          "condensed_fermento": 14
+        },
+        "copper": 4000
+      }
+    },
+    "organic_matter_cap": {
+      "1": {
+        "upgrade": 60000,
+        "items": {
+          "enchanted_cactus": 1
+        },
+        "copper": 100
+      },
+      "2": {
+        "upgrade": 80000,
+        "items": {
+          "enchanted_cookie": 3
+        },
+        "copper": 150
+      },
+      "3": {
+        "upgrade": 100000,
+        "items": {
+          "enchanted_cactus": 2
+        },
+        "copper": 200
+      },
+      "4": {
+        "upgrade": 120000,
+        "items": {
+          "enchanted_cookie": 6
+        },
+        "copper": 250
+      },
+      "5": {
+        "upgrade": 140000,
+        "items": {
+          "enchanted_cactus": 4
+        },
+        "copper": 300
+      },
+      "6": {
+        "upgrade": 160000,
+        "items": {
+          "enchanted_cookie": 12
+        },
+        "copper": 350
+      },
+      "7": {
+        "upgrade": 180000,
+        "items": {
+          "enchanted_cactus": 7
+        },
+        "copper": 400
+      },
+      "8": {
+        "upgrade": 200000,
+        "items": {
+          "enchanted_cookie": 24,
+          "cropie": 3
+        },
+        "copper": 500
+      },
+      "9": {
+        "upgrade": 220000,
+        "items": {
+          "enchanted_cactus": 10,
+          "cropie": 6
+        },
+        "copper": 600
+      },
+      "10": {
+        "upgrade": 240000,
+        "items": {
+          "enchanted_cookie": 48,
+          "cropie": 12
+        },
+        "copper": 700
+      },
+      "11": {
+        "upgrade": 260000,
+        "items": {
+          "enchanted_cactus": 16,
+          "cropie": 32
+        },
+        "copper": 800
+      },
+      "12": {
+        "upgrade": 280000,
+        "items": {
+          "enchanted_cookie": 72,
+          "cropie": 64
+        },
+        "copper": 900
+      },
+      "13": {
+        "upgrade": 300000,
+        "items": {
+          "enchanted_cactus": 24,
+          "cropie": 128
+        },
+        "copper": 1000
+      },
+      "14": {
+        "upgrade": 320000,
+        "items": {
+          "enchanted_cookie": 96,
+          "squash": 3
+        },
+        "copper": 1200
+      },
+      "15": {
+        "upgrade": 340000,
+        "items": {
+          "enchanted_cactus": 32,
+          "squash": 6
+        },
+        "copper": 1400
+      },
+      "16": {
+        "upgrade": 360000,
+        "items": {
+          "enchanted_cookie": 144,
+          "squash": 12
+        },
+        "copper": 1600
+      },
+      "17": {
+        "upgrade": 380000,
+        "items": {
+          "enchanted_cactus": 48,
+          "squash": 32
+        },
+        "copper": 1800
+      },
+      "18": {
+        "upgrade": 400000,
+        "items": {
+          "enchanted_cookie": 192,
+          "squash": 64
+        },
+        "copper": 2000
+      },
+      "19": {
+        "upgrade": 420000,
+        "items": {
+          "enchanted_cactus": 64,
+          "squash": 128
+        },
+        "copper": 2250
+      },
+      "20": {
+        "upgrade": 440000,
+        "items": {
+          "enchanted_cookie": 256,
+          "fermento": 3
+        },
+        "copper": 2500
+      },
+      "21": {
+        "upgrade": 460000,
+        "items": {
+          "enchanted_cactus": 96,
+          "fermento": 6
+        },
+        "copper": 2750
+      },
+      "22": {
+        "upgrade": 480000,
+        "items": {
+          "enchanted_cookie": 352,
+          "fermento": 12
+        },
+        "copper": 3000
+      },
+      "23": {
+        "upgrade": 500000,
+        "items": {
+          "enchanted_cactus": 128,
+          "condensed_fermento": 4
+        },
+        "copper": 3300
+      },
+      "24": {
+        "upgrade": 520000,
+        "items": {
+          "enchanted_cookie": 448,
+          "condensed_fermento": 7
+        },
+        "copper": 3600
+      },
+      "25": {
+        "upgrade": 540000,
+        "items": {
+          "enchanted_cactus": 160,
+          "condensed_fermento": 14
+        },
+        "copper": 4000
+      }
+    },
+    "cost_reduction": {
+      "1": {
+        "upgrade": 1,
+        "items": {
+          "enchanted_brown_mushroom": 32
+        },
+        "copper": 100
+      },
+      "2": {
+        "upgrade": 2,
+        "items": {
+          "mutant_nether_wart": 1
+        },
+        "copper": 150
+      },
+      "3": {
+        "upgrade": 3,
+        "items": {
+          "enchanted_red_mushroom_block": 2
+        },
+        "copper": 200
+      },
+      "4": {
+        "upgrade": 4,
+        "items": {
+          "mutant_nether_wart": 2
+        },
+        "copper": 250
+      },
+      "5": {
+        "upgrade": 5,
+        "items": {
+          "enchanted_brown_mushroom_block": 4
+        },
+        "copper": 300
+      },
+      "6": {
+        "upgrade": 6,
+        "items": {
+          "mutant_nether_wart": 4
+        },
+        "copper": 350
+      },
+      "7": {
+        "upgrade": 7,
+        "items": {
+          "enchanted_red_mushroom_block": 16
+        },
+        "copper": 400
+      },
+      "8": {
+        "upgrade": 8,
+        "items": {
+          "mutant_nether_wart": 8,
+          "cropie": 3
+        },
+        "copper": 500
+      },
+      "9": {
+        "upgrade": 9,
+        "items": {
+          "enchanted_brown_mushroom_block": 32,
+          "cropie": 6
+        },
+        "copper": 600
+      },
+      "10": {
+        "upgrade": 10,
+        "items": {
+          "mutant_nether_wart": 16,
+          "cropie": 12
+        },
+        "copper": 700
+      },
+      "11": {
+        "upgrade": 11,
+        "items": {
+          "enchanted_red_mushroom_block": 64,
+          "cropie": 32
+        },
+        "copper": 800
+      },
+      "12": {
+        "upgrade": 12,
+        "items": {
+          "mutant_nether_wart": 32,
+          "cropie": 64
+        },
+        "copper": 900
+      },
+      "13": {
+        "upgrade": 13,
+        "items": {
+          "enchanted_brown_mushroom_block": 128,
+          "cropie": 128
+        },
+        "copper": 1000
+      },
+      "14": {
+        "upgrade": 14,
+        "items": {
+          "mutant_nether_wart": 48,
+          "squash": 3
+        },
+        "copper": 1200
+      },
+      "15": {
+        "upgrade": 15,
+        "items": {
+          "enchanted_red_mushroom_block": 256,
+          "squash": 6
+        },
+        "copper": 1400
+      },
+      "16": {
+        "upgrade": 16,
+        "items": {
+          "mutant_nether_wart": 64,
+          "squash": 12
+        },
+        "copper": 1600
+      },
+      "17": {
+        "upgrade": 17,
+        "items": {
+          "enchanted_brown_mushroom_block": 448,
+          "squash": 32
+        },
+        "copper": 1800
+      },
+      "18": {
+        "upgrade": 18,
+        "items": {
+          "mutant_nether_wart": 96,
+          "squash": 64
+        },
+        "copper": 2000
+      },
+      "19": {
+        "upgrade": 19,
+        "items": {
+          "enchanted_red_mushroom_block": 640,
+          "squash": 128
+        },
+        "copper": 2250
+      },
+      "20": {
+        "upgrade": 20,
+        "items": {
+          "mutant_nether_wart": 160,
+          "fermento": 3
+        },
+        "copper": 2500
+      },
+      "21": {
+        "upgrade": 21,
+        "items": {
+          "enchanted_brown_mushroom_block": 832,
+          "fermento": 6
+        },
+        "copper": 2750
+      },
+      "22": {
+        "upgrade": 22,
+        "items": {
+          "mutant_nether_wart": 224,
+          "fermento": 12
+        },
+        "copper": 3000
+      },
+      "23": {
+        "upgrade": 23,
+        "items": {
+          "enchanted_red_mushroom_block": 1024,
+          "condensed_fermento": 4
+        },
+        "copper": 3300
+      },
+      "24": {
+        "upgrade": 24,
+        "items": {
+          "mutant_nether_wart": 288,
+          "condensed_fermento": 7
+        },
+        "copper": 3600
+      },
+      "25": {
+        "upgrade": 25,
+        "items": {
+          "enchanted_brown_mushroom_block": 1216,
+          "condensed_fermento": 14
+        },
+        "copper": 4000
+      }
+    }
+  }
 }
