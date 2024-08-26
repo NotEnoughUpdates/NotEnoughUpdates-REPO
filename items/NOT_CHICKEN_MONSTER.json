@@ -21,7 +21,12 @@
       "level": 1,
       "combat_xp": 0,
       "drops": [
-        "METAPHORIC_EGG:1"
+        {
+          "id": "METAPHORIC_EGG:1",
+          "extra": [
+            "Drops a Metaphoric Egg when shot with a Berberis Blowgun midair"
+          ]
+        }
       ],
       "render": "Chicken",
       "panorama": "rift",
