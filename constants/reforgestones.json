@@ -302,6 +302,61 @@
       }
     }
   },
+  "BLAZEN_SPHERE": {
+    "internalName": "BLAZEN_SPHERE",
+    "reforgeName": "Blazing",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "EQUIPMENT",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 20000,
+      "UNCOMMON": 40000,
+      "RARE": 80000,
+      "EPIC": 150000,
+      "LEGENDARY": 300000,
+      "MYTHIC": 300000,
+      "DIVINE": 300000
+    },
+    "reforgeAbility": "§7For every §c§c1§c♨ Heat §7you have, gain a §7§a+0.05% §7chance to dig up §9Worms§7.",
+    "reforgeStats": {
+      "COMMON": {
+        "mining_fortune": 3,
+        "heat_resistance": 1
+      },
+      "UNCOMMON": {
+        "mining_fortune": 4,
+        "heat_resistance": 1
+      },
+      "RARE": {
+        "mining_fortune": 5,
+        "heat_resistance": 2
+      },
+      "EPIC": {
+        "mining_fortune": 6,
+        "heat_resistance": 2
+      },
+      "LEGENDARY": {
+        "mining_fortune": 7,
+        "heat_resistance": 3
+      },
+      "MYTHIC": {
+        "mining_fortune": 7,
+        "heat_resistance": 3
+      },
+      "DIVINE": {
+        "mining_fortune": 8,
+        "heat_resistance": 3
+      }
+    }
+  },
   "BOO_STONE": {
     "internalName": "BOO_STONE",
     "reforgeName": "Greater Spook",
@@ -828,6 +883,61 @@
       },
       "MYTHIC": {
         "defense": 110
+      }
+    }
+  },
+  "DWARVEN_TREASURE": {
+    "internalName": "DWARVEN_TREASURE",
+    "reforgeName": "Royal",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "EQUIPMENT",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 5000,
+      "UNCOMMON": 10000,
+      "RARE": 20000,
+      "EPIC": 50000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
+    },
+    "reforgeAbility": "§7Earn §2+5% ᠅ Mithril Powder §7from §7§bMining Events §7in the §2Dwarven Mines§7.",
+    "reforgeStats": {
+      "COMMON": {
+        "mining_speed": 4,
+        "mining_fortune": 1
+      },
+      "UNCOMMON": {
+        "mining_speed": 6,
+        "mining_fortune": 1
+      },
+      "RARE": {
+        "mining_speed": 8,
+        "mining_fortune": 2
+      },
+      "EPIC": {
+        "mining_speed": 10,
+        "mining_fortune": 2
+      },
+      "LEGENDARY": {
+        "mining_speed": 14,
+        "mining_fortune": 3
+      },
+      "MYTHIC": {
+        "mining_speed": 18,
+        "mining_fortune": 3
+      },
+      "DIVINE": {
+        "mining_speed": 18,
+        "mining_fortune": 3
       }
     }
   },
@@ -2129,6 +2239,61 @@
       }
     }
   },
+  "POCKET_ICEBERG": {
+    "internalName": "POCKET_ICEBERG",
+    "reforgeName": "Scraped",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "PICKAXE",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 15000,
+      "UNCOMMON": 30000,
+      "RARE": 60000,
+      "EPIC": 125000,
+      "LEGENDARY": 250000,
+      "MYTHIC": 500000,
+      "DIVINE": 500000
+    },
+    "reforgeAbility": "§7Grants §6+25☘ Mining Fortune §7if the §7block you are mining has the same §2Ⓟ §2Breaking Power §7as this tool.",
+    "reforgeStats": {
+      "COMMON": {
+        "breaking_power": 1,
+        "mining_wisdom": 1
+      },
+      "UNCOMMON": {
+        "breaking_power": 1,
+        "mining_wisdom": 1
+      },
+      "RARE": {
+        "breaking_power": 1,
+        "mining_wisdom": 1
+      },
+      "EPIC": {
+        "breaking_power": 1,
+        "mining_wisdom": 2
+      },
+      "LEGENDARY": {
+        "breaking_power": 1,
+        "mining_wisdom": 2
+      },
+      "MYTHIC": {
+        "breaking_power": 1,
+        "mining_wisdom": 2
+      },
+      "DIVINE": {
+        "breaking_power": 1,
+        "mining_wisdom": 3
+      }
+    }
+  },
   "PRECURSOR_GEAR": {
     "internalName": "PRECURSOR_GEAR",
     "reforgeName": "Ancient",
@@ -3148,6 +3313,61 @@
       "MYTHIC": {
         "sea_creature_chance": 1,
         "fishing_speed": 3
+      }
+    }
+  },
+  "TITANIUM_TESSERACT": {
+    "internalName": "TITANIUM_TESSERACT",
+    "reforgeName": "Dimensional",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "ARMOR",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 15000,
+      "UNCOMMON": 30000,
+      "RARE": 60000,
+      "EPIC": 125000,
+      "LEGENDARY": 250000,
+      "MYTHIC": 500000,
+      "DIVINE": 500000
+    },
+    "reforgeAbility": "§7§fTitanium Ore §7drops §2+10 Mithril §2Powder §7when mined.",
+    "reforgeStats": {
+      "COMMON": {
+        "mining_speed": 10,
+        "mining_wisdom": 1
+      },
+      "UNCOMMON": {
+        "mining_speed": 15,
+        "mining_wisdom": 1
+      },
+      "RARE": {
+        "mining_speed": 20,
+        "mining_wisdom": 1
+      },
+      "EPIC": {
+        "mining_speed": 30,
+        "mining_wisdom": 2
+      },
+      "LEGENDARY": {
+        "mining_speed": 40,
+        "mining_wisdom": 2
+      },
+      "MYTHIC": {
+        "mining_speed": 50,
+        "mining_wisdom": 3
+      },
+      "DIVINE": {
+        "mining_speed": 50,
+        "mining_wisdom": 3
       }
     }
   },
