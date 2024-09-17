@@ -16,7 +16,7 @@
     "§9§lRARE"
   ],
   "internalname": "PERFECTLY_CUT_FUEL_TANK",
-  "crafttext": "",
+  "crafttext": "Requires: HotM 8",
   "clickcommand": "viewrecipe",
   "modver": "",
   "infoType": "WIKI_URL",
@@ -28,11 +28,12 @@
     {
       "type": "forge",
       "inputs": [
-        "GEMSTONE_FUEL_TANK:1",
-        "GEMSTONE_MIXTURE:25",
-        "SYNTHETIC_HEART:70"
+        "GEMSTONE_FUEL_TANK:1.0",
+        "PRECURSOR_APPARATUS:16.0",
+        "GEMSTONE_MIXTURE:25.0",
+        "PLASMA:32.0"
       ],
-      "count": 1,
+      "count": 1.0,
       "overrideOutputId": "PERFECTLY_CUT_FUEL_TANK",
       "duration": 30
     }
