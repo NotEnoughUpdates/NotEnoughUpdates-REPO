@@ -53,42 +53,46 @@
     "EPIC": {
       "1": {
         "otherNums": [
-          0.1
+          0.02,
+          0.02
         ],
         "statNums": {
-          "FEROCITY": 0.0,
-          "STRENGTH": 0.0
+          "MINING_FORTUNE": 1.0,
+          "HEAT_RESISTANCE": 1.5
         }
       },
       "100": {
         "otherNums": [
-          10.0
+          2,
+          2
         ],
         "statNums": {
-          "FEROCITY": 10.0,
-          "STRENGTH": 25.0
+          "MINING_FORTUNE": 100,
+          "HEAT_RESISTANCE": 150
         }
       }
     },
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          0.1,
+          0.03,
+          0.04,
           0.1
         ],
         "statNums": {
-          "FEROCITY": 0.0,
-          "STRENGTH": 0.0
+          "MINING_FORTUNE": 1.0,
+          "HEAT_RESISTANCE": 1.5
         }
       },
       "100": {
         "otherNums": [
-          10.0,
-          15.0
+          3,
+          4,
+          10
         ],
         "statNums": {
-          "FEROCITY": 10.0,
-          "STRENGTH": 25.0
+          "MINING_FORTUNE": 100,
+          "HEAT_RESISTANCE": 150
         }
       }
     }
@@ -1995,25 +1999,23 @@
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          0.5,
+          2.5,
           1,
           0.5
         ],
         "statNums": {
-          "SPEED": 0.2,
-          "CRIT_CHANCE": 0.1,
+          "ORE_FORTUNE": 1.0,
           "MAGIC_FIND": 0.07
         }
       },
       "100": {
         "otherNums": [
-          50,
+          250,
           100,
           50
         ],
         "statNums": {
-          "SPEED": 20,
-          "CRIT_CHANCE": 10,
+          "ORE_FORTUNE": 100,
           "MAGIC_FIND": 7
         }
       }
@@ -3039,11 +3041,11 @@
       "1": {
         "otherNums": [
           0.2,
-          1,
+          0.5,
           1
         ],
         "statNums": {
-          "MINING_SPEED": 0.75,
+          "MINING_SPEED": 1.5,
           "INTELLIGENCE": 1,
           "MAGIC_FIND": 0.05
         }
@@ -3051,11 +3053,11 @@
       "100": {
         "otherNums": [
           25,
-          100,
+          50,
           100
         ],
         "statNums": {
-          "MINING_SPEED": 75,
+          "MINING_SPEED": 150,
           "INTELLIGENCE": 100,
           "MAGIC_FIND": 5
         }
@@ -4102,106 +4104,110 @@
     "COMMON": {
       "1": {
         "otherNums": [
-          0.1
-        ],
-        "statNums": {
-          "DEFENSE": 1.0,
-          "HEALTH": 0.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          5
-        ],
-        "statNums": {
-          "DEFENSE": 100.0,
-          "HEALTH": 20.0
-        }
-      }
-    },
-    "EPIC": {
-      "1": {
-        "otherNums": [
-          0.1,
           0.3
         ],
         "statNums": {
           "DEFENSE": 1.0,
-          "HEALTH": 0.0
+          "MINING_FORTUNE": 0.2
         }
       },
       "100": {
         "otherNums": [
-          15,
           30
         ],
         "statNums": {
           "DEFENSE": 100.0,
-          "HEALTH": 20.0
-        }
-      }
-    },
-    "LEGENDARY": {
-      "1": {
-        "otherNums": [
-          0.1,
-          0.3
-        ],
-        "statNums": {
-          "DEFENSE": 1.0,
-          "HEALTH": 0.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          15,
-          30
-        ],
-        "statNums": {
-          "DEFENSE": 100.0,
-          "HEALTH": 20.0
-        }
-      }
-    },
-    "RARE": {
-      "1": {
-        "otherNums": [
-          0.1,
-          0.2
-        ],
-        "statNums": {
-          "DEFENSE": 1.0,
-          "HEALTH": 0.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          10,
-          25
-        ],
-        "statNums": {
-          "DEFENSE": 100.0,
-          "HEALTH": 20.0
+          "MINING_FORTUNE": 20.0
         }
       }
     },
     "UNCOMMON": {
       "1": {
         "otherNums": [
-          0.1
+          0.3
         ],
         "statNums": {
           "DEFENSE": 1.0,
-          "HEALTH": 0.0
+          "MINING_FORTUNE": 0.2
         }
       },
       "100": {
         "otherNums": [
-          10
+          30
         ],
         "statNums": {
           "DEFENSE": 100.0,
-          "HEALTH": 20.0
+          "MINING_FORTUNE": 20.0
+        }
+      }
+    },
+    "RARE": {
+      "1": {
+        "otherNums": [
+          0.4,
+          0.15
+        ],
+        "statNums": {
+          "DEFENSE": 1.0,
+          "MINING_FORTUNE": 0.2
+        }
+      },
+      "100": {
+        "otherNums": [
+          40,
+          15
+        ],
+        "statNums": {
+          "DEFENSE": 100.0,
+          "MINING_FORTUNE": 20.0
+        }
+      }
+    },
+    "EPIC": {
+      "1": {
+        "otherNums": [
+          0.5,
+          0.25
+        ],
+        "statNums": {
+          "DEFENSE": 1.0,
+          "MINING_FORTUNE": 0.2
+        }
+      },
+      "100": {
+        "otherNums": [
+          50,
+          25
+        ],
+        "statNums": {
+          "DEFENSE": 100.0,
+          "MINING_FORTUNE": 20.0
+        }
+      }
+    },
+    "LEGENDARY": {
+      "1": {
+        "otherNums": [
+          0.5,
+          1.5,
+          1,
+          0.3
+        ],
+        "statNums": {
+          "DEFENSE": 1.0,
+          "MINING_FORTUNE": 0.2
+        }
+      },
+      "100": {
+        "otherNums": [
+          50,
+          150,
+          3,
+          30
+        ],
+        "statNums": {
+          "DEFENSE": 100.0,
+          "MINING_FORTUNE": 20.0
         }
       }
     }
@@ -4766,72 +4772,66 @@
     "RARE": {
       "1": {
         "otherNums": [
-          1.2,
-          0
+          0.3
         ],
         "statNums": {
-          "MINING_SPEED": 0.0,
-          "DEFENSE": 0.0
+          "MINING_SPEED": 1.0,
+          "MINING_FORTUNE": 1.25
         }
       },
       "100": {
         "otherNums": [
-          100,
-          2.5
+          30
         ],
         "statNums": {
-          "MINING_SPEED": 100.0,
-          "DEFENSE": 100.0
+          "MINING_SPEED": 125,
+          "MINING_FORTUNE": 135
         }
       }
     },
     "EPIC": {
       "1": {
         "otherNums": [
-          1.2,
-          0,
+          0.4,
           1
         ],
         "statNums": {
-          "MINING_SPEED": 0.0,
-          "DEFENSE": 0.0
+          "MINING_SPEED": 1.0,
+          "MINING_FORTUNE": 1.25
         }
       },
       "100": {
         "otherNums": [
-          125,
-          3.0,
+          40,
           100
         ],
         "statNums": {
-          "MINING_SPEED": 100.0,
-          "DEFENSE": 100.0
+          "MINING_SPEED": 125,
+          "MINING_FORTUNE": 135
         }
       }
     },
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          1.2,
-          0,
-          1,
+          0.5,
+          1.25,
           0.2
         ],
         "statNums": {
-          "MINING_SPEED": 0.0,
-          "DEFENSE": 0.0
+          "MINING_SPEED": 1.0,
+          "MINING_FORTUNE": 1.25
         }
       },
       "100": {
         "otherNums": [
+          50,
           125,
-          3.0,
-          100,
           20
         ],
         "statNums": {
-          "MINING_SPEED": 100.0,
-          "DEFENSE": 100.0
+          "MINING_SPEED": 125,
+          "MINING_FORTUNE": 135
         }
       }
     }
