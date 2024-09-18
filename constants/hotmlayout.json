@@ -89,9 +89,9 @@
         "cost": "(pow (+ level 2) 3.1)",
         "stat": "(round-decimals (+ 2 (* level 0.1)) 1)",
         "lore": [
-          "§7When mining Mithril Ore, you have a",
-          "§7§a{stat}% §7chance to convert the block into",
-          "§7Titanium Ore."
+          "§7When mining §2Mithril Ore§7, you have a",
+          "§7§a{stat}% §7chance to convert the block",
+          "§7into §fTitanium Ore§7."
         ]
       },
       "pickobulus": {
@@ -185,14 +185,14 @@
         ]
       },
       "old_school": {
-        "name": "§cOld-School",
+        "name": "Old-School",
         "x": 1,
         "y": 6,
         "maxLevel": 20,
-        "powder": "GLACITE",
+        "powder": "GEMSTONE",
         "item": "(npi level0 maxLevel)",
-        "cost": "UNKNOWN",
-        "stat": "UNKNOWN",
+        "cost": "(pow (+ level 2) 4)",
+        "stat": "(* level 5)",
         "lore": [
           "§7Grants §6+5☘ Ore Fortune§7."
         ]
@@ -202,7 +202,7 @@
         "x": 2,
         "y": 6,
         "maxLevel": 140,
-        "powder": "MITHRIL",
+        "powder": "GEMSTONE",
         "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 2.3)",
         "stat": "(+ (* level 5) 50)",
@@ -216,7 +216,7 @@
         "x": 3,
         "y": 6,
         "maxLevel": 190,
-        "powder": "MITHRIL",
+        "powder": "GEMSTONE",
         "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 2.2)",
         "statChance": "(* 100 (- (+ 0.45 (* 0.05 level)) (floor (+ 0.45 (* 0.05 level)))))",
@@ -228,16 +228,16 @@
         ]
       },
       "fortunate": {
-        "name": "§cGem Lover",
+        "name": "Gem Lover",
         "x": 4,
         "y": 6,
         "maxLevel": 20,
         "powder": "GEMSTONE",
         "item": "(npi level0 maxLevel)",
-        "cost": "UNKNOWN",
-        "stat": "UNKNOWN",
+        "cost": "(pow (+ level 2) 4)",
+        "stat": "(+ (* level 4) 20)",
         "lore": [
-          "§7Grants §6+24☘ Gemstone Fortune§7."
+          "§7Grants §6+{stat}☘ Gemstone Fortune§7."
         ]
       },
       "mining_experience": {
@@ -245,7 +245,7 @@
         "x": 5,
         "y": 6,
         "maxLevel": 100,
-        "powder": "MITHRIL",
+        "powder": "GEMSTONE",
         "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 2.3)",
         "stat": "(round-decimals (+ 5 (* level 0.1)) 1)",
@@ -258,7 +258,7 @@
         "x": 6,
         "y": 6,
         "maxLevel": 1,
-        "powder": "MITHRIL",
+        "powder": "GEMSTONE",
         "item": "(npi level0 maxLevel)",
         "cost": "0",
         "lore": [
@@ -272,8 +272,8 @@
         "name": "Daily Grind",
         "x": 1,
         "y": 5,
-        "maxLevel": 100,
-        "powder": "GLACITE",
+        "maxLevel": 1,
+        "powder": "GEMSTONE",
         "item": "(npi level0 maxLevel)",
         "cost": "(+ 200 (* (+ level 1) 18))",
         "stat": "(* level 50)",
@@ -287,7 +287,7 @@
         ]
       },
       "special_0": {
-        "name": "Peak of the Mountain",
+        "name": "Core of the Mountain",
         "x": 3,
         "y": 5,
         "maxLevel": 10,
@@ -341,7 +341,7 @@
         "name": "Daily Powder",
         "x": 5,
         "y": 5,
-        "maxLevel": 100,
+        "maxLevel": 1,
         "powder": "MITHRIL",
         "item": "(npi level0 maxLevel)",
         "cost": "(+ 200 (* level 18))",
@@ -357,13 +357,13 @@
         ]
       },
       "anomalous_desire": {
-        "name": "§cAnomalous Desire",
+        "name": "Anomalous Desire",
         "x": 0,
         "y": 4,
         "maxLevel": 1,
         "powder": "GEMSTONE",
         "item": "(api level0)",
-        "cost": "UNKNOWN",
+        "cost": "0",
         "stat": "UNKNOWN",
         "lore": [
           "§6Pickaxe Ability: Anomalous Desire",
@@ -380,45 +380,46 @@
         ]
       },
       "blockhead": {
-        "name": "§cBlockhead",
+        "name": "Blockhead",
         "x": 1,
         "y": 4,
         "maxLevel": 20,
         "powder": "GEMSTONE",
         "item": "(npi level0 maxLevel)",
-        "cost": "UNKNOWN",
-        "stat": "UNKNOWN",
+        "cost": "(pow (+ level 2) 4)",
+        "stat": "(* level 5)",
         "lore": [
           "§7Grants §6+5☘ Block Fortune§7."
         ]
       },
       "subterranean_fisher": {
-        "name": "§cSubterranean Fisher",
+        "name": "Subterranean Fisher",
         "x": 2,
         "y": 4,
         "maxLevel": 40,
         "powder": "GEMSTONE",
         "item": "(npi level0 maxLevel)",
-        "cost": "UNKNOWN",
-        "stat": "UNKNOWN",
+        "cost": "(pow (+ level 2) 3.7)",
+        "statFishingSpeed": "(+ (* level 0.5) 5)",
+        "statSeaCreatureChance": "(+ (* level 0.1) 1)",
         "lore": [
-          "§7Grants §b+5.5☂ Fishing Speed§7 and",
-          "§7§3+1.1α Sea Creature Chance§7 when in",
+          "§7Grants §b+{statFishingSpeed}☂ Fishing Speed§7 and",
+          "§7§3+{statSeaCreatureChance}α Sea Creature Chance§7 when in",
           "§7the §5Crystal Hollows§7 and §bGlacite",
           "§bTunnels§7."
         ]
       },
       "keep_it_cool": {
-        "name": "§cKeep It Cool",
+        "name": "Keep It Cool",
         "x": 3,
         "y": 4,
         "maxLevel": 50,
         "powder": "GEMSTONE",
         "item": "(npi level0 maxLevel)",
-        "cost": "UNKNOWN",
-        "stat": "UNKNOWN",
+        "cost": "(pow (+ level 2) 3.07)",
+        "stat": "(* level 0.4)",
         "lore": [
-          "§7Grants §c+0.4♨ Heat Resistance§7."
+          "§7Grants §c+{stat}♨ Heat Resistance§7."
         ]
       },
       "lonesome_miner": {
@@ -528,14 +529,13 @@
         ]
       },
       "miners_blessing": {
-        "name": "§cMiner's Blessing",
+        "name": "Miner's Blessing",
         "x": 0,
         "y": 2,
         "maxLevel": 1,
         "powder": "GLACITE",
         "item": "(npi level0 maxLevel)",
-        "cost": "UNKNOWN",
-        "stat": "UNKNOWN",
+        "cost": "0",
         "lore": [
           "§7Grants §b+30✯ Magic Find§7 on all §bMining",
           "§bIslands§7."
@@ -577,8 +577,8 @@
         "maxLevel": 100,
         "powder": "GLACITE",
         "item": "(npi level0 maxLevel)",
-        "cost": "UNKNOWN",
-        "stat": "UNKNOWN",
+        "cost": "(pow (+ level 2) 2.6)",
+        "stat": "(* level 0.1)",
         "lore": [
           "§7Grants §e+0.1▚ Gemstone Spread§7 while",
           "§7in the §bGlacite Mineshafts§7."
@@ -620,30 +620,16 @@
         ]
       },
       "metal_head": {
-        "name": "§cMetal Head",
+        "name": "Metal Head",
         "x": 1,
         "y": 1,
         "maxLevel": 20,
         "powder": "GLACITE",
         "item": "(npi level0 maxLevel)",
-        "cost": "UNKNOWN",
-        "stat": "UNKNOWN",
+        "cost": "(pow (+ level 2) 4)",
+        "stat": "(* level 5)",
         "lore": [
-          "§7Grants §6+5☘ Dwarven Metal Fortune§7."
-        ]
-      },
-      "rags_to_riches": {
-        "name": "§cRags to Riches",
-        "x": 3,
-        "y": 1,
-        "maxLevel": 50,
-        "powder": "GLACITE",
-        "item": "(npi level0 maxLevel)",
-        "cost": "UNKNOWN",
-        "stat": "UNKNOWN",
-        "lore": [
-          "§7Grants §6+4☘ Mining Fortune §7while in a",
-          "§7§bGlacite Mineshaft§7."
+          "§7Grants §6+{stat}☘ Dwarven Metal Fortune§7."
         ]
       },
       "eager_adventurer": {
@@ -680,18 +666,18 @@
         ]
       },
       "crystalline": {
-        "name": "§cCrystalline",
+        "name": "Crystalline",
         "x": 1,
         "y": 0,
         "maxLevel": 50,
         "powder": "GLACITE",
         "item": "(npi level0 maxLevel)",
-        "cost": "UNKNOWN",
-        "stat": "UNKNOWN",
+        "cost": "(pow (+ level 2) 3.3)",
+        "stat": "(* level 0.5)",
         "lore": [
           "§7Increases your chances of finding a",
           "§7§bGlacite Mineshaft§7 containing a",
-          "§7§dGemstone Crystal§7 by §a§a0.5%§7."
+          "§7§dGemstone Crystal§7 by §a§a{stat}%§7."
         ]
       },
       "gifts_from_the_departed": {
@@ -709,16 +695,16 @@
         ]
       },
       "mining_master": {
-        "name": "§cMining Master",
+        "name": "Mining Master",
         "x": 3,
         "y": 0,
         "maxLevel": 10,
         "powder": "GLACITE",
         "item": "(npi level0 maxLevel)",
-        "cost": "UNKNOWN",
-        "stat": "UNKNOWN",
+        "cost": "(pow (+ level 8) 5)",
+        "stat": "(* level 0.1)",
         "lore": [
-          "§7Grants §5+0.1✧ Pristine§7."
+          "§7Grants §5+{stat}✧ Pristine§7."
         ]
       },
       "hungry_for_more": {
@@ -737,28 +723,28 @@
         ]
       },
       "vanguard_seeker": {
-        "name": "§cVanguard Seeker",
+        "name": "Vanguard Seeker",
         "x": 5,
         "y": 0,
         "maxLevel": 50,
         "powder": "GLACITE",
         "item": "(npi level0 maxLevel)",
-        "cost": "UNKNOWN",
-        "stat": "UNKNOWN",
+        "cost": "(pow (+ level 2) 3.1)",
+        "stat": "(* level 1)",
         "lore": [
           "§7Increases your chances of finding a",
           "§7§bGlacite Mineshaft§7 containing a",
-          "§7§fVanguard Corpse§7 by §a§a1%§7."
+          "§7§fVanguard Corpse§7 by §a§a{stat}%§7."
         ]
       },
       "sheer_force": {
-        "name": "§cSheer Force",
+        "name": "Sheer Force",
         "x": 6,
         "y": 0,
         "maxLevel": 1,
         "powder": "GLACITE",
         "item": "(api level0)",
-        "cost": "UNKNOWN",
+        "cost": "0",
         "stat": "UNKNOWN",
         "lore": [
           "§6Pickaxe Ability: Sheer Force",
