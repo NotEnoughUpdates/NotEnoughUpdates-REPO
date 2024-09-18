@@ -30,25 +30,25 @@
     {
       "type": "npc_shop",
       "cost": [
-        "SKYBLOCK_COIN:100000",
-        "MITHRIL_ORE:200"
+        "ENCHANTED_MITHRIL:2",
+        "FRACTURED_MITHRIL_PICKAXE:1"
       ],
       "result": "BANDAGED_MITHRIL_PICKAXE"
     },
     {
       "type": "npc_shop",
       "cost": [
-        "SKYBLOCK_COIN:1000000",
-        "TITANIUM_ORE:100",
-        "BEJEWELED_HANDLE"
+        "RUSTY_TITANIUM_PICKAXE:1",
+        "ENCHANTED_TITANIUM:4",
+        "BEJEWELED_HANDLE:1"
       ],
       "result": "TITANIUM_PICKAXE"
     },
     {
       "type": "npc_shop",
       "cost": [
-        "TITANIUM_PICKAXE",
-        "REFINED_TITANIUM:3"
+        "TITANIUM_PICKAXE:1",
+        "REFINED_TITANIUM:1"
       ],
       "result": "REFINED_TITANIUM_PICKAXE"
     },
@@ -58,6 +58,31 @@
         "SKYBLOCK_COIN:20000"
       ],
       "result": "BIOFUEL"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:50000"
+      ],
+      "result": "RUSTY_TITANIUM_PICKAXE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "MITHRIL_PICKAXE:1",
+        "REFINED_MITHRIL:2"
+      ],
+      "result": "REFINED_MITHRIL_PICKAXE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "BANDAGED_MITHRIL_PICKAXE:1",
+        "ENCHANTED_MITHRIL:64",
+        "BEJEWELED_HANDLE:1",
+        "ENCHANTED_GOLD:64"
+      ],
+      "result": "MITHRIL_PICKAXE"
     }
   ]
 }

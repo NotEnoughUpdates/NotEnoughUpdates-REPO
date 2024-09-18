@@ -1,25 +1,24 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§f§f§9Titanium-Plated Drill Engine",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"9afc5422-ee63-3293-b316-80fad0938c70\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxMDYzNjAyNzQzOCwKICAicHJvZmlsZUlkIiA6ICI5MWZlMTk2ODdjOTA0NjU2YWExZmMwNTk4NmRkM2ZlNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJoaGphYnJpcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mYjkwNTE0ODVlMTU3MDA0MTgwMjJlMzhhNWRiMjhhMDQ5YTJlNjI3YzVmZmE1NmZkMzEzYmNkZWFkNDA2YThlIgogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§8Drill Part\",1:\"\",2:\"§7Part Type: §6Drill Engine\",3:\"\",4:\"§7Grants §a§6+100⸕ Mining Speed§7.\",5:\"\",6:\"§7Can be applied to Drills by\",7:\"§7talking to a §2Drill Mechanic§7!\",8:\"\",9:\"§7§4❣ §cRequires §5Heart of the Mountain Tier 4§c.\",10:\"§9§lRARE\"],Name:\"§f§f§9Titanium-Plated Drill Engine\"},ExtraAttributes:{id:\"TITANIUM_DRILL_ENGINE\"}}",
+  "displayname": "§9Titanium-Plated Drill Engine",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"9afc5422-ee63-3293-b316-80fad0938c70\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxMDYzNjAyNzQzOCwKICAicHJvZmlsZUlkIiA6ICI5MWZlMTk2ODdjOTA0NjU2YWExZmMwNTk4NmRkM2ZlNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJoaGphYnJpcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mYjkwNTE0ODVlMTU3MDA0MTgwMjJlMzhhNWRiMjhhMDQ5YTJlNjI3YzVmZmE1NmZkMzEzYmNkZWFkNDA2YThlIgogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§8Drill Part\",1:\"\",2:\"§7§6+150⸕ Mining Speed\",3:\"§7§6+15☘ Mining Fortune\",4:\"\",5:\"§7Put this item in the §6Drill Engine §7slot\",6:\"§7of a Drill at a §2Drill Mechanic§7!\",7:\"\",8:\"§7§4❣ §cRequires §5Heart of the Mountain Tier 5§c.\",9:\"§9§lRARE\"],Name:\"§9Titanium-Plated Drill Engine\"},ExtraAttributes:{id:\"TITANIUM_DRILL_ENGINE\"}}",
   "damage": 3,
   "lore": [
     "§8Drill Part",
     "",
-    "§7Part Type: §6Drill Engine",
+    "§7§6+150⸕ Mining Speed",
+    "§7§6+15☘ Mining Fortune",
     "",
-    "§7Grants §a§6+100⸕ Mining Speed§7.",
+    "§7Put this item in the §6Drill Engine §7slot",
+    "§7of a Drill at a §2Drill Mechanic§7!",
     "",
-    "§7Can be applied to Drills by",
-    "§7talking to a §2Drill Mechanic§7!",
-    "",
-    "§7§4❣ §cRequires §5Heart of the Mountain Tier 4§c.",
+    "§7§4❣ §cRequires §5Heart of the Mountain Tier 5§c.",
     "§9§lRARE"
   ],
   "internalname": "TITANIUM_DRILL_ENGINE",
-  "crafttext": "Requires: HotM 4",
+  "crafttext": "Requires: HotM 5",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
+  "modver": "",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Titanium-Plated_Drill_Engine",
@@ -29,14 +28,13 @@
     {
       "type": "forge",
       "inputs": [
-        "DRILL_ENGINE:10",
-        "PLASMA:5",
-        "MITHRIL_PLATE:4",
-        "REFINED_TITANIUM:5"
+        "DRILL_ENGINE:2",
+        "MITHRIL_DRILL_ENGINE:1",
+        "REFINED_TITANIUM:8"
       ],
       "count": 1,
       "overrideOutputId": "TITANIUM_DRILL_ENGINE",
-      "duration": 108000
+      "duration": 30
     }
   ]
 }

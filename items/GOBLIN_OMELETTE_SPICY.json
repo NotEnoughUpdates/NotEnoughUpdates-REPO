@@ -1,18 +1,15 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Spicy Goblin Omelette",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"4ff58c17-027b-38cc-aceb-bcc751e593d0\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyNDU0NjEwODc2NSwKICAicHJvZmlsZUlkIiA6ICI0ZjU2ZTg2ODk2OGU0ZWEwYmNjM2M2NzRlNzQ3ODdjOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDVUNGTDE1IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JjOTRjNmVkYmQ5YzkxYTQ1MTA1YjdlMWZlOWViNThmMWJlZWM1NDliNzM4NTAxZDc4NDFmZTczZTA0NzQ3YjkiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§8Drill Part\",1:\"\",2:\"§7Part Type: §6Upgrade Module\",3:\"\",4:\"§7Titanium Ore will drop §a20 §2Mithril Powder §7when\",5:\"§7mined.\",6:\"\",7:\"§7Can be applied to Drills by talking to\",8:\"§7a §2Drill Mechanic§7!\",9:\"\",10:\"§7§7§oMay cause infections\",11:\"\",12:\"§7§4❣ §cRequires §5Heart of the Mountain Tier 4§c.\",13:\"§9§lRARE\"],Name:\"§9Spicy Goblin Omelette\"},ExtraAttributes:{stored_drill_fuel:2319,id:\"GOBLIN_OMELETTE_SPICY\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"4ff58c17-027b-38cc-aceb-bcc751e593d0\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyNDU0NjEwODc2NSwKICAicHJvZmlsZUlkIiA6ICI0ZjU2ZTg2ODk2OGU0ZWEwYmNjM2M2NzRlNzQ3ODdjOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDVUNGTDE1IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JjOTRjNmVkYmQ5YzkxYTQ1MTA1YjdlMWZlOWViNThmMWJlZWM1NDliNzM4NTAxZDc4NDFmZTczZTA0NzQ3YjkiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§8Drill Part\",1:\"\",2:\"§7Earn §9+20% Powder §7from all sources.\",3:\"\",4:\"§7Put this item in the §6Upgrade Module\",5:\"§6§7slot of a Drill at a §2Drill Mechanic§7!\",6:\"\",7:\"§7§7§oMay cause infections\",8:\"\",9:\"§7§4❣ §cRequires §5Heart of the Mountain Tier 4§c.\",10:\"§9§lRARE\"],Name:\"§9Spicy Goblin Omelette\"},ExtraAttributes:{stored_drill_fuel:2319,id:\"GOBLIN_OMELETTE_SPICY\"}}",
   "damage": 3,
   "lore": [
     "§8Drill Part",
     "",
-    "§7Part Type: §6Upgrade Module",
+    "§7Earn §9+20% Powder §7from all sources.",
     "",
-    "§7Titanium Ore will drop §a20 §2Mithril Powder §7when",
-    "§7mined.",
-    "",
-    "§7Can be applied to Drills by talking to",
-    "§7a §2Drill Mechanic§7!",
+    "§7Put this item in the §6Upgrade Module",
+    "§6§7slot of a Drill at a §2Drill Mechanic§7!",
     "",
     "§7§7§oMay cause infections",
     "",
@@ -22,7 +19,7 @@
   "internalname": "GOBLIN_OMELETTE_SPICY",
   "crafttext": "Requires: HotM 4",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
+  "modver": "",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Spicy_Goblin_Omelette",
@@ -32,12 +29,13 @@
     {
       "type": "forge",
       "inputs": [
-        "GOBLIN_EGG_RED:99",
-        "FLAWLESS_RUBY_GEM:1"
+        "FLAWLESS_RUBY_GEM:1",
+        "GOBLIN_OMELETTE:1",
+        "GOBLIN_EGG_RED:96"
       ],
       "count": 1,
       "overrideOutputId": "GOBLIN_OMELETTE_SPICY",
-      "duration": 72000
+      "duration": 64800
     }
   ]
 }

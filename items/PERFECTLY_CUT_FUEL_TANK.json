@@ -1,23 +1,22 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Perfectly-Cut Fuel Tank",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"7e36a3df-9a3e-34b5-ad5a-0a4ff1657867\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyNTQ5MjcxMjIxMiwKICAicHJvZmlsZUlkIiA6ICI5ZDIyZGRhOTVmZGI0MjFmOGZhNjAzNTI1YThkZmE4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYWZlRHJpZnQ0OCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mN2U1NDFkZmI0YmExZjdkYzI4YjU0OGUzNDdhYmJkYzk4N2ViZTBlNjFjNDlmYTg3MTExZWYxYjJkY2IyMjE4IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§8Drill Part\",1:\"\",2:\"§7Part Type: §6Fuel Tank\",3:\"\",4:\"§7Increases the fuel capacity to §2100,000§7.\",5:\"\",6:\"§7Can be applied to Drills by talking to\",7:\"§7a §2Drill Mechanic§7!\",8:\"\",9:\"§7§4❣ §cRequires §5Heart of the Mountain Tier 5§c.\",10:\"§9§lRARE\"],Name:\"§9Perfectly-Cut Fuel Tank\"},ExtraAttributes:{id:\"PERFECTLY_CUT_FUEL_TANK\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"7e36a3df-9a3e-34b5-ad5a-0a4ff1657867\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyNTQ5MjcxMjIxMiwKICAicHJvZmlsZUlkIiA6ICI5ZDIyZGRhOTVmZGI0MjFmOGZhNjAzNTI1YThkZmE4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYWZlRHJpZnQ0OCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mN2U1NDFkZmI0YmExZjdkYzI4YjU0OGUzNDdhYmJkYzk4N2ViZTBlNjFjNDlmYTg3MTExZWYxYjJkY2IyMjE4IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§8Drill Part\",1:\"\",2:\"§7§7§2100,000 Max Fuel Capacity\",3:\"§7§7§a-10% Pickaxe Ability Cooldown\",4:\"\",5:\"§7Put this item in the §6Fuel Tank §7slot of\",6:\"§7a Drill at a §2Drill Mechanic§7!\",7:\"\",8:\"§7§4❣ §cRequires §5Heart of the Mountain Tier 8§c.\",9:\"§9§lRARE\"],Name:\"§9Perfectly-Cut Fuel Tank\"},ExtraAttributes:{id:\"PERFECTLY_CUT_FUEL_TANK\"}}",
   "damage": 3,
   "lore": [
     "§8Drill Part",
     "",
-    "§7Part Type: §6Fuel Tank",
+    "§7§7§2100,000 Max Fuel Capacity",
+    "§7§7§a-10% Pickaxe Ability Cooldown",
     "",
-    "§7Increases the fuel capacity to §2100,000§7.",
+    "§7Put this item in the §6Fuel Tank §7slot of",
+    "§7a Drill at a §2Drill Mechanic§7!",
     "",
-    "§7Can be applied to Drills by talking to",
-    "§7a §2Drill Mechanic§7!",
-    "",
-    "§7§4❣ §cRequires §5Heart of the Mountain Tier 5§c.",
+    "§7§4❣ §cRequires §5Heart of the Mountain Tier 8§c.",
     "§9§lRARE"
   ],
   "internalname": "PERFECTLY_CUT_FUEL_TANK",
-  "crafttext": "",
+  "crafttext": "Requires: HotM 8",
   "clickcommand": "viewrecipe",
   "modver": "",
   "infoType": "WIKI_URL",
@@ -29,13 +28,14 @@
     {
       "type": "forge",
       "inputs": [
-        "GEMSTONE_FUEL_TANK:1",
-        "GEMSTONE_MIXTURE:25",
-        "SYNTHETIC_HEART:70"
+        "GEMSTONE_FUEL_TANK:1.0",
+        "PRECURSOR_APPARATUS:16.0",
+        "GEMSTONE_MIXTURE:25.0",
+        "PLASMA:32.0"
       ],
-      "count": 1,
+      "count": 1.0,
       "overrideOutputId": "PERFECTLY_CUT_FUEL_TANK",
-      "duration": 180000
+      "duration": 30
     }
   ]
 }

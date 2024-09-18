@@ -1,18 +1,16 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Tungsten Regulator",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"a238607f-2e8f-3539-ac93-896bec59c95d\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwOTA2MTIyNjgwNSwKICAicHJvZmlsZUlkIiA6ICI0MWZlYzZlMWQzNWM0ZDIyOWYxOGQ3OGRkZjk3ZGQzNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSaWJva2luZ190dyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hMGNkYjY2YjUxNzliMmFmNjBiN2NmMDQ1Y2Q0MDNjOWEzMDRhNGIxOGFhMWE1ZWFhMmQ4YzQ3ODIxNDkyOTRmIgogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§8Drill Part\",1:\"\",2:\"§7Part Type: §6Upgrade Module\",3:\"\",4:\"§7Every §a100 §7fuel consumed increases your §c♨\",5:\"§cHeat §7or §b❄ Cold §7by §a1§7.\",6:\"\",7:\"§7Can be applied to Drills by talking to\",8:\"§7a §2Drill Mechanic§7!\",9:\"\",10:\"§7§4❣ §cRequires §5Heart of the Mountain Tier 8§c.\",11:\"§9§lRARE\"],Name:\"§9Tungsten Regulator\"},ExtraAttributes:{id:\"TUNGSTEN_KEYCHAIN\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"a238607f-2e8f-3539-ac93-896bec59c95d\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwOTA2MTIyNjgwNSwKICAicHJvZmlsZUlkIiA6ICI0MWZlYzZlMWQzNWM0ZDIyOWYxOGQ3OGRkZjk3ZGQzNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSaWJva2luZ190dyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hMGNkYjY2YjUxNzliMmFmNjBiN2NmMDQ1Y2Q0MDNjOWEzMDRhNGIxOGFhMWE1ZWFhMmQ4YzQ3ODIxNDkyOTRmIgogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§8Drill Part\",1:\"\",2:\"§7§7Decreases your §c§c♨ Heat §7or §b§b❄ Cold\",3:\"§7§b§7by §a1 §7for every §2500 Fuel §7used.\",4:\"\",5:\"§7Put this item in the §6Upgrade Module\",6:\"§6§7slot of a Drill at a §2Drill Mechanic§7!\",7:\"\",8:\"§7§4❣ §cRequires §5Heart of the Mountain Tier 8§c.\",9:\"§9§lRARE\"],Name:\"§9Tungsten Regulator\"},ExtraAttributes:{id:\"TUNGSTEN_KEYCHAIN\"}}",
   "damage": 3,
   "lore": [
     "§8Drill Part",
     "",
-    "§7Part Type: §6Upgrade Module",
+    "§7§7Decreases your §c§c♨ Heat §7or §b§b❄ Cold",
+    "§7§b§7by §a1 §7for every §2500 Fuel §7used.",
     "",
-    "§7Every §a100 §7fuel consumed increases your §c♨",
-    "§cHeat §7or §b❄ Cold §7by §a1§7.",
-    "",
-    "§7Can be applied to Drills by talking to",
-    "§7a §2Drill Mechanic§7!",
+    "§7Put this item in the §6Upgrade Module",
+    "§6§7slot of a Drill at a §2Drill Mechanic§7!",
     "",
     "§7§4❣ §cRequires §5Heart of the Mountain Tier 8§c.",
     "§9§lRARE"
@@ -31,7 +29,7 @@
         "TUNGSTEN_PLATE:5.0"
       ],
       "count": 1,
-      "duration": 21600,
+      "duration": 64800,
       "overrideOutputId": "TUNGSTEN_KEYCHAIN"
     }
   ],
