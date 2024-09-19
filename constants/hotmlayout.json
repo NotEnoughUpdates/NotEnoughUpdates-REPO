@@ -41,8 +41,8 @@
         "powder": "MITHRIL",
         "item": "(api level0)",
         "cost": "",
-        "statBoost": "(if (lt potm 2) \"200\" \"300\")",
-        "statDuration": "(if (lt potm 2) \"15\" \"20\")",
+        "statBoost": "(if (lt potm 2) \"200\" \"250\")",
+        "statDuration": "(if (lt potm 2) \"10\" \"15\")",
         "lore": [
           "",
           "§6Pickaxe Ability: Mining Speed Boost",
@@ -74,7 +74,7 @@
         "powder": "MITHRIL",
         "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 3.05)",
-        "stat": "(* level 5)",
+        "stat": "(* level 2)",
         "lore": [
           "§7Grants §a+§a{stat} §6☘ Mining Fortune§7."
         ]
@@ -102,7 +102,7 @@
         "powder": "MITHRIL",
         "item": "(api level0)",
         "cost": "",
-        "stat": "(if (lt potm 2) \"120\" \"110\")",
+        "stat": "(if (lt potm 2) \"60\" \"50\")",
         "lore": [
           "",
           "§6Pickaxe Ability: Pickobulus",
@@ -135,7 +135,7 @@
       "efficient_miner": {
         "name": "Efficient Miner",
         "x": 3,
-        "y": 6,
+        "y": 7,
         "maxLevel": 100,
         "powder": "MITHRIL",
         "item": "(npi level0 maxLevel)",
@@ -212,12 +212,12 @@
       "mole": {
         "name": "Mole",
         "x": 3,
-        "y": 4,
-        "maxLevel": 190,
+        "y": 6,
+        "maxLevel": 200,
         "powder": "GEMSTONE",
         "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 2.2)",
-        "stat": "(+ (- level 1) 50)",
+        "stat": "(+ 50 (/ (* (- level 1) 350) 199))",
         "lore": [
           "§7Grants §e+{stat}▚ Mining Spread§7 when",
           "§7mining Hard Stone."
@@ -361,11 +361,12 @@
         "powder": "GEMSTONE",
         "item": "(api level0)",
         "cost": "0",
-        "stat": "UNKNOWN",
+        "stat": "(if (lt potm 2) \"30\" \"40\")",
+        "statCooldown": "(if (lt potm 2) \"120\" \"110\")",
         "lore": [
           "§6Pickaxe Ability: Anomalous Desire",
           "§7Increases the chances of triggering",
-          "§7rare occurrences by §a§a40%§7 for §a30s§7.",
+          "§7rare occurrences by §a§a{stat}%§7 for §a30s§7.",
           "",
           "§7Rare occurrences include:",
           "§7§8 ■ §6Golden Goblins.",
@@ -373,7 +374,7 @@
           "§7§8 ■ §6Powder Ghasts.",
           "§7§8 ■ §6Worms.",
           "§7§8 ■ §bGlacite Mineshafts.",
-          "§8Cooldown: §a120s"
+          "§8Cooldown: §a{statCooldown}s"
         ]
       },
       "blockhead": {
@@ -460,15 +461,16 @@
         "powder": "GEMSTONE",
         "item": "(api level0)",
         "cost": "",
-        "statDuration": "(if (lt potm 2) \"10\" \"15\")",
-        "statCooldown": "(if (lt potm 2) \"60\" \"59\")",
+        "stat": "(if (lt potm 2) \"5\" \"10\")",
+        "statDuration": "(if (lt potm 2) \"25\" \"30\")",
         "lore": [
           "",
           "§6Pickaxe Ability: Maniac Miner",
-          "§7Spends all your Mana and grants §a+1",
-          "§a§6⸕ Mining Speed §7for every §b10 Mana",
-          "§b§7spent, for §a§a{statDuration}s§7.",
-          "§8Cooldown: §a{statCooldown}s"
+          "§7Grants §2+1Ⓟ Breaking Power§7 and a",
+          "§7stack of §6+{stat}☘ Mining Fortune §8(caps",
+          "§8at 1000) §7 per block broken for §a{statDuration}s§7.",
+          "§7Each block broken consumes §b20 Mana§7.",
+          "§8Cooldown: §a120s"
         ]
       },
       "powder_buff": {
@@ -506,7 +508,7 @@
         "powder": "GEMSTONE",
         "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 3.2)",
-        "stat": "(* level 5)",
+        "stat": "(* level 3)",
         "lore": [
           "§7Grants §a+§a{stat} §6☘ Mining Fortune§7."
         ]
@@ -663,15 +665,14 @@
         "maxLevel": 1,
         "powder": "GLACITE",
         "item": "(api level0)",
-        "cost": "",
-        "statBoost": "(if (lt potm 2) \"25\" \"50\")",
-        "statDuration": "(if (lt potm 2) \"14\" \"16\")",
+        "cost": "0",
+        "statDuration": "(if (lt potm 2) \"20\" \"25\")",
         "lore": [
           "",
           "§6Pickaxe Ability: Gemstone Infusion",
           "§7Increases the effectiveness of",
           "§7§6every Gemstone §7in your pick's",
-          "§7Gemstone Slots by §a{statBoost}% §7for §a{statDuration}s§7.",
+          "§7Gemstone Slots by §a100% §7for §a{statDuration}s§7.",
           "§8Cooldown: §a140s"
         ]
       },
@@ -755,8 +756,9 @@
         "powder": "GLACITE",
         "item": "(api level0)",
         "cost": "0",
-        "stat": "UNKNOWN",
+        "stat": "(if (lt potm 2) \"20\" \"25\")",
         "lore": [
+          "",
           "§6Pickaxe Ability: Sheer Force",
           "§7Grants §e+200▚ Mining Spread§7 for §a§a25s§7.",
           "§8Cooldown: §a120s"
