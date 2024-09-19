@@ -60,10 +60,10 @@
         "item": "(npi level0 maxLevel)",
         "cost": "0",
         "lore": [
-          "§7When mining ore, a particle target",
-          "§7appears on the block that increases",
-          "§7your §6⸕ Mining Speed §7by §a30% §7when",
-          "§7aiming at it."
+          "§7When Mining §6Ores§7 or §8Dwarven Metals§7,",
+          "§7a particle target appears on the",
+          "§7block that increases your §6⸕ Mining",
+          "§6Speed §7by §a30% §7when aiming at it."
         ]
       },
       "mining_fortune": {
@@ -135,16 +135,14 @@
       "efficient_miner": {
         "name": "Efficient Miner",
         "x": 3,
-        "y": 7,
+        "y": 6,
         "maxLevel": 100,
         "powder": "MITHRIL",
         "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 2.6)",
-        "statChance": "(round-decimals (+ 10.4 (* level 0.4)) 1)",
-        "statBlocks": "(round (max (+ 0.31 (* level 0.06)) 1))",
+        "stat": "(* level 3)",
         "lore": [
-          "§7When mining ores, you have a §a{statChance}%",
-          "§a§7chance to mine §a{statBlocks} §7adjacent ores."
+          "§7Grants §e+{stat}▚ Mining Spread§7."
         ]
       },
       "forge_time": {
@@ -171,14 +169,14 @@
         "cost": "0",
         "lore": [
           "§7Every SkyBlock day, you receive a",
-          "§7random buff in the §2Dwarven Mines§7.",
+          "§7random buff while on any §bMining",
+          "§bIsland§7.",
           "",
           "§7Possible Buffs",
-          "§8 ■ §7Gain §a+100 §6⸕ Mining Speed§7.",
-          "§8 ■ §7Gain §a+50 §6☘ Mining Fortune§7.",
+          "§8 ■ §7Gain §6+100⸕ Mining Speed§7.",
+          "§8 ■ §7Gain §6+50☘ Mining Fortune§7.",
           "§8 ■ §7Gain §a+15% §7more Powder while mining.",
-          "§8 ■ §7Reduce Pickaxe Ability cooldown by",
-          "    §7§a20%§7.",
+          "§8 ■ §7§a-20%§7 Pickaxe Ability cooldowns.",
           "§8 ■ §7§a10x §7chance to find Golden and",
           "    §7Diamond Goblins.",
           "§8 ■ §7Gain §a5x §9Titanium §7drops."
@@ -214,17 +212,15 @@
       "mole": {
         "name": "Mole",
         "x": 3,
-        "y": 6,
+        "y": 4,
         "maxLevel": 190,
         "powder": "GEMSTONE",
         "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 2.2)",
-        "statChance": "(* 100 (- (+ 0.45 (* 0.05 level)) (floor (+ 0.45 (* 0.05 level)))))",
-        "statBlocks": "(+ (floor (+ 0.45 (* 0.05 level))) 1)",
+        "stat": "(+ (- level 1) 50)",
         "lore": [
-          "§7When mining Hard Stone, you have a",
-          "§7§a{statChance}% §7chance to mine §a{statBlocks} §7adjacent",
-          "§7Hard Stone blocks."
+          "§7Grants §e+{stat}▚ Mining Spread§7 when",
+          "§7mining Hard Stone."
         ]
       },
       "fortunate": {
@@ -273,17 +269,18 @@
         "x": 1,
         "y": 5,
         "maxLevel": 1,
-        "powder": "GEMSTONE",
+        "powder": "GLACITE",
         "item": "(npi level0 maxLevel)",
-        "cost": "(+ 200 (* (+ level 1) 18))",
+        "cost": "0",
         "stat": "(* level 50)",
         "lore": [
-          "§7§7Your first daily commission in each",
-          "§7Mining Zone grants bonus powder:",
+          "§7§7Your first daily commission on each",
+          "§7§bMining Island§7 grants §9+500 Powder§7,",
+          "§7multiplied by your §5HOTM§7 level.",
           "",
-          "§2Dwarven Mines§7: §a+§a{stat} §2Mithril Powder",
-          "§5Crystal Hollows§7: §a+§a{stat} §dGemstone Powder",
-          "§bGlacite Tunnels§7: §a+§a{stat} §bGlacite Powder"
+          "§2Dwarven Mines§7: §a+5,000 §2Mithril Powder",
+          "§5Crystal Hollows§7: §a+5,000 §dGemstone Powder",
+          "§bGlacite Tunnels§7: §a+5,000 §bGlacite Powder"
         ]
       },
       "special_0": {
@@ -342,9 +339,9 @@
         "x": 5,
         "y": 5,
         "maxLevel": 1,
-        "powder": "MITHRIL",
+        "powder": "GEMSTONE",
         "item": "(npi level0 maxLevel)",
-        "cost": "(+ 200 (* level 18))",
+        "cost": "0",
         "stat": "(+ 364 (* level 36))",
         "lore": [
           "§7The first ore you mine each day",
@@ -435,8 +432,7 @@
           "§7Increases §c❁ Strength§7, §9☣ Crit",
           "§9Chance§7, §9☠ Crit Damage§7, §a❈ Defense§7,",
           "§7and §c❤ Health §7statistics gain by §a{stat}%",
-          "§a§7while in the §5Crystal Hollows§7 and",
-          "§7§bGlacite Tunnels§7."
+          "§a§7while on §bMining Islands§7."
         ]
       },
       "great_explorer": {
@@ -523,7 +519,7 @@
         "powder": "GLACITE",
         "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 3.1)",
-        "stat": "(* level 0.2)",
+        "stat": "(* level 0.4)",
         "lore": [
           "§7Grants §a+§a{stat} §b❄ Cold Resistance§7."
         ]
@@ -566,8 +562,8 @@
         "cost": "(pow (+ level 2) 2.3)",
         "stat": "(* level 5)",
         "lore": [
-          "§7Gain §a+§a{stat} §6⸕ Mining Speed§7 when mining",
-          "§7Tungsten or Umber."
+          "§7Gain §6+{stat}⸕ Mining Speed§7 when mining",
+          "§7§6Dwarven Metals§7."
         ]
       },
       "steady_hand": {
@@ -632,6 +628,20 @@
           "§7Grants §6+{stat}☘ Dwarven Metal Fortune§7."
         ]
       },
+      "rags_to_riches": {
+        "name": "Rags to Riches",
+        "x": 3,
+        "y": 1,
+        "maxLevel": 50,
+        "powder": "GLACITE",
+        "item": "(npi level0 maxLevel)",
+        "cost": "(pow (+ level 2) 3.05)",
+        "stat": "(* level 4)",
+        "lore": [
+          "§7Grants §a+§a{stat} §6☘ Mining Fortune §7while",
+          "§7inside a §bGlacite Mineshaft§7."
+        ]
+      },
       "eager_adventurer": {
         "name": "Eager Adventurer",
         "x": 5,
@@ -640,7 +650,7 @@
         "powder": "GLACITE",
         "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 2.3)",
-        "stat": "(* level 2)",
+        "stat": "(* level 4)",
         "lore": [
           "§7Grants §a+§a{stat}§7 §6⸕ Mining Speed §7while",
           "§7inside the §bGlacite Mineshafts§7."
