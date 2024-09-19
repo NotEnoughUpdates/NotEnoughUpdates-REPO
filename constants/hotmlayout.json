@@ -272,15 +272,15 @@
         "powder": "GLACITE",
         "item": "(npi level0 maxLevel)",
         "cost": "0",
-        "stat": "(* level 50)",
+        "stat": "(* (floor hotm) 500)",
         "lore": [
           "§7§7Your first daily commission on each",
           "§7§bMining Island§7 grants §9+500 Powder§7,",
           "§7multiplied by your §5HOTM§7 level.",
           "",
-          "§2Dwarven Mines§7: §a+5,000 §2Mithril Powder",
-          "§5Crystal Hollows§7: §a+5,000 §dGemstone Powder",
-          "§bGlacite Tunnels§7: §a+5,000 §bGlacite Powder"
+          "§2Dwarven Mines§7: §a+{stat} §2Mithril Powder",
+          "§5Crystal Hollows§7: §a+{stat} §dGemstone Powder",
+          "§bGlacite Tunnels§7: §a+{stat} §bGlacite Powder"
         ]
       },
       "special_0": {
@@ -342,15 +342,15 @@
         "powder": "GEMSTONE",
         "item": "(npi level0 maxLevel)",
         "cost": "0",
-        "stat": "(+ 364 (* level 36))",
+        "stat": "(* (floor hotm) 500)",
         "lore": [
           "§7The first ore you mine each day",
           "§7grants §9+500 Powder§7, multiplied by",
           "§7your §5HOTM §7level.",
           "",
-          "§2Mithril§7: §a+5,000 §2Mithril Powder",
-          "§dGemstone§7: §a+5,000 §dGemstone Powder",
-          "§bGlacite§7: §a+5,000 §bGlacite Powder"
+          "§2Mithril§7: §a+{stat} §2Mithril Powder",
+          "§dGemstone§7: §a+{stat} §dGemstone Powder",
+          "§bGlacite§7: §a+{stat} §bGlacite Powder"
         ]
       },
       "anomalous_desire": {
