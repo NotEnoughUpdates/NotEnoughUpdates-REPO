@@ -10,34 +10,48 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
+    "reforgeAbility": {
+      "COMMON": "§7Increases your chances of finding §7§6Golden Goblins §7and §bDiamond Goblins §b§7while mining by §a+10%§7.",
+      "UNCOMMON": "§7Increases your chances of finding §7§6Golden Goblins §7and §bDiamond Goblins §b§7while mining by §a+15%§7.",
+      "RARE": "§7Increases your chances of finding §7§6Golden Goblins §7and §bDiamond Goblins §b§7while mining by §a+20%§7.",
+      "EPIC": "§7Increases your chances of finding §7§6Golden Goblins §7and §bDiamond Goblins §b§7while mining by §a+25%§7.",
+      "LEGENDARY": "§7Increases your chances of finding §7§6Golden Goblins §7and §bDiamond Goblins §b§7while mining by §a+30%§7.",
+      "MYTHIC": "§7Increases your chances of finding §7§6Golden Goblins §7and §bDiamond Goblins §b§7while mining by §a+40%§7.",
+      "DIVINE": "§7Increases your chances of finding §7§6Golden Goblins §7and §bDiamond Goblins §b§7while mining by §a+50%§7."
+    },
     "reforgeCosts": {
       "COMMON": 20000,
       "UNCOMMON": 40000,
       "RARE": 80000,
       "EPIC": 150000,
       "LEGENDARY": 300000,
-      "MYTHIC": 600000
+      "MYTHIC": 600000,
+      "DIVINE": 800000
     },
     "reforgeStats": {
       "COMMON": {
         "mining_speed": 25
       },
       "UNCOMMON": {
-        "mining_speed": 31
+        "mining_speed": 35
       },
       "RARE": {
-        "mining_speed": 38
+        "mining_speed": 50
       },
       "EPIC": {
-        "mining_speed": 46
+        "mining_speed": 75
       },
       "LEGENDARY": {
-        "mining_speed": 55
+        "mining_speed": 100
       },
       "MYTHIC": {
-        "mining_speed": 65
+        "mining_speed": 150
+      },
+      "DIVINE": {
+        "mining_speed": 200
       }
     }
   },
@@ -540,34 +554,55 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
+    "reforgeAbility": {
+      "COMMON": "§7Grants §e+50▚ Mining Spread §7on §7non-ore blocks.",
+      "UNCOMMON": "§7Grants §e+60▚ Mining Spread §7on §7non-ore blocks.",
+      "RARE": "§7Grants §e+70▚ Mining Spread §7on §7non-ore blocks.",
+      "EPIC": "§7Grants §e+85▚ Mining Spread §7on §7non-ore blocks.",
+      "LEGENDARY": "§7Grants §e+100▚ Mining Spread §7on §7non-ore blocks.",
+      "MYTHIC": "§7Grants §e+125▚ Mining Spread §7on §7non-ore blocks.",
+      "DIVINE": "§7Grants §e+150▚ Mining Spread §7on §7non-ore blocks."
+    },
     "reforgeCosts": {
       "COMMON": 15000,
       "UNCOMMON": 30000,
       "RARE": 60000,
       "EPIC": 125000,
       "LEGENDARY": 250000,
-      "MYTHIC": 500000
+      "MYTHIC": 500000,
+      "DIVINE": 500000
     },
     "reforgeStats": {
       "COMMON": {
-        "mining_speed": 9
+        "mining_speed": 10,
+        "block_fortune": 25
       },
       "UNCOMMON": {
-        "mining_speed": 15
+        "mining_speed": 20,
+        "block_fortune": 30
       },
       "RARE": {
-        "mining_speed": 25
+        "mining_speed": 30,
+        "block_fortune": 35
       },
       "EPIC": {
-        "mining_speed": 40
+        "mining_speed": 40,
+        "block_fortune": 45
       },
       "LEGENDARY": {
-        "mining_speed": 55
+        "mining_speed": 50,
+        "block_fortune": 55
       },
       "MYTHIC": {
-        "mining_speed": 75
+        "mining_speed": 75,
+        "block_fortune": 65
+      },
+      "DIVINE": {
+        "mining_speed": 100,
+        "block_fortune": 75
       }
     }
   },
@@ -1138,28 +1173,36 @@
       "MYTHIC": 600000,
       "DIVINE": 800000
     },
-    "reforgeAbility": "§7Grants §6+0.25☘ Mining Fortune §7for §7every §b1 ❄ Cold §7you have.",
+    "reforgeAbility": {
+      "COMMON": "§7Grants §6+0.5☘ Mining Fortune §7for §7every §b1❄ Cold §7you have.",
+      "UNCOMMON": "§7Grants §6+0.7☘ Mining Fortune §7for §7every §b1❄ Cold §7you have.",
+      "RARE": "§7Grants §6+0.9☘ Mining Fortune §7for §7every §b1❄ Cold §7you have.",
+      "EPIC": "§7Grants §6+1.1☘ Mining Fortune §7for §7every §b1❄ Cold §7you have.",
+      "LEGENDARY": "§7Grants §6+1.4☘ Mining Fortune §7for §7every §b1❄ Cold §7you have.",
+      "MYTHIC": "§7Grants §6+1.7☘ Mining Fortune §7for §7every §b1❄ Cold §7you have.",
+      "DIVINE": "§7Grants §6+2☘ Mining Fortune §7for §7every §b1❄ Cold §7you have."
+    },
     "reforgeStats": {
       "COMMON": {
-        "mining_speed": 5
+        "mining_speed": 3
       },
       "UNCOMMON": {
-        "mining_speed": 10
+        "mining_speed": 6
       },
       "RARE": {
-        "mining_speed": 17
+        "mining_speed": 9
       },
       "EPIC": {
-        "mining_speed": 25
+        "mining_speed": 13
       },
       "LEGENDARY": {
-        "mining_speed": 37
+        "mining_speed": 16
       },
       "MYTHIC": {
-        "mining_speed": 50
+        "mining_speed": 20
       },
       "DIVINE": {
-        "mining_speed": 65
+        "mining_speed": 25
       }
     }
   },
@@ -1347,34 +1390,43 @@
       "MYTHIC": 600000,
       "DIVINE": 800000
     },
+    "reforgeAbility": {
+      "COMMON": "§7Grants §e+5▚ Mining Spread §7during §7§6Mining Fiesta§7.",
+      "UNCOMMON": "§7Grants §e+10▚ Mining Spread §7during §7§6Mining Fiesta§7.",
+      "RARE": "§7Grants §e+15▚ Mining Spread §7during §7§6Mining Fiesta§7.",
+      "EPIC": "§7Grants §e+29▚ Mining Spread §7during §7§6Mining Fiesta§7.",
+      "LEGENDARY": "§7Grants §e+25▚ Mining Spread §7during §7§6Mining Fiesta§7.",
+      "MYTHIC": "§7Grants §e+30▚ Mining Spread §7during §7§6Mining Fiesta§7.",
+      "DIVINE": "§7Grants §e+35▚ Mining Spread §7during §7§6Mining Fiesta§7."
+    },
     "reforgeStats": {
       "COMMON": {
-        "mining_speed": 5,
-        "mining_fortune": 5
+        "mining_speed": 10,
+        "mining_fortune": 10
       },
       "UNCOMMON": {
-        "mining_speed": 10,
-        "mining_fortune": 7
-      },
-      "RARE": {
-        "mining_speed": 15,
-        "mining_fortune": 9
-      },
-      "EPIC": {
         "mining_speed": 20,
-        "mining_fortune": 12
-      },
-      "LEGENDARY": {
-        "mining_speed": 25,
-        "mining_fortune": 16
-      },
-      "MYTHIC": {
-        "mining_speed": 30,
         "mining_fortune": 20
       },
+      "RARE": {
+        "mining_speed": 30,
+        "mining_fortune": 30
+      },
+      "EPIC": {
+        "mining_speed": 40,
+        "mining_fortune": 40
+      },
+      "LEGENDARY": {
+        "mining_speed": 50,
+        "mining_fortune": 50
+      },
+      "MYTHIC": {
+        "mining_speed": 60,
+        "mining_fortune": 60
+      },
       "DIVINE": {
-        "mining_speed": 35,
-        "mining_fortune": 25
+        "mining_speed": 75,
+        "mining_fortune": 75
       }
     }
   },
@@ -1496,6 +1548,15 @@
       "MYTHIC",
       "DIVINE"
     ],
+    "reforgeAbility": {
+      "COMMON": "§7Grants §6+0.3☘ Mining Fortune §7and §7§6+1⸕ Mining Speed §7per §c1♨ Heat §7you §7have.",
+      "UNCOMMON": "§7Grants §6+0.4☘ Mining Fortune §7and §7§6+1.4⸕ Mining Speed §7per §c1♨ Heat §7you §7have.",
+      "RARE": "§7Grants §6+0.5☘ Mining Fortune §7and §7§6+1.8⸕ Mining Speed §7per §c1♨ Heat §7you §7have.",
+      "EPIC": "§7Grants §6+0.6☘ Mining Fortune §7and §7§6+2.2⸕ Mining Speed §7per §c1♨ Heat §7you §7have.",
+      "LEGENDARY": "§7Grants §6+0.7☘ Mining Fortune §7and §7§6+2.8⸕ Mining Speed §7per §c1♨ Heat §7you §7have.",
+      "MYTHIC": "§7Grants §6+0.8☘ Mining Fortune §7and §7§6+3.4⸕ Mining Speed §7per §c1♨ Heat §7you §7have.",
+      "DIVINE": "§7Grants §6+1☘ Mining Fortune §7and §7§6+4⸕ Mining Speed §7per §c1♨ Heat §7you §7have."
+    },
     "reforgeCosts": {
       "COMMON": 20000,
       "UNCOMMON": 40000,
@@ -1505,7 +1566,36 @@
       "MYTHIC": 600000,
       "DIVINE": 600000
     },
-    "reforgeAbility": "§7Grants §aincreased §6⸕ Mining Speed §7the deeper you venture."
+    "reforgeStats": {
+      "COMMON": {
+        "mining_speed": 5,
+        "mining_fortune": 3
+      },
+      "UNCOMMON": {
+        "mining_speed": 10,
+        "mining_fortune": 6
+      },
+      "RARE": {
+        "mining_speed": 15,
+        "mining_fortune": 9
+      },
+      "EPIC": {
+        "mining_speed": 25,
+        "mining_fortune": 13
+      },
+      "LEGENDARY": {
+        "mining_speed": 40,
+        "mining_fortune": 16
+      },
+      "MYTHIC": {
+        "mining_speed": 55,
+        "mining_fortune": 20
+      },
+      "DIVINE": {
+        "mining_speed": 70,
+        "mining_fortune": 25
+      }
+    }
   },
   "JERRY_STONE": {
     "internalName": "JERRY_STONE",
@@ -1672,32 +1762,32 @@
       "DIVINE": 15000
     },
     "reforgeAbility": {
-      "COMMON": "Gain §a+10% §7extra experience§r§7 when mining.",
-      "UNCOMMON": "Gain §a+12% §7extra experience§r§7 when mining.",
-      "RARE": "Gain §a+14% §7extra experience§r§7 when mining.",
-      "EPIC": "Gain §a+16% §7extra experience§r§7 when mining.",
-      "LEGENDARY": "Gain §a+18% §7extra experience§r§7 when mining.",
-      "MYTHIC": "Gain §a+20% §7extra experience§r§7 when mining.",
-      "DIVINE": "Gain §a+22% §7extra experience§r§7 when mining."
+      "COMMON": "§7Earn §a+25% §7more Exp when mining.",
+      "UNCOMMON": "§7Earn §a+35% §7more Exp when mining.",
+      "RARE": "§7Earn §a+45% §7more Exp when mining.",
+      "EPIC": "§7Earn §a+55% §7more Exp when mining.",
+      "LEGENDARY": "§7Earn §a+65% §7more Exp when mining.",
+      "MYTHIC": "§7Earn §a+80% §7more Exp when mining.",
+      "DIVINE": "§7Earn §a+100% §7more Exp when mining."
     },
     "reforgeStats": {
       "COMMON": {
-        "defense": 4
+        "mining_speed": 10
       },
       "UNCOMMON": {
-        "defense": 5
+        "mining_speed": 20
       },
       "RARE": {
-        "defense": 6
+        "mining_speed": 30
       },
       "EPIC": {
-        "defense": 8
+        "mining_speed": 40
       },
       "LEGENDARY": {
-        "defense": 10
+        "mining_speed": 50
       },
       "DIVINE": {
-        "defense": 14
+        "mining_speed": 60
       }
     }
   },
@@ -2030,7 +2120,8 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
       "COMMON": 100,
@@ -2038,39 +2129,46 @@
       "RARE": 500,
       "EPIC": 1000,
       "LEGENDARY": 2500,
-      "MYTHIC": 15000
+      "MYTHIC": 5000,
+      "DIVINE": 10000
     },
-    "reforgeAbility": "Grants §a+3 §6☘ Mining §6Fortune§7 which increases your §7chance for multiple drops.",
+    "reforgeAbility": {
+      "COMMON": "§7Grants §a+25❈ Defense §7while on §bMining §bIslands§7.",
+      "UNCOMMON": "§7Grants §a+30❈ Defense §7while on §bMining §bIslands§7.",
+      "RARE": "§7Grants §a+35❈ Defense §7while on §bMining §bIslands§7.",
+      "EPIC": "§7Grants §a+40❈ Defense §7while on §bMining §bIslands§7.",
+      "LEGENDARY": "§7Grants §a+50❈ Defense §7while on §bMining §bIslands§7.",
+      "MYTHIC": "§7Grants §a+60❈ Defense §7while on §bMining §bIslands§7.",
+      "DIVINE": "§7Grants §a+70❈ Defense §7while on §bMining §bIslands§7."
+    },
     "reforgeStats": {
       "COMMON": {
-        "defense": 3,
-        "intelligence": 1,
-        "mining_fortune": 3
+        "mining_speed": 5,
+        "mining_fortune": 2
       },
       "UNCOMMON": {
-        "defense": 4,
-        "intelligence": 1,
-        "mining_fortune": 3
+        "mining_speed": 10,
+        "mining_fortune": 4
       },
       "RARE": {
-        "defense": 5,
-        "intelligence": 1,
-        "mining_fortune": 3
+        "mining_speed": 15,
+        "mining_fortune": 6
       },
       "EPIC": {
-        "defense": 7,
-        "intelligence": 1,
-        "mining_fortune": 3
+        "mining_speed": 25,
+        "mining_fortune": 8
       },
       "LEGENDARY": {
-        "defense": 9,
-        "intelligence": 1,
-        "mining_fortune": 3
+        "mining_speed": 40,
+        "mining_fortune": 10
       },
       "MYTHIC": {
-        "defense": 12,
-        "intelligence": 1,
-        "mining_fortune": 3
+        "mining_speed": 55,
+        "mining_fortune": 12
+      },
+      "DIVINE": {
+        "mining_speed": 70,
+        "mining_fortune": 15
       }
     }
   },
@@ -2200,42 +2298,43 @@
       "MYTHIC": 800000,
       "DIVINE": 800000
     },
-    "reforgeAbility": "Deals §a+1 §7extra damage to §5Star Sentries §7and increases the chance for §9Starfall §7to drop from them by §a20%§7.",
+    "reforgeAbility": {
+      "COMMON": "§7Earn §2+8% Mithril Powder §7and §6+25☘ §6Mining Fortune §7when mining near a §7Fallen Star.",
+      "UNCOMMON": "§7Earn §2+9% Mithril Powder §7and §6+30☘ §6Mining Fortune §7when mining near a §7Fallen Star.",
+      "RARE": "§7Earn §2+10% Mithril Powder §7and §6+35☘ §6Mining Fortune §7when mining near a §7Fallen Star.",
+      "EPIC": "§7Earn §2+12% Mithril Powder §7and §6+45☘ §6Mining Fortune §7when mining near a §7Fallen Star.",
+      "LEGENDARY": "§7Earn §2+14% Mithril Powder §7and §6+55☘ §6Mining Fortune §7when mining near a §7Fallen Star.",
+      "MYTHIC": "§7Earn §2+17% Mithril Powder §7and §6+65☘ §6Mining Fortune §7when mining near a §7Fallen Star.",
+      "DIVINE": "§7Earn §2+20% Mithril Powder §7and §6+75☘ §6Mining Fortune §7when mining near a §7Fallen Star."
+    },
     "reforgeStats": {
       "COMMON": {
-        "strength": 5,
-        "defense": 5,
-        "mining_speed": 3
+        "mining_speed": 5,
+        "mining_fortune": 5
       },
       "UNCOMMON": {
-        "strength": 8,
-        "defense": 8,
-        "mining_speed": 6
+        "mining_speed": 10,
+        "mining_fortune": 10
       },
       "RARE": {
-        "strength": 12,
-        "defense": 12,
-        "mining_speed": 9
+        "mining_speed": 15,
+        "mining_fortune": 15
       },
       "EPIC": {
-        "strength": 16,
-        "defense": 16,
-        "mining_speed": 12
+        "mining_speed": 25,
+        "mining_fortune": 20
       },
       "LEGENDARY": {
-        "strength": 20,
-        "defense": 20,
-        "mining_speed": 15
+        "mining_speed": 40,
+        "mining_fortune": 25
       },
       "MYTHIC": {
-        "strength": 25,
-        "defense": 25,
-        "mining_speed": 20
+        "mining_speed": 55,
+        "mining_fortune": 35
       },
       "DIVINE": {
-        "strength": 30,
-        "defense": 30,
-        "mining_speed": 25
+        "mining_speed": 70,
+        "mining_fortune": 50
       }
     }
   },
@@ -2506,28 +2605,36 @@
       "MYTHIC": 500000,
       "DIVINE": 500000
     },
-    "reforgeAbility": "Grants a §a10% §7chance to gain §a1 §7extra §fMithril §7when mining Mithril Ore.",
+    "reforgeAbility": {
+      "COMMON": "§7Grants §6+10☘ Mining Fortune §7when §7mining §2Mithril §7or §fTitanium§7.",
+      "UNCOMMON": "§7Grants §6+15☘ Mining Fortune §7when §7mining §2Mithril §7or §fTitanium§7.",
+      "RARE": "§7Grants §6+20☘ Mining Fortune §7when §7mining §2Mithril §7or §fTitanium§7.",
+      "EPIC": "§7Grants §6+25☘ Mining Fortune §7when §7mining §2Mithril §7or §fTitanium§7.",
+      "LEGENDARY": "§7Grants §6+30☘ Mining Fortune §7when §7mining §2Mithril §7or §fTitanium§7.",
+      "MYTHIC": "§7Grants §6+40☘ Mining Fortune §7when §7mining §2Mithril §7or §fTitanium§7.",
+      "DIVINE": "§7Grants §6+50☘ Mining Fortune §7when §7mining §2Mithril §7or §fTitanium§7."
+    },
     "reforgeStats": {
       "COMMON": {
-        "mining_speed": 6
+        "mining_fortune": 3
       },
       "UNCOMMON": {
-        "mining_speed": 12
+        "mining_fortune": 6
       },
       "RARE": {
-        "mining_speed": 20
+        "mining_fortune": 9
       },
       "EPIC": {
-        "mining_speed": 30
+        "mining_fortune": 13
       },
       "LEGENDARY": {
-        "mining_speed": 40
+        "mining_fortune": 16
       },
       "MYTHIC": {
-        "mining_speed": 55
+        "mining_fortune": 20
       },
       "DIVINE": {
-        "mining_speed": 70
+        "mining_fortune": 25
       }
     }
   },
@@ -2749,9 +2856,7 @@
       "EPIC",
       "LEGENDARY",
       "MYTHIC",
-      "DIVINE",
-      "SPECIAL",
-      "VERY SPECIAL"
+      "DIVINE"
     ],
     "reforgeCosts": {
       "COMMON": 10000,
@@ -2760,52 +2865,40 @@
       "EPIC": 10000,
       "MYTHIC": 10000,
       "LEGENDARY": 10000,
-      "DIVINE": 10000,
-      "SPECIAL": 10000,
-      "VERY SPECIAL": 10000
+      "DIVINE": 10000
     },
     "reforgeAbility": {
-      "COMMON": "Grants §3+1☯ Mining Wisdom§7.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
-      "UNCOMMON": "Grants §3+2☯ Mining Wisdom§7.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
-      "RARE": "Grants §3+3☯ Mining Wisdom§7.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
-      "EPIC": "Grants §3+4☯ Mining Wisdom§7.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
-      "LEGENDARY": "Grants §3+5☯ Mining Wisdom§7.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
-      "MYTHIC": "Grants §3+6☯ Mining Wisdom§7.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
-      "DIVINE": "Grants §3+7☯ Mining Wisdom§7.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
-      "SPECIAL": "Grants §3+8☯ Mining Wisdom§7.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
-      "VERY SPECIAL": "Grants §3+9☯ Mining Wisdom§7.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine."
+      "COMMON": "§7Grants a §a0.1% §7chance to drop an §7enchanted item when mining §6Ores§7.",
+      "UNCOMMON": "§7Grants a §a0.13% §7chance to drop an §7enchanted item when mining §6Ores§7.",
+      "RARE": "§7Grants a §a0.16% §7chance to drop an §7enchanted item when mining §6Ores§7.",
+      "EPIC": "§7Grants a §a0.19% §7chance to drop an §7enchanted item when mining §6Ores§7.",
+      "LEGENDARY": "§7Grants a §a0.22% §7chance to drop an §7enchanted item when mining §6Ores§7.",
+      "MYTHIC": "§7Grants a §a0.26% §7chance to drop an §7enchanted item when mining §6Ores§7.",
+      "DIVINE": "§7Grants a §a0.3% §7chance to drop an §7enchanted item when mining §6Ores§7."
     },
     "reforgeStats": {
       "COMMON": {
-        "defense": 5,
         "mining_wisdom": 1
       },
       "UNCOMMON": {
-        "defense": 7,
         "mining_wisdom": 2
       },
       "RARE": {
-        "defense": 10,
         "mining_wisdom": 3
       },
       "EPIC": {
-        "defense": 13,
         "mining_wisdom": 4
       },
       "LEGENDARY": {
-        "defense": 16,
         "mining_wisdom": 5
       },
       "MYTHIC": {
-        "defense": 20,
         "mining_wisdom": 6
       },
       "DIVINE": {
-        "defense": 24,
         "mining_wisdom": 7
       },
       "SPECIAL": {
-        "defense": 20,
         "mining_wisdom": 8
       },
       "VERY SPECIAL": {
@@ -2837,35 +2930,43 @@
       "MYTHIC": 600000,
       "DIVINE": 600000
     },
-    "reforgeAbility": "Grants §a+8 §6☘ Mining §6Fortune§7, which increases your §7chance for multiple drops.",
+    "reforgeAbility": {
+      "COMMON": "§7Grants §6+0.4% §6☘ Mining Fortune§7.",
+      "UNCOMMON": "§7Grants §6+0.5% §6☘ Mining Fortune§7.",
+      "RARE": "§7Grants §6+0.6% §6☘ Mining Fortune§7.",
+      "EPIC": "§7Grants §6+0.7% §6☘ Mining Fortune§7.",
+      "LEGENDARY": "§7Grants §6+0.8% §6☘ Mining Fortune§7.",
+      "MYTHIC": "§7Grants §6+0.9% §6☘ Mining Fortune§7.",
+      "DIVINE": "§7Grants §6+1% §6☘ Mining Fortune§7."
+    },
     "reforgeStats": {
       "COMMON": {
-        "mining_speed": 7,
-        "mining_fortune": 8
+        "mining_speed": 10,
+        "mining_fortune": 3
       },
       "UNCOMMON": {
-        "mining_speed": 14,
-        "mining_fortune": 8
+        "mining_speed": 20,
+        "mining_fortune": 6
       },
       "RARE": {
-        "mining_speed": 23,
-        "mining_fortune": 8
+        "mining_speed": 30,
+        "mining_fortune": 9
       },
       "EPIC": {
-        "mining_speed": 34,
-        "mining_fortune": 8
+        "mining_speed": 40,
+        "mining_fortune": 13
       },
       "LEGENDARY": {
-        "mining_speed": 45,
-        "mining_fortune": 8
+        "mining_speed": 50,
+        "mining_fortune": 16
       },
       "MYTHIC": {
-        "mining_speed": 65,
-        "mining_fortune": 8
+        "mining_speed": 75,
+        "mining_fortune": 20
       },
       "DIVINE": {
-        "mining_speed": 75,
-        "mining_fortune": 8
+        "mining_speed": 100,
+        "mining_fortune": 25
       }
     }
   },
