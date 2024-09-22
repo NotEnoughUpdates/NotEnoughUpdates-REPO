@@ -288,9 +288,9 @@
         "x": 3,
         "y": 5,
         "maxLevel": 10,
-        "powder": "(if (lt level 6) MITHRIL (if (lt level 8) GEMSTONE GLACITE))",
+        "powder": "(if (lt level 4) MITHRIL (if (lt level 8) GEMSTONE GLACITE))",
         "item": ":REDSTONE_BLOCK",
-        "cost": "(list.at (list.new 0 50000 75000 100000 125000 500000 750000 1000000 1250000 1500000 0) level)",
+        "cost": "(list.at (list.new 0 50000 100000 200000 300000 400000 600000 750000 1000000 1250000 0) level)",
         "lore": [
           {
             "text": "§7§8+§c1 Pickaxe Ability Level",
