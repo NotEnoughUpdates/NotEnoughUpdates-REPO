@@ -21,8 +21,7 @@ def fetchJson(apiUrl):
         response.raise_for_status()
         return response.json()
     except requests.RequestException as e:
-        print(f"Error fetching data from {apiUrl}: {e}")
-        return {}
+        raise requests.RequestException(f"Error fetching data from {apiUrl}: {e}")
 
 
 def processMuseumData(internalName, data):
