@@ -153,10 +153,10 @@
         "powder": "MITHRIL",
         "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 4)",
-        "decrease": "(if (lt level 20) (+ 10 (* level 0.5)) 30)",
+        "stat": "(if (lt level 20) (+ 10 (* level 0.5)) 30)",
         "lore": [
           "§7Decreases the time it takes to forge",
-          "§7by §a{decrease}%§7."
+          "§7by §a{stat}%§7."
         ]
       },
       "daily_effect": {
@@ -192,7 +192,7 @@
         "cost": "(pow (+ level 2) 4)",
         "stat": "(* level 5)",
         "lore": [
-          "§7Grants §6+5☘ Ore Fortune§7."
+          "§7Grants §6+{stat}☘ Ore Fortune§7."
         ]
       },
       "professional": {
@@ -572,7 +572,7 @@
         ]
       },
       "steady_hand": {
-        "name": "§eSteady Hand",
+        "name": "Steady Hand",
         "x": 3,
         "y": 2,
         "maxLevel": 100,
