@@ -97,6 +97,24 @@ def findAppropriateId(setName):
     armorToID[setName] = highestPriorityPart
 
 
+setExceptions= {
+    "FLAMEBREAKER": "FLAME_BREAKER",
+    "ENDER": "END",
+    "SEYMOUR_SPECIAL": "SEYMOUR",
+    "MAXOR": "SPEED_WITHER",
+    "NECRON": "POWER_WITHER",
+    "STORM": "WISE_WITHER",
+    "GOLDOR": "TANK_WITHER",
+    "SALMON": "SALMON_NEW",
+    "ARMOR_OF_GROWTH": "GROWTH",
+    "PROSPECTOR_OUTFIT": "MINER_OUTFIT",
+    "MINER": "TANK_MINER",
+    "PERFECT_ARMOR_TIER_XII": "PERFECT_TIER_12",
+    "PERFECT_ARMOR_TIER_XIII": "PERFECT_TIER_13",
+    "VANQUISHER": "VANQUISHED",
+}
+
+
 if __name__ == '__main__':
 
     url = "https://api.hypixel.net/v2/resources/skyblock/items"
@@ -132,6 +150,7 @@ if __name__ == '__main__':
         "itemToXp": dict(sorted(itemToXp.items())),
         "mapped_ids": dict(sorted(mappedIds.items())),
         "sets_to_items": {k: sorted(v) for k, v in sorted(armorSets.items())},
+        "set_exceptions": setExceptions,
     }
 
     os.makedirs(os.path.dirname("constants/museum.json"), exist_ok=True)
