@@ -131,6 +131,7 @@ if __name__ == '__main__':
         "max_values": maxValues,
         "itemToXp": dict(sorted(itemToXp.items())),
         "mapped_ids": dict(sorted(mappedIds.items())),
+        "sets_to_items": {k: sorted(v) for k, v in sorted(armorSets.items())},
     }
 
     os.makedirs(os.path.dirname("constants/museum.json"), exist_ok=True)
