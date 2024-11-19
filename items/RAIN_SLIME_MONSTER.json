@@ -20,9 +20,10 @@
   "crafttext": "",
   "recipes": [
     {
-      "level": 2,
-      "coins": 1,
-      "xp": 1,
+      "level": 8,
+      "coins": 5,
+      "xp": 5,
+      "combat_xp": 12,
       "name": "§cRain Slime",
       "panorama": "combat_1",
       "render": "Slime",
@@ -30,6 +31,21 @@
       "drops": [
         {
           "id": "SLIME_BALL",
+          "chance": "x3-5"
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "coins": 10,
+      "xp": 8,
+      "name": "§cSlimey Slime",
+      "panorama": "combat_1",
+      "render": "Slime",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "SLIME_BALL:10",
           "chance": "100%"
         }
       ]
