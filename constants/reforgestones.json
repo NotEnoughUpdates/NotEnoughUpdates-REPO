@@ -3214,6 +3214,60 @@
       }
     }
   },
+  "SQUEAKY_TOY": {
+    "internalName": "SQUEAKY_TOY",
+    "reforgeName": "Squeaky",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "EQUIPMENT",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts": {
+      "COMMON": 7500,
+      "UNCOMMON": 15000,
+      "RARE": 30000,
+      "EPIC": 75000,
+      "LEGENDARY": 150000,
+      "MYTHIC": 150000,
+      "DIVINE": 150000
+    },
+    "reforgeAbility": "§7Decreases the spawn cooldown of §7§2Pests §7by §a1%§7.",
+    "reforgeStats": {
+      "COMMON": {
+        "bonus_pest_chance": 0.5,
+        "farming_fortune": 2
+      },
+      "UNCOMMON": {
+        "bonus_pest_chance": 0.5,
+        "farming_fortune": 4
+      },
+      "RARE": {
+        "bonus_pest_chance": 1,
+        "farming_fortune": 6
+      },
+      "EPIC": {
+        "bonus_pest_chance": 1.5,
+        "farming_fortune": 8
+      },
+      "LEGENDARY": {
+        "bonus_pest_chance": 2,
+        "farming_fortune": 10
+      },
+      "MYTHIC": {
+        "bonus_pest_chance": 2.5,
+        "farming_fortune": 12
+      },
+      "DIVINE": {
+        "bonus_pest_chance": 2.5,
+        "farming_fortune": 12
+      }
+    }
+  },
   "SUSPICIOUS_VIAL": {
     "internalName": "SUSPICIOUS_VIAL",
     "reforgeName": "Suspicious",
