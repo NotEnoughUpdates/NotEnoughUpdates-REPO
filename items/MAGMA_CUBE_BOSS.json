@@ -24,26 +24,15 @@
       "level": 500,
       "coins": 125,
       "xp": 200,
-      "combat_xp": 200,
       "name": "§6Magma Cube (Boss)",
       "render": "MagmaCube",
       "panorama": "crimson_isle",
       "type": "drops",
       "drops": [
         {
-          "id": "MAGMA_CREAM:20",
+          "id": "MAGMA_CREAM",
           "extra": [],
-          "chance": "100%"
-        },
-        {
-          "id": "MAGMA_CREAM:10",
-          "extra": [],
-          "chance": "70%"
-        },
-        {
-          "id": "MAGMA_CREAM:5",
-          "extra": [],
-          "chance": "50%"
+          "chance": "x20-35"
         },
         {
           "id": "MOLTEN_CUBE",
@@ -63,12 +52,7 @@
         {
           "id": "ENCHANTED_MAGMA_CREAM",
           "extra": [],
-          "chance": "50%"
-        },
-        {
-          "id": "ENCHANTED_MAGMA_CREAM",
-          "extra": [],
-          "chance": "50%"
+          "chance": "x0-2"
         },
         {
           "id": "COMPACT_OOZE",
@@ -86,13 +70,21 @@
           "chance": "2%"
         },
         {
+          "id": "KUUDRA_HOT_TIER_KEY",
+          "chance": "6%"
+        },
+        {
+          "id": "KUUDRA_TIER_KEY",
+          "chance": "12%"
+        },
+        {
           "id": "FIRE_FURY_STAFF",
           "extra": [],
           "chance": "0.5%"
         },
         {
           "id": "DYE_CYCLAMEN",
-          "chance": "0.0004%"
+          "chance": "0.0008%"
         }
       ]
     }
