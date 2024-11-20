@@ -23,7 +23,7 @@
     {
       "name": "§cWither Gourd",
       "render": "@neurepo:mobs/wither_gourd.json",
-      "level": 80,
+      "level": 40,
       "coins": 1,
       "xp": 1,
       "combat_xp": 20,
@@ -31,8 +31,8 @@
       "type": "drops",
       "drops": [
         {
-          "id": "PUMPKIN_BOMB:2",
-          "chance": "100%"
+          "id": "PUMPKIN_BOMB",
+          "chance": "x2-4"
         },
         {
           "id": "DYE_BONE",
@@ -40,7 +40,7 @@
         },
         {
           "id": "DYE_MIDNIGHT",
-          "chance": "0.0001%"
+          "chance": "0.0002%"
         }
       ]
     }

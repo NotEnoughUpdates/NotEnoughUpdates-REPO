@@ -22,20 +22,41 @@
   "recipes": [
     {
       "level": 100,
-      "coins": 10,
+      "coins": 800,
       "xp": 10,
+      "combat_xp": 80,
       "name": "§cArachne\u0027s Brood",
       "panorama": "combat_1",
       "render": "Spider",
       "type": "drops",
       "drops": [
         {
-          "id": "SPIDER_EYE",
+          "id": "SPIDER_EYE:10",
           "chance": "100%"
         },
         {
-          "id": "STRING",
-          "chance": "50%"
+          "id": "STRING:5",
+          "chance": "100%"
+        }
+      ]
+    },
+    {
+      "level": 200,
+      "coins": 1500,
+      "xp": 13,
+      "combat_xp": 120,
+      "name": "§cArachne\u0027s Brood",
+      "panorama": "combat_1",
+      "render": "Spider",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "SPIDER_EYE:10",
+          "chance": "100%"
+        },
+        {
+          "id": "STRING:5",
+          "chance": "100%"
         }
       ]
     }

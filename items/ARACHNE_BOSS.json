@@ -20,9 +20,9 @@
   "recipes": [
     {
       "level": 300,
-      "coins": 15,
+      "coins": 2000,
       "xp": 15,
-      "combat_xp": 35,
+      "combat_xp": 200,
       "name": "§6Arachne",
       "panorama": "combat_1",
       "render": "Spider",
@@ -38,7 +38,15 @@
         },
         {
           "id": "STRING",
-          "chance": "x0-3"
+          "chance": "x10-20"
+        },
+        {
+          "id": "ENCHANTED_SPIDER_EYE",
+          "chance": "x0-2"
+        },
+        {
+          "id": "SPIDER_EYE",
+          "chance": "x10-20"
         },
         {
           "id": "ARACHNE_FRAGMENT",
@@ -80,9 +88,9 @@
     },
     {
       "level": 500,
-      "coins": 20,
+      "coins": 8000,
       "xp": 20,
-      "combat_xp": 35,
+      "combat_xp": 400,
       "name": "§6Arachne",
       "panorama": "combat_1",
       "render": "Spider",
@@ -98,11 +106,15 @@
         },
         {
           "id": "STRING",
-          "chance": "x0-3"
+          "chance": "x10-60"
         },
         {
-          "id": "DARK_QUEENS_SOUL_DROP",
-          "chance": "100%"
+          "id": "ENCHANTED_SPIDER_EYE",
+          "chance": "x0-6"
+        },
+        {
+          "id": "SPIDER_EYE",
+          "chance": "x10-60"
         },
         {
           "id": "SOUL_STRING",
@@ -125,12 +137,12 @@
           "chance": "25%"
         },
         {
-          "id": "LUXURIOUS_SPOOL",
-          "chance": "100%"
-        },
-        {
           "id": "ARACK",
           "chance": "25%"
+        },
+        {
+          "id": "DARK_QUEENS_SOUL_DROP",
+          "chance": "100%"
         },
         {
           "id": "ESSENCE_SPIDER:30",

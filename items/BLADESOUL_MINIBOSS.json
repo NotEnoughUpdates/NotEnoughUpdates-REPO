@@ -26,7 +26,7 @@
     {
       "name": "§8Bladesoul",
       "level": 200,
-      "coins": 4000,
+      "coins": 1000,
       "xp": 5000,
       "combat_xp": 4000,
       "render": "@neurepo:mobs/bladesoul.json",
@@ -34,12 +34,12 @@
       "panorama": "crimson_isle",
       "drops": [
         {
-          "id": "COAL:20",
-          "chance": "100%"
+          "id": "COAL",
+          "chance": "x20-35"
         },
         {
           "id": "ENCHANTED_COAL:1",
-          "chance": "50%"
+          "chance": "x0-2"
         },
         {
           "id": "HALLOWED_SKULL:1",
@@ -48,6 +48,14 @@
         {
           "id": "MAGMA_URCHIN:1",
           "chance": "2%"
+        },
+        {
+          "id": "KUUDRA_HOT_TIER_KEY",
+          "chance": "4%"
+        },
+        {
+          "id": "KUUDRA_TIER_KEY",
+          "chance": "6%"
         },
         {
           "id": "RAGNAROCK_AXE:1",

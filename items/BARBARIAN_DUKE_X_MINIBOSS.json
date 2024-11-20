@@ -21,7 +21,7 @@
     {
       "name": "§8Barbarian Duke X",
       "level": 200,
-      "coins": 100,
+      "coins": 1000,
       "xp": 5000,
       "combat_xp": 4000,
       "render": "@neurepo:mobs/barbarian_duke_x.json",
@@ -29,12 +29,12 @@
       "panorama": "crimson_isle",
       "drops": [
         {
-          "id": "PORK:20",
-          "chance": "100%"
+          "id": "PORK",
+          "chance": "x20-35"
         },
         {
           "id": "ENCHANTED_PORK:1",
-          "chance": "50%"
+          "chance": "x0-2"
         },
         {
           "id": "LEATHER_CLOTH",
@@ -43,6 +43,14 @@
         {
           "id": "MAGMA_URCHIN",
           "chance": "2%"
+        },
+        {
+          "id": "KUUDRA_HOT_TIER_KEY",
+          "chance": "4%"
+        },
+        {
+          "id": "KUUDRA_TIER_KEY",
+          "chance": "6%"
         },
         {
           "id": "FLAMING_FIST",

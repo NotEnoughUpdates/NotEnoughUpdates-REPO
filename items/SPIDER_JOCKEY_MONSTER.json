@@ -23,7 +23,7 @@
     {
       "level": 3,
       "coins": 2,
-      "xp": 9,
+      "xp": 4,
       "combat_xp": 9,
       "name": "§cSpider Jokey",
       "panorama": "combat_1",
@@ -32,11 +32,58 @@
       "drops": [
         {
           "id": "SPIDER_EYE",
-          "chance": "x2"
+          "chance": "10%"
         },
         {
-          "id": "STRING",
-          "chance": "50%"
+          "id": "STRING:2",
+          "chance": "100%"
+        },
+        {
+          "id": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+          "chance": "0.02%"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "coins": 2,
+      "xp": 5,
+      "name": "§cSpider Jokey",
+      "panorama": "combat_1",
+      "render": "Spider",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "SPIDER_EYE",
+          "chance": "10%"
+        },
+        {
+          "id": "STRING:2",
+          "chance": "100%"
+        },
+        {
+          "id": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+          "chance": "0.02%"
+        }
+      ]
+    },
+    {
+      "level": 42,
+      "coins": 10,
+      "xp": 7,
+      "combat_xp": 32,
+      "name": "§cSpider Jokey",
+      "panorama": "combat_1",
+      "render": "Spider",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "SPIDER_EYE",
+          "chance": "10%"
+        },
+        {
+          "id": "STRING:2",
+          "chance": "100%"
         },
         {
           "id": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",

@@ -32,7 +32,47 @@
       "type": "drops",
       "drops": [
         {
-          "id": "BONE",
+          "id": "BONE:3",
+          "chance": "100%"
+        },
+        {
+          "id": "TANK_MINER_HELMET",
+          "chance": "1%"
+        },
+        {
+          "id": "TANK_MINER_CHESTPLATE",
+          "chance": "1%"
+        },
+        {
+          "id": "TANK_MINER_LEGGINGS",
+          "chance": "1%"
+        },
+        {
+          "id": "TANK_MINER_BOOTS",
+          "chance": "1%"
+        },
+        {
+          "id": "PET_ITEM_EXP_SHARE_DROP:1",
+          "chance": "0.01%"
+        },
+        {
+          "id": "DYE_BONE",
+          "chance": "0.0000333%"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "coins": 15,
+      "xp": 40,
+      "combat_xp": 24,
+      "name": "§cMiner Skeleton",
+      "render": "@neurepo:mobs/miner_skeleton.json",
+      "panorama": "mining_2",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "BONE:3",
           "chance": "100%"
         },
         {

@@ -23,32 +23,10 @@
   "crafttext": "",
   "recipes": [
     {
-      "level": 17,
-      "coins": 30,
-      "xp": 32,
-      "combat_xp": 0,
-      "name": "§fGhast",
-      "render": "Ghast",
-      "type": "drops",
-      "panorama": "crimson_isle",
-      "extra": [],
-      "drops": [
-        {
-          "id": "GHAST_TEAR:1",
-          "extra": [],
-          "chance": "100%"
-        },
-        {
-          "id": "DYE_CYCLAMEN",
-          "chance": "0.00004%"
-        }
-      ]
-    },
-    {
       "level": 85,
       "coins": 400,
       "xp": 500,
-      "combat_xp": 0,
+      "combat_xp": 400,
       "name": "§fGhast",
       "type": "drops",
       "render": "Ghast",
@@ -75,7 +53,7 @@
       "level": 90,
       "coins": 400,
       "xp": 500,
-      "combat_xp": 0,
+      "combat_xp": 400,
       "name": "§fDive Ghast",
       "type": "drops",
       "render": "Ghast",
@@ -83,9 +61,9 @@
       "extra": [],
       "drops": [
         {
-          "id": "GHAST_TEAR:1",
+          "id": "GHAST_TEAR:2",
           "extra": [],
-          "chance": "x2"
+          "chance": "100%"
         },
         {
           "id": "TENTACLE_MEAT:1",
