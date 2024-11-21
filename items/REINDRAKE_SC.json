@@ -22,6 +22,7 @@
   "crafttext": "",
   "recipes": [
     {
+      "level": 100,
       "name": "§cReindrake",
       "panorama": "winter",
       "render": "Dragon",
@@ -35,15 +36,15 @@
       "drops": [
         {
           "id": "WHITE_GIFT",
-          "chance": "65%"
+          "chance": "100% + 65% per hit"
         },
         {
           "id": "GREEN_GIFT",
-          "chance": "25%"
+          "chance": "100% + 25% per hit"
         },
         {
           "id": "RED_GIFT",
-          "chance": "10%"
+          "chance": "10% + 10% per hit"
         },
         {
           "id": "PROSPERITY;1",
@@ -51,6 +52,11 @@
             "Only drops for the player who spawned the Reindrake"
           ],
           "chance": "100%"
+        },
+        {
+          "id": "DYE_ICEBERG",
+          "extra": [],
+          "chance": "0.002%"
         }
       ]
     }

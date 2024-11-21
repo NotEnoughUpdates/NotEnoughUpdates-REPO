@@ -25,8 +25,8 @@
     {
       "name": "§cBlue Shark",
       "level": 20,
-      "coins": 20,
-      "xp": 80,
+      "coins": 10,
+      "xp": 40,
       "render": "@neurepo:mobs/blue_shark.json",
       "panorama": "hub",
       "type": "drops",
@@ -38,12 +38,16 @@
       ],
       "drops": [
         {
-          "id": "SHARK_FIN",
+          "id": "SHARK_FIN:4",
           "chance": "100%"
         },
         {
           "id": "BLUE_SHARK_TOOTH",
           "chance": "10%"
+        },
+        {
+          "id": "CARNIVAL_TICKET",
+          "chance": "0.15%"
         }
       ]
     }
