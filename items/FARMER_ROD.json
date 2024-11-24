@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:fishing_rod",
   "displayname": "§aFarmer\u0027s Rod",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+50\",1:\"§7Strength: §c+20\",2:\"§7Fishing Speed: §a+60\",3:\"\",4:\"§7Chance to fish up farm animals!\",5:\"\",6:\"§7§8This item can be reforged!\",7:\"§7§4❣ §cRequires §aFishing Skill 8§c.\",8:\"§a§lUNCOMMON FISHING ROD\"],Name:\"§aFarmer\u0027s Rod\"},ExtraAttributes:{id:\"FARMER_ROD\"}}",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+50\",1:\"§7Strength: §c+20\",2:\"§7Fishing Speed: §a+60\",3:\"\",4:\"§7Chance to fish up farm animals!\",5:\"\",6:\"§7§8This item can be reforged!\",7:\"§a§lUNCOMMON FISHING ROD\"],Name:\"§aFarmer\u0027s Rod\"},ExtraAttributes:{id:\"FARMER_ROD\",uuid:\"32c187d2-3bfe-487f-a6d3-e8b89c44e8e5\",timestamp:1732465820702L}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+50",
@@ -11,7 +11,6 @@
     "§7Chance to fish up farm animals!",
     "",
     "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aFishing Skill 8§c.",
     "§a§lUNCOMMON FISHING ROD"
   ],
   "recipe": {
@@ -19,9 +18,9 @@
     "A2": "",
     "A3": "ENCHANTED_CLAY_BALL:1",
     "B1": "",
-    "B2": "HAY_BLOCK:32",
+    "B2": "ENCHANTED_WHEAT:1",
     "B3": "STRING:1",
-    "C1": "HAY_BLOCK:32",
+    "C1": "ENCHANTED_WHEAT:1",
     "C2": "",
     "C3": "STRING:1"
   },
