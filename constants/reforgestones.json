@@ -465,7 +465,8 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
       "COMMON": 10000,
@@ -473,27 +474,31 @@
       "RARE": 50000,
       "EPIC": 75000,
       "LEGENDARY": 100000,
-      "MYTHIC": 150000
+      "MYTHIC": 150000,
+      "DIVINE": 250000
     },
     "reforgeAbility": "Doubles the §c❁ Damage §7dealt §7by §aVacuums§7.",
     "reforgeStats": {
       "COMMON": {
-        "speed": 3
+        "farming_fortune": 2
       },
       "UNCOMMON": {
-        "speed": 4
+        "farming_fortune": 3
       },
       "RARE": {
-        "speed": 5
+        "farming_fortune": 5
       },
       "EPIC": {
-        "speed": 7
+        "farming_fortune": 7
       },
       "LEGENDARY": {
-        "speed": 10
+        "farming_fortune": 9
       },
       "MYTHIC": {
-        "speed": 15
+        "farming_fortune": 11
+      },
+      "DIVINE": {
+        "farming_fortune": 11
       }
     }
   },
@@ -3403,31 +3408,31 @@
     "reforgeStats": {
       "COMMON": {
         "intelligence": 5,
-        "mining_fortune": 2
+        "true_defense": 2
       },
       "UNCOMMON": {
         "intelligence": 6,
-        "mining_fortune": 3
+        "true_defense": 2.5
       },
       "RARE": {
         "intelligence": 8,
-        "mining_fortune": 4
+        "true_defense": 3
       },
       "EPIC": {
         "intelligence": 10,
-        "mining_fortune": 5
+        "true_defense": 3.5
       },
       "LEGENDARY": {
         "intelligence": 12,
-        "mining_fortune": 6
+        "true_defense": 4
       },
       "MYTHIC": {
         "intelligence": 15,
-        "mining_fortune": 7
+        "true_defense": 4.5
       },
       "DIVINE": {
-        "intelligence": 16,
-        "mining_fortune": 8
+        "intelligence": 18,
+        "true_defense": 4.5
       }
     }
   },
