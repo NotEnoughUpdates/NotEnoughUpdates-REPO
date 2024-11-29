@@ -1,0 +1,120 @@
+{
+  "itemid": "minecraft:emerald",
+  "displayname": "§9Pesthunter Phillip (NPC)",
+  "nbttag": "{ench:[],Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Browse the wide variety of\",1:\"§7products SkyMart has to offer.\",2:\"§7We are not responsible for any\",3:\"§7injuries, accidents, headaches,\",4:\"§7paper-cuts or sudden outburst of\",5:\"§7tears. SkyMart wishes you happy\",6:\"§7shopping.\"],Name:\"§9Skymart (NPC)\"},ExtraAttributes:{id:\"SKYMART_NPC\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Using §2Pests §7as currency, purchase",
+    "§7a variety of bits 'n bobs that §6Phillip",
+    "§7has held onto over the years!"
+  ],
+  "internalname": "PESTHUNTER_PHILLIP_NPC",
+  "crafttext": "",
+  "clickcommand": "",
+  "modver": "2.4.0",
+  "infoType": "",
+  "x": -26,
+  "y": 72,
+  "z": -14,
+  "island": "garden",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_PEST:25"
+      ],
+      "result": "PESTHUNTER_BADGE:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_PEST:50",
+        "PESTHUNTER_BADGE:1"
+      ],
+      "result": "PESTHUNTER_RING:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_PEST:100",
+        "PESTHUNTER_RING:1"
+      ],
+      "result": "PESTHUNTER_ARTIFACT:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_PEST:50",
+        "MUSHROOM_HELMET:1"
+      ],
+      "result": "BIOHAZARD_HELMET:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_PEST:80",
+        "MUSHROOM_CHESTPLATE:1"
+      ],
+      "result": "BIOHAZARD_SUIT:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_PEST:70",
+        "MUSHROOM_LEGGINGS:1"
+      ],
+      "result": "BIOHAZARD_LEGGINGS:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_PEST:40",
+        "MUSHROOM_BOOTS:1"
+      ],
+      "result": "BIOHAZARD_BOOTS:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_PEST:40"
+      ],
+      "result": "PESTHUNTERS_GLOVES:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_PEST:50"
+      ],
+      "result": "PEST_TRAP:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_PEST:75",
+        "PEST_TRAP:1"
+      ],
+      "result": "MOUSE_PEST_TRAP:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_PEST:500"
+      ],
+      "result": "PESTHUNTING_GUIDE:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_PEST:1500"
+      ],
+      "result": "PESTHUNTERS_LAIR_BARN_SKIN:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_PEST:500"
+      ],
+      "result": "HEDGEHOG;4:1"
+    }
+  ]
+}
