@@ -42,6 +42,9 @@ def processMuseumData(internalName, data):
         for armorSet in donationXpInfo:
             itemToXp[armorSet] = donationXpInfo[armorSet]
             armor.add(armorSet)
+            if armorSet in setOverride:
+                addPieceToSet(setOverride[armorSet], armorSet)
+                return
             addPieceToSet(internalName, armorSet)
     else:
         donationXp = data.get('donation_xp', 0)
@@ -56,8 +59,11 @@ def processMuseumData(internalName, data):
 def addPieceToSet(piece, setName):
     if setName not in armorSets:
         armorSets[setName] = set()
-    armorSets[setName].add(piece)
-
+    if isinstance(piece, list):
+        for p in piece:
+            armorSets[setName].add(p)
+    else:
+        armorSets[setName].add(piece)
 
 priorityExceptions = {
     "PERFECT_TIER_12": "PERFECT_HELMET_12",
@@ -75,6 +81,52 @@ setPriorityList = [
     "CLOAK",
 ]
 
+setOverride = {
+    "BLAZE": [
+      "BLAZE_BOOTS",
+      "BLAZE_CHESTPLATE",
+      "BLAZE_HELMET",
+      "BLAZE_LEGGINGS"
+    ],
+    "CRIMSON_HUNTER": [
+      "BLAZE_BELT",
+      "GHAST_CLOAK",
+      "GLOWSTONE_GAUNTLET",
+      "MAGMA_NECKLACE"
+    ],
+    "END": [
+      "ENDER_BELT",
+      "ENDER_CLOAK",
+      "ENDER_GAUNTLET",
+      "ENDER_NECKLACE"
+      "END_BOOTS",
+      "END_CHESTPLATE",
+      "END_HELMET",
+      "END_LEGGINGS",
+    ],
+    "MONSTER_RAIDER": [
+      "CREEPER_LEGGINGS",
+      "GUARDIAN_CHESTPLATE",
+      "SKELETON_HELMET",
+      "TARANTULA_BOOTS"
+    ],
+    "SNOW_SUIT": [
+      "SNOW_SUIT_BOOTS",
+      "SNOW_SUIT_CHESTPLATE",
+      "SNOW_SUIT_HELMET",
+      "SNOW_SUIT_LEGGINGS",
+      "SNOW_BELT",
+      "SNOW_CLOAK",
+      "SNOW_GLOVES",
+      "SNOW_NECKLACE"
+    ],
+    "SPONGE": [
+      "SPONGE_BOOTS",
+      "SPONGE_CHESTPLATE",
+      "SPONGE_HELMET",
+      "SPONGE_LEGGINGS"
+    ],
+}
 
 def findAppropriateId(setName):
     if setName in priorityExceptions:
