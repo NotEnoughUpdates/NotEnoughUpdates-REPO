@@ -17,17 +17,6 @@
     "§7§4❣ §cRequires §aFishing Skill 35§c.",
     "§6§lLEGENDARY FISHING ROD"
   ],
-  "recipe": {
-    "A1": "MAGMA_FISH_GOLD:10",
-    "A2": "MAGMA_FISH_GOLD:10",
-    "A3": "MAGMA_FISH_GOLD:10",
-    "B1": "MAGMA_FISH_GOLD:10",
-    "B2": "INFERNO_ROD:1",
-    "B3": "MAGMA_FISH_GOLD:10",
-    "C1": "MAGMA_FISH_GOLD:10",
-    "C2": "MAGMA_FISH_GOLD:10",
-    "C3": "MAGMA_FISH_GOLD:10"
-  },
   "internalname": "HELLFIRE_ROD",
   "crafttext": "Requires: Magmafish XII",
   "clickcommand": "viewrecipe",
@@ -36,5 +25,33 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Hellfire_Rod",
     "https://wiki.hypixel.net/Hellfire_Rod"
+  ],
+  "recipes": [
+    {
+      "type": "crafting",
+      "A1": "MAGMA_FISH_GOLD:10",
+      "A2": "MAGMA_FISH_GOLD:10",
+      "A3": "MAGMA_FISH_GOLD:10",
+      "B1": "MAGMA_FISH_GOLD:10",
+      "B2": "INFERNO_ROD:1",
+      "B3": "MAGMA_FISH_GOLD:10",
+      "C1": "MAGMA_FISH_GOLD:10",
+      "C2": "MAGMA_FISH_GOLD:10",
+      "C3": "MAGMA_FISH_GOLD:10",
+      "count": 1
+    },
+    {
+      "type": "crafting",
+      "A1": "",
+      "A2": "MAGMA_FISH_DIAMOND:1",
+      "A3": "",
+      "B1": "MAGMA_FISH_DIAMOND:1",
+      "B2": "INFERNO_ROD",
+      "B3": "MAGMA_FISH_DIAMOND:1",
+      "C1": "",
+      "C2": "MAGMA_FISH_DIAMOND:1",
+      "C3": "",
+      "count": 1
+    }
   ]
 }
