@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:emerald",
-  "displayname": "§9Skymart (NPC)",
-  "nbttag": "{ench:[],Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Browse the wide variety of\",1:\"§7products SkyMart has to offer.\",2:\"§7We are not responsible for any\",3:\"§7injuries, accidents, headaches,\",4:\"§7paper-cuts or sudden outburst of\",5:\"§7tears. SkyMart wishes you happy\",6:\"§7shopping.\"],Name:\"§9Skymart (NPC)\"},ExtraAttributes:{id:\"SKYMART_NPC\"}}",
+  "displayname": "§9SkyMart (NPC)",
+  "nbttag": "{ench:[],Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Browse the wide variety of\",1:\"§7products SkyMart has to offer.\",2:\"§7We are not responsible for any\",3:\"§7injuries, accidents, headaches,\",4:\"§7paper-cuts or sudden outburst of\",5:\"§7tears. SkyMart wishes you happy\",6:\"§7shopping.\"],Name:\"§9SkyMart (NPC)\"},ExtraAttributes:{id:\"SKYMART_NPC\"}}",
   "damage": 0,
   "lore": [
     "§7Browse the wide variety of",
@@ -39,7 +39,8 @@
     {
       "type": "npc_shop",
       "cost": [
-        "SKYBLOCK_COPPER:20"
+        "SKYBLOCK_COPPER:20",
+        "SAM_SCYTHE:1"
       ],
       "result": "GARDEN_SCYTHE:1"
     },
@@ -116,7 +117,8 @@
     {
       "type": "npc_shop",
       "cost": [
-        "SKYBLOCK_COPPER:25"
+        "SKYBLOCK_COPPER:20",
+        "BASIC_GARDENING_HOE:1"
       ],
       "result": "ADVANCED_GARDENING_HOE:1"
     },
@@ -130,7 +132,8 @@
     {
       "type": "npc_shop",
       "cost": [
-        "SKYBLOCK_COPPER:25"
+        "SKYBLOCK_COPPER:20",
+        "BASIC_GARDENING_AXE:1"
       ],
       "result": "ADVANCED_GARDENING_AXE:1"
     },
@@ -151,7 +154,7 @@
     {
       "type": "npc_shop",
       "cost": [
-        "SKYBLOCK_COPPER:100"
+        "SKYBLOCK_COIN:5000"
       ],
       "result": "SKYMART_VACUUM:1"
     },
@@ -205,7 +208,8 @@
     {
       "type": "npc_shop",
       "cost": [
-        "SKYBLOCK_COPPER:40"
+        "SKYBLOCK_COPPER:25",
+        "PEST_REPELLENT:1"
       ],
       "result": "PEST_REPELLENT_MAX:1"
     },
