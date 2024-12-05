@@ -12,17 +12,6 @@
     "",
     "§a§lUNCOMMON ORE"
   ],
-  "recipe": {
-    "A1": "",
-    "A2": "COAL:32",
-    "A3": "",
-    "B1": "COAL:32",
-    "B2": "COAL:32",
-    "B3": "COAL:32",
-    "C1": "",
-    "C2": "COAL:32",
-    "C3": ""
-  },
   "internalname": "ENCHANTED_COAL",
   "clickcommand": "viewrecipe",
   "modver": "",
@@ -31,5 +20,33 @@
     "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Coal",
     "https://wiki.hypixel.net/Enchanted_Coal"
   ],
-  "crafttext": "Requires: Coal IV"
+  "crafttext": "Requires: Coal IV",
+  "recipes": [
+    {
+      "type": "crafting",
+      "A1": "",
+      "A2": "COAL:32",
+      "A3": "",
+      "B1": "COAL:32",
+      "B2": "COAL:32",
+      "B3": "COAL:32",
+      "C1": "",
+      "C2": "COAL:32",
+      "C3": "",
+      "count": 1
+    },
+    {
+      "type": "crafting",
+      "A1": "",
+      "A2": "COAL_BLOCK:32",
+      "A3": "",
+      "B1": "COAL_BLOCK:32",
+      "B2": "COAL_BLOCK:32",
+      "B3": "COAL_BLOCK:32",
+      "C1": "",
+      "C2": "COAL_BLOCK:32",
+      "C3": "",
+      "count": 9
+    }
+  ]
 }

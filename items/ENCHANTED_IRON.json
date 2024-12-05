@@ -8,17 +8,6 @@
     "",
     "§a§lUNCOMMON ORE"
   ],
-  "recipe": {
-    "A1": "",
-    "A2": "IRON_INGOT:32",
-    "A3": "",
-    "B1": "IRON_INGOT:32",
-    "B2": "IRON_INGOT:32",
-    "B3": "IRON_INGOT:32",
-    "C1": "",
-    "C2": "IRON_INGOT:32",
-    "C3": ""
-  },
   "internalname": "ENCHANTED_IRON",
   "clickcommand": "viewrecipe",
   "modver": "",
@@ -27,5 +16,33 @@
     "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Iron",
     "https://wiki.hypixel.net/Enchanted_Iron"
   ],
-  "crafttext": "Requires: Iron Ingot IV"
+  "crafttext": "Requires: Iron Ingot IV",
+  "recipes": [
+    {
+      "type": "crafting",
+      "A1": "",
+      "A2": "IRON_INGOT:32",
+      "A3": "",
+      "B1": "IRON_INGOT:32",
+      "B2": "IRON_INGOT:32",
+      "B3": "IRON_INGOT:32",
+      "C1": "",
+      "C2": "IRON_INGOT:32",
+      "C3": "",
+      "count": 1
+    },
+    {
+      "type": "crafting",
+      "A1": "",
+      "A2": "IRON_BLOCK:32",
+      "A3": "",
+      "B1": "IRON_BLOCK:32",
+      "B2": "IRON_BLOCK:32",
+      "B3": "IRON_BLOCK:32",
+      "C1": "",
+      "C2": "IRON_BLOCK:32",
+      "C3": "",
+      "count": 9
+    }
+  ]
 }

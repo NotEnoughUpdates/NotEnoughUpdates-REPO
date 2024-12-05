@@ -8,17 +8,6 @@
     "",
     "§a§lUNCOMMON ORE"
   ],
-  "recipe": {
-    "A1": "",
-    "A2": "EMERALD:32",
-    "A3": "",
-    "B1": "EMERALD:32",
-    "B2": "EMERALD:32",
-    "B3": "EMERALD:32",
-    "C1": "",
-    "C2": "EMERALD:32",
-    "C3": ""
-  },
   "internalname": "ENCHANTED_EMERALD",
   "clickcommand": "viewrecipe",
   "modver": "",
@@ -27,5 +16,33 @@
     "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Emerald",
     "https://wiki.hypixel.net/Enchanted_Emerald"
   ],
-  "crafttext": "Requires: Emerald IV"
+  "crafttext": "Requires: Emerald IV",
+  "recipes": [
+    {
+      "type": "crafting",
+      "A1": "",
+      "A2": "EMERALD:32",
+      "A3": "",
+      "B1": "EMERALD:32",
+      "B2": "EMERALD:32",
+      "B3": "EMERALD:32",
+      "C1": "",
+      "C2": "EMERALD:32",
+      "C3": "",
+      "count": 1
+    },
+    {
+      "type": "crafting",
+      "A1": "",
+      "A2": "EMERALD_BLOCK:32",
+      "A3": "",
+      "B1": "EMERALD_BLOCK:32",
+      "B2": "EMERALD_BLOCK:32",
+      "B3": "EMERALD_BLOCK:32",
+      "C1": "",
+      "C2": "EMERALD_BLOCK:32",
+      "C3": "",
+      "count": 9
+    }
+  ]
 }
