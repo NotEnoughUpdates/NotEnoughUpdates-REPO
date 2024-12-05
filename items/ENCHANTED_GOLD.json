@@ -9,17 +9,6 @@
     "",
     "§a§lUNCOMMON ORE"
   ],
-  "recipe": {
-    "A1": "",
-    "A2": "GOLD_INGOT:32",
-    "A3": "",
-    "B1": "GOLD_INGOT:32",
-    "B2": "GOLD_INGOT:32",
-    "B3": "GOLD_INGOT:32",
-    "C1": "",
-    "C2": "GOLD_INGOT:32",
-    "C3": ""
-  },
   "internalname": "ENCHANTED_GOLD",
   "clickcommand": "viewrecipe",
   "modver": "",
@@ -28,5 +17,33 @@
     "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Gold",
     "https://wiki.hypixel.net/Enchanted_Gold"
   ],
-  "crafttext": "Requires: Gold Ingot IV"
+  "crafttext": "Requires: Gold Ingot IV",
+  "recipes": [
+    {
+      "type": "crafting",
+      "A1": "",
+      "A2": "GOLD_INGOT:32",
+      "A3": "",
+      "B1": "GOLD_INGOT:32",
+      "B2": "GOLD_INGOT:32",
+      "B3": "GOLD_INGOT:32",
+      "C1": "",
+      "C2": "GOLD_INGOT:32",
+      "C3": "",
+      "count": 1
+    },
+    {
+      "type": "crafting",
+      "A1": "",
+      "A2": "GOLD_BLOCK:32",
+      "A3": "",
+      "B1": "GOLD_BLOCK:32",
+      "B2": "GOLD_BLOCK:32",
+      "B3": "GOLD_BLOCK:32",
+      "C1": "",
+      "C2": "GOLD_BLOCK:32",
+      "C3": "",
+      "count": 9
+    }
+  ]
 }

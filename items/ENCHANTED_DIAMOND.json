@@ -8,17 +8,6 @@
     "",
     "§a§lUNCOMMON ORE"
   ],
-  "recipe": {
-    "A1": "",
-    "A2": "DIAMOND:32",
-    "A3": "",
-    "B1": "DIAMOND:32",
-    "B2": "DIAMOND:32",
-    "B3": "DIAMOND:32",
-    "C1": "",
-    "C2": "DIAMOND:32",
-    "C3": ""
-  },
   "internalname": "ENCHANTED_DIAMOND",
   "clickcommand": "viewrecipe",
   "modver": "",
@@ -27,5 +16,33 @@
     "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Diamond",
     "https://wiki.hypixel.net/Enchanted_Diamond"
   ],
-  "crafttext": "Requires: Diamond IV"
+  "crafttext": "Requires: Diamond IV",
+  "recipes": [
+    {
+      "type": "crafting",
+      "A1": "",
+      "A2": "DIAMOND:32",
+      "A3": "",
+      "B1": "DIAMOND:32",
+      "B2": "DIAMOND:32",
+      "B3": "DIAMOND:32",
+      "C1": "",
+      "C2": "DIAMOND:32",
+      "C3": "",
+      "count": 1
+    },
+    {
+      "type": "crafting",
+      "A1": "",
+      "A2": "DIAMOND_BLOCK:32",
+      "A3": "",
+      "B1": "DIAMOND_BLOCK:32",
+      "B2": "DIAMOND_BLOCK:32",
+      "B3": "DIAMOND_BLOCK:32",
+      "C1": "",
+      "C2": "DIAMOND_BLOCK:32",
+      "C3": "",
+      "count": 9
+    }
+  ]
 }
