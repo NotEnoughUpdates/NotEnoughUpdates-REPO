@@ -72,11 +72,13 @@ priorityExceptions = {
     "SALMON_NEW": "SALMON_HELMET_NEW",
 }
 
+# The item type that should be prioritized when displaying the armor set (what Hypixel shows in the museum)
 setPriorityList = [
     "HELMET",
     "NECKLACE",
     "HOOD",
     "HAT",
+    "CAP",
     "CHESTPLATE",
     "CLOAK",
 ]
