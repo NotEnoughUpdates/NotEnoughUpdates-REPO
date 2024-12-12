@@ -1,0 +1,54 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§dSun Gecko Essence Shop (Rift NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"663b8def-fac3-2411-9915-8fde41525fc5\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyNTQxMTA2MDk3NywKICAicHJvZmlsZUlkIiA6ICIxYjQwYzcxMGZjMTY0NmQ2OTIxOTVmYzY3YzZlMTE0ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ3c3pvbHNvbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yZGRiMjY2YTc1MDc5OGY1NjJlMmUwZDEyZGU1N2Q5YjMxM2EyZDdiODM0MWQyMzQxMTFlNDgzNzNkNjI1YzciCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"\"],Name:\"§9An (NPC)\"},ExtraAttributes:{id:\"AN_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "SUN_GECKO_ESSENCE_SHOP_NPC",
+  "clickcommand": "",
+  "modver": "",
+  "x": 38,
+  "y": 90,
+  "z": 18,
+  "island": "rift",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "ESSENCE_SUN_GECKO:50"
+      ],
+      "result": "COMBO_MANIA_TALISMAN:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "ESSENCE_SUN_GECKO:32"
+      ],
+      "result": "FAKE_SHURIKEN:16"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "ESSENCE_SUN_GECKO:50"
+      ],
+      "result": "GRANDMAS_KNITTING_NEEDLE:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "ESSENCE_SUN_GECKO:25"
+      ],
+      "result": "SUPER_LEECH_MODIFIER:2"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "ESSENCE_SUN_GECKO:25"
+      ],
+      "result": "SKYBLOCK_ENIGMA_SOUL:1"
+    }
+  ],
+  "crafttext": ""
+}
