@@ -2490,7 +2490,8 @@
           0.01
         ],
         "statNums": {
-          "HEALTH": 2.0
+          "HEALTH": 2.0,
+          "HEALTH_REGEN": 1.0
         }
       },
       "100": {
@@ -2499,7 +2500,8 @@
           1
         ],
         "statNums": {
-          "HEALTH": 200.0
+          "HEALTH": 200.0,
+          "HEALTH_REGEN": 100.0
         }
       }
     },
@@ -2511,7 +2513,8 @@
           0.5
         ],
         "statNums": {
-          "HEALTH": 2.0
+          "HEALTH": 2.0,
+          "HEALTH_REGEN": 1.0
         }
       },
       "100": {
@@ -2521,7 +2524,8 @@
           50
         ],
         "statNums": {
-          "HEALTH": 200.0
+          "HEALTH": 200.0,
+          "HEALTH_REGEN": 100.0
         }
       }
     }
@@ -3486,7 +3490,7 @@
           5.3
         ],
         "statNums": {
-          "CRIT_DAMAGE": 0.0,
+          "CRIT_DAMAGE": 0.1,
           "INTELLIGENCE": 1.0
         }
       },
@@ -3505,12 +3509,12 @@
       "1": {
         "otherNums": [
           1.0,
-          5.0,
-          5.0,
+          5.3,
+          5.25,
           0.2
         ],
         "statNums": {
-          "CRIT_DAMAGE": 0.0,
+          "CRIT_DAMAGE": 0.1,
           "INTELLIGENCE": 1.0
         }
       },
@@ -4059,7 +4063,7 @@
           10.0
         ],
         "statNums": {
-          "ABILITY_DAMAGE": 0.0,
+          "ABILITY_DAMAGE": 0.2,
           "INTELLIGENCE": 1.0
         }
       },
@@ -4083,13 +4087,13 @@
           10.0
         ],
         "statNums": {
-          "ABILITY_DAMAGE": 0.0,
+          "ABILITY_DAMAGE": 0.2,
           "INTELLIGENCE": 1.0
         }
       },
       "100": {
         "otherNums": [
-          10,
+          15,
           10,
           10
         ],
@@ -4105,7 +4109,7 @@
           0.1
         ],
         "statNums": {
-          "ABILITY_DAMAGE": 0.0,
+          "ABILITY_DAMAGE": 0.2,
           "INTELLIGENCE": 1.0
         }
       },
@@ -4125,13 +4129,13 @@
           0.1
         ],
         "statNums": {
-          "ABILITY_DAMAGE": 0.0,
+          "ABILITY_DAMAGE": 0.2,
           "INTELLIGENCE": 1.0
         }
       },
       "100": {
         "otherNums": [
-          10
+          15
         ],
         "statNums": {
           "ABILITY_DAMAGE": 20.0,
@@ -4148,7 +4152,7 @@
           0.2
         ],
         "statNums": {
-          "ABILITY_DAMAGE": 0.0,
+          "ABILITY_DAMAGE": 0.2,
           "INTELLIGENCE": 1.0
         }
       },
