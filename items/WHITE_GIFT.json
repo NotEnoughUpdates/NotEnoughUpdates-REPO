@@ -2,10 +2,10 @@
   "internalname": "WHITE_GIFT",
   "itemid": "minecraft:skull",
   "displayname": "§fWhite Gift",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "damage": 3,
   "nbttag": "{HideFlags:254,SkullOwner:{Id:\"7732c5e4-1800-3b90-a70f-727d2969254b\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTBmNTM5ODUxMGIxYTA1YWZjNWIyMDFlYWQ4YmZjNTgzZTU3ZDcyMDJmNTE5M2IwYjc2MWZjYmQwYWUyIn19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7§7Click a stranger while holding\",1:\"§7to gift! Both players get the\",2:\"§7rewards!\",3:\"\",4:\"§f§lCOMMON\"],Name:\"§fWhite Gift\"},ExtraAttributes:{id:\"WHITE_GIFT\"}}",
-  "modver": "2.1.0-REL",
+  "modver": "2.5.0",
   "lore": [
     "§7§7Click a stranger while holding",
     "§7to gift! Both players get the",
@@ -18,5 +18,147 @@
     "https://hypixel-skyblock.fandom.com/wiki/White_Gift",
     "https://wiki.hypixel.net/White_Gift"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§fWhite Gift",
+      "render": "@neurepo:mobs/white_gift.json",
+      "type": "drops",
+      "extra": [],
+      "drops": [
+        {
+          "id": "SNOW_SUIT_HELMET",
+          "chance": "0.029%"
+        },
+        {
+          "id": "SNOW_SUIT_CHESTPLATE",
+          "chance": "0.044%"
+        },
+        {
+          "id": "SNOW_SUIT_LEGGINGS",
+          "chance": "0.044%"
+        },
+        {
+          "id": "SNOW_SUIT_BOOTS",
+          "chance": "0.029%"
+        },
+        {
+          "id": "GIFT_THE_FISH",
+          "chance": "0.059%"
+        },
+        {
+          "id": "PRESENTS",
+          "chance": "0.297%"
+        },
+        {
+          "id": "NUTCRACKER",
+          "chance": "0.297%"
+        },
+        {
+          "id": "BIG_XTREE",
+          "chance": "0.297%"
+        },
+        {
+          "id": "SANTA_PERSONALITY",
+          "chance": "0.371%"
+        },
+        {
+          "id": "GINGERBREAD_PERSONALITY",
+          "chance": "0.371%"
+        },
+        {
+          "id": "GRINCH_PERSONALITY",
+          "chance": "0.371%"
+        },
+        {
+          "id": "SCAVENGER;4",
+          "chance": "0.371%"
+        },
+        {
+          "id": "LUCK;6",
+          "chance": "0.371%"
+        },
+        {
+          "id": "LOOTING;4",
+          "chance": "0.371%"
+        },
+        {
+          "id": "SNOW_GENERATOR_1",
+          "chance": "0.446%"
+        },
+        {
+          "id": "BATTLE_DISC",
+          "chance": "0.892%"
+        },
+        {
+          "id": "WINTER_DISC",
+          "chance": "0.892%"
+        },
+        {
+          "id": "ICE_RUNE;1",
+          "chance": "5.948%"
+        },
+        {
+          "id": "POTION_ALCHEMY_XP_BOOST;2",
+          "chance": "3.718%",
+          "alternatives": [
+            {
+              "id": "POTION_MINING_XP_BOOST;2",
+              "chance": "3.718%"
+            },
+            {
+              "id": "POTION_COMBAT_XP_BOOST;2",
+              "chance": "3.718%"
+            },
+            {
+              "id": "POTION_ENCHANTING_XP_BOOST;2",
+              "chance": "3.718%"
+            },
+            {
+              "id": "POTION_FARMING_XP_BOOST;2",
+              "chance": "3.718%"
+            },
+            {
+              "id": "POTION_FORAGING_XP_BOOST;2",
+              "chance": "3.718%"
+            },
+            {
+              "id": "POTION_FORAGING_XP_BOOST;2",
+              "chance": "3.718%"
+            }
+          ]
+        },
+        {
+          "id": "POTION_ALCHEMY_XP_BOOST;1",
+          "chance": "7.436%",
+          "alternatives": [
+            {
+              "id": "POTION_MINING_XP_BOOST;1",
+              "chance": "7.436%"
+            },
+            {
+              "id": "POTION_COMBAT_XP_BOOST;1",
+              "chance": "7.436%"
+            },
+            {
+              "id": "POTION_ENCHANTING_XP_BOOST;1",
+              "chance": "7.436%"
+            },
+            {
+              "id": "POTION_FARMING_XP_BOOST;1",
+              "chance": "7.436%"
+            },
+            {
+              "id": "POTION_FORAGING_XP_BOOST;1",
+              "chance": "7.436%"
+            },
+            {
+              "id": "POTION_FORAGING_XP_BOOST;1",
+              "chance": "7.436%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

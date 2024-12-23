@@ -17,5 +17,95 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Party_Gift",
     "https://wiki.hypixel.net/Party_Gift"
+  ],
+  "recipes": [
+    {
+      "name": "§8Party Gift",
+      "render": "@neurepo:mobs/party_gift.json",
+      "type": "drops",
+      "extra": [],
+      "drops": [
+        {
+          "id": "PARTY_THE_FISH",
+          "chance": "0.179%"
+        },
+        {
+          "id": "PARTY_HAT",
+          "chance": "0.298%"
+        },
+        {
+          "id": "PARTY_GLOVES",
+          "chance": "0.896%"
+        },
+        {
+          "id": "PARTY_CLOAK",
+          "chance": "0.896%"
+        },
+        {
+          "id": "SNOWMAN_MASK",
+          "chance": "0.896%"
+        },
+        {
+          "id": "POTION_ALCHEMY_XP_BOOST;3",
+          "chance": "20.908%",
+          "alternatives": [
+            {
+              "id": "POTION_MINING_XP_BOOST;3",
+              "chance": "20.908%"
+            },
+            {
+              "id": "POTION_COMBAT_XP_BOOST;3",
+              "chance": "20.908%"
+            },
+            {
+              "id": "POTION_ENCHANTING_XP_BOOST;3",
+              "chance": "20.908%"
+            },
+            {
+              "id": "POTION_FARMING_XP_BOOST;3",
+              "chance": "20.908%"
+            },
+            {
+              "id": "POTION_FORAGING_XP_BOOST;3",
+              "chance": "20.908%"
+            },
+            {
+              "id": "POTION_FORAGING_XP_BOOST;3",
+              "chance": "20.908%"
+            }
+          ]
+        },
+        {
+          "id": "POTION_ALCHEMY_XP_BOOST;2",
+          "chance": "4.48%",
+          "alternatives": [
+            {
+              "id": "POTION_MINING_XP_BOOST;2",
+              "chance": "4.48%"
+            },
+            {
+              "id": "POTION_COMBAT_XP_BOOST;2",
+              "chance": "4.48%"
+            },
+            {
+              "id": "POTION_ENCHANTING_XP_BOOST;2",
+              "chance": "4.48%"
+            },
+            {
+              "id": "POTION_FARMING_XP_BOOST;2",
+              "chance": "4.48%"
+            },
+            {
+              "id": "POTION_FORAGING_XP_BOOST;2",
+              "chance": "4.48%"
+            },
+            {
+              "id": "POTION_FORAGING_XP_BOOST;2",
+              "chance": "4.48%"
+            }
+          ]
+        }
+      ]
+    }
   ]
 }
