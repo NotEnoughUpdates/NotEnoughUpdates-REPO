@@ -7,7 +7,34 @@
     ""
   ],
   "internalname": "TEMPORAL_PILLAR_MONSTER",
+  "crafttext": "",
   "clickcommand": "",
   "modver": "2.4.0",
-  "island": "rift"
+  "infoType": "WIKI_URL",
+  "recipes": [
+    {
+      "coins": 0,
+      "xp": 0,
+      "name": "§cTemporal Pillar",
+      "render": "@neurepo:mobs/temporal_pillar.json",
+      "level": 5,
+      "combat_xp": 6,
+      "type": "drops",
+      "panorama": "rift",
+      "drops": [
+        {
+          "id": "SKYBLOCK_MOTE:400",
+          "chance": "100%"
+        },
+        {
+          "id": "NULLIFIED_METAL:1",
+          "chance": "100%"
+        }
+      ]
+    }
+  ],
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Autonull",
+    "https://wiki.hypixel.net/Temporal_Pillar"
+  ]
 }
