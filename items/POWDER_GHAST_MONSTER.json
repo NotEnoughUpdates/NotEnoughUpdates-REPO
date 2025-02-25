@@ -22,5 +22,24 @@
     "https://hypixel-skyblock.fandom.com/wiki/Powder_Ghast",
     "https://wiki.hypixel.net/Powder_Ghast"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "coins": 0,
+      "xp": 0,
+      "name": "§cPowder Ghast",
+      "render": "Ghast",
+      "level": 1,
+      "combat_xp": 0,
+      "type": "drops",
+      "panorama": "mining_3",
+      "drops": [
+        {
+          "id": "SKYBLOCK_POWDER_MITHRIL",
+          "extra": ["§250-100 ᠅ Mithril Powder §7per hit"],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
 }
