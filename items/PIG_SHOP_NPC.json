@@ -1,0 +1,54 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Pig Shop (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"e1e1c2e4-1ed2-473d-bde2-3ec718535399\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIxNjY4ZWY3Y2I3OWRkOWMyMmNlM2QxZjNmNGNiNmUyNTU5ODkzYjZkZjRhNDY5NTE0ZTY2N2MxNmFhNCJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Only appears during §dYear of the Pig §7event.\"],Name:\"§9Pig Shop (NPC)\"},ExtraAttributes:{id:\"PIG_SHOP_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Only appears during §dYear of the Pig §7event."
+  ],
+  "internalname": "PIG_SHOP_NPC",
+  "clickcommand": "",
+  "modver": "",
+  "x": -17,
+  "y": 69,
+  "z": -106,
+  "island": "hub",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "result": "SHINY_ORB:1",
+      "cost": [
+        "SKYBLOCK_COIN:5000"
+      ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "THE_ART_OF_WAR:1",
+      "cost": [
+        "SKYBLOCK_COIN:7500000",
+        "ENCHANTED_GRILLED_PORK:2"
+      ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "BLOOD_GOD_CREST:1",
+      "cost": [
+        "SKYBLOCK_COIN:1000000",
+        "ENCHANTED_PORK:32"
+      ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "DANTE_RING:1",
+      "cost": [
+        "SKYBLOCK_COIN:2000000"
+      ]
+    }
+  ],
+  "crafttext": "",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Pig_Shop",
+    "https://wiki.hypixel.net/Pig_Shop"
+  ]
+}
