@@ -198,6 +198,16 @@
     },
     "mobs": [
       {
+        "name": "§aBat",
+        "skullOwner": "aefa0e7a-83b3-36f3-9eba-db274ad80174",
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzgyZmMzZjcxYjQxNzY5Mzc2YTllOTJmZTNhZGJhYWMzNzcyYjk5OWIyMTljOWQ2YjQ2ODBiYTk5ODNlNTI3In19fQ",
+        "cap": 200,
+        "mobs": [
+          "forest_island_bat_3"
+        ],
+        "bracket": 1
+      },
+      {
         "name": "§aCreeper",
         "skullOwner": "81fb1385-b2fc-4d4f-b5bb-0fe9b1d37d60",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYxOTE5MjI5MzI5OCwKICAicHJvZmlsZUlkIiA6ICI0ZjU2ZTg2ODk2OGU0ZWEwYmNjM2M2NzRlNzQ3ODdjOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDVUNGTDE1IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E2ODIyNGNmOGVkNGMwM2I0NTdiZjQ5YmViNmY1NDQxOTM2NzkyNjhiODQyMWIwMWZmY2U2ZDI3YjI1YWMzMmQiCiAgICB9CiAgfQp9",
@@ -350,16 +360,6 @@
           "zombie_15"
         ],
         "bracket": 1
-      },
-      {
-        "name": "§aBat",
-        "skullOwner": "aefa0e7a-83b3-36f3-9eba-db274ad80174",
-        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzgyZmMzZjcxYjQxNzY5Mzc2YTllOTJmZTNhZGJhYWMzNzcyYjk5OWIyMTljOWQ2YjQ2ODBiYTk5ODNlNTI3In19fQ",
-        "cap": 200,
-        "mobs": [
-          "forest_island_bat_3"
-        ],
-        "bracket": 1
       }
     ]
   },
@@ -502,7 +502,7 @@
     ]
   },
   "combat_1": {
-    "name": "Spiders Den",
+    "name": "Spider's Den",
     "icon": {
       "skullOwner": "acbeaf98-2081-40c5-b5a3-221a2957d532",
       "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzc1NDMxOGEzMzc2ZjQ3MGU0ODFkZmNkNmM4M2E1OWFhNjkwYWQ0YjRkZDc1NzdmZGFkMWMyZWYwOGQ4YWVlNiJ9fX0"
@@ -816,26 +816,6 @@
         "bracket": 4
       },
       {
-        "name": "§aSmoldering Blaze",
-        "skullOwner": "118fe834-28aa-3b0d-afe6-f0c52d01afe8",
-        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ==",
-        "cap": 25000,
-        "mobs": [
-          "smoldering_blaze_95"
-        ],
-        "bracket": 2
-      },
-      {
-        "name": "§4Millennia-Aged Blaze",
-        "skullOwner": "118fe834-28aa-3b0d-afe6-f0c52d01afe8",
-        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ==",
-        "cap": 4000,
-        "mobs": [
-          "old_blaze_110"
-        ],
-        "bracket": 3
-      },
-      {
         "name": "§aFlaming Spider",
         "skullOwner": "d27e14a2-f35e-3c7b-8062-089fa201a533",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDQ5OTUzOTQ2NywKICAicHJvZmlsZUlkIiA6ICJhYTZhNzUwNWVkYmU0NjNiYjk1NWYyMWY0MjNiYTM1NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJub3RhbmR5d2FyaG9sIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVhNjVlZjIzZWEzNTA0NzE1MGQzMzg4MDQ3M2E0N2ZlNjM1ZjBjMGUzYzgyM2JkNzZkYzg0OWNiMDI0NDE2NTUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
@@ -867,12 +847,32 @@
         "bracket": 4
       },
       {
+        "name": "§aKada Knight",
+        "skullOwner": "3fc29372-e78e-3ad6-b0b0-05ca0a84babd",
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzRlOWM2ZTk4NTgyZmZkOGZmOGZlYjMzMjJjZDE4NDljNDNmYjE2YjE1OGFiYjExY2E3YjQyZWRhNzc0M2ViIn19fQ==",
+        "cap": 3000,
+        "mobs": [
+          "kada_knight_90"
+        ],
+        "bracket": 4
+      },
+      {
         "name": "§5§lMage Outlaw",
         "skullOwner": "1d16c26c-d937-336f-821a-371968d050c2",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDA4Mjg3Mzk2NywKICAicHJvZmlsZUlkIiA6ICJiNzQ3OWJhZTI5YzQ0YjIzYmE1NjI4MzM3OGYwZTNjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTeWxlZXgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWJlYzk5YjNhMDUwZmQyNzc1Mjg0MDc2NzYzNjZlMjBiOTIwMDZhZDg4ZDE0NzI3YTRkOTllYjhjYjI3M2I2MiIKICAgIH0KICB9Cn0",
         "cap": 500,
         "mobs": [
           "mage_outlaw_200"
+        ],
+        "bracket": 7
+      },
+      {
+        "name": "§a§4§lMagma Boss",
+        "skullOwner": "35f02923-7bec-3869-9ef5-b42a4794cac8",
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzg5NTdkNTAyM2M5MzdjNGM0MWFhMjQxMmQ0MzQxMGJkYTIzY2Y3OWE5ZjZhYjM2Yjc2ZmVmMmQ3YzQyOSJ9fX0=",
+        "cap": 500,
+        "mobs": [
+          "magma_boss_500"
         ],
         "bracket": 7
       },
@@ -889,14 +889,14 @@
         "bracket": 3
       },
       {
-        "name": "§a§4§lMagma Boss",
-        "skullOwner": "35f02923-7bec-3869-9ef5-b42a4794cac8",
-        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzg5NTdkNTAyM2M5MzdjNGM0MWFhMjQxMmQ0MzQxMGJkYTIzY2Y3OWE5ZjZhYjM2Yjc2ZmVmMmQ3YzQyOSJ9fX0=",
-        "cap": 500,
+        "name": "§aMagma Cube Rider",
+        "skullOwner": "3fc29372-e78e-3ad6-b0b0-05ca0a84babd",
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzRlOWM2ZTk4NTgyZmZkOGZmOGZlYjMzMjJjZDE4NDljNDNmYjE2YjE1OGFiYjExY2E3YjQyZWRhNzc0M2ViIn19fQ==",
+        "cap": 3000,
         "mobs": [
-          "magma_boss_500"
+          "magma_cube_rider_90"
         ],
-        "bracket": 7
+        "bracket": 4
       },
       {
         "name": "§aMatcho",
@@ -909,6 +909,16 @@
         "bracket": 5
       },
       {
+        "name": "§4Millennia-Aged Blaze",
+        "skullOwner": "118fe834-28aa-3b0d-afe6-f0c52d01afe8",
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ==",
+        "cap": 4000,
+        "mobs": [
+          "old_blaze_110"
+        ],
+        "bracket": 3
+      },
+      {
         "name": "§aMushroom Bull",
         "skullOwner": "2b9eb675-2097-4b51-8fec-c1a51562f19c",
         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTE2M2JjNDE2YjhlNjA1OGY5MmIyMzFlOWE1MjRiN2ZlMTE4ZWI2ZTdlZWFiNGFkMTZkMWI1MmEzZWMwNGZjZCJ9fX0=",
@@ -919,24 +929,14 @@
         "bracket": 3
       },
       {
-        "name": "§aWither Skeleton",
-        "skullOwner": "2141b934-c877-3db1-bc6c-7c9a347ffa95",
-        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzk1M2I2YzY4NDQ4ZTdlNmI2YmY4ZmIyNzNkNzIwM2FjZDhlMWJlMTllODE0ODFlYWQ1MWY0NWRlNTlhOCJ9fX0=",
-        "cap": 3000,
+        "name": "§aSmoldering Blaze",
+        "skullOwner": "118fe834-28aa-3b0d-afe6-f0c52d01afe8",
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ==",
+        "cap": 25000,
         "mobs": [
-          "wither_skeleton_70"
+          "smoldering_blaze_95"
         ],
-        "bracket": 4
-      },
-      {
-        "name": "§aWither Spectre",
-        "skullOwner": "9a1699a4-9b61-37a5-be7a-ca23a1f092a1",
-        "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDA4Mjg1NzcxMCwKICAicHJvZmlsZUlkIiA6ICIwNTVhOTk2NTk2M2E0YjRmOGMwMjRmMTJmNDFkMmNmMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVWb3hlbGxlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdmNWYzMzg0Mzg0ZDdmMDNiZjk3YTczMDk5YjBiYWZiNzJjNTM4ZmMwNDE1YWM4NjEzYjY2NGY4NzU3OWEzNzkiCiAgICB9CiAgfQp9",
-        "cap": 10000,
-        "mobs": [
-          "wither_spectre_70"
-        ],
-        "bracket": 3
+        "bracket": 2
       },
       {
         "name": "§aTentacle",
@@ -959,24 +959,24 @@
         "bracket": 5
       },
       {
-        "name": "§aKada Knight",
-        "skullOwner": "3fc29372-e78e-3ad6-b0b0-05ca0a84babd",
-        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzRlOWM2ZTk4NTgyZmZkOGZmOGZlYjMzMjJjZDE4NDljNDNmYjE2YjE1OGFiYjExY2E3YjQyZWRhNzc0M2ViIn19fQ==",
+        "name": "§aWither Skeleton",
+        "skullOwner": "2141b934-c877-3db1-bc6c-7c9a347ffa95",
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzk1M2I2YzY4NDQ4ZTdlNmI2YmY4ZmIyNzNkNzIwM2FjZDhlMWJlMTllODE0ODFlYWQ1MWY0NWRlNTlhOCJ9fX0=",
         "cap": 3000,
         "mobs": [
-          "kada_knight_90"
+          "wither_skeleton_70"
         ],
         "bracket": 4
       },
       {
-        "name": "§aMagma Cube Rider",
-        "skullOwner": "3fc29372-e78e-3ad6-b0b0-05ca0a84babd",
-        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzRlOWM2ZTk4NTgyZmZkOGZmOGZlYjMzMjJjZDE4NDljNDNmYjE2YjE1OGFiYjExY2E3YjQyZWRhNzc0M2ViIn19fQ==",
-        "cap": 3000,
+        "name": "§aWither Spectre",
+        "skullOwner": "9a1699a4-9b61-37a5-be7a-ca23a1f092a1",
+        "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDA4Mjg1NzcxMCwKICAicHJvZmlsZUlkIiA6ICIwNTVhOTk2NTk2M2E0YjRmOGMwMjRmMTJmNDFkMmNmMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVWb3hlbGxlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdmNWYzMzg0Mzg0ZDdmMDNiZjk3YTczMDk5YjBiYWZiNzJjNTM4ZmMwNDE1YWM4NjEzYjY2NGY4NzU3OWEzNzkiCiAgICB9CiAgfQp9",
+        "cap": 10000,
         "mobs": [
-          "magma_cube_rider_90"
+          "wither_spectre_70"
         ],
-        "bracket": 4
+        "bracket": 3
       }
     ]
   },
@@ -995,6 +995,16 @@
         "mobs": [
           "emerald_slime_5",
           "emerald_slime_10"
+        ],
+        "bracket": 1
+      },
+      {
+        "name": "§aLapis Zombie",
+        "skullOwner": "55651669-cc90-3e34-9372-99b2e87535d5",
+        "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY4Nzk4NjYxNDAwOCwKICAicHJvZmlsZUlkIiA6ICJjYTU4NzNhYmY0Y2U0YWUxODAxZmVmODgzNjhlMWExNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZXRocm9uZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTlmNzk3OWIyNTAwMTA4Nzk2OWQ1OGMwNmUxNGQwMGI4ZGFiNTdkYWIwNjBiNGM4YjQ4M2MxYjdmODY5OTQwIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+        "cap": 3000,
+        "mobs": [
+          "lapis_zombie_7"
         ],
         "bracket": 1
       },
@@ -1039,16 +1049,6 @@
           "invisible_creeper_3"
         ],
         "bracket": 3
-      },
-      {
-        "name": "§aLapis Zombie",
-        "skullOwner": "55651669-cc90-3e34-9372-99b2e87535d5",
-        "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY4Nzk4NjYxNDAwOCwKICAicHJvZmlsZUlkIiA6ICJjYTU4NzNhYmY0Y2U0YWUxODAxZmVmODgzNjhlMWExNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZXRocm9uZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTlmNzk3OWIyNTAwMTA4Nzk2OWQ1OGMwNmUxNGQwMGI4ZGFiNTdkYWIwNjBiNGM4YjQ4M2MxYjdmODY5OTQwIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
-        "cap": 3000,
-        "mobs": [
-          "lapis_zombie_7"
-        ],
-        "bracket": 1
       }
     ]
   },
@@ -1078,6 +1078,55 @@
           "caverns_ghost_250"
         ],
         "bracket": 3
+      },
+      {
+        "name": "§aGlacite Bowman",
+        "skullOwner": "85ee60b1-3f93-3352-89e8-9930c9a88fe9",
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJhMDA1N2VkZDhlODQ4MGYwZWEyYTc4YzFhZDg4ZTQwMWM0ODQ0ZjQ0NThhZWI0ZTMzYWM5M2E1OGI4YzExYSJ9fX0=",
+        "cap": 1000,
+        "mobs": [
+          "glacite_bowman_165"
+        ],
+        "bracket": 4
+      },
+      {
+        "name": "§aGlacite Caver",
+        "skullOwner": "85ee60b1-3f93-3352-89e8-9930c9a88fe9",
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJhMDA1N2VkZDhlODQ4MGYwZWEyYTc4YzFhZDg4ZTQwMWM0ODQ0ZjQ0NThhZWI0ZTMzYWM5M2E1OGI4YzExYSJ9fX0=",
+        "cap": 1000,
+        "mobs": [
+          "glacite_caver_200"
+        ],
+        "bracket": 4
+      },
+      {
+        "name": "§aGlacite Mage",
+        "skullOwner": "85ee60b1-3f93-3352-89e8-9930c9a88fe9",
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJhMDA1N2VkZDhlODQ4MGYwZWEyYTc4YzFhZDg4ZTQwMWM0ODQ0ZjQ0NThhZWI0ZTMzYWM5M2E1OGI4YzExYSJ9fX0=",
+        "cap": 1000,
+        "mobs": [
+          "glacite_mage_155"
+        ],
+        "bracket": 4
+      },
+      {
+        "name": "§aGlacite Mutt",
+        "skullOwner": "7e9af289-f295-3f8c-bd54-58b7667d5759",
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjlkMWQzMTEzZWM0M2FjMjk2MWRkNTlmMjgxNzVmYjQ3MTg4NzNjNmM0NDhkZmNhODcyMjMxN2Q2NyJ9fX0=",
+        "cap": 1000,
+        "mobs": [
+          "glacite_mutt_180"
+        ],
+        "bracket": 4
+      },
+      {
+        "name": "§aGlacite Walker",
+        "item": "packed_ice",
+        "cap": 10000,
+        "mobs": [
+          "ice_walker_45"
+        ],
+        "bracket": 2
       },
       {
         "name": "§aGoblin",
@@ -1125,15 +1174,6 @@
         "bracket": 5
       },
       {
-        "name": "§aGlacite Walker",
-        "item": "packed_ice",
-        "cap": 10000,
-        "mobs": [
-          "ice_walker_45"
-        ],
-        "bracket": 2
-      },
-      {
         "name": "§aPowder Ghast",
         "skullOwner": "69725d7d-1933-3dea-87bd-a3052482ab2c",
         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU4YTM4ZTlhZmJkM2RhMTBkMTliNTc3YzU1YzdiZmQ2YjRmMmU0MDdlNDRkNDAxN2IyM2JlOTE2N2FiZmYwMiJ9fX0=",
@@ -1160,46 +1200,6 @@
         "cap": 1000,
         "mobs": [
           "treasure_hoarder_70"
-        ],
-        "bracket": 4
-      },
-      {
-        "name": "§aGlacite Bowman",
-        "skullOwner": "85ee60b1-3f93-3352-89e8-9930c9a88fe9",
-        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJhMDA1N2VkZDhlODQ4MGYwZWEyYTc4YzFhZDg4ZTQwMWM0ODQ0ZjQ0NThhZWI0ZTMzYWM5M2E1OGI4YzExYSJ9fX0=",
-        "cap": 1000,
-        "mobs": [
-          "glacite_bowman_165"
-        ],
-        "bracket": 4
-      },
-      {
-        "name": "§aGlacite Caver",
-        "skullOwner": "85ee60b1-3f93-3352-89e8-9930c9a88fe9",
-        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJhMDA1N2VkZDhlODQ4MGYwZWEyYTc4YzFhZDg4ZTQwMWM0ODQ0ZjQ0NThhZWI0ZTMzYWM5M2E1OGI4YzExYSJ9fX0=",
-        "cap": 1000,
-        "mobs": [
-          "glacite_caver_200"
-        ],
-        "bracket": 4
-      },
-      {
-        "name": "§aGlacite Mage",
-        "skullOwner": "85ee60b1-3f93-3352-89e8-9930c9a88fe9",
-        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJhMDA1N2VkZDhlODQ4MGYwZWEyYTc4YzFhZDg4ZTQwMWM0ODQ0ZjQ0NThhZWI0ZTMzYWM5M2E1OGI4YzExYSJ9fX0=",
-        "cap": 1000,
-        "mobs": [
-          "glacite_mage_155"
-        ],
-        "bracket": 4
-      },
-      {
-        "name": "§aGlacite Mutt",
-        "skullOwner": "7e9af289-f295-3f8c-bd54-58b7667d5759",
-        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjlkMWQzMTEzZWM0M2FjMjk2MWRkNTlmMjgxNzVmYjQ3MTg4NzNjNmM0NDhkZmNhODcyMjMxN2Q2NyJ9fX0=",
-        "cap": 1000,
-        "mobs": [
-          "glacite_mutt_180"
         ],
         "bracket": 4
       }
@@ -1768,6 +1768,16 @@
       },
       "mobs": [
         {
+          "name": "§aAbyssal Miner",
+          "skullOwner": "27d4a35c-d53b-374b-b56c-57f99c53bdbb",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMDM0NDMxMzcxNCwKICAicHJvZmlsZUlkIiA6ICI0NWY3YTJlNjE3ODE0YjJjODAwODM5MmRmN2IzNWY0ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJfSnVzdERvSXQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNThiZTA1Y2ZhZTJjNmE3ZDQ3ZGEyY2U4OGIzZTAwYzcyYTE0NWNjMzIxOGYwNDFiM2RkNWJkNWZhNWNhODI3IgogICAgfQogIH0KfQ==",
+          "cap": 250,
+          "mobs": [
+            "zombie_miner_150"
+          ],
+          "bracket": 6
+        },
+        {
           "name": "§aAgarimoo",
           "skullOwner": "10a84652-afdd-3f05-812b-5b1a6d9a3050",
           "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Q1OTdmNzdjZGUzMmM5YWM5YjA2ZjgyZmNmN2M5Y2I1MDBmYWNjMTRiZmYxNjYyMjJiMjRiZTM5OTYyZjBlZiJ9fX0=",
@@ -1971,16 +1981,6 @@
             "water_worm_20"
           ],
           "bracket": 4
-        },
-        {
-          "name": "§aAbyssal Miner",
-          "skullOwner": "27d4a35c-d53b-374b-b56c-57f99c53bdbb",
-          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMDM0NDMxMzcxNCwKICAicHJvZmlsZUlkIiA6ICI0NWY3YTJlNjE3ODE0YjJjODAwODM5MmRmN2IzNWY0ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJfSnVzdERvSXQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNThiZTA1Y2ZhZTJjNmE3ZDQ3ZGEyY2U4OGIzZTAwYzcyYTE0NWNjMzIxOGYwNDFiM2RkNWJkNWZhNWNhODI3IgogICAgfQogIH0KfQ==",
-          "cap": 250,
-          "mobs": [
-            "zombie_miner_150"
-          ],
-          "bracket": 6
         }
       ]
     },
@@ -3076,16 +3076,6 @@
         "bracket": 6
       },
       {
-        "name": "§aFly",
-        "skullOwner": "d4a3cbe9-b7be-3fc4-9fc5-a132fc7e1749",
-        "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY5Njk0NTA2MzI4MSwKICAicHJvZmlsZUlkIiA6ICJjN2FmMWNkNjNiNTE0Y2YzOGY4NWQ2ZDUxNzhjYThlNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJtb25zdGVyZ2FtZXIzMTUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWQ5MGU3Nzc4MjZhNTI0NjEzNjhlMjZkMWIyZTE5YmZhMWJhNTgyZDYwMjQ4M2U1NDVmNDEyNGQwZjczMTg0MiIKICAgIH0KICB9Cn0",
-        "cap": 250,
-        "mobs": [
-          "pest_fly_1"
-        ],
-        "bracket": 6
-      },
-      {
         "name": "§aField Mouse",
         "skullOwner": "c9873ef5-6132-3bf8-94ec-92b14da39bc5",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTcyNzkwNDc5NzQ1OSwKICAicHJvZmlsZUlkIiA6ICI0MmIwOTMyZDUwMWI0MWQ1YTM4YjEwOTcxYTYwYmYxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBaXJib2x0MDc4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2YzNzllMDkyNTI4MTczMTRiZDBiNjk0ZjdkNTNiNDhhZjJjN2ZhODQ5OTEwOTgwMmE0MWJiMjk0ZDJmOTNlM2UiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
@@ -3094,6 +3084,16 @@
           "pest_mouse_1"
         ],
         "bracket": 7
+      },
+      {
+        "name": "§aFly",
+        "skullOwner": "d4a3cbe9-b7be-3fc4-9fc5-a132fc7e1749",
+        "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY5Njk0NTA2MzI4MSwKICAicHJvZmlsZUlkIiA6ICJjN2FmMWNkNjNiNTE0Y2YzOGY4NWQ2ZDUxNzhjYThlNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJtb25zdGVyZ2FtZXIzMTUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWQ5MGU3Nzc4MjZhNTI0NjEzNjhlMjZkMWIyZTE5YmZhMWJhNTgyZDYwMjQ4M2U1NDVmNDEyNGQwZjczMTg0MiIKICAgIH0KICB9Cn0",
+        "cap": 250,
+        "mobs": [
+          "pest_fly_1"
+        ],
+        "bracket": 6
       },
       {
         "name": "§aLocust",
