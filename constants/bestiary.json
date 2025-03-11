@@ -1213,6 +1213,81 @@
     },
     "mobs": [
       {
+        "name": "§aAutomaton",
+        "skullOwner": "a46a9adf-60a3-38f2-a3dd-335d85f1cc10",
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJiY2FjZWViNDE2MmY0MDBkNDQ3NDMzMTU5MzJhYzgyMGQzMTE5YWM4OTg2YTAxNjFhNzI2MTYxY2NjOTNmYyJ9fX0=",
+        "cap": 10000,
+        "mobs": [
+          "automaton_100",
+          "automaton_150"
+        ],
+        "bracket": 2
+      },
+      {
+        "name": "§c§lBal",
+        "skullOwner": "c6d83acf-378f-3c07-a8e1-9b1fb6e86894",
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTFjOTdhMDZlZmRlMDRkMDAyODdiZjIwNDE2NDA0YWIyMTAzZTEwZjA4NjIzMDg3ZTFiMGMxMjY0YTFjMGYwYyJ9fX0=",
+        "cap": 250,
+        "mobs": [
+          "bal_boss_100"
+        ],
+        "bracket": 6
+      },
+      {
+        "name": "§aBoss Corleone",
+        "skullOwner": "f3617214-7165-3b12-b7f5-7619134f5149",
+        "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYxODE5NDg3NTAzNywKICAicHJvZmlsZUlkIiA6ICI5MzZmMTA3MTEzOGM0YjMyYTg0OGY2NmE5Nzc2NDJhMiIsCiAgInByb2ZpbGVOYW1lIiA6ICIwMDAwMDAwMDAwMDAwMDB4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZhZjBiMDM2MGY1NjI5YTM4YTA3NGNkOTI5YjU5ZjI3NjliMmQwNzUyYTVkMzcyYzU0NjlhMzcyYTU2N2Q5MTgiCiAgICB9CiAgfQp9",
+        "cap": 100,
+        "mobs": [
+          "team_treasurite_corleone_200"
+        ],
+        "bracket": 7
+      },
+      {
+        "name": "§eButterfly",
+        "skullOwner": "9dd11ec6-cfea-34df-9336-416c946567bc",
+        "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyNTUxMjE4ODY3NCwKICAicHJvZmlsZUlkIiA6ICI3MzgyZGRmYmU0ODU0NTVjODI1ZjkwMGY4OGZkMzJmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJJb3lhbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85ZmQ4MDZkZWZkZmRmNTliMWYyNjA5YzhlZTM2NDY2NmRlNjYxMjdhNjIzNDE1YjU0MzBjOTM1OGM2MDFlZjdjIgogICAgfQogIH0KfQ==",
+        "cap": 1000,
+        "mobs": [
+          "butterfly_100"
+        ],
+        "bracket": 4
+      },
+      {
+        "name": "§aGrunt",
+        "skullOwner": "a64ccd19-2a64-39a4-b2f5-cb6799c12a99",
+        "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYxODE5NTA2MDUwMCwKICAicHJvZmlsZUlkIiA6ICI0ZTMwZjUwZTdiYWU0M2YzYWZkMmE3NDUyY2ViZTI5YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJfdG9tYXRvel8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWY1ZTAzYjhkZTExOWY4NTg5YTgwODIyNGNiZWE3MzdmNWRjZjI0MjM1Nzk5YjczNzhhYzViZjA2YWJmNmRkNCIKICAgIH0KICB9Cn0=",
+        "cap": 4000,
+        "mobs": [
+          "team_treasurite_grunt_50",
+          "team_treasurite_viper_100",
+          "team_treasurite_wendy_100",
+          "team_treasurite_sebastian_100"
+        ],
+        "bracket": 3
+      },
+      {
+        "name": "§aKey Guardian",
+        "item": "tripwire_hook",
+        "cap": 250,
+        "mobs": [
+          "key_guardian_100"
+        ],
+        "bracket": 6
+      },
+      {
+        "name": "§aSludge",
+        "skullOwner": "3b70a2f3-319c-38d5-b7d1-5b2425770184",
+        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODk1YWVlYzZiODQyYWRhODY2OWY4NDZkNjViYzQ5NzYyNTk3ODI0YWI5NDRmMjJmNDViZjNiYmI5NDFhYmU2YyJ9fX0=",
+        "cap": 10000,
+        "mobs": [
+          "sludge_5",
+          "sludge_10",
+          "sludge_100"
+        ],
+        "bracket": 2
+      },
+      {
         "name": "§aThyst",
         "skullOwner": "a1f64509-9670-320a-a9bd-4a1e7df6fed9",
         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWExYTA4MzFhYTAzYWZiNDIxMmFkY2JiMjRlNWRmYWE3ZjQ3NmExMTczZmNlMjU5ZWY3NWE4NTg1NSJ9fX0=",
@@ -1242,81 +1317,6 @@
           "yog_100"
         ],
         "bracket": 3
-      },
-      {
-        "name": "§aSludge",
-        "skullOwner": "3b70a2f3-319c-38d5-b7d1-5b2425770184",
-        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODk1YWVlYzZiODQyYWRhODY2OWY4NDZkNjViYzQ5NzYyNTk3ODI0YWI5NDRmMjJmNDViZjNiYmI5NDFhYmU2YyJ9fX0=",
-        "cap": 10000,
-        "mobs": [
-          "sludge_5",
-          "sludge_10",
-          "sludge_100"
-        ],
-        "bracket": 2
-      },
-      {
-        "name": "§aAutomaton",
-        "skullOwner": "a46a9adf-60a3-38f2-a3dd-335d85f1cc10",
-        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJiY2FjZWViNDE2MmY0MDBkNDQ3NDMzMTU5MzJhYzgyMGQzMTE5YWM4OTg2YTAxNjFhNzI2MTYxY2NjOTNmYyJ9fX0=",
-        "cap": 10000,
-        "mobs": [
-          "automaton_100",
-          "automaton_150"
-        ],
-        "bracket": 2
-      },
-      {
-        "name": "§eButterfly",
-        "skullOwner": "9dd11ec6-cfea-34df-9336-416c946567bc",
-        "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyNTUxMjE4ODY3NCwKICAicHJvZmlsZUlkIiA6ICI3MzgyZGRmYmU0ODU0NTVjODI1ZjkwMGY4OGZkMzJmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJJb3lhbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85ZmQ4MDZkZWZkZmRmNTliMWYyNjA5YzhlZTM2NDY2NmRlNjYxMjdhNjIzNDE1YjU0MzBjOTM1OGM2MDFlZjdjIgogICAgfQogIH0KfQ==",
-        "cap": 1000,
-        "mobs": [
-          "butterfly_100"
-        ],
-        "bracket": 4
-      },
-      {
-        "name": "§aGrunt",
-        "skullOwner": "a64ccd19-2a64-39a4-b2f5-cb6799c12a99",
-        "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYxODE5NTA2MDUwMCwKICAicHJvZmlsZUlkIiA6ICI0ZTMwZjUwZTdiYWU0M2YzYWZkMmE3NDUyY2ViZTI5YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJfdG9tYXRvel8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWY1ZTAzYjhkZTExOWY4NTg5YTgwODIyNGNiZWE3MzdmNWRjZjI0MjM1Nzk5YjczNzhhYzViZjA2YWJmNmRkNCIKICAgIH0KICB9Cn0=",
-        "cap": 4000,
-        "mobs": [
-          "team_treasurite_grunt_50",
-          "team_treasurite_viper_100",
-          "team_treasurite_wendy_100",
-          "team_treasurite_sebastian_100"
-        ],
-        "bracket": 3
-      },
-      {
-        "name": "§c§lBal",
-        "skullOwner": "c6d83acf-378f-3c07-a8e1-9b1fb6e86894",
-        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTFjOTdhMDZlZmRlMDRkMDAyODdiZjIwNDE2NDA0YWIyMTAzZTEwZjA4NjIzMDg3ZTFiMGMxMjY0YTFjMGYwYyJ9fX0=",
-        "cap": 250,
-        "mobs": [
-          "bal_boss_100"
-        ],
-        "bracket": 6
-      },
-      {
-        "name": "§aBoss Corleone",
-        "skullOwner": "f3617214-7165-3b12-b7f5-7619134f5149",
-        "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYxODE5NDg3NTAzNywKICAicHJvZmlsZUlkIiA6ICI5MzZmMTA3MTEzOGM0YjMyYTg0OGY2NmE5Nzc2NDJhMiIsCiAgInByb2ZpbGVOYW1lIiA6ICIwMDAwMDAwMDAwMDAwMDB4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZhZjBiMDM2MGY1NjI5YTM4YTA3NGNkOTI5YjU5ZjI3NjliMmQwNzUyYTVkMzcyYzU0NjlhMzcyYTU2N2Q5MTgiCiAgICB9CiAgfQp9",
-        "cap": 100,
-        "mobs": [
-          "team_treasurite_corleone_200"
-        ],
-        "bracket": 7
-      },
-      {
-        "name": "§aKey Guardian",
-        "item": "tripwire_hook",
-        "cap": 250,
-        "mobs": [
-          "key_guardian_100"
-        ],
-        "bracket": 6
       }
     ]
   },
