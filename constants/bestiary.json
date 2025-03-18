@@ -1992,12 +1992,32 @@
       },
       "mobs": [
         {
+          "name": "§aFiery Scuttler",
+          "skullOwner": "b61b073d-9e0e-30de-8708-bc8f27fa1827",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTczODk0Nzk5MTk3OCwKICAicHJvZmlsZUlkIiA6ICIzZDIxZTYyMTk2NzQ0Y2QwYjM3NjNkNTU3MWNlNGJlZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTcl83MUJsYWNrYmlyZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81NWIxOTQwMjU4MDY2ODc2NDJlMmJjMjM5ODk1ZDY0NmE2ZDhjMTkzZDkyNTNiNjFiZmNlOTA4ZjZjZTFiODRhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+          "cap": 400,
+          "mobs": [
+            "fiery_scuttler_475"
+          ],
+          "bracket": 5
+        },
+        {
           "name": "§aFire Eel",
           "skullOwner": "d44cbcee-3042-3f42-83f1-d6929eb0f987",
           "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY0MzgzMTA5NzU4NywKICAicHJvZmlsZUlkIiA6ICJmMjU5MTFiOTZkZDU0MjJhYTcwNzNiOTBmOGI4MTUyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJmYXJsb3VjaDEwMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jNjM3MDRhN2ZjN2Q0MzdmN2I5MjNlMjNlOWEwOGFlM2JiZTI4OTM3ZGY0ZGFmYTllM2U4NzI1YjJjZTRhZmE1IgogICAgfQogIH0KfQ=",
           "cap": 1000,
           "mobs": [
             "fire_eel_240"
+          ],
+          "bracket": 4
+        },
+        {
+          "name": "§aFireproof Witch",
+          "skullOwner": "d0481345-7d0d-33e7-96c0-79e56d688076",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY1ODA3MzI4MDM2MywKICAicHJvZmlsZUlkIiA6ICI1MjhlYzVmMmEzZmM0MDA0YjYwY2IwOTA5Y2JiMjdjYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJQdWxpenppIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZjZTY2MDQxNTdmYzRhYjU1OTFlNGJjZjUwN2E3NDk5MThlZTljNDFlMzU3ZDQ3Mzc2ZTBlZTczNDIwNzRjOTAiCiAgICB9CiAgfQp9",
+          "cap": 1000,
+          "mobs": [
+            "fireproof_witch_75"
           ],
           "bracket": 4
         },
@@ -2010,6 +2030,15 @@
             "flaming_worm_50"
           ],
           "bracket": 3
+        },
+        {
+          "name": "§aFried Chicken",
+          "item": "cooked_chicken",
+          "cap": 3000,
+          "mobs": [
+            "fried_chicken_30"
+          ],
+          "bracket": 4
         },
         {
           "name": "§aLava Blaze",
@@ -2100,6 +2129,16 @@
             "pyroclastic_worm_240"
           ],
           "bracket": 4
+        },
+        {
+          "name": "§aRagnarok",
+          "skullOwner": "feaa91b5-9a47-37bc-8974-13e7aa71fcd6",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc0MTA5ODExNTMwMCwKICAicHJvZmlsZUlkIiA6ICJhNzdkNmQ2YmFjOWE0NzY3YTFhNzU1NjYxOTllYmY5MiIsCiAgInByb2ZpbGVOYW1lIiA6ICIwOEJFRDUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYThlMWZlMjE0YjcxZjZlYTY5YzU0MWE4NjFjNjRiYWZkYTdiZjliODVkZTVkZDE3YWIyYjZjY2QxZDMyYjAzOSIKICAgIH0KICB9Cn0=",
+          "cap": 100,
+          "mobs": [
+            "ragnarok_666"
+          ],
+          "bracket": 7
         },
         {
           "name": "§aTaurus",
@@ -2304,12 +2343,32 @@
       },
       "mobs": [
         {
+          "name": "§aAlligator",
+          "skullOwner": "13e2f537-ce86-361d-bd9d-9c832178bd3a",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc0MDU5MDc4Mzc2NywKICAicHJvZmlsZUlkIiA6ICI1N2I3OWE2NTllZTM0ODhmODBhM2ExOGQwNDYxMTg3YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaW1hdGlrX1giLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWYyN2E1NDZiYjhmMmVlMzY2NGU0ZDE1NmJlYzA3NWM3YmRlMWQ2MjQ1ZTcyNjUwNDdlYzBiNGIxYTczNmM3NSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+          "cap": 400,
+          "mobs": [
+            "alligator_120"
+          ],
+          "bracket": 5
+        },
+        {
           "name": "§aBanshee",
           "skullOwner": "603a9948-4872-3422-a02d-1295e22d8eb9",
           "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc0MDQ4NzczNDcwOCwKICAicHJvZmlsZUlkIiA6ICJjN2Y2Nzk3ZmE4ZGM0NTdiYTkxNTU0NWIwMGU3M2UzMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJlZGd5c3BlbmNlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzMwY2NjM2M5YTA2ZGU2NTdiOThmODgxZTIzYTU3ZWNhZWIyNTJjMzY0ZGRiN2I5MjU2NGY1ZWQyYjgwODdlM2IiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
           "cap": 1000,
           "mobs": [
             "banshee_10"
+          ],
+          "bracket": 4
+        },
+        {
+          "name": "§aBayou Sludge",
+          "skullOwner": "5d4d1de8-6dda-371f-a2e3-921869fe3140",
+          "texture": "eyJ0aW1lc3RhbXAiOjE0OTU5ODU3MzEzOTcsInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzg5NWFlZWM2Yjg0MmFkYTg2NjlmODQ2ZDY1YmM0OTc2MjU5NzgyNGFiOTQ0ZjIyZjQ1YmYzYmJiOTQxYWJlNmMifX19",
+          "cap": 1000,
+          "mobs": [
+            "bayou_sludge_25"
           ],
           "bracket": 4
         },
@@ -2354,6 +2413,16 @@
           "bracket": 4
         },
         {
+          "name": "§aTitanoboa",
+          "skullOwner": "b5a483a5-d97f-3c73-b6c5-42cbd543b9b9",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTczOTU0OTUyMDAxMCwKICAicHJvZmlsZUlkIiA6ICI2OGVmMmM5NTc5NjM0MjE4YjYwNTM5YWVlOTU3NWJiNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVNdWx0aUFjb3VudCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NDVmMmMwYmJmZTNiOGIxOWI3NDUyMDcyZGI2OWE1ZjU5ZGEzOGZmNjE0MTU1NDUxNTZlNTcwMWUxYmU3NTZkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+          "cap": 100,
+          "mobs": [
+            "titanoboa_240"
+          ],
+          "bracket": 7
+        },
+        {
           "name": "§aTrash Gobbler",
           "skullOwner": "062442f5-ec5a-328c-87b8-a5dc9939dcdd",
           "texture": "eyJ0aW1lc3RhbXAiOjE1ODQzODU5MzM1MTIsInByb2ZpbGVJZCI6IjRkNzA0ODZmNTA5MjRkMzM4NmJiZmM5YzEyYmFiNGFlIiwicHJvZmlsZU5hbWUiOiJzaXJGYWJpb3pzY2hlIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xOGFlNzA0NmRhOThkY2IzM2YzZWQ0MmYxZGM0MWQwOGFjOGRmYTVkYjNhMzg2MGRlNWIxYjVjMDU2ODA0MTg3In19fQ==",
@@ -2362,6 +2431,16 @@
             "trash_gobbler_8"
           ],
           "bracket": 4
+        },
+        {
+          "name": "§aWiki Tiki",
+          "skullOwner": "8aadde4f-7f3b-3d9f-9956-b957943e8fad",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTczOTYzMjQ0MDEyOCwKICAicHJvZmlsZUlkIiA6ICJjNmViMzdjNmE4YjM0MDI3OGJjN2FmZGE3ZjMxOWJmMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbFJleUNhbGFiYXphbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mM2M4MDJlNTgwYmZlZmMxOGM0YWY5NGNjZWI4Mjk2OGI1YjRhZWFiMGQ4MzIzNDZhNjMzYTc0NzNhNDFkZmFjIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+          "cap": 100,
+          "mobs": [
+            "wiki_tiki_400"
+          ],
+          "bracket": 7
         }
       ]
     }

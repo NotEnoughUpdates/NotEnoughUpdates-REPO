@@ -1,38 +1,30 @@
 {
   "itemid": "minecraft:fishing_rod",
   "displayname": "§fSponge Rod",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+20\",1:\"§7Strength: §c+15\",2:\"§7Fishing Speed: §a+30\",3:\"\",4:\"§7This fishing rod grants a §a20%§7\",5:\"§7chance to catch Sponge.\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§7§4❣ §cRequires §aFishing Skill 5§c.\",9:\"§f§lCOMMON FISHING ROD\"],Name:\"§fSponge Rod\"},ExtraAttributes:{id:\"SPONGE_ROD\"}}",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+20\",1:\"§7Strength: §c+15\",2:\"§7Fishing Speed: §a+30\",3:\"\",4:\"§7§cThis rod is broken and cannot be\",5:\"§cused to fish.\",6:\"\",7:\"§7Bring it to §2Roddy §7in the §2Backwater\",8:\"§2Bayou §7to convert it into a §anew rod§7!\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§7§4❣ §cRequires §aFishing Skill 5§c.\",12:\"§f§lCOMMON FISHING ROD\"],Name:\"§fSponge Rod\"},ExtraAttributes:{id:\"SPONGE_ROD\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+20",
     "§7Strength: §c+15",
     "§7Fishing Speed: §a+30",
     "",
-    "§7This fishing rod grants a §a20%§7",
-    "§7chance to catch Sponge.",
+    "§7§cThis rod is broken and cannot be",
+    "§cused to fish.",
+    "",
+    "§7Bring it to §2Roddy §7in the §2Backwater",
+    "§2Bayou §7to convert it into a §anew rod§7!",
     "",
     "§7§8This item can be reforged!",
     "§7§4❣ §cRequires §aFishing Skill 5§c.",
     "§f§lCOMMON FISHING ROD"
   ],
-  "recipe": {
-    "A1": "",
-    "A2": "",
-    "A3": "SPONGE:1",
-    "B1": "",
-    "B2": "SPONGE:1",
-    "B3": "STRING:1",
-    "C1": "SPONGE:1",
-    "C2": "",
-    "C3": "STRING:1"
-  },
   "internalname": "SPONGE_ROD",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
+  "clickcommand": "",
+  "modver": "",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Sponge_Rod",
     "https://wiki.hypixel.net/Sponge_Rod"
   ],
-  "crafttext": "Requires: Sponge I"
+  "crafttext": ""
 }
