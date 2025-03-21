@@ -405,6 +405,60 @@
       }
     }
   },
+  "CALCIFIED_HEART": {
+    "internalName": "CALCIFIED_HEART",
+    "reforgeName": "Calcified",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "ARMOR",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 20000,
+      "UNCOMMON": 40000,
+      "RARE": 80000,
+      "EPIC": 150000,
+      "LEGENDARY": 300000,
+      "MYTHIC": 600000,
+      "DIVINE": 800000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "fishing_speed": 1,
+        "defense": 3
+      },
+      "UNCOMMON": {
+        "fishing_speed": 2,
+        "defense": 5
+      },
+      "RARE": {
+        "fishing_speed": 3,
+        "defense": 7
+      },
+      "EPIC": {
+        "fishing_speed": 5,
+        "defense": 10
+      },
+      "LEGENDARY": {
+        "fishing_speed": 7,
+        "defense": 13
+      },
+      "MYTHIC": {
+        "fishing_speed": 9,
+        "defense": 16
+      },
+      "DIVINE": {
+        "fishing_speed": 9,
+        "defense": 16
+      }
+    }
+  },
   "CANDY_CORN": {
     "internalName": "CANDY_CORN",
     "reforgeName": "Candied",
@@ -2238,6 +2292,60 @@
         "strength": 34,
         "crit_chance": 15,
         "crit_damage": 70
+      }
+    }
+  },
+  "OVERFLOWING_TRASH_CAN": {
+    "internalName": "OVERFLOWING_TRASH_CAN",
+    "reforgeName": "Trashy",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "ROD",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 2500,
+      "UNCOMMON": 10000,
+      "RARE": 20000,
+      "EPIC": 40000,
+      "LEGENDARY": 80000,
+      "MYTHIC": 120000,
+      "DIVINE": 500000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "sea_creature_chance": 0.5,
+        "fishing_speed": 1
+      },
+      "UNCOMMON": {
+        "sea_creature_chance": 0.5,
+        "fishing_speed": 2
+      },
+      "RARE": {
+        "sea_creature_chance": 1,
+        "fishing_speed": 3
+      },
+      "EPIC": {
+        "sea_creature_chance": 1.5,
+        "fishing_speed": 5
+      },
+      "LEGENDARY": {
+        "sea_creature_chance": 2,
+        "fishing_speed": 7
+      },
+      "MYTHIC": {
+        "sea_creature_chance": 2.5,
+        "fishing_speed": 9
+      },
+      "DIVINE": {
+        "sea_creature_chance": 2.5,
+        "fishing_speed": 9
       }
     }
   },
