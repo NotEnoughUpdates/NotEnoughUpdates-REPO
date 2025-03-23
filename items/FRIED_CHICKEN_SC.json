@@ -1,0 +1,59 @@
+{
+  "itemid": "minecraft:cooked_chicken",
+  "displayname": "§3Fried Chicken (Sea Creature)",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§c❤ Health§8: §c65,000\",1:\"\",2:\"§f§lCOMMON\"],Name:\"§3Fried Chicken (Sea Creature)\"},ExtraAttributes:{id:\"FRIED_CHICKEN_SC\"}}",
+  "damage": 0,
+  "lore": [
+    "§c❤ Health§8: §c65,000",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "FRIED_CHICKEN_SC",
+  "clickcommand": "viewrecipe",
+  "modver": "",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Fried_Chicken",
+    "https://wiki.hypixel.net/Fried_Chicken"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§cFried Chicken",
+      "level": 30,
+      "coins": 50,
+      "xp": 50,
+      "render": "Chicken",
+      "panorama": "crimson_isle",
+      "type": "drops",
+      "extra": [
+        "§cRequirements:",
+        "§7- §aFishing Skill 14",
+        "§7- §cLava",
+        "§7- §dFishing Hotspot"
+      ],
+      "drops": [
+        {
+          "id": "RAW_CHICKEN:2",
+          "chance": "100%"
+        },
+        {
+          "id": "MAGMA_FISH:1",
+          "chance": "100%"
+        },
+        {
+          "id": "FRIED_FEATHER:1",
+          "chance": "50%"
+        },
+        {
+          "id": "ENCHANTED_RAW_CHICKEN:1",
+          "chance": "4%"
+        },
+        {
+          "id": "DYE_CARMINE:1",
+          "chance": "0.00002%"
+        }
+      ]
+    }
+  ]
+}

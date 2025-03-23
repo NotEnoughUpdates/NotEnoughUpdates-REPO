@@ -1,0 +1,59 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§3Fireproof Witch (Sea Creature)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"cf4f97d7-2e1f-3678-9ca3-4a7b9666cc28\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmNlNjYwNDE1N2ZjNGFiNTU5MWU0YmNmNTA3YTc0OTkxOGVlOWM0MWUzNTdkNDczNzZlMGVlNzM0MjA3NGM5MCJ9fX0\"}]}},display:{Lore:[0:\"§c❤ Health§8: §c65,000\",1:\"\",2:\"§9§lRARE\"],Name:\"§3Fireproof Witch (Sea Creature)\"},ExtraAttributes:{id:\"FIREPROOF_WITCH_SC\"}}",
+  "damage": 3,
+  "lore": [
+    "§c❤ Health§8: §c65,000",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "FIREPROOF_WITCH_SC",
+  "clickcommand": "viewrecipe",
+  "modver": "",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Fireproof_Witch",
+    "https://wiki.hypixel.net/Fireproof_Witch"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§cFireproof Witch",
+      "level": 75,
+      "coins": 1250,
+      "xp": 75,
+      "render": "Witch",
+      "panorama": "crimson_isle",
+      "type": "drops",
+      "extra": [
+        "§cRequirements:",
+        "§7- §aFishing Skill 16",
+        "§7- §cLava",
+        "§7- §dFishing Hotspot"
+      ],
+      "drops": [
+        {
+          "id": "MAGMA_FISH:60",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_GLOWSTONE:1",
+          "chance": "50%"
+        },
+        {
+          "id": "SINGED_POWDER:1",
+          "chance": "2.5%"
+        },
+        {
+          "id": "FIRE_PROTECTION;6:1",
+          "chance": "0.01%"
+        },
+        {
+          "id": "DYE_CARMINE",
+          "chance": "0.00004%"
+        }
+      ]
+    }
+  ]
+}
