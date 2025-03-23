@@ -1,0 +1,71 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§3Fiery Scuttler (Sea Creature)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"b61b073d-9e0e-30de-8708-bc8f27fa1827\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTczODk0Nzk5MTk3OCwKICAicHJvZmlsZUlkIiA6ICIzZDIxZTYyMTk2NzQ0Y2QwYjM3NjNkNTU3MWNlNGJlZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTcl83MUJsYWNrYmlyZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81NWIxOTQwMjU4MDY2ODc2NDJlMmJjMjM5ODk1ZDY0NmE2ZDhjMTkzZDkyNTNiNjFiZmNlOTA4ZjZjZTFiODRhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§c❤ Health§8: §c10,000,000\",1:\"\",2:\"§6§lLEGENDARY\"],Name:\"§3Fiery Scuttler (Sea Creature)\"},ExtraAttributes:{id:\"FIERY_SCUTTLER_SC\"}}",
+  "damage": 3,
+  "lore": [
+    "§c❤ Health§8: §c10,000,000",
+    "",
+    "§6§lLEGENDARY"
+  ],
+  "internalname": "FIERY_SCUTTLER_SC",
+  "clickcommand": "viewrecipe",
+  "modver": "",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Fiery_Scuttler",
+    "https://wiki.hypixel.net/Fiery_Scuttler"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§cFiery Scuttler",
+      "level": 475,
+      "coins": 7500,
+      "xp": 12500,
+      "render": "@neurepo:mobs/fiery_scuttler.json",
+      "panorama": "crimson_isle",
+      "type": "drops",
+      "extra": [
+        "§cRequirements:",
+        "§7- §aFishing Skill 37",
+        "§7- §cLava",
+        "§7- §dFishing Hotspot"
+      ],
+      "drops": [
+        {
+          "id": "ENCHANTED_RAW_FISH:8",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_RAW_SALMON:8",
+          "chance": "100%"
+        },
+        {
+          "id": "SCORCHED_CRAB_STICK:1",
+          "chance": "100%"
+        },
+        {
+          "id": "MAGMA_FISH_SILVER:12",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_BLAZE_ROD:1",
+          "chance": "0.5%"
+        },
+        {
+          "id": "SEVERED_PINCER:1",
+          "chance": "0.2%"
+        },
+        {
+          "id": "SCUTTLER_SHELL:1",
+          "chance": "0.1%"
+        },
+        {
+          "id": "DYE_CARMINE",
+          "chance": "0.002%"
+        }
+      ]
+    }
+  ]
+}
