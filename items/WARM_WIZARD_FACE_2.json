@@ -19,17 +19,32 @@
     "§7§4☠ §cRequires §5Vampire Slayer 4§c.",
     "§d§lMYTHIC HELMET"
   ],
-  "recipe": {
-    "A1": "",
-    "A2": "WIZARD_FACE:1",
-    "A3": "",
-    "B1": "",
-    "B2": "ANTI_BITE_SCARF_2:1",
-    "B3": "",
-    "C1": "",
-    "C2": "",
-    "C3": ""
-  },
+  "recipes": [
+    {
+      "type": "crafting",
+      "A1": "",
+      "A2": "WIZARD_FACE:1",
+      "A3": "",
+      "B1": "",
+      "B2": "ANTI_BITE_SCARF_2:1",
+      "B3": "",
+      "C1": "",
+      "C2": "",
+      "C3": ""
+    },
+    {
+      "type": "crafting",
+      "A1": "",
+      "A2": "",
+      "A3": "",
+      "B1": "",
+      "B2": "SCARF_STUDIES:1",
+      "B3": "",
+      "C1": "BLOODBADGE:1",
+      "C2": "WARM_WIZARD_FACE:1",
+      "C3": "BLOODBADGE:1"
+    }
+  ],
   "internalname": "WARM_WIZARD_FACE_2",
   "clickcommand": "viewrecipe",
   "modver": "",
