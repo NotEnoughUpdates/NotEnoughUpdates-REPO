@@ -1,0 +1,59 @@
+{
+  "x": -620,
+  "y": 87,
+  "z": -7,
+  "island": "foraging_2",
+  "itemid": "minecraft:skull",
+  "displayname": "§9Nemo (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"NEMO_NPC\"},HideFlags:254,SkullOwner:{Id:\"41e9b9f4-ef1e-2788-8990-2ac9af8a1cee\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E0OTUyNThkOGQ3ZGE1YTM4OTRhMGM0ZjEyNzUxN2E4NmYzYmExYzA2M2ZkZWIwZDhiY2VlMGZhZjc0MTNhMTAifX19\"}]}},display:{Lore:[],Name:\"§9Nemo (NPC)\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "NEMO_NPC",
+  "crafttext": "",
+  "clickcommand": "",
+  "modver": "3.7.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "TODO"
+  ],
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:50000"
+      ],
+      "result": "SNORKELING_HELMET:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:80000"
+      ],
+      "result": "SNORKELING_CHESTPLATE:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:70000"
+      ],
+      "result": "SNORKELING_LEGGINGS:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:40000"
+      ],
+      "result": "SNORKELING_BOOTS:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:4000000",
+        "SEA_LUMIES:32"
+      ],
+      "result": "RESPIRATION;4:1"
+    }
+  ]
+}

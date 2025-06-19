@@ -1,0 +1,66 @@
+{
+  "x": -579,
+  "y": 114,
+  "z": 2,
+  "island": "foraging_2",
+  "itemid": "minecraft:skull",
+  "displayname": "§9Amaury (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"AMAURY_NPC\"},HideFlags:254,SkullOwner:{Id:\"2e255476-31b3-270f-b758-aaceda153c07\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2IzZjFhNGYwMGNiYjBiMDRhNzgwZjQ3MjBmZGM1Y2NjNzY4MjhhMTI5YmU5NTBkNTZlNWY3OWI1NDQ1M2ZlNTEifX19\"}]}},display:{Lore:[],Name:\"§9Amaury (NPC)\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "AMAURY_NPC",
+  "crafttext": "",
+  "clickcommand": "",
+  "modver": "3.7.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "TODO"
+  ],
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:5000"
+      ],
+      "result": "SERIOUSLY_DAMAGED_AXE:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:1000000",
+        "SERIOUSLY_DAMAGED_AXE:1"
+      ],
+      "result": "DECENT_AXE:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:120000"
+      ],
+      "result": "CANOPY_HELMET:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:140000"
+      ],
+      "result": "CANOPY_CHESTPLATE:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:130000"
+      ],
+      "result": "CANOPY_LEGGINGS:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:110000"
+      ],
+      "result": "CANOPY_BOOTS:1"
+    }
+  ]
+}
