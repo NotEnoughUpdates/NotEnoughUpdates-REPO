@@ -1,0 +1,37 @@
+{
+  "x": -649,
+  "y": 89,
+  "z": -4,
+  "island": "foraging_2",
+  "itemid": "minecraft:skull",
+  "displayname": "§9Agatha (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"AGATHA_NPC\"},HideFlags:254,SkullOwner:{Id:\"6d63df46-1742-2371-bcfb-2b566a906a29\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RkMjE4MGU0YmQxNTNjYjQ5YmE0OTA2MDk4NjA0YzE3ODU4ZWE0NTE2ZmZiZjA0Y2ZlNTBmZWFlNGJlNDc2ZjIifX19\"}]}},display:{Lore:[],Name:\"§9Agatha (NPC)\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "AGATHA_NPC",
+  "crafttext": "",
+  "clickcommand": "",
+  "modver": "3.8.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "TODO"
+  ],
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "AGATHA_COUPON:50"
+      ],
+      "result": "MOONGLADE_JEWEL:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "AGATHA_COUPON:30"
+      ],
+      "result": "MOONGLADE_TALISMAN:1"
+    }
+  ]
+}
