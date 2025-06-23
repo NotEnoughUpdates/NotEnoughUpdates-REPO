@@ -1,0 +1,47 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			attributes: {
+				echo_of_hunter: 1
+			},
+			id: "ATTRIBUTE_SHARD"
+		},
+		"minecraft:profile": {
+			id: [I;
+				-970797893,
+				-1979826495,
+				-1361402042,
+				1324840304
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "Xw95uWFOvBUuqARDaX11G6ptE7dHt/yD09bo1OdfxRqAwecdB5Qsl0K84Iy3fY8LsA2nFjzlS1lYVx/iqlYst2HKT3AJyTKzf48o8kU46ajBM29pNPCV4Ii8w+ws/JDIl7IV8BT7enTAD6wyi0aeuXnzLUA62DlxaczpKDSipn3oE9pV5PjxufYxeB3eclHq8ws+QBAYHVaPTvKy+BPpOrbK8fjxZ90BBUFwpBIyWRGf1Q6FJrztpEJ6vVRV7J0QivRtGFuZpiwVb0RzhcaXuFufhQ3zpJduEoIL12FYR8ob/NLgKay4P626wOXXac1JgPeOIhPQXZzIePdXY/gtty+yixojfMZYIu1ko49dz+i8H5mTLpdSmIuT35+kJawah1vHKXR5hsdsD+OTPD9TbG3UcVvsxCpejYvBtIKLLfddDUr9h7Zx60c9Kf9MHTnNT7LksJj4+3zxZhsMpjjHXmifBxEEdMOPmoOlRli54m3/5guj1hT+xrDws180qiVT1mL4V8Nwyxpssi2r0YUGbSt8S1qYDoA0JNlTiQ3HeEF6r9QV5aVzTQC086ptp39BVcpGRED6XDDT9Z+wmnbs+uD7SudcU4jYHCkAEBixF7Dh7pog7ePL31FU1+0bJlsXASJETFfCrImX5B84L/xmmSuQsJL2rQLHJrHgyUywPUo=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTY3NzE5MzgxNzU0MSwKICAicHJvZmlsZUlkIiA6ICJmZDYwZjM2ZjU4NjE0ZjEyYjNjZDQ3YzJkODU1Mjk5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk0NmU3ODA2MTQ1ODU4ODk3MGU1NzQ1NjEyMDBkM2JmZmJkNjhlZmUwYzkyM2U5MWI4Y2JkOGI0NTYxM2JlNiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.1.0-dev+mc1.21.5+g58be5f6"
+	}
+}
