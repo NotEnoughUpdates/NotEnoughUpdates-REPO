@@ -1,0 +1,47 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			attributes: {
+				dragon_essence: 1
+			},
+			id: "ATTRIBUTE_SHARD"
+		},
+		"minecraft:profile": {
+			id: [I;
+				-929572862,
+				-1711983950,
+				-1298261699,
+				-1076184978
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "PqtEwVFbLdcwMSrEyIdxttIKTMjM5ztkNOcDUGY9Ui0mnQmlmFtHnbKegcNOiciuR3Y3d0M1I4ceUYPiHpMMbdKSOywo0G+UqjW5NXfq7doT/KnmO4mmPdH3fXYHD/ls/HSb0QDL+h9Eh/5sBhLoOWpgY0tdltoxVnGQZMFdDWXXN4qxzd5vmAMF0v6ATZwBK+zVi5i3p0URrWqcj1ajtcVFw6OQzRjUwFE+jIqKXiYIkj+QxfnqHHIbTC3aRoceO/wbkVQR8CMQFcej4VoLJuY5DplKjAeP5CW2XhZAzBDffhvu7c1BhDBhKLBxbfPT2408f16AYT6wnzurX4vrFzTTpTjb6PFsN0C3lZGUodolM2ozX8jamd8RQS/NAhiiZi2JzJkTDCUkWbcRTR1BKpqZXGQAbqK9hGaLmnLNuKyFwwgkwtMWMvs0jmgbYCOTAqb5s+2ekPvFX7IGGImJuBrNiAzvab8cVLTsjiQjTSNlSQDPRVmsla95bFqE5MkBBgxX/XRq09za0pq5ueAs3kthDtrihrldaFR5+RjNY2F8RZhQUAUPi4PGINIlylp/VsAAhx9OmgLL4Aciq0WbF/KfBViJ8KK68d52Ixx31vG6pEXA6TCoD0LSz8tijGGiyPDwUVUs9VZTG6tRxGb1p+BAs16Li7+4BOAt9B2QlzI=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTc0OTQ4MjczMzUzMywKICAicHJvZmlsZUlkIiA6ICJhZTQyMTU2N2QzODg0YWUxOTJhNmNiNTY4ZmZkNGZhMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0aW1vdGh5ZGVvZG9yYW50IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFjZGRjNjEwNTU1YWQyZDUzZjdlNzNkNTJmYzgzOTJkODIxZmIyZTlkMjk0NDllNDY4YTk2NmU5MGZmZDQ0NWIiCiAgICB9CiAgfQp9"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.1.0-dev+mc1.21.5+g58be5f6"
+	}
+}

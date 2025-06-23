@@ -1,0 +1,47 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			attributes: {
+				echo_of_elemental: 1
+			},
+			id: "ATTRIBUTE_SHARD"
+		},
+		"minecraft:profile": {
+			id: [I;
+				-769689050,
+				-1152110274,
+				-1473174374,
+				410999475
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "CNvIPbusb4e7+L25jV9SiGS44Rh4YejPuQcTIe5oFgT9sIaoQjb1FFLN0ydD3JX+t1MP4LAbFLLmho+qk8+9q3MRZh6/Zokpabv0N6xl3I7XpE5Kq8Gi4VVZPSUPLF1JZP0w6xNjtxI7XPkyfFuqbbt4NmErUmGBc6wzwWcaZhkptQXIrU2XJAD9JkFTOhsU15+k3X6Z2VSOGaHO0Gi0UGpiF+dqwP+ZGXuku7zSlblyDdYMwMXU4+klTVdLXtQUaAkSc9SZbu1CHADsaHF3MnEkB8HB7mysd4StGvm4SMsl4GbtKNOf2+nSwCFV0cgKPmwRWltpfGPEjNLJH7SyhgkQjubCc886B5EjBJp5h2RBh0a+8IEHWQ7UXebnQvhqStJ2QQc+lQEbZ2P60WvEF1JEbPXjBhUu4/Y5Pg0589QDbttw98NgTh2k1FrTSwOvGacQrKTswCopIPStV79HOd4WGbrqMf3ad+nwzTrJaCFDYUunWTx1wCiKsUutikkTxzfNrKTjtw0q1sZBYCumhPS5k1AUmFJL4H7yeLNLLDwaGMtMWLgeXkVM0oNpEDnGEagnNe3/nLH2rWSsXbDzpFwHyUl/neFwoR/HHfGheGwZcxpFQsWrqbbbBclz3zXEOqTgazUSOkJEGvc3Kp6kW+r0s6+rhJQmVirbTvA8CoU=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTcyNjUxMTI2MjA2MSwKICAicHJvZmlsZUlkIiA6ICI5NDdiM2JmNjE4NGM0ZmFhYmRhYWJlNzdlZDAyODRlMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJrZGlkc29hbyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81YmZkOTY0MmNkZjM5NjJhMGVjZDJiOWMwMDcyOTUwMjA1MzhkYTczMmQ1OTdjNTliYmI4MjBlMzg5ZjlmYzJhIgogICAgfQogIH0KfQ=="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.1.0-dev+mc1.21.5+g58be5f6"
+	}
+}
