@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:golden_leggings",
-  "displayname": "§6Diver\u0027s Trunks",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Sea Creature Chance: §c+2%\",1:\"§7Health: §a+175\",2:\"§7Defense: §a+80\",3:\" §8[§8☂§8]\",4:\"\",5:\"§6Full Set Bonus: One with the Fish §7(0/4)\",6:\"§7Grants the ability to breathe\",7:\"§7§9permanently §7while §9underwater§7.\",8:\"\",9:\"§8Tiered Bonus: Deep Sea Diver (0/4)\",10:\"§7Grants §6+0⛃ Treasure Chance §7while\",11:\"§7§9underwater§7.\",12:\"\",13:\"§7§8This item can be reforged!\",14:\"§7§4❣ §cRequires §aFishing Skill 20§c.\",15:\"§6§lLEGENDARY LEGGINGS\"],Name:\"§6Diver\u0027s Trunks\"},ExtraAttributes:{id:\"DIVER_LEGGINGS\"}}",
+  "displayname": "§6Diver's Trunks",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Sea Creature Chance: §c+2%\",1:\"§7Health: §a+175\",2:\"§7Defense: §a+80\",3:\" §8[§8☂§8]\",4:\"\",5:\"§6Full Set Bonus: One with the Fish §7(0/4)\",6:\"§7Grants the ability to breathe\",7:\"§7§9permanently §7while §9underwater§7.\",8:\"\",9:\"§8Tiered Bonus: Deep Sea Diver (0/4)\",10:\"§7Grants §6+0⛃ Treasure Chance §7while\",11:\"§7§9underwater§7.\",12:\"\",13:\"§7§8This item can be reforged!\",14:\"§7§4❣ §cRequires §aFishing Skill 20§c.\",15:\"§6§lLEGENDARY LEGGINGS\"],Name:\"§6Diver's Trunks\"},ExtraAttributes:{id:\"DIVER_LEGGINGS\"}}",
   "damage": 0,
   "lore": [
     "§7Sea Creature Chance: §c+2%",
@@ -40,5 +40,21 @@
     "https://hypixel-skyblock.fandom.com/wiki/Diver%27s_Trunks",
     "https://wiki.hypixel.net/Diver%27s_Trunks"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+      "A1": "",
+      "A2": "ENCHANTED_SEA_LUMIES:4",
+      "A3": "",
+      "B1": "GILL_MEMBRANE:16",
+      "B2": "SNORKELING_LEGGINGS:1",
+      "B3": "GILL_MEMBRANE:16",
+      "C1": "",
+      "C2": "ENCHANTED_SEA_LUMIES:4",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "DIVER_LEGGINGS"
+    }
+  ]
 }
