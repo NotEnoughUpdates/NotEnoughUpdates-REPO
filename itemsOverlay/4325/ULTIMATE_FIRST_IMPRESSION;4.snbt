@@ -1,0 +1,34 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			enchantments: {
+				ultimate_first_impression: 4
+			},
+			id: "ENCHANTED_BOOK",
+			timestamp: 1750783349675L,
+			uuid: "1e81ab3e-264d-4640-bcae-ab9a0b884fd5"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:enchanted_book",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.1.0+mc1.21.5"
+	}
+}
