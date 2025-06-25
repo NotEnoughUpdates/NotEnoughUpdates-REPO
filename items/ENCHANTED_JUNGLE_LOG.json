@@ -1,31 +1,33 @@
 {
   "itemid": "minecraft:log",
-  "displayname": "§aEnchanted Jungle Wood",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Jungle Wood\"},ExtraAttributes:{id:\"ENCHANTED_JUNGLE_LOG\"}}",
+  "displayname": "§aEnchanted Jungle Log",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_JUNGLE_LOG\"},HideFlags:254,ItemModel:\"minecraft:jungle_log\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Jungle Log\"},ench:[]}",
   "damage": 3,
   "lore": [
-    "§7§8Collection Item",
+    "§8Collection Item",
     "",
     "§a§lUNCOMMON"
   ],
-  "recipe": {
-    "A1": "",
-    "A2": "LOG-3:32",
-    "A3": "",
-    "B1": "LOG-3:32",
-    "B2": "LOG-3:32",
-    "B3": "LOG-3:32",
-    "C1": "",
-    "C2": "LOG-3:32",
-    "C3": ""
-  },
   "internalname": "ENCHANTED_JUNGLE_LOG",
-  "clickcommand": "viewrecipe",
-  "modver": "2.2.2",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Jungle_Wood",
-    "https://wiki.hypixel.net/Enchanted_Jungle_Wood"
-  ],
-  "crafttext": "Requires: Jungle Wood VI"
+  "clickcommand": "",
+  "crafttext": "Requires: Jungle Wood VI",
+  "modver": "Firmament 3.1.0-dev+mc1.21.5+g4402b1f",
+  "infoType": "",
+  "info": [],
+  "recipes": [
+    {
+      "A1": "",
+      "A2": "LOG-3:32",
+      "A3": "",
+      "B1": "LOG-3:32",
+      "B2": "LOG-3:32",
+      "B3": "LOG-3:32",
+      "C1": "",
+      "C2": "LOG-3:32",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "ENCHANTED_JUNGLE_LOG"
+    }
+  ]
 }
