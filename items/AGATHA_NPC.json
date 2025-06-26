@@ -17,5 +17,86 @@
   "island": "foraging_2",
   "x": -649,
   "y": 89,
-  "z": -4
+  "z": -4,
+    "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "AGATHA_COUPON:30.0"
+      ],
+      "result": "SMALL_FROG_TREAT:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "AGATHA_COUPON:40.0"
+      ],
+      "result": "MEDIUM_FROG_TREAT:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "AGATHA_COUPON:50.0"
+      ],
+      "result": "LARGE_FROG_TREAT:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "AGATHA_COUPON:60.0"
+      ],
+      "result": "GIANT_FROG_TREAT:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "AGATHA_COUPON:50.0"
+      ],
+      "result": "MOONGLADE_JEWEL:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "AGATHA_COUPON:100.0"
+      ],
+      "result": "FIGHTING_BOOSTER:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "AGATHA_COUPON:30.0"
+      ],
+      "result": "FOREST_PLEDGE;3:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "AGATHA_COUPON:30.0"
+      ],
+      "result": "MOONGLADE_TALISMAN:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "AGATHA_COUPON:30.0",
+        "MOONGLADE_TALISMAN:1.0"
+      ],
+      "result": "MOONGLADE_RING:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "AGATHA_COUPON:30.0",
+        "MOONGLADE_RING:1.0"
+      ],
+      "result": "MOONGLADE_ARTIFACT:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "STARLYN_PRIZE:20.0"
+      ],
+      "result": "SHINIEST:1"
+    }
+  ]
 }
