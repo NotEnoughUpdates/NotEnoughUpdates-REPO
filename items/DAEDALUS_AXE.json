@@ -1,42 +1,47 @@
 {
-  "itemid": "minecraft:golden_axe",
-  "displayname": "§6Daedalus Axe",
-  "nbttag": "{overrideMeta:1b,Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+0\",1:\" §8[§8⚔§8] §8[§8⚔§8]\",2:\"\",3:\"§7§7Gains §c+4 Damage §7per Taming level.\",4:\"§7§7Copies the stats from your active\",5:\"§7pet.\",6:\"\",7:\"§7§7Earn §6+35 coins §7from monster kills.\",8:\"\",9:\"§7Deals §a+200% §7damage against\",10:\"§7§2Mythological Creatures§7.\",11:\"\",12:\"§7§8This item can be reforged!\",13:\"§6§lLEGENDARY SWORD\"],Name:\"§6Daedalus Axe\"},ExtraAttributes:{id:\"DAEDALUS_AXE\"},AttributeModifiers:[]}",
+  "itemid": "minecraft:golden_sword",
+  "displayname": "§6Daedalus Blade",
+  "nbttag": "{ExtraAttributes:{id:\"DAEDALUS_AXE\"},HideFlags:254,ItemModel:\"minecraft:golden_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+0\",1:\" §8[§8⚔§8] §8[§8⚔§8]\",2:\"\",3:\"§7Gains §c+4 Damage §7per Taming level.\",4:\"§7Copies the stats from your active\",5:\"§7pet.\",6:\"\",7:\"§7Earn §6+35 coins §7from monster kills.\",8:\"\",9:\"§7Deals §a+200% §7damage against\",10:\"§2Mythological Creatures§7.\",11:\"\",12:\"§8This item can be reforged!\",13:\"§6§lLEGENDARY SWORD\"],Name:\"§6Daedalus Blade\"}}",
+  "damage": 0,
   "lore": [
     "§7Damage: §c+0",
     " §8[§8⚔§8] §8[§8⚔§8]",
     "",
-    "§7§7Gains §c+4 Damage §7per Taming level.",
-    "§7§7Copies the stats from your active",
+    "§7Gains §c+4 Damage §7per Taming level.",
+    "§7Copies the stats from your active",
     "§7pet.",
     "",
-    "§7§7Earn §6+35 coins §7from monster kills.",
+    "§7Earn §6+35 coins §7from monster kills.",
     "",
     "§7Deals §a+200% §7damage against",
-    "§7§2Mythological Creatures§7.",
+    "§2Mythological Creatures§7.",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§6§lLEGENDARY SWORD"
   ],
-  "recipe": {
-    "A1": "ENCHANTED_GOLD_BLOCK:16",
-    "A2": "ENCHANTED_GOLD_BLOCK:16",
-    "A3": "",
-    "B1": "ENCHANTED_GOLD_BLOCK:16",
-    "B2": "DAEDALUS_STICK:1",
-    "B3": "",
-    "C1": "",
-    "C2": "DAEDALUS_STICK:1",
-    "C3": ""
-  },
   "internalname": "DAEDALUS_AXE",
   "clickcommand": "viewrecipe",
-  "modver": "2.3.0",
+  "modver": "Firmament 3.1.0-dev+mc1.21.5+g4402b1f",
   "crafttext": "",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Daedalus_Axe",
     "https://wiki.hypixel.net/Daedalus_Axe"
   ],
-  "damage": 0
+  "recipes": [
+    {
+      "A1": "",
+      "A2": "ENCHANTED_GOLD_BLOCK:24",
+      "A3": "",
+      "B1": "",
+      "B2": "ENCHANTED_GOLD_BLOCK:24",
+      "B3": "",
+      "C1": "",
+      "C2": "DAEDALUS_STICK:1",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "DAEDALUS_AXE"
+    }
+  ]
 }
