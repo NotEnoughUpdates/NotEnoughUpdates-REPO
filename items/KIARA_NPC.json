@@ -17,5 +17,35 @@
   "island": "foraging_2",
   "x": -654,
   "y": 113,
-  "z": -70
+  "z": -70,
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:100000.0"
+      ],
+      "result": "ATTRIBUTE_SHARD_HUNTERS_FANGS;1:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:300000.0"
+      ],
+      "result": "ATTRIBUTE_SHARD_PURE_REPTILE;1:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:350000.0"
+      ],
+      "result": "ATTRIBUTE_SHARD_EELASTIC;1:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:600000.0"
+      ],
+      "result": "ATTRIBUTE_SHARD_ECHO_OF_SHARPENING;1:1"
+    }
+  ]
 }
