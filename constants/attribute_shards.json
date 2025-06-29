@@ -1,0 +1,3452 @@
+{
+  "attribute_levelling": {
+    "COMMON": [
+      1,
+      3,
+      5,
+      6,
+      7,
+      8,
+      10,
+      14,
+      18,
+      24
+    ],
+    "UNCOMMON": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      12,
+      16
+    ],
+    "RARE": [
+      1,
+      2,
+      3,
+      3,
+      4,
+      4,
+      5,
+      6,
+      8,
+      12
+    ],
+    "EPIC": [
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      5,
+      7
+    ],
+    "LEGENDARY": [
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3,
+      4,
+      5
+    ]
+  },
+  "unconsumable_attributes": [
+    "SHARD_CHAMELEON"
+  ],
+  "blacklist": {
+    "//": "This blacklist exists due to Hypixel's limitation on output slots. These combinations should work, but due to the limit, recipes with more than 3 outputs don't.",
+    "blacklisted_combos": {
+      "SHARD_HIDEONGIFT": [
+        [
+          "SHARD_HIDEONLEAF",
+          "SHARD_GLACITE_WALKER"
+        ]
+      ],
+      "SHARD_KIWI": [
+        [
+          "SHARD_CROW",
+          "SHARD_GLACITE_WALKER"
+        ],
+        [
+          "SHARD_CROW",
+          "SHARD_GHOST"
+        ],
+        [
+          "SHARD_HERON",
+          "SHARD_GLACITE_WALKER"
+        ]
+      ],
+      "SHARD_GROVE": [
+        [
+          "SHARD_PHANPYRE",
+          "SHARD_GLACITE_WALKER"
+        ]
+      ],
+      "SHARD_BOREAL_OWL": [
+        [
+          "SHARD_HERON",
+          "SHARD_SALMON"
+        ],
+        [
+          "SHARD_HERON",
+          "SHARD_VERDANT"
+        ],
+        [
+          "SHARD_HERON",
+          "SHARD_GLACITE_WALKER"
+        ],
+        [
+          "SHARD_HERON",
+          "SHARD_BIRRIES"
+        ],
+        [
+          "SHARD_HERON",
+          "SHARD_CHILL"
+        ]
+      ],
+      "SHARD_RANA": [
+        [
+          "SHARD_MOSSYBIT",
+          "SHARD_GLACITE_WALKER"
+        ]
+      ],
+      "SHARD_BRAMBLE": [
+        [
+          "SHARD_MOSSYBIT",
+          "SHARD_GLACITE_WALKER"
+        ],
+        [
+          "SHARD_MOSSYBIT",
+          "SHARD_GHOST"
+        ],
+        [
+          "SHARD_MOSSYBIT",
+          "SHARD_KADA_KNIGHT"
+        ]
+      ]
+    }
+  },
+  "attributes": [
+    {
+      "bazaarName": "SHARD_HIDEONRING",
+      "displayName": "Hideonring",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_ACCESSORY_SIZE;1",
+      "abilityName": "Accessory Size",
+      "alignment": "Forest",
+      "family": [
+        "Shulker"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "family",
+            "value": [
+              "Shulker"
+            ],
+            "amount": 5
+          },
+          {
+            "type": "rarity",
+            "value": [
+              "RARE",
+              "EPIC",
+              "LEGENDARY"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_MOLTHORN",
+      "displayName": "Molthorn",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_ALMIGHTY;1",
+      "abilityName": "Almighty",
+      "alignment": "Combat",
+      "family": [
+        "Demon",
+        "Dragon"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_ETHERDRAKE",
+            "amount": 5
+          },
+          {
+            "type": "bazaarName",
+            "value": "SHARD_JORMUNG",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_BAMBLOOM",
+      "displayName": "Bambloom",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_ANIMAL_EXPERTISE;1",
+      "abilityName": "Animal Expertise",
+      "alignment": "Forest",
+      "family": [
+        "Panda"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "family",
+            "value": [
+              "Panda"
+            ],
+            "amount": 5
+          },
+          {
+            "type": "rarity",
+            "value": [
+              "UNCOMMON",
+              "RARE",
+              "EPIC",
+              "LEGENDARY"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_FLAMING_SPIDER",
+      "displayName": "Flaming Spider",
+      "rarity": "UNCOMMON",
+      "internalName": "ATTRIBUTE_SHARD_ARACHNO;1",
+      "abilityName": "Arthropod Ruler",
+      "alignment": "Combat",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_VORACIOUS_SPIDER",
+      "displayName": "Voracious Spider",
+      "rarity": "COMMON",
+      "internalName": "ATTRIBUTE_SHARD_ARACHNO_RESISTANCE;1",
+      "abilityName": "Arthropod Resistance",
+      "alignment": "Combat",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_THYST",
+      "displayName": "Thyst",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_ATOMIZED_CRYSTALS;1",
+      "abilityName": "Atomized Crystals",
+      "alignment": "Combat",
+      "family": [
+        "Cave Dweller"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_STALAGMIGHT",
+      "displayName": "Stalagmight",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_ATOMIZED_GLACITE;1",
+      "abilityName": "Atomized Glacite",
+      "alignment": "Combat",
+      "family": [
+        "Cave Dweller"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_SILENTDEPTH",
+            "amount": 5
+          },
+          {
+            "type": "bazaarName",
+            "value": "SHARD_QUARTZFANG",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_STAR_SENTRY",
+      "displayName": "Star Sentry",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_ATOMIZED_MITHRIL;1",
+      "abilityName": "Atomized Mithril",
+      "alignment": "Combat",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_BURNINGSOUL",
+      "displayName": "Burningsoul",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_ATTACK_SPEED;1",
+      "abilityName": "Attack Speed",
+      "alignment": "Combat",
+      "family": [
+        "Demon"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_FALCON",
+      "displayName": "Falcon",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_BATTLE_EXPERIENCE;1",
+      "abilityName": "Battle Experience",
+      "alignment": "Forest",
+      "family": [
+        "Bird"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "family",
+            "value": [
+              "Bird"
+            ],
+            "amount": 5
+          },
+          {
+            "type": "rarity",
+            "value": [
+              "RARE",
+              "EPIC",
+              "LEGENDARY"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_RANA",
+      "displayName": "Rana",
+      "rarity": "UNCOMMON",
+      "internalName": "ATTRIBUTE_SHARD_BATTLE_FROG;1",
+      "abilityName": "Battle Frog",
+      "alignment": "Combat",
+      "family": [
+        "Amphibian",
+        "Frog"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "family",
+            "value": [
+              "Frog"
+            ],
+            "amount": 2
+          },
+          {
+            "type": "alignment",
+            "value": "Combat",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_BEACONMITE",
+      "displayName": "Beaconmite",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_BEACON_ZEALOT;1",
+      "abilityName": "Beacon Zealot",
+      "alignment": "Forest",
+      "family": [
+        "Bug"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_BULLFROG",
+      "displayName": "Bullfrog",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_BERRY_ENJOYER;1",
+      "abilityName": "Berry Enjoyer",
+      "alignment": "Water",
+      "family": [
+        "Amphibian",
+        "Frog"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_FENLORD",
+      "displayName": "Fenlord",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_BERRY_MOGUL;1",
+      "abilityName": "Berry Mogul",
+      "alignment": "Water",
+      "family": [],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_BULLFROG",
+            "amount": 2
+          },
+          {
+            "type": "alignment",
+            "value": "Forest",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_HIDEONCAVE",
+      "displayName": "Hideoncave",
+      "rarity": "UNCOMMON",
+      "internalName": "ATTRIBUTE_SHARD_BIGGER_BOX;1",
+      "abilityName": "Bigger Box",
+      "alignment": "Forest",
+      "family": [
+        "Shulker"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "family",
+            "value": [
+              "Shulker"
+            ],
+            "amount": 5
+          },
+          {
+            "type": "family",
+            "value": [
+              "Cave Dweller"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_FLARE",
+      "displayName": "Flare",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_BLAZING;1",
+      "abilityName": "Blazing",
+      "alignment": "Combat",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_LAVA_FLAME",
+      "displayName": "Lava Flame",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_BLAZING_FORTUNE;1",
+      "abilityName": "Blazing Fortune",
+      "alignment": "Water",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_BEZAL",
+      "displayName": "Bezal",
+      "rarity": "COMMON",
+      "internalName": "ATTRIBUTE_SHARD_BLAZING_RESISTANCE;1",
+      "abilityName": "Blazing Resistance",
+      "alignment": "Combat",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_LAPIS_SKELETON",
+      "displayName": "Lapis Skeleton",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_BONE_FONT;1",
+      "abilityName": "Bone Font",
+      "alignment": "Combat",
+      "family": [
+        "Lapis"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_LAPIS_ZOMBIE",
+            "amount": 5
+          },
+          {
+            "type": "rarity",
+            "value": [
+              "RARE",
+              "EPIC",
+              "LEGENDARY"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_LAPIS_CREEPER",
+      "displayName": "Lapis Creeper",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_BOOK_WISDOM;1",
+      "abilityName": "Book Wisdom",
+      "alignment": "Combat",
+      "family": [],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_LAPIS_SKELETON",
+            "amount": 5
+          },
+          {
+            "type": "rarity",
+            "value": [
+              "LEGENDARY"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_WITHER_SPECTER",
+      "displayName": "Wither Specter",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_BREEZE;1",
+      "abilityName": "Breeze",
+      "alignment": "Combat",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_CORALOT",
+      "displayName": "Coralot",
+      "rarity": "COMMON",
+      "internalName": "ATTRIBUTE_SHARD_BUCKET_LOVER;1",
+      "abilityName": "Bucket Lover",
+      "alignment": "Water",
+      "family": [
+        "Axolotl"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_HIDEONGEON",
+      "displayName": "Hideongeon",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_CATACOMB_BOX;1",
+      "abilityName": "Catacombs Box",
+      "alignment": "Forest",
+      "family": [
+        "Shulker"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_WITHER",
+            "amount": 5
+          },
+          {
+            "type": "family",
+            "value": [
+              "shulker"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_CAVERNSHADE",
+      "displayName": "Cavernshade",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_CAVERN_WISDOM;1",
+      "abilityName": "Cavern Wisdom",
+      "alignment": "Combat",
+      "family": [
+        "Cave Dweller"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "family",
+            "value": [
+              "Cave Dweller"
+            ],
+            "amount": 5
+          },
+          {
+            "type": "family",
+            "value": [
+              "Cave Dweller"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_NAGA",
+      "displayName": "Naga",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_CHARMED;1",
+      "abilityName": "Charmed",
+      "alignment": "Water",
+      "family": [
+        "Amphibian",
+        "Eel"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_SEA_SERPENT",
+            "amount": 5
+          },
+          {
+            "type": "alignment",
+            "value": "Water",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_COD",
+      "displayName": "Cod",
+      "rarity": "COMMON",
+      "internalName": "ATTRIBUTE_SHARD_CHEAPSTAKE;1",
+      "abilityName": "Cheapstake",
+      "alignment": "Water",
+      "family": [
+        "Tropical Fish"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_TORTOISE",
+      "displayName": "Tortoise",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_CLOAK_IMPROVEMENT;1",
+      "abilityName": "Cloak Improvement",
+      "alignment": "Water",
+      "family": [
+        "Reptile",
+        "Turtle"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_LEATHERBACK",
+            "amount": 5
+          },
+          {
+            "type": "alignment",
+            "value": "Water",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_SOUL_OF_THE_ALPHA",
+      "displayName": "Soul of the Alpha",
+      "rarity": "UNCOMMON",
+      "internalName": "ATTRIBUTE_SHARD_COMBO;1",
+      "abilityName": "Combo",
+      "alignment": "Combat",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_BITBUG",
+      "displayName": "Bitbug",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_COOKIE_EATER;1",
+      "abilityName": "Cookie Eater",
+      "alignment": "Forest",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_INFERNO_KOI",
+      "displayName": "Inferno Koi",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_CRIMSON_SERENDIPITY;1",
+      "abilityName": "Crimson Serendipity",
+      "alignment": "Water",
+      "family": [
+        "Treasure Fish"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_CROPEETLE",
+      "displayName": "Cropeetle",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_CROP_BUG;1",
+      "abilityName": "Crop Bug",
+      "alignment": "Forest",
+      "family": [
+        "Bug"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_INVISIBUG",
+            "amount": 5
+          },
+          {
+            "type": "bazaarName",
+            "value": "SHARD_TERMITE",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_SILENTDEPTH",
+      "displayName": "Silentdepth",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_CRYSTAL_SERENDIPITY;1",
+      "abilityName": "Crystal Serendipity",
+      "alignment": "Water",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_SKELETOR",
+      "displayName": "Skeletor",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_DEADEYE;1",
+      "abilityName": "Deadeye",
+      "alignment": "Combat",
+      "family": [],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_LAPIS_SKELETON",
+            "amount": 5
+          },
+          {
+            "type": "rarity",
+            "value": [
+              "RARE",
+              "EPIC",
+              "LEGENDARY"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_NEWT",
+      "displayName": "Newt",
+      "rarity": "COMMON",
+      "internalName": "ATTRIBUTE_SHARD_DECENT_KARMA;1",
+      "abilityName": "Decent Karma",
+      "alignment": "Water",
+      "family": [
+        "Lizard",
+        "Reptile"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "family",
+            "value": [
+              "Axolotl"
+            ],
+            "amount": 5
+          },
+          {
+            "type": "alignment",
+            "value": "Water",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_JOYDIVE",
+      "displayName": "Joydive",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_DEEP_DIVING;1",
+      "abilityName": "Deep Diving",
+      "alignment": "Water",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_BAL",
+      "displayName": "Bal",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_DEEP_TECHNIQUE;1",
+      "abilityName": "Deep Technique",
+      "alignment": "Combat",
+      "family": [
+        "Cave Dweller"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_THORN",
+      "displayName": "Thorn",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_DOMINANCE;1",
+      "abilityName": "Dominance",
+      "alignment": "Combat",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_LORD_JAWBUS",
+      "displayName": "Lord Jawbus",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_DOUBLE_HOOK;1",
+      "abilityName": "Crimson Hook",
+      "alignment": "Water",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_DRACONIC",
+      "displayName": "Draconic",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_DRAGON_ESSENCE;1",
+      "abilityName": "Essence of Dragons",
+      "alignment": "Combat",
+      "family": [
+        "Dragon"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_SEER",
+      "displayName": "Seer",
+      "rarity": "UNCOMMON",
+      "internalName": "ATTRIBUTE_SHARD_DRAGON_SHORTBOW_IMPROVEMENT;1",
+      "abilityName": "Dragon Shortbow Improvement",
+      "alignment": "Combat",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_ABYSSAL_LANTERN",
+      "displayName": "Abyssal Lanternfish",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_DWARVEN_SERENDIPITY;1",
+      "abilityName": "Dwarven Serendipity",
+      "alignment": "Water",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_TERRA",
+      "displayName": "Terra",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_EARTH_ELEMENTAL;1",
+      "abilityName": "Earth Elemental",
+      "alignment": "Forest",
+      "family": [
+        "Elemental"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "alignment",
+            "value": "Forest",
+            "amount": 5,
+            "rarity": [
+              "EPIC"
+            ]
+          },
+          {
+            "type": "rarity",
+            "value": [
+              "LEGENDARY"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_IGUANA",
+      "displayName": "Iguana",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_ECHO_OF_ATOMIZED;1",
+      "abilityName": "Echo of Atomized",
+      "alignment": "Forest",
+      "family": [
+        "Reptile",
+        "Scaled"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_GECKO",
+            "amount": 2
+          },
+          {
+            "type": "alignment",
+            "value": "FOREST",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_CUBOA",
+      "displayName": "Cuboa",
+      "rarity": "UNCOMMON",
+      "internalName": "ATTRIBUTE_SHARD_ECHO_OF_BOXES;1",
+      "abilityName": "Echo of Boxes",
+      "alignment": "Combat",
+      "family": [
+        "Reptile",
+        "Serpent"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "family",
+            "value": [
+              "Shulker"
+            ],
+            "amount": 5
+          },
+          {
+            "type": "family",
+            "value": [
+              "Reptile"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_TIAMAT",
+      "displayName": "Tiamat",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_ECHO_OF_ECHOES;1",
+      "abilityName": "Echo of Echoes",
+      "alignment": "Combat",
+      "family": [
+        "Reptile"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_CAIMAN",
+            "amount": 5
+          },
+          {
+            "type": "alignment",
+            "value": "Combat",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_STARBORN",
+      "displayName": "Starborn",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_ECHO_OF_ELEMENTAL;1",
+      "abilityName": "Echo of Elemental",
+      "alignment": "Combat",
+      "family": [
+        "Elemental"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "family",
+            "value": [
+              "Elemental"
+            ],
+            "amount": 2,
+            "rarity": [
+              "LEGENDARY"
+            ]
+          },
+          {
+            "type": "bazaarName",
+            "value": "SHARD_GALAXY_FISH",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_KOMODO_DRAGON",
+      "displayName": "Komodo Dragon",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_ECHO_OF_ESSENCE;1",
+      "abilityName": "Echo of Essence",
+      "alignment": "Forest",
+      "family": [
+        "Reptile",
+        "Scaled"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_IGUANA",
+            "amount": 5
+          },
+          {
+            "type": "alignment",
+            "value": "Forest",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_SEA_SERPENT",
+      "displayName": "Sea Serpent",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_ECHO_OF_HUNTER;1",
+      "abilityName": "Echo of Hunter",
+      "alignment": "Water",
+      "family": [
+        "Amphibian",
+        "Eel",
+        "Serpent"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_MORAY_EEL",
+            "amount": 5
+          },
+          {
+            "type": "alignment",
+            "value": "Water",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_ALLIGATOR",
+      "displayName": "Alligator",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_ECHO_OF_RESISTANCE;1",
+      "abilityName": "Echo of Resistance",
+      "alignment": "Combat",
+      "family": [
+        "Croco",
+        "Reptile"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_CROCODILE",
+            "amount": 5
+          },
+          {
+            "type": "alignment",
+            "value": "Combat",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_CAIMAN",
+      "displayName": "Caiman",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_ECHO_OF_RULER;1",
+      "abilityName": "Echo of Ruler",
+      "alignment": "Combat",
+      "family": [
+        "Croco",
+        "Reptile"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_ALLIGATOR",
+            "amount": 5
+          },
+          {
+            "type": "alignment",
+            "value": "Combat",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_GECKO",
+      "displayName": "Gecko",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_ECHO_OF_SHARPENING;1",
+      "abilityName": "Echo of Sharpening",
+      "alignment": "Forest",
+      "family": [
+        "Reptile",
+        "Scaled"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_WYVERN",
+      "displayName": "Wyvern",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_ECHO_OF_WISDOM;1",
+      "abilityName": "Echo of Wisdom",
+      "alignment": "Forest",
+      "family": [
+        "Reptile",
+        "Scaled"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_KOMODO_DRAGON",
+            "amount": 2
+          },
+          {
+            "type": "alignment",
+            "value": "Forest",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_EEL",
+      "displayName": "Eel",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_EELASTIC;1",
+      "abilityName": "Eelastic",
+      "alignment": "Water",
+      "family": [
+        "Amphibian",
+        "Eel"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_POWER_DRAGON",
+      "displayName": "Power Dragon",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_ELITE;1",
+      "abilityName": "Elite",
+      "alignment": "Combat",
+      "family": [
+        "Dragon"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_BRUISER",
+      "displayName": "Bruiser",
+      "rarity": "UNCOMMON",
+      "internalName": "ATTRIBUTE_SHARD_ENDER;1",
+      "abilityName": "Ender Ruler",
+      "alignment": "Combat",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_ZEALOT",
+      "displayName": "Zealot",
+      "rarity": "COMMON",
+      "internalName": "ATTRIBUTE_SHARD_ENDER_RESISTANCE;1",
+      "abilityName": "Ender Resistance",
+      "alignment": "Combat",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_LEVIATHAN",
+      "displayName": "Leviathan",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_EXCELLENT_KARMA;1",
+      "abilityName": "Excellent Karma",
+      "alignment": "Water",
+      "family": [
+        "Lizard",
+        "Reptile"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "family",
+            "value": [
+              "Lizard"
+            ],
+            "amount": 5
+          },
+          {
+            "type": "alignment",
+            "value": "Water",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_LAPIS_ZOMBIE",
+      "displayName": "Lapis Zombie",
+      "rarity": "COMMON",
+      "internalName": "ATTRIBUTE_SHARD_EXPERIENCE;1",
+      "abilityName": "Experience",
+      "alignment": "Combat",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_LUMISQUID",
+      "displayName": "Lumisquid",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_EXTREME_PRESSURE;1",
+      "abilityName": "Extreme Pressure",
+      "alignment": "Water",
+      "family": [
+        "Squid"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_MIMIC",
+      "displayName": "Mimic",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_FAKER;1",
+      "abilityName": "Faker",
+      "alignment": "Combat",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_INVISIBUG",
+      "displayName": "Invisibug",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_FANCY_VISIT;1",
+      "abilityName": "Fancy Visit",
+      "alignment": "Forest",
+      "family": [
+        "Bug"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_SPARROW",
+      "displayName": "Sparrow",
+      "rarity": "UNCOMMON",
+      "internalName": "ATTRIBUTE_SHARD_FIG_COLLECTOR;1",
+      "abilityName": "Fig Collector",
+      "alignment": "Forest",
+      "family": [
+        "Bird"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_CROW",
+      "displayName": "Crow",
+      "rarity": "COMMON",
+      "internalName": "ATTRIBUTE_SHARD_FIG_SHARPENING;1",
+      "abilityName": "Fig Sharpening",
+      "alignment": "Forest",
+      "family": [
+        "Bird"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_NIGHT_SQUID",
+      "displayName": "Night Squid",
+      "rarity": "COMMON",
+      "internalName": "ATTRIBUTE_SHARD_FISHERMAN;1",
+      "abilityName": "Fisherman",
+      "alignment": "Water",
+      "family": [
+        "Squid"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_SEA_EMPEROR",
+      "displayName": "Sea Emperor",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_FISHING_EXPERIENCE;1",
+      "abilityName": "Sea Wisdom",
+      "alignment": "Water",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_WATER_HYDRA",
+      "displayName": "Water Hydra",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_FISHING_SPEED;1",
+      "abilityName": "Fishing Speed",
+      "alignment": "Water",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_MIST",
+      "displayName": "Mist",
+      "rarity": "COMMON",
+      "internalName": "ATTRIBUTE_SHARD_FOG_ELEMENTAL;1",
+      "abilityName": "Fog Elemental",
+      "alignment": "Water",
+      "family": [
+        "Elemental"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "alignment",
+            "value": "Water",
+            "amount": 5,
+            "rarity": [
+              "COMMON"
+            ]
+          },
+          {
+            "type": "rarity",
+            "value": [
+              "UNCOMMON",
+              "RARE",
+              "EPIC",
+              "LEGENDARY"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_PANDARAI",
+      "displayName": "Pandarai",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_FORAGING_WISDOM;1",
+      "abilityName": "Foraging Wisdom",
+      "alignment": "Forest",
+      "family": [
+        "Panda"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "family",
+            "value": [
+              "Panda"
+            ],
+            "amount": 5
+          },
+          {
+            "type": "rarity",
+            "value": [
+              "RARE",
+              "EPIC",
+              "LEGENDARY"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_SYLVAN",
+      "displayName": "Sylvan",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_FOREST_ELEMENTAL;1",
+      "abilityName": "Forest Elemental",
+      "alignment": "Forest",
+      "family": [
+        "Elemental"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "alignment",
+            "value": "Forest",
+            "amount": 5,
+            "rarity": [
+              "RARE"
+            ]
+          },
+          {
+            "type": "rarity",
+            "value": [
+              "EPIC",
+              "LEGENDARY"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_DREADWING",
+      "displayName": "Dreadwing",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_FOREST_ESSENCE;1",
+      "abilityName": "Essence of the Forest",
+      "alignment": "Forest",
+      "family": [
+        "Phantom"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": [
+              "SHARD_PHANPYRE",
+              "SHARD_PHANFLARE"
+            ],
+            "amount": 5
+          },
+          {
+            "type": "rarity",
+            "value": [
+              "RARE",
+              "EPIC",
+              "LEGENDARY"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_VERDANT",
+      "displayName": "Verdant",
+      "rarity": "COMMON",
+      "internalName": "ATTRIBUTE_SHARD_FOREST_FISHING;1",
+      "abilityName": "Forest Fishing",
+      "alignment": "Water",
+      "family": [
+        "Tropical Fish"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_AZURE",
+      "displayName": "Azure",
+      "rarity": "COMMON",
+      "internalName": "ATTRIBUTE_SHARD_FOREST_STRENGTH;1",
+      "abilityName": "Forest Strength",
+      "alignment": "Combat",
+      "family": [
+        "Tropical Fish"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_MOSSYBIT",
+      "displayName": "Mossybit",
+      "rarity": "UNCOMMON",
+      "internalName": "ATTRIBUTE_SHARD_FOREST_TRAP;1",
+      "abilityName": "Forest Trap",
+      "alignment": "Forest",
+      "family": [
+        "Amphibian",
+        "Frog"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_TADGANG",
+            "amount": 5
+          },
+          {
+            "type": "alignment",
+            "value": "Forest",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_ENDSTONE_PROTECTOR",
+      "displayName": "Endstone Protector",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_FORTITUDE;1",
+      "abilityName": "Paramount Fortitude",
+      "alignment": "Combat",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_TOAD",
+      "displayName": "Toad",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_FROG_LEGS;1",
+      "abilityName": "Frog Legs",
+      "alignment": "Water",
+      "family": [
+        "Amphibian",
+        "Frog"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "family",
+            "value": [
+              "Frog"
+            ],
+            "amount": 5
+          },
+          {
+            "type": "alignment",
+            "value": "Forest",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_CRYO",
+      "displayName": "Cryo",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_FROST_ELEMENTAL;1",
+      "abilityName": "Frost Elemental",
+      "alignment": "Water",
+      "family": [
+        "Elemental"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "alignment",
+            "value": "Water",
+            "amount": 5,
+            "rarity": [
+              "EPIC"
+            ]
+          },
+          {
+            "type": "rarity",
+            "value": [
+              "LEGENDARY"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_FUNGLOOM",
+      "displayName": "Fungloom",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_FUNGY_LUCK;1",
+      "abilityName": "Fungy Luck",
+      "alignment": "Forest",
+      "family": [
+        "Cave Dweller"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "family",
+            "value": [
+              "Cave Dweller"
+            ],
+            "amount": 5
+          },
+          {
+            "type": "alignment",
+            "value": "Forest",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_DRAGONFLY",
+      "displayName": "Dragonfly",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_GARDEN_WISDOM;1",
+      "abilityName": "Garden Wisdom",
+      "alignment": "Forest",
+      "family": [
+        "Bug"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_FIREFLY",
+            "amount": 5
+          },
+          {
+            "type": "alignment",
+            "value": "Forest",
+            "amount": 5,
+            "rarity": [
+              "LEGENDARY"
+            ]
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_GOLDFIN",
+      "displayName": "Goldfin",
+      "rarity": "UNCOMMON",
+      "internalName": "ATTRIBUTE_SHARD_GOLD_BAIT;1",
+      "abilityName": "Gold Bait",
+      "alignment": "Water",
+      "family": [],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_GOLDEN_GHOUL",
+            "amount": 5
+          },
+          {
+            "type": "alignment",
+            "value": "Water",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 1
+      }
+    },
+    {
+      "bazaarName": "SHARD_SALAMANDER",
+      "displayName": "Salamander",
+      "rarity": "UNCOMMON",
+      "internalName": "ATTRIBUTE_SHARD_GOOD_KARMA;1",
+      "abilityName": "Good Karma",
+      "alignment": "Water",
+      "family": [
+        "Lizard",
+        "Reptile"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "family",
+            "value": [
+              "Lizard"
+            ],
+            "amount": 5
+          },
+          {
+            "type": "alignment",
+            "value": "Water",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_LIZARD_KING",
+      "displayName": "Lizard King",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_GREAT_KARMA;1",
+      "abilityName": "Great Karma",
+      "alignment": "Water",
+      "family": [
+        "Lizard",
+        "Reptile"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "family",
+            "value": [
+              "Lizard"
+            ],
+            "amount": 5
+          },
+          {
+            "type": "alignment",
+            "value": "Water",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_HIDEONGIFT",
+      "displayName": "Hideongift",
+      "rarity": "COMMON",
+      "internalName": "ATTRIBUTE_SHARD_HAPPY_BOX;1",
+      "abilityName": "Happy Box",
+      "alignment": "Forest",
+      "family": [
+        "Shulker"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "family",
+            "value": [
+              "Shulker"
+            ],
+            "amount": 5
+          },
+          {
+            "type": "rarity",
+            "value": [
+              "COMMON",
+              "UNCOMMON",
+              "RARE",
+              "EPIC",
+              "LEGENDARY"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_DROWNED",
+      "displayName": "Drowned",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_HUMANOID_RULER;1",
+      "abilityName": "Humanoid Ruler",
+      "alignment": "Combat",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_SEA_ARCHER",
+      "displayName": "Sea Archer",
+      "rarity": "COMMON",
+      "internalName": "ATTRIBUTE_SHARD_HUNTER;1",
+      "abilityName": "Monster Bait",
+      "alignment": "Water",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_MEGALITH",
+      "displayName": "Megalith",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_HUNTER_KARMA;1",
+      "abilityName": "Hunter's Karma",
+      "alignment": "Water",
+      "family": [
+        "Reptile",
+        "Turtle"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_VIPER",
+      "displayName": "Viper",
+      "rarity": "UNCOMMON",
+      "internalName": "ATTRIBUTE_SHARD_HUNTERS_FANGS;1",
+      "abilityName": "Hunter's Fang",
+      "alignment": "Combat",
+      "family": [
+        "Reptile",
+        "Serpent"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_CUBOA",
+            "amount": 5
+          },
+          {
+            "type": "alignment",
+            "value": "Combat",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_KING_COBRA",
+      "displayName": "King Cobra",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_HUNTERS_GRASP;1",
+      "abilityName": "Hunter's Grasp",
+      "alignment": "Combat",
+      "family": [
+        "Reptile",
+        "Serpent"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_PYTHON",
+            "amount": 5
+          },
+          {
+            "type": "alignment",
+            "value": "Combat",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_PYTHON",
+      "displayName": "Python",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_HUNTERS_PRESSURE;1",
+      "abilityName": "Hunter's Pressure",
+      "alignment": "Combat",
+      "family": [
+        "Reptile",
+        "Serpent"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_VIPER",
+            "amount": 5
+          },
+          {
+            "type": "alignment",
+            "value": "Combat",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_BASILISK",
+      "displayName": "Basilisk",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_HUNTERS_SUPPRESS;1",
+      "abilityName": "Hunter's Suppress",
+      "alignment": "Combat",
+      "family": [
+        "Reptile",
+        "Serpent"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_KING_COBRA",
+            "amount": 5
+          },
+          {
+            "type": "alignment",
+            "value": "Combat",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_LEATHERBACK",
+      "displayName": "Leatherback",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_HUNT_WISDOM;1",
+      "abilityName": "Hunt Wisdom",
+      "alignment": "Water",
+      "family": [
+        "Reptile",
+        "Turtle"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_SHELLWISE",
+            "amount": 5
+          },
+          {
+            "type": "alignment",
+            "value": "Water",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_GLACITE_WALKER",
+      "displayName": "Glacite Walker",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_ICE_ESSENCE;1",
+      "abilityName": "Essence of Ice",
+      "alignment": "Combat",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_MATCHO",
+      "displayName": "Matcho",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_IGNITION;1",
+      "abilityName": "Ignition",
+      "alignment": "Combat",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_MAGMA_SLUG",
+      "displayName": "Magma Slug",
+      "rarity": "UNCOMMON",
+      "internalName": "ATTRIBUTE_SHARD_INFECTION;1",
+      "abilityName": "Infection",
+      "alignment": "Water",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_TERMITE",
+      "displayName": "Termite",
+      "rarity": "UNCOMMON",
+      "internalName": "ATTRIBUTE_SHARD_INFILTRATION;1",
+      "abilityName": "Infiltration",
+      "alignment": "Forest",
+      "family": [
+        "Bug"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "family",
+            "value": [
+              "Bug"
+            ],
+            "amount": 5
+          },
+          {
+            "type": "bazaarName",
+            "value": "SHARD_PRAYING_MANTIS",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_PRAYING_MANTIS",
+      "displayName": "Praying Mantis",
+      "rarity": "UNCOMMON",
+      "internalName": "ATTRIBUTE_SHARD_INSECT_POWER;1",
+      "abilityName": "Insect Power",
+      "alignment": "Forest",
+      "family": [
+        "Bug"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_PEST",
+            "amount": 5
+          },
+          {
+            "type": "bazaarName",
+            "value": "SHARD_PEST",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_KIWI",
+      "displayName": "Kiwi",
+      "rarity": "UNCOMMON",
+      "internalName": "ATTRIBUTE_SHARD_KAT_FAVORITE;1",
+      "abilityName": "Kat's Favorite",
+      "alignment": "Forest",
+      "family": [
+        "Bird"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "family",
+            "value": [
+              "Bird"
+            ],
+            "amount": 5
+          },
+          {
+            "type": "rarity",
+            "value": [
+              "UNCOMMON",
+              "RARE",
+              "EPIC",
+              "LEGENDARY"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_HIDEONDRA",
+      "displayName": "Hideondra",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_KUUDRA_BOX;1",
+      "abilityName": "Kuudra's Box",
+      "alignment": "Forest",
+      "family": [
+        "Shulker"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_KADA_KNIGHT",
+      "displayName": "Kada Knight",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_LIFELINE;1",
+      "abilityName": "Lifeline",
+      "alignment": "Combat",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_SYCOPHANT",
+      "displayName": "Sycophant",
+      "rarity": "UNCOMMON",
+      "internalName": "ATTRIBUTE_SHARD_LIFE_RECOVERY;1",
+      "abilityName": "Life Recovery",
+      "alignment": "Combat",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_SHINYFISH",
+      "displayName": "Shinyfish",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_LIFE_REGENERATION;1",
+      "abilityName": "Help From Above",
+      "alignment": "Water",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_FLASH",
+      "displayName": "Flash",
+      "rarity": "COMMON",
+      "internalName": "ATTRIBUTE_SHARD_LIGHT_ELEMENTAL;1",
+      "abilityName": "Light Elemental",
+      "alignment": "Combat",
+      "family": [
+        "Elemental"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "alignment",
+            "value": "Combat",
+            "amount": 5,
+            "rarity": [
+              "COMMON"
+            ]
+          },
+          {
+            "type": "rarity",
+            "value": [
+              "UNCOMMON",
+              "RARE",
+              "EPIC",
+              "LEGENDARY"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_BOLT",
+      "displayName": "Bolt",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_LIGHTNING_ELEMENTAL;1",
+      "abilityName": "Lightning Elemental",
+      "alignment": "Combat",
+      "family": [
+        "Elemental"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "alignment",
+            "value": "Combat",
+            "amount": 5,
+            "rarity": [
+              "RARE"
+            ]
+          },
+          {
+            "type": "rarity",
+            "value": [
+              "EPIC",
+              "LEGENDARY"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_SALMON",
+      "displayName": "Salmon",
+      "rarity": "UNCOMMON",
+      "internalName": "ATTRIBUTE_SHARD_LOST_AND_FOUND;1",
+      "abilityName": "Lost and Found",
+      "alignment": "Water",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_MORAY_EEL",
+      "displayName": "Moray Eel",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_LUCKY_ROD;1",
+      "abilityName": "Lucky Rod",
+      "alignment": "Water",
+      "family": [
+        "Amphibian",
+        "Eel"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_EEL",
+            "amount": 5
+          },
+          {
+            "type": "alignment",
+            "value": "Water",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_LUNAR_MOTH",
+      "displayName": "Lunar Moth",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_LUNAR_POWER;1",
+      "abilityName": "Lunar Power",
+      "alignment": "Forest",
+      "family": [
+        "Bug"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_LADYBUG",
+            "amount": 5
+          },
+          {
+            "type": "family",
+            "value": [
+              "Bug"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_CINDER_BAT",
+      "displayName": "Cinderbat",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_MAGIC_FIND;1",
+      "abilityName": "Magic Find",
+      "alignment": "Forest",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_STRIDER_SURFER",
+      "displayName": "Stridersurfer",
+      "rarity": "UNCOMMON",
+      "internalName": "ATTRIBUTE_SHARD_MAGMATIC_RULER;1",
+      "abilityName": "Magmatic Ruler",
+      "alignment": "Water",
+      "family": [
+        "Drowned"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_XYZ",
+      "displayName": "XYZ",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_MANA_REGENERATION;1",
+      "abilityName": "Mana Regeneration",
+      "alignment": "Forest",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_RAIN_SLIME",
+      "displayName": "Rain Slime",
+      "rarity": "UNCOMMON",
+      "internalName": "ATTRIBUTE_SHARD_MANA_STEAL;1",
+      "abilityName": "Mana Steal",
+      "alignment": "Combat",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_SEAGULL",
+      "displayName": "Seagull",
+      "rarity": "UNCOMMON",
+      "internalName": "ATTRIBUTE_SHARD_MANGROVE_COLLECTOR;1",
+      "abilityName": "Mangrove Collector",
+      "alignment": "Forest",
+      "family": [
+        "Bird"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_HERON",
+      "displayName": "Heron",
+      "rarity": "UNCOMMON",
+      "internalName": "ATTRIBUTE_SHARD_MANGROVE_SHARPENING;1",
+      "abilityName": "Mangrove Sharpening",
+      "alignment": "Forest",
+      "family": [
+        "Bird"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_HELLWISP",
+      "displayName": "Hellwisp",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_MATRIARCH_CUBS;1",
+      "abilityName": "Matriarch Cubs",
+      "alignment": "Combat",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_TAURUS",
+      "displayName": "Taurus",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_MAXIMAL_TORMENT;1",
+      "abilityName": "Maximal Torment",
+      "alignment": "Water",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_KRAKEN",
+      "displayName": "Kraken",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_MENDING;1",
+      "abilityName": "Vitality",
+      "alignment": "Combat",
+      "family": [
+        "Demon"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_GOLDEN_GHOUL",
+      "displayName": "Golden Ghoul",
+      "rarity": "COMMON",
+      "internalName": "ATTRIBUTE_SHARD_MIDAS_TOUCH;1",
+      "abilityName": "Midas Touch",
+      "alignment": "Combat",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_PHANFLARE",
+      "displayName": "Phanflare",
+      "rarity": "COMMON",
+      "internalName": "ATTRIBUTE_SHARD_MOONGLADE_MASTERY;1",
+      "abilityName": "Moonglade Mastery",
+      "alignment": "Forest",
+      "family": [
+        "Phantom"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_PIRANHA",
+      "displayName": "Piranha",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_MOONGLADE_SERENDIPITY;1",
+      "abilityName": "Moonglade Serendipity",
+      "alignment": "Water",
+      "family": [
+        "Treasure Fish"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_HIDEONLEAF",
+      "displayName": "Hideonleaf",
+      "rarity": "COMMON",
+      "internalName": "ATTRIBUTE_SHARD_MOSSY_BOX;1",
+      "abilityName": "Mossy Box",
+      "alignment": "Forest",
+      "family": [
+        "Shulker"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_TROGLOBYTE",
+      "displayName": "Troglobyte",
+      "rarity": "UNCOMMON",
+      "internalName": "ATTRIBUTE_SHARD_MOUNTAIN_CLIMBER;1",
+      "abilityName": "Mountain Climber",
+      "alignment": "Combat",
+      "family": [
+        "Cave Dweller"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "alignment",
+            "value": "Combat",
+            "amount": 5
+          },
+          {
+            "type": "family",
+            "value": [
+              "Cave Dweller"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_GROVE",
+      "displayName": "Grove",
+      "rarity": "COMMON",
+      "internalName": "ATTRIBUTE_SHARD_NATURE_ELEMENTAL;1",
+      "abilityName": "Nature Elemental",
+      "alignment": "Forest",
+      "family": [
+        "Elemental"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "alignment",
+            "value": "Forest",
+            "amount": 5,
+            "rarity": [
+              "COMMON"
+            ]
+          },
+          {
+            "type": "rarity",
+            "value": [
+              "UNCOMMON",
+              "RARE",
+              "EPIC",
+              "LEGENDARY"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_PHANPYRE",
+      "displayName": "Phanpyre",
+      "rarity": "COMMON",
+      "internalName": "ATTRIBUTE_SHARD_NOCTURNAL_ANIMAL;1",
+      "abilityName": "Nocturnal Animal",
+      "alignment": "Forest",
+      "family": [
+        "Phantom"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_BOREAL_OWL",
+      "displayName": "Boreal Owl",
+      "rarity": "COMMON",
+      "internalName": "ATTRIBUTE_SHARD_OWL_FRIEND;1",
+      "abilityName": "Owl Friend",
+      "alignment": "Forest",
+      "family": [
+        "Bird"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "family",
+            "value": [
+              "Bird"
+            ],
+            "amount": 5
+          },
+          {
+            "type": "rarity",
+            "value": [
+              "COMMON",
+              "UNCOMMON",
+              "RARE",
+              "EPIC",
+              "LEGENDARY"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_SPIKE",
+      "displayName": "Spike",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_PAYBACK;1",
+      "abilityName": "Payback",
+      "alignment": "Water",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_PEST",
+      "displayName": "Pest",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_PEST_LUCK;1",
+      "abilityName": "Pest Luck",
+      "alignment": "Forest",
+      "family": [
+        "Bug"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_CONDOR",
+      "displayName": "Condor",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_PET_WISDOM;1",
+      "abilityName": "Pet Wisdom",
+      "alignment": "Forest",
+      "family": [
+        "Bird"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "family",
+            "value": [
+              "bird"
+            ],
+            "amount": 5
+          },
+          {
+            "type": "rarity",
+            "value": [
+              "LEGENDARY"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_DAEMON",
+      "displayName": "Daemon",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_PITY;1",
+      "abilityName": "Pity",
+      "alignment": "Combat",
+      "family": [
+        "Demon"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_KRAKEN",
+            "amount": 5
+          },
+          {
+            "type": "bazaarName",
+            "value": "SHARD_KRAKEN",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 1
+      }
+    },
+    {
+      "bazaarName": "SHARD_LADYBUG",
+      "displayName": "Ladybug",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_PRETTY_CLOTHES;1",
+      "abilityName": "Pretty Clothes",
+      "alignment": "Forest",
+      "family": [
+        "Bug"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "family",
+            "value": [
+              "Bug"
+            ],
+            "amount": 5
+          },
+          {
+            "type": "bazaarName",
+            "value": "SHARD_CROPEETLE",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_CROCODILE",
+      "displayName": "Crocodile",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_PURE_REPTILE;1",
+      "abilityName": "Pure Reptile",
+      "alignment": "Combat",
+      "family": [
+        "Croco",
+        "Reptile"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_QUARTZFANG",
+      "displayName": "Quartzfang",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_QUARTZ_SPEED;1",
+      "abilityName": "Quartz Speed",
+      "alignment": "Combat",
+      "family": [
+        "Cave Dweller"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_TROGLOBYTE",
+            "amount": 5
+          },
+          {
+            "type": "family",
+            "value": [
+              "Cave Dweller"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_CARROT_KING",
+      "displayName": "Carrot King",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_RABBIT_CREW;1",
+      "abilityName": "Rabbit Crew",
+      "alignment": "Water",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_DODO",
+      "displayName": "Dodo",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_RARE_BIRD;1",
+      "abilityName": "Rare Bird",
+      "alignment": "Forest",
+      "family": [
+        "Bug"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_CONDOR",
+            "amount": 5
+          },
+          {
+            "type": "rarity",
+            "value": [
+              "LEGENDARY"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_PRINCE",
+      "displayName": "Prince",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_REBORN;1",
+      "abilityName": "Reborn",
+      "alignment": "Combat",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_CHAMELEON",
+      "displayName": "Chameleon",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_REPTILOID;1",
+      "abilityName": "Reptiloid",
+      "alignment": "Forest",
+      "family": [
+        "Reptile"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_MINER_ZOMBIE",
+      "displayName": "Miner Zombie",
+      "rarity": "COMMON",
+      "internalName": "ATTRIBUTE_SHARD_ROTTEN_PICKAXE;1",
+      "abilityName": "Rotten Pickaxe",
+      "alignment": "Combat",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_HIDEONSACK",
+      "displayName": "Hideonsack",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_SACK_SIZE;1",
+      "abilityName": "Sack Size",
+      "alignment": "Forest",
+      "family": [
+        "Shulker"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "family",
+            "value": [
+              "Shulker"
+            ],
+            "amount": 5,
+            "rarity": [
+              "RARE"
+            ]
+          },
+          {
+            "type": "rarity",
+            "value": [
+              "EPIC",
+              "LEGENDARY"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_TENEBRIS",
+      "displayName": "Tenebris",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_SHADOW_ELEMENTAL;1",
+      "abilityName": "Shadow Elemental",
+      "alignment": "Forest",
+      "family": [
+        "Elemental"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "family",
+            "value": [
+              "Elemental"
+            ],
+            "amount": 5
+          },
+          {
+            "type": "alignment",
+            "value": "Forest",
+            "amount": 5,
+            "rarity": [
+              "LEGENDARY"
+            ]
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_SHELLWISE",
+      "displayName": "Shellwise",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_SHELL;1",
+      "abilityName": "Shell",
+      "alignment": "Water",
+      "family": [
+        "Reptile",
+        "Turtle"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_CHILL",
+      "displayName": "Chill",
+      "rarity": "COMMON",
+      "internalName": "ATTRIBUTE_SHARD_SKELETAL_RULER;1",
+      "abilityName": "Skeletal Ruler",
+      "alignment": "Combat",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_BLIZZARD",
+      "displayName": "Blizzard",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_SNOW_ELEMENTAL;1",
+      "abilityName": "Snow Elemental",
+      "alignment": "Water",
+      "family": [
+        "Elemental"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "family",
+            "value": [
+              "Elemental"
+            ],
+            "amount": 5
+          },
+          {
+            "type": "alignment",
+            "value": "Water",
+            "amount": 5,
+            "rarity": [
+              "LEGENDARY"
+            ]
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_FIREFLY",
+      "displayName": "Firefly",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_SOLAR_POWER;1",
+      "abilityName": "Solar Power",
+      "alignment": "Forest",
+      "family": [
+        "Bug"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_LUNAR_MOTH",
+            "amount": 5
+          },
+          {
+            "type": "bazaarName",
+            "value": [
+              "SHARD_BEZAL",
+              "SHARD_CINDER_BAT",
+              "SHARD_FLARE",
+              "SHARD_LAVA_FLAME",
+              "SHARD_FIRE_EEL",
+              "SHARD_BAL",
+              "SHARD_FLAMING_SPIDER"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_OBSIDIAN_DEFENDER",
+      "displayName": "Obsidian Defender",
+      "rarity": "UNCOMMON",
+      "internalName": "ATTRIBUTE_SHARD_SPEED;1",
+      "abilityName": "Speed",
+      "alignment": "Combat",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_ARACHNE",
+      "displayName": "Arachne",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_SPIDER_ESSENCE;1",
+      "abilityName": "Essence of Arthropods",
+      "alignment": "Combat",
+      "family": [
+        "Spider"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_ENT",
+      "displayName": "Ent",
+      "rarity": "UNCOMMON",
+      "internalName": "ATTRIBUTE_SHARD_SPIRIT_AXE;1",
+      "abilityName": "Spirit Axe",
+      "alignment": "Water",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_MOLTENFISH",
+      "displayName": "Moltenfish",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_STAR_BAIT;1",
+      "abilityName": "Star Bait",
+      "alignment": "Water",
+      "family": [
+        "Demon"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_KRAKEN",
+            "amount": 5
+          },
+          {
+            "type": "alignment",
+            "value": "Water",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 1
+      }
+    },
+    {
+      "bazaarName": "SHARD_SUN_FISH",
+      "displayName": "Sun Fish",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_STARBORN;1",
+      "abilityName": "Starborn",
+      "alignment": "Water",
+      "family": [],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_SHINYFISH",
+            "amount": 5
+          },
+          {
+            "type": "bazaarName",
+            "value": "SHARD_SHINYFISH",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 1
+      }
+    },
+    {
+      "bazaarName": "SHARD_QUAKE",
+      "displayName": "Quake",
+      "rarity": "UNCOMMON",
+      "internalName": "ATTRIBUTE_SHARD_STONE_ELEMENTAL;1",
+      "abilityName": "Stone Elemental",
+      "alignment": "Combat",
+      "family": [
+        "Elemental"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "alignment",
+            "value": "Combat",
+            "amount": 5,
+            "rarity": [
+              "UNCOMMON"
+            ]
+          },
+          {
+            "type": "rarity",
+            "value": [
+              "RARE",
+              "EPIC",
+              "LEGENDARY"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_TEMPEST",
+      "displayName": "Tempest",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_STORM_ELEMENTAL;1",
+      "abilityName": "Storm Elemental",
+      "alignment": "Combat",
+      "family": [
+        "Elemental"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "family",
+            "value": [
+              "Elemental"
+            ],
+            "amount": 5
+          },
+          {
+            "type": "alignment",
+            "value": "Combat",
+            "amount": 5,
+            "rarity": [
+              "LEGENDARY"
+            ]
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_BAMBULEAF",
+      "displayName": "Bambuleaf",
+      "rarity": "UNCOMMON",
+      "internalName": "ATTRIBUTE_SHARD_STRONG_ARMS;1",
+      "abilityName": "Strong Arms",
+      "alignment": "Forest",
+      "family": [
+        "Panda"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_MOCHIBEAR",
+      "displayName": "Mochibear",
+      "rarity": "UNCOMMON",
+      "internalName": "ATTRIBUTE_SHARD_STRONG_LEGS;1",
+      "abilityName": "Strong Legs",
+      "alignment": "Forest",
+      "family": [
+        "Panda"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_CASCADE",
+      "displayName": "Cascade",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_TORRENT_ELEMENTAL;1",
+      "abilityName": "Torrent Elemental",
+      "alignment": "Water",
+      "family": [
+        "Elemental"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "alignment",
+            "value": "Water",
+            "amount": 5,
+            "rarity": [
+              "RARE"
+            ]
+          },
+          {
+            "type": "rarity",
+            "value": [
+              "EPIC",
+              "LEGENDARY"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_HARPY",
+      "displayName": "Harpy",
+      "rarity": "COMMON",
+      "internalName": "ATTRIBUTE_SHARD_TREE_LURKER;1",
+      "abilityName": "Tree Lurker",
+      "alignment": "Combat",
+      "family": [
+        "Bird"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "family",
+            "value": [
+              "Bird"
+            ],
+            "amount": 5
+          },
+          {
+            "type": "alignment",
+            "value": "Combat",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_FIRE_EEL",
+      "displayName": "Fire Eel",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_TROPHY_HUNTER;1",
+      "abilityName": "Trophy Hunter",
+      "alignment": "Water",
+      "family": [
+        "Amphibian",
+        "Eel"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_FIREFLY",
+            "amount": 5
+          },
+          {
+            "type": "bazaarName",
+            "value": "SHARD_MORAY_EEL",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_HIDEONBOX",
+      "displayName": "Hideonbox",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_TUNING_BOX;1",
+      "abilityName": "Tuning Box",
+      "alignment": "Forest",
+      "family": [
+        "Shulker"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "family",
+            "value": [
+              "Shulker"
+            ],
+            "amount": 5
+          },
+          {
+            "type": "rarity",
+            "value": [
+              "LEGENDARY"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_GALAXY_FISH",
+      "displayName": "Galaxy Fish",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_ULTIMATE_DNA;1",
+      "abilityName": "Ultimate DNA",
+      "alignment": "Water",
+      "family": [],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_SUN_FISH",
+            "amount": 5
+          },
+          {
+            "type": "bazaarName",
+            "value": "SHARD_SUN_FISH",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_ZOMBIE_SOLDIER",
+      "displayName": "Zombie Soldier",
+      "rarity": "UNCOMMON",
+      "internalName": "ATTRIBUTE_SHARD_UNDEAD;1",
+      "abilityName": "Undead Ruler",
+      "alignment": "Combat",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_REVENANT",
+      "displayName": "Revenant",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_UNDEAD_ESSENCE;1",
+      "abilityName": "Essence of Unliving",
+      "alignment": "Combat",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_TANK_ZOMBIE",
+      "displayName": "Tank Zombie",
+      "rarity": "COMMON",
+      "internalName": "ATTRIBUTE_SHARD_UNDEAD_RESISTANCE;1",
+      "abilityName": "Undead Resistance",
+      "alignment": "Combat",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_TADGANG",
+      "displayName": "Tadgang",
+      "rarity": "COMMON",
+      "internalName": "ATTRIBUTE_SHARD_UNITY_IS_STRENGTH;1",
+      "abilityName": "Unity is Strength",
+      "alignment": "Water",
+      "family": [
+        "Amphibian",
+        "Frog"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_ETHERDRAKE",
+      "displayName": "Etherdrake",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_UNLIMITED_ENERGY;1",
+      "abilityName": "Unlimited Energy",
+      "alignment": "Combat",
+      "family": [
+        "Demon",
+        "Dragon"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_JORMUNG",
+            "amount": 5
+          },
+          {
+            "type": "bazaarName",
+            "value": "SHARD_POWER_DRAGON",
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_JORMUNG",
+      "displayName": "Jormung",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_UNLIMITED_POWER;1",
+      "abilityName": "Unlimited Power",
+      "alignment": "Combat",
+      "family": [
+        "Demon",
+        "Dragon"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_GHOST",
+      "displayName": "Ghost",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_VEIL;1",
+      "abilityName": "Veil",
+      "alignment": "Combat",
+      "family": [
+        "Cave Dweller"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_APEX_DRAGON",
+      "displayName": "Apex Dragon",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_VETERAN;1",
+      "abilityName": "Veteran",
+      "alignment": "Combat",
+      "family": [
+        "Dragon"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_POWER_DRAGON",
+            "amount": 5
+          },
+          {
+            "type": "rarity",
+            "value": [
+              "COMMON",
+              "UNCOMMON",
+              "RARE",
+              "EPIC",
+              "LEGENDARY"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_MUDWORM",
+      "displayName": "Mudworm",
+      "rarity": "COMMON",
+      "internalName": "ATTRIBUTE_SHARD_VISITOR_BAIT;1",
+      "abilityName": "Visitor Bait",
+      "alignment": "Forest",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_BARBARIAN_DUKE_X",
+      "displayName": "Barbarian Duke X",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_WARRIOR;1",
+      "abilityName": "Warrior",
+      "alignment": "Combat",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_WARTYBUG",
+      "displayName": "Wartybug",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_WART_EATER;1",
+      "abilityName": "Wart Eater",
+      "alignment": "Forest",
+      "family": [
+        "Bug"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_DRAGONFLY",
+            "amount": 5
+          },
+          {
+            "type": "rarity",
+            "value": [
+              "LEGENDARY"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_TIDE",
+      "displayName": "Tide",
+      "rarity": "UNCOMMON",
+      "internalName": "ATTRIBUTE_SHARD_WATER_ELEMENTAL;1",
+      "abilityName": "Water Elemental",
+      "alignment": "Water",
+      "family": [
+        "Elemental"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "alignment",
+            "value": "Water",
+            "amount": 5,
+            "rarity": [
+              "UNCOMMON"
+            ]
+          },
+          {
+            "type": "rarity",
+            "value": [
+              "RARE",
+              "EPIC",
+              "LEGENDARY"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_TOUCAN",
+      "displayName": "Toucan",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_WHY_NOT_MORE;1",
+      "abilityName": "Why Not More",
+      "alignment": "Forest",
+      "family": [
+        "Bird"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "family",
+            "value": [
+              "bird"
+            ],
+            "amount": 5
+          },
+          {
+            "type": "rarity",
+            "value": [
+              "EPIC",
+              "LEGENDARY"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_AERO",
+      "displayName": "Aero",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_WIND_ELEMENTAL;1",
+      "abilityName": "Wind Elemental",
+      "alignment": "Combat",
+      "family": [
+        "Elemental"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "alignment",
+            "value": "Combat",
+            "amount": 5,
+            "rarity": [
+              "EPIC"
+            ]
+          },
+          {
+            "type": "rarity",
+            "value": [
+              "LEGENDARY"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 2
+      }
+    },
+    {
+      "bazaarName": "SHARD_ANANKE",
+      "displayName": "Ananke",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_WINGS_OF_DESTINY;1",
+      "abilityName": "Wings of Destiny",
+      "alignment": "Combat",
+      "family": [
+        "Bird",
+        "Demon"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "bazaarName",
+            "value": "SHARD_KRAKEN",
+            "amount": 5
+          },
+          {
+            "type": "family",
+            "value": [
+              "Bird"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 1
+      }
+    },
+    {
+      "bazaarName": "SHARD_SNOWFIN",
+      "displayName": "Snowfin",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_WINTER_SERENDIPITY;1",
+      "abilityName": "Winter's Serendipity",
+      "alignment": "Water",
+      "family": [
+        "Treasure Fish"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_WITHER",
+      "displayName": "Wither",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_WITHER_ESSENCE;1",
+      "abilityName": "Essence of Wither",
+      "alignment": "Combat",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_BRAMBLE",
+      "displayName": "Bramble",
+      "rarity": "UNCOMMON",
+      "internalName": "ATTRIBUTE_SHARD_WOOD_ELEMENTAL;1",
+      "abilityName": "Wood Elemental",
+      "alignment": "Forest",
+      "family": [
+        "Elemental"
+      ],
+      "fusion": {
+        "components": [
+          {
+            "type": "alignment",
+            "value": "Forest",
+            "amount": 5,
+            "rarity": [
+              "UNCOMMON"
+            ]
+          },
+          {
+            "type": "rarity",
+            "value": [
+              "RARE",
+              "EPIC",
+              "LEGENDARY"
+            ],
+            "amount": 5
+          }
+        ],
+        "outputQuantity": 1
+      }
+    },
+    {
+      "bazaarName": "SHARD_YOG",
+      "displayName": "Yog",
+      "rarity": "COMMON",
+      "internalName": "ATTRIBUTE_SHARD_YOG_MEMBRANE;1",
+      "abilityName": "Yog Membrane",
+      "alignment": "Combat",
+      "family": []
+    },
+    {
+      "bazaarName": "SHARD_BIRRIES",
+      "displayName": "Birries",
+      "rarity": "COMMON",
+      "internalName": "ATTRIBUTE_SHARD_YUMMY;1",
+      "abilityName": "Yummy",
+      "alignment": "Water",
+      "family": []
+    }
+  ]
+}
