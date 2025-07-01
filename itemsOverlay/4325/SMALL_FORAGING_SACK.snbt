@@ -1,0 +1,44 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "SMALL_FORAGING_SACK"
+		},
+		"minecraft:profile": {
+			id: [I;
+				-234123047,
+				-745656092,
+				-1402094057,
+				1740163866
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "EQ3oUnYht4QLwUtM/a/Lbe2T14ATAE/kXFyGkFY2L/R5OLhom64e+qunAavYlH30DQHrZZ6rWYrlPvjDCtokGdYogj2Uv5j9weOnypeTW9O0B4Lj4fxvJptwSPSfCRHMdPcZLq5Wvx6Jt26uZY1oGSagMdYEyDR5/ZUsVf5cq8ESeSN7Fiw7hJvBToqKkBHzn2MmNqm+PzAoRsEPihwAFJKi5LbRqWrAT01UfvI4jE9jFs1Um85T5XKEBvV3+UeSikgiv+F78YRMYmbZQPwmdTEX3hxY8JtWmudBSbB2Trin2h6LpG0q/iOfFDCSPqCN2R/dZp9S+ASmkyXL2LGy8b2lVfMEExusefGVJ/qFCb9TYwj1Unw9zuqqAKO6Sr7f+qd64qcndZC9B6hiWAWKIOZs9zB/mtzM2qHgxtmqnwjIRTpeIhMiNM6VhtvFMXC6WoRgpE9IkPY46YoKR19Lvx2Mzxl1P1aOfFK/yWfSPp0l/pNARRtNmxeK63Yl76K9FuyWS9CC+GsoYzB6db2+PeEW0Pi0yGKXBdQlhWQImeheKr2pxCZKymccclD1eaGs9ppYd6KL8Kg+kBDPz30zmjtckdzTP/Jy8tHXGd76lhPdDmDXpxKHPXP6TczHsUPtYUo7bTPid9MPD6JFI5gt2+hGkkhNIBfW6fZiR0wa8og=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NTQ1NTMzOSwKICAicHJvZmlsZUlkIiA6ICI3NmM4Y2ZlYjE1N2U0MGEwYmNlNjQ4NTgwZGEwNmQwNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTcGlrZWhpZGRlbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80Zjk2MGM2MzlkNDAwNGQxODgyNTc1YWViYTY5ZjQ1NmZiM2M3NDQwNzc5MzU3MTQ5NDdlMTljMTMwNmQyNzMzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.1.0-dev+mc1.21.5+g4907900"
+	}
+}
