@@ -1,9 +1,8 @@
 name: Automated Wiki Updates
 
 on:
-  push:
-    branches:
-      - master
+  schedule:
+    - cron: '0 2 * * *'  # 2:00 AM UTC
 
 jobs:
   update-data:
