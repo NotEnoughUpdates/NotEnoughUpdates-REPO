@@ -1,0 +1,44 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "GARDEN_SACK"
+		},
+		"minecraft:profile": {
+			id: [I;
+				862456093,
+				-1175244139,
+				-1860308156,
+				-1885601177
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "k2UdXvckyUjufvIuridaY0KlPhKmNAntL8eesg9vXS/AOqh4xyRuZA0kt16IbSmcYoGr8zrDTymvcIZyddDoIAkMsWkn8MgAFtPDU9Dk5686PVraR3nm0+S8jyjWLZpUiR28b5Nk4pJs5a//H8NfvpGRgIu/R6iJo5Xf+SffkkZ6JHGZd7Qh9mi886kjRMKe84ozykUIqs+sWSvUUqI/tRdYUzFvm1GQekEyH/XRbUSfiqmA3ipCRDxRon08eu6t0ks+rXtQhdIhcJqi7RrV7nGv6ct2Xls63wg1qIaQKrt3PQBx7RhmCfPoi8yg2MwGC3A092Eu75eEp5nJb8FWDBJMVzpRm2BsmkpVQ4NsKiaCiaZx0Nzj55yldjcIBAzEy3sIMW7wlgVoUEeq8Rc+hD2yqD8wxaJyrRKt4nhX7WPEARGa1CEFnat+yDnOqtTq9qL0vH6cPSt4UFmYtxdbslHUITs/ZgXnNTErHoWJp1D1JFCdK/myX95hVFRuqi2WZPlz0CSTOo/k50BY4N8x2fDjli/FC1SdvbpUGNOR7otjju79QywimEgaMijr7+MmgA0Lgh/RTIEM0bj03tyDG2tJA6skRWYjYWoSKlgRRWekbkCXKbw+TqaOdO8rcWWTgd0DIis0m4z5pbzvcJEI+/J651XxfaL7JIrW4UKYt/g=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTY5OTM2ODc2Nzk4OCwKICAicHJvZmlsZUlkIiA6ICJiZDNhNWRmY2ZkZjg0NDczOTViZDJiZmUwNGY0YzAzMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJwcmVja3Jhc25vIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE4NDcxMmVjYmYxYzZjZTlkZTEyMzBiZmEwNTgzMWFhM2M1ZDBlZTlkMWJhNTlkZWVmN2EzMWNhZmQ3ZDhlZjMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.1.0-dev+mc1.21.5+g4907900"
+	}
+}
