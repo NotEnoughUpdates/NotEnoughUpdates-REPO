@@ -1,0 +1,84 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Lukas the Aquarist (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"3883b091-b9a4-28dd-9c26-279c04a338d4\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJhYWJmN2IzMDBmNzQ2ZjRjNGEyOGVhYTEzMjg1ZmRmMTIzZWRmNmEwOThiODZkYWI4MTUwMWNlNjA0N2JkNWMifX19\"}]},Name:\"3883b091-b9a4-28dd-9c26-279c04a338d4\"},display:{Lore:[0:\"§7Only appears during §bYear of the Seal §7event.\"],Name:\"§9Lukas the Aquarist (NPC)\"},ExtraAttributes:{id:\"LUKAS_THE_AQUARIST_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Only appears during §bYear of the Seal §7event."
+  ],
+  "internalname": "LUKAS_THE_AQUARIST_NPC",
+  "clickcommand": "",
+  "modver": "",
+  "x": -17,
+  "y": 69,
+  "z": -106,
+  "island": "hub",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "result": "FROZEN_AMULET:1",
+      "cost": [
+        "FISHY_TREAT:256"
+      ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "SEAL_TALISMAN:1",
+      "cost": [
+        "FISHY_TREAT:128"
+      ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "SEAL_RING:1",
+      "cost": [
+        "SEAL_TALISMAN:1",
+        "FISHY_TREAT:256"
+      ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "TIDAL;1:1",
+      "cost": [
+        "FISHY_TREAT:64"
+      ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "SEAL_TREAT_BAG:1",
+      "cost": [
+        "FISHY_TREAT:16"
+      ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "GENERATOR_UPGRADE_STONE_FISHING_12:1",
+      "cost": [
+        "ENCHANTED_COOKED_FISH:16",
+        "SKYBLOCK_COIN:2000000",
+        "FISHY_TREAT:256"
+      ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "GENERATOR_UPGRADE_STONE_CLAY_12:1",
+      "cost": [
+        "ENCHANTED_CLAY_BLOCK:8",
+        "SKYBLOCK_COIN:2000000",
+        "FISHY_TREAT:256"
+      ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "SEAL_PERSONALITY:1",
+      "cost": [
+        "FISHY_TREAT:128"
+      ]
+    }
+  ],
+  "crafttext": "",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Lukas_the_Aquarist"
+  ]
+}

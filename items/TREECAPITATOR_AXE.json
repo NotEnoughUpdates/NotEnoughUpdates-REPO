@@ -1,36 +1,47 @@
 {
   "itemid": "minecraft:golden_axe",
   "displayname": "§5Treecapitator",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\" §8[§8☘§8] §8[§8☘§8]\",1:\"\",2:\"§7A forceful Gold Axe which can break\",3:\"§7a large amount of logs in a single hit!\",4:\"§8Cooldown: §a2s\",5:\"\",6:\"§7§8This item can be reforged!\",7:\"§5§lEPIC AXE\"],Name:\"§5Treecapitator\"},ExtraAttributes:{id:\"TREECAPITATOR_AXE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"TREECAPITATOR_AXE\"},HideFlags:254,ItemModel:\"minecraft:golden_axe\",Unbreakable:1B,display:{Lore:[0:\"§7Sweep: §a+25\",1:\" §8[☘] [☘]\",2:\"\",3:\"§6Ability: Throwing Axe  §e§lRIGHT CLICK\",4:\"§7While on §2Foraging Islands§7, throw your Axe at a\",5:\"§7tree! It will sweep §c50% §7of the logs it normally\",6:\"§7would!\",7:\"§8Cooldown: §a1s\",8:\"\",9:\"§6Ability: Park Enthusiast \",10:\"§7Gain §6+100☘ Foraging Fortune §7while in §aThe Park§7.\",11:\"\",12:\"§8This item can be reforged!\",13:\"§5§lEPIC AXE\"],Name:\"§5Treecapitator\"}}",
   "damage": 0,
   "lore": [
-    " §8[§8☘§8] §8[§8☘§8]",
+    "§7Sweep: §a+25",
+    " §8[☘] [☘]",
     "",
-    "§7A forceful Gold Axe which can break",
-    "§7a large amount of logs in a single hit!",
-    "§8Cooldown: §a2s",
+    "§6Ability: Throwing Axe  §e§lRIGHT CLICK",
+    "§7While on §2Foraging Islands§7, throw your Axe at a",
+    "§7tree! It will sweep §c50% §7of the logs it normally",
+    "§7would!",
+    "§8Cooldown: §a1s",
     "",
-    "§7§8This item can be reforged!",
+    "§6Ability: Park Enthusiast ",
+    "§7Gain §6+100☘ Foraging Fortune §7while in §aThe Park§7.",
+    "",
+    "§8This item can be reforged!",
     "§5§lEPIC AXE"
   ],
-  "recipe": {
-    "A1": "ENCHANTED_OBSIDIAN:64",
-    "A2": "ENCHANTED_OBSIDIAN:64",
-    "A3": "ENCHANTED_OBSIDIAN:64",
-    "B1": "ENCHANTED_OBSIDIAN:64",
-    "B2": "JUNGLE_AXE:1",
-    "B3": "ENCHANTED_OBSIDIAN:64",
-    "C1": "ENCHANTED_OBSIDIAN:64",
-    "C2": "ENCHANTED_OBSIDIAN:64",
-    "C3": "ENCHANTED_OBSIDIAN:64"
-  },
   "internalname": "TREECAPITATOR_AXE",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.1.0-dev+mc1.21.5+g58be5f6",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Treecapitator",
     "https://wiki.hypixel.net/Treecapitator"
   ],
-  "crafttext": "Requires: Obsidian VIII"
+  "recipes": [
+    {
+      "A1": "ENCHANTED_JUNGLE_LOG:4",
+      "A2": "ENCHANTED_JUNGLE_LOG:4",
+      "A3": "ENCHANTED_JUNGLE_LOG:4",
+      "B1": "ENCHANTED_JUNGLE_LOG:4",
+      "B2": "JUNGLE_AXE:1",
+      "B3": "ENCHANTED_JUNGLE_LOG:4",
+      "C1": "ENCHANTED_JUNGLE_LOG:4",
+      "C2": "ENCHANTED_JUNGLE_LOG:4",
+      "C3": "ENCHANTED_JUNGLE_LOG:4",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "TREECAPITATOR_AXE"
+    }
+  ]
 }

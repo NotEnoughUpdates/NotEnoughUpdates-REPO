@@ -1,0 +1,67 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§3Ragnarok (Sea Creature)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"feaa91b5-9a47-37bc-8974-13e7aa71fcd6\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc0MTA5ODExNTMwMCwKICAicHJvZmlsZUlkIiA6ICJhNzdkNmQ2YmFjOWE0NzY3YTFhNzU1NjYxOTllYmY5MiIsCiAgInByb2ZpbGVOYW1lIiA6ICIwOEJFRDUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYThlMWZlMjE0YjcxZjZlYTY5YzU0MWE4NjFjNjRiYWZkYTdiZjliODVkZTVkZDE3YWIyYjZjY2QxZDMyYjAzOSIKICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§c❤ Health§8: §c125,000,000\",1:\"\",2:\"§d§lMYTHIC\"],Name:\"§3Ragnarok (Sea Creature)\"},ExtraAttributes:{id:\"RAGNAROK_SC\"}}",
+  "damage": 3,
+  "lore": [
+    "§c❤ Health§8: §c125,000,000",
+    "",
+    "§d§lMYTHIC"
+  ],
+  "internalname": "RAGNAROK_SC",
+  "clickcommand": "viewrecipe",
+  "modver": "",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Ragnarok",
+    "https://wiki.hypixel.net/Ragnarok"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§cRagnarok",
+      "level": 666,
+      "coins": 7500,
+      "xp": 7500,
+      "render": "@neurepo:mobs/ragnarok.json",
+      "panorama": "fishing_1",
+      "type": "drops",
+      "extra": [
+        "§cRequirements:",
+        "§7- §aFishing Skill 47",
+        "§7- §cLava",
+        "§7- §dFishing Hotspot"
+      ],
+      "drops": [
+        {
+          "id": "MAGMA_FISH_SILVER:32",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_COAL:32",
+          "chance": "100%"
+        },
+        {
+          "id": "BOBBIN_SCRIPTURES:1",
+          "chance": "4.5%"
+        },
+        {
+          "id": "CHAIN_END_TIMES:1",
+          "chance": "2.5%"
+        },
+        {
+          "id": "BRIMSTONE_HANDLE:1",
+          "chance": "2%"
+        },
+        {
+          "id": "BURNT_TEXTS:1",
+          "chance": "1%"
+        },
+        {
+          "id": "DYE_CARMINE:1",
+          "chance": "0.002%"
+        }
+      ]
+    }
+  ]
+}

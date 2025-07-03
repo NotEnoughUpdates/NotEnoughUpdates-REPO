@@ -1,0 +1,63 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§3Wiki Tiki (Sea Creature)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"8aadde4f-7f3b-3d9f-9956-b957943e8fad\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTczOTYzMjQ0MDEyOCwKICAicHJvZmlsZUlkIiA6ICJjNmViMzdjNmE4YjM0MDI3OGJjN2FmZGE3ZjMxOWJmMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbFJleUNhbGFiYXphbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mM2M4MDJlNTgwYmZlZmMxOGM0YWY5NGNjZWI4Mjk2OGI1YjRhZWFiMGQ4MzIzNDZhNjMzYTc0NzNhNDFkZmFjIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§c❤ Health§8: §c75,000,000\",1:\"\",2:\"§d§lMYTHIC\"],Name:\"§3Wiki Tiki (Sea Creature)\"},ExtraAttributes:{id:\"WIKI_TIKI_SC\"}}",
+  "damage": 3,
+  "lore": [
+    "§c❤ Health§8: §c75,000,000",
+    "",
+    "§d§lMYTHIC"
+  ],
+  "internalname": "WIKI_TIKI_SC",
+  "clickcommand": "viewrecipe",
+  "modver": "",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Wiki_Tiki",
+    "https://wiki.hypixel.net/Wiki_Tiki"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§cWiki Tiki",
+      "level": 400,
+      "coins": 7500,
+      "xp": 7500,
+      "render": "@neurepo:mobs/wiki_tiki.json",
+      "panorama": "fishing_1",
+      "type": "drops",
+      "extra": [
+        "§cRequirements:",
+        "§7- §aFishing Skill 40",
+        "§7- §bWater",
+        "§7- §dFishing Hotspot"
+      ],
+      "drops": [
+        {
+          "id": "ENCHANTED_WATER_LILY:8",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_JUNGLE_LOG:32",
+          "chance": "100%"
+        },
+        {
+          "id": "BOBBIN_SCRIPTURES:1",
+          "chance": "2.5%"
+        },
+        {
+          "id": "TROUBLED_BUBBLE:1",
+          "chance": "0.5%"
+        },
+        {
+          "id": "TIKI_MASK:1",
+          "chance": "0.33%"
+        },
+        {
+          "id": "DYE_AQUAMARINE",
+          "chance": "0.002%"
+        }
+      ]
+    }
+  ]
+}

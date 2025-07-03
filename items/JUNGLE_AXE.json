@@ -1,36 +1,44 @@
 {
   "itemid": "minecraft:wooden_axe",
-  "displayname": "§aJungle Axe",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\" §8[§8☘§8]\",1:\"\",2:\"§7A powerful Wooden Axe which can\",3:\"§7break multiple logs in a single hit!\",4:\"§8Cooldown: §a2s\",5:\"\",6:\"§7§8This item can be reforged!\",7:\"§a§lUNCOMMON AXE\"],Name:\"§aJungle Axe\"},ExtraAttributes:{id:\"JUNGLE_AXE\"}}",
+  "displayname": "§aSpruce Axe",
+  "nbttag": "{ExtraAttributes:{id:\"JUNGLE_AXE\"},HideFlags:254,ItemModel:\"minecraft:wooden_axe\",Unbreakable:1B,display:{Lore:[0:\"§7Sweep: §a+4\",1:\" §8[☘]\",2:\"\",3:\"§6Ability: Throwing Axe  §e§lRIGHT CLICK\",4:\"§7While on §2Foraging Islands§7, throw your Axe at a\",5:\"§7tree! It will sweep §c50% §7of the logs it normally\",6:\"§7would!\",7:\"§8Cooldown: §a1s\",8:\"\",9:\"§6Ability: Park Enjoyer \",10:\"§7Gain §6+50☘ Foraging Fortune §7while in §aThe Park§7.\",11:\"\",12:\"§8This item can be reforged!\",13:\"§a§lUNCOMMON AXE\"],Name:\"§aSpruce Axe\"}}",
   "damage": 0,
   "lore": [
-    " §8[§8☘§8]",
+    "§7Sweep: §a+4",
+    " §8[☘]",
     "",
-    "§7A powerful Wooden Axe which can",
-    "§7break multiple logs in a single hit!",
-    "§8Cooldown: §a2s",
+    "§6Ability: Throwing Axe  §e§lRIGHT CLICK",
+    "§7While on §2Foraging Islands§7, throw your Axe at a",
+    "§7tree! It will sweep §c50% §7of the logs it normally",
+    "§7would!",
+    "§8Cooldown: §a1s",
     "",
-    "§7§8This item can be reforged!",
+    "§6Ability: Park Enjoyer ",
+    "§7Gain §6+50☘ Foraging Fortune §7while in §aThe Park§7.",
+    "",
+    "§8This item can be reforged!",
     "§a§lUNCOMMON AXE"
   ],
-  "recipe": {
-    "A1": "",
-    "A2": "ENCHANTED_JUNGLE_LOG:1",
-    "A3": "ENCHANTED_JUNGLE_LOG:1",
-    "B1": "",
-    "B2": "STICK:1",
-    "B3": "ENCHANTED_JUNGLE_LOG:1",
-    "C1": "",
-    "C2": "STICK:1",
-    "C3": ""
-  },
   "internalname": "JUNGLE_AXE",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Jungle_Axe",
-    "https://wiki.hypixel.net/Jungle_Axe"
-  ],
-  "crafttext": "Requires: Jungle Wood VII"
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.1.0-dev+mc1.21.5+g58be5f6",
+  "infoType": "",
+  "info": [],
+  "recipes": [
+    {
+      "A1": "",
+      "A2": "LOG-1:32",
+      "A3": "LOG-1:32",
+      "B1": "",
+      "B2": "STICK:1",
+      "B3": "LOG-1:32",
+      "C1": "",
+      "C2": "STICK:1",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "JUNGLE_AXE"
+    }
+  ]
 }

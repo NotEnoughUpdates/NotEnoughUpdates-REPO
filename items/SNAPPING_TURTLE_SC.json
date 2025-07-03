@@ -1,0 +1,67 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§3Snapping Turtle (Sea Creature)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"64174160-196f-3ae8-8004-fd0356215d09\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc0MjMyOTU1ODgzMywKICAicHJvZmlsZUlkIiA6ICJkYzA5MjA4MTM2ZDg0Y2Y5OWIwMzFmMGI1NzM4OTdmNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLRUlUSF8wMzAyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVjZjZhYmZiYzc3OGIxZmFjMGQ2ZGIxNjFlNzQ0MzhhMWI0NjgzMjNiNmY5M2ZhNGQ2NTBlNDJjZDBmNTgwMmEiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§c❤ Health§8: §c35,000\",1:\"\",2:\"§9§lRARE\"],Name:\"§3Snapping Turtle (Sea Creature)\"},ExtraAttributes:{id:\"SNAPPING_TURTLE_SC\"}}",
+  "damage": 3,
+  "lore": [
+    "§c❤ Health§8: §c35,000",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "SNAPPING_TURTLE_SC",
+  "clickcommand": "viewrecipe",
+  "modver": "",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Snapping_Turtle",
+    "https://wiki.hypixel.net/Snapping_Turtle"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§cSnapping Turtle",
+      "level": 30,
+      "coins": 100,
+      "xp": 30,
+      "render": "@neurepo:mobs/snapping_turtle.json",
+      "panorama": "fishing_1",
+      "type": "drops",
+      "extra": [
+        "§cRequirements:",
+        "§7- §aFishing Skill 10",
+        "§7- §bWater",
+        "§7- §dFishing Hotspot"
+      ],
+      "drops": [
+        {
+          "id": "WATER_LILY:4",
+          "chance": "100%"
+        },
+        {
+          "id": "RAW_FISH:4",
+          "chance": "100%"
+        },
+        {
+          "id": "GOLD_INGOT:4",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_GOLD:1",
+          "chance": "10%"
+        },
+        {
+          "id": "BROKEN_RADAR:1",
+          "chance": "2%"
+        },
+        {
+          "id": "EDIBLE_SEAWEED:1",
+          "chance": "0.5%"
+        },
+        {
+          "id": "DYE_AQUAMARINE",
+          "chance": "0.00004%"
+        }
+      ]
+    }
+  ]
+}

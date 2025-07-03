@@ -1,0 +1,34 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			enchantments: {
+				ultimate_missile: 3
+			},
+			id: "ENCHANTED_BOOK",
+			timestamp: 1750783297713L,
+			uuid: "086777a2-cf4c-436b-804a-d78a80fa1743"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:enchanted_book",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.1.0+mc1.21.5"
+	}
+}

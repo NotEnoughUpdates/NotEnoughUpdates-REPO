@@ -1,0 +1,47 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			attributes: {
+				cloak_improvement: 1
+			},
+			id: "ATTRIBUTE_SHARD"
+		},
+		"minecraft:profile": {
+			id: [I;
+				-372965919,
+				-2082785706,
+				-1610280149,
+				1358049737
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "rmI0VvFf04Mli0YD9aLxiqNAqnzZcsIMRxac8tShCpQJOGAwc+KEH6lsULC0acz6ESHEHh0gyH6RsSR0ErbVdeneMush+0Ie9fd3kRF+PGCKBDTr3ZL1hRfxLAL/2YuktgxXomC/5dQjXB97PtryYdn7lzCEMg6mX93UUZf+Xf0xK/LlpRGPDjB6Zbin13C5IyxFVn7bnKaqAVN9MwO4zlb1dLMlC3xMhXgRCJxw/XZLi39rR5Yrpy/Jl/stL0zlt+BhbPFONT8o1cIMSfWlKT1JE25F55vQFrPlFXrgM8wiaPd8pZv/Zb5Qa3gProJ1A5i/+F8A+TAcwJcaxS5AuH1//6aZIbJjiRmW+vBoSao9Gqz1YaGIAqydC8O6p0a/2XwMQaHQkp9Sh7mDwGXg069Zu9BXJBL67V7mBg6sb/IYKdykvuENwgxhjp/HJCYrK30aEOLULy1y2TDmWPu+ME8EXZo5JTBXFSdpl49woLtpjIHJI4FI9ysQFllsowdvYsq6Rjtkq0TwF+Cdbx00XvbL6MaXnk0FJpzoaCa/y5Gh4iYnEzhha7Ej+YRHEf6DLQqpXSKyYEaCVKpnMItLWW7DQD7l3JWn/KPDmL+mBkKuS0rzXV3CT8MfSPqTueErAFbYhF6pzH7q2eYkbRAzajHq7y+Vqu5/GI1H3vQuT2s=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTcyOTY0MjcyNDEyOSwKICAicHJvZmlsZUlkIiA6ICI1OTgyOWY1ZGY3MmM0ZmFlOTBmOGVhYmM0MjFjMzJkYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJQZXBwZXJEcmlua2VyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgxYWRhZGVlNWQ0ZDk2NDgyNzlhMGNmNWVlOTFiNGY2MTFiODJjOGY1OGNhNDI0NDBhMGQxNGMyNzdiZDE0MWYiCiAgICB9CiAgfQp9"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.1.0-dev+mc1.21.5+g58be5f6"
+	}
+}

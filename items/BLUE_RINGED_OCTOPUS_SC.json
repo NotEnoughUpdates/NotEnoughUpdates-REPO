@@ -1,0 +1,63 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§3Blue Ringed Octopus (Sea Creature)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"adb5b32b-69df-3b99-894e-573003a1062c\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTczOTIyODE2NzU4NCwKICAicHJvZmlsZUlkIiA6ICJjZjc4YzFkZjE3ZTI0Y2Q5YTIxYmU4NWQ0NDk5ZWE4ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXR0c0FybW9yU3RhbmRzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2IyYjYwNzRkMGM5ZDZiODlhNDk0Y2Y0Zjc0MTU4MjgyYTY0ZWUyM2JhOGEwNzI1NjMzYWQ3MDkzMmFkYTFhOGYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§c❤ Health§8: §c4,000,000\",1:\"\",2:\"§6§lLEGENDARY\"],Name:\"§3Blue Ringed Octopus (Sea Creature)\"},ExtraAttributes:{id:\"BLUE_RINGED_OCTOPUS_SC\"}}",
+  "damage": 3,
+  "lore": [
+    "§c❤ Health§8: §c4,000,000",
+    "",
+    "§6§lLEGENDARY"
+  ],
+  "internalname": "BLUE_RINGED_OCTOPUS_SC",
+  "clickcommand": "viewrecipe",
+  "modver": "",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Blue_Ringed_Octopus",
+    "https://wiki.hypixel.net/Blue_Ringed_Octopus"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§cBlue Ringed Octopus",
+      "level": 15,
+      "coins": 2500,
+      "xp": 5000,
+      "render": "@neurepo:mobs/blue_ringed_octopus.json",
+      "panorama": "fishing_1",
+      "type": "drops",
+      "extra": [
+        "§cRequirements:",
+        "§7- §aFishing Skill 35",
+        "§7- §bWater",
+        "§7- §2Backwater Bayou"
+      ],
+      "drops": [
+        {
+          "id": "ENCHANTED_RAW_SALMON:1",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_RAW_FISH:1",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_WATER_LILY:1",
+          "chance": "100%"
+        },
+        {
+          "id": "BLUE_RING:1",
+          "chance": "100%"
+        },
+        {
+          "id": "OCTOPUS_TENDRIL:1",
+          "chance": "0.2%"
+        },
+        {
+          "id": "DYE_AQUAMARINE",
+          "chance": "0.002%"
+        }
+      ]
+    }
+  ]
+}

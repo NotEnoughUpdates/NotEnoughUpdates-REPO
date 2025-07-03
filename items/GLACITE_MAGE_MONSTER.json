@@ -17,12 +17,22 @@
       "level": 165,
       "coins": 100,
       "xp": 80,
-      "combat_xp": 100,
+      "combat_xp": 70,
       "name": "§bGlacite Mage",
       "render": "@neurepo:mobs/glacite_mage.json",
       "panorama": "mineshaft",
       "type": "drops",
       "drops": [
+        {
+          "id": "SKYBLOCK_POWDER_GLACITE:50",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "GLACITE:1",
+          "extra": [],
+          "chance": "100%"
+        },
         {
           "id": "FINE_CITRINE_GEM:1",
           "extra": [],
@@ -59,6 +69,7 @@
   "crafttext": "",
   "infoType": "WIKI_URL",
   "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Glacite_Mage",
     "https://wiki.hypixel.net/Glacite_Mage"
   ]
 }

@@ -1,0 +1,116 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Agatha (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"AGATHA_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"629b5a82-a6cc-22e7-bbc4-f3dd680cb1e1\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGQyMTgwZTRiZDE1M2NiNDliYTQ5MDYwOTg2MDRjMTc4NThlYTQ1MTZmZmJmMDRjZmU1MGZlYWU0YmU0NzZmMiIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiI2MjliNWE4MmE2Y2MyMmU3YmJjNGYzZGQ2ODBjYjFlMSIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzUwNjk0MjY2MTQ1fQ\u003d\u003d\"}]},hypixelPopulated:1B},display:{Lore:[0:\"\"],Name:\"§9Agatha (NPC)\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "AGATHA_NPC",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.1.0-dev+mc1.21.5+g58be5f6",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Agatha"
+  ],
+  "island": "foraging_2",
+  "x": -649,
+  "y": 89,
+  "z": -4,
+    "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "AGATHA_COUPON:30.0"
+      ],
+      "result": "SMALL_FROG_TREAT:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "AGATHA_COUPON:40.0"
+      ],
+      "result": "MEDIUM_FROG_TREAT:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "AGATHA_COUPON:15.0"
+      ],
+      "result": "ATTRIBUTE_SHARD_FIG_SHARPENING;1:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "AGATHA_COUPON:15.0"
+      ],
+      "result": "ATTRIBUTE_SHARD_MANGROVE_SHARPENING;1:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "AGATHA_COUPON:50.0"
+      ],
+      "result": "LARGE_FROG_TREAT:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "AGATHA_COUPON:60.0"
+      ],
+      "result": "GIANT_FROG_TREAT:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "AGATHA_COUPON:50.0"
+      ],
+      "result": "MOONGLADE_JEWEL:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "AGATHA_COUPON:100.0"
+      ],
+      "result": "FIGHTING_BOOSTER:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "AGATHA_COUPON:30.0"
+      ],
+      "result": "FOREST_PLEDGE;3:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "AGATHA_COUPON:30.0"
+      ],
+      "result": "MOONGLADE_TALISMAN:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "AGATHA_COUPON:30.0",
+        "MOONGLADE_TALISMAN:1.0"
+      ],
+      "result": "MOONGLADE_RING:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "AGATHA_COUPON:30.0",
+        "MOONGLADE_RING:1.0"
+      ],
+      "result": "MOONGLADE_ARTIFACT:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "STARLYN_PRIZE:20.0"
+      ],
+      "result": "SHINIEST:1"
+    }
+  ]
+}

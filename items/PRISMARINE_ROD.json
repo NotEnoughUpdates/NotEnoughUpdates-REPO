@@ -1,39 +1,30 @@
 {
   "itemid": "minecraft:fishing_rod",
   "displayname": "§fPrismarine Rod",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+15\",1:\"§7Strength: §c+10\",2:\"§7Fishing Speed: §a+15\",3:\"\",4:\"§7This fishing rod grants a §a25%§7\",5:\"§7chance to catch Prismarine Shards\",6:\"§7or Prismarine Crystals.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§7§4❣ §cRequires §aFishing Skill 3§c.\",10:\"§f§lCOMMON FISHING ROD\"],Name:\"§fPrismarine Rod\"},ExtraAttributes:{id:\"PRISMARINE_ROD\"}}",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+15\",1:\"§7Strength: §c+10\",2:\"§7Fishing Speed: §a+15\",3:\"\",4:\"§7§cThis rod is broken and cannot be\",5:\"§cused to fish.\",6:\"\",7:\"§7Bring it to §2Roddy §7in the §2Backwater\",8:\"§2Bayou §7to convert it into a §anew rod§7!\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§7§4❣ §cRequires §aFishing Skill 3§c.\",12:\"§f§lCOMMON FISHING ROD\"],Name:\"§fPrismarine Rod\"},ExtraAttributes:{id:\"PRISMARINE_ROD\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+15",
     "§7Strength: §c+10",
     "§7Fishing Speed: §a+15",
     "",
-    "§7This fishing rod grants a §a25%§7",
-    "§7chance to catch Prismarine Shards",
-    "§7or Prismarine Crystals.",
+    "§7§cThis rod is broken and cannot be",
+    "§cused to fish.",
+    "",
+    "§7Bring it to §2Roddy §7in the §2Backwater",
+    "§2Bayou §7to convert it into a §anew rod§7!",
     "",
     "§7§8This item can be reforged!",
     "§7§4❣ §cRequires §aFishing Skill 3§c.",
     "§f§lCOMMON FISHING ROD"
   ],
-  "recipe": {
-    "A1": "",
-    "A2": "",
-    "A3": "PRISMARINE_CRYSTALS:1",
-    "B1": "",
-    "B2": "PRISMARINE_SHARD:1",
-    "B3": "STRING:1",
-    "C1": "PRISMARINE_SHARD:1",
-    "C2": "",
-    "C3": "STRING:1"
-  },
   "internalname": "PRISMARINE_ROD",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
+  "clickcommand": "",
+  "modver": "",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Prismarine_Rod",
     "https://wiki.hypixel.net/Prismarine_Rod"
   ],
-  "crafttext": "Requires: Prismarine Shard IV"
+  "crafttext": ""
 }

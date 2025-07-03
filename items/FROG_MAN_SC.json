@@ -1,0 +1,55 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§3Frog Man (Sea Creature)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"2cf8a427-149a-35d1-8655-4f302d1b88a3\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxNDU3NTgwNzg0NSwKICAicHJvZmlsZUlkIiA6ICIxNDU1MDNhNDRjZmI0NzcwYmM3NWNjMTRjYjUwMDE4NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJMaWtlbHlFcmljIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzYxNTdmMTlkYTA3N2EzZGY0OWIyOTI1ZmI2ZThiNDAwMjIyYmE2ZTU1OWU4NjgxNWY5YjI5NmQ5ZTk2NjdkZDciCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§c❤ Health§8: §c2,500\",1:\"\",2:\"§f§lCOMMON\"],Name:\"§3Frog Man (Sea Creature)\"},ExtraAttributes:{id:\"FROG_MAN_SC\"}}",
+  "damage": 3,
+  "lore": [
+    "§c❤ Health§8: §c2,500",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "FROG_MAN_SC",
+  "clickcommand": "viewrecipe",
+  "modver": "",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Frog_Man",
+    "https://wiki.hypixel.net/Frog_Man"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§cFrog Man",
+      "level": 10,
+      "coins": 40,
+      "xp": 40,
+      "render": "@neurepo:mobs/frog_man.json",
+      "panorama": "fishing_1",
+      "type": "drops",
+      "extra": [
+        "§cRequirements:",
+        "§7- §aFishing Skill 5",
+        "§7- §bWater",
+        "§7- §2Fishing Hotspot"
+      ],
+      "drops": [
+        {
+          "id": "HALF_EATEN_MUSHROOM:1",
+          "chance": "100%"
+        },
+        {
+          "id": "RAW_FISH:1",
+          "chance": "100%"
+        },
+        {
+          "id": "RAW_FISH-2:1",
+          "chance": "100%"
+        },
+        {
+          "id": "DYE_AQUAMARINE",
+          "chance": "0.00002%"
+        }
+      ]
+    }
+  ]
+}

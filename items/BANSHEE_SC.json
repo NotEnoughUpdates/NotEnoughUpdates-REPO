@@ -1,0 +1,71 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§3Banshee (Sea Creature)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"603a9948-4872-3422-a02d-1295e22d8eb9\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc0MDQ4NzczNDcwOCwKICAicHJvZmlsZUlkIiA6ICJjN2Y2Nzk3ZmE4ZGM0NTdiYTkxNTU0NWIwMGU3M2UzMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJlZGd5c3BlbmNlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzMwY2NjM2M5YTA2ZGU2NTdiOThmODgxZTIzYTU3ZWNhZWIyNTJjMzY0ZGRiN2I5MjU2NGY1ZWQyYjgwODdlM2IiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\"}]}},display:{Lore:[0:\"§c❤ Health§8: §c17,500\",1:\"\",2:\"§9§lRARE\"],Name:\"§3Banshee (Sea Creature)\"},ExtraAttributes:{id:\"BANSHEE_SC\"}}",
+  "damage": 3,
+  "lore": [
+    "§c❤ Health§8: §c17,500",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "BANSHEE_SC",
+  "clickcommand": "viewrecipe",
+  "modver": "",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Banshee",
+    "https://wiki.hypixel.net/Banshee"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§cBanshee",
+      "level": 10,
+      "coins": 50,
+      "xp": 50,
+      "render": "@neurepo:mobs/banshee.json",
+      "panorama": "fishing_1",
+      "type": "drops",
+      "extra": [
+        "§cRequirements:",
+        "§7- §aFishing Skill 10",
+        "§7- §bWater",
+        "§7- §2Backwater Bayou"
+      ],
+      "drops": [
+        {
+          "id": "WATER_LILY:1",
+          "chance": "100%"
+        },
+        {
+          "id": "RAW_FISH-1:1",
+          "chance": "100%"
+        },
+        {
+          "id": "CLAY_BALL:1",
+          "chance": "100%"
+        },
+        {
+          "id": "RAW_FISH-2:1",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_CLAY_BALL:1",
+          "chance": "4.5%"
+        },
+        {
+          "id": "TORN_CLOTH:1",
+          "chance": "4.5%"
+        },
+        {
+          "id": "CALCIFIED_HEART:1",
+          "chance": "1%"
+        },
+        {
+          "id": "DYE_AQUAMARINE",
+          "chance": "0.00004%"
+        }
+      ]
+    }
+  ]
+}

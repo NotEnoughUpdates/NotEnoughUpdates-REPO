@@ -1,0 +1,67 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§3Alligator (Sea Creature)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"01d49fe5-7c38-3972-a7ef-1134534b67e8\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc0MjMyOTU1ODgzMywKICAicHJvZmlsZUlkIiA6ICJkYzA5MjA4MTM2ZDg0Y2Y5OWIwMzFmMGI1NzM4OTdmNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLRUlUSF8wMzAyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVjZjZhYmZiYzc3OGIxZmFjMGQ2ZGIxNjFlNzQ0MzhhMWI0NjgzMjNiNmY5M2ZhNGQ2NTBlNDJjZDBmNTgwMmEiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§c❤ Health§8: §c600,000\",1:\"\",2:\"§9§lRARE\"],Name:\"§3Alligator (Sea Creature)\"},ExtraAttributes:{id:\"ALLIGATOR_SC\"}}",
+  "damage": 3,
+  "lore": [
+    "§c❤ Health§8: §c600,000",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "ALLIGATOR_SC",
+  "clickcommand": "viewrecipe",
+  "modver": "",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Alligator",
+    "https://wiki.hypixel.net/Alligator"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§cAlligator",
+      "level": 10,
+      "coins": 250,
+      "xp": 75,
+      "render": "@neurepo:mobs/alligator.json",
+      "panorama": "fishing_1",
+      "type": "drops",
+      "extra": [
+        "§cRequirements:",
+        "§7- §aFishing Skill 10",
+        "§7- §bWater",
+        "§7- §2Backwater Bayou"
+      ],
+      "drops": [
+        {
+          "id": "WATER_LILY:1",
+          "chance": "100%"
+        },
+        {
+          "id": "RAW_FISH:1",
+          "chance": "100%"
+        },
+        {
+          "id": "CLAY_BALL:1",
+          "chance": "100%"
+        },
+        {
+          "id": "RABBIT:1",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_RABBIT_FOOT:1",
+          "chance": "100%"
+        },
+        {
+          "id": "ALLIGATOR_SKIN:1",
+          "chance": "100%"
+        },
+        {
+          "id": "DYE_AQUAMARINE",
+          "chance": "0.002%"
+        }
+      ]
+    }
+  ]
+}

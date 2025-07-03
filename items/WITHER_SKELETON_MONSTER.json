@@ -22,7 +22,7 @@
       "level": 70,
       "coins": 20,
       "xp": 100,
-      "combat_xp": 0,
+      "combat_xp": 70,
       "name": "§fWither Skeleton",
       "render": "@neurepo:mobs/witherskeleton.json",
       "type": "drops",
@@ -34,9 +34,9 @@
           "chance": "50%"
         },
         {
-          "id": "BONE:1",
+          "id": "BONE:3",
           "extra": [],
-          "chance": "x3"
+          "chance": "100%"
         },
         {
           "id": "WITHER_SOUL:1",
@@ -72,8 +72,8 @@
           "chance": "0.05%"
         },
         {
-          "id": "DYE_BONE:1",
-          "chance": "0.0000333%"
+          "id": "DYE_BONE",
+          "chance": "0.000033%"
         },
         {
           "id": "DYE_CYCLAMEN",

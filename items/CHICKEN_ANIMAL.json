@@ -23,8 +23,8 @@
   "recipes": [
     {
       "level": 1,
-      "coins": 5,
-      "combat_xp": 3,
+      "xp": 1,
+      "combat_xp": 2,
       "name": "§cChicken",
       "render": "Chicken",
       "panorama": "farming_1",
@@ -37,6 +37,10 @@
         {
           "id": "FEATHER:1",
           "chance": "100%"
+        },
+        {
+          "id": "EGG:1",
+          "chance": "30%"
         }
       ]
     }

@@ -1,0 +1,127 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aField Mouse (Pest)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"c9873ef5-6132-3bf8-94ec-92b14da39bc5\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyNzkwNDc5NzQ1OSwKICAicHJvZmlsZUlkIiA6ICI0MmIwOTMyZDUwMWI0MWQ1YTM4YjEwOTcxYTYwYmYxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBaXJib2x0MDc4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2YzNzllMDkyNTI4MTczMTRiZDBiNjk0ZjdkNTNiNDhhZjJjN2ZhODQ5OTEwOTgwMmE0MWJiMjk0ZDJmOTNlM2UiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7A shy little fellow!\",1:\"\",2:\"§c❤ Health§8: §c600\"],Name:\"§aField Mouse (Pest)\"},ExtraAttributes:{id:\"PEST_FIELD_MOUSE_MONSTER\"}}",
+  "damage": 3,
+  "lore": [
+    "§7A shy little fellow!",
+    "",
+    "§c❤ Health§8: §c600"
+  ],
+  "internalname": "PEST_FIELD_MOUSE_MONSTER",
+  "clickcommand": "viewrecipe",
+  "modver": "",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Field_Mouse"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 1,
+      "coins": 10000,
+      "xp": 50,
+      "panorama": "garden",
+      "render": "@neurepo:mobs/pest_field_mouse.json",
+      "name": "§aField Mouse",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ENCHANTED_MELON:5",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_PUMPKIN:1",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_RED_MUSHROOM:1",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_BROWN_MUSHROOM:1",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_CACTUS_GREEN:2",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_SUGAR:2",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_COCOA:3",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_NETHER_STALK:3",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_CARROT:3",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_POTATO:3",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_WHEAT:1",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "COMPOST:1",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "HONEY_JAR:1",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "DUNG:1",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "PLANT_MATTER:1",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "CHEESE_FUEL:1",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "SQUEAKY_TOY:1",
+          "extra": [],
+          "chance": "2.5%"
+        },
+        {
+          "id": "SQUEAKY_MOUSEMAT:1",
+          "extra": [],
+          "chance": "0.5%"
+        },
+        {
+          "id": "DYE_DUNG:1",
+          "extra": [],
+          "chance": "0.001%"
+        }
+      ]
+    }
+  ]
+}

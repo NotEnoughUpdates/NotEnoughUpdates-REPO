@@ -1,0 +1,39 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aBat (Monster)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"b676e304-9f3d-3b60-9032-295f36bb0141\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwMjAzOTYxNzA5MSwKICAicHJvZmlsZUlkIiA6ICJlZDUzZGQ4MTRmOWQ0YTNjYjRlYjY1MWRjYmE3N2U2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICIwMTAwMDExMDAxMDAwMDExIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM3N2FkZThhZmIyNTcwODZmYjE4NjFkYTQzYzhhZTQ2OGI4ZWIwNTc4ZmFkYTg0MzAzODU4NTE3YmExNzIxN2UiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7The Bat is a Mob that can be spawned from the\",1:\"§7Roofed Forest Island\u0027s Bat Crystal during the night.\",2:\"\",3:\"§c❤ Health§8: §c100\"],Name:\"§aBat (Monster)\"},ExtraAttributes:{id:\"BAT_MONSTER\"}}",
+  "damage": 3,
+  "lore": [
+    "§7The Bat is a Mob that can be spawned from the",
+    "§7Roofed Forest Island\u0027s Bat Crystal during the night.",
+    "",
+    "§c❤ Health§8: §c100"
+  ],
+  "internalname": "BAT_MONSTER",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Bat",
+    "https://wiki.hypixel.net/Bat_(Private_Island)"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 3,
+      "coins": 100,
+      "xp": 100,
+      "combat_xp": 33,
+      "name": "§cBat",
+      "render": "Bat",
+      "panorama": "dynamic",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "BAT_TALISMAN",
+          "chance": "1%"
+        }
+      ]
+    }
+  ]
+}

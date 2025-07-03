@@ -1,0 +1,71 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§3Bayou Sludge (Sea Creature)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"3b70a2f3-319c-38d5-b7d1-5b2425770184\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODk1YWVlYzZiODQyYWRhODY2OWY4NDZkNjViYzQ5NzYyNTk3ODI0YWI5NDRmMjJmNDViZjNiYmI5NDFhYmU2YyJ9fX0\"}]}},display:{Lore:[0:\"§c❤ Health§8: §c20,000\",1:\"\",2:\"§5§lEPIC\"],Name:\"§3Bayou Sludge (Sea Creature)\"},ExtraAttributes:{id:\"BAYOU_SLUDGE_SC\"}}",
+  "damage": 3,
+  "lore": [
+    "§c❤ Health§8: §c20,000",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "BAYOU_SLUDGE_SC",
+  "clickcommand": "viewrecipe",
+  "modver": "",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Bayou_Sludge",
+    "https://wiki.hypixel.net/Bayou_Sludge"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§cBayou Sludge",
+      "level": 15,
+      "coins": 50,
+      "xp": 50,
+      "render": "Slime",
+      "panorama": "fishing_1",
+      "type": "drops",
+      "extra": [
+        "§cRequirements:",
+        "§7- §aFishing Skill 15",
+        "§7- §bWater",
+        "§7- §2Backwater Bayou"
+      ],
+      "drops": [
+        {
+          "id": "WATER_LILY:1",
+          "chance": "100%"
+        },
+        {
+          "id": "SLIME_BALL:1",
+          "chance": "100%"
+        },
+        {
+          "id": "CLAY_BALL:1",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_SLIME_BALL:1",
+          "chance": "4.5%"
+        },
+        {
+          "id": "POISON_SAMPLE:1",
+          "chance": "1%"
+        },
+        {
+          "id": "RESPITE;1:1",
+          "chance": "1%"
+        },
+        {
+          "id": "ENCHANTED_SLIME_BLOCK:1",
+          "chance": "0.5%"
+        },
+        {
+          "id": "DYE_AQUAMARINE",
+          "chance": "0.00004%"
+        }
+      ]
+    }
+  ]
+}

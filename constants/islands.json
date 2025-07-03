@@ -17,7 +17,9 @@
     "garden": "The Garden",
     "rift": "Rift",
     "kuudra": "Kuudra's Hollow",
-    "mineshaft": "Glacite Mineshafts"
+    "mineshaft": "Glacite Mineshafts",
+    "fishing_1": "Backwater Bayou",
+    "foraging_2": "Galatea"
   },
   "teleporters": [
     {
@@ -37,9 +39,9 @@
     {
       "from": "foraging_1",
       "to": "hub",
-      "x": -275,
-      "y": 84,
-      "z": -14
+      "x": -265,
+      "y": 79,
+      "z": -18
     },
     {
       "from": "dungeon_hub",
@@ -231,9 +233,9 @@
     {
       "warp": "park",
       "mode": "foraging_1",
-      "x": -279,
-      "y": 82,
-      "z": -14
+      "x": -266,
+      "y": 79,
+      "z": -18
     },
     {
       "warp": "dungeon_hub",
@@ -436,6 +438,37 @@
       "x": -87,
       "y": 71,
       "z": -32
+    },
+    {
+      "warp": "rift",
+      "mode": "rift",
+      "x": -45,
+      "y": 122,
+      "z": 69
+    },
+    {
+      "warp": "bayou",
+      "mode": "fishing_1",
+      "x": -13,
+      "y": 74,
+      "z": 10,
+      "aliases": [
+        "backwater"
+      ]
+    },
+    {
+      "warp": "galatea",
+      "mode": "foraging_2",
+      "x": -548,
+      "y": 109,
+      "z": -22
+    },
+    {
+      "warp": "murkwater",
+      "mode": "foraging_2",
+      "x": -645,
+      "y": 90,
+      "z": 2
     }
   ]
 }

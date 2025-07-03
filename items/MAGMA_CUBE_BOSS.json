@@ -15,8 +15,8 @@
   "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Magma_Cube_Boss",
-    "https://wiki.hypixel.net/Magma_Cube_Boss"
+    "https://hypixel-skyblock.fandom.com/wiki/Magma_Cube",
+    "https://wiki.hypixel.net/Magma_Cube"
   ],
   "crafttext": "",
   "recipes": [
@@ -24,26 +24,15 @@
       "level": 500,
       "coins": 125,
       "xp": 200,
-      "combat_xp": 200,
       "name": "§6Magma Cube (Boss)",
       "render": "MagmaCube",
       "panorama": "crimson_isle",
       "type": "drops",
       "drops": [
         {
-          "id": "MAGMA_CREAM:20",
+          "id": "MAGMA_CREAM",
           "extra": [],
-          "chance": "100%"
-        },
-        {
-          "id": "MAGMA_CREAM:10",
-          "extra": [],
-          "chance": "70%"
-        },
-        {
-          "id": "MAGMA_CREAM:5",
-          "extra": [],
-          "chance": "50%"
+          "chance": "x20-35"
         },
         {
           "id": "MOLTEN_CUBE",
@@ -63,12 +52,7 @@
         {
           "id": "ENCHANTED_MAGMA_CREAM",
           "extra": [],
-          "chance": "50%"
-        },
-        {
-          "id": "ENCHANTED_MAGMA_CREAM",
-          "extra": [],
-          "chance": "50%"
+          "chance": "x0-2"
         },
         {
           "id": "COMPACT_OOZE",
@@ -84,6 +68,14 @@
           "id": "MAGMA_URCHIN",
           "extra": [],
           "chance": "2%"
+        },
+        {
+          "id": "KUUDRA_HOT_TIER_KEY",
+          "chance": "6%"
+        },
+        {
+          "id": "KUUDRA_TIER_KEY",
+          "chance": "12%"
         },
         {
           "id": "FIRE_FURY_STAFF",

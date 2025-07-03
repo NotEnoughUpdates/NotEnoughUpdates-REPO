@@ -27,7 +27,7 @@
       "name": "§cLord Jawbus",
       "coins": 10000,
       "level": 600,
-      "xp": 20000,
+      "xp": 10000,
       "render": "Eisengolem",
       "panorama": "crimson_isle",
       "type": "drops",
@@ -46,12 +46,42 @@
           "chance": "100%"
         },
         {
-          "id": "ATTRIBUTE_SHARD",
-          "chance": "2%"
+          "id": "ATTRIBUTE_SHARD_HUNTER;1",
+          "chance": "2%",
+          "alternatives": [
+            {
+              "id": "ATTRIBUTE_SHARD_BLAZING_FORTUNE;1",
+              "chance": "2%"
+            },
+            {
+              "id": "ATTRIBUTE_SHARD_INFECTION;1",
+              "chance": "2%"
+            },
+            {
+              "id": "ATTRIBUTE_SHARD_FISHING_EXPERIENCE;1",
+              "chance": "2%"
+            },
+            {
+              "id": "ATTRIBUTE_SHARD_FISHERMAN;1",
+              "chance": "2%"
+            },
+            {
+              "id": "ATTRIBUTE_SHARD_FISHING_SPEED;1",
+              "chance": "2%"
+            },
+            {
+              "id": "ATTRIBUTE_SHARD_DOUBLE_HOOK;1",
+              "chance": "2%"
+            },
+            {
+              "id": "ATTRIBUTE_SHARD_TROPHY_HUNTER;1",
+              "chance": "2%"
+            }
+          ]
         },
         {
           "id": "RADIOACTIVE_VIAL",
-          "chance": "0.3%"
+          "chance": "0.5%"
         },
         {
           "id": "BOBBIN_SCRIPTURES",

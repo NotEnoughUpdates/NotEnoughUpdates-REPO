@@ -1,0 +1,56 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aGolem (Monster)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"a46a9adf-60a3-38f2-a3dd-335d85f1cc10\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJiY2FjZWViNDE2MmY0MDBkNDQ3NDMzMTU5MzJhYzgyMGQzMTE5YWM4OTg2YTAxNjFhNzI2MTYxY2NjOTNmYyJ9fX0\"}]}},display:{Lore:[0:\"§c❤ Health§8: §c20,000,000 - 300,000,000\",1:\"§c❁ Damage§8: §c120,000 - 2,000,000\",2:\"§a❈ Defense§8: §a200\"],Name:\"§cGolem (Miniboss)\"},ExtraAttributes:{id:\"GOLEM_MINIBOSS\"}}",
+  "damage": 3,
+  "lore": [
+    "§c❤ Health§8: §c20,000,000 - 300,000,000",
+    "§c❁ Damage§8: §c120,000 - 2,000,000",
+    "§a❈ Defense§8: §a200"
+  ],
+  "internalname": "GOLEM_MONSTER",
+  "clickcommand": "viewrecipe",
+  "modver": "",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Sadan",
+    "https://wiki.hypixel.net/Sadan#Golem__"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 1,
+      "coins": 1,
+      "xp": 100,
+      "combat_xp": 4000,
+      "name": "§cGolem",
+      "render": "Eisengolem",
+      "panorama": "dungeon",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "GOLEM_POPPY",
+          "extra": [],
+          "chance": "4%"
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "coins": 1,
+      "xp": 100,
+      "combat_xp": 6000,
+      "name": "§cGolem (Master Mode)",
+      "render": "Eisengolem",
+      "panorama": "dungeon",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "GOLEM_POPPY",
+          "extra": [],
+          "chance": "4%"
+        }
+      ]
+    }
+  ]
+}

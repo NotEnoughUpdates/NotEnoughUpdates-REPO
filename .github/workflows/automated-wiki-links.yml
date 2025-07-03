@@ -1,0 +1,48 @@
+name: Automated Wiki Updates
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # 2:00 AM UTC
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    if: ${{ github.repository_id == '247692460' }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install requests library
+        run: python -m pip install requests
+
+      - name: Run Python automated wiki links script
+        run: python .github/scripts/updateWikiLinks.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "github-actions@github.com"
+          git add .
+          if git diff-index --quiet HEAD --; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Update data for Hypixel and Fandom Wiki links"
+          git push --force origin HEAD:bot/automated-updates
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: bot/automated-updates
+          base: master
+          title: "Automated Updates"
+          body: "This pull request contains the latest data from the Hypixel Wiki and Fandom Wiki"
+          labels: "automated update"

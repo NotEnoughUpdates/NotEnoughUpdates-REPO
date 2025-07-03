@@ -1,11 +1,11 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Miner Skeleton (Monster)",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7These skeletons have crafted\",1:\"§7gear from the diamonds around§\",2:\"§7them - resulting in a look both\",3:\"§7fashionable and protective.\",4:\"\",5:\"§c❤ Health§8: §c250 - 300\"],Name:\"§9Miner Skeleton (Monster)\"},ExtraAttributes:{id:\"MINER_SKELETON_MONSTER\"}}",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7These skeletons have crafted\",1:\"§7gear from the diamonds around\",2:\"§7them - resulting in a look both\",3:\"§7fashionable and protective.\",4:\"\",5:\"§c❤ Health§8: §c250 - 300\"],Name:\"§9Miner Skeleton (Monster)\"},ExtraAttributes:{id:\"MINER_SKELETON_MONSTER\"}}",
   "damage": 0,
   "lore": [
     "§7These skeletons have crafted",
-    "§7gear from the diamonds around§",
+    "§7gear from the diamonds around",
     "§7them - resulting in a look both",
     "§7fashionable and protective.",
     "",
@@ -16,7 +16,7 @@
   "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Skeleton",
+    "https://hypixel-skyblock.fandom.com/wiki/Miner_Skeleton",
     "https://wiki.hypixel.net/Miner_Skeleton"
   ],
   "crafttext": "",
@@ -32,7 +32,7 @@
       "type": "drops",
       "drops": [
         {
-          "id": "BONE",
+          "id": "BONE:3",
           "chance": "100%"
         },
         {
@@ -57,7 +57,47 @@
         },
         {
           "id": "DYE_BONE",
-          "chance": "0.0000333%"
+          "chance": "0.000033%"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "coins": 15,
+      "xp": 40,
+      "combat_xp": 24,
+      "name": "§cMiner Skeleton",
+      "render": "@neurepo:mobs/miner_skeleton.json",
+      "panorama": "mining_2",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "BONE:3",
+          "chance": "100%"
+        },
+        {
+          "id": "TANK_MINER_HELMET",
+          "chance": "1%"
+        },
+        {
+          "id": "TANK_MINER_CHESTPLATE",
+          "chance": "1%"
+        },
+        {
+          "id": "TANK_MINER_LEGGINGS",
+          "chance": "1%"
+        },
+        {
+          "id": "TANK_MINER_BOOTS",
+          "chance": "1%"
+        },
+        {
+          "id": "PET_ITEM_EXP_SHARE_DROP:1",
+          "chance": "0.01%"
+        },
+        {
+          "id": "DYE_BONE",
+          "chance": "0.000033%"
         }
       ]
     }

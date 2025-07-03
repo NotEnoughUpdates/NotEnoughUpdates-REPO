@@ -45,8 +45,38 @@
           "chance": "100%"
         },
         {
-          "id": "ATTRIBUTE_SHARD",
-          "chance": "2%"
+          "id": "ATTRIBUTE_SHARD_HUNTER;1",
+          "chance": "2%",
+          "alternatives": [
+            {
+              "id": "ATTRIBUTE_SHARD_BLAZING_FORTUNE;1",
+              "chance": "2%"
+            },
+            {
+              "id": "ATTRIBUTE_SHARD_FISHING_EXPERIENCE;1",
+              "chance": "2%"
+            },
+            {
+              "id": "ATTRIBUTE_SHARD_INFECTION;1",
+              "chance": "2%"
+            },
+            {
+              "id": "ATTRIBUTE_SHARD_FISHERMAN;1",
+              "chance": "2%"
+            },
+            {
+              "id": "ATTRIBUTE_SHARD_FISHING_SPEED;1",
+              "chance": "2%"
+            },
+            {
+              "id": "ATTRIBUTE_SHARD_DOUBLE_HOOK;1",
+              "chance": "2%"
+            },
+            {
+              "id": "ATTRIBUTE_SHARD_TROPHY_HUNTER;1",
+              "chance": "2%"
+            }
+          ]
         },
         {
           "id": "ULTIMATE_FLASH;1",

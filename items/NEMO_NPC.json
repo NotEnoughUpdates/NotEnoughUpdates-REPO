@@ -1,0 +1,59 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Nemo (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"NEMO_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"e99f632c-8f93-2aef-9369-f1764c31c146\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQ5NTI1OGQ4ZDdkYTVhMzg5NGEwYzRmMTI3NTE3YTg2ZjNiYTFjMDYzZmRlYjBkOGJjZWUwZmFmNzQxM2ExMCIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiJlOTlmNjMyYzhmOTMyYWVmOTM2OWYxNzY0YzMxYzE0NiIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzUwNzAwODQyMjE4fQ\u003d\u003d\"}]},hypixelPopulated:1B},display:{Lore:[0:\"\"],Name:\"§9Nemo (NPC)\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "NEMO_NPC",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.1.0-dev+mc1.21.5+g58be5f6",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Nemo"
+  ],
+  "island": "foraging_2",
+  "x": -620,
+  "y": 87,
+  "z": -7,
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:48500.0"
+      ],
+      "result": "SNORKELING_HELMET:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:77600.0"
+      ],
+      "result": "SNORKELING_CHESTPLATE:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:67900.0"
+      ],
+      "result": "SNORKELING_LEGGINGS:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:38800.0"
+      ],
+      "result": "SNORKELING_BOOTS:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:3880000.0",
+        "SEA_LUMIES:32.0"
+      ],
+      "result": "RESPIRATION;4:1"
+    }
+  ]
+}
