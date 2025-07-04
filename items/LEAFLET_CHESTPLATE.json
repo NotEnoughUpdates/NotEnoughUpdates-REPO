@@ -1,37 +1,35 @@
 {
   "itemid": "minecraft:leather_chestplate",
   "displayname": "§fLeaflet Tunic",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Health: §a+35\",1:\"\",2:\"§6Full Set Bonus: Energy of the Forest\",3:\"§7While in a Forest zone you\",4:\"§7regain §a5.0 §c❤ Health §7every\",5:\"§7second.\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§f§lCOMMON CHESTPLATE\"],color:5098573,Name:\"§fLeaflet Tunic\"},ExtraAttributes:{color:\"77:204:77\",id:\"LEAFLET_CHESTPLATE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"LEAFLET_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:leather_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+80\",1:\"§7Foraging Fortune: §a+3\",2:\"\",3:\"§8This item can be reforged!\",4:\"§f§lCOMMON CHESTPLATE\"],Name:\"§fLeaflet Tunic\"}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+35",
+    "§7Health: §a+80",
+    "§7Foraging Fortune: §a+3",
     "",
-    "§6Full Set Bonus: Energy of the Forest",
-    "§7While in a Forest zone you",
-    "§7regain §a5.0 §c❤ Health §7every",
-    "§7second.",
-    "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§f§lCOMMON CHESTPLATE"
   ],
-  "recipe": {
-    "A1": "LEAVES:1",
-    "A2": "",
-    "A3": "LEAVES:1",
-    "B1": "LEAVES:1",
-    "B2": "LEAVES:1",
-    "B3": "LEAVES:1",
-    "C1": "LEAVES:1",
-    "C2": "LEAVES:1",
-    "C3": "LEAVES:1"
-  },
   "internalname": "LEAFLET_CHESTPLATE",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Leaflet_Tunic",
-    "https://wiki.hypixel.net/Leaflet_Tunic"
-  ],
-  "crafttext": "Requires: Oak Wood III"
+  "clickcommand": "",
+  "crafttext": "Requires: Oak Wood II",
+  "modver": "Firmament 3.1.0-dev+mc1.21.5+g4907900",
+  "infoType": "",
+  "info": [],
+  "recipes": [
+    {
+      "A1": "LOG:1",
+      "A2": "",
+      "A3": "LOG:1",
+      "B1": "LOG:1",
+      "B2": "LOG:1",
+      "B3": "LOG:1",
+      "C1": "LOG:1",
+      "C2": "LOG:1",
+      "C3": "LOG:1",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "LEAFLET_CHESTPLATE"
+    }
+  ]
 }

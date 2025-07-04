@@ -1,37 +1,35 @@
 {
   "itemid": "minecraft:leaves",
   "displayname": "§fLeaflet Hat",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Health: §a+20\",1:\"\",2:\"§6Full Set Bonus: Energy of the Forest\",3:\"§7While in a Forest zone you\",4:\"§7regain §a5.0 §c❤ Health §7every\",5:\"§7second.\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§f§lCOMMON HELMET\"],Name:\"§fLeaflet Hat\"},ExtraAttributes:{id:\"LEAFLET_HELMET\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"LEAFLET_HELMET\"},HideFlags:254,ItemModel:\"minecraft:oak_leaves\",display:{Lore:[0:\"§7Health: §a+70\",1:\"§7Foraging Fortune: §a+3\",2:\"\",3:\"§8This item can be reforged!\",4:\"§f§lCOMMON HELMET\"],Name:\"§fLeaflet Hat\"}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+20",
+    "§7Health: §a+70",
+    "§7Foraging Fortune: §a+3",
     "",
-    "§6Full Set Bonus: Energy of the Forest",
-    "§7While in a Forest zone you",
-    "§7regain §a5.0 §c❤ Health §7every",
-    "§7second.",
-    "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§f§lCOMMON HELMET"
   ],
-  "recipe": {
-    "A1": "LEAVES:1",
-    "A2": "LEAVES:1",
-    "A3": "LEAVES:1",
-    "B1": "LEAVES:1",
-    "B2": "",
-    "B3": "LEAVES:1",
-    "C1": "",
-    "C2": "",
-    "C3": ""
-  },
   "internalname": "LEAFLET_HELMET",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Leaflet_Hat",
-    "https://wiki.hypixel.net/Leaflet_Hat"
-  ],
-  "crafttext": "Requires: Oak Wood III"
+  "clickcommand": "",
+  "crafttext": "Requires: Oak Wood II",
+  "modver": "Firmament 3.1.0-dev+mc1.21.5+g4907900",
+  "infoType": "",
+  "info": [],
+  "recipes": [
+    {
+      "A1": "LOG:1",
+      "A2": "LOG:1",
+      "A3": "LOG:1",
+      "B1": "LOG:1",
+      "B2": "",
+      "B3": "LOG:1",
+      "C1": "",
+      "C2": "",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "LEAFLET_HELMET"
+    }
+  ]
 }
