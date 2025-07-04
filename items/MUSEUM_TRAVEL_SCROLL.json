@@ -1,36 +1,38 @@
 {
   "itemid": "minecraft:map",
-  "displayname": "§f§f§5Travel Scroll to Museum",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,display:{Lore:[0:\"§7Consume this item to add its\",1:\"§7destination to your fast travel\",2:\"§7options.\",3:\"\",4:\"§7Island: §aHub\",5:\"§7Teleport: §eMuseum\",6:\"\",7:\"§5§lEPIC TRAVEL SCROLL\"],Name:\"§f§f§5Travel Scroll to Museum\"},ExtraAttributes:{id:\"MUSEUM_TRAVEL_SCROLL\"},AttributeModifiers:[]}",
+  "displayname": "§9Travel Scroll to Museum",
+  "nbttag": "{ExtraAttributes:{id:\"MUSEUM_TRAVEL_SCROLL\"},HideFlags:254,ItemModel:\"minecraft:map\",display:{Lore:[0:\"§7Consume this item to add its\",1:\"§7destination to your Fast Travel\",2:\"§7options.\",3:\"\",4:\"§7Island: §aSkyBlock Hub\",5:\"§7Teleport: §eMuseum\",6:\"\",7:\"§9§lRARE TRAVEL SCROLL\"],Name:\"§9Travel Scroll to Museum\"}}",
   "damage": 0,
   "lore": [
     "§7Consume this item to add its",
-    "§7destination to your fast travel",
+    "§7destination to your Fast Travel",
     "§7options.",
     "",
-    "§7Island: §aHub",
+    "§7Island: §aSkyBlock Hub",
     "§7Teleport: §eMuseum",
     "",
-    "§5§lEPIC TRAVEL SCROLL"
+    "§9§lRARE TRAVEL SCROLL"
   ],
-  "recipe": {
-    "A1": "ENCHANTED_BONE:16",
-    "A2": "ENCHANTED_BONE:16",
-    "A3": "ENCHANTED_BONE:16",
-    "B1": "ENCHANTED_BONE:16",
-    "B2": "ENCHANTED_ENDER_PEARL:16",
-    "B3": "ENCHANTED_BONE:16",
-    "C1": "ENCHANTED_BONE:16",
-    "C2": "ENCHANTED_BONE:16",
-    "C3": "ENCHANTED_BONE:16"
-  },
   "internalname": "MUSEUM_TRAVEL_SCROLL",
+  "clickcommand": "",
   "crafttext": "Requires: 20 Museum Donations",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Travel_Scroll_to_Museum",
-    "https://wiki.hypixel.net/Travel_Scroll_To_Museum"
+  "modver": "Firmament 3.1.0-dev+mc1.21.5+g4907900",
+  "infoType": "",
+  "info": [],
+  "recipes": [
+    {
+      "A1": "ENCHANTED_BONE:16",
+      "A2": "ENCHANTED_BONE:16",
+      "A3": "ENCHANTED_BONE:16",
+      "B1": "ENCHANTED_BONE:16",
+      "B2": "ENCHANTED_ENDER_PEARL:16",
+      "B3": "ENCHANTED_BONE:16",
+      "C1": "ENCHANTED_BONE:16",
+      "C2": "ENCHANTED_BONE:16",
+      "C3": "ENCHANTED_BONE:16",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "MUSEUM_TRAVEL_SCROLL"
+    }
   ]
 }
