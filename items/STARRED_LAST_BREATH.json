@@ -1,23 +1,30 @@
 {
   "itemid": "minecraft:bow",
   "displayname": "§6⚚ Last Breath",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Gear Score: §d480\",1:\"§7Damage: §c+210\",2:\"§7Strength: §c+190\",3:\"§7Crit Damage: §c+50% \",4:\"\",5:\"§7Reduces the defense of your\",6:\"§7target by §a10% §7of their max\",7:\"§7§a❈ Defense §7on hit, stacking\",8:\"§7up to §a5 §7times.\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§7§4❣ §cRequires §aThe Catacombs Floor\",12:\"§aV Completion§c.\",13:\"§6§lLEGENDARY DUNGEON BOW\"],Name:\"§6⚚ Last Breath\"},ExtraAttributes:{dungeon_item_level:0,id:\"STARRED_LAST_BREATH\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"STARRED_LAST_BREATH\"},HideFlags:254,ItemModel:\"minecraft:bow\",Unbreakable:1B,display:{Lore:[0:\"§7Gear Score: §d480\",1:\"§7Damage: §c+210\",2:\"§7Strength: §c+190\",3:\"§7Crit Damage: §c+50%\",4:\"\",5:\"§7Reduces the defense of your target\",6:\"§7by §a10% §7of their max §a❈ Defense §7on\",7:\"§7hit, stacking up to §a5 §7times.\",8:\"\",9:\"§8This item can be reforged!\",10:\"§4❣ §cRequires The Catacombs Floor V Completion.\",11:\"§6§lLEGENDARY DUNGEON BOW\"],Name:\"§6⚚ Last Breath\"}}",
   "damage": 0,
   "lore": [
     "§7Gear Score: §d480",
     "§7Damage: §c+210",
     "§7Strength: §c+190",
-    "§7Crit Damage: §c+50% ",
+    "§7Crit Damage: §c+50%",
     "",
-    "§7Reduces the defense of your",
-    "§7target by §a10% §7of their max",
-    "§7§a❈ Defense §7on hit, stacking",
-    "§7up to §a5 §7times.",
+    "§7Reduces the defense of your target",
+    "§7by §a10% §7of their max §a❈ Defense §7on",
+    "§7hit, stacking up to §a5 §7times.",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aThe Catacombs Floor",
-    "§aV Completion§c.",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires The Catacombs Floor V Completion.",
     "§6§lLEGENDARY DUNGEON BOW"
+  ],
+  "internalname": "STARRED_LAST_BREATH",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Last_Breath",
+    "https://wiki.hypixel.net/%E2%9A%9A_Last_Breath"
   ],
   "recipe": {
     "A1": "LIVID_FRAGMENT:1",
@@ -30,14 +37,5 @@
     "C2": "LIVID_FRAGMENT:1",
     "C3": "LIVID_FRAGMENT:1"
   },
-  "internalname": "STARRED_LAST_BREATH",
-  "parent": "LAST_BREATH",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Last_Breath",
-    "https://wiki.hypixel.net/%E2%9A%9A_Last_Breath"
-  ],
-  "crafttext": ""
+  "parent": "LAST_BREATH"
 }

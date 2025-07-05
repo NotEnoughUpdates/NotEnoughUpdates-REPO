@@ -1,12 +1,21 @@
 {
   "itemid": "minecraft:cooked_fish",
   "displayname": "§9Enchanted Cooked Salmon",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Enchanted Cooked Salmon\"},ExtraAttributes:{id:\"ENCHANTED_COOKED_SALMON\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_COOKED_SALMON\"},HideFlags:254,ItemModel:\"minecraft:cooked_salmon\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Enchanted Cooked Salmon\"},ench:[]}",
   "damage": 1,
   "lore": [
-    "§7§8Collection Item",
+    "§8Collection Item",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "ENCHANTED_COOKED_SALMON",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Raw Salmon VIII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Cooked_Salmon",
+    "https://wiki.hypixel.net/Enchanted_Cooked_Salmon"
   ],
   "recipe": {
     "A1": "",
@@ -18,14 +27,5 @@
     "C1": "",
     "C2": "ENCHANTED_RAW_SALMON:32",
     "C3": ""
-  },
-  "internalname": "ENCHANTED_COOKED_SALMON",
-  "clickcommand": "viewrecipe",
-  "modver": "2.2.2",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Cooked_Salmon",
-    "https://wiki.hypixel.net/Enchanted_Cooked_Salmon"
-  ],
-  "crafttext": "Requires: Raw Salmon VIII"
+  }
 }

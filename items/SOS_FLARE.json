@@ -1,18 +1,18 @@
 {
   "itemid": "minecraft:fireworks",
   "displayname": "§5SOS Flare",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§6Ability: Deploy  §e§lRIGHT CLICK\",1:\"§7Shoot the flare up in the sky for §a3m\",2:\"§a§7buffing up to §b8 §7players within §a40\",3:\"§a§7blocks.\",4:\"§8Mana Cost: §3250\",5:\"\",6:\"§5Flare Buff: §5SOS Flare\",7:\"§5• §7Grants §b+125% §7base mana regen§7.\",8:\"§7§5• §7Gain §4+30♨ Vitality§7, which\",9:\"§7increases your incoming healing.\",10:\"§5• §7Gain §f+25❂ True Defense§7.\",11:\"§5• §7Gain §c+10⫽ Ferocity§7.\",12:\"§5• §7Gain §e+5⚔ Bonus Attack Speed§7.\",13:\"\",14:\"§8Only one deployable buff applies.\",15:\"\",16:\"§7§4☠ §cRequires §5Blaze Slayer 7§c.\",17:\"§5§lEPIC DEPLOYABLE\"],Name:\"§5SOS Flare\"},ExtraAttributes:{id:\"SOS_FLARE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SOS_FLARE\"},HideFlags:254,ItemModel:\"minecraft:firework_rocket\",display:{Lore:[0:\"§6Ability: Deploy  §e§lRIGHT CLICK\",1:\"§7Shoot the flare up in the sky for §a3m\",2:\"§7buffing up to §b8 §7players within §a40\",3:\"§7blocks.\",4:\"§8Mana Cost: §3250\",5:\"\",6:\"§5Flare Buff: SOS Flare\",7:\"§5• §7Grants §b+125% §7base mana regen.\",8:\"§5• §7Gain §4+30♨ Vitality§7, which\",9:\"§7increases your incoming healing.\",10:\"§5• §7Gain §f+25❂ True Defense§7.\",11:\"§5• §7Gain §c+10⫽ Ferocity§7.\",12:\"§5• §7Gain §e+5⚔ Bonus Attack Speed§7.\",13:\"\",14:\"§8Only one deployable buff applies.\",15:\"\",16:\"§4☠ §cRequires §5Blaze Slayer 7§c.\",17:\"§5§lEPIC DEPLOYABLE\"],Name:\"§5SOS Flare\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§6Ability: Deploy  §e§lRIGHT CLICK",
     "§7Shoot the flare up in the sky for §a3m",
-    "§a§7buffing up to §b8 §7players within §a40",
-    "§a§7blocks.",
+    "§7buffing up to §b8 §7players within §a40",
+    "§7blocks.",
     "§8Mana Cost: §3250",
     "",
-    "§5Flare Buff: §5SOS Flare",
-    "§5• §7Grants §b+125% §7base mana regen§7.",
-    "§7§5• §7Gain §4+30♨ Vitality§7, which",
+    "§5Flare Buff: SOS Flare",
+    "§5• §7Grants §b+125% §7base mana regen.",
+    "§5• §7Gain §4+30♨ Vitality§7, which",
     "§7increases your incoming healing.",
     "§5• §7Gain §f+25❂ True Defense§7.",
     "§5• §7Gain §c+10⫽ Ferocity§7.",
@@ -20,8 +20,17 @@
     "",
     "§8Only one deployable buff applies.",
     "",
-    "§7§4☠ §cRequires §5Blaze Slayer 7§c.",
+    "§4☠ §cRequires §5Blaze Slayer 7§c.",
     "§5§lEPIC DEPLOYABLE"
+  ],
+  "internalname": "SOS_FLARE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Blaze Slayer 7",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/SOS_Flare",
+    "https://wiki.hypixel.net/SOS_Flare"
   ],
   "recipe": {
     "A1": "INFERNO_VERTEX:8",
@@ -34,14 +43,5 @@
     "C2": "ALERT_FLARE:1",
     "C3": "INFERNO_VERTEX:8"
   },
-  "internalname": "SOS_FLARE",
-  "clickcommand": "viewrecipe",
-  "slayer_req": "BLAZE_7",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "crafttext": "Requires: Blaze Slayer 7",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/SOS_Flare",
-    "https://wiki.hypixel.net/SOS_Flare"
-  ]
+  "slayer_req": "BLAZE_7"
 }

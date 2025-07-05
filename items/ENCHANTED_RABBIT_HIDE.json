@@ -1,10 +1,21 @@
 {
   "itemid": "minecraft:rabbit_hide",
   "displayname": "§9Enchanted Rabbit Hide",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9§lRARE\"],Name:\"§9Enchanted Rabbit Hide\"},ExtraAttributes:{id:\"ENCHANTED_RABBIT_HIDE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_RABBIT_HIDE\"},HideFlags:254,ItemModel:\"minecraft:rabbit_hide\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Enchanted Rabbit Hide\"},ench:[]}",
   "damage": 0,
   "lore": [
+    "§8Brewing Ingredient",
+    "",
     "§9§lRARE"
+  ],
+  "internalname": "ENCHANTED_RABBIT_HIDE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Raw Rabbit VI",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Rabbit_Hide",
+    "https://wiki.hypixel.net/Enchanted_Rabbit_Hide"
   ],
   "recipe": {
     "A1": "RABBIT_HIDE:64",
@@ -16,14 +27,5 @@
     "C1": "RABBIT_HIDE:64",
     "C2": "RABBIT_HIDE:64",
     "C3": "RABBIT_HIDE:64"
-  },
-  "internalname": "ENCHANTED_RABBIT_HIDE",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Rabbit_Hide",
-    "https://wiki.hypixel.net/Enchanted_Rabbit_Hide"
-  ],
-  "crafttext": "Requires: Raw Rabbit VI"
+  }
 }

@@ -1,14 +1,22 @@
 {
   "itemid": "minecraft:melon_block",
   "displayname": "§aEnchanted Vampiric Melon",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Worth more §dMotes §7than the\",1:\"§7sum of its parts, because it\u0027s\",2:\"§7glowing!\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Vampiric Melon\"},ExtraAttributes:{id:\"ENCHANTED_VAMPIRIC_MELON\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_VAMPIRIC_MELON\"},HideFlags:254,ItemModel:\"minecraft:melon\",display:{Lore:[0:\"§7Worth more §dMotes §7than the sum of its\",1:\"§7parts, because it's glowing!\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Vampiric Melon\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7Worth more §dMotes §7than the",
-    "§7sum of its parts, because it\u0027s",
-    "§7glowing!",
+    "§7Worth more §dMotes §7than the sum of its",
+    "§7parts, because it's glowing!",
     "",
     "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_VAMPIRIC_MELON",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Vampiric_Melon",
+    "https://wiki.hypixel.net/Enchanted_Vampiric_Melon"
   ],
   "recipe": {
     "A1": "",
@@ -20,14 +28,5 @@
     "C1": "",
     "C2": "VAMPIRIC_MELON:32",
     "C3": ""
-  },
-  "internalname": "ENCHANTED_VAMPIRIC_MELON",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Vampiric_Melon",
-    "https://wiki.hypixel.net/Enchanted_Vampiric_Melon"
-  ]
+  }
 }

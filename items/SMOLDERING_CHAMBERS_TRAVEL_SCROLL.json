@@ -1,11 +1,11 @@
 {
   "itemid": "minecraft:map",
   "displayname": "§5Travel Scroll to the Smoldering Tomb",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Consume this item to add its\",1:\"§7destination to your fast travel\",2:\"§7options.\",3:\"\",4:\"§7Requires §bMVP§c+ §7to consume!\",5:\"\",6:\"§7Island: §aCrimson Isle\",7:\"§7Teleport: §eSmoldering Tomb\",8:\"\",9:\"§7§4☠ §cRequires §5Blaze Slayer 4§c.\",10:\"§5§lEPIC TRAVEL SCROLL\"],Name:\"§5Travel Scroll to the Smoldering Tomb\"},ExtraAttributes:{id:\"SMOLDERING_CHAMBERS_TRAVEL_SCROLL\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SMOLDERING_CHAMBERS_TRAVEL_SCROLL\"},HideFlags:254,ItemModel:\"minecraft:map\",display:{Lore:[0:\"§7Consume this item to add its\",1:\"§7destination to your Fast Travel\",2:\"§7options.\",3:\"\",4:\"§7Requires §bMVP§c+ §7to consume!\",5:\"\",6:\"§7Island: §aCrimson Isle\",7:\"§7Teleport: §eSmoldering Tomb\",8:\"\",9:\"§4☠ §cRequires §5Blaze Slayer 4§c.\",10:\"§5§lEPIC TRAVEL SCROLL\"],Name:\"§5Travel Scroll to the Smoldering Tomb\"}}",
   "damage": 0,
   "lore": [
     "§7Consume this item to add its",
-    "§7destination to your fast travel",
+    "§7destination to your Fast Travel",
     "§7options.",
     "",
     "§7Requires §bMVP§c+ §7to consume!",
@@ -13,8 +13,17 @@
     "§7Island: §aCrimson Isle",
     "§7Teleport: §eSmoldering Tomb",
     "",
-    "§7§4☠ §cRequires §5Blaze Slayer 4§c.",
+    "§4☠ §cRequires §5Blaze Slayer 4§c.",
     "§5§lEPIC TRAVEL SCROLL"
+  ],
+  "internalname": "SMOLDERING_CHAMBERS_TRAVEL_SCROLL",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Blaze Slayer 4",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Travel_Scroll_to_the_Smoldering_Tomb",
+    "https://wiki.hypixel.net/Travel_Scroll_To_The_Smoldering_Tomb"
   ],
   "recipe": {
     "A1": "MOLTEN_POWDER:3",
@@ -27,14 +36,5 @@
     "C2": "ENCHANTED_BLAZE_ROD:4",
     "C3": "MOLTEN_POWDER:3"
   },
-  "internalname": "SMOLDERING_CHAMBERS_TRAVEL_SCROLL",
-  "slayer_req": "BLAZE_4",
-  "crafttext": "Requires: Blaze Slayer 4",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Travel_Scroll_to_the_Smoldering_Tomb",
-    "https://wiki.hypixel.net/Travel_Scroll_To_The_Smoldering_Tomb"
-  ]
+  "slayer_req": "BLAZE_4"
 }

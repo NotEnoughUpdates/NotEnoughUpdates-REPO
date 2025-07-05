@@ -1,12 +1,21 @@
 {
   "itemid": "minecraft:hay_block",
   "displayname": "§9Enchanted Hay Bale",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Enchanted Hay Bale\"},ExtraAttributes:{id:\"ENCHANTED_HAY_BALE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_HAY_BALE\"},HideFlags:254,ItemModel:\"minecraft:hay_block\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Enchanted Hay Bale\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7§8Collection Item",
+    "§8Collection Item",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "ENCHANTED_HAY_BALE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Wheat XI",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Hay_Bale",
+    "https://wiki.hypixel.net/Enchanted_Hay_Bale"
   ],
   "recipe": {
     "A1": "",
@@ -18,14 +27,5 @@
     "C1": "",
     "C2": "ENCHANTED_WHEAT:32",
     "C3": ""
-  },
-  "internalname": "ENCHANTED_HAY_BALE",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "crafttext": "Requires: Wheat XI",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Hay_Bale",
-    "https://wiki.hypixel.net/Enchanted_Hay_Bale"
-  ]
+  }
 }

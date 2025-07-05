@@ -1,14 +1,22 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§f§f§6Treasure Artifact",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"4bed9bc7-18ff-3014-920d-32d6b89e8312\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5NTk1Mzc5NjAxNywKICAicHJvZmlsZUlkIiA6ICJmMzA1ZjA5NDI0NTg0ZjU4YmEyYjY0ZjAyZDcyNDYyYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJqcm9ja2EzMyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lMTBmMjBhNTViNmUxODhlYmU3NTc4NDU5YjY0YTZmYmQ4MjUwNjdiYzQ5N2I5MjVjYTQzYzI2NDNkMDU5MDI1IgogICAgfQogIH0KfQ==\"}]}},display:{Lore:[0:\"\",1:\"§7Grants §a+3% §7extra loot to end\",2:\"§7of dungeon chests.\",3:\"\",4:\"§6§lLEGENDARY DUNGEON ACCESSORY\"],Name:\"§f§f§6Treasure Artifact\"},ExtraAttributes:{modifier:\"strong\",id:\"TREASURE_ARTIFACT\"},AttributeModifiers:[]}",
+  "displayname": "§6Treasure Artifact",
+  "nbttag": "{ExtraAttributes:{id:\"TREASURE_ARTIFACT\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"4bed9bc7-18ff-3014-920d-32d6b89e8312\",Properties:{textures:[0:{Name:\"textures\",Signature:\"YpOaLKJGuOAroDRxuoZjjS1DDoLVM2nUX4pNm6o+94JAoTimtM9O3s0fENv5vHu8QWOpkdgVTNHJiFKUpcbYFpk5NSfe7ZZ87bUYssOPf8bxIw2hmVm0iPone9v+tLJ4+71yBT5tgkc3CB/938vMNtdJ/JTLAPNRZm4Y66Kz9lqxQmZeQgEQvq8RD0VCUousjKsPwJZhwLr8EAmK9wRowO4JdOfGhLAx2hLd4zUYM1kwF1Pcb2CZ4XZ/SXi94P6EbTRMNcQSEdwotLuoAZYP4Uou/X+IY/ls+Uu2wJy+ACOA5jE8RbRMXlFwQxj335whc7l9oBsbusS1UyBjz+sH6vo8dnbJcmQv9Ow6KOFqOWOzx99QYyrxylFaiQsFXvLEt2aUs4RewfQg6MzEACLmKQpQsaOXIB0nEUg7gFBLz5f9pc20IoVB3WP86ZOmc1zb9VMEe0btwURMXUKip+w6IdWFrjd1xXnnvJYYVZfDyd/cmDXYskuPQ9a/3bCEHX6G5C5/WsvqBAjRCqfoCkBy7rsD+ibU1xcS8B6d1qovxCc+O83/X91WsvlfEtqje/S9oAYvMgb/z45knfR7TUIodHjyIJNdJvEk3l/qc86UkQJZ79YF2uPRBY9WOn9KKDJTy+O8dJEVuyuHUIqgDdKqkYogWzYctP76ve39RGIeXyA=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5NTk1Mzc5NjAxNywKICAicHJvZmlsZUlkIiA6ICJmMzA1ZjA5NDI0NTg0ZjU4YmEyYjY0ZjAyZDcyNDYyYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJqcm9ja2EzMyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lMTBmMjBhNTViNmUxODhlYmU3NTc4NDU5YjY0YTZmYmQ4MjUwNjdiYzQ5N2I5MjVjYTQzYzI2NDNkMDU5MDI1IgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Grants §a+3% §7extra loot to end of\",1:\"§7dungeon chests.\",2:\"\",3:\"§6§lLEGENDARY DUNGEON ACCESSORY\"],Name:\"§6Treasure Artifact\"}}",
   "damage": 3,
   "lore": [
-    "",
-    "§7Grants §a+3% §7extra loot to end",
-    "§7of dungeon chests.",
+    "§7Grants §a+3% §7extra loot to end of",
+    "§7dungeon chests.",
     "",
     "§6§lLEGENDARY DUNGEON ACCESSORY"
+  ],
+  "internalname": "TREASURE_ARTIFACT",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Treasure_Artifact",
+    "https://wiki.hypixel.net/Treasure_Artifact"
   ],
   "recipe": {
     "A1": "TREASURE_RING:1",
@@ -20,14 +28,5 @@
     "C1": "TREASURE_RING:1",
     "C2": "TREASURE_RING:1",
     "C3": "TREASURE_RING:1"
-  },
-  "internalname": "TREASURE_ARTIFACT",
-  "crafttext": "",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Treasure_Artifact",
-    "https://wiki.hypixel.net/Treasure_Artifact"
-  ]
+  }
 }

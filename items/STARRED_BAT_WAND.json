@@ -1,24 +1,30 @@
 {
   "itemid": "minecraft:red_flower",
   "displayname": "§6⚚ Spirit Sceptre",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Gear Score: §d395\",1:\"§7Damage: §c+190\",2:\"§7Intelligence: §a+330\",3:\" §8[§8✎§8]\",4:\"\",5:\"§6Ability: Guided Bat  §e§lRIGHT CLICK\",6:\"§7Shoots a guided spirit bat,\",7:\"§7following your aim and exploding\",8:\"§7for §c2,265.8 §7damage.\",9:\"§8Mana Cost: §3200\",10:\"\",11:\"§7§8This item can be reforged!\",12:\"§7§4❣ §cRequires §aThe Catacombs Floor\",13:\"§aIV Completion§c.\",14:\"§6§lLEGENDARY DUNGEON SWORD\"],Name:\"§6⚚ Spirit Sceptre\"},ExtraAttributes:{id:\"STARRED_BAT_WAND\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"STARRED_BAT_WAND\"},HideFlags:254,ItemModel:\"minecraft:allium\",display:{Lore:[0:\"§7Gear Score: §d395\",1:\"§7Damage: §c+190\",2:\"§7Intelligence: §a+330\",3:\" §8[✎]\",4:\"\",5:\"§6Ability: Guided Bat  §e§lRIGHT CLICK\",6:\"§7Shoots a guided spirit bat, following your aim\",7:\"§7and exploding for §c2,265.8 §7damage.\",8:\"§8Mana Cost: §3200\",9:\"\",10:\"§8This item can be reforged!\",11:\"§4❣ §cRequires The Catacombs Floor IV Completion.\",12:\"§6§lLEGENDARY DUNGEON SWORD\"],Name:\"§6⚚ Spirit Sceptre\"}}",
   "damage": 2,
   "lore": [
     "§7Gear Score: §d395",
     "§7Damage: §c+190",
     "§7Intelligence: §a+330",
-    " §8[§8✎§8]",
+    " §8[✎]",
     "",
     "§6Ability: Guided Bat  §e§lRIGHT CLICK",
-    "§7Shoots a guided spirit bat,",
-    "§7following your aim and exploding",
-    "§7for §c2,265.8 §7damage.",
+    "§7Shoots a guided spirit bat, following your aim",
+    "§7and exploding for §c2,265.8 §7damage.",
     "§8Mana Cost: §3200",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aThe Catacombs Floor",
-    "§aIV Completion§c.",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires The Catacombs Floor IV Completion.",
     "§6§lLEGENDARY DUNGEON SWORD"
+  ],
+  "internalname": "STARRED_BAT_WAND",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/⚚_Spirit_Sceptre"
   ],
   "recipe": {
     "A1": "THORN_FRAGMENT:1",
@@ -30,13 +36,5 @@
     "C1": "THORN_FRAGMENT:1",
     "C2": "THORN_FRAGMENT:1",
     "C3": "THORN_FRAGMENT:1"
-  },
-  "internalname": "STARRED_BAT_WAND",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://wiki.hypixel.net/⚚_Spirit_Sceptre"
-  ]
+  }
 }

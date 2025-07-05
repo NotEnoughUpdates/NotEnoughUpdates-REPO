@@ -1,12 +1,22 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§fPond Island",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"9a372312-5e04-32b3-8a19-7487256b781d\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjQ4NGFhNWJlZTg5OGE2ZTg5NjBhM2Y5YTk5NzU5YjFmMzlmOWRjYjMyMTA1MGY3MTRjZDcyYjNkOGE4MDQxIn19fQ==\"}]}},display:{Lore:[0:\"§7Place this in your private\",1:\"§7world to spawn a Pond\",2:\"§7island!\"],Name:\"§fPond Island\"},ExtraAttributes:{id:\"POND_ISLAND\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"POND_ISLAND\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"51f79f46-9c57-3470-96d6-6e96c067a054\",Properties:{textures:[0:{Name:\"textures\",Signature:\"jwGw26C12F6W2aqbddD8nvizd5X/j1vfB5zDQT9GcM+XBMSAORtFuQXBv+STEpqAURz8vONkMv/s5uT3C/heBtnnAw7CuK+cDnekbQAj6X9J/9tenGn3x+BhnUx69aHCheuOdM8seP16lx4ayrX/p7/i+Q32J/kFl3ivEorTL26PtNWf7uKzFFAtgLM98+ZZJSf/yurnDNL3S4NqqNB41s8HZjf9mAnpw2IMoh0xJK+dAkA6bGc5QjXrq9VIrvypGNP5nU3TBkmtOIxXHAQ2JJILFZXc93T9M7yfMybwNjoAkpcfhSZhkCIuF2Qbn/trsNX16MU1KsmA0gxJzbxjpyahsuijj9O+hetYBY9vI3aACZRbSzKWfKHroWwnYOpR32hMQ5472TcE7MveCLOOHQ51Wt+FDdofc6pMqGoAApiBDBLOXcxohp4Y0V3Hc190f+bcAX5IH3uETAcap3+Jzt0gxMfFi5teFoIidlmhPAkZ7ja5dDs4XphWdoUUKP+8YdYidux7VSz1/njay1HFtmwKyIvTxdQaERF7olb8VHr+WNuZZTMAsxJkxYB+TjnAAXDDSSDwhTGCLaFh/iAMNcLMQ/zv960iAejxD9TtlVZOJWDqpuG1a676q9X6L7GWNdT30vBSm2y5XwirxM0LwKe6c0A+r6HBPcQjj8Km4MA=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5MTczMDk5MjA5NiwKICAicHJvZmlsZUlkIiA6ICI3ZGEyYWIzYTkzY2E0OGVlODMwNDhhZmMzYjgwZTY4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHb2xkYXBmZWwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTJiNTc3NzE0MTRmOGMwNzczZmM5NjVmN2Y1MWU5NGNkYzEwNzg0MzU0OTQxNDQwNGQ2N2QzNzlmMWRlMzkzMSIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this in your private world to\",1:\"§7spawn a Pond island!\",2:\"\",3:\"§f§lCOMMON\"],Name:\"§fPond Island\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this in your private",
-    "§7world to spawn a Pond",
-    "§7island!"
+    "§7Place this in your private world to",
+    "§7spawn a Pond island!",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "POND_ISLAND",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Raw Fish IV",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Pond_Island",
+    "https://wiki.hypixel.net/Pond_Island"
   ],
   "recipe": {
     "A1": "WATER_BUCKET:1",
@@ -18,14 +28,5 @@
     "C1": "PRISMARINE_CRYSTALS:20",
     "C2": "PRISMARINE_CRYSTALS:20",
     "C3": "PRISMARINE_CRYSTALS:20"
-  },
-  "internalname": "POND_ISLAND",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Pond_Island",
-    "https://wiki.hypixel.net/Pond_Island"
-  ],
-  "crafttext": "Requires: Raw Fish IV"
+  }
 }

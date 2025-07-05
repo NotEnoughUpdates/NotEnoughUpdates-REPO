@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:iron_boots",
   "displayname": "§5Boots of the Pack",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+50\",1:\"§7Defense: §a+45\",2:\"\",3:\"§7Gain §a+50❈ Defense §7against animals.\",4:\"§7Gain §f+5❂ True Defense§7.\",5:\"\",6:\"§6Full Set Bonus: §cArmor of the Pack\",7:\"§7Gain §c+35❁ Strength §7and\",8:\"§7§a+80❈ Defense §7for each\",9:\"§7§cArmor of the Pack §7wearer\",10:\"§7within §a30 §7blocks.\",11:\"§8Max of 3 players!\",12:\"\",13:\"§7§8This item can be reforged!\",14:\"§4☠ §cRequires §5Wolf Slayer 6§c.\",15:\"§5§lEPIC BOOTS\"],Name:\"§5Boots of the Pack\"},ExtraAttributes:{id:\"BOOTS_OF_THE_PACK\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"BOOTS_OF_THE_PACK\"},HideFlags:254,ItemModel:\"minecraft:iron_boots\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+50\",1:\"§7Defense: §a+45\",2:\"\",3:\"§7Gain §a+50❈ Defense §7against animals.\",4:\"§7Gain §f+5❂ True Defense§7.\",5:\"\",6:\"§6Full Set Bonus: §cArmor of the Pack §7(0/4)\",7:\"§7Gain §c+35❁ Strength §7and §a+80❈\",8:\"§aDefense §7for each §cArmor of the Pack\",9:\"§7wearer within §a30 §7blocks.\",10:\"§8Max of 3 players!\",11:\"\",12:\"§8This item can be reforged!\",13:\"§4☠ §cRequires §5Wolf Slayer 6§c.\",14:\"§5§lEPIC BOOTS\"],Name:\"§5Boots of the Pack\"}}",
   "damage": 0,
   "lore": [
     "§7Health: §a+50",
@@ -10,16 +10,24 @@
     "§7Gain §a+50❈ Defense §7against animals.",
     "§7Gain §f+5❂ True Defense§7.",
     "",
-    "§6Full Set Bonus: §cArmor of the Pack",
-    "§7Gain §c+35❁ Strength §7and",
-    "§7§a+80❈ Defense §7for each",
-    "§7§cArmor of the Pack §7wearer",
-    "§7within §a30 §7blocks.",
+    "§6Full Set Bonus: §cArmor of the Pack §7(0/4)",
+    "§7Gain §c+35❁ Strength §7and §a+80❈",
+    "§aDefense §7for each §cArmor of the Pack",
+    "§7wearer within §a30 §7blocks.",
     "§8Max of 3 players!",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§4☠ §cRequires §5Wolf Slayer 6§c.",
     "§5§lEPIC BOOTS"
+  ],
+  "internalname": "BOOTS_OF_THE_PACK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Wolf Slayer 6",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Boots_of_the_Pack",
+    "https://wiki.hypixel.net/Boots_Of_The_Pack"
   ],
   "recipe": {
     "A1": "",
@@ -32,14 +40,5 @@
     "C2": "",
     "C3": "ENCHANTED_MUTTON:32"
   },
-  "slayer_req": "WOLF_6",
-  "internalname": "BOOTS_OF_THE_PACK",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Boots_of_the_Pack",
-    "https://wiki.hypixel.net/Boots_Of_The_Pack"
-  ],
-  "crafttext": "Requires: Wolf Slayer 6"
+  "slayer_req": "WOLF_6"
 }

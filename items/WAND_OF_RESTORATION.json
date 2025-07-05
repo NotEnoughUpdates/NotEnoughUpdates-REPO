@@ -1,20 +1,26 @@
 {
-  "internalname": "WAND_OF_RESTORATION",
   "itemid": "minecraft:stick",
   "displayname": "§5Wand of Restoration",
-  "clickcommand": "viewrecipe",
+  "nbttag": "{ExtraAttributes:{id:\"WAND_OF_RESTORATION\"},HideFlags:254,ItemModel:\"minecraft:stick\",display:{Lore:[0:\"§6Ability: Big Heal  §e§lRIGHT CLICK\",1:\"§7Heal §c120❤§7/s for 7s.\",2:\"§8Wand heals don't stack.\",3:\"§8Mana Cost: §3200\",4:\"§8Cooldown: §a1s\",5:\"\",6:\"§4☠ §cRequires §5Zombie Slayer 6§c.\",7:\"§5§lEPIC WAND\"],Name:\"§5Wand of Restoration\"},ench:[]}",
   "damage": 0,
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§6Ability: Big Heal §e§lRIGHT CLICK\",1:\"§7Heal §c120❤§7/s for 7s.\",2:\"§7§8Wand heals don\u0027t stack.\",3:\"§8Mana Cost: §3200\",4:\"§8Cooldown: §a1s\",5:\"\",6:\"§7§4☠ §cRequires §5Zombie Slayer 6§c.\",7:\"§5§lEPIC WAND\"],Name:\"§5Wand of Restoration\"},ExtraAttributes:{id:\"WAND_OF_RESTORATION\"}}",
-  "modver": "",
   "lore": [
-    "§6Ability: Big Heal §e§lRIGHT CLICK",
+    "§6Ability: Big Heal  §e§lRIGHT CLICK",
     "§7Heal §c120❤§7/s for 7s.",
-    "§7§8Wand heals don\u0027t stack.",
+    "§8Wand heals don't stack.",
     "§8Mana Cost: §3200",
     "§8Cooldown: §a1s",
     "",
-    "§7§4☠ §cRequires §5Zombie Slayer 6§c.",
+    "§4☠ §cRequires §5Zombie Slayer 6§c.",
     "§5§lEPIC WAND"
+  ],
+  "internalname": "WAND_OF_RESTORATION",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Zombie Slayer 6",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Wand_of_Restoration",
+    "https://wiki.hypixel.net/Wand_Of_Restoration"
   ],
   "recipe": {
     "A1": "",
@@ -27,11 +33,5 @@
     "C2": "",
     "C3": ""
   },
-  "slayer_req": "ZOMBIE_6",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Wand_of_Restoration",
-    "https://wiki.hypixel.net/Wand_Of_Restoration"
-  ],
-  "crafttext": "Requires: Zombie Slayer 6"
+  "slayer_req": "ZOMBIE_6"
 }

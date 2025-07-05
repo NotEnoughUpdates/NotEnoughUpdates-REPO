@@ -1,15 +1,26 @@
 {
   "itemid": "minecraft:rabbit_stew",
   "displayname": "§aAgaricus Soup",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Consume to gain §fSpeed I §7for §a60s§7.\",1:\"§8Cooldown: §a60s\",2:\"\",3:\"§eRight-click to consume!\",4:\"\",5:\"§a§lUNCOMMON\"],Name:\"§aAgaricus Soup\"},ExtraAttributes:{id:\"AGARICUS_SOUP\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"AGARICUS_SOUP\"},HideFlags:254,ItemModel:\"minecraft:rabbit_stew\",display:{Lore:[0:\"§8Consumable\",1:\"\",2:\"§7Consume to gain §fSpeed I §7for §a60s§7.\",3:\"§8Cooldown: §a60s\",4:\"\",5:\"§eRight-click to consume!\",6:\"\",7:\"§a§lUNCOMMON\"],Name:\"§aAgaricus Soup\"}}",
   "damage": 0,
   "lore": [
+    "§8Consumable",
+    "",
     "§7Consume to gain §fSpeed I §7for §a60s§7.",
     "§8Cooldown: §a60s",
     "",
     "§eRight-click to consume!",
     "",
     "§a§lUNCOMMON"
+  ],
+  "internalname": "AGARICUS_SOUP",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Agaricus Cap II",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Agaricus_Soup",
+    "https://wiki.hypixel.net/Agaricus_Soup"
   ],
   "recipe": {
     "A1": "",
@@ -21,14 +32,5 @@
     "C1": "",
     "C2": "RIFT_BUCKET:1",
     "C3": ""
-  },
-  "internalname": "AGARICUS_SOUP",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "Requires: Agaricus Cap II",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Agaricus_Soup",
-    "https://wiki.hypixel.net/Agaricus_Soup"
-  ]
+  }
 }

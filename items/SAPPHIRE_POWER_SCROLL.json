@@ -1,18 +1,28 @@
 {
   "itemid": "minecraft:writable_book",
   "displayname": "§bSapphire Power Scroll",
-  "nbttag": "{generation:0,ench:[],HideFlags:254,display:{Lore:[0:\"§7§8Combinable in Anvil\",1:\"\",2:\"§7§7Gain §b+5✎ Mana §7when using your\",3:\"§7§e§lRIGHT CLICK §6Item Ability§7.\",4:\"\",5:\"§7§7Can be combined with any §bitem §7with a §e§lRIGHT\",6:\"§e§lCLICK §6Item Ability §7at an anvil.\",7:\"\",8:\"§5§lEPIC\"],Name:\"§bSapphire Power Scroll\"},ExtraAttributes:{id:\"SAPPHIRE_POWER_SCROLL\"},resolved:0b}",
+  "nbttag": "{ExtraAttributes:{id:\"SAPPHIRE_POWER_SCROLL\"},HideFlags:254,ItemModel:\"minecraft:writable_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§7Gain §b+5✎ Mana §7when using your\",3:\"§e§lRIGHT CLICK §6Item Ability§7. Has a §c5s\",4:\"§7cooldown.\",5:\"\",6:\"§7Can be combined with any §bitem §7with a §e§lRIGHT\",7:\"§e§lCLICK §6Item Ability §7at an anvil.\",8:\"\",9:\"§5§lEPIC\"],Name:\"§bSapphire Power Scroll\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7§8Combinable in Anvil",
+    "§8Combinable in Anvil",
     "",
-    "§7§7Gain §b+5✎ Mana §7when using your",
-    "§7§e§lRIGHT CLICK §6Item Ability§7.",
+    "§7Gain §b+5✎ Mana §7when using your",
+    "§e§lRIGHT CLICK §6Item Ability§7. Has a §c5s",
+    "§7cooldown.",
     "",
-    "§7§7Can be combined with any §bitem §7with a §e§lRIGHT",
+    "§7Can be combined with any §bitem §7with a §e§lRIGHT",
     "§e§lCLICK §6Item Ability §7at an anvil.",
     "",
     "§5§lEPIC"
+  ],
+  "internalname": "SAPPHIRE_POWER_SCROLL",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Gemstone VII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Sapphire_Power_Scroll",
+    "https://wiki.hypixel.net/Sapphire_Power_Scroll"
   ],
   "recipe": {
     "A1": "",
@@ -24,14 +34,5 @@
     "C1": "",
     "C2": "ENCHANTED_PAPER:16",
     "C3": "FINE_SAPPHIRE_GEM:16"
-  },
-  "internalname": "SAPPHIRE_POWER_SCROLL",
-  "crafttext": "Requires: Gemstone VII",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Sapphire_Power_Scroll",
-    "https://wiki.hypixel.net/Sapphire_Power_Scroll"
-  ]
+  }
 }

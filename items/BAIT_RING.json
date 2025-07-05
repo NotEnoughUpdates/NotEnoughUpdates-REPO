@@ -1,15 +1,23 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Bait Ring",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"21d6b7cb-970f-3bc9-bf72-904a2fd3ebb2\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWEzMTZkNTg1Yjc4OWI1ODJmMmQ5OWU4ZTZjYjJkNzA0MzNlODk5NmZhYjAyNGE3NGJjNzkwZTIyYWVkY2RlYiJ9fX0=\"}]}},display:{Lore:[0:\"§7§a5.0%§7 chance not to consume\",1:\"§7bait.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§9§lRARE ACCESSORY\"],Name:\"§9Bait Ring\"},ExtraAttributes:{id:\"BAIT_RING\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"BAIT_RING\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"93d7d40a-b1d1-3f32-9d8f-0abe1a22967d\",Properties:{textures:[0:{Name:\"textures\",Signature:\"JG/bxN8/5qd/nB+C7j08IFkaxD8vx/ynAAN4Qe1wgqW/QZLJF5mKBo8iJzrVUQJWPx5LQaSs/E4SlCJAU5RD9g91IllVpYBQRaQUso0sj7Q0sGFEFT8QK5sKaGSHtqwQIzd0YfM2dtXpgSCrSGjGCSswJfQz24zRnlVKn3gys1+OqXQebw9oyAhZUQGVrsYGKKcHpjbjTzA8YzauM43SZ+RGfpxr6LZntI+pjl8DtC1D8qoFwmve7oYAtO5wsKGija9gI5//eEMiGiqEDQ7SV6sMqQiaEZGGNC4+8MwFoYTR0M4vzE8i4bdvwQDYZbfM7PlplvlSTl+y7hwf3SS9VGHuxqbGOMp8rRJ/vRLU+XKWp2I94nZtWjnj6QN4GN+hR85aa6mE1+gVvnIvRetfrq8Rto/r+5BwJ3ZAAYtD0bqZjjgAfDa6EB4fs8qcmCMLcitQTPtSGeIkKJfF6BswrN3unk5TdWWchmXLz2fhH6vjBHBAF6XMzwb/QxcPWYLXUv7le5oq6m65Bwp/ByuaDQTu9TRLSmX+KAYEb5BDbWiuPhqb7jUTBvbCxf0J+p0yqNCJEWTx5a08nZ9iJy4eI0SNcjrXQ22YhXIytTgRf2dek6Ctmk6goMYE3kEAKIp7jeO2ndlePvVJsNmdfhTQ+FeBRW1RI3dYsFHWAY7bT9Y=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwMjAzODkwMjczMSwKICAicHJvZmlsZUlkIiA6ICI5MWZlMTk2ODdjOTA0NjU2YWExZmMwNTk4NmRkM2ZlNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJoaGphYnJpcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81Y2VlYzUzNDJhY2QzZjIxYjJjMWM4ZDU5MTMyNzdlNDZjYWVjNmM4M2I4NjlhMjBjYTkxYmZkMmM4Njc1NzVhIgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§a5%§7 chance not to consume bait.\",1:\"\",2:\"§eRight-click to view recipes!\",3:\"\",4:\"§9§lRARE ACCESSORY\"],Name:\"§9Bait Ring\"}}",
   "damage": 3,
   "lore": [
-    "§7§a5.0%§7 chance not to consume",
-    "§7bait.",
+    "§a5%§7 chance not to consume bait.",
     "",
     "§eRight-click to view recipes!",
     "",
     "§9§lRARE ACCESSORY"
+  ],
+  "internalname": "BAIT_RING",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Ink Sac VIII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Bait_Ring",
+    "https://wiki.hypixel.net/Bait_Ring"
   ],
   "recipe": {
     "A1": "ENCHANTED_INK_SACK:32",
@@ -21,14 +29,5 @@
     "C1": "ENCHANTED_INK_SACK:32",
     "C2": "ENCHANTED_INK_SACK:32",
     "C3": "ENCHANTED_INK_SACK:32"
-  },
-  "internalname": "BAIT_RING",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Bait_Ring",
-    "https://wiki.hypixel.net/Bait_Ring"
-  ],
-  "crafttext": "Requires: Ink Sac VIII"
+  }
 }

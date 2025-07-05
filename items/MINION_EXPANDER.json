@@ -1,18 +1,26 @@
 {
   "itemid": "minecraft:command_block",
   "displayname": "§9Minion Expander",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7This item can be used as a\",1:\"§7minion upgrade. Increases the\",2:\"§7effective radius of the minion\",3:\"§7by §a1 §7extra block.\",4:\"\",5:\"§7Increases the speed of your\",6:\"§7minion by §a5%§7.\",7:\"\",8:\"§9§lRARE\"],Name:\"§9Minion Expander\"},ExtraAttributes:{id:\"MINION_EXPANDER\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"MINION_EXPANDER\"},HideFlags:254,ItemModel:\"minecraft:command_block\",display:{Lore:[0:\"§7This item can be used as a minion\",1:\"§7upgrade. Increases the effective\",2:\"§7radius of the minion by §a1 §7extra block.\",3:\"\",4:\"§7Increases the speed of your minion\",5:\"§7by §a5%§7.\",6:\"\",7:\"§9§lRARE\"],Name:\"§9Minion Expander\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7This item can be used as a",
-    "§7minion upgrade. Increases the",
-    "§7effective radius of the minion",
-    "§7by §a1 §7extra block.",
+    "§7This item can be used as a minion",
+    "§7upgrade. Increases the effective",
+    "§7radius of the minion by §a1 §7extra block.",
     "",
-    "§7Increases the speed of your",
-    "§7minion by §a5%§7.",
+    "§7Increases the speed of your minion",
+    "§7by §a5%§7.",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "MINION_EXPANDER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Nether Quartz V",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Minion_Expander",
+    "https://wiki.hypixel.net/Minion_Expander"
   ],
   "recipe": {
     "A1": "ENCHANTED_QUARTZ:2",
@@ -24,14 +32,5 @@
     "C1": "ENCHANTED_QUARTZ:2",
     "C2": "ENCHANTED_QUARTZ:2",
     "C3": "ENCHANTED_QUARTZ:2"
-  },
-  "internalname": "MINION_EXPANDER",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Minion_Expander",
-    "https://wiki.hypixel.net/Minion_Expander"
-  ],
-  "crafttext": "Requires: Nether Quartz V"
+  }
 }

@@ -1,14 +1,22 @@
 {
   "itemid": "minecraft:ghast_tear",
   "displayname": "§aSilver Fang",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Damage: §c+100\",1:\"\",2:\"§7§8This item can be reforged!\",3:\"§5§kX§5 Rift-Transferable §kX\",4:\"§a§lUNCOMMON SWORD\"],Name:\"§aSilver Fang\"},ExtraAttributes:{id:\"SILVER_FANG\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SILVER_FANG\"},HideFlags:254,ItemModel:\"minecraft:ghast_tear\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§5§kX§5 Rift-Transferable §r§kX\",3:\"§a§lUNCOMMON\"],Name:\"§aSilver Fang\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+100",
+    "§8Collection Item",
     "",
-    "§7§8This item can be reforged!",
-    "§5§kX§5 Rift-Transferable §kX",
-    "§a§lUNCOMMON SWORD"
+    "§5§kX§5 Rift-Transferable §r§kX",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "SILVER_FANG",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Ghast Tear V",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Silver_Fang",
+    "https://wiki.hypixel.net/Silver_Fang"
   ],
   "recipe": {
     "A1": "",
@@ -20,14 +28,5 @@
     "C1": "",
     "C2": "ENCHANTED_GHAST_TEAR:5",
     "C3": ""
-  },
-  "internalname": "SILVER_FANG",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Silver_Fang",
-    "https://wiki.hypixel.net/Silver_Fang"
-  ],
-  "crafttext": "Requires: Ghast Tear V"
+  }
 }

@@ -1,23 +1,31 @@
 {
   "itemid": "minecraft:bow",
   "displayname": "§5Hurricane Bow",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+120\",1:\"§7Strength: §c+50\",2:\"\",3:\"§6Ability: Tempest\",4:\"§7§7The more kills you get using\",5:\"§7this bow the more powerful it\",6:\"§7becomes! Reach §6250 §7kills to\",7:\"§7unlock its full potential.\",8:\"§7Next Upgrade: §eDouble Shot §8(§a0§7/§c20§8)\",9:\"\",10:\"§7Kills: §b0\",11:\"\",12:\"§7§8This item can be reforged!\",13:\"§5§lEPIC BOW\"],Name:\"§5Hurricane Bow\"},ExtraAttributes:{id:\"HURRICANE_BOW\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"HURRICANE_BOW\"},HideFlags:254,ItemModel:\"minecraft:bow\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+120\",1:\"§7Strength: §c+50\",2:\"\",3:\"§6Ability: Tempest \",4:\"§7The more kills you get using this bow\",5:\"§7the more powerful it becomes! Reach\",6:\"§6250 §7kills to unlock its full potential.\",7:\"§7Next Upgrade: §eDouble Shot §8(§a0§7/§c20§8)\",8:\"\",9:\"§7Kills: §b0\",10:\"\",11:\"§8This item can be reforged!\",12:\"§5§lEPIC BOW\"],Name:\"§5Hurricane Bow\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+120",
     "§7Strength: §c+50",
     "",
-    "§6Ability: Tempest",
-    "§7§7The more kills you get using",
-    "§7this bow the more powerful it",
-    "§7becomes! Reach §6250 §7kills to",
-    "§7unlock its full potential.",
+    "§6Ability: Tempest ",
+    "§7The more kills you get using this bow",
+    "§7the more powerful it becomes! Reach",
+    "§6250 §7kills to unlock its full potential.",
     "§7Next Upgrade: §eDouble Shot §8(§a0§7/§c20§8)",
     "",
     "§7Kills: §b0",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§5§lEPIC BOW"
+  ],
+  "internalname": "HURRICANE_BOW",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Bone VII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Hurricane_Bow",
+    "https://wiki.hypixel.net/Hurricane_Bow"
   ],
   "recipe": {
     "A1": "",
@@ -29,14 +37,5 @@
     "C1": "",
     "C2": "ENCHANTED_BONE:32",
     "C3": "STRING:32"
-  },
-  "internalname": "HURRICANE_BOW",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Hurricane_Bow",
-    "https://wiki.hypixel.net/Hurricane_Bow"
-  ],
-  "crafttext": "Requires: Bone VII"
+  }
 }

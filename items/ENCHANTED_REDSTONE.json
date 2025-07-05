@@ -1,23 +1,23 @@
 {
   "itemid": "minecraft:redstone",
   "displayname": "§aEnchanted Redstone",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7§8Brewing Ingredient\",1:\"§7§8Collection Item\",2:\"\",3:\"§a§lUNCOMMON ORE\"],Name:\"§aEnchanted Redstone\"},ExtraAttributes:{id:\"ENCHANTED_REDSTONE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_REDSTONE\"},HideFlags:254,ItemModel:\"minecraft:redstone\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§8Collection Item\",2:\"\",3:\"§a§lUNCOMMON ORE\"],Name:\"§aEnchanted Redstone\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7§8Brewing Ingredient",
-    "§7§8Collection Item",
+    "§8Brewing Ingredient",
+    "§8Collection Item",
     "",
     "§a§lUNCOMMON ORE"
   ],
   "internalname": "ENCHANTED_REDSTONE",
   "clickcommand": "viewrecipe",
-  "modver": "",
+  "crafttext": "Requires: Redstone IV",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Redstone",
     "https://wiki.hypixel.net/Enchanted_Redstone"
   ],
-  "crafttext": "Requires: Redstone IV",
   "recipes": [
     {
       "type": "crafting",

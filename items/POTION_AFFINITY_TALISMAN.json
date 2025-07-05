@@ -1,13 +1,22 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§fPotion Affinity Talisman",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"61a45bfa-cdfa-3a02-81dc-6a01439cfc02\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2E5NDNiYWY3MTQ1ODU5NmFmZjRlYmE4NzlmOGFjNWQyYmEyNjdjOTgzODVlNjc2NzNmNDhlYmVhNWZhIn19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7Increases the duration of any\",1:\"§7consumed Potion by §a10%§7.\",2:\"\",3:\"§f§lCOMMON ACCESSORY\"],Name:\"§fPotion Affinity Talisman\"},ExtraAttributes:{id:\"POTION_AFFINITY_TALISMAN\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"POTION_AFFINITY_TALISMAN\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"151f7d20-b326-39cb-a615-b68719ef7d9a\",Properties:{textures:[0:{Name:\"textures\",Signature:\"gMaY0+rAeNXhgCQO45K17LeQ+PQ+F97RCeS30sGVPk8ToqhowdqvvqM39ej6UQCC6mSC1U7zPvmbvgnEel4RvOUJwAuwrCYzj84jFSIdo6lGvlzhKkcZRqNTkbOvNIK2Zm47YVcmAryYM1RbMWcTN+SldS+6gpzaHel8WnB7Y1rkThHFIpafex09PpUsDIHbatVae/KwVNlpyH+X120SFAuHXF2RCz7s3xw6XpqaazNo+ixP/Hlpgk9d98CvLGsTKpy0Tt9LDbt5OukYcOuzpn92kTX8IGt6IjkR7U1LU6WRtx8mLrh9Ae9rrwgmamvhOCvMREhJxB0u0NqDcgwY8QmKvctOck0NBqsCF6M6S3EZsTA1qwQuXiN4zm3GiqtZITxvNaZiigR18PLoBWq1yUrTVCE1hNtUbaGQYNCX4PuJbXF4P5Ncx4vs+9fYM67eD7jW1Hp4yRi9tiEDq0OtwXce58eQMwjgCS/cz7gV9RWyxLtEqqrSiMm2AE9U9oGdCVkEJXkp9gPq6nUnEJo35CGYHE9Oh5bLPGBQxYHa9r1I7d09aWPwovnkOcZFydpLdvTaqenpiQ6YPdXduw3D1ecvmGCGKQvizxJCqP3bWb3dedCxGHB03lk05811GrcSe3xPPqY11EB86uUWZyiqIcDPNPRPBYKSd7a31CsFlDA=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY2ODEyMDQzNjMxMCwKICAicHJvZmlsZUlkIiA6ICJhNWVmNzE3YWI0MjA0MTQ4ODlhOTI5ZDA5OTA0MzcwMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJXaW5zdHJlYWtlcnoiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDZhNTlmNGFiY2Y1NTE2ZTUwYjVhOWIxY2YyZjdlY2E3OGVhZjBjMDdmZmIyNTRjZDQ1MTMxYjE2OTA2OGE1YSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Increases the duration of any\",1:\"§7consumed Potion by §a10%§7.\",2:\"\",3:\"§f§lCOMMON ACCESSORY\"],Name:\"§fPotion Affinity Talisman\"}}",
   "damage": 3,
   "lore": [
     "§7Increases the duration of any",
     "§7consumed Potion by §a10%§7.",
     "",
     "§f§lCOMMON ACCESSORY"
+  ],
+  "internalname": "POTION_AFFINITY_TALISMAN",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Nether Wart III",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Potion_Affinity_Talisman",
+    "https://wiki.hypixel.net/Potion_Affinity_Talisman"
   ],
   "recipe": {
     "A1": "NETHER_STALK:16",
@@ -19,14 +28,5 @@
     "C1": "NETHER_STALK:16",
     "C2": "NETHER_STALK:16",
     "C3": "NETHER_STALK:16"
-  },
-  "internalname": "POTION_AFFINITY_TALISMAN",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Potion_Affinity_Talisman",
-    "https://wiki.hypixel.net/Potion_Affinity_Talisman"
-  ],
-  "crafttext": "Requires: Nether Wart III"
+  }
 }

@@ -1,14 +1,23 @@
 {
   "itemid": "minecraft:nether_star",
   "displayname": "§5Hyper Catalyst",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Increases the number of\",1:\"§7resources created by this minion\",2:\"§7by §a4x§7 for §a6 hours§7!\",3:\"\",4:\"§5§lEPIC\"],Name:\"§5Hyper Catalyst\"},ExtraAttributes:{id:\"HYPER_CATALYST\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"HYPER_CATALYST\"},HideFlags:254,ItemModel:\"minecraft:nether_star\",display:{Lore:[0:\"§7When in a minion, this increases the\",1:\"§7number of resources created by §a4x\",2:\"§7for §a6 hours§7!\",3:\"\",4:\"§5§lEPIC\"],Name:\"§5Hyper Catalyst\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7Increases the number of",
-    "§7resources created by this minion",
-    "§7by §a4x§7 for §a6 hours§7!",
+    "§7When in a minion, this increases the",
+    "§7number of resources created by §a4x",
+    "§7for §a6 hours§7!",
     "",
     "§5§lEPIC"
+  ],
+  "internalname": "HYPER_CATALYST",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Hyper_Catalyst",
+    "https://wiki.hypixel.net/Hyper_Catalyst"
   ],
   "recipe": {
     "A1": "CATALYST:1",
@@ -21,14 +30,5 @@
     "C2": "CATALYST:1",
     "C3": "CATALYST:1",
     "count": 8
-  },
-  "internalname": "HYPER_CATALYST",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Hyper_Catalyst",
-    "https://wiki.hypixel.net/Hyper_Catalyst"
-  ]
+  }
 }

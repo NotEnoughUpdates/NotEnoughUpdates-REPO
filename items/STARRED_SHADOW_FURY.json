@@ -1,27 +1,34 @@
 {
   "itemid": "minecraft:diamond_sword",
   "displayname": "§6⚚ Shadow Fury",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Gear Score: §d540\",1:\"§7Damage: §c+310 §8(+300)\",2:\"§7Strength: §c+160 §8(+130)\",3:\"§7Crit Damage: §c+60% §8(+30%)\",4:\"§7Speed: §a+40\",5:\" §8[§8❁§8] §8[§8⚔§8]\",6:\"\",7:\"§6Ability: Shadow Fury §e§lRIGHT CLICK\",8:\"§7Rapidly teleports you to up to\",9:\"§7§b5 §7enemies within §e12\",10:\"§e§7blocks, rooting each of them\",11:\"§7and allowing you to hit them.\",12:\"§8Cooldown: §a15s\",13:\"\",14:\"§7§8This item can be reforged!\",15:\"§7§4❣ §cRequires §aThe Catacombs Floor\",16:\"§aV Completion§c.\",17:\"§6§lLEGENDARY DUNGEON SWORD\"],Name:\"§6⚚ Shadow Fury\"},ExtraAttributes:{dungeon_item_level:0,id:\"STARRED_SHADOW_FURY\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"STARRED_SHADOW_FURY\"},HideFlags:254,ItemModel:\"minecraft:diamond_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Gear Score: §d618\",1:\"§7Damage: §c+310\",2:\"§7Strength: §c+160\",3:\"§7Crit Damage: §c+60%\",4:\"§7Speed: §a+40\",5:\" §8[❁] [⚔]\",6:\"\",7:\"§6Ability: Shadow Fury  §e§lRIGHT CLICK\",8:\"§7Rapidly teleports you to up to §b5 §7enemies within\",9:\"§e12 §7blocks, rooting each of them and allowing\",10:\"§7you to hit them.\",11:\"§8Cooldown: §a15s\",12:\"\",13:\"§8This item can be reforged!\",14:\"§4❣ §cRequires The Catacombs Floor V Completion.\",15:\"§6§lLEGENDARY DUNGEON SWORD\"],Name:\"§6⚚ Shadow Fury\"}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d540",
-    "§7Damage: §c+310 §8(+300)",
-    "§7Strength: §c+160 §8(+130)",
-    "§7Crit Damage: §c+60% §8(+30%)",
+    "§7Gear Score: §d618",
+    "§7Damage: §c+310",
+    "§7Strength: §c+160",
+    "§7Crit Damage: §c+60%",
     "§7Speed: §a+40",
-    " §8[§8❁§8] §8[§8⚔§8]",
+    " §8[❁] [⚔]",
     "",
-    "§6Ability: Shadow Fury §e§lRIGHT CLICK",
-    "§7Rapidly teleports you to up to",
-    "§7§b5 §7enemies within §e12",
-    "§e§7blocks, rooting each of them",
-    "§7and allowing you to hit them.",
+    "§6Ability: Shadow Fury  §e§lRIGHT CLICK",
+    "§7Rapidly teleports you to up to §b5 §7enemies within",
+    "§e12 §7blocks, rooting each of them and allowing",
+    "§7you to hit them.",
     "§8Cooldown: §a15s",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aThe Catacombs Floor",
-    "§aV Completion§c.",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires The Catacombs Floor V Completion.",
     "§6§lLEGENDARY DUNGEON SWORD"
+  ],
+  "internalname": "STARRED_SHADOW_FURY",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Shadow_Fury",
+    "https://wiki.hypixel.net/%E2%9A%9A_Shadow_Fury"
   ],
   "recipe": {
     "A1": "LIVID_FRAGMENT:1",
@@ -34,14 +41,5 @@
     "C2": "LIVID_FRAGMENT:1",
     "C3": "LIVID_FRAGMENT:1"
   },
-  "internalname": "STARRED_SHADOW_FURY",
-  "parent": "SHADOW_FURY",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Shadow_Fury",
-    "https://wiki.hypixel.net/%E2%9A%9A_Shadow_Fury"
-  ],
-  "crafttext": ""
+  "parent": "SHADOW_FURY"
 }

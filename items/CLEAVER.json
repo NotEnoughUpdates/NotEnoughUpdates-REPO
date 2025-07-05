@@ -1,20 +1,28 @@
 {
   "itemid": "minecraft:golden_sword",
   "displayname": "§aCleaver",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+40\",1:\"§7Strength: §c+10\",2:\"\",3:\"§6Ability: Cleave\",4:\"§7When hitting an entity, monsters\",5:\"§7in a §a3§7 block range will be\",6:\"§7hit for a portion of that damage\",7:\"§7too.\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§a§lUNCOMMON SWORD\"],Name:\"§aCleaver\"},ExtraAttributes:{id:\"CLEAVER\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"CLEAVER\"},HideFlags:254,ItemModel:\"minecraft:golden_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+40\",1:\"§7Strength: §c+10\",2:\"\",3:\"§6Ability: Cleave \",4:\"§7When hitting an entity, monsters in a §a3§7 block\",5:\"§7range will be hit for a portion of that damage\",6:\"§7too.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§a§lUNCOMMON SWORD\"],Name:\"§aCleaver\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+40",
     "§7Strength: §c+10",
     "",
-    "§6Ability: Cleave",
-    "§7When hitting an entity, monsters",
-    "§7in a §a3§7 block range will be",
-    "§7hit for a portion of that damage",
+    "§6Ability: Cleave ",
+    "§7When hitting an entity, monsters in a §a3§7 block",
+    "§7range will be hit for a portion of that damage",
     "§7too.",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§a§lUNCOMMON SWORD"
+  ],
+  "internalname": "CLEAVER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Gold Ingot II",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Cleaver",
+    "https://wiki.hypixel.net/Cleaver"
   ],
   "recipe": {
     "A1": "GOLD_INGOT:1",
@@ -26,14 +34,5 @@
     "C1": "",
     "C2": "STICK:1",
     "C3": ""
-  },
-  "internalname": "CLEAVER",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Cleaver",
-    "https://wiki.hypixel.net/Cleaver"
-  ],
-  "crafttext": "Requires: Gold Ingot II"
+  }
 }

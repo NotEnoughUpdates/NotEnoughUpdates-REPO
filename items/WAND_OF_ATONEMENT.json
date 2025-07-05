@@ -1,17 +1,26 @@
 {
   "itemid": "minecraft:stick",
   "displayname": "§6Wand of Atonement",
-  "nbttag": "{ench:[],overrideMeta:1b,HideFlags:254,display:{Lore:[0:\"§6Ability: Huge Heal §e§lRIGHT CLICK\",1:\"§7Heal §c170❤§7/s for 7s.\",2:\"§7§8Wand heals don\u0027t stack.\",3:\"§8Mana Cost: §3240\",4:\"§8Cooldown: §a1s\",5:\"\",6:\"§7§4☠ §cRequires §5Zombie Slayer 7§c.\",7:\"§6§lLEGENDARY WAND\"],Name:\"§6Wand of Atonement\"},ExtraAttributes:{id:\"WAND_OF_ATONEMENT\"},AttributeModifiers:[]}",
+  "nbttag": "{ExtraAttributes:{id:\"WAND_OF_ATONEMENT\"},HideFlags:254,ItemModel:\"minecraft:stick\",display:{Lore:[0:\"§6Ability: Huge Heal  §e§lRIGHT CLICK\",1:\"§7Heal §c170❤§7/s for 7s.\",2:\"§8Wand heals don't stack.\",3:\"§8Mana Cost: §3240\",4:\"§8Cooldown: §a1s\",5:\"\",6:\"§4☠ §cRequires §5Zombie Slayer 7§c.\",7:\"§6§lLEGENDARY WAND\"],Name:\"§6Wand of Atonement\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§6Ability: Huge Heal §e§lRIGHT CLICK",
+    "§6Ability: Huge Heal  §e§lRIGHT CLICK",
     "§7Heal §c170❤§7/s for 7s.",
-    "§7§8Wand heals don\u0027t stack.",
+    "§8Wand heals don't stack.",
     "§8Mana Cost: §3240",
     "§8Cooldown: §a1s",
     "",
-    "§7§4☠ §cRequires §5Zombie Slayer 7§c.",
+    "§4☠ §cRequires §5Zombie Slayer 7§c.",
     "§6§lLEGENDARY WAND"
+  ],
+  "internalname": "WAND_OF_ATONEMENT",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Zombie Slayer 7",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Wand_of_Atonement",
+    "https://wiki.hypixel.net/Wand_Of_Atonement"
   ],
   "recipe": {
     "A1": "",
@@ -24,14 +33,5 @@
     "C2": "",
     "C3": ""
   },
-  "internalname": "WAND_OF_ATONEMENT",
-  "crafttext": "Requires: Zombie Slayer 7",
-  "clickcommand": "viewrecipe",
-  "slayer_req": "ZOMBIE_7",
-  "modver": "2.1.1-PRE",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Wand_of_Atonement",
-    "https://wiki.hypixel.net/Wand_Of_Atonement"
-  ]
+  "slayer_req": "ZOMBIE_7"
 }

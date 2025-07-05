@@ -1,13 +1,21 @@
 {
   "itemid": "minecraft:experience_bottle",
   "displayname": "§9Titanic Experience Bottle",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Smash it open to receive\",1:\"§7experience!\",2:\"\",3:\"§9§lRARE\"],Name:\"§9Titanic Experience Bottle\"},ExtraAttributes:{id:\"TITANIC_EXP_BOTTLE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"TITANIC_EXP_BOTTLE\"},HideFlags:254,ItemModel:\"minecraft:experience_bottle\",display:{Lore:[0:\"§7Smash it open to receive experience!\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Titanic Experience Bottle\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7Smash it open to receive",
-    "§7experience!",
+    "§7Smash it open to receive experience!",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "TITANIC_EXP_BOTTLE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Lapis Lazuli VIII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Titanic_Experience_Bottle",
+    "https://wiki.hypixel.net/Titanic_Experience_Bottle"
   ],
   "recipe": {
     "A1": "",
@@ -19,14 +27,5 @@
     "C1": "ENCHANTED_LAPIS_LAZULI_BLOCK:1",
     "C2": "ENCHANTED_LAPIS_LAZULI_BLOCK:1",
     "C3": "ENCHANTED_LAPIS_LAZULI_BLOCK:1"
-  },
-  "internalname": "TITANIC_EXP_BOTTLE",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Titanic_Experience_Bottle",
-    "https://wiki.hypixel.net/Titanic_Experience_Bottle"
-  ],
-  "crafttext": "Requires: Lapis Lazuli VIII"
+  }
 }

@@ -1,25 +1,31 @@
 {
-  "internalname": "EDIBLE_MACE",
   "itemid": "minecraft:mutton",
   "displayname": "§9Edible Mace",
-  "clickcommand": "viewrecipe",
+  "nbttag": "{ExtraAttributes:{id:\"EDIBLE_MACE\"},HideFlags:254,ItemModel:\"minecraft:mutton\",display:{Lore:[0:\"§7Damage: §c+125\",1:\"§7Strength: §c+25\",2:\"\",3:\"§6Ability: ME SMASH HEAD  §e§lRIGHT CLICK\",4:\"§7Your next attack deals §cdouble damage §7and\",5:\"§7weakens animals, making them deal §c-35% §7damage\",6:\"§7for §a30 §7seconds.\",7:\"§8Debuff doesn't stack.\",8:\"§8Mana Cost: §3100\",9:\"\",10:\"§8This item can be reforged!\",11:\"§4☠ §cRequires §5Wolf Slayer 5§c.\",12:\"§9§lRARE SWORD\"],Name:\"§9Edible Mace\"}}",
   "damage": 0,
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Damage: §c+125\",1:\"§7Strength: §c+25\",2:\"\",3:\"§6Ability: ME SMASH HEAD §e§lRIGHT CLICK\",4:\"§7Your next attack deals §cdouble\",5:\"§cdamage §7and weakens animals,\",6:\"§7making them deal §c-35% §7damage\",7:\"§7for §a30 §7seconds.\",8:\"§7§8Debuff doesn\u0027t stack.\",9:\"§8Mana Cost: §3100\",10:\"\",11:\"§7§4☠ §cRequires §5Wolf Slayer 5§c.\",12:\"§9§lRARE SWORD\"],Name:\"§9Edible Mace\"},ExtraAttributes:{modifier:\"sharp\",id:\"EDIBLE_MACE\"}}",
-  "modver": "",
   "lore": [
     "§7Damage: §c+125",
     "§7Strength: §c+25",
     "",
-    "§6Ability: ME SMASH HEAD §e§lRIGHT CLICK",
-    "§7Your next attack deals §cdouble",
-    "§cdamage §7and weakens animals,",
-    "§7making them deal §c-35% §7damage",
+    "§6Ability: ME SMASH HEAD  §e§lRIGHT CLICK",
+    "§7Your next attack deals §cdouble damage §7and",
+    "§7weakens animals, making them deal §c-35% §7damage",
     "§7for §a30 §7seconds.",
-    "§7§8Debuff doesn\u0027t stack.",
+    "§8Debuff doesn't stack.",
     "§8Mana Cost: §3100",
     "",
-    "§7§4☠ §cRequires §5Wolf Slayer 5§c.",
+    "§8This item can be reforged!",
+    "§4☠ §cRequires §5Wolf Slayer 5§c.",
     "§9§lRARE SWORD"
+  ],
+  "internalname": "EDIBLE_MACE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Wolf Slayer 5",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Edible_Mace",
+    "https://wiki.hypixel.net/Edible_Mace"
   ],
   "recipe": {
     "A1": "",
@@ -32,11 +38,5 @@
     "C2": "GOLDEN_TOOTH:18",
     "C3": ""
   },
-  "slayer_req": "WOLF_5",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Edible_Mace",
-    "https://wiki.hypixel.net/Edible_Mace"
-  ],
-  "crafttext": "Requires: Wolf Slayer 5"
+  "slayer_req": "WOLF_5"
 }

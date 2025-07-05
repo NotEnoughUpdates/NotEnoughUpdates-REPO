@@ -1,16 +1,24 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Capsaicin Eyedrops",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"70be2e19-ee50-30bc-9888-1049043747b0\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzU5MjhjMjc4NTAyN2U3YmM0OWZiOTZmZjQ4MDFhNjczZDJhNTllZjMwYjU2MWY5ZjI0NTIxNDZiNDVkZTg5OSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Right-click on an Inferno minion\",1:\"§7with this item to boost its\",2:\"§7chances of creating §cunique\",3:\"§c§7drops from §6Hypergolic §7fuel\",4:\"§7by §a30% §7for §a24 hours§7.\",5:\"\",6:\"§9§lRARE\"],Name:\"§9Capsaicin Eyedrops\"},ExtraAttributes:{id:\"CAPSAICIN_EYEDROPS_NO_CHARGES\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"CAPSAICIN_EYEDROPS_NO_CHARGES\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"e3c028ff-b17f-303f-9e53-68793519b582\",Properties:{textures:[0:{Name:\"textures\",Signature:\"mRaULO0VJo9v2IPf7nZNqaFc3bR+IO+PbGMs6C6Oaa91fbsJzkVVV5+6+2VuhvYBnEbXc/V59lwbV2KwL55tFhak7HRY1nVX6mai99pgONCfkbyMrkHoCxleXEEkG3mTEdH3DVFVVBbR41RgshngKYb2j43xzPeynkqbT+B8ZHnA2mHKILwzwJhlfhHvkon6n8cCYI5ZDq5+Npeelo+9k/NX8Uzr9C/J6WUXDW/WdUf2FnwJel684Yg6V+8euX5qiNwGIYmfojUwfyMnhZPIrPhyUIROl699hxkpCzA3//djTdb7c8+idmj2ypsyFqrF7TElvx4dik9402lYAf/cn/VVGX1MZR0z0ZOwX1qgimdALtw5rSFE7gWUDbXcdhlgyra+m06amOVEtNl6fo5WI3bOiFkiGco//nJwW204rxnhYBlKPzvIPVZBUqBS/Va9I73sFHX20W8UXxjp5An8Ne9JjQHDDeLjd6YaksMaU+TaEwUhVcOSTF1mnjIQcJBH8Vh/K977l7N9JSWMxKYtgicnwM65vTXVpRlg4Cf7DIMvlkKM2D2M55Jk4Wd98B6KfY/75P0bqY7eF0Wx87wvvXn15o9wZ40bKItecJ559QWB5OUismrgGpgqLYw6LY3sBjPup6QChTqwRjZvlPRkYJe5hJSCSoOad4euc5Gg9MA=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxOTc5Nzg2ODU5NCwKICAicHJvZmlsZUlkIiA6ICJmNDY0NTcxNDNkMTU0ZmEwOTkxNjBlNGJmNzI3ZGNiOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWxhcGFnbzA1IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M1OTI4YzI3ODUwMjdlN2JjNDlmYjk2ZmY0ODAxYTY3M2QyYTU5ZWYzMGI1NjFmOWYyNDUyMTQ2YjQ1ZGU4OTkiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Right-click on an Inferno minion with\",1:\"§7this item to boost its chances of\",2:\"§7creating §cunique §7drops from\",3:\"§6Hypergolic §7fuel by §a30% §7for §a24 hours§7.\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Capsaicin Eyedrops\"}}",
   "damage": 3,
   "lore": [
-    "§7Right-click on an Inferno minion",
-    "§7with this item to boost its",
-    "§7chances of creating §cunique",
-    "§c§7drops from §6Hypergolic §7fuel",
-    "§7by §a30% §7for §a24 hours§7.",
+    "§7Right-click on an Inferno minion with",
+    "§7this item to boost its chances of",
+    "§7creating §cunique §7drops from",
+    "§6Hypergolic §7fuel by §a30% §7for §a24 hours§7.",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "CAPSAICIN_EYEDROPS_NO_CHARGES",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Chili Pepper III",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Capsaicin_Eyedrops",
+    "https://wiki.hypixel.net/Capsaicin_Eyedrops"
   ],
   "recipe": {
     "A1": "CHILI_PEPPER:1",
@@ -23,14 +31,5 @@
     "C2": "EXPORTABLE_CARROTS:64",
     "C3": "CHILI_PEPPER:1",
     "count": 3
-  },
-  "internalname": "CAPSAICIN_EYEDROPS_NO_CHARGES",
-  "crafttext": "Requires: Chili Pepper III",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Capsaicin_Eyedrops",
-    "https://wiki.hypixel.net/Capsaicin_Eyedrops"
-  ],
-  "infoType": "WIKI_URL"
+  }
 }

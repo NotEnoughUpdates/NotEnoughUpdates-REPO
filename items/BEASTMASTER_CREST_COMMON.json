@@ -1,18 +1,27 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§fBeastmaster Crest",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"367cd0f2-adc7-3bc1-af47-a14feebe3e5f\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTM0MTU2NjdkZTNmYjg5YzVmNDBjODgwYzM5ZTQ5NzFhMGNhYTdmM2E5ZDJjOGY3MTJiYTM3ZmFkY2VlIn19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7Pet Exp Boost: §a+0.1%\",1:\"\",2:\"§7Gains stats based on how many\",3:\"§7mythological creatures and Minos\",4:\"§7followers you\u0027ve slain.\",5:\"\",6:\"§7Your kills: §2§k0§8/25\",7:\"\",8:\"§f§lCOMMON ACCESSORY\"],Name:\"§fBeastmaster Crest\"},ExtraAttributes:{id:\"BEASTMASTER_CREST_COMMON\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"BEASTMASTER_CREST_COMMON\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"6bf14ade-9492-353c-ba43-38a96ee8829e\",Properties:{textures:[0:{Name:\"textures\",Signature:\"SAgJTjTdp1/Ln/7LgTk86I9iaGYfQuWtltcdsdZNEHIJEFqEbXk34eFeYNbZw4qvw2sSg9fdhYvvKswS4DEpq4Z+T/1CPd10IaXW4UlcUshi9fPO3PtSQJcRKDzkxa2p1IhHivsmKXn/QwLN5krcW8Un4YyXaaNy8gKgBq/PGpbktmHjGdBOEozvo76zmgrclKfBD8A0+0wofPjTADJBP5ItrdWfjZ1w6T4K2khakH0yFvmixRd9Z8bxgA3we4ew5hsMGWzvlej/fvRnlrd5dtgtlb4M3OA9gNTA7loBVzpPeQX+Wxq0G4We8PJiKa4Jopuw2NcnrRFzs9AiSCbShmfn23jK2vBnwBDrkxUIluF7aKRnB7FWX1svOoTMWUCfgN47POQY52d9aivXaRgozK9XlcAIIAE1YKTk7Oqq9AhqLcd8r4jcLrfyj9NJr2ZeIY3/IPz5yZvp9YSXmGPUqGehARNNDVsc1qzxnel+llHAArBOTXO3Iow3oKtaCUd3mAx96LkdGc/kgOzHJYU3QOgJuBFkC2o5c4gz1CV0Ncj7aj+OHv11p0MZz7+XEm9fA8T5MLJMzTb/8W6TmYTuaqA+Xue2ITesTxDrgN70XPoP87bwfB5fkxhVFSJVa5h9/Jre/wI6Layn1BD6doM9jEISLKQHl7nkA9zIKNUKq+E=\",Value:\"eyJ0aW1lc3RhbXAiOjE0NjQwNDA4OTY2ODksInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJJbnZlbnRpdmVHYW1lcyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTM0MTU2NjdkZTNmYjg5YzVmNDBjODgwYzM5ZTQ5NzFhMGNhYTdmM2E5ZDJjOGY3MTJiYTM3ZmFkY2VlIn19fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Pet Exp Boost: §a+0.1%\",1:\"\",2:\"§7Gains stats based on how many\",3:\"§7mythological creatures and Minos\",4:\"§7followers you've slain.\",5:\"\",6:\"§7Your kills: §20§8/25\",7:\"\",8:\"§f§lCOMMON ACCESSORY\"],Name:\"§fBeastmaster Crest\"}}",
   "damage": 3,
   "lore": [
     "§7Pet Exp Boost: §a+0.1%",
     "",
     "§7Gains stats based on how many",
     "§7mythological creatures and Minos",
-    "§7followers you\u0027ve slain.",
+    "§7followers you've slain.",
     "",
-    "§7Your kills: §2§k0§8/25",
+    "§7Your kills: §20§8/25",
     "",
     "§f§lCOMMON ACCESSORY"
+  ],
+  "internalname": "BEASTMASTER_CREST_COMMON",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Beastmaster_Crest",
+    "https://wiki.hypixel.net/Beastmaster_Crest"
   ],
   "recipe": {
     "A1": "GRIFFIN_FEATHER:1",
@@ -24,14 +33,5 @@
     "C1": "GRIFFIN_FEATHER:1",
     "C2": "ANCIENT_CLAW:10",
     "C3": "GRIFFIN_FEATHER:1"
-  },
-  "internalname": "BEASTMASTER_CREST_COMMON",
-  "crafttext": "",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Beastmaster_Crest",
-    "https://wiki.hypixel.net/Beastmaster_Crest"
-  ]
+  }
 }

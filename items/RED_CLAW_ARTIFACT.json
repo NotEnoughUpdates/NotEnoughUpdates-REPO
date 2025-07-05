@@ -1,16 +1,22 @@
 {
-  "internalname": "RED_CLAW_ARTIFACT",
   "itemid": "minecraft:skull",
   "displayname": "§5Red Claw Artifact",
-  "clickcommand": "viewrecipe",
+  "nbttag": "{ExtraAttributes:{id:\"RED_CLAW_ARTIFACT\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"01bb8d0b-1b2e-32c3-9f33-41c60d9bf12e\",Properties:{textures:[0:{Name:\"textures\",Signature:\"kGMfO3jZP1j1l8Fe1WM7MdeuigoQ5dJoaiHaaHP0X37ApjArxF1/LT5LJdGo880vzBpun8barA7eKH6l+z9FqMY2QQsN52wvpYwkNyn1VQjRwKaa4apu88AArho+9GZRvAAtjIZFtsnlOd+M8cNjsyGYv6/ZyE0AkecnK9x5NJFGW1hZmuT3YyvVXpfw6ZeclQTZLzpECZoKRFieBEViPCR/rxwqzamVD9PeHUo6gAi6x6yZMtq7EiPm2Cv8SUnW1/TGPNGNF2EsdmnqjtOYcGNR46/gMtsdsTxoPd+2lWHXTm8d0QJl8e1Ob1ikUWfv21fmXGKUzgRvY1v9c5r4yVklzw4dXXxBNfkyUkHAOztWF0mAsXyaabtf9YNXE0yn5H2ClFyZI7qBlEs4EiIq5AiohycN8RdT1GNeqIL1z5bdg6XtXO9wXFtAzgZa8UKS8NuQugjXcHvQzqBSQCzuX+cWVrwn8YgzoiTuWlgN83kKXP1016Cbo8aOywUzEbDl36C8dDj3uhetsDboQGaKaM73AzPJuKvPS0NlaTJ6fhD/YlPp5cBRAO2g4VFk+tKGeli5gI/YlNZ0/3jxcxVQwdOmvnee5b/mwcRUpIMVT0cXaf2/+F7cIrmVSdr+PIet05SvlLDW2mDDAbYQQIDVJFMLdU6tSYS4ZlI9ljzz9Hg=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwMjAzOTI1Njg2MSwKICAicHJvZmlsZUlkIiA6ICI5ZDEzZjcyMTcxM2E0N2U0OTAwZTMyZGVkNjBjNDY3MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJUYWxvZGFvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NhZjU5YjhhYTBmODM1NDZlZjBkMTc4Y2NmODdlN2VkODhjZjc4NThjYWFlNzliMzYzM2NiZDc1YjY1MDUyNWYiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Crit Damage: §c+5%\",1:\"\",2:\"§4☠ §cRequires §5Wolf Slayer 5§c.\",3:\"§5§lEPIC ACCESSORY\"],Name:\"§5Red Claw Artifact\"}}",
   "damage": 3,
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"78146467-3ebe-3485-ae05-e8f8df8dd788\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NzA1NTAwMzc2MTYsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NhZjU5YjhhYTBmODM1NDZlZjBkMTc4Y2NmODdlN2VkODhjZjc4NThjYWFlNzliMzYzM2NiZDc1YjY1MDUyNWYifX19\"}]}},display:{Lore:[0:\"§7Crit Damage: §c+5% \",1:\"\",2:\"§7§4☠ §cRequires §5Wolf Slayer 5§c.\",3:\"§5§lEPIC ACCESSORY\"],Name:\"§5Red Claw Artifact\"},ExtraAttributes:{modifier:\"strong\",id:\"RED_CLAW_ARTIFACT\"}}",
-  "modver": "",
   "lore": [
-    "§7Crit Damage: §c+5% ",
+    "§7Crit Damage: §c+5%",
     "",
-    "§7§4☠ §cRequires §5Wolf Slayer 5§c.",
+    "§4☠ §cRequires §5Wolf Slayer 5§c.",
     "§5§lEPIC ACCESSORY"
+  ],
+  "internalname": "RED_CLAW_ARTIFACT",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Wolf Slayer 5",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Red_Claw_Artifact",
+    "https://wiki.hypixel.net/Red_Claw_Artifact"
   ],
   "recipe": {
     "A1": "ENCHANTED_LEATHER:32",
@@ -23,11 +29,5 @@
     "C2": "RED_CLAW_RING:1",
     "C3": "ENCHANTED_LEATHER:32"
   },
-  "slayer_req": "WOLF_5",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Red_Claw_Artifact",
-    "https://wiki.hypixel.net/Red_Claw_Artifact"
-  ],
-  "crafttext": "Requires: Wolf Slayer 5"
+  "slayer_req": "WOLF_5"
 }
