@@ -1,16 +1,17 @@
 {
-  "internalname": "SHRIMP_THE_FISH",
   "itemid": "minecraft:fish",
   "displayname": "§cShrimp the Fish",
-  "clickcommand": "",
+  "nbttag": "{ExtraAttributes:{id:\"SHRIMP_THE_FISH\"},HideFlags:254,ItemModel:\"minecraft:cod\",display:{Lore:[0:\"§7I achieved nothing.\",1:\"\",2:\"§c§lSPECIAL\"],Name:\"§cShrimp the Fish\"},ench:[]}",
   "damage": 0,
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7I achieved nothing.\",1:\"\",2:\"§c§lSPECIAL\"],Name:\"§cShrimp the Fish\"},ExtraAttributes:{id:\"SHRIMP_THE_FISH\"}}",
-  "modver": "2.1.0-REL",
   "lore": [
     "§7I achieved nothing.",
     "",
     "§c§lSPECIAL"
   ],
+  "internalname": "SHRIMP_THE_FISH",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Shrimp_the_Fish",
@@ -18,9 +19,9 @@
   ],
   "recipes": [
     {
-    "type": "trade",
-    "cost": "ENCHANTED_EMERALD:6",
-    "result": "SHRIMP_THE_FISH"
+      "type": "trade",
+      "cost": "ENCHANTED_EMERALD:6",
+      "result": "SHRIMP_THE_FISH"
     }
   ]
 }
