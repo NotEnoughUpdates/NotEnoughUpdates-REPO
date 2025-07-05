@@ -1,0 +1,39 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "PRIMAL_FEAR_RUNE;3",
+			runes: {
+				PRIMAL_FEAR: 3
+			}
+		},
+		"minecraft:dyed_color": 10511680,
+		"minecraft:enchantment_glint_override": 1b,
+		"minecraft:profile": {
+			id: [I;
+				-559912510,
+				-187810646,
+				-1519882217,
+				1030005054
+			],
+			name: "",
+			properties: [
+				{
+					name: "textures",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTY5ODkzNTA0NjUyMCwKICAicHJvZmlsZUlkIiA6ICI3YWZjZmJjYjQ1Mzg0NDkxYWUwYjIwNGJiMWEyOThmOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBeXNlbF8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRhMDVlNDZjNzI4NTFmNWQwZWIyMTAzMzk5ZDljMjkxNDAzM2VlOTA5NDU4YTk1OTg5NWFmNjg3YWQwMDFlMiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:attribute_modifiers",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g64ef955"
+	}
+}

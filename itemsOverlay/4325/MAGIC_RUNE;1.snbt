@@ -1,0 +1,37 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "MAGIC_RUNE;1",
+			runes: {
+				MAGIC: 1
+			}
+		},
+		"minecraft:dyed_color": 10511680,
+		"minecraft:profile": {
+			id: [I;
+				763120173,
+				-615827329,
+				-1408797562,
+				-1787203978
+			],
+			name: "",
+			properties: [
+				{
+					name: "textures",
+					value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI0NDgwZTM5ZWE2M2UzNDdkMjY4ZGU4MzA5MGQwOTk4NGJmMzQzOTQxMTg4NDgzNDhiZjRlYjU3NDkwY2U5ZDIifX19"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g64ef955"
+	}
+}

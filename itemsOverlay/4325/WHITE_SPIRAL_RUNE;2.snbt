@@ -1,0 +1,38 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "WHITE_SPIRAL_RUNE;2",
+			runes: {
+				WHITE_SPIRAL: 2
+			}
+		},
+		"minecraft:dyed_color": 10511680,
+		"minecraft:profile": {
+			id: [I;
+				-582603267,
+				161822575,
+				-1528308182,
+				750567467
+			],
+			name: "",
+			properties: [
+				{
+					name: "textures",
+					value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNlZjI0MzJlZjMwNTM2MTM4NGQ0MzE4ZGY1YmRhNWJkMWFjMmQ5YmVhMDZkMWY1Y2ZlYWQ2ZGQ4N2UzN2RkZjUifX19"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:attribute_modifiers",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g64ef955"
+	}
+}

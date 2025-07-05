@@ -1,0 +1,38 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "DRAGON_RUNE;3",
+			runes: {
+				DRAGON: 3
+			}
+		},
+		"minecraft:dyed_color": 10511680,
+		"minecraft:profile": {
+			id: [I;
+				-1660427499,
+				-2013711897,
+				-1734212750,
+				-338106784
+			],
+			name: "",
+			properties: [
+				{
+					name: "textures",
+					value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNiMTFmYjkwZGI3ZjU3YmViNDM1OTU0MDEzYjFjN2VmNzc2YzZiZDk2Y2JmMzMwOGFhOGViYWMyOTU5MWViYmQifX19"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:attribute_modifiers",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g64ef955"
+	}
+}

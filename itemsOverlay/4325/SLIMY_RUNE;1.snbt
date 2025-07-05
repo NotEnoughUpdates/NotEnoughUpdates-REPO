@@ -1,0 +1,37 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "SLIMY_RUNE;1",
+			runes: {
+				SLIMY: 1
+			}
+		},
+		"minecraft:dyed_color": 10511680,
+		"minecraft:profile": {
+			id: [I;
+				63392374,
+				920204139,
+				-1427941592,
+				118672641
+			],
+			name: "",
+			properties: [
+				{
+					name: "textures",
+					value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE0MTM5OWU3OTFmNzk1YmJjNDc2YjU2OTZkNzUwNzg2NTY4NDdhNjliYmJiMzE3MzVmMWQ5MDU3OWZjZDA1NiJ9fX0="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g64ef955"
+	}
+}
