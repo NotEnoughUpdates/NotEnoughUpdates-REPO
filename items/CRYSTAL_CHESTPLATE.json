@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:leather_chestplate",
   "displayname": "§5Crystal Chestplate",
-  "nbttag": "{ExtraAttributes:{id:\"CRYSTAL_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:leather_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+35\",1:\"§7Intelligence: §a+120\",2:\"\",3:\"§6Full Set Bonus: Refraction §7(0/4)\",4:\"§7The stats of this armor change from\",5:\"§a0§7 to §a200%§7 depending on the current\",6:\"§7light level.\",7:\"\",8:\"§7Current Light Level\",9:\"§c0§8 (0%)\",10:\"\",11:\"§8This item can be reforged!\",12:\"§5§lEPIC CHESTPLATE\"],Name:\"§5Crystal Chestplate\"}}",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+35\",1:\"§7Intelligence: §a+120\",2:\"\",3:\"§6Full Set Bonus: Refraction §7(0/4)\",4:\"§7The stats of this armor change from\",5:\"§7§a0§7 to §a200%§7 depending on the current\",6:\"§7light level.\",7:\"\",8:\"§7Current Light Level\",9:\"§c0§8 (0%)\",10:\"\",11:\"§7§8This item can be reforged!\",12:\"§5§lEPIC CHESTPLATE\"],color:16577535,Name:\"§5Crystal Chestplate\"},ExtraAttributes:{id:\"CRYSTAL_CHESTPLATE\"}}",
   "damage": 0,
   "lore": [
     "§7Defense: §a+35",
@@ -9,23 +9,14 @@
     "",
     "§6Full Set Bonus: Refraction §7(0/4)",
     "§7The stats of this armor change from",
-    "§a0§7 to §a200%§7 depending on the current",
+    "§7§a0§7 to §a200%§7 depending on the current",
     "§7light level.",
     "",
     "§7Current Light Level",
     "§c0§8 (0%)",
     "",
-    "§8This item can be reforged!",
+    "§7§8This item can be reforged!",
     "§5§lEPIC CHESTPLATE"
-  ],
-  "internalname": "CRYSTAL_CHESTPLATE",
-  "clickcommand": "viewrecipe",
-  "crafttext": "",
-  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Crystal_Chestplate",
-    "https://wiki.hypixel.net/Crystal_Chestplate"
   ],
   "recipe": {
     "A1": "CRYSTAL_FRAGMENT:1",
@@ -37,5 +28,14 @@
     "C1": "CRYSTAL_FRAGMENT:1",
     "C2": "CRYSTAL_FRAGMENT:1",
     "C3": "CRYSTAL_FRAGMENT:1"
-  }
+  },
+  "internalname": "CRYSTAL_CHESTPLATE",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Crystal_Chestplate",
+    "https://wiki.hypixel.net/Crystal_Chestplate"
+  ],
+  "crafttext": ""
 }

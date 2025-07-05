@@ -1,8 +1,11 @@
 {
+  "internalname": "TARANTULA_CHESTPLATE",
   "itemid": "minecraft:leather_chestplate",
   "displayname": "§5Tarantula Chestplate",
-  "nbttag": "{ExtraAttributes:{id:\"TARANTULA_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:leather_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+120\",1:\"§7Defense: §a+100\",2:\"§7Intelligence: §a+100\",3:\"\",4:\"§6Full Set Bonus: Octodexterity §7(0/4)\",5:\"§7Every 4th strike, deal §cdouble damage\",6:\"§7and apply Venom reducing healing by\",7:\"§240% §7for §b4 §7seconds.\",8:\"\",9:\"§6Piece Bonus: Spider Bulwark\",10:\"§7Kill Spiders to accumulate defense\",11:\"§7against them.\",12:\"§7Piece Bonus: §a+0❈\",13:\"§7Next Upgrade: §a+20❈ §8(§a0§7/§c50§8)\",14:\"\",15:\"§4This item is Arachnal Ж!\",16:\"\",17:\"§6Extra Bonus: §aAnti-Toxin\",18:\"§7Immune to healing reduction.\",19:\"\",20:\"§8This item can be reforged!\",21:\"§4☠ §cRequires §5Spider Slayer 4§c.\",22:\"§5§lEPIC CHESTPLATE\"],Name:\"§5Tarantula Chestplate\"}}",
+  "clickcommand": "viewrecipe",
   "damage": 0,
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+120\",1:\"§7Defense: §a+100\",2:\"§7Intelligence: §a+100\",3:\"\",4:\"§6Full Set Bonus: Octodexterity §7(0/4)\",5:\"§7Every 4th strike, deal §cdouble damage\",6:\"§c§7and apply Venom reducing healing by\",7:\"§7§240% §7for §b4 §7seconds.\",8:\"\",9:\"§6Piece Bonus: Spider Bulwark\",10:\"§7Kill Spiders to accumulate defense\",11:\"§7against them.\",12:\"§7Piece Bonus: §a+0❈\",13:\"§7Next Upgrade: §a+20❈ §8(§a0§7/§c50§8)\",14:\"\",15:\"§4This item is Arachnal Ж!\",16:\"\",17:\"§6Extra Bonus: §aAnti-Toxin\",18:\"§7Immune to healing reduction.\",19:\"\",20:\"§7§8This item can be reforged!\",21:\"§7§4☠ §cRequires §5Spider Slayer 4§c.\",22:\"§5§lEPIC CHESTPLATE\"],color:0,Name:\"§5Tarantula Chestplate\"},ExtraAttributes:{id:\"TARANTULA_CHESTPLATE\"}}",
+  "modver": "",
   "lore": [
     "§7Health: §a+120",
     "§7Defense: §a+100",
@@ -10,8 +13,8 @@
     "",
     "§6Full Set Bonus: Octodexterity §7(0/4)",
     "§7Every 4th strike, deal §cdouble damage",
-    "§7and apply Venom reducing healing by",
-    "§240% §7for §b4 §7seconds.",
+    "§c§7and apply Venom reducing healing by",
+    "§7§240% §7for §b4 §7seconds.",
     "",
     "§6Piece Bonus: Spider Bulwark",
     "§7Kill Spiders to accumulate defense",
@@ -24,18 +27,9 @@
     "§6Extra Bonus: §aAnti-Toxin",
     "§7Immune to healing reduction.",
     "",
-    "§8This item can be reforged!",
-    "§4☠ §cRequires §5Spider Slayer 4§c.",
+    "§7§8This item can be reforged!",
+    "§7§4☠ §cRequires §5Spider Slayer 4§c.",
     "§5§lEPIC CHESTPLATE"
-  ],
-  "internalname": "TARANTULA_CHESTPLATE",
-  "clickcommand": "viewrecipe",
-  "crafttext": "Requires: Spider Slayer 4",
-  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Tarantula_Chestplate",
-    "https://wiki.hypixel.net/Tarantula_Chestplate"
   ],
   "recipe": {
     "A1": "ENCHANTED_IRON:64",
@@ -48,5 +42,11 @@
     "C2": "TARANTULA_SILK:1",
     "C3": "TARANTULA_SILK:1"
   },
-  "slayer_req": "SPIDER_5"
+  "slayer_req": "SPIDER_5",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Tarantula_Chestplate",
+    "https://wiki.hypixel.net/Tarantula_Chestplate"
+  ],
+  "crafttext": "Requires: Spider Slayer 4"
 }

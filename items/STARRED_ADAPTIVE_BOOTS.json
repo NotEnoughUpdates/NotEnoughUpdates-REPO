@@ -1,11 +1,11 @@
 {
   "itemid": "minecraft:leather_boots",
   "displayname": "§5⚚ Adaptive Boots",
-  "nbttag": "{ExtraAttributes:{id:\"STARRED_ADAPTIVE_BOOTS\"},HideFlags:254,ItemModel:\"minecraft:leather_boots\",Unbreakable:1B,display:{Lore:[0:\"§7Gear Score: §d283\",1:\"§7Strength: §c+15\",2:\"§7Health: §a+100\",3:\"§7Defense: §a+55\",4:\"§7Intelligence: §a+15\",5:\" §8[§7⚔§8]\",6:\"\",7:\"§6Full Set Bonus: Efficient training §7(0/4)\",8:\"§7Every §b5 §7Catacombs levels, this armor piece\",9:\"§7gains +§a2% §7stats.\",10:\"\",11:\"§7Grants additional bonuses based on your\",12:\"§7selected dungeon class!\",13:\"\",14:\"§bBerserk§7: +§c20❁ Strength\",15:\"§bHealer§7: +§a5☄ Mending§7, +§c40❤ Health\",16:\"§bMage§7: +§b50✎ Intelligence\",17:\"§bTank§7: +§a30❈ Defense§7 and reduces damage\",18:\"§7taken by §b5% §7for each piece you have equipped\",19:\"§7if you are hit by the same monster within §e10\",20:\"§7seconds.\",21:\"§bArcher§7: +§95☣ Crit Chance§7, +§915☠ Crit Damage\",22:\"\",23:\"§8This item can be reforged!\",24:\"§4❣ §cRequires The Catacombs Floor III Completion.\",25:\"§5§lEPIC DUNGEON BOOTS\"],Name:\"§5⚚ Adaptive Boots\"}}",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Gear Score: §d283 \",1:\"§7Strength: §c+15 \",2:\"§7Health: §a+100\",3:\"§7Defense: §a+55\",4:\"§7Intelligence: §a+15\",5:\" §8[§7⚔§8]\",6:\"\",7:\"§6Full Set Bonus: Efficient training §7(0/4)\",8:\"§7Every §b5 §7Catacombs levels, this armor piece\",9:\"§7gains +§a2% §7stats.\",10:\"\",11:\"§7Grants additional bonuses based on your\",12:\"§7selected dungeon class!\",13:\"\",14:\"§7§bBerserk§7: §7+§c20❁ Strength\",15:\"§7§bHealer§7: §7+§a5☄ Mending§7, +§c40❤ Health\",16:\"§7§bMage§7: §7+§b50✎ Intelligence\",17:\"§7§bTank§7: §7+§a30❈ Defense§7 and reduces damage\",18:\"§7taken by §b5% §7for each piece you have equipped\",19:\"§7if you are hit by the same monster within §e10\",20:\"§e§7seconds.\",21:\"§7§bArcher§7: §7+§95☣ Crit Chance§7, +§915☠ Crit Damage\",22:\"\",23:\"§7§8This item can be reforged!\",24:\"§7§4❣ §cRequires §aThe Catacombs Floor\",25:\"§aIII Completion§c.\",26:\"§5§lEPIC DUNGEON BOOTS\"],color:12565682,Name:\"§5⚚ Adaptive Boots\"},ExtraAttributes:{dungeon_item_level:0,id:\"STARRED_ADAPTIVE_BOOTS\"}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d283",
-    "§7Strength: §c+15",
+    "§7Gear Score: §d283 ",
+    "§7Strength: §c+15 ",
     "§7Health: §a+100",
     "§7Defense: §a+55",
     "§7Intelligence: §a+15",
@@ -18,27 +18,19 @@
     "§7Grants additional bonuses based on your",
     "§7selected dungeon class!",
     "",
-    "§bBerserk§7: +§c20❁ Strength",
-    "§bHealer§7: +§a5☄ Mending§7, +§c40❤ Health",
-    "§bMage§7: +§b50✎ Intelligence",
-    "§bTank§7: +§a30❈ Defense§7 and reduces damage",
+    "§7§bBerserk§7: §7+§c20❁ Strength",
+    "§7§bHealer§7: §7+§a5☄ Mending§7, +§c40❤ Health",
+    "§7§bMage§7: §7+§b50✎ Intelligence",
+    "§7§bTank§7: §7+§a30❈ Defense§7 and reduces damage",
     "§7taken by §b5% §7for each piece you have equipped",
     "§7if you are hit by the same monster within §e10",
-    "§7seconds.",
-    "§bArcher§7: +§95☣ Crit Chance§7, +§915☠ Crit Damage",
+    "§e§7seconds.",
+    "§7§bArcher§7: §7+§95☣ Crit Chance§7, +§915☠ Crit Damage",
     "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires The Catacombs Floor III Completion.",
+    "§7§8This item can be reforged!",
+    "§7§4❣ §cRequires §aThe Catacombs Floor",
+    "§aIII Completion§c.",
     "§5§lEPIC DUNGEON BOOTS"
-  ],
-  "internalname": "STARRED_ADAPTIVE_BOOTS",
-  "clickcommand": "viewrecipe",
-  "crafttext": "",
-  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Adaptive_Armor#Adaptive_Armor_(Starred)_",
-    "https://wiki.hypixel.net/⚚_Adaptive_Boots"
   ],
   "recipe": {
     "A1": "SCARF_FRAGMENT:1",
@@ -51,5 +43,14 @@
     "C2": "SCARF_FRAGMENT:1",
     "C3": "SCARF_FRAGMENT:1"
   },
-  "parent": "ADAPTIVE_BOOTS"
+  "internalname": "STARRED_ADAPTIVE_BOOTS",
+  "parent": "ADAPTIVE_BOOTS",
+  "clickcommand": "viewrecipe",
+  "modver": "",
+  "crafttext": "",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Adaptive_Armor#Adaptive_Armor_(Starred)_",
+    "https://wiki.hypixel.net/⚚_Adaptive_Boots"
+  ]
 }

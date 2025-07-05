@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:leather_boots",
   "displayname": "§6Superior Dragon Boots",
-  "nbttag": "{ExtraAttributes:{id:\"SUPERIOR_DRAGON_BOOTS\"},HideFlags:254,ItemModel:\"minecraft:leather_boots\",Unbreakable:1B,display:{Lore:[0:\"§7Strength: §c+10\",1:\"§7Crit Chance: §c+2%\",2:\"§7Crit Damage: §c+10%\",3:\"§7Health: §a+80\",4:\"§7Defense: §a+110\",5:\"§7Speed: §a+3\",6:\"§7Intelligence: §a+25\",7:\" §8[⚔]\",8:\"\",9:\"§6Full Set Bonus: Superior Blood §7(0/4)\",10:\"§7Most of your stats are increased by\",11:\"§a5%§7 and §6Aspect of the Dragons§7 ability\",12:\"§7deals §a50%§7 more damage.\",13:\"\",14:\"§8This item can be reforged!\",15:\"§4❣ §cRequires §aCombat Skill 20§c.\",16:\"§6§lLEGENDARY BOOTS\"],Name:\"§6Superior Dragon Boots\"}}",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Strength: §c+10\",1:\"§7Crit Chance: §c+2%\",2:\"§7Crit Damage: §c+10%\",3:\"§7Health: §a+80\",4:\"§7Defense: §a+110\",5:\"§7Speed: §a+3\",6:\"§7Intelligence: §a+25\",7:\" §8[§8⚔§8]\",8:\"\",9:\"§6Full Set Bonus: Superior Blood §7(0/4)\",10:\"§7Most of your stats are increased by\",11:\"§7§a5%§7 and §6Aspect of the Dragons§7 ability\",12:\"§7deals §a50%§7 more damage.\",13:\"\",14:\"§7§8This item can be reforged!\",15:\"§7§4❣ §cRequires §aCombat Skill 20§c.\",16:\"§6§lLEGENDARY BOOTS\"],color:15883544,Name:\"§6Superior Dragon Boots\"},ExtraAttributes:{id:\"SUPERIOR_DRAGON_BOOTS\"}}",
   "damage": 0,
   "lore": [
     "§7Strength: §c+10",
@@ -11,25 +11,16 @@
     "§7Defense: §a+110",
     "§7Speed: §a+3",
     "§7Intelligence: §a+25",
-    " §8[⚔]",
+    " §8[§8⚔§8]",
     "",
     "§6Full Set Bonus: Superior Blood §7(0/4)",
     "§7Most of your stats are increased by",
-    "§a5%§7 and §6Aspect of the Dragons§7 ability",
+    "§7§a5%§7 and §6Aspect of the Dragons§7 ability",
     "§7deals §a50%§7 more damage.",
     "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §aCombat Skill 20§c.",
+    "§7§8This item can be reforged!",
+    "§7§4❣ §cRequires §aCombat Skill 20§c.",
     "§6§lLEGENDARY BOOTS"
-  ],
-  "internalname": "SUPERIOR_DRAGON_BOOTS",
-  "clickcommand": "viewrecipe",
-  "crafttext": "",
-  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Superior_Dragon_Boots",
-    "https://wiki.hypixel.net/Superior_Dragon_Boots"
   ],
   "recipe": {
     "A1": "SUPERIOR_FRAGMENT:10",
@@ -41,5 +32,14 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "internalname": "SUPERIOR_DRAGON_BOOTS",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Superior_Dragon_Boots",
+    "https://wiki.hypixel.net/Superior_Dragon_Boots"
+  ],
+  "crafttext": ""
 }

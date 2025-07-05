@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:leather_chestplate",
   "displayname": "§9Shimmering Light Tunic",
-  "nbttag": "{ExtraAttributes:{id:\"SHIMMERING_LIGHT_TUNIC\"},HideFlags:254,ItemModel:\"minecraft:leather_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+130\",1:\"§7Defense: §a+120\",2:\"§7Intelligence: §a+120\",3:\" §8[§7⚔§8]\",4:\"\",5:\"§8Tiered Bonus: Shimmer (0/4)\",6:\"§7Increases all §aExperience Orbs\",7:\"§7gained from monsters and ores by\",8:\"§a200%§7.\",9:\"\",10:\"§8This item can be reforged!\",11:\"§4❣ §cRequires §aCombat Skill 22§c.\",12:\"§9§lRARE CHESTPLATE\"],Name:\"§9Shimmering Light Tunic\"}}",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+130\",1:\"§7Defense: §a+120\",2:\"§7Intelligence: §a+120\",3:\" §8[§7⚔§8]\",4:\"\",5:\"§8Tiered Bonus: Shimmer (0/4)\",6:\"§7Increases all §aExperience Orbs\",7:\"§a§7gained from monsters and ores\",8:\"§7by §a200%§7.\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§7§4❣ §cRequires §aCombat Skill 22§c.\",12:\"§9§lRARE CHESTPLATE\"],color:459547,Name:\"§9Shimmering Light Tunic\"},ExtraAttributes:{id:\"SHIMMERING_LIGHT_TUNIC\"}}",
   "damage": 0,
   "lore": [
     "§7Health: §a+130",
@@ -11,21 +11,12 @@
     "",
     "§8Tiered Bonus: Shimmer (0/4)",
     "§7Increases all §aExperience Orbs",
-    "§7gained from monsters and ores by",
-    "§a200%§7.",
+    "§a§7gained from monsters and ores",
+    "§7by §a200%§7.",
     "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §aCombat Skill 22§c.",
+    "§7§8This item can be reforged!",
+    "§7§4❣ §cRequires §aCombat Skill 22§c.",
     "§9§lRARE CHESTPLATE"
-  ],
-  "internalname": "SHIMMERING_LIGHT_TUNIC",
-  "clickcommand": "viewrecipe",
-  "crafttext": "Requires: Mycelium IX",
-  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Shimmering_Light_Tunic",
-    "https://wiki.hypixel.net/Shimmering_Light_Tunic"
   ],
   "recipe": {
     "A1": "ENCHANTED_MYCELIUM_CUBE:1",
@@ -37,5 +28,14 @@
     "C1": "ENCHANTED_MYCELIUM_CUBE:1",
     "C2": "ENCHANTED_MYCELIUM_CUBE:1",
     "C3": "ENCHANTED_MYCELIUM_CUBE:1"
-  }
+  },
+  "internalname": "SHIMMERING_LIGHT_TUNIC",
+  "crafttext": "Requires: Mycelium IX",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Shimmering_Light_Tunic",
+    "https://wiki.hypixel.net/Shimmering_Light_Tunic"
+  ]
 }

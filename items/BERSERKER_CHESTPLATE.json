@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:leather_chestplate",
   "displayname": "§5Berserker Chestplate",
-  "nbttag": "{ExtraAttributes:{id:\"BERSERKER_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:leather_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Strength: §c+60\",1:\"§7Crit Damage: §c+60%\",2:\" §8[§7⚔§8]\",3:\"\",4:\"§8Tiered Bonus: Berserk (0/4)\",5:\"§7Reduces your health and defense by\",6:\"§7half and reduces the cost of\",7:\"§7health-consuming abilities by §c20%§7.\",8:\"\",9:\"§8This item can be reforged!\",10:\"§4❣ §cRequires §aCombat Skill 22§c.\",11:\"§5§lEPIC CHESTPLATE\"],Name:\"§5Berserker Chestplate\"}}",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Strength: §c+60\",1:\"§7Crit Damage: §c+60%\",2:\" §8[§7⚔§8]\",3:\"\",4:\"§8Tiered Bonus: Berserk (0/4)\",5:\"§7Reduces your health and defense by\",6:\"§7half and reduces the cost of\",7:\"§7health-consuming abilities by §c20%§7.\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§7§4❣ §cRequires §aCombat Skill 22§c.\",11:\"§5§lEPIC CHESTPLATE\"],color:16753467,Name:\"§5Berserker Chestplate\"},ExtraAttributes:{id:\"BERSERKER_CHESTPLATE\"}}",
   "damage": 0,
   "lore": [
     "§7Strength: §c+60",
@@ -13,18 +13,9 @@
     "§7half and reduces the cost of",
     "§7health-consuming abilities by §c20%§7.",
     "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §aCombat Skill 22§c.",
+    "§7§8This item can be reforged!",
+    "§7§4❣ §cRequires §aCombat Skill 22§c.",
     "§5§lEPIC CHESTPLATE"
-  ],
-  "internalname": "BERSERKER_CHESTPLATE",
-  "clickcommand": "viewrecipe",
-  "crafttext": "Requires: Red Sand VII",
-  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Berserker_Chestplate",
-    "https://wiki.hypixel.net/Berserker_Chestplate"
   ],
   "recipe": {
     "A1": "ENCHANTED_RED_SAND_CUBE:1",
@@ -36,5 +27,14 @@
     "C1": "MAGMA_CHUNK:20",
     "C2": "ENCHANTED_RED_SAND_CUBE:1",
     "C3": "MAGMA_CHUNK:20"
-  }
+  },
+  "internalname": "BERSERKER_CHESTPLATE",
+  "crafttext": "Requires: Red Sand VII",
+  "clickcommand": "viewrecipe",
+  "modver": "2.3.3",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Berserker_Chestplate",
+    "https://wiki.hypixel.net/Berserker_Chestplate"
+  ]
 }

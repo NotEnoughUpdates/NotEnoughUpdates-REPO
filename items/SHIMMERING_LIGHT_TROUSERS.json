@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:leather_leggings",
   "displayname": "§9Shimmering Light Trousers",
-  "nbttag": "{ExtraAttributes:{id:\"SHIMMERING_LIGHT_TROUSERS\"},HideFlags:254,ItemModel:\"minecraft:leather_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+120\",1:\"§7Defense: §a+100\",2:\"§7Intelligence: §a+100\",3:\" §8[§7⚔§8]\",4:\"\",5:\"§8Tiered Bonus: Shimmer (0/4)\",6:\"§7Increases all §aExperience Orbs\",7:\"§7gained from monsters and ores by\",8:\"§a200%§7.\",9:\"\",10:\"§8This item can be reforged!\",11:\"§4❣ §cRequires §aCombat Skill 22§c.\",12:\"§9§lRARE LEGGINGS\"],Name:\"§9Shimmering Light Trousers\"}}",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+120\",1:\"§7Defense: §a+100\",2:\"§7Intelligence: §a+100\",3:\" §8[§7⚔§8]\",4:\"\",5:\"§8Tiered Bonus: Shimmer (0/4)\",6:\"§7Increases all §aExperience Orbs\",7:\"§a§7gained from monsters and ores\",8:\"§7by §a200%§7.\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§7§4❣ §cRequires §aCombat Skill 22§c.\",12:\"§9§lRARE LEGGINGS\"],color:459547,Name:\"§9Shimmering Light Trousers\"},ExtraAttributes:{id:\"SHIMMERING_LIGHT_TROUSERS\"}}",
   "damage": 0,
   "lore": [
     "§7Health: §a+120",
@@ -11,21 +11,12 @@
     "",
     "§8Tiered Bonus: Shimmer (0/4)",
     "§7Increases all §aExperience Orbs",
-    "§7gained from monsters and ores by",
-    "§a200%§7.",
+    "§a§7gained from monsters and ores",
+    "§7by §a200%§7.",
     "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §aCombat Skill 22§c.",
+    "§7§8This item can be reforged!",
+    "§7§4❣ §cRequires §aCombat Skill 22§c.",
     "§9§lRARE LEGGINGS"
-  ],
-  "internalname": "SHIMMERING_LIGHT_TROUSERS",
-  "clickcommand": "viewrecipe",
-  "crafttext": "Requires: Mycelium IX",
-  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Shimmering_Light_Trousers",
-    "https://wiki.hypixel.net/Shimmering_Light_Trousers"
   ],
   "recipe": {
     "A1": "ENCHANTED_MYCELIUM_CUBE:1",
@@ -37,5 +28,14 @@
     "C1": "ENCHANTED_MYCELIUM_CUBE:1",
     "C2": "",
     "C3": "ENCHANTED_MYCELIUM_CUBE:1"
-  }
+  },
+  "internalname": "SHIMMERING_LIGHT_TROUSERS",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "crafttext": "Requires: Mycelium IX",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Shimmering_Light_Trousers",
+    "https://wiki.hypixel.net/Shimmering_Light_Trousers"
+  ]
 }

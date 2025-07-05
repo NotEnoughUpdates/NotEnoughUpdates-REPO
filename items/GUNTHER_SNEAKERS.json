@@ -1,22 +1,13 @@
 {
   "itemid": "minecraft:leather_boots",
-  "displayname": "§9Gunther's Sneakers",
-  "nbttag": "{ExtraAttributes:{id:\"GUNTHER_SNEAKERS\"},HideFlags:254,ItemModel:\"minecraft:leather_boots\",Unbreakable:1B,display:{Lore:[0:\"§7Speed: §a+4\",1:\"\",2:\"§8This item can be reforged!\",3:\"§9§lRARE BOOTS\"],Name:\"§9Gunther's Sneakers\"}}",
+  "displayname": "§9Gunther\u0027s Sneakers",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Rift Time: §a+30s\",1:\"§7Speed: §a+4\",2:\"\",3:\"§9§lRARE BOOTS\"],color:5187718,Name:\"§9Gunther\u0027s Sneakers\"},ExtraAttributes:{id:\"GUNTHER_SNEAKERS\"}}",
   "damage": 0,
   "lore": [
+    "§7Rift Time: §a+30s",
     "§7Speed: §a+4",
     "",
-    "§8This item can be reforged!",
     "§9§lRARE BOOTS"
-  ],
-  "internalname": "GUNTHER_SNEAKERS",
-  "clickcommand": "viewrecipe",
-  "crafttext": "",
-  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Gunther%27s_Sneakers",
-    "https://wiki.hypixel.net/Gunther%27s_Sneakers"
   ],
   "recipe": {
     "A1": "SHADOW_CRUX:2",
@@ -28,5 +19,14 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "internalname": "GUNTHER_SNEAKERS",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "crafttext": "",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Gunther%27s_Sneakers",
+    "https://wiki.hypixel.net/Gunther%27s_Sneakers"
+  ]
 }
