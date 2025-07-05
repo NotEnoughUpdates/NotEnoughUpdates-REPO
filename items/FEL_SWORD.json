@@ -1,32 +1,38 @@
 {
   "itemid": "minecraft:stone_sword",
   "displayname": "§5Fel Sword",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Gear Score: §d375\",1:\"§7Damage: §c+190\",2:\"§7Strength: §c+135\",3:\"\",4:\"§7§7Every §a100 §7Kills with this\",5:\"§7sword grants +§c1 §7Weapon\",6:\"§7Damage, up to §c100 §7extra.\",7:\"§7Current Kills:§a 0 §8(§c+0 Damage§8)\",8:\"\",9:\"§aDungeon Healer Bonuses:\",10:\"§7§8- §7Increases healing from\",11:\"§7your §aHealing Circle§7 by\",12:\"§7§a10%§7.\",13:\"§7§8- §7Reduces the cooldown of\",14:\"§7your §aWish Ultimate§7 by §b10\",15:\"§b§7seconds.\",16:\"\",17:\"§eRight-click to use Class Ability!\",18:\"\",19:\"§7§8This item can be reforged!\",20:\"§7§4❣ §cRequires §cCatacombs Skill\",21:\"§c20§c.\",22:\"§5§lEPIC DUNGEON SWORD\"],Name:\"§5Fel Sword\"},ExtraAttributes:{id:\"FEL_SWORD\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"FEL_SWORD\"},HideFlags:254,ItemModel:\"minecraft:stone_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Gear Score: §d375\",1:\"§7Damage: §c+190\",2:\"§7Strength: §c+135\",3:\"\",4:\"§7Every §a100 §7Kills with this sword\",5:\"§7grants +§c1 §7Weapon Damage, up to §c100\",6:\"§7extra.\",7:\"§7Current Kills:§a 0 §8(§c+0 Damage§8)\",8:\"\",9:\"§aDungeon Healer Bonuses:\",10:\"§8- §7Increases healing from your\",11:\"§aHealing Circle§7 by §a10%§7.\",12:\"§8- §7Reduces the cooldown of your §aWish\",13:\"§aUltimate§7 by §b10 §7seconds.\",14:\"\",15:\"§eRight-click to use Class Ability!\",16:\"\",17:\"§8This item can be reforged!\",18:\"§4❣ §cRequires Catacombs Skill 20.\",19:\"§5§lEPIC DUNGEON SWORD\"],Name:\"§5Fel Sword\"}}",
   "damage": 0,
   "lore": [
     "§7Gear Score: §d375",
     "§7Damage: §c+190",
     "§7Strength: §c+135",
     "",
-    "§7§7Every §a100 §7Kills with this",
-    "§7sword grants +§c1 §7Weapon",
-    "§7Damage, up to §c100 §7extra.",
+    "§7Every §a100 §7Kills with this sword",
+    "§7grants +§c1 §7Weapon Damage, up to §c100",
+    "§7extra.",
     "§7Current Kills:§a 0 §8(§c+0 Damage§8)",
     "",
     "§aDungeon Healer Bonuses:",
-    "§7§8- §7Increases healing from",
-    "§7your §aHealing Circle§7 by",
-    "§7§a10%§7.",
-    "§7§8- §7Reduces the cooldown of",
-    "§7your §aWish Ultimate§7 by §b10",
-    "§b§7seconds.",
+    "§8- §7Increases healing from your",
+    "§aHealing Circle§7 by §a10%§7.",
+    "§8- §7Reduces the cooldown of your §aWish",
+    "§aUltimate§7 by §b10 §7seconds.",
     "",
     "§eRight-click to use Class Ability!",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §cCatacombs Skill",
-    "§c20§c.",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires Catacombs Skill 20.",
     "§5§lEPIC DUNGEON SWORD"
+  ],
+  "internalname": "FEL_SWORD",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Fel_Sword",
+    "https://wiki.hypixel.net/Fel_Sword"
   ],
   "recipe": {
     "A1": "",
@@ -38,14 +44,5 @@
     "C1": "",
     "C2": "STICK:1",
     "C3": ""
-  },
-  "internalname": "FEL_SWORD",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Fel_Sword",
-    "https://wiki.hypixel.net/Fel_Sword"
-  ]
+  }
 }

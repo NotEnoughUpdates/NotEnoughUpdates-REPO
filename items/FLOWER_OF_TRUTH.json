@@ -1,27 +1,33 @@
 {
   "itemid": "minecraft:red_flower",
   "displayname": "§6Flower of Truth",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Gear Score: §d460\",1:\"§7Damage: §c+160\",2:\"§7Strength: §c+300\",3:\" §8[§8❁§8]\",4:\"\",5:\"§6Ability: Heat-Seeking Rose  §e§lRIGHT CLICK\",6:\"§7Shoots a rose that ricochets\",7:\"§7between enemies, damaging up to\",8:\"§7§a3 §7of your foes! Damage\",9:\"§7multiplies as more enemies are\",10:\"§7hit.\",11:\"§7§8Health cost: §c10%\",12:\"§8Cooldown: §a1s\",13:\"\",14:\"§7§8This item can be reforged!\",15:\"§7§4❣ §cRequires §aThe Catacombs Floor\",16:\"§aVI Completion§c.\",17:\"§6§lLEGENDARY DUNGEON SWORD\"],Name:\"§6Flower of Truth\"},ExtraAttributes:{id:\"FLOWER_OF_TRUTH\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"FLOWER_OF_TRUTH\"},HideFlags:254,ItemModel:\"minecraft:poppy\",display:{Lore:[0:\"§7Gear Score: §d460\",1:\"§7Damage: §c+160\",2:\"§7Strength: §c+300\",3:\" §8[❁]\",4:\"\",5:\"§6Ability: Heat-Seeking Rose  §e§lRIGHT CLICK\",6:\"§7Shoots a rose that ricochets between enemies,\",7:\"§7damaging up to §a3 §7of your foes! Damage\",8:\"§7multiplies as more enemies are hit.\",9:\"§8Health Cost: §c10%\",10:\"§8Cooldown: §a1s\",11:\"\",12:\"§8This item can be reforged!\",13:\"§4❣ §cRequires The Catacombs Floor VI Completion.\",14:\"§6§lLEGENDARY DUNGEON SWORD\"],Name:\"§6Flower of Truth\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§7Gear Score: §d460",
     "§7Damage: §c+160",
     "§7Strength: §c+300",
-    " §8[§8❁§8]",
+    " §8[❁]",
     "",
     "§6Ability: Heat-Seeking Rose  §e§lRIGHT CLICK",
-    "§7Shoots a rose that ricochets",
-    "§7between enemies, damaging up to",
-    "§7§a3 §7of your foes! Damage",
-    "§7multiplies as more enemies are",
-    "§7hit.",
-    "§7§8Health cost: §c10%",
+    "§7Shoots a rose that ricochets between enemies,",
+    "§7damaging up to §a3 §7of your foes! Damage",
+    "§7multiplies as more enemies are hit.",
+    "§8Health Cost: §c10%",
     "§8Cooldown: §a1s",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aThe Catacombs Floor",
-    "§aVI Completion§c.",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires The Catacombs Floor VI Completion.",
     "§6§lLEGENDARY DUNGEON SWORD"
+  ],
+  "internalname": "FLOWER_OF_TRUTH",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Flower_of_Truth",
+    "https://wiki.hypixel.net/Flower_Of_Truth"
   ],
   "recipe": {
     "A1": "",
@@ -33,14 +39,5 @@
     "C1": "",
     "C2": "GOLEM_POPPY:3",
     "C3": ""
-  },
-  "internalname": "FLOWER_OF_TRUTH",
-  "crafttext": "",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Flower_of_Truth",
-    "https://wiki.hypixel.net/Flower_Of_Truth"
-  ]
+  }
 }
