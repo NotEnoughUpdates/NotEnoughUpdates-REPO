@@ -1,15 +1,20 @@
 {
   "itemid": "minecraft:melon_block",
   "displayname": "§fMelon Block",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fMelon Block\"},ExtraAttributes:{id:\"MELON_BLOCK\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"MELON_BLOCK\"},HideFlags:254,ItemModel:\"minecraft:melon\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fMelon Block\"}}",
   "damage": 0,
   "lore": [
     "§f§lCOMMON"
   ],
   "internalname": "MELON_BLOCK",
-  "modver": "2.1.1-PRE",
-  "vanilla": true,
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Melon"
+  ],
+  "vanilla": true,
   "recipe": {
     "A1": "MELON:1",
     "A2": "MELON:1",
@@ -20,10 +25,5 @@
     "C1": "MELON:1",
     "C2": "MELON:1",
     "C3": "MELON:1"
-  },
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://wiki.hypixel.net/Melon"
-  ],
-  "crafttext": ""
+  }
 }

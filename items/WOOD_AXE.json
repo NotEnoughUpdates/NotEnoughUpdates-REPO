@@ -1,18 +1,23 @@
 {
   "itemid": "minecraft:wooden_axe",
   "displayname": "§fWooden Axe",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Damage: §c+10\",1:\"\",2:\"§7§8This item can be reforged!\",3:\"§f§lCOMMON AXE\"],Name:\"§fWooden Axe\"},ExtraAttributes:{id:\"WOOD_AXE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"WOOD_AXE\"},HideFlags:254,ItemModel:\"minecraft:wooden_axe\",display:{Lore:[0:\"§7Damage: §c+10\",1:\"\",2:\"§8This item can be reforged!\",3:\"§f§lCOMMON AXE\"],Name:\"§fWooden Axe\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+10",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§f§lCOMMON AXE"
   ],
   "internalname": "WOOD_AXE",
-  "modver": "2.1.0-REL",
-  "vanilla": true,
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Wooden_Axe"
+  ],
+  "vanilla": true,
   "recipe": {
     "A1": "WOOD:1",
     "A2": "WOOD:1",
@@ -23,10 +28,5 @@
     "C1": "",
     "C2": "STICK:1",
     "C3": ""
-  },
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://wiki.hypixel.net/Wooden_Axe"
-  ]
+  }
 }

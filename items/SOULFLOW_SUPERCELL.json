@@ -1,24 +1,33 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§5Soulflow Supercell",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"f84c9a00-0a4e-3fac-8d75-b18e23157f17\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyMTkwNjA2NjAzNywKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDY4YzFmYTRhMjFiYTRmMjdkY2IzMGFiM2JmYWIwZGMyMmExZTRmY2Y5ZWQxMmMxZDdhNzBmZWIwN2Y4ZDdhZSIKICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§7Internalized: §30⸎ Soulflow\",1:\"\",2:\"§6Ability: Overflow Mana \",3:\"§7When leaving combat, convert up to\",4:\"§7§34⸎ Soulflow §7into §3600ʬ Overflow\",5:\"§3Mana§7.\",6:\"\",7:\"§7Enabled: §aOn\",8:\"§eRight-click to toggle!\",9:\"\",10:\"§7§8Soulflow from abilities is drained from\",11:\"§8your internalized ⸎.\",12:\"\",13:\"§7§4☠ §cRequires §5Enderman Slayer 7§c.\",14:\"§5§lEPIC ACCESSORY\"],Name:\"§5Soulflow Supercell\"},ExtraAttributes:{id:\"SOULFLOW_SUPERCELL\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SOULFLOW_SUPERCELL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"f84c9a00-0a4e-3fac-8d75-b18e23157f17\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyMTkwNjA2NjAzNywKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDY4YzFmYTRhMjFiYTRmMjdkY2IzMGFiM2JmYWIwZGMyMmExZTRmY2Y5ZWQxMmMxZDdhNzBmZWIwN2Y4ZDdhZSIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Internalized: §30⸎ Soulflow\",1:\"\",2:\"§6Ability: Overflow Mana \",3:\"§7When leaving combat, convert up to\",4:\"§34⸎ Soulflow §7into §3600ʬ Overflow\",5:\"§3Mana§7.\",6:\"\",7:\"§7Enabled: §aOn\",8:\"§eRight-click to toggle!\",9:\"\",10:\"§8Soulflow from abilities is drained from\",11:\"§8your internalized ⸎.\",12:\"\",13:\"§4☠ §cRequires §5Enderman Slayer 7§c.\",14:\"§5§lEPIC ACCESSORY\"],Name:\"§5Soulflow Supercell\"}}",
   "damage": 3,
   "lore": [
     "§7Internalized: §30⸎ Soulflow",
     "",
     "§6Ability: Overflow Mana ",
     "§7When leaving combat, convert up to",
-    "§7§34⸎ Soulflow §7into §3600ʬ Overflow",
+    "§34⸎ Soulflow §7into §3600ʬ Overflow",
     "§3Mana§7.",
     "",
     "§7Enabled: §aOn",
     "§eRight-click to toggle!",
     "",
-    "§7§8Soulflow from abilities is drained from",
+    "§8Soulflow from abilities is drained from",
     "§8your internalized ⸎.",
     "",
-    "§7§4☠ §cRequires §5Enderman Slayer 7§c.",
+    "§4☠ §cRequires §5Enderman Slayer 7§c.",
     "§5§lEPIC ACCESSORY"
+  ],
+  "internalname": "SOULFLOW_SUPERCELL",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Enderman Slayer 7",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Soulflow_Supercell",
+    "https://wiki.hypixel.net/Soulflow_Supercell"
   ],
   "recipe": {
     "A1": "NULL_OVOID:32",
@@ -31,14 +40,5 @@
     "C2": "NULL_OVOID:32",
     "C3": "NULL_OVOID:32"
   },
-  "slayer_req": "EMAN_7",
-  "internalname": "SOULFLOW_SUPERCELL",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "crafttext": "Requires: Enderman Slayer 7",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Soulflow_Supercell",
-    "https://wiki.hypixel.net/Soulflow_Supercell"
-  ]
+  "slayer_req": "EMAN_7"
 }

@@ -1,18 +1,19 @@
 {
-  "internalname": "ENDER_ARTIFACT",
   "itemid": "minecraft:skull",
   "displayname": "§5Ender Artifact",
-  "clickcommand": "",
+  "nbttag": "{ExtraAttributes:{id:\"ENDER_ARTIFACT\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"82405baa-d09d-39be-a9b9-fb79aeb9bfe8\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY5ZGE0ZTdiOGQ1NThhZjAyZTgwZTJlMTY2OWNlYjYwODQ4OThkYjU1OTA3ZWYzZTY2ZDlhMzI5MzI5ZTk0MSJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Reduces the damage taken from\",1:\"§7Ender Dragons, Endermen, and\",2:\"§7Endermites by §a20%§7.\",3:\"\",4:\"§5§lEPIC ACCESSORY\"],Name:\"§5Ender Artifact\"}}",
   "damage": 3,
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"82405baa-d09d-39be-a9b9-fb79aeb9bfe8\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY5ZGE0ZTdiOGQ1NThhZjAyZTgwZTJlMTY2OWNlYjYwODQ4OThkYjU1OTA3ZWYzZTY2ZDlhMzI5MzI5ZTk0MSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Reduces the damage taken from\",1:\"§7§7Ender Dragons§7, §7Endermen§7, and\",2:\"§7§7Endermites by §a20%§7.\",3:\"\",4:\"§5§lEPIC ACCESSORY\"],Name:\"§5Ender Artifact\"},ExtraAttributes:{id:\"ENDER_ARTIFACT\"}}",
-  "modver": "2.1.1-PRE",
   "lore": [
     "§7Reduces the damage taken from",
-    "§7§7Ender Dragons§7, §7Endermen§7, and",
-    "§7§7Endermites by §a20%§7.",
+    "§7Ender Dragons, Endermen, and",
+    "§7Endermites by §a20%§7.",
     "",
     "§5§lEPIC ACCESSORY"
   ],
+  "internalname": "ENDER_ARTIFACT",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Ender_Artifact",
@@ -24,6 +25,5 @@
       "cost": "ENCHANTED_EMERALD:312",
       "result": "ENDER_ARTIFACT"
     }
-  ],
-  "crafttext": ""
+  ]
 }
