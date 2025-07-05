@@ -1,20 +1,29 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9☘ Fine Peridot Gemstone",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"37db3b40-bd55-3afa-94b1-a854249a9b89\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwNzY0MjMxMzU3NiwKICAicHJvZmlsZUlkIiA6ICJkZDNjZGJiOTE2M2Q0NzgyOGQ0YmZkODZmYWE4NGY5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJFTFdhbEtlUkpBSkEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmNiYTdhZWZjMWM0ZjQxMjg2ODczOWUyZjJjMmU2NTFlZGViMWJlMjVkM2M3MTc1ZTY4YTA1YjY3NTA2YTFlZCIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§7A type of §2Peridot §7that has clearly\",3:\"§7been treated with care.\",4:\"\",5:\"§7§7Some say that when §eharnessed\",6:\"§eproperly§7, it can give its owner extra\",7:\"§7§6☘ Farming Fortune§7; others say it\",8:\"§7might give bonus §fFossil Dust§7.\",9:\"\",10:\"§9§lRARE GEMSTONE\"],Name:\"§9☘ Fine Peridot Gemstone\"},ExtraAttributes:{id:\"FINE_PERIDOT_GEM\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"FINE_PERIDOT_GEM\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"37db3b40-bd55-3afa-94b1-a854249a9b89\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwNzY0MjMxMzU3NiwKICAicHJvZmlsZUlkIiA6ICJkZDNjZGJiOTE2M2Q0NzgyOGQ0YmZkODZmYWE4NGY5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJFTFdhbEtlUkpBSkEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmNiYTdhZWZjMWM0ZjQxMjg2ODczOWUyZjJjMmU2NTFlZGViMWJlMjVkM2M3MTc1ZTY4YTA1YjY3NTA2YTFlZCIKICAgIH0KICB9Cn0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7A type of §2Peridot §7that has clearly\",3:\"§7been treated with care.\",4:\"\",5:\"§7Some say that when §eharnessed\",6:\"§eproperly§7, it can give its owner extra\",7:\"§6☘ Farming Fortune§7; others say it\",8:\"§7might give bonus §fFossil Dust§7.\",9:\"\",10:\"§9§lRARE GEMSTONE\"],Name:\"§9☘ Fine Peridot Gemstone\"}}",
   "damage": 3,
   "lore": [
-    "§7§8Collection Item",
+    "§8Collection Item",
     "",
     "§7A type of §2Peridot §7that has clearly",
     "§7been treated with care.",
     "",
-    "§7§7Some say that when §eharnessed",
+    "§7Some say that when §eharnessed",
     "§eproperly§7, it can give its owner extra",
-    "§7§6☘ Farming Fortune§7; others say it",
+    "§6☘ Farming Fortune§7; others say it",
     "§7might give bonus §fFossil Dust§7.",
     "",
     "§9§lRARE GEMSTONE"
+  ],
+  "internalname": "FINE_PERIDOT_GEM",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Gemstone",
+    "https://wiki.hypixel.net/Gemstone"
   ],
   "recipe": {
     "A1": "",
@@ -26,14 +35,5 @@
     "C1": "",
     "C2": "FLAWED_PERIDOT_GEM:16",
     "C3": ""
-  },
-  "internalname": "FINE_PERIDOT_GEM",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Gemstone",
-    "https://wiki.hypixel.net/Gemstone"
-  ]
+  }
 }

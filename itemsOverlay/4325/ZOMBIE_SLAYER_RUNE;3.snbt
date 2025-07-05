@@ -1,0 +1,38 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "ZOMBIE_SLAYER_RUNE;3",
+			runes: {
+				ZOMBIE_SLAYER: 3
+			}
+		},
+		"minecraft:dyed_color": 10511680,
+		"minecraft:profile": {
+			id: [I;
+				995251833,
+				-314625571,
+				-1989013546,
+				-577353895
+			],
+			name: "",
+			properties: [
+				{
+					name: "textures",
+					value: "eyJ0aW1lc3RhbXAiOjE1Njg0NTUxMzM1NTcsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E4YzQ4MTEzOTVmYmY3ZjYyMGYwNWNjMzE3NWNlZjE1MTVhYWY3NzViYTA0YTAxMDQ1MDI3ZjA2OTNhOTAxNDcifX19"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:attribute_modifiers",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g64ef955"
+	}
+}

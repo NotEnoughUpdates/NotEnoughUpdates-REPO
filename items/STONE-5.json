@@ -1,13 +1,17 @@
 {
   "itemid": "minecraft:stone",
   "displayname": "§fAndesite",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fAndesite\"},ExtraAttributes:{id:\"STONE-5\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"STONE-5\"},HideFlags:254,ItemModel:\"minecraft:andesite\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fAndesite\"}}",
   "damage": 5,
   "lore": [
     "§f§lCOMMON"
   ],
   "internalname": "STONE-5",
-  "modver": "2.1.1-PRE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
   "vanilla": true,
   "recipe": {
     "A1": "STONE-3:1",
@@ -20,6 +24,5 @@
     "C2": "",
     "C3": "",
     "count": 2
-  },
-  "clickcommand": "viewrecipe"
+  }
 }

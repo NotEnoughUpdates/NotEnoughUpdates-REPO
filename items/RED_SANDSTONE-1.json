@@ -1,16 +1,19 @@
 {
   "itemid": "minecraft:red_sandstone",
-  "displayname": "§fChiseled Red Sandstone",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fChiseled Red Sandstone\"},ExtraAttributes:{id:\"RED_SANDSTONE-1\"}}",
+  "displayname": "§fRed Chiseled Sandstone",
+  "nbttag": "{ExtraAttributes:{id:\"RED_SANDSTONE-1\"},HideFlags:254,ItemModel:\"minecraft:chiseled_red_sandstone\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fRed Chiseled Sandstone\"}}",
   "damage": 1,
   "lore": [
     "§f§lCOMMON"
   ],
   "internalname": "RED_SANDSTONE-1",
-  "parent": "RED_SANDSTONE",
-  "modver": "1.3-REL",
-  "vanilla": true,
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "parent": "RED_SANDSTONE",
+  "vanilla": true,
   "recipe": {
     "A1": "STONE_SLAB2:1",
     "A2": "",

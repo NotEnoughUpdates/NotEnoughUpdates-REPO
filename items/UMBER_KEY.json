@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:deadbush",
   "displayname": "§5Umber Key",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Can be used to open backpacks with\",1:\"§7an Umber lock held by §bFrozen\",2:\"§bCorpses §7in the §bGlacite Mineshafts§7.\",3:\"\",4:\"§5§lEPIC\"],Name:\"§5Umber Key\"},ExtraAttributes:{id:\"UMBER_KEY\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"UMBER_KEY\"},HideFlags:254,ItemModel:\"minecraft:dead_bush\",display:{Lore:[0:\"§7Can be used to open backpacks with\",1:\"§7an Umber lock held by §bFrozen\",2:\"§bCorpses §7in the §bGlacite Mineshafts§7.\",3:\"\",4:\"§5§lEPIC\"],Name:\"§5Umber Key\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§7Can be used to open backpacks with",
@@ -11,10 +11,14 @@
     "§5§lEPIC"
   ],
   "internalname": "UMBER_KEY",
-  "crafttext": "Requires: Umber IV \u0026 HotM 7",
   "clickcommand": "viewrecipe",
-  "modver": "",
+  "crafttext": "Requires: Umber IV & HotM 7",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
   "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Umber_Key",
+    "https://wiki.hypixel.net/Umber_Key"
+  ],
   "recipes": [
     {
       "type": "forge",
@@ -26,9 +30,5 @@
       "overrideOutputId": "UMBER_KEY",
       "duration": 30
     }
-  ],
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Umber_Key",
-    "https://wiki.hypixel.net/Umber_Key"
   ]
 }

@@ -1,0 +1,26 @@
+{
+	components: {
+		"minecraft:attribute_modifiers": [
+		],
+		"minecraft:custom_data": {
+			id: "MERCENARY_CHESTPLATE",
+			originTag: "SHOP_PURCHASE"
+		},
+		"minecraft:dyed_color": 10511680,
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:dyed_color"
+			]
+		},
+		"minecraft:unbreakable": {
+		}
+	},
+	count: 1,
+	id: "minecraft:iron_chestplate",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g64ef955"
+	}
+}

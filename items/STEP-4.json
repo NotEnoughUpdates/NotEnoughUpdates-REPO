@@ -1,15 +1,18 @@
 {
   "itemid": "minecraft:stone_slab",
-  "displayname": "§fBricks Slab",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBricks Slab\"},ExtraAttributes:{id:\"STEP-4\"}}",
+  "displayname": "§fBrick Slab",
+  "nbttag": "{ExtraAttributes:{id:\"STEP-4\"},HideFlags:254,ItemModel:\"minecraft:brick_slab\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBrick Slab\"}}",
   "damage": 4,
   "lore": [
     "§f§lCOMMON"
   ],
   "internalname": "STEP-4",
-  "modver": "2.1.1-PRE",
-  "vanilla": true,
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
   "recipe": {
     "A1": "BRICK:1",
     "A2": "BRICK:1",

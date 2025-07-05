@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:lever",
   "displayname": "§5Tungsten Key",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Can be used to open backpacks with\",1:\"§7a Tungsten lock held by §bFrozen\",2:\"§bCorpses §7in the §bGlacite Mineshafts§7.\",3:\"\",4:\"§5§lEPIC\"],Name:\"§5Tungsten Key\"},ExtraAttributes:{id:\"TUNGSTEN_KEY\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"TUNGSTEN_KEY\"},HideFlags:254,ItemModel:\"minecraft:lever\",display:{Lore:[0:\"§7Can be used to open backpacks with\",1:\"§7a Tungsten lock held by §bFrozen\",2:\"§bCorpses §7in the §bGlacite Mineshafts§7.\",3:\"\",4:\"§5§lEPIC\"],Name:\"§5Tungsten Key\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§7Can be used to open backpacks with",
@@ -11,10 +11,14 @@
     "§5§lEPIC"
   ],
   "internalname": "TUNGSTEN_KEY",
-  "crafttext": "Requires: Tungsten IV \u0026 HotM 7",
   "clickcommand": "viewrecipe",
-  "modver": "",
+  "crafttext": "Requires: Tungsten IV & HotM 7",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
   "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Tungsten_Key",
+    "https://wiki.hypixel.net/Tungsten_Key"
+  ],
   "recipes": [
     {
       "type": "forge",
@@ -26,9 +30,5 @@
       "overrideOutputId": "TUNGSTEN_KEY",
       "duration": 30
     }
-  ],
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Tungsten_Key",
-    "https://wiki.hypixel.net/Tungsten_Key"
   ]
 }

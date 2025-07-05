@@ -1,17 +1,22 @@
 {
   "itemid": "minecraft:diamond_helmet",
   "displayname": "§aDiamond Helmet",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+15\",1:\"\",2:\"§7§8This item can be reforged!\",3:\"§a§lUNCOMMON HELMET\"],Name:\"§aDiamond Helmet\"},ExtraAttributes:{originTag:\"CRAFTING_GRID_COLLECT\",id:\"DIAMOND_HELMET\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"DIAMOND_HELMET\",originTag:\"CRAFTING_GRID_COLLECT\"},HideFlags:254,ItemModel:\"minecraft:diamond_helmet\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+15\",1:\"\",2:\"§8This item can be reforged!\",3:\"§a§lUNCOMMON HELMET\"],Name:\"§aDiamond Helmet\"}}",
   "damage": 0,
   "lore": [
     "§7Defense: §a+15",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§a§lUNCOMMON HELMET"
   ],
   "internalname": "DIAMOND_HELMET",
-  "crafttext": "",
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Diamond_Helmet"
+  ],
   "recipe": {
     "A1": "DIAMOND:1",
     "A2": "DIAMOND:1",
@@ -23,10 +28,5 @@
     "C2": "",
     "C3": ""
   },
-  "modver": "2.1.0-REL",
-  "vanilla": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://wiki.hypixel.net/Diamond_Helmet"
-  ]
+  "vanilla": true
 }

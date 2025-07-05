@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:arrow",
   "displayname": "§fFlint Arrow",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Damage: §c+1\",1:\"\",2:\"§8Stats added when shot!\",3:\"§f§lCOMMON ARROW\"],Name:\"§fFlint Arrow\"},ExtraAttributes:{id:\"ARROW\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ARROW\"},HideFlags:254,ItemModel:\"minecraft:arrow\",display:{Lore:[0:\"§7Damage: §c+1\",1:\"\",2:\"§8Stats added when shot!\",3:\"§f§lCOMMON ARROW\"],Name:\"§fFlint Arrow\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+1",
@@ -10,8 +10,14 @@
     "§f§lCOMMON ARROW"
   ],
   "internalname": "ARROW",
-  "crafttext": "",
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Arrows",
+    "https://wiki.hypixel.net/Flint_Arrow"
+  ],
   "recipe": {
     "A1": "FLINT:1",
     "A2": "",
@@ -23,11 +29,5 @@
     "C2": "",
     "C3": ""
   },
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "vanilla": true,
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Arrows",
-    "https://wiki.hypixel.net/Flint_Arrow"
-  ]
+  "vanilla": true
 }

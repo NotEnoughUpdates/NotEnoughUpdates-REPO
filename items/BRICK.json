@@ -1,15 +1,20 @@
 {
   "itemid": "minecraft:brick_block",
   "displayname": "§fBricks",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBricks\"},ExtraAttributes:{id:\"BRICK\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"BRICK\"},HideFlags:254,ItemModel:\"minecraft:bricks\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBricks\"}}",
   "damage": 0,
   "lore": [
     "§f§lCOMMON"
   ],
   "internalname": "BRICK",
-  "modver": "1.3-REL",
-  "vanilla": true,
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Brick"
+  ],
+  "vanilla": true,
   "recipe": {
     "A1": "CLAY_BRICK:1",
     "A2": "CLAY_BRICK:1",
@@ -20,9 +25,5 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  },
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Brick"
-  ]
+  }
 }

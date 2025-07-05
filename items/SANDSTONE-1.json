@@ -1,16 +1,19 @@
 {
   "itemid": "minecraft:sandstone",
   "displayname": "§fChiseled Sandstone",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fChiseled Sandstone\"},ExtraAttributes:{id:\"SANDSTONE-1\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SANDSTONE-1\"},HideFlags:254,ItemModel:\"minecraft:chiseled_sandstone\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fChiseled Sandstone\"}}",
   "damage": 1,
   "lore": [
     "§f§lCOMMON"
   ],
   "internalname": "SANDSTONE-1",
-  "parent": "SANDSTONE",
-  "modver": "1.3-REL",
-  "vanilla": true,
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "parent": "SANDSTONE",
+  "vanilla": true,
   "recipe": {
     "A1": "STEP-1:1",
     "A2": "",

@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:flint",
   "displayname": "§5Silex",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7§8Combinable in Anvil\",1:\"\",2:\"§7When applied to a pickaxe or a drill,\",3:\"§7increases its §9Efficiency §7level by §a1§7!\",4:\"§8Can be applied up to Efficiency X.\",5:\"§8Requires Efficiency V!\",6:\"\",7:\"§5§lEPIC\"],Name:\"§5Silex\"},ExtraAttributes:{id:\"SIL_EX\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SIL_EX\"},HideFlags:254,ItemModel:\"minecraft:flint\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§7When applied to a pickaxe or a drill,\",3:\"§7increases its §9Efficiency §7level by §a1§7!\",4:\"§8Can be applied up to Efficiency X.\",5:\"§8Requires Efficiency V!\",6:\"\",7:\"§5§lEPIC\"],Name:\"§5Silex\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7§8Combinable in Anvil",
+    "§8Combinable in Anvil",
     "",
     "§7When applied to a pickaxe or a drill,",
     "§7increases its §9Efficiency §7level by §a1§7!",
@@ -12,6 +12,15 @@
     "§8Requires Efficiency V!",
     "",
     "§5§lEPIC"
+  ],
+  "internalname": "SIL_EX",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Hard Stone VII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Silex",
+    "https://wiki.hypixel.net/Silex"
   ],
   "recipe": {
     "A1": "CONCENTRATED_STONE:1",
@@ -23,14 +32,5 @@
     "C1": "CONCENTRATED_STONE:1",
     "C2": "CONCENTRATED_STONE:1",
     "C3": "CONCENTRATED_STONE:1"
-  },
-  "internalname": "SIL_EX",
-  "crafttext": "Requires: Hard Stone VII",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Silex",
-    "https://wiki.hypixel.net/Silex"
-  ]
+  }
 }

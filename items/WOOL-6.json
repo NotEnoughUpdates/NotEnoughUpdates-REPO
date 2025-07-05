@@ -1,14 +1,18 @@
 {
   "itemid": "minecraft:wool",
   "displayname": "§fPink Wool",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fPink Wool\"},ExtraAttributes:{id:\"WOOL-6\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"WOOL-6\"},HideFlags:254,ItemModel:\"minecraft:pink_wool\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fPink Wool\"}}",
   "damage": 6,
   "lore": [
     "§f§lCOMMON"
   ],
-  "parent": "WOOL",
   "internalname": "WOOL-6",
-  "modver": "1.3-REL",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "parent": "WOOL",
   "vanilla": true,
   "recipe": {
     "A1": "INK_SACK-9:1",
@@ -20,6 +24,5 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  },
-  "clickcommand": "viewrecipe"
+  }
 }

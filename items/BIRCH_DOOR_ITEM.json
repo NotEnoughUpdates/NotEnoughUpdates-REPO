@@ -1,15 +1,18 @@
 {
   "itemid": "minecraft:birch_door",
   "displayname": "§fBirch Door",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBirch Door\"},ExtraAttributes:{id:\"BIRCH_DOOR_ITEM\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"BIRCH_DOOR_ITEM\"},HideFlags:254,ItemModel:\"minecraft:birch_door\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBirch Door\"}}",
   "damage": 0,
   "lore": [
     "§f§lCOMMON"
   ],
   "internalname": "BIRCH_DOOR_ITEM",
-  "modver": "2.1.1-PRE",
-  "vanilla": true,
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
   "recipe": {
     "A1": "WOOD-2:1",
     "A2": "WOOD-2:1",

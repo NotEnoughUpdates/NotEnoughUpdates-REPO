@@ -1,0 +1,45 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "PET_SKIN_SILVERFISH_FOSSILIZED",
+			originTag: "FIRE_SALE"
+		},
+		"minecraft:profile": {
+			id: [I;
+				-1006263667,
+				1932344309,
+				-1761315260,
+				951641260
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "qB2/5KWjpNhZgbazQZSRl123v6u5gVXoZ4E+KXOu+t8NFLk0DjGBANcMdg3kxUwcBS2xnSQKLQB327rC1CBffR9ZxEdZNiWgvUuhrazjMhbNVH5rQbicdKG2NkHorwH4QTd4JkRiAOYQMYDC71XlgeFyrb9rDHyzDRvLvjVSIpE26jrKhhpnid34swx6+C7DmtSqYZuOTM8Vliv+rbylSgJphYHtAe1i8B4vl2VWvpPeNKMY5wJjdxUEBEWgAyBaHtrtCPVq8CZAsNWL0wkGyWM5I4NDend36LY4GI0J25HPl3nFmjf8wKVCxNaj3ShKBW24aE6nwrbT5uUxf56NoiGfYr2i8xqKMR7NOKbNhAfDF1yNZbty0Y41/GWKKYkcK1+i6muF0Ec0ugxXkGOvXQlFVTQt5CQfMGpbp9BxS5aKEFnMB+INkiF1pfWxpmty1A+Q9x1PFjV9atP5vvbz9GqYrfRGn7gNbVQS6kSKo93fiHr8qQQVVd2C6hfkaQVOmdzWKVMtsBOsAZXhrR7YErE4TjCon7oy92zCp/JUrrqbCdxwp7rSqkcvU0MnfZYhdwdTirbb6Yf43D6k3jtByMuew7hSiNpfodiK2CPHhnzqaCzMXhhyPjEc+03BMhnLAvveMdbXi8Wzxk7DlxZBRorYQX78qG+MpSmPeESYmU8=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTYxMTEwMjQ5MTY3OCwKICAicHJvZmlsZUlkIiA6ICI3ZGEyYWIzYTkzY2E0OGVlODMwNDhhZmMzYjgwZTY4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHb2xkYXBmZWwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2EzYTM2MzM2OGVkMWUwNmNlZTM5MDA3MTdmMDYyZTAyZWMzOWFlZTE3NDc2NzUzOTIyNTViNDhmN2Y4MzYwMCIKICAgIH0KICB9Cn0="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g9791477"
+	}
+}

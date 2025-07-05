@@ -1,15 +1,18 @@
 {
   "itemid": "minecraft:mossy_cobblestone",
   "displayname": "§fMoss Stone",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fMoss Stone\"},ExtraAttributes:{id:\"MOSSY_COBBLESTONE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"MOSSY_COBBLESTONE\"},HideFlags:254,ItemModel:\"minecraft:mossy_cobblestone\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fMoss Stone\"}}",
   "damage": 0,
   "lore": [
     "§f§lCOMMON"
   ],
   "internalname": "MOSSY_COBBLESTONE",
-  "modver": "1.3-REL",
-  "vanilla": true,
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
   "recipe": {
     "A1": "COBBLESTONE:1",
     "A2": "VINE:1",

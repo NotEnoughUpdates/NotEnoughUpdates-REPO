@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§5Overflux Power Orb",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"4aa91940-7633-3390-9635-dc17ac33b5d9\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU2MTU5NWQ5Yzc0NTc3OTZjNzE5ZmFlNDYzYTIyMjcxY2JjMDFjZjEwODA5ZjVhNjRjY2IzZDZhZTdmOGY2In19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§6Ability: Deploy  §e§lRIGHT CLICK\",1:\"§7Place an orb for §a60s §7buffing up to §b5\",2:\"§b§7players within §a18 §7blocks.\",3:\"§8Costs 50% of max mana.\",4:\"§8Only one deployable buff applies.\",5:\"\",6:\"§5Orb Buff: Overflux\",7:\"§7Grants §b+100% §7base mana regen.\",8:\"§7Heals §c2.5% §7of max §c❤§7 per second.\",9:\"§7Grants §4+5♨ Vitality §7and §a+5☄ Mending§7.\",10:\"§7Grants §c+25❁ Strength§7.\",11:\"\",12:\"§7§4☠ §cRequires §5Wolf Slayer 7§c.\",13:\"§5§lEPIC DEPLOYABLE\"],Name:\"§5Overflux Power Orb\"},ExtraAttributes:{id:\"OVERFLUX_POWER_ORB\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"OVERFLUX_POWER_ORB\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"4aa91940-7633-3390-9635-dc17ac33b5d9\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU2MTU5NWQ5Yzc0NTc3OTZjNzE5ZmFlNDYzYTIyMjcxY2JjMDFjZjEwODA5ZjVhNjRjY2IzZDZhZTdmOGY2In19fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§6Ability: Deploy  §e§lRIGHT CLICK\",1:\"§7Place an orb for §a60s §7buffing up to §b5\",2:\"§7players within §a18 §7blocks.\",3:\"§8Costs 50% of max mana.\",4:\"§8Only one deployable buff applies.\",5:\"\",6:\"§5Orb Buff: Overflux\",7:\"§7Grants §b+100% §7base mana regen.\",8:\"§7Heals §c2.5% §7of max §c❤§7 per second.\",9:\"§7Grants §4+5♨ Vitality §7and §a+5☄ Mending§7.\",10:\"§7Grants §c+25❁ Strength§7.\",11:\"\",12:\"§4☠ §cRequires §5Wolf Slayer 7§c.\",13:\"§5§lEPIC DEPLOYABLE\"],Name:\"§5Overflux Power Orb\"}}",
   "damage": 3,
   "lore": [
     "§6Ability: Deploy  §e§lRIGHT CLICK",
     "§7Place an orb for §a60s §7buffing up to §b5",
-    "§b§7players within §a18 §7blocks.",
+    "§7players within §a18 §7blocks.",
     "§8Costs 50% of max mana.",
     "§8Only one deployable buff applies.",
     "",
@@ -16,8 +16,17 @@
     "§7Grants §4+5♨ Vitality §7and §a+5☄ Mending§7.",
     "§7Grants §c+25❁ Strength§7.",
     "",
-    "§7§4☠ §cRequires §5Wolf Slayer 7§c.",
+    "§4☠ §cRequires §5Wolf Slayer 7§c.",
     "§5§lEPIC DEPLOYABLE"
+  ],
+  "internalname": "OVERFLUX_POWER_ORB",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Wolf Slayer 7",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Overflux_Power_Orb",
+    "https://wiki.hypixel.net/Overflux_Power_Orb"
   ],
   "recipe": {
     "A1": "GOLDEN_TOOTH:32",
@@ -30,14 +39,5 @@
     "C2": "ENCHANTED_REDSTONE_BLOCK:8",
     "C3": "GOLDEN_TOOTH:32"
   },
-  "slayer_req": "WOLF_7",
-  "internalname": "OVERFLUX_POWER_ORB",
-  "crafttext": "Requires: Wolf Slayer 7",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Overflux_Power_Orb",
-    "https://wiki.hypixel.net/Overflux_Power_Orb"
-  ]
+  "slayer_req": "WOLF_7"
 }
