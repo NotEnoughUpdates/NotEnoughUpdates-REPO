@@ -1,18 +1,28 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Spider Minion II",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"b234d7e9-726a-3895-a70e-6b5a0dcc083f\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5NDUyMDI5ODgsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M5YTg4ZGI1M2JkZjg1NGMyOWQ5MWIwOTAyNzkwNDY4NGE2YmE2MzhkODAwN2I3YWQxNDJhNzMyMWI5YTIxMiJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and slaying\",2:\"§7Spiders! Minions also work when\",3:\"§7you are offline!\",4:\"\",5:\"§7Time Between Actions: §a26s\",6:\"§7Max Storage: §e256\",7:\"\",8:\"§9§lRARE\"],Name:\"§9Spider Minion II\"},ExtraAttributes:{id:\"SPIDER_GENERATOR_2\",generator_tier:2}}",
+  "nbttag": "{ExtraAttributes:{id:\"SPIDER_GENERATOR_2\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"b234d7e9-726a-3895-a70e-6b5a0dcc083f\",Properties:{textures:[0:{Name:\"textures\",Signature:\"rrgZ6VY14kWDN/lHBn9gBJghmgk72J8u5RI6sAzmEIyi6puJC+RRcqTtjjYsNnUrsOvCXz/B3MVO9k9nHP6XI89N4qaR56uhnqk9Foo0dvIWC55+r+olfNLJjK2T4Fra0fFAkfiEh8RkzdtRlI1+GCA4Q41MW4K15l8lyZaSWDPp5gYTAkJw2cZz6Wb/UxB6KJTrQecxyz130PDFekpEidcl0VtmCA09z1rdhQvlOTJRgdtIU9jVbiRlb5mZJq/cVc1agmv7GqPKVzSnz41koyUVUr/f8saLRn7ZdznCnfZErg+3vOSV+x50CFMVSyY6tKUPcn4XoQVjfVoecDth8BW6EzShGBhhOFeDEUECRMwzmAZc7hrCBdH+6aMJ+8Dt87PrfK2CuYwt2ysFyZ7iAeK1FRXC5mcAiS5WCL+E1ujQcWJdTuZ36j/6/0ainq5hk2X8m1UdnU/lGLdhtm95mFrl3duJACIi+6WwhGoY6dsO6rIBq8f+XNnUjID/YdQYsd1cvCg8IZV35zrfMGHuyviXzitsVBvLMWtN/1m8EfS4z//4bEmUY6koqg9y84yBxA+I02FSxvdZ//X6aI/0eHyPJgXtDtJB6ae/nxIjl/xdDY/p9+P9b0/PzWqk7rG+Mas0hqrGsbQEjgtLFUce581i4D3ahLDzmnzTQ0GGFJU=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5NDUyMDI5ODgsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M5YTg4ZGI1M2JkZjg1NGMyOWQ5MWIwOTAyNzkwNDY4NGE2YmE2MzhkODAwN2I3YWQxNDJhNzMyMWI5YTIxMiJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and slaying Spiders!\",2:\"§7Minions also work when you are\",3:\"§7offline!\",4:\"\",5:\"§7Time Between Actions: §a26s\",6:\"§7Max Storage: §e256\",7:\"§7Resources Generated: §b0\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Spider Minion II\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and slaying",
-    "§7Spiders! Minions also work when",
-    "§7you are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and slaying Spiders!",
+    "§7Minions also work when you are",
+    "§7offline!",
     "",
     "§7Time Between Actions: §a26s",
     "§7Max Storage: §e256",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "SPIDER_GENERATOR_2",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Spider_Minion",
+    "https://wiki.hypixel.net/Spider_Minion_II"
   ],
   "recipe": {
     "A1": "STRING:20",
@@ -25,14 +35,5 @@
     "C2": "STRING:20",
     "C3": "STRING:20"
   },
-  "internalname": "SPIDER_GENERATOR_2",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Spider_Minion",
-    "https://wiki.hypixel.net/Spider_Minion_II"
-  ],
-  "crafttext": ""
+  "useneucraft": true
 }

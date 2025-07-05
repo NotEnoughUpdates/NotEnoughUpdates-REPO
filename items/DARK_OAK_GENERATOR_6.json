@@ -1,19 +1,29 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Dark Oak Minion VI",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"74ead16e-426d-3117-b022-810f64da0399\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzUyNjI1NDIsInByb2ZpbGVJZCI6ImNiZGViZGRjODNhNTQ0OWFiZDFiOThhNzBjY2E0ZDhlIiwicHJvZmlsZU5hbWUiOiJDaGVja2lkb2lzIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yOTliMmQ4YzYyYjE3MTA4MDIzYzU3ZTJiYzQwODczNDQ2ZTFiOTZmMTE2NzRhMmJiMmEyN2Y5MTVjZjlkNTE5In19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and chopping\",2:\"§7dark oak logs! Requires an open\",3:\"§7area to place trees. Minions\",4:\"§7also work when you are offline!\",5:\"\",6:\"§7Time Between Actions: §a42s\",7:\"§7Max Storage: §e576\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Dark Oak Minion VI\"},ExtraAttributes:{id:\"DARK_OAK_GENERATOR_6\",generator_tier:6}}",
+  "nbttag": "{ExtraAttributes:{id:\"DARK_OAK_GENERATOR_6\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"74ead16e-426d-3117-b022-810f64da0399\",Properties:{textures:[0:{Name:\"textures\",Signature:\"vN3eMLtKwYy3wqeeiEomnM/BVjzuHXHYNw0EM6/wdk5azPSDu+LgZPkQDadeaRkszoSI4SwJMIf7s1aak/1lKQ3n5AyTRUTbl9w6KSsXTC0/HsnnfSsRD5n0ZglsMEVrN+BtCqQSZVF8cwafmpnSGmU0mi9Z/Dcf/ktuT+X+3ClcgDIUBGIZius1hau4x7CXO9rmimB0e/29CsjfLLUgVWbjI21SHHKONqgLot2w6ZIbciubxHAgXJI0N4nSFTfIOnBJL67JUMnc9rXDOSDX3rFKLZk+4EnbXEevTNGHHsvFN0ssic/9v7jyBX60EroO6bq+Cm13vWJggeCg+SL3HH6whXqZ7l94yUsYrJOmtbL8jd55IOw3H6Hs5gasymIX1P4OATGW6YBakdETMjyP3zbUbHbO/BPqTbfqbKV/d2CJGkrDmgVvTt6KLst6pa94ajJ+1VdNj/42huG+35VPnYboHLn/jEomrY3YZf/eAZZyHz490FpStfKx2qnXfYv+MreC+htv79jgpMTOt9Xl/2GNNu4eenGyJnyQCqZOycHbCYBF4dpoussPfZgUkxTLPWY+riOthcnIotuS2bxPdGnGN0Dxso31O9HcTOU0QC7g5z0g2Fc0PQ2Se+2RelRAcS9729oZujsduNF3NaYJ8AS3V+alWz8Md4hPP9hB50U=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzUyNjI1NDIsInByb2ZpbGVJZCI6ImNiZGViZGRjODNhNTQ0OWFiZDFiOThhNzBjY2E0ZDhlIiwicHJvZmlsZU5hbWUiOiJDaGVja2lkb2lzIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yOTliMmQ4YzYyYjE3MTA4MDIzYzU3ZTJiYzQwODczNDQ2ZTFiOTZmMTE2NzRhMmJiMmEyN2Y5MTVjZjlkNTE5In19fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and chopping dark oak\",2:\"§7logs! Requires an open area to place\",3:\"§7trees. Minions also work when you\",4:\"§7are offline!\",5:\"\",6:\"§7Time Between Actions: §a42s\",7:\"§7Max Storage: §e576\",8:\"§7Resources Generated: §b0\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Dark Oak Minion VI\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and chopping",
-    "§7dark oak logs! Requires an open",
-    "§7area to place trees. Minions",
-    "§7also work when you are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and chopping dark oak",
+    "§7logs! Requires an open area to place",
+    "§7trees. Minions also work when you",
+    "§7are offline!",
     "",
     "§7Time Between Actions: §a42s",
     "§7Max Storage: §e576",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "DARK_OAK_GENERATOR_6",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Dark Oak Wood I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Dark_Oak_Minion",
+    "https://wiki.hypixel.net/Dark_Oak_Minion_VI"
   ],
   "recipe": {
     "A1": "ENCHANTED_DARK_OAK_LOG:2",
@@ -26,14 +36,5 @@
     "C2": "ENCHANTED_DARK_OAK_LOG:2",
     "C3": "ENCHANTED_DARK_OAK_LOG:2"
   },
-  "internalname": "DARK_OAK_GENERATOR_6",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Dark_Oak_Minion",
-    "https://wiki.hypixel.net/Dark_Oak_Minion_VI"
-  ],
-  "crafttext": "Requires: Dark Oak Wood I"
+  "useneucraft": true
 }

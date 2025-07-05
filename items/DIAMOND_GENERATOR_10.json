@@ -1,20 +1,29 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Diamond Minion X",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"00580eb0-1bb7-326d-bbcc-21f571a02a41\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzU0OTQ1OTEsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjAyNGM5YjE3YzJiNGE4NGZlNTAzNzI2ZGY1N2I3Y2Q3YTc3ODI3ZjUzMGM2YjkzZDJlOTRlN2NjMGI1MTVmOSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and mining\",2:\"§7diamond ore! Requires an open\",3:\"§7area to place diamond ore.\",4:\"§7Minions also work when you are\",5:\"§7offline!\",6:\"\",7:\"§7Time Between Actions: §a19s\",8:\"§7Max Storage: §e960\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Diamond Minion X\"},ExtraAttributes:{id:\"DIAMOND_GENERATOR_10\",generator_tier:10}}",
+  "nbttag": "{ExtraAttributes:{id:\"DIAMOND_GENERATOR_10\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"00580eb0-1bb7-326d-bbcc-21f571a02a41\",Properties:{textures:[0:{Name:\"textures\",Signature:\"NhjvBiAr2mYfMBXfkqi86LQdHaZIEDSEz+RW4JJCHhwugmiIX0NNArhixdoHIs5OYRlrSD7T9cRQ5i+ZTPQKnaLa6bvZrUTWfAr2KVHfvdpBB18KiTnmjI+mmdgi68wkdz1olZCrBPE6SLFglu7cuxOCK0lQy4PE9HdQpMMMY66SJz8K47nfYIUf4I4tcP681FBlxeFqsQG3VCP6V/NESadSIEn7OQb+YXY3ILbrc3ZSXTxSzYFNjBWih5liY0pUGEI3ZHLXjAlbeDPtWzOUwTUqLR4XK82zaLeds4TkBQZwRzjGOPwTj2AIrQRekijeJw+Lw5H6wKv5NZ6Q5umudmSLuN+Hoz9srv5jh19VbNK644LCiqRogfCDMSLkX1dH0V4vXlbVx4Fz+eAIsm23ESsDqDfvcGObsBhSTVgF/d21CXLD3msiq5ukx4+psqt6ZlXVc6pWslZMEspdEfv3FVHZ4aV+gKoD8iSVQHDOcxXVs6mZCSUkcYD4C6QFphdpHAkGJqljjjpWQjH6S7BB13EG/M91sJ6lVNA3qQrEOy96eVfJJfcAMgwSbOMVsWbf2tOtJ8m8yhVMgvHdHk/C7YRtVq+cWuFcrzRta2o/VvCv4J+0zGJDl8zEw6AKkDBPOEP0u/v2TB624xA77MV4H/ZUrY5Zxhn9GjMIUJGsiLo=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzU0OTQ1OTEsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjAyNGM5YjE3YzJiNGE4NGZlNTAzNzI2ZGY1N2I3Y2Q3YTc3ODI3ZjUzMGM2YjkzZDJlOTRlN2NjMGI1MTVmOSJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and mining diamond ore!\",2:\"§7Requires an open area to place\",3:\"§7diamond ore. Minions also work when\",4:\"§7you are offline!\",5:\"\",6:\"§7Time Between Actions: §a19s\",7:\"§7Max Storage: §e960\",8:\"§7Resources Generated: §b0\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Diamond Minion X\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and mining",
-    "§7diamond ore! Requires an open",
-    "§7area to place diamond ore.",
-    "§7Minions also work when you are",
-    "§7offline!",
+    "§7Place this minion and it will start",
+    "§7generating and mining diamond ore!",
+    "§7Requires an open area to place",
+    "§7diamond ore. Minions also work when",
+    "§7you are offline!",
     "",
     "§7Time Between Actions: §a19s",
     "§7Max Storage: §e960",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "DIAMOND_GENERATOR_10",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Diamond I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Diamond_Minion",
+    "https://wiki.hypixel.net/Diamond_Minion_X"
   ],
   "recipe": {
     "A1": "ENCHANTED_DIAMOND:64",
@@ -27,14 +36,5 @@
     "C2": "ENCHANTED_DIAMOND:64",
     "C3": "ENCHANTED_DIAMOND:64"
   },
-  "internalname": "DIAMOND_GENERATOR_10",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Diamond_Minion",
-    "https://wiki.hypixel.net/Diamond_Minion_X"
-  ],
-  "crafttext": "Requires: Diamond I"
+  "useneucraft": true
 }

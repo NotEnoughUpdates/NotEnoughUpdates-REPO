@@ -1,19 +1,29 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Spruce Minion I",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"9d35ea53-93e3-3d03-a258-be6da1faa800\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MjA0NDk3MDAsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JhMDRiZmU1MTY5NTVmZDQzOTMyZGNiMzNiZDVlYWMyMGIzOGEyMzFkOWZhODQxNWIzZmIzMDFmNjBmNzM2MyJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and chopping\",2:\"§7spruce logs! Requires an open\",3:\"§7area to place trees. Minions\",4:\"§7also work when you are offline!\",5:\"\",6:\"§7Time Between Actions: §a48s\",7:\"§7Max Storage: §e64\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Spruce Minion I\"},ExtraAttributes:{id:\"SPRUCE_GENERATOR_1\",generator_tier:1}}",
+  "nbttag": "{ExtraAttributes:{id:\"SPRUCE_GENERATOR_1\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"9d35ea53-93e3-3d03-a258-be6da1faa800\",Properties:{textures:[0:{Name:\"textures\",Signature:\"EeUU1Ld1a4jPXQ8s+3lLCUfR0Dusx0KwDG/s3wXLUPwOAxqZL6jYG1sjmtHKq/ReMzaD09Dc4r1zWzrpuFOMIYId88jw38dbng/tG8yzOFciZZF45mPHcf+IazQbSdwECj+FM1od+9+kUzw6/IUvxjyNZICSBFAq18SwbxxaclzN0ziSMG+rWE2+SiAuI0gnTPuEcuFAkbwAxEx3cA5A/N3wLLVgnvW7clgJxBjicbVYJ2LP+VwhbZJ4lg9E9cHa3xCNOQU7JOQn78aHFzIwN+5di+JcVmCMABjjAZe04ABFg+NHwNWGahAAo8Rz/S8Uw1jw5jFrcQcdVET6OrZHGSxFHV/CegcohoLkqhhY//JfuWc6zf02Fz9ocIefXkJ7ODz6aS8I5nXDKQpt5XSDyE/vM05XdFSt4WeJYkc3iB5G50b+NJ7IBTSbePTTtHLLFnf/aDD+I8T3JJOi9pd0Ejk21fedjt0D/hBOQ7mSZRtYyeh9fP257R1ftopmmvXBCPa39EAhoLZfjSEzuU3fa2ykaY4BVmNYrGsen5gX+lZbJQSpJy7ua8NlyVQPoX9tzAfFRIG3NaCBe0fWFmfDGcerEVFC4ifiCLCCPwU2khZtZrK8hQWtayhc6SCRjuuVHc/IH7NPED2l6WRv20P7hgDmzV0g40Y8k78MhfGSYwo=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MjA0NDk3MDAsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JhMDRiZmU1MTY5NTVmZDQzOTMyZGNiMzNiZDVlYWMyMGIzOGEyMzFkOWZhODQxNWIzZmIzMDFmNjBmNzM2MyJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and chopping spruce\",2:\"§7logs! Requires an open area to place\",3:\"§7trees. Minions also work when you\",4:\"§7are offline!\",5:\"\",6:\"§7Time Between Actions: §a48s\",7:\"§7Max Storage: §e64\",8:\"§7Resources Generated: §b0\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Spruce Minion I\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and chopping",
-    "§7spruce logs! Requires an open",
-    "§7area to place trees. Minions",
-    "§7also work when you are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and chopping spruce",
+    "§7logs! Requires an open area to place",
+    "§7trees. Minions also work when you",
+    "§7are offline!",
     "",
     "§7Time Between Actions: §a48s",
     "§7Max Storage: §e64",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "SPRUCE_GENERATOR_1",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Spruce Wood I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Spruce_Minion",
+    "https://wiki.hypixel.net/Spruce_Minion_I"
   ],
   "recipe": {
     "A1": "LOG-1:10",
@@ -26,14 +36,5 @@
     "C2": "LOG-1:10",
     "C3": "LOG-1:10"
   },
-  "internalname": "SPRUCE_GENERATOR_1",
-  "crafttext": "Requires: Spruce Wood I",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Spruce_Minion",
-    "https://wiki.hypixel.net/Spruce_Minion_I"
-  ]
+  "useneucraft": true
 }

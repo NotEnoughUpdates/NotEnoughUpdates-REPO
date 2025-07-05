@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Blaze Minion IX",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"c05471a3-1d27-315a-a4bb-e9380eadd3b8\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzAyOTAyNzYsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTJhMjQ2ZGJjYzQ1YmU0YTkzNmExOWI0NGZjYjYxNzI1YzBmZTIzNzJhMGNlMDY3NmZiMDhmZDU0ZDRkODk5YiJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and slaying Blazes!\",2:\"§7Minions also work when you are\",3:\"§7offline!\",4:\"\",5:\"§7Time Between Actions: §a21s\",6:\"§7Max Storage: §e768\",7:\"\",8:\"§9§lRARE\"],Name:\"§9Blaze Minion IX\"},ExtraAttributes:{id:\"BLAZE_GENERATOR_9\",generator_tier:9}}",
+  "nbttag": "{ExtraAttributes:{id:\"BLAZE_GENERATOR_9\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"c05471a3-1d27-315a-a4bb-e9380eadd3b8\",Properties:{textures:[0:{Name:\"textures\",Signature:\"PHXmo7JMzrPdFaRuRqlcK99w67jqFXiCzJcvtiWoscsZ4736f07TLyIXUx0ntAAlnEgHmsHTJd+UvW9sIcCz76J6MgJQzsTW6PQtLpOkURxMZsMaBuzXQa+epbdRE1d+3YBeL4u9gt9lltC9mmy/eFLOSOqZ85OoIAtlRbq71nZK+DTj9/9Ems8IWcMXvWJVg6eNj6C6ptlbfYhm0mu8u37lvvPT9b/8291dkkrTETLvFTenCsb1JitIGdfyPISvDNHLugnT+95Qx008UNvh864vhAK8iA9R9pyj15w2bArUPb19xcF1K34oJqF6BwG4Km6WI74HjmLsORqDTZ/bNDZ7gWtu9u/xc1ffvMVB0k3rAbo0euSOlDynXXnh2vPotjfIeNuxpl6Is9deVlp62tOeFo7uOf2Z8YkVn++B+cAltQzXbuPe18o1T5ZUerc8eBvl/8nCRN4WbqhV9DOiUUMR5TOn9c7WyuOa97kwgGSUDJc3B9paJxtDESq7sVby0dFscVTQ6dVWKELwVU0HIeWUt529T8zdWwTS3bvuilbeBi/WyG5FaWmmNUbDkKJU9GzcO76zpQExEpv6fju2GRmi5QUX6Aby+fQO8iJp6w2Huykjfl4vGyS8d3E7qlp7jaV11WMwZTw4aMBm0JubcG1p0S7eCK49uCARZy/ISPk=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzAyOTAyNzYsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTJhMjQ2ZGJjYzQ1YmU0YTkzNmExOWI0NGZjYjYxNzI1YzBmZTIzNzJhMGNlMDY3NmZiMDhmZDU0ZDRkODk5YiJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and slaying Blazes!\",2:\"§7Minions also work when you are\",3:\"§7offline!\",4:\"\",5:\"§7Time Between Actions: §a21s\",6:\"§7Max Storage: §e768\",7:\"§7Resources Generated: §b0\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Blaze Minion IX\"}}",
   "damage": 3,
   "lore": [
     "§7Place this minion and it will start",
@@ -11,8 +11,18 @@
     "",
     "§7Time Between Actions: §a21s",
     "§7Max Storage: §e768",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "BLAZE_GENERATOR_9",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Blaze Rod I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Blaze_Minion",
+    "https://wiki.hypixel.net/Blaze_Minion_IX"
   ],
   "recipe": {
     "A1": "ENCHANTED_BLAZE_POWDER:32",
@@ -25,14 +35,5 @@
     "C2": "ENCHANTED_BLAZE_POWDER:32",
     "C3": "ENCHANTED_BLAZE_POWDER:32"
   },
-  "internalname": "BLAZE_GENERATOR_9",
-  "clickcommand": "viewrecipe",
-  "modver": "2.3.2",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Blaze_Minion",
-    "https://wiki.hypixel.net/Blaze_Minion_IX"
-  ],
-  "crafttext": "Requires: Blaze Rod I"
+  "useneucraft": true
 }

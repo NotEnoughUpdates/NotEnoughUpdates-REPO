@@ -1,19 +1,29 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Gold Minion VI",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"d52b8d4a-cce6-3595-9b85-528d53694555\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzY5NDU1MzcsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTMxN2EwYjY2ZWQyZGMyNzRiM2IwZDc3YjY4NTlkNGI5OTQyY2NjOTQyZDllMGJjMjZmN2ZhMTViODk4NDJiIn19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and mining gold\",2:\"§7ore! Requires an open area to\",3:\"§7place gold ore. Minions also\",4:\"§7work when you are offline!\",5:\"\",6:\"§7Time Between Actions: §a18s\",7:\"§7Max Storage: §e576\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Gold Minion VI\"},ExtraAttributes:{id:\"GOLD_GENERATOR_6\",generator_tier:6}}",
+  "nbttag": "{ExtraAttributes:{id:\"GOLD_GENERATOR_6\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"d52b8d4a-cce6-3595-9b85-528d53694555\",Properties:{textures:[0:{Name:\"textures\",Signature:\"QBvRR6XHhFKQn6mkOJZ+aI8lNXquXloMK0tL88e32LhGGptCEZARGvcg5eEZtBnqxbkJcgXIqcKPGrvHngbDEjsKZXDkqYsts+Wv3MP+q1Q2B5zbCl5Mk+2YuEujU/Gb7t6VEzdUFpxv8MJG/m4Jn4S10F9XF+1lE1evjiTtPv5KGp/J5wVJmUbUR5G47alClxCmnDxn+2K6Rx0v/qmWgvQsEARUUmVas1+Buo7GfdgpVBq4oZzzoGapBZ2NV5+aRjqQm/s3Mj/R17MSwKvwz75je3QavAwplFllCtzRWI+QsyM5IVmvOiEhcpw10fbkO5w/xrT2yhejoSwUTCHdok3xn2QQ7Qt5OMBWd8vsHoZi+fJ9a6y78wClpnlBWP7GsUQ49pfVQ+9mCQPIHeRx4eJlzEOJqTljzXKH2QqkbjBr33Ou++zDfXEQ9j7B9pzipzJq3uCksyB9wqWqhONr6gjyx/4ctgRx7lUpB09mm0cANZxX0a3eP0LVjW6ttLqmhycBe7ZiHKTszqhaA0rbH1yLSHyi/UPgStco0nEvCniQ87SAxFotVoqTN2ek/KuGepMFH3tBaGouK5GEEGpjo4g50gNHlUrl1oifD+PDQmBpZcQA7Ko6FZxh4JoOh8SaIfmJl8J2XDp8sXU6xZeO9qI/RTTg8TpKuqzigdEGbaM=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzY5NDU1MzcsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTMxN2EwYjY2ZWQyZGMyNzRiM2IwZDc3YjY4NTlkNGI5OTQyY2NjOTQyZDllMGJjMjZmN2ZhMTViODk4NDJiIn19fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and mining gold ore!\",2:\"§7Requires an open area to place gold\",3:\"§7ore. Minions also work when you are\",4:\"§7offline!\",5:\"\",6:\"§7Time Between Actions: §a18s\",7:\"§7Max Storage: §e576\",8:\"§7Resources Generated: §b0\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Gold Minion VI\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and mining gold",
-    "§7ore! Requires an open area to",
-    "§7place gold ore. Minions also",
-    "§7work when you are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and mining gold ore!",
+    "§7Requires an open area to place gold",
+    "§7ore. Minions also work when you are",
+    "§7offline!",
     "",
     "§7Time Between Actions: §a18s",
     "§7Max Storage: §e576",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "GOLD_GENERATOR_6",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Gold Ingot I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Gold_Minion",
+    "https://wiki.hypixel.net/Gold_Minion_VI"
   ],
   "recipe": {
     "A1": "ENCHANTED_GOLD:3",
@@ -26,14 +36,5 @@
     "C2": "ENCHANTED_GOLD:3",
     "C3": "ENCHANTED_GOLD:3"
   },
-  "internalname": "GOLD_GENERATOR_6",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Gold_Minion",
-    "https://wiki.hypixel.net/Gold_Minion_VI"
-  ],
-  "crafttext": "Requires: Gold Ingot I"
+  "useneucraft": true
 }

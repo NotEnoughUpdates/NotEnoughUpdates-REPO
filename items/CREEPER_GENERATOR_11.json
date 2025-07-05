@@ -1,19 +1,28 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Creeper Minion XI",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"cce0e081-9c90-3b0e-b54e-6495dd44a404\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzUxNjgxNjksInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJ4RmFpaUxlUiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA4NTBjY2NiM2RmYjdmZTRiYjBmN2EwMDhkNWI0YzEwYzA4ZjllMzY5OThmNmY0NGFlOGM5YmMxYjFiOGUwMSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and slaying\",2:\"§7Creepers! §cBEWARE OF\",3:\"§cEXPLOSIONS!§7 Minions also work\",4:\"§7when you are offline!\",5:\"\",6:\"§7Time Between Actions: §a14s\",7:\"§7Max Storage: §e960\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Creeper Minion XI\"},ExtraAttributes:{id:\"CREEPER_GENERATOR_11\",generator_tier:11}}",
+  "nbttag": "{ExtraAttributes:{id:\"CREEPER_GENERATOR_11\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"cce0e081-9c90-3b0e-b54e-6495dd44a404\",Properties:{textures:[0:{Name:\"textures\",Signature:\"QZk0ezVmkW0BSr2CAjNGr4eNebdBV3YTFh8cjVqVox7McAgqWfjMB6vDDP0Rm3+OzRHOI7Cr7R8LMigLtNVSqlY3bnMYpghYrReA+0CbhbxqszC/MiwYvTGReJhPDCIZtJRTnb2V0oS0trMdrl832EDJRpC/W+9McWqxBl5ZV7dQr7H6iqYaOB6CFWCyEm9QyOO8+ya9oHCJ9PuufT+N3SDaurQH06KJou9IT+MLirvGpb4soRE6m+qAqugxkOZCP4nq9P5EDA33BsbvO4yZ7AaYlQW9Dw1WmGPb24AErTFLy7U8Q8pyqiw1thm0UO9nND89yAiM6ZylGEinKfWp/+SpijLmAHL9+5bCrarUIq+iqXJJI7uUr8NKkxKe7hQhqItDYY6hEei2BB4o0nzjmcA3vYZlk9B24Vmnq9oCfP0v+t+LMxvA11lNS1BObpgAy/nYFdd8vX1HYJVp8orI4qcj0rV6leTp5wvPTUD1W7CyD6oSYmu78v3EYxKeAorif0kwuWN53BnT+sy0R5K6zgwOUTQ668A6/easHiECXx1iesrzvWhpNEWzza+7BYrD8CxulzVKqN0vduMro+HoUVbLuanAeIhxTZiO6NlBjd5T1pC6UCitBwf7Vdnf1jGniXGYybPXwFFt9eJbFfv4uYay9SMTte3KRWgKQzSU2XE=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzUxNjgxNjksInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJ4RmFpaUxlUiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA4NTBjY2NiM2RmYjdmZTRiYjBmN2EwMDhkNWI0YzEwYzA4ZjllMzY5OThmNmY0NGFlOGM5YmMxYjFiOGUwMSJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and slaying Creepers!\",2:\"§cBEWARE OF EXPLOSIONS!§7 Minions also\",3:\"§7work when you are offline!\",4:\"\",5:\"§7Time Between Actions: §a14s\",6:\"§7Max Storage: §e960\",7:\"§7Resources Generated: §b0\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Creeper Minion XI\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and slaying",
-    "§7Creepers! §cBEWARE OF",
-    "§cEXPLOSIONS!§7 Minions also work",
-    "§7when you are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and slaying Creepers!",
+    "§cBEWARE OF EXPLOSIONS!§7 Minions also",
+    "§7work when you are offline!",
     "",
     "§7Time Between Actions: §a14s",
     "§7Max Storage: §e960",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "CREEPER_GENERATOR_11",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Gunpowder I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Creeper_Minion",
+    "https://wiki.hypixel.net/Creeper_Minion_XI"
   ],
   "recipe": {
     "A1": "ENCHANTED_FIREWORK_ROCKET:2",
@@ -26,14 +35,5 @@
     "C2": "ENCHANTED_FIREWORK_ROCKET:2",
     "C3": "ENCHANTED_FIREWORK_ROCKET:2"
   },
-  "internalname": "CREEPER_GENERATOR_11",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Creeper_Minion",
-    "https://wiki.hypixel.net/Creeper_Minion_XI"
-  ],
-  "crafttext": "Requires: Gunpowder I"
+  "useneucraft": true
 }

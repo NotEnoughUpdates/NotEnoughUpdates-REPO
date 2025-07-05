@@ -1,18 +1,28 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Rabbit Minion I",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"fbb8165f-a72b-37b9-bde2-6d9dbd72ae3e\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MjAwNzAyMTIsInByb2ZpbGVJZCI6IjU2Njc1YjIyMzJmMDRlZTA4OTE3OWU5YzkyMDZjZmU4IiwicHJvZmlsZU5hbWUiOiJUaGVJbmRyYSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWY1OWMwNTJkMzM5YmI2MzA1Y2FkMzcwZmQ4YzUyZjU4MjY5YTk1N2RmYWY0MzNhMjU1NTk3ZDk1ZTY4YTM3MyJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and slaying\",2:\"§7Rabbits! Minions also work when\",3:\"§7you are offline!\",4:\"\",5:\"§7Time Between Actions: §a26s\",6:\"§7Max Storage: §e192\",7:\"\",8:\"§9§lRARE\"],Name:\"§9Rabbit Minion I\"},ExtraAttributes:{id:\"RABBIT_GENERATOR_1\",generator_tier:1}}",
+  "nbttag": "{ExtraAttributes:{id:\"RABBIT_GENERATOR_1\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"fbb8165f-a72b-37b9-bde2-6d9dbd72ae3e\",Properties:{textures:[0:{Name:\"textures\",Signature:\"mwq9mOHy6P4eijPajkxqIKExK76JctpZZJ0zn0NP1BNbBGcsllp4KoBNp+RJxHRJdEVcmhZ9EsLmy57NCCEY0ssx6O//N++fbSOWb3MsbpCHpKGz110FiUCwgii/eQeiqip8m+u2z2t1wBxZKtvnKR594+4JUxO97+WfUSHVKInO3tLckltknDd4RqQ7q+KnZ5ZH/buCRElxg683pqsqvwNtdM5eyUm7cj6U8gvzvg87Ns937HzXoYdIkm6Gpo97HPLwfWe4shFi6/mOOlzBo8c2ubsbyfskopvBgeo8LPeVgzeHQ8igtELGY1hdT9sKSOq8+i1sd5kCnGkVqocupGAYxjN5VC5v5aE0L6nIrygePfoHr7MtuoTxyH3xFZxHHN+yl90Vkn/JtUJ+6hPUdGKlJ0HXBhI5Ajp3ExmlYtnOsyLVU7408Mkv1ordnclXOEfAPFORTVOHlyJ1n346Idpvi/imuvKi+lxmMs0pPEP+GQhg8b7mzZ19qg92KH6Zolgywzi1qI4UmoBBRS+WbSOimwzwUOZmWq8HZ5TEWxUKuXSwfVjkrhY5io/CZoElW+38FfW3BldC3eNSP9OzVd1sVe7b3R1QSFjT0COqvb5B6O/E38OKqTrsWlVcnSUy9tGRBtVVcf6RBhZUeoCrxsUpZS7dLuY511mev1ldSc8=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MjAwNzAyMTIsInByb2ZpbGVJZCI6IjU2Njc1YjIyMzJmMDRlZTA4OTE3OWU5YzkyMDZjZmU4IiwicHJvZmlsZU5hbWUiOiJUaGVJbmRyYSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWY1OWMwNTJkMzM5YmI2MzA1Y2FkMzcwZmQ4YzUyZjU4MjY5YTk1N2RmYWY0MzNhMjU1NTk3ZDk1ZTY4YTM3MyJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and slaying Rabbits!\",2:\"§7Minions also work when you are\",3:\"§7offline!\",4:\"\",5:\"§7Time Between Actions: §a26s\",6:\"§7Max Storage: §e192\",7:\"§7Resources Generated: §b0\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Rabbit Minion I\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and slaying",
-    "§7Rabbits! Minions also work when",
-    "§7you are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and slaying Rabbits!",
+    "§7Minions also work when you are",
+    "§7offline!",
     "",
     "§7Time Between Actions: §a26s",
     "§7Max Storage: §e192",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "RABBIT_GENERATOR_1",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Raw Rabbit I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Rabbit_Minion",
+    "https://wiki.hypixel.net/Rabbit_Minion_I"
   ],
   "recipe": {
     "A1": "RABBIT:8",
@@ -25,14 +35,5 @@
     "C2": "RABBIT:8",
     "C3": "RABBIT:8"
   },
-  "internalname": "RABBIT_GENERATOR_1",
-  "crafttext": "Requires: Raw Rabbit I",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Rabbit_Minion",
-    "https://wiki.hypixel.net/Rabbit_Minion_I"
-  ]
+  "useneucraft": true
 }

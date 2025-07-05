@@ -1,19 +1,28 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Ice Minion III",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"028ce1ed-38a0-31ba-9772-a47185dd0a5f\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTk2NTkzODQ5MjYsInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJ4RmFpaUxlUiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzI4NDZiZDcyYTRiOWFjNTQ4ZjZiNjlmMjEwMDRmNGQ5YTBmMmExYWVlNjYwNDRmYjkzODhjYTA2ZWNiMGIwZCJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and mining ice!\",2:\"§7Requires an open area to place\",3:\"§7ice. Minions also work when you\",4:\"§7are offline!\",5:\"\",6:\"§7Time Between Actions: §a12s\",7:\"§7Max Storage: §e192\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Ice Minion III\"},ExtraAttributes:{id:\"ICE_GENERATOR_3\",generator_tier:3}}",
+  "nbttag": "{ExtraAttributes:{id:\"ICE_GENERATOR_3\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"028ce1ed-38a0-31ba-9772-a47185dd0a5f\",Properties:{textures:[0:{Name:\"textures\",Signature:\"ddHg9eOPrRywLgJIT2Al6qkQS5v3hv8ypZylx3ZB51fpJI6d3D3OU4JsOuEq0gCS0yzgyfPm8QuJTaJ07mumC314Y5tFNpkXfq6Gr8jCcr2LSTF2MvuJRbug3frDzo6GYVPxcbVGJHiWCFaVDdVGRz97kE0gASkWaepJaHKDoHZcHgOFec5jmdzOjOndIWt5bXl/QAsdJVSg99mx+HN9QHCrKTi2+U6/uG/5NiiEc8lH4yXnWxKeAPQ6HAB/0/ZpJey5sxy//b6AaKHmbk+WwT3PXFDRkG9IkQLQkAi6UurtzDGhQKixctjynBzUqAS+j+4fmgZ2CRinyAQJBAxIpIfJe45oTuwKkYhC8eceS8AHb/eX0oLcbQ7604Hd+S7nnoEFwvIH79ZlSyH5JGxt00fdZY7Cwet1APoaw2jyB5sE69ev9oBjCZNQdkpZ4p7rbMbHg0A6VejEpJKcO1sYIvDyA1U+73MlQVV2s/iPXrG7IDQLDeIpLnIA29X+RP7lpl7Jtl2/CwIR1OyU6fn+KpTMlaTEAWV/oeRliUCvo7PO3gRcF1ZRy42IPnJu6hspiRPnWC5/qX9CdflNYI0p27CYr7aAiBlAMVB4k2FveI+wla17E95y536mEEgdlBBz88sudd92SIUnAWFD8GG8xU5Snp7aZGaOb1I8AFH7/Xs=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTk2NTkzODQ5MjYsInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJ4RmFpaUxlUiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzI4NDZiZDcyYTRiOWFjNTQ4ZjZiNjlmMjEwMDRmNGQ5YTBmMmExYWVlNjYwNDRmYjkzODhjYTA2ZWNiMGIwZCJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and mining ice! Requires\",2:\"§7an open area to place ice. Minions\",3:\"§7also work when you are offline!\",4:\"\",5:\"§7Time Between Actions: §a12s\",6:\"§7Max Storage: §e192\",7:\"§7Resources Generated: §b0\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Ice Minion III\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and mining ice!",
-    "§7Requires an open area to place",
-    "§7ice. Minions also work when you",
-    "§7are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and mining ice! Requires",
+    "§7an open area to place ice. Minions",
+    "§7also work when you are offline!",
     "",
     "§7Time Between Actions: §a12s",
     "§7Max Storage: §e192",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "ICE_GENERATOR_3",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Ice I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Ice_Minion",
+    "https://wiki.hypixel.net/Ice_Minion_III"
   ],
   "recipe": {
     "A1": "ICE:40",
@@ -26,14 +35,5 @@
     "C2": "ICE:40",
     "C3": "ICE:40"
   },
-  "internalname": "ICE_GENERATOR_3",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Ice_Minion",
-    "https://wiki.hypixel.net/Ice_Minion_III"
-  ],
-  "crafttext": "Requires: Ice I"
+  "useneucraft": true
 }

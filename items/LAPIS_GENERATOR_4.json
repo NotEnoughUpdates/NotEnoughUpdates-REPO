@@ -1,19 +1,29 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Lapis Minion IV",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"bffaed76-d129-38af-b7e9-40eb9a7a1812\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MTgzNjk4MDEsInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJ4RmFpaUxlUiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdkZjhhZTZlMTQzNjUwNGE2ZjA4MTM3MzEzZTVlNDdlMTdhYTA3ODgyN2YzYTYzNjMzNjY2OGE0MTg4ZTZmYyJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and mining\",2:\"§7lapis ore! Requires an open area\",3:\"§7to place lapis ore. Minions also\",4:\"§7work when you are offline!\",5:\"\",6:\"§7Time Between Actions: §a27s\",7:\"§7Max Storage: §e384\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Lapis Minion IV\"},ExtraAttributes:{id:\"LAPIS_GENERATOR_4\",generator_tier:4}}",
+  "nbttag": "{ExtraAttributes:{id:\"LAPIS_GENERATOR_4\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"bffaed76-d129-38af-b7e9-40eb9a7a1812\",Properties:{textures:[0:{Name:\"textures\",Signature:\"hCpr0mbjY7Q53vhqxBzsTpB4Tx1oPP1OV+ZbB0/YrLJYS++j/nxVBN4PWR1BmFQx3KMQG7zDTjWGKwsLi5Dkfv+p4cCjwBgHevE3YPC6CLO0EcpC289Scdc0Cb89hMrb3YroBuZy9CYycIxMehDaY18nGBwQm6phsE9AvGcCai+vrxbAOU0cAioUa+ZyzsHJi3EmvrCJcnovTziJPTvr3vTM0bNCoC5exXIBKnNjXCriE2bLfGEGmgHzI0WX38JkZqi/YiU4a+sW/B7vzi90Lc8bOAsmgZXM6DzOmcqBJiVGbApEUfRF0rbAxCQrj4tb18rpC32Ihoe1mnvy3uco01wZSxH36DVG0EZJxtCBtgpbb7wYOyiu6WxkFKG79qBJW1EFKoqejyp1N1mildjuCFbEh8SDtKdeEbQo11JwA0H2knrZVIT7PsD5rr0ojLGq/6K3EOpOhbR/sAyvA4wmUtcVukQMpUn2qLgt54dZgDOXoaL0zMVa+CPwtKi6parwx4nyDWTmjT/cWR++wkq2XsEiLU1CYyJbgNKVuy8YUFNRbtNjiihaIKGm8K3cHFvh6qSXKBmN/ytKgtUcwxVE8iU47cI0A9O0HDyJbM1+MZR7V1mDJKJ998tx1zXAtHhvs/bC9DrGJzkvrO57OQG34mQEMx1L6ByUs6vSftWvFTY=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MTgzNjk4MDEsInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJ4RmFpaUxlUiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdkZjhhZTZlMTQzNjUwNGE2ZjA4MTM3MzEzZTVlNDdlMTdhYTA3ODgyN2YzYTYzNjMzNjY2OGE0MTg4ZTZmYyJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and mining lapis ore!\",2:\"§7Requires an open area to place lapis\",3:\"§7ore. Minions also work when you are\",4:\"§7offline!\",5:\"\",6:\"§7Time Between Actions: §a27s\",7:\"§7Max Storage: §e384\",8:\"§7Resources Generated: §b0\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Lapis Minion IV\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and mining",
-    "§7lapis ore! Requires an open area",
-    "§7to place lapis ore. Minions also",
-    "§7work when you are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and mining lapis ore!",
+    "§7Requires an open area to place lapis",
+    "§7ore. Minions also work when you are",
+    "§7offline!",
     "",
     "§7Time Between Actions: §a27s",
     "§7Max Storage: §e384",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "LAPIS_GENERATOR_4",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Lapis Lazuli I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Lapis_Minion",
+    "https://wiki.hypixel.net/Lapis_Minion_IV"
   ],
   "recipe": {
     "A1": "ENCHANTED_LAPIS_LAZULI:3",
@@ -26,14 +36,5 @@
     "C2": "ENCHANTED_LAPIS_LAZULI:3",
     "C3": "ENCHANTED_LAPIS_LAZULI:3"
   },
-  "internalname": "LAPIS_GENERATOR_4",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Lapis_Minion",
-    "https://wiki.hypixel.net/Lapis_Minion_IV"
-  ],
-  "crafttext": "Requires: Lapis Lazuli I"
+  "useneucraft": true
 }

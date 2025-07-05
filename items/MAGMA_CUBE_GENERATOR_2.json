@@ -1,18 +1,28 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Magma Cube Minion II",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"1f8cc746-5716-3ad3-9590-c2bc83728d0d\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5Mzc1MTk3MjAsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIxMmZmNDdmNWM4YjM4ZTk2ZTk0MGI5OTU3OTU4ZTM3ZDYxMDkxOGRmOWI2NjRiMGMxMWJkNjI0Njc5OWY0YWYifX19\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and slaying\",2:\"§7Magma Cubes! Minions also work\",3:\"§7when you are offline!\",4:\"\",5:\"§7Time Between Actions: §a32s\",6:\"§7Max Storage: §e192\",7:\"\",8:\"§9§lRARE\"],Name:\"§9Magma Cube Minion II\"},ExtraAttributes:{id:\"MAGMA_CUBE_GENERATOR_2\",generator_tier:2}}",
+  "nbttag": "{ExtraAttributes:{id:\"MAGMA_CUBE_GENERATOR_2\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"1f8cc746-5716-3ad3-9590-c2bc83728d0d\",Properties:{textures:[0:{Name:\"textures\",Signature:\"J0UdhH2bFcsQk/vUiQ78lWFN85jhaArNanJi9sfWTKYnoB0pygrFhgftfapSCw0c1Z83Zy/RxQcwZb5X0dxwg+MgHrf2VWcaNo4oTbRpw7p9EfjOsSeyNxKEKbm5LwMZS0jwuOOtWLdWc41r0axWSPTHARC4MGnJNs/dEOuu6YbtJm/WVfmGELS/6CKy/y8Goizl2vIuX+ujpxgyyTficufdVRfUXFHzSrC6F367mmnIec1TA3/+F8+0v08P0vXR0sNmdyI0unKUaFLED/EqqbMZLqZzEoTt+tGzsfg9uxY9BYMjRBtCsHVJ521i64hbHV9ckRAjqy0mh4r0RbeNuikaRyhJ/X8nEErTxbzJiqLDSiM1gfLKJ0AoURbVh59DtQjNN4/XPc7stxF6JOHoe3kVxZ7wil6GqV5RzHf+tGTrCOFcGQ9pacQBu0UiH3SegHIPQMXMQI+pT7oalpJ8GpVcxQ35gd2yr7lT2Pd1aimYv8ZsR/Ru4Kkla6BnIc4YI19uGqmziVQER/ix5qTxYAAj3uxF55MRM6DmPcqkbQ880R4leNK2Wf7kNJhjK0Z80pEzjfoVTpxiX7bBex7RnKs4DFLwSqaT5xcD6eJr+ofZe7moUuR1Y8Thx0d+8aZVRUBO53T1/27ljfZAzm0IEVogR5TO+uHKM8yATD6knLw=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5Mzc1MTk3MjAsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIxMmZmNDdmNWM4YjM4ZTk2ZTk0MGI5OTU3OTU4ZTM3ZDYxMDkxOGRmOWI2NjRiMGMxMWJkNjI0Njc5OWY0YWYifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and slaying Magma Cubes!\",2:\"§7Minions also work when you are\",3:\"§7offline!\",4:\"\",5:\"§7Time Between Actions: §a32s\",6:\"§7Max Storage: §e192\",7:\"§7Resources Generated: §b0\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Magma Cube Minion II\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and slaying",
-    "§7Magma Cubes! Minions also work",
-    "§7when you are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and slaying Magma Cubes!",
+    "§7Minions also work when you are",
+    "§7offline!",
     "",
     "§7Time Between Actions: §a32s",
     "§7Max Storage: §e192",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "MAGMA_CUBE_GENERATOR_2",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Magma Cream I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Magma_Cube_Minion",
+    "https://wiki.hypixel.net/Magma_Cube_Minion_II"
   ],
   "recipe": {
     "A1": "MAGMA_CREAM:20",
@@ -25,14 +35,5 @@
     "C2": "MAGMA_CREAM:20",
     "C3": "MAGMA_CREAM:20"
   },
-  "internalname": "MAGMA_CUBE_GENERATOR_2",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Magma_Cube_Minion",
-    "https://wiki.hypixel.net/Magma_Cube_Minion_II"
-  ],
-  "crafttext": "Requires: Magma Cream I"
+  "useneucraft": true
 }

@@ -1,20 +1,29 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Nether Wart Minion I",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"b82584b7-49ba-32b8-b732-f14f160b7ff2\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MTk5MDAxMjIsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzFhNDYyMGJiMzQ1OWMxYzJmYTc0YjIxMGIxYzA3YjRhMDIyNTQzNTFmNzUxNzNlNjQzYTBlMDA5YTYzZjU1OCJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and harvesting\",2:\"§7nether warts. Requires soul sand\",3:\"§7nearby so nether warts can be\",4:\"§7planted. Minions also work when\",5:\"§7you are offline!\",6:\"\",7:\"§7Time Between Actions: §a50s\",8:\"§7Max Storage: §e64\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Nether Wart Minion I\"},ExtraAttributes:{id:\"NETHER_WARTS_GENERATOR_1\",generator_tier:1}}",
+  "nbttag": "{ExtraAttributes:{id:\"NETHER_WARTS_GENERATOR_1\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"b82584b7-49ba-32b8-b732-f14f160b7ff2\",Properties:{textures:[0:{Name:\"textures\",Signature:\"BJb1RXTQh4l9USPNx4jsaPmJ++VbskXDgJcHZhGyNU/CNVq42foQQPQhzAzTNIAhaYYPlVfvF5JUYbLlcrI7P1tIFJmCzVaegMPDAeiJMbiIbkuJk+65p6DTyj6aYd/aUuMHB6C7GdGRPh7jH/dTpLuqJxVathNY/hs+xz77kpYucc2tLIkpPAmmh//SDgtr0H89WugLxMU/t5wNreSiRzI7xXJDPAMSRh/HT4ViYkQX3pECUkTpI1mY/mRdgOrlcDB6nyuZRIBaDTYVkXBIWyEkmZG7kgxqJAmS/m38+wY1NgkRj6RveIHpkqKC0Pnmi+pWGFvOyzkdTI7AdP6316Ykl5kQPhc1VTT5whHuBhmk44oy17YFSaUmtM4PVIn8TZGWqHE4LqMZ7qIqIDPHMe09GejcAgUHHQKOfc+f5ZQmvv+xafjCP25cvKiwpPabMxBHDtr2441uAk3+4nf5UYZmUmTt/QSnmfZdK/itCa5XjRzMk2+pok62xpTcwzmMExEtrelsrLsWxLrSw3m3sOCZvzlBXXdGIWvBTbC98KAOxNvNJCE46k2OVKUdei3CQaLMIy7K/wII8V5xH6zbCtKWVb7bdgagfKkFrkCHW7G584z7icP7X9hy2aRrrv9dNkQMuh2ht6nuyaTc1rcCu+njrjmbZ8khIFd5pxN3pcE=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MTk5MDAxMjIsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzFhNDYyMGJiMzQ1OWMxYzJmYTc0YjIxMGIxYzA3YjRhMDIyNTQzNTFmNzUxNzNlNjQzYTBlMDA5YTYzZjU1OCJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and harvesting nether\",2:\"§7warts. Requires soul sand nearby so\",3:\"§7nether warts can be planted. Minions\",4:\"§7also work when you are offline!\",5:\"\",6:\"§7Time Between Actions: §a50s\",7:\"§7Max Storage: §e64\",8:\"§7Resources Generated: §b0\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Nether Wart Minion I\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and harvesting",
-    "§7nether warts. Requires soul sand",
-    "§7nearby so nether warts can be",
-    "§7planted. Minions also work when",
-    "§7you are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and harvesting nether",
+    "§7warts. Requires soul sand nearby so",
+    "§7nether warts can be planted. Minions",
+    "§7also work when you are offline!",
     "",
     "§7Time Between Actions: §a50s",
     "§7Max Storage: §e64",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "NETHER_WARTS_GENERATOR_1",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Nether Wart I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Nether_Wart_Minion",
+    "https://wiki.hypixel.net/Nether_Wart_Minion_I"
   ],
   "recipe": {
     "A1": "NETHER_STALK:10",
@@ -27,14 +36,5 @@
     "C2": "NETHER_STALK:10",
     "C3": "NETHER_STALK:10"
   },
-  "internalname": "NETHER_WARTS_GENERATOR_1",
-  "crafttext": "Requires: Nether Wart I",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Nether_Wart_Minion",
-    "https://wiki.hypixel.net/Nether_Wart_Minion_I"
-  ]
+  "useneucraft": true
 }

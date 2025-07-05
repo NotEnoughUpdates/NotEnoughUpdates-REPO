@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Cobblestone Minion VIII",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"cee673a1-1d5a-38c6-ad22-0bd9e84fecb2\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzQ1ODY1ODAsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWE1M2UzYzlmNDQ2YTc3ZThjNTlkZjMwNWE0MTBhOGFjY2I3NTFjMDAyYTQxZTU1YTEwMThjZTFiMzExNDY5MCJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and mining Cobblestone!\",2:\"§7Requires an open area to place\",3:\"§7Cobblestone. Minions also work when\",4:\"§7you are offline!\",5:\"\",6:\"§7Time Between Actions: §a9s\",7:\"§7Max Storage: §e768\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Cobblestone Minion VIII\"},ExtraAttributes:{id:\"COBBLESTONE_GENERATOR_8\",generator_tier:8}}",
+  "nbttag": "{ExtraAttributes:{id:\"COBBLESTONE_GENERATOR_8\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"cee673a1-1d5a-38c6-ad22-0bd9e84fecb2\",Properties:{textures:[0:{Name:\"textures\",Signature:\"DDErY9IWndBhp9JdmB0VuGWCGU8tJDW977eizA3G+LSoSjrF5FeKkj3SsEfDr7WGZui27DbCSAvMksFWjTiHkQZD6KmFwV6kNO1Bf0fbVlpyXREjIFS28uQiurZSPtJb7o1FEWqZaB2/9qzlycCQWYVGoNJ/sCHNlSfKUJWD/YWRZ8WbVVC+pHM3/c7xvY+V1mjQTPsjHiu1cbuPhZ3HGQhvBs2g3HNN4StTgllmIoF1bE1lusQHFNPMVaYsZyrqasf34AsZ9NG4/1eiINxr1X3ftkIgRBi+zTn0jz9QjNh2LayV9UdnlePzzYC3DpEQJUcLnjjwsVsYASCR4g33KSyZV2FD8U/pDOxOAnqz5ash7Tx+RTACtJOnJsqYlvCNQaUOWQJIPttsbwVbmWdvg6DO22wRBrOGREn/F0Rjc9fkFgQcBGq3lfHsdCWeJCwehj7nklA+xuDJOuURja+JG/c1EGbOA9xxbMwSbCPQO587h2E016nNLd62SF1rpkf8DYK2GuDC/+nf5gY0sxvqTcu6Y80XDHp5DVUf4igiZbm8Uma4U/03Gy9GsBFBer5JRfd9cUnmjeMMcwuV0Eeuzp3DXG+CPHDrkjpG5veNOGanWud0RQl47ibP9KFYvlyuVxOhQRk/GPns5lhLbGxpOSAwdp0RpP2Bp56F2CR7N3A=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzQ1ODY1ODAsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWE1M2UzYzlmNDQ2YTc3ZThjNTlkZjMwNWE0MTBhOGFjY2I3NTFjMDAyYTQxZTU1YTEwMThjZTFiMzExNDY5MCJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and mining Cobblestone!\",2:\"§7Requires an open area to place\",3:\"§7Cobblestone. Minions also work when\",4:\"§7you are offline!\",5:\"\",6:\"§7Time Between Actions: §a9s\",7:\"§7Max Storage: §e768\",8:\"§7Resources Generated: §b0\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Cobblestone Minion VIII\"}}",
   "damage": 3,
   "lore": [
     "§7Place this minion and it will start",
@@ -12,8 +12,18 @@
     "",
     "§7Time Between Actions: §a9s",
     "§7Max Storage: §e768",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "COBBLESTONE_GENERATOR_8",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Cobblestone I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Cobblestone_Minion",
+    "https://wiki.hypixel.net/Cobblestone_Minion_VIII"
   ],
   "recipe": {
     "A1": "ENCHANTED_COBBLESTONE:8",
@@ -26,14 +36,5 @@
     "C2": "ENCHANTED_COBBLESTONE:8",
     "C3": "ENCHANTED_COBBLESTONE:8"
   },
-  "internalname": "COBBLESTONE_GENERATOR_8",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Cobblestone_Minion",
-    "https://wiki.hypixel.net/Cobblestone_Minion_VIII"
-  ],
-  "crafttext": "Requires: Cobblestone I"
+  "useneucraft": true
 }

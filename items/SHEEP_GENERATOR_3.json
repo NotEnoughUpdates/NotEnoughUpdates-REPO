@@ -1,18 +1,28 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Sheep Minion III",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"f6c3dad5-6fea-3de2-8c0e-29bbf54e3c36\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5NDU2NzY2ODYsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2MzM2RhNDgyNjlmMjg2OThjNDU0OGMxZGJiODc3M2Y4ZTQ5ODg4YWZkOTNhZjVmNWI0MjBlMGY0M2MzOWYyZWIifX19\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and slaying\",2:\"§7Sheep! Minions also work when\",3:\"§7you are offline!\",4:\"\",5:\"§7Time Between Actions: §a22s\",6:\"§7Max Storage: §e256\",7:\"\",8:\"§9§lRARE\"],Name:\"§9Sheep Minion III\"},ExtraAttributes:{id:\"SHEEP_GENERATOR_3\",generator_tier:3}}",
+  "nbttag": "{ExtraAttributes:{id:\"SHEEP_GENERATOR_3\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"f6c3dad5-6fea-3de2-8c0e-29bbf54e3c36\",Properties:{textures:[0:{Name:\"textures\",Signature:\"b3EErMqPBKl3na7PzV5WqvUhK1ulA5M37Hjeuf+4tq46F3wTVDvmjtDTXNMN55tWa4CECzacIlHPAgTTN4tboKNn01iY8WaP4+VYy0ah5UqyItpPEv9lzF//+BL7EIUqtNLJbKwQVsXrx6VuD3qKUBfOE70xuOgrz9+NKuc/4w9xmsW61mugV13+KusTxDfrCyDQrTMutxdpo2jlhSphKf5yqRJyHoTtB8OxZfCaYBOnRAo3ejHdk7NOwSCez07LqoZnycwSh5FYHy8wBxgrZkgNFrGrCh75hYiEjFgwt2ifzeJING2VHbFPZShClZmhuIS2tzq0hX7tJ2gHd4c48eu+dX11CAZQsNWpXfMs14SIFYxi7/u5bTG9BPKHB0Qs2E8kCSBmfFmEM1rAsLt91YrfcUPF6ChJlrzdAlIlPtNA0B21XDxqbUTfAgWGNwg64oViolZIQ/ElDtgr0RmuDStT/V/ypAgQTIiKzM6CjtzvDwoSUw/AKMQbkeWGketxmojlTRNKxx/a/d085L01zh6QTNiiUvpbYr41/OHRdXe1NIJeWdh3ZCDj53U4z7r8vGxCLdFoMtVHctc0wV/GdRk7dhnff6RC6BXcAbWoXFaAg7GNFXpp6oItVliQ3UiieAfqLMFMDN4WLk9ktB/Hla9braHYCNBcsUSye5SM9A4=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5NDU2NzY2ODYsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2MzM2RhNDgyNjlmMjg2OThjNDU0OGMxZGJiODc3M2Y4ZTQ5ODg4YWZkOTNhZjVmNWI0MjBlMGY0M2MzOWYyZWIifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and slaying Sheep!\",2:\"§7Minions also work when you are\",3:\"§7offline!\",4:\"\",5:\"§7Time Between Actions: §a22s\",6:\"§7Max Storage: §e256\",7:\"§7Resources Generated: §b0\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Sheep Minion III\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and slaying",
-    "§7Sheep! Minions also work when",
-    "§7you are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and slaying Sheep!",
+    "§7Minions also work when you are",
+    "§7offline!",
     "",
     "§7Time Between Actions: §a22s",
     "§7Max Storage: §e256",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "SHEEP_GENERATOR_3",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Sheep_Minion",
+    "https://wiki.hypixel.net/Sheep_Minion_III"
   ],
   "recipe": {
     "A1": "MUTTON:32",
@@ -25,14 +35,5 @@
     "C2": "MUTTON:32",
     "C3": "MUTTON:32"
   },
-  "internalname": "SHEEP_GENERATOR_3",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Sheep_Minion",
-    "https://wiki.hypixel.net/Sheep_Minion_III"
-  ],
-  "crafttext": ""
+  "useneucraft": true
 }

@@ -1,19 +1,29 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Obsidian Minion VI",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"4f47be01-1051-392d-b00b-ce66e8015605\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5NDcyNzkwNjYsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2MxMjQzNTFiZDJkYTIzMTJkMjYxNTc0ZmI1Nzg1OTRjMTg3MjBhYzljOWQ5ZWRmZGI1Nzc1NGI3MzQwYmQyNyJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and mining\",2:\"§7obsidian! Requires an open area\",3:\"§7to place obsidian. Minions also\",4:\"§7work when you are offline!\",5:\"\",6:\"§7Time Between Actions: §a39s\",7:\"§7Max Storage: §e576\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Obsidian Minion VI\"},ExtraAttributes:{id:\"OBSIDIAN_GENERATOR_6\",generator_tier:6}}",
+  "nbttag": "{ExtraAttributes:{id:\"OBSIDIAN_GENERATOR_6\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"4f47be01-1051-392d-b00b-ce66e8015605\",Properties:{textures:[0:{Name:\"textures\",Signature:\"dxdViRbv7fvvQ3YG+cRNfsa/bfjZkzNaVaUpTz7fghWTewGt4rs0nldoru3B3bTo42SxXBePMRRtMYVif2wjY28xkCD1XNxkNtMMOrUyWJHSs9igQOdSHbqQAdvQ/NucA5NqusOIYXHoi9bgLZr9oMIHDk9gwmxgW8MYN+GGeZePgOaJumfSlRCz8iKVswRC2QW55bYd3AF0rube+k8SoV0PSdMD/wyV57GZIh6xEXiVs9wRKlhxTE4vnWOD8Blw6ddurOg19QJB4hX5Odk8fJ+T383ttURpEo4zGN7QzvADi1W5Brpp3Dczu6E1ALqDIdOu1xZIp5lYIbuURuehRj/UWsVa2PXHPQwz1AJGjZR2r4SkCIaDVYo/Wsx/45uj5oFhqUPB+aTAzLBnBBPw9j3v7zZXaN6i0KO9R1Gfhq8Tm7165XtSZtsIJNnQVXd2QL+fJ6LHq3E4g7h+DvaaksivKsM5x8kVc/PqA3+hqwaxboS65aozlmNQ5nBCNHgKIrHAeFCkgCITV64AtUmoi1bH80JmOs77C1t61D9epZTj0nDQlbcX2IMdqa/XELgivFvcVmG006Vm6GI+1aIzy+zb/cz5JLfEHQDeM2xXc+v7m126Fm1tignAIPdvEo9pmo9XqrGXV54YvFeSa2fhNCuA8qF0pEyHP1acZwyI+mc=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5NDcyNzkwNjYsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2MxMjQzNTFiZDJkYTIzMTJkMjYxNTc0ZmI1Nzg1OTRjMTg3MjBhYzljOWQ5ZWRmZGI1Nzc1NGI3MzQwYmQyNyJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and mining obsidian!\",2:\"§7Requires an open area to place\",3:\"§7obsidian. Minions also work when you\",4:\"§7are offline!\",5:\"\",6:\"§7Time Between Actions: §a39s\",7:\"§7Max Storage: §e576\",8:\"§7Resources Generated: §b0\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Obsidian Minion VI\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and mining",
-    "§7obsidian! Requires an open area",
-    "§7to place obsidian. Minions also",
-    "§7work when you are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and mining obsidian!",
+    "§7Requires an open area to place",
+    "§7obsidian. Minions also work when you",
+    "§7are offline!",
     "",
     "§7Time Between Actions: §a39s",
     "§7Max Storage: §e576",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "OBSIDIAN_GENERATOR_6",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Obsidian_Minion",
+    "https://wiki.hypixel.net/Obsidian_Minion_VI"
   ],
   "recipe": {
     "A1": "ENCHANTED_OBSIDIAN:2",
@@ -26,14 +36,5 @@
     "C2": "ENCHANTED_OBSIDIAN:2",
     "C3": "ENCHANTED_OBSIDIAN:2"
   },
-  "internalname": "OBSIDIAN_GENERATOR_6",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Obsidian_Minion",
-    "https://wiki.hypixel.net/Obsidian_Minion_VI"
-  ],
-  "crafttext": ""
+  "useneucraft": true
 }

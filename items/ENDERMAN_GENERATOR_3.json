@@ -1,18 +1,28 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Enderman Minion III",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"be6d8f15-e4d9-3af7-b3b3-b07df2a87bf5\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzU3MDU0MDksInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJ4RmFpaUxlUiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmYyZTRkMDg1MGIwZDg3YzBiNmEyZDM2MWI2MzA5NjBmZjkxNjVhNDc4OTNjMjg3ZWRkZjNlZGEyY2FhMTAxYiJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and slaying\",2:\"§7Endermen! Minions also work when\",3:\"§7you are offline!\",4:\"\",5:\"§7Time Between Actions: §a30s\",6:\"§7Max Storage: §e192\",7:\"\",8:\"§9§lRARE\"],Name:\"§9Enderman Minion III\"},ExtraAttributes:{id:\"ENDERMAN_GENERATOR_3\",generator_tier:3}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENDERMAN_GENERATOR_3\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"be6d8f15-e4d9-3af7-b3b3-b07df2a87bf5\",Properties:{textures:[0:{Name:\"textures\",Signature:\"jWp+RUHKqgxBqT7hM6ZEo7EP9LBAxMLlLStuprlvQCmU9dSC4mFW/EuPZHfYUzhIrbcTjrMUuFNXnZ07g/il/6MhjZ3bKBdKQ2gr6YtKNSt9y8lUbRhu3c1yMZhKAenIHuKc23chLUywW+CJM1ZLD/ZX5Efu9DCBteYec4wMZNV1tARgQ1tWWzmP8MAVez/7IGHZJCHdLP92raSivL51XkKy9wTe+tYdu3e0EA2zO2+6CFsV6xZns0TDpOpQLJlDrnEHNSne2Jz0LIJiGzoAuFUZOKOd5BJDMk0ltgIslLZxuqJzfAJHb3UNVhTA06lNqBLjIgXJK+Rr30evV3Oi4WZfTezWgTvl8wGCWKPSlySTWJUqoP7cvFBMUN9i1tVAYJzEzwh9DRv18SYYVFwir8LC1UVQRCDOlcE22AAC2pzVqKMepUj60WLRnxKFnhg5OU/52DHiIObwWmidJnk6oXSXX5fSZlrSyT1ZrQK3xlbzf7OYtzE19xhwxU4MVqSUFVb5mg6CkT0OUbCV44IV/Qwj2sXzPZLksDNUi9e/dTfIKPCb7hAMyatSpVUujx1RWYtVZFdsU95wEMePEs4D7C3EhW7sB4lFsQ0afWwSIfYlvEAfHrcuCw3Iw7nPo6M42+HvI43Wl5BRvH5JlzefC7l2ab085AojzRicPVahof4=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzU3MDU0MDksInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJ4RmFpaUxlUiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmYyZTRkMDg1MGIwZDg3YzBiNmEyZDM2MWI2MzA5NjBmZjkxNjVhNDc4OTNjMjg3ZWRkZjNlZGEyY2FhMTAxYiJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and slaying Endermen!\",2:\"§7Minions also work when you are\",3:\"§7offline!\",4:\"\",5:\"§7Time Between Actions: §a30s\",6:\"§7Max Storage: §e192\",7:\"§7Resources Generated: §b0\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Enderman Minion III\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and slaying",
-    "§7Endermen! Minions also work when",
-    "§7you are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and slaying Endermen!",
+    "§7Minions also work when you are",
+    "§7offline!",
     "",
     "§7Time Between Actions: §a30s",
     "§7Max Storage: §e192",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "ENDERMAN_GENERATOR_3",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Ender Pearl I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enderman_Minion",
+    "https://wiki.hypixel.net/Enderman_Minion_III"
   ],
   "recipe": {
     "A1": "ENCHANTED_ENDER_PEARL:1",
@@ -25,14 +35,5 @@
     "C2": "ENCHANTED_ENDER_PEARL:1",
     "C3": "ENCHANTED_ENDER_PEARL:1"
   },
-  "internalname": "ENDERMAN_GENERATOR_3",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Enderman_Minion",
-    "https://wiki.hypixel.net/Enderman_Minion_III"
-  ],
-  "crafttext": "Requires: Ender Pearl I"
+  "useneucraft": true
 }

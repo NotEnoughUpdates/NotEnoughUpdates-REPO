@@ -1,19 +1,29 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Iron Minion I",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"785de520-c4f3-371c-88c8-c8f560bc4977\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MTk3OTUzNTAsInByb2ZpbGVJZCI6IjJjMTA2NGZjZDkxNzQyODI4NGUzYmY3ZmFhN2UzZTFhIiwicHJvZmlsZU5hbWUiOiJOYWVtZSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWY0MzUwMjJjYjM4MDlhNjhkYjBmY2NmYTg5OTNmYzE5NTRkYzY5N2E3MTgxNDk0OTA1YjAzZmRkYTAzNWU0YSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and mining iron\",2:\"§7ore! Requires an open area to\",3:\"§7place iron ore. Minions also\",4:\"§7work when you are offline!\",5:\"\",6:\"§7Time Between Actions: §a17s\",7:\"§7Max Storage: §e64\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Iron Minion I\"},ExtraAttributes:{id:\"IRON_GENERATOR_1\",generator_tier:1}}",
+  "nbttag": "{ExtraAttributes:{id:\"IRON_GENERATOR_1\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"785de520-c4f3-371c-88c8-c8f560bc4977\",Properties:{textures:[0:{Name:\"textures\",Signature:\"iwzI9/1CWOvJ2tupRTgFJ+w69G3CQQfkBschdDx9qzMtymRw2zmd0iNz6SetDdUy8qQMBDZ51dSjXFtOGIr4/bKyAhe1stvB/wFPVI39HdGY+3x55EiCoP3KWMrSfPS221I8elbjzYrZpz3r6arQNlVN2imjIsuG1nA5GgZ89TGw6g4I93+HQkXCMW20Ppc8aDxvRe7cCgMyD20CQlpUkFoMnSrBs2UIVNZwVWT85U8/bM1Snr2KPyPeXIvQr0ZSguVGyhLka75Y10RhIft3adM6Dn6y284sYMc/FK2wXDcsfSEivCfOoT0FvgJhZ43EHjNvRUOVAf1hdG0l9iwbj//irAdnWtx08d5XIfGHq2puQaK0Lo14rWtXdME48216zwVUwjDL4bza9vIMqkQ3oExUuIM7ueceAycP/u4Q5wIY1PV7UC/6KaopPbyPmE99MGA8jjsKfnkI83fW7NDgdgClmqj8YVMY9BFn3JjHkrvd0UN2OiO02nyraAql/rCK3rxdZkmkmcBveIqwTPXTtg75jP+RhQ64OmNoKvNwDNlDTo5a/6OnDh2WIzffsldGCOZJeuSyGVXoxppKFVkp90vyoZ9v8YWpSVnb8xFJKpjreabnY3ANzYvNMNPnDlZlku8IQhcK9wxfn7nURHIeXTQQH9PCgjWh4JOMRpkvZhA=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MTk3OTUzNTAsInByb2ZpbGVJZCI6IjJjMTA2NGZjZDkxNzQyODI4NGUzYmY3ZmFhN2UzZTFhIiwicHJvZmlsZU5hbWUiOiJOYWVtZSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWY0MzUwMjJjYjM4MDlhNjhkYjBmY2NmYTg5OTNmYzE5NTRkYzY5N2E3MTgxNDk0OTA1YjAzZmRkYTAzNWU0YSJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and mining iron ore!\",2:\"§7Requires an open area to place iron\",3:\"§7ore. Minions also work when you are\",4:\"§7offline!\",5:\"\",6:\"§7Time Between Actions: §a17s\",7:\"§7Max Storage: §e64\",8:\"§7Resources Generated: §b0\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Iron Minion I\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and mining iron",
-    "§7ore! Requires an open area to",
-    "§7place iron ore. Minions also",
-    "§7work when you are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and mining iron ore!",
+    "§7Requires an open area to place iron",
+    "§7ore. Minions also work when you are",
+    "§7offline!",
     "",
     "§7Time Between Actions: §a17s",
     "§7Max Storage: §e64",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "IRON_GENERATOR_1",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Iron Ingot I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Iron_Minion",
+    "https://wiki.hypixel.net/Iron_Minion_I"
   ],
   "recipe": {
     "A1": "IRON_INGOT:10",
@@ -26,14 +36,5 @@
     "C2": "IRON_INGOT:10",
     "C3": "IRON_INGOT:10"
   },
-  "internalname": "IRON_GENERATOR_1",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Iron_Minion",
-    "https://wiki.hypixel.net/Iron_Minion_I"
-  ],
-  "crafttext": "Requires: Iron Ingot I"
+  "useneucraft": true
 }

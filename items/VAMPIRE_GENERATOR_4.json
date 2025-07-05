@@ -1,18 +1,28 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Vampire Minion IV",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"90b5506a-461f-3b07-a2c5-c6fafde86ce2\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY4MzU0NDMyOTk0NCwKICAicHJvZmlsZUlkIiA6ICJmZDYwZjM2ZjU4NjE0ZjEyYjNjZDQ3YzJkODU1Mjk5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ExMDBhNWIzMjQzY2ViNGViYTFlMzBiNmE2NTc5MTc4MGJjODQ4YTU3OGNmMmI3ZTFiZjQ2MDMyMThjNGNkODkiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and slaying\",2:\"§7Vampire Scions! Minions also\",3:\"§7work when you are offline!\",4:\"\",5:\"§7Time Between Actions: §a175s\",6:\"§7Max Storage: §e384\",7:\"\",8:\"§9§lRARE\"],Name:\"§9Vampire Minion IV\"},ExtraAttributes:{id:\"VAMPIRE_GENERATOR_4\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"VAMPIRE_GENERATOR_4\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"90b5506a-461f-3b07-a2c5-c6fafde86ce2\",Properties:{textures:[0:{Name:\"textures\",Signature:\"elEfP5WwtEuTmDQGbe+RsauQZYFpu5/MKSOyAJHtr4iwBosXZj3CWxMMhR49rZMbgwD+oBVMoTwqJocgXMNSxSLd7uKHeuvIE6HHlF89/094CxQKwCdIJ0nMcojJL7hmRnYfozy5JwOcLhiXwKSbd/9sjqDCr7LvDkmIFxHm848nww0Hh3z8bUBIfDp+g7qC8ZrOmafXlfp2kYNmT2Sl61+wmFyReLD5cR0mjj2DmkAaP71t1I4bRH02frRmkuSB6iqDNQcKd8GKG0YkXw0ZAxklapo3Rxo3gp3Q1wlo5dsEGCrJBm2IHmM74IFSaaCCQJPKdyN/tNwF/kWpau9XZhi3ypiFLyiR4//6Jw3KeNiSz4e4qEJJL9FJrr9R/lFvWGTXUM49Ym6jhjLKXDXDh3f6hE8HrT+tPBN6RabVDcwD0tk7y4vLTyJoMPG9NuG/gyt9iHlOLzAOGJpQnlw+1Soy7tnft1LD+vrbpNO6UhTos4bLzV9XsQHb4DXGw3jXgGQ2yU8hgOyT2Eo/l6J9HEwcdzxq8lwpsgV5xA7EX8HvktjSq02anKVyyFWcWU6Qyp3y67JcS+RdLtmD9uVQZtMSNPsl1xM06B0iwcEwCsK7w7KjMXrlAsi7wmqdlF5gtubna0BRR0jAZx0G5aMiah+plC0QJSVA4aTbUFFpHg4=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY4MzU0NDMyOTk0NCwKICAicHJvZmlsZUlkIiA6ICJmZDYwZjM2ZjU4NjE0ZjEyYjNjZDQ3YzJkODU1Mjk5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ExMDBhNWIzMjQzY2ViNGViYTFlMzBiNmE2NTc5MTc4MGJjODQ4YTU3OGNmMmI3ZTFiZjQ2MDMyMThjNGNkODkiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and slaying Vampire\",2:\"§7Scions! Minions also work when you\",3:\"§7are offline!\",4:\"\",5:\"§7Time Between Actions: §a175s\",6:\"§7Max Storage: §e384\",7:\"§7Resources Generated: §b0\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Vampire Minion IV\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and slaying",
-    "§7Vampire Scions! Minions also",
-    "§7work when you are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and slaying Vampire",
+    "§7Scions! Minions also work when you",
+    "§7are offline!",
     "",
     "§7Time Between Actions: §a175s",
     "§7Max Storage: §e384",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "VAMPIRE_GENERATOR_4",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Hemovibe I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Vampire_Minion",
+    "https://wiki.hypixel.net/Vampire_Minion_IV"
   ],
   "recipe": {
     "A1": "HEMOVIBE:64",
@@ -24,14 +34,5 @@
     "C1": "HEMOVIBE:64",
     "C2": "HEMOVIBE:64",
     "C3": "HEMOVIBE:64"
-  },
-  "internalname": "VAMPIRE_GENERATOR_4",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "Requires: Hemovibe I",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Vampire_Minion",
-    "https://wiki.hypixel.net/Vampire_Minion_IV"
-  ]
+  }
 }

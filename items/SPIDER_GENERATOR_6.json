@@ -1,18 +1,28 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Spider Minion VI",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"d3731736-50dd-354f-9abe-1179b64952cb\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5NDUyNTA2NzcsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RjNzg1ZjJiMWNjYTk4MzkyOGIwZmU4Y2ViNzAwNjYwMzY1Yjc1N2U5M2E0MmE2NjUxYTkzN2RmNzczYzcwYWYifX19\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and slaying\",2:\"§7Spiders! Minions also work when\",3:\"§7you are offline!\",4:\"\",5:\"§7Time Between Actions: §a22s\",6:\"§7Max Storage: §e576\",7:\"\",8:\"§9§lRARE\"],Name:\"§9Spider Minion VI\"},ExtraAttributes:{id:\"SPIDER_GENERATOR_6\",generator_tier:6}}",
+  "nbttag": "{ExtraAttributes:{id:\"SPIDER_GENERATOR_6\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"d3731736-50dd-354f-9abe-1179b64952cb\",Properties:{textures:[0:{Name:\"textures\",Signature:\"oobuaXUi5CdewHtpDAdefpqOlNzD0rk88g/lg/37u0w+9PNjc0Qdz3d8mNknNX5O3TJxDrBS+stB6MjgZaS2S5rzZ9xeDI0UiStP9v/bo3Bg77IU5ZVWbnDlKaTkaRjKgaiLrMhPyxR6CsHt6CCrGhDMXrfiVscdxRw4AgSZw3JpPnOdp/oF7x0UcP7pKuEKPBfkMPCBF6vU5hdyL0t1F8WcrykOiD0fc/0RAFsiCViiuKxNVKhowqzwRf2zrElJXfjyQYk7K31sGDjR136XQMZVn4LACHFEy4g3QiJrXlmvq5r0f69Hf37kISDYlMY4jBbPhOj5c1mIRp/ePmhUQ9rAxJbp2L2bazp3e82agwFluZrrlgYAY+RPu/W9CUmmLJQjVi13fwP8LbHxXoC3+zxBJJEO02LENguHPKVlSLwHvqHDgipLtZQCb59tKrxOY4jJrjq0j6emOqtlaL+0EKOGP9o5L0SlpC36WNFEK1e4Fg58EarVEbBV+TFBYXoX/eRflfWYutwju06YFCrQHvtxzTj7abC9MIRdpkMV9jg7Pi/9vlVr8Jxq1EitZ+kxnDVtTjeyUXOIGUGPiaDRxfg+ZA1TWVfeiUpI5ODwXPU9ye3mNB0PaNw0i4vn0ugn8saeuaHdl5COHeN/heDUGcsGQFJclMIPxL6taLrxxjw=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5NDUyNTA2NzcsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RjNzg1ZjJiMWNjYTk4MzkyOGIwZmU4Y2ViNzAwNjYwMzY1Yjc1N2U5M2E0MmE2NjUxYTkzN2RmNzczYzcwYWYifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and slaying Spiders!\",2:\"§7Minions also work when you are\",3:\"§7offline!\",4:\"\",5:\"§7Time Between Actions: §a22s\",6:\"§7Max Storage: §e576\",7:\"§7Resources Generated: §b0\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Spider Minion VI\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and slaying",
-    "§7Spiders! Minions also work when",
-    "§7you are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and slaying Spiders!",
+    "§7Minions also work when you are",
+    "§7offline!",
     "",
     "§7Time Between Actions: §a22s",
     "§7Max Storage: §e576",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "SPIDER_GENERATOR_6",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Spider_Minion",
+    "https://wiki.hypixel.net/Spider_Minion_VI"
   ],
   "recipe": {
     "A1": "ENCHANTED_STRING:2",
@@ -25,14 +35,5 @@
     "C2": "ENCHANTED_STRING:2",
     "C3": "ENCHANTED_STRING:2"
   },
-  "internalname": "SPIDER_GENERATOR_6",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Spider_Minion",
-    "https://wiki.hypixel.net/Spider_Minion_VI"
-  ],
-  "crafttext": ""
+  "useneucraft": true
 }

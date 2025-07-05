@@ -1,19 +1,28 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Sand Minion I",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"49a80bce-61b1-3f83-b2b4-5122c16a23fe\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MjAxNDY2NzAsInByb2ZpbGVJZCI6IjgyYzYwNmM1YzY1MjRiNzk4YjkxYTEyZDNhNjE2OTc3IiwicHJvZmlsZU5hbWUiOiJOb3ROb3RvcmlvdXNOZW1vIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84MWY4ZTJhZDAyMWVlZmQxMjE3ZTY1MGU4NDhiNTc2MjIxNDRkMmJmOGEzOWZiZDUwZGFiOTM3YTdlYWMxMGRlIn19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and mining\",2:\"§7sand! Requires an open area to\",3:\"§7place sand. Minions also work\",4:\"§7when you are offline!\",5:\"\",6:\"§7Time Between Actions: §a26s\",7:\"§7Max Storage: §e64\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Sand Minion I\"},ExtraAttributes:{id:\"SAND_GENERATOR_1\",generator_tier:1}}",
+  "nbttag": "{ExtraAttributes:{id:\"SAND_GENERATOR_1\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"49a80bce-61b1-3f83-b2b4-5122c16a23fe\",Properties:{textures:[0:{Name:\"textures\",Signature:\"XWT4CKBEpn6turIau1agIhwibUBGc2N8mMl3eEBiszEMhXMe9E45GWwnupyXUvOPRWnnIajcugwc68Tgp3XZA8WhsxMMgxadG+cDrCdeI0O00lgz6q8WPwUHWeyXjtknIHOK9K5C9Fq9O0546KwNaxQX46nM3wtd5wVS74E1yRw5vvEY3AjroVNWaSVXyjLCvUaX1W7qf/Ovn3S6ssZR1Qj4oFQ46Mtyo2i7sUKTLrIF4NWNqB5yKR6A2PnHEBaxW5UhneHNgGZOHW/qU23kGmyL2N2Or2mvUuzDVCsQ7wxAclgIheJwEbn7Vix1t/L1yKjhWVQ3VQ58zvpydaXuIh3PJ5mtQKQXxgqv5gUXDohtzUBVikfj6BhYCtZvXMju4/EEnMo6+ZKvUPMckNfJe2QxxfigUj/gW7nmQmwKcc/W7L09KN6AhpV/Rcqx1Xn3vQDjTboZWviNQHlTaS8uy+4MMFjqFxoA5L5u+it7W9GWL/8dCTRzHd9zPcVb3xUSX/yUvj9o20g0MuitMpn0rlwvUXeMZUTBoHacqyKWYP9wFN32/PbO9D3fE/eeBi7nivhZWzzI/hGs7nbEvEx5F3QApfU1VnHHEcCY5gRe+qsuYuDJ6LYOR1M01vDVaZpQasRJWJlg8C/GTrNuBXkwV2r/3pJVgSmC4PU9Lu0gaTE=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MjAxNDY2NzAsInByb2ZpbGVJZCI6IjgyYzYwNmM1YzY1MjRiNzk4YjkxYTEyZDNhNjE2OTc3IiwicHJvZmlsZU5hbWUiOiJOb3ROb3RvcmlvdXNOZW1vIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84MWY4ZTJhZDAyMWVlZmQxMjE3ZTY1MGU4NDhiNTc2MjIxNDRkMmJmOGEzOWZiZDUwZGFiOTM3YTdlYWMxMGRlIn19fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and mining sand! Requires\",2:\"§7an open area to place sand. Minions\",3:\"§7also work when you are offline!\",4:\"\",5:\"§7Time Between Actions: §a26s\",6:\"§7Max Storage: §e64\",7:\"§7Resources Generated: §b0\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Sand Minion I\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and mining",
-    "§7sand! Requires an open area to",
-    "§7place sand. Minions also work",
-    "§7when you are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and mining sand! Requires",
+    "§7an open area to place sand. Minions",
+    "§7also work when you are offline!",
     "",
     "§7Time Between Actions: §a26s",
     "§7Max Storage: §e64",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "SAND_GENERATOR_1",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Sand I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Sand_Minion",
+    "https://wiki.hypixel.net/Sand_Minion_I"
   ],
   "recipe": {
     "A1": "SAND:10",
@@ -26,14 +35,5 @@
     "C2": "SAND:10",
     "C3": "SAND:10"
   },
-  "internalname": "SAND_GENERATOR_1",
-  "crafttext": "Requires: Sand I",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Sand_Minion",
-    "https://wiki.hypixel.net/Sand_Minion_I"
-  ]
+  "useneucraft": true
 }

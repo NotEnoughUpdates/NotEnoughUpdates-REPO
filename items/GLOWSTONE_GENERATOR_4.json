@@ -1,19 +1,29 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Glowstone Minion IV",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"cf0ca715-60b0-33a9-9f10-5344a46046fd\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzY3NzE3MjYsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNjYzMwMmU1NmIwNDc0ZDVlNDI4OTc4NzA0Y2Q0YTg1ZGUyZjZjM2U4ODVhNzBmNzgxZTI4MzhiNTUxZDViZmMifX19\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and mining\",2:\"§7glowstone! Requires an open area\",3:\"§7to place glowstone. Minions also\",4:\"§7work when you are offline!\",5:\"\",6:\"§7Time Between Actions: §a23s\",7:\"§7Max Storage: §e384\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Glowstone Minion IV\"},ExtraAttributes:{id:\"GLOWSTONE_GENERATOR_4\",generator_tier:4}}",
+  "nbttag": "{ExtraAttributes:{id:\"GLOWSTONE_GENERATOR_4\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"cf0ca715-60b0-33a9-9f10-5344a46046fd\",Properties:{textures:[0:{Name:\"textures\",Signature:\"seiliN3pd7OO5H1fVkX9f1qKgN/fFsxwW4GJ/4AHo3KWFqwQkHBONBZ25FB4ddysukSTDeb0CzY6KfRevIR0rKI7Hy3Bg+Kke+yd/doaOPHatZ1jkhcX2ztNS07Li2/LndKhNikrvLZ/+St45X6CkRyZYn41qUZME1IYqcvATak07NqWrBtt1MqSmKITJMYfivkpMtqq2blZHxS30CCkKjr6eXUlaPLtJ+s+UP11IAIhurGH8P9OtHvuOKvvIHUc8o1uYAhwGy5K/nMf+XuvDwulKNAf0LorN3gs74xHl+fGaYWbjFg35+QrzjjN69jU1aC3gg08Za9kQl00F2eA9f7XXUIjjv35zd1d70xZpjzwC0r3gVGyAlSBYGTursaC1615qCBG8h0dytCK/jWHpnt7CIZ0OMlH20fr0ORM13jZ1+iAf69GCYzDZBPN4P7Z6pAjJTbpyRZGRG54+PiamzfLOFveERUoEGh8v00yt/N1vqp7HN2LPAqqnCPQXUTfu2XDjAJM6tBD3yAA2PuVMl5M3Axnb8bt1umCDIpufbq7M0NbfidWgEi8wNWCjibrBigUyCuGIrl/Qfqyd3nEfvlXqDz5tRS2hREqqckpVDA4RNH3VZ0uI8X4t4Zg/dYw9tPjWniKqfgkC8grp/0q+thWZAJSPIBJ/z0abkS3h28=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzY3NzE3MjYsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNjYzMwMmU1NmIwNDc0ZDVlNDI4OTc4NzA0Y2Q0YTg1ZGUyZjZjM2U4ODVhNzBmNzgxZTI4MzhiNTUxZDViZmMifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and mining glowstone!\",2:\"§7Requires an open area to place\",3:\"§7glowstone. Minions also work when\",4:\"§7you are offline!\",5:\"\",6:\"§7Time Between Actions: §a23s\",7:\"§7Max Storage: §e384\",8:\"§7Resources Generated: §b0\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Glowstone Minion IV\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and mining",
-    "§7glowstone! Requires an open area",
-    "§7to place glowstone. Minions also",
-    "§7work when you are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and mining glowstone!",
+    "§7Requires an open area to place",
+    "§7glowstone. Minions also work when",
+    "§7you are offline!",
     "",
     "§7Time Between Actions: §a23s",
     "§7Max Storage: §e384",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "GLOWSTONE_GENERATOR_4",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Glowstone Dust I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Glowstone_Minion",
+    "https://wiki.hypixel.net/Glowstone_Minion_IV"
   ],
   "recipe": {
     "A1": "ENCHANTED_GLOWSTONE_DUST:1",
@@ -26,14 +36,5 @@
     "C2": "ENCHANTED_GLOWSTONE_DUST:1",
     "C3": "ENCHANTED_GLOWSTONE_DUST:1"
   },
-  "internalname": "GLOWSTONE_GENERATOR_4",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Glowstone_Minion",
-    "https://wiki.hypixel.net/Glowstone_Minion_IV"
-  ],
-  "crafttext": "Requires: Glowstone Dust I"
+  "useneucraft": true
 }

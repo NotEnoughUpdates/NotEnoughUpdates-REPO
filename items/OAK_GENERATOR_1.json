@@ -1,19 +1,29 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Oak Minion I",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"ab31254d-75fd-3a62-b681-a027d86090c7\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MTk5MjMyMDcsInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJ4RmFpaUxlUiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTdlNGEzMGYzNjEyMDRlYTljZGVkM2ZiZmY4NTAxNjA3MzFhMDA4MWNjNDUyY2ZlMjZhZWQ0OGU5N2Y2MzY0YiJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and chopping\",2:\"§7oak logs! Requires an open area\",3:\"§7to place trees. Minions also\",4:\"§7work when you are offline!\",5:\"\",6:\"§7Time Between Actions: §a48s\",7:\"§7Max Storage: §e64\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Oak Minion I\"},ExtraAttributes:{id:\"OAK_GENERATOR_1\",generator_tier:1}}",
+  "nbttag": "{ExtraAttributes:{id:\"OAK_GENERATOR_1\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"ab31254d-75fd-3a62-b681-a027d86090c7\",Properties:{textures:[0:{Name:\"textures\",Signature:\"AR86BOkAqC+11l2F/di0O5ZnXRupglOX6Uqio/imv6PGag5wFuaWKPaKvmguXYGtL67+pDI7+6c9rp8BrsMIQ5XPbYDThqCzka8fJUJe1k6kQXPDpMrSsKIkWVHSq3rmhUUFqWgwTww+CU+osKIEtmlNdHa/fY8IP0W7An9Ja9aAGwMon/nhJXSy1TfE6DS63O842TzvAFDfqu7+p5A3lrM53nsaHjoB1K4NgfFO40BtyEUe8yM16WNrSPnu57jdzHYwY1Tuauz3B98bdSEFh/NbZ7hgVEw2qYQsfLv0XcNCmI99ZgOYNd0gSILv0ANaqlUQWARtGjsRmsjUWpiTGxj8j34MHdWym8viOW5ZXT/4EUh7ptcS5UGILRIa4Hn3cNszRIngkGczVAgsmgqslUEQ3gnyUFRggkOjPiFO4EH5UMfT37RlVSGK8nd4piUelwWVGswLmAEiEn+aXAqhD4QZQD625Nx1gYj+K6u/d7Q55BsBd3g79bwMy6MFv1Bez9jSHlG3+VT0CgDnZ8Pb/PZwievLc4Bnf8o68Ngvec/8nFVaRsR5LRNbchBZE5XGnUQ9vfJSF69mT70ZAn2QwTYBni+S53Birr8KHeFJx0WnX2BKFuUtFV9HrDChXGrSAOnk46YuD8wNCd+PSeqmlS4PYUIfd574pXwV7jrtHk8=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MTk5MjMyMDcsInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJ4RmFpaUxlUiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTdlNGEzMGYzNjEyMDRlYTljZGVkM2ZiZmY4NTAxNjA3MzFhMDA4MWNjNDUyY2ZlMjZhZWQ0OGU5N2Y2MzY0YiJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and chopping oak logs!\",2:\"§7Requires an open area to place\",3:\"§7trees. Minions also work when you\",4:\"§7are offline!\",5:\"\",6:\"§7Time Between Actions: §a48s\",7:\"§7Max Storage: §e64\",8:\"§7Resources Generated: §b0\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Oak Minion I\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and chopping",
-    "§7oak logs! Requires an open area",
-    "§7to place trees. Minions also",
-    "§7work when you are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and chopping oak logs!",
+    "§7Requires an open area to place",
+    "§7trees. Minions also work when you",
+    "§7are offline!",
     "",
     "§7Time Between Actions: §a48s",
     "§7Max Storage: §e64",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "OAK_GENERATOR_1",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Oak Wood I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Oak_Minion",
+    "https://wiki.hypixel.net/Oak_Minion_I"
   ],
   "recipe": {
     "A1": "LOG:10",
@@ -26,14 +36,5 @@
     "C2": "LOG:10",
     "C3": "LOG:10"
   },
-  "internalname": "OAK_GENERATOR_1",
-  "clickcommand": "viewrecipe",
-  "crafttext": "Requires: Oak Wood I",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Oak_Minion",
-    "https://wiki.hypixel.net/Oak_Minion_I"
-  ]
+  "useneucraft": true
 }

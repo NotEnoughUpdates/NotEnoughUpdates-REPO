@@ -1,19 +1,29 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Birch Minion III",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"cf3800c2-f8d7-34c2-b394-6b125e67b215\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MTkwMTA0NzEsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmVkODdhNmQ3NDNkOWUwMzZiMTY5YjAzOTczYzU3NzJiNjExZGI0OGY1YzY4NDRmMWY0MjdmZmE3MDJjMTJlZiJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and chopping\",2:\"§7birch logs! Requires an open\",3:\"§7area to place trees. Minions\",4:\"§7also work when you are offline!\",5:\"\",6:\"§7Time Between Actions: §a45s\",7:\"§7Max Storage: §e192\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Birch Minion III\"},ExtraAttributes:{id:\"BIRCH_GENERATOR_3\",generator_tier:3}}",
+  "nbttag": "{ExtraAttributes:{id:\"BIRCH_GENERATOR_3\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"cf3800c2-f8d7-34c2-b394-6b125e67b215\",Properties:{textures:[0:{Name:\"textures\",Signature:\"nV3LbOQo9Qsvn7Er1QeZZ3tw4RmljwsB/+Kh52c99vosdXkYsTGWXaQMDUz1xOUS9buvTp7em2VsdD3lYTa5XuVPJdkCvP4dvEbASDvZc11upxCcnoadln4+8kHyKdF3BJlwfhE9h+GTTl8+7dcBt2GzniS5Yk9hXUC+hrOFrIl9DOJdg+Eam4B5v3sXXOsYqvT5lzzegqjQLb0txJLBfed1prT6Sz+y7vKvctUwgaM5R13/nVd8+2H1nGsZ4rsNgRsAoqrUItSDQw+vFAVg5dbJclOFNlBooCt7UHdTIfaXHcdSyuX5x7uohRNjlKy8H18vS5P+/+Eyp9vmqRg3IhgfOlf8z1syWn6VBgmswgijl7Ar1QzMEIQwtxjAtr0Ru/j0LcbJdpXKCAPZWTmF1hXJkJqStLYg8dhjz/zujvu/vBE8RQJDlXjXxQbKN2KD+OTekjobq1fKgBVSkvtkaLVL2ByO+nhBbJbdAz5b7Mwfjj9qrSu6gQRV5xHJ0ymF6OOdAIbGoALrWUdh3fKcnxf29KlfaJcrjxphBqTJcAmXUJl8dKB0DcJxcXZIQFAs/T1G6ZCRprWHULEpHycBbWw5QuIk4iGuIiAVx4rs8vct5EkXRQk/f+pu2SoOoerzziqwG7iv2ET5gdhE7BdyF8aCUCs+hFWBMPrZ9EKtTxs=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MTkwMTA0NzEsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmVkODdhNmQ3NDNkOWUwMzZiMTY5YjAzOTczYzU3NzJiNjExZGI0OGY1YzY4NDRmMWY0MjdmZmE3MDJjMTJlZiJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and chopping birch logs!\",2:\"§7Requires an open area to place\",3:\"§7trees. Minions also work when you\",4:\"§7are offline!\",5:\"\",6:\"§7Time Between Actions: §a45s\",7:\"§7Max Storage: §e192\",8:\"§7Resources Generated: §b0\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Birch Minion III\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and chopping",
-    "§7birch logs! Requires an open",
-    "§7area to place trees. Minions",
-    "§7also work when you are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and chopping birch logs!",
+    "§7Requires an open area to place",
+    "§7trees. Minions also work when you",
+    "§7are offline!",
     "",
     "§7Time Between Actions: §a45s",
     "§7Max Storage: §e192",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "BIRCH_GENERATOR_3",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Birch Wood I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Birch_Minion",
+    "https://wiki.hypixel.net/Birch_Minion_III"
   ],
   "recipe": {
     "A1": "LOG-2:40",
@@ -26,14 +36,5 @@
     "C2": "LOG-2:40",
     "C3": "LOG-2:40"
   },
-  "internalname": "BIRCH_GENERATOR_3",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Birch_Minion",
-    "https://wiki.hypixel.net/Birch_Minion_III"
-  ],
-  "crafttext": "Requires: Birch Wood I"
+  "useneucraft": true
 }

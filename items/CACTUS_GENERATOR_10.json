@@ -1,19 +1,29 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Cactus Minion X",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"0a41091d-aad7-3fcb-a83f-16694d4c2ea2\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzM0OTgwMTMsInByb2ZpbGVJZCI6IjJjMTA2NGZjZDkxNzQyODI4NGUzYmY3ZmFhN2UzZTFhIiwicHJvZmlsZU5hbWUiOiJOYWVtZSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjQyNzJiNTFmOTkxYTA4OGQzYWFlNTc5YjkzZDI1M2VmYzJlNmQ5NjU3ZjAyOTkxOTFlM2ExOGVlODlhMjJjMCJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and harvesting\",2:\"§7cactus. Requires sand nearby so\",3:\"§7cacti can be planted. Minions\",4:\"§7also work when you are offline!\",5:\"\",6:\"§7Time Between Actions: §a18s\",7:\"§7Max Storage: §e960\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Cactus Minion X\"},ExtraAttributes:{id:\"CACTUS_GENERATOR_10\",generator_tier:10}}",
+  "nbttag": "{ExtraAttributes:{id:\"CACTUS_GENERATOR_10\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"0a41091d-aad7-3fcb-a83f-16694d4c2ea2\",Properties:{textures:[0:{Name:\"textures\",Signature:\"F5voRSZBLQasmOx+FZ+MGoFyHL1lOHFkwgEAzdL18Pbx6LGYfcvJ4iByi6zt6AsqlrbWvRctR4q02Zp4VreCusqHhqONDbW8oqCafn57m/jpYk6R2VA/+G5U/MySmO5qXc78vfNODAXNCdzJ9kpgBC3Qlhc8NnuebH0zsRNbs35kTkV9P3cI5X3q3+1WynUHtE2zpv/Qq1G8D4UsN1FzLjfWqiRVH/OJcx20OfwqpBlvy09tx+B2sZEfXGC3cFoXji+JfDzGQuqnBUw48nxqfBr1qCdBGKxAP4CO8WR6kVtyyUivMsFj7hV7P1ER+6y5i0OHosxX11MDF4xviSOJDq7ri14HbOvuZiMnFwD5R7KvXGRHzYu4ZYtGdCPC3wWtyGmM40LWZUFhqp/heBI8rrRu/UOrOQb88onIFJqUDe3zoD6TrOc/R+G3MnAJGGB49N3sFCPSs5DLlgqSuZ9kWVXdIzFKyzwQND9dxw3GzrUCa1RfLflX7wNLlTxxZxiTASt2OCe4yVJi+bO+bdf3kGFrFQfzgiZslgKLnE5QUtb/+ZecLZNCqR6r0lGQkcLPNIVTzIB6U6yB8fzLj2cQljwUksGel+P4u1BdxLXpdEgE+X+3NPrhPqdmuegFG7SpOWOaXiA6wgH05AIw0vr8g9OZqax4pciFMJRucP+CwdM=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzM0OTgwMTMsInByb2ZpbGVJZCI6IjJjMTA2NGZjZDkxNzQyODI4NGUzYmY3ZmFhN2UzZTFhIiwicHJvZmlsZU5hbWUiOiJOYWVtZSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjQyNzJiNTFmOTkxYTA4OGQzYWFlNTc5YjkzZDI1M2VmYzJlNmQ5NjU3ZjAyOTkxOTFlM2ExOGVlODlhMjJjMCJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and harvesting cactus.\",2:\"§7Requires sand nearby so cacti can\",3:\"§7be planted. Minions also work when\",4:\"§7you are offline!\",5:\"\",6:\"§7Time Between Actions: §a18s\",7:\"§7Max Storage: §e960\",8:\"§7Resources Generated: §b0\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Cactus Minion X\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and harvesting",
-    "§7cactus. Requires sand nearby so",
-    "§7cacti can be planted. Minions",
-    "§7also work when you are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and harvesting cactus.",
+    "§7Requires sand nearby so cacti can",
+    "§7be planted. Minions also work when",
+    "§7you are offline!",
     "",
     "§7Time Between Actions: §a18s",
     "§7Max Storage: §e960",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "CACTUS_GENERATOR_10",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Cactus I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Cactus_Minion",
+    "https://wiki.hypixel.net/Cactus_Minion_X"
   ],
   "recipe": {
     "A1": "ENCHANTED_CACTUS:1",
@@ -26,14 +36,5 @@
     "C2": "ENCHANTED_CACTUS:1",
     "C3": "ENCHANTED_CACTUS:1"
   },
-  "internalname": "CACTUS_GENERATOR_10",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Cactus_Minion",
-    "https://wiki.hypixel.net/Cactus_Minion_X"
-  ],
-  "crafttext": "Requires: Cactus I"
+  "useneucraft": true
 }

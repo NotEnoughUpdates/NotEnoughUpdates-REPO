@@ -1,20 +1,29 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Flower Minion VIII",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"c5ea2d59-c7f7-3039-ab86-240758315e10\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzYzOTU4OTIsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODk1OWQ5YzYzOWIyMGIyOTRjZjZjZDA3MjY0MjIwOTI2ODJlNzYyZDM5OTFkZGFjMzlkOTJjZGM2MDMzNDEwMyJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and harvesting\",2:\"§7flowers. Requires grass nearby\",3:\"§7so flowers can be planted.\",4:\"§7Minions also work when you are\",5:\"§7offline!\",6:\"\",7:\"§7Time Between Actions: §a23s\",8:\"§7Max Storage: §e960\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Flower Minion VIII\"},ExtraAttributes:{id:\"FLOWER_GENERATOR_8\",generator_tier:8}}",
+  "nbttag": "{ExtraAttributes:{id:\"FLOWER_GENERATOR_8\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"c5ea2d59-c7f7-3039-ab86-240758315e10\",Properties:{textures:[0:{Name:\"textures\",Signature:\"jiCsK6Gi5H9W+61mGTBZK/M+o6DUWacM8+hD05Pd+jXYkDwAuYkOSqIIQFKfQCxAxC5p0Og/nRab3JUnrc9zfi/8nR3Iv1hrjBq3+zADr+lCnqJdjw6ueUUcfrNqK2IzUQec7PLZ4Ma5Clo/1KyHSn0dMYUVGCCoEyGfDroEnFUia2Ph4R8BXUBsr3q3jV3aXPezGl9Nuv4kydpYst1LN3WohHSwe/psFgQpCRXJCG47sCv0K3D+QvdpXvCl7u/zRKsfhNycUVegi+d5cmzcqUCPtYeVxejSlaFxsU4hBGRbjm+eWCwEzmSV2tz/UYunU33l4FTp4r/YCcBQpEeQSo6Qi8Y+5qJkQJ0DcLJYd5ySV/ZRXl81/bE+keabvp3Hmwi+Xk0IOWK6zZsbLcBdAnoHyPgIXoszSSnfpxl9JtX01QlwRSdIHZ9NzGISUCTsSzfKDfx//g/9Ss64d0LuJ0O1JASWgLlT1UXsEiQwsnyRNA+ZcwaA8iK5hcwDSmdYjyQVk+xpi754q4ePKWilkYZ3kVsBcsN/ltwkgrUt1k3HXJSgP9OAskvmaRTobwHbe13x+CRYKzhJ6YkzWhhST1LyO/TAAuqDIYcXNOyc4AQglMqcrQenGxy1dCni2dQGpvQVAymUldOgcYw1tAE5NVjBWO70vtD8j9PuQMkmEHc=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzYzOTU4OTIsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODk1OWQ5YzYzOWIyMGIyOTRjZjZjZDA3MjY0MjIwOTI2ODJlNzYyZDM5OTFkZGFjMzlkOTJjZGM2MDMzNDEwMyJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and harvesting flowers.\",2:\"§7Requires grass nearby so flowers\",3:\"§7can be planted. Minions also work\",4:\"§7when you are offline!\",5:\"\",6:\"§7Time Between Actions: §a23s\",7:\"§7Max Storage: §e960\",8:\"§7Resources Generated: §b0\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Flower Minion VIII\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and harvesting",
-    "§7flowers. Requires grass nearby",
-    "§7so flowers can be planted.",
-    "§7Minions also work when you are",
-    "§7offline!",
+    "§7Place this minion and it will start",
+    "§7generating and harvesting flowers.",
+    "§7Requires grass nearby so flowers",
+    "§7can be planted. Minions also work",
+    "§7when you are offline!",
     "",
     "§7Time Between Actions: §a23s",
     "§7Max Storage: §e960",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "FLOWER_GENERATOR_8",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Flower_Minion",
+    "https://wiki.hypixel.net/Flower_Minion_VIII"
   ],
   "recipe": {
     "A1": "ENCHANTED_DANDELION:16",
@@ -27,14 +36,5 @@
     "C2": "ENCHANTED_DANDELION:16",
     "C3": "ENCHANTED_DANDELION:16"
   },
-  "internalname": "FLOWER_GENERATOR_8",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Flower_Minion",
-    "https://wiki.hypixel.net/Flower_Minion_VIII"
-  ],
-  "crafttext": ""
+  "useneucraft": true
 }
