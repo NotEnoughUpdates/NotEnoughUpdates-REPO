@@ -1,37 +1,40 @@
 {
   "itemid": "minecraft:map",
   "displayname": "§5Travel Scroll to Hub Crypts",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Consume this item to add its\",1:\"§7destination to your fast travel\",2:\"§7options.\",3:\"\",4:\"§7Requires §bMVP§c+ §7to consume!\",5:\"\",6:\"§7Island: §aHub\",7:\"§7Teleport: §eCrypts\",8:\"\",9:\"§5§lEPIC TRAVEL SCROLL\"],Name:\"§5Travel Scroll to Hub Crypts\"},ExtraAttributes:{id:\"HUB_CRYPTS_TRAVEL_SCROLL\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"HUB_CRYPTS_TRAVEL_SCROLL\"},HideFlags:254,ItemModel:\"minecraft:map\",display:{Lore:[0:\"§7Consume this item to add its\",1:\"§7destination to your Fast Travel\",2:\"§7options.\",3:\"\",4:\"§7Requires §bMVP§c+ §7to consume!\",5:\"\",6:\"§7Island: §aSkyBlock Hub\",7:\"§7Teleport: §eCrypts\",8:\"\",9:\"§5§lEPIC TRAVEL SCROLL\"],Name:\"§5Travel Scroll to Hub Crypts\"}}",
   "damage": 0,
   "lore": [
     "§7Consume this item to add its",
-    "§7destination to your fast travel",
+    "§7destination to your Fast Travel",
     "§7options.",
     "",
     "§7Requires §bMVP§c+ §7to consume!",
     "",
-    "§7Island: §aHub",
+    "§7Island: §aSkyBlock Hub",
     "§7Teleport: §eCrypts",
     "",
     "§5§lEPIC TRAVEL SCROLL"
   ],
-  "recipe": {
-    "A1": "REVENANT_VISCERA:1",
-    "A2": "REVENANT_VISCERA:1",
-    "A3": "REVENANT_VISCERA:1",
-    "B1": "ENCHANTED_OBSIDIAN:16",
-    "B2": "ENCHANTED_ENDER_PEARL:16",
-    "B3": "ENCHANTED_OBSIDIAN:16",
-    "C1": "ENCHANTED_OBSIDIAN:16",
-    "C2": "ENCHANTED_OBSIDIAN:16",
-    "C3": "ENCHANTED_OBSIDIAN:16"
-  },
   "internalname": "HUB_CRYPTS_TRAVEL_SCROLL",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Travel_Scroll_to_Hub_Crypts",
-    "https://wiki.hypixel.net/Travel_Scroll_To_Hub_Crypts"
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.1.0-dev+mc1.21.5+g4907900",
+  "infoType": "",
+  "info": [],
+  "recipes": [
+    {
+      "A1": "REVENANT_VISCERA:1",
+      "A2": "REVENANT_VISCERA:1",
+      "A3": "REVENANT_VISCERA:1",
+      "B1": "ENCHANTED_OBSIDIAN:16",
+      "B2": "ENCHANTED_ENDER_PEARL:16",
+      "B3": "ENCHANTED_OBSIDIAN:16",
+      "C1": "ENCHANTED_OBSIDIAN:16",
+      "C2": "ENCHANTED_OBSIDIAN:16",
+      "C3": "ENCHANTED_OBSIDIAN:16",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "HUB_CRYPTS_TRAVEL_SCROLL"
+    }
   ]
 }
