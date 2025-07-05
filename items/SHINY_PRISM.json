@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Shiny Prism",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"f463bbce-812b-3f81-a7b3-6a279a30518e\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0ODQ3Mzc0NTgxMSwKICAicHJvZmlsZUlkIiA6ICJmMTA0NzMxZjljYTU0NmI0OTkzNjM4NTlkZWY5N2NjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ6aWFkODciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE4NjY1MmY5ZmFiNTNkZjM5NjdlZjExMGY1NzAxMTY2NmNmODBkMjNlMGM5OGQ0YTllYTZjODcwMWJhNTBkZSIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§8Reforge Stone\",1:\"§7§8Combinable in Reforge Anvil\",2:\"\",3:\"§7Applies the §9Glistening §7reforge when\",4:\"§7combined with equipment§7.\",5:\"\",6:\"§7§8§oNo matter the angle you look at it,\",7:\"§8§oyou still won\u0027t find love.\",8:\"\",9:\"§9Glistening §7(§6Legendary§7):\",10:\"§7Intelligence: §a+12\",11:\"§7True Defense: §a+4\",12:\"\",13:\"§7Requires §aMining Skill Level XXIV§7!\",14:\"\",15:\"§9§lRARE REFORGE STONE\"],Name:\"§9Shiny Prism\"},ExtraAttributes:{id:\"SHINY_PRISM\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SHINY_PRISM\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"f463bbce-812b-3f81-a7b3-6a279a30518e\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0ODQ3Mzc0NTgxMSwKICAicHJvZmlsZUlkIiA6ICJmMTA0NzMxZjljYTU0NmI0OTkzNjM4NTlkZWY5N2NjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ6aWFkODciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE4NjY1MmY5ZmFiNTNkZjM5NjdlZjExMGY1NzAxMTY2NmNmODBkMjNlMGM5OGQ0YTllYTZjODcwMWJhNTBkZSIKICAgIH0KICB9Cn0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Reforge Stone\",1:\"§8Combinable in Reforge Anvil\",2:\"\",3:\"§7Applies the §9Glistening §7reforge when\",4:\"§7combined with equipment.\",5:\"\",6:\"§8§oNo matter the angle you look at it,\",7:\"§8§oyou still won't find love.\",8:\"\",9:\"§9Glistening §7(§6Legendary§7):\",10:\"§7Intelligence: §a+12\",11:\"§7True Defense: §a+4\",12:\"\",13:\"§7Requires §aMining Skill Level XXIV§7!\",14:\"\",15:\"§9§lRARE REFORGE STONE\"],Name:\"§9Shiny Prism\"}}",
   "damage": 3,
   "lore": [
     "§8Reforge Stone",
-    "§7§8Combinable in Reforge Anvil",
+    "§8Combinable in Reforge Anvil",
     "",
     "§7Applies the §9Glistening §7reforge when",
-    "§7combined with equipment§7.",
+    "§7combined with equipment.",
     "",
-    "§7§8§oNo matter the angle you look at it,",
-    "§8§oyou still won\u0027t find love.",
+    "§8§oNo matter the angle you look at it,",
+    "§8§oyou still won't find love.",
     "",
     "§9Glistening §7(§6Legendary§7):",
     "§7Intelligence: §a+12",
@@ -20,6 +20,15 @@
     "§7Requires §aMining Skill Level XXIV§7!",
     "",
     "§9§lRARE REFORGE STONE"
+  ],
+  "internalname": "SHINY_PRISM",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Shiny_Prism",
+    "https://wiki.hypixel.net/Shiny_Prism"
   ],
   "recipe": {
     "A1": "ENCHANTED_GLOWSTONE_DUST:10",
@@ -31,14 +40,5 @@
     "C1": "ENCHANTED_GLOWSTONE_DUST:10",
     "C2": "ENCHANTED_GLOWSTONE_DUST:10",
     "C3": "ENCHANTED_GLOWSTONE_DUST:10"
-  },
-  "internalname": "SHINY_PRISM",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Shiny_Prism",
-    "https://wiki.hypixel.net/Shiny_Prism"
-  ]
+  }
 }

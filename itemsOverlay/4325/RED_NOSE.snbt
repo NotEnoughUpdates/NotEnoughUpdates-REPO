@@ -1,0 +1,34 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "RED_NOSE"
+		},
+		"minecraft:dyed_color": 10511680,
+		"minecraft:profile": {
+			id: [I;
+				-1822466685,
+				1546400974,
+				-1992140239,
+				1325306712
+			],
+			name: "",
+			properties: [
+				{
+					name: "textures",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTU5MzYxMTA5MzQ5MSwKICAicHJvZmlsZUlkIiA6ICJlNzkzYjJjYTdhMmY0MTI2YTA5ODA5MmQ3Yzk5NDE3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVfSG9zdGVyX01hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82Yjc0OTBiNzY5YzkwYjI5YzRkMDgzNzE1YTc1MmEwNTU4NzhjYzE5NTQzNDUxYWMzODdmODhmNzQ5MzQ1OTA2IgogICAgfQogIH0KfQ"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g64ef955"
+	}
+}

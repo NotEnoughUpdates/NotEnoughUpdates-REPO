@@ -1,17 +1,18 @@
 {
-  "internalname": "SKELETON_TALISMAN",
   "itemid": "minecraft:skull",
   "displayname": "§fSkeleton Talisman",
-  "clickcommand": "",
+  "nbttag": "{ExtraAttributes:{id:\"SKELETON_TALISMAN\"},HideFlags:254,ItemModel:\"minecraft:skeleton_skull\",display:{Lore:[0:\"§7Reduces the damage taken from\",1:\"§7Skeletons by §a5%§7.\",2:\"\",3:\"§f§lCOMMON ACCESSORY\"],Name:\"§fSkeleton Talisman\"}}",
   "damage": 0,
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Reduces the damage taken from\",1:\"§7§7Skeletons by §a5%§7.\",2:\"\",3:\"§f§lCOMMON ACCESSORY\"],Name:\"§fSkeleton Talisman\"},ExtraAttributes:{id:\"SKELETON_TALISMAN\"}}",
-  "modver": "2.1.0-REL",
   "lore": [
     "§7Reduces the damage taken from",
-    "§7§7Skeletons by §a5%§7.",
+    "§7Skeletons by §a5%§7.",
     "",
     "§f§lCOMMON ACCESSORY"
   ],
+  "internalname": "SKELETON_TALISMAN",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Skeleton_Talisman",
@@ -19,9 +20,9 @@
   ],
   "recipes": [
     {
-    "type": "trade",
-    "cost": "EMERALD:10",
-    "result": "SKELETON_TALISMAN"
+      "type": "trade",
+      "cost": "EMERALD:10",
+      "result": "SKELETON_TALISMAN"
     }
   ]
 }

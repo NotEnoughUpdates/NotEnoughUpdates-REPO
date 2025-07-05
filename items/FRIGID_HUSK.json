@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§6Frigid Husk",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"6b573c42-f587-308a-8866-94e961887934\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwOTMzMjcyMDc0OCwKICAicHJvZmlsZUlkIiA6ICI4YjA2ZmU5ZGNjNjg0NDNmYWNmM2QzODA0NWNkNTMyNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDYXN0aWVsY3ZyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgzODIxODJlZjA3NjA3MDg4MmVlMGIzYjhmNmRjZmFlMTIzNGFmMmE1ZDIyMDhiYThhMDE2NTg5ZDY1MTg5ZWIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§8Reforge Stone\",1:\"§7§8Combinable in Reforge Anvil\",2:\"\",3:\"§7Applies the §9Glacial §7reforge when\",4:\"§7combined with a mining tool§7.\",5:\"\",6:\"§7§8§oSpread like a sickness through the\",7:\"§8§otunnels, sucking the life from\",8:\"§8§oeverything it covered.\",9:\"\",10:\"§9Glacial §7(§6Legendary§7):\",11:\"§7Mining Fortune: §a+16\",12:\"\",13:\"§9Glacial Bonus\",14:\"§7Grants §6+1.4☘ Mining Fortune §7for\",15:\"§7every §b1❄ Cold §7you have.\",16:\"\",17:\"§7Requires §aMining Skill Level XXX§7!\",18:\"\",19:\"§6§lLEGENDARY REFORGE STONE\"],Name:\"§6Frigid Husk\"},ExtraAttributes:{id:\"FRIGID_HUSK\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"FRIGID_HUSK\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"6b573c42-f587-308a-8866-94e961887934\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwOTMzMjcyMDc0OCwKICAicHJvZmlsZUlkIiA6ICI4YjA2ZmU5ZGNjNjg0NDNmYWNmM2QzODA0NWNkNTMyNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDYXN0aWVsY3ZyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgzODIxODJlZjA3NjA3MDg4MmVlMGIzYjhmNmRjZmFlMTIzNGFmMmE1ZDIyMDhiYThhMDE2NTg5ZDY1MTg5ZWIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Reforge Stone\",1:\"§8Combinable in Reforge Anvil\",2:\"\",3:\"§7Applies the §9Glacial §7reforge when\",4:\"§7combined with a mining tool.\",5:\"\",6:\"§8§oSpread like a sickness through the\",7:\"§8§otunnels, sucking the life from\",8:\"§8§oeverything it covered.\",9:\"\",10:\"§9Glacial §7(§6Legendary§7):\",11:\"§7Mining Fortune: §a+16\",12:\"\",13:\"§9Glacial Bonus\",14:\"§7Grants §6+1.4☘ Mining Fortune §7for\",15:\"§7every §b1❄ Cold §7you have.\",16:\"\",17:\"§7Requires §aMining Skill Level XXX§7!\",18:\"\",19:\"§6§lLEGENDARY REFORGE STONE\"],Name:\"§6Frigid Husk\"}}",
   "damage": 3,
   "lore": [
     "§8Reforge Stone",
-    "§7§8Combinable in Reforge Anvil",
+    "§8Combinable in Reforge Anvil",
     "",
     "§7Applies the §9Glacial §7reforge when",
-    "§7combined with a mining tool§7.",
+    "§7combined with a mining tool.",
     "",
-    "§7§8§oSpread like a sickness through the",
+    "§8§oSpread like a sickness through the",
     "§8§otunnels, sucking the life from",
     "§8§oeverything it covered.",
     "",
@@ -26,10 +26,14 @@
     "§6§lLEGENDARY REFORGE STONE"
   ],
   "internalname": "FRIGID_HUSK",
-  "crafttext": "Requires: Glacite V \u0026 HotM 7",
   "clickcommand": "viewrecipe",
-  "modver": "",
+  "crafttext": "Requires: Glacite V & HotM 7",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
   "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Frigid_Husk",
+    "https://wiki.hypixel.net/Frigid_Husk"
+  ],
   "recipes": [
     {
       "type": "forge",
@@ -41,9 +45,5 @@
       "overrideOutputId": "FRIGID_HUSK",
       "duration": 21600
     }
-  ],
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Frigid_Husk",
-    "https://wiki.hypixel.net/Frigid_Husk"
   ]
 }

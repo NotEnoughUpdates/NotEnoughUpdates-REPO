@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§5Pocket Iceberg",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"af824311-b9ba-30eb-94b4-ad7f6cc1b777\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxMzczNjE4NTgzNiwKICAicHJvZmlsZUlkIiA6ICIxZGI3ZjUxYWZmOWM0NTcyOGZmNmU5MjMxMmZhZGZkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJsdXNtZW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTUwY2MxNTYzZTZlZTZhZTRmNjI5YmQ3ZjlkZTk1MGExOGM0ZmI0ZmJiNWQ4MmM3ZWI5MzA2NGMzOGU1OTI0IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§8Reforge Stone\",1:\"§7§8Combinable in Reforge Anvil\",2:\"\",3:\"§7Applies the §9Scraped §7reforge when\",4:\"§7combined with a mining tool§7.\",5:\"\",6:\"§7§8§oWoah, woah, too many drops!\",7:\"\",8:\"§9Scraped §7(§6Legendary§7):\",9:\"§7Breaking Power: §a+1\",10:\"§7Mining Wisdom: §a+2\",11:\"\",12:\"§9Scraped Bonus\",13:\"§7Grants §6+25☘ Mining Fortune §7if the\",14:\"§7block you are mining has the same §2Ⓟ\",15:\"§2Breaking Power §7as this tool.\",16:\"\",17:\"§5§lEPIC REFORGE STONE\"],Name:\"§5Pocket Iceberg\"},ExtraAttributes:{id:\"POCKET_ICEBERG\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"POCKET_ICEBERG\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"af824311-b9ba-30eb-94b4-ad7f6cc1b777\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxMzczNjE4NTgzNiwKICAicHJvZmlsZUlkIiA6ICIxZGI3ZjUxYWZmOWM0NTcyOGZmNmU5MjMxMmZhZGZkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJsdXNtZW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTUwY2MxNTYzZTZlZTZhZTRmNjI5YmQ3ZjlkZTk1MGExOGM0ZmI0ZmJiNWQ4MmM3ZWI5MzA2NGMzOGU1OTI0IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Reforge Stone\",1:\"§8Combinable in Reforge Anvil\",2:\"\",3:\"§7Applies the §9Scraped §7reforge when\",4:\"§7combined with a mining tool.\",5:\"\",6:\"§8§oWoah, woah, too many drops!\",7:\"\",8:\"§9Scraped §7(§6Legendary§7):\",9:\"§7Breaking Power: §a+1\",10:\"§7Mining Wisdom: §a+2\",11:\"\",12:\"§9Scraped Bonus\",13:\"§7Grants §6+25☘ Mining Fortune §7if the\",14:\"§7block you are mining has the same §2Ⓟ\",15:\"§2Breaking Power §7as this tool.\",16:\"\",17:\"§5§lEPIC REFORGE STONE\"],Name:\"§5Pocket Iceberg\"}}",
   "damage": 3,
   "lore": [
     "§8Reforge Stone",
-    "§7§8Combinable in Reforge Anvil",
+    "§8Combinable in Reforge Anvil",
     "",
     "§7Applies the §9Scraped §7reforge when",
-    "§7combined with a mining tool§7.",
+    "§7combined with a mining tool.",
     "",
-    "§7§8§oWoah, woah, too many drops!",
+    "§8§oWoah, woah, too many drops!",
     "",
     "§9Scraped §7(§6Legendary§7):",
     "§7Breaking Power: §a+1",
@@ -24,10 +24,14 @@
     "§5§lEPIC REFORGE STONE"
   ],
   "internalname": "POCKET_ICEBERG",
-  "crafttext": "Requires: HotM 2",
   "clickcommand": "viewrecipe",
-  "modver": "",
+  "crafttext": "Requires: HotM 2",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
   "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Pocket_Iceberg",
+    "https://wiki.hypixel.net/Pocket_Iceberg"
+  ],
   "recipes": [
     {
       "type": "forge",
@@ -38,9 +42,5 @@
       "overrideOutputId": "POCKET_ICEBERG",
       "duration": 21600
     }
-  ],
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Pocket_Iceberg",
-    "https://wiki.hypixel.net/Pocket_Iceberg"
   ]
 }

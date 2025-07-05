@@ -1,18 +1,23 @@
 {
   "itemid": "minecraft:wooden_sword",
   "displayname": "§fWooden Sword",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Damage: §c+20\",1:\"\",2:\"§7§8This item can be reforged!\",3:\"§f§lCOMMON SWORD\"],Name:\"§fWooden Sword\"},ExtraAttributes:{id:\"WOOD_SWORD\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"WOOD_SWORD\"},HideFlags:254,ItemModel:\"minecraft:wooden_sword\",display:{Lore:[0:\"§7Damage: §c+20\",1:\"\",2:\"§8This item can be reforged!\",3:\"§f§lCOMMON SWORD\"],Name:\"§fWooden Sword\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+20",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§f§lCOMMON SWORD"
   ],
   "internalname": "WOOD_SWORD",
-  "modver": "2.1.0-REL",
-  "vanilla": true,
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Wooden_Sword"
+  ],
+  "vanilla": true,
   "recipe": {
     "A1": "WOOD:1",
     "A2": "",
@@ -23,10 +28,5 @@
     "C1": "STICK:1",
     "C2": "",
     "C3": ""
-  },
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://wiki.hypixel.net/Wooden_Sword"
-  ]
+  }
 }

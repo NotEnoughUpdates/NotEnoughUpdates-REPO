@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Titanium Tesseract",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"180fd74a-1dd0-395e-8c7b-b67a7bce84fb\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxODI5NjcyMzc0NiwKICAicHJvZmlsZUlkIiA6ICJmZDIwMGYwMDE4OTI0NzgxODI5OWIzZjE5Yzc4Y2E3MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0dXNnIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E4OGY4YjU1MTBiNzNhNTA0NWY1OTIxN2UxY2FjNDg5NDZhNzA0MGM0MTkyNDJkYjljMDRlNGM1ZDBiZjdhM2EiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§8Reforge Stone\",1:\"§7§8Combinable in Reforge Anvil\",2:\"\",3:\"§7Applies the §9Dimensional §7reforge when\",4:\"§7combined with armor§7.\",5:\"\",6:\"§9Dimensional §7(§6Legendary§7):\",7:\"§7Mining Speed: §a+40\",8:\"§7Mining Wisdom: §a+2\",9:\"\",10:\"§9Dimensional Bonus\",11:\"§7§fTitanium Ore §7drops §2+10 Mithril\",12:\"§2Powder §7when mined.\",13:\"\",14:\"§7Requires §aMining Skill Level XX§7!\",15:\"\",16:\"§9§lRARE REFORGE STONE\"],Name:\"§9Titanium Tesseract\"},ExtraAttributes:{id:\"TITANIUM_TESSERACT\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"TITANIUM_TESSERACT\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"180fd74a-1dd0-395e-8c7b-b67a7bce84fb\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxODI5NjcyMzc0NiwKICAicHJvZmlsZUlkIiA6ICJmZDIwMGYwMDE4OTI0NzgxODI5OWIzZjE5Yzc4Y2E3MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0dXNnIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E4OGY4YjU1MTBiNzNhNTA0NWY1OTIxN2UxY2FjNDg5NDZhNzA0MGM0MTkyNDJkYjljMDRlNGM1ZDBiZjdhM2EiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Reforge Stone\",1:\"§8Combinable in Reforge Anvil\",2:\"\",3:\"§7Applies the §9Dimensional §7reforge when\",4:\"§7combined with armor.\",5:\"\",6:\"§9Dimensional §7(§6Legendary§7):\",7:\"§7Mining Speed: §a+40\",8:\"§7Mining Wisdom: §a+2\",9:\"\",10:\"§9Dimensional Bonus\",11:\"§fTitanium Ore §7drops §2+10 Mithril\",12:\"§2Powder §7when mined.\",13:\"\",14:\"§7Requires §aMining Skill Level XX§7!\",15:\"\",16:\"§9§lRARE REFORGE STONE\"],Name:\"§9Titanium Tesseract\"}}",
   "damage": 3,
   "lore": [
     "§8Reforge Stone",
-    "§7§8Combinable in Reforge Anvil",
+    "§8Combinable in Reforge Anvil",
     "",
     "§7Applies the §9Dimensional §7reforge when",
-    "§7combined with armor§7.",
+    "§7combined with armor.",
     "",
     "§9Dimensional §7(§6Legendary§7):",
     "§7Mining Speed: §a+40",
     "§7Mining Wisdom: §a+2",
     "",
     "§9Dimensional Bonus",
-    "§7§fTitanium Ore §7drops §2+10 Mithril",
+    "§fTitanium Ore §7drops §2+10 Mithril",
     "§2Powder §7when mined.",
     "",
     "§7Requires §aMining Skill Level XX§7!",
@@ -23,10 +23,14 @@
     "§9§lRARE REFORGE STONE"
   ],
   "internalname": "TITANIUM_TESSERACT",
-  "crafttext": "Requires: HotM 3",
   "clickcommand": "viewrecipe",
-  "modver": "",
+  "crafttext": "Requires: HotM 3",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
   "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Titanium_Tesseract",
+    "https://wiki.hypixel.net/Titanium_Tesseract"
+  ],
   "recipes": [
     {
       "type": "forge",
@@ -38,9 +42,5 @@
       "overrideOutputId": "TITANIUM_TESSERACT",
       "duration": 21600
     }
-  ],
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Titanium_Tesseract",
-    "https://wiki.hypixel.net/Titanium_Tesseract"
   ]
 }
