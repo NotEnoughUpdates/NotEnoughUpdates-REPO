@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§5Molten Cloak",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"e7b0b792-7786-3b14-82b0-d04f7b5fbf7c\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NzAxNjQzNDExNiwKICAicHJvZmlsZUlkIiA6ICJlZThjNWMzMGY3NWU0N2QxOTBmOTllNjI5NDgyOGZjMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTcGFya19QaGFudG9tIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZjMThiYjBmNTJmMjQ2ZWM5YmZmNWYwNTc2MTQ1NmJlMjczZTczMGNkMjc2NTU1ZmQ3NzJiYThjM2ZhMGYxNDQiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Strength: §c+20\",1:\"§7Health: §a+30\",2:\"§7Defense: §a+20\",3:\"\",4:\"§8Tiered Bonus: Molten Core (0/4)\",5:\"§7Gain §a5% §7damage resistance\",6:\"§7while fighting §6Kuudra§7.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§7§4❣ §cRequires §aCombat Skill 22§c.\",10:\"§5§lEPIC CLOAK\"],Name:\"§5Molten Cloak\"},ExtraAttributes:{id:\"MOLTEN_CLOAK\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"MOLTEN_CLOAK\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"e7b0b792-7786-3b14-82b0-d04f7b5fbf7c\",Properties:{textures:[0:{Name:\"textures\",Signature:\"IJqJydOr55X1VF7y9+s4javdRc4WJcE5Io63ipwnyM9ehF57ujEUK0Lb5nSKGPiFOeXXxjSyYHu05MGKUWl53IkBcQ6Y+fS8uFRTTQlf77pL7brcwrdU2QHwdpPLWmQrVY0RVzSOZy3rG+kAx1g1uVpsLyPXfAEvCNCc3YFOr86qQa4gGu3cNdPY1eVifNyktZJo0GlOHpfykmSCzuE1QQ4NaayD2fNpKLfIGqS789unDKNiwTCsd+4NHk2RqpOtBSS3O86I4iz2tbUDtPbrC3I1ZS/fjfcfBBkhDGQuqjTp1SIAGqClpLTaeY/1jLsD9JUkaHvKtybJ+GrCG2+0LJdnf1JHmA94lIJS7Ey2AkDxkg7kq1F2shCB1SX7ydUQa313vpLj8wLUAqGYt8rPbLoUnHpeqXdORbXwrNeHbaxiH+VYpwhGzre4k3EjujOYrNDmOND9j531ntEUQeMtxxjvynFrIZUs9uwxFvHtdtqfUPhLnr3lGySHZwgpi5IiZQ4C8aRTaALmiteYqeLlyC5cQxjkBmCNJaqNqxuBS/X84l/LSGVM5W64Whfw2otO9XX/sz8rGJjj1aNzO5JjW8kT7Ldnktap3j/Xs2Dmjf67hlsGca2NFQUQo/UM6xwLC/lmxqk7bVhrr2RUF9borPuntTE0Ap66MfX8M+rOPPo=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NzAxNjQzNDExNiwKICAicHJvZmlsZUlkIiA6ICJlZThjNWMzMGY3NWU0N2QxOTBmOTllNjI5NDgyOGZjMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTcGFya19QaGFudG9tIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZjMThiYjBmNTJmMjQ2ZWM5YmZmNWYwNTc2MTQ1NmJlMjczZTczMGNkMjc2NTU1ZmQ3NzJiYThjM2ZhMGYxNDQiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Strength: §c+20\",1:\"§7Health: §a+30\",2:\"§7Defense: §a+20\",3:\"\",4:\"§8Tiered Bonus: Molten Core (0/4)\",5:\"§7Gain §a5% §7damage resistance while\",6:\"§7fighting §6Kuudra§7.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§4❣ §cRequires §aCombat Skill 22§c.\",10:\"§5§lEPIC CLOAK\"],Name:\"§5Molten Cloak\"}}",
   "damage": 3,
   "lore": [
     "§7Strength: §c+20",
@@ -9,17 +9,17 @@
     "§7Defense: §a+20",
     "",
     "§8Tiered Bonus: Molten Core (0/4)",
-    "§7Gain §a5% §7damage resistance",
-    "§7while fighting §6Kuudra§7.",
+    "§7Gain §a5% §7damage resistance while",
+    "§7fighting §6Kuudra§7.",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aCombat Skill 22§c.",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aCombat Skill 22§c.",
     "§5§lEPIC CLOAK"
   ],
   "internalname": "MOLTEN_CLOAK",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "2.1.1-PRE",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Molten_Cloak",

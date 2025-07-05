@@ -1,0 +1,44 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "SCOURGE_CLOAK"
+		},
+		"minecraft:profile": {
+			id: [I;
+				76235682,
+				-1427292570,
+				-1459395019,
+				1534318771
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "wNi9CToCjDAkeemcwzKyC5pkdqnZlg2gLl2/5oGxjk9xDycGWstbhEifekCmvs4/Ucqx9z6xstcL0j6TxewKWRH5mpinGTaE7RzcQjy/cqevH2arSg4vFAv6P8+YL15mpnoXLJz0KaUKrE5R8bixmPWB/nNFeAqkJk7Ba5o9IFu37+nJnxIJ9EuGJG71h1V4iOXnzRn2lOHM9jvA5wp0DYTvpdPFhPoysdf/xpTaTOIwf8reHHsGRfZUKOd4Mz4NhoG1XPCGaPZBHNp9eGl7UnzaV0fZ8hnX33u91o7Bhe8cUAQ4psxkZKJtLmnyhX4yKgl6/oTScVA1/JiV6559FR/fxrqn09jNPdNIjXrdOvHiALFcjd6dpNWgGkcGrkbhqfiS3gSUu0YySWADp1Ju3jwVw0L7aLFD7yuB0JwPpOs2AoIocH9kkj+egYA/HENBn7cnsCuUL7X2Zkvo12WvNU4oeC5g+iYUBXN+fPT5Gx1EVFzOC54tLca5vpZIropBUH2ltr3/DQ+ZjgV6Qapa9uq+sLgjgPRybIDY6W7R8AC02kvhJaNXuIYl9XATMopIPFYKoAJV8TjD1tMiyfoWC9w7KzCYwBjtehQdyzoZBWTJ+EsJqkKExyJTC8qJcfsO88eAiUtXu7Xp9wH0DxtYz5JYNFhu/fwGfLSzKDtIed0=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTY0NDU4OTE4NTM1MSwKICAicHJvZmlsZUlkIiA6ICI4ODBiZWMwYTE0MmM0YzRlYTJlZjliMTFiMTBkNWNiNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJmZ2FiIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNjODg3NDMyMDliODgxZWE2ZjcxYTBlNWQ2ZDdiNGUyOTA0NTU0Mjk5ZDVlNzAxYmY5MTZiZTA5YTkzZWZlNjAiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd"
+	}
+}

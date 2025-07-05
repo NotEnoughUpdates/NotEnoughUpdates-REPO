@@ -1,20 +1,30 @@
 {
   "itemid": "minecraft:bow",
   "displayname": "§5Sulphur Bow",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+200\",1:\"§7Strength: §c+100\",2:\" §8[§7⚔§8]\",3:\"\",4:\"§7Consumes 1 §6Sulphur§7 from the\",5:\"§7§eInventory §7or §aQuiver §7to\",6:\"§7§adouble§7 the damage per shot.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§7§4❣ §cRequires §aCombat Skill 22§c.\",10:\"§5§lEPIC BOW\"],Name:\"§5Sulphur Bow\"},ExtraAttributes:{id:\"SULPHUR_BOW\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SULPHUR_BOW\"},HideFlags:254,ItemModel:\"minecraft:bow\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+200\",1:\"§7Strength: §c+100\",2:\" §8[§7⚔§8]\",3:\"\",4:\"§6Ability: Arrow Infusion  §e§lON SHOOT\",5:\"§7Consumes 1 §6Sulphur§7 from the\",6:\"§eInventory §7or §aQuiver §7to §adouble§7 the\",7:\"§7damage per shot.\",8:\"\",9:\"§8This item can be reforged!\",10:\"§4❣ §cRequires §aCombat Skill 22§c.\",11:\"§5§lEPIC BOW\"],Name:\"§5Sulphur Bow\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+200",
     "§7Strength: §c+100",
     " §8[§7⚔§8]",
     "",
+    "§6Ability: Arrow Infusion  §e§lON SHOOT",
     "§7Consumes 1 §6Sulphur§7 from the",
-    "§7§eInventory §7or §aQuiver §7to",
-    "§7§adouble§7 the damage per shot.",
+    "§eInventory §7or §aQuiver §7to §adouble§7 the",
+    "§7damage per shot.",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aCombat Skill 22§c.",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aCombat Skill 22§c.",
     "§5§lEPIC BOW"
+  ],
+  "internalname": "SULPHUR_BOW",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Sulphur VII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Sulphur_Bow",
+    "https://wiki.hypixel.net/Sulphur_Bow"
   ],
   "recipe": {
     "A1": "ENCHANTED_STRING:50",
@@ -26,14 +36,5 @@
     "C1": "ENCHANTED_STRING:50",
     "C2": "ENCHANTED_SULPHUR:50",
     "C3": ""
-  },
-  "internalname": "SULPHUR_BOW",
-  "crafttext": "Requires: Sulphur VII",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Sulphur_Bow",
-    "https://wiki.hypixel.net/Sulphur_Bow"
-  ]
+  }
 }

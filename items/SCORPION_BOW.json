@@ -1,22 +1,31 @@
 {
   "itemid": "minecraft:bow",
   "displayname": "§5Scorpion Bow",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+110\",1:\"§7Strength: §c+10\",2:\"\",3:\"§6Ability: Stinger\",4:\"§8Fully charged shots while sneaking\",5:\"§7Slows the victim and deal §c35x\",6:\"§c§7your §cStrength ❁ §7as damage\",7:\"§7per second for §a6s§7.\",8:\"§8Mana Cost: §3150\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§7§4☠ §cRequires §5Spider Slayer 3§c.\",12:\"§5§lEPIC BOW\"],Name:\"§5Scorpion Bow\"},ExtraAttributes:{id:\"SCORPION_BOW\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SCORPION_BOW\"},HideFlags:254,ItemModel:\"minecraft:bow\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+110\",1:\"§7Strength: §c+10\",2:\"\",3:\"§6Ability: Stinger \",4:\"§8Fully charged shots while sneaking\",5:\"§7Slows the victim and deal §c35x §7your\",6:\"§cStrength ❁ §7as damage per second\",7:\"§7for §a6s§7.\",8:\"§8Mana Cost: §3150\",9:\"\",10:\"§8This item can be reforged!\",11:\"§4☠ §cRequires §5Spider Slayer 3§c.\",12:\"§5§lEPIC BOW\"],Name:\"§5Scorpion Bow\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+110",
     "§7Strength: §c+10",
     "",
-    "§6Ability: Stinger",
+    "§6Ability: Stinger ",
     "§8Fully charged shots while sneaking",
-    "§7Slows the victim and deal §c35x",
-    "§c§7your §cStrength ❁ §7as damage",
-    "§7per second for §a6s§7.",
+    "§7Slows the victim and deal §c35x §7your",
+    "§cStrength ❁ §7as damage per second",
+    "§7for §a6s§7.",
     "§8Mana Cost: §3150",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4☠ §cRequires §5Spider Slayer 3§c.",
+    "§8This item can be reforged!",
+    "§4☠ §cRequires §5Spider Slayer 3§c.",
     "§5§lEPIC BOW"
+  ],
+  "internalname": "SCORPION_BOW",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Spider Slayer 3",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Scorpion_Bow",
+    "https://wiki.hypixel.net/Scorpion_Bow"
   ],
   "recipe": {
     "A1": "",
@@ -29,14 +38,5 @@
     "C2": "ENCHANTED_EMERALD:32",
     "C3": "TARANTULA_SILK:16"
   },
-  "slayer_req": "SPIDER_3",
-  "internalname": "SCORPION_BOW",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Scorpion_Bow",
-    "https://wiki.hypixel.net/Scorpion_Bow"
-  ],
-  "crafttext": "Requires: Spider Slayer 3"
+  "slayer_req": "SPIDER_3"
 }

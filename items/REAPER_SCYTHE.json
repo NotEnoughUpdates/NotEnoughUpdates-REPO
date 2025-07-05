@@ -1,33 +1,39 @@
 {
   "itemid": "minecraft:diamond_hoe",
   "displayname": "§6Reaper Scythe",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+333\",1:\"§7Speed: §a+10\",2:\"\",3:\"§6Ability: Raise Souls §e§lRIGHT CLICK\",4:\"§7Monsters you kill using this\",5:\"§7item will drop their soul. You\",6:\"§7can click on their souls on the\",7:\"§7ground using this item to absorb\",8:\"§7them and then spawn them to\",9:\"§7fight by your side.\",10:\"§7\",11:\"§7Mana cost is based on the power\",12:\"§7of the monsters that you summon.\",13:\"§7Shift right-click to view and\",14:\"§7remove souls from this item. If\",15:\"§7your summoned monster dies the\",16:\"§7soul will be removed.\",17:\"§8Cooldown: §a1s\",18:\"\",19:\"§7Max Souls: §d3\",20:\"\",21:\"§7§8This item can be reforged!\",22:\"§7§4☠ §cRequires §5Zombie Slayer 7§c.\",23:\"§6§lLEGENDARY SWORD\"],Name:\"§6Reaper Scythe\"},ExtraAttributes:{id:\"REAPER_SCYTHE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"REAPER_SCYTHE\"},HideFlags:254,ItemModel:\"minecraft:diamond_hoe\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+333\",1:\"§7Speed: §a+10\",2:\"\",3:\"§6Ability: Raise Souls  §e§lRIGHT CLICK\",4:\"§7Monsters you kill using this item will drop their\",5:\"§7soul. You can click on their souls on the\",6:\"§7ground using this item to absorb them and\",7:\"§7then spawn them to fight by your side.\",8:\"\",9:\"§7Mana cost is based on the power of the\",10:\"§7monsters that you summon. Shift right-click to\",11:\"§7view and remove souls from this item. If your\",12:\"§7summoned monster dies the soul will be\",13:\"§7removed.\",14:\"§8Cooldown: §a1s\",15:\"\",16:\"§7Max Souls: §d3\",17:\"\",18:\"§8This item can be reforged!\",19:\"§4☠ §cRequires §5Zombie Slayer 7§c.\",20:\"§6§lLEGENDARY SWORD\"],Name:\"§6Reaper Scythe\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+333",
     "§7Speed: §a+10",
     "",
-    "§6Ability: Raise Souls §e§lRIGHT CLICK",
-    "§7Monsters you kill using this",
-    "§7item will drop their soul. You",
-    "§7can click on their souls on the",
-    "§7ground using this item to absorb",
-    "§7them and then spawn them to",
-    "§7fight by your side.",
-    "§7",
-    "§7Mana cost is based on the power",
-    "§7of the monsters that you summon.",
-    "§7Shift right-click to view and",
-    "§7remove souls from this item. If",
-    "§7your summoned monster dies the",
-    "§7soul will be removed.",
+    "§6Ability: Raise Souls  §e§lRIGHT CLICK",
+    "§7Monsters you kill using this item will drop their",
+    "§7soul. You can click on their souls on the",
+    "§7ground using this item to absorb them and",
+    "§7then spawn them to fight by your side.",
+    "",
+    "§7Mana cost is based on the power of the",
+    "§7monsters that you summon. Shift right-click to",
+    "§7view and remove souls from this item. If your",
+    "§7summoned monster dies the soul will be",
+    "§7removed.",
     "§8Cooldown: §a1s",
     "",
     "§7Max Souls: §d3",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4☠ §cRequires §5Zombie Slayer 7§c.",
+    "§8This item can be reforged!",
+    "§4☠ §cRequires §5Zombie Slayer 7§c.",
     "§6§lLEGENDARY SWORD"
+  ],
+  "internalname": "REAPER_SCYTHE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Zombie Slayer 7",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Reaper_Scythe",
+    "https://wiki.hypixel.net/Reaper_Scythe"
   ],
   "recipe": {
     "A1": "SCYTHE_BLADE:1",
@@ -40,14 +46,5 @@
     "C2": "",
     "C3": "REAPER_SWORD:1"
   },
-  "internalname": "REAPER_SCYTHE",
-  "clickcommand": "viewrecipe",
-  "slayer_req": "ZOMBIE_7",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Reaper_Scythe",
-    "https://wiki.hypixel.net/Reaper_Scythe"
-  ],
-  "crafttext": "Requires: Zombie Slayer 7"
+  "slayer_req": "ZOMBIE_7"
 }

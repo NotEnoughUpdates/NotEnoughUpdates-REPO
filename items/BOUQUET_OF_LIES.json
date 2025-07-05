@@ -1,29 +1,35 @@
 {
   "itemid": "minecraft:double_plant",
   "displayname": "§6Bouquet of Lies",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Gear Score: §d560\",1:\"§7Damage: §c+220\",2:\"§7Strength: §c+300\",3:\"§7Crit Damage: §c+50%\",4:\" §8[§8❁§8]\",5:\"\",6:\"§6Ability: Petal Barrage  §e§lRIGHT CLICK\",7:\"§7Fire a §cbarrage §7of §c3\",8:\"§c§7roses that ricochets between\",9:\"§7enemies, hitting up to §a5\",10:\"§a§7foes. For every §c10% §7of\",11:\"§7your health missing, your roses\",12:\"§7deal §c2% §7more damage.\",13:\"§7§8Health cost: §c10%\",14:\"§8Cooldown: §a1s\",15:\"\",16:\"§7§8This item can be reforged!\",17:\"§7§4❣ §cRequires §aThe Catacombs Floor\",18:\"§aVI Completion§c.\",19:\"§6§lLEGENDARY DUNGEON SWORD\"],Name:\"§6Bouquet of Lies\"},ExtraAttributes:{id:\"BOUQUET_OF_LIES\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"BOUQUET_OF_LIES\"},HideFlags:254,ItemModel:\"minecraft:rose_bush\",display:{Lore:[0:\"§7Gear Score: §d560\",1:\"§7Damage: §c+220\",2:\"§7Strength: §c+300\",3:\"§7Crit Damage: §c+50%\",4:\" §8[❁]\",5:\"\",6:\"§6Ability: Petal Barrage  §e§lRIGHT CLICK\",7:\"§7Fire a §cbarrage §7of §c3 §7roses that ricochets\",8:\"§7between enemies, hitting up to §a5 §7foes. For\",9:\"§7every §c10% §7of your health missing, your roses\",10:\"§7deal §c2% §7more damage.\",11:\"§8Health Cost: §c10%\",12:\"§8Cooldown: §a1s\",13:\"\",14:\"§8This item can be reforged!\",15:\"§4❣ §cRequires The Catacombs Floor VI Completion.\",16:\"§6§lLEGENDARY DUNGEON SWORD\"],Name:\"§6Bouquet of Lies\"},ench:[]}",
   "damage": 4,
   "lore": [
     "§7Gear Score: §d560",
     "§7Damage: §c+220",
     "§7Strength: §c+300",
     "§7Crit Damage: §c+50%",
-    " §8[§8❁§8]",
+    " §8[❁]",
     "",
     "§6Ability: Petal Barrage  §e§lRIGHT CLICK",
-    "§7Fire a §cbarrage §7of §c3",
-    "§c§7roses that ricochets between",
-    "§7enemies, hitting up to §a5",
-    "§a§7foes. For every §c10% §7of",
-    "§7your health missing, your roses",
+    "§7Fire a §cbarrage §7of §c3 §7roses that ricochets",
+    "§7between enemies, hitting up to §a5 §7foes. For",
+    "§7every §c10% §7of your health missing, your roses",
     "§7deal §c2% §7more damage.",
-    "§7§8Health cost: §c10%",
+    "§8Health Cost: §c10%",
     "§8Cooldown: §a1s",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aThe Catacombs Floor",
-    "§aVI Completion§c.",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires The Catacombs Floor VI Completion.",
     "§6§lLEGENDARY DUNGEON SWORD"
+  ],
+  "internalname": "BOUQUET_OF_LIES",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Bouquet_of_Lies",
+    "https://wiki.hypixel.net/Bouquet_Of_Lies"
   ],
   "recipe": {
     "A1": "",
@@ -35,14 +41,5 @@
     "C1": "",
     "C2": "FEL_ROSE:3",
     "C3": ""
-  },
-  "internalname": "BOUQUET_OF_LIES",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Bouquet_of_Lies",
-    "https://wiki.hypixel.net/Bouquet_Of_Lies"
-  ]
+  }
 }

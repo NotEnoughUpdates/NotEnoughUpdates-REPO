@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Crystallized Heart",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"05fbf845-8fce-392c-a86d-8d9f4484bcad\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NjgzNTg1OTU4OTEsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzg3ZGZiN2MxZWU0ZGUzMWY1NDkzMWVhYzVjNjU3YzE0NWU0ZmE3ZmEwOWUzZjUyYjE3ODhhNjgyYjY1YWM3NSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Health: §a+50\",1:\"§7Defense: §a+10\",2:\"§7Intelligence: §a+50\",3:\"\",4:\"§6Ability: Healing Boost \",5:\"§7Doubles your §a☄ Mending §7and §4♨\",6:\"§4Vitality §7while wearing.\",7:\"\",8:\"§2This item is Undead ༕!\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§7§4☠ §cRequires §5Zombie Slayer 3§c.\",12:\"§9§lRARE HELMET\"],Name:\"§9Crystallized Heart\"},ExtraAttributes:{id:\"CRYSTALLIZED_HEART\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"CRYSTALLIZED_HEART\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"278d4bdc-64bf-326f-8d7c-413b68484493\",Properties:{textures:[0:{Name:\"textures\",Signature:\"lwGgcFA5gwuVAUGNSjoF2iphdLXYSp29paPEN978wYqf7CmOfkPR7ubSLLYKWfmZ0wey2PzjOR+XLIZ1GHpr6bPyg/5ddwM9HOA0JHM//Xlvj7y945vUlADMFiNUsSiuAaTfx80DDthxBUmM2AJTu6yfuwAsunc6zp+VHU0vs31/nduJL4bMVHBidi7ZH7Bq6897fL1NgG1J7KK80I/atCIwk9Q0G3ZRpvJR2h2CUU6QXCBjPf4U/+HWovWC8raL0XAPoExJtAvmEQdnrLACwvDvsDXJWpRFZ6fSnjeHUKN09THXVBicdq3yzS9zYbHPlXf9vN8n/QWaI9x38v8vrbNTGjMEcGeiLSdKfIfHFZ5SlTgwbSXyk9bCsRRlCT+FjrrzeKa49f9PdKYDgADViONSoNcFPR7H3pswL377GfEykFTLyfyVAg9pOM4YdeUfVW4gLuJKJ36H0kqaB9oHf9mM6rC12fkoy+cDqe2KgRCwbkBpkBiQGdMisF1HlW3Bgh70KgL5o1lVJvhwH0F4F0SrLbaEAnHA0WfiiboOtFCrFfdIsoSNGx4PRCi0MriFBHhOAQa0FFBFFNXhnH9bGKrYq6zinfmBpd7mEwXqypy/eUqpk8jPb8FSdHJkeOyq1kmTrbJaTE9HVZuUrdl3qqxggOy7XJ7NlpSu5SDV/Lw=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MjA0MzA4MCwKICAicHJvZmlsZUlkIiA6ICI3ZGY4NmY1MWFjZmI0MjQzYTkzNDQ1OTAyZDEzYTc0MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNclJpcHRpZGUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdkZmI3YzFlZTRkZTMxZjU0OTMxZWFjNWM2NTdjMTQ1ZTRmYTdmYTA5ZTNmNTJiMTc4OGE2ODJiNjVhYzc1IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Health: §a+50\",1:\"§7Defense: §a+10\",2:\"§7Intelligence: §a+50\",3:\"\",4:\"§6Ability: Healing Boost \",5:\"§7Doubles your §a☄ Mending §7and §4♨\",6:\"§4Vitality §7while wearing.\",7:\"\",8:\"§2This item is Undead ༕!\",9:\"\",10:\"§8This item can be reforged!\",11:\"§4☠ §cRequires §5Zombie Slayer 3§c.\",12:\"§9§lRARE HELMET\"],Name:\"§9Crystallized Heart\"}}",
   "damage": 3,
   "lore": [
     "§7Health: §a+50",
@@ -14,9 +14,18 @@
     "",
     "§2This item is Undead ༕!",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4☠ §cRequires §5Zombie Slayer 3§c.",
+    "§8This item can be reforged!",
+    "§4☠ §cRequires §5Zombie Slayer 3§c.",
     "§9§lRARE HELMET"
+  ],
+  "internalname": "CRYSTALLIZED_HEART",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Zombie Slayer 3",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Crystallized_Heart",
+    "https://wiki.hypixel.net/Crystallized_Heart"
   ],
   "recipe": {
     "A1": "ENCHANTED_DIAMOND:32",
@@ -29,14 +38,5 @@
     "C2": "ENCHANTED_DIAMOND:32",
     "C3": "ENCHANTED_DIAMOND:32"
   },
-  "slayer_req": "ZOMBIE_3",
-  "internalname": "CRYSTALLIZED_HEART",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Crystallized_Heart",
-    "https://wiki.hypixel.net/Crystallized_Heart"
-  ],
-  "crafttext": "Requires: Zombie Slayer 3"
+  "slayer_req": "ZOMBIE_3"
 }

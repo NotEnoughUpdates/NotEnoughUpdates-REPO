@@ -1,19 +1,28 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§fSkeleton Hat",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Speed: §a+2\",1:\"§7Intelligence: §a+10\",2:\"\",3:\"§7Your arrows have a §a20%\",4:\"§a§7chance to explode on impact\",5:\"§7dealing §a50 §7base Magic Damage\",6:\"§7to enemies within §a8 §7blocks.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§f§lCOMMON HELMET\"],Name:\"§fSkeleton Hat\"},ExtraAttributes:{id:\"SKELETON_HAT\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SKELETON_HAT\"},HideFlags:254,ItemModel:\"minecraft:skeleton_skull\",display:{Lore:[0:\"§7Speed: §a+2\",1:\"§7Intelligence: §a+10\",2:\"\",3:\"§7Your arrows have a §a20% §7chance to\",4:\"§7explode on impact dealing §a50 §7base\",5:\"§7Magic Damage to enemies within §a8\",6:\"§7blocks.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§f§lCOMMON HELMET\"],Name:\"§fSkeleton Hat\"}}",
   "damage": 0,
   "lore": [
     "§7Speed: §a+2",
     "§7Intelligence: §a+10",
     "",
-    "§7Your arrows have a §a20%",
-    "§a§7chance to explode on impact",
-    "§7dealing §a50 §7base Magic Damage",
-    "§7to enemies within §a8 §7blocks.",
+    "§7Your arrows have a §a20% §7chance to",
+    "§7explode on impact dealing §a50 §7base",
+    "§7Magic Damage to enemies within §a8",
+    "§7blocks.",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§f§lCOMMON HELMET"
+  ],
+  "internalname": "SKELETON_HAT",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Bone IV",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Skeleton_Hat",
+    "https://wiki.hypixel.net/Skeleton_Hat"
   ],
   "recipe": {
     "A1": "BONE:1",
@@ -25,14 +34,5 @@
     "C1": "BONE:1",
     "C2": "BONE:1",
     "C3": "BONE:1"
-  },
-  "internalname": "SKELETON_HAT",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Skeleton_Hat",
-    "https://wiki.hypixel.net/Skeleton_Hat"
-  ],
-  "crafttext": "Requires: Bone IV"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:bow",
   "displayname": "§6Terminator",
-  "nbttag": "{ench:[],Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+310\",1:\"§7Strength: §c+50\",2:\"§7Crit Damage: §c+250%\",3:\"§7Bonus Attack Speed: §c+40%\",4:\"§7Shot Cooldown: §a0.5s\",5:\"\",6:\"§7Shoots §b3 §7arrows at once.\",7:\"§7Can damage endermen.\",8:\"\",9:\"§cDivides your §9☣ Crit Chance §cby 4!\",10:\"\",11:\"§6Ability: Salvation  §e§lLEFT CLICK\",12:\"§7Can be cast after landing §63 §7hits.\",13:\"§7§7Shoot a beam, penetrating up to §e5\",14:\"§e§7enemies.\",15:\"§7The beam always crits.\",16:\"§8Soulflow Cost: §3§31⸎\",17:\"\",18:\"§6Shortbow: Instantly shoots!\",19:\"\",20:\"§7§8This item can be reforged!\",21:\"§7§4☠ §cRequires §5Enderman Slayer 7§c.\",22:\"§6§lLEGENDARY BOW\"],Name:\"§6Terminator\"},ExtraAttributes:{id:\"TERMINATOR\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"TERMINATOR\"},HideFlags:254,ItemModel:\"minecraft:bow\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+310\",1:\"§7Strength: §c+50\",2:\"§7Crit Damage: §c+250%\",3:\"§7Bonus Attack Speed: §c+40%\",4:\"§7Shot Cooldown: §a0.5s\",5:\"\",6:\"§7Shoots §b3 §7arrows at once.\",7:\"§7Can damage endermen.\",8:\"\",9:\"§cDivides your §9☣ Crit Chance §cby 4!\",10:\"\",11:\"§6Ability: Salvation  §e§lLEFT CLICK\",12:\"§7Can be cast after landing §63 §7hits.\",13:\"§7Shoot a beam, penetrating up to §e5\",14:\"§7enemies.\",15:\"§7The beam always crits.\",16:\"§8Soulflow Cost: §31⸎\",17:\"\",18:\"§6Shortbow: Instantly shoots!\",19:\"\",20:\"§8This item can be reforged!\",21:\"§4☠ §cRequires §5Enderman Slayer 7§c.\",22:\"§6§lLEGENDARY BOW\"],Name:\"§6Terminator\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+310",
@@ -17,16 +17,25 @@
     "",
     "§6Ability: Salvation  §e§lLEFT CLICK",
     "§7Can be cast after landing §63 §7hits.",
-    "§7§7Shoot a beam, penetrating up to §e5",
-    "§e§7enemies.",
+    "§7Shoot a beam, penetrating up to §e5",
+    "§7enemies.",
     "§7The beam always crits.",
-    "§8Soulflow Cost: §3§31⸎",
+    "§8Soulflow Cost: §31⸎",
     "",
     "§6Shortbow: Instantly shoots!",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4☠ §cRequires §5Enderman Slayer 7§c.",
+    "§8This item can be reforged!",
+    "§4☠ §cRequires §5Enderman Slayer 7§c.",
     "§6§lLEGENDARY BOW"
+  ],
+  "internalname": "TERMINATOR",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Enderman Slayer 7",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Terminator",
+    "https://wiki.hypixel.net/Terminator"
   ],
   "recipe": {
     "A1": "TESSELLATED_ENDER_PEARL:4",
@@ -39,14 +48,5 @@
     "C2": "NULL_BLADE:1",
     "C3": "TARANTULA_SILK:64"
   },
-  "slayer_req": "EMAN_7",
-  "internalname": "TERMINATOR",
-  "crafttext": "Requires: Enderman Slayer 7",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Terminator",
-    "https://wiki.hypixel.net/Terminator"
-  ]
+  "slayer_req": "EMAN_7"
 }

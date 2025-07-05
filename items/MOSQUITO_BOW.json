@@ -1,11 +1,8 @@
 {
-  "internalname": "MOSQUITO_BOW",
   "itemid": "minecraft:bow",
   "displayname": "§6Mosquito Bow",
-  "clickcommand": "viewrecipe",
+  "nbttag": "{ExtraAttributes:{id:\"MOSQUITO_BOW\"},HideFlags:254,ItemModel:\"minecraft:bow\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+251\",1:\"§7Strength: §c+151\",2:\"§7Crit Damage: §c+39%\",3:\"§7Vitality: §a+20\",4:\"\",5:\"§6Ability: Nasty Bite \",6:\"§8Fully charged shots while sneaking\",7:\"§7Costs §b11% §7of max mana.\",8:\"§7Deal §c+19% §7damage.\",9:\"§7Heal for §a2x §7the mana cost.\",10:\"\",11:\"§8This item can be reforged!\",12:\"§4☠ §cRequires §5Spider Slayer 7§c.\",13:\"§6§lLEGENDARY BOW\"],Name:\"§6Mosquito Bow\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+251\",1:\"§7Strength: §c+151\",2:\"§7Crit Damage: §c+39%\",3:\"§7Vitality: §a+20\",4:\"\",5:\"§6Ability: Nasty Bite \",6:\"§8Fully charged shots while sneaking\",7:\"§7Costs §b11% §7of max mana.\",8:\"§7Deal §c+19% §7damage.\",9:\"§7Heal for §a2x §7the mana cost.\",10:\"\",11:\"§7§8This item can be reforged!\",12:\"§7§4☠ §cRequires §5Spider Slayer 7§c.\",13:\"§6§lLEGENDARY BOW\"],Name:\"§6Mosquito Bow\"},ExtraAttributes:{id:\"MOSQUITO_BOW\"}}",
-  "modver": "",
   "lore": [
     "§7Damage: §c+251",
     "§7Strength: §c+151",
@@ -18,9 +15,18 @@
     "§7Deal §c+19% §7damage.",
     "§7Heal for §a2x §7the mana cost.",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4☠ §cRequires §5Spider Slayer 7§c.",
+    "§8This item can be reforged!",
+    "§4☠ §cRequires §5Spider Slayer 7§c.",
     "§6§lLEGENDARY BOW"
+  ],
+  "internalname": "MOSQUITO_BOW",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Spider Slayer 7",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Mosquito_Bow",
+    "https://wiki.hypixel.net/Mosquito_Bow"
   ],
   "recipe": {
     "A1": "",
@@ -33,11 +39,5 @@
     "C2": "ENCHANTED_IRON:64",
     "C3": "TARANTULA_SILK:64"
   },
-  "slayer_req": "SPIDER_7",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Mosquito_Bow",
-    "https://wiki.hypixel.net/Mosquito_Bow"
-  ],
-  "crafttext": "Requires: Spider Slayer 7"
+  "slayer_req": "SPIDER_7"
 }

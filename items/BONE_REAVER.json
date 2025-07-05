@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:iron_sword",
   "displayname": "§5Bone Reaver",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Gear Score: §d325\",1:\"§7Damage: §c+235\",2:\"§7Strength: §c+90\",3:\"§7Swing Range: §a+0.5\",4:\"\",5:\"§6Ability: Reaving Strike  §e§lRIGHT CLICK\",6:\"§7Slash in a huge arc, dealing\",7:\"§7§c125% §7melee damage to all\",8:\"§7enemies hit!\",9:\"§8Charges: §e4 §8/ §a5s\",10:\"\",11:\"§7Deals §c+1% §7damage to §aUndead\",12:\"§amonsters §7for every §a1% §7of\",13:\"§7your missing health.\",14:\"\",15:\"§7§8This item can be reforged!\",16:\"§7§4❣ §cRequires §aThe Catacombs Floor\",17:\"§aIV Completion§c.\",18:\"§5§lEPIC DUNGEON LONGSWORD\"],Name:\"§5Bone Reaver\"},ExtraAttributes:{id:\"BONE_REAVER\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"BONE_REAVER\"},HideFlags:254,ItemModel:\"minecraft:iron_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Gear Score: §d325\",1:\"§7Damage: §c+235\",2:\"§7Strength: §c+90\",3:\"§7Swing Range: §a+0.5\",4:\"\",5:\"§6Ability: Reaving Strike  §e§lRIGHT CLICK\",6:\"§7Slash in a huge arc, dealing §c125% §7melee\",7:\"§7damage to all enemies hit!\",8:\"§8Charges: §e4 §8/ §a5s\",9:\"\",10:\"§7Deals §c+1% §7damage to §aUndead\",11:\"§amonsters §7for every §a1% §7of your\",12:\"§7missing health.\",13:\"\",14:\"§8This item can be reforged!\",15:\"§4❣ §cRequires The Catacombs Floor IV Completion.\",16:\"§5§lEPIC DUNGEON LONGSWORD\"],Name:\"§5Bone Reaver\"}}",
   "damage": 0,
   "lore": [
     "§7Gear Score: §d325",
@@ -10,19 +10,26 @@
     "§7Swing Range: §a+0.5",
     "",
     "§6Ability: Reaving Strike  §e§lRIGHT CLICK",
-    "§7Slash in a huge arc, dealing",
-    "§7§c125% §7melee damage to all",
-    "§7enemies hit!",
+    "§7Slash in a huge arc, dealing §c125% §7melee",
+    "§7damage to all enemies hit!",
     "§8Charges: §e4 §8/ §a5s",
     "",
     "§7Deals §c+1% §7damage to §aUndead",
-    "§amonsters §7for every §a1% §7of",
-    "§7your missing health.",
+    "§amonsters §7for every §a1% §7of your",
+    "§7missing health.",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aThe Catacombs Floor",
-    "§aIV Completion§c.",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires The Catacombs Floor IV Completion.",
     "§5§lEPIC DUNGEON LONGSWORD"
+  ],
+  "internalname": "BONE_REAVER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Bone_Reaver",
+    "https://wiki.hypixel.net/Bone_Reaver"
   ],
   "recipe": {
     "A1": "",
@@ -34,14 +41,5 @@
     "C1": "",
     "C2": "SPIRIT_SWORD:1",
     "C3": ""
-  },
-  "internalname": "BONE_REAVER",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Bone_Reaver",
-    "https://wiki.hypixel.net/Bone_Reaver"
-  ]
+  }
 }

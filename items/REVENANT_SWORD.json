@@ -1,18 +1,28 @@
 {
   "itemid": "minecraft:diamond_sword",
   "displayname": "§9Revenant Falchion",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+90\",1:\"§7Strength: §c+50\",2:\"§7Intelligence: §a+100\",3:\"\",4:\"§7Deals §a+150% §7damage to §7Zombies§7.\",5:\"§7Gain §3+30☯ Combat Wisdom§7 against Zombies.\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§9§lRARE SWORD\"],Name:\"§9Revenant Falchion\"},ExtraAttributes:{id:\"REVENANT_SWORD\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"REVENANT_SWORD\"},HideFlags:254,ItemModel:\"minecraft:diamond_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+90\",1:\"§7Strength: §c+50\",2:\"§7Intelligence: §a+100\",3:\"\",4:\"§7Deals §a+150% §7damage to Zombies.\",5:\"§7Gain §3+30☯ Combat Wisdom§7 against Zombies.\",6:\"\",7:\"§8This item can be reforged!\",8:\"§4☠ §cRequires §5Zombie Slayer 3§c.\",9:\"§9§lRARE SWORD\"],Name:\"§9Revenant Falchion\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+90",
     "§7Strength: §c+50",
     "§7Intelligence: §a+100",
     "",
-    "§7Deals §a+150% §7damage to §7Zombies§7.",
+    "§7Deals §a+150% §7damage to Zombies.",
     "§7Gain §3+30☯ Combat Wisdom§7 against Zombies.",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
+    "§4☠ §cRequires §5Zombie Slayer 3§c.",
     "§9§lRARE SWORD"
+  ],
+  "internalname": "REVENANT_SWORD",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Revenant_Falchion",
+    "https://wiki.hypixel.net/Revenant_Falchion"
   ],
   "recipe": {
     "A1": "",
@@ -25,14 +35,5 @@
     "C2": "UNDEAD_SWORD:1",
     "C3": ""
   },
-  "slayer_req": "ZOMBIE_3",
-  "internalname": "REVENANT_SWORD",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Revenant_Falchion",
-    "https://wiki.hypixel.net/Revenant_Falchion"
-  ],
-  "crafttext": ""
+  "slayer_req": "ZOMBIE_3"
 }

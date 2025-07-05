@@ -1,27 +1,34 @@
 {
   "itemid": "minecraft:golden_sword",
   "displayname": "§6Florid Zombie Sword",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+150\",1:\"§7Strength: §c+80\",2:\"§7Intelligence: §a+100\",3:\" §8[§7✎§8] §8[§8❤§8]\",4:\"\",5:\"§6Ability: Instant Heal §e§lRIGHT CLICK\",6:\"§7Heal for §c168 §7+ §c5%❤ §7and\",7:\"§7heal players within §a8 §7blocks\",8:\"§7for §c56❤§7.\",9:\"§8Mana Cost: §370\",10:\"§8Charges: §e5 §8/ §a15s\",11:\"\",12:\"§7Gain §a+2 §7extra max charges\",13:\"§7when you play as a §aHealer §7in\",14:\"§7Dungeons.\",15:\"\",16:\"§7§8This item can be reforged!\",17:\"§6§lLEGENDARY SWORD\"],Name:\"§6Florid Zombie Sword\"},ExtraAttributes:{id:\"FLORID_ZOMBIE_SWORD\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"FLORID_ZOMBIE_SWORD\"},HideFlags:254,ItemModel:\"minecraft:golden_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+150\",1:\"§7Strength: §c+80\",2:\"§7Intelligence: §a+100\",3:\" §8[§7✎§8] [❤]\",4:\"\",5:\"§6Ability: Instant Heal  §e§lRIGHT CLICK\",6:\"§7Heal for §c168 §7+ §c5%❤ §7and heal players within §a8\",7:\"§7blocks for §c56❤§7.\",8:\"§8Mana Cost: §370\",9:\"§8Charges: §e5 §8/ §a15s\",10:\"\",11:\"§7Gain §a+2 §7extra max charges when you\",12:\"§7play as a §aHealer §7in Dungeons.\",13:\"\",14:\"§8This item can be reforged!\",15:\"§6§lLEGENDARY SWORD\"],Name:\"§6Florid Zombie Sword\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+150",
     "§7Strength: §c+80",
     "§7Intelligence: §a+100",
-    " §8[§7✎§8] §8[§8❤§8]",
+    " §8[§7✎§8] [❤]",
     "",
-    "§6Ability: Instant Heal §e§lRIGHT CLICK",
-    "§7Heal for §c168 §7+ §c5%❤ §7and",
-    "§7heal players within §a8 §7blocks",
-    "§7for §c56❤§7.",
+    "§6Ability: Instant Heal  §e§lRIGHT CLICK",
+    "§7Heal for §c168 §7+ §c5%❤ §7and heal players within §a8",
+    "§7blocks for §c56❤§7.",
     "§8Mana Cost: §370",
     "§8Charges: §e5 §8/ §a15s",
     "",
-    "§7Gain §a+2 §7extra max charges",
-    "§7when you play as a §aHealer §7in",
-    "§7Dungeons.",
+    "§7Gain §a+2 §7extra max charges when you",
+    "§7play as a §aHealer §7in Dungeons.",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§6§lLEGENDARY SWORD"
+  ],
+  "internalname": "FLORID_ZOMBIE_SWORD",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Florid_Zombie_Sword",
+    "https://wiki.hypixel.net/Florid_Zombie_Sword"
   ],
   "recipe": {
     "A1": "",
@@ -33,14 +40,5 @@
     "C1": "",
     "C2": "ORNATE_ZOMBIE_SWORD:1",
     "C3": ""
-  },
-  "internalname": "FLORID_ZOMBIE_SWORD",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Florid_Zombie_Sword",
-    "https://wiki.hypixel.net/Florid_Zombie_Sword"
-  ]
+  }
 }
