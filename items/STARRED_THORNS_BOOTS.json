@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:leather_boots",
   "displayname": "§6⚚ Spirit Boots",
-  "nbttag": "{ExtraAttributes:{id:\"STARRED_THORNS_BOOTS\"},HideFlags:254,ItemModel:\"minecraft:leather_boots\",Unbreakable:1B,display:{Lore:[0:\"§7Gear Score: §d340\",1:\"§7Strength: §c+35\",2:\"§7Health: §a+150\",3:\"§7Defense: §a+50\",4:\"§7Speed: §a+35\",5:\"§7Intelligence: §a+50\",6:\"\",7:\"§6Ability: Spirit Glide \",8:\"§7Press and hold Sneak to fly around\",9:\"§7as a spirit.\",10:\"§8Mana Cost: §3250\",11:\"§8Cooldown: §a60s\",12:\"\",13:\"§8This item can be reforged!\",14:\"§4❣ §cRequires The Catacombs Floor IV Completion.\",15:\"§6§lLEGENDARY DUNGEON BOOTS\"],Name:\"§6⚚ Spirit Boots\"}}",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Gear Score: §d340\",1:\"§7Strength: §c+35\",2:\"§7Health: §a+150\",3:\"§7Defense: §a+50\",4:\"§7Speed: §a+35\",5:\"§7Intelligence: §a+50\",6:\"\",7:\"§6Ability: Spirit Glide \",8:\"§7Press and hold Sneak to fly\",9:\"§7around as a spirit.\",10:\"§8Mana Cost: §3250\",11:\"§8Cooldown: §a60s\",12:\"\",13:\"§7§8This item can be reforged!\",14:\"§7§4❣ §cRequires §aThe Catacombs Floor\",15:\"§aIV Completion§c.\",16:\"§6§lLEGENDARY DUNGEON BOOTS\"],color:12566463,Name:\"§6⚚ Spirit Boots\"},ExtraAttributes:{id:\"STARRED_THORNS_BOOTS\"}}",
   "damage": 0,
   "lore": [
     "§7Gear Score: §d340",
@@ -12,22 +12,15 @@
     "§7Intelligence: §a+50",
     "",
     "§6Ability: Spirit Glide ",
-    "§7Press and hold Sneak to fly around",
-    "§7as a spirit.",
+    "§7Press and hold Sneak to fly",
+    "§7around as a spirit.",
     "§8Mana Cost: §3250",
     "§8Cooldown: §a60s",
     "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires The Catacombs Floor IV Completion.",
+    "§7§8This item can be reforged!",
+    "§7§4❣ §cRequires §aThe Catacombs Floor",
+    "§aIV Completion§c.",
     "§6§lLEGENDARY DUNGEON BOOTS"
-  ],
-  "internalname": "STARRED_THORNS_BOOTS",
-  "clickcommand": "viewrecipe",
-  "crafttext": "",
-  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://wiki.hypixel.net/⚚_Spirit_Boots"
   ],
   "recipe": {
     "A1": "THORN_FRAGMENT:1",
@@ -39,5 +32,13 @@
     "C1": "THORN_FRAGMENT:1",
     "C2": "THORN_FRAGMENT:1",
     "C3": "THORN_FRAGMENT:1"
-  }
+  },
+  "internalname": "STARRED_THORNS_BOOTS",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "crafttext": "",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/⚚_Spirit_Boots"
+  ]
 }

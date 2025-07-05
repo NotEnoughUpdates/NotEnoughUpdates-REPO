@@ -1,34 +1,25 @@
 {
   "itemid": "minecraft:leather_chestplate",
   "displayname": "§5Blaze Chestplate",
-  "nbttag": "{ExtraAttributes:{id:\"BLAZE_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:leather_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Strength: §c+30\",1:\"§7Defense: §a+165\",2:\"§7Speed: §a+2\",3:\" §8[❁]\",4:\"\",5:\"§6Full Set Bonus: Blazing Aura §7(0/4)\",6:\"§7Damages mobs within §a5§7 blocks for §a3%\",7:\"§7of their max §c❤ Health §7per second.\",8:\"\",9:\"§7Max §c500 §7damage/s\",10:\"§7Blaze Rod Collection: §60\",11:\"§8+100 per 5,000 rods\",12:\"\",13:\"§8This item can be reforged!\",14:\"§4❣ §cRequires §aCombat Skill 22§c.\",15:\"§5§lEPIC CHESTPLATE\"],Name:\"§5Blaze Chestplate\"}}",
+  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Strength: §c+10\",1:\"§7Defense: §a+150\",2:\"§7Speed: §a+2\",3:\" §8[§8❁§8]\",4:\"\",5:\"§6Full Set Bonus: Blazing Aura\",6:\"§7Damages mobs within §a5§7 blocks\",7:\"§7for §a3%§7 of their max §7§c❤\",8:\"§cHealth §7per second.\",9:\"\",10:\"§7Max §c500 §7damage/s\",11:\"§7Blaze Rod Collection: §6§k000\",12:\"§8+100 per 5,000 rods\",13:\"\",14:\"§7§8This item can be reforged!\",15:\"§5§lEPIC CHESTPLATE\"],color:16243251,Name:\"§5Blaze Chestplate\"},ExtraAttributes:{color:\"247:218:51\",id:\"BLAZE_CHESTPLATE\"}}",
   "damage": 0,
   "lore": [
-    "§7Strength: §c+30",
-    "§7Defense: §a+165",
+    "§7Strength: §c+10",
+    "§7Defense: §a+150",
     "§7Speed: §a+2",
-    " §8[❁]",
+    " §8[§8❁§8]",
     "",
-    "§6Full Set Bonus: Blazing Aura §7(0/4)",
-    "§7Damages mobs within §a5§7 blocks for §a3%",
-    "§7of their max §c❤ Health §7per second.",
+    "§6Full Set Bonus: Blazing Aura",
+    "§7Damages mobs within §a5§7 blocks",
+    "§7for §a3%§7 of their max §7§c❤",
+    "§cHealth §7per second.",
     "",
     "§7Max §c500 §7damage/s",
-    "§7Blaze Rod Collection: §60",
+    "§7Blaze Rod Collection: §6§k000",
     "§8+100 per 5,000 rods",
     "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §aCombat Skill 22§c.",
+    "§7§8This item can be reforged!",
     "§5§lEPIC CHESTPLATE"
-  ],
-  "internalname": "BLAZE_CHESTPLATE",
-  "clickcommand": "viewrecipe",
-  "crafttext": "Requires: Blaze Rod VIII",
-  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Blaze_Chestplate",
-    "https://wiki.hypixel.net/Blaze_Chestplate"
   ],
   "recipe": {
     "A1": "ENCHANTED_BLAZE_ROD:1",
@@ -40,5 +31,14 @@
     "C1": "ENCHANTED_BLAZE_ROD:1",
     "C2": "ENCHANTED_BLAZE_ROD:1",
     "C3": "ENCHANTED_BLAZE_ROD:1"
-  }
+  },
+  "internalname": "BLAZE_CHESTPLATE",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Blaze_Chestplate",
+    "https://wiki.hypixel.net/Blaze_Chestplate"
+  ],
+  "crafttext": "Requires: Blaze Rod VIII"
 }

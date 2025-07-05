@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:leather_leggings",
   "displayname": "§6Leggings of the Coven",
-  "nbttag": "{ExtraAttributes:{id:\"LEGGINGS_OF_THE_COVEN\"},HideFlags:254,ItemModel:\"minecraft:leather_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Rift Time: §a+80s\",1:\"§7Hearts: §a+1\",2:\"§7Mana Regen: §a+6%\",3:\"\",4:\"§6Ability: Friendship is Power \",5:\"§7Gain §5+1❁ Rift Damage §7and §b+2⚡ Mana\",6:\"§bRegen §7for each other wearer within\",7:\"§a64 §7blocks.\",8:\"§8Max of 3 players!\",9:\"\",10:\"§dSame color = 2x stats!\",11:\"§eLeft-click to pick color!\",12:\"\",13:\"§4☠ §cRequires §5Vampire Slayer 3§c.\",14:\"§6§lLEGENDARY LEGGINGS\"],Name:\"§6Leggings of the Coven\"}}",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Rift Time: §a+80s\",1:\"§7Hearts: §a+1\",2:\"§7Mana Regen: §a+6%\",3:\"\",4:\"§6Ability: Friendship is Power \",5:\"§7Gain §5+1❁ Rift Damage §7and §b+2⚡ Mana\",6:\"§bRegen §7for each other §7wearer within\",7:\"§7§a64 §7blocks.\",8:\"§8Max of 3 players!\",9:\"\",10:\"§7§dSame color \u003d 2x stats!\",11:\"§eLeft-click to pick color!\",12:\"\",13:\"§7§4☠ §cRequires §5Vampire Slayer 3§c.\",14:\"§6§lLEGENDARY LEGGINGS\"],color:10040115,Name:\"§6Leggings of the Coven\"},ExtraAttributes:{id:\"LEGGINGS_OF_THE_COVEN\"}}",
   "damage": 0,
   "lore": [
     "§7Rift Time: §a+80s",
@@ -10,24 +10,15 @@
     "",
     "§6Ability: Friendship is Power ",
     "§7Gain §5+1❁ Rift Damage §7and §b+2⚡ Mana",
-    "§bRegen §7for each other wearer within",
-    "§a64 §7blocks.",
+    "§bRegen §7for each other §7wearer within",
+    "§7§a64 §7blocks.",
     "§8Max of 3 players!",
     "",
-    "§dSame color = 2x stats!",
+    "§7§dSame color \u003d 2x stats!",
     "§eLeft-click to pick color!",
     "",
-    "§4☠ §cRequires §5Vampire Slayer 3§c.",
+    "§7§4☠ §cRequires §5Vampire Slayer 3§c.",
     "§6§lLEGENDARY LEGGINGS"
-  ],
-  "internalname": "LEGGINGS_OF_THE_COVEN",
-  "clickcommand": "viewrecipe",
-  "crafttext": "Requires: Vampire Slayer 3",
-  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Leggings_of_the_Coven",
-    "https://wiki.hypixel.net/Leggings_Of_The_Coven"
   ],
   "recipe": {
     "A1": "FEMURGROWTH_LEGGINGS:1",
@@ -39,5 +30,14 @@
     "C1": "METAL_HEART:6",
     "C2": "",
     "C3": "METAL_HEART:6"
-  }
+  },
+  "internalname": "LEGGINGS_OF_THE_COVEN",
+  "clickcommand": "viewrecipe",
+  "modver": "",
+  "crafttext": "Requires: Vampire Slayer 3",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Leggings_of_the_Coven",
+    "https://wiki.hypixel.net/Leggings_Of_The_Coven"
+  ]
 }

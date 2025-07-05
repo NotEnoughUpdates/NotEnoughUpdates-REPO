@@ -1,28 +1,19 @@
 {
   "itemid": "minecraft:leather_chestplate",
   "displayname": "§5Emerald Armor Chestplate",
-  "nbttag": "{ExtraAttributes:{id:\"EMERALD_ARMOR_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:leather_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+100\",1:\"\",2:\"§6Full Set Bonus: Tank §7(0/4)\",3:\"§7Increases §c❤ Health §7by §a+1§7 and §a❈\",4:\"§aDefense§7 by §a+1§7 for every §b3,000\",5:\"§7Emeralds in your collection. Max 350\",6:\"§7each.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§5§lEPIC CHESTPLATE\"],Name:\"§5Emerald Armor Chestplate\"}}",
+  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+100\",1:\"\",2:\"§6Full Set Bonus: Tank\",3:\"§7Increases §c❤ Health §7by §a+1§7\",4:\"§7and §a❈ Defense§7 by §a+1§7 for\",5:\"§7every §b3,000 §7Emeralds in your\",6:\"§7collection. Max 350 each.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§5§lEPIC CHESTPLATE\"],color:65280,Name:\"§5Emerald Armor Chestplate\"},ExtraAttributes:{color:\"0:255:0\",id:\"EMERALD_ARMOR_CHESTPLATE\"}}",
   "damage": 0,
   "lore": [
     "§7Defense: §a+100",
     "",
-    "§6Full Set Bonus: Tank §7(0/4)",
-    "§7Increases §c❤ Health §7by §a+1§7 and §a❈",
-    "§aDefense§7 by §a+1§7 for every §b3,000",
-    "§7Emeralds in your collection. Max 350",
-    "§7each.",
+    "§6Full Set Bonus: Tank",
+    "§7Increases §c❤ Health §7by §a+1§7",
+    "§7and §a❈ Defense§7 by §a+1§7 for",
+    "§7every §b3,000 §7Emeralds in your",
+    "§7collection. Max 350 each.",
     "",
-    "§8This item can be reforged!",
+    "§7§8This item can be reforged!",
     "§5§lEPIC CHESTPLATE"
-  ],
-  "internalname": "EMERALD_ARMOR_CHESTPLATE",
-  "clickcommand": "viewrecipe",
-  "crafttext": "Requires: Emerald IX",
-  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Emerald_Armor_Chestplate",
-    "https://wiki.hypixel.net/Emerald_Armor_Chestplate"
   ],
   "recipe": {
     "A1": "ENCHANTED_EMERALD_BLOCK:1",
@@ -34,5 +25,14 @@
     "C1": "ENCHANTED_EMERALD_BLOCK:1",
     "C2": "ENCHANTED_EMERALD_BLOCK:1",
     "C3": "ENCHANTED_EMERALD_BLOCK:1"
-  }
+  },
+  "internalname": "EMERALD_ARMOR_CHESTPLATE",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Emerald_Armor_Chestplate",
+    "https://wiki.hypixel.net/Emerald_Armor_Chestplate"
+  ],
+  "crafttext": "Requires: Emerald IX"
 }

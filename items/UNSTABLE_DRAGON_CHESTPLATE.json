@@ -1,31 +1,22 @@
 {
   "itemid": "minecraft:leather_chestplate",
   "displayname": "§6Unstable Dragon Chestplate",
-  "nbttag": "{ExtraAttributes:{id:\"UNSTABLE_DRAGON_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:leather_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Crit Chance: §c+5%\",1:\"§7Crit Damage: §c+15%\",2:\"§7Health: §a+120\",3:\"§7Defense: §a+160\",4:\" §8[⚔]\",5:\"\",6:\"§6Full Set Bonus: Unstable Blood §7(0/4)\",7:\"§7Sometimes strikes nearby mobs with\",8:\"§7lightning. It's unstable!\",9:\"\",10:\"§8This item can be reforged!\",11:\"§4❣ §cRequires §aCombat Skill 16§c.\",12:\"§6§lLEGENDARY CHESTPLATE\"],Name:\"§6Unstable Dragon Chestplate\"}}",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Crit Chance: §c+5%\",1:\"§7Crit Damage: §c+15%\",2:\"§7Health: §a+120\",3:\"§7Defense: §a+160\",4:\" §8[§8⚔§8]\",5:\"\",6:\"§6Full Set Bonus: Unstable Blood §7(0/4)\",7:\"§7Sometimes strikes nearby mobs with\",8:\"§7lightning. It\u0027s unstable!\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§7§4❣ §cRequires §aCombat Skill 16§c.\",12:\"§6§lLEGENDARY CHESTPLATE\"],color:11670243,Name:\"§6Unstable Dragon Chestplate\"},ExtraAttributes:{id:\"UNSTABLE_DRAGON_CHESTPLATE\"}}",
   "damage": 0,
   "lore": [
     "§7Crit Chance: §c+5%",
     "§7Crit Damage: §c+15%",
     "§7Health: §a+120",
     "§7Defense: §a+160",
-    " §8[⚔]",
+    " §8[§8⚔§8]",
     "",
     "§6Full Set Bonus: Unstable Blood §7(0/4)",
     "§7Sometimes strikes nearby mobs with",
-    "§7lightning. It's unstable!",
+    "§7lightning. It\u0027s unstable!",
     "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §aCombat Skill 16§c.",
+    "§7§8This item can be reforged!",
+    "§7§4❣ §cRequires §aCombat Skill 16§c.",
     "§6§lLEGENDARY CHESTPLATE"
-  ],
-  "internalname": "UNSTABLE_DRAGON_CHESTPLATE",
-  "clickcommand": "viewrecipe",
-  "crafttext": "",
-  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Unstable_Dragon_Chestplate",
-    "https://wiki.hypixel.net/Unstable_Dragon_Chestplate"
   ],
   "recipe": {
     "A1": "UNSTABLE_FRAGMENT:10",
@@ -37,5 +28,14 @@
     "C1": "UNSTABLE_FRAGMENT:10",
     "C2": "UNSTABLE_FRAGMENT:10",
     "C3": "UNSTABLE_FRAGMENT:10"
-  }
+  },
+  "internalname": "UNSTABLE_DRAGON_CHESTPLATE",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Unstable_Dragon_Chestplate",
+    "https://wiki.hypixel.net/Unstable_Dragon_Chestplate"
+  ],
+  "crafttext": ""
 }

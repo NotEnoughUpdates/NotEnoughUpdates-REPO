@@ -1,28 +1,20 @@
 {
   "itemid": "minecraft:leather_chestplate",
   "displayname": "§9Guardian Chestplate",
-  "nbttag": "{ExtraAttributes:{id:\"GUARDIAN_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:leather_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+20\",1:\"§7Defense: §a+50\",2:\"\",3:\"§6Ability: Block Damage \",4:\"§7If you are at full §c❤ Health§7, the first damage\",5:\"§7you take will be nullified.\",6:\"§8Cooldown: §a60s\",7:\"\",8:\"§8This item can be reforged!\",9:\"§9§lRARE CHESTPLATE\"],Name:\"§9Guardian Chestplate\"}}",
+  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Health: §a+20\",1:\"§7Defense: §a+50\",2:\"\",3:\"§6Ability: Block Damage\",4:\"§7If you are at full §c❤ Health§7,\",5:\"§7the first damage you take will\",6:\"§7be nullified.\",7:\"§8Cooldown: §a60s\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§9§lRARE CHESTPLATE\"],color:1143697,Name:\"§9Guardian Chestplate\"},ExtraAttributes:{color:\"17:115:145\",id:\"GUARDIAN_CHESTPLATE\"}}",
   "damage": 0,
   "lore": [
     "§7Health: §a+20",
     "§7Defense: §a+50",
     "",
-    "§6Ability: Block Damage ",
-    "§7If you are at full §c❤ Health§7, the first damage",
-    "§7you take will be nullified.",
+    "§6Ability: Block Damage",
+    "§7If you are at full §c❤ Health§7,",
+    "§7the first damage you take will",
+    "§7be nullified.",
     "§8Cooldown: §a60s",
     "",
-    "§8This item can be reforged!",
+    "§7§8This item can be reforged!",
     "§9§lRARE CHESTPLATE"
-  ],
-  "internalname": "GUARDIAN_CHESTPLATE",
-  "clickcommand": "viewrecipe",
-  "crafttext": "Requires: Prismarine Crystals V",
-  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Guardian_Chestplate",
-    "https://wiki.hypixel.net/Guardian_Chestplate"
   ],
   "recipe": {
     "A1": "PRISMARINE_SHARD:64",
@@ -34,5 +26,14 @@
     "C1": "PRISMARINE_CRYSTALS:64",
     "C2": "PRISMARINE_CRYSTALS:64",
     "C3": "PRISMARINE_CRYSTALS:64"
-  }
+  },
+  "internalname": "GUARDIAN_CHESTPLATE",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Guardian_Chestplate",
+    "https://wiki.hypixel.net/Guardian_Chestplate"
+  ],
+  "crafttext": "Requires: Prismarine Crystals V"
 }

@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:leather_chestplate",
-  "displayname": "§6Necron's Chestplate",
-  "nbttag": "{ExtraAttributes:{id:\"POWER_WITHER_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:leather_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Gear Score: §d634\",1:\"§7Strength: §c+40\",2:\"§7Crit Damage: §c+30%\",3:\"§7Health: §a+260\",4:\"§7Defense: §a+140\",5:\"§7Intelligence: §a+10\",6:\" §8[❁] [⚔]\",7:\"\",8:\"§7Reduces the damage you take from\",9:\"§7withers by §c10%§7.\",10:\"\",11:\"§6Full Set Bonus: Witherborn §7(0/4)\",12:\"§7Spawns a wither minion every §e30\",13:\"§7seconds up to a maximum §a1 §7wither.\",14:\"§7Your withers will travel to and\",15:\"§7explode on nearby enemies.\",16:\"\",17:\"§8This item can be reforged!\",18:\"§4❣ §cRequires The Catacombs Floor VII Completion.\",19:\"§6§lLEGENDARY DUNGEON CHESTPLATE\"],Name:\"§6Necron's Chestplate\"}}",
+  "displayname": "§6Necron\u0027s Chestplate",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Gear Score: §d634\",1:\"§7Strength: §c+40\",2:\"§7Crit Damage: §c+30%\",3:\"§7Health: §a+260\",4:\"§7Defense: §a+140\",5:\"§7Intelligence: §a+10\",6:\" §8[§8❁§8] §8[§8⚔§8]\",7:\"\",8:\"§7Reduces the damage you take\",9:\"§7from withers by §c10%§7.\",10:\"\",11:\"§6Full Set Bonus: Witherborn\",12:\"§7Spawns a wither minion every\",13:\"§7§e30 §7seconds up to a maximum\",14:\"§7§a1 §7wither. Your withers will\",15:\"§7travel to and explode on nearby\",16:\"§7enemies.\",17:\"\",18:\"§7§8This item can be reforged!\",19:\"§7§4❣ §cRequires §aThe Catacombs Floor\",20:\"§aVII Completion§c.\",21:\"§6§lLEGENDARY DUNGEON CHESTPLATE\"],color:15155516,Name:\"§6Necron\u0027s Chestplate\"},ExtraAttributes:{dungeon_item_level:0,id:\"POWER_WITHER_CHESTPLATE\"}}",
   "damage": 0,
   "lore": [
     "§7Gear Score: §d634",
@@ -10,29 +10,22 @@
     "§7Health: §a+260",
     "§7Defense: §a+140",
     "§7Intelligence: §a+10",
-    " §8[❁] [⚔]",
+    " §8[§8❁§8] §8[§8⚔§8]",
     "",
-    "§7Reduces the damage you take from",
-    "§7withers by §c10%§7.",
+    "§7Reduces the damage you take",
+    "§7from withers by §c10%§7.",
     "",
-    "§6Full Set Bonus: Witherborn §7(0/4)",
-    "§7Spawns a wither minion every §e30",
-    "§7seconds up to a maximum §a1 §7wither.",
-    "§7Your withers will travel to and",
-    "§7explode on nearby enemies.",
+    "§6Full Set Bonus: Witherborn",
+    "§7Spawns a wither minion every",
+    "§7§e30 §7seconds up to a maximum",
+    "§7§a1 §7wither. Your withers will",
+    "§7travel to and explode on nearby",
+    "§7enemies.",
     "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires The Catacombs Floor VII Completion.",
+    "§7§8This item can be reforged!",
+    "§7§4❣ §cRequires §aThe Catacombs Floor",
+    "§aVII Completion§c.",
     "§6§lLEGENDARY DUNGEON CHESTPLATE"
-  ],
-  "internalname": "POWER_WITHER_CHESTPLATE",
-  "clickcommand": "viewrecipe",
-  "crafttext": "",
-  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Necron%27s_Chestplate",
-    "https://wiki.hypixel.net/Necron%27s_Chestplate"
   ],
   "recipe": {
     "A1": "GIANT_FRAGMENT_DIAMOND:1",
@@ -45,5 +38,14 @@
     "C2": "GIANT_FRAGMENT_DIAMOND:1",
     "C3": "GIANT_FRAGMENT_DIAMOND:1"
   },
-  "parent": "WITHER_CHESTPLATE"
+  "internalname": "POWER_WITHER_CHESTPLATE",
+  "parent": "WITHER_CHESTPLATE",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.1-PRE",
+  "crafttext": "",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Necron%27s_Chestplate",
+    "https://wiki.hypixel.net/Necron%27s_Chestplate"
+  ]
 }
