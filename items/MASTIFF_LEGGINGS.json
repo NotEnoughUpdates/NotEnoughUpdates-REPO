@@ -1,25 +1,31 @@
 {
-  "internalname": "MASTIFF_LEGGINGS",
   "itemid": "minecraft:diamond_leggings",
   "displayname": "§5Mastiff Leggings",
-  "clickcommand": "viewrecipe",
+  "nbttag": "{ExtraAttributes:{id:\"MASTIFF_LEGGINGS\"},HideFlags:254,ItemModel:\"minecraft:diamond_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+500\",1:\"§7Defense: §a-1,000,000\",2:\" §8[§7❤§8] [§7❤§8] [❤] [❤] [❤]\",3:\"\",4:\"§6Full Set Bonus: Absolute Unit §7(0/4)\",5:\"§c+50❤ §7per §91☠ Crit Damage§7.\",6:\"§7Regain §c2% §7of §cmax ❤ §7when hit. §8(1s cd)\",7:\"§7Receive §a-20% §7damage from wolves.\",8:\"§7Your §9☠ Crit Damage§7 is §950% §7less effective.\",9:\"\",10:\"§8This item can be reforged!\",11:\"§4☠ §cRequires §5Wolf Slayer 4§c.\",12:\"§5§lEPIC LEGGINGS\"],Name:\"§5Mastiff Leggings\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Health: §a+500\",1:\"§7Defense: §a-1,000,000\",2:\" §8[§7❤§8] §8[§7❤§8] §8[§8❤§8] §8[§8❤§8] §8[§8❤§8]\",3:\"\",4:\"§6Full Set Bonus: Absolute Unit\",5:\"§c+50❤ §7per §c1% Crit Damage\",6:\"§7Regain §c2% §7of §cmax ❤ §7when hit. §8(1s cd)\",7:\"§7Receive §a-20% §7damage from wolves.\",8:\"§7Your crit damage is §950% §7less effective.\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§c☠ §5Requires Wolf Slayer 4§c.\",12:\"§5§lEPIC LEGGINGS\"],Name:\"§5Mastiff Leggings\"},ExtraAttributes:{id:\"MASTIFF_LEGGINGS\"}}",
-  "modver": "",
   "lore": [
     "§7Health: §a+500",
     "§7Defense: §a-1,000,000",
-    " §8[§7❤§8] §8[§7❤§8] §8[§8❤§8] §8[§8❤§8] §8[§8❤§8]",
+    " §8[§7❤§8] [§7❤§8] [❤] [❤] [❤]",
     "",
-    "§6Full Set Bonus: Absolute Unit",
-    "§c+50❤ §7per §c1% Crit Damage",
+    "§6Full Set Bonus: Absolute Unit §7(0/4)",
+    "§c+50❤ §7per §91☠ Crit Damage§7.",
     "§7Regain §c2% §7of §cmax ❤ §7when hit. §8(1s cd)",
     "§7Receive §a-20% §7damage from wolves.",
-    "§7Your crit damage is §950% §7less effective.",
+    "§7Your §9☠ Crit Damage§7 is §950% §7less effective.",
     "",
-    "§7§8This item can be reforged!",
-    "§c☠ §5Requires Wolf Slayer 4§c.",
+    "§8This item can be reforged!",
+    "§4☠ §cRequires §5Wolf Slayer 4§c.",
     "§5§lEPIC LEGGINGS"
+  ],
+  "internalname": "MASTIFF_LEGGINGS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Wolf Slayer 4",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Mastiff_Leggings",
+    "https://wiki.hypixel.net/Mastiff_Leggings"
   ],
   "recipe": {
     "A1": "GOLDEN_TOOTH:1",
@@ -32,11 +38,5 @@
     "C2": "ENCHANTED_DIAMOND:16",
     "C3": "GOLDEN_TOOTH:1"
   },
-  "slayer_req": "WOLF_4",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Mastiff_Leggings",
-    "https://wiki.hypixel.net/Mastiff_Leggings"
-  ],
-  "crafttext": "Requires: Wolf Slayer 4"
+  "slayer_req": "WOLF_4"
 }

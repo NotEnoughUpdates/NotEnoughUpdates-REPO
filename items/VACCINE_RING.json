@@ -1,13 +1,21 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§aVaccine Ring",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"823cdc39-0754-3a6b-aaac-27ebde65e00d\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY2NzgzMjY2NDM2NCwKICAicHJvZmlsZUlkIiA6ICIzOTg5OGFiODFmMjU0NmQxOGIyY2ExMTE1MDRkZGU1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4YjJjYTExMTUwNGRkZTUwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U0OGVlOTJiOWVmMWRkOWY2MDgzZGFiMTEzZmUxNzA4ZmRlNGY0MDM5YWQyZjg1ZjA2ZjMxN2NlZmU0OWYzYWQiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Reduces the effect of §2poison\",1:\"§2§7by §a25%§7.\",2:\"\",3:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aVaccine Ring\"},ExtraAttributes:{id:\"VACCINE_RING\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"VACCINE_RING\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"823cdc39-0754-3a6b-aaac-27ebde65e00d\",Properties:{textures:[0:{Name:\"textures\",Signature:\"pqUo4NURx/Rg2N+ZrC9WxYOzC0+iAIOiODgpN/AWqjSnYD+a+dfyWer1fPka5MspD01d91eC7a/5dzNZo61z3ACaF9aHcPpunXo/Q9yYTB868xJB+c0GpuaWw5HCQDtlIqopKRQp1/0jHZLteesNsHUWSRcZCNQvkqk1kIij89yEayHPN+zcgFsBFZnx59GdE4Pf2hIAlgfeWNGCfMzsdzQS+PsH0TavzDWjV9+ojY8brt4LYxrbY053VIwbN+4xePQ/2rbZ99Rk5d1xTPcbh+f7B/Ux3RtIjv0s67/EY3elIyaxcjc2FBXc0ufuSPtS5nIfg8A4q50Hhhrb37FQz7BsPppdC92zhGOX/1dukQBhcbLj/g6E25OctMFg3UwAAJInAe+cDEakPFZW4pXmcG/sZxVQ34t5KFk7MWWDXrQI8nA21qwTM5S8c5q6XneblZQSFODcReS0SbyTmHACAjmBiS2vNt/Os0rpEMvGUnc7MoJBF/YM9aT25nEWLPsshzI3Jilsoj5NJJak2cCVnoulBm56jbRmHBvSF702i0HyyXB1VsyvvvO3obHMgcelqx09+GWNihln49escfd5cFJ3kPPAOIG0FrAXMXsFpTblV8LA9mlNqIbtgtYg0NLfGmr3Aw8uGqOmgP4DNF05I7FQmSmm0ibl3s7xEhcDOuY=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY2NzgzMjY2NDM2NCwKICAicHJvZmlsZUlkIiA6ICIzOTg5OGFiODFmMjU0NmQxOGIyY2ExMTE1MDRkZGU1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4YjJjYTExMTUwNGRkZTUwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U0OGVlOTJiOWVmMWRkOWY2MDgzZGFiMTEzZmUxNzA4ZmRlNGY0MDM5YWQyZjg1ZjA2ZjMxN2NlZmU0OWYzYWQiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Reduces the effect of §2poison §7by §a25%§7.\",1:\"\",2:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aVaccine Ring\"}}",
   "damage": 3,
   "lore": [
-    "§7Reduces the effect of §2poison",
-    "§2§7by §a25%§7.",
+    "§7Reduces the effect of §2poison §7by §a25%§7.",
     "",
     "§a§lUNCOMMON ACCESSORY"
+  ],
+  "internalname": "VACCINE_RING",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Vaccine_Ring",
+    "https://wiki.hypixel.net/Vaccine_Ring"
   ],
   "recipe": {
     "A1": "ARACHNE_FANG:1",
@@ -19,14 +27,5 @@
     "C1": "ARACHNE_FANG:1",
     "C2": "ARACHNE_FANG:1",
     "C3": "ARACHNE_FANG:1"
-  },
-  "internalname": "VACCINE_RING",
-  "crafttext": "",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Vaccine_Ring",
-    "https://wiki.hypixel.net/Vaccine_Ring"
-  ]
+  }
 }

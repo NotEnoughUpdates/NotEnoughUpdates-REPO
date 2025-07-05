@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Medium Gemstone Sack",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"0c32562c-d5c6-3bc1-b7df-30fa092b7a65\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyMDA3MDUyNzI3OSwKICAicHJvZmlsZUlkIiA6ICI3NTE0NDQ4MTkxZTY0NTQ2OGM5NzM5YTZlMzk1N2JlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFua3NNb2phbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDM1MDAyOGZkOTZhOThkNWIzM2QwODRkMjUyNGI3NmVkMGZjNmIyMWNjYzQwMDY0YTZkMmU3YmY5OTcxODYwZSIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7Gemstone pickups go directly into\",1:\"§7your sacks.\",2:\"\",3:\"§7Capacity: §e512,000 per gemstone type\",4:\"§8Sacks sum their capacity.\",5:\"\",6:\"§eRight Click to open sack!\",7:\"\",8:\"§9§lRARE\"],Name:\"§9Medium Gemstone Sack\"},ExtraAttributes:{id:\"MEDIUM_GEMSTONE_SACK\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"MEDIUM_GEMSTONE_SACK\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"8221d168-dc71-32fb-97a1-5df9af60eb55\",Properties:{textures:[0:{Name:\"textures\",Signature:\"pvH5hBIztjvaL0E1La+pXNyvjRbgFsRLm8RB+KbYbFt2glNpEpj6wRuNPoxpq++RS0DkqPdEg92oySQD6UJpYtnLgJnJCiWvIE/sV9qCUa9r85dtC6ucA3JwJaxHf7qjFZloEnA/4dWlafLdZkJUzNLrdBKntHdXFXkZbLUMK43Fmv1AfPH9rgRpqeUmtnEjmtM4JpAAvOoyOfcCVEq5JtPblIEmde/fhwtd9cRSPC8gSCCA3R052qzyu8KKOHelw/8STmL1ai+ww/6Bk2CUN+965jkJbeQ572tu4SRvuvphguLIeE9uxFPvnDkViQrobKd7OycSg0Mp0jytKLKQIm9fVj7IcYdUFG2VDIspBSVhgyVYNNH0bCzMgoa0UMH+9YwKaTTtel67w59YcKb+YBljehTdhAKvrt+hQC3Jui1GUXevvQ00j6Qc5F1nHLa0OJTr4xb08up8RtT15YbAdz0Sw/QyoPam+LT+Jzb0OYgAhoh50AYhixYBTKuxy9F7+JkYLLiXml8jN63aYyxstz/T//mIpQwmbck/zpf73uARfbw9jvffhBAyeKuPMo+plXFAkZsTFP1UmDkB9CsiVPtQp9y5dynz4D7ign3TXJrWkV48979auuBqBnq54+9jct/Hqfk80LtYoZ6uEVGz8d5Yt0b26oxNmjaBONLGUAs=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyMDA3MDUyNzI3OSwKICAicHJvZmlsZUlkIiA6ICI3NTE0NDQ4MTkxZTY0NTQ2OGM5NzM5YTZlMzk1N2JlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFua3NNb2phbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDM1MDAyOGZkOTZhOThkNWIzM2QwODRkMjUyNGI3NmVkMGZjNmIyMWNjYzQwMDY0YTZkMmU3YmY5OTcxODYwZSIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Gemstone pickups go directly into\",1:\"§7your sacks.\",2:\"\",3:\"§7Capacity: §e512,000 per gemstone type\",4:\"§8Sacks sum their capacity.\",5:\"\",6:\"§eRight Click to open sack!\",7:\"\",8:\"§9§lRARE\"],Name:\"§9Medium Gemstone Sack\"}}",
   "damage": 3,
   "lore": [
     "§7Gemstone pickups go directly into",
@@ -14,6 +14,15 @@
     "",
     "§9§lRARE"
   ],
+  "internalname": "MEDIUM_GEMSTONE_SACK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Gemstone III",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Medium_Gemstone_Sack",
+    "https://wiki.hypixel.net/Medium_Gemstone_Sack"
+  ],
   "recipe": {
     "A1": "FLAWED_RUBY_GEM:10",
     "A2": "FLAWED_RUBY_GEM:10",
@@ -24,14 +33,5 @@
     "C1": "FLAWED_RUBY_GEM:10",
     "C2": "FLAWED_RUBY_GEM:10",
     "C3": "FLAWED_RUBY_GEM:10"
-  },
-  "internalname": "MEDIUM_GEMSTONE_SACK",
-  "crafttext": "Requires: Gemstone III",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Medium_Gemstone_Sack",
-    "https://wiki.hypixel.net/Medium_Gemstone_Sack"
-  ]
+  }
 }

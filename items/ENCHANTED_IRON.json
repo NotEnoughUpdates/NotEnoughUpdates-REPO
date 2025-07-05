@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:iron_ingot",
   "displayname": "§aEnchanted Iron",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON ORE\"],Name:\"§aEnchanted Iron\"},ExtraAttributes:{id:\"ENCHANTED_IRON\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_IRON\"},HideFlags:254,ItemModel:\"minecraft:iron_ingot\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON ORE\"],Name:\"§aEnchanted Iron\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7§8Collection Item",
+    "§8Collection Item",
     "",
     "§a§lUNCOMMON ORE"
   ],
   "internalname": "ENCHANTED_IRON",
   "clickcommand": "viewrecipe",
-  "modver": "",
+  "crafttext": "Requires: Iron Ingot IV",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Iron",
     "https://wiki.hypixel.net/Enchanted_Iron"
   ],
-  "crafttext": "Requires: Iron Ingot IV",
   "recipes": [
     {
       "type": "crafting",

@@ -1,26 +1,32 @@
 {
   "itemid": "minecraft:blaze_rod",
   "displayname": "§5Tactical Insertion",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§6Ability: Gorilla Tactics  §e§lRIGHT CLICK\",1:\"§7Marks your location and teleport\",2:\"§7back there after §a3s§7.\",3:\"§7\",4:\"§7On coming back, §6burn §7enemies\",5:\"§7within §b3 §7blocks and set your\",6:\"§7§c❤ Health §7to HALF of what it\",7:\"§7was.\",8:\"§7\",9:\"§7The §6burn §7deals §c10% §7of\",10:\"§7ALL damage you dealt within the\",11:\"§7§a3s§7, spread over §66s§7.\",12:\"§8Mana Cost: §3200\",13:\"§8Cooldown: §a20s\",14:\"\",15:\"§7§4☠ §cRequires §5Blaze Slayer 5§c.\",16:\"§5§lEPIC\"],Name:\"§5Tactical Insertion\"},ExtraAttributes:{id:\"TACTICAL_INSERTION\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"TACTICAL_INSERTION\"},HideFlags:254,ItemModel:\"minecraft:blaze_rod\",display:{Lore:[0:\"§6Ability: Gorilla Tactics  §e§lRIGHT CLICK\",1:\"§7Marks your location and teleport back there\",2:\"§7after §a3s§7.\",3:\"\",4:\"§7On coming back, §6burn §7enemies within §b3 §7blocks\",5:\"§7and set your §c❤ Health §7to HALF of what it was.\",6:\"\",7:\"§7The §6burn §7deals §c10% §7of ALL damage you dealt\",8:\"§7within the §a3s§7, spread over §66s§7.\",9:\"§8Mana Cost: §3200\",10:\"§8Cooldown: §a20s\",11:\"\",12:\"§4☠ §cRequires §5Blaze Slayer 5§c.\",13:\"§5§lEPIC\"],Name:\"§5Tactical Insertion\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§6Ability: Gorilla Tactics  §e§lRIGHT CLICK",
-    "§7Marks your location and teleport",
-    "§7back there after §a3s§7.",
-    "§7",
-    "§7On coming back, §6burn §7enemies",
-    "§7within §b3 §7blocks and set your",
-    "§7§c❤ Health §7to HALF of what it",
-    "§7was.",
-    "§7",
-    "§7The §6burn §7deals §c10% §7of",
-    "§7ALL damage you dealt within the",
-    "§7§a3s§7, spread over §66s§7.",
+    "§7Marks your location and teleport back there",
+    "§7after §a3s§7.",
+    "",
+    "§7On coming back, §6burn §7enemies within §b3 §7blocks",
+    "§7and set your §c❤ Health §7to HALF of what it was.",
+    "",
+    "§7The §6burn §7deals §c10% §7of ALL damage you dealt",
+    "§7within the §a3s§7, spread over §66s§7.",
     "§8Mana Cost: §3200",
     "§8Cooldown: §a20s",
     "",
-    "§7§4☠ §cRequires §5Blaze Slayer 5§c.",
+    "§4☠ §cRequires §5Blaze Slayer 5§c.",
     "§5§lEPIC"
+  ],
+  "internalname": "TACTICAL_INSERTION",
+  "clickcommand": "",
+  "crafttext": "Requires: Blaze Slayer 5",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Tactical_Insertion",
+    "https://wiki.hypixel.net/Tactical_Insertion"
   ],
   "recipe": {
     "A1": "",
@@ -33,14 +39,5 @@
     "C2": "",
     "C3": ""
   },
-  "internalname": "TACTICAL_INSERTION",
-  "slayer_req": "BLAZE_4",
-  "crafttext": "Requires: Blaze Slayer 5",
-  "clickcommand": "",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Tactical_Insertion",
-    "https://wiki.hypixel.net/Tactical_Insertion"
-  ]
+  "slayer_req": "BLAZE_4"
 }

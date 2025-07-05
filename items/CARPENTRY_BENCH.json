@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§fCarpentry Table",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"01f0678d-ec7c-315b-a850-7f630f78231f\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjAsInByb2ZpbGVJZCI6ImRiYTJmMTE1NmNjMjQwMWJhOWU5YjRkMjdmN2M4OTdkIiwicHJvZmlsZU5hbWUiOiJjb2RlbmFtZV9CIiwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwczovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mMzlkNzc4ZjM5ODg2MTQ0NmY1NWJiYTk4ZmI3ZmM2NWJkNmJhMjM4ZjZjYTg1MDE1ZWUwZDEzMmE0NDkzMWZkIn19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§8Furniture\",1:\"\",2:\"§7Used for crafting furniture for\",3:\"§7your world. View and craft all of\",4:\"§7your unlocked furniture through the\",5:\"§7Carpentry Table.\",6:\"\",7:\"§f§lCOMMON\"],Name:\"§fCarpentry Table\"},ExtraAttributes:{id:\"CARPENTRY_BENCH\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"CARPENTRY_BENCH\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"5b88ea3c-54a1-3edd-8771-8f5d7363e81f\",Properties:{textures:[0:{Name:\"textures\",Signature:\"TTKm6yLrZULbnHHudr6PiU0Mu1iGcH7/FtoAimXP3Z9WDN9nnIpiAN4UTeEjsYzV1o3e7eJAds4SV5B2913V7vGHDS6OQNV9e4K0Sa2FxCl8MGgprSJIwIWmVsIRP08oRZ2jVzXaq4FTpsvCvwhst+UnwNkRst7AGDyyJNJqZnVJhCkAGkJtv4fggAXoRMPLQHkihWrct4hawCDu3c5swreu7mzThqDBubMrpJkvE6UzqJSyycvfA4D8gL7nLhFb15dXp8GSoKvzxoMJ0z2qjZIzdPXxR9MeQmfdGGUNzG9RWOf0TwMDAX7B4tO/rvCIoXuzfO/s87RV4D0kYwHs65t73r+oGMWDpzVGJk4D1G2l66kqqu9aBZv/tY1BmP4oGS2x1Z3VEL3UAT7wG6/YexoOzCpcTVjHHiONQ/04IPQLOHjXmUD74/Nlao+Rw+0zNWRsehGY24NIM4VELY5SSvSLN3S1X9RiyqhuqLHO5lEclbk0zBN/E5M9XEZ7LqbrZo18WDe5Np3zY4LJyT8nEgWps9JfkRPp7vzl2MnXPIZDhQ6z6Ar0C/xBKXH49Y+fR/BKoIzE2ic2/pCrG7rCgsKrSFwoC8RrnJa6Oi/WXYNrcrVQN8Kdv3J9AmRnFJf7gHT4kPtxtnDyA75meT5gHZMoPs10RyK8zAcBJ5+iPAc=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NjEzMDM3MiwKICAicHJvZmlsZUlkIiA6ICIxZjEyNTNhYTVkYTQ0ZjU5YWU1YWI1NmFhZjRlNTYxNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3RNaUt5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2YzOWQ3NzhmMzk4ODYxNDQ2ZjU1YmJhOThmYjdmYzY1YmQ2YmEyMzhmNmNhODUwMTVlZTBkMTMyYTQ0OTMxZmQiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Furniture\",1:\"\",2:\"§7Used for crafting furniture for\",3:\"§7your world. View and craft all of\",4:\"§7your unlocked furniture through the\",5:\"§7Carpentry Table.\",6:\"\",7:\"§f§lCOMMON\"],Name:\"§fCarpentry Table\"}}",
   "damage": 3,
   "lore": [
     "§8Furniture",
@@ -13,6 +13,15 @@
     "",
     "§f§lCOMMON"
   ],
+  "internalname": "CARPENTRY_BENCH",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Carpentry_Table",
+    "https://wiki.hypixel.net/Carpentry_Table"
+  ],
   "recipe": {
     "A1": "WOOD:2",
     "A2": "WORKBENCH:2",
@@ -23,14 +32,5 @@
     "C1": "STICK:2",
     "C2": "",
     "C3": "STICK:2"
-  },
-  "internalname": "CARPENTRY_BENCH",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Carpentry_Table",
-    "https://wiki.hypixel.net/Carpentry_Table"
-  ],
-  "crafttext": ""
+  }
 }

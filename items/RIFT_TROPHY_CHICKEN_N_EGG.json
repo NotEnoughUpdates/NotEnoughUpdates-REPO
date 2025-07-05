@@ -1,15 +1,23 @@
 {
   "itemid": "minecraft:soul_sand",
   "displayname": "§cChicken N Egg Timecharm",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Place this timecharm in the\",1:\"§7§dRift Gallery §7to secure it\",2:\"§7forever!\",3:\"\",4:\"§8§l* §8Soulbound §8§l*\",5:\"§c§lSPECIAL RIFT TIMECHARM\"],Name:\"§cChicken N Egg Timecharm\"},ExtraAttributes:{id:\"RIFT_TROPHY_CHICKEN_N_EGG\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"RIFT_TROPHY_CHICKEN_N_EGG\"},HideFlags:254,ItemModel:\"minecraft:soul_sand\",display:{Lore:[0:\"§7Place this timecharm in the §dRift\",1:\"§dGallery §7to secure it forever!\",2:\"\",3:\"§8§l* §8Soulbound §8§l*\",4:\"§c§lSPECIAL RIFT TIMECHARM\"],Name:\"§cChicken N Egg Timecharm\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7Place this timecharm in the",
-    "§7§dRift Gallery §7to secure it",
-    "§7forever!",
+    "§7Place this timecharm in the §dRift",
+    "§dGallery §7to secure it forever!",
     "",
     "§8§l* §8Soulbound §8§l*",
     "§c§lSPECIAL RIFT TIMECHARM"
+  ],
+  "internalname": "RIFT_TROPHY_CHICKEN_N_EGG",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Chicken_N_Egg_Timecharm",
+    "https://wiki.hypixel.net/Chicken_N_Egg_Timecharm"
   ],
   "recipe": {
     "A1": "CADUCOUS_STEM_BUNCH:1",
@@ -21,14 +29,5 @@
     "C1": "WILTED_BERBERIS_BUNCH:1",
     "C2": "METAPHORIC_EGG:2",
     "C3": "WILTED_BERBERIS_BUNCH:1"
-  },
-  "internalname": "RIFT_TROPHY_CHICKEN_N_EGG",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Chicken_N_Egg_Timecharm",
-    "https://wiki.hypixel.net/Chicken_N_Egg_Timecharm"
-  ],
-  "crafttext": ""
+  }
 }

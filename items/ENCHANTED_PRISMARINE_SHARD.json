@@ -1,12 +1,21 @@
 {
   "itemid": "minecraft:prismarine_shard",
   "displayname": "§aEnchanted Prismarine Shard",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Prismarine Shard\"},ExtraAttributes:{id:\"ENCHANTED_PRISMARINE_SHARD\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_PRISMARINE_SHARD\"},HideFlags:254,ItemModel:\"minecraft:prismarine_shard\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Prismarine Shard\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7§8Collection Item",
+    "§8Collection Item",
     "",
     "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_PRISMARINE_SHARD",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Prismarine Shard III",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Prismarine_Shard",
+    "https://wiki.hypixel.net/Enchanted_Prismarine_Shard"
   ],
   "recipe": {
     "A1": "",
@@ -18,14 +27,5 @@
     "C1": "",
     "C2": "PRISMARINE_SHARD:16",
     "C3": ""
-  },
-  "internalname": "ENCHANTED_PRISMARINE_SHARD",
-  "clickcommand": "viewrecipe",
-  "modver": "2.2.2",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Prismarine_Shard",
-    "https://wiki.hypixel.net/Enchanted_Prismarine_Shard"
-  ],
-  "crafttext": "Requires: Prismarine Shard III"
+  }
 }

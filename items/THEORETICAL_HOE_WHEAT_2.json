@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:iron_hoe",
-  "displayname": "§aEuclid\u0027s Wheat Hoe",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\" §8[§8☘§8] §8[§8☘§8]\",1:\"\",2:\"§7Gain §6+25☘ Wheat Fortune §7and §3+2☯\",3:\"§3Farming Wisdom §7for wheat.\",4:\"\",5:\"§7Counter: §e0 Wheat\",6:\"\",7:\"§6Logarithmic Counter\",8:\"§7Gain §6+16☘ Wheat Fortune §7per digits\",9:\"§7on the Counter, minus 4!\",10:\"§7You have §6+0☘ Wheat Fortune§7.\",11:\"\",12:\"§7§8Bonus wheat percent increases your\",13:\"§8Farmhand perk\u0027s chances.\",14:\"\",15:\"§eReach 100k Counter for +1 Rarity!\",16:\"\",17:\"§eRight-click to view recipes!\",18:\"\",19:\"§7§8This item can be reforged!\",20:\"§7§4❣ §cRequires §aFarming Skill 20§c.\",21:\"§a§lUNCOMMON HOE\"],Name:\"§aEuclid\u0027s Wheat Hoe\"},ExtraAttributes:{id:\"THEORETICAL_HOE_WHEAT_2\"}}",
+  "displayname": "§aEuclid's Wheat Hoe",
+  "nbttag": "{ExtraAttributes:{id:\"THEORETICAL_HOE_WHEAT_2\"},HideFlags:254,ItemModel:\"minecraft:iron_hoe\",Unbreakable:1B,display:{Lore:[0:\" §8[☘] [☘]\",1:\"\",2:\"§7Gain §6+25☘ Wheat Fortune §7and §3+2☯\",3:\"§3Farming Wisdom §7for wheat.\",4:\"\",5:\"§7Counter: §e0 Wheat\",6:\"\",7:\"§6Logarithmic Counter\",8:\"§7Gain §6+16☘ Wheat Fortune §7per digits\",9:\"§7on the Counter, minus 4!\",10:\"§7You have §6+0☘ Wheat Fortune§7.\",11:\"\",12:\"§8Bonus wheat percent increases your\",13:\"§8Farmhand perk's chances.\",14:\"\",15:\"§eReach 100k Counter for +1 Rarity!\",16:\"\",17:\"§eRight-click to view recipes!\",18:\"\",19:\"§8This item can be reforged!\",20:\"§4❣ §cRequires §aFarming Skill 20§c.\",21:\"§a§lUNCOMMON HOE\"],Name:\"§aEuclid's Wheat Hoe\"}}",
   "damage": 0,
   "lore": [
-    " §8[§8☘§8] §8[§8☘§8]",
+    " §8[☘] [☘]",
     "",
     "§7Gain §6+25☘ Wheat Fortune §7and §3+2☯",
     "§3Farming Wisdom §7for wheat.",
@@ -16,16 +16,25 @@
     "§7on the Counter, minus 4!",
     "§7You have §6+0☘ Wheat Fortune§7.",
     "",
-    "§7§8Bonus wheat percent increases your",
-    "§8Farmhand perk\u0027s chances.",
+    "§8Bonus wheat percent increases your",
+    "§8Farmhand perk's chances.",
     "",
     "§eReach 100k Counter for +1 Rarity!",
     "",
     "§eRight-click to view recipes!",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aFarming Skill 20§c.",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aFarming Skill 20§c.",
     "§a§lUNCOMMON HOE"
+  ],
+  "internalname": "THEORETICAL_HOE_WHEAT_2",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Euclid%27s_Wheat_Hoe",
+    "https://wiki.hypixel.net/Euclid%27s_Wheat_Hoe"
   ],
   "recipe": {
     "A1": "JACOBS_TICKET:16",
@@ -37,14 +46,5 @@
     "C1": "JACOBS_TICKET:16",
     "C2": "ENCHANTED_WHEAT:16",
     "C3": "JACOBS_TICKET:16"
-  },
-  "internalname": "THEORETICAL_HOE_WHEAT_2",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Euclid%27s_Wheat_Hoe",
-    "https://wiki.hypixel.net/Euclid%27s_Wheat_Hoe"
-  ]
+  }
 }

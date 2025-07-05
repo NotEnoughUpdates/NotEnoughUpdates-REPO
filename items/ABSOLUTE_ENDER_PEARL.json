@@ -1,12 +1,21 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Absolute Ender Pearl",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"d9cb8bfa-f9da-35ca-b22e-828adfc7fd6a\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1MjE0NjQ4ODk4NiwKICAicHJvZmlsZUlkIiA6ICI0M2NmNWJkNjUyMDM0YzU5ODVjMDIwYWI3NDE0OGQxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrYW1pbDQ0NSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82N2Q5ZmUwNjUwMjRmZmY0YjM0Yzc4ZjkyY2QzMTUwZDZiZGZhYWI3YzM3NWEwZWU3ODUwNzZlMWE0YTI1NGU5IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Absolute Ender Pearl\"},ExtraAttributes:{id:\"ABSOLUTE_ENDER_PEARL\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ABSOLUTE_ENDER_PEARL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"d9cb8bfa-f9da-35ca-b22e-828adfc7fd6a\",Properties:{textures:[0:{Name:\"textures\",Signature:\"A0BVNIawhgGDCQVvTLXXYSctjpgzn/V2+PhTobL2ESTEoukuGHSYjrp+E4dMypflLRYl+KJIKnjr79RbIDulQ3T9Iaqwk388ahbWT9tJM+gkynnggbBOrnoIjdqpo6OJomF8/r0ipznj8PtDM85Oet4zkphorNNPKrq+y6u3LywRxeLVdlY+E4xSLyTSbll3uKcW/Z5Fp7oM/WNnr02vg7+Da/wSc1ZP35yU0CeiH8NDH22XuMeJMZwRJymza0Xhv/SlFD+UXmvKuPH63l3N5TjaEqbCwBs7s7hWzHwDh4UZBjcceTrYQ6lG2NZFVbTdrC/SK3E6DwnWzc56OjdAsDS0Gv33cT+4nUsIeGCvjQR2ZhiCiqT+0s2htOo3Xqw16UosrwEd1Q5iWJigbixfG74qCjnIy2M3q53Z7FkloklaLmU+XVSQCU/864S8rVaBz76xwzlnnKP4Mg7y8DfW4SksHMKpCJbbIWF8FGocFl0n10vbW2+gM0MXZ6tWpSieUxLGgAy0F6QrKLgbLz8Pw0vh67316MsOGFi7qFdHuWZ1u2cw00kE5gvsd89nX3bVnSLvjMviO9rUIwtS1SOmiyF9ZVfxBPb1kVTllwG1MwUhpEL1sZmQJ8sCLqJs8PHbSveov7hvL6id2vhwd/uCUCX2VASrM6/7Rf/IROuNCCA=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1MjE0NjQ4ODk4NiwKICAicHJvZmlsZUlkIiA6ICI0M2NmNWJkNjUyMDM0YzU5ODVjMDIwYWI3NDE0OGQxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrYW1pbDQ0NSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82N2Q5ZmUwNjUwMjRmZmY0YjM0Yzc4ZjkyY2QzMTUwZDZiZGZhYWI3YzM3NWEwZWU3ODUwNzZlMWE0YTI1NGU5IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Absolute Ender Pearl\"}}",
   "damage": 3,
   "lore": [
-    "§7§8Collection Item",
+    "§8Collection Item",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "ABSOLUTE_ENDER_PEARL",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Ender Pearl VII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Absolute_Ender_Pearl",
+    "https://wiki.hypixel.net/Absolute_Ender_Pearl"
   ],
   "recipe": {
     "A1": "",
@@ -18,14 +27,5 @@
     "C1": "",
     "C2": "ENCHANTED_ENDER_PEARL:16",
     "C3": ""
-  },
-  "internalname": "ABSOLUTE_ENDER_PEARL",
-  "crafttext": "Requires: Ender Pearl VII",
-  "clickcommand": "viewrecipe",
-  "modver": "2.2.2",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Absolute_Ender_Pearl",
-    "https://wiki.hypixel.net/Absolute_Ender_Pearl"
-  ]
+  }
 }

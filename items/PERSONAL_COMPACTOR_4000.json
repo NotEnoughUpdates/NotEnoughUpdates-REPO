@@ -1,18 +1,27 @@
 {
   "itemid": "minecraft:dropper",
   "displayname": "§aPersonal Compactor 4000",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Automatically turns certain\",1:\"§7materials in your inventory into\",2:\"§7their enchanted form.\",3:\"\",4:\"§eRight-click to configure!\",5:\"\",6:\"§8Does not grant carpentry XP!\",7:\"\",8:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aPersonal Compactor 4000\"},ExtraAttributes:{id:\"PERSONAL_COMPACTOR_4000\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"PERSONAL_COMPACTOR_4000\"},HideFlags:254,ItemModel:\"minecraft:dropper\",display:{Lore:[0:\"§7Automatically turns certain materials\",1:\"§7in your inventory into their\",2:\"§7enchanted form.\",3:\"\",4:\"§eRight-click to configure!\",5:\"\",6:\"§8Does not grant Carpentry XP!\",7:\"\",8:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aPersonal Compactor 4000\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7Automatically turns certain",
-    "§7materials in your inventory into",
-    "§7their enchanted form.",
+    "§7Automatically turns certain materials",
+    "§7in your inventory into their",
+    "§7enchanted form.",
     "",
     "§eRight-click to configure!",
     "",
-    "§8Does not grant carpentry XP!",
+    "§8Does not grant Carpentry XP!",
     "",
     "§a§lUNCOMMON ACCESSORY"
+  ],
+  "internalname": "PERSONAL_COMPACTOR_4000",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Redstone IX",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Personal_Compactor_4000",
+    "https://wiki.hypixel.net/Personal_Compactor_4000"
   ],
   "recipe": {
     "A1": "ENCHANTED_REDSTONE:64",
@@ -24,14 +33,5 @@
     "C1": "ENCHANTED_REDSTONE:64",
     "C2": "SUPER_COMPACTOR_3000:1",
     "C3": "ENCHANTED_REDSTONE:64"
-  },
-  "internalname": "PERSONAL_COMPACTOR_4000",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "crafttext": "Requires: Redstone IX",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Personal_Compactor_4000",
-    "https://wiki.hypixel.net/Personal_Compactor_4000"
-  ]
+  }
 }

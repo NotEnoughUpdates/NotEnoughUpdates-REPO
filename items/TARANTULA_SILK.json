@@ -1,12 +1,21 @@
 {
   "itemid": "minecraft:web",
   "displayname": "§9Tarantula Silk",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Tarantula Silk\"},ExtraAttributes:{id:\"TARANTULA_SILK\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"TARANTULA_SILK\"},HideFlags:254,ItemModel:\"minecraft:cobweb\",display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Tarantula Silk\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§eRight-click to view recipes!",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "TARANTULA_SILK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Tarantula_Silk",
+    "https://wiki.hypixel.net/Tarantula_Silk"
   ],
   "recipe": {
     "A1": "",
@@ -19,13 +28,5 @@
     "C2": "TARANTULA_WEB:32",
     "C3": ""
   },
-  "slayer_req": "SPIDER_2",
-  "internalname": "TARANTULA_SILK",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Tarantula_Silk",
-    "https://wiki.hypixel.net/Tarantula_Silk"
-  ]
+  "slayer_req": "SPIDER_2"
 }

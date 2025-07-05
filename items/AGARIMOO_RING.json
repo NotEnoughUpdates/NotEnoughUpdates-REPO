@@ -1,13 +1,22 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§aAgarimoo Ring",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"6df8413b-10a8-37f5-a95d-37cb71087540\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDNlYmYzOGI0YTcwOGViMDA3NDVkMWZiODdhNTNjYjgxYTdhZjZjYzE3OGQ5YTJjMTExNmMyY2JjZmY5NGZlYSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Fishing Wisdom: §a+1\",1:\"§7Fishing Speed: §a+2\",2:\"\",3:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aAgarimoo Ring\"},ExtraAttributes:{id:\"AGARIMOO_RING\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"AGARIMOO_RING\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"02937464-a6b7-3dc2-ab51-2b4bc607b83d\",Properties:{textures:[0:{Name:\"textures\",Signature:\"Cgp6MaFtX0GJzxHzXJHYO8CC/znK2SRtEO1fRq3flXl9DARcdriZnPZnBiZbHNlrmJ3b5ca3gCXlT/q9fAiDN1hc/iTCpBl8wRE/lsl5+z6AAQm1HdiA3IW9okghBhST0aVJdwjC58LQ/yn9mdAvhm2AphwlASpRLaNPatKDTCUkUCxhJxgYwToznm4VDdehUn9c4OCpu/nnd5Q0HiQpp2QIO8IJGoK41jSMYSfpx0EezJgln7mmNeROo4WG4YuX8RLQcJPpOsWcdW0+hDTJT3Q9CX0+KR4WZueG2myPXseIXdM9DQJ5+D3QACHEJNJ3wWGII/yZJvvHgm3Me3+7yo2trwpZlPBMnefzW7xeXnHjx7BreyR1Y1phGdZ9Z83uSJrgbgBM3SrFYH1jZH+2j9WpIn4wiF9vV0kra9iov8o7Oar9cgMJ04ir+/BWZ/qbswEiQvbKLoFpKTg/JxS52NigcOfMNhYmphBZpAeJYN3Z4Tg5eQHmreXxO2+dpJY0sEfcdTnqhdZPXIwi6SXOCQON3v5FEVaaVarxeDX3mZBPjpRVG14RlHAaDhX53rSo5soQ6ukNwk8ciUV4KYw4UMLUAIBbGk3nAJWYz3siniENwpePfKbwze7s1rM7cxjj9LuTrXFqgqV2m9OlCKHLk2+bXtnq/sTBar0SCp+Y/yQ=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY3OTc3MzU2MjMwOCwKICAicHJvZmlsZUlkIiA6ICJiNTAwOGEyMGJkY2U0YjJlOTU5NWZlNzY2MDlmYjUzNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNT1JJU3hTVE9QQkFOIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2QzZWJmMzhiNGE3MDhlYjAwNzQ1ZDFmYjg3YTUzY2I4MWE3YWY2Y2MxNzhkOWEyYzExMTZjMmNiY2ZmOTRmZWEiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Fishing Speed: §a+2\",1:\"§7Fishing Wisdom: §a+1\",2:\"\",3:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aAgarimoo Ring\"}}",
   "damage": 3,
   "lore": [
-    "§7Fishing Wisdom: §a+1",
     "§7Fishing Speed: §a+2",
+    "§7Fishing Wisdom: §a+1",
     "",
     "§a§lUNCOMMON ACCESSORY"
+  ],
+  "internalname": "AGARIMOO_RING",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Agarimoo_Ring",
+    "https://wiki.hypixel.net/Agarimoo_Ring"
   ],
   "recipe": {
     "A1": "AGARIMOO_TONGUE:12",
@@ -19,14 +28,5 @@
     "C1": "AGARIMOO_TONGUE:12",
     "C2": "AGARIMOO_TONGUE:12",
     "C3": "AGARIMOO_TONGUE:12"
-  },
-  "internalname": "AGARIMOO_RING",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Agarimoo_Ring",
-    "https://wiki.hypixel.net/Agarimoo_Ring"
-  ]
+  }
 }

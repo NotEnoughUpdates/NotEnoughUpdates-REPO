@@ -1,15 +1,24 @@
 {
   "itemid": "minecraft:stick",
   "displayname": "§aWeather Stick",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§6Ability: Weather §e§lRIGHT CLICK\",1:\"§7Allows you to change the weather\",2:\"§7on your island.\",3:\"§8Cooldown: §a5s\",4:\"\",5:\"§a§lUNCOMMON\"],Name:\"§aWeather Stick\"},ExtraAttributes:{id:\"WEATHER_STICK\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"WEATHER_STICK\"},HideFlags:254,ItemModel:\"minecraft:stick\",display:{Lore:[0:\"§6Ability: Weather  §e§lRIGHT CLICK\",1:\"§7Allows you to change the weather on your\",2:\"§7island.\",3:\"§8Cooldown: §a5s\",4:\"\",5:\"§a§lUNCOMMON\"],Name:\"§aWeather Stick\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§6Ability: Weather §e§lRIGHT CLICK",
-    "§7Allows you to change the weather",
-    "§7on your island.",
+    "§6Ability: Weather  §e§lRIGHT CLICK",
+    "§7Allows you to change the weather on your",
+    "§7island.",
     "§8Cooldown: §a5s",
     "",
     "§a§lUNCOMMON"
+  ],
+  "internalname": "WEATHER_STICK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Redstone V",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Weather_Stick",
+    "https://wiki.hypixel.net/Weather_Stick"
   ],
   "recipe": {
     "A1": "",
@@ -21,14 +30,5 @@
     "C1": "",
     "C2": "STICK:1",
     "C3": ""
-  },
-  "internalname": "WEATHER_STICK",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Weather_Stick",
-    "https://wiki.hypixel.net/Weather_Stick"
-  ],
-  "crafttext": "Requires: Redstone V"
+  }
 }

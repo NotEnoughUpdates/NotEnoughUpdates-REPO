@@ -1,22 +1,31 @@
 {
   "itemid": "minecraft:golden_sword",
-  "displayname": "§6⚚ Midas\u0027 Sword",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+170\",1:\" §8[§8❁§8] §8[§8⚔§8]\",2:\"\",3:\"§6Ability: Greed \",4:\"§7The strength and damage bonus of\",5:\"§7this item is dependent on the price\",6:\"§7paid for it at the §5Dark Auction§7!\",7:\"§7The maximum bonus of this item is §c225\",8:\"§c§7if the bid was §6250,000,000 Coins §7or\",9:\"§7higher!\",10:\"\",11:\"§7§8This item can be reforged!\",12:\"§6§lLEGENDARY SWORD\"],Name:\"§6⚚ Midas\u0027 Sword\"},ExtraAttributes:{id:\"STARRED_MIDAS_SWORD\"}}",
+  "displayname": "§6⚚ Midas' Sword",
+  "nbttag": "{ExtraAttributes:{id:\"STARRED_MIDAS_SWORD\"},HideFlags:254,ItemModel:\"minecraft:golden_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+170\",1:\" §8[❁] [⚔]\",2:\"\",3:\"§6Ability: Greed \",4:\"§7The strength and damage bonus of\",5:\"§7this item is dependent on the price\",6:\"§7paid for it at the §5Dark Auction§7!\",7:\"§7The maximum bonus of this item is §c225\",8:\"§7if the bid was §6250,000,000 Coins §7or\",9:\"§7higher!\",10:\"\",11:\"§8This item can be reforged!\",12:\"§4❣ §cRequires §aCombat Skill 20§c.\",13:\"§6§lLEGENDARY SWORD\"],Name:\"§6⚚ Midas' Sword\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+170",
-    " §8[§8❁§8] §8[§8⚔§8]",
+    " §8[❁] [⚔]",
     "",
     "§6Ability: Greed ",
     "§7The strength and damage bonus of",
     "§7this item is dependent on the price",
     "§7paid for it at the §5Dark Auction§7!",
     "§7The maximum bonus of this item is §c225",
-    "§c§7if the bid was §6250,000,000 Coins §7or",
+    "§7if the bid was §6250,000,000 Coins §7or",
     "§7higher!",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aCombat Skill 20§c.",
     "§6§lLEGENDARY SWORD"
+  ],
+  "internalname": "STARRED_MIDAS_SWORD",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/⚚_Midas%27_Sword"
   ],
   "recipe": {
     "A1": "GOLDEN_FRAGMENT:1",
@@ -28,13 +37,5 @@
     "C1": "GOLDEN_FRAGMENT:1",
     "C2": "GOLDEN_FRAGMENT:1",
     "C3": "GOLDEN_FRAGMENT:1"
-  },
-  "internalname": "STARRED_MIDAS_SWORD",
-  "clickcommand": "viewrecipe",
-  "modver": "2.3.3",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://wiki.hypixel.net/⚚_Midas%27_Sword"
-  ]
+  }
 }

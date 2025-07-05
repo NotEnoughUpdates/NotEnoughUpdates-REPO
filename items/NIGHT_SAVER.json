@@ -1,13 +1,22 @@
 {
   "itemid": "minecraft:daylight_detector",
   "displayname": "§aNight Saver",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Control the time on your private\",1:\"§7island when paired with a §aDay Saver§7.\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aNight Saver\"},ExtraAttributes:{id:\"NIGHT_SAVER\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"NIGHT_SAVER\"},HideFlags:254,ItemModel:\"minecraft:daylight_detector\",display:{Lore:[0:\"§7Control the time on your private\",1:\"§7island when paired with a §aDay Saver§7.\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aNight Saver\"}}",
   "damage": 0,
   "lore": [
     "§7Control the time on your private",
     "§7island when paired with a §aDay Saver§7.",
     "",
     "§a§lUNCOMMON"
+  ],
+  "internalname": "NIGHT_SAVER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Nether Quartz II",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Night_Saver",
+    "https://wiki.hypixel.net/Night_Saver"
   ],
   "recipe": {
     "A1": "GLASS:1",
@@ -19,14 +28,5 @@
     "C1": "BROWN_MUSHROOM:1",
     "C2": "BROWN_MUSHROOM:1",
     "C3": "BROWN_MUSHROOM:1"
-  },
-  "internalname": "NIGHT_SAVER",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Night_Saver",
-    "https://wiki.hypixel.net/Night_Saver"
-  ],
-  "crafttext": "Requires: Nether Quartz II"
+  }
 }

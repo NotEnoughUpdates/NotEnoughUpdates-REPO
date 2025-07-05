@@ -1,15 +1,23 @@
 {
   "itemid": "minecraft:water_bucket",
   "displayname": "§fMagical Water Bucket",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7This Magical Water Bucket will\",1:\"§7never run out of water, no\",2:\"§7matter how many times it is\",3:\"§7emptied.\",4:\"\",5:\"§f§lCOMMON\"],Name:\"§fMagical Water Bucket\"},ExtraAttributes:{id:\"MAGICAL_WATER_BUCKET\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"MAGICAL_WATER_BUCKET\"},HideFlags:254,ItemModel:\"minecraft:water_bucket\",display:{Lore:[0:\"§7This Magical Water Bucket will never\",1:\"§7run out of water, no matter how\",2:\"§7many times it is emptied.\",3:\"\",4:\"§f§lCOMMON\"],Name:\"§fMagical Water Bucket\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7This Magical Water Bucket will",
-    "§7never run out of water, no",
-    "§7matter how many times it is",
-    "§7emptied.",
+    "§7This Magical Water Bucket will never",
+    "§7run out of water, no matter how",
+    "§7many times it is emptied.",
     "",
     "§f§lCOMMON"
+  ],
+  "internalname": "MAGICAL_WATER_BUCKET",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Ice V",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Magical_Water_Bucket",
+    "https://wiki.hypixel.net/Magical_Water_Bucket"
   ],
   "recipe": {
     "A1": "",
@@ -21,14 +29,5 @@
     "C1": "",
     "C2": "IRON_INGOT:1",
     "C3": ""
-  },
-  "internalname": "MAGICAL_WATER_BUCKET",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Magical_Water_Bucket",
-    "https://wiki.hypixel.net/Magical_Water_Bucket"
-  ],
-  "crafttext": "Requires: Ice V"
+  }
 }

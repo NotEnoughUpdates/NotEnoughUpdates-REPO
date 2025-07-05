@@ -1,14 +1,23 @@
 {
   "itemid": "minecraft:coal",
   "displayname": "§aEnchanted Charcoal",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Increases the speed of\",1:\"§7your minion by §a20%§7 for 36\",2:\"§7hours§7!\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Charcoal\"},ExtraAttributes:{id:\"ENCHANTED_CHARCOAL\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_CHARCOAL\"},HideFlags:254,ItemModel:\"minecraft:charcoal\",display:{Lore:[0:\"§7Increases the speed of\",1:\"§7your minion by §a20%§7 for 36\",2:\"§7hours!\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Charcoal\"},ench:[]}",
   "damage": 1,
   "lore": [
     "§7Increases the speed of",
     "§7your minion by §a20%§7 for 36",
-    "§7hours§7!",
+    "§7hours!",
     "",
     "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_CHARCOAL",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Coal V",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Charcoal",
+    "https://wiki.hypixel.net/Enchanted_Charcoal"
   ],
   "recipe": {
     "A1": "",
@@ -20,14 +29,5 @@
     "C1": "",
     "C2": "COAL:32",
     "C3": ""
-  },
-  "internalname": "ENCHANTED_CHARCOAL",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Charcoal",
-    "https://wiki.hypixel.net/Enchanted_Charcoal"
-  ],
-  "crafttext": "Requires: Coal V"
+  }
 }

@@ -1,15 +1,23 @@
 {
   "itemid": "minecraft:spawn_egg",
   "displayname": "§9Living Metal Capspawn",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§6Ability: Spawn §e§lRIGHT CLICK\",1:\"§7Spawns a living metal autoarmor\",2:\"§7which can be assimilated into\",3:\"§7your own armor.\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Living Metal Capspawn\"},ExtraAttributes:{id:\"LM_EGG_CAP\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"LM_EGG_CAP\"},HideFlags:254,ItemModel:\"minecraft:squid_spawn_egg\",display:{Lore:[0:\"§6Ability: Spawn  §e§lRIGHT CLICK\",1:\"§7Spawns a living metal autoarmor which can be\",2:\"§7assimilated into your own armor.\",3:\"\",4:\"§9§lRARE\"],Name:\"§9Living Metal Capspawn\"}}",
   "damage": 94,
   "lore": [
-    "§6Ability: Spawn §e§lRIGHT CLICK",
-    "§7Spawns a living metal autoarmor",
-    "§7which can be assimilated into",
-    "§7your own armor.",
+    "§6Ability: Spawn  §e§lRIGHT CLICK",
+    "§7Spawns a living metal autoarmor which can be",
+    "§7assimilated into your own armor.",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "LM_EGG_CAP",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Living_Metal_Capspawn",
+    "https://wiki.hypixel.net/Living_Metal_Capspawn"
   ],
   "recipe": {
     "A1": "LIVING_METAL:1",
@@ -21,14 +29,5 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  },
-  "internalname": "LM_EGG_CAP",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Living_Metal_Capspawn",
-    "https://wiki.hypixel.net/Living_Metal_Capspawn"
-  ]
+  }
 }

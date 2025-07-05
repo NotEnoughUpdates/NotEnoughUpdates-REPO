@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:iron_sword",
   "displayname": "§9Recluse Fang",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+120\",1:\"§7Strength: §c+30\",2:\"§7Crit Damage: §c+20%\",3:\"\",4:\"§7Gain §3+30☯ Combat Wisdom§7 against Spiders.\",5:\" \",6:\"§6Ability: Squash \u0027em \",7:\"§7Squash Spiders to accumulate\",8:\"§7strength against them.\",9:\"§7Bonus: §c+0❁\",10:\"§8+1 strength per 40 squashed\",11:\"\",12:\"§7§8This item can be reforged!\",13:\"§7§4☠ §cRequires §5Spider Slayer 2§c.\",14:\"§9§lRARE SWORD\"],Name:\"§9Recluse Fang\"},ExtraAttributes:{id:\"RECLUSE_FANG\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"RECLUSE_FANG\"},HideFlags:254,ItemModel:\"minecraft:iron_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+120\",1:\"§7Strength: §c+30\",2:\"§7Crit Damage: §c+20%\",3:\"\",4:\"§7Gain §3+30☯ Combat Wisdom§7 against Spiders.\",5:\" \",6:\"§6Ability: Squash 'em \",7:\"§7Squash Spiders to accumulate\",8:\"§7strength against them.\",9:\"§7Bonus: §c+0❁\",10:\"§8+1 strength per 40 squashed\",11:\"\",12:\"§8This item can be reforged!\",13:\"§4☠ §cRequires §5Spider Slayer 2§c.\",14:\"§9§lRARE SWORD\"],Name:\"§9Recluse Fang\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+120",
@@ -10,15 +10,24 @@
     "",
     "§7Gain §3+30☯ Combat Wisdom§7 against Spiders.",
     " ",
-    "§6Ability: Squash \u0027em ",
+    "§6Ability: Squash 'em ",
     "§7Squash Spiders to accumulate",
     "§7strength against them.",
     "§7Bonus: §c+0❁",
     "§8+1 strength per 40 squashed",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4☠ §cRequires §5Spider Slayer 2§c.",
+    "§8This item can be reforged!",
+    "§4☠ §cRequires §5Spider Slayer 2§c.",
     "§9§lRARE SWORD"
+  ],
+  "internalname": "RECLUSE_FANG",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Spider Slayer 2",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Recluse_Fang",
+    "https://wiki.hypixel.net/Recluse_Fang"
   ],
   "recipe": {
     "A1": "TARANTULA_WEB:4",
@@ -31,14 +40,5 @@
     "C2": "SPIDER_SWORD:1",
     "C3": "TARANTULA_WEB:4"
   },
-  "slayer_req": "SPIDER_2",
-  "internalname": "RECLUSE_FANG",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Recluse_Fang",
-    "https://wiki.hypixel.net/Recluse_Fang"
-  ],
-  "crafttext": "Requires: Spider Slayer 2"
+  "slayer_req": "SPIDER_2"
 }

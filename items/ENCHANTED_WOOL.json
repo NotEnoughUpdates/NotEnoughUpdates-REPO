@@ -1,12 +1,21 @@
 {
   "itemid": "minecraft:wool",
   "displayname": "§aEnchanted Wool",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Wool\"},ExtraAttributes:{id:\"ENCHANTED_WOOL\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_WOOL\"},HideFlags:254,ItemModel:\"minecraft:white_wool\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Wool\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7§8Collection Item",
+    "§8Collection Item",
     "",
     "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_WOOL",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Wool",
+    "https://wiki.hypixel.net/Enchanted_Wool"
   ],
   "recipe": {
     "A1": "",
@@ -18,14 +27,5 @@
     "C1": "",
     "C2": "WOOL:32",
     "C3": ""
-  },
-  "internalname": "ENCHANTED_WOOL",
-  "clickcommand": "viewrecipe",
-  "modver": "2.2.2",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Wool",
-    "https://wiki.hypixel.net/Enchanted_Wool"
-  ],
-  "crafttext": ""
+  }
 }

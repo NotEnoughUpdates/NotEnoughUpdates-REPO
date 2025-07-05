@@ -1,17 +1,26 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§aMagical Mushroom Soup",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"d6ebdcca-b422-325c-bdaf-e77c60fc9a66\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI2ODMyODZhOTEyZWVkYzIyNDk3NGIyZDRhZmI3ZmE1NDViMTNhZTYxZDE5ZjNjZGY5OTBlNTFhNTA1YWVmMSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Consuming this soup on your\",1:\"§7private island allows the player\",2:\"§7to fly for §a2 minutes§7.\",3:\"\",4:\"§7Leaving the private island\",5:\"§7will pause the effect!\",6:\"\",7:\"§a§lUNCOMMON\"],Name:\"§aMagical Mushroom Soup\"},ExtraAttributes:{id:\"MAGIC_MUSHROOM_SOUP\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"MAGIC_MUSHROOM_SOUP\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"ca222b76-cc7d-3fbf-9806-216cd1aad95a\",Properties:{textures:[0:{Name:\"textures\",Signature:\"ovbBgvvlDXnZ05DMOx31uWpA7PSPbymrXk1fwvvC+JJZ/ZqmVC705fFStU+RNXGrtzzV+M7/h/I3uRzNujoqQHYDeWtqC52OFYVpTM9TIJQvzRS6aJOs5LjQ9TzeZO3NiP2gRdplyZiCNgteUqG0y/iZvhb+Nj2CCzzl3fqrHqJKaEEzbdlV9QjMNWlfluU+6+Cn/NBl9cUAu+0nzx28NeKERZxcdbO3iLgqfpUmo0YEXurQNVR8+d31ejQ+/wx/QVxENe9/X2Yv4YSFzB0XnKIadTyOdOfk9L5KwE68LAK8Iajzu5mHQm71cLMTlB0SIygH3KJ/fYH0zl2NWhEUmrdNx0R98dP1yFmnJ6vCU5d96l8WMC/l2m2szoRP6CuUgtxtJFUeMgcGqhQgCi58rnkNo2kKnhnl0sMOsIOJpWnLYoxOQSjtCp0ljrTaM/uNZVLtliplViW0sb9clQFNUJBZ+YbtdfX+nWhuFiDoKrWjM9sDiQhves1dIB6BsD1G7D79pD/u2lZ/C1MtpW52mSycB0SEP8HmFvyS+Px0XEAK17EA54VXYeF2rofEAGakg0dewyCkTLZWIjeyuqAvMgilW8BYcjHzs0y8qZo8VD+inWNqkEoecsyVipaTvZXD7JKaehiA5sqrYe/Cpj7Z/EDaQ9TTUI9hqvBW9IDRTLw=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MzQ5MjQwNiwKICAicHJvZmlsZUlkIiA6ICI4YWFlYTdlYjViOWM0ZWEwODUxNWU3MDhhZGIxODBkNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYVBhODA3MTEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI2ODMyODZhOTEyZWVkYzIyNDk3NGIyZDRhZmI3ZmE1NDViMTNhZTYxZDE5ZjNjZGY5OTBlNTFhNTA1YWVmMSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Consuming this soup on your private\",1:\"§7island or garden allows the player\",2:\"§7to fly for §a2 minutes§7.\",3:\"\",4:\"§7Leaving the island will pause the\",5:\"§7effect!\",6:\"\",7:\"§a§lUNCOMMON\"],Name:\"§aMagical Mushroom Soup\"},ench:[]}",
   "damage": 3,
   "lore": [
-    "§7Consuming this soup on your",
-    "§7private island allows the player",
+    "§7Consuming this soup on your private",
+    "§7island or garden allows the player",
     "§7to fly for §a2 minutes§7.",
     "",
-    "§7Leaving the private island",
-    "§7will pause the effect!",
+    "§7Leaving the island will pause the",
+    "§7effect!",
     "",
     "§a§lUNCOMMON"
+  ],
+  "internalname": "MAGIC_MUSHROOM_SOUP",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Mushroom IV",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Magical_Mushroom_Soup",
+    "https://wiki.hypixel.net/Magical_Mushroom_Soup"
   ],
   "recipe": {
     "A1": "",
@@ -23,14 +32,5 @@
     "C1": "",
     "C2": "BOWL:1",
     "C3": ""
-  },
-  "internalname": "MAGIC_MUSHROOM_SOUP",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Magical_Mushroom_Soup",
-    "https://wiki.hypixel.net/Magical_Mushroom_Soup"
-  ],
-  "crafttext": "Requires: Mushroom IV"
+  }
 }

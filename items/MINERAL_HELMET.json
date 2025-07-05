@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§5Mineral Helmet",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"cafa124e-da06-3b1a-b38e-f89824dcf2ab\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI1ZTYxMjE5NzFlOTFjNTQxNWY2MTdlMTcxMTQ5OTBhMTQ2YTc0NmRkOTUyZDQxNzZlMjU3NjQxODNlZiJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Defense: §a+70\",1:\"§7Speed: §a+10\",2:\"§7Block Fortune: §a+25\",3:\"\",4:\"§8Tiered Bonus: Mineralworks (0/4)\",5:\"§7Grants §e+0▚ Mining Spread §7on §6Ores\",6:\"§6§7and §9Blocks§7.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§5§lEPIC HELMET\"],Name:\"§5Mineral Helmet\"},ExtraAttributes:{id:\"MINERAL_HELMET\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"MINERAL_HELMET\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"cff8027e-ca63-37e7-a269-85fdc1e90b7d\",Properties:{textures:[0:{Name:\"textures\",Signature:\"pdcB4mQQMk9yBcVvnTQ48COb+SB+H2whkM412wFcHaafyt4qJmAvlPpqDnonbgh1Uw37/DMNgN7eLNAadz9bqMOaOa2UgijFkSJi6dgsQ/XRsC8bTqicq5BzIrLCWim2L1HI9nLrRGGRRFYwkRb7Jg5hnGa/eq2/xfon5hp74Qy0hvjx1mCrX6DyeI4/aEQiCYkpCetJAhnElCFJDMmniTQ9Ba13t/jgmk5+8mtsIRESw81hKzFQG0GXjUQm8wG2AVl5r3flkQBkoe49CG42emy3UJzOY080YVPIEqII9tf1qfhIk/rIcyAW7m4+XYVYhZONmdvjvZKRHk7gYeJdUGnQXb3IvNf/XKlNX9tuzMd7r+DOhQbJ63fZR7xz4CyDPaNQCAi5K1E5mPB2THW8Y63asCfa9hv58a8yTllfMbhr0rojORMaA8zkuXrxAdCNsmI1Ea91P1erKEw2rxFo9UQ2V44gQyrByxLydPkpsaQon1MVA4FlQhDTKw6bUaBQawnLscEP+baUzA6Tk7QOyQSSi6BO8tWR3qHX1YRfb6FL3i6Dnqys1UUXcf5hr8lWq9M9AyCAB0iaHmTx90EhhH5VKpD5ELpioh9q/XTmK53I01h3IyOwzb3n8qbcxHBm/nbUN1PaWhKiYixbaOh95qQ9KiBRYjnCmPCW8oe6q/U=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwMDk1NjcyNjk4OSwKICAicHJvZmlsZUlkIiA6ICJhMjk1ODZmYmU1ZDk0Nzk2OWZjOGQ4ZGE0NzlhNDNlZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJWaWVydGVsdG9hc3RpaWUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk1MjgwYTdiMjFiMDZlMzg4N2YxNjVjOGNhN2EwM2JmYWM5NjM3OGFjZDk2Y2RmNTk0NGJjZDA4YTBiNjU4NyIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Defense: §a+70\",1:\"§7Speed: §a+10\",2:\"§7Block Fortune: §a+25\",3:\"\",4:\"§8Tiered Bonus: Mineralworks (0/4)\",5:\"§7Grants §e+0▚ Mining Spread §7on §6Ores\",6:\"§7and §9Blocks§7.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§5§lEPIC HELMET\"],Name:\"§5Mineral Helmet\"}}",
   "damage": 3,
   "lore": [
     "§7Defense: §a+70",
@@ -10,10 +10,19 @@
     "",
     "§8Tiered Bonus: Mineralworks (0/4)",
     "§7Grants §e+0▚ Mining Spread §7on §6Ores",
-    "§6§7and §9Blocks§7.",
+    "§7and §9Blocks§7.",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§5§lEPIC HELMET"
+  ],
+  "internalname": "MINERAL_HELMET",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Mineral_Helmet",
+    "https://wiki.hypixel.net/Mineral_Helmet"
   ],
   "recipe": {
     "A1": "REFINED_MINERAL:1",
@@ -25,14 +34,5 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  },
-  "internalname": "MINERAL_HELMET",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Mineral_Helmet",
-    "https://wiki.hypixel.net/Mineral_Helmet"
-  ],
-  "crafttext": ""
+  }
 }

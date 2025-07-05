@@ -1,12 +1,21 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§aEmerald Ring",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"f1aa8d31-25f7-3023-aebd-96b517ea60e1\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxNDY2MTcwNDU4NywKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E4ZTUwZDAyN2RhOTBkYmVhOGE2NjA4OGFiYTZmOTc4ZWFjOGE3YmViNjU2MTAyMGYwMjg5ZmNkNDNkODljNjgiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7§7Get §6+5 coins §7every minute!\",1:\"\",2:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aEmerald Ring\"},ExtraAttributes:{id:\"EMERALD_RING\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"EMERALD_RING\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"2b88cd93-c1fb-3287-8ada-aef6b54fbcef\",Properties:{textures:[0:{Name:\"textures\",Signature:\"bgS2YTrQhSUl7VFRcNAw/zVoD3n2sWUniHMMbE6WRTiDqoIrwmC0Prh5DvTrq5ibJILSlf/nDZFgGUK7eGi+jtarWhJUohhrybJATBInWP4NXhRnp0v8uXYaHT1MCnBheSBtPYLo+PvvEoJQOu96Oo3aQoFYtT9WUF1jIJKfhonFnS0VQXnL36P32S7jlQ5rAjgHTm8SJsHT82bllS8cyMAlEZxbN9+SmH2fn3/GNq/VLhIT3HG0hy5ZaiiLMBJV0p5DEiMxGlWNbUWibQ9mar9OGBspWwvQVBexPfLW0vPCqYWoDXicNo+qZmqWcRAvB9ZIWWcquMD6Do3d5MyJtW/PfP6p+7CBMOQ1Ob0AKaTWqLMNDzecwqp0MARYltGL0dVbFtrsssgDmporryr2l2UNQFj8H21Mgw6SvvPPHW8vHPJsMaRIrbQ3V9wiU9j5KANJIwKqAGRlMqfzeKk8CjFyA5AxzlnHtycoaA90TKN7OJEdRCxi16OTK3iv7JZ+nlXcxXt91pBTMkG2c8LaKXUb+Cjci5gGPmnxsyAEEbTZRE9uM7GFidbc61bMT3s/7h6MSQ3lPBnN/aQPo/yOm6s9nlsuTZ7bejWw94Ju/oLXbJZYozZDcmZYep7WOL99oi1EGWMkhe4nw1OazndmRLRtFedhG6ZLom3OTMvSgNc=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyMDA1MjkxNDY2NywKICAicHJvZmlsZUlkIiA6ICIxZDlkYmE3NzdlMWE0NzVkOTQ1ZDYxNmZlYzNiNjhlMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJGcmFzeWRpIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E4ZTUwZDAyN2RhOTBkYmVhOGE2NjA4OGFiYTZmOTc4ZWFjOGE3YmViNjU2MTAyMGYwMjg5ZmNkNDNkODljNjgiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Get §6+5 coins §7every minute!\",1:\"\",2:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aEmerald Ring\"}}",
   "damage": 3,
   "lore": [
-    "§7§7Get §6+5 coins §7every minute!",
+    "§7Get §6+5 coins §7every minute!",
     "",
     "§a§lUNCOMMON ACCESSORY"
+  ],
+  "internalname": "EMERALD_RING",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Emerald V",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Emerald_Ring",
+    "https://wiki.hypixel.net/Emerald_Ring"
   ],
   "recipe": {
     "A1": "ENCHANTED_EMERALD:4",
@@ -18,14 +27,5 @@
     "C1": "ENCHANTED_EMERALD:4",
     "C2": "ENCHANTED_EMERALD:4",
     "C3": "ENCHANTED_EMERALD:4"
-  },
-  "internalname": "EMERALD_RING",
-  "clickcommand": "viewrecipe",
-  "modver": "2.3.0",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Emerald_Ring",
-    "https://wiki.hypixel.net/Emerald_Ring"
-  ],
-  "crafttext": "Requires: Emerald V"
+  }
 }

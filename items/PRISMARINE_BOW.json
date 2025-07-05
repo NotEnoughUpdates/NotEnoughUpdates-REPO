@@ -1,20 +1,30 @@
 {
   "itemid": "minecraft:bow",
   "displayname": "§aPrismarine Bow",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+50\",1:\"§7Strength: §c+25\",2:\"\",3:\"§7Will consume §aPrismarine\",4:\"§aShards§7 in your inventory or\",5:\"§7Quiver to deal §a+300%§7 damage\",6:\"§7to §9Squids, Guardians and Elder\",7:\"§9Guardians§7.\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§a§lUNCOMMON BOW\"],Name:\"§aPrismarine Bow\"},ExtraAttributes:{id:\"PRISMARINE_BOW\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"PRISMARINE_BOW\"},HideFlags:254,ItemModel:\"minecraft:bow\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+50\",1:\"§7Strength: §c+25\",2:\"\",3:\"§6Ability: Arrow Infusion  §e§lON SHOOT\",4:\"§7Consumes §aPrismarine Shards§7 in your\",5:\"§eInventory§7 or §aQuiver§7 which can harm\",6:\"§7sea creatures and deal §a+300%\",7:\"§7damage to §9Squids§7, §9Guardians §7and\",8:\"§9Elder Guardians§7.\",9:\"\",10:\"§8This item can be reforged!\",11:\"§a§lUNCOMMON BOW\"],Name:\"§aPrismarine Bow\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+50",
     "§7Strength: §c+25",
     "",
-    "§7Will consume §aPrismarine",
-    "§aShards§7 in your inventory or",
-    "§7Quiver to deal §a+300%§7 damage",
-    "§7to §9Squids, Guardians and Elder",
-    "§9Guardians§7.",
+    "§6Ability: Arrow Infusion  §e§lON SHOOT",
+    "§7Consumes §aPrismarine Shards§7 in your",
+    "§eInventory§7 or §aQuiver§7 which can harm",
+    "§7sea creatures and deal §a+300%",
+    "§7damage to §9Squids§7, §9Guardians §7and",
+    "§9Elder Guardians§7.",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§a§lUNCOMMON BOW"
+  ],
+  "internalname": "PRISMARINE_BOW",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Prismarine Shard V",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Prismarine_Bow",
+    "https://wiki.hypixel.net/Prismarine_Bow"
   ],
   "recipe": {
     "A1": "",
@@ -26,14 +36,5 @@
     "C1": "",
     "C2": "PRISMARINE_SHARD:16",
     "C3": "STRING:1"
-  },
-  "internalname": "PRISMARINE_BOW",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Prismarine_Bow",
-    "https://wiki.hypixel.net/Prismarine_Bow"
-  ],
-  "crafttext": "Requires: Prismarine Shard V"
+  }
 }

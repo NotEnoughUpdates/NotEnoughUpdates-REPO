@@ -1,12 +1,21 @@
 {
   "itemid": "minecraft:furnace",
   "displayname": "§aHyper Furnace",
+  "nbttag": "{ExtraAttributes:{id:\"HYPER_FURNACE\"},HideFlags:254,ItemModel:\"minecraft:furnace\",display:{Lore:[0:\"§7Smelts items instantly.\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aHyper Furnace\"},ench:[]}",
   "damage": 0,
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Smelts items instantly.\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aHyper Furnace\"},ExtraAttributes:{id:\"HYPER_FURNACE\"}}",
   "lore": [
     "§7Smelts items instantly.",
     "",
     "§a§lUNCOMMON"
+  ],
+  "internalname": "HYPER_FURNACE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Cobblestone VIII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Hyper_Furnace",
+    "https://wiki.hypixel.net/Hyper_Furnace"
   ],
   "recipe": {
     "A1": "ENCHANTED_COBBLESTONE:8",
@@ -18,14 +27,5 @@
     "C1": "ENCHANTED_COBBLESTONE:8",
     "C2": "ENCHANTED_COBBLESTONE:8",
     "C3": "ENCHANTED_COBBLESTONE:8"
-  },
-  "internalname": "HYPER_FURNACE",
-  "crafttext": "Requires: Cobblestone VIII",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Hyper_Furnace",
-    "https://wiki.hypixel.net/Hyper_Furnace"
-  ]
+  }
 }

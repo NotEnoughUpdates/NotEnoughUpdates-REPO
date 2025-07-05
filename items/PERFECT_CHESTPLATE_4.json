@@ -1,16 +1,25 @@
 {
   "itemid": "minecraft:diamond_chestplate",
   "displayname": "§5Perfect Chestplate - Tier IV",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+220\",1:\" §8[§7❈§8] §8[§7❈§8] §8[§7❈§8]\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§7§8This item can be reforged!\",6:\"§5§lEPIC CHESTPLATE\"],Name:\"§5Perfect Chestplate - Tier IV\"},ExtraAttributes:{id:\"PERFECT_CHESTPLATE_4\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"PERFECT_CHESTPLATE_4\"},HideFlags:254,ItemModel:\"minecraft:diamond_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+220\",1:\" §8[§7❈§8] [§7❈§8] [§7❈§8]\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§8This item can be reforged!\",6:\"§5§lEPIC CHESTPLATE\"],Name:\"§5Perfect Chestplate - Tier IV\"}}",
   "damage": 0,
   "lore": [
     "§7Defense: §a+220",
-    " §8[§7❈§8] §8[§7❈§8] §8[§7❈§8]",
+    " §8[§7❈§8] [§7❈§8] [§7❈§8]",
     "",
     "§eRight-click to view recipes!",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§5§lEPIC CHESTPLATE"
+  ],
+  "internalname": "PERFECT_CHESTPLATE_4",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Perfect_Armor#Tier_IV",
+    "https://wiki.hypixel.net/Perfect_Chestplate_-_Tier_IV"
   ],
   "recipe": {
     "A1": "",
@@ -23,14 +32,5 @@
     "C2": "ENCHANTED_DIAMOND_BLOCK:1",
     "C3": ""
   },
-  "internalname": "PERFECT_CHESTPLATE_4",
-  "parent": "PERFECT_CHESTPLATE_1",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Perfect_Armor#Tier_IV",
-    "https://wiki.hypixel.net/Perfect_Chestplate_-_Tier_IV"
-  ],
-  "crafttext": ""
+  "parent": "PERFECT_CHESTPLATE_1"
 }

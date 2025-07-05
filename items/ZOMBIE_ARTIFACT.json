@@ -1,17 +1,23 @@
 {
-  "internalname": "ZOMBIE_ARTIFACT",
   "itemid": "minecraft:skull",
   "displayname": "§9Zombie Artifact",
-  "clickcommand": "viewrecipe",
+  "nbttag": "{ExtraAttributes:{id:\"ZOMBIE_ARTIFACT\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"a0a7aaf0-7179-326a-a9af-a886a22ff272\",Properties:{textures:[0:{Name:\"textures\",Signature:\"UoKInDOwEMN7WiTEk6ADxIk2uwv3UFTXD8o7ZrqOwzceAwmVlp1BSG2ynbe7gyJC6GV7tbmtvWuQjUHnocSw2uBduV+2iPhq4oPOvB9ObUlcQPqzQoRNp3ihXwGjquK04/d6ux1F0HC/xHDX/EHBC9OafmXptOGUoPUjpubKIkK3ViOBLmpn/L35yEJctbNbulYgsHhT4Axjd2c/O3qgs1eKWSbZGece/Iq97f3i16lMWxeinNmqHHbKWD1F/AmyYtIqf0dERqTx1zeQZpkQPa2popv0yo9Gib46x2asir80xVrpOpAogtj/6LJbhHbqmDfuNAG8fvFKthVE8LHaOoj+7J1whczsbCQKKNNc3IFXJw5Va1LK6zv+cwHlhiDkBUk4yzRAcn70hxW4iBFRhN3vnKVMb3mSJCyepqsjgQzUByEL37IDn2OIJW85sEs69Sp9YzryR2iyKGACOyoOEoNpT1kIJcolON8NPG0oP67C0N1ek2gMhqVmHfz4mUnovj+YlZfi1Zc4Fej1sU/jJJBPWGGI3UXUE+mDEuR29A7pZwMKZzyvjCiYzSwEVU6k2H+FzwB4Mfnfr90nnihujmNGgmvzrPVdR9TMocRRi9VJoxoRbvsY6X456c2JbBC/Z5MSG2COR23mlfLdvE+fpTpgv6zPWY0i0IswvxpcLFE=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwMjAzODc1ODkyMSwKICAicHJvZmlsZUlkIiA6ICIzYTNmNzhkZmExZjQ0OTllYjE5NjlmYzlkOTEwZGYwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVyb2Ryb2dvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RhOGVjYjM5MTYwZmIzMzcxNGU3YTFkZjQxOGRkYTQzYjU4NTk4MDY4ZjYwNTI2NzYzMjhiMjY3ZDAzMTg3ZmMiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Reduces the damage taken from\",1:\"§7Zombies by §a15%§7.\",2:\"\",3:\"§4☠ §cRequires §5Zombie Slayer 7§c.\",4:\"§9§lRARE ACCESSORY\"],Name:\"§9Zombie Artifact\"}}",
   "damage": 3,
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"e4508bd9-b77e-3557-82b5-3ae5fada63b3\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzNmYjRlNWRiOTdmNDc5YzY2YTQyYmJkOGE3ZDc4MWRhZjIwMWE4ZGRhZjc3YWZjZjRhZWY4Nzc3OWFhOGI0In19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7Reduces the damage taken from\",1:\"§7§7Zombies by §a15%§7.\",2:\"\",3:\"§7§4☠ §cRequires §5Zombie Slayer 7§c.\",4:\"§9§lRARE ACCESSORY\"],Name:\"§9Zombie Artifact\"},ExtraAttributes:{modifier:\"superior\",id:\"ZOMBIE_ARTIFACT\"}}",
-  "modver": "",
   "lore": [
     "§7Reduces the damage taken from",
-    "§7§7Zombies by §a15%§7.",
+    "§7Zombies by §a15%§7.",
     "",
-    "§7§4☠ §cRequires §5Zombie Slayer 7§c.",
+    "§4☠ §cRequires §5Zombie Slayer 7§c.",
     "§9§lRARE ACCESSORY"
+  ],
+  "internalname": "ZOMBIE_ARTIFACT",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Zombie Slayer 7",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Zombie_Artifact",
+    "https://wiki.hypixel.net/Zombie_Artifact"
   ],
   "recipe": {
     "A1": "ENCHANTED_IRON:8",
@@ -24,11 +30,5 @@
     "C2": "ENCHANTED_DIAMOND:8",
     "C3": "ENCHANTED_IRON:8"
   },
-  "slayer_req": "ZOMBIE_7",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Zombie_Artifact",
-    "https://wiki.hypixel.net/Zombie_Artifact"
-  ],
-  "crafttext": "Requires: Zombie Slayer 7"
+  "slayer_req": "ZOMBIE_7"
 }

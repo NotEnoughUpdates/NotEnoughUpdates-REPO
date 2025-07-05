@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:diamond_hoe",
   "displayname": "§9Gauss Carrot Hoe",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\" §8[§8☘§8] §8[§8☘§8] §8[§8☘§8]\",1:\"\",2:\"§7Gain §6+50☘ Carrot Fortune §7and §3+3☯\",3:\"§3Farming Wisdom §7for carrots.\",4:\"\",5:\"§7Counter: §e0 Carrots\",6:\"\",7:\"§6Logarithmic Counter\",8:\"§7Gain §6+16☘ Carrot Fortune §7per digits\",9:\"§7on the Counter, minus 4!\",10:\"§7You have §6+0☘ Carrot Fortune§7.\",11:\"\",12:\"§6Collection Analysis\",13:\"§7Gain §6+8☘ Carrot Fortune §7per digits of\",14:\"§7your collection, minus 4!\",15:\"§7You have §6+0☘ Carrot Fortune§7.\",16:\"\",17:\"§7§8Bonus carrots percent increases\",18:\"§8your Farmhand perk\u0027s chances.\",19:\"\",20:\"§eReach 100k Counter for +1 Rarity!\",21:\"\",22:\"§7§8This item can be reforged!\",23:\"§7§4❣ §cRequires §aFarming Skill 25§c.\",24:\"§9§lRARE HOE\"],Name:\"§9Gauss Carrot Hoe\"},ExtraAttributes:{id:\"THEORETICAL_HOE_CARROT_3\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"THEORETICAL_HOE_CARROT_3\"},HideFlags:254,ItemModel:\"minecraft:diamond_hoe\",Unbreakable:1B,display:{Lore:[0:\" §8[☘] [☘] [☘]\",1:\"\",2:\"§7Gain §6+50☘ Carrot Fortune §7and §3+3☯\",3:\"§3Farming Wisdom §7for carrots.\",4:\"\",5:\"§7Counter: §e0 Carrots\",6:\"\",7:\"§6Logarithmic Counter\",8:\"§7Gain §6+16☘ Carrot Fortune §7per digits\",9:\"§7on the Counter, minus 4!\",10:\"§7You have §6+0☘ Carrot Fortune§7.\",11:\"\",12:\"§6Collection Analysis\",13:\"§7Gain §6+8☘ Carrot Fortune §7per digits of\",14:\"§7your collection, minus 4!\",15:\"§7You have §6+0☘ Carrot Fortune§7.\",16:\"\",17:\"§8Bonus carrots percent increases\",18:\"§8your Farmhand perk's chances.\",19:\"\",20:\"§eReach 100k Counter for +1 Rarity!\",21:\"\",22:\"§8This item can be reforged!\",23:\"§4❣ §cRequires §aFarming Skill 25§c.\",24:\"§9§lRARE HOE\"],Name:\"§9Gauss Carrot Hoe\"}}",
   "damage": 0,
   "lore": [
-    " §8[§8☘§8] §8[§8☘§8] §8[§8☘§8]",
+    " §8[☘] [☘] [☘]",
     "",
     "§7Gain §6+50☘ Carrot Fortune §7and §3+3☯",
     "§3Farming Wisdom §7for carrots.",
@@ -21,14 +21,23 @@
     "§7your collection, minus 4!",
     "§7You have §6+0☘ Carrot Fortune§7.",
     "",
-    "§7§8Bonus carrots percent increases",
-    "§8your Farmhand perk\u0027s chances.",
+    "§8Bonus carrots percent increases",
+    "§8your Farmhand perk's chances.",
     "",
     "§eReach 100k Counter for +1 Rarity!",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aFarming Skill 25§c.",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aFarming Skill 25§c.",
     "§9§lRARE HOE"
+  ],
+  "internalname": "THEORETICAL_HOE_CARROT_3",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Gauss_Carrot_Hoe",
+    "https://wiki.hypixel.net/Gauss_Carrot_Hoe"
   ],
   "recipe": {
     "A1": "JACOBS_TICKET:64",
@@ -40,14 +49,5 @@
     "C1": "JACOBS_TICKET:64",
     "C2": "ENCHANTED_GOLDEN_CARROT:64",
     "C3": "JACOBS_TICKET:64"
-  },
-  "internalname": "THEORETICAL_HOE_CARROT_3",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Gauss_Carrot_Hoe",
-    "https://wiki.hypixel.net/Gauss_Carrot_Hoe"
-  ]
+  }
 }

@@ -1,18 +1,18 @@
 {
   "itemid": "minecraft:iron_sword",
   "displayname": "§5Mawdredge Dagger",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+130\",1:\"§7Strength: §c+55\",2:\"§7Crit Damage: §c+20%\",3:\"§7Bonus Attack Speed: §c+10%\",4:\" §8[§8⚔§8] §8[§8❂§8]\",5:\"\",6:\"§7Deal §c2.5x §7damage to Blazes§7.\",7:\"§7Deal §c1.5x §7damage to Skeletons§7.\",8:\"§7§7Gain §3+30☯ Combat Wisdom§7 against\",9:\"§7Blazes.\",10:\" \",11:\"§6Ability: Attunement  §e§lRIGHT CLICK\",12:\"§7Swap between §fSpirit §7and §bCrystal §7mode in order\",13:\"§7to attack through Hellion Shields.\",14:\" \",15:\"§7Attuned: §fSpirit\",16:\"\",17:\"§6Ability: Wraith Drain\",18:\"§7§7On hit, heal §7for §c200 §7+ §c4%❤ §7after §a6s\",19:\"§a§7if the Hellion Shield has switched\",20:\"§7attunement.\",21:\"\",22:\"§7§8This item can be reforged!\",23:\"§7§4☠ §cRequires §5Blaze Slayer 4§c.\",24:\"§5§lEPIC SWORD\"],Name:\"§5Mawdredge Dagger\"},ExtraAttributes:{id:\"BURSTMAW_DAGGER\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"BURSTMAW_DAGGER\"},HideFlags:254,ItemModel:\"minecraft:iron_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+130\",1:\"§7Strength: §c+55\",2:\"§7Crit Damage: §c+20%\",3:\"§7Bonus Attack Speed: §c+10%\",4:\" §8[⚔] [❂]\",5:\"\",6:\"§7Deal §c2.5x §7damage to Blazes.\",7:\"§7Deal §c1.5x §7damage to Skeletons.\",8:\"§7Gain §3+30☯ Combat Wisdom§7 against\",9:\"§7Blazes.\",10:\" \",11:\"§6Ability: Attunement  §e§lRIGHT CLICK\",12:\"§7Swap between §fSpirit §7and §bCrystal §7mode in order\",13:\"§7to attack through Hellion Shields.\",14:\" \",15:\"§7Attuned: §fSpirit\",16:\"\",17:\"§6Ability: Wraith Drain\",18:\"§7On hit, heal for §c200 §7+ §c4%❤ §7after §a6s\",19:\"§7if the Hellion Shield has switched\",20:\"§7attunement.\",21:\"\",22:\"§8This item can be reforged!\",23:\"§4☠ §cRequires §5Blaze Slayer 4§c.\",24:\"§5§lEPIC SWORD\"],Name:\"§5Mawdredge Dagger\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+130",
     "§7Strength: §c+55",
     "§7Crit Damage: §c+20%",
     "§7Bonus Attack Speed: §c+10%",
-    " §8[§8⚔§8] §8[§8❂§8]",
+    " §8[⚔] [❂]",
     "",
-    "§7Deal §c2.5x §7damage to Blazes§7.",
-    "§7Deal §c1.5x §7damage to Skeletons§7.",
-    "§7§7Gain §3+30☯ Combat Wisdom§7 against",
+    "§7Deal §c2.5x §7damage to Blazes.",
+    "§7Deal §c1.5x §7damage to Skeletons.",
+    "§7Gain §3+30☯ Combat Wisdom§7 against",
     "§7Blazes.",
     " ",
     "§6Ability: Attunement  §e§lRIGHT CLICK",
@@ -22,13 +22,22 @@
     "§7Attuned: §fSpirit",
     "",
     "§6Ability: Wraith Drain",
-    "§7§7On hit, heal §7for §c200 §7+ §c4%❤ §7after §a6s",
-    "§a§7if the Hellion Shield has switched",
+    "§7On hit, heal for §c200 §7+ §c4%❤ §7after §a6s",
+    "§7if the Hellion Shield has switched",
     "§7attunement.",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4☠ §cRequires §5Blaze Slayer 4§c.",
+    "§8This item can be reforged!",
+    "§4☠ §cRequires §5Blaze Slayer 4§c.",
     "§5§lEPIC SWORD"
+  ],
+  "internalname": "BURSTMAW_DAGGER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Blaze Slayer 4",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Mawdredge_Dagger",
+    "https://wiki.hypixel.net/Mawdredge_Dagger"
   ],
   "recipe": {
     "A1": "",
@@ -41,14 +50,5 @@
     "C2": "MAWDUST_DAGGER:1",
     "C3": ""
   },
-  "internalname": "BURSTMAW_DAGGER",
-  "slayer_req": "BLAZE_4",
-  "crafttext": "Requires: Blaze Slayer 4",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Mawdredge_Dagger",
-    "https://wiki.hypixel.net/Mawdredge_Dagger"
-  ]
+  "slayer_req": "BLAZE_4"
 }

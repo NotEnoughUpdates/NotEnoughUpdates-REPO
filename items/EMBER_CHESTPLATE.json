@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:chainmail_chestplate",
   "displayname": "§5Ember Chestplate",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+65\",1:\"§7Defense: §a+60\",2:\"§7Intelligence: §a+10\",3:\"\",4:\"§6Full Set Bonus: Nether Lord §7(0/4)\",5:\"§7Walking over §cLava§7 creates §5Obsidian§7\",6:\"§7under your feet. You are also immune\",7:\"§7to all damage from §cLava§7 and §cFire§7.\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§7§4❣ §cRequires §aCombat Skill 8§c.\",11:\"§5§lEPIC CHESTPLATE\"],Name:\"§5Ember Chestplate\"},ExtraAttributes:{id:\"EMBER_CHESTPLATE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"EMBER_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:chainmail_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+65\",1:\"§7Defense: §a+60\",2:\"§7Intelligence: §a+10\",3:\"\",4:\"§6Full Set Bonus: Nether Lord §7(0/4)\",5:\"§7Walking over §cLava§7 creates §5Obsidian\",6:\"§7under your feet. You are also immune\",7:\"§7to all damage from §cLava§7 and §cFire§7.\",8:\"\",9:\"§8This item can be reforged!\",10:\"§4❣ §cRequires §aCombat Skill 8§c.\",11:\"§5§lEPIC CHESTPLATE\"],Name:\"§5Ember Chestplate\"}}",
   "damage": 0,
   "lore": [
     "§7Health: §a+65",
@@ -9,13 +9,22 @@
     "§7Intelligence: §a+10",
     "",
     "§6Full Set Bonus: Nether Lord §7(0/4)",
-    "§7Walking over §cLava§7 creates §5Obsidian§7",
+    "§7Walking over §cLava§7 creates §5Obsidian",
     "§7under your feet. You are also immune",
     "§7to all damage from §cLava§7 and §cFire§7.",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aCombat Skill 8§c.",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aCombat Skill 8§c.",
     "§5§lEPIC CHESTPLATE"
+  ],
+  "internalname": "EMBER_CHESTPLATE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Ember_Chestplate",
+    "https://wiki.hypixel.net/Ember_Chestplate"
   ],
   "recipe": {
     "A1": "EMBER_FRAGMENT:1",
@@ -27,14 +36,5 @@
     "C1": "EMBER_FRAGMENT:1",
     "C2": "EMBER_FRAGMENT:1",
     "C3": "EMBER_FRAGMENT:1"
-  },
-  "internalname": "EMBER_CHESTPLATE",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Ember_Chestplate",
-    "https://wiki.hypixel.net/Ember_Chestplate"
-  ],
-  "crafttext": ""
+  }
 }

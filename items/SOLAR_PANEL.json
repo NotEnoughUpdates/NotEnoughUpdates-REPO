@@ -1,14 +1,23 @@
 {
   "itemid": "minecraft:daylight_detector",
   "displayname": "§aSolar Panel",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Increases the speed of your\",1:\"§7minion by §a25%§7 during the\",2:\"§7day. Unlimited Duration!\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aSolar Panel\"},ExtraAttributes:{id:\"SOLAR_PANEL\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SOLAR_PANEL\"},HideFlags:254,ItemModel:\"minecraft:daylight_detector\",display:{Lore:[0:\"§7Increases the speed of your minion\",1:\"§7by §a25%§7 during the day. Unlimited\",2:\"§7Duration!\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aSolar Panel\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7Increases the speed of your",
-    "§7minion by §a25%§7 during the",
-    "§7day. Unlimited Duration!",
+    "§7Increases the speed of your minion",
+    "§7by §a25%§7 during the day. Unlimited",
+    "§7Duration!",
     "",
     "§a§lUNCOMMON"
+  ],
+  "internalname": "SOLAR_PANEL",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Nether Quartz IX",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Solar_Panel",
+    "https://wiki.hypixel.net/Solar_Panel"
   ],
   "recipe": {
     "A1": "GLASS:1",
@@ -20,14 +29,5 @@
     "C1": "WOOD:1",
     "C2": "WOOD:1",
     "C3": "WOOD:1"
-  },
-  "internalname": "SOLAR_PANEL",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Solar_Panel",
-    "https://wiki.hypixel.net/Solar_Panel"
-  ],
-  "crafttext": "Requires: Nether Quartz IX"
+  }
 }

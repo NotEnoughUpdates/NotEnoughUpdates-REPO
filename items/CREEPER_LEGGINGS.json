@@ -1,21 +1,29 @@
 {
   "itemid": "minecraft:leather_leggings",
   "displayname": "§9Creeper Pants",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Health: §a+200\",1:\"§7Defense: §a+65\",2:\"\",3:\"§6Ability: Detonate\",4:\"§7Causes an explosion when\",5:\"§7dropping below §a20% HP§7,\",6:\"§7damaging and knocking back all\",7:\"§7monsters around you.\",8:\"§8Cooldown: §a60s\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§9§lRARE LEGGINGS\"],color:8054828,Name:\"§9Creeper Pants\"},ExtraAttributes:{color:\"122:232:44\",id:\"CREEPER_LEGGINGS\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"CREEPER_LEGGINGS\"},HideFlags:254,ItemModel:\"minecraft:leather_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+200\",1:\"§7Defense: §a+65\",2:\"\",3:\"§6Ability: Detonate \",4:\"§7Causes an explosion when dropping\",5:\"§7below §a20% HP§7, damaging and knocking\",6:\"§7back all monsters around you.\",7:\"§8Cooldown: §a60s\",8:\"\",9:\"§8This item can be reforged!\",10:\"§9§lRARE LEGGINGS\"],Name:\"§9Creeper Pants\"}}",
   "damage": 0,
   "lore": [
     "§7Health: §a+200",
     "§7Defense: §a+65",
     "",
-    "§6Ability: Detonate",
-    "§7Causes an explosion when",
-    "§7dropping below §a20% HP§7,",
-    "§7damaging and knocking back all",
-    "§7monsters around you.",
+    "§6Ability: Detonate ",
+    "§7Causes an explosion when dropping",
+    "§7below §a20% HP§7, damaging and knocking",
+    "§7back all monsters around you.",
     "§8Cooldown: §a60s",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§9§lRARE LEGGINGS"
+  ],
+  "internalname": "CREEPER_LEGGINGS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Gunpowder VIII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Creeper_Pants",
+    "https://wiki.hypixel.net/Creeper_Pants"
   ],
   "recipe": {
     "A1": "ENCHANTED_GUNPOWDER:32",
@@ -27,14 +35,5 @@
     "C1": "ENCHANTED_GUNPOWDER:32",
     "C2": "",
     "C3": "ENCHANTED_GUNPOWDER:32"
-  },
-  "internalname": "CREEPER_LEGGINGS",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Creeper_Pants",
-    "https://wiki.hypixel.net/Creeper_Pants"
-  ],
-  "crafttext": "Requires: Gunpowder VIII"
+  }
 }

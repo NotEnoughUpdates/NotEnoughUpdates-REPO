@@ -1,12 +1,21 @@
 {
   "itemid": "minecraft:cooked_porkchop",
   "displayname": "§9Revenant Viscera",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Revenant Viscera\"},ExtraAttributes:{id:\"REVENANT_VISCERA\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"REVENANT_VISCERA\"},HideFlags:254,ItemModel:\"minecraft:cooked_porkchop\",display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Revenant Viscera\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§eRight-click to view recipes!",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "REVENANT_VISCERA",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Revenant_Viscera",
+    "https://wiki.hypixel.net/Revenant_Viscera"
   ],
   "recipe": {
     "A1": "",
@@ -19,13 +28,5 @@
     "C2": "REVENANT_FLESH:32",
     "C3": ""
   },
-  "slayer_req": "ZOMBIE_2",
-  "internalname": "REVENANT_VISCERA",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Revenant_Viscera",
-    "https://wiki.hypixel.net/Revenant_Viscera"
-  ]
+  "slayer_req": "ZOMBIE_2"
 }

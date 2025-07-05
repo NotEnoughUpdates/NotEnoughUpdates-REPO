@@ -1,13 +1,22 @@
 {
   "itemid": "minecraft:end_stone",
   "displayname": "§aHaste Block",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Gives §a+100 §f✦ Speed§7 when\",1:\"§7standing on top of this block.\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aHaste Block\"},ExtraAttributes:{id:\"HASTE_BLOCK\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"HASTE_BLOCK\"},HideFlags:254,ItemModel:\"minecraft:end_stone\",display:{Lore:[0:\"§7Gives §a+100 §f✦ Speed§7 when standing\",1:\"§7on top of this block.\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aHaste Block\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7Gives §a+100 §f✦ Speed§7 when",
-    "§7standing on top of this block.",
+    "§7Gives §a+100 §f✦ Speed§7 when standing",
+    "§7on top of this block.",
     "",
     "§a§lUNCOMMON"
+  ],
+  "internalname": "HASTE_BLOCK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: End Stone VI",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Haste_Block",
+    "https://wiki.hypixel.net/Haste_Block"
   ],
   "recipe": {
     "A1": "ENCHANTED_ENDSTONE:1",
@@ -19,14 +28,5 @@
     "C1": "ENCHANTED_ENDSTONE:1",
     "C2": "ENCHANTED_ENDSTONE:1",
     "C3": "ENCHANTED_ENDSTONE:1"
-  },
-  "internalname": "HASTE_BLOCK",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Haste_Block",
-    "https://wiki.hypixel.net/Haste_Block"
-  ],
-  "crafttext": "Requires: End Stone VI"
+  }
 }

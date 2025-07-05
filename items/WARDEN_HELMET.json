@@ -1,21 +1,29 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§6Warden Helmet",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"4f6eef4a-c9f2-3f84-832b-a94b89a3e167\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVlYjBiZDg1YWFkZGYwZDI5ZWQwODJlYWMwM2ZjYWRlNDNkMGVlODAzYjBlODE2MmFkZDI4YTYzNzlmYjU0ZSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Health: §a+300\",1:\"§7Defense: §a+100\",2:\"\",3:\"§6Ability: Brute Force\",4:\"§7Halves your §f✦ Speed §7but\",5:\"§7grants §c+20% §7base weapon\",6:\"§7damage for every §a25 §f✦\",7:\"§fSpeed§7.\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§7§4☠ §cRequires §5Zombie Slayer 8§c.\",11:\"§6§lLEGENDARY HELMET\"],Name:\"§6Warden Helmet\"},ExtraAttributes:{id:\"WARDEN_HELMET\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"WARDEN_HELMET\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"2bb90fe9-9f49-36e4-acf5-8499236d15e9\",Properties:{textures:[0:{Name:\"textures\",Signature:\"yNs63wfvgS/lFFlCXYhqnkypO3QNDo/eURp9IUnP4mXWkSWHWt1uOXs7RSjPLAY8SPbHt71lShd3IOMMTsbt0U5hhLu9VqrE8nNYLJfR8b3TKfbTMCYo/LsTzGuLfHoKlCN6WFe0eYvTW9CioK1kT4VIzasyZCzxgZUT7034MWGx9Ip631GPmPq/PJO8sKOladFblhPq3md9KK2dJ5ce6Lso/dYvbS7ZMW+ssLS3x5t37HSatolaUYARH5kQH1hyAqTyF8mAd6WDe2JW8grS54ZSlJ+DD4p+mtwlGy4KuGUX8qkstrBtWb9QspxLy659iEoRrxAoL7wGAyPoY7DZA4kti5rl7d7MbdmKhDRsg2HYZh+69fCOt70zb6zoDRWaWqimRQP/RlxvshsJgnKFXpU+comTIPtHV1+oXX0INBjQ+Cq+CAB4rnFmj0ylzXq+weQXwrhPEhZiGFl2uiXzi01mIolB4MpzqQnWMBCO//DdKS4DHR0MRcObC9wHI9HK3PIjRiGSdzpNFwSFZdVW4OSKII7oLHyFaaCyfSaJ1WJv1sfM6cA8hMDfmO9oLNlW2ph6Q7Jp6lHs49UxwxnAbHVYAGONrvRxpi07wBflXxFu+dTXtd3bvEpEYnlBj6ZpDKfcyWPzXs1B72AQBek63K1TdblrFepN+bqKgMHBX0c=\",Value:\"eyJ0aW1lc3RhbXAiOjE1ODc4NTE2MTE5NDksInByb2ZpbGVJZCI6ImIwZDczMmZlMDBmNzQwN2U5ZTdmNzQ2MzAxY2Q5OGNhIiwicHJvZmlsZU5hbWUiOiJPUHBscyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVlYjBiZDg1YWFkZGYwZDI5ZWQwODJlYWMwM2ZjYWRlNDNkMGVlODAzYjBlODE2MmFkZDI4YTYzNzlmYjU0ZSIsIm1ldGFkYXRhIjp7Im1vZGVsIjoic2xpbSJ9fX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Health: §a+300\",1:\"§7Defense: §a+100\",2:\"\",3:\"§6Ability: Brute Force \",4:\"§7Halves your §f✦ Speed §7but grants\",5:\"§c+20% §7base weapon damage for every\",6:\"§a25 §f✦ Speed§7.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§4☠ §cRequires §5Zombie Slayer 8§c.\",10:\"§6§lLEGENDARY HELMET\"],Name:\"§6Warden Helmet\"}}",
   "damage": 3,
   "lore": [
     "§7Health: §a+300",
     "§7Defense: §a+100",
     "",
-    "§6Ability: Brute Force",
-    "§7Halves your §f✦ Speed §7but",
-    "§7grants §c+20% §7base weapon",
-    "§7damage for every §a25 §f✦",
-    "§fSpeed§7.",
+    "§6Ability: Brute Force ",
+    "§7Halves your §f✦ Speed §7but grants",
+    "§c+20% §7base weapon damage for every",
+    "§a25 §f✦ Speed§7.",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4☠ §cRequires §5Zombie Slayer 8§c.",
+    "§8This item can be reforged!",
+    "§4☠ §cRequires §5Zombie Slayer 8§c.",
     "§6§lLEGENDARY HELMET"
+  ],
+  "internalname": "WARDEN_HELMET",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Zombie Slayer 8",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Warden_Helmet",
+    "https://wiki.hypixel.net/Warden_Helmet"
   ],
   "recipe": {
     "A1": "REVIVED_HEART:1",
@@ -28,14 +36,5 @@
     "C2": "",
     "C3": ""
   },
-  "internalname": "WARDEN_HELMET",
-  "crafttext": "Requires: Zombie Slayer 8",
-  "clickcommand": "viewrecipe",
-  "slayer_req": "ZOMBIE_8",
-  "modver": "2.1.1-PRE",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Warden_Helmet",
-    "https://wiki.hypixel.net/Warden_Helmet"
-  ]
+  "slayer_req": "ZOMBIE_8"
 }

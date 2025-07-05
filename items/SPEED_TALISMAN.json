@@ -1,12 +1,21 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§f§f§fSpeed Talisman",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"6371b1b1-0239-36ed-aa03-93e4149acdf4\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODYyNGJhY2I1ZjE5ODZlNjQ3N2FiY2U0YWU3ZGNhMTgyMGE1MjYwYjYyMzNiNTViYTFkOWJhOTM2Yzg0YiJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Speed: §a+1\",1:\"\",2:\"§f§lCOMMON ACCESSORY\"],Name:\"§f§f§fSpeed Talisman\"},ExtraAttributes:{id:\"SPEED_TALISMAN\"}}",
+  "displayname": "§fSpeed Talisman",
+  "nbttag": "{ExtraAttributes:{id:\"SPEED_TALISMAN\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"9b339d41-86f9-36b1-a604-34937c6c0324\",Properties:{textures:[0:{Name:\"textures\",Signature:\"SzbOmenFbLZC6tWbUpWjo29CmrBb85XftQbPJpBHBBYzhk/iUXjJ2iHvX5y+rJ+ebsYxIM2rZk4rlYLtlPOy6WpXj2I7Z2anVN2XEt/X4Ijb0sqS2yYM2wMdxWXCdNhtrbEuS4l+UQ+ScIxgG7wF2T00ZDSf8z1tk0GJGFsNvLVuPQCJo243TMQNFGXSIG0r4696QS8Bz6PfYPNNHyuc4OGS9AeYoM560ktwwpmuFi1EO+Zmv2zl4DQxYOpcH3y3Ab6Oph2xiEswYVpcnigkL6NPkqVk5eQTOhDyAcJHYWmYCf/eQ1tvI4BAqeTT+h2Zixt1n8eKYg3fx/ZZJaoD0zAlfNgA14P28b45nUBc9t53p8ZiGXyrZRJrM/7UazaBMyz+zfdRsEdPXHcv7+BiYDKuA5cENfFimwG2EasbWTdTG7ql0fID2NrJ7ccYmu1ZBRdKir6OpxSYySbVKIxrTHGvv2igxso+y3g0JvpS05cjC1JUiJL1tPMqE948EYL5oUq4FhSaYpvIqn0bMudmGBxccB9xYZHQX/cArWqhdtpw4A2vt3DJj940xU3rMm/bjYkFR5apcwpQI+E3Fp84qc/vgIygikZrTRtNcvqxPZevijxL4P4QxktJDVkKZ+TXPsta2i5yzZ1gGKQjK+/ELxt7d/XVzfNxrBIIo+bNo8Y=\",Value:\"eyJ0aW1lc3RhbXAiOjE1MjMzNjc2Nzc0NjAsInByb2ZpbGVJZCI6IjNlMjZiMDk3MWFjZDRjNmQ5MzVjNmFkYjE1YjYyMDNhIiwicHJvZmlsZU5hbWUiOiJOYWhlbGUiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzg2MjRiYWNiNWYxOTg2ZTY0NzdhYmNlNGFlN2RjYTE4MjBhNTI2MGI2MjMzYjU1YmExZDliYTkzNmM4NGIifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Speed: §a+1\",1:\"\",2:\"§f§lCOMMON ACCESSORY\"],Name:\"§fSpeed Talisman\"}}",
   "damage": 3,
   "lore": [
     "§7Speed: §a+1",
     "",
     "§f§lCOMMON ACCESSORY"
+  ],
+  "internalname": "SPEED_TALISMAN",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Sugar Cane II",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Speed_Talisman",
+    "https://wiki.hypixel.net/Speed_Talisman"
   ],
   "recipe": {
     "A1": "SUGAR_CANE:12",
@@ -18,14 +27,5 @@
     "C1": "SUGAR_CANE:12",
     "C2": "SUGAR_CANE:12",
     "C3": "SUGAR_CANE:12"
-  },
-  "internalname": "SPEED_TALISMAN",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Speed_Talisman",
-    "https://wiki.hypixel.net/Speed_Talisman"
-  ],
-  "crafttext": "Requires: Sugar Cane II"
+  }
 }

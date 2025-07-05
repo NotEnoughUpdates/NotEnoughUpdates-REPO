@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Experimentation Table",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"f7672cfd-3be3-3098-8c09-df3381d712e9\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwNTc0MjE2NTc3MCwKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFiODQzNDUxMTg0YThjY2Q4ZTZlNDlkMGVkZjM0NTFkM2RlYTUwZmRlNWI2YTJmOThhYjdjZjExMzhiY2VjZSIKICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§7Place this item on your island!\",1:\"\",2:\"§7Conduct wild enchanting experiments to\",3:\"§7gain bonus §bEnchanting Exp §7and §eitems§7!\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Experimentation Table\"},ExtraAttributes:{id:\"EXPERIMENTATION_TABLE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"EXPERIMENTATION_TABLE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"24922827-d3b6-3be4-97f2-6519ee1fa7d1\",Properties:{textures:[0:{Name:\"textures\",Signature:\"ECBuODqWVuLnI1FZcgJq+PWktDnIa+mxnZcIvodcvysw7BNA7PuP3iyYQzzdPqn35zONMEEcEwXhnyLirhbEjJ8NwvUaey/Wiu4VRpX15+NMa3AIGbTri//vL5eygRGAjskQ5Ub4hvYsrOnEMwc/5ukeCwwl+epvj00ubZBCzOfgfCb6N0ZLvq3W7Y+osL7S85wu+mxQH4eM1MJ+enG2BU6QzGaENOdxpFCF4j6m6TLDZpizsACRfKS/A10PFSM+EW2q/AZKSFdb0wU+GXYXhlSmTIwRG0LaXiixdDoiV/a9pLmPtGDBICmyh4kYAp4jxk5xLMrPV3MNnQbC0MC8ecYiKNCEFrMWzIi9tAXT03DTizEaMJKu7kYf78EZhkEla0Cl6gPGanTvN9SzS+6AB6hvsiacWn4D3suD+fyLRTtbm+gaUyokWxseBAyq6s9w0fnpHiKEqlrmNjS0LwFSpXNkt2Y/Za61Hjqhg28Pyqk7/LBsTnVhc5r1Pi5IshzW4JkAM7cgPgDZAaWGe+bDBSZ7oOkzowY0mq3KP/81YTLutoOG2bzRUSIo0Hi2zZSLC01w+wEMxiJFZQjYTjF2qxdJOr3td6YU8bIqW9EQKjUQd6PmxgXnhPjUIkfZo0gR8XVutAm6971dqSGu4ZwQy3aHuem5B2emKNGBthQmkMw=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyMjcwOTgxNjYwOSwKICAicHJvZmlsZUlkIiA6ICI2MTZiODhkNDMwNzM0ZTM3OWM3NDc1ODdlZTJkNzlmZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJfX25vdGFodW1hbl9fIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgxYjg0MzQ1MTE4NGE4Y2NkOGU2ZTQ5ZDBlZGYzNDUxZDNkZWE1MGZkZTViNmEyZjk4YWI3Y2YxMTM4YmNlY2UiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this item on your island!\",1:\"\",2:\"§7Conduct wild enchanting experiments to\",3:\"§7gain bonus §bEnchanting Exp §7and §eitems§7!\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Experimentation Table\"}}",
   "damage": 3,
   "lore": [
     "§7Place this item on your island!",
@@ -10,6 +10,15 @@
     "§7gain bonus §bEnchanting Exp §7and §eitems§7!",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "EXPERIMENTATION_TABLE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Enchanting X",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Experimentation_Table",
+    "https://wiki.hypixel.net/Experimentation_Table"
   ],
   "recipe": {
     "A1": "LOG:1",
@@ -21,14 +30,5 @@
     "C1": "LOG:1",
     "C2": "LOG:1",
     "C3": "LOG:1"
-  },
-  "internalname": "EXPERIMENTATION_TABLE",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "Requires: Enchanting X",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Experimentation_Table",
-    "https://wiki.hypixel.net/Experimentation_Table"
-  ]
+  }
 }
