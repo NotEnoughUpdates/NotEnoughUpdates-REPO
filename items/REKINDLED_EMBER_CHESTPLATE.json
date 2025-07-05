@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:chainmail_chestplate",
   "displayname": "§5Rekindled Ember Chestplate",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Strength: §c+30\",1:\"§7Crit Damage: §c+20%\",2:\"§7Health: §a+250\",3:\"§7Defense: §a+70\",4:\"§7Intelligence: §a+5\",5:\" §8[§7⚔§8]\",6:\"\",7:\"§8Tiered Bonus: Rekindle (0/4)\",8:\"§7Increase all of your outgoing\",9:\"§7burning damage by §c200%§7. For each\",10:\"§7second you are on fire additionally\",11:\"§7increase all burning damage by §c1.2%\",12:\"§c§7up to §c50%§7. When wearing 2 or more\",13:\"§7armor pieces of this set, melee\",14:\"§7attacks from ignited mobs will set you\",15:\"§7on fire!\",16:\"\",17:\"§7§8This item can be reforged!\",18:\"§7§4❣ §cRequires §aCombat Skill 22§c.\",19:\"§5§lEPIC CHESTPLATE\"],Name:\"§5Rekindled Ember Chestplate\"},ExtraAttributes:{id:\"REKINDLED_EMBER_CHESTPLATE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"REKINDLED_EMBER_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:chainmail_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Strength: §c+30\",1:\"§7Crit Damage: §c+20%\",2:\"§7Health: §a+250\",3:\"§7Defense: §a+70\",4:\"§7Intelligence: §a+5\",5:\" §8[§7⚔§8]\",6:\"\",7:\"§8Tiered Bonus: Rekindle (0/4)\",8:\"§7Increase all of your outgoing\",9:\"§7burning damage by §c200%§7. For each\",10:\"§7second you are on fire additionally\",11:\"§7increase all burning damage by §c1.2%\",12:\"§7up to §c50%§7. When wearing 2 or more\",13:\"§7armor pieces of this set, melee\",14:\"§7attacks from ignited mobs will set you\",15:\"§7on fire!\",16:\"\",17:\"§8This item can be reforged!\",18:\"§4❣ §cRequires §aCombat Skill 22§c.\",19:\"§5§lEPIC CHESTPLATE\"],Name:\"§5Rekindled Ember Chestplate\"}}",
   "damage": 0,
   "lore": [
     "§7Strength: §c+30",
@@ -16,14 +16,23 @@
     "§7burning damage by §c200%§7. For each",
     "§7second you are on fire additionally",
     "§7increase all burning damage by §c1.2%",
-    "§c§7up to §c50%§7. When wearing 2 or more",
+    "§7up to §c50%§7. When wearing 2 or more",
     "§7armor pieces of this set, melee",
     "§7attacks from ignited mobs will set you",
     "§7on fire!",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aCombat Skill 22§c.",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aCombat Skill 22§c.",
     "§5§lEPIC CHESTPLATE"
+  ],
+  "internalname": "REKINDLED_EMBER_CHESTPLATE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Rekindled_Ember_Chestplate",
+    "https://wiki.hypixel.net/Rekindled_Ember_Chestplate"
   ],
   "recipe": {
     "A1": "REKINDLED_EMBER_FRAGMENT:1",
@@ -35,14 +44,5 @@
     "C1": "REKINDLED_EMBER_FRAGMENT:1",
     "C2": "REKINDLED_EMBER_FRAGMENT:1",
     "C3": "REKINDLED_EMBER_FRAGMENT:1"
-  },
-  "internalname": "REKINDLED_EMBER_CHESTPLATE",
-  "crafttext": "",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Rekindled_Ember_Chestplate",
-    "https://wiki.hypixel.net/Rekindled_Ember_Chestplate"
-  ]
+  }
 }

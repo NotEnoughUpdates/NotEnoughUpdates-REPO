@@ -1,0 +1,44 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "GLOWSTONE_GAUNTLET"
+		},
+		"minecraft:profile": {
+			id: [I;
+				-2079782987,
+				-777374690,
+				-1204096662,
+				-1171126342
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "EiL7gheqqWgfYuid+Zlh1NisVV6LuoMTjhfrtRakNYSkQCl0jHcdCy/Ss/pZlyQAe45kFw4eZOJmcehzlAi9YrMlVFPSmq0ayicRCd2fhei7bQK2d9NwRrL3NeCNsnMgeKiAEOyNEAASlo5+d6BYBB3UsKLu6k4F2KHx+3U0F0alq1JxIaof6auWopUyO9EQUoKkDQdeOMWP8gpdv5inXKQqyH7wJ4vyq5gOfxCHC4wY5R7NmvtyFiahlgI/T6Y49sJBapO+mJdTd3Sw8p/qgpiyzNRtEUrNNSfX88JFoMsesBMs0GAydEHJQdtwHcz4iFhkPqvqaNerz/d71pa1s5dk4upH2sd6c0ejDSn+ghOofvjU5o/QQoqeMxUghRwGm0h9XARcaxjaPm38w3/Vg5gApOlM5OjwQ62X0X+/tTbACGzGHcRAqFDJAUi1RmP/EQ+nE5wmn35eZs9e3XmwwbRLI1hXQycXHunnniJwnGhGeGYPoO7po6LA65GZ7Nxl0j/dkBMouJZkVEdkjh72mCZ58gF3sK8CyAwk9242DGbYbAgq4EvNGCqcdMJzzIFgPm6tDT/+T7S0X2ItAsZkJYCKQ5l+DIKWIoOYx8+sNLjVAdEgM+LQNa1+6CrC0ErNppSn7qqxBIVw7uJCAdVQjBECBZloiKUlKmLfE8/ZtnI=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTY0ODQ5NTM1Mjg0MCwKICAicHJvZmlsZUlkIiA6ICI1MTY4ZjZlMjIyM2E0Y2FjYjdiN2QyZjYyZWMxZGFhOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZWZfbm90X2FzaCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yNTE2OTE1MmEzNjI2YTE2NjliZmMzODhiZGU3NTIwYTNlYzVkZGYxMDY1ZmNlYTMzZTAzYjA2NjIzMjIwYjFhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd"
+	}
+}
