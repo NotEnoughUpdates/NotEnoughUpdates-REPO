@@ -1,24 +1,33 @@
 {
   "itemid": "minecraft:hopper",
   "displayname": "§5Weirder Tuba",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§6Ability: Howl  §e§lRIGHT CLICK\",1:\"§7You and 4 nearby players gain:\",2:\"§7 §f+30✦ Speed\",3:\"§7 §c+40❁ Strength\",4:\"§7 §9+10☠ Crit Damage\",5:\"§7 §e+5⚔ Bonus Attack Speed\",6:\"§7§7for §a30 §7seconds.\",7:\"§7§8Effect doesn\u0027t stack.\",8:\"§8Mana Cost: §3150\",9:\"§8Cooldown: §a20s\",10:\"\",11:\"§7§4☠ §cRequires §5Wolf Slayer 5§c.\",12:\"§7§4☠ §cRequires §5Vampire Slayer 4§c.\",13:\"§5§kX§5 Rift-Transferable §kX\",14:\"§5§lEPIC\"],Name:\"§5Weirder Tuba\"},ExtraAttributes:{id:\"WEIRDER_TUBA\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"WEIRDER_TUBA\"},HideFlags:254,ItemModel:\"minecraft:hopper\",display:{Lore:[0:\"§6Ability: Howl  §e§lRIGHT CLICK\",1:\"§7You and 4 nearby players gain:\",2:\"§7 §c+40❁ Strength\",3:\"§7 §e+5⚔ Bonus Attack Speed\",4:\"§7 §9+10☠ Crit Damage\",5:\"§7 §f+30✦ Speed\",6:\"§7for §a30 §7seconds.\",7:\"§8Effect doesn't stack.\",8:\"§8Mana Cost: §3150\",9:\"§8Cooldown: §a20s\",10:\"\",11:\"§4☠ §cRequires §5Wolf Slayer 5§c.\",12:\"§4☠ §cRequires §5Vampire Slayer 4§c.\",13:\"§5§kX§5 Rift-Transferable §r§kX\",14:\"§5§lEPIC\"],Name:\"§5Weirder Tuba\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§6Ability: Howl  §e§lRIGHT CLICK",
     "§7You and 4 nearby players gain:",
-    "§7 §f+30✦ Speed",
     "§7 §c+40❁ Strength",
-    "§7 §9+10☠ Crit Damage",
     "§7 §e+5⚔ Bonus Attack Speed",
-    "§7§7for §a30 §7seconds.",
-    "§7§8Effect doesn\u0027t stack.",
+    "§7 §9+10☠ Crit Damage",
+    "§7 §f+30✦ Speed",
+    "§7for §a30 §7seconds.",
+    "§8Effect doesn't stack.",
     "§8Mana Cost: §3150",
     "§8Cooldown: §a20s",
     "",
-    "§7§4☠ §cRequires §5Wolf Slayer 5§c.",
-    "§7§4☠ §cRequires §5Vampire Slayer 4§c.",
-    "§5§kX§5 Rift-Transferable §kX",
+    "§4☠ §cRequires §5Wolf Slayer 5§c.",
+    "§4☠ §cRequires §5Vampire Slayer 4§c.",
+    "§5§kX§5 Rift-Transferable §r§kX",
     "§5§lEPIC"
+  ],
+  "internalname": "WEIRDER_TUBA",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Vampire Slayer 4",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Weirder_Tuba",
+    "https://wiki.hypixel.net/Weirder_Tuba"
   ],
   "recipe": {
     "A1": "METAL_HEART:4",
@@ -30,14 +39,5 @@
     "C1": "",
     "C2": "BLOODBADGE:1",
     "C3": ""
-  },
-  "internalname": "WEIRDER_TUBA",
-  "crafttext": "Requires: Vampire Slayer 4",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Weirder_Tuba",
-    "https://wiki.hypixel.net/Weirder_Tuba"
-  ]
+  }
 }

@@ -1,18 +1,26 @@
 {
   "itemid": "minecraft:bookshelf",
   "displayname": "§aEnchanted Bookshelf",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7§7Place near an §9Enchantment\",1:\"§9Table §7to provide Bookshelf\",2:\"§7Power. The higher the Bookshelf\",3:\"§7Power, the more enchantments are\",4:\"§7available.\",5:\"§7\",6:\"§7§7Bookshelf Power: §915\",7:\"\",8:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Bookshelf\"},ExtraAttributes:{id:\"ENCHANTED_BOOKSHELF\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_BOOKSHELF\"},HideFlags:254,ItemModel:\"minecraft:bookshelf\",display:{Lore:[0:\"§7Place near an §9Enchantment Table §7to\",1:\"§7provide Bookshelf Power. The higher\",2:\"§7the Bookshelf Power, the more\",3:\"§7enchantments are available.\",4:\"\",5:\"§7Bookshelf Power: §915\",6:\"\",7:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Bookshelf\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7§7Place near an §9Enchantment",
-    "§9Table §7to provide Bookshelf",
-    "§7Power. The higher the Bookshelf",
-    "§7Power, the more enchantments are",
-    "§7available.",
-    "§7",
-    "§7§7Bookshelf Power: §915",
+    "§7Place near an §9Enchantment Table §7to",
+    "§7provide Bookshelf Power. The higher",
+    "§7the Bookshelf Power, the more",
+    "§7enchantments are available.",
+    "",
+    "§7Bookshelf Power: §915",
     "",
     "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_BOOKSHELF",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Sugar Cane VI",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Bookshelf",
+    "https://wiki.hypixel.net/Enchanted_Bookshelf"
   ],
   "recipe": {
     "A1": "ENCHANTED_OAK_LOG:1",
@@ -24,14 +32,5 @@
     "C1": "ENCHANTED_OAK_LOG:1",
     "C2": "ENCHANTED_OAK_LOG:1",
     "C3": "ENCHANTED_OAK_LOG:1"
-  },
-  "internalname": "ENCHANTED_BOOKSHELF",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Bookshelf",
-    "https://wiki.hypixel.net/Enchanted_Bookshelf"
-  ],
-  "crafttext": "Requires: Sugar Cane VI"
+  }
 }

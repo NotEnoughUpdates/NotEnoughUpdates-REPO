@@ -1,12 +1,21 @@
 {
   "itemid": "minecraft:clay_ball",
   "displayname": "§aEnchanted Clay",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Clay\"},ExtraAttributes:{id:\"ENCHANTED_CLAY_BALL\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_CLAY_BALL\"},HideFlags:254,ItemModel:\"minecraft:clay_ball\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Clay\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7§8Collection Item",
+    "§8Collection Item",
     "",
     "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_CLAY_BALL",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Clay II",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Clay",
+    "https://wiki.hypixel.net/Enchanted_Clay"
   ],
   "recipe": {
     "A1": "",
@@ -18,14 +27,5 @@
     "C1": "",
     "C2": "CLAY_BALL:32",
     "C3": ""
-  },
-  "internalname": "ENCHANTED_CLAY_BALL",
-  "clickcommand": "viewrecipe",
-  "modver": "2.2.2",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Clay",
-    "https://wiki.hypixel.net/Enchanted_Clay"
-  ],
-  "crafttext": "Requires: Clay II"
+  }
 }

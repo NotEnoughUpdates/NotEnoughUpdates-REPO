@@ -1,0 +1,44 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "SMALL_COMBAT_SACK"
+		},
+		"minecraft:profile": {
+			id: [I;
+				845495014,
+				-872530970,
+				-1352500810,
+				1755308340
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "cRKKSugNhrLWLexTYgPQyNidVMsSmwOr9Cu2M1I4qpcTDqzU+fjzK1sWerf7ctY+NscyHFf5whIfIO/s/Zus8IU65ThczvcSaP9e5BguQUvs6fEjzf8BlAV++nA1yh3hiFgEfuYVXro56xiW0oUugzhOfKd2+giEWiBj1hrP45iwidP0GxhrkGNa4qPPpeKSdVAvLuYMjJkGS27ywkVXsHY62rISzgscUfIq8iFiekaIM6cgXlaoT0yD53MVVo8YxWSLOOcgI1Pm+9wicG0oqS0b/fr5MJKPBcEuaUbIgRHBOGf/BJT8oWWLPScoiqw9NkoCChiUpNnlgKN9DS12ypmuVS8EkdUMpV0H7ZCxhI24crzm6dNqxsCAnF4UVVOQNLFay7TI+Dyg1A3M7yMfQuIANgQSNMqP3m5R5WJLiAj2/OQGoCLUnvy6masAJD5nei9t4Vvjs3Jbx4l3dFjaqiw2XXdxljMeSCZMOlhsbiN3W4PMcRXK/OVSIs008jXuZoG9QUscDLg4rTg7IB1VMZBoMWFHdtPKB4Xs29OoVJUToC3dLg7NouxT9bM89JxXrmq0Iue1inJSNaPwVcUCR+4Wn0qAV770P6l122HGrQPKbkOB4FNpF/zTLgjDUrAOs9vHFejzoPQsjOlQJ3OVjnLxxM7tW5GUCgSk0hgcoqY=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NTMzNjIwMiwKICAicHJvZmlsZUlkIiA6ICI3ZGEyYWIzYTkzY2E0OGVlODMwNDhhZmMzYjgwZTY4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHb2xkYXBmZWwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI4ZjQ1MmM5ZDZiNjI1NGI1NDc4NTY5YTYwYjBiNmZiMDMxYzdhZDJmMDZlYTNkYWNmMmNlODc0Y2E3MDgzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd"
+	}
+}

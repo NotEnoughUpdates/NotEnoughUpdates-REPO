@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:beacon",
   "displayname": "§9Beacon I",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Tier: §bI\",1:\"\",2:\"§7Can be placed on your private island.\",3:\"\",4:\"§7Grants special buffs to the island\",5:\"§7owners when powered by §dPower\",6:\"§dCrystals §7obtained from the forge in\",7:\"§7the §2Dwarven Mines§7.\",8:\"\",9:\"§7§4❣ §cRequires §5Heart of the Mountain Tier 1§c.\",10:\"§9§lRARE\"],Name:\"§9Beacon I\"},ExtraAttributes:{id:\"BEACON_1\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"BEACON_1\"},HideFlags:254,ItemModel:\"minecraft:beacon\",display:{Lore:[0:\"§7Tier: §bI\",1:\"\",2:\"§7Can be placed on your private island.\",3:\"\",4:\"§7Grants special buffs to the island\",5:\"§7owners when powered by §dPower\",6:\"§dCrystals §7obtained from the forge in\",7:\"§7the §2Dwarven Mines§7.\",8:\"\",9:\"§4❣ §cRequires §5Heart of the Mountain Tier 1§c.\",10:\"§9§lRARE\"],Name:\"§9Beacon I\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§7Tier: §bI",
@@ -13,8 +13,17 @@
     "§dCrystals §7obtained from the forge in",
     "§7the §2Dwarven Mines§7.",
     "",
-    "§7§4❣ §cRequires §5Heart of the Mountain Tier 1§c.",
+    "§4❣ §cRequires §5Heart of the Mountain Tier 1§c.",
     "§9§lRARE"
+  ],
+  "internalname": "BEACON_1",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Mithril IX",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Beacon_I",
+    "https://wiki.hypixel.net/Beacon_I"
   ],
   "recipe": {
     "A1": "GLASS:1",
@@ -26,14 +35,5 @@
     "C1": "ENCHANTED_MITHRIL:64",
     "C2": "ENCHANTED_MITHRIL:64",
     "C3": "ENCHANTED_MITHRIL:64"
-  },
-  "internalname": "BEACON_1",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "crafttext": "Requires: Mithril IX",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Beacon_I",
-    "https://wiki.hypixel.net/Beacon_I"
-  ]
+  }
 }

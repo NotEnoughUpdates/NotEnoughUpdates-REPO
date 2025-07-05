@@ -1,19 +1,27 @@
 {
   "itemid": "minecraft:sapling",
   "displayname": "§9Soul Esoward",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§6Ability: Soulward  §e§lRIGHT CLICK\",1:\"§7Become §9invulnerable§7 for §a5s§7, but\",2:\"§7can\u0027t deal damage.\",3:\"§7Halves your damage for §a2s\",4:\"§a§7afterwards.\",5:\"§7§8Soulflow Cost: §310\",6:\"§8Mana Cost: §3350\",7:\"§8Cooldown: §a20s\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Soul Esoward\"},ExtraAttributes:{id:\"SOUL_ESOWARD\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SOUL_ESOWARD\"},HideFlags:254,ItemModel:\"minecraft:birch_sapling\",display:{Lore:[0:\"§6Ability: Soulward  §e§lRIGHT CLICK\",1:\"§7Become §9invulnerable§7 for §a5s§7, but can't deal\",2:\"§7damage.\",3:\"§7Halves your damage for §a2s §7afterwards.\",4:\"§8Soulflow Cost: §310\",5:\"§8Mana Cost: §3350\",6:\"§8Cooldown: §a20s\",7:\"\",8:\"§9§lRARE\"],Name:\"§9Soul Esoward\"},ench:[]}",
   "damage": 2,
   "lore": [
     "§6Ability: Soulward  §e§lRIGHT CLICK",
-    "§7Become §9invulnerable§7 for §a5s§7, but",
-    "§7can\u0027t deal damage.",
-    "§7Halves your damage for §a2s",
-    "§a§7afterwards.",
-    "§7§8Soulflow Cost: §310",
+    "§7Become §9invulnerable§7 for §a5s§7, but can't deal",
+    "§7damage.",
+    "§7Halves your damage for §a2s §7afterwards.",
+    "§8Soulflow Cost: §310",
     "§8Mana Cost: §3350",
     "§8Cooldown: §a20s",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "SOUL_ESOWARD",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Soul_Esoward",
+    "https://wiki.hypixel.net/Soul_Esoward"
   ],
   "recipe": {
     "A1": "ENCHANTED_BIRCH_LOG:18",
@@ -26,14 +34,5 @@
     "C2": "ENCHANTED_BIRCH_LOG:11",
     "C3": "NULL_OVOID:2"
   },
-  "slayer_req": "EMAN_3",
-  "internalname": "SOUL_ESOWARD",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Soul_Esoward",
-    "https://wiki.hypixel.net/Soul_Esoward"
-  ]
+  "slayer_req": "EMAN_3"
 }

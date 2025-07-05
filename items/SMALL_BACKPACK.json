@@ -1,14 +1,23 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§aSmall Backpack",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"0523fc65-c396-309b-b153-de7d8e5f666d\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NjgyMTI5NjI1MzMsInByb2ZpbGVJZCI6IjgyYzYwNmM1YzY1MjRiNzk4YjkxYTEyZDNhNjE2OTc3IiwicHJvZmlsZU5hbWUiOiJOb3ROb3RvcmlvdXNOZW1vIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMWQ4MzdjYTIyMmNiYzBiYzEyNDI2ZjVkYTAxOGMzYTkzMWI0MDYwMDg4MDA5NjBhOWRmMTEyYTU5NmU3ZDYyIn19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7A bag with §a9§7 slots which can\",1:\"§7be placed in your Storage Menu\",2:\"§7to store additional items.\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aSmall Backpack\"},ExtraAttributes:{id:\"SMALL_BACKPACK\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SMALL_BACKPACK\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"d19ac3a7-5cbe-3011-a34b-8d7d22780ff8\",Properties:{textures:[0:{Name:\"textures\",Signature:\"Ii0Vi0UX1zhuPJ/qRwb9/4pmExOKO/2bYelL05nNp76iip74NBPRf0TyuxSP2enaJIfwq6ttxT/Pn/4TbvUPda0MZtHHx4kAiFXXTR6djkKkIG4A8GEqeZ1GnWU+Q+An/CVVv6YX0tVwBvr8W71FeEQuV8RY3AAZQI+/EoVupIExz0YDts7x292de5T3xMU5TEJ5SPy1dlg7s0BUgv/4DiW4FPyCjKI49VBFy4r9daX6OL5RFA3gziNL4XB+sU+oBB0PsYKiSft2g5yE3b1Lu+23vq0q6FY9thKXYHIzVi3MOR/StuGdzj4wGAZkcrP5btHvT3D3u0QziwgeWQ28VsDQkIOpS/mRXmet8S/lV0qF9Q5jLKd02pPeiBunHlb+KTlguhfQd30RJOxV9eRL61KpGM79gZ3VYLMhS8oalrVrYal2rKcNWbn02xSl813hODmmDmb+GRvrJJnexetMgpIRAR73Mxv3zK9dhw3umTBHSTrcfz0E5F18NsciPlC36YuUsPIWYBWnG4M3iI30xXiIddO7Ptzha/HWKHHQS3i43BJZUOMdKxEeeAn+pUzbu2eeUEB6mdrTYCmbDDXUtKAOWXG0Y5Ey/tMYkuf4Ly5DWqWwmJsI89VGUZdEVSipZO9ATnpEw6RmhiOWIwwDQh3EgfbPx0fDoGQfABbcUKg=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxOTM0OTExMDk0MSwKICAicHJvZmlsZUlkIiA6ICI1ZWE0ODg2NTg2OWI0Y2ZhOWRjNTg5YmFlZWQwNzM5MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJfUllOMF8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjFkODM3Y2EyMjJjYmMwYmMxMjQyNmY1ZGEwMThjM2E5MzFiNDA2MDA4ODAwOTYwYTlkZjExMmE1OTZlN2Q2MiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7A bag with §a9§7 slots which can be\",1:\"§7placed in your Storage Menu to\",2:\"§7store additional items.\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aSmall Backpack\"}}",
   "damage": 3,
   "lore": [
-    "§7A bag with §a9§7 slots which can",
-    "§7be placed in your Storage Menu",
-    "§7to store additional items.",
+    "§7A bag with §a9§7 slots which can be",
+    "§7placed in your Storage Menu to",
+    "§7store additional items.",
     "",
     "§a§lUNCOMMON"
+  ],
+  "internalname": "SMALL_BACKPACK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Leather III",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Small_Backpack",
+    "https://wiki.hypixel.net/Small_Backpack"
   ],
   "recipe": {
     "A1": "LEATHER:10",
@@ -20,14 +29,5 @@
     "C1": "LEATHER:10",
     "C2": "LEATHER:10",
     "C3": "LEATHER:10"
-  },
-  "internalname": "SMALL_BACKPACK",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Small_Backpack",
-    "https://wiki.hypixel.net/Small_Backpack"
-  ],
-  "crafttext": "Requires: Leather III"
+  }
 }

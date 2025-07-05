@@ -1,12 +1,21 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§f§f§aSpeed Ring",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"7d1f0e54-5a15-36dd-bb96-ddf3960b2b87\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5MDA5MDE0NzQ3OSwKICAicHJvZmlsZUlkIiA6ICJjOTU4YTRiMWY4OGU0ZGVjOTI3NGVlMGQ3Nzg2ZGFkYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbHNvRGN0ciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jMmRhNDBhOTFmOGZhN2UxY2JkZDkzNGRhOTJhNzY2OGRjOTVkNzViNTdjOWM4MGEzODFjNWUxNzhjZWU2YmE3IgogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7Speed: §a+3\",1:\"\",2:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§f§f§aSpeed Ring\"},ExtraAttributes:{id:\"SPEED_RING\"}}",
+  "displayname": "§aSpeed Ring",
+  "nbttag": "{ExtraAttributes:{id:\"SPEED_RING\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"7d1f0e54-5a15-36dd-bb96-ddf3960b2b87\",Properties:{textures:[0:{Name:\"textures\",Signature:\"Tf0XMD7Jh4GmkwGAM8iItdk3MzB59kXZq2fpgC3ynA1vpT0OJYhMkDhLh0aQqIfsUQNIfYkm+kdwlovykeYxUwhCKMSmheg5gUL60egGg9Crg5qt5BNTM7RBHrVqoRf7iN0n1eL1CnqowxHk5YU6tv8m6J8197enV7z0j6izVigBbI0SYdP+9UzRp/Q+L29oLe8xSjk8b2aXBmv292w+Cqm6HdrQGJnI7RRMV/AwYclQlmAouWxNxV2PA+sIaM95bxnxZd8pAjLWMqXHLFUADRC4RefRaRdzhoRyet3UX+RE06HUlxBpmfKW2uEmaKICY5gFhgeBJosXwsfFBkdPijSNXi6uBxtbk0ybc+0MGF1LfxQv5fgn0yfKC8qrBQVE2efkmhNqgr3qbZdMsoUNQVq6Sx/lr+dJkyBU9M3I30zA6XkZbNmtAiBCwYVgl/zbmGs4GBFPtGTwvS9FsuZvomGI/XUP8+RUrOvfktppxffIQQaobVWaiLVG0+7bCKpNe7L/W6e49g5aT2hhZxy3lPqC6lJ6jXaB2hwzwvevnHy5Rnkp8RgX9uYV+xBiL/wBDPt+bc5IFyGP845Sxnjw9W/MtOo5zFyhfvB4Te1oDLmPrWxWa9WXJdUHwMKFr7VqjKeq7nv8qwKzYbgWNIjPH8+zm50gIamzzYaI9ctnA58=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5MDA5MDE0NzQ3OSwKICAicHJvZmlsZUlkIiA6ICJjOTU4YTRiMWY4OGU0ZGVjOTI3NGVlMGQ3Nzg2ZGFkYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbHNvRGN0ciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jMmRhNDBhOTFmOGZhN2UxY2JkZDkzNGRhOTJhNzY2OGRjOTVkNzViNTdjOWM4MGEzODFjNWUxNzhjZWU2YmE3IgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Speed: §a+3\",1:\"\",2:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aSpeed Ring\"}}",
   "damage": 3,
   "lore": [
     "§7Speed: §a+3",
     "",
     "§a§lUNCOMMON ACCESSORY"
+  ],
+  "internalname": "SPEED_RING",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Sugar Cane V",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Speed_Ring",
+    "https://wiki.hypixel.net/Speed_Ring"
   ],
   "recipe": {
     "A1": "ENCHANTED_SUGAR:12",
@@ -18,14 +27,5 @@
     "C1": "ENCHANTED_SUGAR:12",
     "C2": "ENCHANTED_SUGAR:12",
     "C3": "ENCHANTED_SUGAR:12"
-  },
-  "internalname": "SPEED_RING",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "Requires: Sugar Cane V",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Speed_Ring",
-    "https://wiki.hypixel.net/Speed_Ring"
-  ]
+  }
 }

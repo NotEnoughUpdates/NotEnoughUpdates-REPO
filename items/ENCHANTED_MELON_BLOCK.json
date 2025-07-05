@@ -1,12 +1,21 @@
 {
   "itemid": "minecraft:melon_block",
   "displayname": "§9Enchanted Melon Block",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Enchanted Melon Block\"},ExtraAttributes:{id:\"ENCHANTED_MELON_BLOCK\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_MELON_BLOCK\"},HideFlags:254,ItemModel:\"minecraft:melon\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Enchanted Melon Block\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7§8Collection Item",
+    "§8Collection Item",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "ENCHANTED_MELON_BLOCK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Melon VI",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Melon_Block",
+    "https://wiki.hypixel.net/Enchanted_Melon_Block"
   ],
   "recipe": {
     "A1": "",
@@ -18,14 +27,5 @@
     "C1": "",
     "C2": "ENCHANTED_MELON:32",
     "C3": ""
-  },
-  "internalname": "ENCHANTED_MELON_BLOCK",
-  "clickcommand": "viewrecipe",
-  "modver": "2.2.2",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Melon_Block",
-    "https://wiki.hypixel.net/Enchanted_Melon_Block"
-  ],
-  "crafttext": "Requires: Melon VI"
+  }
 }

@@ -1,0 +1,80 @@
+{
+	components: {
+		"minecraft:banner_patterns": [
+			{
+				color: "black",
+				pattern: {
+					asset_id: "minecraft:base",
+					translation_key: "block.minecraft.banner.base"
+				}
+			},
+			{
+				color: "magenta",
+				pattern: {
+					asset_id: "minecraft:cross",
+					translation_key: "block.minecraft.banner.cross"
+				}
+			},
+			{
+				color: "purple",
+				pattern: {
+					asset_id: "minecraft:curly_border",
+					translation_key: "block.minecraft.banner.curly_border"
+				}
+			},
+			{
+				color: "purple",
+				pattern: {
+					asset_id: "minecraft:circle",
+					translation_key: "block.minecraft.banner.circle"
+				}
+			},
+			{
+				color: "black",
+				pattern: {
+					asset_id: "minecraft:flower",
+					translation_key: "block.minecraft.banner.flower"
+				}
+			},
+			{
+				color: "black",
+				pattern: {
+					asset_id: "minecraft:triangles_bottom",
+					translation_key: "block.minecraft.banner.triangles_bottom"
+				}
+			},
+			{
+				color: "black",
+				pattern: {
+					asset_id: "minecraft:triangles_top",
+					translation_key: "block.minecraft.banner.triangles_top"
+				}
+			}
+		],
+		"minecraft:custom_data": {
+			id: "TOTEM_OF_CORRUPTION"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:white_banner",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd"
+	}
+}

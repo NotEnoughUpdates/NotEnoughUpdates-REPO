@@ -1,18 +1,26 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Blood Donor Artifact",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"19f1385e-09a8-30c3-88be-62a85922accc\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmY3YmI5NzQ4MGMxMGZkZmViOGZhZTkzOTI5ZTVlZWI0ZjA0OTFkOGNjYTcwZWQwMGI0NWUzZmIyYjc0ZjZjNSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Health Regen: §a+3\",1:\"§7Mana Regen: §a+10%\",2:\"\",3:\"§7The human body produces 2-3\",4:\"§7million red blood cells per\",5:\"§7SECOND.\",6:\"\",7:\"§5§kX§5 Rift-Transferable §kX\",8:\"§9§lRARE ACCESSORY\"],Name:\"§9Blood Donor Artifact\"},ExtraAttributes:{id:\"BLOOD_DONOR_ARTIFACT\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"BLOOD_DONOR_ARTIFACT\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"d6f421b0-204d-38d6-897b-c19d193f69ea\",Properties:{textures:[0:{Name:\"textures\",Signature:\"DB0nK/itXSAhMCsp1fYDrul8jtiD0zCNsTPvUb4Ob+fOBHFq+zELVK3mOXxiJUNFrwn+njiDTYjoaO5QWFR+xtnrzAhLQlxlfkHmGhSiKVvnrEqCgS9U9UKk+U1xLwIKmo+78lcJk1so6lcDstCm0W86KG1cZS62oGa6YTOoVGvshziNfvXFuoUtDph2nSdBYmyEYDLGB5sysR+L6oeNmYR4vAvkv3iSu7ajHpCtbh+NBCMl7okrDtd3wM8RoKrjVi22EFgdTkCGnuolNJ+IK2f3kCimYGROKjRQA0JO2K+oUK9Ex+rMs9wFCo7cAKtPgnBbOdIIjdOFN4Xn3LR03f7PiJWjmy7JFeR68crjmJiK4+NqU7C+abDz0fMblkrAgc4V1Vxqs1wNuB8oZ4zXSg4Ap2tlb9+r3toJS+LE225hz0I9Hy3uFEfLWm7hRp5TJsIGtzp+rCdhxr80oUIvERm67ItFcs8NJd5fn994xkZ3eA9wBfD7W1A+/VP7cprGOxRPz00bVuVY5wL3icUBGNC2fRdG3Xtd+v1tnLgNzJJxW4YLuo6ji5eOr4Oo1vMAvTF1KcQjJ2ZP8LZvKnGop4UDidFcYr/prdlqqY0POfkHey7+bXpn353Srjq/XGA3FzBvcX1IgWl/t5WlZub7V4tUM85/oSFaaZbNwFu0R6w=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MjMxNDE2MCwKICAicHJvZmlsZUlkIiA6ICJiNzRlYjViMTc5OTc0YzZjODk3ZTgwNTM4Y2M1NmYwMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJQYW5kYUNoYW4yOCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mZjdiYjk3NDgwYzEwZmRmZWI4ZmFlOTM5MjllNWVlYjRmMDQ5MWQ4Y2NhNzBlZDAwYjQ1ZTNmYjJiNzRmNmM1IgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Health Regen: §a+3\",1:\"§7Mana Regen: §a+10%\",2:\"\",3:\"§7The human body produces 2-3 million\",4:\"§7red blood cells per SECOND.\",5:\"\",6:\"§5§kX§5 Rift-Transferable §r§kX\",7:\"§9§lRARE ACCESSORY\"],Name:\"§9Blood Donor Artifact\"}}",
   "damage": 3,
   "lore": [
     "§7Health Regen: §a+3",
     "§7Mana Regen: §a+10%",
     "",
-    "§7The human body produces 2-3",
-    "§7million red blood cells per",
-    "§7SECOND.",
+    "§7The human body produces 2-3 million",
+    "§7red blood cells per SECOND.",
     "",
-    "§5§kX§5 Rift-Transferable §kX",
+    "§5§kX§5 Rift-Transferable §r§kX",
     "§9§lRARE ACCESSORY"
+  ],
+  "internalname": "BLOOD_DONOR_ARTIFACT",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Hemovibe IX",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Blood_Donor_Artifact",
+    "https://wiki.hypixel.net/Blood_Donor_Artifact"
   ],
   "recipe": {
     "A1": "HEMOBOMB:16",
@@ -24,14 +32,5 @@
     "C1": "HEMOBOMB:16",
     "C2": "HEMOBOMB:16",
     "C3": "HEMOBOMB:16"
-  },
-  "internalname": "BLOOD_DONOR_ARTIFACT",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "Requires: Hemovibe IX",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Blood_Donor_Artifact",
-    "https://wiki.hypixel.net/Blood_Donor_Artifact"
-  ]
+  }
 }

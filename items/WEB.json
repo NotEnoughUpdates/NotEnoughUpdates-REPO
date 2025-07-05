@@ -1,11 +1,17 @@
 {
   "itemid": "minecraft:web",
   "displayname": "§aWeb",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§a§lUNCOMMON\"],Name:\"§aWeb\"},ExtraAttributes:{id:\"WEB\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"WEB\"},HideFlags:254,ItemModel:\"minecraft:cobweb\",display:{Lore:[0:\"§a§lUNCOMMON\"],Name:\"§aWeb\"}}",
   "damage": 0,
   "lore": [
     "§a§lUNCOMMON"
   ],
+  "internalname": "WEB",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: String II",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "",
+  "info": [],
   "recipe": {
     "A1": "STRING:1",
     "A2": "STRING:1",
@@ -17,10 +23,5 @@
     "C2": "STRING:1",
     "C3": "STRING:1"
   },
-  "internalname": "WEB",
-  "modver": "2.1.0-REL",
-  "vanilla": true,
-  "clickcommand": "viewrecipe",
-  "crafttext": "Requires: String II",
-  "infoType": ""
+  "vanilla": true
 }

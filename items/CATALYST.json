@@ -1,14 +1,23 @@
 {
   "itemid": "minecraft:nether_star",
   "displayname": "§9Catalyst",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Increases the number of\",1:\"§7resources created by this minion\",2:\"§7by §a3x§7 for §a3 hours§7!\",3:\"\",4:\"§9§lRARE\"],Name:\"§9Catalyst\"},ExtraAttributes:{id:\"CATALYST\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"CATALYST\"},HideFlags:254,ItemModel:\"minecraft:nether_star\",display:{Lore:[0:\"§7When in a minion, this increases the\",1:\"§7number of resources created by §a3x\",2:\"§7for §a3 hours§7!\",3:\"\",4:\"§9§lRARE\"],Name:\"§9Catalyst\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7Increases the number of",
-    "§7resources created by this minion",
-    "§7by §a3x§7 for §a3 hours§7!",
+    "§7When in a minion, this increases the",
+    "§7number of resources created by §a3x",
+    "§7for §a3 hours§7!",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "CATALYST",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: End Stone IX",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Catalyst",
+    "https://wiki.hypixel.net/Catalyst"
   ],
   "recipe": {
     "A1": "ENDER_STONE:1",
@@ -20,14 +29,5 @@
     "C1": "ENDER_STONE:1",
     "C2": "ENDER_STONE:1",
     "C3": "ENDER_STONE:1"
-  },
-  "internalname": "CATALYST",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Catalyst",
-    "https://wiki.hypixel.net/Catalyst"
-  ],
-  "crafttext": "Requires: End Stone IX"
+  }
 }

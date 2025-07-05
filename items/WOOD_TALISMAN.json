@@ -1,15 +1,23 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§aWood Affinity Talisman",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"9a65b3e5-1d34-3c09-943f-db0add0a1520\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjE5YWQ1MjE1YmE2YzdlNGU0ZDA2NjhmMDJkM2E5YzkzN2FjNTM2YWNjNzVhYzQ5ZTdiZDdiMWM4Y2NmODAifX19\"}]}},display:{Lore:[0:\"§7Increases your §f✦ Speed §7by\",1:\"§7§a+10§7 while held in the\",2:\"§7§bForest§7, §cGraveyard§7, and\",3:\"§7§2Wilderness§7.\",4:\"\",5:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aWood Affinity Talisman\"},ExtraAttributes:{id:\"WOOD_TALISMAN\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"WOOD_TALISMAN\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"821b06d8-0efd-39b6-be38-11120d348b9a\",Properties:{textures:[0:{Name:\"textures\",Signature:\"IWJ2xBfhCOcn4q/1AYv16C2YuOQHbm25/bLAxeUk3z2rIZy/bGUsg40u/AnIbgC1pWZfjt8F2pTfDHuRC+ezjjfxhpGWaWLoOrCrOD+WWbMexzvidBT0EUsSwJOGztVM32gmRkIclMH2/h8A4/GzwUXaSYIp02SxRjTwUAwaJUG1MQimlE+xht3nIgMvAKzwkTW34yD7lvOrc909JOdAprQsmF1geCe1oDcI0DP7VDTO9rMy+lFgkaanL2zYncTRM/DyvqDaTfHkpgPuURF+gmZyleKEaY6+9xnw038qO5S3U1IfbAUuW01ybQU40aPdx9yJTOZlw32+3v9/Xnv6CfPHfOysiS1KjKxjDghLaxV1wQyMrqmPmHX8XPgc39ErqzGnmfUuUwsBzxsnPy1ASNfVOtzn/7eyfaHDvgowD39mKrwGn74hJCQOLwYXtwUqTg6E7KLOcm7KvPo9PtuG0H4axt3uyDxC5PK3+dsQNgnPF+1QnHabPcTIFkPYWqfZ2LZTXNLIk3EHkEE1tk2AGBJ2kj7v5nNi3x35XaeEIrlNOp1cX1P/67nWoT+hfgmKdC0Zhen2rad3mDyPHQTfVcQ9WsuzZnScZE0nXBqbiGp8N4HlkAeBbqpmY9TFswAXLZST4+z4NFPUhuhGdJPH2taC1ocn4Vn56e/99d4YRJs=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwMjAzNzY3NTE4NiwKICAicHJvZmlsZUlkIiA6ICI0OWIzODUyNDdhMWY0NTM3YjBmN2MwZTFmMTVjMTc2NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJiY2QyMDMzYzYzZWM0YmY4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzkwN2E5MTM0NzFhNWJiYmI0YzBhN2YyMzNkNzhjMjc2MjhjZjBlNTE2YTJmYjQ2MzYwY2QwZTM3MGM1MDgzNDUiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Increases your §f✦ Speed §7by §a+10\",1:\"§7while held in the §bForest§7, §cGraveyard§7,\",2:\"§2Wilderness§7, §aThe Park§7, and §2Galatea§7.\",3:\"\",4:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aWood Affinity Talisman\"}}",
   "damage": 3,
   "lore": [
-    "§7Increases your §f✦ Speed §7by",
-    "§7§a+10§7 while held in the",
-    "§7§bForest§7, §cGraveyard§7, and",
-    "§7§2Wilderness§7.",
+    "§7Increases your §f✦ Speed §7by §a+10",
+    "§7while held in the §bForest§7, §cGraveyard§7,",
+    "§2Wilderness§7, §aThe Park§7, and §2Galatea§7.",
     "",
     "§a§lUNCOMMON ACCESSORY"
+  ],
+  "internalname": "WOOD_TALISMAN",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Oak Wood VIII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Wood_Affinity_Talisman",
+    "https://wiki.hypixel.net/Wood_Affinity_Talisman"
   ],
   "recipe": {
     "A1": "LEAVES:1",
@@ -21,14 +29,5 @@
     "C1": "LEAVES:1",
     "C2": "LEAVES:1",
     "C3": "LEAVES:1"
-  },
-  "internalname": "WOOD_TALISMAN",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Wood_Affinity_Talisman",
-    "https://wiki.hypixel.net/Wood_Affinity_Talisman"
-  ],
-  "crafttext": "Requires: Oak Wood VIII"
+  }
 }

@@ -1,14 +1,23 @@
 {
   "itemid": "minecraft:sea_lantern",
   "displayname": "§aSea Lantern Hat",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§7Breathe §a5x §7as long\",1:\"§7underwater when wearing!\",2:\"\",3:\"§7§8This item can be reforged!\",4:\"§a§lUNCOMMON HELMET\"],Name:\"§aSea Lantern Hat\"},ExtraAttributes:{id:\"SEA_LANTERN_HAT\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SEA_LANTERN_HAT\"},HideFlags:254,ItemModel:\"minecraft:sea_lantern\",display:{Lore:[0:\"§7Breathe §a5x §7as long underwater when\",1:\"§7wearing!\",2:\"\",3:\"§8This item can be reforged!\",4:\"§a§lUNCOMMON HELMET\"],Name:\"§aSea Lantern Hat\"}}",
   "damage": 0,
   "lore": [
-    "§7§7Breathe §a5x §7as long",
-    "§7underwater when wearing!",
+    "§7Breathe §a5x §7as long underwater when",
+    "§7wearing!",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§a§lUNCOMMON HELMET"
+  ],
+  "internalname": "SEA_LANTERN_HAT",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Sea_Lantern_Hat",
+    "https://wiki.hypixel.net/Sea_Lantern_Hat"
   ],
   "recipe": {
     "A1": "PRISMARINE_CRYSTALS:1",
@@ -20,14 +29,5 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  },
-  "internalname": "SEA_LANTERN_HAT",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Sea_Lantern_Hat",
-    "https://wiki.hypixel.net/Sea_Lantern_Hat"
-  ]
+  }
 }

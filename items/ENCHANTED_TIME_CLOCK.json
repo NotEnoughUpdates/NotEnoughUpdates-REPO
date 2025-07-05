@@ -1,19 +1,28 @@
 {
   "itemid": "minecraft:clock",
   "displayname": "§6Enchanted Clock",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§6Ability: Time Warp  §e§lRIGHT CLICK\",1:\"§7Advance Time by §d1 hour§7!\",2:\"§8Cooldown: §a48 hours\",3:\"\",4:\"§7§7Impacts your Minions, Chocolate\",5:\"§7Factory, Aging Items, Kat, Fann, and\",6:\"§7The Forge.\",7:\"\",8:\"§7§4❣ §cRequires §aGold Ingot Collection X§c.\",9:\"§6§lLEGENDARY\"],Name:\"§6Enchanted Clock\"},ExtraAttributes:{id:\"ENCHANTED_TIME_CLOCK\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_TIME_CLOCK\"},HideFlags:254,ItemModel:\"minecraft:clock\",display:{Lore:[0:\"§6Ability: Time Warp  §e§lRIGHT CLICK\",1:\"§7Advance Time by §d1 hour§7!\",2:\"§8Cooldown: §a48 hours\",3:\"\",4:\"§7Impacts your Minions, Chocolate\",5:\"§7Factory, Aging Items, Kat, Fann, and\",6:\"§7The Forge.\",7:\"\",8:\"§4❣ §cRequires §aGold Ingot Collection X§c.\",9:\"§6§lLEGENDARY\"],Name:\"§6Enchanted Clock\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§6Ability: Time Warp  §e§lRIGHT CLICK",
     "§7Advance Time by §d1 hour§7!",
     "§8Cooldown: §a48 hours",
     "",
-    "§7§7Impacts your Minions, Chocolate",
+    "§7Impacts your Minions, Chocolate",
     "§7Factory, Aging Items, Kat, Fann, and",
     "§7The Forge.",
     "",
-    "§7§4❣ §cRequires §aGold Ingot Collection X§c.",
+    "§4❣ §cRequires §aGold Ingot Collection X§c.",
     "§6§lLEGENDARY"
+  ],
+  "internalname": "ENCHANTED_TIME_CLOCK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Gold Ingot X",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Clock",
+    "https://wiki.hypixel.net/Enchanted_Clock"
   ],
   "recipe": {
     "A1": "",
@@ -25,14 +34,5 @@
     "C1": "",
     "C2": "ENCHANTED_GOLD_BLOCK:32",
     "C3": ""
-  },
-  "internalname": "ENCHANTED_TIME_CLOCK",
-  "clickcommand": "viewrecipe",
-  "modver": "2.5.0",
-  "crafttext": "Requires: Gold Ingot X",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Clock",
-    "https://wiki.hypixel.net/Enchanted_Clock"
-  ]
+  }
 }

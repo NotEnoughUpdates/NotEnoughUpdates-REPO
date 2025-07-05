@@ -1,17 +1,26 @@
 {
   "itemid": "minecraft:dropper",
   "displayname": "§9Dwarven Super Compactor",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7This item can be used as a\",1:\"§7minion upgrade.\",2:\"§7Automatically smelts materials\",3:\"§7produced by minions before\",4:\"§7compacting them into their\",5:\"§7enchanted form.\",6:\"\",7:\"§9§lRARE\"],Name:\"§9Dwarven Super Compactor\"},ExtraAttributes:{id:\"DWARVEN_COMPACTOR\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"DWARVEN_COMPACTOR\"},HideFlags:254,ItemModel:\"minecraft:dropper\",display:{Lore:[0:\"§7This item can be used as a minion\",1:\"§7upgrade.\",2:\"§7Automatically smelts materials\",3:\"§7produced by minions before\",4:\"§7compacting them into their enchanted\",5:\"§7form.\",6:\"\",7:\"§9§lRARE\"],Name:\"§9Dwarven Super Compactor\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7This item can be used as a",
-    "§7minion upgrade.",
+    "§7This item can be used as a minion",
+    "§7upgrade.",
     "§7Automatically smelts materials",
     "§7produced by minions before",
-    "§7compacting them into their",
-    "§7enchanted form.",
+    "§7compacting them into their enchanted",
+    "§7form.",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "DWARVEN_COMPACTOR",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Dwarven_Super_Compactor",
+    "https://wiki.hypixel.net/Dwarven_Super_Compactor"
   ],
   "recipe": {
     "A1": "ENCHANTED_MITHRIL:8",
@@ -23,14 +32,5 @@
     "C1": "ENCHANTED_MITHRIL:8",
     "C2": "ENCHANTED_MITHRIL:8",
     "C3": "ENCHANTED_MITHRIL:8"
-  },
-  "internalname": "DWARVEN_COMPACTOR",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Dwarven_Super_Compactor",
-    "https://wiki.hypixel.net/Dwarven_Super_Compactor"
-  ]
+  }
 }

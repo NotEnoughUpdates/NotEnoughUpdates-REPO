@@ -1,0 +1,44 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "GEMSTONE_GAUNTLET"
+		},
+		"minecraft:profile": {
+			id: [I;
+				-861744046,
+				-959235637,
+				-1231724855,
+				724395817
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "SOQb/wJC4uwWbZOKEdbt9k6yVTvofC/ax8qME9rSairtZhZe4vuA7iV+QVXi9rYP1ssh9gMCyeuIA7+jcQ1xwg4l+TUzZUUTV9zPz+lvKTKdQNFLHbfUWo452MTy3Gf79UbRQprkCBSgi8Tl4NPwlIVxFV7s+D+/agS4oga6skqvZDX5/lakZBVWeed6gJtgBOsRJQZWAolJrOK7nz1wLR2I5w4nWKZhuKsHa5Xe47OKwopEuGLH8ZH4hjovY77vszmjJ6g31dq92WnKKhwkifb9k520FYlwZcH1tbXf5h8RBqoT7dylBlMuQg3MaRqn3QMb1ZeU8Y/3On/VmWP8GGH/rv44MoBQ0bNlG9ZI3b2qhRF5lCVER2cRt2J2U2NNLFTL8AkcHNqWt8bVnlFIFPzhypdVRzUKi6xOtDVwQZmvlHUPnQUbH30Xkb99nducU0JNcQPIFIV1WDdEXKvM7541zVBl3tqQogUVqfHza+wzH3uQZUGqY2xmQA70HcQDby35d4ilQh++AMoqK/J97Z3QIde/znWEv2M3z9IF1no+GRmclq/bM4MAcdhN5PxsH60hOINwwVmQCtPV8spWQHYia5zM8nXuyOsEfKNQBLuJHUXirHKf3kiWiRbt5aTqtkUHh1k2DYpAiHViAlY2cpWHnwUByxiRTDAoDUEMaLw=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTYxODUyMTY2MzY1NCwKICAicHJvZmlsZUlkIiA6ICIxZDUyMzNkMzg4NjI0YmFmYjAwZTMxNTBhN2FhM2E4OSIsCiAgInByb2ZpbGVOYW1lIiA6ICIwMDAwMDAwMDAwMDAwMDBKIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdiZjAxYzE5OGY2ZTE2OTY1ZTIzMDIzNWNkMjJhNWE5ZjRhNDBlNDA5NDEyMzQ0Nzg5NDhmZjlhNTZlNTE3NzUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd"
+	}
+}

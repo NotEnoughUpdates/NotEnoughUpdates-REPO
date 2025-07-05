@@ -1,12 +1,21 @@
 {
   "itemid": "minecraft:chicken",
   "displayname": "§aEnchanted Raw Chicken",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Raw Chicken\"},ExtraAttributes:{id:\"ENCHANTED_RAW_CHICKEN\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_RAW_CHICKEN\"},HideFlags:254,ItemModel:\"minecraft:chicken\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Raw Chicken\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7§8Collection Item",
+    "§8Collection Item",
     "",
     "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_RAW_CHICKEN",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Raw Chicken IV",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Raw_Chicken",
+    "https://wiki.hypixel.net/Enchanted_Raw_Chicken"
   ],
   "recipe": {
     "A1": "",
@@ -18,14 +27,5 @@
     "C1": "",
     "C2": "RAW_CHICKEN:32",
     "C3": ""
-  },
-  "internalname": "ENCHANTED_RAW_CHICKEN",
-  "clickcommand": "viewrecipe",
-  "modver": "2.2.2",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Raw_Chicken",
-    "https://wiki.hypixel.net/Enchanted_Raw_Chicken"
-  ],
-  "crafttext": "Requires: Raw Chicken IV"
+  }
 }

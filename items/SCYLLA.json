@@ -1,28 +1,36 @@
 {
   "itemid": "minecraft:iron_sword",
   "displayname": "§6Scylla",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Gear Score: §d617\",1:\"§7Damage: §c+320\",2:\"§7Strength: §c+150\",3:\"§7Crit Chance: §c+12%\",4:\"§7Crit Damage: §c+85%\",5:\"§7Intelligence: §a+50\",6:\"§7Ferocity: §a+30\",7:\" §8[§8⚔§8] §8[§8⚔§8]\",8:\"\",9:\"§7Deals §c+50% §7damage to Withers.\",10:\"§7Grants §c+1 §c❁ Damage §7and §a+1 §9☠ Crit\",11:\"§9Damage §7per §cCatacombs §7level.\",12:\"\",13:\"§eRight-click to use your class ability!\",14:\"\",15:\"§7§8This item can be reforged!\",16:\"§7§4❣ §cRequires §aThe Catacombs Floor\",17:\"§aVII Completion§c.\",18:\"§6§lLEGENDARY DUNGEON SWORD\"],Name:\"§6Scylla\"},ExtraAttributes:{id:\"SCYLLA\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SCYLLA\"},HideFlags:254,ItemModel:\"minecraft:iron_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Gear Score: §d527\",1:\"§7Damage: §c+270\",2:\"§7Strength: §c+150\",3:\"§7Crit Chance: §c+12%\",4:\"§7Crit Damage: §c+35%\",5:\"§7Intelligence: §a+50\",6:\"§7Ferocity: §a+30\",7:\" §8[⚔] [⚔]\",8:\"\",9:\"§7Deals §c+50% §7damage to Withers.\",10:\"§7Grants §c+1 ❁ Damage §7and §a+1 §9☠ Crit\",11:\"§9Damage §7per §cCatacombs §7level.\",12:\"\",13:\"§eRight-click to use your class ability!\",14:\"\",15:\"§8This item can be reforged!\",16:\"§4❣ §cRequires The Catacombs Floor VII Completion.\",17:\"§6§lLEGENDARY DUNGEON SWORD\"],Name:\"§6Scylla\"}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d617",
-    "§7Damage: §c+320",
+    "§7Gear Score: §d527",
+    "§7Damage: §c+270",
     "§7Strength: §c+150",
     "§7Crit Chance: §c+12%",
-    "§7Crit Damage: §c+85%",
+    "§7Crit Damage: §c+35%",
     "§7Intelligence: §a+50",
     "§7Ferocity: §a+30",
-    " §8[§8⚔§8] §8[§8⚔§8]",
+    " §8[⚔] [⚔]",
     "",
     "§7Deals §c+50% §7damage to Withers.",
-    "§7Grants §c+1 §c❁ Damage §7and §a+1 §9☠ Crit",
+    "§7Grants §c+1 ❁ Damage §7and §a+1 §9☠ Crit",
     "§9Damage §7per §cCatacombs §7level.",
     "",
     "§eRight-click to use your class ability!",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aThe Catacombs Floor",
-    "§aVII Completion§c.",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires The Catacombs Floor VII Completion.",
     "§6§lLEGENDARY DUNGEON SWORD"
+  ],
+  "internalname": "SCYLLA",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Scylla",
+    "https://wiki.hypixel.net/Scylla"
   ],
   "recipe": {
     "A1": "GIANT_FRAGMENT_BIGFOOT:1",
@@ -35,14 +43,5 @@
     "C2": "GIANT_FRAGMENT_BIGFOOT:1",
     "C3": "GIANT_FRAGMENT_BIGFOOT:1"
   },
-  "internalname": "SCYLLA",
-  "parent": "NECRON_BLADE",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Scylla",
-    "https://wiki.hypixel.net/Scylla"
-  ]
+  "parent": "NECRON_BLADE"
 }

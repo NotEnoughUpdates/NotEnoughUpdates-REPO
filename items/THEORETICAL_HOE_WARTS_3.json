@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:diamond_hoe",
   "displayname": "§9Newton Nether Warts Hoe",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\" §8[§8☘§8] §8[§8☘§8] §8[§8☘§8]\",1:\"\",2:\"§7Gain §6+50☘ Nether Wart Fortune §7and\",3:\"§7§3+3☯ Farming Wisdom §7for nether\",4:\"§7warts.\",5:\"\",6:\"§7Counter: §e0 Nether Warts\",7:\"\",8:\"§6Logarithmic Counter\",9:\"§7Gain §6+16☘ Nether Wart Fortune §7per\",10:\"§7digits on the Counter, minus 4!\",11:\"§7You have §6+0☘ Nether Wart Fortune§7.\",12:\"\",13:\"§6Collection Analysis\",14:\"§7Gain §6+8☘ Nether Wart Fortune §7per digits\",15:\"§7of your collection, minus 4!\",16:\"§7You have §6+0☘ Nether Wart Fortune§7.\",17:\"\",18:\"§7§8Bonus nether warts percent\",19:\"§8increases your Farmhand perk\u0027s\",20:\"§8chances.\",21:\"\",22:\"§eReach 100k Counter for +1 Rarity!\",23:\"\",24:\"§7§8This item can be reforged!\",25:\"§7§4❣ §cRequires §aFarming Skill 25§c.\",26:\"§9§lRARE HOE\"],Name:\"§9Newton Nether Warts Hoe\"},ExtraAttributes:{id:\"THEORETICAL_HOE_WARTS_3\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"THEORETICAL_HOE_WARTS_3\"},HideFlags:254,ItemModel:\"minecraft:diamond_hoe\",Unbreakable:1B,display:{Lore:[0:\" §8[☘] [☘] [☘]\",1:\"\",2:\"§7Gain §6+50☘ Nether Wart Fortune §7and\",3:\"§3+3☯ Farming Wisdom §7for nether\",4:\"§7warts.\",5:\"\",6:\"§7Counter: §e0 Nether Warts\",7:\"\",8:\"§6Logarithmic Counter\",9:\"§7Gain §6+16☘ Nether Wart Fortune §7per\",10:\"§7digits on the Counter, minus 4!\",11:\"§7You have §6+0☘ Nether Wart Fortune§7.\",12:\"\",13:\"§6Collection Analysis\",14:\"§7Gain §6+8☘ Nether Wart Fortune §7per digits\",15:\"§7of your collection, minus 4!\",16:\"§7You have §6+0☘ Nether Wart Fortune§7.\",17:\"\",18:\"§8Bonus nether warts percent\",19:\"§8increases your Farmhand perk's\",20:\"§8chances.\",21:\"\",22:\"§eReach 100k Counter for +1 Rarity!\",23:\"\",24:\"§8This item can be reforged!\",25:\"§4❣ §cRequires §aFarming Skill 25§c.\",26:\"§9§lRARE HOE\"],Name:\"§9Newton Nether Warts Hoe\"}}",
   "damage": 0,
   "lore": [
-    " §8[§8☘§8] §8[§8☘§8] §8[§8☘§8]",
+    " §8[☘] [☘] [☘]",
     "",
     "§7Gain §6+50☘ Nether Wart Fortune §7and",
-    "§7§3+3☯ Farming Wisdom §7for nether",
+    "§3+3☯ Farming Wisdom §7for nether",
     "§7warts.",
     "",
     "§7Counter: §e0 Nether Warts",
@@ -22,15 +22,24 @@
     "§7of your collection, minus 4!",
     "§7You have §6+0☘ Nether Wart Fortune§7.",
     "",
-    "§7§8Bonus nether warts percent",
-    "§8increases your Farmhand perk\u0027s",
+    "§8Bonus nether warts percent",
+    "§8increases your Farmhand perk's",
     "§8chances.",
     "",
     "§eReach 100k Counter for +1 Rarity!",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aFarming Skill 25§c.",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aFarming Skill 25§c.",
     "§9§lRARE HOE"
+  ],
+  "internalname": "THEORETICAL_HOE_WARTS_3",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Newton_Nether_Warts_Hoe",
+    "https://wiki.hypixel.net/Newton_Nether_Warts_Hoe"
   ],
   "recipe": {
     "A1": "JACOBS_TICKET:64",
@@ -42,14 +51,5 @@
     "C1": "JACOBS_TICKET:64",
     "C2": "MUTANT_NETHER_STALK:64",
     "C3": "JACOBS_TICKET:64"
-  },
-  "internalname": "THEORETICAL_HOE_WARTS_3",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Newton_Nether_Warts_Hoe",
-    "https://wiki.hypixel.net/Newton_Nether_Warts_Hoe"
-  ]
+  }
 }

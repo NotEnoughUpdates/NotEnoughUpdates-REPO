@@ -1,19 +1,24 @@
 {
   "itemid": "minecraft:coal_block",
   "displayname": "§fBlock of Coal",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Increases the speed of\",1:\"§7your minion by §a5%§7\",2:\"§7for 5 hours§7!\",3:\"\",4:\"§f§lCOMMON\"],Name:\"§fBlock of Coal\"},ExtraAttributes:{id:\"COAL_BLOCK\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"COAL_BLOCK\"},HideFlags:254,ItemModel:\"minecraft:coal_block\",display:{Lore:[0:\"§7Increases the speed of\",1:\"§7your minion by §a5%§7 for 5\",2:\"§7hours!\",3:\"\",4:\"§f§lCOMMON\"],Name:\"§fBlock of Coal\"}}",
   "damage": 0,
   "lore": [
     "§7Increases the speed of",
-    "§7your minion by §a5%§7",
-    "§7for 5 hours§7!",
+    "§7your minion by §a5%§7 for 5",
+    "§7hours!",
     "",
     "§f§lCOMMON"
   ],
   "internalname": "COAL_BLOCK",
-  "modver": "2.1.0-REL",
-  "vanilla": true,
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Block_Of_Coal"
+  ],
+  "vanilla": true,
   "recipe": {
     "A1": "COAL:1",
     "A2": "COAL:1",
@@ -24,10 +29,5 @@
     "C1": "COAL:1",
     "C2": "COAL:1",
     "C3": "COAL:1"
-  },
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://wiki.hypixel.net/Block_Of_Coal"
-  ]
+  }
 }

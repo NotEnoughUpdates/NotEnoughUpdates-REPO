@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Farm Crystal",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"d9c3168a-8654-3dd8-b297-4d3b7e55b95a\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDY2YTgyYWUxOTEwODNmODE3OGY0MjUwZjVlNzNlNDAwOGFiMDk4ZjBlZGUxYzBhZTVmNmE3ZjI2MTM2MzBjZiJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Can be placed on your private\",1:\"§7island. Increases the speed of\",2:\"§7nearby farming minions by §a10%§7.\",3:\"\",4:\"§7Effective Radius: §b8\",5:\"\",6:\"§9§lRARE\"],Name:\"§9Farm Crystal\"},ExtraAttributes:{id:\"FARM_CRYSTAL\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"FARM_CRYSTAL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"6cefc2ef-44c3-328c-a86a-ffe836b21c48\",Properties:{textures:[0:{Name:\"textures\",Signature:\"ciYYdydJBrGkKW9477bVNZbydUvEzKKJljU6V/bGOcvouY90PhIv9FacP9Mu9OHUsLW8DII2uTpGwMgJJbhp6K5i1sNMxdRAwaCTg0nMIY/Sp3T7HVL2DXtbWwJSJAk+sixcob/9ZEl2z1Gv4GpPfTLzbFvk4wCTmFG+XXLb4vwiuCc8+6xEl+kja8l+UaYWihdhP6e+d8BoGX1TueQF6f7cd0B3f7b/TruhIY8lYG5VCXv80zrcTtHuk+ODcK43SqB0NT6rnDu+Ua/TQN293jfmShtycH/vk37IAUor14Qkjp1Y5Ax0K4NOE/rPee241WjmPZECO1w48whgqHco1XVjPtAXi1VZtIlSPx1z6Vp/3gh91TPNMj8FMFnbo663pYVouS39poAE9z0iz9zQny4wBpGw0aAYOVVayiiRcf6SdqJKF79ysAfB5H7IJRDVnA9N2UYSsK5xP2e761Pht75pwz6FLLpOoDbD9bWotyM1+iWV8aYNsIRHQ2ei10/4f3BqiV916IDbRQIkRn6qhUf7QzazVbNL/jylsKq3dnNooRZo5HD2lV4jpirS10HgNXajC+t2+2SBORWXUN+vt1X3HJih7Irw09UVdEH1Z/R1OBJDQZiFO8CS0JJYtNxY9IQNOvCSjZiZy/ZFZU2YoLFHef0aZa9zkocj29OX3oo=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxOTQyMjU2NTE0MywKICAicHJvZmlsZUlkIiA6ICI1ODc5MjNlNDkxMzM0ZDMzYWE4ZjQ3ZWJkZTljOTc3MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbGV2ZW5mb3VyMTAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2MwMWNmOWI2NWQ0NTE4ZjU4MTU4MmEwYmE3MjA5NzNjNDg3ZjFkZTIxMDgwZmI2OTdjMWE1YzE1NDM5YzM3MyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Can be placed on your private\",1:\"§7island. Increases the speed of\",2:\"§7nearby farming minions by §a10%§7.\",3:\"\",4:\"§7Effective Radius: §b8\",5:\"\",6:\"§9§lRARE\"],Name:\"§9Farm Crystal\"}}",
   "damage": 3,
   "lore": [
     "§7Can be placed on your private",
@@ -11,6 +11,15 @@
     "§7Effective Radius: §b8",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "FARM_CRYSTAL",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Pumpkin VIII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Farm_Crystal",
+    "https://wiki.hypixel.net/Farm_Crystal"
   ],
   "recipe": {
     "A1": "ENCHANTED_PUMPKIN:12",
@@ -22,14 +31,5 @@
     "C1": "ENCHANTED_PUMPKIN:12",
     "C2": "ENCHANTED_PUMPKIN:12",
     "C3": "ENCHANTED_PUMPKIN:12"
-  },
-  "internalname": "FARM_CRYSTAL",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Farm_Crystal",
-    "https://wiki.hypixel.net/Farm_Crystal"
-  ],
-  "crafttext": "Requires: Pumpkin VIII"
+  }
 }

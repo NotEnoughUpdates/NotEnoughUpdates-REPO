@@ -1,17 +1,26 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Wisp Upgrade Stone",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"a5c7c987-5800-3105-b298-627c9b0b77dc\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NjYyODg3NTg1MywKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTRlYTBkZmI3OTRmZTliMzcyZjVlYzUyOWZjOGI4YTBmMDc3ZmViZjRiNzRmNzg5NzJmMGM4MmMzYzE4NjI0OCIKICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§8Consumed on use\",1:\"\",2:\"§7Upgrades a §aDroplet Wisp §7pet to a\",3:\"§7§9Frost Wisp §7pet, resetting its level.\",4:\"\",5:\"§7§eRight-click on your wisp to upgrade it!\",6:\"\",7:\"§9§lRARE\"],Name:\"§9Wisp Upgrade Stone\"},ExtraAttributes:{id:\"UPGRADE_STONE_FROST\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"UPGRADE_STONE_FROST\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"2dd298bc-3da0-3929-a8da-f5226feee02b\",Properties:{textures:[0:{Name:\"textures\",Signature:\"ErTKDoge5Q1119or/vtu6yNynd1TRZoZc6wpZvmNie6XiUYK05KDCtpNmAGR/n7X+cg46G0l2S1EN0GProDAqM7OXvAxRA9qPffacPo46AMkZ0lFVwxY6aNRPAMG4s0vDJms2QuYCngvJO9vibtF/paLzSIctKCaXNO9wENVuCOzh9syMxqbQim+TArOB2clKMudEEM0Me2knrue9OZl/ct+eau4diyx3Vk/4ybQedErQEvC7E0Ytu5faH92mSC63gvOdwEKPuUEmumVOJ3Ma9Gtcc0PqzGp/vAuR+I/nnW2nr++q4ocqpmwIJbk5YeRu1cSw0wdEyqrwAGOhFkgtQHKpPG9/zWPAgVAg0M9ZzSGIRTbs8rQpBMf8GbLSCq7TPbst4JFaPf80GZ6nfGdGD8DDyGjjS5WLb7Uu+uJZrv8RJqd4QIsSScvcfV8anKh8fZJquHmOzGzp+l9qIu+qpo6+fZkQZoDDxdCjyJAMhcKKoc/8UWo7Ir+Qb+nm9U3qnTabnlDK6Xz3wySXkTB/j3ULasYql5mPecCiguSzFV1Z0qJQ7psUbKUoXc1bC0gXuvFccCWZI2vqtHVX+GgKSZ+6tSP2wRsHQDHaGNhXBZV2O8ouV9ep/QxG43nUhqXuWHYGJSO4fOR55NHWS+jIvYFa0yqp7mdEK6eH11F/Os=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1OTgxNDk1MDQyNCwKICAicHJvZmlsZUlkIiA6ICJjMTNkYzkxZjg1YjA0ZWM4OGU2NDk5YzdjZDc4Zjk3MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJjYXNzdGhlY3J5cHRpZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81NGVhMGRmYjc5NGZlOWIzNzJmNWVjNTI5ZmM4YjhhMGYwNzdmZWJmNGI3NGY3ODk3MmYwYzgyYzNjMTg2MjQ4IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Consumed on use\",1:\"\",2:\"§7Upgrades a §aDroplet Wisp §7pet to a\",3:\"§9Frost Wisp §7pet, resetting its level.\",4:\"\",5:\"§eRight-click on your wisp to upgrade it!\",6:\"\",7:\"§9§lRARE\"],Name:\"§9Wisp Upgrade Stone\"}}",
   "damage": 3,
   "lore": [
     "§8Consumed on use",
     "",
     "§7Upgrades a §aDroplet Wisp §7pet to a",
-    "§7§9Frost Wisp §7pet, resetting its level.",
+    "§9Frost Wisp §7pet, resetting its level.",
     "",
-    "§7§eRight-click on your wisp to upgrade it!",
+    "§eRight-click on your wisp to upgrade it!",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "UPGRADE_STONE_FROST",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Wisp_Upgrade_Stone",
+    "https://wiki.hypixel.net/Wisp_Upgrade_Stone"
   ],
   "recipe": {
     "A1": "MOLTEN_POWDER:2",
@@ -24,14 +33,5 @@
     "C2": "ENCHANTED_PACKED_ICE:1",
     "C3": "MOLTEN_POWDER:2"
   },
-  "internalname": "UPGRADE_STONE_FROST",
-  "crafttext": "",
-  "clickcommand": "viewrecipe",
-  "slayer_req": "BLAZE_3",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Wisp_Upgrade_Stone",
-    "https://wiki.hypixel.net/Wisp_Upgrade_Stone"
-  ]
+  "slayer_req": "BLAZE_3"
 }

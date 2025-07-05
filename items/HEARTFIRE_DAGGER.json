@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:stone_sword",
   "displayname": "§6Pyrochaos Dagger",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+160\",1:\"§7Strength: §c+75\",2:\"§7Crit Chance: §c+10%\",3:\"§7Crit Damage: §c+25%\",4:\"§7Bonus Attack Speed: §c+20%\",5:\" §8[§8⚔§8] §8[§8❂§8]\",6:\"\",7:\"§7Deal §c2x §7damage to Blazes§7.\",8:\"§7Deal §c1.5x §7damage to Pigmen§7.\",9:\"§7§7Gain §3+45☯ Combat Wisdom§7 against\",10:\"§7Blazes.\",11:\" \",12:\"§6Ability: Attunement  §e§lRIGHT CLICK\",13:\"§7Swap between §8Ashen §7and §eAuric §7mode in order\",14:\"§7to attack through Hellion Shields.\",15:\" \",16:\"§7Attuned: §8Ashen\",17:\"\",18:\"§6Ability: Burning Vengeance ﬗ\",19:\"§7§7On hit, §crepeat §7dealt damage after §a6s\",20:\"§a§7if the Hellion Shield has switched\",21:\"§7attunement.\",22:\"\",23:\"§7§8This item can be reforged!\",24:\"§4☠ §cRequires §5Blaze Slayer 6§c.\",25:\"§6§lLEGENDARY SWORD\"],Name:\"§6Pyrochaos Dagger\"},ExtraAttributes:{id:\"HEARTFIRE_DAGGER\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"HEARTFIRE_DAGGER\"},HideFlags:254,ItemModel:\"minecraft:stone_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+160\",1:\"§7Strength: §c+75\",2:\"§7Crit Chance: §c+10%\",3:\"§7Crit Damage: §c+25%\",4:\"§7Bonus Attack Speed: §c+20%\",5:\" §8[⚔] [❂]\",6:\"\",7:\"§7Deal §c2x §7damage to Blazes.\",8:\"§7Deal §c1.5x §7damage to Pigmen.\",9:\"§7Gain §3+45☯ Combat Wisdom§7 against\",10:\"§7Blazes.\",11:\" \",12:\"§6Ability: Attunement  §e§lRIGHT CLICK\",13:\"§7Swap between §8Ashen §7and §eAuric §7mode in order\",14:\"§7to attack through Hellion Shields.\",15:\" \",16:\"§7Attuned: §8Ashen\",17:\"\",18:\"§6Ability: Burning Vengeance ﬗ\",19:\"§7On hit, §crepeat §7dealt damage after §a6s\",20:\"§7if the Hellion Shield has switched\",21:\"§7attunement.\",22:\"\",23:\"§8This item can be reforged!\",24:\"§4☠ §cRequires §5Blaze Slayer 6§c.\",25:\"§6§lLEGENDARY SWORD\"],Name:\"§6Pyrochaos Dagger\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+160",
@@ -9,11 +9,11 @@
     "§7Crit Chance: §c+10%",
     "§7Crit Damage: §c+25%",
     "§7Bonus Attack Speed: §c+20%",
-    " §8[§8⚔§8] §8[§8❂§8]",
+    " §8[⚔] [❂]",
     "",
-    "§7Deal §c2x §7damage to Blazes§7.",
-    "§7Deal §c1.5x §7damage to Pigmen§7.",
-    "§7§7Gain §3+45☯ Combat Wisdom§7 against",
+    "§7Deal §c2x §7damage to Blazes.",
+    "§7Deal §c1.5x §7damage to Pigmen.",
+    "§7Gain §3+45☯ Combat Wisdom§7 against",
     "§7Blazes.",
     " ",
     "§6Ability: Attunement  §e§lRIGHT CLICK",
@@ -23,13 +23,22 @@
     "§7Attuned: §8Ashen",
     "",
     "§6Ability: Burning Vengeance ﬗ",
-    "§7§7On hit, §crepeat §7dealt damage after §a6s",
-    "§a§7if the Hellion Shield has switched",
+    "§7On hit, §crepeat §7dealt damage after §a6s",
+    "§7if the Hellion Shield has switched",
     "§7attunement.",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§4☠ §cRequires §5Blaze Slayer 6§c.",
     "§6§lLEGENDARY SWORD"
+  ],
+  "internalname": "HEARTFIRE_DAGGER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Blaze Slayer 6",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Pyrochaos_Dagger",
+    "https://wiki.hypixel.net/Pyrochaos_Dagger"
   ],
   "recipe": {
     "A1": "",
@@ -42,14 +51,5 @@
     "C2": "BURSTFIRE_DAGGER:1",
     "C3": "INFERNO_VERTEX:8"
   },
-  "internalname": "HEARTFIRE_DAGGER",
-  "slayer_req": "BLAZE_6",
-  "crafttext": "Requires: Blaze Slayer 6",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Pyrochaos_Dagger",
-    "https://wiki.hypixel.net/Pyrochaos_Dagger"
-  ]
+  "slayer_req": "BLAZE_6"
 }

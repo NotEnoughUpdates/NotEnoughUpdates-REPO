@@ -1,10 +1,21 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§6Gold Magmafish",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"edbf34fa-0f64-320c-89f8-7729309aaadd\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0MjQ4ODAzNzQ1NywKICAicHJvZmlsZUlkIiA6ICJmY2U2MjNhMDYwNWY0YzJmYTg0Zjk3Yjc3ODYwYTNjMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJQcnJpbnQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTMyNGVkYTZhZjg1ZTUwZjM1MTgwNjA3MzQxNzI4ZmY5MGZhZWExNDY1YmU1N2E2MjQyYzZkZWE2M2FhM2YyOCIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§6§lLEGENDARY\"],Name:\"§6Gold Magmafish\"},ExtraAttributes:{id:\"MAGMA_FISH_GOLD\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"MAGMA_FISH_GOLD\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"63532891-290c-3293-9265-2c5792f69177\",Properties:{textures:[0:{Name:\"textures\",Signature:\"XK/rf+ZYlx03/yGtphZFHRtMyk0b7RADZ2Oye8AQYdK5GHGra4H7odYTVHQpAk7KsEj5EmSoVdI/p11vvvdp8wPbzrYmpsVgq2bs4ns/tNuOisFsUhVvO8Cf45MiUGK6sNWqnlf0qBFwpebWcNBNOrMYJuyrAdJftkoS8QwoPqTXS+UmTrT3LhCmG0lNpyLGjbBeM/veNinx/kH6STVm8mZsBtkdAWEtMoTMdijkn35WfY2RklrA4l6XDCI1/hlGR6DbajIaWw0m8W2LsDNzXcVmtmaRqqN0x2os9lsFlWIM9JZ54djvvKxsKugVAxvI1VpLngbEXL9cb+p/n1EKGn42VBgrebm18TR2gYUt66TJD4agXD1fTRatgvzF1iZ/cSLTE+kbpF89OaIdvxhW1k4BHeVRoh1VYd/QPgr6KTz91a2TnhDm5YPsCuwc9n4Pb7u1Bk6P5Mq3YQvtPDSv1H6CxjAb/EcRQnJRJjHMFKXwylS/89Ja1D0Pbf1OkXUfmqqdB4gRStDmImISewUkzcyovFD/y/R9C6Q4/OkzsiAd/ljAB6bMpRu65n0cf9CWczGLvirncXXVtltSEuzFC5eNOq8mL/41IumPw/QdEMSECINA8qDkz6QWfT6hZVn0ZEMyxRXhmVlDK8BEL+uGb9CAX27B+R/A2ZAHKoUNRZg=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0MjQ4ODAzNzQ1NywKICAicHJvZmlsZUlkIiA6ICJmY2U2MjNhMDYwNWY0YzJmYTg0Zjk3Yjc3ODYwYTNjMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJQcnJpbnQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTMyNGVkYTZhZjg1ZTUwZjM1MTgwNjA3MzQxNzI4ZmY5MGZhZWExNDY1YmU1N2E2MjQyYzZkZWE2M2FhM2YyOCIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§6§lLEGENDARY\"],Name:\"§6Gold Magmafish\"}}",
   "damage": 3,
   "lore": [
+    "§8Collection Item",
+    "",
     "§6§lLEGENDARY"
+  ],
+  "internalname": "MAGMA_FISH_GOLD",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Magmafish VII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Gold_Magmafish",
+    "https://wiki.hypixel.net/Gold_Magmafish"
   ],
   "recipe": {
     "A1": "",
@@ -16,14 +27,5 @@
     "C1": "",
     "C2": "MAGMA_FISH_SILVER:16",
     "C3": ""
-  },
-  "internalname": "MAGMA_FISH_GOLD",
-  "crafttext": "Requires: Magmafish VII",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Gold_Magmafish",
-    "https://wiki.hypixel.net/Gold_Magmafish"
-  ]
+  }
 }

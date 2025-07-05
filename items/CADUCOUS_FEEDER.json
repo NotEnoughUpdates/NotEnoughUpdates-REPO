@@ -1,17 +1,26 @@
 {
   "itemid": "minecraft:bowl",
   "displayname": "§9Caducous Feeder",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Use on a pet to consume an §6Ultimate\",1:\"§6Carrot Candy §7and grant it §a1,650,000\",2:\"§a§7pet Exp.\",3:\"\",4:\"§7Has §e2 charges§7, reloading after §a20h§7.\",5:\"\",6:\"§5§kX§5 Rift-Transferable §kX\",7:\"§9§lRARE\"],Name:\"§9Caducous Feeder\"},ExtraAttributes:{id:\"CADUCOUS_FEEDER\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"CADUCOUS_FEEDER\"},HideFlags:254,ItemModel:\"minecraft:bowl\",display:{Lore:[0:\"§7Use on a pet to consume an §6Ultimate\",1:\"§6Carrot Candy §7and grant it §a1,650,000\",2:\"§7pet Exp.\",3:\"\",4:\"§7Has §e2 charges§7, reloading after §a20h§7.\",5:\"\",6:\"§5§kX§5 Rift-Transferable §r§kX\",7:\"§9§lRARE\"],Name:\"§9Caducous Feeder\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§7Use on a pet to consume an §6Ultimate",
     "§6Carrot Candy §7and grant it §a1,650,000",
-    "§a§7pet Exp.",
+    "§7pet Exp.",
     "",
     "§7Has §e2 charges§7, reloading after §a20h§7.",
     "",
-    "§5§kX§5 Rift-Transferable §kX",
+    "§5§kX§5 Rift-Transferable §r§kX",
     "§9§lRARE"
+  ],
+  "internalname": "CADUCOUS_FEEDER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Caducous Stem IV",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Caducous_Feeder",
+    "https://wiki.hypixel.net/Caducous_Feeder"
   ],
   "recipe": {
     "A1": "CADUCOUS_STEM:64",
@@ -23,14 +32,5 @@
     "C1": "CADUCOUS_STEM:64",
     "C2": "CADUCOUS_STEM:64",
     "C3": "CADUCOUS_STEM:64"
-  },
-  "internalname": "CADUCOUS_FEEDER",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "Requires: Caducous Stem IV",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Caducous_Feeder",
-    "https://wiki.hypixel.net/Caducous_Feeder"
-  ]
+  }
 }

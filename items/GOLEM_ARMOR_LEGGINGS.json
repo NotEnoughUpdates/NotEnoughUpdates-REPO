@@ -1,19 +1,27 @@
 {
   "itemid": "minecraft:iron_leggings",
   "displayname": "§9Golem Armor Leggings",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Health: §a+55\",1:\"§7Defense: §a+75\",2:\"\",3:\"§6Full Set Bonus: Absorption\",4:\"§7Grants the wearer §aAbsorption\",5:\"§a3§7 for §a20 seconds§7 when they\",6:\"§7kill an enemy.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§9§lRARE LEGGINGS\"],Name:\"§9Golem Armor Leggings\"},ExtraAttributes:{id:\"GOLEM_ARMOR_LEGGINGS\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"GOLEM_ARMOR_LEGGINGS\"},HideFlags:254,ItemModel:\"minecraft:iron_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+55\",1:\"§7Defense: §a+75\",2:\"\",3:\"§6Full Set Bonus: Absorption §7(0/4)\",4:\"§7Grants the wearer §aAbsorption 3§7 for\",5:\"§a20 seconds§7 when they kill an enemy.\",6:\"\",7:\"§8This item can be reforged!\",8:\"§9§lRARE LEGGINGS\"],Name:\"§9Golem Armor Leggings\"}}",
   "damage": 0,
   "lore": [
     "§7Health: §a+55",
     "§7Defense: §a+75",
     "",
-    "§6Full Set Bonus: Absorption",
-    "§7Grants the wearer §aAbsorption",
-    "§a3§7 for §a20 seconds§7 when they",
-    "§7kill an enemy.",
+    "§6Full Set Bonus: Absorption §7(0/4)",
+    "§7Grants the wearer §aAbsorption 3§7 for",
+    "§a20 seconds§7 when they kill an enemy.",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§9§lRARE LEGGINGS"
+  ],
+  "internalname": "GOLEM_ARMOR_LEGGINGS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Iron Ingot VI",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Golem_Armor_Leggings",
+    "https://wiki.hypixel.net/Golem_Armor_Leggings"
   ],
   "recipe": {
     "A1": "ENCHANTED_IRON:10",
@@ -25,14 +33,5 @@
     "C1": "ENCHANTED_IRON:10",
     "C2": "",
     "C3": "ENCHANTED_IRON:10"
-  },
-  "internalname": "GOLEM_ARMOR_LEGGINGS",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Golem_Armor_Leggings",
-    "https://wiki.hypixel.net/Golem_Armor_Leggings"
-  ],
-  "crafttext": "Requires: Iron Ingot VI"
+  }
 }

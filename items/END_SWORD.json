@@ -1,20 +1,26 @@
 {
   "itemid": "minecraft:diamond_sword",
   "displayname": "§aEnd Sword",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+35\",1:\"\",2:\"§7Deals §a+100% §7damage to §7Endermites§7,\",3:\"§7§7Endermen§7, and §7Ender Dragons§7.\",4:\"\",5:\"§7§8This item can be reforged!\",6:\"§a§lUNCOMMON SWORD\"],Name:\"§aEnd Sword\"},ExtraAttributes:{id:\"END_SWORD\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"END_SWORD\"},HideFlags:254,ItemModel:\"minecraft:diamond_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+35\",1:\"\",2:\"§7Deals §a+100% §7damage to Ender\",3:\"§7Dragons, Endermites, and Endermen.\",4:\"\",5:\"§8This item can be reforged!\",6:\"§a§lUNCOMMON SWORD\"],Name:\"§aEnd Sword\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+35",
     "",
-    "§7Deals §a+100% §7damage to §7Endermites§7,",
-    "§7§7Endermen§7, and §7Ender Dragons§7.",
+    "§7Deals §a+100% §7damage to Ender",
+    "§7Dragons, Endermites, and Endermen.",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§a§lUNCOMMON SWORD"
   ],
   "internalname": "END_SWORD",
-  "crafttext": "",
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/End_Sword",
+    "https://wiki.hypixel.net/End_Sword"
+  ],
   "recipe": {
     "A1": "",
     "A2": "ENDER_PEARL:1",
@@ -25,11 +31,5 @@
     "C1": "",
     "C2": "STICK:1",
     "C3": ""
-  },
-  "modver": "2.5.0",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/End_Sword",
-    "https://wiki.hypixel.net/End_Sword"
-  ]
+  }
 }

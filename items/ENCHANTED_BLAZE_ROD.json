@@ -1,13 +1,22 @@
 {
   "itemid": "minecraft:blaze_rod",
   "displayname": "§aEnchanted Blaze Rod",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7§8Brewing Ingredient\",1:\"§7§8Collection Item\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Blaze Rod\"},ExtraAttributes:{id:\"ENCHANTED_BLAZE_ROD\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_BLAZE_ROD\"},HideFlags:254,ItemModel:\"minecraft:blaze_rod\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§8Collection Item\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Blaze Rod\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7§8Brewing Ingredient",
-    "§7§8Collection Item",
+    "§8Brewing Ingredient",
+    "§8Collection Item",
     "",
     "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_BLAZE_ROD",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Blaze Rod VII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Blaze_Rod",
+    "https://wiki.hypixel.net/Enchanted_Blaze_Rod"
   ],
   "recipe": {
     "A1": "",
@@ -19,14 +28,5 @@
     "C1": "",
     "C2": "ENCHANTED_BLAZE_POWDER:32",
     "C3": ""
-  },
-  "internalname": "ENCHANTED_BLAZE_ROD",
-  "clickcommand": "viewrecipe",
-  "modver": "2.2.2",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Blaze_Rod",
-    "https://wiki.hypixel.net/Enchanted_Blaze_Rod"
-  ],
-  "crafttext": "Requires: Blaze Rod VII"
+  }
 }
