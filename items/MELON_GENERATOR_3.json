@@ -1,19 +1,29 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Melon Minion III",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"57e3aae0-705b-3f5d-885f-5471d4f0b98a\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzY4MjM5ODQsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWVkNzYyYTFiMWJmMGM4MTFhNmNjNjI3NDI1MjY4NDBlOGViM2MwMWZjODZjYzVhZmVkODllYzliZWViNTMwZSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and harvesting\",2:\"§7melons! Requires an open area to\",3:\"§7place melons. Minions also work\",4:\"§7when you are offline!\",5:\"\",6:\"§7Time Between Actions: §a22.5s\",7:\"§7Max Storage: §e192\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Melon Minion III\"},ExtraAttributes:{id:\"MELON_GENERATOR_3\",generator_tier:3}}",
+  "nbttag": "{ExtraAttributes:{id:\"MELON_GENERATOR_3\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"57e3aae0-705b-3f5d-885f-5471d4f0b98a\",Properties:{textures:[0:{Name:\"textures\",Signature:\"cgPc8YFK/eDRJ+J6jeZGRNOAjkzdVXHTsp4gsLCFFU2wZcZWTKymL7BGL/j7Q0emsFPzdtaDhcNG32d7axk2KN7CC5a2GMPfbI/LNq4jDCITyW1B4WRNr1yH6/q+w/6R45+6d4M3Q+A9Ok2Ox8MXq9iG9UMj1/VWNg1nTRmsq6bG9hr2B14ve8ucRMXuWnqSeQsbEz6ig/xkquXjcMRMY5izkAiq3Yt5Mzod9x+tKlIuzj2n6PB1dP4FmQOebJ/fbdvUqfeQ3sCeW/WD1nlGeLXc9c2Y07I87MYAQcurV30gC6liNHId9asWLHQV3ogME3/RFygjO800Hq5ns+AtzJ4SNKlqA9pjaWb9Aibv6vq69x+oFipt7yQFWQjW/eFVLf035Trd4RCl8pdegJ8Z/9pI1ZWGC6ewZuH2C006BkYjxX/Kb9V2mF1MvrkN4T5pQUgrt1lVb9JDZj7BcveCagcXhSSxFI4q9Aa9owsT1sMFJ5wAL/XllDrH+MfCP3QSlcMEIkac0Yl35SUYmPEBe6rlvAZeJ3hiLSl8w8r0Fd3PV/YsgIhXI+Per3B5RtSz/+Xg6n9Wu4hxS96/M7aDp1Q1djj6oVXIjCdc0RvtqG3ZAZ2NbwuiGwxKsa8f59mHyTEXx/ZGP/xC4PlEVqnt3Q60MBlR4awgjuy6Fi1NXd4=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzY4MjM5ODQsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWVkNzYyYTFiMWJmMGM4MTFhNmNjNjI3NDI1MjY4NDBlOGViM2MwMWZjODZjYzVhZmVkODllYzliZWViNTMwZSJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and harvesting melons!\",2:\"§7Requires an open area to place\",3:\"§7melons. Minions also work when you\",4:\"§7are offline!\",5:\"\",6:\"§7Time Between Actions: §a22.5s\",7:\"§7Max Storage: §e192\",8:\"§7Resources Generated: §b0\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Melon Minion III\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and harvesting",
-    "§7melons! Requires an open area to",
-    "§7place melons. Minions also work",
-    "§7when you are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and harvesting melons!",
+    "§7Requires an open area to place",
+    "§7melons. Minions also work when you",
+    "§7are offline!",
     "",
     "§7Time Between Actions: §a22.5s",
     "§7Max Storage: §e192",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "MELON_GENERATOR_3",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Melon I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Melon_Minion",
+    "https://wiki.hypixel.net/Melon_Minion_III"
   ],
   "recipe": {
     "A1": "MELON_BLOCK:16",
@@ -26,14 +36,5 @@
     "C2": "MELON_BLOCK:16",
     "C3": "MELON_BLOCK:16"
   },
-  "internalname": "MELON_GENERATOR_3",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Melon_Minion",
-    "https://wiki.hypixel.net/Melon_Minion_III"
-  ],
-  "crafttext": "Requires: Melon I"
+  "useneucraft": true
 }

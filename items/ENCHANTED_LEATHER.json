@@ -1,12 +1,21 @@
 {
   "itemid": "minecraft:leather",
   "displayname": "§aEnchanted Leather",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Leather\"},ExtraAttributes:{id:\"ENCHANTED_LEATHER\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_LEATHER\"},HideFlags:254,ItemModel:\"minecraft:leather\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Leather\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7§8Collection Item",
+    "§8Collection Item",
     "",
     "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_LEATHER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Leather VI",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Leather",
+    "https://wiki.hypixel.net/Enchanted_Leather"
   ],
   "recipe": {
     "A1": "LEATHER:64",
@@ -18,14 +27,5 @@
     "C1": "LEATHER:64",
     "C2": "LEATHER:64",
     "C3": "LEATHER:64"
-  },
-  "internalname": "ENCHANTED_LEATHER",
-  "clickcommand": "viewrecipe",
-  "modver": "2.2.2",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Leather",
-    "https://wiki.hypixel.net/Enchanted_Leather"
-  ],
-  "crafttext": "Requires: Leather VI"
+  }
 }

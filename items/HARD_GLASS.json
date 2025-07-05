@@ -1,13 +1,22 @@
 {
   "itemid": "minecraft:stained_glass",
   "displayname": "§fHard Glass",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Special hardened glass which\",1:\"§7doesn't break to explosions.\",2:\"\",3:\"§f§lCOMMON\"],Name:\"§fHard Glass\"},ExtraAttributes:{id:\"HARD_GLASS\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"HARD_GLASS\"},HideFlags:254,ItemModel:\"minecraft:gray_stained_glass\",display:{Lore:[0:\"§7Special hardened glass which\",1:\"§7doesn't break to explosions.\",2:\"\",3:\"§f§lCOMMON\"],Name:\"§fHard Glass\"}}",
   "damage": 7,
   "lore": [
     "§7Special hardened glass which",
     "§7doesn't break to explosions.",
     "",
     "§f§lCOMMON"
+  ],
+  "internalname": "HARD_GLASS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Sand VII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Hard_Glass",
+    "https://wiki.hypixel.net/Hard_Glass"
   ],
   "recipe": {
     "A1": "COAL:1",
@@ -19,14 +28,5 @@
     "C1": "COAL:1",
     "C2": "COAL:1",
     "C3": "COAL:1"
-  },
-  "internalname": "HARD_GLASS",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Hard_Glass",
-    "https://wiki.hypixel.net/Hard_Glass"
-  ],
-  "crafttext": "Requires: Sand VII"
+  }
 }

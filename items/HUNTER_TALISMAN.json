@@ -1,16 +1,22 @@
 {
-  "internalname": "HUNTER_TALISMAN",
   "itemid": "minecraft:skull",
   "displayname": "§aHunter Talisman",
-  "clickcommand": "viewrecipe",
+  "nbttag": "{ExtraAttributes:{id:\"HUNTER_TALISMAN\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"448b29a3-1d0b-3597-b5b3-12cd4a1ad98e\",Properties:{textures:[0:{Name:\"textures\",Signature:\"erATktzZBTnhIg+mKVkvksyf2srXlifchyYllH10vwh/k8XK/YfC4DQYcIIMRjqo0Q169lwof8UHegP46SvbBbC4eKVQAj9ixZUD5darggSZ1upg2xkVG0EEqsCS1ptbjqSLM24basJPDTYxcH9PQLxAV52w9PfgB9DPMG/smwRFEttqMmPu4KHUGEjp4UCGsFC1SEv4lWVJaXDDnp4Fw4MzhSgUFLcQ9KUixn0fcUFbeuBHTxnkHXdDQHy78w0UapFLA9E0F6KZBcLm4uAl7VtpwxmnAs2hLSwkbZr1kzIJ1Dnm88RD9X6B4q9Z9YqEti36Mz3yv9lqHbIrnKUvqnmPgBgVmhhQCJlKCJsQXBzdas1MeDTHDq4POM9AFaKGwnL+AoflSoU3K4HiQ7Fyc4MH21090G00tHD7v1s/0AnHpela2KFUyLpd9xFOcadB3l/mUk3ixDBydm9st9HkX3EfIRn+g0UUg7M2oeCuiDOAUwhAkVcefxazGYytsDkQAteIzjU5YnlDrUhhaV0cZWfQf4yOx4ws7l9KI2RiV3FQR1KfT0JH1oJ1Ylye5Th6EXsjmtTshJJA8SXhx2NZfzjwpYyfUzFs+ZL6qVwAqfv8RI/oxFG63zJFPU0dKU1Kh1Uk4Hz6i7WYe1NQBqFQm/32T/RuqZxeDgpmnIOMA5E=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwMjAzODk5NzYxNCwKICAicHJvZmlsZUlkIiA6ICJhNzFjNTQ5MmQwNTE0ZDg3OGFiOTEwZmRmZmRmYzgyZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcHBsZTU0NDciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWM1NzdlN2QzMWU1ZTA0YzJjZTcxZTEzZTM5NjIxOTJkODBiZDU0YjU1ZWZhYWNhYWVhMTI5NjZmZTI3YmY5IgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Combat Wisdom: §a+2\",1:\"\",2:\"§4☠ §cRequires §5Wolf Slayer 7§c.\",3:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aHunter Talisman\"}}",
   "damage": 3,
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"5eac7b84-83f3-30d4-9c4c-2fa242f0ac1d\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1Njk2MDc1Mzc1MTUsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVjNTc3ZTdkMzFlNWUwNGMyY2U3MWUxM2UzOTYyMTkyZDgwYmQ1NGI1NWVmYWFjYWFlYTEyOTY2ZmUyN2JmOSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Combat Wisdom: §a+2\",1:\"\",2:\"§7§4☠ §cRequires §5Wolf Slayer 7§c.\",3:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aHunter Talisman\"},ExtraAttributes:{modifier:\"hurtful\",id:\"HUNTER_TALISMAN\"}}",
-  "modver": "2.1.0-REL",
   "lore": [
     "§7Combat Wisdom: §a+2",
     "",
-    "§7§4☠ §cRequires §5Wolf Slayer 7§c.",
+    "§4☠ §cRequires §5Wolf Slayer 7§c.",
     "§a§lUNCOMMON ACCESSORY"
+  ],
+  "internalname": "HUNTER_TALISMAN",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Wolf Slayer 7",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Hunter_Talisman",
+    "https://wiki.hypixel.net/Hunter_Talisman"
   ],
   "recipe": {
     "A1": "GOLDEN_TOOTH:8",
@@ -23,11 +29,5 @@
     "C2": "GOLDEN_TOOTH:8",
     "C3": "GOLDEN_TOOTH:8"
   },
-  "slayer_req": "WOLF_7",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Hunter_Talisman",
-    "https://wiki.hypixel.net/Hunter_Talisman"
-  ],
-  "crafttext": "Requires: Wolf Slayer 7"
+  "slayer_req": "WOLF_7"
 }

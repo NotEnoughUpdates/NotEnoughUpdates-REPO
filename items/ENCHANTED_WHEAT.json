@@ -1,12 +1,21 @@
 {
   "itemid": "minecraft:wheat",
   "displayname": "§aEnchanted Wheat",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Wheat\"},ExtraAttributes:{id:\"ENCHANTED_WHEAT\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_WHEAT\"},HideFlags:254,ItemModel:\"minecraft:wheat\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Wheat\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7§8Collection Item",
+    "§8Collection Item",
     "",
     "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_WHEAT",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Wheat V",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Wheat",
+    "https://wiki.hypixel.net/Enchanted_Wheat"
   ],
   "recipe": {
     "A1": "",
@@ -18,14 +27,5 @@
     "C1": "",
     "C2": "WHEAT:32",
     "C3": ""
-  },
-  "internalname": "ENCHANTED_WHEAT",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "crafttext": "Requires: Wheat V",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Wheat",
-    "https://wiki.hypixel.net/Enchanted_Wheat"
-  ]
+  }
 }

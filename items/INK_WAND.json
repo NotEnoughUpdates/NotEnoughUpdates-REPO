@@ -1,21 +1,29 @@
 {
   "itemid": "minecraft:stick",
   "displayname": "§5Ink Wand",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Damage: §c+130\",1:\"§7Strength: §c+90\",2:\"\",3:\"§6Ability: Ink Bomb §e§lRIGHT CLICK\",4:\"§7Shoot an ink bomb in front of\",5:\"§7you dealing §a10,000 §7damage\",6:\"§7and giving blindness!\",7:\"§8Mana Cost: §360\",8:\"§8Cooldown: §a30s\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§5§lEPIC SWORD\"],Name:\"§5Ink Wand\"},ExtraAttributes:{id:\"INK_WAND\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"INK_WAND\"},HideFlags:254,ItemModel:\"minecraft:stick\",display:{Lore:[0:\"§7Damage: §c+130\",1:\"§7Strength: §c+90\",2:\"\",3:\"§6Ability: Ink Bomb  §e§lRIGHT CLICK\",4:\"§7Shoot an ink bomb in front of you dealing\",5:\"§a10,150.5 §7damage and giving blindness!\",6:\"§8Mana Cost: §360\",7:\"§8Cooldown: §a30s\",8:\"\",9:\"§8This item can be reforged!\",10:\"§5§lEPIC SWORD\"],Name:\"§5Ink Wand\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+130",
     "§7Strength: §c+90",
     "",
-    "§6Ability: Ink Bomb §e§lRIGHT CLICK",
-    "§7Shoot an ink bomb in front of",
-    "§7you dealing §a10,000 §7damage",
-    "§7and giving blindness!",
+    "§6Ability: Ink Bomb  §e§lRIGHT CLICK",
+    "§7Shoot an ink bomb in front of you dealing",
+    "§a10,150.5 §7damage and giving blindness!",
     "§8Mana Cost: §360",
     "§8Cooldown: §a30s",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§5§lEPIC SWORD"
+  ],
+  "internalname": "INK_WAND",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Ink Sac IX",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Ink_Wand",
+    "https://wiki.hypixel.net/Ink_Wand"
   ],
   "recipe": {
     "A1": "",
@@ -27,14 +35,5 @@
     "C1": "",
     "C2": "STICK:1",
     "C3": ""
-  },
-  "internalname": "INK_WAND",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Ink_Wand",
-    "https://wiki.hypixel.net/Ink_Wand"
-  ],
-  "crafttext": "Requires: Ink Sac IX"
+  }
 }

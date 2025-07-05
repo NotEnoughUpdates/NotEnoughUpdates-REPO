@@ -1,19 +1,29 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9End Stone Minion I",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"13276fea-088f-32f2-bf79-a3201607ec56\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NjM5ODE2MjkxODksInByb2ZpbGVJZCI6IjgyYzYwNmM1YzY1MjRiNzk4YjkxYTEyZDNhNjE2OTc3IiwicHJvZmlsZU5hbWUiOiJOb3ROb3RvcmlvdXNOZW1vIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83OTk0YmUzZGNmYmI0ZWQwYTVhNzQ5NWI3MzM1YWYxYTNjZWQwYjU4ODhiNTAwNzI4NmE3OTA3NjdjM2I1N2U2In19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and mining end\",2:\"§7stone! Requires an open area to\",3:\"§7place end stone. Minions also\",4:\"§7work when you are offline!\",5:\"\",6:\"§7Time Between Actions: §a26s\",7:\"§7Max Storage: §e64\",8:\"\",9:\"§9§lRARE\"],Name:\"§9End Stone Minion I\"},ExtraAttributes:{id:\"ENDER_STONE_GENERATOR_1\",generator_tier:1}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENDER_STONE_GENERATOR_1\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"13276fea-088f-32f2-bf79-a3201607ec56\",Properties:{textures:[0:{Name:\"textures\",Signature:\"Gd/WyrF0rdsgRpRnTE9MUicEo3TqZiJqZ0Gn7GGx88SL+oXrnHiq7Xl09ntz5Wqz6DGovjUosuYy5hs1/X+yL5tmc9PbNXczhKbg0T30LzcyXmixe4DjnR1zA2BanxYdoJXONWFHSOlItQi6P6dDhOU1xm22ciCFGWeOM7LXKorEEDcx9CULgLRCaAq+U+yxjjM9Zqu1NAYQKndAWprR9+m1XD8kTTozCwHeXglHfI4lLm/ofnwfQY9+MHim7TbENgM6bXDX/3tiu2X3LzP4C27lHzpj+TP8LH6dGZ33A/qJJSPYha3UWeZsd095SijfbT3pIWCwcMpT4IWHebUy2JrczaLHT5uu8gh6ArwM2KUZwJaKRsqfHq/OlwmwKeD5/qGfQLCpz0GXkaZpo17stjZ3UAG3UvFPS1ArgrdvxrSPcRXGFeyB/Ge9R8r97IJwYyt199P+I+GSX7HxFYP0bE48fJm9oqFW9nbTHirQgbqpBkf3FFe+yGROTlf9+zYoDzLiuHBRMbDh7tP0vVIIgViShyeVPEb2o9CTcgpse897DNEfh4nrRVAk8ZEUikvk71XX7jk6yu2T6NbtSngXx7tsjJDiSHWygOn2S/7qk7BECCilWaeel+PFPAXanDpBcTQQysNgRH/hRqpHDYP7/eRweNM/QhYmyP1UgnB/hKk=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NjM5ODE2MjkxODksInByb2ZpbGVJZCI6IjgyYzYwNmM1YzY1MjRiNzk4YjkxYTEyZDNhNjE2OTc3IiwicHJvZmlsZU5hbWUiOiJOb3ROb3RvcmlvdXNOZW1vIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83OTk0YmUzZGNmYmI0ZWQwYTVhNzQ5NWI3MzM1YWYxYTNjZWQwYjU4ODhiNTAwNzI4NmE3OTA3NjdjM2I1N2U2In19fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and mining end stone!\",2:\"§7Requires an open area to place end\",3:\"§7stone. Minions also work when you\",4:\"§7are offline!\",5:\"\",6:\"§7Time Between Actions: §a26s\",7:\"§7Max Storage: §e64\",8:\"§7Resources Generated: §b0\",9:\"\",10:\"§9§lRARE\"],Name:\"§9End Stone Minion I\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and mining end",
-    "§7stone! Requires an open area to",
-    "§7place end stone. Minions also",
-    "§7work when you are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and mining end stone!",
+    "§7Requires an open area to place end",
+    "§7stone. Minions also work when you",
+    "§7are offline!",
     "",
     "§7Time Between Actions: §a26s",
     "§7Max Storage: §e64",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "ENDER_STONE_GENERATOR_1",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: End Stone I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/End_Stone_Minion",
+    "https://wiki.hypixel.net/End_Stone_Minion_I"
   ],
   "recipe": {
     "A1": "ENDER_STONE:10",
@@ -26,14 +36,5 @@
     "C2": "ENDER_STONE:10",
     "C3": "ENDER_STONE:10"
   },
-  "internalname": "ENDER_STONE_GENERATOR_1",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/End_Stone_Minion",
-    "https://wiki.hypixel.net/End_Stone_Minion_I"
-  ],
-  "crafttext": "Requires: End Stone I"
+  "useneucraft": true
 }

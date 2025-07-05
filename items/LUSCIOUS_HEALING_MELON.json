@@ -1,15 +1,24 @@
 {
   "itemid": "minecraft:melon",
   "displayname": "§6Luscious Healing Melon",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§6Ability: Succulence  §e§lRIGHT CLICK\",1:\"§7Take a bite and heal §c12❤§7.\",2:\"§8Mana Cost: §350\",3:\"\",4:\"§7§4☠ §cRequires §5Vampire Slayer 4§c.\",5:\"§6§lLEGENDARY\"],Name:\"§6Luscious Healing Melon\"},ExtraAttributes:{id:\"LUSCIOUS_HEALING_MELON\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"LUSCIOUS_HEALING_MELON\"},HideFlags:254,ItemModel:\"minecraft:melon_slice\",display:{Lore:[0:\"§6Ability: Succulence  §e§lRIGHT CLICK\",1:\"§7Take a bite and heal §c12❤§7.\",2:\"§8Mana Cost: §350\",3:\"\",4:\"§4☠ §cRequires §5Vampire Slayer 4§c.\",5:\"§6§lLEGENDARY\"],Name:\"§6Luscious Healing Melon\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§6Ability: Succulence  §e§lRIGHT CLICK",
     "§7Take a bite and heal §c12❤§7.",
     "§8Mana Cost: §350",
     "",
-    "§7§4☠ §cRequires §5Vampire Slayer 4§c.",
+    "§4☠ §cRequires §5Vampire Slayer 4§c.",
     "§6§lLEGENDARY"
+  ],
+  "internalname": "LUSCIOUS_HEALING_MELON",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Vampire Slayer 4",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Luscious_Healing_Melon",
+    "https://wiki.hypixel.net/Luscious_Healing_Melon"
   ],
   "recipe": {
     "A1": "",
@@ -21,14 +30,5 @@
     "C1": "",
     "C2": "BLOODBADGE:1",
     "C3": ""
-  },
-  "internalname": "LUSCIOUS_HEALING_MELON",
-  "crafttext": "Requires: Vampire Slayer 4",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Luscious_Healing_Melon",
-    "https://wiki.hypixel.net/Luscious_Healing_Melon"
-  ]
+  }
 }

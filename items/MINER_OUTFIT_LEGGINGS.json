@@ -1,17 +1,26 @@
 {
   "itemid": "minecraft:leather_leggings",
   "displayname": "§aProspecting Leggings",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+30\",1:\"§7Mining Speed: §a+15\",2:\"\",3:\"§6Full Set Bonus: Beginner\u0027s Boost §7(0/4)\",4:\"§7Grants §6+40⸕ Mining Speed§7.\",5:\"\",6:\"§7§8This item can be reforged!\",7:\"§a§lUNCOMMON LEGGINGS\"],color:8026468,Name:\"§aProspecting Leggings\"},ExtraAttributes:{id:\"MINER_OUTFIT_LEGGINGS\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"MINER_OUTFIT_LEGGINGS\"},HideFlags:254,ItemModel:\"minecraft:leather_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+30\",1:\"§7Mining Speed: §a+15\",2:\"\",3:\"§6Full Set Bonus: Beginner's Boost §7(0/4)\",4:\"§7Grants §6+40⸕ Mining Speed§7.\",5:\"\",6:\"§8This item can be reforged!\",7:\"§a§lUNCOMMON LEGGINGS\"],Name:\"§aProspecting Leggings\"}}",
   "damage": 0,
   "lore": [
     "§7Defense: §a+30",
     "§7Mining Speed: §a+15",
     "",
-    "§6Full Set Bonus: Beginner\u0027s Boost §7(0/4)",
+    "§6Full Set Bonus: Beginner's Boost §7(0/4)",
     "§7Grants §6+40⸕ Mining Speed§7.",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§a§lUNCOMMON LEGGINGS"
+  ],
+  "internalname": "MINER_OUTFIT_LEGGINGS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Iron Ingot II",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Prospecting_Leggings",
+    "https://wiki.hypixel.net/Prospecting_Leggings"
   ],
   "recipe": {
     "A1": "IRON_BLOCK:1",
@@ -23,14 +32,5 @@
     "C1": "IRON_BLOCK:1",
     "C2": "",
     "C3": "IRON_BLOCK:1"
-  },
-  "internalname": "MINER_OUTFIT_LEGGINGS",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Prospecting_Leggings",
-    "https://wiki.hypixel.net/Prospecting_Leggings"
-  ],
-  "crafttext": "Requires: Iron Ingot II"
+  }
 }

@@ -1,19 +1,29 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Gravel Minion VI",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"668de5a6-0207-3eaa-88e1-847e4ff769c2\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzcxMDIxMjUsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjljNWYwNTgzOTY3NTg5NjUwYjBkZTJjNTEwODgxMWZmMDFjMzJhYzk4NjFhODIwYmJhNjUwZjA0MTIxMjZkNiJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and mining\",2:\"§7gravel! Requires an open area to\",3:\"§7place gravel. Minions also work\",4:\"§7when you are offline!\",5:\"\",6:\"§7Time Between Actions: §a22s\",7:\"§7Max Storage: §e576\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Gravel Minion VI\"},ExtraAttributes:{id:\"GRAVEL_GENERATOR_6\",generator_tier:6}}",
+  "nbttag": "{ExtraAttributes:{id:\"GRAVEL_GENERATOR_6\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"668de5a6-0207-3eaa-88e1-847e4ff769c2\",Properties:{textures:[0:{Name:\"textures\",Signature:\"s8bGLZezvC8V1uYX2nLCgqR9Lsf71XFO6qLYnSXVYzCX1Kt4RN19zyiHvA+yaZUPF+BmdQi/7c+DhEkeCSFIpUYtnmYACgQrUNEVDGt3AV2NX9//O1Lew9owhtj60bq5VkZxzsuAyqRhS92dTFfv1aKLfJaPc3adtWXapPn/E1ywToKu6zS/r5LimPkpYce3QCfM1v9KkBTXZJPF6KVHAO8mFOd2GoLuyMoEybvJfI35ZyUn9K5Cif2tznokJElHvhRwj89M50GF4Cpf4TdPUlvoJSpamoHAN/+/LBqllyPQ5Q1xlSjDswPr4N4lYM72dDXyiE3Hjc6Hq/hXTGR0jaS5kxCulKwUxrEnqD45ayavrzkEcE/N+DlyvYAgWfm/tnxGcY+ytjT6+mtARZ3oSdpQPbAVohiuTjquL4TiInLowDerg6pp+dBRQlLtE9+dDLbyXMll64LOLOuMmecdyd5R5If3dS+qeQ39XgnfLixAeupUyfRUEtfVred+XnolYzq6mu5j9VQUxFXuN+I3qbB527cH1jB49+KxR0BlXlp/pJQpL76NSG+gEe19fx9iAavXBGAQbxvfJmQo8drAHqmNmmO4ww6ig7iOsI1GA7Lrx2Vde+6UY9BJePHVrRZzl7jt1Wpgz0INEuo4+4MVtxrIqKgex2nUwlJtAwturGE=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzcxMDIxMjUsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjljNWYwNTgzOTY3NTg5NjUwYjBkZTJjNTEwODgxMWZmMDFjMzJhYzk4NjFhODIwYmJhNjUwZjA0MTIxMjZkNiJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and mining gravel!\",2:\"§7Requires an open area to place\",3:\"§7gravel. Minions also work when you\",4:\"§7are offline!\",5:\"\",6:\"§7Time Between Actions: §a22s\",7:\"§7Max Storage: §e576\",8:\"§7Resources Generated: §b0\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Gravel Minion VI\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and mining",
-    "§7gravel! Requires an open area to",
-    "§7place gravel. Minions also work",
-    "§7when you are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and mining gravel!",
+    "§7Requires an open area to place",
+    "§7gravel. Minions also work when you",
+    "§7are offline!",
     "",
     "§7Time Between Actions: §a22s",
     "§7Max Storage: §e576",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "GRAVEL_GENERATOR_6",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Gravel I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Gravel_Minion",
+    "https://wiki.hypixel.net/Gravel_Minion_VI"
   ],
   "recipe": {
     "A1": "ENCHANTED_FLINT:2",
@@ -26,14 +36,5 @@
     "C2": "ENCHANTED_FLINT:2",
     "C3": "ENCHANTED_FLINT:2"
   },
-  "internalname": "GRAVEL_GENERATOR_6",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Gravel_Minion",
-    "https://wiki.hypixel.net/Gravel_Minion_VI"
-  ],
-  "crafttext": "Requires: Gravel I"
+  "useneucraft": true
 }

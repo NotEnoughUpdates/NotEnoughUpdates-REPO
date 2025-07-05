@@ -1,18 +1,27 @@
 {
   "itemid": "minecraft:leather_chestplate",
   "displayname": "§fCactus Chestplate",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Health: §a+15\",1:\"§7Defense: §a+25\",2:\"\",3:\"§6Full Set Bonus: Deflect\",4:\"§7Rebound §a33.0% §7of the damage\",5:\"§7you take back at your enemy.\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§f§lCOMMON CHESTPLATE\"],color:65280,Name:\"§fCactus Chestplate\"},ExtraAttributes:{color:\"0:255:0\",id:\"CACTUS_CHESTPLATE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"CACTUS_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:leather_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+15\",1:\"§7Defense: §a+25\",2:\"\",3:\"§6Full Set Bonus: Deflect §7(0/4)\",4:\"§7Rebound §a33% §7of the damage you take\",5:\"§7back at your enemy.\",6:\"\",7:\"§8This item can be reforged!\",8:\"§f§lCOMMON CHESTPLATE\"],Name:\"§fCactus Chestplate\"}}",
   "damage": 0,
   "lore": [
     "§7Health: §a+15",
     "§7Defense: §a+25",
     "",
-    "§6Full Set Bonus: Deflect",
-    "§7Rebound §a33.0% §7of the damage",
-    "§7you take back at your enemy.",
+    "§6Full Set Bonus: Deflect §7(0/4)",
+    "§7Rebound §a33% §7of the damage you take",
+    "§7back at your enemy.",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§f§lCOMMON CHESTPLATE"
+  ],
+  "internalname": "CACTUS_CHESTPLATE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Cactus II",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Cactus_Chestplate",
+    "https://wiki.hypixel.net/Cactus_Chestplate"
   ],
   "recipe": {
     "A1": "CACTUS:1",
@@ -24,14 +33,5 @@
     "C1": "CACTUS:1",
     "C2": "CACTUS:1",
     "C3": "CACTUS:1"
-  },
-  "internalname": "CACTUS_CHESTPLATE",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Cactus_Chestplate",
-    "https://wiki.hypixel.net/Cactus_Chestplate"
-  ],
-  "crafttext": "Requires: Cactus II"
+  }
 }

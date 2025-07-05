@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:diamond",
   "displayname": "§aEnchanted Diamond",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON ORE\"],Name:\"§aEnchanted Diamond\"},ExtraAttributes:{id:\"ENCHANTED_DIAMOND\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_DIAMOND\"},HideFlags:254,ItemModel:\"minecraft:diamond\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON ORE\"],Name:\"§aEnchanted Diamond\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7§8Collection Item",
+    "§8Collection Item",
     "",
     "§a§lUNCOMMON ORE"
   ],
   "internalname": "ENCHANTED_DIAMOND",
   "clickcommand": "viewrecipe",
-  "modver": "",
+  "crafttext": "Requires: Diamond IV",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Diamond",
     "https://wiki.hypixel.net/Enchanted_Diamond"
   ],
-  "crafttext": "Requires: Diamond IV",
   "recipes": [
     {
       "type": "crafting",

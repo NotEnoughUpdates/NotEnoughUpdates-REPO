@@ -1,14 +1,25 @@
 {
   "itemid": "minecraft:double_plant",
   "displayname": "§9Enchanted Lush Berberis",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7A wonderful enchanted plant!\",1:\"\",2:\"§eRight-click to view recipes!\",3:\"\",4:\"§9§lRARE\"],Name:\"§9Enchanted Lush Berberis\"},ExtraAttributes:{id:\"ENCHANTED_LUSH_BERBERIS\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_LUSH_BERBERIS\"},HideFlags:254,ItemModel:\"minecraft:large_fern\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7A wonderful enchanted plant!\",3:\"\",4:\"§eRight-click to view recipes!\",5:\"\",6:\"§9§lRARE\"],Name:\"§9Enchanted Lush Berberis\"},ench:[]}",
   "damage": 3,
   "lore": [
+    "§8Collection Item",
+    "",
     "§7A wonderful enchanted plant!",
     "",
     "§eRight-click to view recipes!",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "ENCHANTED_LUSH_BERBERIS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Lush_Berberis",
+    "https://wiki.hypixel.net/Enchanted_Lush_Berberis"
   ],
   "recipe": {
     "A1": "",
@@ -20,14 +31,5 @@
     "C1": "",
     "C2": "LUSH_BERBERIS:32",
     "C3": ""
-  },
-  "internalname": "ENCHANTED_LUSH_BERBERIS",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Lush_Berberis",
-    "https://wiki.hypixel.net/Enchanted_Lush_Berberis"
-  ]
+  }
 }

@@ -1,13 +1,22 @@
 {
   "itemid": "minecraft:sugar",
   "displayname": "§aEnchanted Sugar",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7§8Brewing Ingredient\",1:\"§7§8Collection Item\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Sugar\"},ExtraAttributes:{id:\"ENCHANTED_SUGAR\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_SUGAR\"},HideFlags:254,ItemModel:\"minecraft:sugar\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§8Collection Item\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Sugar\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7§8Brewing Ingredient",
-    "§7§8Collection Item",
+    "§8Brewing Ingredient",
+    "§8Collection Item",
     "",
     "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_SUGAR",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Sugar Cane IV",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Sugar",
+    "https://wiki.hypixel.net/Enchanted_Sugar"
   ],
   "recipe": {
     "A1": "",
@@ -19,14 +28,5 @@
     "C1": "",
     "C2": "SUGAR_CANE:32",
     "C3": ""
-  },
-  "internalname": "ENCHANTED_SUGAR",
-  "clickcommand": "viewrecipe",
-  "modver": "2.2.2",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Sugar",
-    "https://wiki.hypixel.net/Enchanted_Sugar"
-  ],
-  "crafttext": "Requires: Sugar Cane IV"
+  }
 }

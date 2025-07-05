@@ -1,14 +1,22 @@
 {
   "itemid": "minecraft:noteblock",
   "displayname": "§aSilence Block",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Prevents all mobs making noise\",1:\"§7when placed on your private\",2:\"§7island.\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aSilence Block\"},ExtraAttributes:{id:\"SILENCE_BLOCK\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SILENCE_BLOCK\"},HideFlags:254,ItemModel:\"minecraft:note_block\",display:{Lore:[0:\"§7Prevents all mobs from making noise\",1:\"§7on your private island.\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aSilence Block\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7Prevents all mobs making noise",
-    "§7when placed on your private",
-    "§7island.",
+    "§7Prevents all mobs from making noise",
+    "§7on your private island.",
     "",
     "§a§lUNCOMMON"
+  ],
+  "internalname": "SILENCE_BLOCK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: End Stone V",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Silence_Block",
+    "https://wiki.hypixel.net/Silence_Block"
   ],
   "recipe": {
     "A1": "ENCHANTED_ENDSTONE:1",
@@ -20,14 +28,5 @@
     "C1": "ENCHANTED_ENDSTONE:1",
     "C2": "ENCHANTED_ENDSTONE:1",
     "C3": "ENCHANTED_ENDSTONE:1"
-  },
-  "internalname": "SILENCE_BLOCK",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Silence_Block",
-    "https://wiki.hypixel.net/Silence_Block"
-  ],
-  "crafttext": "Requires: End Stone V"
+  }
 }

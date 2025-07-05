@@ -1,20 +1,29 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Emerald Minion VIII",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"f84db01e-1c00-3140-9955-3bcc05d1a395\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzU2MjYwNDUsInByb2ZpbGVJZCI6IjkxZmUxOTY4N2M5MDQ2NTZhYTFmYzA1OTg2ZGQzZmU3IiwicHJvZmlsZU5hbWUiOiJoaGphYnJpcyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzRlNTQ2YmIzZjg5MzBiMGExYTIwNGRhYWVjOWVkNzZmODVlYWIzZDU3YTYxZTYyYzMxMzNkMTFmNjVjMTViIn19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and mining\",2:\"§7emerald ore! Requires an open\",3:\"§7area to place emerald ore.\",4:\"§7Minions also work when you are\",5:\"§7offline!\",6:\"\",7:\"§7Time Between Actions: §a21s\",8:\"§7Max Storage: §e768\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Emerald Minion VIII\"},ExtraAttributes:{id:\"EMERALD_GENERATOR_8\",generator_tier:8}}",
+  "nbttag": "{ExtraAttributes:{id:\"EMERALD_GENERATOR_8\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"f84db01e-1c00-3140-9955-3bcc05d1a395\",Properties:{textures:[0:{Name:\"textures\",Signature:\"QLxA5V278OmbIA1aDSDf0TSfrHLB9723z4pjAFlHlue1TLu7qLRLUnwJ3yCsUgTyql4BKR/dNOuHoZrngApPXhgMw7cZc4368NLk5Sbj/jUoSgzxGjWtZX52Yc4orVzyxu3TAqVfgUIXoHqre5UzXAmk/kx7cH/xFrmpXw1k+PDjkH9aHp9qwQG1c1sDe9U2rQWVqFDkr3h7kg6Quytd/v4KidkU8hGoM1abHkP2B9lDTdGY9YBo54GEVs9d8q7fnygb3EQJoCFCfD7HFADIfMO9wNyWQ4eRe7AHd2S/pE6nPwE72KabYG+UutIYVOW2KsNU/xM/+w9fi1/siXkxVlRXigafXRalWBPtgHxMD65lEUY/4KzQ+Pxqs53eDt5DG5FsTHQ3BebQvy+cKFdK5Ks8VMy0u9NsSsPeBKjg59iQ3jiQyCCZ04SqxTjiuhZDz3y8/GQx6dwJ8cuy9ssAEPxSV3JOO5Q/Vo+DcM2OQzs1+Cf4rJSSCebP4DBZNrAgNbO5oamv1jNgjCX64qBt8m7EhWpOI8WZCl+jTFmbBIP173Qcj2oS4qYKpqTfKLssbWQAzaK7DxWwS99hHgFoRVUuDzZCNI0494fvDut3RHflBMsExXRKa7nEd6Uzas0YH+Es0IiejqqBLkNPgGP42E9jAdn9GoD2UbJEZr49hj4=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzU2MjYwNDUsInByb2ZpbGVJZCI6IjkxZmUxOTY4N2M5MDQ2NTZhYTFmYzA1OTg2ZGQzZmU3IiwicHJvZmlsZU5hbWUiOiJoaGphYnJpcyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzRlNTQ2YmIzZjg5MzBiMGExYTIwNGRhYWVjOWVkNzZmODVlYWIzZDU3YTYxZTYyYzMxMzNkMTFmNjVjMTViIn19fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and mining emerald ore!\",2:\"§7Requires an open area to place\",3:\"§7emerald ore. Minions also work when\",4:\"§7you are offline!\",5:\"\",6:\"§7Time Between Actions: §a21s\",7:\"§7Max Storage: §e768\",8:\"§7Resources Generated: §b0\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Emerald Minion VIII\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and mining",
-    "§7emerald ore! Requires an open",
-    "§7area to place emerald ore.",
-    "§7Minions also work when you are",
-    "§7offline!",
+    "§7Place this minion and it will start",
+    "§7generating and mining emerald ore!",
+    "§7Requires an open area to place",
+    "§7emerald ore. Minions also work when",
+    "§7you are offline!",
     "",
     "§7Time Between Actions: §a21s",
     "§7Max Storage: §e768",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "EMERALD_GENERATOR_8",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Emerald I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Emerald_Minion",
+    "https://wiki.hypixel.net/Emerald_Minion_VIII"
   ],
   "recipe": {
     "A1": "ENCHANTED_EMERALD:16",
@@ -27,14 +36,5 @@
     "C2": "ENCHANTED_EMERALD:16",
     "C3": "ENCHANTED_EMERALD:16"
   },
-  "internalname": "EMERALD_GENERATOR_8",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Emerald_Minion",
-    "https://wiki.hypixel.net/Emerald_Minion_VIII"
-  ],
-  "crafttext": "Requires: Emerald I"
+  "useneucraft": true
 }

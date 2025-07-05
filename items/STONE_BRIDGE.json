@@ -1,15 +1,23 @@
 {
   "itemid": "minecraft:egg",
   "displayname": "§fStone Platform",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Creates a stone platform in the\",1:\"§7air after travelling 10 blocks.\",2:\"§7Perfect for building below your\",3:\"§7island!\",4:\"\",5:\"§f§lCOMMON\"],Name:\"§fStone Platform\"},ExtraAttributes:{id:\"STONE_BRIDGE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"STONE_BRIDGE\"},HideFlags:254,ItemModel:\"minecraft:egg\",display:{Lore:[0:\"§7Creates a stone platform in the air\",1:\"§7after traveling 10 blocks. Perfect\",2:\"§7for building below your island!\",3:\"\",4:\"§f§lCOMMON\"],Name:\"§fStone Platform\"}}",
   "damage": 0,
   "lore": [
-    "§7Creates a stone platform in the",
-    "§7air after travelling 10 blocks.",
-    "§7Perfect for building below your",
-    "§7island!",
+    "§7Creates a stone platform in the air",
+    "§7after traveling 10 blocks. Perfect",
+    "§7for building below your island!",
     "",
     "§f§lCOMMON"
+  ],
+  "internalname": "STONE_BRIDGE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Cobblestone II",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Stone_Platform",
+    "https://wiki.hypixel.net/Stone_Platform"
   ],
   "recipe": {
     "A1": "SMOOTH_BRICK:8",
@@ -21,14 +29,5 @@
     "C1": "SMOOTH_BRICK:8",
     "C2": "SMOOTH_BRICK:8",
     "C3": "SMOOTH_BRICK:8"
-  },
-  "internalname": "STONE_BRIDGE",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Stone_Platform",
-    "https://wiki.hypixel.net/Stone_Platform"
-  ],
-  "crafttext": "Requires: Cobblestone II"
+  }
 }

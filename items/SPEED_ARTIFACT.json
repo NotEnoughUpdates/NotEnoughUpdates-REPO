@@ -1,12 +1,21 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§f§f§9Speed Artifact",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"ab862b60-aad5-3a4d-ac90-a73babce1422\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5MDA4OTk4MjM0MiwKICAicHJvZmlsZUlkIiA6ICJjOTU4YTRiMWY4OGU0ZGVjOTI3NGVlMGQ3Nzg2ZGFkYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbHNvRGN0ciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mMDY3MDZlZWNiMmQ1NThhY2UyN2FiZGEwYjBiN2I4MDFkMzZkMTdkZDdhODkwYTk1MjBkYmU1MjIzNzRmOGE2IgogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7Speed: §a+5\",1:\"\",2:\"§9§lRARE ACCESSORY\"],Name:\"§f§f§9Speed Artifact\"},ExtraAttributes:{id:\"SPEED_ARTIFACT\"}}",
+  "displayname": "§9Speed Artifact",
+  "nbttag": "{ExtraAttributes:{id:\"SPEED_ARTIFACT\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"ab862b60-aad5-3a4d-ac90-a73babce1422\",Properties:{textures:[0:{Name:\"textures\",Signature:\"lFGSbQAanoFvPsGIdM0O9SZKNwO9fBX9zjX25GVqNfTqyEai9Zo1gq6O6UPcv8ATl0NFAPEWeXxHcmd+0fu2L7+X0+4W8pnywHLeKi5mM1B3f5OshuyOkOXmYJUUUahy9ufhdF+A7YaItx2E2DIfCTI4c2zlg83tcte/sMyHFzrzc1UAst5yIsIskGLkWivMpF5XwYvEtyZdHZhgkxO3CVsOSYb3kB4SMKZIoE6TCMG8uDljnV3o8u99qKKHZvt/NKf6FRvTqMV/HxUNUWFzenvs1nxs7yuGykLeI0uSgkSH3k0DiJrEHawMgwxzFz/5FsBNWPc4AV9hXk0AXSdNrNUlJ6RVc2e7M8TsVlInnF4e23/ZY2mTIFBBuukxpuYvEGD0GddxWlKvx6bkdbwff2Krsvo8PGMVT3yh6iYTnybshnatHkB8f9FQv0Rcl1S5/hKyWvhWCq5aNqlBbf4oHIY/ifXoJTXPvYjWw2KQMxYP/LzQPRqcorvRn1Zo2H5d5Jfv2PUR6q3gKo9Ibnq9flVLD4BP4zASmJAsZEsvJpSWJZ10zdG13D+gORYso9uaXbNf6uXz1YdxWDIX49NyQ333DsbBMbtPFFfKXYkEzPH6DkMDpSRl5ayATo9qCR/YTC9BbWTXlLpL7RECmRLw1oN5oGamZXE0MowpCYN0bBk=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5MDA4OTk4MjM0MiwKICAicHJvZmlsZUlkIiA6ICJjOTU4YTRiMWY4OGU0ZGVjOTI3NGVlMGQ3Nzg2ZGFkYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbHNvRGN0ciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mMDY3MDZlZWNiMmQ1NThhY2UyN2FiZGEwYjBiN2I4MDFkMzZkMTdkZDdhODkwYTk1MjBkYmU1MjIzNzRmOGE2IgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Speed: §a+5\",1:\"\",2:\"§9§lRARE ACCESSORY\"],Name:\"§9Speed Artifact\"}}",
   "damage": 3,
   "lore": [
     "§7Speed: §a+5",
     "",
     "§9§lRARE ACCESSORY"
+  ],
+  "internalname": "SPEED_ARTIFACT",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Sugar Cane VIII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Speed_Artifact",
+    "https://wiki.hypixel.net/Speed_Artifact"
   ],
   "recipe": {
     "A1": "ENCHANTED_SUGAR_CANE:6",
@@ -18,14 +27,5 @@
     "C1": "ENCHANTED_SUGAR_CANE:6",
     "C2": "ENCHANTED_SUGAR_CANE:6",
     "C3": "ENCHANTED_SUGAR_CANE:6"
-  },
-  "internalname": "SPEED_ARTIFACT",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "Requires: Sugar Cane VIII",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Speed_Artifact",
-    "https://wiki.hypixel.net/Speed_Artifact"
-  ]
+  }
 }

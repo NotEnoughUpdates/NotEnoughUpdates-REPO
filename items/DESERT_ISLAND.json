@@ -1,12 +1,22 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§fDesert Island",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"9f0e96bb-abf0-332d-ae21-41efb0fd0446\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmY1ODViNDFjYTVhMWI0YWMyNmY1NTY3NjBlZDExMzA3Yzk0ZjhmOGExYWRlNjE1YmQxMmNlMDc0ZjQ3OTMifX19\"}]}},display:{Lore:[0:\"§7Place this in your private\",1:\"§7world to spawn a Desert\",2:\"§7island!\"],Name:\"§fDesert Island\"},ExtraAttributes:{id:\"DESERT_ISLAND\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"DESERT_ISLAND\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"784de8a0-7933-30dc-8b48-ee53bc596fb6\",Properties:{textures:[0:{Name:\"textures\",Signature:\"td21YQZtD7swYMpsd9dUVL2Cob9kqPbEhp0XaeIoOAiPUZsjtFVtgOONRcQAK2+cTouTkoUXyrVV7aZ9eQuPD+yVepMar0KFC809PYBTDICxgDP69eFToOctyaS1hccwqW5nmP8wAQqp8XL/vVlHgJqLDxtSviMkAeeEjhqyTLmswI/VzKLjG+BUO120o0d0RHIV3n8nFEzyuAF43W5mgUMoiz8hqdXE9fX8oQKZAnAEmRgEH9bwzNI0ZIbiJlKnBDA/yaNQ7nEyCUW26EGjGblw6gSOWbQ8DMwJ19ZzrYuzYgUjkyU/8D6NH05tnNTFEsJlhSBr5e+z/Cso86cecx/Y7vc3VmOdqtW87ObhrJpWvIE4KKH7C7eKcMQjNE6qzCUyL/ZWG/hpBIqeFeUPEx61rTzcd+9bPsmdSBl0hKUTg3LgMd5NgbbGzODW/4t5kQ8OXBa8zeq3PoTxXIHZRHsL6ZLr2wZb/t5pKWtFxtR19W47hWe/SHPgO83D6CMRq01AXy1iVOOIzh/TdfIw85pW6gi1/vb8OJWKtH6tisSjaRsV6cNvIHQBFdsPlGqiQrEHQil5cfuyrL2AaMYCl/kT2vRwV/55MkVpndIZ1Lgki3aGJTM3o3m9K0+oR/OKuxBRxzn+mbMRVocAcorvOVXpfrsJXpQdUpJVcJC5Oe8=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwMzIxNDI1NzkxNCwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODMxNDA1Mzg5MWZiOGEyYWQ3YTY5ZWY0MzMyOTM2MGFhZGVhODFhZDUxNWM1Zjg3NWMwMmJkMGNkOTIzMzNiZSIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this in your private world to\",1:\"§7spawn a Desert island!\",2:\"\",3:\"§f§lCOMMON\"],Name:\"§fDesert Island\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this in your private",
-    "§7world to spawn a Desert",
-    "§7island!"
+    "§7Place this in your private world to",
+    "§7spawn a Desert island!",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "DESERT_ISLAND",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Cactus V",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Desert_Island",
+    "https://wiki.hypixel.net/Desert_Island"
   ],
   "recipe": {
     "A1": "CACTUS:5",
@@ -19,20 +29,11 @@
     "C2": "SAND:5",
     "C3": "SAND:5"
   },
-  "internalname": "DESERT_ISLAND",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Desert_Island",
-    "https://wiki.hypixel.net/Desert_Island"
-  ],
-  "crafttext": "Requires: Cactus V",
   "recipes": [
     {
-    "type": "trade",
-    "cost": "EMERALD:25",
-    "result": "DESERT_ISLAND"
+      "type": "trade",
+      "cost": "EMERALD:25",
+      "result": "DESERT_ISLAND"
     }
   ]
 }

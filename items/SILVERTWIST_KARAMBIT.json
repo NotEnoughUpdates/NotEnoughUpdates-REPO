@@ -1,20 +1,28 @@
 {
   "itemid": "minecraft:iron_sword",
   "displayname": "§5Silver-Twist Karambit",
-  "nbttag": "{ench:[],Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Rift Damage: §a+6\",1:\"§7Speed: §a+15\",2:\"\",3:\"§7Gain §5+5❁ Rift Damage §7against\",4:\"§7§4Vampires§7.\",5:\"\",6:\"§7Regens §b6 Mana §7and §c0.5❤\",7:\"§c§7on hit.\",8:\"\",9:\"§7§4☠ §cRequires §5Vampire Slayer 4§c.\",10:\"§5§lEPIC SWORD\"],Name:\"§5Silver-Twist Karambit\"},ExtraAttributes:{id:\"SILVERTWIST_KARAMBIT\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SILVERTWIST_KARAMBIT\"},HideFlags:254,ItemModel:\"minecraft:iron_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Speed: §a+15\",1:\"\",2:\"§7Gain §5+5❁ Rift Damage §7against\",3:\"§4Vampires§7.\",4:\"\",5:\"§7Regens §b6 Mana §7and §c0.5❤ §7on hit.\",6:\"\",7:\"§8This item can be reforged!\",8:\"§4☠ §cRequires §5Vampire Slayer 4§c.\",9:\"§5§lEPIC SWORD\"],Name:\"§5Silver-Twist Karambit\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7Rift Damage: §a+6",
     "§7Speed: §a+15",
     "",
     "§7Gain §5+5❁ Rift Damage §7against",
-    "§7§4Vampires§7.",
+    "§4Vampires§7.",
     "",
-    "§7Regens §b6 Mana §7and §c0.5❤",
-    "§c§7on hit.",
+    "§7Regens §b6 Mana §7and §c0.5❤ §7on hit.",
     "",
-    "§7§4☠ §cRequires §5Vampire Slayer 4§c.",
+    "§8This item can be reforged!",
+    "§4☠ §cRequires §5Vampire Slayer 4§c.",
     "§5§lEPIC SWORD"
+  ],
+  "internalname": "SILVERTWIST_KARAMBIT",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Vampire Slayer 4",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Silver-Twist_Karambit",
+    "https://wiki.hypixel.net/Silver-Twist_Karambit"
   ],
   "recipe": {
     "A1": "",
@@ -26,14 +34,5 @@
     "C1": "",
     "C2": "BLOODBADGE:1",
     "C3": ""
-  },
-  "internalname": "SILVERTWIST_KARAMBIT",
-  "crafttext": "Requires: Vampire Slayer 4",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Silver-Twist_Karambit",
-    "https://wiki.hypixel.net/Silver-Twist_Karambit"
-  ]
+  }
 }

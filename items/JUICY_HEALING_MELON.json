@@ -1,15 +1,24 @@
 {
   "itemid": "minecraft:melon",
   "displayname": "§5Juicy Healing Melon",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§6Ability: Succulence  §e§lRIGHT CLICK\",1:\"§7Take a bite and heal §c9❤§7.\",2:\"§8Mana Cost: §350\",3:\"\",4:\"§7§4☠ §cRequires §5Vampire Slayer 2§c.\",5:\"§5§lEPIC\"],Name:\"§5Juicy Healing Melon\"},ExtraAttributes:{id:\"JUICY_HEALING_MELON\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"JUICY_HEALING_MELON\"},HideFlags:254,ItemModel:\"minecraft:melon_slice\",display:{Lore:[0:\"§6Ability: Succulence  §e§lRIGHT CLICK\",1:\"§7Take a bite and heal §c9❤§7.\",2:\"§8Mana Cost: §350\",3:\"\",4:\"§4☠ §cRequires §5Vampire Slayer 2§c.\",5:\"§5§lEPIC\"],Name:\"§5Juicy Healing Melon\"}}",
   "damage": 0,
   "lore": [
     "§6Ability: Succulence  §e§lRIGHT CLICK",
     "§7Take a bite and heal §c9❤§7.",
     "§8Mana Cost: §350",
     "",
-    "§7§4☠ §cRequires §5Vampire Slayer 2§c.",
+    "§4☠ §cRequires §5Vampire Slayer 2§c.",
     "§5§lEPIC"
+  ],
+  "internalname": "JUICY_HEALING_MELON",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Vampire Slayer 2",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Juicy_Healing_Melon",
+    "https://wiki.hypixel.net/Juicy_Healing_Melon"
   ],
   "recipe": {
     "A1": "COVEN_SEAL:2",
@@ -21,14 +30,5 @@
     "C1": "COVEN_SEAL:2",
     "C2": "COVEN_SEAL:2",
     "C3": "COVEN_SEAL:2"
-  },
-  "internalname": "JUICY_HEALING_MELON",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "crafttext": "Requires: Vampire Slayer 2",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Juicy_Healing_Melon",
-    "https://wiki.hypixel.net/Juicy_Healing_Melon"
-  ]
+  }
 }

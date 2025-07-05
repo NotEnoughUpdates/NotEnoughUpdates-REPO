@@ -1,12 +1,21 @@
 {
   "itemid": "minecraft:fish",
   "displayname": "§aEnchanted Raw Salmon",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Raw Salmon\"},ExtraAttributes:{id:\"ENCHANTED_RAW_SALMON\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_RAW_SALMON\"},HideFlags:254,ItemModel:\"minecraft:salmon\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Raw Salmon\"},ench:[]}",
   "damage": 1,
   "lore": [
-    "§7§8Collection Item",
+    "§8Collection Item",
     "",
     "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_RAW_SALMON",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Raw Salmon IV",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Raw_Salmon",
+    "https://wiki.hypixel.net/Enchanted_Raw_Salmon"
   ],
   "recipe": {
     "A1": "",
@@ -18,14 +27,5 @@
     "C1": "",
     "C2": "RAW_FISH-1:32",
     "C3": ""
-  },
-  "internalname": "ENCHANTED_RAW_SALMON",
-  "clickcommand": "viewrecipe",
-  "modver": "2.2.2",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Raw_Salmon",
-    "https://wiki.hypixel.net/Enchanted_Raw_Salmon"
-  ],
-  "crafttext": "Requires: Raw Salmon IV"
+  }
 }

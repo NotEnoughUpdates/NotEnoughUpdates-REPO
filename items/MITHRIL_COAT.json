@@ -1,20 +1,28 @@
 {
   "itemid": "minecraft:chainmail_chestplate",
   "displayname": "§5Mithril Coat",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+125\",1:\"§7Speed: §a+15\",2:\"\",3:\"§6Ability: Mithril\u0027s Protection\",4:\"§7§7Any damage taken is max §a40%\",5:\"§a§7of the wearer\u0027s §c❤ Health§7.\",6:\"§7Gain §cRegeneration §7when this\",7:\"§7ability activates.\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§5§lEPIC CHESTPLATE\"],Name:\"§5Mithril Coat\"},ExtraAttributes:{id:\"MITHRIL_COAT\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"MITHRIL_COAT\"},HideFlags:254,ItemModel:\"minecraft:chainmail_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+125\",1:\"§7Speed: §a+15\",2:\"\",3:\"§6Ability: Mithril's Protection \",4:\"§7Any damage taken is max §a40% §7of the wearer's\",5:\"§c❤ Health§7. Gain §cRegeneration §7when this ability\",6:\"§7activates.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§5§lEPIC CHESTPLATE\"],Name:\"§5Mithril Coat\"}}",
   "damage": 0,
   "lore": [
     "§7Defense: §a+125",
     "§7Speed: §a+15",
     "",
-    "§6Ability: Mithril\u0027s Protection",
-    "§7§7Any damage taken is max §a40%",
-    "§a§7of the wearer\u0027s §c❤ Health§7.",
-    "§7Gain §cRegeneration §7when this",
-    "§7ability activates.",
+    "§6Ability: Mithril's Protection ",
+    "§7Any damage taken is max §a40% §7of the wearer's",
+    "§c❤ Health§7. Gain §cRegeneration §7when this ability",
+    "§7activates.",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§5§lEPIC CHESTPLATE"
+  ],
+  "internalname": "MITHRIL_COAT",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Mithril VII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Mithril_Coat",
+    "https://wiki.hypixel.net/Mithril_Coat"
   ],
   "recipe": {
     "A1": "ENCHANTED_MITHRIL:4",
@@ -26,14 +34,5 @@
     "C1": "ENCHANTED_MITHRIL:4",
     "C2": "ENCHANTED_MITHRIL:4",
     "C3": "ENCHANTED_MITHRIL:4"
-  },
-  "internalname": "MITHRIL_COAT",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "crafttext": "Requires: Mithril VII",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Mithril_Coat",
-    "https://wiki.hypixel.net/Mithril_Coat"
-  ]
+  }
 }

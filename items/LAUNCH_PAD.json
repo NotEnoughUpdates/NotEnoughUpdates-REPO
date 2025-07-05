@@ -1,13 +1,22 @@
 {
   "itemid": "minecraft:slime",
   "displayname": "§aLaunch Pad",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Launches you in the direction\",1:\"§7you are facing!\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aLaunch Pad\"},ExtraAttributes:{id:\"LAUNCH_PAD\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"LAUNCH_PAD\"},HideFlags:254,ItemModel:\"minecraft:slime_block\",display:{Lore:[0:\"§7Launches you in the direction you\",1:\"§7are facing!\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aLaunch Pad\"}}",
   "damage": 0,
   "lore": [
-    "§7Launches you in the direction",
-    "§7you are facing!",
+    "§7Launches you in the direction you",
+    "§7are facing!",
     "",
     "§a§lUNCOMMON"
+  ],
+  "internalname": "LAUNCH_PAD",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Slimeball VII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Launch_Pad",
+    "https://wiki.hypixel.net/Launch_Pad"
   ],
   "recipe": {
     "A1": "ENCHANTED_SLIME_BALL:1",
@@ -19,14 +28,5 @@
     "C1": "ENCHANTED_SLIME_BALL:1",
     "C2": "ENCHANTED_SLIME_BALL:1",
     "C3": "ENCHANTED_SLIME_BALL:1"
-  },
-  "internalname": "LAUNCH_PAD",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Launch_Pad",
-    "https://wiki.hypixel.net/Launch_Pad"
-  ],
-  "crafttext": "Requires: Slimeball VII"
+  }
 }

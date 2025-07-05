@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Mithril Crystal",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"949d100c-aa74-3b09-a642-af5529f808aa\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdjYmEyMzNmZmM0NTdiMzMwNTIyOGIyNWYzNWMwMjMzNTYxMWM5ZWZiNzY2OThiNWU5NGMwZDU0MWI1ZjQifX19\"}]}},display:{Lore:[0:\"§7Can be placed on your private\",1:\"§7island. Increases the speed of\",2:\"§7nearby mining minions by §a10%§7.\",3:\"\",4:\"§7Effective Radius: §b40\",5:\"\",6:\"§9§lRARE\"],Name:\"§9Mithril Crystal\"},ExtraAttributes:{id:\"MITHRIL_CRYSTAL\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"MITHRIL_CRYSTAL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"6b54ca45-6cf8-321a-8e91-9afa1039e491\",Properties:{textures:[0:{Name:\"textures\",Signature:\"GAKTDKzbhpO5xVErIgGKpS8M5QVhoyMk0PyZOn4RMdLuOw8ACs2BkHsjmRlQdPI08J0T/1s42b3ccubxDXlOBuzsBnoRbTouo+SztfYoarb9l/YH7C5msFEY11v3uSq887bj7/xr98mpckMboyQSSrScqszYgm+HfahHXZkBwIf+by9M7bIdUIZqXjm+odK4UzUoR/Q0fHBUWH/qHtcuBMzcHZ+l0UTESX9IxJy3FiXJf+7Kjqf55gkRHfqiqMpDgwO44LYwkkWjjeCMcVII+YLpr4VrCm3e9omOF1dbyq7drQPW9n5bGrcgaYVpSR4NN7FOicNXor3KZ+1aG/WTGvo0I7xTlLrh8evfd2DDKlPmVEJlaa5G06c3gERBipK4HKjn8csGQYA+JXoz6XpsJt/aLiS/H24S9O4bF4BXOqpkLB8SaCYsCBKcaUMDOtqxPLz/c3hHR/B7kmQR1mjFsloLm2ZsSZ2eGjvIq8jbJ8Ed3SUSAWFi9N3SJJMo2o4+J2DHBUgUbT/KFzbVLh7gsNgS4mdluEcA4vIKkrd5rgxq/rpD1pzfkrRYgSI6qYqkrb3vtQMWxdXD9m/sqGg8UPZNQ5mcJ/mPWHU+oAhHB9gabnuOI5j10LcngX/Cl61aqhZycCylYXv+r/wHp0J5OF6NE5ee9YDD7sdtg0Nm0tg=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTczMzMxMjcyNDQsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTVlOGI4OTk3ODQ4MTJlZTNlNjUwNjEzN2ZiOGRiNjkyOTY1NGVhOGEzNThmMzlmZDdkZWJjNzk4MzljYjMxZCJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Can be placed on your private\",1:\"§7island. Increases the speed of\",2:\"§7nearby mining minions by §a10%§7.\",3:\"\",4:\"§7Effective Radius: §b40\",5:\"\",6:\"§9§lRARE\"],Name:\"§9Mithril Crystal\"}}",
   "damage": 3,
   "lore": [
     "§7Can be placed on your private",
@@ -11,6 +11,15 @@
     "§7Effective Radius: §b40",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "MITHRIL_CRYSTAL",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Mithril_Crystal",
+    "https://wiki.hypixel.net/Mithril_Crystal"
   ],
   "recipe": {
     "A1": "ENCHANTED_MITHRIL:2",
@@ -22,14 +31,5 @@
     "C1": "ENCHANTED_MITHRIL:2",
     "C2": "ENCHANTED_MITHRIL:2",
     "C3": "ENCHANTED_MITHRIL:2"
-  },
-  "internalname": "MITHRIL_CRYSTAL",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Mithril_Crystal",
-    "https://wiki.hypixel.net/Mithril_Crystal"
-  ]
+  }
 }

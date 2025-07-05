@@ -1,19 +1,28 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Ghast Minion VI",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"35396f84-1b2b-335a-a6f3-f78223392489\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzY1NTc2NTcsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2VmOTdlZmYyNzIxZGMyMDFiMjMzNzNhZmMzMTExZWRhMjJhMzI1YzA4ZGU2YTE0ZjAzZGNmY2I5OGQzYzk1MDcifX19\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and slaying\",2:\"§7Ghasts! §cBEWARE OF\",3:\"§cEXPLOSIONS!§7 Minions also work\",4:\"§7when you are offline!\",5:\"\",6:\"§7Time Between Actions: §a44s\",7:\"§7Max Storage: §e576\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Ghast Minion VI\"},ExtraAttributes:{id:\"GHAST_GENERATOR_6\",generator_tier:6}}",
+  "nbttag": "{ExtraAttributes:{id:\"GHAST_GENERATOR_6\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"35396f84-1b2b-335a-a6f3-f78223392489\",Properties:{textures:[0:{Name:\"textures\",Signature:\"PRGx9BtISkzzlmYegoOFoai7po7SRgf63td2xwBFgr2YfJWmYLzwBKw8Ntiv4z9+cPMUxlKs/6Fgr0Xi8kKUGNF28v9nDDbxdKwPAu6tf9vE5LT1ZMef44RmbJlJIoZz8Rgjdv+k5A+bDHM0dDEmr1L8onSdx1IQByrFXWE3ifGDDIvCsRpgQnowZuC5N6PuD5LwOTbm03pKX5rh9zkgdmbJ4chsvlwCaUYHOKI1IEbUajFwK5LjtzJrG90TpRzPH1XeMxwyDxWUIqet6eo+p2E6lted56MvMY1eMmN+b5tVWrqjHoS0sCQ/V+E0b1L68YS6p1X0XYmfWb4NBpoK9KVUjRCMaFSmuaabG02TO4nYYx+3cDzuUtDwIyHbov8QLRg5A2pbh0BhhRRgg5rRgxeNYqLpmIr2kup3B3L2E4Qte2dP2Tq24fRNrl2mtm7XVx47WQTHVHomDHHs5jHhL5HZB9xYH7M+0IpYDnivj9rfyH9qcnnZrMTPDZKtb4MBHVUuz59iVYHFWrE6hfgVmozO8JU0+YAnmQ//rxCasbAMtxfdD3D9+5LkRaY6D5rSGnyIpGwXRgr5XrADuZCLC463KpaBlT+sD4Rmcyxkxi9dDcjK4JrU4RnSb+wbfODoxOQBjmLDwPysDoIslDlxaAxLAoL/dAsQxSJrsLTbles=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzY1NTc2NTcsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2VmOTdlZmYyNzIxZGMyMDFiMjMzNzNhZmMzMTExZWRhMjJhMzI1YzA4ZGU2YTE0ZjAzZGNmY2I5OGQzYzk1MDcifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and slaying Ghasts!\",2:\"§cBEWARE OF EXPLOSIONS!§7 Minions also\",3:\"§7work when you are offline!\",4:\"\",5:\"§7Time Between Actions: §a44s\",6:\"§7Max Storage: §e576\",7:\"§7Resources Generated: §b0\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Ghast Minion VI\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and slaying",
-    "§7Ghasts! §cBEWARE OF",
-    "§cEXPLOSIONS!§7 Minions also work",
-    "§7when you are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and slaying Ghasts!",
+    "§cBEWARE OF EXPLOSIONS!§7 Minions also",
+    "§7work when you are offline!",
     "",
     "§7Time Between Actions: §a44s",
     "§7Max Storage: §e576",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "GHAST_GENERATOR_6",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Ghast Tear I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Ghast_Minion",
+    "https://wiki.hypixel.net/Ghast_Minion_VI"
   ],
   "recipe": {
     "A1": "ENCHANTED_GHAST_TEAR:64",
@@ -26,14 +35,5 @@
     "C2": "ENCHANTED_GHAST_TEAR:64",
     "C3": "ENCHANTED_GHAST_TEAR:64"
   },
-  "internalname": "GHAST_GENERATOR_6",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Ghast_Minion",
-    "https://wiki.hypixel.net/Ghast_Minion_VI"
-  ],
-  "crafttext": "Requires: Ghast Tear I"
+  "useneucraft": true
 }

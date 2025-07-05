@@ -1,14 +1,23 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§aZombie Ring",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"87e2bfa1-b6df-3872-b3d3-2dc7c5cdbab7\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NzA1NDk3MDgwMzMsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU1ZDk5NmNiNWE4ZTVhNzFhMjc0Mjc1ZjQ2OTQ0Yjk0NGVlZWFjZDJlMWNhZGVmOTE4YjA1Yjg3OWEwMzMzNmYifX19\"}]}},display:{Lore:[0:\"§7Reduces the damage taken from\",1:\"§7§7Zombies by §a10%§7.\",2:\"\",3:\"§7§4☠ §cRequires §5Zombie Slayer 2§c.\",4:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aZombie Ring\"},ExtraAttributes:{id:\"ZOMBIE_RING\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ZOMBIE_RING\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"eb2b3193-4d46-3094-a88a-793c9e87f224\",Properties:{textures:[0:{Name:\"textures\",Signature:\"vKUzTA5eurliq2MnIGrO/rnkBcyXDtFlCOjZjreEFSSI7i7E719J9+gTsIFViL2tWjtyHfvSjLpdq0VfBGxDfC5k2ZcBZHdNb5Mea+4RAeaS0FxteRZdZz7cCOZvgaIzkDy63aoCbj5IuqRQUcHC0R7UKffbSrpTKMRtRu8WEM9frGId+HytPhMIwL109prC2YACFtjR+j6qPXX3Or6+Uh2DhY5mGcTO8micPfSckYXq6RgXU7q2pT3f4QvjuzdByC89Wr7TuaAXuS3SQPnwJxib/erQsbqvm8dFbTrkwkQy5m5rrHnEQtgP6OT6A3U1i/Cxt0yvRvQx54SjbZbDBCsOYJW0XT1Wqmjqse+1reFAp/FTyGdguozQi9m0hD+TmnEAIW/Ezuusny6l2tc4C1HMhc4eNPqF5jUrVMGR7vTVh68grghYyNCvFOq9ry2R4YYjkHe++GE2XX8FtXUN/n/ACMctZIpwvk67FrY+lQokWo9JDoQC9hjk81TGSFDoE5ZZ7ILl+43HV1AO4TUuSXb8ytIdcWp0IyE1rUXr7QOfg0Thqxayf0i20qDiJDL6W0PEGZ5zZWTSXF6gOEwY3EUTWcpyZKSqN4MZWCnQOei2xoR6yJZn0rdrpc/CFgEiYLTpwva5grZ1Aek3j3mjaq0YLK4QOdf2+kRNi67GQMw=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwMjQ3NTQ3MzkxOSwKICAicHJvZmlsZUlkIiA6ICJlZDUzZGQ4MTRmOWQ0YTNjYjRlYjY1MWRjYmE3N2U2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICIwMTAwMDExMDAxMDAwMDExIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU1ZDk5NmNiNWE4ZTVhNzFhMjc0Mjc1ZjQ2OTQ0Yjk0NGVlZWFjZDJlMWNhZGVmOTE4YjA1Yjg3OWEwMzMzNmYiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Reduces the damage taken from\",1:\"§7Zombies by §a10%§7.\",2:\"\",3:\"§4☠ §cRequires §5Zombie Slayer 2§c.\",4:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aZombie Ring\"}}",
   "damage": 3,
   "lore": [
     "§7Reduces the damage taken from",
-    "§7§7Zombies by §a10%§7.",
+    "§7Zombies by §a10%§7.",
     "",
-    "§7§4☠ §cRequires §5Zombie Slayer 2§c.",
+    "§4☠ §cRequires §5Zombie Slayer 2§c.",
     "§a§lUNCOMMON ACCESSORY"
+  ],
+  "internalname": "ZOMBIE_RING",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Zombie Slayer 2",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Zombie_Ring",
+    "https://wiki.hypixel.net/Zombie_Ring"
   ],
   "recipe": {
     "A1": "",
@@ -21,14 +30,5 @@
     "C2": "",
     "C3": ""
   },
-  "slayer_req": "ZOMBIE_2",
-  "internalname": "ZOMBIE_RING",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Zombie_Ring",
-    "https://wiki.hypixel.net/Zombie_Ring"
-  ],
-  "crafttext": "Requires: Zombie Slayer 2"
+  "slayer_req": "ZOMBIE_2"
 }

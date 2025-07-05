@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:iron_sword",
   "displayname": "§9Twilight Dagger",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+90\",1:\"§7Strength: §c+45\",2:\"§7Crit Damage: §c+15%\",3:\" §8[§8⚔§8]\",4:\"\",5:\"§7Deal §c1.5x §7damage to Blazes§7.\",6:\"§7Deal §c1.2x §7damage to Skeletons§7.\",7:\"§7§7Gain §3+15☯ Combat Wisdom§7 against\",8:\"§7Blazes.\",9:\" \",10:\"§6Ability: Attunement  §e§lRIGHT CLICK\",11:\"§7Swap between §fSpirit §7and §bCrystal §7mode in order\",12:\"§7to attack through Hellion Shields.\",13:\" \",14:\"§7Attuned: §fSpirit\",15:\"\",16:\"§6Ability: Wraith Drain\",17:\"§7§7On hit, heal §7for §c200 §7+ §c4%❤ §7after §a6s\",18:\"§a§7if the Hellion Shield has switched\",19:\"§7attunement.\",20:\"\",21:\"§7§8This item can be reforged!\",22:\"§7§4☠ §cRequires §5Blaze Slayer 2§c.\",23:\"§9§lRARE SWORD\"],Name:\"§9Twilight Dagger\"},ExtraAttributes:{id:\"MAWDUST_DAGGER\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"MAWDUST_DAGGER\"},HideFlags:254,ItemModel:\"minecraft:iron_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+90\",1:\"§7Strength: §c+45\",2:\"§7Crit Damage: §c+15%\",3:\" §8[⚔]\",4:\"\",5:\"§7Deal §c1.5x §7damage to Blazes.\",6:\"§7Deal §c1.2x §7damage to Skeletons.\",7:\"§7Gain §3+15☯ Combat Wisdom§7 against\",8:\"§7Blazes.\",9:\" \",10:\"§6Ability: Attunement  §e§lRIGHT CLICK\",11:\"§7Swap between §fSpirit §7and §bCrystal §7mode in order\",12:\"§7to attack through Hellion Shields.\",13:\" \",14:\"§7Attuned: §fSpirit\",15:\"\",16:\"§6Ability: Wraith Drain\",17:\"§7On hit, heal for §c200 §7+ §c4%❤ §7after §a6s\",18:\"§7if the Hellion Shield has switched\",19:\"§7attunement.\",20:\"\",21:\"§8This item can be reforged!\",22:\"§4☠ §cRequires §5Blaze Slayer 2§c.\",23:\"§9§lRARE SWORD\"],Name:\"§9Twilight Dagger\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+90",
     "§7Strength: §c+45",
     "§7Crit Damage: §c+15%",
-    " §8[§8⚔§8]",
+    " §8[⚔]",
     "",
-    "§7Deal §c1.5x §7damage to Blazes§7.",
-    "§7Deal §c1.2x §7damage to Skeletons§7.",
-    "§7§7Gain §3+15☯ Combat Wisdom§7 against",
+    "§7Deal §c1.5x §7damage to Blazes.",
+    "§7Deal §c1.2x §7damage to Skeletons.",
+    "§7Gain §3+15☯ Combat Wisdom§7 against",
     "§7Blazes.",
     " ",
     "§6Ability: Attunement  §e§lRIGHT CLICK",
@@ -21,13 +21,22 @@
     "§7Attuned: §fSpirit",
     "",
     "§6Ability: Wraith Drain",
-    "§7§7On hit, heal §7for §c200 §7+ §c4%❤ §7after §a6s",
-    "§a§7if the Hellion Shield has switched",
+    "§7On hit, heal for §c200 §7+ §c4%❤ §7after §a6s",
+    "§7if the Hellion Shield has switched",
     "§7attunement.",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4☠ §cRequires §5Blaze Slayer 2§c.",
+    "§8This item can be reforged!",
+    "§4☠ §cRequires §5Blaze Slayer 2§c.",
     "§9§lRARE SWORD"
+  ],
+  "internalname": "MAWDUST_DAGGER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Blaze Slayer 2",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Twilight_Dagger",
+    "https://wiki.hypixel.net/Twilight_Dagger"
   ],
   "recipe": {
     "A1": "",
@@ -40,14 +49,5 @@
     "C2": "STICK:1",
     "C3": ""
   },
-  "internalname": "MAWDUST_DAGGER",
-  "crafttext": "Requires: Blaze Slayer 2",
-  "clickcommand": "viewrecipe",
-  "slayer_req": "BLAZE_2",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Twilight_Dagger",
-    "https://wiki.hypixel.net/Twilight_Dagger"
-  ]
+  "slayer_req": "BLAZE_2"
 }

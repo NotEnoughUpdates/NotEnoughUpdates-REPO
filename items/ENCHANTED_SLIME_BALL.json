@@ -1,12 +1,21 @@
 {
   "itemid": "minecraft:slime_ball",
   "displayname": "§aEnchanted Slimeball",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Slimeball\"},ExtraAttributes:{id:\"ENCHANTED_SLIME_BALL\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_SLIME_BALL\"},HideFlags:254,ItemModel:\"minecraft:slime_ball\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Slimeball\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7§8Collection Item",
+    "§8Collection Item",
     "",
     "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_SLIME_BALL",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Slimeball V",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Slimeball",
+    "https://wiki.hypixel.net/Enchanted_Slimeball"
   ],
   "recipe": {
     "A1": "",
@@ -18,14 +27,5 @@
     "C1": "",
     "C2": "SLIME_BALL:32",
     "C3": ""
-  },
-  "internalname": "ENCHANTED_SLIME_BALL",
-  "clickcommand": "viewrecipe",
-  "modver": "2.2.2",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Slimeball",
-    "https://wiki.hypixel.net/Enchanted_Slimeball"
-  ],
-  "crafttext": "Requires: Slimeball V"
+  }
 }

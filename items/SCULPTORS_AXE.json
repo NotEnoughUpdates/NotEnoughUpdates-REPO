@@ -1,14 +1,23 @@
 {
   "itemid": "minecraft:stone_axe",
-  "displayname": "§fSculptor\u0027s Axe",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Right-click on any log on your\",1:\"§7island to turn it into a 6 sided\",2:\"§7log!\",3:\"\",4:\"§f§lCOMMON AXE\"],Name:\"§fSculptor\u0027s Axe\"},ExtraAttributes:{id:\"SCULPTORS_AXE\"}}",
+  "displayname": "§fSculptor's Axe",
+  "nbttag": "{ExtraAttributes:{id:\"SCULPTORS_AXE\"},HideFlags:254,ItemModel:\"minecraft:stone_axe\",Unbreakable:1B,display:{Lore:[0:\"§7Right-click on any log on your island\",1:\"§7to turn it into a 6 sided log!\",2:\"\",3:\"§8This item can be reforged!\",4:\"§f§lCOMMON AXE\"],Name:\"§fSculptor's Axe\"}}",
   "damage": 0,
   "lore": [
-    "§7Right-click on any log on your",
-    "§7island to turn it into a 6 sided",
-    "§7log!",
+    "§7Right-click on any log on your island",
+    "§7to turn it into a 6 sided log!",
     "",
+    "§8This item can be reforged!",
     "§f§lCOMMON AXE"
+  ],
+  "internalname": "SCULPTORS_AXE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Birch Wood IV",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Sculptor%27s_Axe",
+    "https://wiki.hypixel.net/Sculptor%27s_Axe"
   ],
   "recipe": {
     "A1": "",
@@ -20,14 +29,5 @@
     "C1": "STICK:1",
     "C2": "",
     "C3": ""
-  },
-  "internalname": "SCULPTORS_AXE",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "crafttext": "Requires: Birch Wood IV",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Sculptor%27s_Axe",
-    "https://wiki.hypixel.net/Sculptor%27s_Axe"
-  ]
+  }
 }

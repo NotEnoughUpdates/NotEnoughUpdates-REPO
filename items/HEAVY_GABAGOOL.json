@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§5Heavy Gabagool",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"aff41233-34d9-3556-a5b7-6edf202ff90f\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NjIwNzE2MzQ5NywKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA0ZTBhYzgxZTYwOGM1NjA1YjUwNWQ0ZTljZDZlNzUzOTczMzJjOTEyYzFmZjhmNzlhZmUxNzBmMzhiN2E3OCIKICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§7Feed Wisp pets, tier up into\",1:\"§7Hypergolic Gabagool or craft\",2:\"§7Inferno minion fuel.\",3:\"\",4:\"§eRight-click to view recipes!\",5:\"\",6:\"§5§lEPIC\"],Name:\"§5Heavy Gabagool\"},ExtraAttributes:{id:\"HEAVY_GABAGOOL\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"HEAVY_GABAGOOL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"478f8f26-d6f8-322e-9e9f-6a0c44f657d6\",Properties:{textures:[0:{Name:\"textures\",Signature:\"sVsTCTuXZTK45a/qmriyiHlqiVoVZQkJId/DmtndWwb1YzBjBX00ZHv2imfYVYzLMK3xTq79Kq1chtjcbu3HYGtEXWdRNtKLS9olhCCVA/TINKa4ODot3irzb6bNtXnNzstci4oZh4TAZKscydDKNgDkbtOZZDHhx7rXgg0BGgONbhFMSA0HJkpY6oiK4BDi7OY0eANAsru2uTOriiJLcH2wnZarMs2OpuELAu9LsWx4RTfoi84ATBd6YRLbivQvPZ5HXf1XW6GdTeVWslhxqISBVfQgDCGjsIumolfXttudf16vhhPUz3YZ3+ompafCys1dFtg2kBFJEYreUKkdPkeWRQA+YJoGFNroiJ1Mcx5iSvHC5DMfJn4GhE/f7vu8jIT7G8am80UzHLYLLFtmtERs8Px/1/jqUiW0/r/KA0fF7o5KaOvsfZtsF3IjQXXEXvOIOvh293tSEebt7qwO46qbl5unHcuyFbjpR3U4BC7eFRiUE/jrHMMF1JBZ/25j4oTGhHAOCCK0k581bZFN/6IlsBacjjIytgq6SBY0znVozub/BnwjfsgcGggMHuCDwzNrohtShUTpeHsghaa7V4FyxjKEWSZQkvYESTHO2hV3K4oRWpKJL9KLz3sDdoQWUm+EMQl86UDQrZEyWlaszda6+nf1zZGkaGVkTUdJq7c=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1OTc5MTg3NzU4NywKICAicHJvZmlsZUlkIiA6ICI5MWYwNGZlOTBmMzY0M2I1OGYyMGUzMzc1Zjg2ZDM5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdG9ybVN0b3JteSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83MDRlMGFjODFlNjA4YzU2MDViNTA1ZDRlOWNkNmU3NTM5NzMzMmM5MTJjMWZmOGY3OWFmZTE3MGYzOGI3YTc4IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Feed Wisp pets, tier up into\",1:\"§7Hypergolic Gabagool or craft\",2:\"§7Inferno minion fuel.\",3:\"\",4:\"§eRight-click to view recipes!\",5:\"\",6:\"§5§lEPIC\"],Name:\"§5Heavy Gabagool\"}}",
   "damage": 3,
   "lore": [
     "§7Feed Wisp pets, tier up into",
@@ -11,6 +11,15 @@
     "§eRight-click to view recipes!",
     "",
     "§5§lEPIC"
+  ],
+  "internalname": "HEAVY_GABAGOOL",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Heavy_Gabagool",
+    "https://wiki.hypixel.net/Heavy_Gabagool"
   ],
   "recipe": {
     "A1": "FUEL_GABAGOOL:3",
@@ -22,14 +31,5 @@
     "C1": "FUEL_GABAGOOL:3",
     "C2": "FUEL_GABAGOOL:3",
     "C3": "FUEL_GABAGOOL:3"
-  },
-  "internalname": "HEAVY_GABAGOOL",
-  "crafttext": "",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Heavy_Gabagool",
-    "https://wiki.hypixel.net/Heavy_Gabagool"
-  ]
+  }
 }

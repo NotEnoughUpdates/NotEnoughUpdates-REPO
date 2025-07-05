@@ -1,14 +1,23 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Medium Backpack",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"f1e3c520-3f66-38f0-a110-70e3c183df38\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NjgyMTMwNTE0MjYsInByb2ZpbGVJZCI6IjgyYzYwNmM1YzY1MjRiNzk4YjkxYTEyZDNhNjE2OTc3IiwicHJvZmlsZU5hbWUiOiJOb3ROb3RvcmlvdXNOZW1vIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82MmYzYjNhMDU0ODFjZGU3NzI0MDAwNWMwZGRjZWUxYzA2OWU1NTA0YTYyY2UwOTc3ODc5ZjU1YTM5Mzk2MTQ2In19fQ\"}]}},display:{Lore:[0:\"§7A bag with §a18§7 slots which\",1:\"§7can be placed in your Storage\",2:\"§7Menu to store additional items.\",3:\"\",4:\"§9§lRARE\"],Name:\"§9Medium Backpack\"},ExtraAttributes:{id:\"MEDIUM_BACKPACK\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"MEDIUM_BACKPACK\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"219a5710-fea2-3314-9efc-334cc35d44cf\",Properties:{textures:[0:{Name:\"textures\",Signature:\"L5HdDKDWuvJZ8DSagCagKlULCpcTmU1hbvJJ0xZ7SH1YwOsG4q2FhmDCAKfgVFWD4Ve7UxHksovMjiK0SiwbuJapu6ljjwvy62jD+8FeBh7nrIxBkl49Yi3yQIub4MAAa+55Tq7Dv1BRJuarQhhuCNt+v3KtJPRlHkQu74okPsWYSwG/5lwzJZtvCxL2efsBWiLSmb58KowQZTPqUZbQPuoqQ4QdFZaA5XJogo8U0YaMFDLxvVHdE4kR1yAhWpxUVXWmDXs3Jtk34rTo2HEmMMRncmfgLaPY6WQtVweOvksueKTY/JZL2avWWNEQwcXuFPlbxSCjsoLDfw8sMTfbW5TVwr1EulOui97cPBLZFRPAdlf7paaBx7OcRQ+rMiXelmNkDoJcpp7/hh8iI0EEpd3rnmdQ5brq02YKhqHXSNYjfT8qoNCOQnt2OdF4LS+tMFpqKFLS42bQaaSClR+1wkX06a3BofPInHYCQXpCVhK9XwH7mpVso+K6gOKMJI23LpLl3UDMZ8lnc65HFh/f1KSQqYKZ+HEu5Ngp7iBWv9lFOKjlvieFXxIzke5yql238ZzFAqUqTZ2WVOMrKIhTHHV615KfYcR86DYrFM/uin4aItgiYechaCzVLM3jhLWktLODYLd+1WAJKmp8ENYKmwi865BGxmMyNI4zpX5amJQ=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NjgyMTMwNTE0MjYsInByb2ZpbGVJZCI6IjgyYzYwNmM1YzY1MjRiNzk4YjkxYTEyZDNhNjE2OTc3IiwicHJvZmlsZU5hbWUiOiJOb3ROb3RvcmlvdXNOZW1vIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82MmYzYjNhMDU0ODFjZGU3NzI0MDAwNWMwZGRjZWUxYzA2OWU1NTA0YTYyY2UwOTc3ODc5ZjU1YTM5Mzk2MTQ2In19fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7A bag with §a18§7 slots which can be\",1:\"§7placed in your Storage Menu to\",2:\"§7store additional items.\",3:\"\",4:\"§9§lRARE\"],Name:\"§9Medium Backpack\"}}",
   "damage": 3,
   "lore": [
-    "§7A bag with §a18§7 slots which",
-    "§7can be placed in your Storage",
-    "§7Menu to store additional items.",
+    "§7A bag with §a18§7 slots which can be",
+    "§7placed in your Storage Menu to",
+    "§7store additional items.",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "MEDIUM_BACKPACK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Leather V",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Medium_Backpack",
+    "https://wiki.hypixel.net/Medium_Backpack"
   ],
   "recipe": {
     "A1": "LEATHER:64",
@@ -20,14 +29,5 @@
     "C1": "LEATHER:64",
     "C2": "LEATHER:64",
     "C3": "LEATHER:64"
-  },
-  "internalname": "MEDIUM_BACKPACK",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Medium_Backpack",
-    "https://wiki.hypixel.net/Medium_Backpack"
-  ],
-  "crafttext": "Requires: Leather V"
+  }
 }

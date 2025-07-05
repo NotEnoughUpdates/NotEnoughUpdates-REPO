@@ -1,26 +1,26 @@
 {
   "itemid": "minecraft:coal",
   "displayname": "§aEnchanted Coal",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§7Increases the speed of\",3:\"§7your minion by §a10%§7 for 24\",4:\"§7hours§7!\",5:\"\",6:\"§a§lUNCOMMON ORE\"],Name:\"§aEnchanted Coal\"},ExtraAttributes:{id:\"ENCHANTED_COAL\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_COAL\"},HideFlags:254,ItemModel:\"minecraft:coal\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7Increases the speed of\",3:\"§7your minion by §a10%§7 for 24\",4:\"§7hours!\",5:\"\",6:\"§a§lUNCOMMON ORE\"],Name:\"§aEnchanted Coal\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7§8Collection Item",
+    "§8Collection Item",
     "",
     "§7Increases the speed of",
     "§7your minion by §a10%§7 for 24",
-    "§7hours§7!",
+    "§7hours!",
     "",
     "§a§lUNCOMMON ORE"
   ],
   "internalname": "ENCHANTED_COAL",
   "clickcommand": "viewrecipe",
-  "modver": "",
+  "crafttext": "Requires: Coal IV",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Coal",
     "https://wiki.hypixel.net/Enchanted_Coal"
   ],
-  "crafttext": "Requires: Coal IV",
   "recipes": [
     {
       "type": "crafting",

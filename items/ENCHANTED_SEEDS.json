@@ -1,10 +1,21 @@
 {
   "itemid": "minecraft:wheat_seeds",
   "displayname": "§aEnchanted Seeds",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Seeds\"},ExtraAttributes:{id:\"ENCHANTED_SEEDS\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_SEEDS\"},HideFlags:254,ItemModel:\"minecraft:wheat_seeds\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Seeds\"},ench:[]}",
   "damage": 0,
   "lore": [
+    "§8Collection Item",
+    "",
     "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_SEEDS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Seeds III",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Seeds",
+    "https://wiki.hypixel.net/Enchanted_Seeds"
   ],
   "recipe": {
     "A1": "",
@@ -16,14 +27,5 @@
     "C1": "",
     "C2": "SEEDS:32",
     "C3": ""
-  },
-  "internalname": "ENCHANTED_SEEDS",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Seeds",
-    "https://wiki.hypixel.net/Enchanted_Seeds"
-  ],
-  "crafttext": "Requires: Seeds III"
+  }
 }

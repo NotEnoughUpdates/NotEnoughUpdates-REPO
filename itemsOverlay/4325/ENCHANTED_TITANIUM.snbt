@@ -1,0 +1,45 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "ENCHANTED_TITANIUM"
+		},
+		"minecraft:enchantment_glint_override": 1b,
+		"minecraft:profile": {
+			id: [I;
+				-942723913,
+				-1231995793,
+				-1372722177,
+				706013370
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "e5uoffTpYZH0QAKi9Z575jMdcmeiaRD5zaLgUW1pYJhNkQL7dYuRGrvMK0F07Kfk/lmPBOpGaAhyr3L71c13a7DdEfXEW15qprs0tJxpoXHZPfBDW90gwndjx0de9AJJufXDGOaXwgwrnz0U2Sjtj36VwwUB4yZHzLC2C2sgr4i9G9heVbvSos4WsyUWsJClciaWi28iDkefuyAmybh880+TeCbo7oDJG1U+sw0MLTd02iLXpVUVb4Pa2c4B/7B1b4tj2ADhy8DhkrajOM8I2OZhS46pfNEzMkIL5aVD8onItj9ho59gJbqMSDBx70Y0fEiYw6swT8g6xOicEhtcj2PiiAlItgAEHSZOyA7YOIiF0b8FKNqzlMqIqzTXUvRKpGLyLQb1JQziTPbal36WrWqnOuZJEHuiNqEpiPG7igvBbPeuQboIfoR9CbwpBLm0h0se86jesxDLwFzL52fdbYQIETkxAUXGbHcdXj4OxY7RA5HPZBNuHji2x5q8eVR2Vr2A1ZyZjf6T8nRD6wHPOCRNHbj4WsbC2bCyTryC3c1hWk9/PwUyOaPlVarv+53qQj9LoSniTyTIym0XESy7nuV/QaIRBp84lDApi96Ou+3tbgpQg/796pIYabNfK9CV5agwSflBvWvhxR2MFg51yVSjE3rekZmaJTtIlny3g5U=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MjcwNDg4MCwKICAicHJvZmlsZUlkIiA6ICJmMjc0YzRkNjI1MDQ0ZTQxOGVmYmYwNmM3NWIyMDIxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJIeXBpZ3NlbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zZGNjMGVjOTg3M2Y0ZjhkNDA3YmEwYTBmOTgzZTI1Nzc4Nzc3MmVhZjg3ODRlMjI2YTYxYzdmNzI3YWM5ZTI2IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd"
+	}
+}

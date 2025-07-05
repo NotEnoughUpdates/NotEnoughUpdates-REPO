@@ -1,23 +1,30 @@
 {
   "itemid": "minecraft:book",
   "displayname": "§5Hot Potato Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7§8Combinable in Anvil\",1:\"\",2:\"§7When applied to armor, grants\",3:\"§7§a+2❈ Defense §7and §c+4❤\",4:\"§cHealth§7.\",5:\"\",6:\"§7When applied to weapons, grants\",7:\"§7§c+2❁ Strength §7and §c+2❁\",8:\"§cDamage§7.\",9:\"\",10:\"§7This can be applied to an item\",11:\"§7up to §a10 §7times!\",12:\"\",13:\"§5§lEPIC\"],Name:\"§5Hot Potato Book\"},ExtraAttributes:{id:\"HOT_POTATO_BOOK\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"HOT_POTATO_BOOK\"},HideFlags:254,ItemModel:\"minecraft:book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§7When applied to armor, grants §a+2❈\",3:\"§aDefense §7and §c+4❤ Health§7.\",4:\"\",5:\"§7When applied to weapons, grants\",6:\"§c+2❁ Strength §7and §c+2❁ Damage§7.\",7:\"\",8:\"§7This can be applied to an item up to\",9:\"§a10 §7times!\",10:\"\",11:\"§5§lEPIC\"],Name:\"§5Hot Potato Book\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7§8Combinable in Anvil",
+    "§8Combinable in Anvil",
     "",
-    "§7When applied to armor, grants",
-    "§7§a+2❈ Defense §7and §c+4❤",
-    "§cHealth§7.",
+    "§7When applied to armor, grants §a+2❈",
+    "§aDefense §7and §c+4❤ Health§7.",
     "",
     "§7When applied to weapons, grants",
-    "§7§c+2❁ Strength §7and §c+2❁",
-    "§cDamage§7.",
+    "§c+2❁ Strength §7and §c+2❁ Damage§7.",
     "",
-    "§7This can be applied to an item",
-    "§7up to §a10 §7times!",
+    "§7This can be applied to an item up to",
+    "§a10 §7times!",
     "",
     "§5§lEPIC"
+  ],
+  "internalname": "HOT_POTATO_BOOK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Potato VIII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Hot_Potato_Book",
+    "https://wiki.hypixel.net/Hot_Potato_Book"
   ],
   "recipe": {
     "A1": "",
@@ -29,14 +36,5 @@
     "C1": "",
     "C2": "PAPER:1",
     "C3": "ENCHANTED_BAKED_POTATO:1"
-  },
-  "internalname": "HOT_POTATO_BOOK",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Hot_Potato_Book",
-    "https://wiki.hypixel.net/Hot_Potato_Book"
-  ],
-  "crafttext": "Requires: Potato VIII"
+  }
 }

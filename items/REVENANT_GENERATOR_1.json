@@ -1,18 +1,28 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Revenant Minion I",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"b22f77c8-1454-392b-8c35-0e0b3d415499\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1Njg1MzgxNzcxMTMsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2EzZGNlODU1NTkyMzU1OGQ4ZDc0YzJhMmIyNjFiMmIyZDYzMDU1OWRiNTRlZjk3ZWQzZjljMzBlOWEyMGFiYSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and struggling\",2:\"§7with Revenants! Minions also\",3:\"§7work when you are offline!\",4:\"\",5:\"§7Time Between Actions: §a29s\",6:\"§7Max Storage: §e64\",7:\"\",8:\"§9§lRARE\"],Name:\"§9Revenant Minion I\"},ExtraAttributes:{id:\"REVENANT_GENERATOR_1\",generator_tier:1}}",
+  "nbttag": "{ExtraAttributes:{id:\"REVENANT_GENERATOR_1\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"31129c6e-2ad1-3704-9308-57ef70a98779\",Properties:{textures:[0:{Name:\"textures\",Signature:\"e1n8vu8bd0ttP/sEfTRKJWMk8UEMwzwqH+8Wp+KoOebAXBQqqfTmtEgWuHZGshZQvq/gMV/ObnqiaN8hPhNw7gyqUYF+5We1WRpjQg+Ghl/uDOEQP2+uEAYY3olF3uKZaSlynYggviWVCqUbPKOX8F894OERcrp9aUGuFC3W1sMMer8sDjpDRELPnfIKKK0fvlpEc62lIdqvTh85TpTVOBg4TRKxmSieQc68dpioWQCm2kVcnP4otJlalE578SRjOqJNtMMKKu4JvLr8OoSBUqFRt8J4sUoVqxx8wlVb1SI79m5V5ynycoY/Jg7QD2t51GB5O4dR38K3ZivnbqiQ4zsXrZz7uwZRPfk8cnLygG/fKgnUdm5j5SURGJGrHDEFIRJwIzX3Pz+MHuyJgjlfXywdr6s2gvX3zxnCH7Z9kDEpmmxJ7Rpu7Hb/2+KBRdj+IATY4vz7Y7ADEVSa0w2zpcxG3U+AkH+YPGNB/J+/DddYKkvuShZLbMjo+LwgKoN3MNGg0Sod7Wd8EbJRY/OUDYDcKzDeSsy8/barxi9XmmaNwuSk8e1BZRNjK0HLUT/4ZucJ+YB+VHbrCxORw1A7J2KrAoZswyhIYzIsIQTawNdIwxt+p9GB+xjeaV7jwApYc3tpulDS0Gcrsi1+R6XwjE3ZFOtnAkaJi5tKtREG06Y=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxOTQ1MTg0NzQyNSwKICAicHJvZmlsZUlkIiA6ICI5OGQxYTQyNmRlMmU0NjBkYjdjNWExMmY5MGNhODg0OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLdWJpbm9TSyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hM2RjZTg1NTU5MjM1NThkOGQ3NGMyYTJiMjYxYjJiMmQ2MzA1NTlkYjU0ZWY5N2VkM2Y5YzMwZTlhMjBhYmEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and struggling with\",2:\"§7Revenants! Minions also work when\",3:\"§7you are offline!\",4:\"\",5:\"§7Time Between Actions: §a29s\",6:\"§7Max Storage: §e64\",7:\"§7Resources Generated: §b0\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Revenant Minion I\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and struggling",
-    "§7with Revenants! Minions also",
-    "§7work when you are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and struggling with",
+    "§7Revenants! Minions also work when",
+    "§7you are offline!",
     "",
     "§7Time Between Actions: §a29s",
     "§7Max Storage: §e64",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "REVENANT_GENERATOR_1",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Revenant_Minion",
+    "https://wiki.hypixel.net/Revenant_Minion_I"
   ],
   "recipe": {
     "A1": "REVENANT_FLESH:10",
@@ -26,14 +36,5 @@
     "C3": "REVENANT_FLESH:10"
   },
   "slayer_req": "ZOMBIE_5",
-  "internalname": "REVENANT_GENERATOR_1",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Revenant_Minion",
-    "https://wiki.hypixel.net/Revenant_Minion_I"
-  ],
-  "crafttext": ""
+  "useneucraft": true
 }

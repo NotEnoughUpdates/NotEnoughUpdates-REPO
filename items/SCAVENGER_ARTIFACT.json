@@ -1,13 +1,22 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Scavenger Artifact",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"24c258ab-bd22-3420-8b64-cf44fc144c01\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxMzIxMjcyNzUyMCwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJlMDExZjY0OGRlMzdlNDkxNzFlMjY3MjUyNDcyYjIxMzAwMDdlNjMyZGI3MzU4MjIwY2E1NDY3MTJmNzlhODEiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Grants §6+0.75 coins §7per level of the\",1:\"§7killed enemy.\",2:\"\",3:\"§9§lRARE ACCESSORY\"],Name:\"§9Scavenger Artifact\"},ExtraAttributes:{id:\"SCAVENGER_ARTIFACT\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SCAVENGER_ARTIFACT\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"dd80280a-06f0-339f-a8b4-6ccf62f01a7e\",Properties:{textures:[0:{Name:\"textures\",Signature:\"BadD51pPlc4AN6kRBQGmlh8Hwj2nP2aWlr5sDmKGnP1kqcVXsIpezY/x4WDVH6xGM/xK94PuXlOnM+vFeKtv971XIm7LXl42NwZ+sJ+X0Sg48Y4DHYBKHpa9WOQSRolIVd8hrw4+BWfni4xLd7GxWpPHD0/TbuoLzWdVKYKtuNU/4KEs7Tl9gZaUmXW7vUWZmmxeqBYTyqfG7JXsRsLsMgcgLgvXzW9YolIg8UzA/tzQ0aWXGakXe3xZWTAhBhBUA1fkzvljQg9QmsOw/desnC0WEkkCMsirZ0Zk3IOLhQNmJojEJ4Rt5i8z9E6ZzBopI+d4qQEHjy8Hj6JWpHmBsxfkk2XknQz+kJ9N43+FO+AXMvLZKmtisoFXhi8yf/zs9HgDdAHoFhQVK0oGHlGZWcCV6yFOsFo2vHSXpmpKSZE6xfTXa2EjZwtny9jSLCkdclYuw1Qc545ZjBhMvcCRhNNcSVCaxtieJ3WVL3kuSm7H7KYvFNfBl/PrzJQA0MYupB8D057HGX7aEBaMxfkWlHT8H8cieu/kZtiyCImlUvpnMIrJdijJ5S9bD5vMopDgTSsIhacBcrTvLBRYAVLVyYuZYpdq7+ow1RH6ZNpOwmmCWxmSHdU+icdfqIe2uFaD9DQocZTw/88VOqRlGUYmSqZB0rzIriSbPQZpYuK7fxw=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyMDA1MjU4OTkwMywKICAicHJvZmlsZUlkIiA6ICJjY2MxNGM2ZDUwMDE0MjBmYmMxYjkyMTM2Y2JmOWU4MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJXaGlybGluZ0F0b2w5NDQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmUwMTFmNjQ4ZGUzN2U0OTE3MWUyNjcyNTI0NzJiMjEzMDAwN2U2MzJkYjczNTgyMjBjYTU0NjcxMmY3OWE4MSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Grants §6+0.75 coins §7per level of the\",1:\"§7killed enemy.\",2:\"\",3:\"§9§lRARE ACCESSORY\"],Name:\"§9Scavenger Artifact\"}}",
   "damage": 3,
   "lore": [
     "§7Grants §6+0.75 coins §7per level of the",
     "§7killed enemy.",
     "",
     "§9§lRARE ACCESSORY"
+  ],
+  "internalname": "SCAVENGER_ARTIFACT",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Scavenger_Artifact",
+    "https://wiki.hypixel.net/Scavenger_Artifact"
   ],
   "recipe": {
     "A1": "BLOOD_SOAKED_COINS:1",
@@ -19,14 +28,5 @@
     "C1": "BLOOD_SOAKED_COINS:1",
     "C2": "FRESHLY_MINTED_COINS:4",
     "C3": "BLOOD_SOAKED_COINS:1"
-  },
-  "internalname": "SCAVENGER_ARTIFACT",
-  "clickcommand": "viewrecipe",
-  "modver": "2.3.0",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Scavenger_Artifact",
-    "https://wiki.hypixel.net/Scavenger_Artifact"
-  ]
+  }
 }

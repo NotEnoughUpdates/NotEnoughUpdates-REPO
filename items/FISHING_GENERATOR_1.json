@@ -1,18 +1,28 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Fishing Minion I",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"7223a6bf-d320-3e0f-aad9-d3dcecc790ab\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MTk1Njk3MzYsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzUzZWEwZmQ4OTUyNGRiM2Q3YTM1NDQ5MDQ5MzM4MzBiNGZjODg5OWVmNjBjMTEzZDk0OGJiM2M0ZmU3YWFiYjEifX19\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start fishing. Requires water\",2:\"§7nearby. Minions also work when\",3:\"§7you are offline!\",4:\"\",5:\"§7Time Between Actions: §a78s\",6:\"§7Max Storage: §e640\",7:\"\",8:\"§9§lRARE\"],Name:\"§9Fishing Minion I\"},ExtraAttributes:{id:\"FISHING_GENERATOR_1\",generator_tier:1}}",
+  "nbttag": "{ExtraAttributes:{id:\"FISHING_GENERATOR_1\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"7223a6bf-d320-3e0f-aad9-d3dcecc790ab\",Properties:{textures:[0:{Name:\"textures\",Signature:\"Ckrmw7p/CGhHelwTShZ9rAiu33FZ26NlnP69RZAoYBeSwfz9puutknBiK2Cud93Y40bsAKQk8eHd7akCwdsfSaw5dy5buaWhorgce6QkLoASsaE+boSkE15YM8a6w7TKQJohvewmvpLAKxJWx+Ikh5bvdo2Lvr4NHAcm1K/Dl4bM3cQDU1idDxx2YvGiHpCQ+mmnoTZ/tNuaFt2B2MWRa5CorAT4g/cm10fcaD7SZvMjm7xWgYd4R5A+cF0h2NrHLNQi81c/pAULJ49QnGC4CG+KQaFZI3kIxPUpqF8jPZUT8oDym4QTYJ57gBqx7H3yMB21YvAkt2Kz24/cMzaw9MnMYVxA/HwEORdMW00xneYeamde+U9QXsFUeXyEtvNyO3xTPFmVa0UiKWlgS9599k0E2qMk9cvOd1244zwcVZ6+VXiwePSsnM55p0cVwF5OKhEaA3SkylHvF8d3dTiDauVUFCAk8xhV932sl80d7CUkrivA0K7zMZcRcW6X5df08orm7UaxENLK4VXeRUebnml5tMfjAJYOiwvWPb+KlBcVaUstvmScJICBVbOvsl6/T7DqMu9NckLtOnqjlxQRqNz0xQypQSENq3Sv8sExwCq3jl8KZiRX0DWq2a/CRPcigv1GPtgm6a1AhZ6N4aRe6vES9gfc48HLj7yPms6nQoo=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MTk1Njk3MzYsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzUzZWEwZmQ4OTUyNGRiM2Q3YTM1NDQ5MDQ5MzM4MzBiNGZjODg5OWVmNjBjMTEzZDk0OGJiM2M0ZmU3YWFiYjEifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7fishing. Requires water nearby.\",2:\"§7Minions also work when you are\",3:\"§7offline!\",4:\"\",5:\"§7Time Between Actions: §a78s\",6:\"§7Max Storage: §e640\",7:\"§7Resources Generated: §b0\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Fishing Minion I\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start fishing. Requires water",
-    "§7nearby. Minions also work when",
-    "§7you are offline!",
+    "§7Place this minion and it will start",
+    "§7fishing. Requires water nearby.",
+    "§7Minions also work when you are",
+    "§7offline!",
     "",
     "§7Time Between Actions: §a78s",
     "§7Max Storage: §e640",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "FISHING_GENERATOR_1",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Raw Fish II",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Fishing_Minion",
+    "https://wiki.hypixel.net/Fishing_Minion_I"
   ],
   "recipe": {
     "A1": "RAW_FISH:8",
@@ -25,14 +35,5 @@
     "C2": "RAW_FISH:8",
     "C3": "RAW_FISH:8"
   },
-  "internalname": "FISHING_GENERATOR_1",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Fishing_Minion",
-    "https://wiki.hypixel.net/Fishing_Minion_I"
-  ],
-  "crafttext": "Requires: Raw Fish II"
+  "useneucraft": true
 }

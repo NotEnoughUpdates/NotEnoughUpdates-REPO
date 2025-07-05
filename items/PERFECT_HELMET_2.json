@@ -1,16 +1,25 @@
 {
   "itemid": "minecraft:diamond_helmet",
   "displayname": "§9Perfect Helmet - Tier II",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+130\",1:\" §8[§7❈§8] §8[§7❈§8] §8[§7❈§8]\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§7§8This item can be reforged!\",6:\"§9§lRARE HELMET\"],Name:\"§9Perfect Helmet - Tier II\"},ExtraAttributes:{id:\"PERFECT_HELMET_2\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"PERFECT_HELMET_2\"},HideFlags:254,ItemModel:\"minecraft:diamond_helmet\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+130\",1:\" §8[§7❈§8] [§7❈§8] [§7❈§8]\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§8This item can be reforged!\",6:\"§9§lRARE HELMET\"],Name:\"§9Perfect Helmet - Tier II\"}}",
   "damage": 0,
   "lore": [
     "§7Defense: §a+130",
-    " §8[§7❈§8] §8[§7❈§8] §8[§7❈§8]",
+    " §8[§7❈§8] [§7❈§8] [§7❈§8]",
     "",
     "§eRight-click to view recipes!",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§9§lRARE HELMET"
+  ],
+  "internalname": "PERFECT_HELMET_2",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Perfect_Armor#Tier_II",
+    "https://wiki.hypixel.net/Perfect_Helmet_-_Tier_II"
   ],
   "recipe": {
     "A1": "",
@@ -23,14 +32,5 @@
     "C2": "ENCHANTED_DIAMOND_BLOCK:1",
     "C3": ""
   },
-  "internalname": "PERFECT_HELMET_2",
-  "parent": "PERFECT_HELMET_1",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Perfect_Armor#Tier_II",
-    "https://wiki.hypixel.net/Perfect_Helmet_-_Tier_II"
-  ],
-  "crafttext": ""
+  "parent": "PERFECT_HELMET_1"
 }

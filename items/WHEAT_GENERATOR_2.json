@@ -1,20 +1,29 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Wheat Minion II",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"d6b263a5-06cc-30f9-a9b9-a344c6ebbb7b\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzY0MTc2ODAsInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJ4RmFpaUxlUiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzYyYjA1MDhiM2ZlZjQwNjgzM2Q1MTlkYThiMDhlZTA3ODYwNGM3OGI4Y2E2ZTljMTM4NzYwMDQxZmE4NjFiZiJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and harvesting\",2:\"§7wheat. Requires dirt or soil\",3:\"§7nearby so wheat can be planted.\",4:\"§7Minions also work when you are\",5:\"§7offline!\",6:\"\",7:\"§7Time Between Actions: §a15s\",8:\"§7Max Storage: §e256\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Wheat Minion II\"},ExtraAttributes:{id:\"WHEAT_GENERATOR_2\",generator_tier:2}}",
+  "nbttag": "{ExtraAttributes:{id:\"WHEAT_GENERATOR_2\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"d6b263a5-06cc-30f9-a9b9-a344c6ebbb7b\",Properties:{textures:[0:{Name:\"textures\",Signature:\"b/VKh5kjdQW0Bmaoot0yKRfWpLe8pnOqFnHF7EilEjs+M89l4yPyhNFvNOoD/DRGRNvLV761K/fvRZnvHsT1OW22j6gECvnStBVa9saRfMpQ5BnObStKBpN0AK8/LwJvD9kVGWaZchaNcYCPE+3pHWFv/858/EIPXhxoQVRLuCWS2TkVaEOvQgDi2fsM1LWM1KnesiL+7BFAlequ020Avn34Ps/DbN5CRdwghm5IsszBcyX4fJr490RDBMr+Tbc7vdgxXUQ5NIEZWgl1mESI/vSSFUv3rDPFh234uHSH/HwJzxgaH1YynfmMl3xx4ckrFV4Q6NQRTV2tzVeiCCgDb0SqwVw2kjIHqSbmayMvOnVZROc2L5202WTIYzS2s+vW4HbEVQCDrCDXsHuGhNbzDam7wuDPk7cyNhEuJZpKaqj+VpIciIo2pe4hkeDlTm0kqR9oypZTMsUD2cV1k9XAK+HZ/rf0GP7AOXw+1vCo0C1huzpADmP4IX7reO80eLuLjoeDKXjs/PYSfAEs5t0UivTEzfMryNaCrA+IQsLRPLqypsZH8EeAym8ktWFJq9d4+CqSSbbJ8i/LOnb36j35ShPifFLWUfsNyrI7xOYCp3myXuGPgyhNDjvtSQFFfNNVZJUfeFdDNn96cyZram+9dLkyJWqrE+0gWXqC+TpIGaM=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzY0MTc2ODAsInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJ4RmFpaUxlUiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzYyYjA1MDhiM2ZlZjQwNjgzM2Q1MTlkYThiMDhlZTA3ODYwNGM3OGI4Y2E2ZTljMTM4NzYwMDQxZmE4NjFiZiJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and harvesting wheat.\",2:\"§7Requires dirt or soil nearby so\",3:\"§7wheat can be planted. Minions also\",4:\"§7work when you are offline!\",5:\"\",6:\"§7Time Between Actions: §a15s\",7:\"§7Max Storage: §e256\",8:\"§7Resources Generated: §b0\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Wheat Minion II\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and harvesting",
-    "§7wheat. Requires dirt or soil",
-    "§7nearby so wheat can be planted.",
-    "§7Minions also work when you are",
-    "§7offline!",
+    "§7Place this minion and it will start",
+    "§7generating and harvesting wheat.",
+    "§7Requires dirt or soil nearby so",
+    "§7wheat can be planted. Minions also",
+    "§7work when you are offline!",
     "",
     "§7Time Between Actions: §a15s",
     "§7Max Storage: §e256",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "WHEAT_GENERATOR_2",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Wheat_Minion",
+    "https://wiki.hypixel.net/Wheat_Minion_II"
   ],
   "recipe": {
     "A1": "WHEAT:20",
@@ -27,14 +36,5 @@
     "C2": "WHEAT:20",
     "C3": "WHEAT:20"
   },
-  "internalname": "WHEAT_GENERATOR_2",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Wheat_Minion",
-    "https://wiki.hypixel.net/Wheat_Minion_II"
-  ],
-  "crafttext": ""
+  "useneucraft": true
 }

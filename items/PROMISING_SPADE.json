@@ -1,15 +1,24 @@
 {
   "itemid": "minecraft:iron_shovel",
   "displayname": "§aPromising Shovel",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Gains §9Efficiency I §7after\",1:\"§7breaking §a10 blocks§7!\",2:\"\",3:\"§7Blocks Broken: §a0\",4:\"\",5:\"§a§lUNCOMMON SHOVEL\"],Name:\"§aPromising Shovel\"},ExtraAttributes:{id:\"PROMISING_SPADE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"PROMISING_SPADE\"},HideFlags:254,ItemModel:\"minecraft:iron_shovel\",Unbreakable:1B,display:{Lore:[0:\"§7Gains §9Efficiency I §7after breaking §a10\",1:\"§ablocks§7!\",2:\"\",3:\"§7Blocks Broken: §a0\",4:\"\",5:\"§a§lUNCOMMON SHOVEL\"],Name:\"§aPromising Shovel\"}}",
   "damage": 0,
   "lore": [
-    "§7Gains §9Efficiency I §7after",
-    "§7breaking §a10 blocks§7!",
+    "§7Gains §9Efficiency I §7after breaking §a10",
+    "§ablocks§7!",
     "",
     "§7Blocks Broken: §a0",
     "",
     "§a§lUNCOMMON SHOVEL"
+  ],
+  "internalname": "PROMISING_SPADE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Promising_Shovel",
+    "https://wiki.hypixel.net/Promising_Shovel"
   ],
   "recipe": {
     "A1": "",
@@ -21,14 +30,5 @@
     "C1": "",
     "C2": "STICK:1",
     "C3": ""
-  },
-  "internalname": "PROMISING_SPADE",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Promising_Shovel",
-    "https://wiki.hypixel.net/Promising_Shovel"
-  ]
+  }
 }

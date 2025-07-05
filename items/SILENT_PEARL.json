@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:ender_pearl",
   "displayname": "§aSilent Pearl",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Prevents pearl damage and\",1:\"§7Enderman from spawning when\",2:\"§7thrown on §dThe End §7Island!\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aSilent Pearl\"},ExtraAttributes:{id:\"SILENT_PEARL\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SILENT_PEARL\"},HideFlags:254,ItemModel:\"minecraft:ender_pearl\",display:{Lore:[0:\"§7Prevents pearl damage and\",1:\"§7Enderman from spawning when\",2:\"§7thrown on §dThe End §7Island!\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aSilent Pearl\"}}",
   "damage": 0,
   "lore": [
     "§7Prevents pearl damage and",
@@ -9,6 +9,15 @@
     "§7thrown on §dThe End §7Island!",
     "",
     "§a§lUNCOMMON"
+  ],
+  "internalname": "SILENT_PEARL",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Silent_Pearl",
+    "https://wiki.hypixel.net/Silent_Pearl"
   ],
   "recipe": {
     "A1": "ENDER_STONE:1",
@@ -22,20 +31,11 @@
     "C3": "ENDER_STONE:1",
     "count": 8
   },
-  "internalname": "SILENT_PEARL",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Silent_Pearl",
-    "https://wiki.hypixel.net/Silent_Pearl"
-  ],
   "recipes": [
     {
-    "type": "trade",
-    "cost": "EMERALD:6",
-    "result": "SILENT_PEARL"
+      "type": "trade",
+      "cost": "EMERALD:6",
+      "result": "SILENT_PEARL"
     }
   ]
 }

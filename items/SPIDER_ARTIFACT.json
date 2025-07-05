@@ -1,18 +1,23 @@
 {
-  "internalname": "SPIDER_ARTIFACT",
   "itemid": "minecraft:skull",
   "displayname": "§5Spider Artifact",
-  "clickcommand": "viewrecipe",
+  "nbttag": "{ExtraAttributes:{id:\"SPIDER_ARTIFACT\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"df53316c-0a54-3517-94b3-bbee867fc179\",Properties:{textures:[0:{Name:\"textures\",Signature:\"PizRgASWCiWVd+Cp5un6ao9GKvr50hn9mTAYxAANAbzU/jc4RaaKzTBJkmDFND/N6cclPxbvi/PteprICQod7tn7MG2oe6dBkrU8iZp1gJ7QN0KfGflSf+NGm5EaL+W3NzUN9VdVdQZUk3zLCIvcZyX4yo+Prr4V4dOZzJ6NdD02V9vf1bGo1a4d+p4JODl/0w+tQyFQzEnNO3YX4gCdcS1TZ4W5SOsqfNeutwykKeRKI2gTvw+nLwtlPXZxS3rA6tvSmc+Uya2qr6g2lruzoYW/G+htlj1AXI0iMhWsiGf4zsnw8Td/H2d2LrSMv85eH+dKhqHH2DsxXDsB60CQCl+hCDpqpY//HDxu56qf6eoetJ8ScS+witRftcatsvhAbjkU8+FxICrZ+IBjiu2lcWBLJ6WpiHEAxIfshtKbBwcRCJdSa2HARALztuHhjxLPlchEsMxuDBjpBpdV/M6Kx4P64TtAK2NmBwgCNimHDVwtQrTW4fGDct+f/VDW/AuWjOVW3OZCTdJGWmHIc6UBtysWXTEeCTpinU3Y4r1LVQ71lMSxkaXRa98z4ByzO3mN7kyjKB9HHb71LNPCINRVA3JdI9WtIejwAhg6b6+SXXuIHba/MY4yx++KzAcKNXQQrGizJxQJR7sdX2GKGVv6ww6nFZqOQTSr8JwdI6TDvEI=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwMjAzOTQxMzAwOSwKICAicHJvZmlsZUlkIiA6ICI3MzgyZGRmYmU0ODU0NTVjODI1ZjkwMGY4OGZkMzJmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4cWwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjgxYjVjZjNhNjViZjljYWI0YmNhNTU3ODE3MjFhODZkNTY3ZDllMTA2NTUxNjQ3ZjM1YjcxNWVkZjAwYTEzZiIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Reduces the damage taken from Cave\",1:\"§7Spiders and Spiders by §a15%§7.\",2:\"\",3:\"§4☠ §cRequires §5Spider Slayer 7§c.\",4:\"§5§lEPIC ACCESSORY\"],Name:\"§5Spider Artifact\"}}",
   "damage": 3,
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"3e5474d4-4365-3ea7-b4bc-b4edc54da341\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODMwMDk4NmVkMGEwNGVhNzk5MDRmNmFlNTNmNDllZDNhMGZmNWIxZGY2MmJiYTYyMmVjYmQzNzc3ZjE1NmRmOCJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Reduces the damage taken from\",1:\"§7§7Cave Spiders§7 and §7Spiders\",2:\"§7by §a15%§7.\",3:\"\",4:\"§7§4☠ §cRequires §5Spider Slayer 7§c.\",5:\"§5§lEPIC ACCESSORY\"],Name:\"§5Spider Artifact\"},ExtraAttributes:{modifier:\"itchy\",id:\"SPIDER_ARTIFACT\"}}",
-  "modver": "",
   "lore": [
-    "§7Reduces the damage taken from",
-    "§7§7Cave Spiders§7 and §7Spiders",
-    "§7by §a15%§7.",
+    "§7Reduces the damage taken from Cave",
+    "§7Spiders and Spiders by §a15%§7.",
     "",
-    "§7§4☠ §cRequires §5Spider Slayer 7§c.",
+    "§4☠ §cRequires §5Spider Slayer 7§c.",
     "§5§lEPIC ACCESSORY"
+  ],
+  "internalname": "SPIDER_ARTIFACT",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Spider Slayer 7",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Spider_Artifact",
+    "https://wiki.hypixel.net/Spider_Artifact"
   ],
   "recipe": {
     "A1": "ENCHANTED_EMERALD:8",
@@ -25,11 +30,5 @@
     "C2": "TARANTULA_SILK:8",
     "C3": "ENCHANTED_EMERALD:8"
   },
-  "slayer_req": "SPIDER_7",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Spider_Artifact",
-    "https://wiki.hypixel.net/Spider_Artifact"
-  ],
-  "crafttext": "Requires: Spider Slayer 7"
+  "slayer_req": "SPIDER_7"
 }

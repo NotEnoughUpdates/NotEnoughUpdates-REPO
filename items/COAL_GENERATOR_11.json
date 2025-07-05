@@ -1,19 +1,29 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Coal Minion XI",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"560f7ef0-0718-3759-a28e-99845be86550\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzQ0NTg5NjIsInByb2ZpbGVJZCI6IjkxZmUxOTY4N2M5MDQ2NTZhYTFmYzA1OTg2ZGQzZmU3IiwicHJvZmlsZU5hbWUiOiJoaGphYnJpcyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQxZmZhZGVhYTIyYzhkOTdhNzIwMzZjYmQ1ZDkzNGNhNDU0MDMyYTgxOTU3MDUyZTg1ZjNmOTViNzlkMzE2OSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and mining coal\",2:\"§7ore! Requires an open area to\",3:\"§7place coal ore. Minions also\",4:\"§7work when you are offline!\",5:\"\",6:\"§7Time Between Actions: §a7s\",7:\"§7Max Storage: §e960\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Coal Minion XI\"},ExtraAttributes:{id:\"COAL_GENERATOR_11\",generator_tier:11}}",
+  "nbttag": "{ExtraAttributes:{id:\"COAL_GENERATOR_11\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"560f7ef0-0718-3759-a28e-99845be86550\",Properties:{textures:[0:{Name:\"textures\",Signature:\"wJt7C0th3ZPnVUzOfv2TxuuEZgQMkW/DP2nDA+ykkr0Rb0fdWTf9DuW8KedrpHIxn2LMjkm9g0vpVcPRPR14h7eCtObIkPglapAU06Xs69eOsJw/8Yka54A+LOrvj2GkzCMsPyWavFesI5M8AO4MhjdZ4gAT/9QvH50gyXQsgOQHBzd7pVj1/Ve54qGaB3M3dks1UXb9ta6niSIl5CkOJup5d6dq6nMrSDdBmNG9G4kfBDB/G0UzPgqRc41PDhhGucy44R4M5+ZC+EVgizZd0IpKIZvlT/7Mr1eRgcbN810MZp6LSSngaAaVLXrPRLnMOZ7MC2XNpgi77lXVSF5Kbi6jiWt1byzm7FLfNovTCJcnaMSkdtuHPJybIb6dx0+48HcOdQOW7XIRuwjEj6nMGXxNi0DcacDMguFBH8kDAiLzp2EYvLgQT4EUibNdajpEjfM8qc+RuYeMDdOgiq/BK+E2uABPgLzVK4mysP3lRPAiq1aTlknpSH/vW8XaEXICBgEpnrDNW6KM7x1+uKK2mhFpzYIRa1JPiAi1cbvWIUNDDPob1cst4wd3U9tYKv4awARUlqsV6KTQQJaR+Bi8sbs/NmhCmIkvASIbWe3WvhQZfaFj9wUO4AeXdNpJ1b5J7mNTCMzye4BsoP8WkH5K4h5YZO4Oxg34ECts1p0JMrM=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzQ0NTg5NjIsInByb2ZpbGVJZCI6IjkxZmUxOTY4N2M5MDQ2NTZhYTFmYzA1OTg2ZGQzZmU3IiwicHJvZmlsZU5hbWUiOiJoaGphYnJpcyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQxZmZhZGVhYTIyYzhkOTdhNzIwMzZjYmQ1ZDkzNGNhNDU0MDMyYTgxOTU3MDUyZTg1ZjNmOTViNzlkMzE2OSJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and mining coal ore!\",2:\"§7Requires an open area to place coal\",3:\"§7ore. Minions also work when you are\",4:\"§7offline!\",5:\"\",6:\"§7Time Between Actions: §a7s\",7:\"§7Max Storage: §e960\",8:\"§7Resources Generated: §b0\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Coal Minion XI\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and mining coal",
-    "§7ore! Requires an open area to",
-    "§7place coal ore. Minions also",
-    "§7work when you are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and mining coal ore!",
+    "§7Requires an open area to place coal",
+    "§7ore. Minions also work when you are",
+    "§7offline!",
     "",
     "§7Time Between Actions: §a7s",
     "§7Max Storage: §e960",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "COAL_GENERATOR_11",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Coal I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Coal_Minion",
+    "https://wiki.hypixel.net/Coal_Minion_XI"
   ],
   "recipe": {
     "A1": "ENCHANTED_COAL_BLOCK:1",
@@ -26,14 +36,5 @@
     "C2": "ENCHANTED_COAL_BLOCK:1",
     "C3": "ENCHANTED_COAL_BLOCK:1"
   },
-  "internalname": "COAL_GENERATOR_11",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Coal_Minion",
-    "https://wiki.hypixel.net/Coal_Minion_XI"
-  ],
-  "crafttext": "Requires: Coal I"
+  "useneucraft": true
 }

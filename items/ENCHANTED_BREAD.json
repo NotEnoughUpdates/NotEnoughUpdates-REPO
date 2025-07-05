@@ -1,16 +1,25 @@
 {
   "itemid": "minecraft:bread",
   "displayname": "§fEnchanted Bread",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§7Increases the speed of\",3:\"§7your minion by §a5%§7 for 12\",4:\"§7hours§7!\",5:\"\",6:\"§f§lCOMMON\"],Name:\"§fEnchanted Bread\"},ExtraAttributes:{id:\"ENCHANTED_BREAD\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_BREAD\"},HideFlags:254,ItemModel:\"minecraft:bread\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7Increases the speed of\",3:\"§7your minion by §a5%§7 for 12\",4:\"§7hours!\",5:\"\",6:\"§f§lCOMMON\"],Name:\"§fEnchanted Bread\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7§8Collection Item",
+    "§8Collection Item",
     "",
     "§7Increases the speed of",
     "§7your minion by §a5%§7 for 12",
-    "§7hours§7!",
+    "§7hours!",
     "",
     "§f§lCOMMON"
+  ],
+  "internalname": "ENCHANTED_BREAD",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Wheat V",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Bread",
+    "https://wiki.hypixel.net/Enchanted_Bread"
   ],
   "recipe": {
     "A1": "",
@@ -22,14 +31,5 @@
     "C1": "WHEAT:10",
     "C2": "WHEAT:10",
     "C3": "WHEAT:10"
-  },
-  "internalname": "ENCHANTED_BREAD",
-  "clickcommand": "viewrecipe",
-  "modver": "2.2.2",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Bread",
-    "https://wiki.hypixel.net/Enchanted_Bread"
-  ],
-  "crafttext": "Requires: Wheat V"
+  }
 }

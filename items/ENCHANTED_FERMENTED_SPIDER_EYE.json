@@ -1,11 +1,21 @@
 {
   "itemid": "minecraft:fermented_spider_eye",
   "displayname": "§aEnchanted Fermented Spider Eye",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Fermented Spider Eye\"},ExtraAttributes:{id:\"ENCHANTED_FERMENTED_SPIDER_EYE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_FERMENTED_SPIDER_EYE\"},HideFlags:254,ItemModel:\"minecraft:fermented_spider_eye\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Fermented Spider Eye\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§8Brewing Ingredient",
+    "",
     "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_FERMENTED_SPIDER_EYE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Spider Eye VII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Fermented_Spider_Eye",
+    "https://wiki.hypixel.net/Enchanted_Fermented_Spider_Eye"
   ],
   "recipe": {
     "A1": "",
@@ -17,14 +27,5 @@
     "C1": "",
     "C2": "ENCHANTED_SPIDER_EYE:64",
     "C3": ""
-  },
-  "internalname": "ENCHANTED_FERMENTED_SPIDER_EYE",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Fermented_Spider_Eye",
-    "https://wiki.hypixel.net/Enchanted_Fermented_Spider_Eye"
-  ],
-  "crafttext": "Requires: Spider Eye VII"
+  }
 }

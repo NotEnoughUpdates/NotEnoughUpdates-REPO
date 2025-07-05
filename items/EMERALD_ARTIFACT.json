@@ -1,12 +1,21 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Emerald Artifact",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"6684e3a3-aab0-309c-9cd5-331bb4b14568\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjM2YjgyMWMxYWZkZDVhNWQxNGUzYjNiZDBhMzIyNjNjOGRmNWRmNWRiNmUxZTg4YmY2NWU5N2IyN2E4NTMwIn19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7§7Get §6+20 coins §7every minute!\",1:\"\",2:\"§9§lRARE ACCESSORY\"],Name:\"§9Emerald Artifact\"},ExtraAttributes:{id:\"EMERALD_ARTIFACT\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"EMERALD_ARTIFACT\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"fc5bfff9-3ded-3766-80ab-e820b464e9e2\",Properties:{textures:[0:{Name:\"textures\",Signature:\"Ld00kPaebHLjABdKLITbybziXBZGSvOMIAigtTY6XT4rDhoyxWy/eCy3oH1fbLQU3JSj177WOq8jOt35q0lcQHoglRkkESuS3ZYpLHogrvF5e0ySjaxQUeDtE6n2+/9dKAhwOJZe/mNdEB/GUQKkBknKVnnf9GcB8xbSAfq+lQxcIPU348uFFXT07TX9XD0Vfsk5AGGpvXuieGWpCItwGvM9icHr3GtTm1dSDSsDRhdKXTbT1KQBuvRWgD4eJ7sjUR28+THrEVKPX7Tu0TrAXW0mUFkH+0zD5qqR6/qEvAaEeDzgiV5JCqRj5v6dc3OE3+wWS8vgTK9aTqxhNTWY+G57GJzKed94za/i6OHZ0I2NjRTJn29SxnH/srtIb9BR7epP2L/UBmUUDy4GJawSWRbmTf5XmDwZxlUx7DjqRevIQCySertPDM7n1LqoZulmd9WY2jtx045pMzrCs5eT0valTW4EIYVbP5fVM/DD7tPSm6NEiQj5REz4uUYYkWbg14n/JWDVWPFQLWyp68pFtL/PRPeap/bfDnBxva7WV+cQlOHMh3g+lYYmUT4o4+pEQU8GuoUhEfVK5iUu40eEwfXZHZCUHH5Lgb6jUCJg8jnit66QQy/2OBwfcX3nLD2UTeRweGIts8NtLsT1xPWQys9V0Ai7unDGmOGrgHAqkqQ=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyNTc4MzAxNjYzMCwKICAicHJvZmlsZUlkIiA6ICI1N2IzZGZiNWY4YTY0OWUyOGI1NDRlNGZmYzYzMjU2ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJYaWthcm8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ4ODE2MWE3ZGExMjQ2MWUyNjBkYzc2NzhiOTRiOWM1ZTYyZmNkMzgyMTNkMWY4MDhlMzZiNDMzNTgwODA5NCIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Get §6+20 coins §7every minute!\",1:\"\",2:\"§9§lRARE ACCESSORY\"],Name:\"§9Emerald Artifact\"}}",
   "damage": 3,
   "lore": [
-    "§7§7Get §6+20 coins §7every minute!",
+    "§7Get §6+20 coins §7every minute!",
     "",
     "§9§lRARE ACCESSORY"
+  ],
+  "internalname": "EMERALD_ARTIFACT",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Emerald_Artifact",
+    "https://wiki.hypixel.net/Emerald_Artifact"
   ],
   "recipe": {
     "A1": "ENCHANTED_EMERALD_BLOCK:6",
@@ -18,14 +27,5 @@
     "C1": "ENCHANTED_EMERALD_BLOCK:6",
     "C2": "AVARICIOUS_CHALICE:1",
     "C3": "ENCHANTED_EMERALD_BLOCK:6"
-  },
-  "internalname": "EMERALD_ARTIFACT",
-  "clickcommand": "viewrecipe",
-  "modver": "2.3.0",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Emerald_Artifact",
-    "https://wiki.hypixel.net/Emerald_Artifact"
-  ]
+  }
 }

@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:gold_ingot",
   "displayname": "§aGold Claws",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§8Consumed on use\",1:\"\",2:\"§aPet Items §7can boost pets in many powerful ways!\",3:\"§7A pet can only hold one §aPet Item §7at a time.\",4:\"§7The pet must be §evisible §7to apply the item!\",5:\"\",6:\"§7§7Increases the pet\u0027s §9☠ Crit Damage\",7:\"§9§7by §a50% §7and §9☣ Crit Chance §7by §a50%§7.\",8:\"\",9:\"§7§eRight-click on your summoned pet to\",10:\"§egive it this item!\",11:\"\",12:\"§a§lUNCOMMON PET ITEM\"],Name:\"§aGold Claws\"},ExtraAttributes:{id:\"GOLD_CLAWS\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"GOLD_CLAWS\"},HideFlags:254,ItemModel:\"minecraft:gold_ingot\",display:{Lore:[0:\"§8Consumed on use\",1:\"\",2:\"§aPet Items §7can boost pets in many powerful ways!\",3:\"§7A pet can only hold one §aPet Item §7at a time.\",4:\"§7The pet must be §evisible §7to apply the item!\",5:\"\",6:\"§7Increases the pet's §9☠ Crit Damage\",7:\"§7by §a50% §7and §9☣ Crit Chance §7by §a50%§7.\",8:\"\",9:\"§eRight-click on your summoned pet to\",10:\"§egive it this item!\",11:\"\",12:\"§a§lUNCOMMON PET ITEM\"],Name:\"§aGold Claws\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§8Consumed on use",
@@ -10,13 +10,22 @@
     "§7A pet can only hold one §aPet Item §7at a time.",
     "§7The pet must be §evisible §7to apply the item!",
     "",
-    "§7§7Increases the pet\u0027s §9☠ Crit Damage",
-    "§9§7by §a50% §7and §9☣ Crit Chance §7by §a50%§7.",
+    "§7Increases the pet's §9☠ Crit Damage",
+    "§7by §a50% §7and §9☣ Crit Chance §7by §a50%§7.",
     "",
-    "§7§eRight-click on your summoned pet to",
+    "§eRight-click on your summoned pet to",
     "§egive it this item!",
     "",
     "§a§lUNCOMMON PET ITEM"
+  ],
+  "internalname": "GOLD_CLAWS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Gold_Claws",
+    "https://wiki.hypixel.net/Gold_Claws"
   ],
   "recipe": {
     "A1": "",
@@ -28,14 +37,5 @@
     "C1": "",
     "C2": "ZOG_ANVIL:1",
     "C3": ""
-  },
-  "internalname": "GOLD_CLAWS",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Gold_Claws",
-    "https://wiki.hypixel.net/Gold_Claws"
-  ]
+  }
 }

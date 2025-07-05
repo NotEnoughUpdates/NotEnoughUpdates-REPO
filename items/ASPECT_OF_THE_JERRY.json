@@ -1,17 +1,26 @@
 {
   "itemid": "minecraft:wooden_sword",
   "displayname": "§fAspect of the Jerry",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+1\",1:\"\",2:\"§6Ability: Parley §e§lRIGHT CLICK\",3:\"§7Channel your inner Jerry.\",4:\"§8Cooldown: §a5s\",5:\"\",6:\"§7§8This item can be reforged!\",7:\"§f§lCOMMON SWORD\"],Name:\"§fAspect of the Jerry\"},ExtraAttributes:{id:\"ASPECT_OF_THE_JERRY\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ASPECT_OF_THE_JERRY\"},HideFlags:254,ItemModel:\"minecraft:wooden_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+1\",1:\"\",2:\"§6Ability: Parley  §e§lRIGHT CLICK\",3:\"§7Channel your inner Jerry.\",4:\"§8Cooldown: §a5s\",5:\"\",6:\"§8This item can be reforged!\",7:\"§f§lCOMMON SWORD\"],Name:\"§fAspect of the Jerry\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+1",
     "",
-    "§6Ability: Parley §e§lRIGHT CLICK",
+    "§6Ability: Parley  §e§lRIGHT CLICK",
     "§7Channel your inner Jerry.",
     "§8Cooldown: §a5s",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§f§lCOMMON SWORD"
+  ],
+  "internalname": "ASPECT_OF_THE_JERRY",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Aspect_of_the_Jerry",
+    "https://wiki.hypixel.net/Aspect_Of_The_Jerry"
   ],
   "recipe": {
     "A1": "",
@@ -23,14 +32,5 @@
     "C1": "",
     "C2": "STICK:1",
     "C3": ""
-  },
-  "internalname": "ASPECT_OF_THE_JERRY",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Aspect_of_the_Jerry",
-    "https://wiki.hypixel.net/Aspect_Of_The_Jerry"
-  ],
-  "crafttext": ""
+  }
 }

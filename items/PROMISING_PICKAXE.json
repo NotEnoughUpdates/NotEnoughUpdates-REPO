@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:iron_pickaxe",
   "displayname": "§aPromising Pickaxe",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§8Breaking Power 3\",1:\"\",2:\"§7Damage: §c+20\",3:\"§7Mining Speed: §a+50\",4:\"\",5:\"§6Ability: Stored Potential \",6:\"§7§7Grants §6+10⸕ Mining Speed §7for every\",7:\"§7100 blocks mined.\",8:\"§7§8(Max +250⸕ Mining Speed)\",9:\"§7\",10:\"§7§7Blocks Mined: §a0\",11:\"§7§7Mining Speed: §a0\",12:\"\",13:\"§7§8This item can be reforged!\",14:\"§a§lUNCOMMON PICKAXE\"],Name:\"§aPromising Pickaxe\"},ExtraAttributes:{id:\"PROMISING_PICKAXE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"PROMISING_PICKAXE\"},HideFlags:254,ItemModel:\"minecraft:iron_pickaxe\",Unbreakable:1B,display:{Lore:[0:\"§8Breaking Power 3\",1:\"\",2:\"§7Damage: §c+20\",3:\"§7Mining Speed: §a+50\",4:\"\",5:\"§6Ability: Stored Potential \",6:\"§7Grants §6+10⸕ Mining Speed §7for every\",7:\"§7100 blocks mined.\",8:\"§8(Max +250⸕ Mining Speed)\",9:\"\",10:\"§7Blocks Mined: §a0\",11:\"§7Mining Speed: §a0\",12:\"\",13:\"§8This item can be reforged!\",14:\"§a§lUNCOMMON PICKAXE\"],Name:\"§aPromising Pickaxe\"}}",
   "damage": 0,
   "lore": [
     "§8Breaking Power 3",
@@ -10,15 +10,24 @@
     "§7Mining Speed: §a+50",
     "",
     "§6Ability: Stored Potential ",
-    "§7§7Grants §6+10⸕ Mining Speed §7for every",
+    "§7Grants §6+10⸕ Mining Speed §7for every",
     "§7100 blocks mined.",
-    "§7§8(Max +250⸕ Mining Speed)",
-    "§7",
-    "§7§7Blocks Mined: §a0",
-    "§7§7Mining Speed: §a0",
+    "§8(Max +250⸕ Mining Speed)",
     "",
-    "§7§8This item can be reforged!",
+    "§7Blocks Mined: §a0",
+    "§7Mining Speed: §a0",
+    "",
+    "§8This item can be reforged!",
     "§a§lUNCOMMON PICKAXE"
+  ],
+  "internalname": "PROMISING_PICKAXE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Promising_Pickaxe",
+    "https://wiki.hypixel.net/Promising_Pickaxe"
   ],
   "recipe": {
     "A1": "IRON_BLOCK:1",
@@ -30,14 +39,5 @@
     "C1": "",
     "C2": "STICK:1",
     "C3": ""
-  },
-  "internalname": "PROMISING_PICKAXE",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Promising_Pickaxe",
-    "https://wiki.hypixel.net/Promising_Pickaxe"
-  ]
+  }
 }

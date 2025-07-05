@@ -1,17 +1,26 @@
 {
   "itemid": "minecraft:web",
   "displayname": "§5Flycatcher",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7This item can be used as a\",1:\"§7minion upgrade. Prevents your\",2:\"§7minions from getting distracted\",3:\"§7by flies. Increases the speed of\",4:\"§7your minion by §a20%§7.\",5:\"\",6:\"§7§4☠ §cRequires §5Spider Slayer 6§c.\",7:\"§5§lEPIC\"],Name:\"§5Flycatcher\"},ExtraAttributes:{id:\"FLYCATCHER_UPGRADE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"FLYCATCHER_UPGRADE\"},HideFlags:254,ItemModel:\"minecraft:cobweb\",display:{Lore:[0:\"§7This item can be used as a minion\",1:\"§7upgrade. Prevents your minions from\",2:\"§7getting distracted by flies.\",3:\"§7Increases the speed of your minion\",4:\"§7by §a20%§7.\",5:\"\",6:\"§4☠ §cRequires §5Spider Slayer 6§c.\",7:\"§5§lEPIC\"],Name:\"§5Flycatcher\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7This item can be used as a",
-    "§7minion upgrade. Prevents your",
-    "§7minions from getting distracted",
-    "§7by flies. Increases the speed of",
-    "§7your minion by §a20%§7.",
+    "§7This item can be used as a minion",
+    "§7upgrade. Prevents your minions from",
+    "§7getting distracted by flies.",
+    "§7Increases the speed of your minion",
+    "§7by §a20%§7.",
     "",
-    "§7§4☠ §cRequires §5Spider Slayer 6§c.",
+    "§4☠ §cRequires §5Spider Slayer 6§c.",
     "§5§lEPIC"
+  ],
+  "internalname": "FLYCATCHER_UPGRADE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Spider Slayer 6",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Flycatcher",
+    "https://wiki.hypixel.net/Flycatcher"
   ],
   "recipe": {
     "A1": "",
@@ -24,14 +33,5 @@
     "C2": "TARANTULA_SILK:17",
     "C3": "TARANTULA_SILK:17"
   },
-  "slayer_req": "SPIDER_6",
-  "internalname": "FLYCATCHER_UPGRADE",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "crafttext": "Requires: Spider Slayer 6",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Flycatcher",
-    "https://wiki.hypixel.net/Flycatcher"
-  ]
+  "slayer_req": "SPIDER_6"
 }

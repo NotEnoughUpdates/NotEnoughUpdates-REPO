@@ -1,19 +1,28 @@
 {
   "itemid": "minecraft:banner",
   "displayname": "§aTotem of Corruption",
-  "nbttag": "{HideFlags:254,BlockEntityTag:{Patterns:[0:{Pattern:\"b\",Color:0},1:{Pattern:\"cr\",Color:13},2:{Pattern:\"cbo\",Color:5},3:{Pattern:\"mc\",Color:5},4:{Pattern:\"flo\",Color:0},5:{Pattern:\"bts\",Color:0},6:{Pattern:\"tts\",Color:0}],Base:15},display:{Lore:[0:\"§6Ability: Deploy  §e§lRIGHT CLICK\",1:\"§7§7Place a totem down for §a2m §7turning\",2:\"§7nearby mobs into their §cCorrupted\",3:\"§c§7forms.\",4:\"\",5:\"§7§eNote: §7Only one Corrupted Totem can\",6:\"§7be active at a time.\",7:\"§8Mana Cost: §3200\",8:\"\",9:\"§a§lUNCOMMON\"],Name:\"§aTotem of Corruption\"},ExtraAttributes:{id:\"TOTEM_OF_CORRUPTION\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"TOTEM_OF_CORRUPTION\"},HideFlags:254,ItemModel:\"minecraft:white_banner\",display:{Lore:[0:\"§6Ability: Deploy  §e§lRIGHT CLICK\",1:\"§7Place a totem down for §a2m §7turning\",2:\"§7nearby mobs into their §cCorrupted\",3:\"§7forms.\",4:\"\",5:\"§eNote: §7Only one Corrupted Totem can\",6:\"§7be active at a time.\",7:\"§8Mana Cost: §3200\",8:\"\",9:\"§a§lUNCOMMON\"],Name:\"§aTotem of Corruption\"}}",
   "damage": 15,
   "lore": [
     "§6Ability: Deploy  §e§lRIGHT CLICK",
-    "§7§7Place a totem down for §a2m §7turning",
+    "§7Place a totem down for §a2m §7turning",
     "§7nearby mobs into their §cCorrupted",
-    "§c§7forms.",
+    "§7forms.",
     "",
-    "§7§eNote: §7Only one Corrupted Totem can",
+    "§eNote: §7Only one Corrupted Totem can",
     "§7be active at a time.",
     "§8Mana Cost: §3200",
     "",
     "§a§lUNCOMMON"
+  ],
+  "internalname": "TOTEM_OF_CORRUPTION",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Sulphur IV",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Totem_of_Corruption",
+    "https://wiki.hypixel.net/Totem_Of_Corruption"
   ],
   "recipe": {
     "A1": "",
@@ -25,14 +34,5 @@
     "C1": "MAGMA_CHUNK:30",
     "C2": "CORRUPTED_FRAGMENT:20",
     "C3": "MAGMA_CHUNK:30"
-  },
-  "internalname": "TOTEM_OF_CORRUPTION",
-  "crafttext": "Requires: Sulphur IV",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Totem_of_Corruption",
-    "https://wiki.hypixel.net/Totem_Of_Corruption"
-  ]
+  }
 }

@@ -1,12 +1,21 @@
 {
   "itemid": "minecraft:sand",
   "displayname": "§aEnchanted Sand",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON BLOCK\"],Name:\"§aEnchanted Sand\"},ExtraAttributes:{id:\"ENCHANTED_SAND\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_SAND\"},HideFlags:254,ItemModel:\"minecraft:sand\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON BLOCK\"],Name:\"§aEnchanted Sand\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7§8Collection Item",
+    "§8Collection Item",
     "",
     "§a§lUNCOMMON BLOCK"
+  ],
+  "internalname": "ENCHANTED_SAND",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Sand V",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Sand",
+    "https://wiki.hypixel.net/Enchanted_Sand"
   ],
   "recipe": {
     "A1": "",
@@ -18,14 +27,5 @@
     "C1": "",
     "C2": "SAND:32",
     "C3": ""
-  },
-  "internalname": "ENCHANTED_SAND",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Sand",
-    "https://wiki.hypixel.net/Enchanted_Sand"
-  ],
-  "crafttext": "Requires: Sand V"
+  }
 }

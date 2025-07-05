@@ -1,15 +1,23 @@
 {
   "itemid": "minecraft:leaves",
   "displayname": "§cSupreme Timecharm",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Place this timecharm in the\",1:\"§7§dRift Gallery §7to secure it\",2:\"§7forever!\",3:\"\",4:\"§8§l* §8Soulbound §8§l*\",5:\"§c§lSPECIAL RIFT TIMECHARM\"],Name:\"§cSupreme Timecharm\"},ExtraAttributes:{id:\"RIFT_TROPHY_WYLDLY_SUPREME\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"RIFT_TROPHY_WYLDLY_SUPREME\"},HideFlags:254,ItemModel:\"minecraft:spruce_leaves\",display:{Lore:[0:\"§7Bring this back to §dElise§7, she'll know\",1:\"§7what to do with it!\",2:\"\",3:\"§8§l* §8Soulbound §8§l*\",4:\"§c§lSPECIAL RIFT TIMECHARM\"],Name:\"§cSupreme Timecharm\"},ench:[]}",
   "damage": 1,
   "lore": [
-    "§7Place this timecharm in the",
-    "§7§dRift Gallery §7to secure it",
-    "§7forever!",
+    "§7Bring this back to §dElise§7, she'll know",
+    "§7what to do with it!",
     "",
     "§8§l* §8Soulbound §8§l*",
     "§c§lSPECIAL RIFT TIMECHARM"
+  ],
+  "internalname": "RIFT_TROPHY_WYLDLY_SUPREME",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Supreme_Timecharm",
+    "https://wiki.hypixel.net/Supreme_Timecharm"
   ],
   "recipe": {
     "A1": "BOTTLED_ODONATA:1",
@@ -21,13 +29,5 @@
     "C1": "BOTTLED_ODONATA:1",
     "C2": "LIL_PAD:16",
     "C3": "BOTTLED_ODONATA:1"
-  },
-  "internalname": "RIFT_TROPHY_WYLDLY_SUPREME",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Supreme_Timecharm",
-    "https://wiki.hypixel.net/Supreme_Timecharm"
-  ]
+  }
 }

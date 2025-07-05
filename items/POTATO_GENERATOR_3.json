@@ -1,20 +1,29 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Potato Minion III",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"51be1c06-fc7c-3fa7-a7f5-16602b4553be\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTgwMzE1NzA1OTgsInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJ4RmFpaUxlUiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjllM2QzMDlkNTZkMzdiNTFmNGEzNTZjYmE1NWZlYzRhYzhlMTc0YmYyYjcyYTAzZmI4MzYxYTJiNDFkYTE3ZCJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and harvesting\",2:\"§7potatoes. Requires dirt or soil\",3:\"§7nearby so potatoes can be\",4:\"§7planted. Minions also work when\",5:\"§7you are offline!\",6:\"\",7:\"§7Time Between Actions: §a18s\",8:\"§7Max Storage: §e192\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Potato Minion III\"},ExtraAttributes:{id:\"POTATO_GENERATOR_3\",generator_tier:3}}",
+  "nbttag": "{ExtraAttributes:{id:\"POTATO_GENERATOR_3\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"51be1c06-fc7c-3fa7-a7f5-16602b4553be\",Properties:{textures:[0:{Name:\"textures\",Signature:\"W18V1qjnsR8rDvjw6oRziIx+hYpTjQ+ffsLxJUsqNv9JJFYpSAEqNW1rargZzVfHC/267OVc/wH1rRExeRP+DyEPA7s8MGpm0OC2f4pO4RFuphauBqxBdU7n+Zy9gAKyWcPXFtACKCHwladiQQmf4yb83lXJPovBqCFVNigk4arSjqXJz074S3qUoQXVw5O2wh80COsiG3C6pob1GgsvlpbRtcxoOU3MByBUUF4e8d88pWJUjMMRBOuNjrNEgGeA+DWjay0Zv3/IsBI+y1zh9/mC1nhWHoma3ado/xj4ZbAJNjWska8NSJuTpf8LGtizBCy9SUygzs/d/hb2ayxbXHpb78Pvgk+obPITzUPmYUPlIdF9IE6o1p2Gewtqp2dBciPynT2tqan/rDoHfQmQmnEbapIuHP8M5lsUlQOWuIh8sRQI9pMSqkMcyQIfm0/iIEl41KWf8O4wMilZceOEe/dOW0t00WVnr4BB87BjppylR1pHYvWaZ9HEaDaLjhBmap/9Cbb7FaSXH6Crdz3u2zehhzCiigdjTNQI+0g/eBInkNgLt+POw50+h3eGqCWwcM5lO5jUcsrM9Y42VOeiRqDbbTyg7e0nal/RtVn/PWQvw3tQ0gXmiNKWBLfuMxwj9mXWedVxkOxV/zOpkC+O1e4NOBj0/RYlZhlPE5moMkA=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTgwMzE1NzA1OTgsInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJ4RmFpaUxlUiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjllM2QzMDlkNTZkMzdiNTFmNGEzNTZjYmE1NWZlYzRhYzhlMTc0YmYyYjcyYTAzZmI4MzYxYTJiNDFkYTE3ZCJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and harvesting potatoes.\",2:\"§7Requires dirt or soil nearby so\",3:\"§7potatoes can be planted. Minions also\",4:\"§7work when you are offline!\",5:\"\",6:\"§7Time Between Actions: §a18s\",7:\"§7Max Storage: §e192\",8:\"§7Resources Generated: §b0\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Potato Minion III\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and harvesting",
-    "§7potatoes. Requires dirt or soil",
-    "§7nearby so potatoes can be",
-    "§7planted. Minions also work when",
-    "§7you are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and harvesting potatoes.",
+    "§7Requires dirt or soil nearby so",
+    "§7potatoes can be planted. Minions also",
+    "§7work when you are offline!",
     "",
     "§7Time Between Actions: §a18s",
     "§7Max Storage: §e192",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "POTATO_GENERATOR_3",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Potato_Minion",
+    "https://wiki.hypixel.net/Potato_Minion_III"
   ],
   "recipe": {
     "A1": "POTATO_ITEM:64",
@@ -27,14 +36,5 @@
     "C2": "POTATO_ITEM:64",
     "C3": "POTATO_ITEM:64"
   },
-  "internalname": "POTATO_GENERATOR_3",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Potato_Minion",
-    "https://wiki.hypixel.net/Potato_Minion_III"
-  ],
-  "crafttext": ""
+  "useneucraft": true
 }

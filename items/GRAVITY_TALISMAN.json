@@ -1,15 +1,23 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§aGravity Talisman",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"4444f2fa-5ec1-3d47-a369-f50958cfb3f0\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmE1MjYzMmE5YzhmN2JkZTk0NzE5MDY0MjM0OTIwZGVkNDg2MTRlMmJkOGJjOTFhZmU3ZmZjMmNkOGE0NmYxOSJ9fX0=\"}]}},display:{Lore:[0:\"§7Gives between §a+1§7 and §a+10§7\",1:\"§7§c❁ Strength §7and §a❈ Defense\",2:\"§a§7the closer you are to the\",3:\"§7spawn of an Island!\",4:\"\",5:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aGravity Talisman\"},ExtraAttributes:{id:\"GRAVITY_TALISMAN\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"GRAVITY_TALISMAN\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"daf9c1d9-1066-3d4a-bd99-6d2efb4a8a1e\",Properties:{textures:[0:{Name:\"textures\",Signature:\"C43h5xHGYHFE+s5/zplYnbOG+zYxZqoXD15kTVKfvUev0qjG+7uKA5pyZ6EphN3g6RBpYrf27FWWUcpAgY32J0oj931lLVCcIbN6hUheAZRUAQDeHoeeyy5r0L2aH0YCGLyjyvxt27jCUgqiXdnRdnC/an/s/vCnxnMFMXhJuMfaSOMgrvpx6KjJAEir5Lv/ksHuv2IQyNGscmYW281+8bhqexjHqfExVTsoSNd4QpCiFweMI5Cw6feKIbFp5hP40brHGYYxKxxVTbDjELUJKzIW7MQcNCqwwoYTLVuUAq5HFTW3hAg5HHy3JMPmHBOkyho2JIkbnrO5/d4etcSG7fs07f8p3qcLWutK02Z6WiSphVlBeO0KJoPiILhI5igiKfu3nGoAhwvLN2rTktEc2RKLpMm6+q6CZaRd7f43DKqw2CPjHnXub+t2ZGDgPQFk7792VfJdyzPGYw9U+Wbes32M5w4lstPhUT0N4LrtEaGFKlU5LyB47EjfJ0l2hLP7d5DBIIpQpDA2j83WtrtPkfIqSLPbzpjKTSFUpT956p9DrSSjRPro63Sv/eTIpyG8wxMXByOHJiQ6VyrTeU62UkK/rHB6SpCzl5ZgZfTQ3Vyd9DMOaCS8e3UAAMfILaix3hxJFdHC89RNrWzDLX+7n9cGoMcqAfbPiaueAciOl9Q=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwMjAzNzU0Mjc1MywKICAicHJvZmlsZUlkIiA6ICJiNzQ3OWJhZTI5YzQ0YjIzYmE1NjI4MzM3OGYwZTNjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTeWxlZXgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjE2ZjRhYzhhMDY5OGFiMDdiYjBhNWVmNjlkYzA4ZGFlZGQ4ZjU5NzJlN2ExMjM3YzhjNTYzNjFlM2YyMDRjYSIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Gives between §a+1§7 and §a+10§7 §c❁\",1:\"§cStrength §7and §a❈ Defense §7the closer\",2:\"§7you are to the spawn of an Island!\",3:\"\",4:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aGravity Talisman\"}}",
   "damage": 3,
   "lore": [
-    "§7Gives between §a+1§7 and §a+10§7",
-    "§7§c❁ Strength §7and §a❈ Defense",
-    "§a§7the closer you are to the",
-    "§7spawn of an Island!",
+    "§7Gives between §a+1§7 and §a+10§7 §c❁",
+    "§cStrength §7and §a❈ Defense §7the closer",
+    "§7you are to the spawn of an Island!",
     "",
     "§a§lUNCOMMON ACCESSORY"
+  ],
+  "internalname": "GRAVITY_TALISMAN",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Obsidian III",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Gravity_Talisman",
+    "https://wiki.hypixel.net/Gravity_Talisman"
   ],
   "recipe": {
     "A1": "OBSIDIAN:16",
@@ -21,14 +29,5 @@
     "C1": "OBSIDIAN:16",
     "C2": "OBSIDIAN:16",
     "C3": "OBSIDIAN:16"
-  },
-  "internalname": "GRAVITY_TALISMAN",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Gravity_Talisman",
-    "https://wiki.hypixel.net/Gravity_Talisman"
-  ],
-  "crafttext": "Requires: Obsidian III"
+  }
 }

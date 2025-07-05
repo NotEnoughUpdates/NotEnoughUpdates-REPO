@@ -1,19 +1,29 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Acacia Minion X",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"dc54c6cf-b897-3d27-88be-110bd74eb2e4\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5Mjk5NDMyODMsInByb2ZpbGVJZCI6ImU3NTMyNjk3ZTgwZjQ1NmU5ZjNhZjZiODIzNWU5YTgxIiwicHJvZmlsZU5hbWUiOiJNaW5lQWx0c19NU2tpbl8xIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85YjQ4MjYxMjAxMDVjYTc1ZjIwOGMzYjk3MjI1MjQ1MDMzZTE1NmE2MWZiNTNlY2ViYzNmYTZlMWJhYWJhOTE5In19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and chopping\",2:\"§7acacia logs! Requires an open\",3:\"§7area to place trees. Minions\",4:\"§7also work when you are offline!\",5:\"\",6:\"§7Time Between Actions: §a33s\",7:\"§7Max Storage: §e960\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Acacia Minion X\"},ExtraAttributes:{id:\"ACACIA_GENERATOR_10\",generator_tier:10}}",
+  "nbttag": "{ExtraAttributes:{id:\"ACACIA_GENERATOR_10\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"dc54c6cf-b897-3d27-88be-110bd74eb2e4\",Properties:{textures:[0:{Name:\"textures\",Signature:\"YEUPBTpCl922Je3vOJTbtG1N/c+oyxBHmm4LMJ7nhO1JM3sJbV0CHDcgucehAaMymIeoZ1yXvQ8uinwtVMj4LEs2Z5yHTYq5IFIZfA+o+n5qB1ov0ycj+cGjM/zLeeNUp2k/Ak+ali9UyZO76FPKH1lVl9INTGx6gCd6vNkJW6l7crno/yiy5/nQqOwkf/ifWLf6HMDn5TQZGQeRY1yvpk6HBTQ9T9P56gCbKclzdcnEpdn669zMYmwBJWiGaocSVg8sTMHAnP7uIHGzRCaULXSUjzAnj5VeQBckpKNhxwMlzkXskFkcRxGQZf9ZSUpH0ptvucfg+t0Yk5t4Nmu6/RlOW5cy4UUANag4L033SgRdnvHu9fglqFg8+L4eOkeY6z9x0P1hv6hGcvIYfUX31ZGWTbvWCC5wJh7REgKG8NkRKyFlnFXyW4M/YKTP8G94END5hSKbeiCbLsRhb7q0Da1H7KaoAqUKVpAa3nK+dM6U0mHj6Ecb20+EXtoa85sq0O6ufsIA4r7g3AUsFJ7X/YQhful/AqZ2bfzlTWiK+m5c0zfAj+3JogxS/xlP4Nl13hIgU5oeQbmaamFi0chO1Kc0suhOPb4IbB/difeMkuOEphpqAfiRID5GQ9FZeR2pkLaewxp+gLACd9uXYehFGe1+N2NXvucaByC4TUpjt3g=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5Mjk5NDMyODMsInByb2ZpbGVJZCI6ImU3NTMyNjk3ZTgwZjQ1NmU5ZjNhZjZiODIzNWU5YTgxIiwicHJvZmlsZU5hbWUiOiJNaW5lQWx0c19NU2tpbl8xIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85YjQ4MjYxMjAxMDVjYTc1ZjIwOGMzYjk3MjI1MjQ1MDMzZTE1NmE2MWZiNTNlY2ViYzNmYTZlMWJhYWJhOTE5In19fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and chopping acacia logs!\",2:\"§7Requires an open area to place\",3:\"§7trees. Minions also work when you\",4:\"§7are offline!\",5:\"\",6:\"§7Time Between Actions: §a33s\",7:\"§7Max Storage: §e960\",8:\"§7Resources Generated: §b0\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Acacia Minion X\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and chopping",
-    "§7acacia logs! Requires an open",
-    "§7area to place trees. Minions",
-    "§7also work when you are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and chopping acacia logs!",
+    "§7Requires an open area to place",
+    "§7trees. Minions also work when you",
+    "§7are offline!",
     "",
     "§7Time Between Actions: §a33s",
     "§7Max Storage: §e960",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "ACACIA_GENERATOR_10",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Acacia Wood I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Acacia_Minion",
+    "https://wiki.hypixel.net/Acacia_Minion_X"
   ],
   "recipe": {
     "A1": "ENCHANTED_ACACIA_LOG:32",
@@ -26,14 +36,5 @@
     "C2": "ENCHANTED_ACACIA_LOG:32",
     "C3": "ENCHANTED_ACACIA_LOG:32"
   },
-  "internalname": "ACACIA_GENERATOR_10",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Acacia_Minion",
-    "https://wiki.hypixel.net/Acacia_Minion_X"
-  ],
-  "crafttext": "Requires: Acacia Wood I"
+  "useneucraft": true
 }

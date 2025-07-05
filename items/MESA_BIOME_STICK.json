@@ -1,19 +1,28 @@
 {
   "itemid": "minecraft:stick",
   "displayname": "§fMesa Biome Stick",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Allows you to change the biome\",1:\"§7at the §atargeted block §7on\",2:\"§7your private island to §bMesa§7.\",3:\"\",4:\"§7Right-click to use or Left-click\",5:\"§7to change the radius it effects.\",6:\"\",7:\"§7Selected Radius: §b3\",8:\"\",9:\"§f§lCOMMON\"],Name:\"§fMesa Biome Stick\"},ExtraAttributes:{id:\"MESA_BIOME_STICK\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"MESA_BIOME_STICK\"},HideFlags:254,ItemModel:\"minecraft:stick\",display:{Lore:[0:\"§7Allows you to change the biome at\",1:\"§7the §atargeted block §7on your private\",2:\"§7island to §bMesa§7.\",3:\"\",4:\"§7Right-click to use or Left-click to\",5:\"§7change the radius it effects.\",6:\"\",7:\"§7Selected Radius: §b3\",8:\"\",9:\"§f§lCOMMON\"],Name:\"§fMesa Biome Stick\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7Allows you to change the biome",
-    "§7at the §atargeted block §7on",
-    "§7your private island to §bMesa§7.",
+    "§7Allows you to change the biome at",
+    "§7the §atargeted block §7on your private",
+    "§7island to §bMesa§7.",
     "",
-    "§7Right-click to use or Left-click",
-    "§7to change the radius it effects.",
+    "§7Right-click to use or Left-click to",
+    "§7change the radius it effects.",
     "",
     "§7Selected Radius: §b3",
     "",
     "§f§lCOMMON"
+  ],
+  "internalname": "MESA_BIOME_STICK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Red Sand III",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Mesa_Biome_Stick",
+    "https://wiki.hypixel.net/Mesa_Biome_Stick"
   ],
   "recipe": {
     "A1": "",
@@ -25,14 +34,5 @@
     "C1": "STICK:1",
     "C2": "",
     "C3": ""
-  },
-  "internalname": "MESA_BIOME_STICK",
-  "crafttext": "Requires: Red Sand III",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Mesa_Biome_Stick",
-    "https://wiki.hypixel.net/Mesa_Biome_Stick"
-  ]
+  }
 }

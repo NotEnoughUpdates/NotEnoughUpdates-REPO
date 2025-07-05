@@ -1,26 +1,33 @@
 {
   "itemid": "minecraft:emerald",
   "displayname": "§5Emerald Blade",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Damage: §c+224\",1:\"\",2:\"§7A powerful blade made from pure\",3:\"§7§2Emeralds§7. This blade becomes\",4:\"§7stronger as you carry more\",5:\"§7§6coins§7 in your purse\",6:\"§7§8(Capped at 2B coins)\",7:\"\",8:\"§7Receive §4Curse of Greed §7when\",9:\"§7striking, §cCANCELLING§7 any effect\",10:\"§7modifying your §6coins §7loss on\",11:\"§7§4death§7!\",12:\"\",13:\"§7Current Damage Bonus: §a94.0\",14:\"\",15:\"§7§8This item can be reforged!\",16:\"§5§lEPIC SWORD\"],Name:\"§5Emerald Blade\"},ExtraAttributes:{id:\"EMERALD_BLADE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"EMERALD_BLADE\"},HideFlags:254,ItemModel:\"minecraft:emerald\",display:{Lore:[0:\"§7Damage: §c+140.4\",1:\"\",2:\"§7A powerful blade made from pure\",3:\"§2Emeralds§7. This blade becomes\",4:\"§7stronger as you carry more §6coins§7 in\",5:\"§7your purse §8(Capped at 2B coins)\",6:\"\",7:\"§7Receive §4Curse of Greed §7when striking,\",8:\"§cCANCELLING§7 any effect modifying your §6coins\",9:\"§7loss on §4death§7!\",10:\"\",11:\"§7Current Damage Bonus: §a10.4\",12:\"\",13:\"§8This item can be reforged!\",14:\"§5§lEPIC SWORD\"],Name:\"§5Emerald Blade\"}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+224",
+    "§7Damage: §c+140.4",
     "",
     "§7A powerful blade made from pure",
-    "§7§2Emeralds§7. This blade becomes",
-    "§7stronger as you carry more",
-    "§7§6coins§7 in your purse",
-    "§7§8(Capped at 2B coins)",
+    "§2Emeralds§7. This blade becomes",
+    "§7stronger as you carry more §6coins§7 in",
+    "§7your purse §8(Capped at 2B coins)",
     "",
-    "§7Receive §4Curse of Greed §7when",
-    "§7striking, §cCANCELLING§7 any effect",
-    "§7modifying your §6coins §7loss on",
-    "§7§4death§7!",
+    "§7Receive §4Curse of Greed §7when striking,",
+    "§cCANCELLING§7 any effect modifying your §6coins",
+    "§7loss on §4death§7!",
     "",
-    "§7Current Damage Bonus: §a94.0",
+    "§7Current Damage Bonus: §a10.4",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§5§lEPIC SWORD"
+  ],
+  "internalname": "EMERALD_BLADE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Emerald VIII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Emerald_Blade",
+    "https://wiki.hypixel.net/Emerald_Blade"
   ],
   "recipe": {
     "A1": "",
@@ -32,14 +39,5 @@
     "C1": "",
     "C2": "STICK:1",
     "C3": ""
-  },
-  "internalname": "EMERALD_BLADE",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Emerald_Blade",
-    "https://wiki.hypixel.net/Emerald_Blade"
-  ],
-  "crafttext": "Requires: Emerald VIII"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:bone",
   "displayname": "§6⚚ Bonemerang",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Gear Score: §d510\",1:\"§7Damage: §c+320\",2:\"§7Strength: §c+150\",3:\"\",4:\"§6Ability: Swing  §e§lRIGHT CLICK\",5:\"§7Throw the bone a short distance,\",6:\"§7dealing the damage an arrow\",7:\"§7would.\",8:\"\",9:\"§7Deals §cdouble damage §7when\",10:\"§7coming back. Pierces up to §e10\",11:\"§e§7foes.\",12:\"\",13:\"§7§8This item can be reforged!\",14:\"§7§4❣ §cRequires §aThe Catacombs Floor\",15:\"§aIV Completion§c.\",16:\"§6§lLEGENDARY DUNGEON BOW\"],Name:\"§6⚚ Bonemerang\"},ExtraAttributes:{id:\"STARRED_BONE_BOOMERANG\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"STARRED_BONE_BOOMERANG\"},HideFlags:254,ItemModel:\"minecraft:bone\",display:{Lore:[0:\"§7Gear Score: §d510\",1:\"§7Damage: §c+320\",2:\"§7Strength: §c+150\",3:\"\",4:\"§6Ability: Swing  §e§lRIGHT CLICK\",5:\"§7Throw the bone a short distance,\",6:\"§7dealing the damage an arrow would.\",7:\"\",8:\"§7Deals §cdouble damage §7when coming\",9:\"§7back. Pierces up to §e10 §7foes.\",10:\"\",11:\"§8This item can be reforged!\",12:\"§4❣ §cRequires The Catacombs Floor IV Completion.\",13:\"§6§lLEGENDARY DUNGEON BOW\"],Name:\"§6⚚ Bonemerang\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§7Gear Score: §d510",
@@ -10,17 +10,22 @@
     "",
     "§6Ability: Swing  §e§lRIGHT CLICK",
     "§7Throw the bone a short distance,",
-    "§7dealing the damage an arrow",
-    "§7would.",
+    "§7dealing the damage an arrow would.",
     "",
-    "§7Deals §cdouble damage §7when",
-    "§7coming back. Pierces up to §e10",
-    "§e§7foes.",
+    "§7Deals §cdouble damage §7when coming",
+    "§7back. Pierces up to §e10 §7foes.",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aThe Catacombs Floor",
-    "§aIV Completion§c.",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires The Catacombs Floor IV Completion.",
     "§6§lLEGENDARY DUNGEON BOW"
+  ],
+  "internalname": "STARRED_BONE_BOOMERANG",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/⚚_Bonemerang"
   ],
   "recipe": {
     "A1": "THORN_FRAGMENT:1",
@@ -32,13 +37,5 @@
     "C1": "THORN_FRAGMENT:1",
     "C2": "THORN_FRAGMENT:1",
     "C3": "THORN_FRAGMENT:1"
-  },
-  "internalname": "STARRED_BONE_BOOMERANG",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://wiki.hypixel.net/⚚_Bonemerang"
-  ]
+  }
 }

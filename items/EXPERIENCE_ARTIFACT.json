@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§5Experience Artifact",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Increase the experience orbs you\",1:\"§7gain by §a25% §7while this item is in your\",2:\"§7inventory or accessory bag.\",3:\"\",4:\"§5§lEPIC ACCESSORY\"],Name:\"§5Experience Artifact\"},ExtraAttributes:{id:\"EXPERIENCE_ARTIFACT\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"EXPERIENCE_ARTIFACT\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§7Increase the experience orbs you\",1:\"§7gain by §a25% §7while this item is in your\",2:\"§7inventory or accessory bag.\",3:\"\",4:\"§5§lEPIC ACCESSORY\"],Name:\"§5Experience Artifact\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§7Increase the experience orbs you",
@@ -9,6 +9,14 @@
     "§7inventory or accessory bag.",
     "",
     "§5§lEPIC ACCESSORY"
+  ],
+  "internalname": "EXPERIENCE_ARTIFACT",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Lapis Lazuli IX",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Experience_Artifact"
   ],
   "recipe": {
     "A1": "ENCHANTED_LAPIS_LAZULI_BLOCK:1",
@@ -20,13 +28,5 @@
     "C1": "ENCHANTED_LAPIS_LAZULI_BLOCK:1",
     "C2": "ENCHANTED_LAPIS_LAZULI_BLOCK:1",
     "C3": "ENCHANTED_LAPIS_LAZULI_BLOCK:1"
-  },
-  "internalname": "EXPERIENCE_ARTIFACT",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Experience_Artifact"
-  ],
-  "crafttext": "Requires: Lapis Lazuli IX"
+  }
 }

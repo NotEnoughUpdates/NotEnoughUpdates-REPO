@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:iron_sword",
   "displayname": "§5Shaman Sword",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+100\",1:\"§7Strength: §c+20\",2:\"§7Speed: §a+5\",3:\"\",4:\"§7Deal §c+1 Damage §7per §c50 max ❤§7.\",5:\"§7Receive §a-20% §7damage from wolves.\",6:\"§7Gain §3+30☯ Combat Wisdom§7 against wolves.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§c☠ §5Requires Wolf Slayer 3§c.\",10:\"§5§lEPIC SWORD\"],Name:\"§5Shaman Sword\"},ExtraAttributes:{id:\"SHAMAN_SWORD\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SHAMAN_SWORD\"},HideFlags:254,ItemModel:\"minecraft:iron_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+100\",1:\"§7Strength: §c+20\",2:\"§7Speed: §a+5\",3:\"\",4:\"§7Deal §c+1 Damage §7per §c50 max ❤§7.\",5:\"§7Receive §a-20% §7damage from wolves.\",6:\"§7Gain §3+30☯ Combat Wisdom§7 against wolves.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§4☠ §cRequires §5Wolf Slayer 3§c.\",10:\"§5§lEPIC SWORD\"],Name:\"§5Shaman Sword\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+100",
@@ -12,9 +12,18 @@
     "§7Receive §a-20% §7damage from wolves.",
     "§7Gain §3+30☯ Combat Wisdom§7 against wolves.",
     "",
-    "§7§8This item can be reforged!",
-    "§c☠ §5Requires Wolf Slayer 3§c.",
+    "§8This item can be reforged!",
+    "§4☠ §cRequires §5Wolf Slayer 3§c.",
     "§5§lEPIC SWORD"
+  ],
+  "internalname": "SHAMAN_SWORD",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Shaman_Sword",
+    "https://wiki.hypixel.net/Shaman_Sword"
   ],
   "recipe": {
     "A1": "",
@@ -27,14 +36,5 @@
     "C2": "ENCHANTED_BONE:4",
     "C3": ""
   },
-  "slayer_req": "WOLF_3",
-  "internalname": "SHAMAN_SWORD",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Shaman_Sword",
-    "https://wiki.hypixel.net/Shaman_Sword"
-  ],
-  "crafttext": ""
+  "slayer_req": "WOLF_3"
 }

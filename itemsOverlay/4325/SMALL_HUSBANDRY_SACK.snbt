@@ -1,0 +1,44 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "SMALL_HUSBANDRY_SACK"
+		},
+		"minecraft:profile": {
+			id: [I;
+				849677692,
+				863252994,
+				-1827543284,
+				-1735505893
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "A+9tOi+g28TZykUms78KY2tFmiOs3RcSIP8SquxLHTjiJ77tFJ8Wh51wNmx8eduwzBN8aYqxy9iQDemgUetKaJyZ/eESdG7h2YpnxZsjrk6Dv6zgAmOTm4xL3G4ZW3xYeWu8QWu3NxUYqsgq8DmiWqGOxCYvBtFNhGKv0uU1wyRgcfpdZO9+/0c+gmw5sSl6LcuMGJ1m0A68ZbGeHvdd3ZS9FsHan07LlmTO/85IXuiX2KKQv7ZdGRXROXVaraEWZjmwQfmGfxmTPSEWHN9SCYxv5DInODUJQgO4iD07/yFxwH+Q1UzycyMfEMZcdaELUk/aMFhQYgQCyppU2sVRjGcHDSPNhBVrcNqfN/0odaiFMdNovbZS454eVq25DN1D0n1ON+eJa+lASX2Sj9AZX/NyB/Ln5hj9WpzSeLf5OHwjKWxnESfgN1A3ju1lQOawlgmi8H27b4FY2LUOV93HKb3lxfeC+XguYevP6udIH9J98rWpVVyN+gn4dkzCncwzxRn7+xq/ziZdMhvNW9oecqKX3Mwpzw2iZs3I/CGicusdP0UxoAhCzSnNyVGSj9H+hRORRvBewAXSsriGvn4fPkvnm+ldxXu84/M1V7vxpthy3svdj1894/+mF1zpQuMiy+yNQm39Ha0dZgdVgkUT5qIAF6vdDPZzkY3PpaSYgkw=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NTMxNTU2MiwKICAicHJvZmlsZUlkIiA6ICJhMWQzNzljMjhhODA0ZTMxYjY3YjcyMDcyNWE0ZjI3NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDeXNwZWN0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzg4ZTQ2NGMxOTg0YzAwZTEwYzJhYmZlZmZiYzlhNjU5MzVjNGFmZGE2NjI2MWI1M2Q2ZjM2NmVmMjA0MmU4MjAiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd"
+	}
+}

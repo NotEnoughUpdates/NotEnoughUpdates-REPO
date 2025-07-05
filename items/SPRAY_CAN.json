@@ -1,17 +1,27 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§fSpray Can",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"66b309b4-64a0-3e77-8180-3dd580c523c8\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NjMyNjI3NTk0NjMsInByb2ZpbGVJZCI6IjU3MGIwNWJhMjZmMzRhOGViZmRiODBlY2JjZDdlNjIwIiwicHJvZmlsZU5hbWUiOiJMb3JkU29ubnkiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2EwNjRkOTc5NmVkNWZhYjQ0NWRiYzkwYjQxNjZjNGUyNzQyMjg4MzI3MTliNTMxOGEwMDEyNmEyOTA5NmE0ZjEifX19\"}]}},display:{Lore:[0:\"§7§7Right-click on any wall\",1:\"§7of your choice to spray.\",2:\"\",3:\"§7§7Left-click to access the\",4:\"§7Ink Manager and Spray\",5:\"§7Selector.\",6:\"\",7:\"§f§lCOMMON\"],Name:\"§fSpray Can\"},ExtraAttributes:{id:\"SPRAY_CAN\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SPRAY_CAN\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"66b309b4-64a0-3e77-8180-3dd580c523c8\",Properties:{textures:[0:{Name:\"textures\",Signature:\"QDMRN45EfQkYikUTPF3PtY3uKSmLGjoxBc2HzSBPG51t7VvxDLazZ6JOucji3ZmOSGFT2UAcf+1H42w7QUTSjCLUUfYY6DfFDImgG2nd3MzkSwC/y/7tVPV6Yqx8asilOg2TGTbADV01gWOiT7O6XDMmQIe5/kIhYoaRLxJpeWvPwyohqEImtG8qQbicR8P1n74xYFiwnAkEao07vwoUVIPWrbjnjNNEznypu/C75twiPj73IS4asTACVVRTy/QxxMBiNCAyiTiL62PxCKIzDvJb+ZfZCg3gfaE98dDlSJ4oSQYbLq4UATSKQwT6UWfG5ERy6DLjFg5aMpl6VOkHD9Ww6VKe5P1rrgSPXlkfIOYaCgHU9ybCkyt7oFR0j9QNKNuy7u93vDXUOSHeFo2qu33qtS/70fxufULBd24Nq6f4ufWQVM4ZR/LuEaKYxyWx7uFXooJaOUxD2/UuZpFhfxuvJt/RyVkl4ZoQDRJ78VHWdSJV3jTw2ubEYKQ5D4w5Zj/Ig6HWWq7gjEHceRFDuXMkfdoFFx4uVomOz5JLa0jLz8XqVC8l/NJwlJDe9Sn8mzn2uDeu0yJ9zJM6dpptZCHQeuM++EvqmUK8QYANn5LTSEW1nrf3rxc0KcCvZHFuxRiSAxK5gWc3+DvoykyicH0wuXgWGW8oaUd21NJKWVo=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NjMyNjI3NTk0NjMsInByb2ZpbGVJZCI6IjU3MGIwNWJhMjZmMzRhOGViZmRiODBlY2JjZDdlNjIwIiwicHJvZmlsZU5hbWUiOiJMb3JkU29ubnkiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2EwNjRkOTc5NmVkNWZhYjQ0NWRiYzkwYjQxNjZjNGUyNzQyMjg4MzI3MTliNTMxOGEwMDEyNmEyOTA5NmE0ZjEifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§eSelected Spray: §cNONE\",1:\"\",2:\"§7Right-click on any wall of your\",3:\"§7choice to spray.\",4:\"\",5:\"§7Left-click to access the Ink Manager\",6:\"§7and Spray Selector.\",7:\"\",8:\"§f§lCOMMON\"],Name:\"§fSpray Can\"}}",
   "damage": 3,
   "lore": [
-    "§7§7Right-click on any wall",
-    "§7of your choice to spray.",
+    "§eSelected Spray: §cNONE",
     "",
-    "§7§7Left-click to access the",
-    "§7Ink Manager and Spray",
-    "§7Selector.",
+    "§7Right-click on any wall of your",
+    "§7choice to spray.",
+    "",
+    "§7Left-click to access the Ink Manager",
+    "§7and Spray Selector.",
     "",
     "§f§lCOMMON"
+  ],
+  "internalname": "SPRAY_CAN",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Spray_Can",
+    "https://wiki.hypixel.net/Spray_Can"
   ],
   "recipe": {
     "A1": "GLASS:1",
@@ -23,13 +33,5 @@
     "C1": "GLASS:1",
     "C2": "GLASS:1",
     "C3": "GLASS:1"
-  },
-  "internalname": "SPRAY_CAN",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Spray_Can",
-    "https://wiki.hypixel.net/Spray_Can"
-  ]
+  }
 }

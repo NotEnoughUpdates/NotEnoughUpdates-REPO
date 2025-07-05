@@ -1,15 +1,23 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Blast o\u0027 Lantern",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"3263c14e-c555-365e-a244-0ee97a8b2056\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjhmMmZmYzZmYjRlOTk1OWI5YTdhMzE3ZjUxYTY3NzVhMTU5ZGRjMjI0MWRiZDZjNzc0ZDNhYzA4YjYifX19\"}]}},display:{Lore:[0:\"§7Throwable explosive. Deals §a2\",1:\"§a§7damage to §6Spooky §7enemies\",2:\"§7and §c3,000 §7damage against\",3:\"§7non-scary enemies!\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Blast o\u0027 Lantern\"},ExtraAttributes:{id:\"PUMPKIN_BOMB\"}}",
+  "displayname": "§9Blast o' Lantern",
+  "nbttag": "{ExtraAttributes:{id:\"PUMPKIN_BOMB\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"5e5bf5f4-d3c2-3ec8-a17d-6ad6b0fb4fba\",Properties:{textures:[0:{Name:\"textures\",Signature:\"aRXSSWUhZ8rRKuENA88yFEN+EpR/Fzm8P1h/0MBWzm0zIm/LdqqXeN+rE+ct/ey6KfWzolbM40uGq8CZNJcyZQgqk94oznOyijfpYds5OOndafkjW+a0qQB5mNt976bBNgHYzV0Zn3iCj42/A9CInOKjJ0EJqqSQrfz/At4h6RirUMfkqGUrKRKd+y0JUua5QK4CPfwJu8f9V0IxL4ZzAGFZ9Ykihy4yfJGOSQFuA9g3OpHtDDhdIdsw65VutKqOoJzOXbSB1lRBzB46+xbbf00/HsMR4StwSBuRrzJW695ZteVOZq5sLu7nEmGD0ZRyFGcp7ORgjqavJ8OHDF2ZAJXBP3s64GRtNFlz31XzjXZpgDenCKn1bDoev+DzLghaJgGvR+eE87+8nTP/6mHvYQ8Kx5y5y3kWdOMEpUjMFYjT38G0zHMfLxLWvadPa4obsIY1ds9CEt+5FSdKLya3vC/WmK0g+kgoUZ4kqYgbUO6CF3FkXsDwPvmjAEFoadTwuavpS2/MIRrBe9asUjdrIY1LJG12+uACY2I5QA/HlExxjUD+cJ2PFJLzxJIU7jmJtsLewwE8BQ1RzOpbr3OI89Ty8YmvSs0QMu4qARl1XEqEQSfvWfhkP2ufVDtyNFf60Ejt4BSS1wbECFqOyuD+XDd5TgizfWxrAgHTX3VWxZE=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwMzI0ODAzNDA3OSwKICAicHJvZmlsZUlkIiA6ICJjNTBhZmE4YWJlYjk0ZTQ1OTRiZjFiNDI1YTk4MGYwMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUd29FQmFlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNjNmZkNWQ5MDY4M2EwZjk1NmUyOGNkMTM0ODJmOTFiZDdjZmU1MGU1Yzg1M2Y0ZTg1ZTYyNmI1Zjk3MDFiOTMiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Throwable explosive. Deals §a2 §7damage\",1:\"§7to §6Spooky §7enemies and §c3,021 §7damage\",2:\"§7against non-scary enemies!\",3:\"\",4:\"§9§lRARE\"],Name:\"§9Blast o' Lantern\"}}",
   "damage": 3,
   "lore": [
-    "§7Throwable explosive. Deals §a2",
-    "§a§7damage to §6Spooky §7enemies",
-    "§7and §c3,000 §7damage against",
-    "§7non-scary enemies!",
+    "§7Throwable explosive. Deals §a2 §7damage",
+    "§7to §6Spooky §7enemies and §c3,021 §7damage",
+    "§7against non-scary enemies!",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "PUMPKIN_BOMB",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Blast_o%27_Lantern",
+    "https://wiki.hypixel.net/Blast_O%27_Lantern"
   ],
   "recipe": {
     "A1": "GREEN_CANDY:1",
@@ -22,14 +30,5 @@
     "C2": "GREEN_CANDY:1",
     "C3": "GREEN_CANDY:1",
     "count": 32
-  },
-  "internalname": "PUMPKIN_BOMB",
-  "crafttext": "",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Blast_o%27_Lantern",
-    "https://wiki.hypixel.net/Blast_O%27_Lantern"
-  ]
+  }
 }

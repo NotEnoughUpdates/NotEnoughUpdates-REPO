@@ -1,17 +1,26 @@
 {
   "itemid": "minecraft:stick",
   "displayname": "§aWand of Healing",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§6Ability: Small Heal §e§lRIGHT CLICK\",1:\"§7Heal §c60❤§7/s for 7s.\",2:\"§7§8Wand heals don\u0027t stack.\",3:\"§8Mana Cost: §360\",4:\"§8Cooldown: §a1s\",5:\"\",6:\"§7§4☠ §cRequires §5Zombie Slayer 1§c.\",7:\"§a§lUNCOMMON WAND\"],Name:\"§aWand of Healing\"},ExtraAttributes:{id:\"WAND_OF_HEALING\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"WAND_OF_HEALING\"},HideFlags:254,ItemModel:\"minecraft:stick\",display:{Lore:[0:\"§6Ability: Small Heal  §e§lRIGHT CLICK\",1:\"§7Heal §c60❤§7/s for 7s.\",2:\"§8Wand heals don't stack.\",3:\"§8Mana Cost: §360\",4:\"§8Cooldown: §a1s\",5:\"\",6:\"§4☠ §cRequires §5Zombie Slayer 1§c.\",7:\"§a§lUNCOMMON WAND\"],Name:\"§aWand of Healing\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§6Ability: Small Heal §e§lRIGHT CLICK",
+    "§6Ability: Small Heal  §e§lRIGHT CLICK",
     "§7Heal §c60❤§7/s for 7s.",
-    "§7§8Wand heals don\u0027t stack.",
+    "§8Wand heals don't stack.",
     "§8Mana Cost: §360",
     "§8Cooldown: §a1s",
     "",
-    "§7§4☠ §cRequires §5Zombie Slayer 1§c.",
+    "§4☠ §cRequires §5Zombie Slayer 1§c.",
     "§a§lUNCOMMON WAND"
+  ],
+  "internalname": "WAND_OF_HEALING",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Zombie Slayer 1",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Wand_of_Healing",
+    "https://wiki.hypixel.net/Wand_Of_Healing"
   ],
   "recipe": {
     "A1": "",
@@ -24,14 +33,5 @@
     "C2": "",
     "C3": ""
   },
-  "slayer_req": "ZOMBIE_1",
-  "internalname": "WAND_OF_HEALING",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Wand_of_Healing",
-    "https://wiki.hypixel.net/Wand_Of_Healing"
-  ],
-  "crafttext": "Requires: Zombie Slayer 1"
+  "slayer_req": "ZOMBIE_1"
 }

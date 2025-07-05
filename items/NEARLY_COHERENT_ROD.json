@@ -1,13 +1,21 @@
 {
   "itemid": "minecraft:carrot_on_a_stick",
   "displayname": "§aNearly Coherent doR gnihsiF",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Hold this and §aChester §7will follow you\",1:\"§7instead of running away.\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aNearly Coherent doR gnihsiF\"},ExtraAttributes:{id:\"NEARLY_COHERENT_ROD\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"NEARLY_COHERENT_ROD\"},HideFlags:254,ItemModel:\"minecraft:carrot_on_a_stick\",Unbreakable:1B,display:{Lore:[0:\"§7Hold this and §aChester §7will follow you\",1:\"§7instead of running away.\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aNearly Coherent doR gnihsiF\"}}",
   "damage": 0,
   "lore": [
     "§7Hold this and §aChester §7will follow you",
     "§7instead of running away.",
     "",
     "§a§lUNCOMMON"
+  ],
+  "internalname": "NEARLY_COHERENT_ROD",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Half-Eaten Carrot IV",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Nearly_Coherent_Dor_Gnihsif"
   ],
   "recipe": {
     "A1": "MIRRORED_STICK:1",
@@ -19,13 +27,5 @@
     "C1": "NEARLY_WHOLE_CARROT:16",
     "C2": "",
     "C3": "MIRRORED_STICK:1"
-  },
-  "internalname": "NEARLY_COHERENT_ROD",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "Requires: Half-Eaten Carrot IV",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://wiki.hypixel.net/Nearly_Coherent_Dor_Gnihsif"
-  ]
+  }
 }

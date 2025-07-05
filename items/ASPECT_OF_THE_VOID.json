@@ -1,21 +1,29 @@
 {
   "itemid": "minecraft:diamond_shovel",
   "displayname": "§5Aspect of the Void",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+120\",1:\"§7Strength: §c+100\",2:\" §8[§7✎§8]\",3:\"\",4:\"§6Ability: Instant Transmission §e§lRIGHT CLICK\",5:\"§7Teleport §a8 blocks§7 ahead of\",6:\"§7you and gain §a+50 §f✦ Speed§7\",7:\"§7for §a3 seconds§7.\",8:\"§8Mana Cost: §345\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§5§lEPIC SWORD\"],Name:\"§5Aspect of the Void\"},ExtraAttributes:{id:\"ASPECT_OF_THE_VOID\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ASPECT_OF_THE_VOID\"},HideFlags:254,ItemModel:\"minecraft:diamond_shovel\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+120\",1:\"§7Strength: §c+100\",2:\" §8[§7✎§8]\",3:\"\",4:\"§6Ability: Instant Transmission  §e§lRIGHT CLICK\",5:\"§7Teleport §a8 blocks§7 ahead of you and\",6:\"§7gain §a+50 §f✦ Speed§7 for §a3 seconds§7.\",7:\"§8Mana Cost: §345\",8:\"\",9:\"§8This item can be reforged!\",10:\"§5§lEPIC SWORD\"],Name:\"§5Aspect of the Void\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+120",
     "§7Strength: §c+100",
     " §8[§7✎§8]",
     "",
-    "§6Ability: Instant Transmission §e§lRIGHT CLICK",
-    "§7Teleport §a8 blocks§7 ahead of",
-    "§7you and gain §a+50 §f✦ Speed§7",
-    "§7for §a3 seconds§7.",
+    "§6Ability: Instant Transmission  §e§lRIGHT CLICK",
+    "§7Teleport §a8 blocks§7 ahead of you and",
+    "§7gain §a+50 §f✦ Speed§7 for §a3 seconds§7.",
     "§8Mana Cost: §345",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§5§lEPIC SWORD"
+  ],
+  "internalname": "ASPECT_OF_THE_VOID",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Aspect_of_the_Void",
+    "https://wiki.hypixel.net/Aspect_Of_The_Void"
   ],
   "recipe": {
     "A1": "",
@@ -28,14 +36,5 @@
     "C2": "NULL_OVOID:8",
     "C3": ""
   },
-  "slayer_req": "EMAN_6",
-  "internalname": "ASPECT_OF_THE_VOID",
-  "crafttext": "",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Aspect_of_the_Void",
-    "https://wiki.hypixel.net/Aspect_Of_The_Void"
-  ]
+  "slayer_req": "EMAN_6"
 }

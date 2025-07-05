@@ -1,18 +1,27 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Slime Minion II",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"4a687610-51c1-3b61-867e-a824be5bd132\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5NDUzMzQ3MDgsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRhM2VhNmIwYzI5N2M1MTU2MjQ5MzUzZmY3ZmNmNTdiMTE3NWUxYjkwYjU2YTgxNWFhMDM5MDA5ZmYwZWEwNGYifX19\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and slaying\",2:\"§7Slimes! Minions also work when\",3:\"§7you are offline!\",4:\"\",5:\"§7Time Between Actions: §a26s\",6:\"§7Max Storage: §e192\",7:\"\",8:\"§9§lRARE\"],Name:\"§9Slime Minion II\"},ExtraAttributes:{id:\"SLIME_GENERATOR_2\",generator_tier:2}}",
+  "nbttag": "{ExtraAttributes:{id:\"SLIME_GENERATOR_2\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"4a687610-51c1-3b61-867e-a824be5bd132\",Properties:{textures:[0:{Name:\"textures\",Signature:\"q2GnTgWTEyHc7l21PFkCU7Jd+5S8WrhrFKr9LQl8QY63HDOTNQdRsHAYTV0xGogZBL7uyk10duKpTBLpYDa+mSbC91b1f3UikJC3ssnEF0M5NYGsvDnoQNr9mF4o07taiKJXB775PFxYE8x/Ui8aKFbJFS+8H1eTquGij/jVPOOc5BbLpkDYQcX/hdsJi/sOuaSKeB/ZI4vA2RaQx+SHvAhxPU2jdnuW4FKt7gV7cltuYMY6NEgMRa/IVPR6VAoD837B+21yeYmp0Ivgtyqo4dpY9JubMfW9/aem8mTWYXIYDlapltU80X9KAj42tG70lUMqyTy86pdnAC386QSbeBS4Fp1UuFAdyhKbtxnOTCX8K8S7mdAB50ZfiZ1F0VyvBaPf15mySH/bo9prCRPh4FevxCHsULaq7ubOIbXFxRZ0Sg7IFcTj5VCp+T1lNqOIdkizaEtyg8KitYgPJ8qfwqFH5OtvCIYo0THsMRhL83NKKd4EwshBB5f/W4OJSXtVJLPPYagexyhL82rLEpWVUvD0mDNFP9CSYIEWE3UJLy6q02HGXbH5NGw2s3u0Xqnyrvty8Uo9fn8sT42cxqgEDiogQKUAOc+MeN4Hk8A/33J2I6F662JrD/1E+NV6f1dJs4qob/8q1lFebUIDs6id8byLw95zMJyCQomgA1IWbHY=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5NDUzMzQ3MDgsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRhM2VhNmIwYzI5N2M1MTU2MjQ5MzUzZmY3ZmNmNTdiMTE3NWUxYjkwYjU2YTgxNWFhMDM5MDA5ZmYwZWEwNGYifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and slaying Slimes! Minions\",2:\"§7also work when you are offline!\",3:\"\",4:\"§7Time Between Actions: §a26s\",5:\"§7Max Storage: §e192\",6:\"§7Resources Generated: §b0\",7:\"\",8:\"§9§lRARE\"],Name:\"§9Slime Minion II\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and slaying",
-    "§7Slimes! Minions also work when",
-    "§7you are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and slaying Slimes! Minions",
+    "§7also work when you are offline!",
     "",
     "§7Time Between Actions: §a26s",
     "§7Max Storage: §e192",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "SLIME_GENERATOR_2",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Slime_Minion",
+    "https://wiki.hypixel.net/Slime_Minion_II"
   ],
   "recipe": {
     "A1": "SLIME_BALL:20",
@@ -25,14 +34,5 @@
     "C2": "SLIME_BALL:20",
     "C3": "SLIME_BALL:20"
   },
-  "internalname": "SLIME_GENERATOR_2",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Slime_Minion",
-    "https://wiki.hypixel.net/Slime_Minion_II"
-  ],
-  "crafttext": ""
+  "useneucraft": true
 }

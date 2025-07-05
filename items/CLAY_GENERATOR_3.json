@@ -1,19 +1,28 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Clay Minion III",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"699ec875-82a9-394b-b3b2-dbc952536963\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzQxNjc2ODYsInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJ4RmFpaUxlUiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ0ZmZjYjVkZjRlZjgyZmMwN2JjNzU4NTQ3NGM5N2ZjMGYyYmY1OTAyMmZmZDZjMjYwNmI0Njc1ZjhhYWE0MiJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and mining\",2:\"§7clay! Requires an open area to\",3:\"§7place clay. Minions also work\",4:\"§7when you are offline!\",5:\"\",6:\"§7Time Between Actions: §a30s\",7:\"§7Max Storage: §e192\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Clay Minion III\"},ExtraAttributes:{id:\"CLAY_GENERATOR_3\",generator_tier:3}}",
+  "nbttag": "{ExtraAttributes:{id:\"CLAY_GENERATOR_3\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"699ec875-82a9-394b-b3b2-dbc952536963\",Properties:{textures:[0:{Name:\"textures\",Signature:\"kLSEgcwDHi6DIEm6r5uztwsVelAoraGsM119uSshB52iLAqHcBGzHM7Lb+5mtja70yvIwtDrovH5/n7yoJdXUAJU626rI0yZl3f0jHKSnXZO+xoEReZJlWtHDlvWkXCck1mKr0Nac5iy3ogaXDdv0h6g+3TSYtFeCVAuTILZxDMAwYZU8GZXFutlcYE6MHanuZ9CSBBI8jV9zeI5kBxX9Md+C4n1UNQ9PtqKUw33oYy/CdlvBBke/dBgGlwItGpnHV0Xevyuff9pXbf4W9SO2bH0ypsYWCGnPeZY5Tst4slGJ1i5q6yPnj+e7ZN4q11T27tGWUtl9d1G8YEj3uJppGT5s/+E+OBd3wanwQky40wNNe5His+1JMiZORV+b8Za7bh7MSC2v/sGMxeqet2L9VDwj6nc3pTTkU4mH3A8i4B6jb8bP/sWY5/j06AyOee7eMUuvVbuoF4Wagrmf6vGs6Ug615jaoB2PlEtcEb4BfUHBHDv3K9751Hyh/lSb5KzS1FF+tx/yZPpYIp9vGFr9qDAjlbZ5v0gbLPzYnZvugrPkia2mPEDnpzK2vkxsLF5ZZaB0WHQprh71Nxdr2H+0G/ezdDRXKVt9AdvnqcAksLqylSyU44+Fn7p+H8LUI5Jm0TNT40q5QiFMot6gZ8FESvL0TpVw6D/ImuytF2qpIM=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzQxNjc2ODYsInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJ4RmFpaUxlUiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ0ZmZjYjVkZjRlZjgyZmMwN2JjNzU4NTQ3NGM5N2ZjMGYyYmY1OTAyMmZmZDZjMjYwNmI0Njc1ZjhhYWE0MiJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and mining clay! Requires\",2:\"§7an open area to place clay. Minions\",3:\"§7also work when you are offline!\",4:\"\",5:\"§7Time Between Actions: §a30s\",6:\"§7Max Storage: §e192\",7:\"§7Resources Generated: §b0\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Clay Minion III\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and mining",
-    "§7clay! Requires an open area to",
-    "§7place clay. Minions also work",
-    "§7when you are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and mining clay! Requires",
+    "§7an open area to place clay. Minions",
+    "§7also work when you are offline!",
     "",
     "§7Time Between Actions: §a30s",
     "§7Max Storage: §e192",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "CLAY_GENERATOR_3",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Clay I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Clay_Minion",
+    "https://wiki.hypixel.net/Clay_Minion_III"
   ],
   "recipe": {
     "A1": "CLAY_BALL:40",
@@ -26,14 +35,5 @@
     "C2": "CLAY_BALL:40",
     "C3": "CLAY_BALL:40"
   },
-  "internalname": "CLAY_GENERATOR_3",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Clay_Minion",
-    "https://wiki.hypixel.net/Clay_Minion_III"
-  ],
-  "crafttext": "Requires: Clay I",
-  "infoType": "WIKI_URL"
+  "useneucraft": true
 }

@@ -1,24 +1,30 @@
 {
-  "internalname": "WEIRD_TUBA",
   "itemid": "minecraft:hopper",
   "displayname": "§9Weird Tuba",
-  "clickcommand": "viewrecipe",
+  "nbttag": "{ExtraAttributes:{id:\"WEIRD_TUBA\"},HideFlags:254,ItemModel:\"minecraft:hopper\",display:{Lore:[0:\"§6Ability: Howl  §e§lRIGHT CLICK\",1:\"§7You and 4 nearby players gain:\",2:\"§7 §c+30❁ Strength\",3:\"§7 §f+30✦ Speed\",4:\"§7for §a20 §7seconds.\",5:\"§8Effect doesn't stack.\",6:\"§8Mana Cost: §3150\",7:\"§8Cooldown: §a20s\",8:\"\",9:\"§4☠ §cRequires §5Wolf Slayer 5§c.\",10:\"§5§kX§5 Rift-Transferable §r§kX\",11:\"§9§lRARE\"],Name:\"§9Weird Tuba\"}}",
   "damage": 0,
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§6Ability: Howl §e§lRIGHT CLICK\",1:\"§7You and 4 nearby players gain:\",2:\"§7§f+30✦ Speed\",3:\"§7§c+30❁ Strength\",4:\"§7§7for §a20 §7seconds.\",5:\"§7§8Effect doesn\u0027t stack.\",6:\"§8Mana Cost: §3150\",7:\"§8Cooldown: §a20s\",8:\"\",9:\"§7§4☠ §cRequires §5Wolf Slayer 5§c.\",10:\"§5§kX§5 Rift-Transferable §kX\",11:\"§9§lRARE\"],Name:\"§9Weird Tuba\"},ExtraAttributes:{id:\"WEIRD_TUBA\"}}",
-  "modver": "",
   "lore": [
-    "§6Ability: Howl §e§lRIGHT CLICK",
+    "§6Ability: Howl  §e§lRIGHT CLICK",
     "§7You and 4 nearby players gain:",
-    "§7§f+30✦ Speed",
-    "§7§c+30❁ Strength",
-    "§7§7for §a20 §7seconds.",
-    "§7§8Effect doesn\u0027t stack.",
+    "§7 §c+30❁ Strength",
+    "§7 §f+30✦ Speed",
+    "§7for §a20 §7seconds.",
+    "§8Effect doesn't stack.",
     "§8Mana Cost: §3150",
     "§8Cooldown: §a20s",
     "",
-    "§7§4☠ §cRequires §5Wolf Slayer 5§c.",
-    "§5§kX§5 Rift-Transferable §kX",
+    "§4☠ §cRequires §5Wolf Slayer 5§c.",
+    "§5§kX§5 Rift-Transferable §r§kX",
     "§9§lRARE"
+  ],
+  "internalname": "WEIRD_TUBA",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Wolf Slayer 5",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Weird_Tuba",
+    "https://wiki.hypixel.net/Weird_Tuba"
   ],
   "recipe": {
     "A1": "ENCHANTED_IRON:20",
@@ -31,11 +37,5 @@
     "C2": "ENCHANTED_IRON:20",
     "C3": ""
   },
-  "slayer_req": "WOLF_5",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Weird_Tuba",
-    "https://wiki.hypixel.net/Weird_Tuba"
-  ],
-  "crafttext": "Requires: Wolf Slayer 5"
+  "slayer_req": "WOLF_5"
 }

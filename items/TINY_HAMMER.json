@@ -1,12 +1,20 @@
 {
   "itemid": "minecraft:iron_axe",
   "displayname": "§aremmaH yniT",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7.wohemoS\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aremmaH yniT\"},ExtraAttributes:{id:\"TINY_HAMMER\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"TINY_HAMMER\"},HideFlags:254,ItemModel:\"minecraft:iron_axe\",Unbreakable:1B,display:{Lore:[0:\"§7.wohemoS\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aremmaH yniT\"}}",
   "damage": 0,
   "lore": [
     "§7.wohemoS",
     "",
     "§a§lUNCOMMON"
+  ],
+  "internalname": "TINY_HAMMER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Remmah_Ynit"
   ],
   "recipe": {
     "A1": "MIRRORED_LEASH:1",
@@ -18,12 +26,5 @@
     "C1": "",
     "C2": "MIRRORED_FISHING_ROD:1",
     "C3": ""
-  },
-  "internalname": "TINY_HAMMER",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://wiki.hypixel.net/Remmah_Ynit"
-  ]
+  }
 }

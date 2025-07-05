@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:bow",
-  "displayname": "§5⚚ Venom\u0027s Touch",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+370\",1:\"§7Strength: §c+180\",2:\"\",3:\"§7Fires a volley of §b5 §7arrows. Arrows\",4:\"§7apply venom to all enemies hit dealing\",5:\"§7§c2❁ Damage §7every second for §b3\",6:\"§b§7seconds.\",7:\"\",8:\"§4This item is Arachnal Ж!\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§5§lEPIC BOW\"],Name:\"§5⚚ Venom\u0027s Touch\"},ExtraAttributes:{id:\"STARRED_VENOMS_TOUCH\"}}",
+  "displayname": "§5⚚ Venom's Touch",
+  "nbttag": "{ExtraAttributes:{id:\"STARRED_VENOMS_TOUCH\"},HideFlags:254,ItemModel:\"minecraft:bow\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+370\",1:\"§7Strength: §c+180\",2:\"\",3:\"§7Fires a volley of §b5 §7arrows. Arrows\",4:\"§7apply venom to all enemies hit dealing\",5:\"§c2❁ Damage §7every second for §b3\",6:\"§7seconds.\",7:\"\",8:\"§4This item is Arachnal Ж!\",9:\"\",10:\"§8This item can be reforged!\",11:\"§5§lEPIC BOW\"],Name:\"§5⚚ Venom's Touch\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+370",
@@ -9,13 +9,21 @@
     "",
     "§7Fires a volley of §b5 §7arrows. Arrows",
     "§7apply venom to all enemies hit dealing",
-    "§7§c2❁ Damage §7every second for §b3",
-    "§b§7seconds.",
+    "§c2❁ Damage §7every second for §b3",
+    "§7seconds.",
     "",
     "§4This item is Arachnal Ж!",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§5§lEPIC BOW"
+  ],
+  "internalname": "STARRED_VENOMS_TOUCH",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Venom%27s_Touch"
   ],
   "recipe": {
     "A1": "",
@@ -27,13 +35,5 @@
     "C1": "",
     "C2": "ENCHANTED_SPIDER_EYE:64",
     "C3": "SOUL_STRING:50"
-  },
-  "internalname": "STARRED_VENOMS_TOUCH",
-  "crafttext": "",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://wiki.hypixel.net/Venom%27s_Touch"
-  ]
+  }
 }

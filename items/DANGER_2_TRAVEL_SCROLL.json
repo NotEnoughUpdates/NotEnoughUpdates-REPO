@@ -1,17 +1,26 @@
 {
   "itemid": "minecraft:map",
-  "displayname": "§9Travel Scroll to Crimson Isle",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Consume this item to add its\",1:\"§7destination to your fast travel\",2:\"§7options.\",3:\"\",4:\"§7Island: §aCrimson Isle\",5:\"§7Teleport: §eSpawn\",6:\"\",7:\"§9§lRARE TRAVEL SCROLL\"],Name:\"§9Travel Scroll to Crimson Isle\"},ExtraAttributes:{id:\"DANGER_2_TRAVEL_SCROLL\"}}",
+  "displayname": "§9Travel Scroll to the Crimson Isle",
+  "nbttag": "{ExtraAttributes:{id:\"DANGER_2_TRAVEL_SCROLL\"},HideFlags:254,ItemModel:\"minecraft:map\",display:{Lore:[0:\"§7Consume this item to add its\",1:\"§7destination to your Fast Travel\",2:\"§7options.\",3:\"\",4:\"§7Island: §aCrimson Isle\",5:\"§7Teleport: §eSpawn\",6:\"\",7:\"§9§lRARE TRAVEL SCROLL\"],Name:\"§9Travel Scroll to the Crimson Isle\"}}",
   "damage": 0,
   "lore": [
     "§7Consume this item to add its",
-    "§7destination to your fast travel",
+    "§7destination to your Fast Travel",
     "§7options.",
     "",
     "§7Island: §aCrimson Isle",
     "§7Teleport: §eSpawn",
     "",
     "§9§lRARE TRAVEL SCROLL"
+  ],
+  "internalname": "DANGER_2_TRAVEL_SCROLL",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Glowstone Dust IV",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Travel_Scroll_to_Crimson_Isle",
+    "https://wiki.hypixel.net/Travel_Scroll_To_Crimson_Isle"
   ],
   "recipe": {
     "A1": "ENCHANTED_GLOWSTONE_DUST:16",
@@ -23,14 +32,5 @@
     "C1": "ENCHANTED_GLOWSTONE_DUST:16",
     "C2": "ENCHANTED_GLOWSTONE_DUST:16",
     "C3": "ENCHANTED_GLOWSTONE_DUST:16"
-  },
-  "internalname": "DANGER_2_TRAVEL_SCROLL",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "crafttext": "Requires: Glowstone Dust IV",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Travel_Scroll_to_Crimson_Isle",
-    "https://wiki.hypixel.net/Travel_Scroll_To_Crimson_Isle"
-  ]
+  }
 }

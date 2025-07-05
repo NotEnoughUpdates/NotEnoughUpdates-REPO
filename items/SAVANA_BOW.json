@@ -1,16 +1,25 @@
 {
   "itemid": "minecraft:bow",
   "displayname": "§aSavanna Bow",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+50\",1:\"\",2:\"§7All damage dealt with this bow\",3:\"§7is §adoubled§7.\",4:\"\",5:\"§7§8This item can be reforged!\",6:\"§a§lUNCOMMON BOW\"],Name:\"§aSavanna Bow\"},ExtraAttributes:{id:\"SAVANA_BOW\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SAVANA_BOW\"},HideFlags:254,ItemModel:\"minecraft:bow\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+50\",1:\"\",2:\"§7All damage dealt with this bow is\",3:\"§adoubled§7.\",4:\"\",5:\"§8This item can be reforged!\",6:\"§a§lUNCOMMON BOW\"],Name:\"§aSavanna Bow\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+50",
     "",
-    "§7All damage dealt with this bow",
-    "§7is §adoubled§7.",
+    "§7All damage dealt with this bow is",
+    "§adoubled§7.",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§a§lUNCOMMON BOW"
+  ],
+  "internalname": "SAVANA_BOW",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Acacia Wood VII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Savanna_Bow",
+    "https://wiki.hypixel.net/Savanna_Bow"
   ],
   "recipe": {
     "A1": "",
@@ -22,14 +31,5 @@
     "C1": "",
     "C2": "ENCHANTED_ACACIA_LOG:1",
     "C3": "ENCHANTED_STRING:1"
-  },
-  "internalname": "SAVANA_BOW",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Savanna_Bow",
-    "https://wiki.hypixel.net/Savanna_Bow"
-  ],
-  "crafttext": "Requires: Acacia Wood VII"
+  }
 }

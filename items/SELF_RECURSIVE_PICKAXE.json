@@ -1,24 +1,21 @@
 {
   "itemid": "minecraft:diamond_pickaxe",
   "displayname": "§9Self-Recursive Pickaxe",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Rift Damage: §a+5\",1:\"§7Speed: §a+2\",2:\"\",3:\"§7Allows you to break living metal\",4:\"§7ore and, potentially, living\",5:\"§7metal faces.\",6:\"\",7:\"§7Regens §b4 Mana §7on hit.\",8:\"\",9:\"§9§lRARE SWORD\"],Name:\"§9Self-Recursive Pickaxe\"},ExtraAttributes:{id:\"SELF_RECURSIVE_PICKAXE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SELF_RECURSIVE_PICKAXE\"},HideFlags:254,ItemModel:\"minecraft:diamond_pickaxe\",Unbreakable:1B,display:{Lore:[0:\"§7Allows you to break living metal ore\",1:\"§7and, potentially, living metal faces.\",2:\"\",3:\"§7Regens §b4 Mana §7on hit.\",4:\"\",5:\"§8This item can be reforged!\",6:\"§9§lRARE SWORD\"],Name:\"§9Self-Recursive Pickaxe\"}}",
   "damage": 0,
   "lore": [
-    "§7Rift Damage: §a+5",
-    "§7Speed: §a+2",
-    "",
-    "§7Allows you to break living metal",
-    "§7ore and, potentially, living",
-    "§7metal faces.",
+    "§7Allows you to break living metal ore",
+    "§7and, potentially, living metal faces.",
     "",
     "§7Regens §b4 Mana §7on hit.",
     "",
+    "§8This item can be reforged!",
     "§9§lRARE SWORD"
   ],
   "internalname": "SELF_RECURSIVE_PICKAXE",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
   "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Self-Recursive_Pickaxe",
@@ -30,24 +27,24 @@
       "A1": "NULLIFIED_METAL:2",
       "A2": "NULLIFIED_METAL:2",
       "A3": "NULLIFIED_METAL:2",
-      "B1":"",
-      "B2":"WILTED_BERBERIS:24",
-      "B3":"",
-      "C1":"",
-      "C2":"TACTICIAN_MURDER_WEAPON",
-      "C3":""
+      "B1": "",
+      "B2": "WILTED_BERBERIS:24",
+      "B3": "",
+      "C1": "",
+      "C2": "TACTICIAN_MURDER_WEAPON",
+      "C3": ""
     },
     {
       "type": "crafting",
       "A1": "NULLIFIED_METAL:2",
       "A2": "NULLIFIED_METAL:2",
       "A3": "NULLIFIED_METAL:2",
-      "B1":"",
-      "B2":"WILTED_BERBERIS:24",
-      "B3":"",
-      "C1":"",
-      "C2":"LEECH_SWORD",
-      "C3":""
+      "B1": "",
+      "B2": "WILTED_BERBERIS:24",
+      "B3": "",
+      "C1": "",
+      "C2": "LEECH_SWORD",
+      "C3": ""
     }
   ]
 }

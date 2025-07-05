@@ -1,13 +1,22 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Sea Creature Artifact",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"053c2f1d-d2ba-375d-b528-31846bdaa7fa\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzcwYTAxMDc5MWNiMWM4OTAyYzYyMjMyMDdhYTQ0ZmU5ZDFmODRmM2JjOGZmYjFiNGNjM2NmNTU3M2UwNTZlNzEifX19\"}]}},display:{Lore:[0:\"§7Take §a15%§7 less damage from\",1:\"§7Sea Creatures.\",2:\"\",3:\"§9§lRARE ACCESSORY\"],Name:\"§9Sea Creature Artifact\"},ExtraAttributes:{id:\"SEA_CREATURE_ARTIFACT\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SEA_CREATURE_ARTIFACT\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"82d8b74c-d0e8-33a5-82f0-23208a095c14\",Properties:{textures:[0:{Name:\"textures\",Signature:\"uDUAVXGjAZy4ca/fdkiTRrJBv6abrXqusIOPcxemTYnNpgDtKBB+ktsTezxAJimTBdoydvPYrzHM8orJtwFGNPusu2its1mYHNZW529py4b57hDTyVB6mL7aIYj+V38mOA5/M1jKjLR39GtvnhjgZ5hUHBexgZLr0HR8e5tcPEl7tXjxf25CfofnCR7hdxcoFV/kttclvY79ey26sPIiLQxLYClmLJ5icEgIqvCwzZUqxP9KB1JyPgKePbYnirllOb2OYLbs1Sg2CMQuMzumcHe0NcSIUI/UMGnAPVxPMq88a7VfkaAgJSXoW2INh1YoQO3ubp8of/GgpcDiAqP7SBLbUK9MVJjhuF8SrO56HQG9Sr2nzKF0Nst6fFba1GD0scfCvBYPBeQCm7WC8zyp5/CSEPiVFxLaneDQELfEilIgA9TxvxOOSil4/WDKDJAll0zol54AMMgSxP4MrhPJfz19ddyzn4erD5jNTFdd6p3wduct5gvvYiBpaj/BGn/hYAgrEfqSe9BuzTEWJH8OSuRu5+eJNEC7yXmfPUV+dV0v2WVoVqIoGZasi3Bp6vMEN1wn5iQzbZ2fTVMJRdgWxmzDjpKONgCpmXPO2OYB98ReXe8L+vV454B+WiYDoWPYHPM+OMjlSxIcf0797As2ixXwHFZoMCgIDb6KTBJbi+Q=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwMjAzODAzODg1NCwKICAicHJvZmlsZUlkIiA6ICI2MTI4MTA4MjU5M2Q0OGQ2OWIzMmI3YjlkMzIxMGUxMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJPbF9OaWNrNjY2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E0MjcwYzM2NTUxNzhhZmU0NDU5N2I2Mzk0NzA4ODI4YzI5MjQ1NTM2NWJkZGVmOTcxYTM4MWY0MWU0N2Q1ZDAiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Take §a15%§7 less damage from Sea\",1:\"§7Creatures.\",2:\"\",3:\"§9§lRARE ACCESSORY\"],Name:\"§9Sea Creature Artifact\"}}",
   "damage": 3,
   "lore": [
-    "§7Take §a15%§7 less damage from",
-    "§7Sea Creatures.",
+    "§7Take §a15%§7 less damage from Sea",
+    "§7Creatures.",
     "",
     "§9§lRARE ACCESSORY"
+  ],
+  "internalname": "SEA_CREATURE_ARTIFACT",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Sponge VIII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Sea_Creature_Artifact",
+    "https://wiki.hypixel.net/Sea_Creature_Artifact"
   ],
   "recipe": {
     "A1": "ENCHANTED_SPONGE:8",
@@ -19,14 +28,5 @@
     "C1": "ENCHANTED_SPONGE:8",
     "C2": "ENCHANTED_SPONGE:8",
     "C3": "ENCHANTED_SPONGE:8"
-  },
-  "internalname": "SEA_CREATURE_ARTIFACT",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Sea_Creature_Artifact",
-    "https://wiki.hypixel.net/Sea_Creature_Artifact"
-  ],
-  "crafttext": "Requires: Sponge VIII"
+  }
 }

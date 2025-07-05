@@ -1,17 +1,22 @@
 {
   "itemid": "minecraft:lapis_block",
   "displayname": "§aWeather Node",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Place it down and click it to\",1:\"§7change the weather on your\",2:\"§7island.\",3:\"\",4:\"§7The node will remember your\",5:\"§7choice!\",6:\"\",7:\"§a§lUNCOMMON\"],Name:\"§aWeather Node\"},ExtraAttributes:{id:\"WEATHER_NODE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"WEATHER_NODE\"},HideFlags:254,ItemModel:\"minecraft:lapis_block\",display:{Lore:[0:\"§7Change the weather on your private\",1:\"§7island.\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aWeather Node\"}}",
   "damage": 0,
   "lore": [
-    "§7Place it down and click it to",
-    "§7change the weather on your",
+    "§7Change the weather on your private",
     "§7island.",
     "",
-    "§7The node will remember your",
-    "§7choice!",
-    "",
     "§a§lUNCOMMON"
+  ],
+  "internalname": "WEATHER_NODE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Prismarine Shard VI",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Weather_Node",
+    "https://wiki.hypixel.net/Weather_Node"
   ],
   "recipe": {
     "A1": "ENCHANTED_REDSTONE:1",
@@ -23,14 +28,5 @@
     "C1": "ENCHANTED_REDSTONE:1",
     "C2": "ENCHANTED_REDSTONE:1",
     "C3": "ENCHANTED_REDSTONE:1"
-  },
-  "internalname": "WEATHER_NODE",
-  "crafttext": "Requires: Prismarine Shard VI",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Weather_Node",
-    "https://wiki.hypixel.net/Weather_Node"
-  ]
+  }
 }

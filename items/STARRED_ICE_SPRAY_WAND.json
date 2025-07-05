@@ -1,28 +1,33 @@
 {
   "itemid": "minecraft:stick",
   "displayname": "§9⚚ Ice Spray Wand",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Gear Score: §d148 §8(753)\",1:\"§7Damage: §c+60 §8(+345)\",2:\"§7Intelligence: §a+135 §8(+776.25)\",3:\" §8[§8✎§8]\",4:\"\",5:\"§6Ability: Ice Spray  §e§lRIGHT CLICK\",6:\"§7Produces a cone of ice in front\",7:\"§7of the caster that deals\",8:\"§7§c41,417 §7damage to mobs and\",9:\"§7freezes them in place for §e5\",10:\"§e§7seconds! Frozen mobs take\",11:\"§7§c10%§7 increased damage!\",12:\"§8Mana Cost: §350\",13:\"§8Cooldown: §a5s\",14:\"\",15:\"§7§8This item can be reforged!\",16:\"§7§4❣ §cRequires §cCatacombs Skill\",17:\"§c20§c.\",18:\"§9§lRARE DUNGEON SWORD\"],Name:\"§9⚚ Ice Spray Wand\"},ExtraAttributes:{id:\"STARRED_ICE_SPRAY_WAND\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"STARRED_ICE_SPRAY_WAND\"},HideFlags:254,ItemModel:\"minecraft:stick\",display:{Lore:[0:\"§7Gear Score: §d148\",1:\"§7Damage: §c+60\",2:\"§7Intelligence: §a+135\",3:\" §8[✎]\",4:\"\",5:\"§6Ability: Ice Spray  §e§lRIGHT CLICK\",6:\"§7Produces a cone of ice in front of the caster\",7:\"§7that deals §c19,114.1 §7damage to mobs and\",8:\"§7freezes them in place for §e5 §7seconds! Frozen\",9:\"§7mobs take §c10%§7 increased damage!\",10:\"§8Mana Cost: §350\",11:\"§8Cooldown: §a5s\",12:\"\",13:\"§8This item can be reforged!\",14:\"§4❣ §cRequires Catacombs Skill 20.\",15:\"§9§lRARE DUNGEON SWORD\"],Name:\"§9⚚ Ice Spray Wand\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d148 §8(753)",
-    "§7Damage: §c+60 §8(+345)",
-    "§7Intelligence: §a+135 §8(+776.25)",
-    " §8[§8✎§8]",
+    "§7Gear Score: §d148",
+    "§7Damage: §c+60",
+    "§7Intelligence: §a+135",
+    " §8[✎]",
     "",
     "§6Ability: Ice Spray  §e§lRIGHT CLICK",
-    "§7Produces a cone of ice in front",
-    "§7of the caster that deals",
-    "§7§c41,417 §7damage to mobs and",
-    "§7freezes them in place for §e5",
-    "§e§7seconds! Frozen mobs take",
-    "§7§c10%§7 increased damage!",
+    "§7Produces a cone of ice in front of the caster",
+    "§7that deals §c19,114.1 §7damage to mobs and",
+    "§7freezes them in place for §e5 §7seconds! Frozen",
+    "§7mobs take §c10%§7 increased damage!",
     "§8Mana Cost: §350",
     "§8Cooldown: §a5s",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §cCatacombs Skill",
-    "§c20§c.",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires Catacombs Skill 20.",
     "§9§lRARE DUNGEON SWORD"
+  ],
+  "internalname": "STARRED_ICE_SPRAY_WAND",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Ice_Spray_Wand"
   ],
   "recipe": {
     "A1": "WINTER_FRAGMENT:1",
@@ -34,13 +39,5 @@
     "C1": "WINTER_FRAGMENT:1",
     "C2": "WINTER_FRAGMENT:1",
     "C3": "WINTER_FRAGMENT:1"
-  },
-  "internalname": "STARRED_ICE_SPRAY_WAND",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://wiki.hypixel.net/Ice_Spray_Wand"
-  ]
+  }
 }

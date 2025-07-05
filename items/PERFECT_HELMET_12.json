@@ -1,14 +1,23 @@
 {
   "itemid": "minecraft:diamond_helmet",
   "displayname": "§6Perfect Helmet - Tier XII",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+330\",1:\" §8[§7❈§8] §8[§7❈§8] §8[§7❈§8]\",2:\"\",3:\"§7§8This item can be reforged!\",4:\"§6§lLEGENDARY HELMET\"],Name:\"§6Perfect Helmet - Tier XII\"},ExtraAttributes:{id:\"PERFECT_HELMET_12\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"PERFECT_HELMET_12\"},HideFlags:254,ItemModel:\"minecraft:diamond_helmet\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+330\",1:\" §8[§7❈§8] [§7❈§8] [§7❈§8]\",2:\"\",3:\"§8This item can be reforged!\",4:\"§6§lLEGENDARY HELMET\"],Name:\"§6Perfect Helmet - Tier XII\"}}",
   "damage": 0,
   "lore": [
     "§7Defense: §a+330",
-    " §8[§7❈§8] §8[§7❈§8] §8[§7❈§8]",
+    " §8[§7❈§8] [§7❈§8] [§7❈§8]",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§6§lLEGENDARY HELMET"
+  ],
+  "internalname": "PERFECT_HELMET_12",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Perfect_Armor#Tier_XII",
+    "https://wiki.hypixel.net/Perfect_Helmet_-_Tier_XII"
   ],
   "recipe": {
     "A1": "",
@@ -21,14 +30,5 @@
     "C2": "ENCHANTED_DIAMOND_BLOCK:1",
     "C3": ""
   },
-  "internalname": "PERFECT_HELMET_12",
-  "parent": "PERFECT_HELMET_1",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Perfect_Armor#Tier_XII",
-    "https://wiki.hypixel.net/Perfect_Helmet_-_Tier_XII"
-  ],
-  "crafttext": ""
+  "parent": "PERFECT_HELMET_1"
 }

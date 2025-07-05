@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:emerald",
   "displayname": "§aEnchanted Emerald",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON ORE\"],Name:\"§aEnchanted Emerald\"},ExtraAttributes:{id:\"ENCHANTED_EMERALD\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_EMERALD\"},HideFlags:254,ItemModel:\"minecraft:emerald\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON ORE\"],Name:\"§aEnchanted Emerald\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7§8Collection Item",
+    "§8Collection Item",
     "",
     "§a§lUNCOMMON ORE"
   ],
   "internalname": "ENCHANTED_EMERALD",
   "clickcommand": "viewrecipe",
-  "modver": "",
+  "crafttext": "Requires: Emerald IV",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Emerald",
     "https://wiki.hypixel.net/Enchanted_Emerald"
   ],
-  "crafttext": "Requires: Emerald IV",
   "recipes": [
     {
       "type": "crafting",

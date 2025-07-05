@@ -1,0 +1,44 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "MEDIUM_MINING_SACK"
+		},
+		"minecraft:profile": {
+			id: [I;
+				-519111320,
+				888026475,
+				-1567593781,
+				-1269435761
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "L6WYBYxQjvQMA/T4THDFypv5cNTr+nokppGts6GJ494oo2pA1nIfRwUl5dViqh2H/qGuIl7GSzQt3FOxaqu+xuk6R2HPBuuZbrCUepSueZuxRFXd6QYZ1wwRROCE8Q2YfcsTIEAFY3Jh7k8sUfH2QWGF6dDrjjo56BmH7z98+EEtE2B3v1Xe+N8m/AerqzK4gTxfwdq/i6QjxwJFq//nwXDVoyMw5LHlDUQ74pMtnF0MgYmKqUFGO8LZqjVffnF2iCxVC+UfNl/jegFEb1H9wn7DNU53gfNwRLydJ0lACgu3TShPbDA5hC3u+ItKkbBNfM9A4i85Adj/c6XSmppTPRE24h8WY0n22HzjgluAHLtKvPxcIRWp48IvGB/IAWa6SG0v819i+ZuyNC6hhJ8PiDz1VR3PR+aORD3jtJtLu9G9IoKhP0JkijXjwwqkGCk37L8T8W9Y5wZ0aEeXK6dOKXHXu28lYq+0FWGamqIjwcrXXCNuGs2TdFxPl0bYaL0ZaJtsz47MoYvcP36kg+7tGC4vVf/jIEHcrx/NBq1yXxyw2ViID6RvyRf40ytC1Ioyo151CN6pONJCgxY7MVcj3uZ3O5A45ZOQ/jpNomaASwb5McrrwVii/2Y3Ragl3UhZf62MobbduBqDQy2Ql1r/2Cs4ZQaDcv+WRtQNBQIp7fM=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NTQ3NTMzMCwKICAicHJvZmlsZUlkIiA6ICIyZGI4ZTYzYzFlMTc0NGE3ODIyZDNmNjBlYmNmYzI5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcmtTYW5kYm94IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzEwMGIxYmY4NTU0OTg1ZjNkZWNmNTQ4ODY5MjJhZDIwZDE0NDQzODU2NGVmN2E1YjUyY2VkNzFiYzlkZDA0YmIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd"
+	}
+}

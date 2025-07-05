@@ -1,23 +1,30 @@
 {
   "itemid": "minecraft:iron_sword",
   "displayname": "§6⚚ Yeti Sword",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+160\",1:\"§7Strength: §c+185\",2:\"§7Intelligence: §a+50\",3:\" §8[§8✎§8] §8[§8❁§8]\",4:\"\",5:\"§6Ability: Terrain Toss  §e§lRIGHT CLICK\",6:\"§7Throws a chunk of terrain in the\",7:\"§7direction you are facing! Deals\",8:\"§7up to §c66,971.8 §7damage.\",9:\"§8Mana Cost: §3250\",10:\"§8Cooldown: §a1s\",11:\"\",12:\"§7§8This item can be reforged!\",13:\"§6§lLEGENDARY SWORD\"],Name:\"§6⚚ Yeti Sword\"},ExtraAttributes:{id:\"STARRED_YETI_SWORD\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"STARRED_YETI_SWORD\"},HideFlags:254,ItemModel:\"minecraft:iron_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+160\",1:\"§7Strength: §c+185\",2:\"§7Intelligence: §a+50\",3:\" §8[✎] [❁]\",4:\"\",5:\"§6Ability: Terrain Toss  §e§lRIGHT CLICK\",6:\"§7Throws a chunk of terrain in the direction you\",7:\"§7are facing! Deals up to §c17,136.3 §7damage.\",8:\"§8Mana Cost: §3250\",9:\"§8Cooldown: §a1s\",10:\"\",11:\"§8This item can be reforged!\",12:\"§6§lLEGENDARY SWORD\"],Name:\"§6⚚ Yeti Sword\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+160",
     "§7Strength: §c+185",
     "§7Intelligence: §a+50",
-    " §8[§8✎§8] §8[§8❁§8]",
+    " §8[✎] [❁]",
     "",
     "§6Ability: Terrain Toss  §e§lRIGHT CLICK",
-    "§7Throws a chunk of terrain in the",
-    "§7direction you are facing! Deals",
-    "§7up to §c66,971.8 §7damage.",
+    "§7Throws a chunk of terrain in the direction you",
+    "§7are facing! Deals up to §c17,136.3 §7damage.",
     "§8Mana Cost: §3250",
     "§8Cooldown: §a1s",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§6§lLEGENDARY SWORD"
+  ],
+  "internalname": "STARRED_YETI_SWORD",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/⚚_Yeti_Sword"
   ],
   "recipe": {
     "A1": "WINTER_FRAGMENT:1",
@@ -29,13 +36,5 @@
     "C1": "WINTER_FRAGMENT:1",
     "C2": "WINTER_FRAGMENT:1",
     "C3": "WINTER_FRAGMENT:1"
-  },
-  "internalname": "STARRED_YETI_SWORD",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://wiki.hypixel.net/⚚_Yeti_Sword"
-  ]
+  }
 }

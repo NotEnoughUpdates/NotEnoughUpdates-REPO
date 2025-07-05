@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:dispenser",
   "displayname": "§9Personal Deletor 5000",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Automatically delete specific items on\",1:\"§7pickup.\",2:\"\",3:\"§eRight-click to configure!\",4:\"\",5:\"§9§lRARE ACCESSORY\"],Name:\"§9Personal Deletor 5000\"},ExtraAttributes:{id:\"PERSONAL_DELETOR_5000\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"PERSONAL_DELETOR_5000\"},HideFlags:254,ItemModel:\"minecraft:dispenser\",display:{Lore:[0:\"§7Automatically delete specific items on\",1:\"§7pickup.\",2:\"\",3:\"§eRight-click to configure!\",4:\"\",5:\"§9§lRARE ACCESSORY\"],Name:\"§9Personal Deletor 5000\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§7Automatically delete specific items on",
@@ -10,6 +10,15 @@
     "§eRight-click to configure!",
     "",
     "§9§lRARE ACCESSORY"
+  ],
+  "internalname": "PERSONAL_DELETOR_5000",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Iron Ingot X",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Personal_Deletor_5000",
+    "https://wiki.hypixel.net/Personal_Deletor_5000"
   ],
   "recipe": {
     "A1": "ENCHANTED_IRON:32",
@@ -21,14 +30,5 @@
     "C1": "ENCHANTED_IRON:32",
     "C2": "PERSONAL_DELETOR_4000:1",
     "C3": "ENCHANTED_IRON:32"
-  },
-  "internalname": "PERSONAL_DELETOR_5000",
-  "clickcommand": "viewrecipe",
-  "crafttext": "Requires: Iron Ingot X",
-  "modver": "2.1.1-PRE",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Personal_Deletor_5000",
-    "https://wiki.hypixel.net/Personal_Deletor_5000"
-  ]
+  }
 }

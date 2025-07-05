@@ -1,15 +1,24 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§6Reaper Orb",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"a2699be2-a9e4-3771-8166-e1d80cd62cd6\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2E3Y2RhOTAwNGZjMTk3ZDY2YWZiYzJiMDAzYTViOWVmMTNjZjQ2MDBiMWZjNzQ5MDA2NzU5MGYwNDcxODFlIn19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7§7Gain a stack of §c2❁ Strength §7for\",1:\"§7every mob killed in the last §a5\",2:\"§a§7seconds.\",3:\"\",4:\"§7§4☠ §cRequires §5Zombie Slayer 8§c.\",5:\"§6§lLEGENDARY ACCESSORY\"],Name:\"§6Reaper Orb\"},ExtraAttributes:{id:\"REAPER_ORB\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"REAPER_ORB\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"d99d1f23-5ee1-38b8-9bdb-4ddb44b8ca12\",Properties:{textures:[0:{Name:\"textures\",Signature:\"EsHg3Cx3B5K3LXJPYMtC281JVRofEqjgIuRx3wLguq/3xsMGHMnNvtzD5KGaSqLYOc3qJGlW1n46EWvHVRZUlCNLEKxVMX4fol+icUZ2sDMv1xooff8BDAaWatTUjeViZYvQKRbBeOxhu8vJzigQdF6ObCSCakrD6OdjfqkQMXJS3+MgTMkzOYUxHhvgJTGdQEAe0n/BmI5FinIfiswC0+0bVAMfV6NB0U0RFmm8qbeeZ1z2NmeC5obXL13+/naAZ6P1yQoSJaPgtePbRSPLYoN8IjcoJ8cVfstLqn1D+kzZ9BNikm8iyZapTR1K1Rt+MDAwdKGLkLohc9yvnc5AocaW03r+YoLRlcabWZ1uAtSPl9rn+Ur1Vu1WwJBVRXVcuBgmrclixNhX5k6a87r3KKcBdDFSn5S2jJcwWVYZ2NNBnQyRANNsVdxM60VmgGWAlyV5PB8ejRgvg/PUSpjnwHX8SZ0IIkYeuIOYHIBteZjqsz4fm1incqkro2os6oFfFjO3JfR+pWFdvb5+UdBwV7LOBKj/AULIbAVtrrEfJoCFEsJP8fJVAllfYSA29gfBHp/8AzW4oHMeO2pxAZn+ihQ1F2KaxaCD+lLEWo6KLcFUI7DeWsMTu20YICnGMlz9N4M1b1eH2KhFtPy0ET/siDbPBQEqOgy+J4iuCQB5ygE=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxODYwNjE0ODU2NiwKICAicHJvZmlsZUlkIiA6ICJjMGYzYjI3YTUwMDE0YzVhYjIxZDc5ZGRlMTAxZGZlMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDVUNGTDEzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNhN2NkYTkwMDRmYzE5N2Q2NmFmYmMyYjAwM2E1YjllZjEzY2Y0NjAwYjFmYzc0OTAwNjc1OTBmMDQ3MTgxZSIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Gain a stack of §c2❁ Strength §7for\",1:\"§7every mob killed in the last §a5\",2:\"§7seconds.\",3:\"\",4:\"§4☠ §cRequires §5Zombie Slayer 8§c.\",5:\"§6§lLEGENDARY ACCESSORY\"],Name:\"§6Reaper Orb\"}}",
   "damage": 3,
   "lore": [
-    "§7§7Gain a stack of §c2❁ Strength §7for",
+    "§7Gain a stack of §c2❁ Strength §7for",
     "§7every mob killed in the last §a5",
-    "§a§7seconds.",
+    "§7seconds.",
     "",
-    "§7§4☠ §cRequires §5Zombie Slayer 8§c.",
+    "§4☠ §cRequires §5Zombie Slayer 8§c.",
     "§6§lLEGENDARY ACCESSORY"
+  ],
+  "internalname": "REAPER_ORB",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Zombie Slayer 8",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Reaper_Orb",
+    "https://wiki.hypixel.net/Reaper_Orb"
   ],
   "recipe": {
     "A1": "SCYTHE_BLADE:1",
@@ -21,14 +30,5 @@
     "C1": "SCYTHE_BLADE:1",
     "C2": "SCYTHE_BLADE:1",
     "C3": "SCYTHE_BLADE:1"
-  },
-  "internalname": "REAPER_ORB",
-  "crafttext": "Requires: Zombie Slayer 8",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Reaper_Orb",
-    "https://wiki.hypixel.net/Reaper_Orb"
-  ]
+  }
 }

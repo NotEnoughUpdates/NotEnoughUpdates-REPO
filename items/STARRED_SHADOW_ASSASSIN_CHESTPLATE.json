@@ -1,31 +1,40 @@
 {
   "itemid": "minecraft:leather_chestplate",
   "displayname": "§6⚚ Shadow Assassin Chestplate",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Gear Score: §d545 \",1:\"§7Strength: §c+30 \",2:\"§7Crit Damage: §c+25% \",3:\"§7Health: §a+250\",4:\"§7Defense: §a+110 \",5:\"§7Speed: §a+8 \",6:\" §8[§8❁§8] §8[§8⚔§8]\",7:\"\",8:\"§6Full Set Bonus: Shadow Assassin §7(0/4)\",9:\"§7Collect the shadows of the enemies\",10:\"§7you kill increasing your damage for\",11:\"§7the rest of the dungeon while\",12:\"§7wearing this set. §c+1❁ Strength\",13:\"§c§7every kill\",14:\"\",15:\"§7On teleport: Grants §c+10❁ Strength\",16:\"§c§7for §b10 §7seconds.\",17:\"\",18:\"§7§8This item can be reforged!\",19:\"§7§4❣ §cRequires §aThe Catacombs Floor\",20:\"§aV Completion§c.\",21:\"§6§lLEGENDARY DUNGEON CHESTPLATE\"],color:0,Name:\"§6⚚ Shadow Assassin Chestplate\"},ExtraAttributes:{dungeon_item_level:0,id:\"STARRED_SHADOW_ASSASSIN_CHESTPLATE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"STARRED_SHADOW_ASSASSIN_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:leather_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Gear Score: §d545\",1:\"§7Strength: §c+30\",2:\"§7Crit Damage: §c+25%\",3:\"§7Health: §a+250\",4:\"§7Defense: §a+110\",5:\"§7Speed: §a+8\",6:\" §8[❁] [⚔]\",7:\"\",8:\"§6Full Set Bonus: Shadow Assassin §7(0/4)\",9:\"§7Collect the shadows of the enemies\",10:\"§7you kill increasing your damage for\",11:\"§7the rest of the dungeon while\",12:\"§7wearing this set. §c+1❁ Strength\",13:\"§7every kill\",14:\"\",15:\"§7On teleport: Grants §c+10❁ Strength\",16:\"§7for §b10 §7seconds.\",17:\"§8Cooldown: §a3s\",18:\"\",19:\"§8This item can be reforged!\",20:\"§4❣ §cRequires The Catacombs Floor V Completion.\",21:\"§6§lLEGENDARY DUNGEON CHESTPLATE\"],Name:\"§6⚚ Shadow Assassin Chestplate\"}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d545 ",
-    "§7Strength: §c+30 ",
-    "§7Crit Damage: §c+25% ",
+    "§7Gear Score: §d545",
+    "§7Strength: §c+30",
+    "§7Crit Damage: §c+25%",
     "§7Health: §a+250",
-    "§7Defense: §a+110 ",
-    "§7Speed: §a+8 ",
-    " §8[§8❁§8] §8[§8⚔§8]",
+    "§7Defense: §a+110",
+    "§7Speed: §a+8",
+    " §8[❁] [⚔]",
     "",
     "§6Full Set Bonus: Shadow Assassin §7(0/4)",
     "§7Collect the shadows of the enemies",
     "§7you kill increasing your damage for",
     "§7the rest of the dungeon while",
     "§7wearing this set. §c+1❁ Strength",
-    "§c§7every kill",
+    "§7every kill",
     "",
     "§7On teleport: Grants §c+10❁ Strength",
-    "§c§7for §b10 §7seconds.",
+    "§7for §b10 §7seconds.",
+    "§8Cooldown: §a3s",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aThe Catacombs Floor",
-    "§aV Completion§c.",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires The Catacombs Floor V Completion.",
     "§6§lLEGENDARY DUNGEON CHESTPLATE"
+  ],
+  "internalname": "STARRED_SHADOW_ASSASSIN_CHESTPLATE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Shadow_Assassin_Armor#Shadow_Assassin_Armor_(Starred)_",
+    "https://wiki.hypixel.net/⚚_Shadow_Assassin_Chestplate"
   ],
   "recipe": {
     "A1": "LIVID_FRAGMENT:1",
@@ -38,14 +47,5 @@
     "C2": "LIVID_FRAGMENT:1",
     "C3": "LIVID_FRAGMENT:1"
   },
-  "internalname": "STARRED_SHADOW_ASSASSIN_CHESTPLATE",
-  "parent": "SHADOW_ASSASSIN_CHESTPLATE",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Shadow_Assassin_Armor#Shadow_Assassin_Armor_(Starred)_",
-    "https://wiki.hypixel.net/⚚_Shadow_Assassin_Chestplate"
-  ]
+  "parent": "SHADOW_ASSASSIN_CHESTPLATE"
 }

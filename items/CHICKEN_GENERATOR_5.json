@@ -1,18 +1,28 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Chicken Minion V",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"fa2a9d09-b716-3210-8fa0-0fa22445f501\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzQwMzIzNzMsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTk3Y2E0ZGFhMjVhZDhhNDhlYjBhMzRhMjMwMDA5NzFmODdmZTQyMzE5YzMyMzc1YzIxZGVhOTQwZmZmZmQ1ZSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and slaying\",2:\"§7Chickens! Minions also work when\",3:\"§7you are offline!\",4:\"\",5:\"§7Time Between Actions: §a22s\",6:\"§7Max Storage: §e448\",7:\"\",8:\"§9§lRARE\"],Name:\"§9Chicken Minion V\"},ExtraAttributes:{id:\"CHICKEN_GENERATOR_5\",generator_tier:5}}",
+  "nbttag": "{ExtraAttributes:{id:\"CHICKEN_GENERATOR_5\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"fa2a9d09-b716-3210-8fa0-0fa22445f501\",Properties:{textures:[0:{Name:\"textures\",Signature:\"WJOg0w1kLzH3qEXUZgd84Y4ZdN3sULwf389CfK+glSR5rKIHUzXxq/YveKPgJLn/axnfDOZalCt1X3UD2IW1ZKIHGF6QlKL0SyUI9n2uKVwgt25gCq0GP9awld0e/uM+Mnm6DgspO/6+y5anvks2kUuqdFth1gjzOoZHOZAxzcRdhNAHOshFmE071tYpcDU2Og9HFdEkhYkD2hz1Ebc50yMoV6ivVcLfU+8uoQEUzQfLZdtOpq0d4aAg62hoZkP5xJ5u12hypv/oJjYJQSeoVPTFBxIxhvi2dH/5mcXCC4iMJGoxjZ0hGsdaA2gHQZHX+1nT5cw5lk0A9R/9LhlLZ3XGn1+IZihEsdIReBSs8ir+hMwY5mElT0Jc7GGK5vLJDhGLNFIKJK4oQKAKJn6xvEGBROXFMfYLk18AEizcBJp/uBm+DPsNhsOZEuKqetP8BmeRRRNGPL2qsq8wPKY5JJEQTXM9+ZmsykWkp1Kw/R23JVF+2VslgJIITeg7cZ9ZNH0bSUrRRRhtkljOhaNGMq+RPuutq40sMFxf3KRZArHkzRyf4Z4Gvss3N9G9vzMU0L6Hbvf3063GL7c4nI3P+YZjh/L5Fo2njw+cdZfZIlss+nl6M0BKJctUgtfEBh6wjvMtoJDCxAeEEHLWAuN+EToSHe6e6bG5SjGSWEXA3mg=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzQwMzIzNzMsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTk3Y2E0ZGFhMjVhZDhhNDhlYjBhMzRhMjMwMDA5NzFmODdmZTQyMzE5YzMyMzc1YzIxZGVhOTQwZmZmZmQ1ZSJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and slaying Chickens!\",2:\"§7Minions also work when you are\",3:\"§7offline!\",4:\"\",5:\"§7Time Between Actions: §a22s\",6:\"§7Max Storage: §e448\",7:\"§7Resources Generated: §b0\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Chicken Minion V\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and slaying",
-    "§7Chickens! Minions also work when",
-    "§7you are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and slaying Chickens!",
+    "§7Minions also work when you are",
+    "§7offline!",
     "",
     "§7Time Between Actions: §a22s",
     "§7Max Storage: §e448",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "CHICKEN_GENERATOR_5",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Raw Chicken I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Chicken_Minion",
+    "https://wiki.hypixel.net/Chicken_Minion_V"
   ],
   "recipe": {
     "A1": "ENCHANTED_RAW_CHICKEN:1",
@@ -25,14 +35,5 @@
     "C2": "ENCHANTED_RAW_CHICKEN:1",
     "C3": "ENCHANTED_RAW_CHICKEN:1"
   },
-  "internalname": "CHICKEN_GENERATOR_5",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Chicken_Minion",
-    "https://wiki.hypixel.net/Chicken_Minion_V"
-  ],
-  "crafttext": "Requires: Raw Chicken I"
+  "useneucraft": true
 }

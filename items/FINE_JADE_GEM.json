@@ -1,19 +1,28 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9☘ Fine Jade Gemstone",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"13e221e0-7f14-38d3-ac19-48ae55ee277f\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxODA4Mzg3NjAxNywKICAicHJvZmlsZUlkIiA6ICI0ZTMwZjUwZTdiYWU0M2YzYWZkMmE3NDUyY2ViZTI5YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJfdG9tYXRvel8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI4ZjFjMGM1MDkyZTEyZDMzNzcwZGY0NWM1ODQ1YTk2MTA4ODYwMzliMzRhYmU5M2ExNmM1ZTk0MmRmYzhlNCIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§7A type of §aJade §7that has clearly\",3:\"§7been treated with care.\",4:\"\",5:\"§7§7Some say that when §eharnessed\",6:\"§eproperly§7, it can give its owner extra\",7:\"§7§6☘ Mining Fortune§7.\",8:\"\",9:\"§9§lRARE GEMSTONE\"],Name:\"§9☘ Fine Jade Gemstone\"},ExtraAttributes:{id:\"FINE_JADE_GEM\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"FINE_JADE_GEM\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"c6f52392-8744-3ce0-8e48-7c56afb34442\",Properties:{textures:[0:{Name:\"textures\",Signature:\"MDq91oZTssKws87cFdkwWMLROsGF//R0ZHSDf/4GAaajwAqTF4NY94wmx8ilYPq7YAaBFuX/fnnS0NAco71nbQGDgHNijWmnRZhn3AkiSxj6t72PlVvEa3NKYojq6yJW4TGz6K+BxgWpCclhci2Tbk05lbRQ1pjyLEzaHubL/LGtuKn8UfPHBrrwjIErIvrTqiP9qqPKZgLerrnoPcchokSmx1aFJigrSJNVe02d1C2aAcjne5zP8/n4X+NYQSo9/f/nck2rHt58dx6d9nZZ9PDGvGpyuhyE4DMdxHSkJFhEfKup8CEirhqi+2+hpV41od9kY9ebhPw9a6ezrK5zme1tmwZ0ytg4xBcarVIK9PJOI7alQqQ7/il1g7hL+306OBHk9OYQt7b30BvPEi4C43xK5GHk4LZHJCjLr8fwgXm7/rLNLmopt2W7zpSFk/AIH8N59xaiq9+PNJGQhbpwZPx23TUL1TZeK3Zgq6kKaQ5rDoATbbCbZx5NddmioqbInJ57De6eiMX8NLb2V8l86Pq0BLY5zjkqmjUFQpUxW+jdjScY5+NIhw2aVj64Dx2Z3hvknRYxATuIB9jnlGCRNm8Wz8NMinBzSqYbAi097zUozuqqTwrmD82IGt2p59AOgxlF8RTEe9dC8CIWyq6jB5QzyNFn+eMRhelEKMtoPJw=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxODA4Mzg3NjAxNywKICAicHJvZmlsZUlkIiA6ICI0ZTMwZjUwZTdiYWU0M2YzYWZkMmE3NDUyY2ViZTI5YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJfdG9tYXRvel8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI4ZjFjMGM1MDkyZTEyZDMzNzcwZGY0NWM1ODQ1YTk2MTA4ODYwMzliMzRhYmU5M2ExNmM1ZTk0MmRmYzhlNCIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7A type of §aJade §7that has clearly\",3:\"§7been treated with care.\",4:\"\",5:\"§7Some say that when §eharnessed\",6:\"§eproperly§7, it can give its owner extra\",7:\"§6☘ Mining Fortune§7.\",8:\"\",9:\"§9§lRARE GEMSTONE\"],Name:\"§9☘ Fine Jade Gemstone\"}}",
   "damage": 3,
   "lore": [
-    "§7§8Collection Item",
+    "§8Collection Item",
     "",
     "§7A type of §aJade §7that has clearly",
     "§7been treated with care.",
     "",
-    "§7§7Some say that when §eharnessed",
+    "§7Some say that when §eharnessed",
     "§eproperly§7, it can give its owner extra",
-    "§7§6☘ Mining Fortune§7.",
+    "§6☘ Mining Fortune§7.",
     "",
     "§9§lRARE GEMSTONE"
+  ],
+  "internalname": "FINE_JADE_GEM",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Gemstone V",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Gemstone",
+    "https://wiki.hypixel.net/Gemstone"
   ],
   "recipe": {
     "A1": "",
@@ -25,14 +34,5 @@
     "C1": "",
     "C2": "FLAWED_JADE_GEM:16",
     "C3": ""
-  },
-  "internalname": "FINE_JADE_GEM",
-  "crafttext": "Requires: Gemstone V",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Gemstone",
-    "https://wiki.hypixel.net/Gemstone"
-  ]
+  }
 }

@@ -1,15 +1,24 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§5Blood-Soaked Coins",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"2bcf188d-4118-34f6-825f-856472641d94\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxMDg0OTk5MjQ5NiwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y4YmIyNmQxOGJlZmFkNDBhNzUzNWViYWMwZTE4YmUyMGYzNjJjMDAwY2M1MDhmMmIzM2I0M2FiY2MyNzIzZTkiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7§7When you pay through the nose,\",1:\"§7you\u0027ll end up with a nosebleed.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§5§lEPIC\"],Name:\"§5Blood-Soaked Coins\"},ExtraAttributes:{id:\"BLOOD_SOAKED_COINS\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"BLOOD_SOAKED_COINS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"c5c2180a-038b-3422-9ace-eb29f6970ec7\",Properties:{textures:[0:{Name:\"textures\",Signature:\"NhVfoCKVSDJff7CwbhVQ2ncyFqhPNj2bCH11epqV8hMrdnQNV0aVmPzXS9qkDuQEHlE1DRGYkv3efAn/ARR4GsZ9KRktRqGrvL+5xoBm6HJ6+KfqIfvmOU8IkgdkGyad475Vh1KKjcBFuSIYRp4QHRUmyz3cEWkSilaAa21tPdLU3Dq8HEaxkVxtZqd15UMzo/6Va78e3EGEXxI/b/sCK/Y17eABDDbLWn93nWgioeStyFvIO9k5VRE6UyZCKkgUZgsR+jPgqumpMYYkba6eBiIqNTmwMFaQrX+fdOCo03dC9inQjLGnT5Gh78LTtm1vIjio/N7+YC80YVPDyrysdWoJUqvq4ZjeK3jy+I7WbrIKWLXKD39WhWIhB7RndT9TiOH9Ooc3k7fXdNTAlRdN9s6OXP0gykP4GMj9ur3ofMH+Hzi8zrGbWp14nLAs6a9L5v1dqfojOS59Y3MuEqustVz5TwVQ8u3/Qt6Tiff2g+0lJPrO8Q3Ahrv1Yrh6Eiu8UHy49bYxdPOebpBLX/EyYdmHuzIXotLvAN5Im9hrEKlIWEaZ/UGy8aDTHRYsc6n9XwuC1uM/6oaEQDQ4hdrKWLAF4BWKNlr3NgkUv8RZse+VvFwJRrFCj64KClQWgDvOYV/L3MXQoneiZ41eEYC0USltr7/ls2EencNe4B7uhYI=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyMDA1MjU2OTMwOCwKICAicHJvZmlsZUlkIiA6ICI4ZDYwNGY0NWM0OWQ0YWE2Yjc0MjhiNTJlYzcyYjliNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdGFyRG9ubiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mOGJiMjZkMThiZWZhZDQwYTc1MzVlYmFjMGUxOGJlMjBmMzYyYzAwMGNjNTA4ZjJiMzNiNDNhYmNjMjcyM2U5IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7When you pay through the nose,\",1:\"§7you'll end up with a nosebleed.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§5§lEPIC\"],Name:\"§5Blood-Soaked Coins\"}}",
   "damage": 3,
   "lore": [
-    "§7§7When you pay through the nose,",
-    "§7you\u0027ll end up with a nosebleed.",
+    "§7When you pay through the nose,",
+    "§7you'll end up with a nosebleed.",
     "",
     "§eRight-click to view recipes!",
     "",
     "§5§lEPIC"
+  ],
+  "internalname": "BLOOD_SOAKED_COINS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Blood-Soaked_Coins",
+    "https://wiki.hypixel.net/Blood-Soaked_Coins"
   ],
   "recipe": {
     "A1": "",
@@ -21,14 +30,5 @@
     "C1": "",
     "C2": "HEMOGLASS:8",
     "C3": ""
-  },
-  "internalname": "BLOOD_SOAKED_COINS",
-  "clickcommand": "viewrecipe",
-  "modver": "2.3.0",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Blood-Soaked_Coins",
-    "https://wiki.hypixel.net/Blood-Soaked_Coins"
-  ]
+  }
 }

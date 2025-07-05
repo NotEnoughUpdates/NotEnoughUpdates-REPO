@@ -1,19 +1,29 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Jungle Minion III",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"ddb27bab-001d-3785-90a1-78d5eae40f30\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzczNzc2NzEsInByb2ZpbGVJZCI6IjVkMjRiYTBiMjg4YzQyOTM4YmExMGVjOTkwNjRkMjU5IiwicHJvZmlsZU5hbWUiOiIxbnYzbnQxdjN0NGwzbnQiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk4MjlmYTQzMTIxMDY2YmMwMTM0NDc0NWY4ODljNjdmOGU4MGE3NWJhMzBhMzhlMDE3ZDIzOTNlMTdjZmVmMjEifX19\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and chopping\",2:\"§7jungle logs! Requires an open\",3:\"§7area to place trees. Minions\",4:\"§7also work when you are offline!\",5:\"\",6:\"§7Time Between Actions: §a45s\",7:\"§7Max Storage: §e192\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Jungle Minion III\"},ExtraAttributes:{id:\"JUNGLE_GENERATOR_3\",generator_tier:3}}",
+  "nbttag": "{ExtraAttributes:{id:\"JUNGLE_GENERATOR_3\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"ddb27bab-001d-3785-90a1-78d5eae40f30\",Properties:{textures:[0:{Name:\"textures\",Signature:\"HGzo9RytyCQf0iJlSlQzw6LM6dUbXyPajsckjwQXK4vSDneKTeXDdKijKy0IwH4eRaAKwJ1da9dv6Pn8kIUFHFruk4XwB+gJrhFk8mxFKDJDJCxHyzl4p5rI68v4sJLAJDCw0XrL4+Or2OGoqBjPWNYztfN19AaaZY6yMpDU8RryikqfdHLirPkuY2Ox2s2OuCc3Q9LiSrwd8rb2OrKR72jZwpLd5Xw3Rolua0048abzWG+80ZZpzJp6mShtptUsJgYnkH9pWBKoalhoOnShOhsK+qL7RxTZspoFaNj4IcsDeeVGLKVDPn1v6Qt7rAj5Ri5oIT80iz5xPpxL9GxLRow4brXZqKPVWp9el+p/nyuAzoce1B1KzNiYoq2aEnNNNCKGLphmWSPrzyOKQcfB/rOlLJ9hCCz4UxwkApf1BSqjI0YK4BJTZXjJF3Op8YEj1o4rQE1ppuryCrKYlJ21yGOlSvOVG9nHTmAsrPKDN6BkrRRvvXj+OOHafKtktM37kS9Q+kBpAkplmIrgsXUrsZj/1sYy8dbRexwbiOWLhlNiddFJ29CAxDMBO/6e+m9CDSvNau9fFX5bHFAV1nB28a+TFYieluczhnSD9tUGpvNK6+WQTo0m0w9RX5tznkQbD1rMdvA7kqlGehXAfJwiOqrzpFW7q/b2srRqyR1ZZdM=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzczNzc2NzEsInByb2ZpbGVJZCI6IjVkMjRiYTBiMjg4YzQyOTM4YmExMGVjOTkwNjRkMjU5IiwicHJvZmlsZU5hbWUiOiIxbnYzbnQxdjN0NGwzbnQiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk4MjlmYTQzMTIxMDY2YmMwMTM0NDc0NWY4ODljNjdmOGU4MGE3NWJhMzBhMzhlMDE3ZDIzOTNlMTdjZmVmMjEifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and chopping jungle logs!\",2:\"§7Requires an open area to place\",3:\"§7trees. Minions also work when you\",4:\"§7are offline!\",5:\"\",6:\"§7Time Between Actions: §a45s\",7:\"§7Max Storage: §e192\",8:\"§7Resources Generated: §b0\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Jungle Minion III\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and chopping",
-    "§7jungle logs! Requires an open",
-    "§7area to place trees. Minions",
-    "§7also work when you are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and chopping jungle logs!",
+    "§7Requires an open area to place",
+    "§7trees. Minions also work when you",
+    "§7are offline!",
     "",
     "§7Time Between Actions: §a45s",
     "§7Max Storage: §e192",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "JUNGLE_GENERATOR_3",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Jungle Wood I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Jungle_Minion",
+    "https://wiki.hypixel.net/Jungle_Minion_III"
   ],
   "recipe": {
     "A1": "LOG-3:40",
@@ -26,14 +36,5 @@
     "C2": "LOG-3:40",
     "C3": "LOG-3:40"
   },
-  "internalname": "JUNGLE_GENERATOR_3",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Jungle_Minion",
-    "https://wiki.hypixel.net/Jungle_Minion_III"
-  ],
-  "crafttext": "Requires: Jungle Wood I"
+  "useneucraft": true
 }

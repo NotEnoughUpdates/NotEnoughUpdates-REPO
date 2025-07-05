@@ -1,14 +1,23 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§6Jumbo Backpack",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"49a240cd-8e28-3f5e-8bd3-b690ff1cabfc\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWY4NDA1MTE2YzFkYWE3Y2UyZjAxMjU5MTQ1OGQ1MDI0NmQwYTQ2N2JjYjk1YTVhMmMwMzNhZWZkNjAwOGI2MyJ9fX0K\"}]}},display:{Lore:[0:\"§7A bag with §a45§7 slots which\",1:\"§7can be placed in your Storage\",2:\"§7Menu to store additional items.\",3:\"\",4:\"§6§lLEGENDARY\"],Name:\"§6Jumbo Backpack\"},ExtraAttributes:{id:\"JUMBO_BACKPACK\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"JUMBO_BACKPACK\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"adba2072-cbac-3fc5-a46b-087f50d4b08d\",Properties:{textures:[0:{Name:\"textures\",Signature:\"NlkB44raA2uoP388yxduA2e49y7Cm9y4ymHv38XUfJotTTOGRe4SpzsT2twyqzEuVrwzo4+eQlkEjwFvbZP5ir0dGHBKAmuwrWN6YWSJkAbtIxHJH6FjsnAl2T2uI/9qjPn7szMnjyWnqxJJjkpHy1M6XM+wdAVy1pVrOJ7oUZgLRJF0DSxxgSEqav1UEDtQvMrl/3hMU15S3rjw4tJdXGDlw7YW7mROzvFuTvqGOAw+zPtqbullUjyfbrx1KaUZQCPpoTtFFgLzSrAe0ylejiW26bGDcjdrhawzzchA6ztJi+EymjbgaVAecNwk7P3pL7ep26Bkz965s1ZRPhw+YgISjNWyEdZVRn5jjSXw42VKyVH/u4XpbrU1kd/Lc6cqLnT3S43hYNCfwaLQoSU169i/xxp5zkzGWgoN1Ft6/5aP3UpvUb+o5vDefMq3wTZBF4jWR1y+YdpUP8JbJ4L5xj3OONTY0MC28xLJVTfZnBnH4HF6UGQEgngmeI/lHWLddp6fl6d0me0dYT9C64w9hkz0ZegI/aOax5kVjfWF+qJJCT0/BHzHBwVsqSTWl6/rROnijrPZoVkv+Gxap6fZB9Ev0r2R7/jraIBlCt4swk/SA2BW34tE/qWF6x9vpoQ0TySJ7bADPjJOFDnSJH3fSDNbSSd1SBvN0vM6AlrD+bg=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzNzk4MzQzMCwKICAicHJvZmlsZUlkIiA6ICI5ODY5ZmUyY2FjMjA0YmJmYjc1Y2Y1Mjk2ZTY0MDQ5MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJIZW5yaXF1ZTkzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFmODQwNTExNmMxZGFhN2NlMmYwMTI1OTE0NThkNTAyNDZkMGE0NjdiY2I5NWE1YTJjMDMzYWVmZDYwMDhiNjMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7A bag with §a45§7 slots which can be\",1:\"§7placed in your Storage Menu to\",2:\"§7store additional items.\",3:\"\",4:\"§6§lLEGENDARY\"],Name:\"§6Jumbo Backpack\"}}",
   "damage": 3,
   "lore": [
-    "§7A bag with §a45§7 slots which",
-    "§7can be placed in your Storage",
-    "§7Menu to store additional items.",
+    "§7A bag with §a45§7 slots which can be",
+    "§7placed in your Storage Menu to",
+    "§7store additional items.",
     "",
     "§6§lLEGENDARY"
+  ],
+  "internalname": "JUMBO_BACKPACK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Jumbo_Backpack",
+    "https://wiki.hypixel.net/Jumbo_Backpack"
   ],
   "recipe": {
     "A1": "",
@@ -20,14 +29,5 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  },
-  "internalname": "JUMBO_BACKPACK",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Jumbo_Backpack",
-    "https://wiki.hypixel.net/Jumbo_Backpack"
-  ]
+  }
 }

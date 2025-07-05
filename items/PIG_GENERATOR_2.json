@@ -1,18 +1,27 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Pig Minion II",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"62e4e443-02fb-39a2-b778-e4b39474fbfe\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5NDcwMDU2MTAsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzEzZDEzNjY1NDI5N2U3NDRjY2IzYmE3MWJiODViZDc2NTMyNjdkYjRiOWI5NDBiNjIxYmU1ODdkNTJhNTEzMTAifX19\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and slaying\",2:\"§7Pigs! Minions also work when you\",3:\"§7are offline!\",4:\"\",5:\"§7Time Between Actions: §a26s\",6:\"§7Max Storage: §e192\",7:\"\",8:\"§9§lRARE\"],Name:\"§9Pig Minion II\"},ExtraAttributes:{id:\"PIG_GENERATOR_2\",generator_tier:2}}",
+  "nbttag": "{ExtraAttributes:{id:\"PIG_GENERATOR_2\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"62e4e443-02fb-39a2-b778-e4b39474fbfe\",Properties:{textures:[0:{Name:\"textures\",Signature:\"R5/hfU5eSQ8C6hDsCtKqPo6mami3do/VrqXABhRh1+DeBRjGf5ZsjQPtxKkjm0decR9wwlP/qHUoZdto7LSppLvBBFeyMyQwl1dhhjB48L95urCRX2B+tyLd1Ezu5im1BYJquOVHW/9CHw3o8wKqctw9Fr0p8iGlHJVyV08i+N/7VITlaJT4+eOT/SkNoNLas0wqNa1ajWSpy5y4URz+f395+Cqz3sFtYOZEAe1Vkoim4MBaYcGrT4VHxk5U6pIknvFRo7LUkop/0hYC3ENV2POhlhmKkp9AvpaCWFlCvh+KbaLjh7RkXC/QtqGfyDo80ju45K+qznbYW1mOEPABGwKrvQvTKVpPJ6587/NFXZ4AvsecYn73wrq7EccvBGDqm1n69R5aR8am97WWt3myWklnG+l20LgreSnCOchKJjddfzZy19oWj/2aGg9i03eWqNbTG9FJuv5Xkh+CLhp5mtuuD/KaZXK9MLadhQXyjF5L1YaxjtiQNFR8Ix4hfDTW0xiBxvVEfCf4b7QFWwatVqRB9SMQvNqzT00GlP43R9nklxjPLT8nDSJgap1sxSKD8tecQRTKVvXGtJRR4uDr1hJEvWmBd5u8Mhn7ud0yK/VBN9/lYh2PPoEagXKjJ0jJgXTPKGfehyyTRoi45vUteWNYIsXV8TmKupxChoVT+C0=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5NDcwMDU2MTAsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzEzZDEzNjY1NDI5N2U3NDRjY2IzYmE3MWJiODViZDc2NTMyNjdkYjRiOWI5NDBiNjIxYmU1ODdkNTJhNTEzMTAifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and slaying Pigs! Minions\",2:\"§7also work when you are offline!\",3:\"\",4:\"§7Time Between Actions: §a26s\",5:\"§7Max Storage: §e192\",6:\"§7Resources Generated: §b0\",7:\"\",8:\"§9§lRARE\"],Name:\"§9Pig Minion II\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and slaying",
-    "§7Pigs! Minions also work when you",
-    "§7are offline!",
+    "§7Place this minion and it will start",
+    "§7generating and slaying Pigs! Minions",
+    "§7also work when you are offline!",
     "",
     "§7Time Between Actions: §a26s",
     "§7Max Storage: §e192",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "PIG_GENERATOR_2",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Pig_Minion",
+    "https://wiki.hypixel.net/Pig_Minion_II"
   ],
   "recipe": {
     "A1": "PORK:16",
@@ -25,14 +34,5 @@
     "C2": "PORK:16",
     "C3": "PORK:16"
   },
-  "internalname": "PIG_GENERATOR_2",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Pig_Minion",
-    "https://wiki.hypixel.net/Pig_Minion_II"
-  ],
-  "crafttext": ""
+  "useneucraft": true
 }

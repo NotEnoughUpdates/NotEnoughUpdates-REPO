@@ -1,23 +1,23 @@
 {
   "itemid": "minecraft:gold_ingot",
   "displayname": "§aEnchanted Gold",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7§8Brewing Ingredient\",1:\"§7§8Collection Item\",2:\"\",3:\"§a§lUNCOMMON ORE\"],Name:\"§aEnchanted Gold\"},ExtraAttributes:{id:\"ENCHANTED_GOLD\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_GOLD\"},HideFlags:254,ItemModel:\"minecraft:gold_ingot\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§8Collection Item\",2:\"\",3:\"§a§lUNCOMMON ORE\"],Name:\"§aEnchanted Gold\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7§8Brewing Ingredient",
-    "§7§8Collection Item",
+    "§8Brewing Ingredient",
+    "§8Collection Item",
     "",
     "§a§lUNCOMMON ORE"
   ],
   "internalname": "ENCHANTED_GOLD",
   "clickcommand": "viewrecipe",
-  "modver": "",
+  "crafttext": "Requires: Gold Ingot IV",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Gold",
     "https://wiki.hypixel.net/Enchanted_Gold"
   ],
-  "crafttext": "Requires: Gold Ingot IV",
   "recipes": [
     {
       "type": "crafting",

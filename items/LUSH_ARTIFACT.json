@@ -1,13 +1,22 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§f§f§5Lush Artifact",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"692b1bd5-db25-3506-9481-a711e6162beb\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY3OTY3MDI2MTE4MiwKICAicHJvZmlsZUlkIiA6ICIwOTZkYWUzZWY1MmU0YWU4ODk3ODY2N2EyOGIwZWFhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJPb29rYXl5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM5YTljZTcwZGMxNjNmM2YwNjlmYzg5NTg2MDIzNGNjOTM3MWVkNjkzY2JmYTZlMGViNGI0OGE5ZmU1ODhjMTkiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Health: §a+5\",1:\"§7Health Regen: §a+1\",2:\"\",3:\"§5§lEPIC ACCESSORY\"],Name:\"§f§f§5Lush Artifact\"},ExtraAttributes:{id:\"LUSH_ARTIFACT\"}}",
+  "displayname": "§5Lush Artifact",
+  "nbttag": "{ExtraAttributes:{id:\"LUSH_ARTIFACT\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"692b1bd5-db25-3506-9481-a711e6162beb\",Properties:{textures:[0:{Name:\"textures\",Signature:\"kizBTeP95T5G15pAbE9TrrNhAolLqleUHQ0ZiOBzjLVEsoRT3YJUWhTn+5x2sfzsZSk/dYZffvBIh3m7JkZ2zo6bma3rkh/yHaeD8rme/xDtXa2QrQqjr6Rn6LL9LgYbk7acsNHowSNaSeRpBfGzpwptrI9nAcmZyH6enGjW8vOsOAI37tbjWbDP9bFRgcWKE8lq+ojiObsCvO4tKttQC64yszAQ+xllaLLZ+0bd4SQtS/bWmPKGzHGEwKORd/WxX7Mf9qeGdI4f+YpeRWicxbCA3qS4w2wkVUwjw8rI44qLdjpjdWv43POXpKYGxhFiURJ9eGYq3LaI0j9wtqgc+mlfV/ZK8Ne6eHhI7rtFcaaX47TqsdVMoapy7qT1NtFOOqDs66ZOOhI8xzIuKL1Gn++WXCig7rLvNcK2z6ShY5I/tUBwb1ORzSOeGJe6h+d2cTYiYi74HCqoUZkF3fPYwZbbvJWrvi5RHnww/bqa7ZITykfC3UbLUGWPIgqDdxAxjTG9sTVuSom9IHOAyN0s7qA0EsFak6codd9wVzz3vUrBpNQS+A+ml92mzVsO0ZenB+PEnNescYV6ohWZh35wEgnXB/inv+wQBb9zI7OWH6M8MnJTjT21HFAA91qkpnKPKIa7ONd7LhEoHfcM1niEkoAWHzd3wV6es1zwLU2WCfE=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY3OTY3MDI2MTE4MiwKICAicHJvZmlsZUlkIiA6ICIwOTZkYWUzZWY1MmU0YWU4ODk3ODY2N2EyOGIwZWFhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJPb29rYXl5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM5YTljZTcwZGMxNjNmM2YwNjlmYzg5NTg2MDIzNGNjOTM3MWVkNjkzY2JmYTZlMGViNGI0OGE5ZmU1ODhjMTkiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Health: §a+5\",1:\"§7Health Regen: §a+1\",2:\"\",3:\"§5§lEPIC ACCESSORY\"],Name:\"§5Lush Artifact\"}}",
   "damage": 3,
   "lore": [
     "§7Health: §a+5",
     "§7Health Regen: §a+1",
     "",
     "§5§lEPIC ACCESSORY"
+  ],
+  "internalname": "LUSH_ARTIFACT",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Lush_Artifact",
+    "https://wiki.hypixel.net/Lush_Artifact"
   ],
   "recipe": {
     "A1": "ENCHANTED_LUSH_BERBERIS:64",
@@ -19,14 +28,5 @@
     "C1": "ENCHANTED_LUSH_BERBERIS:64",
     "C2": "ENCHANTED_LUSH_BERBERIS:64",
     "C3": "ENCHANTED_LUSH_BERBERIS:64"
-  },
-  "internalname": "LUSH_ARTIFACT",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Lush_Artifact",
-    "https://wiki.hypixel.net/Lush_Artifact"
-  ]
+  }
 }

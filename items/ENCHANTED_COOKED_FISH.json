@@ -1,12 +1,21 @@
 {
   "itemid": "minecraft:cooked_fish",
   "displayname": "§9Enchanted Cooked Fish",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Enchanted Cooked Fish\"},ExtraAttributes:{id:\"ENCHANTED_COOKED_FISH\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_COOKED_FISH\"},HideFlags:254,ItemModel:\"minecraft:cooked_cod\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Enchanted Cooked Fish\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7§8Collection Item",
+    "§8Collection Item",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "ENCHANTED_COOKED_FISH",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Raw Fish VIII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Cooked_Fish",
+    "https://wiki.hypixel.net/Enchanted_Cooked_Fish"
   ],
   "recipe": {
     "A1": "",
@@ -18,14 +27,5 @@
     "C1": "",
     "C2": "ENCHANTED_RAW_FISH:32",
     "C3": ""
-  },
-  "internalname": "ENCHANTED_COOKED_FISH",
-  "clickcommand": "viewrecipe",
-  "modver": "2.2.2",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Cooked_Fish",
-    "https://wiki.hypixel.net/Enchanted_Cooked_Fish"
-  ],
-  "crafttext": "Requires: Raw Fish VIII"
+  }
 }

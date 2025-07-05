@@ -1,20 +1,29 @@
 {
   "itemid": "minecraft:egg",
   "displayname": "§9Enchanted Egg",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§7This item can be used as a minion\",3:\"§7upgrade for chicken minions.\",4:\"§7Guarantees that each chicken will\",5:\"§7drop an egg after they spawn.\",6:\"§7\",7:\"§7Can also be used to craft low-rarity\",8:\"§7pets.\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Enchanted Egg\"},ExtraAttributes:{id:\"ENCHANTED_EGG\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_EGG\"},HideFlags:254,ItemModel:\"minecraft:egg\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7This item can be used as a minion\",3:\"§7upgrade for chicken minions.\",4:\"§7Guarantees that each chicken will\",5:\"§7drop an egg after they spawn.\",6:\"\",7:\"§7Can also be used to craft low-rarity\",8:\"§7pets.\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Enchanted Egg\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7§8Collection Item",
+    "§8Collection Item",
     "",
     "§7This item can be used as a minion",
     "§7upgrade for chicken minions.",
     "§7Guarantees that each chicken will",
     "§7drop an egg after they spawn.",
-    "§7",
+    "",
     "§7Can also be used to craft low-rarity",
     "§7pets.",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "ENCHANTED_EGG",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Raw Chicken V",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Egg",
+    "https://wiki.hypixel.net/Enchanted_Egg"
   ],
   "recipe": {
     "A1": "EGG:16",
@@ -26,14 +35,5 @@
     "C1": "EGG:16",
     "C2": "EGG:16",
     "C3": "EGG:16"
-  },
-  "internalname": "ENCHANTED_EGG",
-  "clickcommand": "viewrecipe",
-  "modver": "2.2.2",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Egg",
-    "https://wiki.hypixel.net/Enchanted_Egg"
-  ],
-  "crafttext": "Requires: Raw Chicken V"
+  }
 }

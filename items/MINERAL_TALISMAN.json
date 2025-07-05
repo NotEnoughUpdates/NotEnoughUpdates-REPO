@@ -1,12 +1,21 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Mineral Talisman",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"ba69729f-e33d-3e71-805d-976ed3c0b9cd\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2NiZDcwZjczZTJlMDk1NjZlZjkxNGM2OTdiMTNmNDhiOTdiZmQ2YzExYzgzZTU0MGExNWZmNGQ3MzZiOWMxNiJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Mining Fortune: §a+3\",1:\"\",2:\"§9§lRARE ACCESSORY\"],Name:\"§9Mineral Talisman\"},ExtraAttributes:{id:\"MINERAL_TALISMAN\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"MINERAL_TALISMAN\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"12ea84f8-9acd-35b1-95f8-8702e4e5d3c3\",Properties:{textures:[0:{Name:\"textures\",Signature:\"HdRqj+aMglXsIWLlIKOvcHf3Ze+KpY9GOlt95M7XPM2tGr1WbZjIieBekZGKDTUq5BBfmPYTowBiYBrxEhOO4y3oLmU575OVKPBbZVCOirYVlx2yXpgE0BPrD6PmZe3Isef2zn87mkFWmQ/rAjjh2h8MF8TxuLipiygeKTYxwcbIr/PwR7XNZj4+Mv0XdV+OXdTsgFthvW0jeaFgz4SLneXgLkWxkGikPWt0Phz7CNcvoo1UkH4kkr+HUbBQIKTLJhz2mNdvmY60/8/ERlInn339OQfGAPpHwGeA+/1ZPutCmzCyJ/dbctuNKAsIta1nr+YdTiX6HdZxyjQPR6MGqFUMeI71X8dde8kcGBrKzsL9XiMydXMYI/gMIlc0+MrGPglv51Xf6qPsHtz2Lbgw9nPs27hPQaAzFBHP6uZQ7WIYqcUvoXVJq0j12MsOb7xi7qFCeFrHUZBbOrTEB+vKOR/egKNEnr1/oheDQNYyfKQ1cmyQXg00AujO18XpOZt4G5mh711pTtmVj7i2HFn82FRCGfxb1HdtiTKFe5lqPLqjA7nT5EWLvTmDQ+u6fc4ua5ACpK5MqmrGanNlYD7lvEw6q8Gvodq/t+ANZ8YAT5xH4qCEsyLGx807qfhQZ7WUHnC+kV1ycY2icRjaJME1Rc+bqjkVha1IjTZ2kTQySKY=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwMjAzNzk2MTUwOCwKICAicHJvZmlsZUlkIiA6ICJmMzA1ZjA5NDI0NTg0ZjU4YmEyYjY0ZjAyZDcyNDYyYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJqcm9ja2EzMyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81YWI3YjA0ZGJiYTYxY2MwZTEwOTA3Y2ExMWY4NGY4NzFiN2FhMjM0ZGRlMGU0ZjFhZDhiYmU0OTE0ZmJjNTEzIgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mining Fortune: §a+3\",1:\"\",2:\"§9§lRARE ACCESSORY\"],Name:\"§9Mineral Talisman\"}}",
   "damage": 3,
   "lore": [
     "§7Mining Fortune: §a+3",
     "",
     "§9§lRARE ACCESSORY"
+  ],
+  "internalname": "MINERAL_TALISMAN",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Mineral_Talisman",
+    "https://wiki.hypixel.net/Mineral_Talisman"
   ],
   "recipe": {
     "A1": "REFINED_MINERAL:1",
@@ -18,14 +27,5 @@
     "C1": "REFINED_MINERAL:1",
     "C2": "REFINED_MINERAL:1",
     "C3": "REFINED_MINERAL:1"
-  },
-  "internalname": "MINERAL_TALISMAN",
-  "clickcommand": "viewrecipe",
-  "modver": "2.3.0",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Mineral_Talisman",
-    "https://wiki.hypixel.net/Mineral_Talisman"
-  ]
+  }
 }

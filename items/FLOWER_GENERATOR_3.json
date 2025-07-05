@@ -1,20 +1,29 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Flower Minion III",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"16d7d6c1-8ba6-3032-ae20-e2e8a4b18cc7\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzYzMDEwNDEsInByb2ZpbGVJZCI6IjVkODgxNDRhMzhjYzRkZWVhODA3MzYwODc2YzIxYzU4IiwicHJvZmlsZU5hbWUiOiJSZW1WTiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU1YzI0YThiY2QyMWU0ZjBhMzc1NTFhMmFkMTk3YTc5OGJlOTg2ZWYwODM3MWFiMTFlOTVjMjA0NGJiMWJjMCJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Place this minion and it will\",1:\"§7start generating and harvesting\",2:\"§7flowers. Requires grass nearby\",3:\"§7so flowers can be planted.\",4:\"§7Minions also work when you are\",5:\"§7offline!\",6:\"\",7:\"§7Time Between Actions: §a28s\",8:\"§7Max Storage: §e960\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Flower Minion III\"},ExtraAttributes:{id:\"FLOWER_GENERATOR_3\",generator_tier:3}}",
+  "nbttag": "{ExtraAttributes:{id:\"FLOWER_GENERATOR_3\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"16d7d6c1-8ba6-3032-ae20-e2e8a4b18cc7\",Properties:{textures:[0:{Name:\"textures\",Signature:\"SukDAWKl69OjFT6MZ1v5P824XYPiGau8rLA3bV/LWFBqY+eeFxcqEPBLpO8+6lUGbzOaTEPxf8yCviyZmIhCDVOjqlwVslFQUcTzRCreP0kIL5EDrdIWKXB36IR6vXmRXVPCOjZuC/DmYGXoQmkCgbALxonlTZcxjt55CGnkdkQLkDjVksV303a5f+kCOgb8b1c3+oTEvw2q72pMQVo9Uvz5KL6s4wbSRYD5zW0eWRRbsnv2hmsiN+iRYexKVE9c3KwmH9IvRahYFvSEuXeJVva9bHhpu0pPaPEcUkEBlRVFrpm0YeGpzuswA2uI4bo3j1aGsDlW8oi8Ub78RLu2GpMdwwOsrSdHtHi++ReTKjuNWnsfqU30U+1/eJZa3pzi2POKmw8ERs4rPwBv2I/4jqXgvtUY/m+S5WWCFUZVXkqdxt/YKbauLNu+l6V2slJc18ldEi3J1Mmm67AZ832pZDUvbs4CSrxXKkeeTeyjOsWi5ST0uQW69levtiIzDoMoZdIVdDWpPeAC4JdZ7+Qjp32tJk7Ln0nxMKuruvtsorTst+sFYMC9mLBcAFQ28vJf7L1C7ywElsZPAt7Mq5Xo421MDcPNnLBtSxAX2LbE7NtNenqc/FFSys9VAnjlpk2WxcvzbyenBBdXFyCe8clP854u6Sn+RAX056idKJjJB+c=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzYzMDEwNDEsInByb2ZpbGVJZCI6IjVkODgxNDRhMzhjYzRkZWVhODA3MzYwODc2YzIxYzU4IiwicHJvZmlsZU5hbWUiOiJSZW1WTiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU1YzI0YThiY2QyMWU0ZjBhMzc1NTFhMmFkMTk3YTc5OGJlOTg2ZWYwODM3MWFiMTFlOTVjMjA0NGJiMWJjMCJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and harvesting flowers.\",2:\"§7Requires grass nearby so flowers\",3:\"§7can be planted. Minions also work\",4:\"§7when you are offline!\",5:\"\",6:\"§7Time Between Actions: §a28s\",7:\"§7Max Storage: §e960\",8:\"§7Resources Generated: §b0\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Flower Minion III\"}}",
   "damage": 3,
   "lore": [
-    "§7Place this minion and it will",
-    "§7start generating and harvesting",
-    "§7flowers. Requires grass nearby",
-    "§7so flowers can be planted.",
-    "§7Minions also work when you are",
-    "§7offline!",
+    "§7Place this minion and it will start",
+    "§7generating and harvesting flowers.",
+    "§7Requires grass nearby so flowers",
+    "§7can be planted. Minions also work",
+    "§7when you are offline!",
     "",
     "§7Time Between Actions: §a28s",
     "§7Max Storage: §e960",
+    "§7Resources Generated: §b0",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "FLOWER_GENERATOR_3",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Flower_Minion",
+    "https://wiki.hypixel.net/Flower_Minion_III"
   ],
   "recipe": {
     "A1": "YELLOW_FLOWER:40",
@@ -27,14 +36,5 @@
     "C2": "YELLOW_FLOWER:40",
     "C3": "YELLOW_FLOWER:40"
   },
-  "internalname": "FLOWER_GENERATOR_3",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Flower_Minion",
-    "https://wiki.hypixel.net/Flower_Minion_III"
-  ],
-  "crafttext": ""
+  "useneucraft": true
 }

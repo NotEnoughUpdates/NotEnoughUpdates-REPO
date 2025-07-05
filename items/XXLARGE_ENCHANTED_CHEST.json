@@ -1,17 +1,25 @@
 {
   "itemid": "minecraft:chest",
   "displayname": "§cXX-Large Storage",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Place this chest next to a\",1:\"§7minion and the minion will store\",2:\"§7items inside once its storage is\",3:\"§7full!\",4:\"\",5:\"§7Storage space: §b27 §7items\",6:\"\",7:\"§c§lSPECIAL\"],Name:\"§cXX-Large Storage\"},ExtraAttributes:{id:\"XXLARGE_ENCHANTED_CHEST\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"XXLARGE_ENCHANTED_CHEST\"},HideFlags:254,ItemModel:\"minecraft:chest\",display:{Lore:[0:\"§7Place this chest next to a minion and\",1:\"§7the minion will store items inside once\",2:\"§7its storage is full!\",3:\"\",4:\"§7Storage space: §b27 §7items\",5:\"\",6:\"§c§lSPECIAL\"],Name:\"§cXX-Large Storage\"}}",
   "damage": 0,
   "lore": [
-    "§7Place this chest next to a",
-    "§7minion and the minion will store",
-    "§7items inside once its storage is",
-    "§7full!",
+    "§7Place this chest next to a minion and",
+    "§7the minion will store items inside once",
+    "§7its storage is full!",
     "",
     "§7Storage space: §b27 §7items",
     "",
     "§c§lSPECIAL"
+  ],
+  "internalname": "XXLARGE_ENCHANTED_CHEST",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Minion_Chests",
+    "https://wiki.hypixel.net/XX-Large_Storage"
   ],
   "recipe": {
     "A1": "",
@@ -23,14 +31,5 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  },
-  "internalname": "XXLARGE_ENCHANTED_CHEST",
-  "clickcommand": "viewrecipe",
-  "modver": "1.5-REL",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Minion_Chests",
-    "https://wiki.hypixel.net/XX-Large_Storage"
-  ]
+  }
 }

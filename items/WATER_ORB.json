@@ -1,21 +1,29 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§5Water Orb",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"be51e90b-8e1e-3c3a-a2f6-2ee8c260dd72\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjRjMjJiOGRmMGE4NTNhNDljYjgyZTkwYTYxOGQ2NTAxMjEyMjM2MWM4Mzk4MDYyZmNiYWY3NGQ1Njk2YzJhOSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7A perfectly smooth, highly\",1:\"§7condensed orb of pure fish\",2:\"§7matter.\",3:\"§7\",4:\"§7Used as a core ingredient in\",5:\"§7high level fishing crafts.\",6:\"§7\",7:\"§7§8Smells like fish...\",8:\"\",9:\"§eRight-click to view recipes!\",10:\"\",11:\"§5§lEPIC\"],Name:\"§5Water Orb\"},ExtraAttributes:{id:\"WATER_ORB\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"WATER_ORB\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"f21383e5-8002-3ccc-83a0-01d695cb4450\",Properties:{textures:[0:{Name:\"textures\",Signature:\"KDlEOzqhlMcyTmtfdV4HIvJtz7uU8MplolT0F01suNU10GBNFTjwXX8JRX3+X9VxlJy0Y52ZYvNMn/ZNabS33weiAp8ZsI4mgtG482q/tD8nEAOGjjmmtd6R0OND2fmHkjQtIUNQEah3nknZHFi/aGptTjJtLJEJfw8zpgXPG3oDw39zZMjMRiMSbmOM9Zc5elC9PPrh+Y2FIcZGgK1C7OkGQxVcFU5VB8kgsFiCR1sfi/YSu98lGaKMN8x1tO2p/uNC8jm/Eui7qTt1N+NwXlh13OKNlHNXblQL4ObPTAgQU8B0yS6VywT4BsEEKsjAtqtX6v6xOO4bMGmDyXdXTpd3qE3eTAtjxKJuL/XHNOSC8EI0HRg8/NerVWcUVsHa22PeIzPErj+fcviaBk+ToUjc315YhlNpuLGV5K7NU4NeM17BjDvuPR7bQTpkAEzKfdRDIyUX8zZKn/pbFLDZbgyCN4dXAZpu3dPIt1ILTohn03kRKeruhCioOZSIU8xHe0lvaAYH/xCa38vmTa2131NZaXdTwl7svGVdD/FhHwat+rHwjySJk8/bOpo3KnucCNcTy7Rj4v5cCqduXkhFmSt3ubj4w28xwXFnyIuBG/zdT+4krN0Q7FvN8a274yxdJRm/TDKrDxcglOx9FVWTAYtZBZfzUjArXVtXawYhKSA=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5NTUyMjM1MDExNCwKICAicHJvZmlsZUlkIiA6ICI1OTgzZjkxY2UzY2M0MzdjYjc0ZTZlMTJmNWY0YzNlZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJOaW5nYV9LaXR0eSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yNGMyMmI4ZGYwYTg1M2E0OWNiODJlOTBhNjE4ZDY1MDEyMTIyMzYxYzgzOTgwNjJmY2JhZjc0ZDU2OTZjMmE5IgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7A perfectly smooth, highly\",1:\"§7condensed orb of pure fish matter.\",2:\"\",3:\"§7Used as a core ingredient in high\",4:\"§7level fishing crafts.\",5:\"\",6:\"§8Smells like fish...\",7:\"\",8:\"§eRight-click to view recipes!\",9:\"\",10:\"§5§lEPIC\"],Name:\"§5Water Orb\"}}",
   "damage": 3,
   "lore": [
     "§7A perfectly smooth, highly",
-    "§7condensed orb of pure fish",
-    "§7matter.",
-    "§7",
-    "§7Used as a core ingredient in",
-    "§7high level fishing crafts.",
-    "§7",
-    "§7§8Smells like fish...",
+    "§7condensed orb of pure fish matter.",
+    "",
+    "§7Used as a core ingredient in high",
+    "§7level fishing crafts.",
+    "",
+    "§8Smells like fish...",
     "",
     "§eRight-click to view recipes!",
     "",
     "§5§lEPIC"
+  ],
+  "internalname": "WATER_ORB",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Water_Orb",
+    "https://wiki.hypixel.net/Water_Orb"
   ],
   "recipe": {
     "A1": "ENCHANTED_RAW_FISH:16",
@@ -27,14 +35,5 @@
     "C1": "ENCHANTED_SPONGE:4",
     "C2": "ENCHANTED_PUFFERFISH:16",
     "C3": "ENCHANTED_CLOWNFISH:8"
-  },
-  "internalname": "WATER_ORB",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Water_Orb",
-    "https://wiki.hypixel.net/Water_Orb"
-  ]
+  }
 }

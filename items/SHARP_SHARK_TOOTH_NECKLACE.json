@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§5Sharp Shark Tooth Necklace",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"66b68c3e-cbab-34af-a5c9-29ac401f3eb8\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5ODI1Mjg3MDIwNywKICAicHJvZmlsZUlkIiA6ICJkMGI4MjE1OThmMTE0NzI1ODBmNmNiZTliOGUxYmU3MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJqYmFydHl5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIyOGUzZmI2YmQ5ODg3ZDYwNDM0Y2NkMjc5ZWMzZTU5MjI3ODI2YzlhMmY4ZGQ5Y2U5ODk5ZWE2NjgzZDRlZTgiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Strength: §c+8\",1:\"\",2:\"§7Grants §a+20% §7chance to get Shark\",3:\"§7Teeth during §bFishing Festivals§7.\",4:\"\",5:\"§5§lEPIC ACCESSORY\"],Name:\"§5Sharp Shark Tooth Necklace\"},ExtraAttributes:{id:\"SHARP_SHARK_TOOTH_NECKLACE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SHARP_SHARK_TOOTH_NECKLACE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"66b68c3e-cbab-34af-a5c9-29ac401f3eb8\",Properties:{textures:[0:{Name:\"textures\",Signature:\"efNivmAyIX3hkbsHwsQ1eQSuJEreFXuHuCrV2G43qhpm9rt78Jpu8Oo5biX/No3TbaQPXogxV7YddKzoXVyfmk8KgLf0fQKzsb2eASrK4yY2NC2tEd/67VvuElKtOFI6VtaMD0GLVe4C4pya/uh0ebHu8kGct4q0zwnhE1SyexaEZL76h76SjtO3bMncI6TdAR7aN1LOdz9V+R5Zon0pHCrUGmxSBxJi6UStpJZDCptr/vA4eXLyapqTvqBsmxx/oEn1d51TjUMUGn+phCYpUcjdu9p6avp36z8thPbFOIlERK5+MMmr7O25+VcKdjyuDGorv6wz8xAXx8Vu10g12+QWaNzlrfjksmswQgadiyW/MAzsyhSUnx3iu4v4RxlJ1cUBADYYfgsZJG2z1nJJKddWxDLofxfhGNlJr1tGT8IW3TWM+jOqcX9h0YAJzm/WjRSnpgD1EUedmr/h4Scl07Fs1PI7Pdujho/m2YtDSSqFl94TGi5xZFLO4O/oP62dg7hYZVFWhHeBEF/+zTTeANCG8a6bwG1luLYfleabz0DcmjyTU7XZaFZBJpbnKHgUThnROCKEOVusCFhA5B2jGO3uaJlnnromLiXABMSOB1BuA8aoZdZ/6bQUm7zX1y/eJS7yA7KKyIsPW6TEye4pFLHeef3JR/T/sBzdGkjJDJA=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5ODI1Mjg3MDIwNywKICAicHJvZmlsZUlkIiA6ICJkMGI4MjE1OThmMTE0NzI1ODBmNmNiZTliOGUxYmU3MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJqYmFydHl5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIyOGUzZmI2YmQ5ODg3ZDYwNDM0Y2NkMjc5ZWMzZTU5MjI3ODI2YzlhMmY4ZGQ5Y2U5ODk5ZWE2NjgzZDRlZTgiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Strength: §c+8\",1:\"\",2:\"§7Grants §a+20% §7chance to get Shark\",3:\"§7Teeth during §bFishing Festivals§7.\",4:\"\",5:\"§5§lEPIC ACCESSORY\"],Name:\"§5Sharp Shark Tooth Necklace\"}}",
   "damage": 3,
   "lore": [
     "§7Strength: §c+8",
@@ -10,6 +10,15 @@
     "§7Teeth during §bFishing Festivals§7.",
     "",
     "§5§lEPIC ACCESSORY"
+  ],
+  "internalname": "SHARP_SHARK_TOOTH_NECKLACE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Sharp_Shark_Tooth_Necklace",
+    "https://wiki.hypixel.net/Sharp_Shark_Tooth_Necklace"
   ],
   "recipe": {
     "A1": "",
@@ -21,14 +30,5 @@
     "C1": "",
     "C2": "TIGER_SHARK_TOOTH:1",
     "C3": ""
-  },
-  "internalname": "SHARP_SHARK_TOOTH_NECKLACE",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Sharp_Shark_Tooth_Necklace",
-    "https://wiki.hypixel.net/Sharp_Shark_Tooth_Necklace"
-  ]
+  }
 }
