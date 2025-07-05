@@ -1,15 +1,24 @@
 {
   "itemid": "minecraft:stick",
   "displayname": "§9Berberis Blowgun",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§6Ability: Swhooomp  §e§lRIGHT CLICK\",1:\"§7Shoot an arrow. Doesn\u0027t deal damage.\",2:\"§7Except to chickens.\",3:\"§8Mana Cost: §35\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Berberis Blowgun\"},ExtraAttributes:{id:\"BERBERIS_BLOWGUN\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"BERBERIS_BLOWGUN\"},HideFlags:254,ItemModel:\"minecraft:stick\",display:{Lore:[0:\"§6Ability: Swhooomp  §e§lRIGHT CLICK\",1:\"§7Shoot an arrow. Doesn't deal damage.\",2:\"§7Except to chickens.\",3:\"§8Mana Cost: §35\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Berberis Blowgun\"}}",
   "damage": 0,
   "lore": [
     "§6Ability: Swhooomp  §e§lRIGHT CLICK",
-    "§7Shoot an arrow. Doesn\u0027t deal damage.",
+    "§7Shoot an arrow. Doesn't deal damage.",
     "§7Except to chickens.",
     "§8Mana Cost: §35",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "BERBERIS_BLOWGUN",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Wilted Berberis II",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Berberis_Blowgun",
+    "https://wiki.hypixel.net/Berberis_Blowgun"
   ],
   "recipe": {
     "A1": "",
@@ -21,14 +30,5 @@
     "C1": "",
     "C2": "WILTED_BERBERIS:20",
     "C3": ""
-  },
-  "internalname": "BERBERIS_BLOWGUN",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "Requires: Wilted Berberis II",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Berberis_Blowgun",
-    "https://wiki.hypixel.net/Berberis_Blowgun"
-  ]
+  }
 }
