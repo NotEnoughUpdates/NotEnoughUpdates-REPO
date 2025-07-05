@@ -1,25 +1,29 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§6☠ Perfect Onyx Gemstone",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"03defc72-d99f-3b0e-b7fa-fe28d0072cb1\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwNzY0MTg3MDIxOSwKICAicHJvZmlsZUlkIiA6ICI1ZTEwYjc5MTY2ZTA0MTNkYjI2MThkMzE3MTc2M2Y4NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJPTUZfQmxvY2tCdXN0ZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjMxNTQ4NjYxMmM2NTVhODJmNWZmZGE3YTdkMDhkZGQxYmI4YjMxYjYyMjIyMGE0NmU3NzgxZTNhYTg1YzQyNyIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§7A perfectly §8refined §8Onyx§7.\",3:\"\",4:\"§7§7Some say that when §eharnessed\",5:\"§eproperly§7, it can give its owner extra\",6:\"§7§9☠ Crit Damage§7; others say it might\",7:\"§7give §ebonus treasures§7.\",8:\"\",9:\"§6§lLEGENDARY GEMSTONE\"],Name:\"§6☠ Perfect Onyx Gemstone\"},ExtraAttributes:{id:\"PERFECT_ONYX_GEM\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"PERFECT_ONYX_GEM\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"03defc72-d99f-3b0e-b7fa-fe28d0072cb1\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwNzY0MTg3MDIxOSwKICAicHJvZmlsZUlkIiA6ICI1ZTEwYjc5MTY2ZTA0MTNkYjI2MThkMzE3MTc2M2Y4NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJPTUZfQmxvY2tCdXN0ZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjMxNTQ4NjYxMmM2NTVhODJmNWZmZGE3YTdkMDhkZGQxYmI4YjMxYjYyMjIyMGE0NmU3NzgxZTNhYTg1YzQyNyIKICAgIH0KICB9Cn0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7A perfectly §8refined Onyx§7.\",3:\"\",4:\"§7Some say that when §eharnessed\",5:\"§eproperly§7, it can give its owner extra\",6:\"§9☠ Crit Damage§7; others say it might\",7:\"§7give §ebonus treasures§7.\",8:\"\",9:\"§6§lLEGENDARY GEMSTONE\"],Name:\"§6☠ Perfect Onyx Gemstone\"}}",
   "damage": 3,
   "lore": [
-    "§7§8Collection Item",
+    "§8Collection Item",
     "",
-    "§7A perfectly §8refined §8Onyx§7.",
+    "§7A perfectly §8refined Onyx§7.",
     "",
-    "§7§7Some say that when §eharnessed",
+    "§7Some say that when §eharnessed",
     "§eproperly§7, it can give its owner extra",
-    "§7§9☠ Crit Damage§7; others say it might",
+    "§9☠ Crit Damage§7; others say it might",
     "§7give §ebonus treasures§7.",
     "",
     "§6§lLEGENDARY GEMSTONE"
   ],
   "internalname": "PERFECT_ONYX_GEM",
-  "crafttext": "Requires: Gemstone X \u0026 HotM 5",
   "clickcommand": "viewrecipe",
-  "modver": "",
+  "crafttext": "Requires: Gemstone X & HotM 5",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
   "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Gemstone",
+    "https://wiki.hypixel.net/Gemstone"
+  ],
   "recipes": [
     {
       "type": "forge",
@@ -31,9 +35,5 @@
       "overrideOutputId": "PERFECT_ONYX_GEM",
       "duration": 72000
     }
-  ],
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Gemstone",
-    "https://wiki.hypixel.net/Gemstone"
   ]
 }

@@ -1,0 +1,22 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "GOLEM_SWORD"
+		},
+		"minecraft:dyed_color": 10511680,
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:unbreakable",
+				"minecraft:dyed_color"
+			]
+		},
+		"minecraft:unbreakable": {
+		}
+	},
+	count: 1,
+	id: "minecraft:iron_sword",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g64ef955"
+	}
+}

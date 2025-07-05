@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:dye",
   "displayname": "§5Lucky Clover Core",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§7Used to craft the Lucky Clover\",1:\"§7pet item\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§5§lEPIC\"],Name:\"§5Lucky Clover Core\"},ExtraAttributes:{id:\"PET_ITEM_LUCKY_CLOVER_DROP\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"PET_ITEM_LUCKY_CLOVER_DROP\"},HideFlags:254,ItemModel:\"minecraft:lime_dye\",display:{Lore:[0:\"§7Used to craft the Lucky Clover\",1:\"§7pet item\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§5§lEPIC\"],Name:\"§5Lucky Clover Core\"}}",
   "damage": 10,
   "lore": [
-    "§7§7Used to craft the Lucky Clover",
+    "§7Used to craft the Lucky Clover",
     "§7pet item",
     "",
     "§eRight-click to view recipes!",
@@ -13,7 +13,8 @@
   ],
   "internalname": "PET_ITEM_LUCKY_CLOVER_DROP",
   "clickcommand": "",
-  "modver": "2.1.0-REL",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Lucky_Clover_Core",

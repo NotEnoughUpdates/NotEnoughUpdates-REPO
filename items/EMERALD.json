@@ -1,17 +1,22 @@
 {
   "itemid": "minecraft:emerald",
   "displayname": "§fEmerald",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§f§lCOMMON ORE\"],Name:\"§fEmerald\"},ExtraAttributes:{id:\"EMERALD\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"EMERALD\"},HideFlags:254,ItemModel:\"minecraft:emerald\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§f§lCOMMON ORE\"],Name:\"§fEmerald\"}}",
   "damage": 0,
   "lore": [
-    "§7§8Collection Item",
+    "§8Collection Item",
     "",
     "§f§lCOMMON ORE"
   ],
   "internalname": "EMERALD",
-  "modver": "",
-  "vanilla": true,
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Emerald"
+  ],
+  "vanilla": true,
   "recipe": {
     "A1": "EMERALD_BLOCK:1",
     "A2": "",
@@ -24,10 +29,6 @@
     "C3": "",
     "count": 9
   },
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://wiki.hypixel.net/Emerald"
-  ],
   "recipes": [
     {
       "type": "trade",
@@ -233,6 +234,5 @@
       "max": 41,
       "result": "EMERALD"
     }
-  ],
-  "crafttext": ""
+  ]
 }

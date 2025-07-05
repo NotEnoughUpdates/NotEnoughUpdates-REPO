@@ -1,25 +1,29 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§6☘ Perfect Peridot Gemstone",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"20200927-77d3-318e-ac75-e5bca2736004\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwNzY0MjI1MDE0MSwKICAicHJvZmlsZUlkIiA6ICI0MmIwOTMyZDUwMWI0MWQ1YTM4YjEwOTcxYTYwYmYxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJhaXJib2x0MDc4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVhMjU4ODgzMWNkNGIyODJhYWExNjM1NmI3ODdkNTZlNGViMTNmMGQ2MmY0MTRkYWZkMTMxOGVhMDlmODAxOWMiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§7A perfectly §2refined §2Peridot§7.\",3:\"\",4:\"§7§7Some say that when §eharnessed\",5:\"§eproperly§7, it can give its owner extra\",6:\"§7§6☘ Farming Fortune§7; others say it\",7:\"§7might give bonus §fFossil Dust§7.\",8:\"\",9:\"§6§lLEGENDARY GEMSTONE\"],Name:\"§6☘ Perfect Peridot Gemstone\"},ExtraAttributes:{id:\"PERFECT_PERIDOT_GEM\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"PERFECT_PERIDOT_GEM\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"20200927-77d3-318e-ac75-e5bca2736004\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwNzY0MjI1MDE0MSwKICAicHJvZmlsZUlkIiA6ICI0MmIwOTMyZDUwMWI0MWQ1YTM4YjEwOTcxYTYwYmYxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJhaXJib2x0MDc4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVhMjU4ODgzMWNkNGIyODJhYWExNjM1NmI3ODdkNTZlNGViMTNmMGQ2MmY0MTRkYWZkMTMxOGVhMDlmODAxOWMiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7A perfectly §2refined Peridot§7.\",3:\"\",4:\"§7Some say that when §eharnessed\",5:\"§eproperly§7, it can give its owner extra\",6:\"§6☘ Farming Fortune§7; others say it\",7:\"§7might give bonus §fFossil Dust§7.\",8:\"\",9:\"§6§lLEGENDARY GEMSTONE\"],Name:\"§6☘ Perfect Peridot Gemstone\"}}",
   "damage": 3,
   "lore": [
-    "§7§8Collection Item",
+    "§8Collection Item",
     "",
-    "§7A perfectly §2refined §2Peridot§7.",
+    "§7A perfectly §2refined Peridot§7.",
     "",
-    "§7§7Some say that when §eharnessed",
+    "§7Some say that when §eharnessed",
     "§eproperly§7, it can give its owner extra",
-    "§7§6☘ Farming Fortune§7; others say it",
+    "§6☘ Farming Fortune§7; others say it",
     "§7might give bonus §fFossil Dust§7.",
     "",
     "§6§lLEGENDARY GEMSTONE"
   ],
   "internalname": "PERFECT_PERIDOT_GEM",
-  "crafttext": "Requires: Gemstone X \u0026 HotM 5",
   "clickcommand": "viewrecipe",
-  "modver": "",
+  "crafttext": "Requires: Gemstone X & HotM 5",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
   "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Gemstone",
+    "https://wiki.hypixel.net/Gemstone"
+  ],
   "recipes": [
     {
       "type": "forge",
@@ -31,9 +35,5 @@
       "overrideOutputId": "PERFECT_PERIDOT_GEM",
       "duration": 72000
     }
-  ],
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Gemstone",
-    "https://wiki.hypixel.net/Gemstone"
   ]
 }

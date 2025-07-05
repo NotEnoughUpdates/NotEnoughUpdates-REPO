@@ -1,25 +1,29 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§6☘ Perfect Citrine Gemstone",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"e5097795-ebbe-35c1-8980-80f0c8024a0b\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwODQ3NzAzOTM5OCwKICAicHJvZmlsZUlkIiA6ICI1ODc5MjNlNDkxMzM0ZDMzYWE4ZjQ3ZWJkZTljOTc3MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbGV2ZW5mb3VyMTAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWMzY2EwZGIwYjlhZjhlOThhY2RlMWM3ZDY5NmRjZjc5ZWIzMDc5NzAyZTViNTU0MTQxZGJhNjYzYjQzZGQ2NSIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§7A perfectly §4refined §4Citrine§7.\",3:\"\",4:\"§7§7Some say that when §eharnessed\",5:\"§eproperly§7, it can give its owner extra\",6:\"§7§6☘ Foraging Fortune§7; others say it\",7:\"§7might §ehighlight treasures§7.\",8:\"\",9:\"§6§lLEGENDARY GEMSTONE\"],Name:\"§6☘ Perfect Citrine Gemstone\"},ExtraAttributes:{id:\"PERFECT_CITRINE_GEM\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"PERFECT_CITRINE_GEM\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"e5097795-ebbe-35c1-8980-80f0c8024a0b\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwODQ3NzAzOTM5OCwKICAicHJvZmlsZUlkIiA6ICI1ODc5MjNlNDkxMzM0ZDMzYWE4ZjQ3ZWJkZTljOTc3MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbGV2ZW5mb3VyMTAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWMzY2EwZGIwYjlhZjhlOThhY2RlMWM3ZDY5NmRjZjc5ZWIzMDc5NzAyZTViNTU0MTQxZGJhNjYzYjQzZGQ2NSIKICAgIH0KICB9Cn0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7A perfectly §4refined Citrine§7.\",3:\"\",4:\"§7Some say that when §eharnessed\",5:\"§eproperly§7, it can give its owner extra\",6:\"§6☘ Foraging Fortune§7; others say it\",7:\"§7might §ehighlight treasures§7.\",8:\"\",9:\"§6§lLEGENDARY GEMSTONE\"],Name:\"§6☘ Perfect Citrine Gemstone\"}}",
   "damage": 3,
   "lore": [
-    "§7§8Collection Item",
+    "§8Collection Item",
     "",
-    "§7A perfectly §4refined §4Citrine§7.",
+    "§7A perfectly §4refined Citrine§7.",
     "",
-    "§7§7Some say that when §eharnessed",
+    "§7Some say that when §eharnessed",
     "§eproperly§7, it can give its owner extra",
-    "§7§6☘ Foraging Fortune§7; others say it",
+    "§6☘ Foraging Fortune§7; others say it",
     "§7might §ehighlight treasures§7.",
     "",
     "§6§lLEGENDARY GEMSTONE"
   ],
   "internalname": "PERFECT_CITRINE_GEM",
-  "crafttext": "Requires: Gemstone X \u0026 HotM 5",
   "clickcommand": "viewrecipe",
-  "modver": "",
+  "crafttext": "Requires: Gemstone X & HotM 5",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
   "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Gemstone",
+    "https://wiki.hypixel.net/Gemstone"
+  ],
   "recipes": [
     {
       "type": "forge",
@@ -31,9 +35,5 @@
       "overrideOutputId": "PERFECT_CITRINE_GEM",
       "duration": 72000
     }
-  ],
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Gemstone",
-    "https://wiki.hypixel.net/Gemstone"
   ]
 }

@@ -1,12 +1,21 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Stuffed Chili Pepper",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"82c08268-bb97-3694-a89d-d59501d493d0\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1ODczMDU4NDQ2OCwKICAicHJvZmlsZUlkIiA6ICJjOWRlZTM4MDUzYjg0YzI5YjZlZjA5YjJlMDM5OTc0ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTQVJfRGVjZW1iZXI1IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y1OTlmOTU5ZjBlYmNiMWViMGYyZTU4NTJkMTIyY2E1NWJmNTI1OGZkNDYxM2FiNTBkNzJhZDhjZjVlMTI2MDMiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7It\u0027s red hot, but green and stuffed!\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Stuffed Chili Pepper\"},ExtraAttributes:{id:\"STUFFED_CHILI_PEPPER\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"STUFFED_CHILI_PEPPER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"82c08268-bb97-3694-a89d-d59501d493d0\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1ODczMDU4NDQ2OCwKICAicHJvZmlsZUlkIiA6ICJjOWRlZTM4MDUzYjg0YzI5YjZlZjA5YjJlMDM5OTc0ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTQVJfRGVjZW1iZXI1IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y1OTlmOTU5ZjBlYmNiMWViMGYyZTU4NTJkMTIyY2E1NWJmNTI1OGZkNDYxM2FiNTBkNzJhZDhjZjVlMTI2MDMiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7It's red hot, but green and stuffed!\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Stuffed Chili Pepper\"}}",
   "damage": 3,
   "lore": [
-    "§7It\u0027s red hot, but green and stuffed!",
+    "§7It's red hot, but green and stuffed!",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "STUFFED_CHILI_PEPPER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Chili Pepper VI",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Stuffed_Chili_Pepper",
+    "https://wiki.hypixel.net/Stuffed_Chili_Pepper"
   ],
   "recipe": {
     "A1": "",
@@ -19,14 +28,5 @@
     "C2": "CHILI_PEPPER:32",
     "C3": ""
   },
-  "internalname": "STUFFED_CHILI_PEPPER",
-  "clickcommand": "viewrecipe",
-  "crafttext": "Requires: Chili Pepper VI",
-  "modver": "2.1.1-PRE",
-  "useneucraft": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Stuffed_Chili_Pepper",
-    "https://wiki.hypixel.net/Stuffed_Chili_Pepper"
-  ]
+  "useneucraft": true
 }

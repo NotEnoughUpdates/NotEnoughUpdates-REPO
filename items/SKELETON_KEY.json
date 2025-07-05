@@ -1,24 +1,28 @@
 {
   "itemid": "minecraft:tripwire_hook",
   "displayname": "§6Skeleton Key",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Can be used to open backpacks with\",1:\"§7a Skeleton lock held by §bFrozen\",2:\"§bCorpses §7in the §bGlacite Mineshafts§7.\",3:\"\",4:\"§7§8Forged by the finest Dwarven\",5:\"§8Blacksmith around. The name would\",6:\"§8come to be quite ironic.\",7:\"\",8:\"§6§lLEGENDARY\"],Name:\"§6Skeleton Key\"},ExtraAttributes:{id:\"SKELETON_KEY\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SKELETON_KEY\"},HideFlags:254,ItemModel:\"minecraft:tripwire_hook\",display:{Lore:[0:\"§7Can be used to open backpacks with\",1:\"§7a Skeleton lock held by §bFrozen\",2:\"§bCorpses §7in the §bGlacite Mineshafts§7.\",3:\"\",4:\"§8Forged by the finest Dwarven\",5:\"§8Blacksmith around. The name would\",6:\"§8come to be quite ironic.\",7:\"\",8:\"§6§lLEGENDARY\"],Name:\"§6Skeleton Key\"}}",
   "damage": 0,
   "lore": [
     "§7Can be used to open backpacks with",
     "§7a Skeleton lock held by §bFrozen",
     "§bCorpses §7in the §bGlacite Mineshafts§7.",
     "",
-    "§7§8Forged by the finest Dwarven",
+    "§8Forged by the finest Dwarven",
     "§8Blacksmith around. The name would",
     "§8come to be quite ironic.",
     "",
     "§6§lLEGENDARY"
   ],
   "internalname": "SKELETON_KEY",
-  "crafttext": "Requires: HotM 10",
   "clickcommand": "viewrecipe",
-  "modver": "",
+  "crafttext": "Requires: HotM 10",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
   "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Skeleton_Key",
+    "https://wiki.hypixel.net/Skeleton_Key"
+  ],
   "recipes": [
     {
       "type": "forge",
@@ -30,9 +34,5 @@
       "overrideOutputId": "SKELETON_KEY",
       "duration": 1800
     }
-  ],
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Skeleton_Key",
-    "https://wiki.hypixel.net/Skeleton_Key"
   ]
 }

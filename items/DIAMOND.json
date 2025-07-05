@@ -1,17 +1,23 @@
 {
   "itemid": "minecraft:diamond",
   "displayname": "§fDiamond",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§f§lCOMMON ORE\"],Name:\"§fDiamond\"},ExtraAttributes:{id:\"DIAMOND\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"DIAMOND\"},HideFlags:254,ItemModel:\"minecraft:diamond\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§f§lCOMMON ORE\"],Name:\"§fDiamond\"}}",
   "damage": 0,
   "lore": [
-    "§7§8Collection Item",
+    "§8Collection Item",
     "",
     "§f§lCOMMON ORE"
   ],
   "internalname": "DIAMOND",
-  "modver": "",
-  "vanilla": true,
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Diamond",
+    "https://wiki.hypixel.net/Diamond"
+  ],
+  "vanilla": true,
   "recipe": {
     "A1": "DIAMOND_BLOCK:1",
     "A2": "",
@@ -23,11 +29,5 @@
     "C2": "",
     "C3": "",
     "count": 9
-  },
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Diamond",
-    "https://wiki.hypixel.net/Diamond"
-  ],
-  "crafttext": ""
+  }
 }
