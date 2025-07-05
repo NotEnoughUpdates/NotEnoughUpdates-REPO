@@ -1,15 +1,18 @@
 {
   "itemid": "minecraft:nether_brick",
   "displayname": "§fNether Bricks",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fNether Bricks\"},ExtraAttributes:{id:\"NETHER_BRICK\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"NETHER_BRICK\"},HideFlags:254,ItemModel:\"minecraft:nether_bricks\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fNether Bricks\"}}",
   "damage": 0,
   "lore": [
     "§f§lCOMMON"
   ],
   "internalname": "NETHER_BRICK",
-  "modver": "1.3-REL",
-  "vanilla": true,
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
   "recipe": {
     "A1": "NETHER_BRICK_ITEM:1",
     "A2": "NETHER_BRICK_ITEM:1",
@@ -22,5 +25,4 @@
     "C3": "",
     "count": 1
   }
-  
 }

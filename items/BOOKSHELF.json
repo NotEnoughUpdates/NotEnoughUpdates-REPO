@@ -1,23 +1,27 @@
 {
   "itemid": "minecraft:bookshelf",
   "displayname": "§fBookshelf",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§7Place near an §9Enchantment\",1:\"§9Table §7to provide Bookshelf\",2:\"§7Power. The higher the Bookshelf\",3:\"§7Power, the more enchantments are\",4:\"§7available.\",5:\"§7\",6:\"§7§7Bookshelf Power: §91\",7:\"\",8:\"§f§lCOMMON\"],Name:\"§fBookshelf\"},ExtraAttributes:{id:\"BOOKSHELF\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"BOOKSHELF\"},HideFlags:254,ItemModel:\"minecraft:bookshelf\",display:{Lore:[0:\"§7Place near an §9Enchantment Table §7to\",1:\"§7provide Bookshelf Power. The higher\",2:\"§7the Bookshelf Power, the more\",3:\"§7enchantments are available.\",4:\"\",5:\"§7Bookshelf Power: §91\",6:\"\",7:\"§f§lCOMMON\"],Name:\"§fBookshelf\"}}",
   "damage": 0,
   "lore": [
-    "§7§7Place near an §9Enchantment",
-    "§9Table §7to provide Bookshelf",
-    "§7Power. The higher the Bookshelf",
-    "§7Power, the more enchantments are",
-    "§7available.",
-    "§7",
-    "§7§7Bookshelf Power: §91",
+    "§7Place near an §9Enchantment Table §7to",
+    "§7provide Bookshelf Power. The higher",
+    "§7the Bookshelf Power, the more",
+    "§7enchantments are available.",
+    "",
+    "§7Bookshelf Power: §91",
     "",
     "§f§lCOMMON"
   ],
   "internalname": "BOOKSHELF",
-  "modver": "2.1.0-REL",
-  "vanilla": true,
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Bookshelf"
+  ],
+  "vanilla": true,
   "recipe": {
     "A1": "WOOD:1",
     "A2": "WOOD:1",
@@ -28,10 +32,5 @@
     "C1": "WOOD:1",
     "C2": "WOOD:1",
     "C3": "WOOD:1"
-  },
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Bookshelf"
-  ],
-  "crafttext": ""
+  }
 }

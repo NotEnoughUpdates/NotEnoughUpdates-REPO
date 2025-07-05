@@ -1,14 +1,18 @@
 {
   "itemid": "minecraft:stained_glass",
   "displayname": "§fLime Stained Glass",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fLime Stained Glass\"},ExtraAttributes:{id:\"STAINED_GLASS-5\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"STAINED_GLASS-5\"},HideFlags:254,ItemModel:\"minecraft:lime_stained_glass\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fLime Stained Glass\"}}",
   "damage": 5,
   "lore": [
     "§f§lCOMMON"
   ],
-  "parent": "STAINED_GLASS",
   "internalname": "STAINED_GLASS-5",
-  "modver": "2.1.1-PRE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "parent": "STAINED_GLASS",
   "vanilla": true,
   "recipe": {
     "A1": "GLASS:1",
@@ -21,6 +25,5 @@
     "C2": "GLASS:1",
     "C3": "GLASS:1",
     "count": 8
-  },
-  "clickcommand": "viewrecipe"
+  }
 }

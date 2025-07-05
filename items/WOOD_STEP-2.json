@@ -1,16 +1,19 @@
 {
   "itemid": "minecraft:wooden_slab",
   "displayname": "§fBirch Slab",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBirch Slab\"},ExtraAttributes:{id:\"WOOD_STEP-2\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"WOOD_STEP-2\"},HideFlags:254,ItemModel:\"minecraft:birch_slab\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBirch Slab\"}}",
   "damage": 2,
   "lore": [
     "§f§lCOMMON"
   ],
   "internalname": "WOOD_STEP-2",
-  "parent": "WOOD_STEP",
-  "modver": "2.1.1-PRE",
-  "vanilla": true,
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "parent": "WOOD_STEP",
+  "vanilla": true,
   "recipe": {
     "A1": "WOOD-2:1",
     "A2": "WOOD-2:1",

@@ -1,15 +1,18 @@
 {
   "itemid": "minecraft:stone_slab",
   "displayname": "§fNether Brick Slab",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fNether Brick Slab\"},ExtraAttributes:{id:\"STEP-6\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"STEP-6\"},HideFlags:254,ItemModel:\"minecraft:nether_brick_slab\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fNether Brick Slab\"}}",
   "damage": 6,
   "lore": [
     "§f§lCOMMON"
   ],
   "internalname": "STEP-6",
-  "modver": "2.1.1-PRE",
-  "vanilla": true,
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
   "recipe": {
     "A1": "NETHER_BRICK:1",
     "A2": "NETHER_BRICK:1",

@@ -1,15 +1,18 @@
 {
   "itemid": "minecraft:stone",
   "displayname": "§fDiorite",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fDiorite\"},ExtraAttributes:{id:\"STONE-3\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"STONE-3\"},HideFlags:254,ItemModel:\"minecraft:diorite\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fDiorite\"}}",
   "damage": 3,
   "lore": [
     "§f§lCOMMON"
   ],
   "internalname": "STONE-3",
-  "modver": "2.1.1-PRE",
-  "vanilla": true,
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
   "recipe": {
     "A1": "COBBLESTONE:1",
     "A2": "QUARTZ:1",
@@ -21,7 +24,5 @@
     "C2": "",
     "C3": "",
     "count": 12
-  },
-  "crafttext": "",
-  "infoType": ""
+  }
 }

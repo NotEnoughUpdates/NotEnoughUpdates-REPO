@@ -1,15 +1,18 @@
 {
   "itemid": "minecraft:sign",
   "displayname": "§fSign",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fSign\"},ExtraAttributes:{id:\"SIGN\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SIGN\"},HideFlags:254,ItemModel:\"minecraft:oak_sign\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fSign\"}}",
   "damage": 0,
   "lore": [
     "§f§lCOMMON"
   ],
   "internalname": "SIGN",
-  "modver": "2.1.1-PRE",
-  "vanilla": true,
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
   "recipe": {
     "A1": "WOOD:1",
     "A2": "WOOD:1",

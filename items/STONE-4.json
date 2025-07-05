@@ -1,15 +1,18 @@
 {
   "itemid": "minecraft:stone",
   "displayname": "§fPolished Diorite",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fPolished Diorite\"},ExtraAttributes:{id:\"STONE-4\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"STONE-4\"},HideFlags:254,ItemModel:\"minecraft:polished_diorite\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fPolished Diorite\"}}",
   "damage": 4,
   "lore": [
     "§f§lCOMMON"
   ],
   "internalname": "STONE-4",
-  "modver": "2.1.1-PRE",
-  "vanilla": true,
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
   "recipe": {
     "A1": "STONE-3:1",
     "A2": "STONE-3:1",
@@ -21,7 +24,5 @@
     "C2": "",
     "C3": "",
     "count": 4
-  },
-  "crafttext": "",
-  "infoType": ""
+  }
 }
