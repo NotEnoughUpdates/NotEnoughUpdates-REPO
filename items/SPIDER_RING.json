@@ -1,15 +1,24 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Spider Ring",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"73fbfe91-373a-3dd3-855e-03a7095aac22\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY1MmJkNzYxN2U1NmM3NTY1MTRmODNjMjhkZDFkOTZhN2U1ZTE2N2JmN2ZiNTkzNjkzZmM2NTA0NmY3OTkifX19\"}]}},display:{Lore:[0:\"§7Reduces the damage taken from\",1:\"§7§7Cave Spiders§7 and §7Spiders\",2:\"§7by §a10%§7.\",3:\"\",4:\"§4☠ §cRequires §5Spider Slayer 1§c.\",5:\"§9§lRARE ACCESSORY\"],Name:\"§9Spider Ring\"},ExtraAttributes:{id:\"SPIDER_RING\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SPIDER_RING\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"73fbfe91-373a-3dd3-855e-03a7095aac22\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY1MmJkNzYxN2U1NmM3NTY1MTRmODNjMjhkZDFkOTZhN2U1ZTE2N2JmN2ZiNTkzNjkzZmM2NTA0NmY3OTkifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Reduces the damage taken from\",1:\"§7Cave Spiders and Spiders\",2:\"§7by §a10%§7.\",3:\"\",4:\"§4☠ §cRequires §5Spider Slayer 1§c.\",5:\"§9§lRARE ACCESSORY\"],Name:\"§9Spider Ring\"}}",
   "damage": 3,
   "lore": [
     "§7Reduces the damage taken from",
-    "§7§7Cave Spiders§7 and §7Spiders",
+    "§7Cave Spiders and Spiders",
     "§7by §a10%§7.",
     "",
     "§4☠ §cRequires §5Spider Slayer 1§c.",
     "§9§lRARE ACCESSORY"
+  ],
+  "internalname": "SPIDER_RING",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Spider Slayer 1",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Spider_Ring",
+    "https://wiki.hypixel.net/Spider_Ring"
   ],
   "recipe": {
     "A1": "",
@@ -22,14 +31,5 @@
     "C2": "",
     "C3": ""
   },
-  "slayer_req": "SPIDER_1",
-  "internalname": "SPIDER_RING",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Spider_Ring",
-    "https://wiki.hypixel.net/Spider_Ring"
-  ],
-  "crafttext": "Requires: Spider Slayer 1"
+  "slayer_req": "SPIDER_1"
 }

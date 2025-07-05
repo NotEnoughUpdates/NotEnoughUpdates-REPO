@@ -1,0 +1,36 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "PARTY_HAT_CRAB_LIME_ANIMATED",
+			party_hat_color: "lime",
+			party_hat_year: 2022
+		},
+		"minecraft:dyed_color": 10511680,
+		"minecraft:profile": {
+			id: [I;
+				1920126356,
+				1852060143,
+				-1869999935,
+				4333696
+			],
+			name: "",
+			properties: [
+				{
+					name: "textures",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTY1NDc5Mjc0Mzc2MSwKICAicHJvZmlsZUlkIiA6ICJmMTkyZGU3MDUzMTQ0ODcxOTAwMjQ1MmIzZWE3MzA3NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJOZVhvU2V0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU5YWQzNjY0MWRkZDdjMWU3YWMzMTc3MzQ0M2YwMTk2ZjAxNjMxYmUwNzFlNjIwYmM3ZjY1MjNlM2M4NTk4NDMiCiAgICB9CiAgfQp9"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g64ef955"
+	}
+}

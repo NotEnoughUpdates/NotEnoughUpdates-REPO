@@ -1,0 +1,35 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			dye_donated: "DYE_CHOCOLATE",
+			id: "BUCKET_OF_DYE"
+		},
+		"minecraft:dyed_color": 10511680,
+		"minecraft:profile": {
+			id: [I;
+				-808690281,
+				-1937099573,
+				-1510041400,
+				976990215
+			],
+			name: "",
+			properties: [
+				{
+					name: "textures",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTcyMDU2NTk2MDQ1MywKICAicHJvZmlsZUlkIiA6ICJmODI3NGFhYWU5MzU0Zjk4YTBlNDZmMTgxZDU3Y2IxYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJDaG9ydXZhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM0ZjZhOWE1MjM1NGI1MDYxNmRkNWExMDA0ZGI5Mzc2ZTZkNGEzNzUzOGJmZjBiY2UyMGU0ZmE1MmQ5MzYyZTEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g64ef955"
+	}
+}

@@ -1,14 +1,18 @@
 {
   "itemid": "minecraft:dye",
   "displayname": "§fBone Meal",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBone Meal\"},ExtraAttributes:{id:\"INK_SACK-15\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"INK_SACK-15\"},HideFlags:254,ItemModel:\"minecraft:bone_meal\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBone Meal\"}}",
   "damage": 15,
   "lore": [
     "§f§lCOMMON"
   ],
-  "parent": "INK_SACK",
   "internalname": "INK_SACK-15",
-  "modver": "1.3-REL",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "",
+  "info": [],
+  "parent": "INK_SACK",
   "vanilla": true,
   "recipe": {
     "A1": "BONE:1",
@@ -20,6 +24,5 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  },
-  "clickcommand": "viewrecipe"
+  }
 }

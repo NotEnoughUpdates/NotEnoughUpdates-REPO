@@ -1,0 +1,36 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "PARTY_HAT_SLOTH_CHEEKY",
+			party_hat_emoji: "cheeky",
+			party_hat_year: 2023
+		},
+		"minecraft:dyed_color": 10511680,
+		"minecraft:profile": {
+			id: [I;
+				-1880154979,
+				-1600505134,
+				-1340915030,
+				-1094222175
+			],
+			name: "",
+			properties: [
+				{
+					name: "textures",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTY4NTk3Nzg0MDE5NCwKICAicHJvZmlsZUlkIiA6ICJiNTAwOGEyMGJkY2U0YjJlOTU5NWZlNzY2MDlmYjUzNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNT1JJU3hTVE9QQkFOIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk1Njg3NDk0NDY4NzQ5ZTFhYjVkOTM5NDEyMmM4MmE3NzUxZGI2YjI5M2E3Y2JiZTBhZTA4Y2EwNGYyYTdkOGIiCiAgICB9CiAgfQp9"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g64ef955"
+	}
+}

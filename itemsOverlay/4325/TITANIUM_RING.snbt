@@ -1,0 +1,35 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "TITANIUM_RING"
+		},
+		"minecraft:dyed_color": 10511680,
+		"minecraft:profile": {
+			id: [I;
+				-927791527,
+				-571985911,
+				-1851959052,
+				481130722
+			],
+			name: "",
+			properties: [
+				{
+					name: "textures",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTYxMDQ4MDg0MzQ0MiwKICAicHJvZmlsZUlkIiA6ICJmNjRmZWJkMTU4ZDg0ZTQzYTY5ZGU4OGNhYzZiY2FiZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJjaHJvb21hIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJjM2VkZDkxOWMwY2M2ZDk2NjhmZmQyMTBlNDZkMmMwN2ZlMDg4YzQ0ZDg1ZjQ3ZDI1MWI0Zjg3NDgxMTc0ZjUiCiAgICB9CiAgfQp9"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:attribute_modifiers",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g64ef955"
+	}
+}

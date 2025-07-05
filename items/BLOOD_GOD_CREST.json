@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§fBlood God Crest",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"40051f3f-eebd-338c-9b96-c4533cc2f4c6\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxODQ5OTQyMDgwMiwKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWI4YjUxZWFlZmUwZTNhMTBhZDdmYTE2Mjc4MDFkMmNlNDQxMmI0ZTQzMjY4NTkwNjE5MmY4MzI4MzcwODIzMyIKICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§7Tracks a counter for each mob\",1:\"§7killed while worn.\",2:\"\",3:\"§7Gain §c+1❁ Strength §7for each\",4:\"§7digit on the counter.\",5:\"\",6:\"§7Counter: §cNone yet!\",7:\"\",8:\"§f§lCOMMON ACCESSORY\"],Name:\"§fBlood God Crest\"},ExtraAttributes:{id:\"BLOOD_GOD_CREST\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"BLOOD_GOD_CREST\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"40051f3f-eebd-338c-9b96-c4533cc2f4c6\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxODQ5OTQyMDgwMiwKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWI4YjUxZWFlZmUwZTNhMTBhZDdmYTE2Mjc4MDFkMmNlNDQxMmI0ZTQzMjY4NTkwNjE5MmY4MzI4MzcwODIzMyIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Tracks a counter for each mob\",1:\"§7killed while worn.\",2:\"\",3:\"§7Gain §c+1❁ Strength §7for each\",4:\"§7digit on the counter.\",5:\"\",6:\"§7Counter: §cNone yet!\",7:\"\",8:\"§f§lCOMMON ACCESSORY\"],Name:\"§fBlood God Crest\"}}",
   "damage": 3,
   "lore": [
     "§7Tracks a counter for each mob",
@@ -15,9 +15,9 @@
     "§f§lCOMMON ACCESSORY"
   ],
   "internalname": "BLOOD_GOD_CREST",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "2.1.0-REL",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Blood_God_Crest",
@@ -25,9 +25,9 @@
   ],
   "recipes": [
     {
-    "type": "trade",
-    "cost": "EMERALD:100",
-    "result": "BLOOD_GOD_CREST"
+      "type": "trade",
+      "cost": "EMERALD:100",
+      "result": "BLOOD_GOD_CREST"
     }
   ]
 }

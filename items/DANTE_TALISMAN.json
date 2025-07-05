@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§f§f§fDante Talisman",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"2ce8b8a0-1212-300d-b5a9-f503215657d0\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Y5Mjk4MmYxYTMwMjMxMDY0M2EyMGNlNTE2MjNmODE5OWI3NTQ1ZTcwZGM2YjkzZWQ2YmQ2MWRjNDJmZjIxMyJ9fX0K\"}]}},display:{Lore:[0:\"§7Official medal proving your\",1:\"§7eternal support for Dante.\",2:\"\",3:\"§7Can be shown to goons in place\",4:\"§7of a Happy Mask for entry into\",5:\"§7official buildings.\",6:\"\",7:\"§f§lCOMMON ACCESSORY\"],Name:\"§f§f§fDante Talisman\"},ExtraAttributes:{originTag:\"SHOP_PURCHASE\",id:\"DANTE_TALISMAN\"},AttributeModifiers:[]}",
+  "displayname": "§fDante Talisman",
+  "nbttag": "{ExtraAttributes:{id:\"DANTE_TALISMAN\",originTag:\"SHOP_PURCHASE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"2ce8b8a0-1212-300d-b5a9-f503215657d0\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Y5Mjk4MmYxYTMwMjMxMDY0M2EyMGNlNTE2MjNmODE5OWI3NTQ1ZTcwZGM2YjkzZWQ2YmQ2MWRjNDJmZjIxMyJ9fX0K\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Official medal proving your\",1:\"§7eternal support for Dante.\",2:\"\",3:\"§7Can be shown to goons in place\",4:\"§7of a Happy Mask for entry into\",5:\"§7official buildings.\",6:\"\",7:\"§f§lCOMMON ACCESSORY\"],Name:\"§fDante Talisman\"}}",
   "damage": 3,
   "lore": [
     "§7Official medal proving your",
@@ -14,9 +14,9 @@
     "§f§lCOMMON ACCESSORY"
   ],
   "internalname": "DANTE_TALISMAN",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "2.1.0-REL",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Dante_Talisman",
@@ -24,9 +24,9 @@
   ],
   "recipes": [
     {
-    "type": "trade",
-    "cost": "ENCHANTED_EMERALD:35",
-    "result": "DANTE_TALISMAN"
+      "type": "trade",
+      "cost": "ENCHANTED_EMERALD:35",
+      "result": "DANTE_TALISMAN"
     }
   ]
 }

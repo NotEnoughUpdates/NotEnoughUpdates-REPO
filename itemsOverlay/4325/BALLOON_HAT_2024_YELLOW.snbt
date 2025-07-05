@@ -1,0 +1,36 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "BALLOON_HAT_2024_YELLOW",
+			party_hat_color: "yellow",
+			party_hat_year: 2024
+		},
+		"minecraft:dyed_color": 10511680,
+		"minecraft:profile": {
+			id: [I;
+				1149640136,
+				285359508,
+				-1962543148,
+				-1828549218
+			],
+			name: "",
+			properties: [
+				{
+					name: "textures",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTcxNzQzNjM3MjIyOCwKICAicHJvZmlsZUlkIiA6ICI2Mjk5YzhlYzkxM2I0MzMyYjZiMDJhOTFmNDk2MzJhYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJIaW5hTGluayIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hOTBkOWFkZWY0NzMyZTU4MzI0NDg5NzNlMzU1N2ZjZThhMmU5ZWM4MTI5ZWQzMjE0M2ViNjY2YjRmYTg4YWIyIgogICAgfQogIH0KfQ"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g64ef955"
+	}
+}

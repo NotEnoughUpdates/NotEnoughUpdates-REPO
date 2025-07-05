@@ -1,15 +1,24 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Devour Ring",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"5f673e2f-e293-39fb-b147-2de9bec15063\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NjgzNDkwODM1MTksInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzhhN2QxYTUyZThjOGRkYWFmMGM0MjhlMWZlNDkwMWVmMzNlZmYyNTFmMjg5ZGUyNzE2Mzk1Y2FkMjBiZjMwOWIifX19\"}]}},display:{Lore:[0:\"§7Heal §c5❤ §7when killing a\",1:\"§7monster.\",2:\"§8Cooldown: §a0.5s\",3:\"\",4:\"§7§4☠ §cRequires §5Zombie Slayer 5§c.\",5:\"§9§lRARE ACCESSORY\"],Name:\"§9Devour Ring\"},ExtraAttributes:{id:\"DEVOUR_RING\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"DEVOUR_RING\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"5f673e2f-e293-39fb-b147-2de9bec15063\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0aW1lc3RhbXAiOjE1NjgzNDkwODM1MTksInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzhhN2QxYTUyZThjOGRkYWFmMGM0MjhlMWZlNDkwMWVmMzNlZmYyNTFmMjg5ZGUyNzE2Mzk1Y2FkMjBiZjMwOWIifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Heal §c5❤ §7when killing a\",1:\"§7monster.\",2:\"§8Cooldown: §a0.5s\",3:\"\",4:\"§4☠ §cRequires §5Zombie Slayer 5§c.\",5:\"§9§lRARE ACCESSORY\"],Name:\"§9Devour Ring\"}}",
   "damage": 3,
   "lore": [
     "§7Heal §c5❤ §7when killing a",
     "§7monster.",
     "§8Cooldown: §a0.5s",
     "",
-    "§7§4☠ §cRequires §5Zombie Slayer 5§c.",
+    "§4☠ §cRequires §5Zombie Slayer 5§c.",
     "§9§lRARE ACCESSORY"
+  ],
+  "internalname": "DEVOUR_RING",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Zombie Slayer 5",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Devour_Ring",
+    "https://wiki.hypixel.net/Devour_Ring"
   ],
   "recipe": {
     "A1": "",
@@ -22,14 +31,5 @@
     "C2": "",
     "C3": ""
   },
-  "slayer_req": "ZOMBIE_5",
-  "internalname": "DEVOUR_RING",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Devour_Ring",
-    "https://wiki.hypixel.net/Devour_Ring"
-  ],
-  "crafttext": "Requires: Zombie Slayer 5"
+  "slayer_req": "ZOMBIE_5"
 }
