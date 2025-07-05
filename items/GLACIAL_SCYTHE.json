@@ -1,25 +1,31 @@
 {
   "itemid": "minecraft:diamond_hoe",
   "displayname": "§5Glacial Scythe",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+120\",1:\"§7Intelligence: §a+30\",2:\" §8[§7✎§8]\",3:\"\",4:\"§6Ability: Ice Bolt §e§lRIGHT CLICK\",5:\"§7Shoots §a1 §7Ice Bolt that deals\",6:\"§7§c18,449 §7damage and slows\",7:\"§7enemies hit for §a5 §7seconds!\",8:\"§7When hitting the ground, also\",9:\"§7creates an explosion of §a3\",10:\"§a§7blocks, dealing the same\",11:\"§7damage.\",12:\"§8Mana Cost: §375\",13:\"\",14:\"§7§8This item can be reforged!\",15:\"§5§lEPIC SWORD\"],Name:\"§5Glacial Scythe\"},ExtraAttributes:{id:\"GLACIAL_SCYTHE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"GLACIAL_SCYTHE\"},HideFlags:254,ItemModel:\"minecraft:diamond_hoe\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+120\",1:\"§7Intelligence: §a+30\",2:\" §8[§7✎§8]\",3:\"\",4:\"§6Ability: Ice Bolt  §e§lRIGHT CLICK\",5:\"§7Shoots §a1 §7Ice Bolt that deals §c1,512 §7damage and\",6:\"§7slows enemies hit for §a5 §7seconds! When hitting\",7:\"§7the ground, also creates an explosion of §a3\",8:\"§7blocks, dealing the same damage.\",9:\"§8Mana Cost: §375\",10:\"\",11:\"§8This item can be reforged!\",12:\"§5§lEPIC SWORD\"],Name:\"§5Glacial Scythe\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+120",
     "§7Intelligence: §a+30",
     " §8[§7✎§8]",
     "",
-    "§6Ability: Ice Bolt §e§lRIGHT CLICK",
-    "§7Shoots §a1 §7Ice Bolt that deals",
-    "§7§c18,449 §7damage and slows",
-    "§7enemies hit for §a5 §7seconds!",
-    "§7When hitting the ground, also",
-    "§7creates an explosion of §a3",
-    "§a§7blocks, dealing the same",
-    "§7damage.",
+    "§6Ability: Ice Bolt  §e§lRIGHT CLICK",
+    "§7Shoots §a1 §7Ice Bolt that deals §c1,512 §7damage and",
+    "§7slows enemies hit for §a5 §7seconds! When hitting",
+    "§7the ground, also creates an explosion of §a3",
+    "§7blocks, dealing the same damage.",
     "§8Mana Cost: §375",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§5§lEPIC SWORD"
+  ],
+  "internalname": "GLACIAL_SCYTHE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Ice XI",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Glacial_Scythe",
+    "https://wiki.hypixel.net/Glacial_Scythe"
   ],
   "recipe": {
     "A1": "ENCHANTED_PACKED_ICE:32",
@@ -31,14 +37,5 @@
     "C1": "ENCHANTED_PACKED_ICE:32",
     "C2": "BLUE_ICE_HUNK:64",
     "C3": "ENCHANTED_PACKED_ICE:32"
-  },
-  "internalname": "GLACIAL_SCYTHE",
-  "crafttext": "Requires: Ice XI",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Glacial_Scythe",
-    "https://wiki.hypixel.net/Glacial_Scythe"
-  ]
+  }
 }

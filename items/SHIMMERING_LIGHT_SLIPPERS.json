@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:leather_boots",
   "displayname": "§9Shimmering Light Slippers",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+70\",1:\"§7Defense: §a+60\",2:\"§7Intelligence: §a+60\",3:\" §8[§7⚔§8]\",4:\"\",5:\"§8Tiered Bonus: Shimmer (0/4)\",6:\"§7Increases all §aExperience Orbs\",7:\"§a§7gained from monsters and ores\",8:\"§7by §a200%§7.\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§7§4❣ §cRequires §aCombat Skill 22§c.\",12:\"§9§lRARE BOOTS\"],color:459547,Name:\"§9Shimmering Light Slippers\"},ExtraAttributes:{id:\"SHIMMERING_LIGHT_SLIPPERS\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SHIMMERING_LIGHT_SLIPPERS\"},HideFlags:254,ItemModel:\"minecraft:leather_boots\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+70\",1:\"§7Defense: §a+60\",2:\"§7Intelligence: §a+60\",3:\" §8[§7⚔§8]\",4:\"\",5:\"§8Tiered Bonus: Shimmer (0/4)\",6:\"§7Increases all §aExperience Orbs\",7:\"§7gained from monsters and ores by\",8:\"§a200%§7.\",9:\"\",10:\"§8This item can be reforged!\",11:\"§4❣ §cRequires §aCombat Skill 22§c.\",12:\"§9§lRARE BOOTS\"],Name:\"§9Shimmering Light Slippers\"}}",
   "damage": 0,
   "lore": [
     "§7Health: §a+70",
@@ -11,12 +11,21 @@
     "",
     "§8Tiered Bonus: Shimmer (0/4)",
     "§7Increases all §aExperience Orbs",
-    "§a§7gained from monsters and ores",
-    "§7by §a200%§7.",
+    "§7gained from monsters and ores by",
+    "§a200%§7.",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aCombat Skill 22§c.",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aCombat Skill 22§c.",
     "§9§lRARE BOOTS"
+  ],
+  "internalname": "SHIMMERING_LIGHT_SLIPPERS",
+  "clickcommand": "",
+  "crafttext": "Requires: Mycelium IX",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Shimmering_Light_Slippers",
+    "https://wiki.hypixel.net/Shimmering_Light_Slippers"
   ],
   "recipe": {
     "A1": "ENCHANTED_MYCELIUM_CUBE:1",
@@ -28,14 +37,5 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  },
-  "internalname": "SHIMMERING_LIGHT_SLIPPERS",
-  "crafttext": "Requires: Mycelium IX",
-  "clickcommand": "",
-  "modver": "2.1.1-PRE",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Shimmering_Light_Slippers",
-    "https://wiki.hypixel.net/Shimmering_Light_Slippers"
-  ]
+  }
 }

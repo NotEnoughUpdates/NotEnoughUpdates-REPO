@@ -1,27 +1,33 @@
 {
-  "internalname": "REAPER_SWORD",
   "itemid": "minecraft:diamond_sword",
   "displayname": "§5Reaper Falchion",
-  "clickcommand": "viewrecipe",
+  "nbttag": "{ExtraAttributes:{id:\"REAPER_SWORD\"},HideFlags:254,ItemModel:\"minecraft:diamond_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+120\",1:\"§7Strength: §c+100\",2:\"§7Intelligence: §a+200\",3:\" §8[❁]\",4:\"\",5:\"§7Heal §c10❤ §7per hit.\",6:\"§7Deal §a+200% §7damage to Zombies.\",7:\"§7Receive §a20% §7less damage from\",8:\"§7Zombies when held.\",9:\"§7Gain §3+45☯ Combat Wisdom§7 against\",10:\"§7Zombies.\",11:\"\",12:\"§8This item can be reforged!\",13:\"§4☠ §cRequires §5Zombie Slayer 6§c.\",14:\"§5§lEPIC SWORD\"],Name:\"§5Reaper Falchion\"}}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+120\",1:\"§7Strength: §c+100\",2:\"§7Intelligence: §a+200\",3:\" §8[§8❁§8]\",4:\"\",5:\"§7Heal §c10❤ §7per hit.\",6:\"§7Deal §a+200% §7damage to Zombies§7.\",7:\"§7§7Receive §a20% §7less damage from\",8:\"§7Zombies§7 when held.\",9:\"§7§7Gain §3+45☯ Combat Wisdom§7 against\",10:\"§7Zombies§7.\",11:\"\",12:\"§7§8This item can be reforged!\",13:\"§7§4☠ §cRequires §5Zombie Slayer 6§c.\",14:\"§5§lEPIC SWORD\"],Name:\"§5Reaper Falchion\"},ExtraAttributes:{id:\"REAPER_SWORD\"}}",
-  "modver": "",
   "lore": [
     "§7Damage: §c+120",
     "§7Strength: §c+100",
     "§7Intelligence: §a+200",
-    " §8[§8❁§8]",
+    " §8[❁]",
     "",
     "§7Heal §c10❤ §7per hit.",
-    "§7Deal §a+200% §7damage to Zombies§7.",
-    "§7§7Receive §a20% §7less damage from",
-    "§7Zombies§7 when held.",
-    "§7§7Gain §3+45☯ Combat Wisdom§7 against",
-    "§7Zombies§7.",
+    "§7Deal §a+200% §7damage to Zombies.",
+    "§7Receive §a20% §7less damage from",
+    "§7Zombies when held.",
+    "§7Gain §3+45☯ Combat Wisdom§7 against",
+    "§7Zombies.",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4☠ §cRequires §5Zombie Slayer 6§c.",
+    "§8This item can be reforged!",
+    "§4☠ §cRequires §5Zombie Slayer 6§c.",
     "§5§lEPIC SWORD"
+  ],
+  "internalname": "REAPER_SWORD",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Zombie Slayer 6",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Reaper_Falchion",
+    "https://wiki.hypixel.net/Reaper_Falchion"
   ],
   "recipe": {
     "A1": "",
@@ -34,11 +40,5 @@
     "C2": "REVENANT_SWORD:1",
     "C3": ""
   },
-  "slayer_req": "ZOMBIE_6",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Reaper_Falchion",
-    "https://wiki.hypixel.net/Reaper_Falchion"
-  ],
-  "crafttext": "Requires: Zombie Slayer 6"
+  "slayer_req": "ZOMBIE_6"
 }

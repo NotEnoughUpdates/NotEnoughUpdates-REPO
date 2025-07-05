@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:leather_leggings",
   "displayname": "§5Tarantula Leggings",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+60\",1:\"§7Defense: §a+20\",2:\"\",3:\"§6Full Set Bonus: Octodexterity §7(0/4)\",4:\"§7Every 4th strike, deal §cdouble damage\",5:\"§c§7and apply Venom reducing healing by\",6:\"§7§240% §7for §b4 §7seconds.\",7:\"\",8:\"§6Piece Bonus: Spider Bulwark\",9:\"§7Kill Spiders to accumulate defense\",10:\"§7against them.\",11:\"§7Piece Bonus: §a+0❈\",12:\"§7Next Upgrade: §a+20❈ §8(§a0§7/§c50§8)\",13:\"\",14:\"§4This item is Arachnal Ж!\",15:\"\",16:\"§7§8This item can be reforged!\",17:\"§7§4☠ §cRequires §5Spider Slayer 4§c.\",18:\"§5§lEPIC LEGGINGS\"],color:0,Name:\"§5Tarantula Leggings\"},ExtraAttributes:{id:\"TARANTULA_LEGGINGS\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"TARANTULA_LEGGINGS\"},HideFlags:254,ItemModel:\"minecraft:leather_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+60\",1:\"§7Defense: §a+20\",2:\"\",3:\"§6Full Set Bonus: Octodexterity §7(0/4)\",4:\"§7Every 4th strike, deal §cdouble damage\",5:\"§7and apply Venom reducing healing by\",6:\"§240% §7for §b4 §7seconds.\",7:\"\",8:\"§6Piece Bonus: Spider Bulwark\",9:\"§7Kill Spiders to accumulate defense\",10:\"§7against them.\",11:\"§7Piece Bonus: §a+0❈\",12:\"§7Next Upgrade: §a+20❈ §8(§a0§7/§c50§8)\",13:\"\",14:\"§4This item is Arachnal Ж!\",15:\"\",16:\"§8This item can be reforged!\",17:\"§4☠ §cRequires §5Spider Slayer 4§c.\",18:\"§5§lEPIC LEGGINGS\"],Name:\"§5Tarantula Leggings\"}}",
   "damage": 0,
   "lore": [
     "§7Health: §a+60",
@@ -9,8 +9,8 @@
     "",
     "§6Full Set Bonus: Octodexterity §7(0/4)",
     "§7Every 4th strike, deal §cdouble damage",
-    "§c§7and apply Venom reducing healing by",
-    "§7§240% §7for §b4 §7seconds.",
+    "§7and apply Venom reducing healing by",
+    "§240% §7for §b4 §7seconds.",
     "",
     "§6Piece Bonus: Spider Bulwark",
     "§7Kill Spiders to accumulate defense",
@@ -20,9 +20,18 @@
     "",
     "§4This item is Arachnal Ж!",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4☠ §cRequires §5Spider Slayer 4§c.",
+    "§8This item can be reforged!",
+    "§4☠ §cRequires §5Spider Slayer 4§c.",
     "§5§lEPIC LEGGINGS"
+  ],
+  "internalname": "TARANTULA_LEGGINGS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Spider Slayer 4",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Tarantula_Leggings",
+    "https://wiki.hypixel.net/Tarantula_Leggings"
   ],
   "recipe": {
     "A1": "TARANTULA_SILK:1",
@@ -35,14 +44,5 @@
     "C2": "",
     "C3": "ENCHANTED_IRON:64"
   },
-  "slayer_req": "SPIDER_4",
-  "internalname": "TARANTULA_LEGGINGS",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Tarantula_Leggings",
-    "https://wiki.hypixel.net/Tarantula_Leggings"
-  ],
-  "crafttext": "Requires: Spider Slayer 4"
+  "slayer_req": "SPIDER_4"
 }

@@ -1,13 +1,22 @@
 {
   "itemid": "minecraft:diamond_leggings",
   "displayname": "§9Hardened Diamond Leggings",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+95\",1:\"\",2:\"§7§8This item can be reforged!\",3:\"§9§lRARE LEGGINGS\"],Name:\"§9Hardened Diamond Leggings\"},ExtraAttributes:{id:\"HARDENED_DIAMOND_LEGGINGS\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"HARDENED_DIAMOND_LEGGINGS\"},HideFlags:254,ItemModel:\"minecraft:diamond_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+95\",1:\"\",2:\"§8This item can be reforged!\",3:\"§9§lRARE LEGGINGS\"],Name:\"§9Hardened Diamond Leggings\"}}",
   "damage": 0,
   "lore": [
     "§7Defense: §a+95",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§9§lRARE LEGGINGS"
+  ],
+  "internalname": "HARDENED_DIAMOND_LEGGINGS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Diamond VII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Hardened_Diamond_Leggings",
+    "https://wiki.hypixel.net/Hardened_Diamond_Leggings"
   ],
   "recipe": {
     "A1": "ENCHANTED_DIAMOND:1",
@@ -19,14 +28,5 @@
     "C1": "ENCHANTED_DIAMOND:1",
     "C2": "",
     "C3": "ENCHANTED_DIAMOND:1"
-  },
-  "internalname": "HARDENED_DIAMOND_LEGGINGS",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Hardened_Diamond_Leggings",
-    "https://wiki.hypixel.net/Hardened_Diamond_Leggings"
-  ],
-  "crafttext": "Requires: Diamond VII"
+  }
 }

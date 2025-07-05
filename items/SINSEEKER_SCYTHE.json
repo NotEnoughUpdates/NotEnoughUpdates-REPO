@@ -1,26 +1,34 @@
 {
   "itemid": "minecraft:golden_hoe",
-  "displayname": "§5§4Sin§5seeker Scythe",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+100\",1:\"§7Strength: §c+100\",2:\"\",3:\"§6Ability: Sinrecall Transmission §e§lRIGHT CLICK\",4:\"§7Zap a line §54 §7blocks forward.\",5:\"§7\",6:\"§7Recast within 1s (§b1.5x mana§7)\",7:\"§7or warp back to starting point.\",8:\"§7\",9:\"§7Mobs crossing the line(s)\",10:\"§7receive a §cmelee hit §7from\",11:\"§7what you\u0027re holding.\",12:\"§8Mana Cost: §3260\",13:\"\",14:\"§7§8This item can be reforged!\",15:\"§7§4☠ §cRequires §5Enderman Slayer 6§c.\",16:\"§5§lEPIC SWORD\"],Name:\"§5§4Sin§5seeker Scythe\"},ExtraAttributes:{id:\"SINSEEKER_SCYTHE\"}}",
+  "displayname": "§4Sin§5seeker Scythe",
+  "nbttag": "{ExtraAttributes:{id:\"SINSEEKER_SCYTHE\"},HideFlags:254,ItemModel:\"minecraft:golden_hoe\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+100\",1:\"§7Strength: §c+100\",2:\"\",3:\"§6Ability: Sinrecall Transmission  §e§lRIGHT CLICK\",4:\"§7Zap a line §54 §7blocks forward.\",5:\"\",6:\"§7Recast within 1s (§b1.5x mana§7) or warp\",7:\"§7back to starting point.\",8:\"\",9:\"§7Mobs crossing the line(s) receive a\",10:\"§cmelee hit §7from what you're holding.\",11:\"§8Mana Cost: §3260\",12:\"\",13:\"§8This item can be reforged!\",14:\"§4☠ §cRequires §5Enderman Slayer 6§c.\",15:\"§5§lEPIC SWORD\"],Name:\"§4Sin§5seeker Scythe\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+100",
     "§7Strength: §c+100",
     "",
-    "§6Ability: Sinrecall Transmission §e§lRIGHT CLICK",
+    "§6Ability: Sinrecall Transmission  §e§lRIGHT CLICK",
     "§7Zap a line §54 §7blocks forward.",
-    "§7",
-    "§7Recast within 1s (§b1.5x mana§7)",
-    "§7or warp back to starting point.",
-    "§7",
-    "§7Mobs crossing the line(s)",
-    "§7receive a §cmelee hit §7from",
-    "§7what you\u0027re holding.",
+    "",
+    "§7Recast within 1s (§b1.5x mana§7) or warp",
+    "§7back to starting point.",
+    "",
+    "§7Mobs crossing the line(s) receive a",
+    "§cmelee hit §7from what you're holding.",
     "§8Mana Cost: §3260",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4☠ §cRequires §5Enderman Slayer 6§c.",
+    "§8This item can be reforged!",
+    "§4☠ §cRequires §5Enderman Slayer 6§c.",
     "§5§lEPIC SWORD"
+  ],
+  "internalname": "SINSEEKER_SCYTHE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Enderman Slayer 6",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Sinseeker_Scythe",
+    "https://wiki.hypixel.net/Sinseeker_Scythe"
   ],
   "recipe": {
     "A1": "NULL_ATOM:4",
@@ -33,14 +41,5 @@
     "C2": "NULL_OVOID:8",
     "C3": "NULL_ATOM:4"
   },
-  "slayer_req": "EMAN_6",
-  "internalname": "SINSEEKER_SCYTHE",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "crafttext": "Requires: Enderman Slayer 6",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Sinseeker_Scythe",
-    "https://wiki.hypixel.net/Sinseeker_Scythe"
-  ]
+  "slayer_req": "EMAN_6"
 }

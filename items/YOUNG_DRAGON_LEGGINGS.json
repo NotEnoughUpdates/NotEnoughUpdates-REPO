@@ -1,22 +1,31 @@
 {
   "itemid": "minecraft:leather_leggings",
   "displayname": "§6Young Dragon Leggings",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+100\",1:\"§7Defense: §a+140\",2:\"§7Speed: §a+20\",3:\" §8[§8⚔§8]\",4:\"\",5:\"§6Full Set Bonus: Young Blood §7(0/4)\",6:\"§7Gain §a+70§7 Walk Speed while\",7:\"§7you are above §a50%§7 HP.\",8:\"§8+100 Walk Speed Cap\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§7§4❣ §cRequires §aCombat Skill 16§c.\",12:\"§6§lLEGENDARY LEGGINGS\"],color:14542064,Name:\"§6Young Dragon Leggings\"},ExtraAttributes:{id:\"YOUNG_DRAGON_LEGGINGS\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"YOUNG_DRAGON_LEGGINGS\"},HideFlags:254,ItemModel:\"minecraft:leather_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+100\",1:\"§7Defense: §a+140\",2:\"§7Speed: §a+20\",3:\" §8[⚔]\",4:\"\",5:\"§6Full Set Bonus: Young Blood §7(0/4)\",6:\"§7Gain §a+70§7 Walk Speed while you are\",7:\"§7above §a50%§7 HP.\",8:\"§8+100 Walk Speed Cap\",9:\"\",10:\"§8This item can be reforged!\",11:\"§4❣ §cRequires §aCombat Skill 16§c.\",12:\"§6§lLEGENDARY LEGGINGS\"],Name:\"§6Young Dragon Leggings\"}}",
   "damage": 0,
   "lore": [
     "§7Health: §a+100",
     "§7Defense: §a+140",
     "§7Speed: §a+20",
-    " §8[§8⚔§8]",
+    " §8[⚔]",
     "",
     "§6Full Set Bonus: Young Blood §7(0/4)",
-    "§7Gain §a+70§7 Walk Speed while",
-    "§7you are above §a50%§7 HP.",
+    "§7Gain §a+70§7 Walk Speed while you are",
+    "§7above §a50%§7 HP.",
     "§8+100 Walk Speed Cap",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aCombat Skill 16§c.",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aCombat Skill 16§c.",
     "§6§lLEGENDARY LEGGINGS"
+  ],
+  "internalname": "YOUNG_DRAGON_LEGGINGS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Young_Dragon_Leggings",
+    "https://wiki.hypixel.net/Young_Dragon_Leggings"
   ],
   "recipe": {
     "A1": "YOUNG_FRAGMENT:10",
@@ -28,14 +37,5 @@
     "C1": "YOUNG_FRAGMENT:10",
     "C2": "",
     "C3": "YOUNG_FRAGMENT:10"
-  },
-  "internalname": "YOUNG_DRAGON_LEGGINGS",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Young_Dragon_Leggings",
-    "https://wiki.hypixel.net/Young_Dragon_Leggings"
-  ],
-  "crafttext": ""
+  }
 }

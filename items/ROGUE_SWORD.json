@@ -1,24 +1,24 @@
 {
   "itemid": "minecraft:golden_sword",
   "displayname": "§fRogue Sword",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+20\",1:\"\",2:\"§6Ability: Speed Boost §e§lRIGHT CLICK\",3:\"§7Grants §f+100✦ Speed §7for\",4:\"§7§a30s§7.\",5:\"§8Mana Cost: §350\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§f§lCOMMON SWORD\"],Name:\"§fRogue Sword\"},ExtraAttributes:{id:\"ROGUE_SWORD\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ROGUE_SWORD\"},HideFlags:254,ItemModel:\"minecraft:golden_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+20\",1:\"\",2:\"§6Ability: Speed Boost  §e§lRIGHT CLICK\",3:\"§7Grants §f+100✦ Speed §7for §a30s§7.\",4:\"§8Mana Cost: §350\",5:\"§8Cooldown: §a5s\",6:\"\",7:\"§8This item can be reforged!\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§f§lCOMMON SWORD\"],Name:\"§fRogue Sword\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+20",
     "",
-    "§6Ability: Speed Boost §e§lRIGHT CLICK",
-    "§7Grants §f+100✦ Speed §7for",
-    "§7§a30s§7.",
+    "§6Ability: Speed Boost  §e§lRIGHT CLICK",
+    "§7Grants §f+100✦ Speed §7for §a30s§7.",
     "§8Mana Cost: §350",
+    "§8Cooldown: §a5s",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§8§l* §8Co-op Soulbound §8§l*",
     "§f§lCOMMON SWORD"
   ],
   "internalname": "ROGUE_SWORD",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "2.1.0-REL",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Rogue_Sword",
@@ -26,9 +26,9 @@
   ],
   "recipes": [
     {
-    "type": "trade",
-    "cost": "EMERALD:120",
-    "result": "ROGUE_SWORD"
+      "type": "trade",
+      "cost": "EMERALD:120",
+      "result": "ROGUE_SWORD"
     }
   ]
 }

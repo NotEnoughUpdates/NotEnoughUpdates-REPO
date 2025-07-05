@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:bow",
-  "displayname": "§5Spider Queen\u0027s Stinger",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+360\",1:\"\",2:\"§7Arrows shot using this bow have an\",3:\"§7aura around them that deals §c363.6❁\",4:\"§cDamage §7to nearby enemies instead of\",5:\"§7dealing impact damage. Arrows travel\",6:\"§7through enemies.\",7:\"\",8:\"§4This item is Arachnal Ж!\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§5§lEPIC BOW\"],Name:\"§5Spider Queen\u0027s Stinger\"},ExtraAttributes:{id:\"SPIDER_QUEENS_STINGER\"}}",
+  "displayname": "§5Spider Queen's Stinger",
+  "nbttag": "{ExtraAttributes:{id:\"SPIDER_QUEENS_STINGER\"},HideFlags:254,ItemModel:\"minecraft:bow\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+360\",1:\"\",2:\"§7Arrows shot using this bow have an\",3:\"§7aura around them that deals §c363.6❁\",4:\"§cDamage §7to nearby enemies instead of\",5:\"§7dealing impact damage. Arrows travel\",6:\"§7through enemies.\",7:\"\",8:\"§4This item is Arachnal Ж!\",9:\"\",10:\"§8This item can be reforged!\",11:\"§5§lEPIC BOW\"],Name:\"§5Spider Queen's Stinger\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+360",
@@ -14,8 +14,17 @@
     "",
     "§4This item is Arachnal Ж!",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§5§lEPIC BOW"
+  ],
+  "internalname": "SPIDER_QUEENS_STINGER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Spider_Queen%27s_Stinger",
+    "https://wiki.hypixel.net/Spider_Queen%27s_Stinger"
   ],
   "recipe": {
     "A1": "",
@@ -27,14 +36,5 @@
     "C1": "",
     "C2": "ENCHANTED_DARK_OAK_LOG:6",
     "C3": "SOUL_STRING:6"
-  },
-  "internalname": "SPIDER_QUEENS_STINGER",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Spider_Queen%27s_Stinger",
-    "https://wiki.hypixel.net/Spider_Queen%27s_Stinger"
-  ],
-  "crafttext": ""
+  }
 }

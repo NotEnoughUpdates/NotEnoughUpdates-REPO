@@ -1,16 +1,25 @@
 {
   "itemid": "minecraft:diamond_boots",
   "displayname": "§9Perfect Boots - Tier I",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+90\",1:\" §8[§7❈§8] §8[§7❈§8] §8[§7❈§8]\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§7§8This item can be reforged!\",6:\"§9§lRARE BOOTS\"],Name:\"§9Perfect Boots - Tier I\"},ExtraAttributes:{id:\"PERFECT_BOOTS_1\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"PERFECT_BOOTS_1\"},HideFlags:254,ItemModel:\"minecraft:diamond_boots\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+90\",1:\" §8[§7❈§8] [§7❈§8] [§7❈§8]\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§8This item can be reforged!\",6:\"§9§lRARE BOOTS\"],Name:\"§9Perfect Boots - Tier I\"}}",
   "damage": 0,
   "lore": [
     "§7Defense: §a+90",
-    " §8[§7❈§8] §8[§7❈§8] §8[§7❈§8]",
+    " §8[§7❈§8] [§7❈§8] [§7❈§8]",
     "",
     "§eRight-click to view recipes!",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§9§lRARE BOOTS"
+  ],
+  "internalname": "PERFECT_BOOTS_1",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Diamond IX",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Perfect_Armor#Tier_I",
+    "https://wiki.hypixel.net/Perfect_Boots_-_Tier_I"
   ],
   "recipe": {
     "A1": "ENCHANTED_DIAMOND_BLOCK:1",
@@ -22,14 +31,5 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  },
-  "internalname": "PERFECT_BOOTS_1",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Perfect_Armor#Tier_I",
-    "https://wiki.hypixel.net/Perfect_Boots_-_Tier_I"
-  ],
-  "crafttext": "Requires: Diamond IX"
+  }
 }

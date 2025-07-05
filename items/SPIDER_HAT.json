@@ -1,17 +1,25 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§fSpider Hat",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"fb28e6d3-5700-3d23-87cc-a39f1e33fde5\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWQ3ZTNiMTlhYzRmM2RlZTljNTY3N2MxMzUzMzNiOWQzNWE3ZjU2OGI2M2QxZWY0YWRhNGIwNjhiNWEyNSJ9fX0=\"}]}},display:{Lore:[0:\"§7Crit Chance: §c+25%\",1:\"\",2:\"§7When worn, §7Spiders§7 and\",3:\"§7§7Cave Spiders§7 deal §a-30%§7\",4:\"§7damage.\",5:\"\",6:\"§7§8This item can be reforged!\",7:\"§f§lCOMMON HELMET\"],Name:\"§fSpider Hat\"},ExtraAttributes:{id:\"SPIDER_HAT\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SPIDER_HAT\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"522f39bc-127d-35bf-8bbb-fa45a71c444c\",Properties:{textures:[0:{Name:\"textures\",Signature:\"C08Cl3RCVFyDUrBwP837kwklsxqsV83OTn28+fEQ1T1H+pUE7zsnljCBC9HXhb8NUKWMvjVWCl76oCDrIQ4voUlGQBt1W4vmCN3ECi+cs5RDPWsooFh2xvhsldJr3UhB4eUG4jwZ2WaNfFb69oAx+HrFpnuT+5s3naVPOO0CJ47EWdevXYI0mi+3pY9G1fp6Cm4C5Ogd/nXjfXaYuCuJAjI13wW7y4Ih6VcXsCIbCls9mBhYnFWecuLNCqGFkSEkgSCWkBbK30IZiJwWPkhFGl45C02h9oJM+dPMxutGH27K+dAqsL/zlAJRGDsUuKHJr+aozwfG3o48rUMuQpzJG5gV6K7sedMYVWcmqKfmLzllR90i9NWSQoeUW+VZN9Y9wo620i5Bo5TW6Bl4cogdnKOqJLtTTBz1bI1ZAWp65GYjIAk2NCCNzioK3jrGB3c1XxLj3Nk6VMcTUhknbpdWtiNEBCmJyAVGreiHOfegl+O4JN5iMUc3NMhgxNXM9xnyMWoEEBuUnc8dT7kNN+R3XbXPoDXowPHUGzJUoWzyoa+8fqS4341KGvBHoQ8/7HvPw/wzBuwlckgQYqewCfCAwlYZnonIII4Eh7/5eLjQsHcyy/SGSqE5OKiadc0soUKcuQmmGIRJFKqW3XuqPrX8eLOASEm51aIoQTkdHr9selo=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxMjgyMzg3NjUxMywKICAicHJvZmlsZUlkIiA6ICI3MzgyZGRmYmU0ODU0NTVjODI1ZjkwMGY4OGZkMzJmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJJb3lhbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85ZDgzZDA0OTQ5MzlkYmE1ZjI3YTFkY2JhNzAzMWQ1ZmVmZjQ0ZDZlZmU4ZDg2MjNlMTIwNTI0NzBkMGE2Njc0IgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Crit Chance: §c+25%\",1:\"\",2:\"§7When worn, Cave Spiders and Spiders\",3:\"§7deal §a-30%§7 damage.\",4:\"\",5:\"§8This item can be reforged!\",6:\"§f§lCOMMON HELMET\"],Name:\"§fSpider Hat\"}}",
   "damage": 3,
   "lore": [
     "§7Crit Chance: §c+25%",
     "",
-    "§7When worn, §7Spiders§7 and",
-    "§7§7Cave Spiders§7 deal §a-30%§7",
-    "§7damage.",
+    "§7When worn, Cave Spiders and Spiders",
+    "§7deal §a-30%§7 damage.",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§f§lCOMMON HELMET"
+  ],
+  "internalname": "SPIDER_HAT",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Spider Eye III",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Spider_Hat",
+    "https://wiki.hypixel.net/Spider_Hat"
   ],
   "recipe": {
     "A1": "SPIDER_EYE:1",
@@ -23,14 +31,5 @@
     "C1": "SPIDER_EYE:1",
     "C2": "SPIDER_EYE:1",
     "C3": "SPIDER_EYE:1"
-  },
-  "internalname": "SPIDER_HAT",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Spider_Hat",
-    "https://wiki.hypixel.net/Spider_Hat"
-  ],
-  "crafttext": "Requires: Spider Eye III"
+  }
 }

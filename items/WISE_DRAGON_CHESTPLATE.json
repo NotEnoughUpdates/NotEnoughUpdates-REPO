@@ -1,20 +1,29 @@
 {
   "itemid": "minecraft:leather_chestplate",
-  "displayname": "§f§f§6Wise Dragon Chestplate",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+120\",1:\"§7Defense: §a+160\",2:\"§7Intelligence: §a+75\",3:\" §8[§8✎§8]\",4:\"\",5:\"§6Full Set Bonus: Wise Blood §7(0/4)\",6:\"§7Abilities have §a2/3 §7of the mana cost.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§7§4❣ §cRequires §aCombat Skill 16§c.\",10:\"§6§lLEGENDARY CHESTPLATE\"],color:2748649,Name:\"§f§f§6Wise Dragon Chestplate\"},ExtraAttributes:{bossId:\"1c66314d-329c-4911-890c-4671e49cacb8\",spawnedFor:\"c079c034-d7d4-48f4-a932-aae8daf158b7\",id:\"WISE_DRAGON_CHESTPLATE\"}}",
+  "displayname": "§6Wise Dragon Chestplate",
+  "nbttag": "{ExtraAttributes:{id:\"WISE_DRAGON_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:leather_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+120\",1:\"§7Defense: §a+160\",2:\"§7Intelligence: §a+75\",3:\" §8[✎]\",4:\"\",5:\"§6Full Set Bonus: Wise Blood §7(0/4)\",6:\"§7Abilities have §a2/3 §7of the mana cost.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§4❣ §cRequires §aCombat Skill 16§c.\",10:\"§6§lLEGENDARY CHESTPLATE\"],Name:\"§6Wise Dragon Chestplate\"}}",
   "damage": 0,
   "lore": [
     "§7Health: §a+120",
     "§7Defense: §a+160",
     "§7Intelligence: §a+75",
-    " §8[§8✎§8]",
+    " §8[✎]",
     "",
     "§6Full Set Bonus: Wise Blood §7(0/4)",
     "§7Abilities have §a2/3 §7of the mana cost.",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aCombat Skill 16§c.",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aCombat Skill 16§c.",
     "§6§lLEGENDARY CHESTPLATE"
+  ],
+  "internalname": "WISE_DRAGON_CHESTPLATE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Wise_Dragon_Chestplate",
+    "https://wiki.hypixel.net/Wise_Dragon_Chestplate"
   ],
   "recipe": {
     "A1": "WISE_FRAGMENT:10",
@@ -26,14 +35,5 @@
     "C1": "WISE_FRAGMENT:10",
     "C2": "WISE_FRAGMENT:10",
     "C3": "WISE_FRAGMENT:10"
-  },
-  "internalname": "WISE_DRAGON_CHESTPLATE",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Wise_Dragon_Chestplate",
-    "https://wiki.hypixel.net/Wise_Dragon_Chestplate"
-  ],
-  "crafttext": ""
+  }
 }

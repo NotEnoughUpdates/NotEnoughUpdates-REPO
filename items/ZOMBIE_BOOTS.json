@@ -1,19 +1,28 @@
 {
   "itemid": "minecraft:diamond_boots",
-  "displayname": "§f§f§5Zombie Boots",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+120\",1:\"§7Defense: §a+25\",2:\"\",3:\"§6Full Set Bonus: Projectile Absorption §7(0/3)\",4:\"§7Heals the wearer for §a10§7 per\",5:\"§7second for §a5§7 seconds when\",6:\"§7hit by a projectile.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§5§lEPIC BOOTS\"],Name:\"§f§f§5Zombie Boots\"},ExtraAttributes:{id:\"ZOMBIE_BOOTS\"}}",
+  "displayname": "§5Zombie Boots",
+  "nbttag": "{ExtraAttributes:{id:\"ZOMBIE_BOOTS\"},HideFlags:254,ItemModel:\"minecraft:diamond_boots\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+120\",1:\"§7Defense: §a+25\",2:\"\",3:\"§6Full Set Bonus: Projectile Absorption §7(0/3)\",4:\"§7Heals the wearer for §a10§7 per second\",5:\"§7for §a5§7 seconds when hit by a\",6:\"§7projectile.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§5§lEPIC BOOTS\"],Name:\"§5Zombie Boots\"}}",
   "damage": 0,
   "lore": [
     "§7Health: §a+120",
     "§7Defense: §a+25",
     "",
     "§6Full Set Bonus: Projectile Absorption §7(0/3)",
-    "§7Heals the wearer for §a10§7 per",
-    "§7second for §a5§7 seconds when",
-    "§7hit by a projectile.",
+    "§7Heals the wearer for §a10§7 per second",
+    "§7for §a5§7 seconds when hit by a",
+    "§7projectile.",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§5§lEPIC BOOTS"
+  ],
+  "internalname": "ZOMBIE_BOOTS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Rotten Flesh VIII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Zombie_Boots",
+    "https://wiki.hypixel.net/Zombie_Boots"
   ],
   "recipe": {
     "A1": "ENCHANTED_ROTTEN_FLESH:1",
@@ -25,14 +34,5 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  },
-  "internalname": "ZOMBIE_BOOTS",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Zombie_Boots",
-    "https://wiki.hypixel.net/Zombie_Boots"
-  ],
-  "crafttext": "Requires: Rotten Flesh VIII"
+  }
 }

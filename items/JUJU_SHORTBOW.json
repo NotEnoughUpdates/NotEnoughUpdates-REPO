@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:bow",
   "displayname": "§5Juju Shortbow",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+310\",1:\"§7Strength: §c+40\",2:\"§7Crit Chance: §c+10%\",3:\"§7Crit Damage: §c+110%\",4:\"§7Shot Cooldown: §a0.5s\",5:\"\",6:\"§7Hits §c3 §7mobs on impact.\",7:\"§7Can damage endermen.\",8:\"\",9:\"§5Shortbow: Instantly shoots!\",10:\"\",11:\"§7§8This item can be reforged!\",12:\"§7§4☠ §cRequires §5Enderman Slayer 5§c.\",13:\"§5§lEPIC BOW\"],Name:\"§5Juju Shortbow\"},ExtraAttributes:{id:\"JUJU_SHORTBOW\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"JUJU_SHORTBOW\"},HideFlags:254,ItemModel:\"minecraft:bow\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+310\",1:\"§7Strength: §c+40\",2:\"§7Crit Chance: §c+10%\",3:\"§7Crit Damage: §c+110%\",4:\"§7Shot Cooldown: §a0.5s\",5:\"\",6:\"§7Hits §c3 §7mobs on impact.\",7:\"§7Can damage endermen.\",8:\"\",9:\"§5Shortbow: Instantly shoots!\",10:\"\",11:\"§8This item can be reforged!\",12:\"§4☠ §cRequires §5Enderman Slayer 5§c.\",13:\"§5§lEPIC BOW\"],Name:\"§5Juju Shortbow\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+310",
@@ -15,9 +15,18 @@
     "",
     "§5Shortbow: Instantly shoots!",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4☠ §cRequires §5Enderman Slayer 5§c.",
+    "§8This item can be reforged!",
+    "§4☠ §cRequires §5Enderman Slayer 5§c.",
     "§5§lEPIC BOW"
+  ],
+  "internalname": "JUJU_SHORTBOW",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Enderman Slayer 5",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Juju_Shortbow",
+    "https://wiki.hypixel.net/Juju_Shortbow"
   ],
   "recipe": {
     "A1": "",
@@ -30,14 +39,5 @@
     "C2": "ENCHANTED_QUARTZ_BLOCK:32",
     "C3": "ENCHANTED_STRING:64"
   },
-  "slayer_req": "EMAN_5",
-  "internalname": "JUJU_SHORTBOW",
-  "crafttext": "Requires: Enderman Slayer 5",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Juju_Shortbow",
-    "https://wiki.hypixel.net/Juju_Shortbow"
-  ]
+  "slayer_req": "EMAN_5"
 }

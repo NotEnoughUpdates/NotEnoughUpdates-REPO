@@ -1,13 +1,22 @@
 {
   "itemid": "minecraft:diamond_helmet",
   "displayname": "§9Hardened Diamond Helmet",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+60\",1:\"\",2:\"§7§8This item can be reforged!\",3:\"§9§lRARE HELMET\"],Name:\"§9Hardened Diamond Helmet\"},ExtraAttributes:{id:\"HARDENED_DIAMOND_HELMET\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"HARDENED_DIAMOND_HELMET\"},HideFlags:254,ItemModel:\"minecraft:diamond_helmet\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+60\",1:\"\",2:\"§8This item can be reforged!\",3:\"§9§lRARE HELMET\"],Name:\"§9Hardened Diamond Helmet\"}}",
   "damage": 0,
   "lore": [
     "§7Defense: §a+60",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§9§lRARE HELMET"
+  ],
+  "internalname": "HARDENED_DIAMOND_HELMET",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Diamond VII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Hardened_Diamond_Helmet",
+    "https://wiki.hypixel.net/Hardened_Diamond_Helmet"
   ],
   "recipe": {
     "A1": "ENCHANTED_DIAMOND:1",
@@ -19,14 +28,5 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  },
-  "internalname": "HARDENED_DIAMOND_HELMET",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Hardened_Diamond_Helmet",
-    "https://wiki.hypixel.net/Hardened_Diamond_Helmet"
-  ],
-  "crafttext": "Requires: Diamond VII"
+  }
 }

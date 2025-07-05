@@ -1,13 +1,22 @@
 {
   "itemid": "minecraft:diamond_boots",
   "displayname": "§9Hardened Diamond Boots",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+55\",1:\"\",2:\"§7§8This item can be reforged!\",3:\"§9§lRARE BOOTS\"],Name:\"§9Hardened Diamond Boots\"},ExtraAttributes:{id:\"HARDENED_DIAMOND_BOOTS\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"HARDENED_DIAMOND_BOOTS\"},HideFlags:254,ItemModel:\"minecraft:diamond_boots\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+55\",1:\"\",2:\"§8This item can be reforged!\",3:\"§9§lRARE BOOTS\"],Name:\"§9Hardened Diamond Boots\"}}",
   "damage": 0,
   "lore": [
     "§7Defense: §a+55",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§9§lRARE BOOTS"
+  ],
+  "internalname": "HARDENED_DIAMOND_BOOTS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Diamond VII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Hardened_Diamond_Boots",
+    "https://wiki.hypixel.net/Hardened_Diamond_Boots"
   ],
   "recipe": {
     "A1": "",
@@ -19,14 +28,5 @@
     "C1": "ENCHANTED_DIAMOND:1",
     "C2": "",
     "C3": "ENCHANTED_DIAMOND:1"
-  },
-  "internalname": "HARDENED_DIAMOND_BOOTS",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Hardened_Diamond_Boots",
-    "https://wiki.hypixel.net/Hardened_Diamond_Boots"
-  ],
-  "crafttext": "Requires: Diamond VII"
+  }
 }
