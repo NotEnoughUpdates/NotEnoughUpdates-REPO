@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:furnace",
   "displayname": "§9Portable Campfire",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Can be placed down in the §bGlacite\",1:\"§bTunnels§7.\",2:\"\",3:\"§7Interacting with a campfire belonging\",4:\"§7to you or another player will reduce\",5:\"§7your §b❄ Cold §7by §a50§7.\",6:\"\",7:\"§7Each campfire can only be\",8:\"§7interacted with once, and you can\",9:\"§7only place one campfire every §a5\",10:\"§aminutes§7.\",11:\"\",12:\"§7§cConsumed on use!\",13:\"\",14:\"§9§lRARE\"],Name:\"§9Portable Campfire\"},ExtraAttributes:{id:\"PORTABLE_CAMPFIRE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"PORTABLE_CAMPFIRE\"},HideFlags:254,ItemModel:\"minecraft:furnace\",display:{Lore:[0:\"§7Can be placed down in the §bGlacite\",1:\"§bTunnels§7.\",2:\"\",3:\"§7Interacting with a campfire belonging\",4:\"§7to you or another player will reduce\",5:\"§7your §b❄ Cold §7by §a50§7.\",6:\"\",7:\"§7Each campfire can only be\",8:\"§7interacted with once, and you can\",9:\"§7only place one campfire every §a5\",10:\"§aminutes§7.\",11:\"\",12:\"§cConsumed on use!\",13:\"\",14:\"§9§lRARE\"],Name:\"§9Portable Campfire\"}}",
   "damage": 0,
   "lore": [
     "§7Can be placed down in the §bGlacite",
@@ -16,15 +16,19 @@
     "§7only place one campfire every §a5",
     "§aminutes§7.",
     "",
-    "§7§cConsumed on use!",
+    "§cConsumed on use!",
     "",
     "§9§lRARE"
   ],
   "internalname": "PORTABLE_CAMPFIRE",
-  "crafttext": "Requires: HotM 8",
   "clickcommand": "viewrecipe",
-  "modver": "",
+  "crafttext": "Requires: HotM 8",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
   "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Portable_Campfire",
+    "https://wiki.hypixel.net/Portable_Campfire"
+  ],
   "recipes": [
     {
       "type": "forge",
@@ -36,9 +40,5 @@
       "duration": 1800,
       "overrideOutputId": "PORTABLE_CAMPFIRE"
     }
-  ],
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Portable_Campfire",
-    "https://wiki.hypixel.net/Portable_Campfire"
   ]
 }

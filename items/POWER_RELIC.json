@@ -1,22 +1,26 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§5Relic of Power",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"0d03b59a-2bb1-3f62-94e5-aa08db7a23fc\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxMDEwODgyNzM3NiwKICAicHJvZmlsZUlkIiA6ICI1OWZmOTU1YzMxYjk0MWI0YWQwNDg4NDk0ODkzNzUzOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdhMzQ5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q4ZmRjODcwMjNjZmYyNjM1NjQ3N2YyZTA5N2EyZGU4M2I1NTBkODhhNmYxYTg3N2RhNGY5NWM0ZGIxMTU2N2YiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\" §8[§7☘§8] §8[§7⸕§8] §8[§7✧§8] §8[§7✎§8] §8[§7❈§8] §8[§7❁§8] §8[§7❤§8] §8[§7❂§8] §8[§7☠§8] §8[§7☘§8] §8[§7☘§8] §8[§7α§8]\",1:\"\",2:\"§7Allows you to harness the power of\",3:\"§7§a12§7 Gemstones, although only half of\",4:\"§7the normal power can be harnessed!\",5:\"\",6:\"§5§lEPIC ACCESSORY\"],Name:\"§5Relic of Power\"},ExtraAttributes:{id:\"POWER_RELIC\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"POWER_RELIC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"0d03b59a-2bb1-3f62-94e5-aa08db7a23fc\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxMDEwODgyNzM3NiwKICAicHJvZmlsZUlkIiA6ICI1OWZmOTU1YzMxYjk0MWI0YWQwNDg4NDk0ODkzNzUzOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdhMzQ5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q4ZmRjODcwMjNjZmYyNjM1NjQ3N2YyZTA5N2EyZGU4M2I1NTBkODhhNmYxYTg3N2RhNGY5NWM0ZGIxMTU2N2YiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\" §8[§7☘§8] [§7⸕§8] [§7✧§8] [§7✎§8] [§7❈§8] [§7❁§8] [§7❤§8] [§7❂§8] [§7☠§8] [§7☘§8] [§7☘§8] [§7α§8]\",1:\"\",2:\"§7Allows you to harness the power of\",3:\"§a12§7 Gemstones, although only half of\",4:\"§7the normal power can be harnessed!\",5:\"\",6:\"§5§lEPIC ACCESSORY\"],Name:\"§5Relic of Power\"}}",
   "damage": 3,
   "lore": [
-    " §8[§7☘§8] §8[§7⸕§8] §8[§7✧§8] §8[§7✎§8] §8[§7❈§8] §8[§7❁§8] §8[§7❤§8] §8[§7❂§8] §8[§7☠§8] §8[§7☘§8] §8[§7☘§8] §8[§7α§8]",
+    " §8[§7☘§8] [§7⸕§8] [§7✧§8] [§7✎§8] [§7❈§8] [§7❁§8] [§7❤§8] [§7❂§8] [§7☠§8] [§7☘§8] [§7☘§8] [§7α§8]",
     "",
     "§7Allows you to harness the power of",
-    "§7§a12§7 Gemstones, although only half of",
+    "§a12§7 Gemstones, although only half of",
     "§7the normal power can be harnessed!",
     "",
     "§5§lEPIC ACCESSORY"
   ],
   "internalname": "POWER_RELIC",
-  "crafttext": "Requires: HotM 10",
   "clickcommand": "viewrecipe",
-  "modver": "",
+  "crafttext": "Requires: HotM 10",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
   "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Relic_of_Power",
+    "https://wiki.hypixel.net/Relic_Of_Power"
+  ],
   "recipes": [
     {
       "type": "forge",
@@ -29,9 +33,5 @@
       "duration": 28800,
       "overrideOutputId": "POWER_RELIC"
     }
-  ],
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Relic_of_Power",
-    "https://wiki.hypixel.net/Relic_Of_Power"
   ]
 }
