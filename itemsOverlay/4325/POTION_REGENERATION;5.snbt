@@ -1,0 +1,40 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			effects: [
+				{
+					duration_ticks: 900,
+					effect: "regeneration",
+					level: 5
+				}
+			],
+			id: "POTION_REGENERATION;5",
+			potion: "regeneration",
+			potion_level: 5,
+			potion_type: "POTION"
+		},
+		"minecraft:potion_contents": {
+			custom_effects: [
+				{
+					amplifier: 4b,
+					duration: 20,
+					id: "minecraft:regeneration",
+					show_icon: 1b
+				}
+			],
+			potion: "minecraft:regeneration"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:potion_contents",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:potion",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+gb028db5"
+	}
+}

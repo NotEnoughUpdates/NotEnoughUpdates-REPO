@@ -1,0 +1,40 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			effects: [
+				{
+					duration_ticks: 3600,
+					effect: "mana",
+					level: 4
+				}
+			],
+			id: "POTION_MANA;4",
+			potion: "mana",
+			potion_level: 4,
+			potion_type: "POTION"
+		},
+		"minecraft:potion_contents": {
+			custom_effects: [
+				{
+					amplifier: 3b,
+					duration: 20,
+					id: "minecraft:night_vision",
+					show_icon: 1b
+				}
+			],
+			potion: "minecraft:night_vision"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:potion_contents",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:potion",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+gb028db5"
+	}
+}

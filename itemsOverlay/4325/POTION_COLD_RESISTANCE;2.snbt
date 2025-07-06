@@ -1,0 +1,40 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			effects: [
+				{
+					duration_ticks: 3600,
+					effect: "cold_resistance",
+					level: 2
+				}
+			],
+			id: "POTION_COLD_RESISTANCE;2",
+			potion: "cold_resistance",
+			potion_level: 2,
+			potion_type: "POTION"
+		},
+		"minecraft:potion_contents": {
+			custom_effects: [
+				{
+					amplifier: 1b,
+					duration: 20,
+					id: "minecraft:speed",
+					show_icon: 1b
+				}
+			],
+			potion: "minecraft:swiftness"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:potion_contents",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:potion",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+gb028db5"
+	}
+}

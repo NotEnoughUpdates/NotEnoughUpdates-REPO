@@ -1,0 +1,41 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			effects: [
+				{
+					duration_ticks: 3600,
+					effect: "magic_find",
+					level: 1
+				}
+			],
+			id: "POTION_MAGIC_FIND;1",
+			potion: "magic_find",
+			potion_level: 1,
+			potion_name: "Magic Find",
+			potion_type: "POTION",
+			splash: 0b
+		},
+		"minecraft:potion_contents": {
+			custom_effects: [
+				{
+					duration: 20,
+					id: "minecraft:jump_boost",
+					show_icon: 1b
+				}
+			],
+			potion: "minecraft:leaping"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:potion_contents",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:potion",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+gb028db5"
+	}
+}

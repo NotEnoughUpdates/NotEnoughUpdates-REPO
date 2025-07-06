@@ -1,0 +1,40 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			effects: [
+				{
+					duration_ticks: 3600,
+					effect: "healing",
+					level: 8
+				}
+			],
+			id: "POTION_HEALING;8",
+			potion: "healing",
+			potion_level: 8,
+			potion_type: "POTION"
+		},
+		"minecraft:potion_contents": {
+			custom_effects: [
+				{
+					amplifier: 7b,
+					duration: 20,
+					id: "minecraft:instant_health",
+					show_icon: 1b
+				}
+			],
+			potion: "minecraft:healing"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:potion_contents",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:potion",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+gb028db5"
+	}
+}

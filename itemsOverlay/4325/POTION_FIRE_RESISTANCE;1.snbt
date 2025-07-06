@@ -1,0 +1,45 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			effects: [
+				{
+					duration_ticks: 5400,
+					effect: "fire_resistance",
+					level: 1,
+					modifiers: {
+					}
+				}
+			],
+			enhanced: 0b,
+			extended: 0b,
+			id: "POTION_FIRE_RESISTANCE;1",
+			last_potion_ingredient: "MAGMA_CREAM",
+			potion: "fire_resistance",
+			potion_level: 1,
+			potion_type: "POTION",
+			should_give_alchemy_exp: 1b
+		},
+		"minecraft:potion_contents": {
+			custom_effects: [
+				{
+					duration: 20,
+					id: "minecraft:fire_resistance",
+					show_icon: 1b
+				}
+			],
+			potion: "minecraft:fire_resistance"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:potion_contents",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:potion",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+gb028db5"
+	}
+}
