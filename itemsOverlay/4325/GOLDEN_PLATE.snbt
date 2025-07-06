@@ -1,0 +1,34 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "GOLDEN_PLATE"
+		},
+		"minecraft:profile": {
+			id: [I;
+				-896172842,
+				182925346,
+				-1783947821,
+				-1471940536
+			],
+			name: "",
+			properties: [
+				{
+					name: "textures",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTYxMDYzMjAyMDczMiwKICAicHJvZmlsZUlkIiA6ICIxNzhmMTJkYWMzNTQ0ZjRhYjExNzkyZDc1MDkzY2JmYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJzaWxlbnRkZXRydWN0aW9uIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZhNWZkMDljZWM0ZmU5N2NjYzc3NjIxYjczZDg5YWQ2ZTQ1ZDc5MzExN2Y1NzY1NTdkNjUzODQ1YWNiNGYwYWQiCiAgICB9CiAgfQp9"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:attribute_modifiers",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+gb028db5"
+	}
+}

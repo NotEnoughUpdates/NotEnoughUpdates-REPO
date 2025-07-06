@@ -1,24 +1,33 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§6Fermento Helmet",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"8aa37c82-f887-30fa-ad8e-41f69b4cf46c\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY2Mzc1Mzg3MDIxMiwKICAicHJvZmlsZUlkIiA6ICIyMWUzNjdkNzI1Y2Y0ZTNiYjI2OTJjNGEzMDBhNGRlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHZXlzZXJNQyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81MDg2ZGRiZTk2MGYzMzQ4MGNhMjI5ZGE3NDAyMzkxYWI0MTdkMzJlYmIyMTc3MDQzMGVhNjEwZGU1ODAxZmUzIgogICAgfQogIH0KfQ\"}]}},display:{Lore:[0:\"§7Health: §a+130\",1:\"§7Defense: §a+40\",2:\"§7Speed: §a+5\",3:\"§7Farming Fortune: §a+30\",4:\" §8[§8☘§8] §8[§8☘§8]\",5:\"\",6:\"§8Tiered Bonus: Feast (0/4)\",7:\"§7Combines the Tiered Bonuses of\",8:\"§7wearing §a0 pieces §7of the Melon Armor,\",9:\"§7Cropie Armor, and Squash Armor.\",10:\"§7§7Grants §60☘ Farming Fortune§7.\",11:\"\",12:\"§7§8This item can be reforged!\",13:\"§7§4❣ §cRequires §aFarming Skill 40§c.\",14:\"§6§lLEGENDARY HELMET\"],Name:\"§6Fermento Helmet\"},ExtraAttributes:{id:\"FERMENTO_HELMET\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"FERMENTO_HELMET\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"8aa37c82-f887-30fa-ad8e-41f69b4cf46c\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY2Mzc1Mzg3MDIxMiwKICAicHJvZmlsZUlkIiA6ICIyMWUzNjdkNzI1Y2Y0ZTNiYjI2OTJjNGEzMDBhNGRlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHZXlzZXJNQyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81MDg2ZGRiZTk2MGYzMzQ4MGNhMjI5ZGE3NDAyMzkxYWI0MTdkMzJlYmIyMTc3MDQzMGVhNjEwZGU1ODAxZmUzIgogICAgfQogIH0KfQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Health: §a+130\",1:\"§7Defense: §a+40\",2:\"§7Speed: §a+5\",3:\"§7Farming Fortune: §a+30\",4:\" §8[☘] [☘]\",5:\"\",6:\"§8Tiered Bonus: Feast (0/4)\",7:\"§7Combines the Tiered Bonuses of\",8:\"§7wearing §a0 pieces §7of the Melon Armor,\",9:\"§7Cropie Armor, and Squash Armor.\",10:\"§7Grants §60☘ Farming Fortune§7.\",11:\"\",12:\"§8This item can be reforged!\",13:\"§4❣ §cRequires §aFarming Skill 40§c.\",14:\"§6§lLEGENDARY HELMET\"],Name:\"§6Fermento Helmet\"}}",
   "damage": 3,
   "lore": [
     "§7Health: §a+130",
     "§7Defense: §a+40",
     "§7Speed: §a+5",
     "§7Farming Fortune: §a+30",
-    " §8[§8☘§8] §8[§8☘§8]",
+    " §8[☘] [☘]",
     "",
     "§8Tiered Bonus: Feast (0/4)",
     "§7Combines the Tiered Bonuses of",
     "§7wearing §a0 pieces §7of the Melon Armor,",
     "§7Cropie Armor, and Squash Armor.",
-    "§7§7Grants §60☘ Farming Fortune§7.",
+    "§7Grants §60☘ Farming Fortune§7.",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aFarming Skill 40§c.",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aFarming Skill 40§c.",
     "§6§lLEGENDARY HELMET"
+  ],
+  "internalname": "FERMENTO_HELMET",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Fermento_Helmet",
+    "https://wiki.hypixel.net/Fermento_Helmet"
   ],
   "recipe": {
     "A1": "CONDENSED_FERMENTO:1",
@@ -30,14 +39,5 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  },
-  "internalname": "FERMENTO_HELMET",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Fermento_Helmet",
-    "https://wiki.hypixel.net/Fermento_Helmet"
-  ]
+  }
 }

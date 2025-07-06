@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:golden_axe",
   "displayname": "§5Pumpkin Dicer 2.0",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\" §8[§8☘§8] §8[§8☘§8]\",1:\"\",2:\"§7§7Gain §3+7.5☯ Farming Wisdom §7while\",3:\"§7harvesting pumpkins§7.\",4:\"\",5:\"§6Ability: Roll em\u0027+ \",6:\"§7Every pumpkin you break, you\",7:\"§7make a wish to §dRNGesus §7which may\",8:\"§7grant you with a few or TONS of\",9:\"§7extra pumpkins!\",10:\"\",11:\"§7§oSomeone once said, 2 is always\",12:\"§7§obetter than 1!\",13:\"\",14:\"§eRight-click to view recipes!\",15:\"\",16:\"§7§8This item can be reforged!\",17:\"§5§lEPIC AXE\"],Name:\"§5Pumpkin Dicer 2.0\"},ExtraAttributes:{id:\"PUMPKIN_DICER_2\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"PUMPKIN_DICER_2\"},HideFlags:254,ItemModel:\"minecraft:golden_axe\",Unbreakable:1B,display:{Lore:[0:\" §8[☘] [☘]\",1:\"\",2:\"§7Gain §3+7.5☯ Farming Wisdom §7while\",3:\"§7harvesting pumpkins.\",4:\"\",5:\"§6Ability: Roll em'+ \",6:\"§7Every pumpkin you break, you\",7:\"§7make a wish to §dRNGesus §7which may\",8:\"§7grant you with a few or TONS of\",9:\"§7extra pumpkins!\",10:\"\",11:\"§7§oSomeone once said, 2 is always\",12:\"§7§obetter than 1!\",13:\"\",14:\"§eRight-click to view recipes!\",15:\"\",16:\"§8This item can be reforged!\",17:\"§5§lEPIC AXE\"],Name:\"§5Pumpkin Dicer 2.0\"}}",
   "damage": 0,
   "lore": [
-    " §8[§8☘§8] §8[§8☘§8]",
+    " §8[☘] [☘]",
     "",
-    "§7§7Gain §3+7.5☯ Farming Wisdom §7while",
-    "§7harvesting pumpkins§7.",
+    "§7Gain §3+7.5☯ Farming Wisdom §7while",
+    "§7harvesting pumpkins.",
     "",
-    "§6Ability: Roll em\u0027+ ",
+    "§6Ability: Roll em'+ ",
     "§7Every pumpkin you break, you",
     "§7make a wish to §dRNGesus §7which may",
     "§7grant you with a few or TONS of",
@@ -20,8 +20,17 @@
     "",
     "§eRight-click to view recipes!",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§5§lEPIC AXE"
+  ],
+  "internalname": "PUMPKIN_DICER_2",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Pumpkin_Dicer_2.0",
+    "https://wiki.hypixel.net/Pumpkin_Dicer_2.0"
   ],
   "recipe": {
     "A1": "POLISHED_PUMPKIN:2",
@@ -33,14 +42,5 @@
     "C1": "POLISHED_PUMPKIN:2",
     "C2": "POLISHED_PUMPKIN:2",
     "C3": "POLISHED_PUMPKIN:2"
-  },
-  "internalname": "PUMPKIN_DICER_2",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Pumpkin_Dicer_2.0",
-    "https://wiki.hypixel.net/Pumpkin_Dicer_2.0"
-  ]
+  }
 }

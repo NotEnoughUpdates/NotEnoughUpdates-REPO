@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:leather_helmet",
   "displayname": "§fMushroom Helmet",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+20\",1:\"\",2:\"§6Full Set Bonus: Night Affinity §7(0/4)\",3:\"§7Grants the wearer permanent §aNight\",4:\"§aVision§7 while worn. All stats on this\",5:\"§7armor piece are multiplied by §a3x§7 at\",6:\"§7§5night§7 while in §aThe Garden§7.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§7§4❣ §cRequires §aFarming Skill 7§c.\",10:\"§f§lCOMMON HELMET\"],color:16711680,Name:\"§fMushroom Helmet\"},ExtraAttributes:{id:\"MUSHROOM_HELMET\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"MUSHROOM_HELMET\"},HideFlags:254,ItemModel:\"minecraft:leather_helmet\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+20\",1:\"\",2:\"§6Full Set Bonus: Night Affinity §7(0/4)\",3:\"§7Grants the wearer permanent §aNight\",4:\"§aVision§7 while worn. All stats on this\",5:\"§7armor piece are multiplied by §a3x§7 at\",6:\"§5night§7 while in §aThe Garden§7.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§4❣ §cRequires §aFarming Skill 7§c.\",10:\"§f§lCOMMON HELMET\"],Name:\"§fMushroom Helmet\",color:16711680}}",
   "damage": 0,
   "lore": [
     "§7Health: §a+20",
@@ -10,11 +10,20 @@
     "§7Grants the wearer permanent §aNight",
     "§aVision§7 while worn. All stats on this",
     "§7armor piece are multiplied by §a3x§7 at",
-    "§7§5night§7 while in §aThe Garden§7.",
+    "§5night§7 while in §aThe Garden§7.",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aFarming Skill 7§c.",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aFarming Skill 7§c.",
     "§f§lCOMMON HELMET"
+  ],
+  "internalname": "MUSHROOM_HELMET",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Mushroom III",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Mushroom_Helmet",
+    "https://wiki.hypixel.net/Mushroom_Helmet"
   ],
   "recipe": {
     "A1": "RED_MUSHROOM:1",
@@ -26,14 +35,5 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  },
-  "internalname": "MUSHROOM_HELMET",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Mushroom_Helmet",
-    "https://wiki.hypixel.net/Mushroom_Helmet"
-  ],
-  "crafttext": "Requires: Mushroom III"
+  }
 }

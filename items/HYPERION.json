@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:iron_sword",
   "displayname": "§6Hyperion",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Gear Score: §d715\",1:\"§7Damage: §c+310\",2:\"§7Strength: §c+150\",3:\"§7Intelligence: §a+450\",4:\"§7Ferocity: §a+30\",5:\" §8[§8✎§8] §8[§8⚔§8]\",6:\"\",7:\"§7Deals §c+50% §7damage to Withers.\",8:\"§7Grants §c+1 §c❁ Damage §7and §a+2 §b✎\",9:\"§bIntelligence §7per §cCatacombs §7level.\",10:\"\",11:\"§eRight-click to use your class ability!\",12:\"\",13:\"§7§8This item can be reforged!\",14:\"§7§4❣ §cRequires §aThe Catacombs Floor\",15:\"§aVII Completion§c.\",16:\"§6§lLEGENDARY DUNGEON SWORD\"],Name:\"§6Hyperion\"},ExtraAttributes:{id:\"HYPERION\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"HYPERION\"},HideFlags:254,ItemModel:\"minecraft:iron_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Gear Score: §d715\",1:\"§7Damage: §c+310\",2:\"§7Strength: §c+150\",3:\"§7Intelligence: §a+450\",4:\"§7Ferocity: §a+30\",5:\" §8[✎] [⚔]\",6:\"\",7:\"§7Deals §c+50% §7damage to Withers.\",8:\"§7Grants §c+1 ❁ Damage §7and §a+2 §b✎\",9:\"§bIntelligence §7per §cCatacombs §7level.\",10:\"\",11:\"§eRight-click to use your class ability!\",12:\"\",13:\"§8This item can be reforged!\",14:\"§4❣ §cRequires §aThe Catacombs Floor\",15:\"§aVII Completion§c.\",16:\"§6§lLEGENDARY DUNGEON SWORD\"],Name:\"§6Hyperion\"}}",
   "damage": 0,
   "lore": [
     "§7Gear Score: §d715",
@@ -9,18 +9,27 @@
     "§7Strength: §c+150",
     "§7Intelligence: §a+450",
     "§7Ferocity: §a+30",
-    " §8[§8✎§8] §8[§8⚔§8]",
+    " §8[✎] [⚔]",
     "",
     "§7Deals §c+50% §7damage to Withers.",
-    "§7Grants §c+1 §c❁ Damage §7and §a+2 §b✎",
+    "§7Grants §c+1 ❁ Damage §7and §a+2 §b✎",
     "§bIntelligence §7per §cCatacombs §7level.",
     "",
     "§eRight-click to use your class ability!",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aThe Catacombs Floor",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aThe Catacombs Floor",
     "§aVII Completion§c.",
     "§6§lLEGENDARY DUNGEON SWORD"
+  ],
+  "internalname": "HYPERION",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Hyperion",
+    "https://wiki.hypixel.net/Hyperion"
   ],
   "recipe": {
     "A1": "GIANT_FRAGMENT_LASER:1",
@@ -33,14 +42,5 @@
     "C2": "GIANT_FRAGMENT_LASER:1",
     "C3": "GIANT_FRAGMENT_LASER:1"
   },
-  "internalname": "HYPERION",
-  "parent": "NECRON_BLADE",
-  "crafttext": "",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Hyperion",
-    "https://wiki.hypixel.net/Hyperion"
-  ]
+  "parent": "NECRON_BLADE"
 }

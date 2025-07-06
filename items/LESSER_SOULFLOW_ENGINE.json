@@ -1,18 +1,27 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Lesser Soulflow Engine",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"c93930ef-09b8-3460-be44-4db1e73d0724\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyMTkxOTU5NTc5MCwKICAicHJvZmlsZUlkIiA6ICIwOGQ4Nzg3ZDFiYzY0MWE2YWNlNzdjMzliNzVmODZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYWdpa2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2QwNDVjYTNlOGEyOWUxOTkzMTY1NjM2MmUxMjQ3NzYzM2E2ODljNDgwMWQ4ZTIxZjdkYTBmODBjYzU5ZTU2YiIKICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§7This item can be used as a minion\",1:\"§7upgrade.\",2:\"\",3:\"§7Placing it in a minion will reduce the\",4:\"§7minion\u0027s output by §c50%§7, but it will\",5:\"§7start generating §bSoulflow §7items.\",6:\"\",7:\"§7§4☠ §cRequires §5Enderman Slayer 2§c.\",8:\"§9§lRARE\"],Name:\"§9Lesser Soulflow Engine\"},ExtraAttributes:{id:\"LESSER_SOULFLOW_ENGINE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"LESSER_SOULFLOW_ENGINE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"c93930ef-09b8-3460-be44-4db1e73d0724\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyMTkxOTU5NTc5MCwKICAicHJvZmlsZUlkIiA6ICIwOGQ4Nzg3ZDFiYzY0MWE2YWNlNzdjMzliNzVmODZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYWdpa2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2QwNDVjYTNlOGEyOWUxOTkzMTY1NjM2MmUxMjQ3NzYzM2E2ODljNDgwMWQ4ZTIxZjdkYTBmODBjYzU5ZTU2YiIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7This item can be used as a minion\",1:\"§7upgrade.\",2:\"\",3:\"§7Placing it in a minion will reduce the\",4:\"§7minion's output by §c50%§7, but it will\",5:\"§7start generating §bSoulflow §7items.\",6:\"\",7:\"§4☠ §cRequires §5Enderman Slayer 2§c.\",8:\"§9§lRARE\"],Name:\"§9Lesser Soulflow Engine\"}}",
   "damage": 3,
   "lore": [
     "§7This item can be used as a minion",
     "§7upgrade.",
     "",
     "§7Placing it in a minion will reduce the",
-    "§7minion\u0027s output by §c50%§7, but it will",
+    "§7minion's output by §c50%§7, but it will",
     "§7start generating §bSoulflow §7items.",
     "",
-    "§7§4☠ §cRequires §5Enderman Slayer 2§c.",
+    "§4☠ §cRequires §5Enderman Slayer 2§c.",
     "§9§lRARE"
+  ],
+  "internalname": "LESSER_SOULFLOW_ENGINE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Enderman Slayer 2",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Lesser_Soulflow_Engine",
+    "https://wiki.hypixel.net/Lesser_Soulflow_Engine"
   ],
   "recipe": {
     "A1": "NULL_OVOID:1",
@@ -25,14 +34,5 @@
     "C2": "NULL_OVOID:1",
     "C3": "NULL_OVOID:1"
   },
-  "slayer_req": "EMAN_2",
-  "internalname": "LESSER_SOULFLOW_ENGINE",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "crafttext": "Requires: Enderman Slayer 2",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Lesser_Soulflow_Engine",
-    "https://wiki.hypixel.net/Lesser_Soulflow_Engine"
-  ]
+  "slayer_req": "EMAN_2"
 }

@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:leather_helmet",
   "displayname": "§5Speedster Helmet",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+70\",1:\"§7Speed: §a+15\",2:\"\",3:\"§6Full Set Bonus: Bonus Speed\",4:\"§7Increases §f✦ Speed §7by\",5:\"§7§a+20§7.\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§5§lEPIC HELMET\"],color:14744823,Name:\"§5Speedster Helmet\"},ExtraAttributes:{color:\"224:252:247\",id:\"SPEEDSTER_HELMET\"}}",
+  "nbttag": "{ExtraAttributes:{color:\"224:252:247\",id:\"SPEEDSTER_HELMET\"},HideFlags:254,ItemModel:\"minecraft:leather_helmet\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+70\",1:\"§7Speed: §a+15\",2:\"\",3:\"§6Full Set Bonus: Bonus Speed\",4:\"§7Increases §f✦ Speed §7by\",5:\"§a+20§7.\",6:\"\",7:\"§8This item can be reforged!\",8:\"§5§lEPIC HELMET\"],Name:\"§5Speedster Helmet\",color:14744823}}",
   "damage": 0,
   "lore": [
     "§7Defense: §a+70",
@@ -9,10 +9,19 @@
     "",
     "§6Full Set Bonus: Bonus Speed",
     "§7Increases §f✦ Speed §7by",
-    "§7§a+20§7.",
+    "§a+20§7.",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§5§lEPIC HELMET"
+  ],
+  "internalname": "SPEEDSTER_HELMET",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Sugar Cane IX",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Speedster_Helmet",
+    "https://wiki.hypixel.net/Speedster_Helmet"
   ],
   "recipe": {
     "A1": "ENCHANTED_SUGAR_CANE:1",
@@ -24,14 +33,5 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  },
-  "internalname": "SPEEDSTER_HELMET",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Speedster_Helmet",
-    "https://wiki.hypixel.net/Speedster_Helmet"
-  ],
-  "crafttext": "Requires: Sugar Cane IX"
+  }
 }

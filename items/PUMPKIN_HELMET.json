@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:leather_helmet",
   "displayname": "§fPumpkin Helmet",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Health: §a+8\",1:\"§7Defense: §a+8\",2:\"\",3:\"§6Full Set Bonus: Pumpkin Buff\",4:\"§7Reduce all taken damage by\",5:\"§7§a+10%§7 and deal §a+10%\",6:\"§a§7damage.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§f§lCOMMON HELMET\"],color:15575606,Name:\"§fPumpkin Helmet\"},ExtraAttributes:{color:\"237:170:54\",id:\"PUMPKIN_HELMET\"}}",
+  "nbttag": "{ExtraAttributes:{color:\"237:170:54\",id:\"PUMPKIN_HELMET\"},HideFlags:254,ItemModel:\"minecraft:leather_helmet\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+8\",1:\"§7Defense: §a+8\",2:\"\",3:\"§6Full Set Bonus: Pumpkin Buff\",4:\"§7Reduce all taken damage by\",5:\"§a+10%§7 and deal §a+10%\",6:\"§7damage.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§f§lCOMMON HELMET\"],Name:\"§fPumpkin Helmet\",color:15575606}}",
   "damage": 0,
   "lore": [
     "§7Health: §a+8",
@@ -9,11 +9,20 @@
     "",
     "§6Full Set Bonus: Pumpkin Buff",
     "§7Reduce all taken damage by",
-    "§7§a+10%§7 and deal §a+10%",
-    "§a§7damage.",
+    "§a+10%§7 and deal §a+10%",
+    "§7damage.",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§f§lCOMMON HELMET"
+  ],
+  "internalname": "PUMPKIN_HELMET",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Pumpkin II",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Pumpkin_Helmet",
+    "https://wiki.hypixel.net/Pumpkin_Helmet"
   ],
   "recipe": {
     "A1": "PUMPKIN:1",
@@ -25,14 +34,5 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  },
-  "internalname": "PUMPKIN_HELMET",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Pumpkin_Helmet",
-    "https://wiki.hypixel.net/Pumpkin_Helmet"
-  ],
-  "crafttext": "Requires: Pumpkin II"
+  }
 }

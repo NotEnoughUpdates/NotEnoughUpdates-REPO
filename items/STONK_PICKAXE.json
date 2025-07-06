@@ -1,11 +1,8 @@
 {
-  "internalname": "STONK_PICKAXE",
   "itemid": "minecraft:golden_pickaxe",
-  "displayname": "§f§f§5Stonk",
-  "clickcommand": "",
+  "displayname": "§5Stonk",
+  "nbttag": "{ExtraAttributes:{enchantments:{efficiency:6},id:\"STONK_PICKAXE\"},HideFlags:254,ItemModel:\"minecraft:golden_pickaxe\",Unbreakable:1B,display:{Lore:[0:\"§8Breaking Power 1\",1:\"\",2:\"§7Mining Speed: §a+380\",3:\"\",4:\"§9Efficiency VI\",5:\"§7Increases how quickly your tool\",6:\"§7breaks blocks.\",7:\"\",8:\"§7When mining End Stone with this\",9:\"§7pickaxe, Endermites won't spawn,\",10:\"§7experience will be dropped!\",11:\"§a5%§7 chance to drop an extra\",12:\"§7End Stone block.\",13:\"\",14:\"§8This item can be reforged!\",15:\"§5§lEPIC PICKAXE\"],Name:\"§5Stonk\"},ench:[0:{id:32S,lvl:6S}]}",
   "damage": 0,
-  "nbttag": "{ench:[0:{lvl:6s,id:32s}],Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§8Breaking Power 1\",1:\"\",2:\"§7Mining Speed: §a+380\",3:\"\",4:\"§9Efficiency VI\",5:\"§7Increases how quickly your tool\",6:\"§7breaks blocks.\",7:\"\",8:\"§7When mining End Stone with this\",9:\"§7pickaxe, Endermites won\u0027t spawn,\",10:\"§7experience will be dropped!\",11:\"§7§a5%§7 chance to drop an extra\",12:\"§7End Stone block.\",13:\"\",14:\"§7§8This item can be reforged!\",15:\"§5§lEPIC PICKAXE\"],Name:\"§f§f§5Stonk\"},ExtraAttributes:{id:\"STONK_PICKAXE\",enchantments:{efficiency:6}}}",
-  "modver": "2.1.1-PRE",
   "lore": [
     "§8Breaking Power 1",
     "",
@@ -16,20 +13,23 @@
     "§7breaks blocks.",
     "",
     "§7When mining End Stone with this",
-    "§7pickaxe, Endermites won\u0027t spawn,",
+    "§7pickaxe, Endermites won't spawn,",
     "§7experience will be dropped!",
-    "§7§a5%§7 chance to drop an extra",
+    "§a5%§7 chance to drop an extra",
     "§7End Stone block.",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§5§lEPIC PICKAXE"
   ],
+  "internalname": "STONK_PICKAXE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Stonk",
     "https://wiki.hypixel.net/Stonk"
   ],
-  "crafttext": "",
   "recipes": [
     {
       "type": "trade",
