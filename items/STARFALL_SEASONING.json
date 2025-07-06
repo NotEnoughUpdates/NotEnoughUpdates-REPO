@@ -1,25 +1,29 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Starfall Seasoning",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"9b1da9cf-776b-3c7d-b901-bd611b1693c7\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxNDM2NjcxNjExMiwKICAicHJvZmlsZUlkIiA6ICJjYmYxNGIxMGJhNWU0NzgwYjIyNmFiNmQzOTUxODk4YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJFZ2d5QnV0dG9uMjQxMSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lZTZlMzY5YWM5MjY4ZTA5NzEzZGE1ZWMyYmQzZjY2M2ZkZTZlYWJhYjE3ZjRjMjY3ODE1ODc2MGUyNWEwNzgwIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§8Drill Part\",1:\"\",2:\"§7Grants §6+25⸕ Mining Speed §7and §6+10☘\",3:\"§6Mining Fortune§7. Doubled when within\",4:\"§7§a20 §7blocks of a §5Fallen Star§7.\",5:\"\",6:\"§7Put this item in the §6Upgrade Module\",7:\"§6§7slot of a Drill at a §2Drill Mechanic§7!\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Starfall Seasoning\"},ExtraAttributes:{id:\"STARFALL_SEASONING\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"STARFALL_SEASONING\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"9b1da9cf-776b-3c7d-b901-bd611b1693c7\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxNDM2NjcxNjExMiwKICAicHJvZmlsZUlkIiA6ICJjYmYxNGIxMGJhNWU0NzgwYjIyNmFiNmQzOTUxODk4YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJFZ2d5QnV0dG9uMjQxMSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lZTZlMzY5YWM5MjY4ZTA5NzEzZGE1ZWMyYmQzZjY2M2ZkZTZlYWJhYjE3ZjRjMjY3ODE1ODc2MGUyNWEwNzgwIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Drill Part\",1:\"\",2:\"§7Grants §6+25⸕ Mining Speed §7and §6+10☘\",3:\"§6Mining Fortune§7. Doubled when within\",4:\"§a20 §7blocks of a §5Fallen Star§7.\",5:\"\",6:\"§7Put this item in the §6Upgrade Module\",7:\"§7slot of a Drill at a §2Drill Mechanic§7!\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Starfall Seasoning\"}}",
   "damage": 3,
   "lore": [
     "§8Drill Part",
     "",
     "§7Grants §6+25⸕ Mining Speed §7and §6+10☘",
     "§6Mining Fortune§7. Doubled when within",
-    "§7§a20 §7blocks of a §5Fallen Star§7.",
+    "§a20 §7blocks of a §5Fallen Star§7.",
     "",
     "§7Put this item in the §6Upgrade Module",
-    "§6§7slot of a Drill at a §2Drill Mechanic§7!",
+    "§7slot of a Drill at a §2Drill Mechanic§7!",
     "",
     "§9§lRARE"
   ],
   "internalname": "STARFALL_SEASONING",
-  "crafttext": "Requires: HotM 2",
   "clickcommand": "viewrecipe",
-  "modver": "",
+  "crafttext": "Requires: HotM 2",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
   "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Starfall_Seasoning",
+    "https://wiki.hypixel.net/Starfall_Seasoning"
+  ],
   "recipes": [
     {
       "type": "forge",
@@ -31,9 +35,5 @@
       "overrideOutputId": "STARFALL_SEASONING",
       "duration": 64800
     }
-  ],
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Starfall_Seasoning",
-    "https://wiki.hypixel.net/Starfall_Seasoning"
   ]
 }

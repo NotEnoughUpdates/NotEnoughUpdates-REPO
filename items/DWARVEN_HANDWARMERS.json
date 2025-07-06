@@ -1,21 +1,25 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§5Dwarven Handwarmers",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"7832fa38-404c-3f31-a749-66fe3422bf4e\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwOTA2MTI0Njg1MywKICAicHJvZmlsZUlkIiA6ICJjYTU4NzNhYmY0Y2U0YWUxODAxZmVmODgzNjhlMWExNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZXRocm9uZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzMwMWQ5ZjliNmYxOGRkZWVjYzU3YjUyMjkxNmNjNzU2NmMzOTdkNjQ5ZjIzYzMxOGUzZjVlZjY3Y2JjZjI2NiIKICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§7Mining Speed: §a+45\",1:\"§7Mining Fortune: §a+30\",2:\"§7Cold Resistance: §a+5\",3:\"\",4:\"§7§8This item can be reforged!\",5:\"§5§lEPIC GLOVES\"],Name:\"§5Dwarven Handwarmers\"},ExtraAttributes:{id:\"DWARVEN_HANDWARMERS\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"DWARVEN_HANDWARMERS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"7832fa38-404c-3f31-a749-66fe3422bf4e\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwOTA2MTI0Njg1MywKICAicHJvZmlsZUlkIiA6ICJjYTU4NzNhYmY0Y2U0YWUxODAxZmVmODgzNjhlMWExNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZXRocm9uZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzMwMWQ5ZjliNmYxOGRkZWVjYzU3YjUyMjkxNmNjNzU2NmMzOTdkNjQ5ZjIzYzMxOGUzZjVlZjY3Y2JjZjI2NiIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mining Speed: §a+45\",1:\"§7Mining Fortune: §a+30\",2:\"§7Cold Resistance: §a+5\",3:\"\",4:\"§8This item can be reforged!\",5:\"§5§lEPIC GLOVES\"],Name:\"§5Dwarven Handwarmers\"}}",
   "damage": 3,
   "lore": [
     "§7Mining Speed: §a+45",
     "§7Mining Fortune: §a+30",
     "§7Cold Resistance: §a+5",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§5§lEPIC GLOVES"
   ],
   "internalname": "DWARVEN_HANDWARMERS",
-  "crafttext": "Requires: HotM 8",
   "clickcommand": "viewrecipe",
-  "modver": "2.3.0",
+  "crafttext": "Requires: HotM 8",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
   "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Dwarven_Handwarmers",
+    "https://wiki.hypixel.net/Dwarven_Handwarmers"
+  ],
   "recipes": [
     {
       "type": "forge",
@@ -29,9 +33,5 @@
       "duration": 14400,
       "overrideOutputId": "DWARVEN_HANDWARMERS"
     }
-  ],
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Dwarven_Handwarmers",
-    "https://wiki.hypixel.net/Dwarven_Handwarmers"
   ]
 }

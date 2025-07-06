@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:armor_stand",
   "displayname": "§5Glacite-Plated Chisel",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\" §8[§7❥§8] §8[§7❥§8]\",1:\"\",2:\"§7Can be placed in the §6Fossil\",3:\"§6Excavator §7alongside a §9Suspicious\",4:\"§9Scrap §7to begin the excavation\",5:\"§7process!\",6:\"\",7:\"§7Charges: §e20\",8:\"\",9:\"§7§4❣ §cRequires §5Heart of the Mountain Tier 9§c.\",10:\"§5§lEPIC CHISEL\"],Name:\"§5Glacite-Plated Chisel\"},ExtraAttributes:{id:\"GLACITE_CHISEL\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"GLACITE_CHISEL\"},HideFlags:254,ItemModel:\"minecraft:armor_stand\",display:{Lore:[0:\" §8[§7❥§8] [§7❥§8]\",1:\"\",2:\"§7Can be placed in the §6Fossil\",3:\"§6Excavator §7alongside a §9Suspicious\",4:\"§9Scrap §7to begin the excavation\",5:\"§7process!\",6:\"\",7:\"§7Charges: §e20\",8:\"\",9:\"§4❣ §cRequires §5Heart of the Mountain Tier 9§c.\",10:\"§5§lEPIC CHISEL\"],Name:\"§5Glacite-Plated Chisel\"}}",
   "damage": 0,
   "lore": [
-    " §8[§7❥§8] §8[§7❥§8]",
+    " §8[§7❥§8] [§7❥§8]",
     "",
     "§7Can be placed in the §6Fossil",
     "§6Excavator §7alongside a §9Suspicious",
@@ -13,14 +13,18 @@
     "",
     "§7Charges: §e20",
     "",
-    "§7§4❣ §cRequires §5Heart of the Mountain Tier 9§c.",
+    "§4❣ §cRequires §5Heart of the Mountain Tier 9§c.",
     "§5§lEPIC CHISEL"
   ],
   "internalname": "GLACITE_CHISEL",
-  "crafttext": "Requires: HotM 9",
   "clickcommand": "viewrecipe",
-  "modver": "v2.1.1-pre5",
+  "crafttext": "Requires: HotM 9",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
   "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Glacite-Plated_Chisel",
+    "https://wiki.hypixel.net/Glacite-Plated_Chisel"
+  ],
   "recipes": [
     {
       "type": "forge",
@@ -34,9 +38,5 @@
       "duration": 30,
       "overrideOutputId": "GLACITE_CHISEL"
     }
-  ],
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Glacite-Plated_Chisel",
-    "https://wiki.hypixel.net/Glacite-Plated_Chisel"
   ]
 }

@@ -1,0 +1,33 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "UNDEAD_CATALYST"
+		},
+		"minecraft:profile": {
+			id: [I;
+				1543051549,
+				-589349873,
+				-1342603316,
+				1555079169
+			],
+			name: "",
+			properties: [
+				{
+					name: "textures",
+					value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODA2MjUzNjliMGE3YjA1MjYzMmRiNmI5MjZhODc2NzAyMTk1Mzk5MjI4MzZhYzU5NDBiZTI2ZDM0YmYxNGUxMCJ9fX0="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+gb028db5"
+	}
+}

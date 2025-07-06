@@ -1,0 +1,23 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "REFINED_BOTTLE_OF_JYRRE"
+		},
+		"minecraft:enchantment_glint_override": 1b,
+		"minecraft:potion_contents": {
+			potion: "minecraft:water"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:potion_contents",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:potion",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+gb028db5"
+	}
+}

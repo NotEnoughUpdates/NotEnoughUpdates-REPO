@@ -1,20 +1,20 @@
 {
   "itemid": "minecraft:iron_sword",
   "displayname": "§aHunter Knife",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+50\",1:\"§7Speed: §a+40\",2:\"\",3:\"§7§8This item can be reforged!\",4:\"§8§l* §8Co-op Soulbound §8§l*\",5:\"§a§lUNCOMMON SWORD\"],Name:\"§aHunter Knife\"},ExtraAttributes:{id:\"HUNTER_KNIFE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"HUNTER_KNIFE\"},HideFlags:254,ItemModel:\"minecraft:iron_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+50\",1:\"§7Speed: §a+40\",2:\"\",3:\"§8This item can be reforged!\",4:\"§8§l* §8Co-op Soulbound §8§l*\",5:\"§a§lUNCOMMON SWORD\"],Name:\"§aHunter Knife\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+50",
     "§7Speed: §a+40",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§8§l* §8Co-op Soulbound §8§l*",
     "§a§lUNCOMMON SWORD"
   ],
   "internalname": "HUNTER_KNIFE",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "2.1.0-REL",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Hunter_Knife",
@@ -22,9 +22,9 @@
   ],
   "recipes": [
     {
-    "type": "trade",
-    "cost": "ENCHANTED_EMERALD:10",
-    "result": "HUNTER_KNIFE"
+      "type": "trade",
+      "cost": "ENCHANTED_EMERALD:10",
+      "result": "HUNTER_KNIFE"
     }
   ]
 }

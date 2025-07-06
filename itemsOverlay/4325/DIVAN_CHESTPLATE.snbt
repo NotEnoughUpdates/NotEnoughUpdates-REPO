@@ -1,0 +1,24 @@
+{
+	components: {
+		"minecraft:attribute_modifiers": [
+		],
+		"minecraft:custom_data": {
+			id: "DIVAN_CHESTPLATE"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:dyed_color"
+			]
+		},
+		"minecraft:unbreakable": {
+		}
+	},
+	count: 1,
+	id: "minecraft:golden_chestplate",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+gb028db5"
+	}
+}

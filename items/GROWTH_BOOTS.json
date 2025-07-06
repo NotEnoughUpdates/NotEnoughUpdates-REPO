@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:leather_boots",
   "displayname": "§9Boots of Growth",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Health: §a+51\",1:\"§7Defense: §a+25\",2:\"\",3:\"§6Ability: Growth\",4:\"§7Heals you for §a1% §c❤ Health\",5:\"§c§7after killing a Monster, and\",6:\"§7also increases the §c❤ Health\",7:\"§c§7bonus of a piece of the armor\",8:\"§7by §a1§8 (Max 100)\",9:\"§8Cooldown: §a4s\",10:\"\",11:\"§7Bonus HP: §a0/100\",12:\"\",13:\"§7§8This item can be reforged!\",14:\"§9§lRARE BOOTS\"],color:48640,Name:\"§9Boots of Growth\"},ExtraAttributes:{color:\"0:190:0\",health:1,id:\"GROWTH_BOOTS\"}}",
+  "nbttag": "{ExtraAttributes:{color:\"0:190:0\",health:1,id:\"GROWTH_BOOTS\"},HideFlags:254,ItemModel:\"minecraft:leather_boots\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+51\",1:\"§7Defense: §a+25\",2:\"\",3:\"§6Ability: Growth\",4:\"§7Heals you for §a1% §c❤ Health\",5:\"§7after killing a Monster, and\",6:\"§7also increases the §c❤ Health\",7:\"§7bonus of a piece of the armor\",8:\"§7by §a1§8 (Max 100)\",9:\"§8Cooldown: §a4s\",10:\"\",11:\"§7Bonus HP: §a0/100\",12:\"\",13:\"§8This item can be reforged!\",14:\"§9§lRARE BOOTS\"],Name:\"§9Boots of Growth\",color:48640}}",
   "damage": 0,
   "lore": [
     "§7Health: §a+51",
@@ -9,16 +9,25 @@
     "",
     "§6Ability: Growth",
     "§7Heals you for §a1% §c❤ Health",
-    "§c§7after killing a Monster, and",
+    "§7after killing a Monster, and",
     "§7also increases the §c❤ Health",
-    "§c§7bonus of a piece of the armor",
+    "§7bonus of a piece of the armor",
     "§7by §a1§8 (Max 100)",
     "§8Cooldown: §a4s",
     "",
     "§7Bonus HP: §a0/100",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§9§lRARE BOOTS"
+  ],
+  "internalname": "GROWTH_BOOTS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Dark Oak Wood IX",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Boots_of_Growth",
+    "https://wiki.hypixel.net/Boots_Of_Growth"
   ],
   "recipe": {
     "A1": "ENCHANTED_DARK_OAK_LOG:64",
@@ -30,14 +39,5 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  },
-  "internalname": "GROWTH_BOOTS",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Boots_of_Growth",
-    "https://wiki.hypixel.net/Boots_Of_Growth"
-  ],
-  "crafttext": "Requires: Dark Oak Wood IX"
+  }
 }

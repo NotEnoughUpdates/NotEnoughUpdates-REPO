@@ -1,12 +1,21 @@
 {
   "itemid": "minecraft:blaze_powder",
   "displayname": "§9Molten Powder",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Molten Powder\"},ExtraAttributes:{id:\"MOLTEN_POWDER\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"MOLTEN_POWDER\"},HideFlags:254,ItemModel:\"minecraft:blaze_powder\",display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Molten Powder\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§eRight-click to view recipes!",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "MOLTEN_POWDER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Molten_Powder",
+    "https://wiki.hypixel.net/Molten_Powder"
   ],
   "recipe": {
     "A1": "",
@@ -18,14 +27,5 @@
     "C1": "",
     "C2": "DERELICT_ASHE:32",
     "C3": ""
-  },
-  "internalname": "MOLTEN_POWDER",
-  "crafttext": "",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Molten_Powder",
-    "https://wiki.hypixel.net/Molten_Powder"
-  ]
+  }
 }

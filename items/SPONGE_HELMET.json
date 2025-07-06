@@ -1,20 +1,29 @@
 {
   "itemid": "minecraft:sponge",
   "displayname": "§5Sponge Helmet",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Sea Creature Chance: §c+2%\",1:\"§7Defense: §a+100\",2:\" §8[§8☂§8]\",3:\"\",4:\"§6Full Set Bonus: Absorb §7(0/4)\",5:\"§7§9Doubles§7 your §a❈ Defense§7 while in\",6:\"§7water.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§7§4❣ §cRequires §aFishing Skill 17§c.\",10:\"§5§lEPIC HELMET\"],Name:\"§5Sponge Helmet\"},ExtraAttributes:{id:\"SPONGE_HELMET\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SPONGE_HELMET\"},HideFlags:254,ItemModel:\"minecraft:sponge\",display:{Lore:[0:\"§7Sea Creature Chance: §c+2%\",1:\"§7Defense: §a+100\",2:\" §8[☂]\",3:\"\",4:\"§6Full Set Bonus: Absorb §7(0/4)\",5:\"§9Doubles§7 your §a❈ Defense§7 while in\",6:\"§7water.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§4❣ §cRequires §aFishing Skill 17§c.\",10:\"§5§lEPIC HELMET\"],Name:\"§5Sponge Helmet\"}}",
   "damage": 0,
   "lore": [
     "§7Sea Creature Chance: §c+2%",
     "§7Defense: §a+100",
-    " §8[§8☂§8]",
+    " §8[☂]",
     "",
     "§6Full Set Bonus: Absorb §7(0/4)",
-    "§7§9Doubles§7 your §a❈ Defense§7 while in",
+    "§9Doubles§7 your §a❈ Defense§7 while in",
     "§7water.",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aFishing Skill 17§c.",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aFishing Skill 17§c.",
     "§5§lEPIC HELMET"
+  ],
+  "internalname": "SPONGE_HELMET",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Sponge IX",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Sponge_Helmet",
+    "https://wiki.hypixel.net/Sponge_Helmet"
   ],
   "recipe": {
     "A1": "ENCHANTED_WET_SPONGE:1",
@@ -26,14 +35,5 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  },
-  "internalname": "SPONGE_HELMET",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Sponge_Helmet",
-    "https://wiki.hypixel.net/Sponge_Helmet"
-  ],
-  "crafttext": "Requires: Sponge IX"
+  }
 }

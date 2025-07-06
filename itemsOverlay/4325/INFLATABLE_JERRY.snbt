@@ -1,0 +1,27 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "INFLATABLE_JERRY"
+		},
+		"minecraft:entity_data": {
+			VillagerData: {
+				level: 1,
+				profession: "minecraft:farmer",
+				type: "minecraft:plains"
+			},
+			Xp: 0,
+			id: "minecraft:villager"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:villager_spawn_egg",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+gb028db5"
+	}
+}

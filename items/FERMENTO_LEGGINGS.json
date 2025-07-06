@@ -1,24 +1,33 @@
 {
   "itemid": "minecraft:leather_leggings",
   "displayname": "§6Fermento Leggings",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+195\",1:\"§7Defense: §a+40\",2:\"§7Speed: §a+6\",3:\"§7Farming Fortune: §a+35\",4:\" §8[§8☘§8] §8[§8☘§8]\",5:\"\",6:\"§8Tiered Bonus: Feast (0/4)\",7:\"§7Combines the Tiered Bonuses of\",8:\"§7wearing §a0 pieces §7of the Melon Armor,\",9:\"§7Cropie Armor, and Squash Armor.\",10:\"§7§7Grants §60☘ Farming Fortune§7.\",11:\"\",12:\"§7§8This item can be reforged!\",13:\"§7§4❣ §cRequires §aFarming Skill 40§c.\",14:\"§6§lLEGENDARY LEGGINGS\"],color:6986779,Name:\"§6Fermento Leggings\"},ExtraAttributes:{id:\"FERMENTO_LEGGINGS\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"FERMENTO_LEGGINGS\"},HideFlags:254,ItemModel:\"minecraft:leather_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+195\",1:\"§7Defense: §a+40\",2:\"§7Speed: §a+6\",3:\"§7Farming Fortune: §a+35\",4:\" §8[☘] [☘]\",5:\"\",6:\"§8Tiered Bonus: Feast (0/4)\",7:\"§7Combines the Tiered Bonuses of\",8:\"§7wearing §a0 pieces §7of the Melon Armor,\",9:\"§7Cropie Armor, and Squash Armor.\",10:\"§7Grants §60☘ Farming Fortune§7.\",11:\"\",12:\"§8This item can be reforged!\",13:\"§4❣ §cRequires §aFarming Skill 40§c.\",14:\"§6§lLEGENDARY LEGGINGS\"],Name:\"§6Fermento Leggings\",color:6986779}}",
   "damage": 0,
   "lore": [
     "§7Health: §a+195",
     "§7Defense: §a+40",
     "§7Speed: §a+6",
     "§7Farming Fortune: §a+35",
-    " §8[§8☘§8] §8[§8☘§8]",
+    " §8[☘] [☘]",
     "",
     "§8Tiered Bonus: Feast (0/4)",
     "§7Combines the Tiered Bonuses of",
     "§7wearing §a0 pieces §7of the Melon Armor,",
     "§7Cropie Armor, and Squash Armor.",
-    "§7§7Grants §60☘ Farming Fortune§7.",
+    "§7Grants §60☘ Farming Fortune§7.",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aFarming Skill 40§c.",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aFarming Skill 40§c.",
     "§6§lLEGENDARY LEGGINGS"
+  ],
+  "internalname": "FERMENTO_LEGGINGS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Fermento_Leggings",
+    "https://wiki.hypixel.net/Fermento_Leggings"
   ],
   "recipe": {
     "A1": "CONDENSED_FERMENTO:1",
@@ -30,14 +39,5 @@
     "C1": "MUTANT_NETHER_STALK:20",
     "C2": "",
     "C3": "MUTANT_NETHER_STALK:20"
-  },
-  "internalname": "FERMENTO_LEGGINGS",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Fermento_Leggings",
-    "https://wiki.hypixel.net/Fermento_Leggings"
-  ]
+  }
 }

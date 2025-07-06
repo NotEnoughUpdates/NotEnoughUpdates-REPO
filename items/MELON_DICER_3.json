@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:diamond_axe",
   "displayname": "§6Melon Dicer 3.0",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\" §8[§8☘§8] §8[§8☘§8] §8[§8☘§8]\",1:\"\",2:\"§7§7Gain §3+10☯ Farming Wisdom §7while\",3:\"§7harvesting melons§7.\",4:\"\",5:\"§6Ability: Roll em\u0027++ \",6:\"§7Every melon you break, you make\",7:\"§7a wish to §dRNGesus §7which may\",8:\"§7grant you with a few or TONS of\",9:\"§7extra melons!\",10:\"\",11:\"§7§oAlmost identical to the Melon Dicer\",12:\"§7§o2.0, but it has 3.0 in the name!\",13:\"\",14:\"§7§8This item can be reforged!\",15:\"§6§lLEGENDARY AXE\"],Name:\"§6Melon Dicer 3.0\"},ExtraAttributes:{id:\"MELON_DICER_3\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"MELON_DICER_3\"},HideFlags:254,ItemModel:\"minecraft:diamond_axe\",Unbreakable:1B,display:{Lore:[0:\" §8[☘] [☘] [☘]\",1:\"\",2:\"§7Gain §3+10☯ Farming Wisdom §7while\",3:\"§7harvesting melons.\",4:\"\",5:\"§6Ability: Roll em'++ \",6:\"§7Every melon you break, you make\",7:\"§7a wish to §dRNGesus §7which may\",8:\"§7grant you with a few or TONS of\",9:\"§7extra melons!\",10:\"\",11:\"§7§oAlmost identical to the Melon Dicer\",12:\"§7§o2.0, but it has 3.0 in the name!\",13:\"\",14:\"§8This item can be reforged!\",15:\"§6§lLEGENDARY AXE\"],Name:\"§6Melon Dicer 3.0\"}}",
   "damage": 0,
   "lore": [
-    " §8[§8☘§8] §8[§8☘§8] §8[§8☘§8]",
+    " §8[☘] [☘] [☘]",
     "",
-    "§7§7Gain §3+10☯ Farming Wisdom §7while",
-    "§7harvesting melons§7.",
+    "§7Gain §3+10☯ Farming Wisdom §7while",
+    "§7harvesting melons.",
     "",
-    "§6Ability: Roll em\u0027++ ",
+    "§6Ability: Roll em'++ ",
     "§7Every melon you break, you make",
     "§7a wish to §dRNGesus §7which may",
     "§7grant you with a few or TONS of",
@@ -18,8 +18,17 @@
     "§7§oAlmost identical to the Melon Dicer",
     "§7§o2.0, but it has 3.0 in the name!",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§6§lLEGENDARY AXE"
+  ],
+  "internalname": "MELON_DICER_3",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Melon_Dicer_3.0",
+    "https://wiki.hypixel.net/Melon_Dicer_3.0"
   ],
   "recipe": {
     "A1": "ENCHANTED_MELON_BLOCK:16",
@@ -31,14 +40,5 @@
     "C1": "ENCHANTED_MELON_BLOCK:16",
     "C2": "ENCHANTED_MELON_BLOCK:16",
     "C3": "ENCHANTED_MELON_BLOCK:16"
-  },
-  "internalname": "MELON_DICER_3",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Melon_Dicer_3.0",
-    "https://wiki.hypixel.net/Melon_Dicer_3.0"
-  ]
+  }
 }

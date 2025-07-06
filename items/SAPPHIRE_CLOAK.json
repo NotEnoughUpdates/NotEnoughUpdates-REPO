@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§5Sapphire Cloak",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"df7174f6-e7fe-3609-bc55-3f5178e74745\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwNzk5NDM0ODE1NywKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzcxZmMyNjdiYzc2MTYyY2YxNTE3ZTllNWY0ODc4Zjg3MDA0ZDZjYjk4MWY0ZjAwNzU3ZGM0MDE0MjdiOWMxMGQiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Mining Speed: §a+30\",1:\"§7Mining Fortune: §a+10\",2:\"\",3:\"§7Grants §6+30☘ Mining Fortune §7while\",4:\"§7mining §bSapphire§7.\",5:\"§7\",6:\"§6Full Set Bonus: Gemstone Gatherer §7(0/4)\",7:\"§7Grants §6+25☘ Mining Fortune §7while in\",8:\"§7the §5Crystal Hollows§7.\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§5§lEPIC CLOAK\"],Name:\"§5Sapphire Cloak\"},ExtraAttributes:{id:\"SAPPHIRE_CLOAK\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SAPPHIRE_CLOAK\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"df7174f6-e7fe-3609-bc55-3f5178e74745\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwNzk5NDM0ODE1NywKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzcxZmMyNjdiYzc2MTYyY2YxNTE3ZTllNWY0ODc4Zjg3MDA0ZDZjYjk4MWY0ZjAwNzU3ZGM0MDE0MjdiOWMxMGQiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mining Speed: §a+30\",1:\"§7Mining Fortune: §a+10\",2:\"\",3:\"§7Grants §6+30☘ Mining Fortune §7while\",4:\"§7mining §bSapphire§7.\",5:\"\",6:\"§6Full Set Bonus: Gemstone Gatherer §7(0/4)\",7:\"§7Grants §6+25☘ Mining Fortune §7while in\",8:\"§7the §5Crystal Hollows§7.\",9:\"\",10:\"§8This item can be reforged!\",11:\"§5§lEPIC CLOAK\"],Name:\"§5Sapphire Cloak\"}}",
   "damage": 3,
   "lore": [
     "§7Mining Speed: §a+30",
@@ -9,19 +9,23 @@
     "",
     "§7Grants §6+30☘ Mining Fortune §7while",
     "§7mining §bSapphire§7.",
-    "§7",
+    "",
     "§6Full Set Bonus: Gemstone Gatherer §7(0/4)",
     "§7Grants §6+25☘ Mining Fortune §7while in",
     "§7the §5Crystal Hollows§7.",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§5§lEPIC CLOAK"
   ],
   "internalname": "SAPPHIRE_CLOAK",
-  "crafttext": "Requires: HotM 5",
   "clickcommand": "viewrecipe",
-  "modver": "2.3.0",
+  "crafttext": "Requires: HotM 5",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
   "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Sapphire_Cloak",
+    "https://wiki.hypixel.net/Sapphire_Cloak"
+  ],
   "recipes": [
     {
       "type": "forge",
@@ -33,9 +37,5 @@
       "overrideOutputId": "SAPPHIRE_CLOAK",
       "duration": 86400
     }
-  ],
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Sapphire_Cloak",
-    "https://wiki.hypixel.net/Sapphire_Cloak"
   ]
 }

@@ -1,12 +1,21 @@
 {
   "itemid": "minecraft:spawn_egg",
   "displayname": "§9Null Ovoid",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Null Ovoid\"},ExtraAttributes:{id:\"NULL_OVOID\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"NULL_OVOID\"},HideFlags:254,ItemModel:\"minecraft:enderman_spawn_egg\",display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Null Ovoid\"},ench:[]}",
   "damage": 58,
   "lore": [
     "§eRight-click to view recipes!",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "NULL_OVOID",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Null_Ovoid",
+    "https://wiki.hypixel.net/Null_Ovoid"
   ],
   "recipe": {
     "A1": "",
@@ -19,14 +28,5 @@
     "C2": "NULL_SPHERE:32",
     "C3": ""
   },
-  "slayer_req": "EMAN_2",
-  "internalname": "NULL_OVOID",
-  "crafttext": "",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Null_Ovoid",
-    "https://wiki.hypixel.net/Null_Ovoid"
-  ]
+  "slayer_req": "EMAN_2"
 }

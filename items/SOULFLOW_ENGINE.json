@@ -1,22 +1,31 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§5Soulflow Engine",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"b5047a0a-5b46-3c18-8e23-9208799bc889\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyMTkxOTQ1MTM2OCwKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2IwNDMzZjFjMjI3OTYwOGY3YmQyY2VjZWI5OGNkMTc1Y2JhYWRjM2Y2Mjk5YWUzY2NhZTI1N2RjMjJhNTViMiIKICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§7This item can be used as a minion\",1:\"§7upgrade.\",2:\"\",3:\"§7Placing it in a minion will reduce the\",4:\"§7minion\u0027s output by §c50%§7, but it will\",5:\"§7start generating §bSoulflow §7items.\",6:\"\",7:\"§7While equipped on a Voidling minion,\",8:\"§7output is increased by §53% §7per minion\",9:\"§7level.\",10:\"\",11:\"§7§4☠ §cRequires §5Enderman Slayer 5§c.\",12:\"§5§lEPIC\"],Name:\"§5Soulflow Engine\"},ExtraAttributes:{id:\"SOULFLOW_ENGINE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SOULFLOW_ENGINE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"b5047a0a-5b46-3c18-8e23-9208799bc889\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyMTkxOTQ1MTM2OCwKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2IwNDMzZjFjMjI3OTYwOGY3YmQyY2VjZWI5OGNkMTc1Y2JhYWRjM2Y2Mjk5YWUzY2NhZTI1N2RjMjJhNTViMiIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7This item can be used as a minion\",1:\"§7upgrade.\",2:\"\",3:\"§7Placing it in a minion will reduce the\",4:\"§7minion's output by §c50%§7, but it will\",5:\"§7start generating §bSoulflow §7items.\",6:\"\",7:\"§7While equipped on a Voidling minion,\",8:\"§7output is increased by §53% §7per minion\",9:\"§7level.\",10:\"\",11:\"§4☠ §cRequires §5Enderman Slayer 5§c.\",12:\"§5§lEPIC\"],Name:\"§5Soulflow Engine\"}}",
   "damage": 3,
   "lore": [
     "§7This item can be used as a minion",
     "§7upgrade.",
     "",
     "§7Placing it in a minion will reduce the",
-    "§7minion\u0027s output by §c50%§7, but it will",
+    "§7minion's output by §c50%§7, but it will",
     "§7start generating §bSoulflow §7items.",
     "",
     "§7While equipped on a Voidling minion,",
     "§7output is increased by §53% §7per minion",
     "§7level.",
     "",
-    "§7§4☠ §cRequires §5Enderman Slayer 5§c.",
+    "§4☠ §cRequires §5Enderman Slayer 5§c.",
     "§5§lEPIC"
+  ],
+  "internalname": "SOULFLOW_ENGINE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Enderman Slayer 5",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Soulflow_Engine",
+    "https://wiki.hypixel.net/Soulflow_Engine"
   ],
   "recipe": {
     "A1": "NULL_ATOM:1",
@@ -29,14 +38,5 @@
     "C2": "LESSER_SOULFLOW_ENGINE:1",
     "C3": "REFINED_TITANIUM:6"
   },
-  "slayer_req": "EMAN_5",
-  "internalname": "SOULFLOW_ENGINE",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "crafttext": "Requires: Enderman Slayer 5",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Soulflow_Engine",
-    "https://wiki.hypixel.net/Soulflow_Engine"
-  ]
+  "slayer_req": "EMAN_5"
 }

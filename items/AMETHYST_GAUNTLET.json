@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§5Amethyst Gauntlet",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"13c9fab8-070a-314d-94d3-a61863d3d94e\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxNTA5Mjk1ODE0MywKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzkzOTI3NjEzYjUyNDRmYzgwOTJmM2FhY2MyNmEwZTJkY2E1MWYyM2M2M2U3ZmE5NTkzY2MxNDBkMGIwOWQ4ODciCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Mining Speed: §a+30\",1:\"§7Mining Fortune: §a+10\",2:\"\",3:\"§7Grants §6+30☘ Mining Fortune §7while\",4:\"§7mining §5Amethyst§7.\",5:\"§7\",6:\"§6Full Set Bonus: Gemstone Gatherer §7(0/4)\",7:\"§7Grants §6+25☘ Mining Fortune §7while in\",8:\"§7the §5Crystal Hollows§7.\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§5§lEPIC GLOVES\"],Name:\"§5Amethyst Gauntlet\"},ExtraAttributes:{id:\"AMETHYST_GAUNTLET\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"AMETHYST_GAUNTLET\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"13c9fab8-070a-314d-94d3-a61863d3d94e\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxNTA5Mjk1ODE0MywKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzkzOTI3NjEzYjUyNDRmYzgwOTJmM2FhY2MyNmEwZTJkY2E1MWYyM2M2M2U3ZmE5NTkzY2MxNDBkMGIwOWQ4ODciCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mining Speed: §a+30\",1:\"§7Mining Fortune: §a+10\",2:\"\",3:\"§7Grants §6+30☘ Mining Fortune §7while\",4:\"§7mining §5Amethyst§7.\",5:\"\",6:\"§6Full Set Bonus: Gemstone Gatherer §7(0/4)\",7:\"§7Grants §6+25☘ Mining Fortune §7while in\",8:\"§7the §5Crystal Hollows§7.\",9:\"\",10:\"§8This item can be reforged!\",11:\"§5§lEPIC GLOVES\"],Name:\"§5Amethyst Gauntlet\"}}",
   "damage": 3,
   "lore": [
     "§7Mining Speed: §a+30",
@@ -9,19 +9,23 @@
     "",
     "§7Grants §6+30☘ Mining Fortune §7while",
     "§7mining §5Amethyst§7.",
-    "§7",
+    "",
     "§6Full Set Bonus: Gemstone Gatherer §7(0/4)",
     "§7Grants §6+25☘ Mining Fortune §7while in",
     "§7the §5Crystal Hollows§7.",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§5§lEPIC GLOVES"
   ],
   "internalname": "AMETHYST_GAUNTLET",
-  "crafttext": "Requires: HotM 5",
   "clickcommand": "viewrecipe",
-  "modver": "2.3.0",
+  "crafttext": "Requires: HotM 5",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
   "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Amethyst_Gauntlet",
+    "https://wiki.hypixel.net/Amethyst_Gauntlet"
+  ],
   "recipes": [
     {
       "type": "forge",
@@ -33,9 +37,5 @@
       "overrideOutputId": "AMETHYST_GAUNTLET",
       "duration": 86400
     }
-  ],
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Amethyst_Gauntlet",
-    "https://wiki.hypixel.net/Amethyst_Gauntlet"
   ]
 }

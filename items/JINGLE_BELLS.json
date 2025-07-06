@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Jingle Bells",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"0fdf18cb-2828-3345-b0b1-fd448610edf6\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTI1MDg4YWM5OGE3ZGYyMjNlY2IyOTcxZjY0ODhkMTRhODIwZDgzNzk0M2NhMWFkNGQxZjE1Yjk5YmRlNmMifX19\"}]}},display:{Lore:[0:\"§6Ability: Jingle Bells §e§lRIGHT CLICK\",1:\"§7Angers all monsters in a §a10\",2:\"§ablock§7 range, consuming §a50%§7\",3:\"§7of your max mana and causing\",4:\"§7them to run towards you.\",5:\"§8Cooldown: §a1s\",6:\"\",7:\"§8§l* §8Co-op Soulbound §8§l*\",8:\"§9§lRARE\"],Name:\"§9Jingle Bells\"},ExtraAttributes:{id:\"JINGLE_BELLS\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"JINGLE_BELLS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"0fdf18cb-2828-3345-b0b1-fd448610edf6\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTI1MDg4YWM5OGE3ZGYyMjNlY2IyOTcxZjY0ODhkMTRhODIwZDgzNzk0M2NhMWFkNGQxZjE1Yjk5YmRlNmMifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§6Ability: Jingle Bells §e§lRIGHT CLICK\",1:\"§7Angers all monsters in a §a10\",2:\"§ablock§7 range, consuming §a50%\",3:\"§7of your max mana and causing\",4:\"§7them to run towards you.\",5:\"§8Cooldown: §a1s\",6:\"\",7:\"§8§l* §8Co-op Soulbound §8§l*\",8:\"§9§lRARE\"],Name:\"§9Jingle Bells\"}}",
   "damage": 3,
   "lore": [
     "§6Ability: Jingle Bells §e§lRIGHT CLICK",
     "§7Angers all monsters in a §a10",
-    "§ablock§7 range, consuming §a50%§7",
+    "§ablock§7 range, consuming §a50%",
     "§7of your max mana and causing",
     "§7them to run towards you.",
     "§8Cooldown: §a1s",
@@ -15,9 +15,9 @@
     "§9§lRARE"
   ],
   "internalname": "JINGLE_BELLS",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "2.1.0-REL",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Jingle_Bells",
@@ -25,9 +25,9 @@
   ],
   "recipes": [
     {
-    "type": "trade",
-    "cost": "EMERALD:75",
-    "result": "JINGLE_BELLS"
+      "type": "trade",
+      "cost": "EMERALD:75",
+      "result": "JINGLE_BELLS"
     }
   ]
 }

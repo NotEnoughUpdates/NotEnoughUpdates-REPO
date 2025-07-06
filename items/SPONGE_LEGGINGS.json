@@ -1,20 +1,29 @@
 {
   "itemid": "minecraft:leather_leggings",
   "displayname": "§5Sponge Leggings",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Sea Creature Chance: §c+2%\",1:\"§7Defense: §a+125\",2:\" §8[§8☂§8]\",3:\"\",4:\"§6Full Set Bonus: Absorb §7(0/4)\",5:\"§7§9Doubles§7 your §a❈ Defense§7 while in\",6:\"§7water.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§7§4❣ §cRequires §aFishing Skill 17§c.\",10:\"§5§lEPIC LEGGINGS\"],color:16768081,Name:\"§5Sponge Leggings\"},ExtraAttributes:{id:\"SPONGE_LEGGINGS\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SPONGE_LEGGINGS\"},HideFlags:254,ItemModel:\"minecraft:leather_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Sea Creature Chance: §c+2%\",1:\"§7Defense: §a+125\",2:\" §8[☂]\",3:\"\",4:\"§6Full Set Bonus: Absorb §7(0/4)\",5:\"§9Doubles§7 your §a❈ Defense§7 while in\",6:\"§7water.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§4❣ §cRequires §aFishing Skill 17§c.\",10:\"§5§lEPIC LEGGINGS\"],Name:\"§5Sponge Leggings\",color:16768081}}",
   "damage": 0,
   "lore": [
     "§7Sea Creature Chance: §c+2%",
     "§7Defense: §a+125",
-    " §8[§8☂§8]",
+    " §8[☂]",
     "",
     "§6Full Set Bonus: Absorb §7(0/4)",
-    "§7§9Doubles§7 your §a❈ Defense§7 while in",
+    "§9Doubles§7 your §a❈ Defense§7 while in",
     "§7water.",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aFishing Skill 17§c.",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aFishing Skill 17§c.",
     "§5§lEPIC LEGGINGS"
+  ],
+  "internalname": "SPONGE_LEGGINGS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Sponge IX",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Sponge_Leggings",
+    "https://wiki.hypixel.net/Sponge_Leggings"
   ],
   "recipe": {
     "A1": "ENCHANTED_WET_SPONGE:1",
@@ -26,14 +35,5 @@
     "C1": "ENCHANTED_WET_SPONGE:1",
     "C2": "",
     "C3": "ENCHANTED_WET_SPONGE:1"
-  },
-  "internalname": "SPONGE_LEGGINGS",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Sponge_Leggings",
-    "https://wiki.hypixel.net/Sponge_Leggings"
-  ],
-  "crafttext": "Requires: Sponge IX"
+  }
 }

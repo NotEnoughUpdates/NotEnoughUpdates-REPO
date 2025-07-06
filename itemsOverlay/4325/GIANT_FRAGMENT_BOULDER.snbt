@@ -1,0 +1,25 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "GIANT_FRAGMENT_BOULDER"
+		},
+		"minecraft:firework_explosion": {
+			colors: [
+				16761035
+			],
+			shape: "small_ball"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:firework_explosion",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:firework_star",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+gb028db5"
+	}
+}

@@ -1,0 +1,24 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			bottle_of_jyrre_last_update: 1701189295818L,
+			bottle_of_jyrre_seconds: 280,
+			id: "NEW_BOTTLE_OF_JYRRE"
+		},
+		"minecraft:potion_contents": {
+			potion: "minecraft:water"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:potion_contents",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:potion",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+gb028db5"
+	}
+}

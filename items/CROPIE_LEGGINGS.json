@@ -1,24 +1,33 @@
 {
   "itemid": "minecraft:leather_leggings",
   "displayname": "§9Cropie Leggings",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+165\",1:\"§7Defense: §a+30\",2:\"§7Speed: §a+4\",3:\"§7Farming Fortune: §a+25\",4:\" §8[§8☘§8]\",5:\"\",6:\"§8Tiered Bonus: Squashbuckle (0/4)\",7:\"§7§7Farming Pumpkins, Melons, and Cocoa\",8:\"§7Beans have a §a0.01% §7chance of\",9:\"§7dropping a Squash. §7Grants §60☘\",10:\"§6Farming Fortune§7.\",11:\"\",12:\"§7§8This item can be reforged!\",13:\"§7§4❣ §cRequires §aFarming Skill 30§c.\",14:\"§9§lRARE LEGGINGS\"],color:9717023,Name:\"§9Cropie Leggings\"},ExtraAttributes:{id:\"CROPIE_LEGGINGS\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"CROPIE_LEGGINGS\"},HideFlags:254,ItemModel:\"minecraft:leather_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+165\",1:\"§7Defense: §a+30\",2:\"§7Speed: §a+4\",3:\"§7Farming Fortune: §a+25\",4:\" §8[☘]\",5:\"\",6:\"§8Tiered Bonus: Squashbuckle (0/4)\",7:\"§7Farming Pumpkins, Melons, and Cocoa\",8:\"§7Beans have a §a0.01% §7chance of\",9:\"§7dropping a Squash. Grants §60☘\",10:\"§6Farming Fortune§7.\",11:\"\",12:\"§8This item can be reforged!\",13:\"§4❣ §cRequires §aFarming Skill 30§c.\",14:\"§9§lRARE LEGGINGS\"],Name:\"§9Cropie Leggings\",color:9717023}}",
   "damage": 0,
   "lore": [
     "§7Health: §a+165",
     "§7Defense: §a+30",
     "§7Speed: §a+4",
     "§7Farming Fortune: §a+25",
-    " §8[§8☘§8]",
+    " §8[☘]",
     "",
     "§8Tiered Bonus: Squashbuckle (0/4)",
-    "§7§7Farming Pumpkins, Melons, and Cocoa",
+    "§7Farming Pumpkins, Melons, and Cocoa",
     "§7Beans have a §a0.01% §7chance of",
-    "§7dropping a Squash. §7Grants §60☘",
+    "§7dropping a Squash. Grants §60☘",
     "§6Farming Fortune§7.",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aFarming Skill 30§c.",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aFarming Skill 30§c.",
     "§9§lRARE LEGGINGS"
+  ],
+  "internalname": "CROPIE_LEGGINGS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Cropie_Leggings",
+    "https://wiki.hypixel.net/Cropie_Leggings"
   ],
   "recipe": {
     "A1": "CROPIE:10",
@@ -30,14 +39,5 @@
     "C1": "ENCHANTED_GOLDEN_CARROT:15",
     "C2": "",
     "C3": "ENCHANTED_GOLDEN_CARROT:15"
-  },
-  "internalname": "CROPIE_LEGGINGS",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Cropie_Leggings",
-    "https://wiki.hypixel.net/Cropie_Leggings"
-  ]
+  }
 }
