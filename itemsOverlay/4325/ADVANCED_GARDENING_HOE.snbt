@@ -1,0 +1,25 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			enchantments: {
+				replenish: 1
+			},
+			id: "ADVANCED_GARDENING_HOE"
+		},
+		"minecraft:enchantment_glint_override": 1b,
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:unbreakable",
+				"minecraft:dyed_color"
+			]
+		},
+		"minecraft:unbreakable": {
+		}
+	},
+	count: 1,
+	id: "minecraft:diamond_hoe",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+gb028db5"
+	}
+}
