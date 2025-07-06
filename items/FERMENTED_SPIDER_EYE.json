@@ -1,16 +1,21 @@
 {
   "itemid": "minecraft:fermented_spider_eye",
   "displayname": "§fFermented Spider Eye",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§f§lCOMMON\"],Name:\"§fFermented Spider Eye\"},ExtraAttributes:{id:\"FERMENTED_SPIDER_EYE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"FERMENTED_SPIDER_EYE\"},HideFlags:254,ItemModel:\"minecraft:fermented_spider_eye\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§f§lCOMMON\"],Name:\"§fFermented Spider Eye\",color:10511680}}",
   "damage": 0,
   "lore": [
     "§8Brewing Ingredient",
     "§f§lCOMMON"
   ],
   "internalname": "FERMENTED_SPIDER_EYE",
-  "modver": "2.1.1-PRE",
-  "vanilla": true,
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb524731",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Fermented_Spider_Eye"
+  ],
+  "vanilla": true,
   "recipe": {
     "A1": "SPIDER_EYE:1",
     "A2": "BROWN_MUSHROOM:1",
@@ -21,10 +26,5 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  },
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://wiki.hypixel.net/Fermented_Spider_Eye"
-  ],
-  "crafttext": ""
+  }
 }
