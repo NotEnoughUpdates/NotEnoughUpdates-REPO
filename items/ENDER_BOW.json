@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:bow",
   "displayname": "§9Ender Bow",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+60\",1:\"\",2:\"§6Ability: Ender Warp  §e§lLEFT CLICK\",3:\"§7Shoots an Ender Pearl. Upon landing\",4:\"§7you deal damage to all Monsters in a\",5:\"§7§a8§7 block radius for §a10%§7 of their §c❤\",6:\"§cHealth§7.\",7:\"§8Mana Cost: §350\",8:\"§8Cooldown: §a5s\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§9§lRARE BOW\"],Name:\"§9Ender Bow\"},ExtraAttributes:{id:\"ENDER_BOW\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ENDER_BOW\"},HideFlags:254,ItemModel:\"minecraft:bow\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+60\",1:\"\",2:\"§6Ability: Ender Warp  §e§lLEFT CLICK\",3:\"§7Shoots an Ender Pearl. Upon landing\",4:\"§7you deal damage to all Monsters in a\",5:\"§a8§7 block radius for §a10%§7 of their §c❤\",6:\"§cHealth§7.\",7:\"§8Mana Cost: §350\",8:\"§8Cooldown: §a5s\",9:\"\",10:\"§8This item can be reforged!\",11:\"§9§lRARE BOW\"],Name:\"§9Ender Bow\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+60",
@@ -9,13 +9,22 @@
     "§6Ability: Ender Warp  §e§lLEFT CLICK",
     "§7Shoots an Ender Pearl. Upon landing",
     "§7you deal damage to all Monsters in a",
-    "§7§a8§7 block radius for §a10%§7 of their §c❤",
+    "§a8§7 block radius for §a10%§7 of their §c❤",
     "§cHealth§7.",
     "§8Mana Cost: §350",
     "§8Cooldown: §a5s",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§9§lRARE BOW"
+  ],
+  "internalname": "ENDER_BOW",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Ender Pearl V",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Ender_Bow",
+    "https://wiki.hypixel.net/Ender_Bow"
   ],
   "recipe": {
     "A1": "",
@@ -27,14 +36,5 @@
     "C1": "",
     "C2": "ENCHANTED_ENDER_PEARL:4",
     "C3": "STRING:1"
-  },
-  "internalname": "ENDER_BOW",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Ender_Bow",
-    "https://wiki.hypixel.net/Ender_Bow"
-  ],
-  "crafttext": "Requires: Ender Pearl V"
+  }
 }

@@ -1,15 +1,18 @@
 {
   "itemid": "minecraft:trapped_chest",
   "displayname": "§fTrapped Chest",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fTrapped Chest\"},ExtraAttributes:{id:\"TRAPPED_CHEST\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"TRAPPED_CHEST\"},HideFlags:254,ItemModel:\"minecraft:trapped_chest\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fTrapped Chest\"}}",
   "damage": 0,
   "lore": [
     "§f§lCOMMON"
   ],
   "internalname": "TRAPPED_CHEST",
-  "modver": "1.3-REL",
-  "vanilla": true,
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
   "recipe": {
     "A1": "CHEST:1",
     "A2": "TRIPWIRE_HOOK:1",

@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:bow",
   "displayname": "§5Slime Bow",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+100\",1:\"§7Crit Damage: §c+50%\",2:\"\",3:\"§7Will consume §aSlime Balls§7 in\",4:\"§7your inventory or Quiver to deal\",5:\"§7§a5x§7 damage to §9Magma Cubes\",6:\"§9and Slimes§7.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§5§lEPIC BOW\"],Name:\"§5Slime Bow\"},ExtraAttributes:{id:\"SLIME_BOW\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SLIME_BOW\"},HideFlags:254,ItemModel:\"minecraft:bow\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+100\",1:\"§7Crit Damage: §c+50%\",2:\"\",3:\"§7Will consume §aSlime Balls§7 in\",4:\"§7your inventory or Quiver to deal\",5:\"§a5x§7 damage to §9Magma Cubes\",6:\"§9and Slimes§7.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§5§lEPIC BOW\"],Name:\"§5Slime Bow\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+100",
@@ -9,11 +9,20 @@
     "",
     "§7Will consume §aSlime Balls§7 in",
     "§7your inventory or Quiver to deal",
-    "§7§a5x§7 damage to §9Magma Cubes",
+    "§a5x§7 damage to §9Magma Cubes",
     "§9and Slimes§7.",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§5§lEPIC BOW"
+  ],
+  "internalname": "SLIME_BOW",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Slimeball IX",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Slime_Bow",
+    "https://wiki.hypixel.net/Slime_Bow"
   ],
   "recipe": {
     "A1": "",
@@ -25,14 +34,5 @@
     "C1": "",
     "C2": "ENCHANTED_SLIME_BLOCK:5",
     "C3": "ENCHANTED_STRING:1"
-  },
-  "internalname": "SLIME_BOW",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Slime_Bow",
-    "https://wiki.hypixel.net/Slime_Bow"
-  ],
-  "crafttext": "Requires: Slimeball IX"
+  }
 }

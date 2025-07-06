@@ -1,21 +1,30 @@
 {
   "itemid": "minecraft:book",
   "displayname": "§5Gloomlock Grimoire",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§6Ability: Life Tap §e§lLEFT CLICK\",1:\"§7Convert §3§315⸎ Soulflow §7to gain up to\",2:\"§7§3600ʬ Overflow§7, but lose §c25% ❤§7.\",3:\"§8Cooldown: §a1s\",4:\"\",5:\"§6Ability: Extreme Measures §e§lRIGHT CLICK\",6:\"§7Costs §3300ʬ Overflow§7. Heal for\",7:\"§7§c40% ❤ §7but deal §c-8% §7damage for\",8:\"§740 seconds.\",9:\"\",10:\"§7§4☠ §cRequires §5Enderman Slayer 5§c.\",11:\"§5§lEPIC\"],Name:\"§5Gloomlock Grimoire\"},ExtraAttributes:{id:\"GLOOMLOCK_GRIMOIRE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"GLOOMLOCK_GRIMOIRE\"},HideFlags:254,ItemModel:\"minecraft:book\",display:{Lore:[0:\"§6Ability: Life Tap §e§lLEFT CLICK\",1:\"§7Convert §315⸎ Soulflow §7to gain up to\",2:\"§3600ʬ Overflow§7, but lose §c25% ❤§7.\",3:\"§8Cooldown: §a1s\",4:\"\",5:\"§6Ability: Extreme Measures §e§lRIGHT CLICK\",6:\"§7Costs §3300ʬ Overflow§7. Heal for\",7:\"§c40% ❤ §7but deal §c-8% §7damage for\",8:\"§740 seconds.\",9:\"\",10:\"§4☠ §cRequires §5Enderman Slayer 5§c.\",11:\"§5§lEPIC\"],Name:\"§5Gloomlock Grimoire\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§6Ability: Life Tap §e§lLEFT CLICK",
-    "§7Convert §3§315⸎ Soulflow §7to gain up to",
-    "§7§3600ʬ Overflow§7, but lose §c25% ❤§7.",
+    "§7Convert §315⸎ Soulflow §7to gain up to",
+    "§3600ʬ Overflow§7, but lose §c25% ❤§7.",
     "§8Cooldown: §a1s",
     "",
     "§6Ability: Extreme Measures §e§lRIGHT CLICK",
     "§7Costs §3300ʬ Overflow§7. Heal for",
-    "§7§c40% ❤ §7but deal §c-8% §7damage for",
+    "§c40% ❤ §7but deal §c-8% §7damage for",
     "§740 seconds.",
     "",
-    "§7§4☠ §cRequires §5Enderman Slayer 5§c.",
+    "§4☠ §cRequires §5Enderman Slayer 5§c.",
     "§5§lEPIC"
+  ],
+  "internalname": "GLOOMLOCK_GRIMOIRE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Enderman Slayer 5",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Gloomlock_Grimoire",
+    "https://wiki.hypixel.net/Gloomlock_Grimoire"
   ],
   "recipe": {
     "A1": "NULL_OVOID:4",
@@ -28,14 +37,5 @@
     "C2": "ENCHANTED_GUNPOWDER:64",
     "C3": "NULL_OVOID:4"
   },
-  "slayer_req": "EMAN_5",
-  "internalname": "GLOOMLOCK_GRIMOIRE",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "crafttext": "Requires: Enderman Slayer 5",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Gloomlock_Grimoire",
-    "https://wiki.hypixel.net/Gloomlock_Grimoire"
-  ]
+  "slayer_req": "EMAN_5"
 }
