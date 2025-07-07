@@ -1,0 +1,20 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "CAMPAIGN_POSTER"
+		},
+		"minecraft:map_id": 30888,
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:map_id",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:filled_map",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+gb028db5"
+	}
+}

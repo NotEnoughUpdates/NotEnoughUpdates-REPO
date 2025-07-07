@@ -1,0 +1,18 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "GIFT_COMPASS"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:compass",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+gb028db5"
+	}
+}

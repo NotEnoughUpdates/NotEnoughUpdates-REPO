@@ -1,0 +1,21 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "DIANAS_BOOKSHELF",
+			raffle_win: "year_400_small_9",
+			raffle_year: 400
+		},
+		"minecraft:enchantment_glint_override": 1b,
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:bookshelf",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+gb028db5"
+	}
+}
