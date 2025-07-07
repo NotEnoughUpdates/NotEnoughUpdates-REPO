@@ -1,0 +1,21 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "RED_CLAW_EGG"
+		},
+		"minecraft:entity_data": {
+			id: "minecraft:mooshroom"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:mooshroom_spawn_egg",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+gd7b3f89"
+	}
+}
