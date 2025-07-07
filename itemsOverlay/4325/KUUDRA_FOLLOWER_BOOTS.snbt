@@ -1,14 +1,12 @@
 {
 	components: {
-		"minecraft:attribute_modifiers": [
-		],
 		"minecraft:custom_data": {
-			id: "MERCENARY_CHESTPLATE",
-			originTag: "SHOP_PURCHASE"
+			edition: 1,
+			id: "KUUDRA_FOLLOWER_BOOTS"
 		},
+		"minecraft:dyed_color": 3494666,
 		"minecraft:tooltip_display": {
 			hidden_components: [
-				"minecraft:attribute_modifiers",
 				"minecraft:unbreakable",
 				"minecraft:dyed_color"
 			]
@@ -17,7 +15,7 @@
 		}
 	},
 	count: 1,
-	id: "minecraft:iron_chestplate",
+	id: "minecraft:leather_boots",
 	source: {
 		dataVersion: 4325,
 		modVersion: "Firmament 3.2.0-dev+mc1.21.5+gd7b3f89"
