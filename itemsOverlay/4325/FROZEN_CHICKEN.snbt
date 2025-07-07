@@ -1,0 +1,34 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "FROZEN_CHICKEN",
+			originTag: "REWARD_GULLIVER:FROZEN_CHICKEN"
+		},
+		"minecraft:profile": {
+			id: [I;
+				802975547,
+				-469945011,
+				-1458935352,
+				-1243558385
+			],
+			name: "",
+			properties: [
+				{
+					name: "textures",
+					value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDYxYzMzMDI0MjQ2ZWQyMTlhMTMxN2UyNDU5MTMwZjJhZWQyMjc2NTVlODVjZjAxZmM1MTM0ODEyMzZkOGRkMSJ9fX0="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+gd7b3f89"
+	}
+}

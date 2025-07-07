@@ -1,0 +1,33 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "SURVIVOR_CUBE"
+		},
+		"minecraft:profile": {
+			id: [I;
+				-1082752566,
+				-1888993667,
+				-1724828571,
+				1774344102
+			],
+			name: "",
+			properties: [
+				{
+					name: "textures",
+					value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGE4MTI4NTJjZjA3NDU5Y2Y4MmExNDAwMmZiNTY5NzgyZTZkNzU0MGY4ODg0YzAyYmY3ZDY3NzQzYTY0OWI3MCJ9fX0="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.2.0-dev+mc1.21.5+gd7b3f89"
+	}
+}

@@ -1,14 +1,11 @@
 {
 	components: {
-		"minecraft:attribute_modifiers": [
-		],
 		"minecraft:custom_data": {
-			id: "MERCENARY_CHESTPLATE",
-			originTag: "SHOP_PURCHASE"
+			id: "IRON_CHESTPLATE",
+			originTag: "CRAFTING_GRID_COLLECT"
 		},
 		"minecraft:tooltip_display": {
 			hidden_components: [
-				"minecraft:attribute_modifiers",
 				"minecraft:unbreakable",
 				"minecraft:dyed_color"
 			]
