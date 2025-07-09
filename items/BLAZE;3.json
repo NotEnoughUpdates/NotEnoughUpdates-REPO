@@ -23,24 +23,23 @@
     "§5§lEPIC"
   ],
   "internalname": "BLAZE;3",
-  "clickcommand": "viewrecipe",
   "modver": "2.1.1-PRE",
-  "recipe": {
-    "A1": "ENCHANTED_BLAZE_ROD:8",
-    "A2": "ENCHANTED_BLAZE_ROD:8",
-    "A3": "ENCHANTED_BLAZE_ROD:8",
-    "B1": "ENCHANTED_BLAZE_ROD:8",
-    "B2": "SUPER_EGG:1",
-    "B3": "ENCHANTED_BLAZE_ROD:8",
-    "C1": "ENCHANTED_BLAZE_ROD:8",
-    "C2": "ENCHANTED_BLAZE_ROD:8",
-    "C3": "ENCHANTED_BLAZE_ROD:8"
-  },
-  "crafttext": "80% chance",
-  "useneucraft": true,
+  "crafttext": "",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Blaze_Pet",
     "https://wiki.hypixel.net/Blaze_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 1000000,
+      "time": 259200,
+      "input": "BLAZE;2",
+      "output": "BLAZE;3",
+      "items": [
+        "ENCHANTED_BLAZE_POWDER:512"
+      ]
+    }
   ]
 }

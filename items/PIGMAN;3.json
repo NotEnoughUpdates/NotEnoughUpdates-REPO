@@ -24,24 +24,22 @@
     "§5§lEPIC"
   ],
   "internalname": "PIGMAN;3",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "recipe": {
-    "A1": "ENCHANTED_GRILLED_PORK:1",
-    "A2": "ENCHANTED_GRILLED_PORK:1",
-    "A3": "ENCHANTED_GRILLED_PORK:1",
-    "B1": "ENCHANTED_GRILLED_PORK:1",
-    "B2": "SUPER_EGG:1",
-    "B3": "ENCHANTED_GRILLED_PORK:1",
-    "C1": "ENCHANTED_GRILLED_PORK:1",
-    "C2": "ENCHANTED_GRILLED_PORK:1",
-    "C3": "ENCHANTED_GRILLED_PORK:1"
-  },
-  "crafttext": "80% chance",
-  "useneucraft": true,
+  "crafttext": "",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Pigman_Pet",
     "https://wiki.hypixel.net/Pigman_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 100000,
+      "time": 21600,
+      "input": "PIGMAN;2",
+      "output": "PIGMAN;3",
+      "items": [
+        "ENCHANTED_PORK:64"
+      ]
+    }
   ]
 }

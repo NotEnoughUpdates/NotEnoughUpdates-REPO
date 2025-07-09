@@ -25,24 +25,23 @@
     "§5§lEPIC"
   ],
   "internalname": "WITHER_SKELETON;3",
-  "clickcommand": "viewrecipe",
   "modver": "2.1.1-PRE",
-  "recipe": {
-    "A1": "ENCHANTED_COAL_BLOCK:1",
-    "A2": "ENCHANTED_COAL_BLOCK:1",
-    "A3": "ENCHANTED_COAL_BLOCK:1",
-    "B1": "ENCHANTED_COAL_BLOCK:1",
-    "B2": "SUPER_EGG:1",
-    "B3": "ENCHANTED_COAL_BLOCK:1",
-    "C1": "ENCHANTED_COAL_BLOCK:1",
-    "C2": "ENCHANTED_COAL_BLOCK:1",
-    "C3": "ENCHANTED_COAL_BLOCK:1"
-  },
-  "crafttext": "80% chance",
-  "useneucraft": true,
+  "crafttext": "",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Wither_Skeleton_Pet",
     "https://wiki.hypixel.net/Wither_Skeleton_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 100000,
+      "time": 21600,
+      "input": "WITHER_SKELETON;2",
+      "output": "WITHER_SKELETON;3",
+      "items": [
+        "ENCHANTED_COAL:64"
+      ]
+    }
   ]
 }

@@ -776,6 +776,68 @@
     }
   },
   "BLAZE": {
+    "COMMON": {
+      "1": {
+        "otherNums": [
+          0.05
+        ],
+        "statNums": {
+          "DEFENSE": 0.3,
+          "INTELLIGENCE": 1.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          5
+        ],
+        "statNums": {
+          "DEFENSE": 30.0,
+          "INTELLIGENCE": 100.0
+        }
+      }
+    },
+    "UNCOMMON": {
+      "1": {
+        "otherNums": [
+          0.07
+        ],
+        "statNums": {
+          "DEFENSE": 0.3,
+          "INTELLIGENCE": 1.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          7
+        ],
+        "statNums": {
+          "DEFENSE": 30.0,
+          "INTELLIGENCE": 100.0
+        }
+      }
+    },
+    "RARE": {
+      "1": {
+        "otherNums": [
+          0.07,
+          0.4
+        ],
+        "statNums": {
+          "DEFENSE": 0.3,
+          "INTELLIGENCE": 1.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          7,
+          40
+        ],
+        "statNums": {
+          "DEFENSE": 30.0,
+          "INTELLIGENCE": 100.0
+        }
+      }
+    },
     "EPIC": {
       "1": {
         "otherNums": [
@@ -783,7 +845,7 @@
           0.4
         ],
         "statNums": {
-          "DEFENSE": 10.2,
+          "DEFENSE": 0.3,
           "INTELLIGENCE": 1.0
         }
       },
@@ -805,7 +867,7 @@
           0.4
         ],
         "statNums": {
-          "DEFENSE": 10.2,
+          "DEFENSE": 0.3,
           "INTELLIGENCE": 1.0
         }
       },
@@ -2108,6 +2170,68 @@
     }
   },
   "GLACITE_GOLEM": {
+    "COMMON": {
+      "1": {
+        "otherNums": [
+          0.1
+        ],
+        "statNums": {
+          "MINING_SPEED": 1.25,
+          "COLD_RESISTANCE": 0.1
+        }
+      },
+      "100": {
+        "otherNums": [
+          10
+        ],
+        "statNums": {
+          "MINING_SPEED": 125,
+          "COLD_RESISTANCE": 10
+        }
+      }
+    },
+    "UNCOMMON": {
+      "1": {
+        "otherNums": [
+          0.15
+        ],
+        "statNums": {
+          "MINING_SPEED": 1.25,
+          "COLD_RESISTANCE": 0.1
+        }
+      },
+      "100": {
+        "otherNums": [
+          15
+        ],
+        "statNums": {
+          "MINING_SPEED": 125,
+          "COLD_RESISTANCE": 10
+        }
+      }
+    },
+    "RARE": {
+      "1": {
+        "otherNums": [
+          0.15,
+          0.75
+        ],
+        "statNums": {
+          "MINING_SPEED": 1.25,
+          "COLD_RESISTANCE": 0.1
+        }
+      },
+      "100": {
+        "otherNums": [
+          15,
+          75
+        ],
+        "statNums": {
+          "MINING_SPEED": 125,
+          "COLD_RESISTANCE": 10
+        }
+      }
+    },
     "EPIC": {
       "1": {
         "otherNums": [
@@ -4010,6 +4134,78 @@
     }
   },
   "PIGMAN": {
+    "COMMON":{
+      "1":{
+        "otherNums":[
+          0.1
+        ],
+        "statNums":{
+          "DEFENSE": 0.5,
+          "STRENGTH": 0.5,
+          "FEROCITY": 0.05
+        }
+      },
+      "100":{
+        "otherNums":[
+          10
+        ],
+        "statNums":{
+          "DEFENSE": 50.0,
+          "STRENGTH": 50.0,
+          "FEROCITY": 5.0
+        }
+      }
+    },
+    "UNCOMMON":{
+      "1":{
+        "otherNums":[
+          0.2
+        ],
+        "statNums":{
+          "DEFENSE": 0.5,
+          "STRENGTH": 0.5,
+          "FEROCITY": 0.05
+        }
+      },
+      "100":{
+        "otherNums":[
+          20
+        ],
+        "statNums":{
+          "DEFENSE": 50.0,
+          "STRENGTH": 50.0,
+          "FEROCITY": 5.0
+        }
+      }
+
+    },
+    "RARE":{
+      "1":{
+        "otherNums":[
+          0.2,
+          0.3,
+          0.15
+        ],
+        "statNums":{
+          "DEFENSE": 0.5,
+          "STRENGTH": 0.5,
+          "FEROCITY": 0.05
+        }
+      },
+      "100":{
+        "otherNums":[
+          20,
+          30,
+          15
+        ],
+        "statNums":{
+          "DEFENSE": 50.0,
+          "STRENGTH": 50.0,
+          "FEROCITY": 5.0
+        }
+      }
+
+    },
     "EPIC": {
       "1": {
         "otherNums": [
@@ -5628,6 +5824,86 @@
     }
   },
   "WITHER_SKELETON": {
+    "COMMON": {
+      "1": {
+        "otherNums": [
+          0.1
+        ],
+        "statNums": {
+          "CRIT_CHANCE": 0.05,
+          "CRIT_DAMAGE": 0.25,
+          "DEFENSE": 0.25,
+          "INTELLIGENCE": 0.25,
+          "STRENGTH": 0.25
+        }
+      },
+      "100": {
+        "otherNums": [
+          10
+        ],
+        "statNums": {
+          "CRIT_CHANCE": 5.0,
+          "CRIT_DAMAGE": 25.0,
+          "DEFENSE": 25.0,
+          "INTELLIGENCE": 25.0,
+          "STRENGTH": 25.0
+        }
+      }
+    },
+    "UNCOMMON": {
+      "1": {
+        "otherNums": [
+          0.2
+        ],
+        "statNums": {
+          "CRIT_CHANCE": 0.05,
+          "CRIT_DAMAGE": 0.25,
+          "DEFENSE": 0.25,
+          "INTELLIGENCE": 0.25,
+          "STRENGTH": 0.25
+        }
+      },
+      "100": {
+        "otherNums": [
+          20
+        ],
+        "statNums": {
+          "CRIT_CHANCE": 5.0,
+          "CRIT_DAMAGE": 25.0,
+          "DEFENSE": 25.0,
+          "INTELLIGENCE": 25.0,
+          "STRENGTH": 25.0
+        }
+      }
+    },
+    "RARE": {
+      "1": {
+        "otherNums": [
+          0.2,
+          1.0
+        ],
+        "statNums": {
+          "CRIT_CHANCE": 0.05,
+          "CRIT_DAMAGE": 0.25,
+          "DEFENSE": 0.25,
+          "INTELLIGENCE": 0.25,
+          "STRENGTH": 0.25
+        }
+      },
+      "100": {
+        "otherNums": [
+          20,
+          100
+        ],
+        "statNums": {
+          "CRIT_CHANCE": 5.0,
+          "CRIT_DAMAGE": 25.0,
+          "DEFENSE": 25.0,
+          "INTELLIGENCE": 25.0,
+          "STRENGTH": 25.0
+        }
+      }
+    },
     "EPIC": {
       "1": {
         "otherNums": [
