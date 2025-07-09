@@ -21,22 +21,26 @@
   "internalname": "HORSE;0",
   "clickcommand": "viewrecipe",
   "modver": "2.1.1-PRE",
-  "recipe": {
-    "A1": "ENCHANTED_LEATHER:1",
-    "A2": "ENCHANTED_LEATHER:1",
-    "A3": "ENCHANTED_LEATHER:1",
-    "B1": "ENCHANTED_LEATHER:1",
-    "B2": "ENCHANTED_EGG:1",
-    "B3": "ENCHANTED_LEATHER:1",
-    "C1": "ENCHANTED_LEATHER:1",
-    "C2": "ENCHANTED_LEATHER:1",
-    "C3": "ENCHANTED_LEATHER:1"
-  },
-  "crafttext": "50% Chance",
-  "useneucraft": true,
+  "crafttext": "Requires Leather III",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Horse_Pet",
     "https://wiki.hypixel.net/Horse_Pet"
+  ],
+  "recipes": [
+    {
+      "A1": "LEATHER:8",
+      "A2": "LEATHER:8",
+      "A3": "LEATHER:8",
+      "B1": "LEATHER:8",
+      "B2": "EGG:1",
+      "B3": "LEATHER:8",
+      "C1": "LEATHER:8",
+      "C2": "LEATHER:8",
+      "C3": "LEATHER:8",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "HORSE;0"
+    }
   ]
 }

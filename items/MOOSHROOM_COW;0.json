@@ -20,24 +20,28 @@
     "§f§lCOMMON"
   ],
   "internalname": "MOOSHROOM_COW;0",
-  "recipe": {
-    "A1": "DIGESTED_MUSHROOMS:32",
-    "A2": "ENCHANTED_MYCELIUM:32",
-    "A3": "DIGESTED_MUSHROOMS:32",
-    "B1": "ENCHANTED_MYCELIUM:32",
-    "B2": "ENCHANTED_EGG:1",
-    "B3": "ENCHANTED_MYCELIUM:32",
-    "C1": "DIGESTED_MUSHROOMS:32",
-    "C2": "ENCHANTED_MYCELIUM:32",
-    "C3": "DIGESTED_MUSHROOMS:32"
-  },
-  "crafttext": "50% chance",
-  "useneucraft": true,
+  "crafttext": "Requires Mycelium III",
   "clickcommand": "viewrecipe",
   "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Mooshroom_Cow_Pet",
     "https://wiki.hypixel.net/Mooshroom_Cow_Pet"
+  ],
+  "recipes": [
+    {
+      "A1": "ENCHANTED_MYCELIUM:1",
+      "A2": "ENCHANTED_MYCELIUM:1",
+      "A3": "ENCHANTED_MYCELIUM:1",
+      "B1": "ENCHANTED_MYCELIUM:1",
+      "B2": "SUPER_EGG:1",
+      "B3": "ENCHANTED_MYCELIUM:1",
+      "C1": "ENCHANTED_MYCELIUM:1",
+      "C2": "ENCHANTED_MYCELIUM:1",
+      "C3": "ENCHANTED_MYCELIUM:1",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "MOOSHROOM_COW;0"
+    }
   ]
 }

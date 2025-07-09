@@ -22,21 +22,8 @@
     "§5§lEPIC"
   ],
   "internalname": "OCELOT;3",
-  "clickcommand": "viewrecipe",
   "modver": "2.1.1-PRE",
-  "recipe": {
-    "A1": "ENCHANTED_JUNGLE_LOG:64",
-    "A2": "ENCHANTED_JUNGLE_LOG:64",
-    "A3": "ENCHANTED_JUNGLE_LOG:64",
-    "B1": "ENCHANTED_JUNGLE_LOG:64",
-    "B2": "SUPER_EGG:1",
-    "B3": "ENCHANTED_JUNGLE_LOG:64",
-    "C1": "ENCHANTED_JUNGLE_LOG:64",
-    "C2": "ENCHANTED_JUNGLE_LOG:64",
-    "C3": "ENCHANTED_JUNGLE_LOG:64"
-  },
-  "crafttext": "80% chance",
-  "useneucraft": true,
+  "crafttext": "",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Ocelot_Pet",
@@ -45,11 +32,13 @@
   "recipes": [
     {
       "type": "katgrade",
-      "coins": 190000,
-      "time": 172800,
+      "coins": 25000,
+      "time": 900,
       "input": "OCELOT;2",
       "output": "OCELOT;3",
-      "items": []
+      "items": [
+        "ENCHANTED_JUNGLE_LOG:16"
+      ]
     }
   ]
 }

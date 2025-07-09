@@ -24,21 +24,8 @@
     "§5§lEPIC"
   ],
   "internalname": "SPIDER;3",
-  "useneucraft": true,
-  "clickcommand": "viewrecipe",
-  "recipe": {
-    "A1": "ENCHANTED_STRING:64",
-    "A2": "ENCHANTED_STRING:64",
-    "A3": "ENCHANTED_STRING:64",
-    "B1": "ENCHANTED_STRING:64",
-    "B2": "SUPER_EGG:1",
-    "B3": "ENCHANTED_STRING:64",
-    "C1": "ENCHANTED_STRING:64",
-    "C2": "ENCHANTED_STRING:64",
-    "C3": "ENCHANTED_STRING:64"
-  },
+  "crafttext": "",
   "modver": "2.1.1-PRE",
-  "crafttext": "80% Chance",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Spider_Pet",
@@ -47,11 +34,14 @@
   "recipes": [
     {
       "type": "katgrade",
-      "coins": 190000,
-      "time": 259200,
+      "coins": 25000,
+      "time": 900,
       "input": "SPIDER;2",
       "output": "SPIDER;3",
-      "items": []
+      "items": [
+        "ENCHANTED_STRING:16",
+        "ENCHANTED_SPIDER_EYE:8"
+      ]
     }
   ]
 }

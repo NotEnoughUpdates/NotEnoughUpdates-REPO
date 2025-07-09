@@ -28,20 +28,7 @@
     "§6§lLEGENDARY"
   ],
   "internalname": "SNAIL;4",
-  "clickcommand": "viewrecipe",
-  "recipe": {
-    "A1": "BURNING_EYE:32",
-    "A2": "ENCHANTED_RED_SAND:32",
-    "A3": "BURNING_EYE:32",
-    "B1": "ENCHANTED_RED_SAND:32",
-    "B2": "SUPER_EGG:1",
-    "B3": "ENCHANTED_RED_SAND:32",
-    "C1": "BURNING_EYE:32",
-    "C2": "ENCHANTED_RED_SAND:32",
-    "C3": "BURNING_EYE:32"
-  },
-  "crafttext": "20% chance",
-  "useneucraft": true,
+  "crafttext": "",
   "modver": "2.3.2",
   "infoType": "WIKI_URL",
   "info": [
@@ -51,13 +38,13 @@
   "recipes": [
     {
       "type": "katgrade",
-      "coins": 200000,
-      "time": 259200,
+      "coins": 250000,
+      "time": 43200,
       "input": "SNAIL;3",
       "output": "SNAIL;4",
       "items": [
-        "BURNING_EYE:20",
-        "ENCHANTED_RED_SAND:32"
+        "BURNING_EYE:64",
+        "ENCHANTED_RED_SAND:128"
       ]
     }
   ]

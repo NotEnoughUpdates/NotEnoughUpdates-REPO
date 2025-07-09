@@ -25,20 +25,8 @@
     "",
     "§9§lRARE"
   ],
-  "crafttext": "15% Chance",
-  "useneucraft": true,
   "clickcommand": "viewrecipe",
-  "recipe": {
-    "A1": "ENCHANTED_ENDSTONE:64",
-    "A2": "ENCHANTED_ENDSTONE:64",
-    "A3": "ENCHANTED_ENDSTONE:64",
-    "B1": "ENCHANTED_ENDSTONE:64",
-    "B2": "ENCHANTED_EGG:1",
-    "B3": "ENCHANTED_ENDSTONE:64",
-    "C1": "ENCHANTED_ENDSTONE:64",
-    "C2": "ENCHANTED_ENDSTONE:64",
-    "C3": "ENCHANTED_ENDSTONE:64"
-  },
+  "crafttext": "",
   "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
@@ -48,11 +36,13 @@
   "recipes": [
     {
       "type": "katgrade",
-      "coins": 5000,
-      "time": 28800,
+      "coins": 10000,
+      "time": 600,
       "input": "ENDERMITE;1",
       "output": "ENDERMITE;2",
-      "items": []
+      "items": [
+        "ENCHANTED_ENDSTONE:8"
+      ]
     }
   ]
 }

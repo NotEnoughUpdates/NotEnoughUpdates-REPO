@@ -19,22 +19,9 @@
     "§a§lUNCOMMON"
   ],
   "internalname": "HORSE;1",
-  "clickcommand": "viewrecipe",
   "modver": "2.1.1-PRE",
-  "recipe": {
-    "A1": "ENCHANTED_LEATHER:1",
-    "A2": "ENCHANTED_LEATHER:1",
-    "A3": "ENCHANTED_LEATHER:1",
-    "B1": "ENCHANTED_LEATHER:1",
-    "B2": "ENCHANTED_EGG:1",
-    "B3": "ENCHANTED_LEATHER:1",
-    "C1": "ENCHANTED_LEATHER:1",
-    "C2": "ENCHANTED_LEATHER:1",
-    "C3": "ENCHANTED_LEATHER:1"
-  },
-  "crafttext": "35% Chance",
-  "useneucraft": true,
   "infoType": "WIKI_URL",
+  "crafttext": "",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Horse_Pet",
     "https://wiki.hypixel.net/Horse_Pet"
@@ -42,11 +29,13 @@
   "recipes": [
     {
       "type": "katgrade",
-      "coins": 2000,
-      "time": 3600,
+      "coins": 500,
+      "time": 10,
       "input": "HORSE;0",
       "output": "HORSE;1",
-      "items": []
+      "items": [
+        "LEATHER:128"
+      ]
     }
   ]
 }

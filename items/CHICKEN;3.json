@@ -24,19 +24,7 @@
   "internalname": "CHICKEN;3",
   "clickcommand": "viewrecipe",
   "modver": "2.1.1-PRE",
-  "recipe": {
-    "A1": "ENCHANTED_RAW_CHICKEN:8",
-    "A2": "ENCHANTED_RAW_CHICKEN:8",
-    "A3": "ENCHANTED_RAW_CHICKEN:8",
-    "B1": "ENCHANTED_RAW_CHICKEN:8",
-    "B2": "SUPER_EGG:1",
-    "B3": "ENCHANTED_RAW_CHICKEN:8",
-    "C1": "ENCHANTED_RAW_CHICKEN:8",
-    "C2": "ENCHANTED_RAW_CHICKEN:8",
-    "C3": "ENCHANTED_RAW_CHICKEN:8"
-  },
-  "crafttext": "80% chance",
-  "useneucraft": true,
+  "crafttext": "",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Chicken_Pet",
@@ -45,11 +33,14 @@
   "recipes": [
     {
       "type": "katgrade",
-      "coins": 190000,
-      "time": 43200,
+      "coins": 5000,
+      "time": 30,
       "input": "CHICKEN;2",
       "output": "CHICKEN;3",
-      "items": []
+      "items": [
+        "RAW_CHICKEN:512",
+        "FEATHER:512"
+      ]
     }
   ]
 }

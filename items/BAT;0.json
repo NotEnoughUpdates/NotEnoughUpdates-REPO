@@ -21,22 +21,26 @@
     "",
     "§f§lCOMMON"
   ],
-  "recipe": {
-    "A1": "ENCHANTED_BROWN_MUSHROOM:8",
-    "A2": "ENCHANTED_BROWN_MUSHROOM:8",
-    "A3": "ENCHANTED_BROWN_MUSHROOM:8",
-    "B1": "ENCHANTED_BROWN_MUSHROOM:8",
-    "B2": "ENCHANTED_EGG:1",
-    "B3": "ENCHANTED_BROWN_MUSHROOM:8",
-    "C1": "ENCHANTED_BROWN_MUSHROOM:8",
-    "C2": "ENCHANTED_BROWN_MUSHROOM:8",
-    "C3": "ENCHANTED_BROWN_MUSHROOM:8"
-  },
-  "crafttext": "50% Chance",
-  "useneucraft": true,
+  "crafttext": "Requires Mushroom III",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Bat_Pet",
     "https://wiki.hypixel.net/Bat_Pet"
+  ],
+  "recipes": [
+    {
+      "A1": "BROWN_MUSHROOM:32",
+      "A2": "BROWN_MUSHROOM:32",
+      "A3": "BROWN_MUSHROOM:32",
+      "B1": "BROWN_MUSHROOM:32",
+      "B2": "ENCHANTED_EGG:1",
+      "B3": "BROWN_MUSHROOM:32",
+      "C1": "BROWN_MUSHROOM:32",
+      "C2": "BROWN_MUSHROOM:32",
+      "C3": "BROWN_MUSHROOM:32",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "BAT;0"
+    }
   ]
 }

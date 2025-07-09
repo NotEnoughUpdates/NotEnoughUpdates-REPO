@@ -20,22 +20,26 @@
   "internalname": "RABBIT;0",
   "clickcommand": "viewrecipe",
   "modver": "2.1.1-PRE",
-  "recipe": {
-    "A1": "RABBIT:8",
-    "A2": "RABBIT:8",
-    "A3": "RABBIT:8",
-    "B1": "RABBIT:8",
-    "B2": "ENCHANTED_EGG:1",
-    "B3": "RABBIT:8",
-    "C1": "RABBIT:8",
-    "C2": "RABBIT:8",
-    "C3": "RABBIT:8"
-  },
-  "crafttext": "50% Chance",
-  "useneucraft": true,
+  "crafttext": "Requires Raw Rabbit III",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Rabbit_Pet",
     "https://wiki.hypixel.net/Rabbit_Pet"
+  ],
+  "recipes": [
+    {
+      "A1": "RABBIT:32",
+      "A2": "RABBIT:32",
+      "A3": "RABBIT:32",
+      "B1": "RABBIT:32",
+      "B2": "ENCHANTED_EGG:1",
+      "B3": "RABBIT:32",
+      "C1": "RABBIT:32",
+      "C2": "RABBIT:32",
+      "C3": "RABBIT:32",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "RABBIT;0"
+    }
   ]
 }

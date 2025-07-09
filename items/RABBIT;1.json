@@ -18,20 +18,8 @@
     "§a§lUNCOMMON"
   ],
   "internalname": "RABBIT;1",
-  "clickcommand": "viewrecipe",
   "modver": "2.1.1-PRE",
-  "recipe": {
-    "A1": "RABBIT:8",
-    "A2": "RABBIT:8",
-    "A3": "RABBIT:8",
-    "B1": "RABBIT:8",
-    "B2": "ENCHANTED_EGG:1",
-    "B3": "RABBIT:8",
-    "C1": "RABBIT:8",
-    "C2": "RABBIT:8",
-    "C3": "RABBIT:8"
-  },
-  "crafttext": "35% Chance",
+  "crafttext": "",
   "useneucraft": true,
   "infoType": "WIKI_URL",
   "info": [
@@ -41,11 +29,15 @@
   "recipes": [
     {
       "type": "katgrade",
-      "coins": 2000,
-      "time": 3600,
+      "coins": 5000,
+      "time": 300,
       "input": "RABBIT;0",
       "output": "RABBIT;1",
-      "items": []
+      "items": [
+        "RABBIT:512",
+        "RABBIT_HIDE:256",
+        "RABBIT_FOOT:256"
+      ]
     }
   ]
 }

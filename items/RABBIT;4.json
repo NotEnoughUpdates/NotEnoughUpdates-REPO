@@ -25,21 +25,8 @@
     "§6§lLEGENDARY"
   ],
   "internalname": "RABBIT;4",
-  "clickcommand": "viewrecipe",
   "modver": "2.1.1-PRE",
-  "recipe": {
-    "A1": "RABBIT:8",
-    "A2": "RABBIT:8",
-    "A3": "RABBIT:8",
-    "B1": "RABBIT:8",
-    "B2": "SUPER_EGG:1",
-    "B3": "RABBIT:8",
-    "C1": "RABBIT:8",
-    "C2": "RABBIT:8",
-    "C3": "RABBIT:8"
-  },
-  "crafttext": "20% chance",
-  "useneucraft": true,
+  "crafttext": "",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Rabbit_Pet",
@@ -48,12 +35,14 @@
   "recipes": [
     {
       "type": "katgrade",
-      "coins": 250000,
-      "time": 86400,
+      "coins": 50000,
+      "time": 1800,
       "input": "RABBIT;3",
       "output": "RABBIT;4",
       "items": [
-        "RABBIT:64"
+        "ENCHANTED_RABBIT:32",
+        "ENCHANTED_RABBIT_HIDE:16",
+        "ENCHANTED_RABBIT_FOOT:16"
       ]
     }
   ]

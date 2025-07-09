@@ -24,23 +24,26 @@
   ],
   "internalname": "JERRY;0",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "recipe": {
-    "A1": "ASSISTANT:1",
-    "A2": "ASSISTANT:1",
-    "A3": "ASSISTANT:1",
-    "B1": "ASSISTANT:1",
-    "B2": "ENCHANTED_EGG:1",
-    "B3": "ASSISTANT:1",
-    "C1": "ASSISTANT:1",
-    "C2": "ASSISTANT:1",
-    "C3": "ASSISTANT:1"
-  },
-  "crafttext": "50% Chance",
-  "useneucraft": true,
+  "crafttext": "",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Jerry_Pet",
     "https://wiki.hypixel.net/Jerry_Pet"
+  ],
+  "recipes": [
+    {
+      "A1": "ASSISTANT:1",
+      "A2": "ASSISTANT:1",
+      "A3": "ASSISTANT:1",
+      "B1": "ASSISTANT:1",
+      "B2": "EGG:1",
+      "B3": "ASSISTANT:1",
+      "C1": "ASSISTANT:1",
+      "C2": "ASSISTANT:1",
+      "C3": "ASSISTANT:1",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "JERRY;0"
+    }
   ]
 }

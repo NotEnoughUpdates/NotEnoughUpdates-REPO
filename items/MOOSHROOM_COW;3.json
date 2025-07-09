@@ -25,19 +25,7 @@
     "§5§lEPIC"
   ],
   "internalname": "MOOSHROOM_COW;3",
-  "recipe": {
-    "A1": "DIGESTED_MUSHROOMS:32",
-    "A2": "ENCHANTED_MYCELIUM:32",
-    "A3": "DIGESTED_MUSHROOMS:32",
-    "B1": "ENCHANTED_MYCELIUM:32",
-    "B2": "SUPER_EGG:1",
-    "B3": "ENCHANTED_MYCELIUM:32",
-    "C1": "DIGESTED_MUSHROOMS:32",
-    "C2": "ENCHANTED_MYCELIUM:32",
-    "C3": "DIGESTED_MUSHROOMS:32"
-  },
-  "crafttext": "80% chance",
-  "clickcommand": "viewrecipe",
+  "crafttext": "",
   "modver": "2.1.1-PRE",
   "infoType": "WIKI_URL",
   "info": [
@@ -48,11 +36,12 @@
     {
       "type": "katgrade",
       "coins": 100000,
-      "time": 86400,
+      "time": 21600,
       "input": "MOOSHROOM_COW;2",
       "output": "MOOSHROOM_COW;3",
       "items": [
-        "DIGESTED_MUSHROOMS:20"
+        "DIGESTED_MUSHROOMS:32",
+        "ENCHANTED_MYCELIUM:64"
       ]
     }
   ]

@@ -20,20 +20,7 @@
     "§a§lUNCOMMON"
   ],
   "internalname": "MOOSHROOM_COW;1",
-  "recipe": {
-    "A1": "DIGESTED_MUSHROOMS:32",
-    "A2": "ENCHANTED_MYCELIUM:32",
-    "A3": "DIGESTED_MUSHROOMS:32",
-    "B1": "ENCHANTED_MYCELIUM:32",
-    "B2": "ENCHANTED_EGG:1",
-    "B3": "ENCHANTED_MYCELIUM:32",
-    "C1": "DIGESTED_MUSHROOMS:32",
-    "C2": "ENCHANTED_MYCELIUM:32",
-    "C3": "DIGESTED_MUSHROOMS:32"
-  },
-  "crafttext": "35% chance",
-  "useneucraft": true,
-  "clickcommand": "viewrecipe",
+  "crafttext": "",
   "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
@@ -43,12 +30,12 @@
   "recipes": [
     {
       "type": "katgrade",
-      "coins": 10000,
+      "coins": 25000,
       "time": 3600,
       "input": "MOOSHROOM_COW;0",
       "output": "MOOSHROOM_COW;1",
       "items": [
-        "DIGESTED_MUSHROOMS:5"
+        "ENCHANTED_MYCELIUM:16"
       ]
     }
   ]

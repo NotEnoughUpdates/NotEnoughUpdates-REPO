@@ -19,24 +19,28 @@
     "§f§lCOMMON"
   ],
   "internalname": "ZOMBIE;0",
-  "recipe": {
-    "A1": "ENCHANTED_ROTTEN_FLESH:16",
-    "A2": "ENCHANTED_ROTTEN_FLESH:16",
-    "A3": "ENCHANTED_ROTTEN_FLESH:16",
-    "B1": "ENCHANTED_ROTTEN_FLESH:16",
-    "B2": "ENCHANTED_EGG:1",
-    "B3": "ENCHANTED_ROTTEN_FLESH:16",
-    "C1": "ENCHANTED_ROTTEN_FLESH:16",
-    "C2": "ENCHANTED_ROTTEN_FLESH:16",
-    "C3": "ENCHANTED_ROTTEN_FLESH:16"
-  },
-  "crafttext": "50% Chance",
-  "useneucraft": true,
+  "crafttext": "Requires Rotten Flesh III",
   "clickcommand": "viewrecipe",
   "modver": "2.1.1-PRE",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Zombie_Pet",
     "https://wiki.hypixel.net/Zombie_Pet"
+  ],
+  "recipes": [
+    {
+      "A1": "ROTTEN_FLESH:8",
+      "A2": "ROTTEN_FLESH:8",
+      "A3": "ROTTEN_FLESH:8",
+      "B1": "ROTTEN_FLESH:8",
+      "B2": "EGG:1",
+      "B3": "ROTTEN_FLESH:8",
+      "C1": "ROTTEN_FLESH:8",
+      "C2": "ROTTEN_FLESH:8",
+      "C3": "ROTTEN_FLESH:8",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "ZOMBIE;0"
+    }
   ]
 }

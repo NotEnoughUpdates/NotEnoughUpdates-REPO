@@ -21,21 +21,8 @@
     "§9§lRARE"
   ],
   "internalname": "SILVERFISH;2",
-  "clickcommand": "viewrecipe",
   "modver": "",
-  "recipe": {
-    "A1": "ENCHANTED_COBBLESTONE:8",
-    "A2": "ENCHANTED_COBBLESTONE:8",
-    "A3": "ENCHANTED_COBBLESTONE:8",
-    "B1": "ENCHANTED_COBBLESTONE:8",
-    "B2": "ENCHANTED_EGG:1",
-    "B3": "ENCHANTED_COBBLESTONE:8",
-    "C1": "ENCHANTED_COBBLESTONE:8",
-    "C2": "ENCHANTED_COBBLESTONE:8",
-    "C3": "ENCHANTED_COBBLESTONE:8"
-  },
-  "crafttext": "15% Chance",
-  "useneucraft": true,
+  "crafttext": "",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Silverfish_Pet",
@@ -44,11 +31,13 @@
   "recipes": [
     {
       "type": "katgrade",
-      "coins": 50000,
-      "time": 21600,
+      "coins": 1000,
+      "time": 20,
       "input": "SILVERFISH;1",
       "output": "SILVERFISH;2",
-      "items": []
+      "items": [
+        "COBBLESTONE:256"
+      ]
     }
   ]
 }

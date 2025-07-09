@@ -46,11 +46,13 @@
   "recipes": [
     {
       "type": "katgrade",
-      "coins": 1000000,
+      "coins": 100000,
       "time": 3600,
       "input": "SPIDER;4",
       "output": "SPIDER;5",
       "items": [
+        "ENCHANTED_STRING:64",
+        "ENCHANTED_SPIDER_EYE:32",
         "FAKE_NEUROSCIENCE_DEGREE:1"
       ]
     }
