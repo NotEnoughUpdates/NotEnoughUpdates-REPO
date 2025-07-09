@@ -14,16 +14,22 @@
   "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
   "infoType": "",
   "info": [],
-  "recipe": {
-    "A1": "ICE:1",
-    "A2": "ICE:1",
-    "A3": "ICE:1",
-    "B1": "ICE:1",
-    "B2": "ICE:1",
-    "B3": "ICE:1",
-    "C1": "ICE:1",
-    "C2": "ICE:1",
-    "C3": "ICE:1"
-  },
-  "vanilla": true
+  "vanilla": true,
+  "recipes": [
+    {
+      "A1": "ICE:1",
+      "A2": "ICE:1",
+      "A3": "ICE:1",
+      "B1": "ICE:1",
+      "B2": "ICE:1",
+      "B3": "ICE:1",
+      "C1": "ICE:1",
+      "C2": "ICE:1",
+      "C3": "ICE:1",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "PACKED_ICE",
+      "supercraftable": true
+    }
+  ]
 }
