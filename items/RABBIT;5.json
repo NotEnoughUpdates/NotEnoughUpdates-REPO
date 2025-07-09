@@ -42,11 +42,14 @@
   "recipes": [
     {
       "type": "katgrade",
-      "coins": 1000000,
+      "coins": 100000,
       "time": 3600,
       "input": "RABBIT;4",
       "output": "RABBIT;5",
       "items": [
+        "ENCHANTED_RABBIT:64",
+        "ENCHANTED_RABBIT_HIDE:32",
+        "ENCHANTED_RABBIT_FOOT:32",
         "PET_ITEM_CHOCOLATE_SYRINGE:1"
       ]
     }

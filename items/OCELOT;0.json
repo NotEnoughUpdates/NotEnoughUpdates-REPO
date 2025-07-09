@@ -1,41 +1,45 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§f§f§7[Lvl {LVL}] §fOcelot",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"049e58ac-5c8d-3381-a4bd-e62e0261990c\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY1N2NkNWMyOTg5ZmY5NzU3MGZlYzRkZGNkYzY5MjZhNjhhMzM5MzI1MGMxYmUxZjBiMTE0YTFkYjEifX19\"}]}},display:{Lore:[0:\"§8Foraging Pet\",1:\"\",2:\"§7Speed: §a{SPEED}\",3:\"§7Ferocity: §a{FEROCITY}\",4:\"\",5:\"§6Foraging Wisdom Boost\",6:\"§7§7§7Grants §3+{0}☯ Foraging Wisdom§7.\",7:\"\",8:\"§7§eRight-click to add this pet to your\",9:\"§epet menu!\",10:\"\",11:\"§f§lCOMMON\"],Name:\"§f§f§7[Lvl {LVL}] §fOcelot\"},ExtraAttributes:{petInfo:\"{\\\"type\\\":\\\"OCELOT\\\",\\\"active\\\":false,\\\"exp\\\":0,\\\"tier\\\":\\\"COMMON\\\",\\\"hideInfo\\\":false,\\\"candyUsed\\\":0}\",id:\"OCELOT;0\"},AttributeModifiers:[]}",
+  "displayname": "§7[Lvl {LVL}] §fOcelot",
+  "nbttag": "{ExtraAttributes:{id:\"OCELOT;0\",petInfo:\"{\\\"type\\\":\\\"OCELOT\\\",\\\"tier\\\":\\\"COMMON\\\"}\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"049e58ac-5c8d-3381-a4bd-e62e0261990c\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY1N2NkNWMyOTg5ZmY5NzU3MGZlYzRkZGNkYzY5MjZhNjhhMzM5MzI1MGMxYmUxZjBiMTE0YTFkYjEifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Foraging Pet\",1:\"\",2:\"§7Speed: §a0.5\",3:\"§7Ferocity: §a0.1\",4:\"\",5:\"§6Foraging Wisdom Boost\",6:\"§7Grants §3+0.2☯ Foraging Wisdom§7.\",7:\"\",8:\"§eRight-click to add this pet to your\",9:\"§epet menu!\",10:\"\",11:\"§f§lCOMMON\"],Name:\"§7[Lvl {LVL}] §fOcelot\"}}",
   "damage": 3,
   "lore": [
     "§8Foraging Pet",
     "",
-    "§7Speed: §a{SPEED}",
-    "§7Ferocity: §a{FEROCITY}",
+    "§7Speed: §a0.5",
+    "§7Ferocity: §a0.1",
     "",
     "§6Foraging Wisdom Boost",
-    "§7§7§7Grants §3+{0}☯ Foraging Wisdom§7.",
+    "§7Grants §3+0.2☯ Foraging Wisdom§7.",
     "",
-    "§7§eRight-click to add this pet to your",
+    "§eRight-click to add this pet to your",
     "§epet menu!",
     "",
     "§f§lCOMMON"
   ],
   "internalname": "OCELOT;0",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "recipe": {
-    "A1": "ENCHANTED_JUNGLE_LOG:64",
-    "A2": "ENCHANTED_JUNGLE_LOG:64",
-    "A3": "ENCHANTED_JUNGLE_LOG:64",
-    "B1": "ENCHANTED_JUNGLE_LOG:64",
-    "B2": "ENCHANTED_EGG:1",
-    "B3": "ENCHANTED_JUNGLE_LOG:64",
-    "C1": "ENCHANTED_JUNGLE_LOG:64",
-    "C2": "ENCHANTED_JUNGLE_LOG:64",
-    "C3": "ENCHANTED_JUNGLE_LOG:64"
-  },
-  "crafttext": "50% Chance",
-  "useneucraft": true,
+  "modver": "Firmament 3.3.0+mc1.21.5",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Ocelot_Pet",
     "https://wiki.hypixel.net/Ocelot_Pet"
+  ],
+  "useneucraft": true,
+  "recipes": [
+    {
+      "A1": "LOG-3:32",
+      "A2": "LOG-3:32",
+      "A3": "LOG-3:32",
+      "B1": "LOG-3:32",
+      "B2": "ENCHANTED_EGG:1",
+      "B3": "LOG-3:32",
+      "C1": "LOG-3:32",
+      "C2": "LOG-3:32",
+      "C3": "LOG-3:32",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "OCELOT;0"
+    }
   ]
 }
