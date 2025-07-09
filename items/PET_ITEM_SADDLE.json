@@ -27,15 +27,20 @@
     "https://hypixel-skyblock.fandom.com/wiki/Saddle",
     "https://wiki.hypixel.net/Saddle"
   ],
-  "recipe": {
-    "A1": "ENCHANTED_LEATHER:1",
-    "A2": "ENCHANTED_LEATHER:1",
-    "A3": "ENCHANTED_LEATHER:1",
-    "B1": "ENCHANTED_LEATHER:1",
-    "B2": "ENCHANTED_LEATHER:1",
-    "B3": "ENCHANTED_LEATHER:1",
-    "C1": "ENCHANTED_LEATHER:1",
-    "C2": "",
-    "C3": "ENCHANTED_LEATHER:1"
-  }
+  "recipes": [
+    {
+      "A1": "",
+      "A2": "ENCHANTED_LEATHER:8",
+      "A3": "",
+      "B1": "ENCHANTED_LEATHER:8",
+      "B2": "ENCHANTED_IRON:8",
+      "B3": "ENCHANTED_LEATHER:8",
+      "C1": "",
+      "C2": "",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "PET_ITEM_SADDLE"
+    }
+  ]
 }

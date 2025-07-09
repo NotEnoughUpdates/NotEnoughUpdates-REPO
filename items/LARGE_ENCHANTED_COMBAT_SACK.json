@@ -29,15 +29,20 @@
     "https://hypixel-skyblock.fandom.com/wiki/Large_Enchanted_Combat_Sack",
     "https://wiki.hypixel.net/Large_Enchanted_Combat_Sack"
   ],
-  "recipe": {
-    "A1": "ENCHANTED_ROTTEN_FLESH:16",
-    "A2": "ENCHANTED_STRING:16",
-    "A3": "ENCHANTED_ROTTEN_FLESH:16",
-    "B1": "ENCHANTED_ROTTEN_FLESH:16",
-    "B2": "ENCHANTED_LEATHER:4",
-    "B3": "ENCHANTED_ROTTEN_FLESH:16",
-    "C1": "ENCHANTED_ROTTEN_FLESH:16",
-    "C2": "ENCHANTED_ROTTEN_FLESH:16",
-    "C3": "ENCHANTED_ROTTEN_FLESH:16"
-  }
+  "recipes": [
+    {
+      "A1": "ENCHANTED_ROTTEN_FLESH:16",
+      "A2": "ENCHANTED_STRING:16",
+      "A3": "ENCHANTED_ROTTEN_FLESH:16",
+      "B1": "ENCHANTED_ROTTEN_FLESH:16",
+      "B2": "ENCHANTED_LEATHER:12",
+      "B3": "ENCHANTED_ROTTEN_FLESH:16",
+      "C1": "ENCHANTED_ROTTEN_FLESH:16",
+      "C2": "ENCHANTED_ROTTEN_FLESH:16",
+      "C3": "ENCHANTED_ROTTEN_FLESH:16",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "LARGE_ENCHANTED_COMBAT_SACK"
+    }
+  ]
 }

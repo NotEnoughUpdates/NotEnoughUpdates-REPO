@@ -24,16 +24,21 @@
     "https://hypixel-skyblock.fandom.com/wiki/Rabbit_Minion",
     "https://wiki.hypixel.net/Rabbit_Minion_VI"
   ],
-  "recipe": {
-    "A1": "ENCHANTED_RABBIT_FOOT:8",
-    "A2": "ENCHANTED_RABBIT_FOOT:8",
-    "A3": "ENCHANTED_RABBIT_FOOT:8",
-    "B1": "ENCHANTED_RABBIT_FOOT:8",
-    "B2": "RABBIT_GENERATOR_5:1",
-    "B3": "ENCHANTED_RABBIT_FOOT:8",
-    "C1": "ENCHANTED_RABBIT_FOOT:8",
-    "C2": "ENCHANTED_RABBIT_FOOT:8",
-    "C3": "ENCHANTED_RABBIT_FOOT:8"
-  },
-  "useneucraft": true
+  "useneucraft": true,
+  "recipes": [
+    {
+      "A1": "ENCHANTED_RABBIT:3",
+      "A2": "ENCHANTED_RABBIT:3",
+      "A3": "ENCHANTED_RABBIT:3",
+      "B1": "ENCHANTED_RABBIT:3",
+      "B2": "RABBIT_GENERATOR_5:1",
+      "B3": "ENCHANTED_RABBIT:3",
+      "C1": "ENCHANTED_RABBIT:3",
+      "C2": "ENCHANTED_RABBIT:3",
+      "C3": "ENCHANTED_RABBIT:3",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "RABBIT_GENERATOR_6"
+    }
+  ]
 }

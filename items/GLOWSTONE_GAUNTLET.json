@@ -20,15 +20,20 @@
     "https://hypixel-skyblock.fandom.com/wiki/Glowstone_Gauntlet",
     "https://wiki.hypixel.net/Glowstone_Gauntlet"
   ],
-  "recipe": {
-    "A1": "ENCHANTED_LEATHER:1",
-    "A2": "ENCHANTED_LEATHER:1",
-    "A3": "ENCHANTED_LEATHER:1",
-    "B1": "ENCHANTED_GLOWSTONE_DUST:2",
-    "B2": "ENCHANTED_GLOWSTONE_DUST:2",
-    "B3": "ENCHANTED_GLOWSTONE_DUST:2",
-    "C1": "ENCHANTED_GLOWSTONE_DUST:2",
-    "C2": "ENCHANTED_GLOWSTONE_DUST:2",
-    "C3": "ENCHANTED_GLOWSTONE_DUST:2"
-  }
+  "recipes": [
+    {
+      "A1": "ENCHANTED_LEATHER:3",
+      "A2": "ENCHANTED_LEATHER:3",
+      "A3": "ENCHANTED_LEATHER:3",
+      "B1": "ENCHANTED_GLOWSTONE_DUST:2",
+      "B2": "ENCHANTED_GLOWSTONE_DUST:2",
+      "B3": "ENCHANTED_GLOWSTONE_DUST:2",
+      "C1": "ENCHANTED_GLOWSTONE_DUST:2",
+      "C2": "ENCHANTED_GLOWSTONE_DUST:2",
+      "C3": "ENCHANTED_GLOWSTONE_DUST:2",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "GLOWSTONE_GAUNTLET"
+    }
+  ]
 }

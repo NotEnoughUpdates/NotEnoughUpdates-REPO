@@ -24,16 +24,21 @@
     "https://hypixel-skyblock.fandom.com/wiki/Rabbit_Minion",
     "https://wiki.hypixel.net/Rabbit_Minion_II"
   ],
-  "recipe": {
-    "A1": "RABBIT:16",
-    "A2": "RABBIT:16",
-    "A3": "RABBIT:16",
-    "B1": "RABBIT:16",
-    "B2": "RABBIT_GENERATOR_1:1",
-    "B3": "RABBIT:16",
-    "C1": "RABBIT:16",
-    "C2": "RABBIT:16",
-    "C3": "RABBIT:16"
-  },
-  "useneucraft": true
+  "useneucraft": true,
+  "recipes": [
+    {
+      "A1": "RABBIT:16",
+      "A2": "RABBIT:16",
+      "A3": "RABBIT:16",
+      "B1": "RABBIT:16",
+      "B2": "RABBIT_GENERATOR_1:1",
+      "B3": "RABBIT:16",
+      "C1": "RABBIT:16",
+      "C2": "RABBIT:16",
+      "C3": "RABBIT:16",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "RABBIT_GENERATOR_2"
+    }
+  ]
 }

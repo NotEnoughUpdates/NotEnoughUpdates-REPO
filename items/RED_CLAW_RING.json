@@ -18,16 +18,21 @@
     "https://hypixel-skyblock.fandom.com/wiki/Red_Claw_Ring",
     "https://wiki.hypixel.net/Red_Claw_Ring"
   ],
-  "recipe": {
-    "A1": "ENCHANTED_LEATHER:8",
-    "A2": "GOLDEN_TOOTH:2",
-    "A3": "ENCHANTED_LEATHER:8",
-    "B1": "GOLDEN_TOOTH:2",
-    "B2": "RED_CLAW_TALISMAN:1",
-    "B3": "GOLDEN_TOOTH:2",
-    "C1": "ENCHANTED_LEATHER:8",
-    "C2": "GOLDEN_TOOTH:2",
-    "C3": "ENCHANTED_LEATHER:8"
-  },
-  "slayer_req": "WOLF_5"
+  "slayer_req": "WOLF_5",
+  "recipes": [
+    {
+      "A1": "ENCHANTED_LEATHER:24",
+      "A2": "GOLDEN_TOOTH:2",
+      "A3": "ENCHANTED_LEATHER:24",
+      "B1": "GOLDEN_TOOTH:2",
+      "B2": "RED_CLAW_TALISMAN:1",
+      "B3": "GOLDEN_TOOTH:2",
+      "C1": "ENCHANTED_LEATHER:24",
+      "C2": "GOLDEN_TOOTH:2",
+      "C3": "ENCHANTED_LEATHER:24",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "RED_CLAW_RING"
+    }
+  ]
 }
