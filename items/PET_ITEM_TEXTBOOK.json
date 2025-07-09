@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:book",
   "displayname": "§6Textbook",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§8Consumed on use\",1:\"\",2:\"§aPet Items §7can boost pets in many powerful ways!\",3:\"§7A pet can only hold one §aPet Item §7at a time.\",4:\"§7The pet must be §evisible §7to apply the item!\",5:\"\",6:\"§7§7Increases the pet\u0027s §b✎ Intelligence\",7:\"§b§7by §a100%§7.\",8:\"\",9:\"§7§eRight-click on your summoned pet to\",10:\"§egive it this item!\",11:\"\",12:\"§6§lLEGENDARY PET ITEM\"],Name:\"§6Textbook\"},ExtraAttributes:{id:\"PET_ITEM_TEXTBOOK\"}}",
+  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§8Consumed on use\",1:\"\",2:\"§aPet Items §7can boost pets in many powerful ways!\",3:\"§7A pet can only hold one §aPet Item §7at a time.\",4:\"§7The pet must be §evisible §7to apply the item!\",5:\"\",6:\"§7§7Increases the pet's §b✎ Intelligence\",7:\"§b§7by §a100%§7.\",8:\"\",9:\"§7§eRight-click on your summoned pet to\",10:\"§egive it this item!\",11:\"\",12:\"§6§lLEGENDARY PET ITEM\"],Name:\"§6Textbook\"},ExtraAttributes:{id:\"PET_ITEM_TEXTBOOK\"}}",
   "damage": 0,
   "lore": [
     "§8Consumed on use",
@@ -10,7 +10,7 @@
     "§7A pet can only hold one §aPet Item §7at a time.",
     "§7The pet must be §evisible §7to apply the item!",
     "",
-    "§7§7Increases the pet\u0027s §b✎ Intelligence",
+    "§7§7Increases the pet's §b✎ Intelligence",
     "§b§7by §a100%§7.",
     "",
     "§7§eRight-click on your summoned pet to",
@@ -37,5 +37,21 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Textbook",
     "https://wiki.hypixel.net/Textbook"
+  ],
+  "recipes": [
+    {
+      "A1": "ENCHANTED_LAPIS_LAZULI_BLOCK:1",
+      "A2": "ENCHANTED_LAPIS_LAZULI_BLOCK:1",
+      "A3": "ENCHANTED_LAPIS_LAZULI_BLOCK:1",
+      "B1": "ENCHANTED_LAPIS_LAZULI_BLOCK:1",
+      "B2": "ENCHANTED_PAPER:64",
+      "B3": "ENCHANTED_LAPIS_LAZULI_BLOCK:1",
+      "C1": "ENCHANTED_LAPIS_LAZULI_BLOCK:1",
+      "C2": "ENCHANTED_LAPIS_LAZULI_BLOCK:1",
+      "C3": "ENCHANTED_LAPIS_LAZULI_BLOCK:1",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "PET_ITEM_TEXTBOOK"
+    }
   ]
 }

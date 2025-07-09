@@ -29,15 +29,20 @@
     "https://hypixel-skyblock.fandom.com/wiki/Large_Enchanted_Agronomy_Sack",
     "https://wiki.hypixel.net/Large_Enchanted_Agronomy_Sack"
   ],
-  "recipe": {
-    "A1": "ENCHANTED_HAY_BALE:3",
-    "A2": "ENCHANTED_STRING:16",
-    "A3": "ENCHANTED_HAY_BALE:3",
-    "B1": "ENCHANTED_HAY_BALE:2",
-    "B2": "ENCHANTED_LEATHER:4",
-    "B3": "ENCHANTED_HAY_BALE:2",
-    "C1": "ENCHANTED_HAY_BALE:2",
-    "C2": "ENCHANTED_HAY_BALE:2",
-    "C3": "ENCHANTED_HAY_BALE:2"
-  }
+  "recipes": [
+    {
+      "A1": "ENCHANTED_HAY_BALE:3",
+      "A2": "ENCHANTED_STRING:16",
+      "A3": "ENCHANTED_HAY_BALE:3",
+      "B1": "ENCHANTED_HAY_BALE:2",
+      "B2": "ENCHANTED_LEATHER:12",
+      "B3": "ENCHANTED_HAY_BALE:2",
+      "C1": "ENCHANTED_HAY_BALE:2",
+      "C2": "ENCHANTED_HAY_BALE:2",
+      "C3": "ENCHANTED_HAY_BALE:2",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "LARGE_ENCHANTED_AGRONOMY_SACK"
+    }
+  ]
 }

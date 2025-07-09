@@ -18,16 +18,21 @@
     "https://hypixel-skyblock.fandom.com/wiki/Red_Claw_Artifact",
     "https://wiki.hypixel.net/Red_Claw_Artifact"
   ],
-  "recipe": {
-    "A1": "ENCHANTED_LEATHER:32",
-    "A2": "GOLDEN_TOOTH:18",
-    "A3": "ENCHANTED_LEATHER:32",
-    "B1": "GOLDEN_TOOTH:18",
-    "B2": "RED_CLAW_EGG:1",
-    "B3": "GOLDEN_TOOTH:18",
-    "C1": "ENCHANTED_LEATHER:32",
-    "C2": "RED_CLAW_RING:1",
-    "C3": "ENCHANTED_LEATHER:32"
-  },
-  "slayer_req": "WOLF_5"
+  "slayer_req": "WOLF_5",
+  "recipes": [
+    {
+      "A1": "ENCHANTED_LEATHER:64",
+      "A2": "GOLDEN_TOOTH:18",
+      "A3": "ENCHANTED_LEATHER:64",
+      "B1": "GOLDEN_TOOTH:18",
+      "B2": "RED_CLAW_RING:1",
+      "B3": "GOLDEN_TOOTH:18",
+      "C1": "ENCHANTED_LEATHER:64",
+      "C2": "RED_CLAW_EGG:1",
+      "C3": "ENCHANTED_LEATHER:64",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "RED_CLAW_ARTIFACT"
+    }
+  ]
 }

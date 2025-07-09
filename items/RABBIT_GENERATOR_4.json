@@ -24,16 +24,21 @@
     "https://hypixel-skyblock.fandom.com/wiki/Rabbit_Minion",
     "https://wiki.hypixel.net/Rabbit_Minion_IV"
   ],
-  "recipe": {
-    "A1": "RABBIT:64",
-    "A2": "RABBIT:64",
-    "A3": "RABBIT:64",
-    "B1": "RABBIT:64",
-    "B2": "RABBIT_GENERATOR_3:1",
-    "B3": "RABBIT:64",
-    "C1": "RABBIT:64",
-    "C2": "RABBIT:64",
-    "C3": "RABBIT:64"
-  },
-  "useneucraft": true
+  "useneucraft": true,
+  "recipes": [
+    {
+      "A1": "RABBIT:64",
+      "A2": "RABBIT:64",
+      "A3": "RABBIT:64",
+      "B1": "RABBIT:64",
+      "B2": "RABBIT_GENERATOR_3:1",
+      "B3": "RABBIT:64",
+      "C1": "RABBIT:64",
+      "C2": "RABBIT:64",
+      "C3": "RABBIT:64",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "RABBIT_GENERATOR_4"
+    }
+  ]
 }

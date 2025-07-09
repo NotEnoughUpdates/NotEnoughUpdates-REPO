@@ -1,0 +1,33 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "PET_SKIN_MOOSHROOM_COW_LUNAR_OX"
+		},
+		"minecraft:profile": {
+			id: [I;
+				-579604344,
+				860042381,
+				-1487482900,
+				-842920446
+			],
+			name: "",
+			properties: [
+				{
+					name: "textures",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTcwNzI5NTgxMzQyNSwKICAicHJvZmlsZUlkIiA6ICI1ZTEwYjc5MTY2ZTA0MTNkYjI2MThkMzE3MTc2M2Y4NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJPTUZfQmxvY2tCdXN0ZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTQ1ZDdiNDYzMjQ3YmZlOTM0NGJmYzA0YzYyYzBjMzgxMmU5MTM5MzBiM2MyNDhkZWRiZjExMTE5MWJhZDc5MSIKICAgIH0KICB9Cn0"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.3.0+mc1.21.5"
+	}
+}
