@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§f§f§7[Lvl {LVL}] §fSkeleton",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"a404772a-f923-34df-b7e3-49f7e556e179\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmNhNDQ1NzQ5MjUxYmRkODk4ZmI4M2Y2Njc4NDRlMzhhMWRmZjc5YTE1MjlmNzlhNDI0NDdhMDU5OTMxMGVhNCJ9fX0\u003d\"}]}},display:{Lore:[0:\"§8Combat Pet\",1:\"\",2:\"§7Crit Chance: §c{CRIT_CHANCE}%\",3:\"§7Crit Damage: §c{CRIT_DAMAGE}%\",4:\"\",5:\"§6Bone Arrows\",6:\"§7§7Increase arrow damage by §a{0}%§7\",7:\"§7which is doubled while in dungeons.\",8:\"\",9:\"§7§eRight-click to add this pet to your\",10:\"§epet menu!\",11:\"\",12:\"§f§lCOMMON\"],Name:\"§f§f§7[Lvl {LVL}] §fSkeleton\"},ExtraAttributes:{petInfo:\"{\\\"type\\\":\\\"SKELETON\\\",\\\"active\\\":false,\\\"exp\\\":0,\\\"tier\\\":\\\"COMMON\\\",\\\"hideInfo\\\":false,\\\"candyUsed\\\":0}\",id:\"SKELETON;0\"},AttributeModifiers:[]}",
+  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"a404772a-f923-34df-b7e3-49f7e556e179\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmNhNDQ1NzQ5MjUxYmRkODk4ZmI4M2Y2Njc4NDRlMzhhMWRmZjc5YTE1MjlmNzlhNDI0NDdhMDU5OTMxMGVhNCJ9fX0=\"}]}},display:{Lore:[0:\"§8Combat Pet\",1:\"\",2:\"§7Crit Chance: §c{CRIT_CHANCE}%\",3:\"§7Crit Damage: §c{CRIT_DAMAGE}%\",4:\"\",5:\"§6Bone Arrows\",6:\"§7§7Increase arrow damage by §a{0}%§7\",7:\"§7which is doubled while in dungeons.\",8:\"\",9:\"§7§eRight-click to add this pet to your\",10:\"§epet menu!\",11:\"\",12:\"§f§lCOMMON\"],Name:\"§f§f§7[Lvl {LVL}] §fSkeleton\"},ExtraAttributes:{petInfo:\"{\\\"type\\\":\\\"SKELETON\\\",\\\"active\\\":false,\\\"exp\\\":0,\\\"tier\\\":\\\"COMMON\\\",\\\"hideInfo\\\":false,\\\"candyUsed\\\":0}\",id:\"SKELETON;0\"},AttributeModifiers:[]}",
   "damage": 3,
   "lore": [
     "§8Combat Pet",
@@ -19,24 +19,28 @@
     "§f§lCOMMON"
   ],
   "internalname": "SKELETON;0",
-  "crafttext": "50% Chance",
-  "useneucraft": true,
   "clickcommand": "viewrecipe",
-  "recipe": {
-    "A1": "ENCHANTED_BONE:16",
-    "A2": "ENCHANTED_BONE:16",
-    "A3": "ENCHANTED_BONE:16",
-    "B1": "ENCHANTED_BONE:16",
-    "B2": "ENCHANTED_EGG:1",
-    "B3": "ENCHANTED_BONE:16",
-    "C1": "ENCHANTED_BONE:16",
-    "C2": "ENCHANTED_BONE:16",
-    "C3": "ENCHANTED_BONE:16"
-  },
+  "crafttext": "Requires Bone III",
   "modver": "2.1.1-PRE",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Skeleton_Pet",
     "https://wiki.hypixel.net/Skeleton_Pet"
+  ],
+  "recipes": [
+    {
+      "A1": "BONE:32",
+      "A2": "BONE:32",
+      "A3": "BONE:32",
+      "B1": "BONE:32",
+      "B2": "ENCHANTED_EGG:1",
+      "B3": "BONE:32",
+      "C1": "BONE:32",
+      "C2": "BONE:32",
+      "C3": "BONE:32",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "SKELETON;0"
+    }
   ]
 }

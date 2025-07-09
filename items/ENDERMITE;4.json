@@ -31,21 +31,8 @@
     "§6§lLEGENDARY"
   ],
   "internalname": "ENDERMITE;4",
-  "crafttext": "20% Chance",
-  "useneucraft": true,
   "clickcommand": "viewrecipe",
-  "recipe": {
-    "A1": "ENCHANTED_ENDSTONE:64",
-    "A2": "ENCHANTED_ENDSTONE:64",
-    "A3": "ENCHANTED_ENDSTONE:64",
-    "B1": "ENCHANTED_ENDSTONE:64",
-    "B2": "SUPER_EGG:1",
-    "B3": "ENCHANTED_ENDSTONE:64",
-    "C1": "ENCHANTED_ENDSTONE:64",
-    "C2": "ENCHANTED_ENDSTONE:64",
-    "C3": "ENCHANTED_ENDSTONE:64"
-  },
-  "modver": "2.1.0-REL",
+  "crafttext": "",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Endermite_Pet",
@@ -54,12 +41,13 @@
   "recipes": [
     {
       "type": "katgrade",
-      "coins": 1000000,
-      "time": 604800,
+      "coins": 50000,
+      "time": 1800,
       "input": "ENDERMITE;3",
       "output": "ENDERMITE;4",
       "items": [
-        "MITE_GEL:128"
+        "ENCHANTED_ENDSTONE:32",
+        "MITE_GEL:64"
       ]
     }
   ]

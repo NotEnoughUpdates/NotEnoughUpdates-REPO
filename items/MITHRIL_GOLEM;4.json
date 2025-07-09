@@ -26,22 +26,9 @@
     "",
     "§6§lLEGENDARY"
   ],
-  "recipe": {
-    "A1": "ENCHANTED_MITHRIL:16",
-    "A2": "ENCHANTED_MITHRIL:16",
-    "A3": "ENCHANTED_MITHRIL:16",
-    "B1": "ENCHANTED_MITHRIL:16",
-    "B2": "SUPER_EGG:1",
-    "B3": "ENCHANTED_MITHRIL:16",
-    "C1": "ENCHANTED_MITHRIL:16",
-    "C2": "ENCHANTED_MITHRIL:16",
-    "C3": "ENCHANTED_MITHRIL:16"
-  },
   "internalname": "MITHRIL_GOLEM;4",
-  "crafttext": "Requires: Mithril V, 20% Chance",
-  "clickcommand": "viewrecipe",
+  "crafttext": "",
   "modver": "2.3.2",
-  "useneucraft": true,
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Mithril_Golem_Pet",
@@ -50,11 +37,13 @@
   "recipes": [
     {
       "type": "katgrade",
-      "coins": 200000,
-      "time": 1728000,
+      "coins": 50000,
+      "time": 1800,
       "input": "MITHRIL_GOLEM;3",
       "output": "MITHRIL_GOLEM;4",
-      "items": []
+      "items": [
+        "ENCHANTED_MITHRIL:32"
+      ]
     }
   ]
 }

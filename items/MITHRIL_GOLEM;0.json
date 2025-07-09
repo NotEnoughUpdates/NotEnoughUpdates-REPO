@@ -18,25 +18,29 @@
     "",
     "§f§lCOMMON"
   ],
-  "recipe": {
-    "A1": "ENCHANTED_MITHRIL:16",
-    "A2": "ENCHANTED_MITHRIL:16",
-    "A3": "ENCHANTED_MITHRIL:16",
-    "B1": "ENCHANTED_MITHRIL:16",
-    "B2": "ENCHANTED_EGG:1",
-    "B3": "ENCHANTED_MITHRIL:16",
-    "C1": "ENCHANTED_MITHRIL:16",
-    "C2": "ENCHANTED_MITHRIL:16",
-    "C3": "ENCHANTED_MITHRIL:16"
-  },
   "internalname": "MITHRIL_GOLEM;0",
-  "crafttext": "Requires: Mithril V, 50% Chance",
+  "crafttext": "Requires Mithril III",
   "clickcommand": "viewrecipe",
   "modver": "2.3.2",
-  "useneucraft": true,
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Mithril_Golem_Pet",
     "https://wiki.hypixel.net/Mithril_Golem_Pet"
+  ],
+  "recipes": [
+    {
+      "A1": "MITHRIL_ORE:32",
+      "A2": "MITHRIL_ORE:32",
+      "A3": "MITHRIL_ORE:32",
+      "B1": "MITHRIL_ORE:32",
+      "B2": "ENCHANTED_EGG:1",
+      "B3": "MITHRIL_ORE:32",
+      "C1": "MITHRIL_ORE:32",
+      "C2": "MITHRIL_ORE:32",
+      "C3": "MITHRIL_ORE:32",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "MITHRIL_GOLEM;0"
+    }
   ]
 }

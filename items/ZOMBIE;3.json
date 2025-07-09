@@ -22,20 +22,7 @@
     "§5§lEPIC"
   ],
   "internalname": "ZOMBIE;3",
-  "recipe": {
-    "A1": "ENCHANTED_ROTTEN_FLESH:16",
-    "A2": "ENCHANTED_ROTTEN_FLESH:16",
-    "A3": "ENCHANTED_ROTTEN_FLESH:16",
-    "B1": "ENCHANTED_ROTTEN_FLESH:16",
-    "B2": "SUPER_EGG:1",
-    "B3": "ENCHANTED_ROTTEN_FLESH:16",
-    "C1": "ENCHANTED_ROTTEN_FLESH:16",
-    "C2": "ENCHANTED_ROTTEN_FLESH:16",
-    "C3": "ENCHANTED_ROTTEN_FLESH:16"
-  },
-  "crafttext": "80% chance",
-  "useneucraft": true,
-  "clickcommand": "viewrecipe",
+  "crafttext": "",
   "modver": "2.1.1-PRE",
   "infoType": "WIKI_URL",
   "info": [
@@ -45,11 +32,13 @@
   "recipes": [
     {
       "type": "katgrade",
-      "coins": 190000,
-      "time": 432000,
+      "coins": 2500,
+      "time": 30,
       "input": "ZOMBIE;2",
       "output": "ZOMBIE;3",
-      "items": []
+      "items": [
+        "ROTTEN_FLESH:512"
+      ]
     }
   ]
 }

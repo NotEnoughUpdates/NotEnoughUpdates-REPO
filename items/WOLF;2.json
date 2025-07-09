@@ -25,21 +25,8 @@
     "§9§lRARE"
   ],
   "internalname": "WOLF;2",
-  "clickcommand": "viewrecipe",
   "modver": "2.1.1-PRE",
-  "recipe": {
-    "A1": "ENCHANTED_SPRUCE_LOG:64",
-    "A2": "ENCHANTED_SPRUCE_LOG:64",
-    "A3": "ENCHANTED_SPRUCE_LOG:64",
-    "B1": "ENCHANTED_SPRUCE_LOG:64",
-    "B2": "ENCHANTED_EGG:1",
-    "B3": "ENCHANTED_SPRUCE_LOG:64",
-    "C1": "ENCHANTED_SPRUCE_LOG:64",
-    "C2": "ENCHANTED_SPRUCE_LOG:64",
-    "C3": "ENCHANTED_SPRUCE_LOG:64"
-  },
-  "crafttext": "15% Chance",
-  "useneucraft": true,
+  "crafttext": "",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Wolf_Pet",
@@ -48,11 +35,13 @@
   "recipes": [
     {
       "type": "katgrade",
-      "coins": 5000,
-      "time": 21600,
+      "coins": 10000,
+      "time": 600,
       "input": "WOLF;1",
       "output": "WOLF;2",
-      "items": []
+      "items": [
+        "ENCHANTED_SPRUCE_LOG:8"
+      ]
     }
   ]
 }

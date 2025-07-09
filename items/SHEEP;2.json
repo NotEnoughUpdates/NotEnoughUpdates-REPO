@@ -23,21 +23,8 @@
     "§9§lRARE"
   ],
   "internalname": "SHEEP;2",
-  "clickcommand": "viewrecipe",
   "modver": "2.1.1-PRE",
-  "recipe": {
-    "A1": "ENCHANTED_MUTTON:64",
-    "A2": "ENCHANTED_MUTTON:64",
-    "A3": "ENCHANTED_MUTTON:64",
-    "B1": "ENCHANTED_MUTTON:64",
-    "B2": "ENCHANTED_EGG:1",
-    "B3": "ENCHANTED_MUTTON:64",
-    "C1": "ENCHANTED_MUTTON:64",
-    "C2": "ENCHANTED_MUTTON:64",
-    "C3": "ENCHANTED_MUTTON:64"
-  },
-  "crafttext": "15% Chance",
-  "useneucraft": true,
+  "crafttext": "",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Sheep_Pet",
@@ -46,11 +33,14 @@
   "recipes": [
     {
       "type": "katgrade",
-      "coins": 5000,
-      "time": 28800,
+      "coins": 10000,
+      "time": 600,
       "input": "SHEEP;1",
       "output": "SHEEP;2",
-      "items": []
+      "items": [
+        "ENCHANTED_MUTTON:8",
+        "ENCHANTED_WOOL:8"
+      ]
     }
   ]
 }

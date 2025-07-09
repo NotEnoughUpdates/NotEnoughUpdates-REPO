@@ -19,23 +19,28 @@
   ],
   "internalname": "OCELOT;0",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "recipe": {
-    "A1": "ENCHANTED_JUNGLE_LOG:64",
-    "A2": "ENCHANTED_JUNGLE_LOG:64",
-    "A3": "ENCHANTED_JUNGLE_LOG:64",
-    "B1": "ENCHANTED_JUNGLE_LOG:64",
-    "B2": "ENCHANTED_EGG:1",
-    "B3": "ENCHANTED_JUNGLE_LOG:64",
-    "C1": "ENCHANTED_JUNGLE_LOG:64",
-    "C2": "ENCHANTED_JUNGLE_LOG:64",
-    "C3": "ENCHANTED_JUNGLE_LOG:64"
-  },
-  "crafttext": "50% Chance",
-  "useneucraft": true,
+  "crafttext": "Requires Jungle Log III",
+  "modver": "Firmament 3.3.0+mc1.21.5",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Ocelot_Pet",
     "https://wiki.hypixel.net/Ocelot_Pet"
+  ],
+  "useneucraft": true,
+  "recipes": [
+    {
+      "A1": "LOG-3:32",
+      "A2": "LOG-3:32",
+      "A3": "LOG-3:32",
+      "B1": "LOG-3:32",
+      "B2": "ENCHANTED_EGG:1",
+      "B3": "LOG-3:32",
+      "C1": "LOG-3:32",
+      "C2": "LOG-3:32",
+      "C3": "LOG-3:32",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "OCELOT;0"
+    }
   ]
 }

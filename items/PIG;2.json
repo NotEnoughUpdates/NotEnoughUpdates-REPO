@@ -27,21 +27,8 @@
     "§9§lRARE"
   ],
   "internalname": "PIG;2",
-  "useneucraft": true,
-  "clickcommand": "viewrecipe",
-  "recipe": {
-    "A1": "PORK:64",
-    "A2": "PORK:64",
-    "A3": "PORK:64",
-    "B1": "PORK:64",
-    "B2": "ENCHANTED_EGG:1",
-    "B3": "PORK:64",
-    "C1": "PORK:64",
-    "C2": "PORK:64",
-    "C3": "PORK:64"
-  },
   "modver": "2.1.1-PRE",
-  "crafttext": "15% Chance",
+  "crafttext": "",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Pig_Pet",
@@ -50,11 +37,13 @@
   "recipes": [
     {
       "type": "katgrade",
-      "coins": 5000,
-      "time": 14400,
+      "coins": 2500,
+      "time": 20,
       "input": "PIG;1",
       "output": "PIG;2",
-      "items": []
+      "items": [
+        "PORK:256"
+      ]
     }
   ]
 }

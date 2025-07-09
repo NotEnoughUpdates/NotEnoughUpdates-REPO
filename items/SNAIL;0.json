@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§7[Lvl {LVL}] §fSnail",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"086630c9-9079-3ab1-8125-f9583d752ee2\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NjQxMzY3ODczMiwKICAicHJvZmlsZUlkIiA6ICJjMTNkYzkxZjg1YjA0ZWM4OGU2NDk5YzdjZDc4Zjk3MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJjcnlwdGljX2Zyb2dfIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzUwYTk5MzNhM2IxMDQ4OWQzOGY2OTUwYzRlNjI4YmZjZjlmN2EyN2Y4ZDg0NjY2ZjA0ZjE0ZDUzNzQyNTI5NzIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§8Mining Pet\",1:\"\",2:\"§7Defense: §a{DEFENSE}\",3:\"§7Intelligence: §a{INTELLIGENCE}\",4:\"\",5:\"§6Red Sand Enjoyer\",6:\"§7§7§9Red Sand Minions §7work §a{0}% §7faster\",7:\"§7while on your §bPrivate Island§7.\",8:\"\",9:\"§7§eRight-click to add this pet to\",10:\"§eyour pet menu!\",11:\"\",12:\"§f§lCOMMON\"],Name:\"§7[Lvl {LVL}] §fSnail\"},ExtraAttributes:{petInfo:\"{\\\"type\\\":\\\"SNAIL\\\",\\\"active\\\":false,\\\"exp\\\":0,\\\"tier\\\":\\\"COMMON\\\",\\\"hideInfo\\\":false,\\\"candyUsed\\\":0,\\\"hideRightClick\\\":false}\",id:\"SNAIL;0\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"086630c9-9079-3ab1-8125-f9583d752ee2\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NjQxMzY3ODczMiwKICAicHJvZmlsZUlkIiA6ICJjMTNkYzkxZjg1YjA0ZWM4OGU2NDk5YzdjZDc4Zjk3MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJjcnlwdGljX2Zyb2dfIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzUwYTk5MzNhM2IxMDQ4OWQzOGY2OTUwYzRlNjI4YmZjZjlmN2EyN2Y4ZDg0NjY2ZjA0ZjE0ZDUzNzQyNTI5NzIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]}},display:{Lore:[0:\"§8Mining Pet\",1:\"\",2:\"§7Defense: §a{DEFENSE}\",3:\"§7Intelligence: §a{INTELLIGENCE}\",4:\"\",5:\"§6Red Sand Enjoyer\",6:\"§7§7§9Red Sand Minions §7work §a{0}% §7faster\",7:\"§7while on your §bPrivate Island§7.\",8:\"\",9:\"§7§eRight-click to add this pet to\",10:\"§eyour pet menu!\",11:\"\",12:\"§f§lCOMMON\"],Name:\"§7[Lvl {LVL}] §fSnail\"},ExtraAttributes:{petInfo:\"{\\\"type\\\":\\\"SNAIL\\\",\\\"active\\\":false,\\\"exp\\\":0,\\\"tier\\\":\\\"COMMON\\\",\\\"hideInfo\\\":false,\\\"candyUsed\\\":0,\\\"hideRightClick\\\":false}\",id:\"SNAIL;0\"}}",
   "damage": 3,
   "lore": [
     "§8Mining Pet",
@@ -20,23 +20,27 @@
   ],
   "internalname": "SNAIL;0",
   "clickcommand": "viewrecipe",
-  "recipe": {
-    "A1": "BURNING_EYE:32",
-    "A2": "ENCHANTED_RED_SAND:32",
-    "A3": "BURNING_EYE:32",
-    "B1": "ENCHANTED_RED_SAND:32",
-    "B2": "ENCHANTED_EGG:1",
-    "B3": "ENCHANTED_RED_SAND:32",
-    "C1": "BURNING_EYE:32",
-    "C2": "ENCHANTED_RED_SAND:32",
-    "C3": "BURNING_EYE:32"
-  },
-  "crafttext": "33% chance",
-  "useneucraft": true,
+  "crafttext": "Requires Red Sand III",
   "modver": "",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Snail_Pet",
     "https://wiki.hypixel.net/Snail_Pet"
+  ],
+  "recipes": [
+    {
+      "A1": "ENCHANTED_RED_SAND:1",
+      "A2": "ENCHANTED_RED_SAND:1",
+      "A3": "ENCHANTED_RED_SAND:1",
+      "B1": "ENCHANTED_RED_SAND:1",
+      "B2": "SUPER_EGG:1",
+      "B3": "ENCHANTED_RED_SAND:1",
+      "C1": "ENCHANTED_RED_SAND:1",
+      "C2": "ENCHANTED_RED_SAND:1",
+      "C3": "ENCHANTED_RED_SAND:1",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "SNAIL;0"
+    }
   ]
 }

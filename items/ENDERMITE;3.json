@@ -25,20 +25,8 @@
     "§5§lEPIC"
   ],
   "internalname": "ENDERMITE;3",
-  "crafttext": "80% Chance",
-  "useneucraft": true,
   "clickcommand": "viewrecipe",
-  "recipe": {
-    "A1": "ENCHANTED_ENDSTONE:64",
-    "A2": "ENCHANTED_ENDSTONE:64",
-    "A3": "ENCHANTED_ENDSTONE:64",
-    "B1": "ENCHANTED_ENDSTONE:64",
-    "B2": "SUPER_EGG:1",
-    "B3": "ENCHANTED_ENDSTONE:64",
-    "C1": "ENCHANTED_ENDSTONE:64",
-    "C2": "ENCHANTED_ENDSTONE:64",
-    "C3": "ENCHANTED_ENDSTONE:64"
-  },
+  "crafttext": "",
   "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
@@ -48,11 +36,14 @@
   "recipes": [
     {
       "type": "katgrade",
-      "coins": 190000,
-      "time": 259200,
+      "coins": 25000,
+      "time": 900,
       "input": "ENDERMITE;2",
       "output": "ENDERMITE;3",
-      "items": []
+      "items": [
+        "ENCHANTED_ENDSTONE:16",
+        "MITE_GEL:32"
+      ]
     }
   ]
 }

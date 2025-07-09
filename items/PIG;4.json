@@ -34,35 +34,22 @@
     "§6§lLEGENDARY"
   ],
   "internalname": "PIG;4",
-  "useneucraft": true,
-  "clickcommand": "viewrecipe",
-  "recipe": {
-    "A1": "PORK:64",
-    "A2": "PORK:64",
-    "A3": "PORK:64",
-    "B1": "PORK:64",
-    "B2": "SUPER_EGG:1",
-    "B3": "PORK:64",
-    "C1": "PORK:64",
-    "C2": "PORK:64",
-    "C3": "PORK:64"
-  },
+  "crafttext": "",
   "modver": "2.1.1-PRE",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Pig_Pet",
     "https://wiki.hypixel.net/Pig_Pet"
   ],
-  "crafttext": "20% chance",
   "recipes": [
     {
       "type": "katgrade",
-      "coins": 250000,
-      "time": 86400,
+      "coins": 10000,
+      "time": 45,
       "input": "PIG;3",
       "output": "PIG;4",
       "items": [
-        "PORK:512"
+        "ENCHANTED_PORK:8"
       ]
     }
   ]

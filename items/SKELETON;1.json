@@ -19,20 +19,7 @@
     "§a§lUNCOMMON"
   ],
   "internalname": "SKELETON;1",
-  "crafttext": "35% Chance",
-  "useneucraft": true,
-  "clickcommand": "viewrecipe",
-  "recipe": {
-    "A1": "ENCHANTED_BONE:16",
-    "A2": "ENCHANTED_BONE:16",
-    "A3": "ENCHANTED_BONE:16",
-    "B1": "ENCHANTED_BONE:16",
-    "B2": "ENCHANTED_EGG:1",
-    "B3": "ENCHANTED_BONE:16",
-    "C1": "ENCHANTED_BONE:16",
-    "C2": "ENCHANTED_BONE:16",
-    "C3": "ENCHANTED_BONE:16"
-  },
+  "crafttext": "",
   "modver": "2.1.1-PRE",
   "infoType": "WIKI_URL",
   "info": [
@@ -42,11 +29,13 @@
   "recipes": [
     {
       "type": "katgrade",
-      "coins": 2000,
-      "time": 3600,
+      "coins": 5000,
+      "time": 300,
       "input": "SKELETON;0",
       "output": "SKELETON;1",
-      "items": []
+      "items": [
+        "BONE:512"
+      ]
     }
   ]
 }
