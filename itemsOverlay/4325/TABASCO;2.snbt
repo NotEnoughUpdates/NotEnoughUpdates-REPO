@@ -1,0 +1,22 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			enchantments: {
+				tabasco: 2
+			},
+			id: "TABASCO;2"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:stored_enchantments",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:enchanted_book",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.4.0+mc1.21.5"
+	}
+}

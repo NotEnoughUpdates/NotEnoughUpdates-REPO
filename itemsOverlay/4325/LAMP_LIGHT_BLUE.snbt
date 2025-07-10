@@ -1,0 +1,33 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "LAMP_LIGHT_BLUE"
+		},
+		"minecraft:profile": {
+			id: [I;
+				1033035298,
+				-2051526104,
+				-1414930748,
+				-1741873702
+			],
+			name: "",
+			properties: [
+				{
+					name: "textures",
+					value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWI5ZDM0ZWFhOGFmZjI5NzI5MzM1YjEzOTdkOWZlMmI4ZmY0NDEzYTc1ZTYxZWJhYzFlMjJjN2JhOTJiZDgifX19"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.4.0+mc1.21.5"
+	}
+}
