@@ -17,7 +17,7 @@
   ],
   "internalname": "RABBIT_GENERATOR_7",
   "clickcommand": "viewrecipe",
-  "crafttext": "",
+  "crafttext": "Requires: Raw Rabbit I",
   "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
   "infoType": "WIKI_URL",
   "info": [
@@ -25,20 +25,15 @@
     "https://wiki.hypixel.net/Rabbit_Minion_VII"
   ],
   "useneucraft": true,
-  "recipes": [
-    {
-      "A1": "ENCHANTED_RABBIT:8",
-      "A2": "ENCHANTED_RABBIT:8",
-      "A3": "ENCHANTED_RABBIT:8",
-      "B1": "ENCHANTED_RABBIT:8",
-      "B2": "RABBIT_GENERATOR_6:1",
-      "B3": "ENCHANTED_RABBIT:8",
-      "C1": "ENCHANTED_RABBIT:8",
-      "C2": "ENCHANTED_RABBIT:8",
-      "C3": "ENCHANTED_RABBIT:8",
-      "type": "crafting",
-      "count": 1,
-      "overrideOutputId": "RABBIT_GENERATOR_7"
-    }
-  ]
+  "recipe": {
+    "A1": "ENCHANTED_RABBIT:8",
+    "A2": "ENCHANTED_RABBIT:8",
+    "A3": "ENCHANTED_RABBIT:8",
+    "B1": "ENCHANTED_RABBIT:8",
+    "B2": "RABBIT_GENERATOR_6:1",
+    "B3": "ENCHANTED_RABBIT:8",
+    "C1": "ENCHANTED_RABBIT:8",
+    "C2": "ENCHANTED_RABBIT:8",
+    "C3": "ENCHANTED_RABBIT:8"
+  }
 }
