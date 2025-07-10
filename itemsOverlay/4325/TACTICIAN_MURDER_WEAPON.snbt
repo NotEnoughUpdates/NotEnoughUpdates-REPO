@@ -1,0 +1,21 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "TACTICIAN_MURDER_WEAPON"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:unbreakable",
+				"minecraft:dyed_color"
+			]
+		},
+		"minecraft:unbreakable": {
+		}
+	},
+	count: 1,
+	id: "minecraft:stone_sword",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.4.0+mc1.21.5"
+	}
+}
