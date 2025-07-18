@@ -19,15 +19,21 @@
     "https://wiki.hypixel.net/Block_Of_Coal"
   ],
   "vanilla": true,
-  "recipe": {
-    "A1": "COAL:1",
-    "A2": "COAL:1",
-    "A3": "COAL:1",
-    "B1": "COAL:1",
-    "B2": "COAL:1",
-    "B3": "COAL:1",
-    "C1": "COAL:1",
-    "C2": "COAL:1",
-    "C3": "COAL:1"
-  }
+  "recipes": [
+    {
+      "A1": "COAL:1",
+      "A2": "COAL:1",
+      "A3": "COAL:1",
+      "B1": "COAL:1",
+      "B2": "COAL:1",
+      "B3": "COAL:1",
+      "C1": "COAL:1",
+      "C2": "COAL:1",
+      "C3": "COAL:1",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "COAL_BLOCK",
+      "supercraftable": true
+    }
+  ]
 }
