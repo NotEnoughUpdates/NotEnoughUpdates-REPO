@@ -1,0 +1,24 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			event: "carnival_0",
+			id: "LANTERN_OF_THE_DEAD",
+			leaderboard_player: "§bEisengolem",
+			leaderboard_position: 63853,
+			leaderboard_score: 4254,
+			new_years_cake: 361
+		},
+		"minecraft:enchantment_glint_override": 1b,
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:redstone_lamp",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.4.0+mc1.21.5"
+	}
+}

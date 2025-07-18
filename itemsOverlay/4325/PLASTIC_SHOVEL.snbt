@@ -1,0 +1,27 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			event: "carnival_0",
+			id: "PLASTIC_SHOVEL",
+			leaderboard_player: "§bEisengolem",
+			leaderboard_position: 29163,
+			leaderboard_score: 5150,
+			new_years_cake: 361
+		},
+		"minecraft:enchantment_glint_override": 1b,
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:unbreakable",
+				"minecraft:dyed_color"
+			]
+		},
+		"minecraft:unbreakable": {
+		}
+	},
+	count: 1,
+	id: "minecraft:iron_shovel",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.4.0+mc1.21.5"
+	}
+}
