@@ -1,0 +1,23 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			color: "51:42:42",
+			id: "FANCY_TUXEDO_BOOTS"
+		},
+		"minecraft:dyed_color": 3353130,
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:unbreakable",
+				"minecraft:dyed_color"
+			]
+		},
+		"minecraft:unbreakable": {
+		}
+	},
+	count: 1,
+	id: "minecraft:leather_boots",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.4.0+mc1.21.5"
+	}
+}
