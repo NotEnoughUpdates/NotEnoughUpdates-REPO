@@ -1,0 +1,21 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "END_LEGGINGS"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:unbreakable",
+				"minecraft:dyed_color"
+			]
+		},
+		"minecraft:unbreakable": {
+		}
+	},
+	count: 1,
+	id: "minecraft:chainmail_leggings",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.4.0+mc1.21.5"
+	}
+}
