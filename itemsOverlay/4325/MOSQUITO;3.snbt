@@ -1,0 +1,45 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "MOSQUITO;3",
+			petInfo: '{"type":"MOSQUITO","tier":"EPIC"}'
+		},
+		"minecraft:profile": {
+			id: [I;
+				-1179859834,
+				-137938451,
+				-1839672759,
+				1122625756
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "g+rWlxjI97E9R3wj2fFtVo7ozJyS6nrXH9vxI563C9aKNx1l/YRbBnG5ZYe+OHdu4FxhHWyR60nvCDhWmCxtbtw4iII1ux9So+CdO6aRg4b5TtqaQVKfc7P+Wt8cxEOsSMN6KKRZVO+j7B3jiYHyCKdVjNBXpjhcLT65p8OAAmk3G46jyN9Vx9FXG36f05NOe5QlJgfByrFZ2YI8irl/gYXLB1SWPmFZNyu6/UuNGwpVRhYkbQQQfqsQrhGlfmF3/6T9wNQaAnosFhpRGZMyN3rrnS3DwIbbcVFllELSzJyyf7VRrEZW1OvxNacYWUEIZziOtisuwvElRrGZ6qXJHXvkwZusyx5dYMQWE0mzZVxS5r9xqHjExDpjMaVKeJH+x0ANHN8RGXEuBGQDLQQTC2rK+oVze/fK5r5ayqLKJCLphwU/76fo/PJSX/0DvadRPFro1upki0OC7OFWBLyhJRQO1rBQxCQjDTdrM1UohjxW0WZmKVUh05W40lfdcV82P2s/Ubyl8z0WSRLpd3h/FUQWoRVZgiWX88Tat7n+c1atR9RhSX1xASHBaG7LZnfWZTyEtes1pZ+Npq3GWN9qMv6AYSMHaVqyiPOjnEL63/DXQX1NxkQ6xkehCK8Zdyuuo7GqOAWzdm+NeGMFzdoGT8LSDpH+eVGxLdSw10BU1go=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTY5Njk0NTAyOTQ2MSwKICAicHJvZmlsZUlkIiA6ICI3NTE0NDQ4MTkxZTY0NTQ2OGM5NzM5YTZlMzk1N2JlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFua3NNb2phbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTJhOWZlMDViYzY2M2VmY2QxMmU1NmEzY2NjNWVjMDM1YmY1NzdiNzg3MDg1NDhiNmY0ZmZjZjFkMzBlY2NmZSIKICAgIH0KICB9Cn0="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.4.0+mc1.21.5"
+	}
+}
