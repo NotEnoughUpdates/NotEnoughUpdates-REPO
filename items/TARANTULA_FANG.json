@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:iron_sword",
   "displayname": "§5Tarantula Fang",
-  "nbttag": "{ExtraAttributes:{id:\"TARANTULA_FANG\"},HideFlags:254,ItemModel:\"minecraft:iron_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+130\",1:\"§7Strength: §c+40\",2:\"§7Crit Damage: §c+30%\",3:\" §8[⚔]\",4:\"\",5:\"§7Deal §c+200% ❁ Damage§7 to and gain\",6:\"§3+45☯ Combat Wisdom §7against Spiders.\",7:\"\",8:\"§6Ability: Webcutter \",9:\"§7This weapon can be used to clear\",10:\"§7webs left by the §4Tarantula\",11:\"§4Broodfather§7!\",12:\"\",13:\"§8This item can be reforged!\",14:\"§5§lEPIC SWORD\"],Name:\"§5Tarantula Fang\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"TARANTULA_FANG\"},HideFlags:254,ItemModel:\"minecraft:iron_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+130\",1:\"§7Strength: §c+40\",2:\"§7Crit Damage: §c+30%\",3:\" §8[⚔]\",4:\"\",5:\"§7Deal §c+200% ❁ Damage§7 to and gain\",6:\"§3+45☯ Combat Wisdom §7against Spiders.\",7:\"\",8:\"§6Ability: Webcutter \",9:\"§7This weapon can be used to clear\",10:\"§7webs left by the §4Tarantula\",11:\"§4Broodfather§7!\",12:\"\",13:\"§8This item can be reforged!\",14:\"§7§4☠ §cRequires §5Spider Slayer 6§c.\",15:\"§5§lEPIC SWORD\"],Name:\"§5Tarantula Fang\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+130",
@@ -18,9 +18,11 @@
     "§4Broodfather§7!",
     "",
     "§8This item can be reforged!",
+    "§7§4☠ §cRequires §5Spider Slayer 6§c.",
     "§5§lEPIC SWORD"
   ],
   "internalname": "TARANTULA_FANG",
+  "slayer_req": "SPIDER_6",
   "clickcommand": "",
   "crafttext": "",
   "modver": "Firmament 3.4.0+mc1.21.5",
