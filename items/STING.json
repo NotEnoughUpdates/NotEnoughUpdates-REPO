@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:iron_sword",
   "displayname": "§6Sting",
-  "nbttag": "{ExtraAttributes:{id:\"STING\"},HideFlags:254,ItemModel:\"minecraft:iron_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+150\",1:\"§7Strength: §c+60\",2:\"§7Crit Damage: §c+40%\",3:\" §8[⚔] [⚔]\",4:\"\",5:\"§7Deal §c+250% ❁ Damage§7 to and gain\",6:\"§3+45☯ Combat Wisdom§7 against Spiders!\",7:\"\",8:\"§6Ability: Webcutter \",9:\"§7This weapon can be used to clear\",10:\"§7webs left by the §4Tarantula\",11:\"§4Broodfather§7!\",12:\"\",13:\"§6Ability: Stinger \",14:\"§7Attacks from this sword will always\",15:\"§7critically strike!\",16:\"\",17:\"§8This item can be reforged!\",18:\"§6§lLEGENDARY SWORD\"],Name:\"§6Sting\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"STING\"},HideFlags:254,ItemModel:\"minecraft:iron_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+150\",1:\"§7Strength: §c+60\",2:\"§7Crit Damage: §c+40%\",3:\" §8[⚔] [⚔]\",4:\"\",5:\"§7Deal §c+250% ❁ Damage§7 to and gain\",6:\"§3+45☯ Combat Wisdom§7 against Spiders!\",7:\"\",8:\"§6Ability: Webcutter \",9:\"§7This weapon can be used to clear\",10:\"§7webs left by the §4Tarantula\",11:\"§4Broodfather§7!\",12:\"\",13:\"§6Ability: Stinger \",14:\"§7Attacks from this sword will always\",15:\"§7critically strike!\",16:\"\",17:\"§8This item can be reforged!\",18:\"§7§4☠ §cRequires §5Spider Slayer 8§c.\",19:\"§6§lLEGENDARY SWORD\"],Name:\"§6Sting\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+150",
@@ -22,9 +22,11 @@
     "§7critically strike!",
     "",
     "§8This item can be reforged!",
+    "§7§4☠ §cRequires §5Spider Slayer 8§c.",
     "§6§lLEGENDARY SWORD"
   ],
   "internalname": "STING",
+  "slayer_req": "SPIDER_8",
   "clickcommand": "",
   "crafttext": "",
   "modver": "Firmament 3.4.0+mc1.21.5",
