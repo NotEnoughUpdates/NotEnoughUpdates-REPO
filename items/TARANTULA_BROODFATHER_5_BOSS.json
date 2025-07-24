@@ -1,0 +1,166 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§6Tarantula Broodfather V (Boss)",
+  "nbttag": "{ExtraAttributes:{id:\"TARANTULA_BROODFATHER_4_BOSS\"},HideFlags:254,SkullOwner:{Id:\"7c63f3cf-a963-311a-aeca-3a075b417806\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q1NDE1NDFkYWFmZjUwODk2Y2QyNThiZGJkZDRjZjgwYzNiYTgxNjczNTcyNjA3OGJmZTM5MzkyN2U1N2YxIn19fQ\"}]}},display:{Lore:[0:\"§8Excruciating\",1:\"\",2:\"§7Health: §c10,000,000❤\",3:\"§7Damage: §c3,500 §7per second\",4:\"\",5:\"§eBackstab\",6:\"§7Occasionally leaps behind you. Attacks\",7:\"§7from behind deal §c150% Damage§7.\",8:\"\",9:\"§eNoxious Paralysis\",10:\"§7Reduces §4♨ Vitality§7 by §c99% §7and each hit\",11:\"§7you take reduces your §f✦ Speed Cap§7 by §c2§7.\",12:\"\",13:\"§cWeb of Lies\",14:\"§7The boss begins to heal and spews\",15:\"§7webbing along the ground, disabling\",16:\"§7§5teleportation§7 abilities until they are\",17:\"§7cleared, and spawns §a3§7 egg sacs in the\",18:\"§7air. Destroy them before they hatch into\",19:\"§7minions!\",20:\" \",21:\"§cBat Barrage\",22:\"§7Becomes immune to magic damage for the\",23:\"§7rest of the fight and releases a horde\",24:\"§7of bats. Take §c2% §7Max §c❤§7 per second for\",25:\"§7each bat alive.\",26:\" \",27:\"§cTil Death Do Us Part\",28:\"§7Calls out to the Primordial Broodmother,\",29:\"§7who will awaken and fuse with the\",30:\"§7Broodfather, creating the Conjoined\",31:\"§7Brood. The Brood has 2x §c❤ Health§7 and §c❁\",32:\"§cDamage §7but only uses §6passive§7 abilities.\"],Name:\"§6Tarantula Broodfather V (Boss)\"},ench:[]}",
+  "damage": 3,
+  "lore": [
+    "§8Excruciating",
+    "",
+    "§7Health: §c10,000,000❤",
+    "§7Damage: §c3,500 §7per second",
+    "",
+    "§eBackstab",
+    "§7Occasionally leaps behind you. Attacks",
+    "§7from behind deal §c150% Damage§7.",
+    "",
+    "§eNoxious Paralysis",
+    "§7Reduces §4♨ Vitality§7 by §c99% §7and each hit",
+    "§7you take reduces your §f✦ Speed Cap§7 by §c2§7.",
+    "",
+    "§cWeb of Lies",
+    "§7The boss begins to heal and spews",
+    "§7webbing along the ground, disabling",
+    "§7§5teleportation§7 abilities until they are",
+    "§7cleared, and spawns §a3§7 egg sacs in the",
+    "§7air. Destroy them before they hatch into",
+    "§7minions!",
+    " ",
+    "§cBat Barrage",
+    "§7Becomes immune to magic damage for the",
+    "§7rest of the fight and releases a horde",
+    "§7of bats. Take §c2% §7Max §c❤§7 per second for",
+    "§7each bat alive.",
+    " ",
+    "§cTil Death Do Us Part",
+    "§7Calls out to the Primordial Broodmother,",
+    "§7who will awaken and fuse with the",
+    "§7Broodfather, creating the Conjoined",
+    "§7Brood. The Brood has 2x §c❤ Health§7 and §c❁",
+    "§cDamage §7but only uses §6passive§7 abilities."
+  ],
+  "internalname": "TARANTULA_BROODFATHER_5_BOSS",
+  "clickcommand": "viewrecipe",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g100c5de",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Tarantula_Broodfather",
+    "https://wiki.hypixel.net/Tarantula_Broodfather"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "xp": 1,
+      "combat_xp": 500,
+      "coins": 1,
+      "name": "§6Tarantula Broodfather V",
+      "render": "Spider",
+      "panorama": "combat_1",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "TARANTULA_WEB:64",
+          "extra": [
+            "§eWeight: 10,000"
+          ],
+          "chance": "100%"
+        },
+        {
+          "id": "TOXIC_ARROW_POISON:64",
+          "extra": [
+            "§eWeight: 1,800"
+          ],
+          "chance": "12.818%"
+        },
+        {
+          "id": "BITE_RUNE;1",
+          "extra": [
+            "§eWeight: 833"
+          ],
+          "chance": "6.48%"
+        },
+        {
+          "id": "DARKNESS_WITHIN_RUNE;1",
+          "extra": [
+            "§eWeight: 100"
+          ],
+          "chance": "0.77%"
+        },
+        {
+          "id": "SPIDER_CATALYST",
+          "extra": [
+            "§eWeight: 25"
+          ],
+          "chance": "0.178%"
+        },
+        {
+          "id": "BANE_OF_ARTHROPODS;6",
+          "extra": [
+            "§eWeight: 50"
+          ],
+          "chance": "0.356%"
+        },
+        {
+          "id": "TARANTULA_CATALYST",
+          "extra": [
+            "§eWeight: 60"
+          ],
+          "chance": "0.427%"
+        },
+        {
+          "id": "FLY_SWATTER",
+          "extra": [
+            "§eWeight: 30"
+          ],
+          "chance": "0.214%"
+        },
+        {
+          "id": "TARANTULA_TALISMAN",
+          "extra": [
+            "§eWeight: 30"
+          ],
+          "chance": "0.214%"
+        },
+        {
+          "id": "VIAL_OF_VENOM",
+          "extra": [
+            "§eWeight: 20"
+          ],
+          "chance": "0.142%"
+        },
+        {
+          "id": "DIGESTED_MOSQUITO",
+          "extra": [
+            "§eWeight: 10"
+          ],
+          "chance": "0.071%"
+        },
+        {
+          "id": "SHRIVELED_WASP",
+          "extra": [
+            "§eWeight: 10"
+          ],
+          "chance": "0.071%"
+        },
+        {
+          "id": "ENSNARED_SNAIL",
+          "extra": [
+            "§eWeight: 6"
+          ],
+          "chance": "0.043%"
+        },
+        {
+          "id": "PRIMORDIAL_EYE",
+          "extra": [
+            "§eWeight: 2"
+          ],
+          "chance": "0.014%"
+        },
+        {
+          "id": "DYE_BRICK_RED",
+          "extra": [],
+          "chance": "0.0002%"
+        }
+      ]
+    }
+  ]
+}
