@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§6Tarantula Broodfather I (Boss)",
-  "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"7c63f3cf-a963-311a-aeca-3a075b417806\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q1NDE1NDFkYWFmZjUwODk2Y2QyNThiZGJkZDRjZjgwYzNiYTgxNjczNTcyNjA3OGJmZTM5MzkyN2U1N2YxIn19fQ\"}]}},display:{Lore:[0:\"§8Beginner\",1:\"\",2:\"§7Health: §c750❤\",3:\"§7Damage: §c35 §7per second\",4:\"\",5:\"§eCombat Jump\",6:\"§7The spider will often attempt to\",7:\"§7jump behind you.\"],Name:\"§6Tarantula Broodfather I (Boss)\"},ExtraAttributes:{id:\"TARANTULA_BROODFATHER_1_BOSS\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"TARANTULA_BROODFATHER_1_BOSS\"},HideFlags:254,SkullOwner:{Id:\"7c63f3cf-a963-311a-aeca-3a075b417806\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q1NDE1NDFkYWFmZjUwODk2Y2QyNThiZGJkZDRjZjgwYzNiYTgxNjczNTcyNjA3OGJmZTM5MzkyN2U1N2YxIn19fQ\"}]}},display:{Lore:[0:\"§8Beginner\",1:\"\",2:\"§7Health: §c1,000❤\",3:\"§7Damage: §c35 §7per second\",4:\"\",5:\"§eBackstab\",6:\"§7Occasionally leaps behind you. Attacks\",7:\"§7from behind deal §c50% Damage§7.\"],Name:\"§6Tarantula Broodfather I (Boss)\"},ench:[]}",
   "damage": 3,
   "lore": [
     "§8Beginner",
     "",
-    "§7Health: §c750❤",
+    "§7Health: §c1,000❤",
     "§7Damage: §c35 §7per second",
     "",
-    "§eCombat Jump",
-    "§7The spider will often attempt to",
-    "§7jump behind you."
+    "§eBackstab",
+    "§7Occasionally leaps behind you. Attacks",
+    "§7from behind deal §c50% Damage§7."
   ],
   "internalname": "TARANTULA_BROODFATHER_1_BOSS",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g100c5de",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Tarantula_Broodfather",
@@ -24,7 +24,9 @@
   "crafttext": "",
   "recipes": [
     {
-      "xp": 5,
+      "xp": 1,
+      "combat_xp": 50,
+      "coins": 1,
       "name": "§6Tarantula Broodfather I",
       "panorama": "combat_1",
       "render": "Spider",
@@ -33,7 +35,8 @@
         {
           "id": "TARANTULA_WEB",
           "extra": [
-            "x1-3"
+            "§eWeight: 10,000",
+            "§7x1-3"
           ],
           "chance": "100%"
         },
