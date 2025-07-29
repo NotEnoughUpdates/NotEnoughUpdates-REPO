@@ -1,6 +1,7 @@
 {
   "AMBER_MATERIAL": {
     "internalName": "AMBER_MATERIAL",
+    "nbtModifier": "ambered",
     "reforgeName": "Ambered",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "PICKAXE",
@@ -57,6 +58,7 @@
   },
   "BEADY_EYES": {
     "internalName": "BEADY_EYES",
+    "nbtModifier": "beady",
     "reforgeName": "Beady",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "VACUUM",
@@ -106,6 +108,7 @@
   },
   "BLESSED_FRUIT": {
     "internalName": "BLESSED_FRUIT",
+    "nbtModifier": "blessed",
     "reforgeName": "Blessed",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "AXE/HOE",
@@ -168,6 +171,7 @@
   },
   "BULKY_STONE": {
     "internalName": "BULKY_STONE",
+    "nbtModifier": "bulky",
     "reforgeName": "Bulky",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "SWORD",
@@ -216,6 +220,7 @@
   },
   "BURROWING_SPORES": {
     "internalName": "BURROWING_SPORES",
+    "nbtModifier": "rooted",
     "reforgeName": "Rooted",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "EQUIPMENT",
@@ -264,6 +269,7 @@
   },
   "BLAZE_WAX": {
     "internalName": "BLAZE_WAX",
+    "nbtModifier": "waxed",
     "reforgeName": "Waxed",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "EQUIPMENT",
@@ -318,6 +324,7 @@
   },
   "BLAZEN_SPHERE": {
     "internalName": "BLAZEN_SPHERE",
+    "nbtModifier": "blazing",
     "reforgeName": "Blazing",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "EQUIPMENT",
@@ -373,6 +380,7 @@
   },
   "BOO_STONE": {
     "internalName": "BOO_STONE",
+    "nbtModifier": "greater_spook",
     "reforgeName": "Greater Spook",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": {
@@ -407,6 +415,7 @@
   },
   "CALCIFIED_HEART": {
     "internalName": "CALCIFIED_HEART",
+    "nbtModifier": "calcified",
     "reforgeName": "Calcified",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "ARMOR",
@@ -461,6 +470,7 @@
   },
   "CANDY_CORN": {
     "internalName": "CANDY_CORN",
+    "nbtModifier": "candied",
     "reforgeName": "Candied",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "ARMOR",
@@ -510,6 +520,7 @@
   },
   "CLIPPED_WINGS": {
     "internalName": "CLIPPED_WINGS",
+    "nbtModifier": "buzzing",
     "reforgeName": "Buzzing",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "VACUUM",
@@ -558,6 +569,7 @@
   },
   "DEEP_SEA_ORB": {
     "internalName": "DEEP_SEA_ORB",
+    "nbtModifier": "submerged",
     "reforgeName": "Submerged",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "ARMOR",
@@ -612,6 +624,7 @@
   },
   "DIAMONITE": {
     "internalName": "DIAMONITE",
+    "nbtModifier": "fleet",
     "reforgeName": "Fleet",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "PICKAXE",
@@ -675,6 +688,7 @@
   },
   "DIRT_BOTTLE": {
     "internalName": "DIRT_BOTTLE",
+    "nbtModifier": "dirty",
     "reforgeName": "Dirty",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "SWORD/ROD",
@@ -729,6 +743,7 @@
   },
   "DRAGON_CLAW": {
     "internalName": "DRAGON_CLAW",
+    "nbtModifier": "fabled",
     "reforgeName": "Fabled",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "SWORD",
@@ -778,6 +793,7 @@
   },
   "DRAGON_HORN": {
     "internalName": "DRAGON_HORN",
+    "nbtModifier": "renowned",
     "reforgeName": "Renowned",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "ARMOR",
@@ -863,6 +879,7 @@
   },
   "DRAGON_SCALE": {
     "internalName": "DRAGON_SCALE",
+    "nbtModifier": "spiked",
     "reforgeName": "Spiked",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "ARMOR",
@@ -947,6 +964,7 @@
   },
   "DIAMOND_ATOM": {
     "internalName": "DIAMOND_ATOM",
+    "nbtModifier": "perfect",
     "reforgeName": "Perfect",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "ARMOR",
@@ -990,6 +1008,7 @@
   },
   "DWARVEN_TREASURE": {
     "internalName": "DWARVEN_TREASURE",
+    "nbtModifier": "royal",
     "reforgeName": "Royal",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "EQUIPMENT",
@@ -1108,16 +1127,17 @@
   },
   "ENTROPY_SUPPRESSOR": {
     "internalName": "ENTROPY_SUPPRESSOR",
+    "nbtModifier": "coldfusion",
     "reforgeName": "Coldfused",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": {
       "internalName": [
+        "BURSTFIRE_DAGGER",
+        "BURSTMAW_DAGGER",
         "FIREDUST_DAGGER",
-        "KINDLEBANE_DAGGER",
-        "MAWDREDGE_DAGGER",
-        "PYROCHAOS_DAGGER",
-        "TWILIGHT_DAGGER",
-        "DEATHRIPPER_DAGGER"
+        "HEARTFIRE_DAGGER",
+        "HEARTMAW_DAGGER",
+        "MAWDUST_DAGGER"
       ]
     },
     "requiredRarities": [
@@ -1172,6 +1192,7 @@
   },
   "FLOWERING_BOUQUET": {
     "internalName": "FLOWERING_BOUQUET",
+    "nbtModifier": "Blooming",
     "reforgeName": "Blooming",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "EQUIPMENT",
@@ -1220,6 +1241,7 @@
   },
   "FRIGID_HUSK": {
     "internalName": "FRIGID_HUSK",
+    "nbtModifier": "glacial",
     "reforgeName": "Glacial",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "PICKAXE",
@@ -1276,6 +1298,7 @@
   },
   "FROZEN_BAUBLE": {
     "internalName": "FROZEN_BAUBLE",
+    "nbtModifier": "festive",
     "reforgeName": "Festive",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "ARMOR",
@@ -1330,6 +1353,7 @@
   },
   "FULL_JAW_FANGING_KIT": {
     "internalName": "FULL_JAW_FANGING_KIT",
+    "nbtModifier": "fanged",
     "reforgeName": "Fanged",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": {
@@ -1395,6 +1419,7 @@
   },
   "GIANT_TOOTH": {
     "internalName": "GIANT_TOOTH",
+    "nbtModifier": "giant",
     "reforgeName": "Giant",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "ARMOR",
@@ -1437,6 +1462,7 @@
   },
   "GLEAMING_CRYSTAL": {
     "internalName": "GLEAMING_CRYSTAL",
+    "nbtModifier": "lustrous",
     "reforgeName": "Lustrous",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "PICKAXE",
@@ -1500,9 +1526,10 @@
   },
   "GOLDEN_BALL": {
     "internalName": "GOLDEN_BALL",
+    "nbtModifier": "bountiful",
     "reforgeName": "Bountiful",
     "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "HOE",
+    "itemTypes": "AXE/HOE",
     "requiredRarities": [
       "COMMON",
       "UNCOMMON",
@@ -1556,6 +1583,7 @@
   },
   "HARDENED_WOOD": {
     "internalName": "HARDENED_WOOD",
+    "nbtModifier": "stiff",
     "reforgeName": "Stiff",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "ROD",
@@ -1604,6 +1632,7 @@
   },
   "HOT_STUFF": {
     "internalName": "HOT_STUFF",
+    "nbtModifier": "heated",
     "reforgeName": "Heated",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "PICKAXE",
@@ -1667,6 +1696,7 @@
   },
   "JERRY_STONE": {
     "internalName": "JERRY_STONE",
+    "nbtModifier": "jerry_stone",
     "reforgeName": "Jerry's",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": {
@@ -1705,6 +1735,7 @@
   },
   "JADERALD": {
     "internalName": "JADERALD",
+    "nbtModifier": "jaded",
     "reforgeName": "Jaded",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "ARMOR",
@@ -1753,6 +1784,7 @@
   },
   "KUUDRA_MANDIBLE": {
     "internalName": "KUUDRA_MANDIBLE",
+    "nbtModifier": "chomp",
     "reforgeName": "Chomp",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "ROD",
@@ -1808,6 +1840,7 @@
   },
   "LAPIS_CRYSTAL": {
     "internalName": "LAPIS_CRYSTAL",
+    "nbtModifier": "magnetic",
     "reforgeName": "Magnetic",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "PICKAXE",
@@ -1861,7 +1894,8 @@
   },
   "LARGE_WALNUT": {
     "internalName": "LARGE_WALNUT",
-    "reforgeName": "Earthly",
+    "nbtModifier": "earthy",
+    "reforgeName": "Earthy",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "AXE",
     "requiredRarities": [
@@ -1909,6 +1943,7 @@
   },
   "LUCKY_DICE": {
     "internalName": "LUCKY_DICE",
+    "nbtModifier": "lucky",
     "reforgeName": "Lucky",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "ROD",
@@ -1957,6 +1992,7 @@
   },
   "MANGROVE_GEM": {
     "internalName": "MANGROVE_GEM",
+    "nbtModifier": "groovy",
     "reforgeName": "Groovy",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "ARMOR",
@@ -2011,6 +2047,7 @@
   },
   "MIDAS_JEWEL": {
     "internalName": "MIDAS_JEWEL",
+    "nbtModifier": "gilded",
     "reforgeName": "Gilded",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": {
@@ -2045,6 +2082,7 @@
   },
   "METEOR_SHARD": {
     "internalName": "METEOR_SHARD",
+    "nbtModifier": "fortified",
     "reforgeName": "Fortified",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "EQUIPMENT",
@@ -2092,6 +2130,7 @@
   },
   "MOIL_LOG": {
     "internalName": "MOIL_LOG",
+    "nbtModifier": "moil",
     "reforgeName": "Moil",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "AXE",
@@ -2142,6 +2181,7 @@
   },
   "MOLTEN_CUBE": {
     "internalName": "MOLTEN_CUBE",
+    "nbtModifier": "cubic",
     "reforgeName": "Cubic",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "ARMOR",
@@ -2191,6 +2231,7 @@
   },
   "MOONGLADE_JEWEL": {
     "internalName": "MOONGLADE_JEWEL",
+    "nbtModifier": "moonglade",
     "reforgeName": "Moonglade",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "AXE",
@@ -2245,6 +2286,7 @@
   },
   "NECROMANCER_BROOCH": {
     "internalName": "NECROMANCER_BROOCH",
+    "nbtModifier": "necrotic",
     "reforgeName": "Necrotic",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "ARMOR",
@@ -2287,6 +2329,7 @@
   },
   "ONYX": {
     "internalName": "ONYX",
+    "nbtModifier": "fruitful",
     "reforgeName": "Fruitful",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "PICKAXE",
@@ -2350,6 +2393,7 @@
   },
   "OPTICAL_LENS": {
     "internalName": "OPTICAL_LENS",
+    "nbtModifier": "precise",
     "reforgeName": "Precise",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "BOW",
@@ -2405,6 +2449,7 @@
   },
   "OVERFLOWING_TRASH_CAN": {
     "internalName": "OVERFLOWING_TRASH_CAN",
+    "nbtModifier": "trashy",
     "reforgeName": "Trashy",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "ROD",
@@ -2459,6 +2504,7 @@
   },
   "OVERGROWN_GRASS": {
     "internalName": "OVERGROWN_GRASS",
+    "nbtModifier": "mossy",
     "reforgeName": "Mossy",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "ARMOR",
@@ -2507,6 +2553,7 @@
   },
   "PETRIFIED_STARFALL": {
     "internalName": "PETRIFIED_STARFALL",
+    "nbtModifier": "stellar",
     "reforgeName": "Stellar",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "PICKAXE",
@@ -2570,6 +2617,7 @@
   },
   "POCKET_ICEBERG": {
     "internalName": "POCKET_ICEBERG",
+    "nbtModifier": "scraped",
     "reforgeName": "Scraped",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "PICKAXE",
@@ -2625,6 +2673,7 @@
   },
   "PRECURSOR_GEAR": {
     "internalName": "PRECURSOR_GEAR",
+    "nbtModifier": "ancient",
     "reforgeName": "Ancient",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "ARMOR",
@@ -2692,6 +2741,7 @@
   },
   "PREMIUM_FLESH": {
     "internalName": "PREMIUM_FLESH",
+    "nbtModifier": "undead",
     "reforgeName": "Undead",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "ARMOR",
@@ -2753,6 +2803,7 @@
   },
   "PRESUMED_GALLON_OF_RED_PAINT": {
     "internalName": "PRESUMED_GALLON_OF_RED_PAINT",
+    "nbtModifier": "blood_soaked",
     "reforgeName": "Blood-Soaked",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "CLOAK",
@@ -2814,6 +2865,7 @@
   },
   "PURE_MITHRIL": {
     "internalName": "PURE_MITHRIL",
+    "nbtModifier": "mithraic",
     "reforgeName": "Mithraic",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "PICKAXE",
@@ -2919,6 +2971,7 @@
   },
   "RARE_DIAMOND": {
     "internalName": "RARE_DIAMOND",
+    "nbtModifier": "reinforced",
     "reforgeName": "Reinforced",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "ARMOR",
@@ -2961,6 +3014,7 @@
   },
   "RED_NOSE": {
     "internalName": "RED_NOSE",
+    "nbtModifier": "ridiculous",
     "reforgeName": "Ridiculous",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "HELMET",
@@ -3016,6 +3070,7 @@
   },
   "RED_SCARF": {
     "internalName": "RED_SCARF",
+    "nbtModifier": "loving",
     "reforgeName": "Loving",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "CHESTPLATE",
@@ -3077,6 +3132,7 @@
   },
   "REFINED_AMBER": {
     "internalName": "REFINED_AMBER",
+    "nbtModifier": "refined",
     "reforgeName": "Refined",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "PICKAXE",
@@ -3133,6 +3189,7 @@
   },
   "ROCK_GEMSTONE": {
     "internalName": "ROCK_GEMSTONE",
+    "nbtModifier": "auspicious",
     "reforgeName": "Auspicious",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "PICKAXE",
@@ -3196,6 +3253,7 @@
   },
   "RUSTY_ANCHOR": {
     "internalName": "RUSTY_ANCHOR",
+    "nbtModifier": "treacherous",
     "reforgeName": "Treacherous",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "ROD",
@@ -3244,6 +3302,7 @@
   },
   "SADAN_BROOCH": {
     "internalName": "SADAN_BROOCH",
+    "nbtModifier": "empowered",
     "reforgeName": "Empowered",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "ARMOR",
@@ -3293,6 +3352,7 @@
   },
   "SALT_CUBE": {
     "internalName": "SALT_CUBE",
+    "nbtModifier": "salty",
     "reforgeName": "Salty",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "ROD",
@@ -3390,6 +3450,7 @@
   },
   "SKYMART_BROCHURE": {
     "internalName": "SKYMART_BROCHURE",
+    "nbtModifier": "bustling",
     "reforgeName": "Bustling",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "ARMOR",
@@ -3432,6 +3493,7 @@
   },
   "SPIRIT_DECOY": {
     "internalName": "SPIRIT_DECOY",
+    "nbtModifier": "spiritual",
     "reforgeName": "Spiritual",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "BOW",
@@ -3487,6 +3549,7 @@
   },
   "SQUEAKY_TOY": {
     "internalName": "SQUEAKY_TOY",
+    "nbtModifier": "squeaky",
     "reforgeName": "Squeaky",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "EQUIPMENT",
@@ -3541,6 +3604,7 @@
   },
   "SUSPICIOUS_VIAL": {
     "internalName": "SUSPICIOUS_VIAL",
+    "nbtModifier": "suspicious",
     "reforgeName": "Suspicious",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "SWORD",
@@ -3596,6 +3660,7 @@
   },
   "SEARING_STONE": {
     "internalName": "SEARING_STONE",
+    "nbtModifier": "strengthened",
     "reforgeName": "Strengthened",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "EQUIPMENT",
@@ -3650,6 +3715,7 @@
   },
   "SHINY_PRISM": {
     "internalName": "SHINY_PRISM",
+    "nbtModifier": "glistening",
     "reforgeName": "Glistening",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "EQUIPMENT",
@@ -3704,6 +3770,7 @@
   },
   "TERRY_SNOWGLOBE": {
     "internalName": "TERRY_SNOWGLOBE",
+    "nbtModifier": "snowy",
     "reforgeName": "Snowy",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "EQUIPMENT",
@@ -3752,6 +3819,7 @@
   },
   "TITANIUM_TESSERACT": {
     "internalName": "TITANIUM_TESSERACT",
+    "nbtModifier": "dimensional",
     "reforgeName": "Dimensional",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "ARMOR",
@@ -3807,6 +3875,7 @@
   },
   "TOIL_LOG": {
     "internalName": "TOIL_LOG",
+    "nbtModifier": "toil",
     "reforgeName": "Toil",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "AXE",
@@ -3869,6 +3938,7 @@
   },
   "AOTE_STONE": {
     "internalName": "AOTE_STONE",
+    "nbtModifier": "aote_stone",
     "reforgeName": "Warped",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": {
@@ -3907,6 +3977,7 @@
   },
   "WITHER_BLOOD": {
     "internalName": "WITHER_BLOOD",
+    "nbtModifier": "withered",
     "reforgeName": "Withered",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "SWORD",
@@ -3950,6 +4021,7 @@
   },
   "SALMON_OPAL": {
     "internalName": "SALMON_OPAL",
+    "nbtModifier": "headstrong",
     "reforgeName": "Headstrong",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "BOW",
