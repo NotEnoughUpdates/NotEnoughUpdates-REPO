@@ -26,16 +26,35 @@
     "https://hypixel-skyblock.fandom.com/wiki/Mushroom_Minion",
     "https://wiki.hypixel.net/Mushroom_Minion_V"
   ],
-  "recipe": {
-    "A1": "ENCHANTED_RED_MUSHROOM:1",
-    "A2": "ENCHANTED_RED_MUSHROOM:1",
-    "A3": "ENCHANTED_RED_MUSHROOM:1",
-    "B1": "ENCHANTED_RED_MUSHROOM:1",
-    "B2": "MUSHROOM_GENERATOR_4:1",
-    "B3": "ENCHANTED_RED_MUSHROOM:1",
-    "C1": "ENCHANTED_RED_MUSHROOM:1",
-    "C2": "ENCHANTED_RED_MUSHROOM:1",
-    "C3": "ENCHANTED_RED_MUSHROOM:1"
-  },
-  "useneucraft": true
+  "useneucraft": true,
+  "recipes": [
+    {
+      "A1": "ENCHANTED_RED_MUSHROOM:1",
+      "A2": "ENCHANTED_RED_MUSHROOM:1",
+      "A3": "ENCHANTED_RED_MUSHROOM:1",
+      "B1": "ENCHANTED_RED_MUSHROOM:1",
+      "B2": "MUSHROOM_GENERATOR_4:1",
+      "B3": "ENCHANTED_RED_MUSHROOM:1",
+      "C1": "ENCHANTED_RED_MUSHROOM:1",
+      "C2": "ENCHANTED_RED_MUSHROOM:1",
+      "C3": "ENCHANTED_RED_MUSHROOM:1",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "MUSHROOM_GENERATOR_5"
+    },
+    {
+      "A1": "ENCHANTED_BROWN_MUSHROOM:1",
+      "A2": "ENCHANTED_BROWN_MUSHROOM:1",
+      "A3": "ENCHANTED_BROWN_MUSHROOM:1",
+      "B1": "ENCHANTED_BROWN_MUSHROOM:1",
+      "B2": "MUSHROOM_GENERATOR_4:1",
+      "B3": "ENCHANTED_BROWN_MUSHROOM:1",
+      "C1": "ENCHANTED_BROWN_MUSHROOM:1",
+      "C2": "ENCHANTED_BROWN_MUSHROOM:1",
+      "C3": "ENCHANTED_BROWN_MUSHROOM:1",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "MUSHROOM_GENERATOR_5"
+    }
+  ]
 }
