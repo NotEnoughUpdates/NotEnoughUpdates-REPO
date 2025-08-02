@@ -373,6 +373,7 @@
   },
   "BOO_STONE": {
     "internalName": "BOO_STONE",
+    "nbtModifier": "greater_spook",
     "reforgeName": "Greater Spook",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": {
@@ -1108,16 +1109,17 @@
   },
   "ENTROPY_SUPPRESSOR": {
     "internalName": "ENTROPY_SUPPRESSOR",
+    "nbtModifier": "coldfusion",
     "reforgeName": "Coldfused",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": {
       "internalName": [
+        "BURSTFIRE_DAGGER",
+        "BURSTMAW_DAGGER",
         "FIREDUST_DAGGER",
-        "KINDLEBANE_DAGGER",
-        "MAWDREDGE_DAGGER",
-        "PYROCHAOS_DAGGER",
-        "TWILIGHT_DAGGER",
-        "DEATHRIPPER_DAGGER"
+        "HEARTFIRE_DAGGER",
+        "HEARTMAW_DAGGER",
+        "MAWDUST_DAGGER"
       ]
     },
     "requiredRarities": [
@@ -1502,7 +1504,7 @@
     "internalName": "GOLDEN_BALL",
     "reforgeName": "Bountiful",
     "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "HOE",
+    "itemTypes": "AXE/HOE",
     "requiredRarities": [
       "COMMON",
       "UNCOMMON",
@@ -1667,6 +1669,7 @@
   },
   "JERRY_STONE": {
     "internalName": "JERRY_STONE",
+    "nbtModifier": "jerry_stone",
     "reforgeName": "Jerry's",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": {
@@ -1861,7 +1864,7 @@
   },
   "LARGE_WALNUT": {
     "internalName": "LARGE_WALNUT",
-    "reforgeName": "Earthly",
+    "reforgeName": "Earthy",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "AXE",
     "requiredRarities": [
@@ -2753,6 +2756,7 @@
   },
   "PRESUMED_GALLON_OF_RED_PAINT": {
     "internalName": "PRESUMED_GALLON_OF_RED_PAINT",
+    "nbtModifier": "blood_soaked",
     "reforgeName": "Blood-Soaked",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "CLOAK",
@@ -3869,6 +3873,7 @@
   },
   "AOTE_STONE": {
     "internalName": "AOTE_STONE",
+    "nbtModifier": "aote_stone",
     "reforgeName": "Warped",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": {
