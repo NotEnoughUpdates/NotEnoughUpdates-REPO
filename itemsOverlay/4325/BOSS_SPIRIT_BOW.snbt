@@ -1,0 +1,20 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "BOSS_SPIRIT_BOW",
+			originTag: "UNKNOWN"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:attribute_modifiers",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:bow",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.4.0+mc1.21.5"
+	}
+}
