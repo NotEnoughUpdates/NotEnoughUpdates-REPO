@@ -12,6 +12,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    if: ${{ '247692460' == github.repository_id }}
     steps:
     - name: Find HEAD
       id: sha
