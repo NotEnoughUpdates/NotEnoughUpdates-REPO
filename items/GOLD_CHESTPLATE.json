@@ -1,17 +1,22 @@
 {
   "itemid": "minecraft:golden_chestplate",
   "displayname": "§fGolden Chestplate",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+25\",1:\"\",2:\"§7§8This item can be reforged!\",3:\"§f§lCOMMON CHESTPLATE\"],Name:\"§fGolden Chestplate\"},ExtraAttributes:{originTag:\"CRAFTING_GRID_COLLECT\",id:\"GOLD_CHESTPLATE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"GOLD_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:golden_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+25\",1:\"\",2:\"§8This item can be reforged!\",3:\"§f§lCOMMON CHESTPLATE\"],Name:\"§fGolden Chestplate\"}}",
   "damage": 0,
   "lore": [
     "§7Defense: §a+25",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§f§lCOMMON CHESTPLATE"
   ],
   "internalname": "GOLD_CHESTPLATE",
-  "crafttext": "",
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Golden_Chestplate"
+  ],
   "recipe": {
     "A1": "GOLD_INGOT:1",
     "A2": "",
@@ -23,10 +28,5 @@
     "C2": "GOLD_INGOT:1",
     "C3": "GOLD_INGOT:1"
   },
-  "modver": "2.1.0-REL",
-  "vanilla": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://wiki.hypixel.net/Golden_Chestplate"
-  ]
+  "vanilla": true
 }
