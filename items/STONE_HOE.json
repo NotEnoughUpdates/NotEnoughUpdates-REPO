@@ -1,16 +1,21 @@
 {
   "itemid": "minecraft:stone_hoe",
   "displayname": "§fStone Hoe",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§8This item can be reforged!\",1:\"§f§lCOMMON HOE\"],Name:\"§fStone Hoe\"},ExtraAttributes:{id:\"STONE_HOE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"STONE_HOE\"},HideFlags:254,ItemModel:\"minecraft:stone_hoe\",Unbreakable:1B,display:{Lore:[0:\"§8This item can be reforged!\",1:\"§f§lCOMMON HOE\"],Name:\"§fStone Hoe\"}}",
   "damage": 0,
   "lore": [
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§f§lCOMMON HOE"
   ],
   "internalname": "STONE_HOE",
-  "modver": "2.1.0-REL",
-  "vanilla": true,
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Stone_Hoe"
+  ],
+  "vanilla": true,
   "recipe": {
     "A1": "COBBLESTONE:1",
     "A2": "COBBLESTONE:1",
@@ -21,10 +26,5 @@
     "C1": "",
     "C2": "STICK:1",
     "C3": ""
-  },
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://wiki.hypixel.net/Stone_Hoe"
-  ]
+  }
 }

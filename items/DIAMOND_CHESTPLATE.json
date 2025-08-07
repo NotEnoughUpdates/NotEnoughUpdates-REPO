@@ -1,17 +1,22 @@
 {
   "itemid": "minecraft:diamond_chestplate",
   "displayname": "§aDiamond Chestplate",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+40\",1:\"\",2:\"§7§8This item can be reforged!\",3:\"§a§lUNCOMMON CHESTPLATE\"],Name:\"§aDiamond Chestplate\"},ExtraAttributes:{originTag:\"CRAFTING_GRID_COLLECT\",id:\"DIAMOND_CHESTPLATE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"DIAMOND_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:diamond_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+40\",1:\"\",2:\"§8This item can be reforged!\",3:\"§a§lUNCOMMON CHESTPLATE\"],Name:\"§aDiamond Chestplate\"}}",
   "damage": 0,
   "lore": [
     "§7Defense: §a+40",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§a§lUNCOMMON CHESTPLATE"
   ],
   "internalname": "DIAMOND_CHESTPLATE",
-  "crafttext": "",
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Diamond_Chestplate"
+  ],
   "recipe": {
     "A1": "DIAMOND:1",
     "A2": "",
@@ -23,10 +28,5 @@
     "C2": "DIAMOND:1",
     "C3": "DIAMOND:1"
   },
-  "modver": "2.1.0-REL",
-  "vanilla": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://wiki.hypixel.net/Diamond_Chestplate"
-  ]
+  "vanilla": true
 }

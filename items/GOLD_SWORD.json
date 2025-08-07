@@ -1,18 +1,23 @@
 {
   "itemid": "minecraft:golden_sword",
   "displayname": "§fGolden Sword",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Damage: §c+20\",1:\"\",2:\"§7§8This item can be reforged!\",3:\"§f§lCOMMON SWORD\"],Name:\"§fGolden Sword\"},ExtraAttributes:{id:\"GOLD_SWORD\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"GOLD_SWORD\"},HideFlags:254,ItemModel:\"minecraft:golden_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+20\",1:\"\",2:\"§8This item can be reforged!\",3:\"§f§lCOMMON SWORD\"],Name:\"§fGolden Sword\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+20",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§f§lCOMMON SWORD"
   ],
   "internalname": "GOLD_SWORD",
-  "modver": "2.1.0-REL",
-  "vanilla": true,
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Golden_Sword"
+  ],
+  "vanilla": true,
   "recipe": {
     "A1": "GOLD_INGOT:1",
     "A2": "",
@@ -23,10 +28,5 @@
     "C1": "STICK:1",
     "C2": "",
     "C3": ""
-  },
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://wiki.hypixel.net/Golden_Sword"
-  ]
+  }
 }

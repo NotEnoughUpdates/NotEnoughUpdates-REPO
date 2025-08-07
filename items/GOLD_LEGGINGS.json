@@ -1,17 +1,22 @@
 {
   "itemid": "minecraft:golden_leggings",
   "displayname": "§fGolden Leggings",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+15\",1:\"\",2:\"§7§8This item can be reforged!\",3:\"§f§lCOMMON LEGGINGS\"],Name:\"§fGolden Leggings\"},ExtraAttributes:{originTag:\"CRAFTING_GRID_COLLECT\",id:\"GOLD_LEGGINGS\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"GOLD_LEGGINGS\"},HideFlags:254,ItemModel:\"minecraft:golden_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+15\",1:\"\",2:\"§8This item can be reforged!\",3:\"§f§lCOMMON LEGGINGS\"],Name:\"§fGolden Leggings\"}}",
   "damage": 0,
   "lore": [
     "§7Defense: §a+15",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§f§lCOMMON LEGGINGS"
   ],
   "internalname": "GOLD_LEGGINGS",
-  "crafttext": "",
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Golden_Leggings"
+  ],
   "recipe": {
     "A1": "GOLD_INGOT:1",
     "A2": "GOLD_INGOT:1",
@@ -23,10 +28,5 @@
     "C2": "",
     "C3": "GOLD_INGOT:1"
   },
-  "modver": "2.1.0-REL",
-  "vanilla": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://wiki.hypixel.net/Golden_Leggings"
-  ]
+  "vanilla": true
 }
