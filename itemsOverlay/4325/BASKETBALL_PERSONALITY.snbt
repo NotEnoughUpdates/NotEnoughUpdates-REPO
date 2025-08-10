@@ -3,7 +3,6 @@
 		"minecraft:custom_data": {
 			id: "BASKETBALL_PERSONALITY"
 		},
-		"minecraft:dyed_color": 10511680,
 		"minecraft:profile": {
 			id: [I;
 				812516094,
@@ -11,16 +10,27 @@
 				-2047241131,
 				-474976706
 			],
-			name: "",
 			properties: [
 				{
 					name: "textures",
+					signature: "IVidV6thLqDzc1SF/UOYJManMy2Y2hd5/KqnAyQF62Iar3F6boZuH8iqFe/FvTxubatz+t5mS0eYkwoEDBzZbqG0RrPJARyMLzeyaJDsqkrJgrnbMkP15oxH64d8kb1ZBfenbLdjZfnK9bo5532+NUT+ltIwKOtv5WuHB5+UN7m5BZKPbN1z+Yk+gUBoUBo7LnscevH8cNQClAxwbYmpKrC2PBawoGBwJGQO1NEafPqXfi1Cb0JKVn1Jr94M6z8lIC7H5KDljuFMh9zJSx5M1XOUGudpEubONTa5zkCqrn8JQA0PSV9fnCSWzZRhnnFcvRGEzU7sY4Rjd4DDwEdp57tndv+UJK6J5nz66Jvg29P4Qqf7m7uf9AdLWKVdZEkd9gD1rGmd/No6mC1zTf9IDIx05qB+p0bUzy5ZzEgq/1WWjDfn9HTrR0XrxDwUbTW9ZtWY0EdgNAAnpF53I2WQ/WlHSlBxd1fSdetIR3f5GXG8B6Ld4Rm8HpeT5lhR9kB7dqv1NPdryDIixlVlr35lXFqpLylJI8g4co2w87CUuyeBttjpEZI22qQFZzU4s+Sn2+qyEyM3am6nFjW78/hEWbe6uIr+yshHONRt4x5/UoYLTz9dEhfumnYTmyzkOS5kEt05w/0odSjeBUzAk70wLqxQu1ygbKRYbLmyjJVqqDs=",
 					value: "ewogICJ0aW1lc3RhbXAiIDogMTYyNDkwODU4MjcyOCwKICAicHJvZmlsZUlkIiA6ICJiN2ZkYmU2N2NkMDA0NjgzYjlmYTllM2UxNzczODI1NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDVUNGTDE0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NkM2ZlMGE5NTQwZTYwNGYxMjQ5ZTE2YzEwNWNkYTQ1ODEyYjIwMzcwN2NmOTNmZTY2ZmJhNTExOWUzODc4ODMiCiAgICB9CiAgfQp9"
 				}
 			]
 		},
 		"minecraft:tooltip_display": {
 			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
 				"minecraft:dyed_color"
 			]
 		}
@@ -29,6 +39,6 @@
 	id: "minecraft:player_head",
 	source: {
 		dataVersion: 4325,
-		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g64ef955"
+		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
 	}
 }

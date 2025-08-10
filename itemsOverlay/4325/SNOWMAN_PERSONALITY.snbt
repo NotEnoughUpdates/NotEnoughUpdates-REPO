@@ -3,7 +3,6 @@
 		"minecraft:custom_data": {
 			id: "SNOWMAN_PERSONALITY"
 		},
-		"minecraft:dyed_color": 10511680,
 		"minecraft:profile": {
 			id: [I;
 				-1237202352,
@@ -11,16 +10,27 @@
 				-1306109765,
 				33232048
 			],
-			name: "",
 			properties: [
 				{
 					name: "textures",
+					signature: "UVIuDL32Di4kBDL37T3Lak9bS1/JcHAMzn1kqiBSwKvybyzXmh5/TAy952AKWkIQaPex4tI/sDN/sA7eMIaUUPfmyjexdifRn4JF7oHGDjr9KbIY8+XthHFvWqdsHXSZ/2rIoXS0hO0MDj7/UJw/r9SQ+hfeb+JG0kaLyd/IYXYTVHlwjmZYHhMlKTJC3GyULBeNxfwHvEu7JzP/5kLJco0Y+FyxWaYbz48F8xYOm9i5GGUUq4v8KOxxfpfHd2Udd49hycUx/pID2VmUFqwnh3nHqUpIvcbNjW+g8e7BuqhbeQu8dCVvrjlZobM7Dat+NsARq20S1YM1x/mCFLXC+yq+11z1Pnb2T1KvYA9ty3GdiDfTwbZnMUkQcC/Z6wTA4jtWvI4WdTMSMvbZTMd83Q3gfeEvv3Jv7T2+qGOye1/iHeUHPWo9psbXUlH/QuKA7DAD/GGR+TcGAAw+mOwIx11r0JZc12gDbdqbXiM4RhfePGcTDnsTZPXqFNTCj5w0jOiREGYodzW6fttY5qHdkNy+gHKUE4tBns8mwmWQ5hJbLlQ4lktvaJi0fqiEWodTJTfkNgYzAzd82qpGJqna7FDkVrNHGTLeBdFhgz6REwSz5KtqdAj97hrzqxdhBbrRn2tTc0BoSNlkYx6i0ySX0fLQvhbAD9zGCyPAKbeUv+8=",
 					value: "ewogICJ0aW1lc3RhbXAiIDogMTY2OTY3MjEzODA2MCwKICAicHJvZmlsZUlkIiA6ICIzNmMxODk4ZjlhZGE0NjZlYjk0ZDFmZWFmMjQ0MTkxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJMdW5haWFuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk1ODU2MWMwMjdlMDM2OGE4M2Y4NDk0NjNkNDJhMzA1NmU3MDk3NjRjNGMzYjQwZDgxYzhmM2VhN2EwZDZkMDciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
 				}
 			]
 		},
 		"minecraft:tooltip_display": {
 			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
 				"minecraft:dyed_color"
 			]
 		}
@@ -29,6 +39,6 @@
 	id: "minecraft:player_head",
 	source: {
 		dataVersion: 4325,
-		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g64ef955"
+		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
 	}
 }
