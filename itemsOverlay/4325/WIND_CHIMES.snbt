@@ -3,24 +3,34 @@
 		"minecraft:custom_data": {
 			id: "WIND_CHIMES"
 		},
-		"minecraft:dyed_color": 10511680,
 		"minecraft:profile": {
 			id: [I;
-				-2037409237,
-				-1064618371,
-				-1489227985,
-				-1837410839
+				1068106932,
+				1095448862,
+				-1362440854,
+				-1416996983
 			],
-			name: "",
 			properties: [
 				{
 					name: "textures",
-					value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjlmMjlmZmE0YzViMTU4MmMyMWFlZjUzZTQwNmI0ZTQ2NmFlMTQ2YjA3ZDI5YmEzMGRlNDU1NzE2ZmI5ZTc0MyJ9fX0="
+					signature: "SiVJf/Jfz47DQdzXmKpIH2QeqrOLBJJ/9+w7CVegg7DCZ/WBEypAsVoMr36Di2nxTmKgogOBQFs23TCwIG1xHGvyDBa1iJvfZFUa6dAWzTPRhYuhanjBNhZyDELnK8rKl6mVBRqrtaxpEdt3VoCZeNSK3ioPZP4uj0fC9EXiAL1CMIOHDsVqNpaUaY2HDnFNmAaHmGilqgGxf71qTI9IVMpfwPZquHiAWobB+wYPy4OOYGlTYRtSFz5/sfAWX5phIOHYbFFnjtKARrfhcEtbjOSMcJZa83Wg+FTqYeaIyjJ5wNYQgo7SqtWuVndhFo6mT66Klvdp3eThSsyCHA9fbZYzVfA9ScoixPK1PggWeWjC7Z/WZGIh271qy06RHMZmRIHYzkEOTvtrfxam1HuL1guolsTKkVPau8+kGeOjgSPtiHZRtYQu8ST8IBCFhMTzzpmHjYLVDrOsi2ljoTTfRKFBhCBHo40TmURsYnzDxkar2uf9SuWfb8aBXVLGPZBP1UjWMr24ErFHufRitWp8GFKdwxTxG72qKGScScoy8Uho7g0fR036VGiupe6/a3EOMyLjorBlZmzzpKt++E9JFajHSrzlo402oA3cpkpZEtt1nsjo+t/wNX5gvJoBwjKc+GdwH60++LAV+edzc3S4I9fs6PkaDsn2y0j0nbRaT2M=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTY4ODQyNDQ2ODQ0NSwKICAicHJvZmlsZUlkIiA6ICJiNzQ4YWExODk3ZGU0Y2RiYjFhNTI1YjVjMjM3ZDc2MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaXhpOCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yOWYyOWZmYTRjNWIxNTgyYzIxYWVmNTNlNDA2YjRlNDY2YWUxNDZiMDdkMjliYTMwZGU0NTU3MTZmYjllNzQzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
 				}
 			]
 		},
 		"minecraft:tooltip_display": {
 			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
 				"minecraft:dyed_color"
 			]
 		}
@@ -29,6 +39,6 @@
 	id: "minecraft:player_head",
 	source: {
 		dataVersion: 4325,
-		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g64ef955"
+		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
 	}
 }
