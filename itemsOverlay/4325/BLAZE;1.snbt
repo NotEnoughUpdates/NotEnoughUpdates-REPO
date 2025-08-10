@@ -2,7 +2,7 @@
 	components: {
 		"minecraft:custom_data": {
 			id: "PET",
-			petInfo: '{"type":"BLAZE","tier":"UNCOMMON"}'
+			petInfo: '{"type":"BLAZE","tier":"UNCOMMON","exp":0.0,"candyUsed":0}'
 		},
 		"minecraft:profile": {
 			id: [I;
@@ -11,7 +11,6 @@
 				-1789951182,
 				1830391753
 			],
-			name: "",
 			properties: [
 				{
 					name: "textures",
@@ -22,6 +21,17 @@
 		},
 		"minecraft:tooltip_display": {
 			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
 				"minecraft:dyed_color"
 			]
 		}
@@ -30,6 +40,6 @@
 	id: "minecraft:player_head",
 	source: {
 		dataVersion: 4325,
-		modVersion: "Firmament 3.3.0+mc1.21.5"
+		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
 	}
 }

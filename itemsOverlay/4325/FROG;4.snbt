@@ -2,8 +2,7 @@
 	components: {
 		"minecraft:custom_data": {
 			id: "PET",
-			petInfo: '{"type":"FROG","active":false,"exp":0.0,"tier":"LEGENDARY","hideInfo":false,"candyUsed":0,"hideRightClick":false,"noMove":false}',
-			uuid: "a405e21d-11c5-4879-9458-3edcd3ec62e2"
+			petInfo: '{"type":"FROG","tier":"LEGENDARY","exp":0.0,"candyUsed":0}'
 		},
 		"minecraft:profile": {
 			id: [I;
@@ -41,6 +40,6 @@
 	id: "minecraft:player_head",
 	source: {
 		dataVersion: 4325,
-		modVersion: "Firmament 3.1.0+mc1.21.5"
+		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
 	}
 }

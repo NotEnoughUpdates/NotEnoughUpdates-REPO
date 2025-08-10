@@ -1,0 +1,45 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "PET",
+			petInfo: '{"type":"ZOMBIE","tier":"RARE","exp":0.0,"candyUsed":0}'
+		},
+		"minecraft:profile": {
+			id: [I;
+				851799861,
+				-594725174,
+				-1345262845,
+				1778474541
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "jKHyruPNYLD68AUw2YxQyOS/vxsZ5hE2O2/S7HXkIGCvUGtXcfjebna5tHGoXTLo0DG+KXyJ4LiGtpnjBYXeuJPACxowyAzHnkzEzP9TRqgU8Vz7yfbYYl1aunCWYeHL6e4aO9UPISyrF9aSExJdr+2iyZJ0PBVPvrl3Sb82CP/wiyaiJfk+z2wK1yo7eceM75Xm1/SNYyGPteM+37y0x2NTAkfE7AFG9sClBHRgRwrJvzWBYzaZXGhq03FOLO7qYjv7/lndX2Ghlekc/pRh6O2Ao2P1LWpkWR93K6CiyNFE+Z7t+asrWIElxO7OlBaC8y4MBoafc37jTBp9MH6ZWXS9lDzSA+5bxgfE94okYJdzNuNz7Gb9bxiLaixuo8DnxEB0iiKbhy7o7rQRitiKdY9V8X22TMaaQcyise/W7ARude4qQiBf69nRGN4lJ+1BUEcBxm6jrbkn1OUEZdXl+dKurX6UsXlEMq1O+SglWRaZhnAIKUyPRvzbQXUpFiihbTCEIihCRhW/TIZIonXChKmSUA1nWamPKyX6NZISX1Cam7nCn7HJzjIFUsRtPvsVUThl6bKQzRePH0Fkk2gmGfa6wUV/lT4p0/RpuMzSmPAkITId8jLVKlSqxODMoqe4kQS+zCXzajFM4jmNISq/9Kw7LPwKF99mgyzX+Mz5jv8=",
+					value: "eyJ0aW1lc3RhbXAiOjE0NjczMTAxMjg5MzAsInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJJbnZlbnRpdmVHYW1lcyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZmYzg1NGJiODRjZjRiNzY5NzI5Nzk3M2UwMmI3OWJjMTA2OTg0NjBiNTFhNjM5YzYwZTVlNDE3NzM0ZTExIn19fQ=="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
+	}
+}
