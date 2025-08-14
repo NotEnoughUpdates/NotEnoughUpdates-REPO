@@ -1,18 +1,26 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Teleporter Pill",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"cd7036e7-cf96-39c3-89a1-02f1d73cec99\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NTY0NDQyNjY3NiwKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzIyMDU4YzdjYzg1MjFlZTE1OTllODllM2UyYTEzYWM2ZTBmYWMyY2UwYjM2NjdmOWI3OTU1MTcwZjFjYWUzZSIKICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§7§7Right-click to consume a\",1:\"§7really nice, really good pill.\",2:\"\",3:\"§7§7Consuming it allows you to use\",4:\"§7teleport pads on your private\",5:\"§7island from anywhere.\",6:\"\",7:\"§7§4☠ §cRequires §5Blaze Slayer 4§c.\",8:\"§9§lRARE\"],Name:\"§9Teleporter Pill\"},ExtraAttributes:{id:\"TELEPORTER_PILL\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"TELEPORTER_PILL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"bde987a9-5a95-33a3-8df9-5f6d8cb8162b\",Properties:{textures:[0:{Name:\"textures\",Signature:\"vvunJB65GAmGJDVIF49O2pBrb5DeQhfZqzU4xToX94REtT6c1r675uI4eaU17enLb0FRqPJBVmclxt2EwVliugADhbImlCEecaWrFo1zqN4ECG7VIgSosscFE+XXzJxv9zIR4hfhwBI6HbM6SY80a8n5PwyU6Zp+UvKox6iqtpvyzB1VpwwfjW2g3/I4Bt7qo2nS1kL31XASd2LnGp59vD68eFv0qvezRoCytMPRm6aFc7D7TgZUHtlSDeMsJdWv1tkmpGgv6blZ0v84cqdaqYPig9ktk1oOvwK5n31grST1g/jk0sisLD37v9Mz0IINsLc03KO9b/UdbuCm2CyI92j57I/QvizmSJWrQ94bVn/iSZB0LY+awDB7EagrRVhWSUyFLAEe250sgYcnWIo6g9iJR/ettTeYfP9Pf8Y76Wi0YATWmkE22yfF2XMjgdsmwi34KkEzuvvmfErqKsIIEUjnri1NdqwYJdyV1130Sl9jOE0SLzRt+wYV8OY53FZcOjiESdxJ6Ap+uB7AF6/F50snqN2C6guFXm1ibQNBvAKyPGgSyIQLEl2cHnI6639ixdvrJ187eaint+jK7PbTDPEiOpvKWQHWIABeH7T85GQtQNpA59w+a+RPyrGkVTFtD6VSLxEkDprX9grL1FwsyuH/OgXHu0QuFlLdMDQCoM0=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY3MDU4NTk0Njc0NCwKICAicHJvZmlsZUlkIiA6ICJkYmQyYjU4N2VjMWY0ZTgxYTNkOGFlODM5OWJiMDFjMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJjYXRzaW5zcGFjZWUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzIyMDU4YzdjYzg1MjFlZTE1OTllODllM2UyYTEzYWM2ZTBmYWMyY2UwYjM2NjdmOWI3OTU1MTcwZjFjYWUzZSIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Right-click to consume a really nice,\",1:\"§7really good pill.\",2:\"\",3:\"§7Consuming it allows you to use\",4:\"§7teleport pads on your private island\",5:\"§7from anywhere.\",6:\"\",7:\"§9§lRARE\"],Name:\"§9Teleporter Pill\"}}",
   "damage": 3,
   "lore": [
-    "§7§7Right-click to consume a",
-    "§7really nice, really good pill.",
+    "§7Right-click to consume a really nice,",
+    "§7really good pill.",
     "",
-    "§7§7Consuming it allows you to use",
-    "§7teleport pads on your private",
-    "§7island from anywhere.",
+    "§7Consuming it allows you to use",
+    "§7teleport pads on your private island",
+    "§7from anywhere.",
     "",
-    "§7§4☠ §cRequires §5Blaze Slayer 4§c.",
     "§9§lRARE"
+  ],
+  "internalname": "TELEPORTER_PILL",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Blaze Slayer 4",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Teleporter_Pill",
+    "https://wiki.hypixel.net/Teleporter_Pill"
   ],
   "recipe": {
     "A1": "MOLTEN_POWDER:1",
@@ -25,14 +33,5 @@
     "C2": "ENCHANTED_SUGAR:64",
     "C3": "MOLTEN_POWDER:1"
   },
-  "internalname": "TELEPORTER_PILL",
-  "slayer_req": "BLAZE_4",
-  "crafttext": "Requires: Blaze Slayer 4",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Teleporter_Pill",
-    "https://wiki.hypixel.net/Teleporter_Pill"
-  ]
+  "slayer_req": "BLAZE_4"
 }
