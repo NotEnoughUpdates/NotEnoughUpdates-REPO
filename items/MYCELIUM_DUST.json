@@ -1,13 +1,22 @@
 {
   "itemid": "minecraft:dye",
   "displayname": "§9Mycelium Dust",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Instantly grows crops and\",1:\"§7saplings in a 3x3 square.\",2:\"\",3:\"§9§lRARE\"],Name:\"§9Mycelium Dust\"},ExtraAttributes:{id:\"MYCELIUM_DUST\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"MYCELIUM_DUST\"},HideFlags:254,ItemModel:\"minecraft:pink_dye\",display:{Lore:[0:\"§7Instantly grows crops and saplings\",1:\"§7in a 3x3 square.\",2:\"\",3:\"§9§lRARE\"],Name:\"§9Mycelium Dust\"}}",
   "damage": 9,
   "lore": [
-    "§7Instantly grows crops and",
-    "§7saplings in a 3x3 square.",
+    "§7Instantly grows crops and saplings",
+    "§7in a 3x3 square.",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "MYCELIUM_DUST",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Mycelium V",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Mycelium_Dust",
+    "https://wiki.hypixel.net/Mycelium_Dust"
   ],
   "recipe": {
     "A1": "",
@@ -20,14 +29,5 @@
     "C2": "SPECTRE_DUST:1",
     "C3": "",
     "count": 32
-  },
-  "internalname": "MYCELIUM_DUST",
-  "crafttext": "Requires: Mycelium V",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Mycelium_Dust",
-    "https://wiki.hypixel.net/Mycelium_Dust"
-  ]
+  }
 }

@@ -1673,11 +1673,9 @@
       "fusion": {
         "components": [
           {
-            "type": "family",
-            "value": [
-              "Lizard"
-            ],
-            "amount": 5
+            "type": "bazaarName",
+            "value": "SHARD_NEWT",
+            "amount": 2
           },
           {
             "type": "alignment",
@@ -1762,10 +1760,10 @@
     },
     {
       "bazaarName": "SHARD_SEA_ARCHER",
-      "displayName": "Sea Archer",
+      "displayName": "Bogged",
       "rarity": "COMMON",
       "internalName": "ATTRIBUTE_SHARD_HUNTER;1",
-      "abilityName": "Monster Bait",
+      "abilityName": "Creature Fisher",
       "alignment": "Water",
       "family": []
     },
@@ -3478,6 +3476,28 @@
       "abilityName": "Yummy",
       "alignment": "Water",
       "family": []
+    },
+    {
+      "bazaarName": "SHARD_TITANOBOA",
+      "displayName": "Titanoboa",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_BAYOU_BITER;1",
+      "abilityName": "Bayou Biter",
+      "alignment": "Water",
+      "family": [
+        "Reptile"
+      ]
+    },
+    {
+      "bazaarName": "SHARD_HUMMINGBIRD",
+      "displayName": "Hummingbird",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_CHOP;1",
+      "abilityName": "Chop",
+      "alignment": "Forest",
+      "family": [
+        "Bird"
+      ]
     }
   ]
 }

@@ -1,17 +1,22 @@
 {
   "itemid": "minecraft:diamond_leggings",
   "displayname": "§aDiamond Leggings",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+30\",1:\"\",2:\"§7§8This item can be reforged!\",3:\"§a§lUNCOMMON LEGGINGS\"],Name:\"§aDiamond Leggings\"},ExtraAttributes:{originTag:\"CRAFTING_GRID_COLLECT\",id:\"DIAMOND_LEGGINGS\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"DIAMOND_LEGGINGS\"},HideFlags:254,ItemModel:\"minecraft:diamond_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+30\",1:\"\",2:\"§8This item can be reforged!\",3:\"§a§lUNCOMMON LEGGINGS\"],Name:\"§aDiamond Leggings\"}}",
   "damage": 0,
   "lore": [
     "§7Defense: §a+30",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§a§lUNCOMMON LEGGINGS"
   ],
   "internalname": "DIAMOND_LEGGINGS",
-  "crafttext": "",
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Diamond_Leggings"
+  ],
   "recipe": {
     "A1": "DIAMOND:1",
     "A2": "DIAMOND:1",
@@ -23,10 +28,5 @@
     "C2": "",
     "C3": "DIAMOND:1"
   },
-  "modver": "2.1.0-REL",
-  "vanilla": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://wiki.hypixel.net/Diamond_Leggings"
-  ]
+  "vanilla": true
 }

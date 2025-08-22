@@ -3,24 +3,34 @@
 		"minecraft:custom_data": {
 			id: "SANTA_PERSONALITY"
 		},
-		"minecraft:dyed_color": 10511680,
 		"minecraft:profile": {
 			id: [I;
-				1531744581,
-				1873359930,
-				-1184625471,
-				-113836870
+				301669959,
+				1388198002,
+				-1289324580,
+				1091826090
 			],
-			name: "",
 			properties: [
 				{
 					name: "textures",
-					value: "eyJ0aW1lc3RhbXAiOjE1NzQ1NjU2Njc0MDgsInByb2ZpbGVJZCI6IjIzZjFhNTlmNDY5YjQzZGRiZGI1MzdiZmVjMTA0NzFmIiwicHJvZmlsZU5hbWUiOiIyODA3Iiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kMTc4YWUwM2Q4NDIyN2YyMWZhMjM2ODJkOWM2MjAxMzEwMDBmZmI3NjczMzk1NTMzYjI3NDBmYTgzYWIxMDM3In19fQ=="
+					signature: "A3soFYHeNKfoT5CfLbQJjZbMqZlTGNXE+RGzYCvMgVZwlzK+DxycEWslIO7557D2kq2AigBu86ZsT9jv3DBExW/cnzuyU7qD9c+ZeARNNS/EMVMG9NYbYMTgckdfMLvN36RXV6g0IFAJKTf00d8XlJ7GYkcp6TNrYCTRKyEXJc7LbOSLFJioHLVsUGOuYyThGwhIQ6cHO7Rl1JNEmMj07dEmw6eNRGaAgAY0C7MFax85Sbg/mjdomymTrupu41KBKCUeQGcAb6MPQtKCO2xbSOOpxoaLtQ9hO+ip7N6K+lFjSs6Ju38mbBqojuugLX04QqDuTe81i5tXxTkm9Wzwk40TzrAY76GnK0ik9s/PUD+SC6obiiNFwzugA0GJiQigyuhEBAlvD5Gc64+Zbolem46Df4y0jhFdVrfUgLTSQflWLQeB6kJJStGApuMP2iVxpbbRuGF3wMj4JgSTuu2Lu6Q58nql8OtLY8MfBrYJeNLOlMem9I0SwRsPk4EpzBp7y8Qt6oL8m/ku7H2pO3ckXIs9ci7bvXNUosByT0LkeREuDgNh8GXZDLlgLVspvq9NNus2VyIn7ZaJCNPTPEQWTMR+isYnUymB2xrionNk5kqSj6qNDSmKOSjCmKNa7cUU8J5eRxQZXKyrObZrkVmNoxXQapfeidvZ6NLlF0rewc0=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTU4ODY5MDY3Nzc3OSwKICAicHJvZmlsZUlkIiA6ICIwYjBiNGI0NWIxMmQ0ZTQ2OGRkMDc0OWU3ZGQyMTkwZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4TWFyc2hoXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kMTc4YWUwM2Q4NDIyN2YyMWZhMjM2ODJkOWM2MjAxMzEwMDBmZmI3NjczMzk1NTMzYjI3NDBmYTgzYWIxMDM3IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
 				}
 			]
 		},
 		"minecraft:tooltip_display": {
 			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
 				"minecraft:dyed_color"
 			]
 		}
@@ -29,6 +39,6 @@
 	id: "minecraft:player_head",
 	source: {
 		dataVersion: 4325,
-		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g64ef955"
+		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
 	}
 }

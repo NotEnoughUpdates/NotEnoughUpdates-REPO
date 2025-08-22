@@ -1,17 +1,22 @@
 {
   "itemid": "minecraft:golden_boots",
   "displayname": "§fGolden Boots",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+5\",1:\"\",2:\"§7§8This item can be reforged!\",3:\"§f§lCOMMON BOOTS\"],Name:\"§fGolden Boots\"},ExtraAttributes:{originTag:\"CRAFTING_GRID_COLLECT\",id:\"GOLD_BOOTS\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"GOLD_BOOTS\"},HideFlags:254,ItemModel:\"minecraft:golden_boots\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+5\",1:\"\",2:\"§8This item can be reforged!\",3:\"§f§lCOMMON BOOTS\"],Name:\"§fGolden Boots\"}}",
   "damage": 0,
   "lore": [
     "§7Defense: §a+5",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§f§lCOMMON BOOTS"
   ],
   "internalname": "GOLD_BOOTS",
-  "crafttext": "",
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Golden_Boots"
+  ],
   "recipe": {
     "A1": "GOLD_INGOT:1",
     "A2": "",
@@ -23,10 +28,5 @@
     "C2": "",
     "C3": ""
   },
-  "modver": "2.1.0-REL",
-  "vanilla": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://wiki.hypixel.net/Golden_Boots"
-  ]
+  "vanilla": true
 }

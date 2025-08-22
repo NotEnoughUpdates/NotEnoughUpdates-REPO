@@ -991,98 +991,108 @@
     "COMMON": {
       "1": {
         "otherNums": [
-          0.3
+          0.5
         ],
         "statNums": {
-          "HEALTH": 2.0
+          "SPEED": 0.5,
+          "FARMING_FORTUNE": 0.5
         }
       },
       "100": {
         "otherNums": [
-          30
+          50
         ],
         "statNums": {
-          "HEALTH": 200.0
-        }
-      }
-    },
-    "EPIC": {
-      "1": {
-        "otherNums": [
-          0.5,
-          1.0
-        ],
-        "statNums": {
-          "HEALTH": 2.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          50,
-          100
-        ],
-        "statNums": {
-          "HEALTH": 200.0
-        }
-      }
-    },
-    "LEGENDARY": {
-      "1": {
-        "otherNums": [
-          0.5,
-          1.0,
-          0.3
-        ],
-        "statNums": {
-          "HEALTH": 2.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          50,
-          100,
-          30
-        ],
-        "statNums": {
-          "HEALTH": 200.0
-        }
-      }
-    },
-    "RARE": {
-      "1": {
-        "otherNums": [
-          0.4,
-          0.8
-        ],
-        "statNums": {
-          "HEALTH": 2.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          40,
-          80
-        ],
-        "statNums": {
-          "HEALTH": 200.0
+          "SPEED": 50,
+          "FARMING_FORTUNE": 50
         }
       }
     },
     "UNCOMMON": {
       "1": {
         "otherNums": [
-          0.4
+          0.75
         ],
         "statNums": {
-          "HEALTH": 2.0
+          "SPEED": 0.5,
+          "FARMING_FORTUNE": 0.5
         }
       },
       "100": {
         "otherNums": [
-          40
+          75
         ],
         "statNums": {
-          "HEALTH": 200.0
+          "SPEED": 50,
+          "FARMING_FORTUNE": 50
+        }
+      }
+    },
+    "RARE": {
+      "1": {
+        "otherNums": [
+          1.0,
+          0.5
+        ],
+        "statNums": {
+          "SPEED": 0.5,
+          "FARMING_FORTUNE": 0.5
+        }
+      },
+      "100": {
+        "otherNums": [
+          100,
+          50
+        ],
+        "statNums": {
+          "SPEED": 50,
+          "FARMING_FORTUNE": 50
+        }
+      }
+    },
+    "EPIC": {
+      "1": {
+        "otherNums": [
+          1.0,
+          1.0
+        ],
+        "statNums": {
+          "SPEED": 0.5,
+          "FARMING_FORTUNE": 0.5
+        }
+      },
+      "100": {
+        "otherNums": [
+          100,
+          100
+        ],
+        "statNums": {
+          "SPEED": 50,
+          "FARMING_FORTUNE": 50
+        }
+      }
+    },
+    "LEGENDARY": {
+      "1": {
+        "otherNums": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "statNums": {
+          "SPEED": 0.5,
+          "FARMING_FORTUNE": 0.5
+        }
+      },
+      "100": {
+        "otherNums": [
+          100,
+          100,
+          100
+        ],
+        "statNums": {
+          "SPEED": 50,
+          "FARMING_FORTUNE": 50
         }
       }
     }
@@ -2497,7 +2507,9 @@
         "otherNums": [
           50.0,
           0.25,
-          0.125
+          2.5,
+          0.125,
+          126.2
         ],
         "statNums": {
           "BONUS_ATTACK_SPEED": 25.0,
@@ -2509,7 +2521,9 @@
         "otherNums": [
           100,
           0.5,
-          0.25
+          5.0,
+          0.25,
+          250
         ],
         "statNums": {
           "BONUS_ATTACK_SPEED": 50.0,
@@ -3686,7 +3700,7 @@
           0.5
         ],
         "statNums": {
-          "BONUS_PEST_CHANCE": 0.4,
+          "BONUS_PEST_CHANCE": 0.5,
           "SPEED": 0.2
         }
       },
@@ -3695,7 +3709,7 @@
           50
         ],
         "statNums": {
-          "BONUS_PEST_CHANCE": 40.0,
+          "BONUS_PEST_CHANCE": 50.0,
           "SPEED": 20.0
         }
       }
@@ -3707,7 +3721,7 @@
           0.02
         ],
         "statNums": {
-          "BONUS_PEST_CHANCE": 0.4,
+          "BONUS_PEST_CHANCE": 0.5,
           "SPEED": 0.2
         }
       },
@@ -3717,7 +3731,7 @@
           2
         ],
         "statNums": {
-          "BONUS_PEST_CHANCE": 40.0,
+          "BONUS_PEST_CHANCE": 50.0,
           "SPEED": 20.0
         }
       }
@@ -3729,7 +3743,7 @@
           0.02
         ],
         "statNums": {
-          "BONUS_PEST_CHANCE": 0.4,
+          "BONUS_PEST_CHANCE": 0.5,
           "SPEED": 0.2
         }
       },
@@ -3739,7 +3753,7 @@
           2
         ],
         "statNums": {
-          "BONUS_PEST_CHANCE": 40.0,
+          "BONUS_PEST_CHANCE": 50.0,
           "SPEED": 20.0
         }
       }
@@ -3752,7 +3766,7 @@
           1
         ],
         "statNums": {
-          "BONUS_PEST_CHANCE": 0.4,
+          "BONUS_PEST_CHANCE": 0.5,
           "SPEED": 0.2
         }
       },
@@ -3763,7 +3777,7 @@
           100
         ],
         "statNums": {
-          "BONUS_PEST_CHANCE": 40.0,
+          "BONUS_PEST_CHANCE": 50.0,
           "SPEED": 20.0
         }
       }
@@ -5615,8 +5629,7 @@
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          1.005,
-          0.4
+          1.005
         ],
         "statNums": {
           "HEALTH": 6.0,
@@ -5627,8 +5640,7 @@
       },
       "100": {
         "otherNums": [
-          1.5,
-          40
+          1.5
         ],
         "statNums": {
           "HEALTH": 600.0,

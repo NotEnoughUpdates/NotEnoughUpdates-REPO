@@ -3,7 +3,6 @@
 		"minecraft:custom_data": {
 			id: "TROPICAL_BIRD_2_PERSONALITY"
 		},
-		"minecraft:dyed_color": 10511680,
 		"minecraft:profile": {
 			id: [I;
 				-1767683000,
@@ -11,16 +10,27 @@
 				-1784983393,
 				-2021162810
 			],
-			name: "",
 			properties: [
 				{
 					name: "textures",
+					signature: "quvMf+cmRjQeljIYq1cHiUzpLvkX3fTjdQIpsYC8qa9HJJVyIopxW2CXKMXalA2bTg+TGMDj4f0aIiOAws4peYrM4UcWv4Bo5/e33rtFgF5h9k+y3a+Wy0fOBTreW4PGoAyPjnnW53GoB0ifIj063QpY1sZfpfi/1EVTIXAYfVBdXQHiwiG616ejsTEsqxbrz40x+H7jgOhIv/zSLhhnQaVIWz/txizFIUtz+mWK2tSAJmdHpLwnGYlXdTC72lf3MDSirvdI5nNOiDGiynhwqcQeicg47s+CPie/IR4c+i1Fk5RIH/hbkNjQ6PLRxH0jptgT/X/8kWCWdPngJ/8UNQV4kABTFRjlk97tBcaRrEZzGlBiwr5YaKGxz+zsWwNml5lYWSrSamuWoxGgk1S02V+JwCoPV1RjNS75VsYpFUk9BzHTVv4xcmfbNltA54+K3lNOdVu6o5r7NRNY+p32xXXwa93WtubFAKNV5M2qRQAHfiZkILQBFTDOfFq/48zmrxhgLga1WZn0GBNI90oLMnQ51f+jgH3YUmQ0lBNBuJnJz6NWqqqyekUget2KSnbpUyotebe6r+yy5jPvgMVZMZGGwEzpTKsWPyWnoR/AoT8jDnZ2mc2Myt4sSkAc1H/vTwEx/gufCqc/rWM3Qjti+oc3dIYaxXtVBiJZodNSJVU=",
 					value: "ewogICJ0aW1lc3RhbXAiIDogMTY0OTQzNjM5MDc5NywKICAicHJvZmlsZUlkIiA6ICJmMjc0YzRkNjI1MDQ0ZTQxOGVmYmYwNmM3NWIyMDIxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJIeXBpZ3NlbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83ZDNjYzE2OTg0N2I0ZWYyOTM4ZmNmN2Y4Yzg0NzAxMTI1ZjlmYWY5MTBjZDA4MjBlY2Q2ZmRjZmNhZjViOGIiCiAgICB9CiAgfQp9"
 				}
 			]
 		},
 		"minecraft:tooltip_display": {
 			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
 				"minecraft:dyed_color"
 			]
 		}
@@ -29,6 +39,6 @@
 	id: "minecraft:player_head",
 	source: {
 		dataVersion: 4325,
-		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g64ef955"
+		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
 	}
 }

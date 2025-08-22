@@ -21,15 +21,20 @@
     "https://hypixel-skyblock.fandom.com/wiki/Woodcutting_Crystal",
     "https://wiki.hypixel.net/Woodcutting_Crystal"
   ],
-  "recipe": {
-    "A1": "ENCHANTED_BIRCH_LOG:12",
-    "A2": "ENCHANTED_BIRCH_LOG:12",
-    "A3": "ENCHANTED_BIRCH_LOG:12",
-    "B1": "ENCHANTED_BIRCH_LOG:12",
-    "B2": "ENCHANTED_QUARTZ:1",
-    "B3": "ENCHANTED_BIRCH_LOG:12",
-    "C1": "ENCHANTED_BIRCH_LOG:12",
-    "C2": "ENCHANTED_BIRCH_LOG:12",
-    "C3": "ENCHANTED_BIRCH_LOG:12"
-  }
+  "recipes": [
+    {
+      "A1": "ENCHANTED_SPRUCE_LOG:12",
+      "A2": "ENCHANTED_SPRUCE_LOG:12",
+      "A3": "ENCHANTED_SPRUCE_LOG:12",
+      "B1": "ENCHANTED_SPRUCE_LOG:12",
+      "B2": "ENCHANTED_QUARTZ:1",
+      "B3": "ENCHANTED_SPRUCE_LOG:12",
+      "C1": "ENCHANTED_SPRUCE_LOG:12",
+      "C2": "ENCHANTED_SPRUCE_LOG:12",
+      "C3": "ENCHANTED_SPRUCE_LOG:12",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "WOODCUTTING_CRYSTAL"
+    }
+  ]
 }

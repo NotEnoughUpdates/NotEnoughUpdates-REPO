@@ -79,6 +79,7 @@ setPriorityList = [
     "HOOD",
     "HAT",
     "CAP",
+    "LOCKET",
     "CHESTPLATE",
     "CLOAK",
 ]
