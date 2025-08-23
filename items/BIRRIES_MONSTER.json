@@ -1,0 +1,38 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aBirries (Monster)",
+  "nbttag": "{ExtraAttributes:{id:\"BIRRIES_MONSTER\"},HideFlags:254,SkullOwner:{Id:\"01b77ad6-2139-3bec-81b7-7ad621397bec\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1ODE3MzI0NDIxNywKICAicHJvZmlsZUlkIiA6ICIwYWMwY2IxMTI1MWE0ZjAwOTJjNjIyNzM2NjczMDNmNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDbG91Y2wiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTg3MDM1ZjUzNTIzMzRjMmNiYTZhYzRjNjVjMmI5MDU5NzM5ZDZkMGU4MzljMWRkOThkNzVkMmU3Nzk1Nzg0NyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§c❤ Health§8: §c1\",1:\"§c❁ Damage§8: §c60\"],Name:\"§aBirries (Monster)\"}}",
+  "damage": 3,
+  "lore": [
+    "§c❤ Health§8: §c1",
+    "§c❁ Damage§8: §c60"
+  ],
+  "internalname": "BIRRIES_MONSTER",
+  "clickcommand": "viewrecipe",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd660",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Birries"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 5,
+      "name": "§cBirries",
+      "render": "Tadpole",
+      "panorama": "foraging_2",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ATTRIBUTE_SHARD_YUMMY;1:1",
+          "extra": [
+            "§7 §7- §7Place §cTraps §7in §2Galatea§7. §7(§bOn Land§7).",
+            "§7 §7- §7Catch with a §bFishing Net§7.",
+            "§7 §7- §7§7Catch with §bLasso§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

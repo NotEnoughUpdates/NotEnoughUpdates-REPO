@@ -1,0 +1,56 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§3Bogged (Sea Creature)",
+  "nbttag": "{ExtraAttributes:{id:\"BOGGED_SC\"},HideFlags:254,SkullOwner:{Id:\"96240cd8-ce57-3364-a480-57aebf107be8\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxMzk1ODQ4NzgzNSwKICAicHJvZmlsZUlkIiA6ICI0MDNlYmEzYjhkODg0MDVlYjhjMDlkNTQ4NmFjYzdiZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJWb3J0ZXh0dHYiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTNiOTAwM2JhMmQwNTU2MmM3NTExOWI4YTYyMTg1YzY3MTMwZTkyODJmN2FjYmFjNGJjMjgyNGMyMWViOTVkOSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Mob Type: §f🦴 Skeletal§7, §9⚓ Aquatic\",1:\"§c❤ Health§8: §c3,000\",2:\"§c❁ Damage§8: §c100\",3:\"\",4:\"§f§lCOMMON\"],Name:\"§3Bogged (Sea Creature)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Type: §f🦴 Skeletal§7, §9⚓ Aquatic",
+    "§c❤ Health§8: §c3,000",
+    "§c❁ Damage§8: §c100",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "BOGGED_SC",
+  "clickcommand": "viewrecipe",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Bogged",
+    "https://wiki.hypixel.net/Bogged"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 1,
+      "coins": 5,
+      "name": "§cBogged",
+      "render": "@neurepo:mobs/bogged.json",
+      "panorama": "foraging_2",
+      "extra": [
+        "§cRequirements:",
+        "§7- Fishing Skill 5",
+        "§7- §bWater",
+        "§7- §2Galatea"
+      ],
+      "type": "drops",
+      "drops": [
+        {
+          "id": "SEA_LUMIES:1",
+          "chance": "100%"
+        },
+        {
+          "id": "MANGROVE_LOG:8",
+          "chance": "100%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_HUNTER;1",
+          "extra": [
+            "§7 - Catch with §cPocket Black Hole",
+            "§7 - Kill Bogged while using §cSalts"
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

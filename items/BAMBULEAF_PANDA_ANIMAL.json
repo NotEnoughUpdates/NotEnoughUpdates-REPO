@@ -1,0 +1,35 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aBambuleaf Panda (Animal)",
+  "nbttag": "{ExtraAttributes:{id:\"BAMBULEAF_PANDA_ANIMAL\"},HideFlags:254,SkullOwner:{Id:\"e1e1c2e4-1ed2-473d-bde2-3ec718535399\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyNTUxNTM2NTA1MCwKICAicHJvZmlsZUlkIiA6ICJjNmViMzdjNmE4YjM0MDI3OGJjN2FmZGE3ZjMxOWJmMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbFJleUNhbGFiYXphbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jNWQ4MGQyMGQyMWUyY2EzN2Y2OGRmOTFhZmY5OTc0Y2I1MWE5ZDU5MGMwZmExNDFiNTQ0ZDdlZjkwNTY4MjMyIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]}},display:{Lore:[0:\"§7The Bambuleaf Panda is a passive mob that can be found on §2Galatea§7.\",1:\"§7They only appear while it is Spring or Summer.\"],Name:\"§aBambuleaf Panda (Animal)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7The Bambuleaf Panda is a passive mob that can be found on §2Galatea§7.",
+    "§7They only appear while it is Spring or Summer."
+  ],
+  "internalname": "BAMBULEAF_PANDA_ANIMAL",
+  "clickcommand": "viewrecipe",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 1,
+      "name": "§aBambuleaf",
+      "render": "Panda",
+      "panorama": "foraging_2",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ATTRIBUTE_SHARD_STRONG_ARMS;1",
+          "chance": "100%",
+          "extra": [
+            "§7 - Obtained from Pandas on §2Galatea§7.",
+            "§7 - Place §cTraps §7in §bTranquility§7. (§bSpring or Summer§7)"
+          ]
+        }
+      ]
+    }
+  ]
+}
