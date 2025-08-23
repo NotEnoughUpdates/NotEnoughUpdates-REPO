@@ -1,0 +1,46 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aPhanflare (Monster)",
+  "nbttag": "{ExtraAttributes:{id:\"PHANFLARE_MONSTER\"},HideFlags:254,SkullOwner:{Id:\"01b77ad6-2139-3bec-81b7-7ad621397bec\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxNjQzNzczNzc5MiwKICAicHJvZmlsZUlkIiA6ICI2NWUxN2M2Njk5NDU0ODQxYTdhNjc4ZWY2YzBhNGY1ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJPbGRSZWRUViIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80MTNiZTIyZDI3NzU2NTAxYmYxMWFjYWIwYjg5ZWRlZGQwNWQxOTM5N2JjMmNmN2Y5MjJhNjk4ZjUxYWEyZjFiIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]}},display:{Lore:[0:\"§7The Phanflare has a §a7.1% §7chance to spawn\",1:\"§7when breaking a tree on §2Galetea§7.\",2:\"\",3:\"§7Mob Type: §2⸙ Woodland§7, ✈ Airborne\",4:\"§c❤ Health§8: §c200\",5:\"§c❁ Damage§8: §c1\"],Name:\"§aPhanflare (Monster)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7The Phanflare has a §a7.1% §7chance to spawn",
+    "§7when breaking a tree on §2Galetea§7.",
+    "",
+    "§7Mob Type: §2⸙ Woodland§7, ✈ Airborne",
+    "§c❤ Health§8: §c200",
+    "§c❁ Damage§8: §c1"
+  ],
+  "internalname": "PHANFLARE_MONSTER",
+  "clickcommand": "viewrecipe",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Phanflare",
+    "https://wiki.hypixel.net/Phanflare"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 10,
+      "coins": 5,
+      "xp": 2,
+      "combat_xp": 15,
+      "name": "§cPhanflare",
+      "render": "Phantom",
+      "panorama": "foraging_2",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ATTRIBUTE_SHARD_MOONGLADE_MASTERY;1",
+          "extra": [
+            "§7 - Catch with §bLasso",
+            "§7 - Place §cTraps §7in §2Galatea§7. (§bOn Land§7)",
+            "§7 - §7Found in Fig and Mangrove §2Tree Gifts§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

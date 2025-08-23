@@ -1,0 +1,35 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aMochibear Panda (Animal)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"e1e1c2e4-1ed2-473d-bde2-3ec718535399\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyNTUxNTM0MTk5NCwKICAicHJvZmlsZUlkIiA6ICJjMTJkMmY5ZWJhZGI0ZTllYTIxZmM2M2M3YWY3M2E5NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEcmVhbXlOZW9uIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y2Yzc0N2YyM2JmMWIxM2ExYWRiNGE2YWNjZWZkZDkzYWU4ZWMxMGQzMGQ5NGNkMWYxYWQ0YzM3YTZjNzNiOTEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]}},display:{Lore:[0:\"§7Pigs are passive mobs that can be found at the\",1:\"§7Barn and they drop raw porkchops and experience. \",2:\"\",3:\"§c❤ Health§8: §c50\"],Name:\"§aPig (Animal)\"},ExtraAttributes:{id:\"PIG_ANIMAL\"}}",
+  "damage": 3,
+  "lore": [
+    "§7The Mochibear Panda is a passive mob that can be found on §2Galatea§7.",
+    "§7They only appear while it is Autumn or Winter."
+  ],
+  "internalname": "MOCHIBEAR_PANDA_ANIMAL",
+  "clickcommand": "viewrecipe",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 1,
+      "name": "§aMochibear",
+      "render": "Panda",
+      "panorama": "foraging_2",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ATTRIBUTE_SHARD_STRONG_LEGS;1",
+          "chance": "100%",
+          "extra": [
+            "§7 - Obtained from Pandas on §2Galatea§7.",
+            "§7 - Place §cTraps §7in §bTranquility§7. (§bAutumn or Winter§7)"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aStridersurfer (Monster)",
+  "nbttag": "{ExtraAttributes:{id:\"STRIDERSURFER_MONSTER\"},HideFlags:254,SkullOwner:{Id:\"53548cb9-9468-3c19-9b08-f87e5dee0b09\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTczNDQ1NTYzMTM5MSwKICAicHJvZmlsZUlkIiA6ICIxODA1Y2E2MmM0ZDI0M2NiOWQxYmY4YmM5N2E1YjgyNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ3aG9pc3J1bGxlZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82MjA5NzFmNGRkNzE1OTJhNjA2NTk0NDQ4N2RhMmFkZjIyOTg3ZDVkMGNjY2Y2MDg1ZGZmN2E2NzY3ZDFiMjFhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]}},display:{Lore:[0:\"§7Ugliest crossover!\",1:\"\",2:\"§7Mob Types: §c♆ Magmatic§7, §2༕ Undead§7, §2⸙ Woodland\",3:\"§c❤ Health§8: §c20,000\",4:\"§c❁ Damage§8: §c400\"],Name:\"§aStridersurfer (Monster)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Ugliest crossover!",
+    "",
+    "§7Mob Types: §c♆ Magmatic§7, §2༕ Undead§7, §2⸙ Woodland",
+    "§c❤ Health§8: §c20,000",
+    "§c❁ Damage§8: §c400"
+  ],
+  "internalname": "STRIDERSURFER_MONSTER",
+  "clickcommand": "viewrecipe",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd660",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Stridersurfer",
+    "https://wiki.hypixel.net/Stridersurfer"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 20,
+      "coins": 50,
+      "xp": 35,
+      "combat_xp": 100,
+      "name": "§cStridersurfer",
+      "render": "@neurepo:mobs/stridersurfer.json",
+      "panorama": "foraging_2",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "GILL_MEMBRANE:1",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "STURDY_BONE:1",
+          "extra": [],
+          "chance": "40%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_MAGMATIC_RULER;1:1",
+          "extra": [
+            " §7- §7Catch with §cPocket Black Hole§7.",
+            " §7- §7Kill Strider Surfer§7 or Strider while using §cSalts",
+            " §7- §7Place §cTraps §7in §6Stride-Ember Fissure§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    },
+    {
+      "level": 21,
+      "coins": 50,
+      "xp": 35,
+      "combat_xp": 800,
+      "name": "§cStridersurfer (Sea Creature)",
+      "render": "@neurepo:mobs/stridersurfer.json",
+      "panorama": "foraging_2",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "GILL_MEMBRANE:1",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "STURDY_BONE:1",
+          "extra": [],
+          "chance": "40%"
+        },
+        {
+          "id": "DYE_CARMINE",
+          "chance": "0.00002%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_MAGMATIC_RULER;1:1",
+          "extra": [
+            " §7- §7Catch with §cPocket Black Hole§7.",
+            " §7- §7Kill Strider Surfer§7 or Strider while using §cSalts",
+            " §7- §7Place §cTraps §7in §6Stride-Ember Fissure§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}
