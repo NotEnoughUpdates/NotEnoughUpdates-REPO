@@ -27,7 +27,7 @@ This repository is used in order to store the various JSON files used for the Mi
 To contribute to the item repo, you should use the tools provided by [Firmament](https://modrinth.com/mod/firmament) or [NEU](https://modrinth.com/mod/notenoughupdates).  
 *(Using the NEU tools is no longer recommended due to the missing layer for SNBT files.)*
 
-<h2 align="center"> How to enable and use item repo tools </h2>
+<h3 align="center"> How to enable and use item repo tools </h3>
 
 ### Firmament
 
@@ -39,7 +39,7 @@ To contribute to the item repo, you should use the tools provided by [Firmament]
 Once you’ve made changes, you can find them in your Minecraft folder under `.minecraft/.firmament/repo`.
 
 > [!NOTE]  
-> On some operating systems, folder starting with a period are hidden by default. To view the folder you have to enable hidden folders. (On how to use that please use your best friend in life called Google.)
+> On some operating systems, folder starting with a period are hidden by default. To view the folder you have to enable hidden folders. (On how to do that please use your best friend in life called Google.)
 
 <details>
 <summary><b>How do I add missing items to the repo?</b></summary>
@@ -68,8 +68,10 @@ There are two ways to do this:
 
 *Tip: Since you may need to do this more than once, you can set up a keybind with `/firm macros`.*  
 
+---
+
 > [!WARNING]  
-> If you made changes to an items lore, you need to re-sync the `nbttag` to make it correct again.  
+> If you made changes to an item’s lore, you need to re-sync the `nbttag` to make it correct again.  
 > *(Otherwise, our GitHub workflow will yell at you.)*  
 > To do this, run:  
 >
@@ -77,7 +79,7 @@ There are two ways to do this:
 > /firm dev reexportlore <itemID>
 > ```  
 >
-> Example: `/firm dev reexportlore WARDEN_HELMET`  
+> Example: `/firm dev reexportlore WARDEN_HELMET`
 
 </details>
 
