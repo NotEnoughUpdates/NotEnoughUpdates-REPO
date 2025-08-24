@@ -68,18 +68,17 @@ There are two ways to do this:
 
 *Tip: Since you may need to do this more than once, you can set up a keybind with `/firm macros`.*  
 
----
 
-> [!WARNING]  
-> If you made changes to an item’s lore, you need to re-sync the `nbttag` to make it correct again.  
-> *(Otherwise, our GitHub workflow will yell at you.)*  
-> To do this, run:  
->
-> ```bash
-> /firm dev reexportlore <itemID>
-> ```  
->
-> Example: `/firm dev reexportlore WARDEN_HELMET`
+**WARNING**  
+If you made changes to an item’s lore, you need to re-sync the `nbttag` to make it correct again.  
+*(Otherwise, our GitHub workflow will yell at you.)*  
+To do this, run:  
+
+```bash
+/firm dev reexportlore <itemID>
+```  
+
+ Example: `/firm dev reexportlore WARDEN_HELMET`
 
 </details>
 
