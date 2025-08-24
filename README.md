@@ -20,24 +20,81 @@
   </a>
 </p>
 
-This repository is used in order to store the various JSON files used for the Minecraft mod [NotEnoughUpdates](https://github.com/Moulberry/NotEnoughUpdates).
+This repository is used in order to store the various JSON files used for the Minecraft mod [NotEnoughUpdates](https://github.com/Moulberry/NotEnoughUpdates) and many more.
 
 <h2 align="center"> How to contribute </h2>
 
-In order to contribute to the item repo you should enable the item editor tools by editing your config, in your configNew.json (`.minecraft\config\notenoughupdates\configNew.json`) ensure the following values are set:
+To contribute to the item repo, you should use the tools provided by [Firmament](https://modrinth.com/mod/firmament) or [NEU](https://modrinth.com/mod/notenoughupdates).  
+*(Using the NEU tools is no longer recommended due to the missing layer for SNBT files.)*
 
-```json
-"repositoryEditing": true,
-"dev": true,
-```
+<h2 align="center"> How to enable and use item repo tools </h2>
 
-I would also highly recommend disabling auto update if you are in the middle of making changes otherwise they will be overwritten.
+### Firmament
 
-```json
-"autoupdate_new": false,
-```
+1. Open the config menu with `/firm`
+2. Go to the **Developer & Debug** section
+3. Open the **Power Users** category
+4. Set a keybind for **Export Item Stack** / **Export Recipe Data** / **Export NPC Location**
 
-Once you have these options enabled you can edit and add items in-game using the following keybinds:
+Once you’ve made changes, you can find them in your Minecraft folder under `.minecraft/.firmament/repo`.
+
+> [!NOTE]  
+> On some operating systems, folder starting with a period are hidden by default. To view the folder you have to enable hidden folders. (On how to use that please use your best friend in life called Google.)
+
+<details>
+<summary><b>How do I add missing items to the repo?</b></summary>
+<br>
+
+1. Press your keybind for **Export Item Stack**  
+2. Open your Minecraft folder  
+3. Upload the newly created `.json` and `.snbt` files to your own fork of the NEU-Repo  
+   - JSON files can be found under `.firmament/repo/items`  
+   - SNBT files can be found under `.firmament/repo/itemsOverlay/(Note 1)`  
+     - **Note 1:** You may find more than one folder here. The numbers represent the Minecraft Data Version in which the item was exported.  
+       Example: The data version for Minecraft `1.21.5` is `4325` (see the Minecraft Wiki: <https://minecraft.wiki/w/Data_version>).  
+       If you encounter a data version that does not exist in the original NEU-Repo, don’t worry—just commit the new folder with your changes.
+4. Make a pull request to the NEU-Repo  
+5. Wait for it to be merged  
+
+</details>
+
+<details>
+<summary><b>If I made changes outside of Minecraft, how do I make them appear in-game?</b></summary>
+
+There are two ways to do this:  
+
+1. Restart your Minecraft client  
+2. Use the in-game Firmament command: `/firm repo reload`  
+
+*Tip: Since you may need to do this more than once, you can set up a keybind with `/firm macros`.*  
+
+> [!WARNING]  
+> If you made changes to an items lore, you need to re-sync the `nbttag` to make it correct again.  
+> *(Otherwise, our GitHub workflow will yell at you.)*  
+> To do this, run:  
+>
+> ```bash
+> /firm dev reexportlore <itemID>
+> ```  
+>
+> Example: `/firm dev reexportlore WARDEN_HELMET`  
+
+</details>
+
+### NotEnoughUpdates
+
+1. Open the config menu with `/neu`  
+2. Go to the **IQ Test** section and solve the test. *(If you can’t solve it, please stop trying to add anything.)*  
+3. Go to the **APIs** section  
+4. Open the **Repository** category  
+5. Enable the **Edit Mode** toggle  
+6. Set a keybind for **Instant Edit Keybind** (this is the equivalent of **Export Item Stack** in Firmament)  
+
+> [!WARNING]  
+> Even though this may cause your repository to become outdated, it is recommended to disable auto-updates for the repo.  
+> To do this, open the **Repository** category again and toggle **Automatically Update Repository**.
+
+Once these options are enabled, you can edit and add items in-game using the following keybinds:
 
 - `k` - Opens the item editor.
   - TIP: typing 2 `&` converts into `§`
