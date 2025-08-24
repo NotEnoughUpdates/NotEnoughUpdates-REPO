@@ -39,7 +39,7 @@ To contribute to the item repo, you should use the tools provided by [Firmament]
 Once you’ve made changes, you can find them in your Minecraft folder under `.minecraft/.firmament/repo`.
 
 > [!NOTE]  
-> On some operating systems, folder starting with a period are hidden by default. To view the folder you have to enable hidden folders. (On how to do that please use your best friend in life called Google.)
+> On some operating systems, folders starting with a period are hidden by default. To view the folder you have to enable hidden folders. (On how to do that please use your best friend in life called Google.)
 
 <details>
 <summary><b>How do I add missing items to the repo?</b></summary>
