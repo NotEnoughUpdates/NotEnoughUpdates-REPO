@@ -36,6 +36,10 @@ To contribute to the item repo, you should use the tools provided by [Firmament]
 3. Open the **Power Users** category
 4. Set a keybind for **Export Item Stack** / **Export Recipe Data** / **Export NPC Location**
 
+> [!WARNING]  
+> Even though this may cause your repository to become outdated, it is recommended to disable auto-updates for the repo.  
+> To do this, open the firm config, go to the **Meta & Firmament** category, click on the **Firmament Repo Settings** section and toggle **Auto Update**.
+
 Once you’ve made changes, you can find them in your Minecraft folder under `.minecraft/.firmament/repo`.
 
 > [!NOTE]  
@@ -58,6 +62,27 @@ Once you’ve made changes, you can find them in your Minecraft folder under `.m
 
 </details>
 
+</details>
+
+<details>
+<summary><b>How do I add a missing item recipe to the repo?</b></summary>
+
+<br>
+
+1. Open the recipe in-game with `/recipe`  
+2. Press your keybind for **Export Recipe Data**  
+3. Open your Minecraft folder  
+4. Upload the exported `.json` files to your own fork of the NEU-Repo  
+   - JSON files can be found under `.firmament/repo/items`  
+5. Make a pull request to the NEU-Repo  
+6. Wait for it to be merged  
+
+**WARNING**
+If you press the export keybind more than once while exporting a recipe, it will create duplicate entries in the JSON file.  
+Please make sure the file does not contain the same recipe multiple times before committing.
+
+</details>
+
 <details>
 <summary><b>If I made changes outside of Minecraft, how do I make them appear in-game?</b></summary>
 
@@ -67,7 +92,6 @@ There are two ways to do this:
 2. Use the in-game Firmament command: `/firm repo reload`  
 
 *Tip: Since you may need to do this more than once, you can set up a keybind with `/firm macros`.*  
-
 
 **WARNING**  
 If you made changes to an item’s lore, you need to re-sync the `nbttag` to make it correct again.  
