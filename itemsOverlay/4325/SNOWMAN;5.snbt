@@ -1,0 +1,45 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "PET",
+			petInfo: '{"type":"SNOWMAN","tier":"MYTHIC","exp":0.0,"candyUsed":0}'
+		},
+		"minecraft:profile": {
+			id: [I;
+				1361567078,
+				-878756443,
+				-1604385480,
+				-695984570
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "J/huwsLof/Pn2g+VebcasWX8n4QbFWWvOb5btMV0vAnA4I/TV1pdUT0iyONxhwobe+PK91829t7IBePWoeE+LjTeUFv6cB9ep0cgjxOL62rkRWX0XEUGsSS9NfGglP9CLjakb2nTbjpgtsjCrgvd0DgbgDnpaPgyN989spieS+yt3BvyDz0sh2g1/X6XdOyOCcbvgpGh/CeeJC7Q058E+6yWCzi6ramQJ65EZT2qwFTTiaMgMHXkzuirdNg5LN0Y0zD+xCspLo4WtXVoronwMX9t0myHubWqmOP1Nj9NsiZJnDX8wdeWEunPyxLdiIx/UuWhx0qb7GsATLIkmI8jz39HLby8s4nUcEIbyi4Egfg6e4KJpx0Pj0YaGI5WRg0CVA+r/BU6dUsZU8szs7qKS998wpz8Z2Hv2doyf7jIznYxDU6JDSOLsPf9zLyNp9aMqa3pw7leKWjmy81LTovRoNpcCROja8JiRqN4JDtcgTuZCPrgOIIviIKJf+xr/V2kNzEJM7eebzKIF0Spj+tpD3H7CC+s3MpnqnKgfChcxapk28ktxhf4KB7/SN+UzsaEnIC2rHmMjGIYggGORrvj8YVR46E/mm4g9wLu+ygfsi10fiKOwzdXB5op8/PWBp03ZHZVc26DyFtdq30hcRLkxziI3N2JuetrBzH76HqEn/4=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTY5OTM5NDU3NzY3OSwKICAicHJvZmlsZUlkIiA6ICJlZTg4M2RmMjM0ZWI0YWM1YTFlNDEwODhhYzZkZWIxNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJUdW5lc0Jsb2NrIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzkwMzQ4NWNiMWNkODgyZmRkN2ZhYWYxMzU5ZmZjM2JkNGQ1MzQxYzgxYzE3ZTk1NTI3MjA0ZTU1NGRhZDgxODgiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
+	}
+}
