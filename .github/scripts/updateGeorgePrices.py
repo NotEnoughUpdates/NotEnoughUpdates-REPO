@@ -3,8 +3,8 @@ import requests
 import os
 import re
 
+
 def fetchJson(apiUrl):
-    # I love being blocked with default user agent
     headers = {
         "User-Agent": "NeuRepo"
     }
@@ -45,16 +45,21 @@ alternatePattern = re.compile(
     re.MULTILINE
 )
 
+
 def processMatch(match, result):
     pet_id = match.group("PetId").upper().replace(" ", "_")
     for index, rarity in enumerate(RARITIES):
         val = match.group(f"Price{rarity}")
         key = f"{pet_id};{index}"
+
+        adjusted_key = petNameOverrides.get(key, key)
+
         if val:
             price = int(val.replace(",", ""))
             if price == 0:
                 continue
-            result[key] = price
+            result[adjusted_key] = price
+
 
 def processWikiText(text):
     result = {}
@@ -68,13 +73,22 @@ def processWikiText(text):
 
     return result
 
+
 # Manually set prices for pets that are missing or incorrect on the wiki
-overrides = {
+petPriceOverrides = {
     "RIFT_FERRET;3": 50000
 }
 
+petNameOverrides = {
+    "WISP;1": "DROPLET_WISP;1",
+    "WISP;2": "FROST_WISP;2",
+    "WISP;3": "GLACIAL_WISP;3",
+    "WISP;4": "SUBZERO_WISP;4"
+}
+
+
 def addOverrides(result):
-    for key, value in overrides.items():
+    for key, value in petPriceOverrides.items():
         result[key] = value
 
 
