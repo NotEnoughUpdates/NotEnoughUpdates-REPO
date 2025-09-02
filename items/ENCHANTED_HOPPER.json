@@ -15,21 +15,26 @@
   "internalname": "ENCHANTED_HOPPER",
   "clickcommand": "viewrecipe",
   "crafttext": "Requires: Iron Ingot IX",
-  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Hopper",
     "https://wiki.hypixel.net/Enchanted_Hopper"
   ],
-  "recipe": {
-    "A1": "ENCHANTED_IRON_BLOCK:1",
-    "A2": "",
-    "A3": "ENCHANTED_IRON_BLOCK:1",
-    "B1": "ENCHANTED_IRON_BLOCK:1",
-    "B2": "CHEST:1",
-    "B3": "ENCHANTED_IRON_BLOCK:1",
-    "C1": "",
-    "C2": "ENCHANTED_IRON_BLOCK:1",
-    "C3": ""
-  }
+  "recipes": [
+    {
+      "A1": "ENCHANTED_IRON_BLOCK:1",
+      "A2": "",
+      "A3": "ENCHANTED_IRON_BLOCK:1",
+      "B1": "ENCHANTED_IRON_BLOCK:1",
+      "B2": "BUDGET_HOPPER:1",
+      "B3": "ENCHANTED_IRON_BLOCK:1",
+      "C1": "",
+      "C2": "ENCHANTED_IRON_BLOCK:1",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "ENCHANTED_HOPPER"
+    }
+  ]
 }
