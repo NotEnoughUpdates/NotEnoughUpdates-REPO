@@ -1313,8 +1313,7 @@
     "COMMON": {
       "1": {
         "otherNums": [
-          0.15,
-          100.0
+          0.15
         ],
         "statNums": {
           "HEALTH": 1.0,
@@ -1323,85 +1322,6 @@
       },
       "100": {
         "otherNums": [
-          10,
-          100
-        ],
-        "statNums": {
-          "HEALTH": 100.0,
-          "INTELLIGENCE": 75.0
-        }
-      }
-    },
-    "EPIC": {
-      "1": {
-        "otherNums": [
-          0.2,
-          100.0,
-          0.01,
-          10.0
-        ],
-        "statNums": {
-          "HEALTH": 1.0,
-          "INTELLIGENCE": 0.75
-        }
-      },
-      "100": {
-        "otherNums": [
-          20,
-          100,
-          1,
-          10
-        ],
-        "statNums": {
-          "HEALTH": 100.0,
-          "INTELLIGENCE": 75.0
-        }
-      }
-    },
-    "LEGENDARY": {
-      "1": {
-        "otherNums": [
-          0.2,
-          100.0,
-          0.01,
-          1.5
-        ],
-        "statNums": {
-          "HEALTH": 1.0,
-          "INTELLIGENCE": 0.75
-        }
-      },
-      "100": {
-        "otherNums": [
-          20,
-          100,
-          1,
-          150
-        ],
-        "statNums": {
-          "HEALTH": 100.0,
-          "INTELLIGENCE": 75.0
-        }
-      }
-    },
-    "RARE": {
-      "1": {
-        "otherNums": [
-          0.15,
-          100.0,
-          0.01,
-          10.0
-        ],
-        "statNums": {
-          "HEALTH": 1.0,
-          "INTELLIGENCE": 0.75
-        }
-      },
-      "100": {
-        "otherNums": [
-          15,
-          100,
-          1,
           10
         ],
         "statNums": {
@@ -1413,8 +1333,28 @@
     "UNCOMMON": {
       "1": {
         "otherNums": [
+          0.15
+        ],
+        "statNums": {
+          "HEALTH": 1.0,
+          "INTELLIGENCE": 0.75
+        }
+      },
+      "100": {
+        "otherNums": [
+          15
+        ],
+        "statNums": {
+          "HEALTH": 100.0,
+          "INTELLIGENCE": 75.0
+        }
+      }
+    },
+    "RARE": {
+      "1": {
+        "otherNums": [
           0.15,
-          100.0
+          0.01
         ],
         "statNums": {
           "HEALTH": 1.0,
@@ -1424,7 +1364,53 @@
       "100": {
         "otherNums": [
           15,
-          100
+          0.75
+        ],
+        "statNums": {
+          "HEALTH": 100.0,
+          "INTELLIGENCE": 75.0
+        }
+      }
+    },
+    "EPIC": {
+      "1": {
+        "otherNums": [
+          0.2,
+          0.01
+        ],
+        "statNums": {
+          "HEALTH": 1.0,
+          "INTELLIGENCE": 0.75
+        }
+      },
+      "100": {
+        "otherNums": [
+          20,
+          1
+        ],
+        "statNums": {
+          "HEALTH": 100.0,
+          "INTELLIGENCE": 75.0
+        }
+      }
+    },
+    "LEGENDARY": {
+      "1": {
+        "otherNums": [
+          0.2,
+          0.01,
+          1.5
+        ],
+        "statNums": {
+          "HEALTH": 1.0,
+          "INTELLIGENCE": 0.75
+        }
+      },
+      "100": {
+        "otherNums": [
+          20,
+          1,
+          150
         ],
         "statNums": {
           "HEALTH": 100.0,
@@ -4258,77 +4244,75 @@
     }
   },
   "PIGMAN": {
-    "COMMON":{
-      "1":{
-        "otherNums":[
+    "COMMON": {
+      "1": {
+        "otherNums": [
           0.1
         ],
-        "statNums":{
+        "statNums": {
           "DEFENSE": 0.5,
           "STRENGTH": 0.5,
           "FEROCITY": 0.05
         }
       },
-      "100":{
-        "otherNums":[
+      "100": {
+        "otherNums": [
           10
         ],
-        "statNums":{
+        "statNums": {
           "DEFENSE": 50.0,
           "STRENGTH": 50.0,
           "FEROCITY": 5.0
         }
       }
     },
-    "UNCOMMON":{
-      "1":{
-        "otherNums":[
+    "UNCOMMON": {
+      "1": {
+        "otherNums": [
           0.2
         ],
-        "statNums":{
+        "statNums": {
           "DEFENSE": 0.5,
           "STRENGTH": 0.5,
           "FEROCITY": 0.05
         }
       },
-      "100":{
-        "otherNums":[
+      "100": {
+        "otherNums": [
           20
         ],
-        "statNums":{
+        "statNums": {
           "DEFENSE": 50.0,
           "STRENGTH": 50.0,
           "FEROCITY": 5.0
         }
       }
-
     },
-    "RARE":{
-      "1":{
-        "otherNums":[
+    "RARE": {
+      "1": {
+        "otherNums": [
           0.2,
           0.3,
           0.15
         ],
-        "statNums":{
+        "statNums": {
           "DEFENSE": 0.5,
           "STRENGTH": 0.5,
           "FEROCITY": 0.05
         }
       },
-      "100":{
-        "otherNums":[
+      "100": {
+        "otherNums": [
           20,
           30,
           15
         ],
-        "statNums":{
+        "statNums": {
           "DEFENSE": 50.0,
           "STRENGTH": 50.0,
           "FEROCITY": 5.0
         }
       }
-
     },
     "EPIC": {
       "1": {
