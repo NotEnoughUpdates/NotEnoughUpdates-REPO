@@ -1,21 +1,30 @@
 {
   "itemid": "minecraft:leather_chestplate",
   "displayname": "§6Old Dragon Chestplate",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+150\",1:\"§7Defense: §a+160\",2:\" §8[§8☤§8]\",3:\"\",4:\"§6Full Set Bonus: Old Blood §7(0/4)\",5:\"§7Increases the strength of §9Growth§7,\",6:\"§7§9Protection§7, §9Feather Falling§7, §9Sugar\",7:\"§9Rush§7, and §9True Protection§7 while worn.\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§7§4❣ §cRequires §aCombat Skill 16§c.\",11:\"§6§lLEGENDARY CHESTPLATE\"],color:15787690,Name:\"§6Old Dragon Chestplate\"},ExtraAttributes:{id:\"OLD_DRAGON_CHESTPLATE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"OLD_DRAGON_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:leather_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §c+150\",1:\"§7Defense: §a+160\",2:\" §8[☤]\",3:\"\",4:\"§6Full Set Bonus: Old Blood §7(0/4)\",5:\"§7Increases the strength of §9Growth§7,\",6:\"§9Protection§7, §9Feather Falling§7, §9Sugar\",7:\"§9Rush§7, and §9True Protection§7 while worn.\",8:\"\",9:\"§8This item can be reforged!\",10:\"§4❣ §cRequires §aCombat Skill 16§c.\",11:\"§6§lLEGENDARY CHESTPLATE\"],Name:\"§6Old Dragon Chestplate\",color:15787690}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+150",
+    "§7Health: §c+150",
     "§7Defense: §a+160",
-    " §8[§8☤§8]",
+    " §8[☤]",
     "",
     "§6Full Set Bonus: Old Blood §7(0/4)",
     "§7Increases the strength of §9Growth§7,",
-    "§7§9Protection§7, §9Feather Falling§7, §9Sugar",
+    "§9Protection§7, §9Feather Falling§7, §9Sugar",
     "§9Rush§7, and §9True Protection§7 while worn.",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aCombat Skill 16§c.",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aCombat Skill 16§c.",
     "§6§lLEGENDARY CHESTPLATE"
+  ],
+  "internalname": "OLD_DRAGON_CHESTPLATE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Old_Dragon_Chestplate",
+    "https://wiki.hypixel.net/Old_Dragon_Chestplate"
   ],
   "recipe": {
     "A1": "OLD_FRAGMENT:10",
@@ -27,14 +36,5 @@
     "C1": "OLD_FRAGMENT:10",
     "C2": "OLD_FRAGMENT:10",
     "C3": "OLD_FRAGMENT:10"
-  },
-  "internalname": "OLD_DRAGON_CHESTPLATE",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Old_Dragon_Chestplate",
-    "https://wiki.hypixel.net/Old_Dragon_Chestplate"
-  ],
-  "crafttext": ""
+  }
 }

@@ -1,31 +1,40 @@
 {
   "itemid": "minecraft:leather_boots",
   "displayname": "§5Thunder Boots",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Strength: §c+25\",1:\"§7Sea Creature Chance: §c+4%\",2:\"§7Health: §a+175\",3:\"§7Defense: §a+150\",4:\" §8[§8⚔§8] §8[§8⚔§8] §8[§8☂§8]\",5:\"\",6:\"§8Tiered Bonus: Static Charge (0/5)\",7:\"§7Gains §c1§7 static charge every §e30§7\",8:\"§7seconds.\",9:\"§7Hitting a target will cause a\",10:\"§7discharge, adding §a15%§7 damage to that\",11:\"§7hit for each charge collected.\",12:\"§7\",13:\"§7Maximum Charge Capacity: §c2\",14:\"\",15:\"§7Damage taken by §cLava Sea\",16:\"§cCreatures §7is reduced by §a10% §7and\",17:\"§7damage dealt is increased by §c1.2x§7.\",18:\"\",19:\"§7§8This item can be reforged!\",20:\"§7§4❣ §cRequires §aFishing Skill 36§c.\",21:\"§5§lEPIC BOOTS\"],color:2416101,Name:\"§5Thunder Boots\"},ExtraAttributes:{id:\"THUNDER_BOOTS\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"THUNDER_BOOTS\"},HideFlags:254,ItemModel:\"minecraft:leather_boots\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §c+175\",1:\"§7Defense: §a+150\",2:\"§7Strength: §c+25\",3:\"§7Sea Creature Chance: §3+4%\",4:\" §8[⚔] [⚔] [☂]\",5:\"\",6:\"§8Tiered Bonus: Static Charge (0/5)\",7:\"§7Gains §c1§7 static charge every §e30\",8:\"§7seconds.\",9:\"§7Hitting a target will cause a\",10:\"§7discharge, adding §a15%§7 damage to that\",11:\"§7hit for each charge collected.\",12:\"\",13:\"§7Maximum Charge Capacity: §c2\",14:\"\",15:\"§7Damage taken by §cLava Sea\",16:\"§cCreatures §7is reduced by §a10% §7and\",17:\"§7damage dealt is increased by §c1.2x§7.\",18:\"\",19:\"§8This item can be reforged!\",20:\"§4❣ §cRequires §aFishing Skill 36§c.\",21:\"§5§lEPIC BOOTS\"],Name:\"§5Thunder Boots\",color:2416101}}",
   "damage": 0,
   "lore": [
-    "§7Strength: §c+25",
-    "§7Sea Creature Chance: §c+4%",
-    "§7Health: §a+175",
+    "§7Health: §c+175",
     "§7Defense: §a+150",
-    " §8[§8⚔§8] §8[§8⚔§8] §8[§8☂§8]",
+    "§7Strength: §c+25",
+    "§7Sea Creature Chance: §3+4%",
+    " §8[⚔] [⚔] [☂]",
     "",
     "§8Tiered Bonus: Static Charge (0/5)",
-    "§7Gains §c1§7 static charge every §e30§7",
+    "§7Gains §c1§7 static charge every §e30",
     "§7seconds.",
     "§7Hitting a target will cause a",
     "§7discharge, adding §a15%§7 damage to that",
     "§7hit for each charge collected.",
-    "§7",
+    "",
     "§7Maximum Charge Capacity: §c2",
     "",
     "§7Damage taken by §cLava Sea",
     "§cCreatures §7is reduced by §a10% §7and",
     "§7damage dealt is increased by §c1.2x§7.",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aFishing Skill 36§c.",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aFishing Skill 36§c.",
     "§5§lEPIC BOOTS"
+  ],
+  "internalname": "THUNDER_BOOTS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Thunder_Boots",
+    "https://wiki.hypixel.net/Thunder_Boots"
   ],
   "recipe": {
     "A1": "",
@@ -37,14 +46,5 @@
     "C1": "THUNDER_SHARDS:1",
     "C2": "",
     "C3": "THUNDER_SHARDS:1"
-  },
-  "internalname": "THUNDER_BOOTS",
-  "crafttext": "",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Thunder_Boots",
-    "https://wiki.hypixel.net/Thunder_Boots"
-  ]
+  }
 }
