@@ -1,6 +1,7 @@
 {
 	components: {
 		"minecraft:custom_data": {
+			donated_museum: 1b,
 			id: "ARACHNE_GLOVES"
 		},
 		"minecraft:profile": {
@@ -10,16 +11,27 @@
 				-2057514313,
 				-1849170814
 			],
-			name: "",
 			properties: [
 				{
 					name: "textures",
+					signature: "w8REGklIkmXbCePsWoRlEeVC9hvGp0WUSKH0edZKiCoJqzG10dj6DkaiZ0W0Pp+OKqm71ANMAPQeAe/lDfa+SMagBzBZRGrbywM0hq8/I5aScIkFnKs/p4CGGKI71h79EFexb/CS97WYmIi277BzVhTR8UI0wKn2VHyEBp4riowd0RS5C3HGQ9oO9bWGbyqgOblGT6jTuCa3nqiKeOk1QLCzq/g1z1exUscOAE1uLgSjInxU+oNwP4BsiydFqkAJxr11YQiWuIyobc4/DZDl3F6Q2N36D6YawMvWLP6fpiSfBS8Ryn/AcoopJWcBYvWEzBmfYmGLsv/k9yS6WSp+ql6Mhvg9Zl6NLFHEpbQ7hewcuATGxgjvPMCWi3jaN1wuBAFSQp6wiwpSnnuqzZKQtNsa5x1SSkWJ57WnfhyAvEoKxjT63oaUBO8TLtyj0LUI6YoG0G5PkVrY3mEJN7YYnfEM3qix7AKNQvqwjLAsmNYSSdDIxLrqzqAoAjfcjTGK5g/0NVcR9a5K2HzYltQB9dL9zSn7h2fR9Jp28elv5YlGRVN9SJ4b6Qq9MEcDNuFMehjV06dq4hqVmrJLIRjekKea9XMzXClHbQKeBrszDPtIpkbqiTMwkxdWbC/HbgIXroYNPAL5KQp4K/Cy5ctKQUUMGUfY7TSsSo0gpYC7TDk=",
 					value: "ewogICJ0aW1lc3RhbXAiIDogMTY2NzkxOTczMzkyMywKICAicHJvZmlsZUlkIiA6ICI5MThhMDI5NTU5ZGQ0Y2U2YjE2ZjdhNWQ1M2VmYjQxMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJCZWV2ZWxvcGVyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JjYThmZDg1NjQwZWVjNGZhOTc1Yjg2MGM5ZTE0NWEzZTM0ODNmODU1M2QzZTRiODVkMTM3NjA2MTE0OGQxZWEiCiAgICB9CiAgfQp9"
 				}
 			]
 		},
 		"minecraft:tooltip_display": {
 			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
 				"minecraft:dyed_color"
 			]
 		}
@@ -28,6 +40,6 @@
 	id: "minecraft:player_head",
 	source: {
 		dataVersion: 4325,
-		modVersion: "Firmament 3.4.0+mc1.21.5"
+		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
 	}
 }
