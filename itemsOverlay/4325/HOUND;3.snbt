@@ -1,0 +1,45 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "PET",
+			petInfo: '{"type":"HOUND","tier":"EPIC","exp":0.0,"candyUsed":0}'
+		},
+		"minecraft:profile": {
+			id: [I;
+				-507565850,
+				-1591659594,
+				-1708144807,
+				446742771
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "Z9pPjxq2WTpVQuX/IxRQISH2/frwnSVW+txzLfoSgGSmwj4nsUWutmjau82gCLUTPT9AIPiK2i6a3LfghKiQ7t/tZCiPX/1vz7HNGMwGiIJvSy/q19FPPw8nZP9HbGx6ZswS1OBWLdB2vqsoYYYG9BvcsEluWODBPyvK6sqawR7r6kNY45SCXtuoveugS9tULIcx/hu9V6md+XINcKUfpNIS1NuugsF/p6eNWWenVdTdIwcxlXD3++qhCqH5in//EY3wJEwYoTbZ0JoroCWazkq8MTZudLzC+BVcnpIOgHsESt89xBqYW62FaLuyt0QWzKJQ/e8tF7KUBSKJeUl7nwAxELaP0C8GRjTZxTPFAOcWH/2rXVkzpdWYIIGafEoSxUNZ22KwcvC3bZvccVel5Q35QXhw+HvH1BsNt/Hy6/xmLLqF8iwgaO+HDG3IDqaDf/cNjHa/XVFNQNpH4AOdxddhhPtHC/+iy7818QDzzRt/jApWvhhpIAqbjDKGVWTqywMue99ouPO/WRWKvlfVOVmP3RYCNTZaFKtIbeUM6Gctw/D2kfQ4bKQSF7RwNWyjhhheTlbLV72KxByktYE9CfPMtpAcwuAcDHUHsaEySj9sJTOkR1+C7IDCyEvBYg3fWAWgLd/k2N1uZDKQ2DzOAafB1r9OD/c7fF+6uSPuACA=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTcwODYxMjY2OTc0NSwKICAicHJvZmlsZUlkIiA6ICJmZmU5MzczY2YyMDM0OWFhYTJlN2NiYzJkZmY2M2I5MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWxvblR1bmExIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzEyOTBhZDU1MGMzNzZkMDEwOGI1YmUyMmRkNWE0MDgyYTg2MjFjZjlkNDBiMjgwNzE1NmNhMTk1MGQyNDYyMDciCiAgICB9CiAgfQp9"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
+	}
+}

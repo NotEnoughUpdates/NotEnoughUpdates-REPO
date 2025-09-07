@@ -1,0 +1,45 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "PET",
+			petInfo: '{"type":"GRIFFIN","tier":"LEGENDARY","exp":0.0,"candyUsed":0}'
+		},
+		"minecraft:profile": {
+			id: [I;
+				-90771670,
+				-157860708,
+				-1702683383,
+				-593833458
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "ZUYe3INMx4AW4QsduE/5TRxLJ3A0W9xHEPLXVGmFzQb5IHHdI00LIMUj5daqb9mG0WdMjwlw4CXee9hLjAOTcWSUcl7eC136rmiSjEWQGBhbKaxwwWhCJR0CdE1mjqD0KHvRed4efUfVYtoYf9sc0DOSyuOtD5Pu9f1Aklezh2Y6drbVxIwl7UR69fW3qu9s+VbvqbkrpwUZDqeNZ2hp64oPS4an/cScyjUPz4EQqYUP/Mi/Cf8W2x1J27UMdHfJ3iwyb4UJejfisWZrY5freGdv9Yhp3nneBW1NG1//aj0dUOxEr+H81WWClvomSTUIZuiWITC/2VhMUdocgxYncftL9U5XpgXp89JGCsb67ljxoHVUUVrie3McE7slbhn5JlGL1tTHzeeQYrvYAHmbTSTsC+jk+tloKpJlcRhIQlI4U2UYez1i7JIf5+U/DZ+qa7z68zk0no8tvoKHG7asTMrfk4oZ2Ptc7RM+LvJ3VEItpVpihHjMLBlCqZDCDgz/YspsodnfatFIXzQkaKz6ZfVvamglNlnMKXr68WLuX6U85RMzrhU/391H5YmUfkYhTCKhaKL01v+e/5HybE7M4ZpemIicbu3eTaY5NVZWRSstenizVnVIZCsC4jm1vXrm92CUABfLuHMcYWTEHjPBXfMfxov/X5ySh7ezAXL0Uhk=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTU5OTgxMDM3NTkzMywKICAicHJvZmlsZUlkIiA6ICI5YzQ5YjU0YjFjZjU0NjZjYjRhNzA4M2JmZGQ4MDIxNSIsCiAgInByb2ZpbGVOYW1lIiA6ICI5U0kiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGMyN2UzY2I1MmE2NDk2OGU2MGM4NjFlZjFhYjg0ZTBhMGNiNWYwN2JlMTAzYWM3OGRhNjc3NjE3MzFmMDBjOCIKICAgIH0KICB9Cn0="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
+	}
+}
