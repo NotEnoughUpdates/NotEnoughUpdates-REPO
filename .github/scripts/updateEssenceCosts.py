@@ -98,8 +98,10 @@ if __name__ == '__main__':
 
         processItem(internalName, upgradeCosts)
 
+    sorted_allCosts = {key: allCosts[key] for key in sorted(allCosts)}
+
     os.makedirs(os.path.dirname("constants/essencecosts.json"), exist_ok=True)
     with open("constants/essencecosts.json", "w") as json_file:
-        json.dump(allCosts, json_file, indent=2)
+        json.dump(sorted_allCosts, json_file, indent=2)
 
     print(f"Saved essence costs for {len(allCosts)} items to essencecosts.json")
