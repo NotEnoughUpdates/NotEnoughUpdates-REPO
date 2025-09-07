@@ -42,6 +42,7 @@ jobs:
           git add constants/museum.json
           git add constants/gemstonecosts.json
           git add constants/george.json
+          git add constants/essencecosts.json
           if git diff-index --quiet HEAD --; then
             echo "No changes to commit"
             exit 0
