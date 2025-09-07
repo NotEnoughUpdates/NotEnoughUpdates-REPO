@@ -1,0 +1,45 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "PET",
+			petInfo: '{"type":"TYRANNOSAURUS","tier":"LEGENDARY","exp":0.0,"candyUsed":0}'
+		},
+		"minecraft:profile": {
+			id: [I;
+				-2092342632,
+				-532531212,
+				-1212522640,
+				564451665
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "h2gR3z4S4WbSxtm6z/2njGEWUpPrIK9mpeuVmm6hEPKfkPOF1ItYRq21jfqR6bBoYbVmQTIRwjQcALAjPKqNHG4SEifKQQqt3Wy7aPXog9902vrb1XpFCxkS6M2xU6Bh3AhRUZoUzailhLMloROKgvPox/uFZskX5taSj9ksXTTeERjJHHNSfkD4GWyR/Wyn/MZUPn4w4Bv+6PxwL6zv736ItWguyvq5TcKTIK4QE48aPcer6M9nUQwTEGTLRDqOXm4RU5049B9UNIl1CDTAzcaENVVPAe3jfp3FAU9UB9Xtin2jZ9aO4Q/DM917y2p7nJDx3NUXMahEfonAH7Kc3+EurOkWtGo3t0rmMRAV79c+OCdeTAjeoheJfWRYyi8lh1sk9Ij3VVv5nAkMlagA/+2h7cQhsmj/a3emWEE/aNw6piIcqOTFwrBnHyHVPpag/6hhZVC6jyDByhTr2rDE3ktkWbQTiCaFI3Lds2l7jYw80tVDDjvpbtpC0dcluvKQ4OueBWyvCyAzcsQ+faHI1lj48ZBQhMmVxqJmprG+2QrkFMN2sJWI5hsLMNLS8GPhVUORkc+LqVWoE2jq/s7HH7Lyos9ftpa/okPQw00osQ7WqNzyn2U+I2SXTyjBkYZRZLRT/pEeGsTRo3bJZ2yTKgUbAGqcBGtMHYVvlmzliaw=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTcwNzg1NDIxODY0OCwKICAicHJvZmlsZUlkIiA6ICI2NGY0MGFiNzFmM2E0NGZiYjg0N2I5ZWFhOWZjNDRlNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJvZGF2aWRjZXNhciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85M2YyOGVjOTZkZjU5YzY3ZTlkMmZjMmU3ZTNkMDU1ZmEzMTY0NmU0MTExYWRkOWZlMjZhNjkyODAxOTY0MTI2IgogICAgfQogIH0KfQ=="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
+	}
+}
