@@ -32,6 +32,9 @@ jobs:
       - name: Run Python george pet prices script
         run: python .github/scripts/updateGeorgePrices.py
 
+      - name: Run Python essence costs script
+        run: python .github/scripts/updateEssenceCosts.py
+
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"
