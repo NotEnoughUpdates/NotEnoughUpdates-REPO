@@ -1,0 +1,45 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "PET",
+			petInfo: '{"type":"JELLYFISH","tier":"EPIC","exp":0.0,"candyUsed":0}'
+		},
+		"minecraft:profile": {
+			id: [I;
+				-242764965,
+				-650825540,
+				-1949158862,
+				-1830374145
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "GBxDKdTZZ2g1l2Rfpmd4nxNqO+b6TjFlglPsWiwb1n02C3KFY1sJa5nNQvLqiBZAOOGhYQMAX0xlZBIeKWNcle8RyN1KhEsMPSGQkFWSDr9f/BosjABpkeZr1Ps/UhC6Y0TR0PDu2A17SVPa14hLSa/dMCWzfnAEYgcOEY5WhG7a4M3cXtKNQJWbcpaiL9FvN/0+nhFum7qqyevPG8j7orl840zGoZ7O+u2nQv19UMd0Fy4Mtzyc1GBrLheTOkzkk1qI98gvKfaY5wc1ECQwhZONVuCJLhOoUlSzULXYzrQw0pESGmkjc1TGDuRlNNXerveSSr1r6QBk8z1oVk4zWgcb1l1HRIOzqv8yMgj4teGfxT5iiBnmE1Bj1aEjCAdefxgCqiUSOPLCK7M6Zcpdm8dmHQaqBmu0vTfcdINPCAYsKHKUNCNrrvcDsWvfxhWlgOnR9yc1qGYYudsrAp+4VSmrqf5Ov2Mllq+l4MHuStCKbHvNQcTATCYeCKgndQQwEWL6YPMfxb9OPZgkP8dT1PntPp5yxuaz0xnziHCbF5E3gRgvQwyj37zpBPpja8tOPQEE0D4/dSerCoFMydjk9cEHxY0Sic23gPI88TXwYaP0V3C53EzAZraZijiecU9i2y2Ukioqm6tWWL1lTEBKgZq4pMoZP5d9MP026M0y+nI=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTU5MjA5OTk0ODQwOSwKICAicHJvZmlsZUlkIiA6ICJhNmE3MzI2NjZhZTI0YjIwYWQyNmIzYWZkZWZjNmM1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNeXN0aWNHYW1lck1hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NGM5YWQ1NDAwZmE2NjBjYmQxMjFkNDQxNWEzM2UwN2ZkZjIwZWNmMjEyYTZiZDRlNjhhNDNjN2Y2NDZmNWM0IgogICAgfQogIH0KfQ=="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
+	}
+}

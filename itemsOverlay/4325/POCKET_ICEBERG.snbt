@@ -3,7 +3,6 @@
 		"minecraft:custom_data": {
 			id: "POCKET_ICEBERG"
 		},
-		"minecraft:dyed_color": 10511680,
 		"minecraft:profile": {
 			id: [I;
 				-1350417647,
@@ -11,16 +10,27 @@
 				-1800098433,
 				1824634743
 			],
-			name: "",
 			properties: [
 				{
 					name: "textures",
+					signature: "ikLEdkG/srG23reNkJeBxhIoJeECuyTf3lLiNnGBkImm0hFiLMTywMY/DZmFFODaLfrPsJRmwJ8oWIPobZT7R0jipvTbNEbi3Pb54x5UwxCk/v0XnKA61UGJi7BP9LW+S3KmdYcWxrRSxQTyaj4H2HFFEdrM9W9kMzP4ebyou7hQPZeXpTmAs+5lla/E8kGGdjuOgDOmCAaW9b1MnsQ89dzefGOPphTBcChIrphWH8jhu9xPAI+Q7mRu0Verk9Gvuj43f5iE6YFy/zbkQPCuY/pH/qlmczWbS7G8yI+60MGLnotq3Inj1+U6f8l4NFYWWiSxD371SBz78u2Hl1UA7U5nkU6hLcfwVylUpjdmngCjXHerXQDwwB43bpTT7U4KYlA99gEQMWPmv8uxowAgMl9Y2el4QLl3tf7rLrce+1U5Lke82KKp73vY3JcjBmZYZJHNMMns4WS4LbIF3Jr/LnvuY8HplDIEmCvTfBtcYuv1QlIqye7emU3Qs2xzULH2zlRfmbEPP5niPEbJpyTyxwkG8IUftIQtuinEsNok6yoqq395TuUcAcSGXHUozm5bCLGtJ7WPVnO0/T/DdjcL4eZHBtGNU4aeFipF9FbHt/LQOcvQPQnulIRj8cFZxDN6vI8FrPgfDPSB+ZSz2WlhDAHKGfUlJt4iD4RF9bBCfvk=",
 					value: "ewogICJ0aW1lc3RhbXAiIDogMTcxMzczNjE4NTgzNiwKICAicHJvZmlsZUlkIiA6ICIxZGI3ZjUxYWZmOWM0NTcyOGZmNmU5MjMxMmZhZGZkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJsdXNtZW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTUwY2MxNTYzZTZlZTZhZTRmNjI5YmQ3ZjlkZTk1MGExOGM0ZmI0ZmJiNWQ4MmM3ZWI5MzA2NGMzOGU1OTI0IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
 				}
 			]
 		},
 		"minecraft:tooltip_display": {
 			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
 				"minecraft:dyed_color"
 			]
 		}
@@ -29,6 +39,6 @@
 	id: "minecraft:player_head",
 	source: {
 		dataVersion: 4325,
-		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g64ef955"
+		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
 	}
 }
