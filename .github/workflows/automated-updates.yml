@@ -29,12 +29,20 @@ jobs:
       - name: Run Python gemstone slot unlock costs script
         run: python .github/scripts/updateGemstoneCosts.py
 
+      - name: Run Python george pet prices script
+        run: python .github/scripts/updateGeorgePrices.py
+
+      - name: Run Python essence costs script
+        run: python .github/scripts/updateEssenceCosts.py
+
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "github-actions@github.com"
           git add constants/museum.json
           git add constants/gemstonecosts.json
+          git add constants/george.json
+          git add constants/essencecosts.json
           if git diff-index --quiet HEAD --; then
             echo "No changes to commit"
             exit 0

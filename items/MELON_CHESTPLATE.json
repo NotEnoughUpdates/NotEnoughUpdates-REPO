@@ -1,22 +1,31 @@
 {
   "itemid": "minecraft:leather_chestplate",
   "displayname": "§aMelon Chestplate",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+150\",1:\"§7Defense: §a+25\",2:\"§7Speed: §a+3\",3:\"§7Farming Fortune: §a+20\",4:\"\",5:\"§8Tiered Bonus: Cropier Crops (0/4)\",6:\"§7§7Farming Wheat, Carrots, and Potatoes\",7:\"§7has a §a0.03% §7chance of dropping a\",8:\"§7Cropie. §7Grants §60☘ Farming Fortune§7.\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§7§4❣ §cRequires §aFarming Skill 25§c.\",12:\"§a§lUNCOMMON CHESTPLATE\"],color:9018912,Name:\"§aMelon Chestplate\"},ExtraAttributes:{id:\"MELON_CHESTPLATE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"MELON_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:leather_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §c+150\",1:\"§7Defense: §a+25\",2:\"§7Farming Fortune: §6+20\",3:\"§7Speed: §f+3\",4:\"\",5:\"§8Tiered Bonus: Cropier Crops (0/4)\",6:\"§7Farming Wheat, Carrots, and Potatoes\",7:\"§7has a §a0.03% §7chance of dropping a\",8:\"§7Cropie. Grants §60☘ Farming Fortune§7.\",9:\"\",10:\"§8This item can be reforged!\",11:\"§4❣ §cRequires §aFarming Skill 25§c.\",12:\"§a§lUNCOMMON CHESTPLATE\"],Name:\"§aMelon Chestplate\",color:9018912}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+150",
+    "§7Health: §c+150",
     "§7Defense: §a+25",
-    "§7Speed: §a+3",
-    "§7Farming Fortune: §a+20",
+    "§7Farming Fortune: §6+20",
+    "§7Speed: §f+3",
     "",
     "§8Tiered Bonus: Cropier Crops (0/4)",
-    "§7§7Farming Wheat, Carrots, and Potatoes",
+    "§7Farming Wheat, Carrots, and Potatoes",
     "§7has a §a0.03% §7chance of dropping a",
-    "§7Cropie. §7Grants §60☘ Farming Fortune§7.",
+    "§7Cropie. Grants §60☘ Farming Fortune§7.",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aFarming Skill 25§c.",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aFarming Skill 25§c.",
     "§a§lUNCOMMON CHESTPLATE"
+  ],
+  "internalname": "MELON_CHESTPLATE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Melon IX",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Melon_Chestplate",
+    "https://wiki.hypixel.net/Melon_Chestplate"
   ],
   "recipe": {
     "A1": "ENCHANTED_MELON_BLOCK:5",
@@ -28,14 +37,5 @@
     "C1": "ENCHANTED_MELON_BLOCK:5",
     "C2": "ENCHANTED_MELON_BLOCK:5",
     "C3": "ENCHANTED_MELON_BLOCK:5"
-  },
-  "internalname": "MELON_CHESTPLATE",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "Requires: Melon IX",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Melon_Chestplate",
-    "https://wiki.hypixel.net/Melon_Chestplate"
-  ]
+  }
 }

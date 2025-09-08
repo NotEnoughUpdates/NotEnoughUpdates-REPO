@@ -1,10 +1,18 @@
 {
   "itemid": "minecraft:fishing_rod",
   "displayname": "§fdoR gnihsiF",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fdoR gnihsiF\"},ExtraAttributes:{id:\"MIRRORED_FISHING_ROD\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"MIRRORED_FISHING_ROD\"},HideFlags:254,ItemModel:\"minecraft:fishing_rod\",Unbreakable:1B,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fdoR gnihsiF\"}}",
   "damage": 0,
   "lore": [
     "§f§lCOMMON"
+  ],
+  "internalname": "MIRRORED_FISHING_ROD",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Dor_Gnihsif"
   ],
   "recipe": {
     "A1": "MIRRORED_STICK:1",
@@ -16,12 +24,5 @@
     "C1": "MIRRORED_STRING:1",
     "C2": "",
     "C3": "MIRRORED_STICK:1"
-  },
-  "internalname": "MIRRORED_FISHING_ROD",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://wiki.hypixel.net/Dor_Gnihsif"
-  ]
+  }
 }

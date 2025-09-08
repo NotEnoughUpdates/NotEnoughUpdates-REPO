@@ -1,6 +1,7 @@
 {
 	components: {
 		"minecraft:custom_data": {
+			donated_museum: 1b,
 			id: "ARACHNE_NECKLACE"
 		},
 		"minecraft:profile": {
@@ -10,16 +11,27 @@
 				-1765219096,
 				-1775886486
 			],
-			name: "",
 			properties: [
 				{
 					name: "textures",
+					signature: "tt8MeyOzWDU9WqM8Vs5Q8Yh3o9jizAUXMgb0uUzloz5EFNm+IBRmG73nPGxvVgp/sazt7UdQwBNrMtc9l30GyRGqu8XhdmRtA7il/5KRmwuLa3ZJZbv/40l0wH8UIjL1uqgWLMjFYJMqhkJaXpYKibC/otdrZv3a8yE7jL2b1nWGj5vbZboD5FrS2HH7X/LJtH7qGDsLAckWqD98Dd7JKqFuE6nazexKm5UL+5SFz/LRv9vPe5X/DeQFU49/hy0uLa99MufnSFvkb0DiKGnd6tz+k+wyPk4cM5TZqeEPjuhI8eeqfK2NhIgS+rXm664DPHYShH4rsicFqNPD4rcnIJaJgaI/E1XfAR+9E2G24CeXfd6capjkJTqTjFr5dRe7A6yOCI45Ru+zA6lU7CKNzjtazFXV7avOoU6UnUChXjtmq7H3Qeiua9wxJ37TAZC0SWKI33yoZ0Xxa9gRsTjQU7GOSDSJxkX3x2UdvK1MYwCCDKUINPkutYgTY0oGCbNjHBkJzYzLVPkCvCPYlGHE4V1GhNAyK3yzvm6RuqU3HP2tq1YAYzlol6z6ipKuRXOf6yvNfsKjPIorIJRfOW1GYR39QSqZV5ZElR52kiHiRCG7IU8UvJHgIS5Aww8h4Np+31/sT0jaQmc6xKCqANE5Q33XSRBOicYgfZzAd/Fhn24=",
 					value: "ewogICJ0aW1lc3RhbXAiIDogMTY2NzkxOTc1MDY2NiwKICAicHJvZmlsZUlkIiA6ICI5ZWEyMTQ0NGFiNjI0MWZkYjg5YjE2NDFhNDg2MGZiZiIsCiAgInByb2ZpbGVOYW1lIiA6ICI3QUJDSE9VTiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMmVjOTlmY2UzZWU4Y2U1ZjFiYjU2YjhlMDdmZTI1NzZjNDcwNDI1ZDgyMGFjYjU1OGM4YTVmMzIwYmQyYjkiCiAgICB9CiAgfQp9"
 				}
 			]
 		},
 		"minecraft:tooltip_display": {
 			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
 				"minecraft:dyed_color"
 			]
 		}
@@ -28,6 +40,6 @@
 	id: "minecraft:player_head",
 	source: {
 		dataVersion: 4325,
-		modVersion: "Firmament 3.4.0+mc1.21.5"
+		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
 	}
 }

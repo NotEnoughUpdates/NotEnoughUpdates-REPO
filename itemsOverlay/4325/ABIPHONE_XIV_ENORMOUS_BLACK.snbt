@@ -3,7 +3,6 @@
 		"minecraft:custom_data": {
 			id: "ABIPHONE_XIV_ENORMOUS_BLACK"
 		},
-		"minecraft:dyed_color": 10511680,
 		"minecraft:profile": {
 			id: [I;
 				-1767295320,
@@ -11,16 +10,27 @@
 				-1833516045,
 				-1250001753
 			],
-			name: "",
 			properties: [
 				{
 					name: "textures",
+					signature: "MzmEd6O5lBZjls4qLgE7qJDxBGEIHwq5Ad8Rn1RyktEQwjUw5MjV7fOnctspmOHPv9s4gn7TPJryqrDsdDtIGvbWlGDj5wvMOrA1FjZWwDlr3Kw6v1swkzmPpDTJ2xjammoX3eKGPYMVoY+Y+lmSCo0JWB80JhNnszklrwJxOILBplGw32tZbdilL308OFmqGLyD8u0JNGyjkIcrmr3OwJSMx488NX2Gg6csyhL0++l1U/7yGGgxE/Z/6rD19qQoT2ec+MOJvJJBDBB/FNMIJL2oeHTh1hB3wGsx3DUE/SKfbp9cxgIUnqmoFQMNXZOoNktp+kYr2I+ISfUMtPHb/x/9BqVXOvzVHH1zeYL3qXYA4pxLAfk5nd8azkdx4Mzm5pchusYzYe7/6bzbbmZ48N0A++mM6gXAxTzPaTvFjCtHHL2mbFXUE6RHNvqqv5bTGULIWIBvIDRcsi1z0xuTpnD3E/3o44n/VF+psnlANDzibT0w8pafyqcF6t7H+a4vKcUmtZSU1rREH/yefKvrexNe/pAxZbjavigTnhTJi+ajRB0Tn9WqGlj/ZtCak4fogZSJW+ZJ4tixLhxzDM+oleEISDCO7TPYx6mm5R4yTpLOGAnLKjzSOQ4fJqiFeQqCdn8alsxigT+l2hR9ICNvNlIF8XMXw5nOL7hLMmN9O6s=",
 					value: "ewogICJ0aW1lc3RhbXAiIDogMTY2MjQwNTIxNTk5NCwKICAicHJvZmlsZUlkIiA6ICIwODFiZTAxZmZlMmU0ODMyODI3MDIwMjBlNmI1M2ExNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJMeXJpY1BsYXRlMjUyNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTI1YWNhNjFlMWI4YmVjYTliZWZjYWRkMDgyNjJjNTgyMWUyNzViZTQxNGQ5NGYwYjI3ZTg1ODBmMjBkYmYzYSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
 				}
 			]
 		},
 		"minecraft:tooltip_display": {
 			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
 				"minecraft:dyed_color"
 			]
 		}
@@ -29,6 +39,6 @@
 	id: "minecraft:player_head",
 	source: {
 		dataVersion: 4325,
-		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g64ef955"
+		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
 	}
 }

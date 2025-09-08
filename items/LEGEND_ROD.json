@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:fishing_rod",
   "displayname": "§5Rod of Legends",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+125\",1:\"§7Strength: §c+125\",2:\"§7Sea Creature Chance: §c+6%\",3:\"§7Fishing Speed: §a+65\",4:\" §8[§8☂§8]\",5:\"\",6:\"§9ථ Hook §8§lNONE\",7:\"§9ꨃ Line §8§lNONE\",8:\"§9࿉ Sinker §8§lNONE\",9:\"\",10:\"§7Talk to §2Roddy §7in the §2Backwater\",11:\"§2Bayou §7to apply parts to this rod.\",12:\"\",13:\"§7§8This item can be reforged!\",14:\"§7§4❣ §cRequires §aFishing Skill 20§c.\",15:\"§5§lEPIC FISHING ROD\"],Name:\"§5Rod of Legends\"},ExtraAttributes:{id:\"LEGEND_ROD\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"LEGEND_ROD\"},HideFlags:254,ItemModel:\"minecraft:fishing_rod\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+125\",1:\"§7Strength: §c+125\",2:\"§7Fishing Speed: §b+65\",3:\"§7Sea Creature Chance: §3+6%\",4:\" §8[☂]\",5:\"\",6:\"§9ථ Hook §8§lNONE\",7:\"§9ꨃ Line §8§lNONE\",8:\"§9࿉ Sinker §8§lNONE\",9:\"\",10:\"§7Talk to §2Roddy §7in the §2Backwater\",11:\"§2Bayou §7to apply parts to this rod.\",12:\"\",13:\"§8This item can be reforged!\",14:\"§4❣ §cRequires §aFishing Skill 20§c.\",15:\"§5§lEPIC FISHING ROD\"],Name:\"§5Rod of Legends\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+125",
     "§7Strength: §c+125",
-    "§7Sea Creature Chance: §c+6%",
-    "§7Fishing Speed: §a+65",
-    " §8[§8☂§8]",
+    "§7Fishing Speed: §b+65",
+    "§7Sea Creature Chance: §3+6%",
+    " §8[☂]",
     "",
     "§9ථ Hook §8§lNONE",
     "§9ꨃ Line §8§lNONE",
@@ -17,9 +17,18 @@
     "§7Talk to §2Roddy §7in the §2Backwater",
     "§2Bayou §7to apply parts to this rod.",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aFishing Skill 20§c.",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aFishing Skill 20§c.",
     "§5§lEPIC FISHING ROD"
+  ],
+  "internalname": "LEGEND_ROD",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Lily Pad IX",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Rod_of_Legends",
+    "https://wiki.hypixel.net/Rod_Of_Legends"
   ],
   "recipe": {
     "A1": "ENCHANTED_WATER_LILY:16",
@@ -31,14 +40,5 @@
     "C1": "ENCHANTED_WATER_LILY:16",
     "C2": "ENCHANTED_WATER_LILY:16",
     "C3": "ENCHANTED_WATER_LILY:16"
-  },
-  "internalname": "LEGEND_ROD",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Rod_of_Legends",
-    "https://wiki.hypixel.net/Rod_Of_Legends"
-  ],
-  "crafttext": "Requires: Lily Pad IX"
+  }
 }

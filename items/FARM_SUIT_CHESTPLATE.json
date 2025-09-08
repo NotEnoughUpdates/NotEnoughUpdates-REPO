@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:leather_chestplate",
   "displayname": "§fFarm Suit Chestplate",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+40\",1:\"§7Farming Fortune: §a+5\",2:\" §8[§7☘§8]\",3:\"\",4:\"§6Full Set Bonus: Bonus Speed §7(0/4)\",5:\"§7Increases your §f✦ Speed §7by §a+20§7\",6:\"§7near Farming Minions or farming\",7:\"§7islands.\",8:\"\",9:\"§6Full Set Bonus: Farmer Aura §7(0/4)\",10:\"§7Regrow an extra crop on farming\",11:\"§7islands every §a3 §7seconds.\",12:\"\",13:\"§7Farming islands:\",14:\"§7- §bFarm\",15:\"§7- §bThe Barn\",16:\"§7- §eMushroom Desert\",17:\"§7- §aThe Garden\",18:\"\",19:\"§7§8This item can be reforged!\",20:\"§f§lCOMMON CHESTPLATE\"],color:16776960,Name:\"§fFarm Suit Chestplate\"},ExtraAttributes:{id:\"FARM_SUIT_CHESTPLATE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"FARM_SUIT_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:leather_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+40\",1:\"§7Farming Fortune: §6+5\",2:\" §8[§7☘§8]\",3:\"\",4:\"§6Full Set Bonus: Bonus Speed §7(0/4)\",5:\"§7Increases your §f✦ Speed §7by §a+20\",6:\"§7near Farming Minions or farming\",7:\"§7islands.\",8:\"\",9:\"§6Full Set Bonus: Farmer Aura §7(0/4)\",10:\"§7Regrow an extra crop on farming\",11:\"§7islands every §a3 §7seconds.\",12:\"\",13:\"§7Farming islands:\",14:\"§7- §bFarm\",15:\"§7- §bThe Barn\",16:\"§7- §eMushroom Desert\",17:\"§7- §aThe Garden\",18:\"\",19:\"§8This item can be reforged!\",20:\"§f§lCOMMON CHESTPLATE\"],Name:\"§fFarm Suit Chestplate\",color:16776960}}",
   "damage": 0,
   "lore": [
     "§7Defense: §a+40",
-    "§7Farming Fortune: §a+5",
+    "§7Farming Fortune: §6+5",
     " §8[§7☘§8]",
     "",
     "§6Full Set Bonus: Bonus Speed §7(0/4)",
-    "§7Increases your §f✦ Speed §7by §a+20§7",
+    "§7Increases your §f✦ Speed §7by §a+20",
     "§7near Farming Minions or farming",
     "§7islands.",
     "",
@@ -23,8 +23,17 @@
     "§7- §eMushroom Desert",
     "§7- §aThe Garden",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§f§lCOMMON CHESTPLATE"
+  ],
+  "internalname": "FARM_SUIT_CHESTPLATE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Wheat III",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Farm_Suit_Chestplate",
+    "https://wiki.hypixel.net/Farm_Suit_Chestplate"
   ],
   "recipe": {
     "A1": "WHEAT:8",
@@ -36,14 +45,5 @@
     "C1": "WHEAT:8",
     "C2": "WHEAT:8",
     "C3": "WHEAT:8"
-  },
-  "internalname": "FARM_SUIT_CHESTPLATE",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Farm_Suit_Chestplate",
-    "https://wiki.hypixel.net/Farm_Suit_Chestplate"
-  ],
-  "crafttext": "Requires: Wheat III"
+  }
 }

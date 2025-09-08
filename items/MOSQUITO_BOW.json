@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:bow",
   "displayname": "§6Mosquito Shortbow",
-  "nbttag": "{ExtraAttributes:{id:\"MOSQUITO_BOW\"},HideFlags:254,ItemModel:\"minecraft:bow\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+251\",1:\"§7Strength: §c+151\",2:\"§7Crit Damage: §c+39%\",3:\"§7Vitality: §a+20\",4:\"§7Shot Cooldown: §a0.5s\",5:\"\",6:\"§6Ability: Nasty Bite  §e§lLEFT CLICK\",7:\"§7Shoot an enhanced shot. The shot\",8:\"§7deals §c+19% ❁ Damage§7 and heals you\",9:\"§7for §a2x§7 the mana spent.\",10:\"§8Mana Cost: §311%\",11:\"\",12:\"§6Shortbow: Instantly shoots!\",13:\"\",14:\"§8This item can be reforged!\",15:\"§4☠ §cRequires §5Spider Slayer 7§c.\",16:\"§6§lLEGENDARY BOW\"],Name:\"§6Mosquito Shortbow\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"MOSQUITO_BOW\"},HideFlags:254,ItemModel:\"minecraft:bow\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+251\",1:\"§7Strength: §c+151\",2:\"§7Crit Damage: §9+39%\",3:\"§7Vitality: §4+20\",4:\"§7Shot Cooldown: §a0.5s\",5:\"\",6:\"§6Ability: Nasty Bite  §e§lLEFT CLICK\",7:\"§7Shoot an enhanced shot. The shot\",8:\"§7deals §c+19% ❁ Damage§7 and heals you\",9:\"§7for §a2x§7 the mana spent.\",10:\"§8Mana Cost: §311%\",11:\"\",12:\"§6Shortbow: Instantly shoots!\",13:\"\",14:\"§8This item can be reforged!\",15:\"§4☠ §cRequires §5Spider Slayer 7§c.\",16:\"§6§lLEGENDARY BOW\"],Name:\"§6Mosquito Shortbow\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+251",
     "§7Strength: §c+151",
-    "§7Crit Damage: §c+39%",
-    "§7Vitality: §a+20",
+    "§7Crit Damage: §9+39%",
+    "§7Vitality: §4+20",
     "§7Shot Cooldown: §a0.5s",
     "",
     "§6Ability: Nasty Bite  §e§lLEFT CLICK",
@@ -25,22 +25,27 @@
   "internalname": "MOSQUITO_BOW",
   "clickcommand": "viewrecipe",
   "crafttext": "Requires: Spider Slayer 7",
-  "modver": "Firmament 3.8.1+mc1.21.7",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Mosquito_Bow",
     "https://wiki.hypixel.net/Mosquito_Bow"
   ],
-  "recipe": {
-    "A1": "",
-    "A2": "ENCHANTED_EMERALD:64",
-    "A3": "TARANTULA_SILK:64",
-    "B1": "ENCHANTED_GOLD:64",
-    "B2": "",
-    "B3": "SCORPION_BOW:1",
-    "C1": "",
-    "C2": "ENCHANTED_EMERALD:64",
-    "C3": "TARANTULA_SILK:64"
-  },
-  "slayer_req": "SPIDER_7"
+  "slayer_req": "SPIDER_7",
+  "recipes": [
+    {
+      "A1": "",
+      "A2": "TARANTULA_CATALYST:1",
+      "A3": "TARANTULA_SILK:64",
+      "B1": "DIGESTED_MOSQUITO:1",
+      "B2": "",
+      "B3": "SCORPION_BOW:1",
+      "C1": "",
+      "C2": "TARANTULA_CATALYST:1",
+      "C3": "TARANTULA_SILK:64",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "MOSQUITO_BOW"
+    }
+  ]
 }
