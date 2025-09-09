@@ -10,16 +10,27 @@
 				-1684945601,
 				-230687485
 			],
-			name: "",
 			properties: [
 				{
 					name: "textures",
+					signature: "p9/w+3LHa985hussV7pRNOp6lgUsvbfCNpTsPJyRFixhf3UzOQQ5wNBhiIjbQ1rwnPKRa7YVaxPIaNc0/W6bXtwApmpKK9RFrXYZxzpQ28oqQDpAWdxipgE24NF2G6jNMQvIebiQN4FfXW74L0lhMQ2yeKX1dK3ceYo1mR/TfzA25dGOSAcoZodP6CKge8H0p0yaKdXozDgJ84/lAkdjFH5kgDdPZI7Nv7W8vBNW+PlyNgXryKsRQ93fEase5MDvfkQOT/6uoPUA5mXByVmEdQYgHLULbBUIyB0d0dmFb8IxnSm9CW4GnpZqyWbM5kVb5RsZ64JZRxrONhdBzJ6GLPM+VTv2CZqy8Q6PlM4Oi25/Wj+0HzPjsmSwiF0PGLlzi+ak009jIJVRLFfxZ+oKON2cgY4WYApGSp3oIYsJN2zTRELtbh0IZ3EdS8DmMgmhSD/hskklG+BY0aHTPq2Ii/miN02LzH4KQ8B7uVbs4FsJxusKjBHP/UVYHWLNvQeWIuhW4xIaHjW01Rpop35F8B9HiRrD7VV8J+dpWJ+TskLOjzyAptRPmfoxF9yeI8K10ddNPOsXDvcF3/Gj2LkZc6MnhqIS2ki6ai+4c3NmqOcxXpARauDNpNW4mAJdC2J6jUvX6e7Kis+dy1fLK6zUT7thzQXv5vNktzfOh0nB+MQ=",
 					value: "ewogICJ0aW1lc3RhbXAiIDogMTY2OTM4OTk2Nzc3NSwKICAicHJvZmlsZUlkIiA6ICJmZTE0M2FhZTVmNGE0YTdiYjM4MzcxM2U1Mjg0YmIxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJKZWZveHk0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JjMDNlODdmYmZhOTAzMjQ4OTRlOTY4YmU5NmI5OTMwZDk5OGVjY2NmNjYzMmRlMDQ3YjNlOWNjNjkxMTFjYzciCiAgICB9CiAgfQp9"
 				}
 			]
 		},
 		"minecraft:tooltip_display": {
 			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
 				"minecraft:dyed_color"
 			]
 		}
@@ -28,6 +39,6 @@
 	id: "minecraft:player_head",
 	source: {
 		dataVersion: 4325,
-		modVersion: "Firmament 3.2.0-dev+mc1.21.5+gd7b3f89"
+		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
 	}
 }
