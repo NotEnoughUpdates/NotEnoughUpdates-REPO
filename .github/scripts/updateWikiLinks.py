@@ -65,8 +65,7 @@ def _update_special_case_links(filename: str, jsonData: dict, file, desired_link
 def processItemFile(filename: str):
     global modifiedCount, badModifiedCount
 
-    filePath = os.path.join(itemsDirectory
-, filename)
+    filePath = os.path.join(itemsDirectory, filename)
     with open(filePath, 'r+', encoding='utf-8') as file:
         jsonData = json.load(file)
 
@@ -100,7 +99,7 @@ def processItemFile(filename: str):
 
         if filename.startswith('BALLOON_HAT_2025'):
             desired_links = [
-                'https://hypixel-skyblock.fandom.com/wiki/5th_Anniversary_Balloon_Hat',
+                'https://hypixel-skyblock.fandom.com/wiki/6th_Anniversary_Balloon_Hat',
                 'https://wiki.hypixel.net/6th_Anniversary_Balloon_Hat'
             ]
             if _update_special_case_links(filename, jsonData, file, desired_links):
