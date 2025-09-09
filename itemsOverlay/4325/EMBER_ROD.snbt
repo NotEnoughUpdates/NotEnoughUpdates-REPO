@@ -1,11 +1,25 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "EMBER_ROD"
+			bossId: "81414cfa-63f4-4a49-b8fb-a6dd579a21a5",
+			id: "EMBER_ROD",
+			originTag: "BOSS_DROP",
+			spawnedFor: "69b3f7f2-4a3e-43e6-bef7-73811f234c52"
 		},
 		"minecraft:enchantment_glint_override": 1b,
 		"minecraft:tooltip_display": {
 			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
 				"minecraft:dyed_color"
 			]
 		}
@@ -14,6 +28,6 @@
 	id: "minecraft:blaze_rod",
 	source: {
 		dataVersion: 4325,
-		modVersion: "Firmament 3.2.0-dev+mc1.21.5+gd7b3f89"
+		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
 	}
 }
