@@ -79,15 +79,7 @@ def processItemFile(filename: str):
         existingInfo = jsonData.get("info", [])
 
         if filename.startswith('⚚_') or filename.startswith('ATTRIBUTE_'):
-            return
-
-        if filename.startswith('PET_SKIN_'):
-            desired_links = [
-                'https://hypixel-skyblock.fandom.com/wiki/Pet_Skins',
-                'https://wiki.hypixel.net/Pet_Skins'
-            ]
-            if _update_special_case_links(filename, jsonData, file, desired_links):
-                return
+            return              return
 
         if filename.startswith('BALLOON_HAT_2024'):
             desired_links = [
