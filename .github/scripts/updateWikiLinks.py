@@ -79,7 +79,7 @@ def processItemFile(filename: str):
         existingInfo = jsonData.get("info", [])
 
         if filename.startswith('⚚_') or filename.startswith('ATTRIBUTE_'):
-            return              return
+            return
 
         if filename.startswith('BALLOON_HAT_2024'):
             desired_links = [
