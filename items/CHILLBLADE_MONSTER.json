@@ -1,0 +1,65 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aChillblade (Monster)",
+  "nbttag": "{ExtraAttributes:{id:\"CHILLBLADE_MONSTER\"},HideFlags:254,SkullOwner:{Id:\"01b77ad6-2139-3bec-81b7-7ad621397bec\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTczMDMyMDYwMTk3MCwKICAicHJvZmlsZUlkIiA6ICJjNWVmOGQ1NDIwOWY0OTdlYWYzYzA1NjA3MjZhYTMwNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaXNoX0RheCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NTcyNzQ3YTYzOWQyMjQwZmVlYWU1YzgxYzY4NzRlNmVlNzU0N2I1OTllNzQ1NDY0OTBkYzc1ZmEyMDg5MTg2IgogICAgfQogIH0KfQ==\"}]}},display:{Lore:[0:\"§7No chill!\",1:\"\",2:\"§7Mob Type: §2⸙ Woodland§7, §f🦴 Skeletal\",3:\"§c❤ Health§8: §c400\",4:\"§c❁ Damage§8: §c200\"],Name:\"§aChillblade (Monster)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7No chill!",
+    "",
+    "§7Mob Type: §2⸙ Woodland§7, §f🦴 Skeletal",
+    "§c❤ Health§8: §c400",
+    "§c❁ Damage§8: §c200"
+  ],
+  "internalname": "CHILLBLADE_MONSTER",
+  "clickcommand": "viewrecipe",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd660",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Chillblade",
+    "https://wiki.hypixel.net/Chillblade"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 100,
+      "coins": 10,
+      "xp": 10,
+      "combat_xp": 35,
+      "name": "§cChillblade",
+      "render": "@neurepo:mobs/chillblade.json",
+      "panorama": "foraging_2",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "BONE:2",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "RUNEBLADE_TALISMAN:1",
+          "extra": [],
+          "chance": "5%"
+        },
+        {
+          "id": "STEALTH;1:1",
+          "extra": [],
+          "chance": "0.1%"
+        },
+        {
+          "id": "ARCANE;6:1",
+          "extra": [],
+          "chance": "0.1%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_SKELETAL_RULER;1:1",
+          "extra": [
+            "§7 §7- §7Catch with §cPocket Black Hole§7.",
+            "§7 §7- §7Kill Chillshot§7 or Chillblade §7while using §cSalts§7.",
+            "§7 §7- §7Place §cTraps §7in §bWyrmgrove Tomb§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

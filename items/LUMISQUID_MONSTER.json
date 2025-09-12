@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aLumisquid (Monster)",
+  "nbttag": "{ExtraAttributes:{id:\"LUMISQUID_MONSTER\"},HideFlags:254,SkullOwner:{Id:\"01b77ad6-2139-3bec-81b7-7ad621397bec\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyMTc1MTU3NTc5OCwKICAicHJvZmlsZUlkIiA6ICI4YzQwMGUyYTNiNjI0YTkzODBkYzdlZWNkMmE3NDNhNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJaemVydnluIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M2YmU0MGI3MGQ3MzljZjgyMWIwMzJkNzkwMDBiY2YxN2Y4MzNkYzRlY2M0YTMwMzBkOWFjZjY3YzkyMDI5NGUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§c❤ Health§8: §c1\"],Name:\"§aLumisquid (Monster)\"}}",
+  "damage": 3,
+  "lore": [
+    "§c❤ Health§8: §c1"
+  ],
+  "internalname": "LUMISQUID_MONSTER",
+  "clickcommand": "viewrecipe",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd660",
+  "infoType": "WIKI_URL",
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§cLumisquid",
+      "render": "GlowSquid",
+      "panorama": "foraging_2",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ATTRIBUTE_SHARD_EXTREME_PRESSURE;1:1",
+          "extra": [
+            "§7 §7- §7Place §cTraps §7in §bSquid Cave§7.",
+            "§7§7(§bUnderwater§7).",
+            "§7 §7- §7Catch with a §bFishing Net§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ],
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Lumisquid"
+  ]
+}

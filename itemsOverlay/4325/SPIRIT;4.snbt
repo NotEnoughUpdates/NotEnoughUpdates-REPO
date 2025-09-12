@@ -1,0 +1,45 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "PET",
+			petInfo: '{"type":"SPIRIT","tier":"LEGENDARY","exp":0.0,"candyUsed":0}'
+		},
+		"minecraft:profile": {
+			id: [I;
+				-271474168,
+				1441218452,
+				-2064835934,
+				1182141678
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "kNTOXMjp1ZP/mQpo3yDvrwos2PCdUggIBdMGWJbNTgFK5NJksr3iAhijEv967uBbztTI1XL+klZOAei1fBC9C/ZVLxt4sE1P5ZuklabqpQehEKo/Z+/mUasodXGyjRi1/D5cwp/ASMVfHrefq6b5vnSjlDMBNbPVAVkZcQuzY5VDyB8bmrbtZRbJe30W5DsLo8VdlZQfMNcNxHSV4yRKXBXnUhZaaTawF8Tlwch2UPfgv0t+OWH8tfZjBZ6kxzM10RpH+x/ypeNaaa8EfOjLI81Ed+XKRDVY9QF0N3lIKFemYHa5C2+G6TpeCmKbID1y8+0w0RQ32ebl2sZvJPQ/V4Pqv5VTrT+w5XxtblwOeAe+Dq5B6mlF1xlZP3p6RBxMFNLBgG3lUbb2aOifposSsGSiyYGg/Fgy9XJWlh8YPFf/G3c64UBuo20kminsBBbSrOV+xQ6NXy7L0QowPnfoYgfNKD5PhYJoQQyz7oQmZAmfS4lMLozI3ugUp4T3HRX+jigHxoXWCq4jAbCf9s57FoVndw92Q3TyLTZWkfXan4V78sxQHmADS713vqnTgisxODte5olpWlhL0B9omch55UW+HPPuehv7rKdm8hsSRLDdoQBduUeyc+ZFZwDZkW45ztznfh7ils2bfPiqK6BW9DxGfYSZqYpj4vEhNelSttk=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTU5NTg2MjAyNjE5OSwKICAicHJvZmlsZUlkIiA6ICI0ZWQ4MjMzNzFhMmU0YmI3YTVlYWJmY2ZmZGE4NDk1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaXJlYnlyZDg4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzhkOWNjYzY3MDY3N2QwY2ViYWFkNDA1OGQ2YWFmOWFjZmFiMDlhYmVhNWQ4NjM3OWEwNTk5MDJmMmZlMjI2NTUiCiAgICB9CiAgfQp9"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
+	}
+}

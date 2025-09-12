@@ -1,0 +1,40 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aJoydive (Animal)",
+  "nbttag": "{ExtraAttributes:{id:\"JOYDIVE_ANIMAL\"},HideFlags:254,SkullOwner:{Id:\"01b77ad6-2139-3bec-81b7-7ad621397bec\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyMjYxNzE3NDg5NywKICAicHJvZmlsZUlkIiA6ICIyYThjZTE5ZWY3Mjg0NTBjYjY2YmEyNzNhNzVmNjI1MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJYRDROVDNfNjY2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZhNTk4YWY4YzQ4NTczYWQ3OTRmZDdlMjU4MThhMzU1YTk3OTNjMmE0Yzc5MWNiM2EyOWExNTIwNmE4Y2JkYzMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]}},display:{Lore:[0:\"§7The Joydive has a §a16% §7chance to spawn every Skyblock Hour.\",1:\"\",2:\"§7Mob Types: §2⸙ Woodland§7, §9⚓ Aquatic§7, §a☮ Animal\",3:\"§c❤ Health§8: §c200\"],Name:\"§aJoydive (Animal)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7The Joydive has a §a16% §7chance to spawn every Skyblock Hour.",
+    "",
+    "§7Mob Types: §2⸙ Woodland§7, §9⚓ Aquatic§7, §a☮ Animal",
+    "§c❤ Health§8: §c200"
+  ],
+  "internalname": "JOYDIVE_ANIMAL",
+  "clickcommand": "viewrecipe",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd660",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Joydive"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 5,
+      "name": "§cJoydive",
+      "render": "Dolphin",
+      "panorama": "foraging_2",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ATTRIBUTE_SHARD_DEEP_DIVING;1:1",
+          "extra": [
+            "§7 §7- §7Place §cTraps §7in §2Galatea§7. §7(§bOn Land§7).",
+            "§7 §7- §7Catch with a §bFishing Net§7.",
+            "§7 §7- §7§7Catch with §bLasso§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "PET",
+			petInfo: '{"type":"OCELOT","tier":"EPIC","exp":0.0,"candyUsed":0}'
+		},
+		"minecraft:profile": {
+			id: [I;
+				-1061622045,
+				897659461,
+				-1802692975,
+				1469401450
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "ZZ5wnBNK+91mU+1v7IGASvgjwaxyyRWgisHpOYPtCTS+LtA2wCJHIA2eMSy4Z887FEtVFcpU5jCdXBCsin2QSHHrM4mFunXiKTdtHdldTbWJVumeQx537JK/kmq+bjI21fkVwHAnC9IiLlzen94Ohj9XX5BG7BpamYmcvbYXvkBUaKH1PhDBoyNb/EDZUpIie9pSMRpl0obbirwfg4hj+DfSRres6errIHULy9UOIbb9m6F5dUmVT+bFYnL3SKI+phz7n7fLelnqgbFNBMYqxZihbtdT9UxxSJGVt4sZMCJt6mCTtElgHuFjW2y3PoptNKNgXkJLfmDGxF1ae/Ri3CxxjtETQ4D9DEY6hQJm0eig65YpmRJFhSNzEofu0lpfCKv267XoXbccR2hzXqXioHrAMfRxq0yTjHRv3RX4JDtlx16WGNsF9A7SnecsTMN+qAz1PaKar/4sZPe8GRdFZv6H/69s+cz/MbMjLQHS1gNpnOXDX72H8mvzNeOK+iP9uWQJSuHuLj+FgWJmHTRdz80QIezbzzAKnCcdO2nRWuBIShEKnEfBGWNu21go65prAUB4TD3JBNNGtbzEaYqlB6l5ory+HqVq6Ze3fOZxN9Z2jOXHT9cc3wWWiuTbBmI4j1XG3aukBLgno8AGFa8bCWAMqrRlPkrE4si+IFoBtj4=",
+					value: "eyJ0aW1lc3RhbXAiOjE1MTU4NTg2MzE5OTQsInByb2ZpbGVJZCI6IjFiZWU5ZGY1NGY3MTQyYTJiZjUyZDk3OTcwZDNmZWEzIiwicHJvZmlsZU5hbWUiOiJNSEZfT2NlbG90Iiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81NjU3Y2Q1YzI5ODlmZjk3NTcwZmVjNGRkY2RjNjkyNmE2OGEzMzkzMjUwYzFiZTFmMGIxMTRhMWRiMSJ9fX0="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
+	}
+}

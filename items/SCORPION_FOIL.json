@@ -1,43 +1,51 @@
 {
   "itemid": "minecraft:wooden_sword",
   "displayname": "§5Scorpion Foil",
-  "nbttag": "{ExtraAttributes:{id:\"SCORPION_FOIL\"},HideFlags:254,ItemModel:\"minecraft:wooden_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+80\",1:\"§7Strength: §c+65\",2:\"§7Vitality: §a+5\",3:\" §8[§7⚔§8]\",4:\"\",5:\"§6Ability: Heartstopper  §e§lRIGHT CLICK\",6:\"§7Heal for §c75❤§7 and your next\",7:\"§7attack within §a20s §7is empowered\",8:\"§7for §c+250% ❁ Damage§7.\",9:\"§8Cooldown: §a2s\",10:\"\",11:\"§8This item can be reforged!\",12:\"§7§4☠ §cRequires §5Spider Slayer 6§c.\",13:\"§5§lEPIC SWORD\"],Name:\"§5Scorpion Foil\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SCORPION_FOIL\"},HideFlags:254,ItemModel:\"minecraft:wooden_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+120\",1:\"§7Strength: §c+60\",2:\"§7Crit Damage: §9+30%\",3:\" §8[§7⚔§8]\",4:\"\",5:\"§7Deal §c+250% ❁ Damage§7 to and gain\",6:\"§3+30☯ Combat Wisdom §7against §4Ж\",7:\"§4Arthropod §7mobs.\",8:\"\",9:\"§6Ability: Webcutter \",10:\"§7This weapon can be used to clear\",11:\"§7webs left by the §4Tarantula\",12:\"§4Broodfather§7!\",13:\"\",14:\"§8This item can be reforged!\",15:\"§4☠ §cRequires §5Spider Slayer 6§c.\",16:\"§5§lEPIC SWORD\"],Name:\"§5Scorpion Foil\"}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+80",
-    "§7Strength: §c+65",
-    "§7Vitality: §a+5",
+    "§7Damage: §c+120",
+    "§7Strength: §c+60",
+    "§7Crit Damage: §9+30%",
     " §8[§7⚔§8]",
     "",
-    "§6Ability: Heartstopper  §e§lRIGHT CLICK",
-    "§7Heal for §c75❤§7 and your next",
-    "§7attack within §a20s §7is empowered",
-    "§7for §c+250% ❁ Damage§7.",
-    "§8Cooldown: §a2s",
+    "§7Deal §c+250% ❁ Damage§7 to and gain",
+    "§3+30☯ Combat Wisdom §7against §4Ж",
+    "§4Arthropod §7mobs.",
+    "",
+    "§6Ability: Webcutter ",
+    "§7This weapon can be used to clear",
+    "§7webs left by the §4Tarantula",
+    "§4Broodfather§7!",
     "",
     "§8This item can be reforged!",
-    "§7§4☠ §cRequires §5Spider Slayer 6§c.",
+    "§4☠ §cRequires §5Spider Slayer 6§c.",
     "§5§lEPIC SWORD"
   ],
   "internalname": "SCORPION_FOIL",
   "clickcommand": "viewrecipe",
   "crafttext": "Requires: Spider Slayer 6",
-  "modver": "Firmament 3.4.0+mc1.21.5",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Scorpion_Foil",
     "https://wiki.hypixel.net/Scorpion_Foil"
   ],
-  "recipe": {
-    "A1": "TARANTULA_SILK:4",
-    "A2": "ENCHANTED_ACACIA_LOG:64",
-    "A3": "TARANTULA_SILK:4",
-    "B1": "TARANTULA_SILK:4",
-    "B2": "ENCHANTED_ACACIA_LOG:64",
-    "B3": "TARANTULA_SILK:4",
-    "C1": "TARANTULA_SILK:4",
-    "C2": "STICK:1",
-    "C3": "TARANTULA_SILK:4"
-  },
-  "slayer_req": "SPIDER_6"
+  "slayer_req": "SPIDER_6",
+  "recipes": [
+    {
+      "A1": "",
+      "A2": "TARANTULA_SILK:32",
+      "A3": "",
+      "B1": "",
+      "B2": "TARANTULA_CATALYST:8",
+      "B3": "",
+      "C1": "",
+      "C2": "TARANTULA_FANG:1",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "SCORPION_FOIL"
+    }
+  ]
 }

@@ -1,14 +1,16 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§3The Sea Emperor (Sea Creature)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"b6bdd479-20ef-5967-aeea-2b948d81b7e1\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMDQ0YjY1M2JiYjcyN2I1Yzg2NWE4ZWZjNzUwOTJhZmU5MzllMmMzZTY4NjEzZGI5YWJhZTRmMWI2NGY5OWY4In19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7The Sea Emperor is a Sea Creature that can\",1:\"§7appear while fishing once a player\u0027s fishing\",2:\"§7level is 20 or higher. \",3:\"\",4:\"§c❤ Health§8: §c750,000\",5:\"\",6:\"§6§lLEGENDARY\"],Name:\"§3The Sea Emperor (Sea Creature)\"},ExtraAttributes:{id:\"SEA_EMPEROR_SC\"}}",
+  "displayname": "§3The Loch Emperor (Sea Creature)",
+  "nbttag": "{ExtraAttributes:{id:\"SEA_EMPEROR_SC\"},HideFlags:254,SkullOwner:{Id:\"b6bdd479-20ef-5967-aeea-2b948d81b7e1\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMDQ0YjY1M2JiYjcyN2I1Yzg2NWE4ZWZjNzUwOTJhZmU5MzllMmMzZTY4NjEzZGI5YWJhZTRmMWI2NGY5OWY4In19fQ==\"}]}},display:{Lore:[0:\"§7The Loch Emperor is a Sea Creature that can\",1:\"§7appear while fishing once a player's fishing\",2:\"§7level is 20 or higher. \",3:\"\",4:\"§7Mob Types: §9⚓ Aquatic§7, §f🦴 Skeletal§7, §5♃ Arcan\",5:\"§c❤ Health§8: §c800,000\",6:\"§c❁ Damage§8: §c100\",7:\"\",8:\"§6§lLEGENDARY\"],Name:\"§3The Loch Emperor (Sea Creature)\"}}",
   "damage": 3,
   "lore": [
-    "§7The Sea Emperor is a Sea Creature that can",
-    "§7appear while fishing once a player\u0027s fishing",
+    "§7The Loch Emperor is a Sea Creature that can",
+    "§7appear while fishing once a player's fishing",
     "§7level is 20 or higher. ",
     "",
-    "§c❤ Health§8: §c750,000",
+    "§7Mob Types: §9⚓ Aquatic§7, §f🦴 Skeletal§7, §5♃ Arcan",
+    "§c❤ Health§8: §c800,000",
+    "§c❁ Damage§8: §c100",
     "",
     "§6§lLEGENDARY"
   ],
@@ -17,80 +19,65 @@
   "modver": "",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Sea_Emperor",
-    "https://wiki.hypixel.net/Sea_Emperor"
+    "https://hypixel-skyblock.fandom.com/wiki/The_Loch_Emperor",
+    "https://wiki.hypixel.net/The_Loch_Emperor"
   ],
   "crafttext": "",
   "recipes": [
     {
-      "name": "§cThe Sea Emperor",
+      "name": "§cThe Loch Emperor",
       "level": 150,
       "coins": 150,
       "xp": 120,
       "render": "@neurepo:mobs/sea_emperor.json",
-      "panorama": "hub",
+      "panorama": "foraging_2",
       "type": "drops",
       "extra": [
         "§cRequirements:",
-        "§7- Fishing Skill 20",
-        "§7- §bFished from water"
+        "§7- §aFishing Skill 20",
+        "§7- §bWater",
+        "§7- §2Galatea"
       ],
       "drops": [
         {
-          "id": "WATER_LILY:32",
+          "id": "SEA_LUMIES:32",
           "chance": "100%"
-        },
-        {
-          "id": "DIVER_FRAGMENT",
-          "chance": "100%"
-        },
-        {
-          "id": "ENCHANTED_WATER_LILY",
-          "chance": "100%"
-        },
-        {
-          "id": "RAW_FISH:16",
-          "chance": "100%"
-        },
-        {
-          "id": "ENCHANTED_PRISMARINE_CRYSTALS",
-          "chance": "50%"
-        },
-        {
-          "id": "ENCHANTED_PRISMARINE_SHARD",
-          "chance": "50%"
-        },
-        {
-          "id": "SPONGE",
-          "chance": "x2-3"
         },
         {
           "id": "FLYING_FISH;2",
-          "chance": "20%"
+          "chance": "4%"
         },
         {
           "id": "FLYING_FISH;3",
-          "chance": "8%"
+          "chance": "2%"
         },
         {
           "id": "FLYING_FISH;4",
-          "chance": "2%"
+          "chance": "0.5%"
         },
         {
-          "id": "SHREDDED_LINE",
-          "chance": "2%"
+          "id": "ENCHANTED_MANGROVE_LOG:8",
+          "chance": "100%"
         },
         {
-          "id": "PET_ITEM_FISHING_SKILL_BOOST_EPIC",
-          "chance": "0.02%"
+          "id": "ENCHANTED_SEA_LUMIES:1",
+          "chance": "20%"
         },
         {
-          "id": "BOBBIN_SCRIPTURES",
+          "id": "DIVER_FRAGMENT",
+          "chance": "20%"
+        },
+        {
+          "id": "MANGCORE",
           "chance": "1.85%"
         },
         {
-          "id": "BLESSING;6",
-          "chance": "2%"
+          "id": "ATTRIBUTE_SHARD_FISHING_EXPERIENCE;1",
+          "extra": [
+            " §7- §7Catch with §cPocket Black Hole§7.",
+            " §7- §7Kill The Loch Emperor §7while using §cSalts§7."
+          ],
+          "chance": "100%"
         },
         {
           "id": "DYE_AQUAMARINE",

@@ -1,28 +1,36 @@
 {
   "itemid": "minecraft:leather_leggings",
   "displayname": "§6Shark Scale Leggings",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Sea Creature Chance: §c+2.5%\",1:\"§7Health: §a+175\",2:\"§7Defense: §a+150\",3:\" §8[§8⚔§8] §8[§8⚔§8] §8[§8☂§8]\",4:\"\",5:\"§6Full Set Bonus: Absorb §7(0/4)\",6:\"§7§9Doubles§7 your §a❈ Defense§7 while in\",7:\"§7water.\",8:\"\",9:\"§8Tiered Bonus: Festival Fisher (0/4)\",10:\"§7§7Increases the chance to catch\",11:\"§7§9Sharks §7during the §bFishing Festival §7by\",12:\"§7§a0%§7.\",13:\"\",14:\"§7§8This item can be reforged!\",15:\"§7§4❣ §cRequires §aFishing Skill 24§c.\",16:\"§6§lLEGENDARY LEGGINGS\"],color:11430,Name:\"§6Shark Scale Leggings\"},ExtraAttributes:{id:\"SHARK_SCALE_LEGGINGS\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SHARK_SCALE_LEGGINGS\"},HideFlags:254,ItemModel:\"minecraft:leather_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §c+175\",1:\"§7Defense: §a+150\",2:\"§7Sea Creature Chance: §3+2.5%\",3:\" §8[⚔] [⚔] [☂]\",4:\"\",5:\"§6Full Set Bonus: Absorb §7(0/4)\",6:\"§9Doubles§7 your §a❈ Defense§7 while in\",7:\"§7water.\",8:\"\",9:\"§8Tiered Bonus: Festival Fisher (0/4)\",10:\"§7Increases the chance to catch\",11:\"§9Sharks §7during the §bFishing Festival §7by\",12:\"§a0%§7.\",13:\"\",14:\"§8This item can be reforged!\",15:\"§4❣ §cRequires §aFishing Skill 24§c.\",16:\"§6§lLEGENDARY LEGGINGS\"],Name:\"§6Shark Scale Leggings\",color:11430}}",
   "damage": 0,
   "lore": [
-    "§7Sea Creature Chance: §c+2.5%",
-    "§7Health: §a+175",
+    "§7Health: §c+175",
     "§7Defense: §a+150",
-    " §8[§8⚔§8] §8[§8⚔§8] §8[§8☂§8]",
+    "§7Sea Creature Chance: §3+2.5%",
+    " §8[⚔] [⚔] [☂]",
     "",
     "§6Full Set Bonus: Absorb §7(0/4)",
-    "§7§9Doubles§7 your §a❈ Defense§7 while in",
+    "§9Doubles§7 your §a❈ Defense§7 while in",
     "§7water.",
     "",
     "§8Tiered Bonus: Festival Fisher (0/4)",
-    "§7§7Increases the chance to catch",
-    "§7§9Sharks §7during the §bFishing Festival §7by",
-    "§7§a0%§7.",
+    "§7Increases the chance to catch",
+    "§9Sharks §7during the §bFishing Festival §7by",
+    "§a0%§7.",
     "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aFishing Skill 24§c.",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aFishing Skill 24§c.",
     "§6§lLEGENDARY LEGGINGS"
   ],
   "internalname": "SHARK_SCALE_LEGGINGS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Shark_Scale_Leggings",
+    "https://wiki.hypixel.net/Shark_Scale_Leggings"
+  ],
   "recipe": {
     "A1": "ENCHANTED_SHARK_FIN:1",
     "A2": "SPONGE_LEGGINGS:1",
@@ -33,13 +41,5 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  },
-  "crafttext": "",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Shark_Scale_Leggings",
-    "https://wiki.hypixel.net/Shark_Scale_Leggings"
-  ]
+  }
 }

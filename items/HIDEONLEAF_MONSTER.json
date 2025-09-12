@@ -1,0 +1,35 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aHideonleaf (Monster)",
+  "nbttag": "{ExtraAttributes:{id:\"HIDEONLEAF_MONSTER\"},HideFlags:254,SkullOwner:{Id:\"01b77ad6-2139-3bec-81b7-7ad621397bec\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyMzA4Mjc2NzIzNSwKICAicHJvZmlsZUlkIiA6ICI5OWY1MzhjMDhlN2E0NTg3YmU4MGJjNGVmNzU0ZmQyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb2xvV1MyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzkwYjNiZGM5ODFiODE3NTRhMjU2MzViZWEyZGVmOTNmOTkyYzA0MDc5ODFjZDdjNTAwYWQ0OWQxY2FkYTA0YWYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§c❤ Health§8: §c1\",1:\"§c❁ Damage§8: §c1\"],Name:\"§aHideonleaf (Monster)\"}}",
+  "damage": 3,
+  "lore": [
+    "§c❤ Health§8: §c1",
+    "§c❁ Damage§8: §c1"
+  ],
+  "internalname": "HIDEONLEAF_MONSTER",
+  "clickcommand": "viewrecipe",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd660",
+  "infoType": "WIKI_URL",
+  "crafttext": "",
+  "recipes": [
+    {
+      "name": "§cHideonleaf",
+      "render": "Shulker",
+      "panorama": "foraging_2",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ATTRIBUTE_SHARD_MOSSY_BOX;1:1",
+          "extra": [
+            "§7 §7- §7Hunted on §2Galatea§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ],
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Hideonleaf"
+  ]
+}

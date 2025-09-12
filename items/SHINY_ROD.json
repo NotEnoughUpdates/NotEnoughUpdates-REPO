@@ -1,16 +1,25 @@
 {
   "itemid": "minecraft:carrot_on_a_stick",
   "displayname": "§6Shiny Rod",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Shiny pigs run away from you §e30%\",1:\"§e§7faster while holding this.\",2:\"\",3:\"§7Extract §625% §7extra coins from shiny\",4:\"§7orbs.\",5:\"\",6:\"§6§lLEGENDARY\"],Name:\"§6Shiny Rod\"},ExtraAttributes:{id:\"SHINY_ROD\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SHINY_ROD\"},HideFlags:254,ItemModel:\"minecraft:carrot_on_a_stick\",Unbreakable:1B,display:{Lore:[0:\"§7Shiny pigs run away from you §e30%\",1:\"§7faster while holding this.\",2:\"\",3:\"§7Extract §625% §7extra coins from shiny\",4:\"§7orbs.\",5:\"\",6:\"§6§lLEGENDARY\"],Name:\"§6Shiny Rod\"}}",
   "damage": 0,
   "lore": [
     "§7Shiny pigs run away from you §e30%",
-    "§e§7faster while holding this.",
+    "§7faster while holding this.",
     "",
     "§7Extract §625% §7extra coins from shiny",
     "§7orbs.",
     "",
     "§6§lLEGENDARY"
+  ],
+  "internalname": "SHINY_ROD",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Shiny_Rod",
+    "https://wiki.hypixel.net/Shiny_Rod"
   ],
   "recipe": {
     "A1": "",
@@ -23,15 +32,6 @@
     "C2": "",
     "C3": "CARROT_ITEM:1"
   },
-  "internalname": "SHINY_ROD",
-  "crafttext": "",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Shiny_Rod",
-    "https://wiki.hypixel.net/Shiny_Rod"
-  ],
   "recipes": [
     {
       "type": "trade",
