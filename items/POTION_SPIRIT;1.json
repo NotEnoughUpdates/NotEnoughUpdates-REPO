@@ -1,18 +1,19 @@
 {
   "itemid": "minecraft:potion",
   "displayname": "§fSpirit I Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:1b,Amplifier:0b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§bSpirit I §f(3:00)\",2:\"§7Grants §a+10 §f✦ Speed §7and\",3:\"§7§a+10% §9☠ Crit Damage§7.\",4:\"\",5:\"§f§lCOMMON\"],Name:\"§fSpirit I Potion\"},ExtraAttributes:{potion_level:1,potion:\"spirit\",effects:[0:{level:1,effect:\"spirit\",duration_ticks:3600}],potion_type:\"POTION\",id:\"SPIRIT\"}}",
+  "nbttag": "{CustomPotionEffects:[0:{Ambient:0B,Amplifier:0B,Duration:3600,Id:1B},1:{Ambient:0B,Amplifier:0B,Duration:20,Id:1B}],ExtraAttributes:{effects:[0:{duration_ticks:3600,effect:\"spirit\",level:1}],id:\"POTION_SPIRIT;1\",potion:\"spirit\",potion_level:1,potion_name:\"Spirit\",potion_type:\"POTION\",splash:0B},HideFlags:254,ItemModel:\"minecraft:potion\",display:{Lore:[0:\"§bSpirit I §f(3:00)\",1:\"§7Grants §a+10 §f✦ Speed §7and §a+10% §9☠\",2:\"§9Crit Damage§7.\",3:\"\",4:\"§f§lCOMMON\"],Name:\"§fSpirit I Potion\"}}",
   "damage": 2,
   "lore": [
-    "",
     "§bSpirit I §f(3:00)",
-    "§7Grants §a+10 §f✦ Speed §7and",
-    "§7§a+10% §9☠ Crit Damage§7.",
+    "§7Grants §a+10 §f✦ Speed §7and §a+10% §9☠",
+    "§9Crit Damage§7.",
     "",
     "§f§lCOMMON"
   ],
   "internalname": "POTION_SPIRIT;1",
   "clickcommand": "",
-  "modver": "1.0.0",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": []
 }
