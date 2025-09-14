@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§fEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Giant Killer I\",1:\"§7Increases damage dealt by §a0.1%\",2:\"§a§7for each percent of extra\",3:\"§7health that your target has\",4:\"§7above you up to §a5%§7.\",5:\"\",6:\"§7Use this on an item in an Anvil\",7:\"§7to apply it!\",8:\"\",9:\"§6Source:\",10:\"§aI-V: §7Enchantment Table,\",11:\"§7Ghast Tear Collection\",12:\"\",13:\"§6Applied To:\",14:\"§7- §fSword\",15:\"§7- §fFishing Weapon\",16:\"§7- §fLongsword\",17:\"§7- §fGauntlet\",18:\"\",19:\"§6Conflicts:\",20:\"§7- §cTitan Killer\",21:\"\",22:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"GIANT_KILLER;1\",enchantments:{giant_killer:1}}}",
+  "nbttag": "{ExtraAttributes:{enchantments:{giant_killer:1},id:\"GIANT_KILLER;1\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Giant Killer I\",1:\"§7Increases damage dealt by §a0.1%\",2:\"§7for each percent of extra\",3:\"§7health that your target has\",4:\"§7above you up to §a5%§7.\",5:\"\",6:\"§7Use this on an item in an Anvil\",7:\"§7to apply it!\",8:\"\",9:\"§6Source:\",10:\"§aI-V: §7Enchantment Table,\",11:\"§7Ghast Tear Collection\",12:\"\",13:\"§6Applied To:\",14:\"§7- §fSword\",15:\"§7- §fFishing Weapon\",16:\"§7- §fLongsword\",17:\"§7- §fGauntlet\",18:\"\",19:\"§6Conflicts:\",20:\"§7- §cTitan Killer\",21:\"\",22:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Giant Killer I",
     "§7Increases damage dealt by §a0.1%",
-    "§a§7for each percent of extra",
+    "§7for each percent of extra",
     "§7health that your target has",
     "§7above you up to §a5%§7.",
     "",
@@ -29,9 +29,10 @@
     "§f§lCOMMON"
   ],
   "internalname": "GIANT_KILLER;1",
-  "parent": "GIANT_KILLER;4",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "2.1.0-REL",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "parent": "GIANT_KILLER;4"
 }

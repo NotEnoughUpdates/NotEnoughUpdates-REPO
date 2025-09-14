@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§fEnchanted Book",
-  "nbttag": "{ench:[],overrideMeta:1b,HideFlags:254,display:{Lore:[0:\"§9§d§lBank III\",1:\"§7Saves §630% §7of your coins on\",2:\"§7death. Additionally, enemies\",3:\"§7drop §6+1.5 coins §7when killed.\",4:\"\",5:\"§7§cYou can only have 1 Ultimate\",6:\"§cEnchantment on an item!\",7:\"\",8:\"§7Use this on an item in an Anvil\",9:\"§7to apply it!\",10:\"\",11:\"§6Source:\",12:\"§aI-V: §7Dungeon\",13:\"\",14:\"§6Applied To:\",15:\"§7- §fArmor\",16:\"\",17:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"ULTIMATE_BANK;3\",enchantments:{ultimate_bank:3}},AttributeModifiers:[]}",
+  "nbttag": "{ExtraAttributes:{enchantments:{ultimate_bank:3},id:\"ULTIMATE_BANK;3\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§d§lBank III\",1:\"§7Saves §630% §7of your coins on\",2:\"§7death. Additionally, enemies\",3:\"§7drop §6+1.5 coins §7when killed.\",4:\"\",5:\"§cYou can only have 1 Ultimate\",6:\"§cEnchantment on an item!\",7:\"\",8:\"§7Use this on an item in an Anvil\",9:\"§7to apply it!\",10:\"\",11:\"§6Source:\",12:\"§aI-V: §7Dungeon\",13:\"\",14:\"§6Applied To:\",15:\"§7- §fArmor\",16:\"\",17:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§9§d§lBank III",
+    "§d§lBank III",
     "§7Saves §630% §7of your coins on",
     "§7death. Additionally, enemies",
     "§7drop §6+1.5 coins §7when killed.",
     "",
-    "§7§cYou can only have 1 Ultimate",
+    "§cYou can only have 1 Ultimate",
     "§cEnchantment on an item!",
     "",
     "§7Use this on an item in an Anvil",
@@ -24,12 +24,12 @@
     "§f§lCOMMON"
   ],
   "internalname": "ULTIMATE_BANK;3",
-  "parent": "ULTIMATE_BANK;1",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "2.1.0-REL",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Ultimate_Enchantments"
-  ]
+  ],
+  "parent": "ULTIMATE_BANK;1"
 }

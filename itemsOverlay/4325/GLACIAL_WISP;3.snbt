@@ -1,0 +1,45 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "PET",
+			petInfo: '{"type":"GLACIAL_WISP","tier":"EPIC","exp":0.0,"candyUsed":0}'
+		},
+		"minecraft:profile": {
+			id: [I;
+				-637420226,
+				978072139,
+				-2020377771,
+				1184110093
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "DsZ5VbNEM9UhmO9147Ny9gpuSh3JlwdsPro8UbkAdx+wv4Q3QXRnORURmJt7MPp28qP6XJqlwi+wXQahM0CqKJSxzB5C2kYeBhApae9mXbSzNVkwte7wU4IzsyMAWvn34OrwFwVbk2n3Tqyq/dIBkxDX8NQUKxqKFi5yZXzUsnp9fMKMSHoP9W6BpK8smsQ17WBu3K/FANLaT0MRRhaaCyaddqVSyeL4Jhwfuxz0Fz6hHljeFQhshLDHNB52Ft3V2i5rbeG+Q5RgZpJXa57Zcghhz/a9BeYIgp/spLTPu5HjHSe8iSvfnAWa44gnj6ZyYZiW2w531vx+mx4CWlzLjZPWVXj4IGOFdEHjkM8gLCZ4W4IS90GlRDVNmSC+EJdTyUopNQziy/1kMHJwvu5T3M76EEom1hfopypcVzOxFNYx6XTwsEEIQqceItdw2sXy/DJ9WaJBuA1zBgPVlCwkiab53OAQ+crx+vIYmAwAiwB2g85X1jF+jPwni4IbdYsfOnOBK2flttkRu22yo32axImFHq6hu4sZ+gsFJ52+FTyoOZAKrKW9IZNHDBsWUsiDDqBEbjYb37w1DhHZdqaWFQl2J853QmkIpsIJsQtY3sKqdIRB7EOFJy0YuDryr4eNSSfu8IRxA2DIJaM6WzSvl8kOBGMRnQ9rIJTivymcouI=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NTk1MzM5NSwKICAicHJvZmlsZUlkIiA6ICIwNTAzNzZmZjAxY2I0OGVjOTUwM2NhMjhjMWU2MzlkMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJKb25haDU1OTAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UyMDE4ZmVlYmUxYTk5MTc3YjNjYjE5NmQ0ZTQ0NTIxMjY4YjRiM2ViNTZlNjQxOWNiMDI1M2NkYmYwNDU2YyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
+	}
+}

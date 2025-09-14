@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§fEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Transylvanian IV\",1:\"§7Heal §c2❤§7/s §7per enemy within\",2:\"§7§a10 §7blocks, up to §c20❤§7/s.\",3:\"\",4:\"§7Applicable on: §9Helmet\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aIV-V: §7Hemovibe Collection\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fHelmet\",13:\"\",14:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"TRANSYLVANIAN;4\",enchantments:{transylvanian:4}}}",
+  "nbttag": "{ExtraAttributes:{enchantments:{transylvanian:4},id:\"TRANSYLVANIAN;4\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Transylvanian IV\",1:\"§7Heal §c2❤§7/s per enemy within\",2:\"§a10 §7blocks, up to §c20❤§7/s.\",3:\"\",4:\"§7Applicable on: §9Helmet\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aIV-V: §7Hemovibe Collection\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fHelmet\",13:\"\",14:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Transylvanian IV",
-    "§7Heal §c2❤§7/s §7per enemy within",
-    "§7§a10 §7blocks, up to §c20❤§7/s.",
+    "§7Heal §c2❤§7/s per enemy within",
+    "§a10 §7blocks, up to §c20❤§7/s.",
     "",
     "§7Applicable on: §9Helmet",
     "§7Use this on an item in an Anvil",
@@ -20,6 +20,12 @@
     "",
     "§f§lCOMMON"
   ],
+  "internalname": "TRANSYLVANIAN;4",
+  "clickcommand": "",
+  "crafttext": "Requires: Hemovibe IV",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
   "recipe": {
     "A1": "",
     "A2": "",
@@ -30,10 +36,5 @@
     "C1": "",
     "C2": "PAPER:8",
     "C3": "HEMOGLASS:8"
-  },
-  "internalname": "TRANSYLVANIAN;4",
-  "crafttext": "Requires: Hemovibe IV",
-  "clickcommand": "",
-  "modver": "2.1.1-PRE",
-  "infoType": ""
+  }
 }

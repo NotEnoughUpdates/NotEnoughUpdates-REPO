@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§fEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Luck of the Sea I\",1:\"§7Grants §6+0.5⛃ Treasure Chance§7, which\",2:\"§7increases the chance of fishing\",3:\"§7treasure.\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aVI: §7Fishing\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fFishing Rod\",13:\"§7- §fFishing Weapon\",14:\"\",15:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"LUCK_OF_THE_SEA;1\",enchantments:{luck_of_the_sea:1}}}",
+  "nbttag": "{ExtraAttributes:{enchantments:{luck_of_the_sea:1},id:\"LUCK_OF_THE_SEA;1\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Luck of the Sea I\",1:\"§7Grants §6+0.5⛃ Treasure Chance§7, which\",2:\"§7increases the chance of fishing\",3:\"§7treasure.\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aVI: §7Fishing\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fFishing Rod\",13:\"§7- §fFishing Weapon\",14:\"\",15:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Luck of the Sea I",
@@ -22,9 +22,10 @@
     "§f§lCOMMON"
   ],
   "internalname": "LUCK_OF_THE_SEA;1",
-  "parent": "LUCK_OF_THE_SEA;4",
   "clickcommand": "",
-  "modver": "",
   "crafttext": "",
-  "infoType": ""
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "parent": "LUCK_OF_THE_SEA;4"
 }

@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§fEnchanted Book",
-  "nbttag": "{ExtraAttributes:{enchantments:{ultimate_bobbin_time:3},id:\"ULTIMATE_BOBBIN_TIME;3\"},HideFlags:254,display:{Lore:[0:\"§9§d§lBobbin' Time III\",1:\"§7Increases all §bFishing Stats §7and §b✯ Magic Find §7by\",2:\"§7§b+0.3% §7per fishing bobber within §a30 blocks§7, up to\",3:\"§7§b10 §7bobbers.\",4:\"\",5:\"§7§cYou can only have 1 Ultimate\",6:\"§cEnchantment on an item!\",7:\"\",8:\"§7Use this on an item in an Anvil to\",9:\"§7apply it!\",10:\"\",11:\"§6Source:\",12:\"§aIII-V: §7Fishing\",13:\"\",14:\"§6Applied To:\",15:\"§7- §fArmor\",16:\"\",17:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
+  "nbttag": "{ExtraAttributes:{enchantments:{ultimate_bobbin_time:3},id:\"ULTIMATE_BOBBIN_TIME;3\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§d§lBobbin' Time III\",1:\"§7Increases all §bFishing Stats §7and §b✯ Magic Find §7by\",2:\"§b+0.3% §7per fishing bobber within §a30 blocks§7, up to\",3:\"§b10 §7bobbers.\",4:\"\",5:\"§cYou can only have 1 Ultimate\",6:\"§cEnchantment on an item!\",7:\"\",8:\"§7Use this on an item in an Anvil to\",9:\"§7apply it!\",10:\"\",11:\"§6Source:\",12:\"§aIII-V: §7Fishing\",13:\"\",14:\"§6Applied To:\",15:\"§7- §fArmor\",16:\"\",17:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§9§d§lBobbin' Time III",
+    "§d§lBobbin' Time III",
     "§7Increases all §bFishing Stats §7and §b✯ Magic Find §7by",
-    "§7§b+0.3% §7per fishing bobber within §a30 blocks§7, up to",
-    "§7§b10 §7bobbers.",
+    "§b+0.3% §7per fishing bobber within §a30 blocks§7, up to",
+    "§b10 §7bobbers.",
     "",
-    "§7§cYou can only have 1 Ultimate",
+    "§cYou can only have 1 Ultimate",
     "§cEnchantment on an item!",
     "",
     "§7Use this on an item in an Anvil to",
@@ -23,6 +23,12 @@
     "",
     "§f§lCOMMON"
   ],
+  "internalname": "ULTIMATE_BOBBIN_TIME;3",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
   "recipe": {
     "A1": "BAYOU_WATER_ORB:1",
     "A2": "WINTER_WATER_ORB:1",
@@ -33,10 +39,5 @@
     "C1": "SHARK_WATER_ORB:1",
     "C2": "HOTSPOT_WATER_ORB:1",
     "C3": "LAVA_WATER_ORB:1"
-  },
-  "internalname": "ULTIMATE_BOBBIN_TIME;3",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "crafttext": "",
-  "infoType": ""
+  }
 }

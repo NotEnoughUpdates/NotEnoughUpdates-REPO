@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:enchanted_book",
-  "displayname": "§f§f§aEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Overload V\",1:\"§7Increases §9☠ Crit Damage §7by\",2:\"§7§a5%§7 and §9☣ Crit Chance §7by\",3:\"§7§a5%§7. Having a Critical chance\",4:\"§7above §9100% §7grants a chance\",5:\"§7to perform a Mega Critical Hit\",6:\"§7dealing §950% §7extra damage.\",7:\"\",8:\"§7Use this on an item in an Anvil\",9:\"§7to apply it!\",10:\"\",11:\"§6Source:\",12:\"§aI-V: §7Dungeon\",13:\"\",14:\"§6Applied To:\",15:\"§7- §fBow\",16:\"\",17:\"§a§lUNCOMMON\"],Name:\"§f§f§aEnchanted Book\"},ExtraAttributes:{id:\"OVERLOAD;5\",enchantments:{overload:5}}}",
+  "displayname": "§aEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{overload:5},id:\"OVERLOAD;5\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Overload V\",1:\"§7Increases §9☠ Crit Damage §7by\",2:\"§a5%§7 and §9☣ Crit Chance §7by\",3:\"§a5%§7. Having a Critical chance\",4:\"§7above §9100% §7grants a chance\",5:\"§7to perform a Mega Critical Hit\",6:\"§7dealing §950% §7extra damage.\",7:\"\",8:\"§7Use this on an item in an Anvil\",9:\"§7to apply it!\",10:\"\",11:\"§6Source:\",12:\"§aI-V: §7Dungeon\",13:\"\",14:\"§6Applied To:\",15:\"§7- §fBow\",16:\"\",17:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Overload V",
     "§7Increases §9☠ Crit Damage §7by",
-    "§7§a5%§7 and §9☣ Crit Chance §7by",
-    "§7§a5%§7. Having a Critical chance",
+    "§a5%§7 and §9☣ Crit Chance §7by",
+    "§a5%§7. Having a Critical chance",
     "§7above §9100% §7grants a chance",
     "§7to perform a Mega Critical Hit",
     "§7dealing §950% §7extra damage.",
@@ -24,9 +24,10 @@
     "§a§lUNCOMMON"
   ],
   "internalname": "OVERLOAD;5",
-  "parent": "OVERLOAD;1",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "2.0.0-REL",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "parent": "OVERLOAD;1"
 }

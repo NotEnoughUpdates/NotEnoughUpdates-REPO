@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§fEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Chance IV\",1:\"§7Increases the chance of a\",2:\"§7Monster dropping an item by\",3:\"§7§a60%§7.\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aIV: §7Experiments\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fBow\",13:\"\",14:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"CHANCE;4\",enchantments:{chance:4}}}",
+  "nbttag": "{ExtraAttributes:{enchantments:{chance:4},id:\"CHANCE;4\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Chance IV\",1:\"§7Increases the chance of a\",2:\"§7Monster dropping an item by\",3:\"§a60%§7.\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aIV: §7Experiments\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fBow\",13:\"\",14:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Chance IV",
     "§7Increases the chance of a",
     "§7Monster dropping an item by",
-    "§7§a60%§7.",
+    "§a60%§7.",
     "",
     "§7Use this on an item in an Anvil",
     "§7to apply it!",
@@ -21,8 +21,9 @@
     "§f§lCOMMON"
   ],
   "internalname": "CHANCE;4",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "2.0.0-REL",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": []
 }

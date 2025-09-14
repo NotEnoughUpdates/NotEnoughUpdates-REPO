@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§fEnchanted Book",
-  "nbttag": "{ench:[],overrideMeta:1b,HideFlags:254,display:{Lore:[0:\"§9§d§lWisdom III\",1:\"§7Gain §b3 §7Intelligence for\",2:\"§7every §b5 §7levels of exp you\",3:\"§7have on you. Capped at §b60\",4:\"§b§7Intelligence.\",5:\"\",6:\"§7§cYou can only have 1 Ultimate\",7:\"§cEnchantment on an item!\",8:\"\",9:\"§7Use this on an item in an Anvil\",10:\"§7to apply it!\",11:\"\",12:\"§6Source:\",13:\"§aI-V: §7Dungeons\",14:\"\",15:\"§6Applied To:\",16:\"§7- §fArmor\",17:\"\",18:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"ULTIMATE_WISDOM;3\",enchantments:{ultimate_wisdom:3}},AttributeModifiers:[]}",
+  "nbttag": "{ExtraAttributes:{enchantments:{ultimate_wisdom:3},id:\"ULTIMATE_WISDOM;3\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§d§lWisdom III\",1:\"§7Gain §b3 §7Intelligence for\",2:\"§7every §b5 §7levels of exp you\",3:\"§7have on you. Capped at §b60\",4:\"§7Intelligence.\",5:\"\",6:\"§cYou can only have 1 Ultimate\",7:\"§cEnchantment on an item!\",8:\"\",9:\"§7Use this on an item in an Anvil\",10:\"§7to apply it!\",11:\"\",12:\"§6Source:\",13:\"§aI-V: §7Dungeons\",14:\"\",15:\"§6Applied To:\",16:\"§7- §fArmor\",17:\"\",18:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§9§d§lWisdom III",
+    "§d§lWisdom III",
     "§7Gain §b3 §7Intelligence for",
     "§7every §b5 §7levels of exp you",
     "§7have on you. Capped at §b60",
-    "§b§7Intelligence.",
+    "§7Intelligence.",
     "",
-    "§7§cYou can only have 1 Ultimate",
+    "§cYou can only have 1 Ultimate",
     "§cEnchantment on an item!",
     "",
     "§7Use this on an item in an Anvil",
@@ -25,12 +25,12 @@
     "§f§lCOMMON"
   ],
   "internalname": "ULTIMATE_WISDOM;3",
-  "parent": "ULTIMATE_WISDOM;1",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Ultimate_Enchantments"
-  ]
+  ],
+  "parent": "ULTIMATE_WISDOM;1"
 }

@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:enchanted_book",
-  "displayname": "§f§f§dEnchanted Book",
-  "nbttag": "{ench:[],overrideMeta:1b,HideFlags:254,display:{Lore:[0:\"§9Feather Falling IX\",1:\"§7Increases how high you can fall\",2:\"§7before taking fall damage by\",3:\"§7§a9§7 and reduces fall damage by\",4:\"§7§a45%§7.\",5:\"\",6:\"§7Use this on an item in an Anvil\",7:\"§7to apply it!\",8:\"\",9:\"§6Source:\",10:\"§aVI-X: §7Dungeon\",11:\"\",12:\"§6Applied To:\",13:\"§7- §fBoots\",14:\"\",15:\"§d§lMYTHIC\"],Name:\"§f§f§dEnchanted Book\"},ExtraAttributes:{id:\"FEATHER_FALLING;9\",enchantments:{feather_falling:9}},AttributeModifiers:[]}",
+  "displayname": "§dEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{feather_falling:9},id:\"FEATHER_FALLING;9\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Feather Falling IX\",1:\"§7Increases how high you can fall\",2:\"§7before taking fall damage by\",3:\"§a9§7 and reduces fall damage by\",4:\"§a45%§7.\",5:\"\",6:\"§7Use this on an item in an Anvil\",7:\"§7to apply it!\",8:\"\",9:\"§6Source:\",10:\"§aVI-X: §7Dungeon\",11:\"\",12:\"§6Applied To:\",13:\"§7- §fBoots\",14:\"\",15:\"§d§lMYTHIC\"],Name:\"§dEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Feather Falling IX",
     "§7Increases how high you can fall",
     "§7before taking fall damage by",
-    "§7§a9§7 and reduces fall damage by",
-    "§7§a45%§7.",
+    "§a9§7 and reduces fall damage by",
+    "§a45%§7.",
     "",
     "§7Use this on an item in an Anvil",
     "§7to apply it!",
@@ -22,9 +22,10 @@
     "§d§lMYTHIC"
   ],
   "internalname": "FEATHER_FALLING;9",
-  "parent": "FEATHER_FALLING;4",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "2.1.0-REL",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "parent": "FEATHER_FALLING;4"
 }

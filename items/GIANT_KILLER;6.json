@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§9Enchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Giant Killer VI\",1:\"§7Increases damage dealt by §a0.9%\",2:\"§a§7for each percent of extra\",3:\"§7health that your target has\",4:\"§7above you up to §a45%§7.\",5:\"\",6:\"§7Use this on an item in an Anvil\",7:\"§7to apply it!\",8:\"\",9:\"§6Source:\",10:\"§aVI: §7Dark Auction,\",11:\"§7Experiments\",12:\"\",13:\"§6Applied To:\",14:\"§7- §fSword\",15:\"§7- §fFishing Weapon\",16:\"§7- §fLongsword\",17:\"§7- §fGauntlet\",18:\"\",19:\"§6Conflicts:\",20:\"§7- §cTitan Killer\",21:\"\",22:\"§9§lRARE\"],Name:\"§9Enchanted Book\"},ExtraAttributes:{id:\"GIANT_KILLER;6\",enchantments:{giant_killer:6}}}",
+  "nbttag": "{ExtraAttributes:{enchantments:{giant_killer:6},id:\"GIANT_KILLER;6\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Giant Killer VI\",1:\"§7Increases damage dealt by §a0.9%\",2:\"§7for each percent of extra\",3:\"§7health that your target has\",4:\"§7above you up to §a45%§7.\",5:\"\",6:\"§7Use this on an item in an Anvil\",7:\"§7to apply it!\",8:\"\",9:\"§6Source:\",10:\"§aVI: §7Dark Auction,\",11:\"§7Experiments\",12:\"\",13:\"§6Applied To:\",14:\"§7- §fSword\",15:\"§7- §fFishing Weapon\",16:\"§7- §fLongsword\",17:\"§7- §fGauntlet\",18:\"\",19:\"§6Conflicts:\",20:\"§7- §cTitan Killer\",21:\"\",22:\"§9§lRARE\"],Name:\"§9Enchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Giant Killer VI",
     "§7Increases damage dealt by §a0.9%",
-    "§a§7for each percent of extra",
+    "§7for each percent of extra",
     "§7health that your target has",
     "§7above you up to §a45%§7.",
     "",
@@ -29,9 +29,10 @@
     "§9§lRARE"
   ],
   "internalname": "GIANT_KILLER;6",
-  "parent": "GIANT_KILLER;4",
-  "modver": "2.1.0-REL",
-  "crafttext": "",
   "clickcommand": "",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "parent": "GIANT_KILLER;4"
 }

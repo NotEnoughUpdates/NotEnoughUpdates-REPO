@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§fEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Projectile Protection I\",1:\"§7Grants §a+7 §a❈ Defense\",2:\"§a§7against projectiles.\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§6Source:\",8:\"§aI-V: §7Enchantment Table,\",9:\"§7Feather Collection\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fArmor\",13:\"\",14:\"§6Conflicts:\",15:\"§7- §cBlast Protection\",16:\"§7- §cFire Protection\",17:\"§7- §cProtection\",18:\"\",19:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"PROJECTILE_PROTECTION;1\",enchantments:{projectile_protection:1}}}",
+  "nbttag": "{ExtraAttributes:{enchantments:{projectile_protection:1},id:\"PROJECTILE_PROTECTION;1\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Projectile Protection I\",1:\"§7Grants §a+7 ❈ Defense\",2:\"§7against projectiles.\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§6Source:\",8:\"§aI-V: §7Enchantment Table,\",9:\"§7Feather Collection\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fArmor\",13:\"\",14:\"§6Conflicts:\",15:\"§7- §cBlast Protection\",16:\"§7- §cFire Protection\",17:\"§7- §cProtection\",18:\"\",19:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Projectile Protection I",
-    "§7Grants §a+7 §a❈ Defense",
-    "§a§7against projectiles.",
+    "§7Grants §a+7 ❈ Defense",
+    "§7against projectiles.",
     "",
     "§7Use this on an item in an Anvil",
     "§7to apply it!",
@@ -26,9 +26,10 @@
     "§f§lCOMMON"
   ],
   "internalname": "PROJECTILE_PROTECTION;1",
-  "parent": "PROJECTILE_PROTECTION;4",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "2.0.0-REL",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "parent": "PROJECTILE_PROTECTION;4"
 }
