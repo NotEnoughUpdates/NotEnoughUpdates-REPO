@@ -1,0 +1,22 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			enchantments: {
+				luck_of_the_sea: 4
+			},
+			id: "LUCK_OF_THE_SEA;4"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:stored_enchantments",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:enchanted_book",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
+	}
+}

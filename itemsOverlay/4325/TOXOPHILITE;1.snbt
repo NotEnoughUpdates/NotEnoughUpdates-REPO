@@ -1,0 +1,22 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			enchantments: {
+				toxophilite: 1
+			},
+			id: "TOXOPHILITE;1"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:stored_enchantments",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:enchanted_book",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
+	}
+}
