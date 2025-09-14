@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§fEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Thorns I\",1:\"§7Grants a §a50% §7chance to\",2:\"§7rebound §a3% §7of damage dealt\",3:\"§7back at the attacker.\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aI-III: §7Enchantment Table,\",10:\"§7Cactus Collection\",11:\"\",12:\"§6Applied To:\",13:\"§7- §fArmor\",14:\"\",15:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"THORNS;1\",enchantments:{thorns:1}}}",
+  "nbttag": "{ExtraAttributes:{enchantments:{thorns:1},id:\"THORNS;1\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Thorns I\",1:\"§7Grants a §a50% §7chance to\",2:\"§7rebound §a3% §7of damage dealt\",3:\"§7back at the attacker.\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aI-III: §7Enchantment Table,\",10:\"§7Cactus Collection\",11:\"\",12:\"§6Applied To:\",13:\"§7- §fArmor\",14:\"\",15:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Thorns I",
@@ -22,9 +22,10 @@
     "§f§lCOMMON"
   ],
   "internalname": "THORNS;1",
-  "parent": "THORNS;2",
   "clickcommand": "",
-  "modver": "2.0.0-REL",
   "crafttext": "",
-  "infoType": ""
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "parent": "THORNS;2"
 }

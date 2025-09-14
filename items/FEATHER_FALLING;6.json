@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§9Enchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Feather Falling VI\",1:\"§7Increases how high you can fall\",2:\"§7before taking fall damage by\",3:\"§7§a6§7 and reduces fall damage by\",4:\"§7§a30%§7.\",5:\"\",6:\"§7Use this on an item in an Anvil\",7:\"§7to apply it!\",8:\"\",9:\"§6Source:\",10:\"§aVI-X: §7Dungeon\",11:\"\",12:\"§6Applied To:\",13:\"§7- §fBoots\",14:\"\",15:\"§9§lRARE\"],Name:\"§9Enchanted Book\"},ExtraAttributes:{id:\"FEATHER_FALLING;6\",enchantments:{feather_falling:6}}}",
+  "nbttag": "{ExtraAttributes:{enchantments:{feather_falling:6},id:\"FEATHER_FALLING;6\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Feather Falling VI\",1:\"§7Increases how high you can fall\",2:\"§7before taking fall damage by\",3:\"§a6§7 and reduces fall damage by\",4:\"§a30%§7.\",5:\"\",6:\"§7Use this on an item in an Anvil\",7:\"§7to apply it!\",8:\"\",9:\"§6Source:\",10:\"§aVI-X: §7Dungeon\",11:\"\",12:\"§6Applied To:\",13:\"§7- §fBoots\",14:\"\",15:\"§9§lRARE\"],Name:\"§9Enchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Feather Falling VI",
     "§7Increases how high you can fall",
     "§7before taking fall damage by",
-    "§7§a6§7 and reduces fall damage by",
-    "§7§a30%§7.",
+    "§a6§7 and reduces fall damage by",
+    "§a30%§7.",
     "",
     "§7Use this on an item in an Anvil",
     "§7to apply it!",
@@ -22,9 +22,10 @@
     "§9§lRARE"
   ],
   "internalname": "FEATHER_FALLING;6",
-  "parent": "FEATHER_FALLING;4",
-  "modver": "2.1.0-REL",
-  "crafttext": "",
   "clickcommand": "",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "parent": "FEATHER_FALLING;4"
 }

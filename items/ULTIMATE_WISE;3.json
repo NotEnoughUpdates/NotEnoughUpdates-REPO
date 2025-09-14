@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§fEnchanted Book",
-  "nbttag": "{ench:[],overrideMeta:1b,HideFlags:254,display:{Lore:[0:\"§9§d§lUltimate Wise III\",1:\"§7Reduces the ability mana cost of\",2:\"§7this item by §a30%§7.\",3:\"\",4:\"§7§cYou can only have 1 Ultimate\",5:\"§cEnchantment on an item!\",6:\"\",7:\"§7Use this on an item in an Anvil\",8:\"§7to apply it!\",9:\"\",10:\"§6Source:\",11:\"§aI-V: §7Dungeons\",12:\"\",13:\"§6Applied To:\",14:\"§7- §fFishing Rod\",15:\"§7- §fWand\",16:\"§7- §fShovel\",17:\"§7- §fPickaxe\",18:\"§7- §fHoe\",19:\"§7- §6Precursor Eye\",20:\"§7- §fDrill\",21:\"§7- §fShears\",22:\"§7- §fSword\",23:\"§7- §fFishing Weapon\",24:\"§7- §fAxe\",25:\"§7- §fLongsword\",26:\"§7- §fGauntlet\",27:\"§7- §fBow\",28:\"\",29:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"ULTIMATE_WISE;3\",enchantments:{ultimate_wise:3}},AttributeModifiers:[]}",
+  "nbttag": "{ExtraAttributes:{enchantments:{ultimate_wise:3},id:\"ULTIMATE_WISE;3\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§d§lUltimate Wise III\",1:\"§7Reduces the ability mana cost of\",2:\"§7this item by §a30%§7.\",3:\"\",4:\"§cYou can only have 1 Ultimate\",5:\"§cEnchantment on an item!\",6:\"\",7:\"§7Use this on an item in an Anvil\",8:\"§7to apply it!\",9:\"\",10:\"§6Source:\",11:\"§aI-V: §7Dungeons\",12:\"\",13:\"§6Applied To:\",14:\"§7- §fFishing Rod\",15:\"§7- §fWand\",16:\"§7- §fShovel\",17:\"§7- §fPickaxe\",18:\"§7- §fHoe\",19:\"§7- §6Precursor Eye\",20:\"§7- §fDrill\",21:\"§7- §fShears\",22:\"§7- §fSword\",23:\"§7- §fFishing Weapon\",24:\"§7- §fAxe\",25:\"§7- §fLongsword\",26:\"§7- §fGauntlet\",27:\"§7- §fBow\",28:\"\",29:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§9§d§lUltimate Wise III",
+    "§d§lUltimate Wise III",
     "§7Reduces the ability mana cost of",
     "§7this item by §a30%§7.",
     "",
-    "§7§cYou can only have 1 Ultimate",
+    "§cYou can only have 1 Ultimate",
     "§cEnchantment on an item!",
     "",
     "§7Use this on an item in an Anvil",
@@ -36,12 +36,12 @@
     "§f§lCOMMON"
   ],
   "internalname": "ULTIMATE_WISE;3",
-  "parent": "ULTIMATE_WISE;1",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "2.1.1-PRE",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Ultimate_Enchantments"
-  ]
+  ],
+  "parent": "ULTIMATE_WISE;1"
 }

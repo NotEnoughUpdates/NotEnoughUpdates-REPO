@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§fEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Spiked Hook I\",1:\"§7Fishing rod deals §a5%§7 more\",2:\"§7damage to monsters.\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§6Source:\",8:\"§aI-V: §7Enchantment Table,\",9:\"§7Salmon Collection\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fFishing Rod\",13:\"§7- §fFishing Weapon\",14:\"\",15:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"SPIKED_HOOK;1\",enchantments:{spiked_hook:1}}}",
+  "nbttag": "{ExtraAttributes:{enchantments:{spiked_hook:1},id:\"SPIKED_HOOK;1\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Spiked Hook I\",1:\"§7Fishing rod deals §a5%§7 more\",2:\"§7damage to monsters.\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§6Source:\",8:\"§aI-V: §7Enchantment Table,\",9:\"§7Salmon Collection\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fFishing Rod\",13:\"§7- §fFishing Weapon\",14:\"\",15:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Spiked Hook I",
@@ -22,9 +22,10 @@
     "§f§lCOMMON"
   ],
   "internalname": "SPIKED_HOOK;1",
-  "parent": "SPIKED_HOOK;4",
   "clickcommand": "",
-  "modver": "2.0.0-REL",
   "crafttext": "",
-  "infoType": ""
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "parent": "SPIKED_HOOK;4"
 }

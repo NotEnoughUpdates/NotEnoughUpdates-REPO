@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§fEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Life Steal IV\",1:\"§7Heals for §a2% §7of your max\",2:\"§7health each time you hit a mob.\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§6Source:\",8:\"§aIV: §7Spooky Festival\",9:\"§7Experiments\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fSword\",13:\"§7- §fFishing Weapon\",14:\"§7- §fLongsword\",15:\"§7- §fGauntlet\",16:\"\",17:\"§6Conflicts:\",18:\"§7- §cSyphon\",19:\"§7- §cMana Steal\",20:\"\",21:\"§a§lUNCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"LIFE_STEAL;4\",enchantments:{life_steal:4}}}",
+  "nbttag": "{ExtraAttributes:{enchantments:{life_steal:4},id:\"LIFE_STEAL;4\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Life Steal IV\",1:\"§7Heals for §a2% §7of your max\",2:\"§7health each time you hit a mob.\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§6Source:\",8:\"§aIV: §7Spooky Festival\",9:\"§7Experiments\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fSword\",13:\"§7- §fFishing Weapon\",14:\"§7- §fLongsword\",15:\"§7- §fGauntlet\",16:\"\",17:\"§6Conflicts:\",18:\"§7- §cSyphon\",19:\"§7- §cMana Steal\",20:\"\",21:\"§a§lUNCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Life Steal IV",
@@ -28,9 +28,10 @@
     "§a§lUNCOMMON"
   ],
   "internalname": "LIFE_STEAL;4",
-  "parent": "LIFE_STEAL;2",
-  "modver": "2.1.0-REL",
-  "crafttext": "",
   "clickcommand": "",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "parent": "LIFE_STEAL;2"
 }

@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§fEnchanted Book",
-  "nbttag": "{ench:[],overrideMeta:1b,HideFlags:254,display:{Lore:[0:\"§9§d§lUltimate Jerry IV\",1:\"§7Increases the base damage of\",2:\"§7§fAspect of the Jerry§7 by\",3:\"§7§a4000%§7.\",4:\"\",5:\"§7§cYou can only have 1 Ultimate\",6:\"§cEnchantment on an item!\",7:\"\",8:\"§7Use this on an item in an Anvil\",9:\"§7to apply it!\",10:\"\",11:\"§6Source:\",12:\"§aI-V: §7Dungeons\",13:\"\",14:\"§6Applied To:\",15:\"§7- §fAspect of the Jerry\",16:\"\",17:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"ULTIMATE_JERRY;4\",enchantments:{ultimate_jerry:4}},AttributeModifiers:[]}",
+  "nbttag": "{ExtraAttributes:{enchantments:{ultimate_jerry:4},id:\"ULTIMATE_JERRY;4\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§d§lUltimate Jerry IV\",1:\"§7Increases the base damage of\",2:\"§fAspect of the Jerry§7 by\",3:\"§a4000%§7.\",4:\"\",5:\"§cYou can only have 1 Ultimate\",6:\"§cEnchantment on an item!\",7:\"\",8:\"§7Use this on an item in an Anvil\",9:\"§7to apply it!\",10:\"\",11:\"§6Source:\",12:\"§aI-V: §7Dungeons\",13:\"\",14:\"§6Applied To:\",15:\"§7- §fAspect of the Jerry\",16:\"\",17:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§9§d§lUltimate Jerry IV",
+    "§d§lUltimate Jerry IV",
     "§7Increases the base damage of",
-    "§7§fAspect of the Jerry§7 by",
-    "§7§a4000%§7.",
+    "§fAspect of the Jerry§7 by",
+    "§a4000%§7.",
     "",
-    "§7§cYou can only have 1 Ultimate",
+    "§cYou can only have 1 Ultimate",
     "§cEnchantment on an item!",
     "",
     "§7Use this on an item in an Anvil",
@@ -24,12 +24,12 @@
     "§f§lCOMMON"
   ],
   "internalname": "ULTIMATE_JERRY;4",
-  "parent": "ULTIMATE_JERRY;1",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Ultimate_Enchantments"
-  ]
+  ],
+  "parent": "ULTIMATE_JERRY;1"
 }

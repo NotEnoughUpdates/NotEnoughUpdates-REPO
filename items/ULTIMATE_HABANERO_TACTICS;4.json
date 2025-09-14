@@ -1,18 +1,18 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§fEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9§d§lHabanero Tactics IV\",1:\"§8ℏ §7Heal §a+6% §7more from wands.\",2:\"§7§8ℏ §7Deal §c+20% damage §7with Slayer weapons.\",3:\"§7§8ℏ §7Gain §3+2.5☯ Combat Wisdom §7with Slayer\",4:\"§7weapons.\",5:\"§7§8ℏ §7With §aSmoldering Polarization§7, gain §b+10✯\",6:\"§bMagic Find §7on your slayer weapon.\",7:\"\",8:\"§7§cYou can only have 1 Ultimate\",9:\"§cEnchantment on an item!\",10:\"\",11:\"§7Use this on an item in an Anvil to\",12:\"§7apply it!\",13:\"\",14:\"§6Source:\",15:\"§aIV-V: §7Chili Pepper Collection\",16:\"\",17:\"§6Applied To:\",18:\"§7- §fArmor\",19:\"\",20:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"ULTIMATE_HABANERO_TACTICS;4\",enchantments:{ultimate_habanero_tactics:4}}}",
+  "nbttag": "{ExtraAttributes:{enchantments:{ultimate_habanero_tactics:4},id:\"ULTIMATE_HABANERO_TACTICS;4\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§d§lHabanero Tactics IV\",1:\"§8ℏ §7Heal §a+6% §7more from wands.\",2:\"§8ℏ §7Deal §c+20% damage §7with Slayer weapons.\",3:\"§8ℏ §7Gain §3+2.5☯ Combat Wisdom §7with Slayer\",4:\"§7weapons.\",5:\"§8ℏ §7With §aSmoldering Polarization§7, gain §b+10✯\",6:\"§bMagic Find §7on your slayer weapon.\",7:\"\",8:\"§cYou can only have 1 Ultimate\",9:\"§cEnchantment on an item!\",10:\"\",11:\"§7Use this on an item in an Anvil to\",12:\"§7apply it!\",13:\"\",14:\"§6Source:\",15:\"§aIV-V: §7Chili Pepper Collection\",16:\"\",17:\"§6Applied To:\",18:\"§7- §fArmor\",19:\"\",20:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§9§d§lHabanero Tactics IV",
+    "§d§lHabanero Tactics IV",
     "§8ℏ §7Heal §a+6% §7more from wands.",
-    "§7§8ℏ §7Deal §c+20% damage §7with Slayer weapons.",
-    "§7§8ℏ §7Gain §3+2.5☯ Combat Wisdom §7with Slayer",
+    "§8ℏ §7Deal §c+20% damage §7with Slayer weapons.",
+    "§8ℏ §7Gain §3+2.5☯ Combat Wisdom §7with Slayer",
     "§7weapons.",
-    "§7§8ℏ §7With §aSmoldering Polarization§7, gain §b+10✯",
+    "§8ℏ §7With §aSmoldering Polarization§7, gain §b+10✯",
     "§bMagic Find §7on your slayer weapon.",
     "",
-    "§7§cYou can only have 1 Ultimate",
+    "§cYou can only have 1 Ultimate",
     "§cEnchantment on an item!",
     "",
     "§7Use this on an item in an Anvil to",
@@ -26,6 +26,14 @@
     "",
     "§f§lCOMMON"
   ],
+  "internalname": "ULTIMATE_HABANERO_TACTICS;4",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Chili Pepper VIII",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Ultimate_Enchantments"
+  ],
   "recipe": {
     "A1": "STUFFED_CHILI_PEPPER:1",
     "A2": "ENCHANTED_HUGE_MUSHROOM_1:64",
@@ -36,13 +44,5 @@
     "C1": "STUFFED_CHILI_PEPPER:1",
     "C2": "ENCHANTED_HUGE_MUSHROOM_1:64",
     "C3": "STUFFED_CHILI_PEPPER:1"
-  },
-  "internalname": "ULTIMATE_HABANERO_TACTICS;4",
-  "crafttext": "Requires: Chili Pepper VIII",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Ultimate_Enchantments"
-  ]
+  }
 }

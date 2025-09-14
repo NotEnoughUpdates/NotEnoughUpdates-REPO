@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§aEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Blessing V\",1:\"§7Increases the chance for §6Treasure\",2:\"§6§7catches to be §6§lGREAT §7or\",3:\"§7§d§lOUTSTANDING §7by §a10%§7.\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aI-V: §7Enchantment Table,\",10:\"§7Prismarine Crystals Collection\",11:\"\",12:\"§6Applied To:\",13:\"§7- §fFishing Rod\",14:\"§7- §fFishing Weapon\",15:\"\",16:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Book\"},ExtraAttributes:{id:\"BLESSING;5\",enchantments:{blessing:5}}}",
+  "nbttag": "{ExtraAttributes:{enchantments:{blessing:5},id:\"BLESSING;5\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Blessing V\",1:\"§7Increases the chance for §6Treasure\",2:\"§7catches to be §6§lGREAT §7or\",3:\"§d§lOUTSTANDING §7by §a10%§7.\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aI-V: §7Enchantment Table,\",10:\"§7Prismarine Crystals Collection\",11:\"\",12:\"§6Applied To:\",13:\"§7- §fFishing Rod\",14:\"§7- §fFishing Weapon\",15:\"\",16:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Blessing V",
     "§7Increases the chance for §6Treasure",
-    "§6§7catches to be §6§lGREAT §7or",
-    "§7§d§lOUTSTANDING §7by §a10%§7.",
+    "§7catches to be §6§lGREAT §7or",
+    "§d§lOUTSTANDING §7by §a10%§7.",
     "",
     "§7Use this on an item in an Anvil",
     "§7to apply it!",
@@ -23,9 +23,10 @@
     "§a§lUNCOMMON"
   ],
   "internalname": "BLESSING;5",
-  "parent": "BLESSING;4",
-  "modver": "",
-  "crafttext": "",
   "clickcommand": "",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "parent": "BLESSING;4"
 }

@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§fEnchanted Book",
-  "nbttag": "{ench:[],overrideMeta:1b,HideFlags:254,display:{Lore:[0:\"§9Snipe III\",1:\"§7Arrows deal §a+3% §7damage for\",2:\"§7every §a10 §7blocks travelled.\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§6Source:\",8:\"§aI-III: §7Enchantment Table,\",9:\"§7Feather Collection\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fBow\",13:\"\",14:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"SNIPE;3\",enchantments:{snipe:3}},AttributeModifiers:[]}",
+  "nbttag": "{ExtraAttributes:{enchantments:{snipe:3},id:\"SNIPE;3\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Snipe III\",1:\"§7Arrows deal §a+3% §7damage for\",2:\"§7every §a10 §7blocks travelled.\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§6Source:\",8:\"§aI-III: §7Enchantment Table,\",9:\"§7Feather Collection\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fBow\",13:\"\",14:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Snipe III",
@@ -21,9 +21,10 @@
     "§f§lCOMMON"
   ],
   "internalname": "SNIPE;3",
-  "parent": "SNIPE;1",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "2.0.0-REL",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "parent": "SNIPE;1"
 }

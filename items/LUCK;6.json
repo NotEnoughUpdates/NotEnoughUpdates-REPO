@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§9Enchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Luck VI\",1:\"§7Increases the chance for\",2:\"§7Monsters to drop their armor by\",3:\"§7§a30%§7\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aVI: §7Season of Jerry,\",10:\"§7Experiments\",11:\"\",12:\"§6Applied To:\",13:\"§7- §fSword\",14:\"§7- §fFishing Weapon\",15:\"§7- §fLongsword\",16:\"§7- §fGauntlet\",17:\"\",18:\"§9§lRARE\"],Name:\"§9Enchanted Book\"},ExtraAttributes:{id:\"LUCK;6\",enchantments:{luck:6}}}",
+  "nbttag": "{ExtraAttributes:{enchantments:{luck:6},id:\"LUCK;6\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Luck VI\",1:\"§7Increases the chance for\",2:\"§7Monsters to drop their armor by\",3:\"§a30%\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aVI: §7Season of Jerry,\",10:\"§7Experiments\",11:\"\",12:\"§6Applied To:\",13:\"§7- §fSword\",14:\"§7- §fFishing Weapon\",15:\"§7- §fLongsword\",16:\"§7- §fGauntlet\",17:\"\",18:\"§9§lRARE\"],Name:\"§9Enchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Luck VI",
     "§7Increases the chance for",
     "§7Monsters to drop their armor by",
-    "§7§a30%§7",
+    "§a30%",
     "",
     "§7Use this on an item in an Anvil",
     "§7to apply it!",
@@ -25,9 +25,10 @@
     "§9§lRARE"
   ],
   "internalname": "LUCK;6",
-  "parent": "LUCK;4",
-  "modver": "2.1.0-REL",
-  "crafttext": "",
   "clickcommand": "",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "parent": "LUCK;4"
 }

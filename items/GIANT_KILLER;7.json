@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:enchanted_book",
-  "displayname": "§f§f§5Enchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Giant Killer VII\",1:\"§7Increases damage dealt by §a1.2%\",2:\"§a§7for each percent of extra\",3:\"§7health that your target has\",4:\"§7above you up to §a65%§7.\",5:\"\",6:\"§7Use this on an item in an Anvil\",7:\"§7to apply it!\",8:\"\",9:\"§6Source:\",10:\"§aVII: §7Experiments,\",11:\"§7Scorpius\",12:\"\",13:\"§6Applied To:\",14:\"§7- §fSword\",15:\"§7- §fFishing Weapon\",16:\"§7- §fLongsword\",17:\"§7- §fGauntlet\",18:\"\",19:\"§6Conflicts:\",20:\"§7- §cTitan Killer\",21:\"\",22:\"§5§lEPIC\"],Name:\"§f§f§5Enchanted Book\"},ExtraAttributes:{id:\"GIANT_KILLER;7\",enchantments:{giant_killer:7}}}",
+  "displayname": "§5Enchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{giant_killer:7},id:\"GIANT_KILLER;7\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Giant Killer VII\",1:\"§7Increases damage dealt by §a1.2%\",2:\"§7for each percent of extra\",3:\"§7health that your target has\",4:\"§7above you up to §a65%§7.\",5:\"\",6:\"§7Use this on an item in an Anvil\",7:\"§7to apply it!\",8:\"\",9:\"§6Source:\",10:\"§aVII: §7Experiments,\",11:\"§7Scorpius\",12:\"\",13:\"§6Applied To:\",14:\"§7- §fSword\",15:\"§7- §fFishing Weapon\",16:\"§7- §fLongsword\",17:\"§7- §fGauntlet\",18:\"\",19:\"§6Conflicts:\",20:\"§7- §cTitan Killer\",21:\"\",22:\"§5§lEPIC\"],Name:\"§5Enchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Giant Killer VII",
     "§7Increases damage dealt by §a1.2%",
-    "§a§7for each percent of extra",
+    "§7for each percent of extra",
     "§7health that your target has",
     "§7above you up to §a65%§7.",
     "",
@@ -29,9 +29,10 @@
     "§5§lEPIC"
   ],
   "internalname": "GIANT_KILLER;7",
-  "parent": "GIANT_KILLER;4",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "2.1.1-PRE",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "parent": "GIANT_KILLER;4"
 }

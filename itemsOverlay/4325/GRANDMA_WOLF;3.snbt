@@ -1,0 +1,35 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "GRANDMA_WOLF;3",
+			petInfo: '{"type":"GRANDMA_WOLF","tier":"EPIC","exp":0.0,"candyUsed":0}'
+		},
+		"minecraft:profile": {
+			id: [I;
+				103010673,
+				-8764796,
+				-1568578362,
+				214053622
+			],
+			name: "",
+			properties: [
+				{
+					name: "textures",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTYxMzQ5MDk3ODc1MiwKICAicHJvZmlsZUlkIiA6ICJjODE0MzE4MmQ1MDc0NjQ5YWZlODRmZDNmODY1NDQ2NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBWll4ViIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80ZTc5NDI3NGMxYmIxOTdhZDMwNjU0MDI4NmE3YWE5NTI5NzRmNTY2MWJjY2YyYjcyNTQyNGY2ZWQ3OWM3ODg0IgogICAgfQogIH0KfQ=="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:attribute_modifiers",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
+	}
+}

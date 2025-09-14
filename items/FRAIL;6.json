@@ -1,11 +1,11 @@
 {
   "itemid": "minecraft:enchanted_book",
-  "displayname": "§f§9Enchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Frail VI\",1:\"§7Sea creatures start with §a15%§7\",2:\"§7reduced health.\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§6Source:\",8:\"§aVI: §7Fishing\",9:\"\",10:\"§6Applied To:\",11:\"§7- §fFishing Rod\",12:\"§7- §fFishing Weapon\",13:\"\",14:\"§9§lRARE\"],Name:\"§f§9Enchanted Book\"},ExtraAttributes:{id:\"FRAIL;6\",enchantments:{frail:6}}}",
+  "displayname": "§9Enchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{frail:6},id:\"FRAIL;6\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Frail VI\",1:\"§7Sea creatures start with §a15%\",2:\"§7reduced health.\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§6Source:\",8:\"§aVI: §7Fishing\",9:\"\",10:\"§6Applied To:\",11:\"§7- §fFishing Rod\",12:\"§7- §fFishing Weapon\",13:\"\",14:\"§9§lRARE\"],Name:\"§9Enchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Frail VI",
-    "§7Sea creatures start with §a15%§7",
+    "§7Sea creatures start with §a15%",
     "§7reduced health.",
     "",
     "§7Use this on an item in an Anvil",
@@ -21,9 +21,10 @@
     "§9§lRARE"
   ],
   "internalname": "FRAIL;6",
-  "parent": "FRAIL;4",
-  "modver": "",
-  "crafttext": "",
   "clickcommand": "",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "parent": "FRAIL;4"
 }

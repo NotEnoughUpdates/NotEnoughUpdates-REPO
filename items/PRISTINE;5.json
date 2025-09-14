@@ -1,11 +1,11 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§aEnchanted Book",
-  "nbttag": "{ench:[],overrideMeta:1b,HideFlags:254,display:{Lore:[0:\"§9Prismatic V\",1:\"§7Grants §5+2.5 §5✧ Pristine§7, which\",2:\"§7increases the chance to improve the\",3:\"§7quality of dropped §dGemstones§7.\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aI-V: §7Gemstone Collection,\",10:\"§7Bazaar\",11:\"\",12:\"§6Applied To:\",13:\"§7- §fPickaxe\",14:\"§7- §fDrill\",15:\"§7- §fGauntlet\",16:\"\",17:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Book\"},ExtraAttributes:{originTag:\"QUICK_CRAFTING\",id:\"PRISTINE;5\",enchantments:{pristine:5}},AttributeModifiers:[]}",
+  "nbttag": "{ExtraAttributes:{enchantments:{pristine:5},id:\"PRISTINE;5\",originTag:\"QUICK_CRAFTING\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Prismatic V\",1:\"§7Grants §5+2.5 ✧ Pristine§7, which\",2:\"§7increases the chance to improve the\",3:\"§7quality of dropped §dGemstones§7.\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aI-V: §7Gemstone Collection,\",10:\"§7Bazaar\",11:\"\",12:\"§6Applied To:\",13:\"§7- §fPickaxe\",14:\"§7- §fDrill\",15:\"§7- §fGauntlet\",16:\"\",17:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Prismatic V",
-    "§7Grants §5+2.5 §5✧ Pristine§7, which",
+    "§7Grants §5+2.5 ✧ Pristine§7, which",
     "§7increases the chance to improve the",
     "§7quality of dropped §dGemstones§7.",
     "",
@@ -24,8 +24,9 @@
     "§a§lUNCOMMON"
   ],
   "internalname": "PRISTINE;5",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": []
 }

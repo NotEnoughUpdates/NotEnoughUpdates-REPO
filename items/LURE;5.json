@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:enchanted_book",
-  "displayname": "§f§f§aEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Lure V\",1:\"§7Shortens the maximum time it\",2:\"§7takes to catch something by\",3:\"§7§a25%§7.\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aI-V: §7Enchantment Table,\",10:\"§7Salmon Collection\",11:\"\",12:\"§6Applied To:\",13:\"§7- §fFishing Rod\",14:\"§7- §fFishing Weapon\",15:\"\",16:\"§a§lUNCOMMON\"],Name:\"§f§f§aEnchanted Book\"},ExtraAttributes:{id:\"LURE;5\",enchantments:{lure:5}}}",
+  "displayname": "§aEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{lure:5},id:\"LURE;5\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Lure V\",1:\"§7Shortens the maximum time it\",2:\"§7takes to catch something by\",3:\"§a25%§7.\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aI-V: §7Enchantment Table,\",10:\"§7Salmon Collection\",11:\"\",12:\"§6Applied To:\",13:\"§7- §fFishing Rod\",14:\"§7- §fFishing Weapon\",15:\"\",16:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Lure V",
     "§7Shortens the maximum time it",
     "§7takes to catch something by",
-    "§7§a25%§7.",
+    "§a25%§7.",
     "",
     "§7Use this on an item in an Anvil",
     "§7to apply it!",
@@ -23,9 +23,10 @@
     "§a§lUNCOMMON"
   ],
   "internalname": "LURE;5",
-  "parent": "LURE;4",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "2.0.0-REL",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "parent": "LURE;4"
 }

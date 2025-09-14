@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:enchanted_book",
-  "displayname": "§f§f§aEnchanted Book",
-  "nbttag": "{ench:[],overrideMeta:1b,HideFlags:254,display:{Lore:[0:\"§9§d§lChimera V\",1:\"§7Copies §a100% §7of your active\",2:\"§7pet\u0027s stats.\",3:\"\",4:\"§7§cYou can only have 1 Ultimate\",5:\"§cEnchantment on an item!\",6:\"\",7:\"§7Use this on an item in an Anvil\",8:\"§7to apply it!\",9:\"\",10:\"§6Source:\",11:\"§aI-V: §7Mythological Event\",12:\"\",13:\"§6Applied To:\",14:\"§7- §fSword\",15:\"§7- §fFishing Weapon\",16:\"§7- §fLongsword\",17:\"§7- §fGauntlet\",18:\"\",19:\"§a§lUNCOMMON\"],Name:\"§f§f§aEnchanted Book\"},ExtraAttributes:{id:\"ULTIMATE_CHIMERA;5\",enchantments:{ultimate_chimera:5}}}",
+  "displayname": "§aEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{ultimate_chimera:5},id:\"ULTIMATE_CHIMERA;5\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§d§lChimera V\",1:\"§7Copies §a100% §7of your active\",2:\"§7pet's stats.\",3:\"\",4:\"§cYou can only have 1 Ultimate\",5:\"§cEnchantment on an item!\",6:\"\",7:\"§7Use this on an item in an Anvil\",8:\"§7to apply it!\",9:\"\",10:\"§6Source:\",11:\"§aI-V: §7Mythological Event\",12:\"\",13:\"§6Applied To:\",14:\"§7- §fSword\",15:\"§7- §fFishing Weapon\",16:\"§7- §fLongsword\",17:\"§7- §fGauntlet\",18:\"\",19:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§9§d§lChimera V",
+    "§d§lChimera V",
     "§7Copies §a100% §7of your active",
-    "§7pet\u0027s stats.",
+    "§7pet's stats.",
     "",
-    "§7§cYou can only have 1 Ultimate",
+    "§cYou can only have 1 Ultimate",
     "§cEnchantment on an item!",
     "",
     "§7Use this on an item in an Anvil",
@@ -26,12 +26,12 @@
     "§a§lUNCOMMON"
   ],
   "internalname": "ULTIMATE_CHIMERA;5",
-  "parent": "ULTIMATE_CHIMERA;1",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "2.1.0-REL",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Ultimate_Enchantments"
-  ]
+  ],
+  "parent": "ULTIMATE_CHIMERA;1"
 }

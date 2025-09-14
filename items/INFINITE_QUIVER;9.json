@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:enchanted_book",
-  "displayname": "§f§f§dEnchanted Book",
-  "nbttag": "{ench:[],overrideMeta:1b,HideFlags:254,display:{Lore:[0:\"§9Infinite Quiver IX\",1:\"§7Saves arrows §a27%§7 of the time\",2:\"§7when you fire your bow. Disabled\",3:\"§7while sneaking.\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aIX: §7Dungeon\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fBow\",13:\"\",14:\"§d§lMYTHIC\"],Name:\"§f§f§dEnchanted Book\"},ExtraAttributes:{id:\"INFINITE_QUIVER;9\",enchantments:{infinite_quiver:9}},AttributeModifiers:[]}",
+  "displayname": "§dEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{infinite_quiver:9},id:\"INFINITE_QUIVER;9\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Infinite Quiver IX\",1:\"§7Saves arrows §a27%§7 of the time\",2:\"§7when you fire your bow. Disabled\",3:\"§7while sneaking.\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aIX: §7Dungeon\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fBow\",13:\"\",14:\"§d§lMYTHIC\"],Name:\"§dEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Infinite Quiver IX",
@@ -21,9 +21,10 @@
     "§d§lMYTHIC"
   ],
   "internalname": "INFINITE_QUIVER;9",
-  "parent": "INFINITE_QUIVER;4",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "2.1.0-REL",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "parent": "INFINITE_QUIVER;4"
 }
