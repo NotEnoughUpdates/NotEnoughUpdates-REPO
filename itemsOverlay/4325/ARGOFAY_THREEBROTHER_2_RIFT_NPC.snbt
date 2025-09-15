@@ -1,0 +1,32 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "ARGOFAY_THREEBROTHER_2_RIFT_NPC"
+		},
+		"minecraft:profile": {
+			id: [I;
+				-2010676043,
+				1776103299,
+				-1540761906,
+				1230822802
+			],
+			properties: [
+				{
+					name: "textures",
+					value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U4Nzc0Y2FiYWVjYjRhMDVhYTFhYTE2MzVmZGYzNjA3MGVlYmRkMTkyODdkNGJlMGM2ZTI1NjBhM2ZjMDk4NWIifX19"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
+	}
+}
