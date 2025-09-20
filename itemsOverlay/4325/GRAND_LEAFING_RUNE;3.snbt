@@ -1,0 +1,48 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "UNIQUE_RUNE",
+			runes: {
+				GRAND_LEAFING: 3
+			}
+		},
+		"minecraft:enchantment_glint_override": 1b,
+		"minecraft:profile": {
+			id: [I;
+				965602348,
+				-1575014261,
+				-1411552869,
+				-1299719607
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "qaG71oPObhksfkNrgPgh+tvDLibysCYKWdAV6VYrOsCOw2yGYwmBHQpPR2l3kz1PlrE0M9tX6Xp6rWQS8CEd7XrHqhlrOVi3xrPZz0f5M3XNEtDdZTvlywa5pS57eigxuFWjSz0A+h46pGIGqTO9Xhe8Eccio9NrhbHITnn/ZRW6TtLRyoLST3gcC/gtFjPYKlQCpyspvTMWLhp3LZgqiNZrvWveAKrqHHU8IjSeyIU3wqOYtw/sjYsIUh9JtSsL0oS5W+X1tJV8SRANwgsuSW19axit0B7SQT2q4j5c+KzOW7ZRfJBlPincdw0/LuaAIyCjDjJDGdy6aPqDGOv9ACpsL0xUiMn/K65zrVLRbsUJRqgDq/CfFl9x1hGb52j2c2edVST+MxbhOpTV3hel527beTdKSHtjyfXAFbvsQBqzMNDOn5GelWqDIEdYbDrw/UJCDzSB29UNm1rguTD93PYF1plh5YTXbIe3ruiFahE99I3kHWUBkN7Eb/9pdBiZaQvNR/fhj/n3BeGmGDp+nu7X3aFBWcoQyAeyZVzFnSg/1MVgl+vPidhgJDIk6OBBw+muV6pwHG44liu6HkU/wO8EEsz04Pdriha2nnRLnnIZmQyAp5D2AybPsJ5iwMVK0pKMKHdKiUjuyi2ueb/L4KkVXQM1Brf3wDTUcXQAdMg=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTc1Nzk1OTMzMTY5MCwKICAicHJvZmlsZUlkIiA6ICI1ZjU5NmViY2JlOTQ0NmQxYmI0M2JlNGYzZjRiOGJlNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZWlsMHNzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y4YjYzOWFiNGY3NTA5M2I0YzNhNGM0OTk0MzE5YjVjYTViMWJhNWExNDMyNjUxZmI5ZDRmMDAzNWI4MTVkNjIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.7.1-dev+mc1.21.5+g19c6b28"
+	}
+}
