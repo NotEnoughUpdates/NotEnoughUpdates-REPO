@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§6Sven Packmaster III (Boss)",
-  "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"7e9af289-f295-3f8c-bd54-58b7667d5759\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjlkMWQzMTEzZWM0M2FjMjk2MWRkNTlmMjgxNzVmYjQ3MTg4NzNjNmM0NDhkZmNhODcyMjMxN2Q2NyJ9fX0\"}]}},display:{Lore:[0:\"§8Strong\",1:\"\",2:\"§7Health: §c750,000❤\",3:\"§7Damage: §c180 §7per second\",4:\"§7True damage: §f50 §7per second\",5:\"\",6:\"§aAgile\",7:\"§7The wolf is small and fast, making\",8:\"§7it hard to hit.\",9:\"\",10:\"§fTrue Damage\",11:\"§7Ignores your defense. Very painful.\",12:\"\",13:\"§bCall the pups!\",14:\"§7At 50% health, calls its deadly pack\",15:\"§7of pups.\"],Name:\"§6Sven Packmaster III (Boss)\"},ExtraAttributes:{id:\"SVEN_PACKMASTER_3_BOSS\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SVEN_PACKMASTER_3_BOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"7e9af289-f295-3f8c-bd54-58b7667d5759\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjlkMWQzMTEzZWM0M2FjMjk2MWRkNTlmMjgxNzVmYjQ3MTg4NzNjNmM0NDhkZmNhODcyMjMxN2Q2NyJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Strong\",1:\"\",2:\"§7Health: §c750,000❤\",3:\"§7Damage: §c180 §7per second\",4:\"§7True damage: §f50 §7per second\",5:\"\",6:\"§aAgile\",7:\"§7The wolf is small and fast, making\",8:\"§7it hard to hit.\",9:\"\",10:\"§fTrue Damage\",11:\"§7Ignores your defense. Very painful.\",12:\"\",13:\"§bCall the pups!\",14:\"§7At 50% health, calls its deadly pack\",15:\"§7of pups.\"],Name:\"§6Sven Packmaster III (Boss)\"},ench:[]}",
   "damage": 3,
   "lore": [
     "§8Strong",
@@ -23,13 +23,13 @@
   ],
   "internalname": "SVEN_PACKMASTER_3_BOSS",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Sven_Packmaster",
     "https://wiki.hypixel.net/Sven_Packmaster"
   ],
-  "crafttext": "",
   "recipes": [
     {
       "xp": 100,
@@ -40,12 +40,16 @@
       "drops": [
         {
           "id": "WOLF_TOOTH",
-          "extra": ["x30-50"],
+          "extra": [
+            "x30-50"
+          ],
           "chance": "100%"
         },
         {
           "id": "HAMSTER_WHEEL",
-          "extra": ["x2-4"],
+          "extra": [
+            "x2-4"
+          ],
           "chance": "16.59%"
         },
         {

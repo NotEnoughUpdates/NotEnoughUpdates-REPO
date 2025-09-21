@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§aNot Chicken (Monster)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"00000000-0000-0000-0000-000000000000\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWI3MDIyOTY2ZTJkMTE4N2Q4NTFmYzI3ZWNkODgxYzA1YWUwNTMyZmYzNDIzN2ZkYjA4MGYwMjU4ZTNhZWUifX19\"}]}},display:{Lore:[0:\"§7Shoot with §9Berberis Blowgun §7to kill.\",1:\"§7Found near the §eDreadfarm §7in §dthe Rift§7.\",2:\"\",3:\"§c❤ Health§8: §c3\"],Name:\"§aNot Chicken (Monster)\"},ExtraAttributes:{id:\"NOT_CHICKEN_MONSTER\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"NOT_CHICKEN_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"00000000-0000-0000-0000-000000000000\",Properties:{textures:[0:{Name:\"textures\",Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWI3MDIyOTY2ZTJkMTE4N2Q4NTFmYzI3ZWNkODgxYzA1YWUwNTMyZmYzNDIzN2ZkYjA4MGYwMjU4ZTNhZWUifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Shoot with §9Berberis Blowgun §7to kill.\",1:\"§7Found near the §eDreadfarm §7in §dthe Rift§7.\",2:\"\",3:\"§c❤ Health§8: §c3\"],Name:\"§aNot Chicken (Monster)\"}}",
   "damage": 3,
   "lore": [
     "§7Shoot with §9Berberis Blowgun §7to kill.",
@@ -10,10 +10,14 @@
     "§c❤ Health§8: §c3"
   ],
   "internalname": "NOT_CHICKEN_MONSTER",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "2.1.1-PRE",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
   "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Not_Chicken",
+    "https://wiki.hypixel.net/Not_Chicken"
+  ],
   "recipes": [
     {
       "type": "drops",
@@ -34,9 +38,5 @@
       "xp": 0,
       "extra": []
     }
-  ],
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Not_Chicken",
-    "https://wiki.hypixel.net/Not_Chicken"
   ]
 }

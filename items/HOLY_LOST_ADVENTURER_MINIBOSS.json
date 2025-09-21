@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§5Holy Lost Adventurer (Miniboss)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"881e59ef-cb3d-3ad7-bdab-ddf2520a6806\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTljYzhiYTI2NzkzMjE4ZjZmNjQ5MTk0N2ExODM3ZmQ1Mjg3ODcwMWYzM2Y3NmJiZTI4ODNhNDVhYmE4YWI4ZiJ9fX0K\"}]}},display:{Lore:[0:\"§7Long lost to the depths of the\",1:\"§7Catacombs.\",2:\"\",3:\"§c❤ Health§8: §c60,000 - 7,000,000\",4:\"§c❤ Health §8(MM) : §c8,000,000 - 160,000,000\"],Name:\"§5Holy Lost Adventurer (Miniboss)\"},ExtraAttributes:{id:\"HOLY_LOST_ADVENTURER_MINIBOSS\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"HOLY_LOST_ADVENTURER_MINIBOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"881e59ef-cb3d-3ad7-bdab-ddf2520a6806\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTljYzhiYTI2NzkzMjE4ZjZmNjQ5MTk0N2ExODM3ZmQ1Mjg3ODcwMWYzM2Y3NmJiZTI4ODNhNDVhYmE4YWI4ZiJ9fX0K\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Long lost to the depths of the\",1:\"§7Catacombs.\",2:\"\",3:\"§c❤ Health§8: §c60,000 - 7,000,000\",4:\"§c❤ Health §8(MM) : §c8,000,000 - 160,000,000\"],Name:\"§5Holy Lost Adventurer (Miniboss)\"}}",
   "damage": 3,
   "lore": [
     "§7Long lost to the depths of the",
@@ -12,13 +12,13 @@
   ],
   "internalname": "HOLY_LOST_ADVENTURER_MINIBOSS",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Lost_Adventurer",
     "https://wiki.hypixel.net/Lost_Adventurer"
   ],
-  "crafttext": "",
   "recipes": [
     {
       "combat_xp": 100,
@@ -39,7 +39,9 @@
         },
         {
           "id": "ESSENCE_DRAGON",
-          "extra": ["x3-5"],
+          "extra": [
+            "x3-5"
+          ],
           "chance": "100%"
         }
       ]
