@@ -1,0 +1,38 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aKey Guardian (Monster)",
+  "nbttag": "{ExtraAttributes:{id:\"KEY_GUARDIAN_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"32c56f35-dc8d-36ca-afd0-eb036a015e2d\",Properties:{textures:[0:{Name:\"textures\",Signature:\"jKHyruPNYLD68AUw2YxQyOS/vxsZ5hE2O2/S7HXkIGCvUGtXcfjebna5tHGoXTLo0DG+KXyJ4LiGtpnjBYXeuJPACxowyAzHnkzEzP9TRqgU8Vz7yfbYYl1aunCWYeHL6e4aO9UPISyrF9aSExJdr+2iyZJ0PBVPvrl3Sb82CP/wiyaiJfk+z2wK1yo7eceM75Xm1/SNYyGPteM+37y0x2NTAkfE7AFG9sClBHRgRwrJvzWBYzaZXGhq03FOLO7qYjv7/lndX2Ghlekc/pRh6O2Ao2P1LWpkWR93K6CiyNFE+Z7t+asrWIElxO7OlBaC8y4MBoafc37jTBp9MH6ZWXS9lDzSA+5bxgfE94okYJdzNuNz7Gb9bxiLaixuo8DnxEB0iiKbhy7o7rQRitiKdY9V8X22TMaaQcyise/W7ARude4qQiBf69nRGN4lJ+1BUEcBxm6jrbkn1OUEZdXl+dKurX6UsXlEMq1O+SglWRaZhnAIKUyPRvzbQXUpFiihbTCEIihCRhW/TIZIonXChKmSUA1nWamPKyX6NZISX1Cam7nCn7HJzjIFUsRtPvsVUThl6bKQzRePH0Fkk2gmGfa6wUV/lT4p0/RpuMzSmPAkITId8jLVKlSqxODMoqe4kQS+zCXzajFM4jmNISq/9Kw7LPwKF99mgyzX+Mz5jv8=\",Value:\"eyJ0aW1lc3RhbXAiOjE0NjczMTAxMjg5MzAsInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJJbnZlbnRpdmVHYW1lcyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZmYzg1NGJiODRjZjRiNzY5NzI5Nzk3M2UwMmI3OWJjMTA2OTg0NjBiNTFhNjM5YzYwZTVlNDE3NzM0ZTExIn19fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §2༕ Undead§7, §6⛏ Subterranean\",1:\"§c❤ Health§8: §c250,000\",2:\"§c❁ Damage§8: §c100\"],Name:\"§aKey Guardian (Monster)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Types: §2༕ Undead§7, §6⛏ Subterranean",
+    "§c❤ Health§8: §c250,000",
+    "§c❁ Damage§8: §c100"
+  ],
+  "internalname": "KEY_GUARDIAN_MONSTER",
+  "clickcommand": "viewrecipe",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Key_Guardian",
+    "https://wiki.hypixel.net/Key_Guardian"
+  ],
+  "crafttext": "",
+  "recipes": [
+    {
+      "level": 100,
+      "coins": 8,
+      "xp": 6,
+      "combat_xp": 60,
+      "name": "§cKey Guardian",
+      "render": "@neurepo:mobs/key_guardian.json",
+      "panorama": "hub",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "JUNGLE_KEY:1",
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}
