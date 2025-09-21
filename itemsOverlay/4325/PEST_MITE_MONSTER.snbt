@@ -1,0 +1,33 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "PEST_MITE_MONSTER"
+		},
+		"minecraft:profile": {
+			id: [I;
+				-1381064664,
+				-1726598772,
+				-2064752614,
+				940238699
+			],
+			name: "",
+			properties: [
+				{
+					name: "textures",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTY5Njg3MDQxOTcyNSwKICAicHJvZmlsZUlkIiA6ICJkYjYzNWE3MWI4N2U0MzQ5YThhYTgwOTMwOWFhODA3NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbmdlbHMxNzQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmU2YmFmNjQzMWE5ZGFhMmNhNjA0ZDVhM2MyNmU5YTc2MWQ1OTUyZjA4MTcxNzRhNGZlMGI3NjQ2MTZlMjFmZiIKICAgIH0KICB9Cn0"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.7.1-dev+mc1.21.5+g19c6b28"
+	}
+}

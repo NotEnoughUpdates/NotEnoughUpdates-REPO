@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§5Frozen Adventurer (Miniboss)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"e9604568-dd39-3081-a5e2-541467b9d2db\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTVhMTNiYjQ4ZTM1OTViNTVkZThkZDY5NDNmYzM4ZGI1MjM1MzcxMjc4YzY5NWJkNDUzZTQ5YTA5OTkifX19\"}]}},display:{Lore:[0:\"§7Long lost to the depths of the\",1:\"§7Catacombs.\",2:\"\",3:\"§c❤ Health§8: §c1,100,000 - 6,600,000\",4:\"§c❤ Health §8(MM) : §c60,000,000 - 160,000,000\"],Name:\"§5Frozen Adventurer (Miniboss)\"},ExtraAttributes:{id:\"FROZEN_ADVENTURER_MINIBOSS\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"FROZEN_ADVENTURER_MINIBOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"e9604568-dd39-3081-a5e2-541467b9d2db\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTVhMTNiYjQ4ZTM1OTViNTVkZThkZDY5NDNmYzM4ZGI1MjM1MzcxMjc4YzY5NWJkNDUzZTQ5YTA5OTkifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Long lost to the depths of the\",1:\"§7Catacombs.\",2:\"\",3:\"§c❤ Health§8: §c1,100,000 - 6,600,000\",4:\"§c❤ Health §8(MM) : §c60,000,000 - 160,000,000\"],Name:\"§5Frozen Adventurer (Miniboss)\"}}",
   "damage": 3,
   "lore": [
     "§7Long lost to the depths of the",
@@ -12,13 +12,13 @@
   ],
   "internalname": "FROZEN_ADVENTURER_MINIBOSS",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Frozen_Adventurer",
     "https://wiki.hypixel.net/Frozen_Adventurer"
   ],
-  "crafttext": "",
   "recipes": [
     {
       "combat_xp": 180,
@@ -51,7 +51,9 @@
         },
         {
           "id": "ESSENCE_ICE",
-          "extra": ["x4-5"],
+          "extra": [
+            "x4-5"
+          ],
           "chance": "100%"
         }
       ]

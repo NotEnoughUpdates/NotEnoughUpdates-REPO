@@ -1,11 +1,11 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§6Necron (Boss)",
-  "nbttag": "{ench:[],overrideMeta:1b,display:{Lore:[0:\"§7Necron is the boss of Floor 7 of the Catacombs. He is\",1:\"§7a \u0027Wither Lord\u0027 and has 4 phases. In the 1st he must be\",2:\"§7killed after being frozen by Energy Crystals. In the 2nd he\",3:\"§7must be crushed with Pillars. In the 3rd the Player must solve\",4:\"§7terminals and must be killed again normally in the 4th.\",5:\"\",6:\"§7Maxor:\",7:\"§c❤ Health§8: §c100.000.000\",8:\"§c❤ Health §8(MM): §c800.000.000\",9:\"§a❈ Defense §8(MM): §a1.000\",10:\"\",11:\"§7Storm:\",12:\"§c❤ Health§8: §c400.000.000\",13:\"§c❤ Health §8(MM): §c1.000.000.000\",14:\"§a❈ Defense §8(MM): §a1.200\",15:\"\",16:\"§7Goldor:\",17:\"§c❤ Health§8: §c750.000.000\",18:\"§c❤ Health §8(MM): §c1.200.000.000\",19:\"§a❈ Defense §8(MM): §a1.800\",20:\"\",21:\"§7Necron:\",22:\"§c❤ Health§8: §c1.000.000.000\",23:\"§c❤ Health §8(MM): §c1.400.000.000\",24:\"§a❈ Defense §8(MM): §a2.100\",25:\"\",26:\"§7Withered Dragon §8(MM):\",27:\"§c❤ Health§8: §c900.000.000\",28:\"§a❈ Defense: §a3.700\"],Name:\"§6Necron (Boss)\"},ExtraAttributes:{id:\"NECRON_BOSS\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"NECRON_BOSS\"},HideFlags:254,ItemModel:\"minecraft:wither_skeleton_skull\",display:{Lore:[0:\"§7Necron is the boss of Floor 7 of the Catacombs. He is\",1:\"§7a 'Wither Lord' and has 4 phases. In the 1st he must be\",2:\"§7killed after being frozen by Energy Crystals. In the 2nd he\",3:\"§7must be crushed with Pillars. In the 3rd the Player must solve\",4:\"§7terminals and must be killed again normally in the 4th.\",5:\"\",6:\"§7Maxor:\",7:\"§c❤ Health§8: §c100.000.000\",8:\"§c❤ Health §8(MM): §c800.000.000\",9:\"§a❈ Defense §8(MM): §a1.000\",10:\"\",11:\"§7Storm:\",12:\"§c❤ Health§8: §c400.000.000\",13:\"§c❤ Health §8(MM): §c1.000.000.000\",14:\"§a❈ Defense §8(MM): §a1.200\",15:\"\",16:\"§7Goldor:\",17:\"§c❤ Health§8: §c750.000.000\",18:\"§c❤ Health §8(MM): §c1.200.000.000\",19:\"§a❈ Defense §8(MM): §a1.800\",20:\"\",21:\"§7Necron:\",22:\"§c❤ Health§8: §c1.000.000.000\",23:\"§c❤ Health §8(MM): §c1.400.000.000\",24:\"§a❈ Defense §8(MM): §a2.100\",25:\"\",26:\"§7Withered Dragon §8(MM):\",27:\"§c❤ Health§8: §c900.000.000\",28:\"§a❈ Defense: 3.700\"],Name:\"§6Necron (Boss)\"},ench:[]}",
   "damage": 1,
   "lore": [
     "§7Necron is the boss of Floor 7 of the Catacombs. He is",
-    "§7a \u0027Wither Lord\u0027 and has 4 phases. In the 1st he must be",
+    "§7a 'Wither Lord' and has 4 phases. In the 1st he must be",
     "§7killed after being frozen by Energy Crystals. In the 2nd he",
     "§7must be crushed with Pillars. In the 3rd the Player must solve",
     "§7terminals and must be killed again normally in the 4th.",
@@ -32,17 +32,17 @@
     "",
     "§7Withered Dragon §8(MM):",
     "§c❤ Health§8: §c900.000.000",
-    "§a❈ Defense: §a3.700"
+    "§a❈ Defense: 3.700"
   ],
   "internalname": "NECRON_BOSS",
   "clickcommand": "",
-  "modver": "2.1.0-REL",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Necron",
     "https://wiki.hypixel.net/Necron"
   ],
-  "crafttext": "",
   "recipes": [
     {
       "name": "§cNecron",
@@ -53,82 +53,114 @@
         {
           "id": "NECRON_HANDLE",
           "chance": "0.1%",
-          "extra": ["§e§lChest Price: §6100,000,000 coins"]
+          "extra": [
+            "§e§lChest Price: §6100,000,000 coins"
+          ]
         },
         {
           "id": "WITHER_SHIELD_SCROLL",
           "chance": "0.13%",
-          "extra": ["§e§lChest Price: §650,000,000 coins"]
+          "extra": [
+            "§e§lChest Price: §650,000,000 coins"
+          ]
         },
         {
           "id": "IMPLOSION_SCROLL",
           "chance": "0.13%",
-          "extra": ["§e§lChest Price: §650,000,000 coins"]
+          "extra": [
+            "§e§lChest Price: §650,000,000 coins"
+          ]
         },
         {
           "id": "SHADOW_WARP_SCROLL",
           "chance": "0.13%",
-          "extra": ["§e§lChest Price: §650,000,000 coins"]
+          "extra": [
+            "§e§lChest Price: §650,000,000 coins"
+          ]
         },
         {
           "id": "AUTO_RECOMBOBULATOR",
           "chance": "0.53%",
-          "extra": ["§e§lChest Price: §610,000,000 coins"]
+          "extra": [
+            "§e§lChest Price: §610,000,000 coins"
+          ]
         },
         {
           "id": "MAXOR_THE_FISH",
           "chance": "0.32%",
-          "extra": ["§e§lChest Price: §62,000,000 coins"]
+          "extra": [
+            "§e§lChest Price: §62,000,000 coins"
+          ]
         },
         {
           "id": "STORM_THE_FISH",
           "chance": "0.32%",
-          "extra": ["§e§lChest Price: §62,000,000 coins"]
+          "extra": [
+            "§e§lChest Price: §62,000,000 coins"
+          ]
         },
         {
           "id": "GOLDOR_THE_FISH",
           "chance": "0.32%",
-          "extra": ["§e§lChest Price: §62,000,000 coins"]
+          "extra": [
+            "§e§lChest Price: §62,000,000 coins"
+          ]
         },
         {
           "id": "ULTIMATE_ONE_FOR_ALL;1",
           "chance": "0.59%",
-          "extra": ["§e§lChest Price: §62,000,000 coins"]
+          "extra": [
+            "§e§lChest Price: §62,000,000 coins"
+          ]
         },
         {
           "id": "WITHER_CLOAK",
           "chance": "5.44%",
-          "extra": ["§e§lChest Price: §64,500,000 coins"]
+          "extra": [
+            "§e§lChest Price: §64,500,000 coins"
+          ]
         },
         {
           "id": "WITHER_BLOOD",
           "chance": "5.95%",
-          "extra": ["§e§lChest Price: §63,000,000 coins"]
+          "extra": [
+            "§e§lChest Price: §63,000,000 coins"
+          ]
         },
         {
           "id": "WITHER_CATALYST",
           "chance": "5.27%",
-          "extra": ["§e§lChest Price: §62,000,000 coins"]
+          "extra": [
+            "§e§lChest Price: §62,000,000 coins"
+          ]
         },
         {
           "id": "PRECURSOR_GEAR",
           "chance": "15.7%",
-          "extra": ["§e§lChest Price: §62,000,000 coins"]
+          "extra": [
+            "§e§lChest Price: §62,000,000 coins"
+          ]
         },
         {
           "id": "WITHER_HELMET",
           "chance": "5.95%",
-          "extra": ["§e§lChest Price: §64,000,000 coins"]
+          "extra": [
+            "§e§lChest Price: §64,000,000 coins"
+          ]
         },
         {
           "id": "WITHER_CHESTPLATE",
           "chance": "0.53%",
-          "extra": ["§e§lChest Price: §610,000,000 coins"]
+          "extra": [
+            "§e§lChest Price: §610,000,000 coins"
+          ]
         },
         {
           "id": "WITHER_LEGGINGS",
           "chance": "3.43%",
-          "extra": ["§e§lChest Price: §66,000,000 coins"]
+          "extra": [
+            "§e§lChest Price: §66,000,000 coins"
+          ]
         },
         {
           "id": "WITHER_BOOTS",

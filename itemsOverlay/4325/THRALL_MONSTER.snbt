@@ -1,0 +1,32 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "THRALL_MONSTER"
+		},
+		"minecraft:profile": {
+			id: [I;
+				-2053512005,
+				-1059503655,
+				-1806862246,
+				-1416864988
+			],
+			properties: [
+				{
+					name: "textures",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTY4MDQ4Nzc0MTg2NSwKICAicHJvZmlsZUlkIiA6ICI4NDk1NTRmOWYzMGQ0NWQxYjUwNGY4ZDYzZmExZTM1OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSYWtoYVNoaSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hZDBiOGNkODY1ZDViMDBmMGQ1ZDAwZmRjYzI4NDMxNjQxMjAyMWVmYzA5YzY3ODIyM2Y4M2I1YTNmOTRkNTBkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.7.1-dev+mc1.21.5+g19c6b28"
+	}
+}

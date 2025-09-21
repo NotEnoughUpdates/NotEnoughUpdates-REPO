@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§6Revenant Horror II (Boss)",
-  "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"4bd5a615-7c98-37fb-8bd5-a6157c9827fb\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZjMDE4NDQ3M2ZlODgyZDI4OTVjZTdjYmM4MTk3YmQ0MGZmNzBiZjEwZDM3NDVkZTk3YjZjMmE5YzVmYzc4ZiJ9fX0\u003d\"}]}},display:{Lore:[0:\"§8Strong\",1:\"\",2:\"§7Health: §c20,000❤\",3:\"§7Damage: §c25 §7per second\",4:\"\",5:\"§aLife Drain\",6:\"§7Drains health every few seconds.\",7:\"\",8:\"§aPestilence\",9:\"§7Deals AOE damage every second,\",10:\"§7shredding armor by 25%.\"],Name:\"§6Revenant Horror II (Boss)\"},ExtraAttributes:{id:\"REVENANT_HORROR_2_BOSS\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"REVENANT_HORROR_2_BOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"4bd5a615-7c98-37fb-8bd5-a6157c9827fb\",Properties:{textures:[0:{Name:\"textures\",Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZjMDE4NDQ3M2ZlODgyZDI4OTVjZTdjYmM4MTk3YmQ0MGZmNzBiZjEwZDM3NDVkZTk3YjZjMmE5YzVmYzc4ZiJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Strong\",1:\"\",2:\"§7Health: §c20,000❤\",3:\"§7Damage: §c25 §7per second\",4:\"\",5:\"§aLife Drain\",6:\"§7Drains health every few seconds.\",7:\"\",8:\"§aPestilence\",9:\"§7Deals AOE damage every second,\",10:\"§7shredding armor by 25%.\"],Name:\"§6Revenant Horror II (Boss)\"},ench:[]}",
   "damage": 3,
   "lore": [
     "§8Strong",
@@ -18,13 +18,13 @@
   ],
   "internalname": "REVENANT_HORROR_2_BOSS",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Revenant_Horror",
     "https://wiki.hypixel.net/Revenant_Horror"
   ],
-  "crafttext": "",
   "recipes": [
     {
       "xp": 25,
@@ -35,12 +35,16 @@
       "drops": [
         {
           "id": "REVENANT_FLESH",
-          "extra": ["x9-18"],
+          "extra": [
+            "x9-18"
+          ],
           "chance": "100%"
         },
         {
           "id": "FOUL_FLESH",
-          "extra": ["x1-2"],
+          "extra": [
+            "x1-2"
+          ],
           "chance": "16.16%"
         },
         {

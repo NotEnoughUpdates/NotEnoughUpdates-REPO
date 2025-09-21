@@ -1,0 +1,34 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "SCARF_BOSS"
+		},
+		"minecraft:enchantment_glint_override": 1b,
+		"minecraft:profile": {
+			id: [I;
+				-1958884541,
+				-156745967,
+				-1768290164,
+				135379804
+			],
+			name: "",
+			properties: [
+				{
+					name: "textures",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTU4OTc5MzA2ODgzOSwKICAicHJvZmlsZUlkIiA6ICIyYzEwNjRmY2Q5MTc0MjgyODRlM2JmN2ZhYTdlM2UxYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOYWVtZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83ZGU3YmJiZGYyMmJmZTE3OTgwZDRlMjA2ODdlMzg2ZjExZDU5ZWUxZGI2ZjhiNDc2MjM5MWI3OWE1YWM1MzJkIgogICAgfQogIH0KfQ"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.7.1-dev+mc1.21.5+g19c6b28"
+	}
+}
