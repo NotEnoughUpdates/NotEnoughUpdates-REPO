@@ -3,7 +3,6 @@
 		"minecraft:custom_data": {
 			id: "SHARK_PERSONALITY"
 		},
-		"minecraft:dyed_color": 10511680,
 		"minecraft:profile": {
 			id: [I;
 				1289653731,
@@ -11,17 +10,27 @@
 				-1110542204,
 				709725994
 			],
-			name: "",
 			properties: [
 				{
 					name: "textures",
+					signature: "ZjuqZ9m4avFVR9x1vzoFmIi/t4bID3Se4pXb/CCY5T++Vyvpz1mW51HA3gFH6mslILVJyDHxpW+2JG21bzQvXuFJInxLRAS3OlwiGir62w2NSHTNNL+scgu1MzsaXQPjPuHEVax0l1L00posNYRUleEXmWPvUkpNfoP7Zzv64Eb4gHGEXbklu+JQfxgdavlUp809YRSatLxPwmvKXHM/mnFQwdab3oDt9fpS8IILiwRF567/v93A2JTAVp9WpFf4ng+smZUe9851Q01h7qZH2gPPN03sF/B0zrshpZmq/CmH7WybJDC5k6eKtsCZSKv3FcitJIE2huLa1bqO7q7HURnkZEnrmfo18I1YkCjlBlZY6QZ9VVoLjKj1YY7HfzlB/SjmkigGxY6/AUv1swf8+14HoVKq9pKStxsC1CC/vv2M2aKpbAta4PgtxSFoIns7kRGVz23WcPH9Xa3j875ce+S7pr+x1vy7Gawp+omb0kXWTcXOSNh2skIHAt1w7CHiVxrh9dIFkTVsVW3rOvdGC1PDbZFWd8MWCau+JE2wuTC+p34DSXk7kRtCsQYM9v96VFNL/s1cE6KOPZHljixdEH4VmCpR30f5toeXK2z/Xl4WD0fH8hfyvH5ftY8pHAjw996L58OnlErA5pIooQBNdTlapGELPw4VTu6iDu+hwYA=",
 					value: "ewogICJ0aW1lc3RhbXAiIDogMTYyNDkwOTE3ODU0NywKICAicHJvZmlsZUlkIiA6ICI2NGExOGZiZmQ0YWY0Yzg0YjliN2FjZmNlNDRmMTAzZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJieVJPTkFMX1lUIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIwOGNmMzI1OGYzYjk3YmM3MTlmZTNmMmZiN2UxOTUxMWZlODNlYTBiY2Q4NmYzOWUyYzk4NGQyM2Y2ZWM4MDYiCiAgICB9CiAgfQp9"
 				}
 			]
 		},
 		"minecraft:tooltip_display": {
 			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
 				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
 				"minecraft:dyed_color"
 			]
 		}
@@ -30,6 +39,6 @@
 	id: "minecraft:player_head",
 	source: {
 		dataVersion: 4325,
-		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g64ef955"
+		modVersion: "Firmament 3.7.1-dev+mc1.21.5+g19c6b28"
 	}
 }
