@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:enchanted_book",
-  "displayname": "§f§f§aEnchanted Book",
-  "nbttag": "{ench:[],overrideMeta:1b,HideFlags:254,display:{Lore:[0:\"§9Venomous V\",1:\"§7Reduces the target\u0027s walk speed\",2:\"§7by §a25% §7and deals §2+1.5% §7of\",3:\"§7your damage per second per hit,\",4:\"§7stacking globally up to §240\",5:\"§2§7hits. Lasts §65s§7.\",6:\"\",7:\"§7Use this on an item in an Anvil\",8:\"§7to apply it!\",9:\"\",10:\"§6Source:\",11:\"§aI-V: §7Enchantment Table,\",12:\"§7Spider Eye Collection\",13:\"\",14:\"§6Applied To:\",15:\"§7- §fSword\",16:\"§7- §fFishing Weapon\",17:\"§7- §fLongsword\",18:\"§7- §fGauntlet\",19:\"\",20:\"§a§lUNCOMMON\"],Name:\"§f§f§aEnchanted Book\"},ExtraAttributes:{id:\"VENOMOUS;5\",enchantments:{venomous:5}},AttributeModifiers:[]}",
+  "displayname": "§aEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{venomous:5},id:\"VENOMOUS;5\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Venomous V\",1:\"§7Reduces the target's walk speed\",2:\"§7by §a25% §7and deals §2+1.5% §7of\",3:\"§7your damage per second per hit,\",4:\"§7stacking globally up to §240\",5:\"§7hits. Lasts §65s§7.\",6:\"\",7:\"§7Use this on an item in an Anvil\",8:\"§7to apply it!\",9:\"\",10:\"§6Source:\",11:\"§aI-V: §7Enchantment Table,\",12:\"§7Spider Eye Collection\",13:\"\",14:\"§6Applied To:\",15:\"§7- §fSword\",16:\"§7- §fFishing Weapon\",17:\"§7- §fLongsword\",18:\"§7- §fGauntlet\",19:\"\",20:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Venomous V",
-    "§7Reduces the target\u0027s walk speed",
+    "§7Reduces the target's walk speed",
     "§7by §a25% §7and deals §2+1.5% §7of",
     "§7your damage per second per hit,",
     "§7stacking globally up to §240",
-    "§2§7hits. Lasts §65s§7.",
+    "§7hits. Lasts §65s§7.",
     "",
     "§7Use this on an item in an Anvil",
     "§7to apply it!",
@@ -27,9 +27,10 @@
     "§a§lUNCOMMON"
   ],
   "internalname": "VENOMOUS;5",
-  "parent": "VENOMOUS;4",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "2.1.0-REL",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "parent": "VENOMOUS;4"
 }

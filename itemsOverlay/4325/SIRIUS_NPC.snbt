@@ -1,0 +1,32 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "SIRIUS_NPC"
+		},
+		"minecraft:profile": {
+			id: [I;
+				1541004065,
+				-951966448,
+				-1968906986,
+				-626352379
+			],
+			properties: [
+				{
+					name: "textures",
+					value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdhYjgzODU4ZWJjOGVlODVjM2U1NGFiMTNhYWJmY2MxZWYyYWQ0NDZkNmE5MDBlNDcxYzNmMzNiNzg5MDZhNWIifX19"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
+	}
+}

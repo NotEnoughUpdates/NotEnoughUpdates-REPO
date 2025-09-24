@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§aShellwise (Animal)",
-  "nbttag": "{ExtraAttributes:{id:\"SHELLWISE_ANIMAL\"},HideFlags:254,SkullOwner:{Id:\"01b77ad6-2139-3bec-81b7-7ad621397bec\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5MDc5MzEzNjM1NiwKICAicHJvZmlsZUlkIiA6ICJlZDUzZGQ4MTRmOWQ0YTNjYjRlYjY1MWRjYmE3N2U2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJGbGF3Q3JhQm90MDAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTMyYWI1Y2IzYjkzMTBmZGNlMDg1MmVmNGYzMjE4NDc3Nzc4ZmM0ZDJjYjIzYmMyYjE1MDgzNDU2MDQzYzg4YiIKICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§7Mob Types: §2⸙ Woodland§7, §9⚓ Aquatic§7, §a☮ Animal\",1:\"§c❤ Health§8: §c1,000 - 1,500\"],Name:\"§aShellwise (Animal)\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SHELLWISE_ANIMAL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"01b77ad6-2139-3bec-81b7-7ad621397bec\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5MDc5MzEzNjM1NiwKICAicHJvZmlsZUlkIiA6ICJlZDUzZGQ4MTRmOWQ0YTNjYjRlYjY1MWRjYmE3N2U2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJGbGF3Q3JhQm90MDAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTMyYWI1Y2IzYjkzMTBmZGNlMDg1MmVmNGYzMjE4NDc3Nzc4ZmM0ZDJjYjIzYmMyYjE1MDgzNDU2MDQzYzg4YiIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §2⸙ Woodland§7, §9⚓ Aquatic§7, §a☮ Animal\",1:\"§c❤ Health§8: §c1,000 - 1,500\"],Name:\"§aShellwise (Animal)\"}}",
   "damage": 3,
   "lore": [
     "§7Mob Types: §2⸙ Woodland§7, §9⚓ Aquatic§7, §a☮ Animal",
@@ -9,9 +9,12 @@
   ],
   "internalname": "SHELLWISE_ANIMAL",
   "clickcommand": "viewrecipe",
-  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd660",
-  "infoType": "WIKI_URL",
   "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Shellwise"
+  ],
   "recipes": [
     {
       "level": 5,
@@ -31,8 +34,5 @@
         }
       ]
     }
-  ],
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Shellwise"
   ]
 }

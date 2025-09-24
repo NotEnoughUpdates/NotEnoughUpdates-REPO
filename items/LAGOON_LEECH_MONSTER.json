@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§aLagoon Leech (Monster)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"db3815d5-5c69-43ec-b35c-12d47d6baf14\",hypixelPopulated:1b,Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGY3ZWRlOWM4OGYxYzMzYzk1NGJiYzgxYzhkYTg3MWNhYmZjYzIzZDU1ZjhiNDkzYTU4OWY4MjM5ZDZjMzkifX19\"}]},Name:\"§db3815d5-5c69-43ec-b35c-12d47d6baf14\"},display:{Lore:[0:\"§7Found in the §3Black Lagoon§7.\",1:\"\",2:\"§c❤ Health§8: §c80\"],Name:\"§aLagoon Leech (Monster)\"},ExtraAttributes:{id:\"LAGOON_LEECH_MONSTER\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"LAGOON_LEECH_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"db3815d5-5c69-43ec-b35c-12d47d6baf14\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGY3ZWRlOWM4OGYxYzMzYzk1NGJiYzgxYzhkYTg3MWNhYmZjYzIzZDU1ZjhiNDkzYTU4OWY4MjM5ZDZjMzkifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Found in the §3Black Lagoon§7.\",1:\"\",2:\"§c❤ Health§8: §c80\"],Name:\"§aLagoon Leech (Monster)\"}}",
   "damage": 3,
   "lore": [
     "§7Found in the §3Black Lagoon§7.",
@@ -9,10 +9,14 @@
     "§c❤ Health§8: §c80"
   ],
   "internalname": "LAGOON_LEECH_MONSTER",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "2.1.1-PRE",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
   "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Lagoon_Leech",
+    "https://wiki.hypixel.net/Lagoon_Leech"
+  ],
   "recipes": [
     {
       "coins": 0,
@@ -38,9 +42,5 @@
         }
       ]
     }
-  ],
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Lagoon_Leech",
-    "https://wiki.hypixel.net/Lagoon_Leech"
   ]
 }

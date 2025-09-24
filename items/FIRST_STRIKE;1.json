@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§fEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9First Strike I\",1:\"§7Increases melee damage dealt by\",2:\"§7§a25% §7for the first hit on a\",3:\"§7mob.\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aI-IV: §7Enchantment Table,\",10:\"§7Gravel Collection\",11:\"\",12:\"§6Applied To:\",13:\"§7- §fSword\",14:\"§7- §fFishing Weapon\",15:\"§7- §fLongsword\",16:\"§7- §fGauntlet\",17:\"\",18:\"§6Conflicts:\",19:\"§7- §cTriple-Strike\",20:\"\",21:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"FIRST_STRIKE;1\",enchantments:{first_strike:1}}}",
+  "nbttag": "{ExtraAttributes:{enchantments:{first_strike:1},id:\"FIRST_STRIKE;1\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9First Strike I\",1:\"§7Increases melee damage dealt by\",2:\"§a25% §7for the first hit on a\",3:\"§7mob.\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aI-IV: §7Enchantment Table,\",10:\"§7Gravel Collection\",11:\"\",12:\"§6Applied To:\",13:\"§7- §fSword\",14:\"§7- §fFishing Weapon\",15:\"§7- §fLongsword\",16:\"§7- §fGauntlet\",17:\"\",18:\"§6Conflicts:\",19:\"§7- §cTriple-Strike\",20:\"\",21:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9First Strike I",
     "§7Increases melee damage dealt by",
-    "§7§a25% §7for the first hit on a",
+    "§a25% §7for the first hit on a",
     "§7mob.",
     "",
     "§7Use this on an item in an Anvil",
@@ -28,9 +28,10 @@
     "§f§lCOMMON"
   ],
   "internalname": "FIRST_STRIKE;1",
-  "parent": "FIRST_STRIKE;3",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "2.1.0-REL",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "parent": "FIRST_STRIKE;3"
 }

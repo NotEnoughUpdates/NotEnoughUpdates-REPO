@@ -1,0 +1,73 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			dungeon_potion: 1b,
+			effects: [
+				{
+					duration_ticks: 48000,
+					effect: "regeneration",
+					level: 3
+				},
+				{
+					duration_ticks: 48000,
+					effect: "strength",
+					level: 3
+				},
+				{
+					duration_ticks: 48000,
+					effect: "critical",
+					level: 2
+				},
+				{
+					duration_ticks: 48000,
+					effect: "speed",
+					level: 2
+				},
+				{
+					duration_ticks: 48000,
+					effect: "resistance",
+					level: 2
+				}
+			],
+			id: "POTION",
+			potion: "regeneration",
+			potion_level: 3,
+			potion_name: "Dungeon",
+			potion_type: "POTION",
+			splash: 0b
+		},
+		"minecraft:potion_contents": {
+			custom_effects: [
+				{
+					amplifier: 2b,
+					duration: 20,
+					id: "minecraft:regeneration",
+					show_icon: 1b
+				}
+			],
+			potion: "minecraft:regeneration"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:potion",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.7.1-dev+mc1.21.5+g19c6b28"
+	}
+}

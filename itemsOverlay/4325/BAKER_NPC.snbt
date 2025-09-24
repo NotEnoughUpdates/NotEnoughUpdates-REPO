@@ -1,0 +1,32 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "BAKER_NPC"
+		},
+		"minecraft:profile": {
+			id: [I;
+				1581893649,
+				-1391121538,
+				-1386810266,
+				982607010
+			],
+			properties: [
+				{
+					name: "textures",
+					value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzEwOGI3YjVhYWU1MzU3OTc2OWMwMTNhMjY1NmEzM2QyZmI4MzE4Njg1ZDc0YWNlMWExYzY2NWFkNjdhODNiMzgifX19"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
+	}
+}

@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:enchanted_book",
-  "displayname": "§f§f§aEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Efficiency V\",1:\"§7Increases how quickly your tool\",2:\"§7breaks blocks.\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§6Source:\",8:\"§aI-V: §7Enchantment Table,\",9:\"§7Redstone Collection\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fTools\",13:\"\",14:\"§a§lUNCOMMON\"],Name:\"§f§f§aEnchanted Book\"},ExtraAttributes:{id:\"EFFICIENCY;5\",enchantments:{efficiency:5}}}",
+  "displayname": "§aEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{efficiency:5},id:\"EFFICIENCY;5\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Efficiency V\",1:\"§7Increases how quickly your tool\",2:\"§7breaks blocks.\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§6Source:\",8:\"§aI-V: §7Enchantment Table,\",9:\"§7Redstone Dust Collection\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fTools\",13:\"\",14:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Efficiency V",
@@ -13,7 +13,7 @@
     "",
     "§6Source:",
     "§aI-V: §7Enchantment Table,",
-    "§7Redstone Collection",
+    "§7Redstone Dust Collection",
     "",
     "§6Applied To:",
     "§7- §fTools",
@@ -21,9 +21,10 @@
     "§a§lUNCOMMON"
   ],
   "internalname": "EFFICIENCY;5",
-  "crafttext": "",
-  "parent": "EFFICIENCY;4",
   "clickcommand": "",
-  "modver": "2.0.0-REL",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "parent": "EFFICIENCY;4"
 }

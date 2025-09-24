@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:enchanted_book",
-  "displayname": "§f§f§5Enchanted Book",
-  "nbttag": "{ench:[],overrideMeta:1b,HideFlags:254,display:{Lore:[0:\"§9Power VII\",1:\"§7Increases bow damage by §a65%§7.\",2:\"\",3:\"§7Use this on an item in an Anvil\",4:\"§7to apply it!\",5:\"\",6:\"§6Source:\",7:\"§aVII: §7Scorpius,\",8:\"§7Experiments\",9:\"\",10:\"§6Applied To:\",11:\"§7- §fBow\",12:\"\",13:\"§5§lEPIC\"],Name:\"§f§f§5Enchanted Book\"},ExtraAttributes:{id:\"POWER;7\",enchantments:{power:7}}}",
+  "displayname": "§5Enchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{power:7},id:\"POWER;7\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Power VII\",1:\"§7Increases bow damage by §a65%§7.\",2:\"\",3:\"§7Use this on an item in an Anvil\",4:\"§7to apply it!\",5:\"\",6:\"§6Source:\",7:\"§aVII: §7Scorpius,\",8:\"§7Experiments\",9:\"\",10:\"§6Applied To:\",11:\"§7- §fBow\",12:\"\",13:\"§5§lEPIC\"],Name:\"§5Enchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Power VII",
@@ -20,9 +20,10 @@
     "§5§lEPIC"
   ],
   "internalname": "POWER;7",
-  "parent": "POWER;4",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "2.1.0-REL",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "parent": "POWER;4"
 }

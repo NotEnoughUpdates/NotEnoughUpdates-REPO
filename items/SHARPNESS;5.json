@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§aEnchanted Book",
-  "nbttag": "{ExtraAttributes:{enchantments:{sharpness:5},id:\"SHARPNESS;5\"},HideFlags:254,display:{Lore:[0:\"§9Sharpness V\",1:\"§7Increases melee damage dealt by\",2:\"§7§a30%§7\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§6Source:\",8:\"§aI-V: §7Enchantment Table,\",9:\"§7Gravel Collection\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fSword\",13:\"§7- §fFishing Weapon\",14:\"§7- §fLongsword\",15:\"§7- §fGauntlet\",16:\"\",17:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Book\"},ench:[]}",
+  "nbttag": "{ExtraAttributes:{enchantments:{sharpness:5},id:\"SHARPNESS;5\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Sharpness V\",1:\"§7Increases melee damage dealt by\",2:\"§a30%\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§6Source:\",8:\"§aI-V: §7Enchantment Table,\",9:\"§7Gravel Collection\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fSword\",13:\"§7- §fFishing Weapon\",14:\"§7- §fLongsword\",15:\"§7- §fGauntlet\",16:\"\",17:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Sharpness V",
     "§7Increases melee damage dealt by",
-    "§7§a30%§7",
+    "§a30%",
     "",
     "§7Use this on an item in an Anvil",
     "§7to apply it!",
@@ -24,9 +24,10 @@
     "§a§lUNCOMMON"
   ],
   "internalname": "SHARPNESS;5",
-  "parent": "SHARPNESS;4",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "parent": "SHARPNESS;4"
 }

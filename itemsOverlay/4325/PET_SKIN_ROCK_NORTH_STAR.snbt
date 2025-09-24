@@ -1,7 +1,8 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "PET_SKIN_ROCK_NORTH_STAR"
+			id: "PET_SKIN_ROCK_NORTH_STAR",
+			rarity_upgrades: 1
 		},
 		"minecraft:profile": {
 			id: [I;
@@ -10,16 +11,27 @@
 				-1821101683,
 				-89243955
 			],
-			name: "",
 			properties: [
 				{
 					name: "textures",
+					signature: "cv6NO/zQ7mGjpgOPPCQu34R7siV/MPPfGxt/aZTmIgW8P0l9XCds38pB9YRXMHTMh9SbN/wMOw/O3ekWOXiLejarhZAFRTA8L1zW+TH9qmHVTtnUnN8xBk8NKwaOCtK0CAn8J0UN6eWgt1Eohml8WPI46OjxLtm+V2DYFiCGnhThI9LpRxBSzdl25uqPNZORfxUcsHAUCZTjF8p4xiQRRmD34Abc3y4a6XunKPSmhE+zzzIcqU0sTUlRdj4dbKZqo+yALbw17MKMiMbPotYuHBtmewCzoWd5pL3M+BhD0FfDbCgjh8xDDPZEw0QralOD+Z5UjF1fy1gLFMyn2zX/2KdH4uyFZRkjFswlXKGuu8vm/LlSwfd+kcql5t0KyFWe9G4meef7DbhqHucqu2Bfba/XS/mFaoHgSW30jS+yCe3N5b0rRurmwFatLHbREuki0d4LZtlj6TiCTPGFt1NfSCt7nku1fjJ66fwsYNf2/dE8cj9AyZz1bfJkzIlLB0fz6hikblJKEWLqqDfR9ZzWahEc+8I/c5isjnO34FqJ5s7L7RMO5KASplZ9oP/a6xHKjiRbp9JF6A6W1W16sT2PPxPDzzBLJNHIsCWE4FXn+pEPNLaHFKGmUQ2PeRs4o/Q6WTgkv5rp+s0N1hYmhNyikOGQwZ9ZFMx/jl7rhAd1B1s=",
 					value: "ewogICJ0aW1lc3RhbXAiIDogMTY3MDUzNTY5NTkzMywKICAicHJvZmlsZUlkIiA6ICJjYjIzZWZhOWY1N2U0ZTQyOGE0MDU2OTM4NDlhODAxZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJWMUdHTyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80NWY1Y2FiMTk5NTA4NzI1ZWEyYmJlM2VkMmQ4NGI4OTFjNWQ4YjdlZTdlYWVkYzY5ZTY3MTk2ZGM2ZmVlM2Q5IgogICAgfQogIH0KfQ=="
 				}
 			]
 		},
 		"minecraft:tooltip_display": {
 			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
 				"minecraft:dyed_color"
 			]
 		}
@@ -28,6 +40,6 @@
 	id: "minecraft:player_head",
 	source: {
 		dataVersion: 4325,
-		modVersion: "Firmament 3.2.0-dev+mc1.21.5+gb028db5"
+		modVersion: "Firmament 3.7.1-dev+mc1.21.5+g19c6b28"
 	}
 }

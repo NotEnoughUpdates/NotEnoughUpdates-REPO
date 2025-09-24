@@ -1,0 +1,32 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "LUKAS_THE_AQUARIST_NPC"
+		},
+		"minecraft:profile": {
+			id: [I;
+				948154513,
+				-1180423971,
+				-1675221092,
+				77805780
+			],
+			properties: [
+				{
+					name: "textures",
+					value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJhYWJmN2IzMDBmNzQ2ZjRjNGEyOGVhYTEzMjg1ZmRmMTIzZWRmNmEwOThiODZkYWI4MTUwMWNlNjA0N2JkNWMifX19"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
+	}
+}

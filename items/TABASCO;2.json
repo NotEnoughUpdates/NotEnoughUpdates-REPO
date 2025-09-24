@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§fEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Tabasco II\",1:\"§7Grants §f+2 §7weapon damage if\",2:\"§7you don\u0027t have a §5Dragon §7pet\",3:\"§7equipped.\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aII-III: §7Chili Pepper Collection\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fFishing Rod\",13:\"§7- §fSword\",14:\"§7- §fFishing Weapon\",15:\"§7- §fAxe\",16:\"§7- §fLongsword\",17:\"§7- §fGauntlet\",18:\"§7- §fBow\",19:\"\",20:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"TABASCO;2\",enchantments:{tabasco:2}}}",
+  "nbttag": "{ExtraAttributes:{enchantments:{tabasco:2},id:\"TABASCO;2\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Tabasco II\",1:\"§7Grants §f+2 §7weapon damage if\",2:\"§7you don't have a §5Dragon §7pet\",3:\"§7equipped.\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aII-III: §7Chili Pepper Collection\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fFishing Rod\",13:\"§7- §fSword\",14:\"§7- §fFishing Weapon\",15:\"§7- §fAxe\",16:\"§7- §fLongsword\",17:\"§7- §fGauntlet\",18:\"§7- §fBow\",19:\"\",20:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Tabasco II",
     "§7Grants §f+2 §7weapon damage if",
-    "§7you don\u0027t have a §5Dragon §7pet",
+    "§7you don't have a §5Dragon §7pet",
     "§7equipped.",
     "",
     "§7Use this on an item in an Anvil",
@@ -26,6 +26,12 @@
     "",
     "§f§lCOMMON"
   ],
+  "internalname": "TABASCO;2",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Chili Pepper IX",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
   "recipe": {
     "A1": "CHILI_PEPPER:16",
     "A2": "KUUDRA_TEETH:1",
@@ -36,10 +42,5 @@
     "C1": "",
     "C2": "KUUDRA_TEETH:1",
     "C3": ""
-  },
-  "internalname": "TABASCO;2",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "crafttext": "Requires: Chili Pepper IX",
-  "infoType": ""
+  }
 }

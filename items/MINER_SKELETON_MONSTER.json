@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Miner Skeleton (Monster)",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7These skeletons have crafted\",1:\"§7gear from the diamonds around\",2:\"§7them - resulting in a look both\",3:\"§7fashionable and protective.\",4:\"\",5:\"§c❤ Health§8: §c250 - 300\"],Name:\"§9Miner Skeleton (Monster)\"},ExtraAttributes:{id:\"MINER_SKELETON_MONSTER\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"MINER_SKELETON_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:skeleton_skull\",display:{Lore:[0:\"§7These skeletons have crafted\",1:\"§7gear from the diamonds around\",2:\"§7them - resulting in a look both\",3:\"§7fashionable and protective.\",4:\"\",5:\"§7Mob Type: §f🦴 Skeletal\",6:\"§c❤ Health§8: §c250 - 300\"],Name:\"§9Miner Skeleton (Monster)\"}}",
   "damage": 0,
   "lore": [
     "§7These skeletons have crafted",
@@ -9,17 +9,18 @@
     "§7them - resulting in a look both",
     "§7fashionable and protective.",
     "",
+    "§7Mob Type: §f🦴 Skeletal",
     "§c❤ Health§8: §c250 - 300"
   ],
   "internalname": "MINER_SKELETON_MONSTER",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Miner_Skeleton",
     "https://wiki.hypixel.net/Miner_Skeleton"
   ],
-  "crafttext": "",
   "recipes": [
     {
       "level": 15,

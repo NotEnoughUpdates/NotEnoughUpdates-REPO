@@ -1,15 +1,18 @@
 {
   "itemid": "minecraft:activator_rail",
   "displayname": "§fActivator Rail",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fActivator Rail\"},ExtraAttributes:{id:\"ACTIVATOR_RAIL\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ACTIVATOR_RAIL\"},HideFlags:254,ItemModel:\"minecraft:activator_rail\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fActivator Rail\"}}",
   "damage": 0,
   "lore": [
     "§f§lCOMMON"
   ],
   "internalname": "ACTIVATOR_RAIL",
-  "modver": "2.1.1-PRE",
-  "vanilla": true,
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
   "recipe": {
     "A1": "IRON_INGOT:1",
     "A2": "STICK:1",

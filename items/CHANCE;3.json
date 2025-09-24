@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§fEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Chance III\",1:\"§7Increases the chance of a\",2:\"§7Monster dropping an item by\",3:\"§7§a45%§7.\",4:\"\",5:\"§6Source:\",6:\"§aI-III: §7Enchantment Table\",7:\"\",8:\"§6Applied To:\",9:\"§7- §fBow\",10:\"\",11:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"CHANCE;3\",enchantments:{chance:3}}}",
+  "nbttag": "{ExtraAttributes:{enchantments:{chance:3},id:\"CHANCE;3\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Chance III\",1:\"§7Increases the chance of a\",2:\"§7Monster dropping an item by\",3:\"§a45%§7.\",4:\"\",5:\"§6Source:\",6:\"§aI-III: §7Enchantment Table\",7:\"\",8:\"§6Applied To:\",9:\"§7- §fBow\",10:\"\",11:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Chance III",
     "§7Increases the chance of a",
     "§7Monster dropping an item by",
-    "§7§a45%§7.",
+    "§a45%§7.",
     "",
     "§6Source:",
     "§aI-III: §7Enchantment Table",
@@ -18,8 +18,9 @@
     "§f§lCOMMON"
   ],
   "internalname": "CHANCE;3",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "2.0.0-REL",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": []
 }

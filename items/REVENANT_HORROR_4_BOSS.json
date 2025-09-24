@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§6Revenant Horror IV (Boss)",
-  "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"1cd0f7b6-d6fe-3254-9cd0-f7b6d6fe6254\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmE3YmIzNDQ3MTUwOGI0YjIwY2IzNWMzN2ExZGQ2ZThhZmE3ZjJkNTM4ODgyMjEzODgzN2NhZjU5YzIxOTVkOCJ9fX0\u003d\"}]}},display:{Lore:[0:\"§8Deadly\",1:\"\",2:\"§7Health: §c1,500,000❤\",3:\"§7Damage: §c400 §7per second\",4:\"\",5:\"§aLife Drain\",6:\"§7Drains health every few seconds.\",7:\"\",8:\"§aPestilence\",9:\"§7Deals AOE damage every second,\",10:\"§7shredding armor by 25%.\",11:\"\",12:\"§cEnrage\",13:\"§7Gets real mad once in a while.\"],Name:\"§6Revenant Horror IV (Boss)\"},ExtraAttributes:{id:\"REVENANT_HORROR_4_BOSS\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"REVENANT_HORROR_4_BOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"1cd0f7b6-d6fe-3254-9cd0-f7b6d6fe6254\",Properties:{textures:[0:{Name:\"textures\",Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmE3YmIzNDQ3MTUwOGI0YjIwY2IzNWMzN2ExZGQ2ZThhZmE3ZjJkNTM4ODgyMjEzODgzN2NhZjU5YzIxOTVkOCJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Deadly\",1:\"\",2:\"§7Health: §c1,500,000❤\",3:\"§7Damage: §c400 §7per second\",4:\"\",5:\"§aLife Drain\",6:\"§7Drains health every few seconds.\",7:\"\",8:\"§aPestilence\",9:\"§7Deals AOE damage every second,\",10:\"§7shredding armor by 25%.\",11:\"\",12:\"§cEnrage\",13:\"§7Gets real mad once in a while.\"],Name:\"§6Revenant Horror IV (Boss)\"},ench:[]}",
   "damage": 3,
   "lore": [
     "§8Deadly",
@@ -21,13 +21,13 @@
   ],
   "internalname": "REVENANT_HORROR_4_BOSS",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Revenant_Horror",
     "https://wiki.hypixel.net/Revenant_Horror"
   ],
-  "crafttext": "",
   "recipes": [
     {
       "xp": 500,
@@ -38,12 +38,16 @@
       "drops": [
         {
           "id": "REVENANT_FLESH",
-          "extra": ["x50-64"],
+          "extra": [
+            "x50-64"
+          ],
           "chance": "100%"
         },
         {
           "id": "FOUL_FLESH",
-          "extra": ["x2-3"],
+          "extra": [
+            "x2-3"
+          ],
           "chance": "16.22%"
         },
         {

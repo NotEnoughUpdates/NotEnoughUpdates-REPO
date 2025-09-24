@@ -1,0 +1,32 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "HENDRICK_NPC"
+		},
+		"minecraft:profile": {
+			id: [I;
+				-1704212184,
+				959129346,
+				-2007656124,
+				2101708813
+			],
+			properties: [
+				{
+					name: "textures",
+					value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2YwNWZiMWJmMjIyNTQxNjg3ZjI2ZDAwY2RiNjQyODVlZGQ1Mzk2YzVlMjliNjU3NmU0ZWIxMWRlYTI4MDI2N2YifX19"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
+	}
+}

@@ -1,15 +1,20 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Desperate Engineer (NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"0dae11c3-e014-54ca-9487-6e6619af5dd2\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzc1ZWE0MjA1MGE0NzhmMjgzOTQ4ODQxMjBiNDIwOTFhYTQyMTIxNTQ4NzZkYzNkNzIwNjJhZWEwN2NhYzBlOSJ9fX0\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Scoop (NPC)\"},ExtraAttributes:{id:\"SCOOP_NPC\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"DESPERATE_ENGINEER_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"0dae11c3-e014-54ca-9487-6e6619af5dd2\",Properties:{textures:[0:{Name:\"textures\",Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzc1ZWE0MjA1MGE0NzhmMjgzOTQ4ODQxMjBiNDIwOTFhYTQyMTIxNTQ4NzZkYzNkNzIwNjJhZWEwN2NhYzBlOSJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"\"],Name:\"§9Desperate Engineer (NPC)\"}}",
   "damage": 3,
   "lore": [
     ""
   ],
   "internalname": "DESPERATE_ENGINEER_NPC",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
   "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Desperate_Engineer",
+    "https://wiki.hypixel.net/Desperate_Engineer"
+  ],
   "x": -290,
   "y": 129,
   "z": -982,
@@ -22,9 +27,5 @@
       ],
       "result": "MOODY_GRAPPLESHOT"
     }
-  ],
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Desperate_Engineer",
-    "https://wiki.hypixel.net/Desperate_Engineer"
   ]
 }

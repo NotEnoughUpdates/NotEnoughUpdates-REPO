@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§9Enchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Luck of the Sea VI\",1:\"§7Grants §6+3⛃ Treasure Chance§7, which\",2:\"§7increases the chance of fishing\",3:\"§7treasure.\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aVI: §7Fishing\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fFishing Rod\",13:\"§7- §fFishing Weapon\",14:\"\",15:\"§9§lRARE\"],Name:\"§9Enchanted Book\"},ExtraAttributes:{id:\"LUCK_OF_THE_SEA;6\",enchantments:{luck_of_the_sea:6}}}",
+  "nbttag": "{ExtraAttributes:{enchantments:{luck_of_the_sea:6},id:\"LUCK_OF_THE_SEA;6\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Luck of the Sea VI\",1:\"§7Grants §6+3⛃ Treasure Chance§7, which\",2:\"§7increases the chance of fishing\",3:\"§7treasure.\",4:\"\",5:\"§7Applicable on: §9Fishing Rod\",6:\"§7Apply Cost: §350 Exp Levels\",7:\"\",8:\"§7Use this on an item in an Anvil to\",9:\"§7apply it!\",10:\"\",11:\"§9§lRARE\"],Name:\"§9Enchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Luck of the Sea VI",
@@ -9,22 +9,19 @@
     "§7increases the chance of fishing",
     "§7treasure.",
     "",
-    "§7Use this on an item in an Anvil",
-    "§7to apply it!",
+    "§7Applicable on: §9Fishing Rod",
+    "§7Apply Cost: §350 Exp Levels",
     "",
-    "§6Source:",
-    "§aVI: §7Fishing",
-    "",
-    "§6Applied To:",
-    "§7- §fFishing Rod",
-    "§7- §fFishing Weapon",
+    "§7Use this on an item in an Anvil to",
+    "§7apply it!",
     "",
     "§9§lRARE"
   ],
   "internalname": "LUCK_OF_THE_SEA;6",
-  "parent": "LUCK_OF_THE_SEA;4",
-  "modver": "",
-  "crafttext": "",
   "clickcommand": "",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "parent": "LUCK_OF_THE_SEA;4"
 }

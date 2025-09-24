@@ -1,0 +1,33 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "JERRY_SPECIAL_MAYOR_MONSTER"
+		},
+		"minecraft:profile": {
+			id: [I;
+				178163451,
+				-1852748671,
+				-2131369348,
+				-1522323114
+			],
+			name: "",
+			properties: [
+				{
+					name: "textures",
+					value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODIyZDhlNzUxYzhmMmZkNGM4OTQyYzQ0YmRiMmY1Y2E0ZDhhZThlNTc1ZWQzZWIzNGMxOGE4NmU5M2IifX19"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.7.1-dev+mc1.21.5+g19c6b28"
+	}
+}

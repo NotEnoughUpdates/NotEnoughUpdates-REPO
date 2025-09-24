@@ -76,8 +76,9 @@ def processWikiText(text):
 
 # Manually set prices for pets that are missing or incorrect on the wiki
 petPriceOverrides = {
-    "RIFT_FERRET;3": 50000,
-    "SNOWMAN;5": 2000000,
+    "RIFT_FERRET;3": 50_000,
+    "RIFT_FERRET;4": 50_000,
+    "SNOWMAN;5": 2_000_000,
 }
 
 petNameOverrides = {

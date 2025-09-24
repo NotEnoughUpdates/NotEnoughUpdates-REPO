@@ -1,11 +1,11 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§6Bonzo (Boss)",
-  "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"5a27db2d-dcfe-38b5-8868-b1f536da5f0c\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NzQ0MTkzMTAxNjQsInByb2ZpbGVJZCI6Ijc1MTQ0NDgxOTFlNjQ1NDY4Yzk3MzlhNmUzOTU3YmViIiwicHJvZmlsZU5hbWUiOiJUaGFua3NNb2phbmciLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzEyNzE2ZWNiZjViOGRhMDBiMDVmMzE2ZWM2YWY2MWU4YmQwMjgwNWIyMWViOGU0NDAxNTE0NjhkYzY1NjU0OWMifX19\"}]}},display:{Lore:[0:\"§7Bonzo is the boss of Floor 1 of the Catacombs.\",1:\"§7He is a \u0027New Necromancer\u0027 and has two phases. In\",2:\"§7the first one he runs away from the player until\",3:\"§7he is killed. Then he revives appearing as a clown\",4:\"§7and attacks the player.\",5:\"\",6:\"§c❤ Health§8: §c250.000\",7:\"§c❤ Health §8(MM): §c200.000.000\"],Name:\"§6Bonzo (Boss)\"},ExtraAttributes:{id:\"BONZO_BOSS\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"BONZO_BOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"5a27db2d-dcfe-38b5-8868-b1f536da5f0c\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0aW1lc3RhbXAiOjE1NzQ0MTkzMTAxNjQsInByb2ZpbGVJZCI6Ijc1MTQ0NDgxOTFlNjQ1NDY4Yzk3MzlhNmUzOTU3YmViIiwicHJvZmlsZU5hbWUiOiJUaGFua3NNb2phbmciLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzEyNzE2ZWNiZjViOGRhMDBiMDVmMzE2ZWM2YWY2MWU4YmQwMjgwNWIyMWViOGU0NDAxNTE0NjhkYzY1NjU0OWMifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Bonzo is the boss of Floor 1 of the Catacombs.\",1:\"§7He is a 'New Necromancer' and has two phases. In\",2:\"§7the first one he runs away from the player until\",3:\"§7he is killed. Then he revives appearing as a clown\",4:\"§7and attacks the player.\",5:\"\",6:\"§c❤ Health§8: §c250.000\",7:\"§c❤ Health §8(MM): §c200.000.000\"],Name:\"§6Bonzo (Boss)\"},ench:[]}",
   "damage": 3,
   "lore": [
     "§7Bonzo is the boss of Floor 1 of the Catacombs.",
-    "§7He is a \u0027New Necromancer\u0027 and has two phases. In",
+    "§7He is a 'New Necromancer' and has two phases. In",
     "§7the first one he runs away from the player until",
     "§7he is killed. Then he revives appearing as a clown",
     "§7and attacks the player.",
@@ -15,13 +15,13 @@
   ],
   "internalname": "BONZO_BOSS",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Bonzo",
     "https://wiki.hypixel.net/Bonzo"
   ],
-  "crafttext": "",
   "recipes": [
     {
       "name": "§cBonzo",

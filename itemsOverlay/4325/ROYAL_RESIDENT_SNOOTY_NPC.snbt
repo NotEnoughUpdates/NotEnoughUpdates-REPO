@@ -1,0 +1,32 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "ROYAL_RESIDENT_SNOOTY_NPC"
+		},
+		"minecraft:profile": {
+			id: [I;
+				1522605516,
+				-657904003,
+				-1162146014,
+				1632586805
+			],
+			properties: [
+				{
+					name: "textures",
+					value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI3ZGIxNTQ0MjJjNjQxNTM3MjA0YTA4M2EwMzQwYmJlNWIzYWIwZWI4ODA5ODgzNDA4ZDJhNzhkZTFlNTkyYSJ9fX0="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
+	}
+}

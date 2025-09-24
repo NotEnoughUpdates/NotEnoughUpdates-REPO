@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§fEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Piscary IV\",1:\"§7Grants §b+4☂ Fishing Speed§7.\",2:\"\",3:\"§7Use this on an item in an Anvil\",4:\"§7to apply it!\",5:\"\",6:\"§6Source:\",7:\"§aI-V: §7Enchantment Table\",8:\"\",9:\"§6Applied To:\",10:\"§7- §FFishing Rod\",11:\"§7- §fFishing Weapon\",12:\"\",13:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"PISCARY;4\",enchantments:{piscary:4}}}",
+  "nbttag": "{ExtraAttributes:{enchantments:{piscary:4},id:\"PISCARY;4\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Piscary IV\",1:\"§7Grants §b+4☂ Fishing Speed§7.\",2:\"\",3:\"§7Use this on an item in an Anvil\",4:\"§7to apply it!\",5:\"\",6:\"§6Source:\",7:\"§aI-V: §7Enchantment Table\",8:\"\",9:\"§6Applied To:\",10:\"§7- §fFishing Rod\",11:\"§7- §fFishing Weapon\",12:\"\",13:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Piscary IV",
@@ -14,14 +14,15 @@
     "§aI-V: §7Enchantment Table",
     "",
     "§6Applied To:",
-    "§7- §FFishing Rod",
+    "§7- §fFishing Rod",
     "§7- §fFishing Weapon",
     "",
     "§f§lCOMMON"
   ],
   "internalname": "PISCARY;4",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "2.1.1-PRE",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": []
 }

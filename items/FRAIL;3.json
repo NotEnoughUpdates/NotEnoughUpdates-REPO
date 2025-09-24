@@ -1,11 +1,11 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§fEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Frail III\",1:\"§7Sea creatures start with §a7.5%§7\",2:\"§7reduced health.\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§6Source:\",8:\"§aI-V: §7Enchantment Table,\",9:\"§7Clay Collection\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fFishing Rod\",13:\"§7- §fFishing Weapon\",14:\"\",15:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"FRAIL;3\",enchantments:{frail:3}}}",
+  "nbttag": "{ExtraAttributes:{enchantments:{frail:3},id:\"FRAIL;3\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Frail III\",1:\"§7Sea creatures start with §a7.5%\",2:\"§7reduced health.\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§6Source:\",8:\"§aI-V: §7Enchantment Table,\",9:\"§7Clay Ball Collection\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fFishing Rod\",13:\"§7- §fFishing Weapon\",14:\"\",15:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Frail III",
-    "§7Sea creatures start with §a7.5%§7",
+    "§7Sea creatures start with §a7.5%",
     "§7reduced health.",
     "",
     "§7Use this on an item in an Anvil",
@@ -13,7 +13,7 @@
     "",
     "§6Source:",
     "§aI-V: §7Enchantment Table,",
-    "§7Clay Collection",
+    "§7Clay Ball Collection",
     "",
     "§6Applied To:",
     "§7- §fFishing Rod",
@@ -22,9 +22,10 @@
     "§f§lCOMMON"
   ],
   "internalname": "FRAIL;3",
-  "parent": "FRAIL;4",
   "clickcommand": "",
-  "modver": "",
   "crafttext": "",
-  "infoType": ""
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "parent": "FRAIL;4"
 }

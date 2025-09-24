@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§fEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Looting IV\",1:\"§7Increases the chance of a\",2:\"§7Monster dropping an item by\",3:\"§7§a60%§7.\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aIV: §7Season of Jerry,\",10:\"§7Experiments\",11:\"\",12:\"§6Applied To:\",13:\"§7- §fFishing Rod\",14:\"§7- §fSword\",15:\"§7- §fFishing Weapon\",16:\"§7- §fLongsword\",17:\"§7- §fGauntlet\",18:\"\",19:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"LOOTING;4\",enchantments:{looting:4}}}",
+  "nbttag": "{ExtraAttributes:{enchantments:{looting:4},id:\"LOOTING;4\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Looting IV\",1:\"§7Increases the chance of a\",2:\"§7Monster dropping an item by\",3:\"§a60%§7.\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aIV: §7Season of Jerry,\",10:\"§7Experiments\",11:\"\",12:\"§6Applied To:\",13:\"§7- §fFishing Rod\",14:\"§7- §fSword\",15:\"§7- §fFishing Weapon\",16:\"§7- §fLongsword\",17:\"§7- §fGauntlet\",18:\"\",19:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Looting IV",
     "§7Increases the chance of a",
     "§7Monster dropping an item by",
-    "§7§a60%§7.",
+    "§a60%§7.",
     "",
     "§7Use this on an item in an Anvil",
     "§7to apply it!",
@@ -26,9 +26,10 @@
     "§f§lCOMMON"
   ],
   "internalname": "LOOTING;4",
-  "parent": "LOOTING;2",
-  "modver": "2.1.0-REL",
-  "crafttext": "",
   "clickcommand": "",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "parent": "LOOTING;2"
 }

@@ -1,0 +1,32 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "ZODD_NPC"
+		},
+		"minecraft:profile": {
+			id: [I;
+				958352334,
+				565456574,
+				-1941582056,
+				-2017394220
+			],
+			properties: [
+				{
+					name: "textures",
+					value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NmNzI1MmExM2RjZTFlNWZlZWYzNGFkZmU0NDdhM2E4ODQ2YmE1YWEzOTQ3OWIxMzk0ZTkwNTYxYTRlZmZmZmMifX19"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
+	}
+}

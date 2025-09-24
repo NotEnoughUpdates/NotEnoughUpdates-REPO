@@ -1,11 +1,11 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§6Livid (Boss)",
-  "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"ead1c479-f4db-3337-a85e-84f3f3845b39\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5ODk3NzI1OTM1NywKICAicHJvZmlsZUlkIiA6ICJlNzkzYjJjYTdhMmY0MTI2YTA5ODA5MmQ3Yzk5NDE3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVfSG9zdGVyX01hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jMTAwN2M1YjcxMTRhYmVjNzM0MjA2ZDRmYzYxM2RhNGYzYTBlOTlmNzFmZjk0OWNlZGFkYzk5MDc5MTM1YTBiIgogICAgfQogIH0KfQ\"}]}},display:{Lore:[0:\"§7Livid is the boss of Floor 5 of the Catacombs. He is a\",1:\"§7\u0027Master Necromancer\u0027 and has only one phase. In this\",2:\"§7phase he makes eight clones of himself. Each with\",3:\"§7different abilities. The player must kill the\",4:\"§7true livid to complete the boss fight.\",5:\"\",6:\"§c❤ Health§8: §c7,000.000\",7:\"§c❤ Health §8(MM): §c600.000.000\"],Name:\"§6Livid (Boss)\"},ExtraAttributes:{id:\"LIVID_BOSS\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"LIVID_BOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"ead1c479-f4db-3337-a85e-84f3f3845b39\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5ODk3NzI1OTM1NywKICAicHJvZmlsZUlkIiA6ICJlNzkzYjJjYTdhMmY0MTI2YTA5ODA5MmQ3Yzk5NDE3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVfSG9zdGVyX01hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jMTAwN2M1YjcxMTRhYmVjNzM0MjA2ZDRmYzYxM2RhNGYzYTBlOTlmNzFmZjk0OWNlZGFkYzk5MDc5MTM1YTBiIgogICAgfQogIH0KfQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Livid is the boss of Floor 5 of the Catacombs. He is a\",1:\"§7'Master Necromancer' and has only one phase. In this\",2:\"§7phase he makes eight clones of himself. Each with\",3:\"§7different abilities. The player must kill the\",4:\"§7true livid to complete the boss fight.\",5:\"\",6:\"§c❤ Health§8: §c7,000.000\",7:\"§c❤ Health §8(MM): §c600.000.000\"],Name:\"§6Livid (Boss)\"},ench:[]}",
   "damage": 3,
   "lore": [
     "§7Livid is the boss of Floor 5 of the Catacombs. He is a",
-    "§7\u0027Master Necromancer\u0027 and has only one phase. In this",
+    "§7'Master Necromancer' and has only one phase. In this",
     "§7phase he makes eight clones of himself. Each with",
     "§7different abilities. The player must kill the",
     "§7true livid to complete the boss fight.",
@@ -15,13 +15,13 @@
   ],
   "internalname": "LIVID_BOSS",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Livid",
     "https://wiki.hypixel.net/Livid"
   ],
-  "crafttext": "",
   "recipes": [
     {
       "name": "§cLivid",

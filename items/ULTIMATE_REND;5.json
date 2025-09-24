@@ -1,18 +1,18 @@
 {
   "itemid": "minecraft:enchanted_book",
-  "displayname": "§f§f§aEnchanted Book",
-  "nbttag": "{ench:[],overrideMeta:1b,HideFlags:254,display:{Lore:[0:\"§9§d§lRend V\",1:\"§7Use Left Click ability to rip\",2:\"§7your arrows out of nearby\",3:\"§7enemies. Each arrow deals §c25%\",4:\"§c§7of your last critical shot on\",5:\"§7the target, up to §c5 §7arrows.\",6:\"§7§a2s §7Cooldown.\",7:\"\",8:\"§7§cYou can only have 1 Ultimate\",9:\"§cEnchantment on an item!\",10:\"\",11:\"§7Use this on an item in an Anvil\",12:\"§7to apply it!\",13:\"\",14:\"§6Source:\",15:\"§aI-V: §7Dungeons\",16:\"\",17:\"§6Applied To:\",18:\"§7- §fBow\",19:\"\",20:\"§a§lUNCOMMON\"],Name:\"§f§f§aEnchanted Book\"},ExtraAttributes:{id:\"ULTIMATE_REND;5\",enchantments:{ultimate_rend:5}}}",
+  "displayname": "§aEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{ultimate_rend:5},id:\"ULTIMATE_REND;5\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§d§lRend V\",1:\"§7Use Left Click ability to rip\",2:\"§7your arrows out of nearby\",3:\"§7enemies. Each arrow deals §c25%\",4:\"§7of your last critical shot on\",5:\"§7the target, up to §c5 §7arrows.\",6:\"§a2s §7Cooldown.\",7:\"\",8:\"§cYou can only have 1 Ultimate\",9:\"§cEnchantment on an item!\",10:\"\",11:\"§7Use this on an item in an Anvil\",12:\"§7to apply it!\",13:\"\",14:\"§6Source:\",15:\"§aI-V: §7Dungeons\",16:\"\",17:\"§6Applied To:\",18:\"§7- §fBow\",19:\"\",20:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§9§d§lRend V",
+    "§d§lRend V",
     "§7Use Left Click ability to rip",
     "§7your arrows out of nearby",
     "§7enemies. Each arrow deals §c25%",
-    "§c§7of your last critical shot on",
+    "§7of your last critical shot on",
     "§7the target, up to §c5 §7arrows.",
-    "§7§a2s §7Cooldown.",
+    "§a2s §7Cooldown.",
     "",
-    "§7§cYou can only have 1 Ultimate",
+    "§cYou can only have 1 Ultimate",
     "§cEnchantment on an item!",
     "",
     "§7Use this on an item in an Anvil",
@@ -27,12 +27,12 @@
     "§a§lUNCOMMON"
   ],
   "internalname": "ULTIMATE_REND;5",
-  "parent": "ULTIMATE_REND;1",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "2.1.0-REL",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Ultimate_Enchantments"
-  ]
+  ],
+  "parent": "ULTIMATE_REND;1"
 }

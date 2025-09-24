@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:enchanted_book",
-  "displayname": "§f§f§aEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Magnet V\",1:\"§7Grants §a5 §7additional\",2:\"§7experience orbs every time you\",3:\"§7successfully catch a fish.\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aI-V: §7Enchantment Table,\",10:\"§7Clownfish Collection\",11:\"\",12:\"§6Applied To:\",13:\"§7- §fFishing Rod\",14:\"§7- §fFishing Weapon\",15:\"\",16:\"§a§lUNCOMMON\"],Name:\"§f§f§aEnchanted Book\"},ExtraAttributes:{id:\"MAGNET;5\",enchantments:{magnet:5}}}",
+  "displayname": "§aEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{magnet:5},id:\"MAGNET;5\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Magnet V\",1:\"§7Grants §a5 §7additional\",2:\"§7experience orbs every time you\",3:\"§7successfully catch a fish.\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aI-V: §7Enchantment Table,\",10:\"§7Tropical Fish Collection\",11:\"\",12:\"§6Applied To:\",13:\"§7- §fFishing Rod\",14:\"§7- §fFishing Weapon\",15:\"\",16:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Magnet V",
@@ -14,7 +14,7 @@
     "",
     "§6Source:",
     "§aI-V: §7Enchantment Table,",
-    "§7Clownfish Collection",
+    "§7Tropical Fish Collection",
     "",
     "§6Applied To:",
     "§7- §fFishing Rod",
@@ -23,9 +23,10 @@
     "§a§lUNCOMMON"
   ],
   "internalname": "MAGNET;5",
-  "parent": "MAGNET;4",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "2.0.0-REL",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "parent": "MAGNET;4"
 }

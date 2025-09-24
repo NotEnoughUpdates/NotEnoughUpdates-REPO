@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§9Enchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Lure VI\",1:\"§7Shortens the maximum time it\",2:\"§7takes to catch something by\",3:\"§7§a30%§7.\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aVI: §7Fishing\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fFishing Rod\",13:\"§7- §fFishing Weapon\",14:\"\",15:\"§9§lRARE\"],Name:\"§9Enchanted Book\"},ExtraAttributes:{id:\"LURE;6\",enchantments:{lure:6}}}",
+  "nbttag": "{ExtraAttributes:{enchantments:{lure:6},id:\"LURE;6\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Lure VI\",1:\"§7Shortens the maximum time it\",2:\"§7takes to catch something by\",3:\"§a30%§7.\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aVI: §7Fishing\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fFishing Rod\",13:\"§7- §fFishing Weapon\",14:\"\",15:\"§9§lRARE\"],Name:\"§9Enchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Lure VI",
     "§7Shortens the maximum time it",
     "§7takes to catch something by",
-    "§7§a30%§7.",
+    "§a30%§7.",
     "",
     "§7Use this on an item in an Anvil",
     "§7to apply it!",
@@ -22,9 +22,10 @@
     "§9§lRARE"
   ],
   "internalname": "LURE;6",
-  "parent": "LURE;4",
-  "modver": "2.0.0-REL",
-  "crafttext": "",
   "clickcommand": "",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "parent": "LURE;4"
 }

@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§fEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Luck IV\",1:\"§7Increases the chance for\",2:\"§7Monsters to drop their armor by\",3:\"§7§a20%§7\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aI-V: §7Enchantment Table,\",10:\"§7Raw Rabbit Collection\",11:\"\",12:\"§6Applied To:\",13:\"§7- §fSword\",14:\"§7- §fFishing Weapon\",15:\"§7- §fLongsword\",16:\"§7- §fGauntlet\",17:\"\",18:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"LUCK;4\",enchantments:{luck:4}}}",
+  "nbttag": "{ExtraAttributes:{enchantments:{luck:4},id:\"LUCK;4\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Luck IV\",1:\"§7Increases the chance for\",2:\"§7Monsters to drop their armor by\",3:\"§a20%\",4:\"\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aI-V: §7Enchantment Table,\",10:\"§7Raw Rabbit Collection\",11:\"\",12:\"§6Applied To:\",13:\"§7- §fSword\",14:\"§7- §fFishing Weapon\",15:\"§7- §fLongsword\",16:\"§7- §fGauntlet\",17:\"\",18:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§9Luck IV",
     "§7Increases the chance for",
     "§7Monsters to drop their armor by",
-    "§7§a20%§7",
+    "§a20%",
     "",
     "§7Use this on an item in an Anvil",
     "§7to apply it!",
@@ -24,6 +24,12 @@
     "",
     "§f§lCOMMON"
   ],
+  "internalname": "LUCK;4",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Raw Rabbit V",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
   "recipe": {
     "A1": "",
     "A2": "",
@@ -34,10 +40,5 @@
     "C1": "",
     "C2": "PAPER:8",
     "C3": "RABBIT_HIDE:8"
-  },
-  "internalname": "LUCK;4",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "crafttext": "Requires: Raw Rabbit V",
-  "infoType": ""
+  }
 }
