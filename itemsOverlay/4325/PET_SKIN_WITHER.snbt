@@ -1,0 +1,45 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "PET_SKIN_WITHER",
+			originTag: "FIRE_SALE"
+		},
+		"minecraft:profile": {
+			id: [I;
+				823225210,
+				1310601300,
+				-1294938713,
+				1745371477
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "f5Jxb9O9j0ES3K2XyfctKzlljYHMx24MWNxBijlT77qr5eDp4ldfE7YREsKVnfQImps+flrf2/MjyHZGmxDXZHlLz4G7fsMTef28Xsu3WCWOpJMDfbUgRSzB8sryGojySELYjodS6xm+GzFVlclyuhaVk7ebtDhTT/yCZD8j2m53H3swxHaoi6FcXIgWQ5d4XetdFqOhMvZiv7XhAiYF2k9S8YhMuItGeLxhs+Z2WOKE2op6MVMTfWZkq/D6l7jN/rHA9sxkr8vYv6/QIDfcdLXtAh9ZgCA1WJAnm69/4uHJ8gY+GGI506eTQxBjGuaoIXeH5SLIBvHE5gl7Vi5GdIjV/RoYHRVMNT/Gd7R5BgDmFwU2/s+WaPvPXw4iaMK8BmLwk/uKLgUenhjWfD2bUtIA7LtAmpbWimqv5M/9SIY+TwLhZwsHWOiDSZNamj/kRYjNDrBXzuvbJG/Ia79QLrBi3nagnE52rEfwonACMrbvBxDrTT8CLYE+YMNpRJBnhRo5dYf2yDqs01zkc6JsOfggsGOmkNI9RM7eSVVp1+HzJftzU+Vlx8LR0u2qJ079WFRc8C/HpiERgR7MhrfOkRVfAg5heTeqj92AdDkkFj49nDKzqyBpWGITdzxRglJQG93KjZIomgakmYXhL6sK9fXyJLjMVJmnOwlGCGC3zZQ=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTY4NjY4OTM3ODY2MCwKICAicHJvZmlsZUlkIiA6ICIwOWQ3YmJjNGYxZmU0ZjlkYjRiZmE1MTY2NDA3OTcyYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJlemtkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIyNGMyZDE0YTAyMTlhZjVjY2ZjYWEzNmU4YTMzM2UyNzE3MjRlZDYxMjc2NjExZjk1MjllMTZjMTAyNzNhMGQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.7.1-dev+mc1.21.5+g19c6b28"
+	}
+}
