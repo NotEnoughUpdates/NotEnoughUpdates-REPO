@@ -3,52 +3,31 @@
 		"minecraft:banner_patterns": [
 			{
 				color: "black",
-				pattern: {
-					asset_id: "minecraft:base",
-					translation_key: "block.minecraft.banner.base"
-				}
+				pattern: "minecraft:base"
 			},
 			{
 				color: "magenta",
-				pattern: {
-					asset_id: "minecraft:cross",
-					translation_key: "block.minecraft.banner.cross"
-				}
+				pattern: "minecraft:cross"
 			},
 			{
 				color: "purple",
-				pattern: {
-					asset_id: "minecraft:curly_border",
-					translation_key: "block.minecraft.banner.curly_border"
-				}
+				pattern: "minecraft:curly_border"
 			},
 			{
 				color: "purple",
-				pattern: {
-					asset_id: "minecraft:circle",
-					translation_key: "block.minecraft.banner.circle"
-				}
+				pattern: "minecraft:circle"
 			},
 			{
 				color: "black",
-				pattern: {
-					asset_id: "minecraft:flower",
-					translation_key: "block.minecraft.banner.flower"
-				}
+				pattern: "minecraft:flower"
 			},
 			{
 				color: "black",
-				pattern: {
-					asset_id: "minecraft:triangles_bottom",
-					translation_key: "block.minecraft.banner.triangles_bottom"
-				}
+				pattern: "minecraft:triangles_bottom"
 			},
 			{
 				color: "black",
-				pattern: {
-					asset_id: "minecraft:triangles_top",
-					translation_key: "block.minecraft.banner.triangles_top"
-				}
+				pattern: "minecraft:triangles_top"
 			}
 		],
 		"minecraft:custom_data": {
@@ -75,6 +54,6 @@
 	id: "minecraft:white_banner",
 	source: {
 		dataVersion: 4325,
-		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd"
+		modVersion: "Firmament 3.7.1-dev+mc1.21.5+g19c6b28"
 	}
 }

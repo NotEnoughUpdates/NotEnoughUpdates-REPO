@@ -1,7 +1,10 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "EMBER_HELMET"
+			bossId: "c2efb9b0-eb56-49e6-892c-9650d0f6b1b2",
+			id: "EMBER_HELMET",
+			originTag: "BOSS_DROP",
+			spawnedFor: "6dad6b2e-f0bd-4119-8ca3-c53b1aa8ea42"
 		},
 		"minecraft:profile": {
 			id: [I;
@@ -39,6 +42,6 @@
 	id: "minecraft:player_head",
 	source: {
 		dataVersion: 4325,
-		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
+		modVersion: "Firmament 3.7.1-dev+mc1.21.5+g19c6b28"
 	}
 }
