@@ -1,0 +1,60 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Vargul (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"VARGUL_NPC\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Only appears during §5Great Spook §7in October.\"],Name:\"§9Vargul (NPC)\"}}",
+  "damage": 2,
+  "lore": [
+    "§7Only appears during §5Great Spook §7in October."
+  ],
+  "internalname": "VARGUL_NPC",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
+  "infoType": "",
+  "info": [],
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "DARK_CANDY:10.0"
+      ],
+      "result": "SCARE_FRAGMENT:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "DARK_CANDY:1.0"
+      ],
+      "result": "EXPIRED_PUMPKIN:30"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "DARK_CANDY:100.0"
+      ],
+      "result": "BLACK_WOOLEN_YARN:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "DARK_CANDY:150.0"
+      ],
+      "result": "SLEEPY_HOLLOW:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "DARK_CANDY:170.0"
+      ],
+      "result": "SPOOKY_TREE:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "DARK_CANDY:200.0",
+        "SKYBLOCK_COIN:9700000.0"
+      ],
+      "result": "SYPHON;5:1"
+    }
+  ]
+}
