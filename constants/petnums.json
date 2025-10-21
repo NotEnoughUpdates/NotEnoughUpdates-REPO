@@ -280,12 +280,10 @@
         }
       }
     },
-    "EPIC": {
+    "UNCOMMON": {
       "1": {
         "otherNums": [
-          0.3,
-          0.5,
-          0.2
+          0.1
         ],
         "statNums": {
           "INTELLIGENCE": 1.0,
@@ -294,9 +292,55 @@
       },
       "100": {
         "otherNums": [
+          10
+        ],
+        "statNums": {
+          "INTELLIGENCE": 100.0,
+          "SPEED": 5.0
+        }
+      }
+    },
+    "RARE": {
+      "1": {
+        "otherNums": [
+          0.1,
+          0.2,
+          0.4
+        ],
+        "statNums": {
+          "INTELLIGENCE": 1.0,
+          "SPEED": 0.05
+        }
+      },
+      "100": {
+        "otherNums": [
+          15,
+          20,
+          40
+        ],
+        "statNums": {
+          "INTELLIGENCE": 100.0,
+          "SPEED": 5.0
+        }
+      }
+    },
+    "EPIC": {
+      "1": {
+        "otherNums": [
+          0.2,
+          0.3,
+          0.5
+        ],
+        "statNums": {
+          "INTELLIGENCE": 1.0,
+          "SPEED": 0.05
+        }
+      },
+      "100": {
+        "otherNums": [
+          20,
           30,
-          50,
-          20
+          50
         ],
         "statNums": {
           "INTELLIGENCE": 100.0,
@@ -323,50 +367,6 @@
           30,
           50,
           50
-        ],
-        "statNums": {
-          "INTELLIGENCE": 100.0,
-          "SPEED": 5.0
-        }
-      }
-    },
-    "RARE": {
-      "1": {
-        "otherNums": [
-          0.2,
-          0.4,
-          0.1
-        ],
-        "statNums": {
-          "INTELLIGENCE": 1.0,
-          "SPEED": 0.05
-        }
-      },
-      "100": {
-        "otherNums": [
-          20,
-          40,
-          15
-        ],
-        "statNums": {
-          "INTELLIGENCE": 100.0,
-          "SPEED": 5.0
-        }
-      }
-    },
-    "UNCOMMON": {
-      "1": {
-        "otherNums": [
-          0.1
-        ],
-        "statNums": {
-          "INTELLIGENCE": 1.0,
-          "SPEED": 0.05
-        }
-      },
-      "100": {
-        "otherNums": [
-          10
         ],
         "statNums": {
           "INTELLIGENCE": 100.0,
@@ -4660,54 +4660,6 @@
     }
   },
   "SHEEP": {
-    "EPIC": {
-      "1": {
-        "otherNums": [
-          0.2,
-          0.1,
-          10.0
-        ],
-        "statNums": {
-          "ABILITY_DAMAGE": 0.2,
-          "INTELLIGENCE": 1.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          20,
-          10,
-          10
-        ],
-        "statNums": {
-          "ABILITY_DAMAGE": 20.0,
-          "INTELLIGENCE": 100.0
-        }
-      }
-    },
-    "RARE": {
-      "1": {
-        "otherNums": [
-          0.1,
-          0.1,
-          10.0
-        ],
-        "statNums": {
-          "ABILITY_DAMAGE": 0.2,
-          "INTELLIGENCE": 1.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          15,
-          10,
-          10
-        ],
-        "statNums": {
-          "ABILITY_DAMAGE": 20.0,
-          "INTELLIGENCE": 100.0
-        }
-      }
-    },
     "COMMON": {
       "1": {
         "otherNums": [
@@ -4748,12 +4700,55 @@
         }
       }
     },
+    "RARE": {
+      "1": {
+        "otherNums": [
+          0.1,
+          0.1
+        ],
+        "statNums": {
+          "ABILITY_DAMAGE": 0.2,
+          "INTELLIGENCE": 1.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          15,
+          7.5
+        ],
+        "statNums": {
+          "ABILITY_DAMAGE": 20.0,
+          "INTELLIGENCE": 100.0
+        }
+      }
+    },
+    "EPIC": {
+      "1": {
+        "otherNums": [
+          0.2,
+          0.1
+        ],
+        "statNums": {
+          "ABILITY_DAMAGE": 0.2,
+          "INTELLIGENCE": 1.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          20,
+          10
+        ],
+        "statNums": {
+          "ABILITY_DAMAGE": 20.0,
+          "INTELLIGENCE": 100.0
+        }
+      }
+    },
     "LEGENDARY": {
       "1": {
         "otherNums": [
           0.2,
           0.1,
-          10.0,
           0.2
         ],
         "statNums": {
@@ -4764,7 +4759,6 @@
       "100": {
         "otherNums": [
           20,
-          10,
           10,
           25
         ],
