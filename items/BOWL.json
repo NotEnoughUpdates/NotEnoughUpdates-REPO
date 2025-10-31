@@ -1,15 +1,20 @@
 {
   "itemid": "minecraft:bowl",
   "displayname": "§fBowl",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBowl\"},ExtraAttributes:{id:\"BOWL\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"BOWL\"},HideFlags:254,ItemModel:\"minecraft:bowl\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBowl\"}}",
   "damage": 0,
   "lore": [
     "§f§lCOMMON"
   ],
   "internalname": "BOWL",
-  "modver": "2.1.1-PRE",
-  "vanilla": true,
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+gf7e1a13",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Bowl"
+  ],
+  "vanilla": true,
   "recipe": {
     "A1": "WOOD:1",
     "A2": "",
@@ -21,9 +26,5 @@
     "C2": "",
     "C3": "",
     "count": 4
-  },
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Bowl"
-  ]
+  }
 }
