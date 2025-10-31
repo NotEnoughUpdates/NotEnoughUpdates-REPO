@@ -1,15 +1,20 @@
 {
   "itemid": "minecraft:emerald_block",
   "displayname": "§fBlock of Emerald",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBlock of Emerald\"},ExtraAttributes:{id:\"EMERALD_BLOCK\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"EMERALD_BLOCK\"},HideFlags:254,ItemModel:\"minecraft:emerald_block\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBlock of Emerald\"}}",
   "damage": 0,
   "lore": [
     "§f§lCOMMON"
   ],
   "internalname": "EMERALD_BLOCK",
-  "modver": "2.1.0-REL",
-  "vanilla": true,
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+gf7e1a13",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Block_Of_Emerald"
+  ],
+  "vanilla": true,
   "recipe": {
     "A1": "EMERALD:1",
     "A2": "EMERALD:1",
@@ -20,9 +25,5 @@
     "C1": "EMERALD:1",
     "C2": "EMERALD:1",
     "C3": "EMERALD:1"
-  },
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://wiki.hypixel.net/Block_Of_Emerald"
-  ]
+  }
 }
