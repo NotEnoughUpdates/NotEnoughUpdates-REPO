@@ -1073,7 +1073,7 @@
         "name": "§aGhost",
         "skullOwner": "c5752211-7503-3e77-9890-d1cf6ba1d0e7",
         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTgxOTc3OTE4YTExODBlMGRlYzg3OWU2YmNkMWFhMzk0OTQ5NzdiYjkxM2JlMmFiMDFhZmYxZGIxZmE0In19fQ==",
-        "cap": 100000,
+        "cap": 40000,
         "mobs": [
           "caverns_ghost_250"
         ],
@@ -1535,8 +1535,10 @@
         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJiY2FjZWViNDE2MmY0MDBkNDQ3NDMzMTU5MzJhYzgyMGQzMTE5YWM4OTg2YTAxNjFhNzI2MTYxY2NjOTNmYyJ9fX0",
         "cap": 3000,
         "mobs": [
+          "gaia_construct_85",
           "gaia_construct_140",
-          "gaia_construct_260"
+          "gaia_construct_260",
+          "gaia_construct_325"
         ],
         "bracket": 4
       },
@@ -1547,7 +1549,8 @@
         "cap": 1000,
         "mobs": [
           "minos_champion_175",
-          "minos_champion_310"
+          "minos_champion_310",
+          "minos_champion_550"
         ],
         "bracket": 5
       },
@@ -1557,9 +1560,10 @@
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU5ODQzOTU1MzMzMCwKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI3MDUwNjg3NDBjZDZiNGMyYjAyNjNkYWVhYjYxMDNkNjUyYjllZmJjYWFkOGFjYmFiZWU2OGU2ZmQxYzRiNCIKICAgIH0KICB9Cn0=",
         "cap": 1000,
         "mobs": [
-          "minos_hunter_125",
           "minos_hunter_15",
-          "minos_hunter_60"
+          "minos_hunter_60",
+          "minos_hunter_125",
+          "minos_hunter_200"
         ],
         "bracket": 5
       },
@@ -1569,7 +1573,8 @@
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU5ODQ0MDY4MzMxOSwKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTlhYWMzNTZkYmJlZjNlYTdlZTM0NDBkN2IzYWI5ZWZjMjk2NWUyNTlmYWRjYjliMDg1MWIwYjI0NDM0N2I3ZCIKICAgIH0KICB9Cn0=",
         "cap": 500,
         "mobs": [
-          "minos_inquisitor_750"
+          "minos_inquisitor_750",
+          "minos_inquisitor_1250"
         ],
         "bracket": 7
       },
@@ -1591,9 +1596,75 @@
         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTE4Zjc3MzMxYjJjYWI2NGUyYjQzMGZhOGU0MjczZTRkYjdmNzhmY2RmYTRiMWE5YTQxOGFmNDczNzUwNTZlYiJ9fX0=",
         "cap": 3000,
         "mobs": [
+          "siamese_lynx_15",
           "siamese_lynx_25",
           "siamese_lynx_85",
-          "siamese_lynx_155"
+          "siamese_lynx_155",
+          "siamese_lynx_200"
+        ],
+        "bracket": 4
+      },
+      {
+        "name": "§aCretan Bull",
+        "skullOwner": "5fcfe73b-4953-3144-8a59-5e6d87579ab6",
+        "texture": "eyJ0aW1lc3RhbXAiOjE0OTg2ODk0MDczOTQsInByb2ZpbGVJZCI6ImYxNTliMjc0YzIyZTQzNDBiN2MxNTJhYmRlMTQ3NzEzIiwicHJvZmlsZU5hbWUiOiJNSEZfQ293Iiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81ZDZjNmVkYTk0MmY3ZjVmNzFjMzE2MWM3MzA2ZjRhZWQzMDdkODI4OTVmOWQyYjA3YWI0NTI1NzE4ZWRjNSJ9fX0=",
+        "cap": 3000,
+        "mobs": [
+          "cretan_bull_150",
+          "cretan_bull_250"
+        ],
+        "bracket": 4
+      },
+      {
+        "name": "§aHarpy",
+        "skullOwner": "1e974292-6ebe-3134-bdd4-e6b08bcb1bcb",
+        "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc1NTY0NDM0MTE4NywKICAicHJvZmlsZUlkIiA6ICI2MTU1NTMyOTY2OWM0ZDA5YmFiOGJlNDNkYWUwYTRjMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJmaTAxNSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80NzBlZTkxZWUxYTAwNTkzMzFkN2VjOTI0YTA5Yjg2NDgwYmQ5NmRhZTE5MTRmZjg1YzJjZDNiNzEzNGFiNjgzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+        "cap": 3000,
+        "mobs": [
+          "harpy_175",
+          "harpy_325"
+        ],
+        "bracket": 4
+      },
+      {
+        "name": "§aKing Minos",
+        "skullOwner": "375e72e7-04e5-32b8-bfcf-f087963047cd",
+        "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc1NTY0NDI1NDYxOSwKICAicHJvZmlsZUlkIiA6ICI0MDU4NDhjMmJjNTE0ZDhkOThkOTJkMGIwYzhiZDQ0YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJMaWFtX1NhZ2UiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg0Y2Q4NWEwNDlmYTliMzI1NmJhYTM0ODk0ZWMwN2Q4NThjNGYzMjRjMzBlYmQ4MDQzNWYyYzRjYTk4NjlkNSIKICAgIH0KICB9Cn0=",
+        "cap": 100,
+        "mobs": [
+          "king_minos_1750"
+        ],
+        "bracket": 7
+      },
+      {
+        "name": "§aManticore",
+        "skullOwner": "7900e80c-85eb-3270-b244-27fc955dd21c",
+        "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc1MjUxNDEzODYzMSwKICAicHJvZmlsZUlkIiA6ICJiOWIzY2RlZmIyZmQ0YWY1ODQxMGViZWZjY2ZmYTBhYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJpbnRlcnNlY2F0byIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85ZTA1N2U4MTk5MDdhNjM4OTc1NzYwYjljZDkzNWNiOGE1N2RiZjI4MTY5NTRhYzhkOTQ0MTk2YTRlOGIwMmNhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+        "cap": 100,
+        "mobs": [
+          "manticore_1750"
+        ],
+        "bracket": 7
+      },
+      {
+        "name": "§aSpinx",
+        "skullOwner": "91d57bdb-c9dd-3fc1-920c-8fa589d24317",
+        "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc1MjUyMjYwMzQwMiwKICAicHJvZmlsZUlkIiA6ICI3YjE3NjBiYmVkNTk0Mjc1YmU3ZjhjMGFlYmQzMmRiNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdmVuTmlqaHVpczQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2JiYTNmM2FlNWUzNTc3ZTBhZTM3YzMwMmU4YmY4MzhkMzQ0MzU5YTdjNzY5OGMyMzY2ODdiNzRiYzU3M2ExYSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+        "cap": 500,
+        "mobs": [
+          "sphinx_750",
+          "sphinx_1250"
+        ],
+        "bracket": 7
+      },
+      {
+        "name": "§aStranded Nymph",
+        "skullOwner": "944a112e-a01c-380f-81bd-fb4f3f38d2cf",
+        "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc1NTY0NTU0ODAxMSwKICAicHJvZmlsZUlkIiA6ICI1ZjU5NmViY2JlOTQ0NmQxYmI0M2JlNGYzZjRiOGJlNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZWlsMHNzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU1OTZiMDVhMTZiMzQzMTBhNDQ4NTI2MjM4YjJmYzY1NWM4OTU1Yzg1NjY5OGM3ZDZiMWRiOWFkOWU0MjI3ZmIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+        "cap": 3000,
+        "mobs": [
+          "stranded_nymph_150",
+          "stranded_nymph_250"
         ],
         "bracket": 4
       }

@@ -187,6 +187,28 @@
           "DEFENSE": 200
         }
       }
+    },
+    "MYTHIC": {
+      "1": {
+        "otherNums": [
+          59.6,
+          3,
+          0.1
+        ],
+        "statNums": {
+          "DEFENSE": 2.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          20.0,
+          300,
+          10
+        ],
+        "statNums": {
+          "DEFENSE": 200
+        }
+      }
     }
   },
   "BABY_YETI": {
@@ -258,12 +280,10 @@
         }
       }
     },
-    "EPIC": {
+    "UNCOMMON": {
       "1": {
         "otherNums": [
-          0.3,
-          0.5,
-          0.2
+          0.1
         ],
         "statNums": {
           "INTELLIGENCE": 1.0,
@@ -272,9 +292,55 @@
       },
       "100": {
         "otherNums": [
+          10
+        ],
+        "statNums": {
+          "INTELLIGENCE": 100.0,
+          "SPEED": 5.0
+        }
+      }
+    },
+    "RARE": {
+      "1": {
+        "otherNums": [
+          0.1,
+          0.2,
+          0.4
+        ],
+        "statNums": {
+          "INTELLIGENCE": 1.0,
+          "SPEED": 0.05
+        }
+      },
+      "100": {
+        "otherNums": [
+          15,
+          20,
+          40
+        ],
+        "statNums": {
+          "INTELLIGENCE": 100.0,
+          "SPEED": 5.0
+        }
+      }
+    },
+    "EPIC": {
+      "1": {
+        "otherNums": [
+          0.2,
+          0.3,
+          0.5
+        ],
+        "statNums": {
+          "INTELLIGENCE": 1.0,
+          "SPEED": 0.05
+        }
+      },
+      "100": {
+        "otherNums": [
+          20,
           30,
-          50,
-          20
+          50
         ],
         "statNums": {
           "INTELLIGENCE": 100.0,
@@ -301,50 +367,6 @@
           30,
           50,
           50
-        ],
-        "statNums": {
-          "INTELLIGENCE": 100.0,
-          "SPEED": 5.0
-        }
-      }
-    },
-    "RARE": {
-      "1": {
-        "otherNums": [
-          0.2,
-          0.4,
-          0.1
-        ],
-        "statNums": {
-          "INTELLIGENCE": 1.0,
-          "SPEED": 0.05
-        }
-      },
-      "100": {
-        "otherNums": [
-          20,
-          40,
-          15
-        ],
-        "statNums": {
-          "INTELLIGENCE": 100.0,
-          "SPEED": 5.0
-        }
-      }
-    },
-    "UNCOMMON": {
-      "1": {
-        "otherNums": [
-          0.1
-        ],
-        "statNums": {
-          "INTELLIGENCE": 1.0,
-          "SPEED": 0.05
-        }
-      },
-      "100": {
-        "otherNums": [
-          10
         ],
         "statNums": {
           "INTELLIGENCE": 100.0,
@@ -3747,7 +3769,7 @@
         "otherNums": [
           0.5,
           0.02,
-          1
+          0.2
         ],
         "statNums": {
           "BONUS_PEST_CHANCE": 0.5,
@@ -3758,7 +3780,7 @@
         "otherNums": [
           50,
           2,
-          100
+          20
         ],
         "statNums": {
           "BONUS_PEST_CHANCE": 50.0,
@@ -4357,6 +4379,26 @@
       }
     }
   },
+  "PRECURSOR_DRONE": {
+    "COMMON": {
+      "1": {
+        "otherNums": [],
+        "statNums": {
+          "SEA_CREATURE_CHANCE": 0.1,
+          "MINING_FORTUNE": 0.3,
+          "FORAGING_FORTUNE": 0.3
+        }
+      },
+      "100": {
+        "otherNums": [],
+        "statNums": {
+          "SEA_CREATURE_CHANCE": 10,
+          "MINING_FORTUNE": 30,
+          "FORAGING_FORTUNE": 30
+        }
+      }
+    }
+  },
   "RABBIT": {
     "COMMON": {
       "1": {
@@ -4638,54 +4680,6 @@
     }
   },
   "SHEEP": {
-    "EPIC": {
-      "1": {
-        "otherNums": [
-          0.2,
-          0.1,
-          10.0
-        ],
-        "statNums": {
-          "ABILITY_DAMAGE": 0.2,
-          "INTELLIGENCE": 1.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          20,
-          10,
-          10
-        ],
-        "statNums": {
-          "ABILITY_DAMAGE": 20.0,
-          "INTELLIGENCE": 100.0
-        }
-      }
-    },
-    "RARE": {
-      "1": {
-        "otherNums": [
-          0.1,
-          0.1,
-          10.0
-        ],
-        "statNums": {
-          "ABILITY_DAMAGE": 0.2,
-          "INTELLIGENCE": 1.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          15,
-          10,
-          10
-        ],
-        "statNums": {
-          "ABILITY_DAMAGE": 20.0,
-          "INTELLIGENCE": 100.0
-        }
-      }
-    },
     "COMMON": {
       "1": {
         "otherNums": [
@@ -4726,12 +4720,55 @@
         }
       }
     },
+    "RARE": {
+      "1": {
+        "otherNums": [
+          0.1,
+          0.1
+        ],
+        "statNums": {
+          "ABILITY_DAMAGE": 0.2,
+          "INTELLIGENCE": 1.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          15,
+          7.5
+        ],
+        "statNums": {
+          "ABILITY_DAMAGE": 20.0,
+          "INTELLIGENCE": 100.0
+        }
+      }
+    },
+    "EPIC": {
+      "1": {
+        "otherNums": [
+          0.2,
+          0.1
+        ],
+        "statNums": {
+          "ABILITY_DAMAGE": 0.2,
+          "INTELLIGENCE": 1.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          20,
+          10
+        ],
+        "statNums": {
+          "ABILITY_DAMAGE": 20.0,
+          "INTELLIGENCE": 100.0
+        }
+      }
+    },
     "LEGENDARY": {
       "1": {
         "otherNums": [
           0.2,
           0.1,
-          10.0,
           0.2
         ],
         "statNums": {
@@ -4742,7 +4779,6 @@
       "100": {
         "otherNums": [
           20,
-          10,
           10,
           25
         ],
@@ -6310,9 +6346,8 @@
         "statNums": {
           "CRIT_CHANCE": 0.1,
           "CRIT_DAMAGE": 0.5,
-          "STRENGTH": 0.25,
-          "MAGIC_FIND": 0.1,
-          "INTELLIGENCE": 0.1
+          "STRENGTH": 0.5,
+          "BONUS_ATTACK_SPEED": 0.25
         }
       },
       "100": {
@@ -6320,9 +6355,8 @@
         "statNums": {
           "CRIT_CHANCE": 10,
           "CRIT_DAMAGE": 50,
-          "STRENGTH": 25,
-          "MAGIC_FIND": 10,
-          "INTELLIGENCE": 10
+          "STRENGTH": 50,
+          "BONUS_ATTACK_SPEED": 25
         }
       }
     },
@@ -6332,9 +6366,8 @@
         "statNums": {
           "CRIT_CHANCE": 0.1,
           "CRIT_DAMAGE": 0.5,
-          "STRENGTH": 0.25,
-          "MAGIC_FIND": 0.1,
-          "INTELLIGENCE": 0.1
+          "STRENGTH": 0.5,
+          "BONUS_ATTACK_SPEED": 0.25
         }
       },
       "100": {
@@ -6342,85 +6375,108 @@
         "statNums": {
           "CRIT_CHANCE": 10,
           "CRIT_DAMAGE": 50,
-          "STRENGTH": 25,
-          "MAGIC_FIND": 10,
-          "INTELLIGENCE": 10
+          "STRENGTH": 50,
+          "BONUS_ATTACK_SPEED": 25
         }
       }
     },
     "RARE": {
       "1": {
-        "otherNums": [],
+        "otherNums": [
+          0.1
+        ],
         "statNums": {
           "CRIT_CHANCE": 0.1,
           "CRIT_DAMAGE": 0.5,
-          "STRENGTH": 0.25,
-          "MAGIC_FIND": 0.1,
-          "INTELLIGENCE": 0.1
+          "STRENGTH": 0.5,
+          "BONUS_ATTACK_SPEED": 0.25
         }
       },
       "100": {
-        "otherNums": [],
+        "otherNums": [
+          10
+        ],
         "statNums": {
           "CRIT_CHANCE": 10,
           "CRIT_DAMAGE": 50,
-          "STRENGTH": 25,
-          "MAGIC_FIND": 10,
-          "INTELLIGENCE": 10
+          "STRENGTH": 50,
+          "BONUS_ATTACK_SPEED": 25
         }
       }
     },
     "EPIC": {
       "1": {
         "otherNums": [
-          0
+          0.15
         ],
         "statNums": {
           "CRIT_CHANCE": 0.1,
           "CRIT_DAMAGE": 0.5,
-          "STRENGTH": 0.25,
-          "MAGIC_FIND": 0.1,
-          "INTELLIGENCE": 0.1
+          "STRENGTH": 0.5,
+          "BONUS_ATTACK_SPEED": 0.25
         }
       },
       "100": {
         "otherNums": [
-          16
+          15
         ],
         "statNums": {
           "CRIT_CHANCE": 10,
           "CRIT_DAMAGE": 50,
-          "STRENGTH": 25,
-          "MAGIC_FIND": 10,
-          "INTELLIGENCE": 10
+          "STRENGTH": 50,
+          "BONUS_ATTACK_SPEED": 25
         }
       }
     },
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          0,
-          1.1
+          0.15,
+          0.2
         ],
         "statNums": {
           "CRIT_CHANCE": 0.1,
           "CRIT_DAMAGE": 0.5,
-          "STRENGTH": 0.25,
-          "MAGIC_FIND": 0.1,
-          "INTELLIGENCE": 0.1
+          "STRENGTH": 0.5,
+          "BONUS_ATTACK_SPEED": 0.25
         }
       },
       "100": {
         "otherNums": [
-          20,
-          15
+          15,
+          20
         ],
         "statNums": {
           "CRIT_CHANCE": 10,
           "CRIT_DAMAGE": 50,
-          "STRENGTH": 25,
-          "MAGIC_FIND": 10,
-          "INTELLIGENCE": 10
+          "STRENGTH": 50,
+          "BONUS_ATTACK_SPEED": 25
+        }
+      }
+    },
+    "MYTHIC": {
+      "1": {
+        "otherNums": [
+          0.15,
+          0.2
+        ],
+        "statNums": {
+          "CRIT_CHANCE": 0.1,
+          "CRIT_DAMAGE": 0.5,
+          "STRENGTH": 0.5,
+          "BONUS_ATTACK_SPEED": 0.25
+        }
+      },
+      "100": {
+        "otherNums": [
+          15,
+          20
+        ],
+        "statNums": {
+          "CRIT_CHANCE": 10,
+          "CRIT_DAMAGE": 50,
+          "STRENGTH": 50,
+          "BONUS_ATTACK_SPEED": 25
         }
       }
     }

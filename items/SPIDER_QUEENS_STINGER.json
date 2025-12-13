@@ -26,15 +26,20 @@
     "https://hypixel-skyblock.fandom.com/wiki/Spider_Queen%27s_Stinger",
     "https://wiki.hypixel.net/Spider_Queen%27s_Stinger"
   ],
-  "recipe": {
-    "A1": "",
-    "A2": "ENCHANTED_DARK_OAK_LOG:6",
-    "A3": "SOUL_STRING:6",
-    "B1": "ENCHANTED_SPIDER_EYE:6",
-    "B2": "",
-    "B3": "SOUL_STRING:6",
-    "C1": "",
-    "C2": "ENCHANTED_DARK_OAK_LOG:6",
-    "C3": "SOUL_STRING:6"
-  }
+  "recipes": [
+    {
+      "A1": "",
+      "A2": "ENCHANTED_DARK_OAK_LOG:6",
+      "A3": "SOUL_STRING:16",
+      "B1": "ENCHANTED_SPIDER_EYE:6",
+      "B2": "",
+      "B3": "SOUL_STRING:16",
+      "C1": "",
+      "C2": "ENCHANTED_DARK_OAK_LOG:6",
+      "C3": "SOUL_STRING:16",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "SPIDER_QUEENS_STINGER"
+    }
+  ]
 }

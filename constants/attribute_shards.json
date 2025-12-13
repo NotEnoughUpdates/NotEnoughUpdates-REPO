@@ -64,79 +64,6 @@
   "unconsumable_attributes": [
     "SHARD_CHAMELEON"
   ],
-  "blacklist": {
-    "//": "This blacklist exists due to Hypixel's limitation on output slots. These combinations should work, but due to the limit, recipes with more than 3 outputs don't.",
-    "blacklisted_combos": {
-      "SHARD_HIDEONGIFT": [
-        [
-          "SHARD_HIDEONLEAF",
-          "SHARD_GLACITE_WALKER"
-        ]
-      ],
-      "SHARD_KIWI": [
-        [
-          "SHARD_CROW",
-          "SHARD_GLACITE_WALKER"
-        ],
-        [
-          "SHARD_CROW",
-          "SHARD_GHOST"
-        ],
-        [
-          "SHARD_HERON",
-          "SHARD_GLACITE_WALKER"
-        ]
-      ],
-      "SHARD_GROVE": [
-        [
-          "SHARD_PHANPYRE",
-          "SHARD_GLACITE_WALKER"
-        ]
-      ],
-      "SHARD_BOREAL_OWL": [
-        [
-          "SHARD_HERON",
-          "SHARD_SALMON"
-        ],
-        [
-          "SHARD_HERON",
-          "SHARD_VERDANT"
-        ],
-        [
-          "SHARD_HERON",
-          "SHARD_GLACITE_WALKER"
-        ],
-        [
-          "SHARD_HERON",
-          "SHARD_BIRRIES"
-        ],
-        [
-          "SHARD_HERON",
-          "SHARD_CHILL"
-        ]
-      ],
-      "SHARD_RANA": [
-        [
-          "SHARD_MOSSYBIT",
-          "SHARD_GLACITE_WALKER"
-        ]
-      ],
-      "SHARD_BRAMBLE": [
-        [
-          "SHARD_MOSSYBIT",
-          "SHARD_GLACITE_WALKER"
-        ],
-        [
-          "SHARD_MOSSYBIT",
-          "SHARD_GHOST"
-        ],
-        [
-          "SHARD_MOSSYBIT",
-          "SHARD_KADA_KNIGHT"
-        ]
-      ]
-    }
-  },
   "attributes": [
     {
       "bazaarName": "SHARD_HIDEONRING",
@@ -148,32 +75,6 @@
       "family": [
         "Shulker"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "family",
-            "value": [
-              "Shulker"
-            ],
-            "amount": 5,
-            "rarity": [
-              "RARE",
-              "EPIC",
-              "LEGENDARY"
-            ]
-          },
-          {
-            "type": "rarity",
-            "value": [
-              "RARE",
-              "EPIC",
-              "LEGENDARY"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "R34"
     },
     {
@@ -187,21 +88,6 @@
         "Demon",
         "Dragon"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_ETHERDRAKE",
-            "amount": 5
-          },
-          {
-            "type": "bazaarName",
-            "value": "SHARD_JORMUNG",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "L42"
     },
     {
@@ -214,28 +100,6 @@
       "family": [
         "Panda"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "family",
-            "value": [
-              "Panda"
-            ],
-            "amount": 5
-          },
-          {
-            "type": "rarity",
-            "value": [
-              "UNCOMMON",
-              "RARE",
-              "EPIC",
-              "LEGENDARY"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "R4"
     },
     {
@@ -280,21 +144,6 @@
       "family": [
         "Cave Dweller"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_SILENTDEPTH",
-            "amount": 5
-          },
-          {
-            "type": "bazaarName",
-            "value": "SHARD_QUARTZFANG",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "R51"
     },
     {
@@ -329,27 +178,6 @@
       "family": [
         "Bird"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "family",
-            "value": [
-              "Bird"
-            ],
-            "amount": 5
-          },
-          {
-            "type": "rarity",
-            "value": [
-              "RARE",
-              "EPIC",
-              "LEGENDARY"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "R58"
     },
     {
@@ -363,23 +191,6 @@
         "Amphibian",
         "Frog"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "family",
-            "value": [
-              "Frog"
-            ],
-            "amount": 2
-          },
-          {
-            "type": "alignment",
-            "value": "Combat",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "U39"
     },
     {
@@ -418,21 +229,6 @@
         "Amphibian",
         "Frog"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_BULLFROG",
-            "amount": 2
-          },
-          {
-            "type": "alignment",
-            "value": "Forest",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "E7"
     },
     {
@@ -445,25 +241,6 @@
       "family": [
         "Shulker"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "family",
-            "value": [
-              "Shulker"
-            ],
-            "amount": 5
-          },
-          {
-            "type": "family",
-            "value": [
-              "Cave Dweller"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "U7"
     },
     {
@@ -506,25 +283,6 @@
       "family": [
         "Lapis"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_LAPIS_ZOMBIE",
-            "amount": 5
-          },
-          {
-            "type": "rarity",
-            "value": [
-              "RARE",
-              "EPIC",
-              "LEGENDARY"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "R15"
     },
     {
@@ -535,23 +293,6 @@
       "abilityName": "Book Wisdom",
       "alignment": "Combat",
       "family": [],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_LAPIS_SKELETON",
-            "amount": 5
-          },
-          {
-            "type": "rarity",
-            "value": [
-              "LEGENDARY"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "L12"
     },
     {
@@ -586,23 +327,6 @@
       "family": [
         "Shulker"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_WITHER",
-            "amount": 5
-          },
-          {
-            "type": "family",
-            "value": [
-              "Shulker"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "R13"
     },
     {
@@ -615,25 +339,6 @@
       "family": [
         "Cave Dweller"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "family",
-            "value": [
-              "Cave Dweller"
-            ],
-            "amount": 5
-          },
-          {
-            "type": "family",
-            "value": [
-              "Cave Dweller"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "E36"
     },
     {
@@ -647,21 +352,6 @@
         "Amphibian",
         "Eel"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_SEA_SERPENT",
-            "amount": 5
-          },
-          {
-            "type": "alignment",
-            "value": "Water",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "L11"
     },
     {
@@ -687,21 +377,6 @@
         "Reptile",
         "Turtle"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_LEATHERBACK",
-            "amount": 5
-          },
-          {
-            "type": "alignment",
-            "value": "Water",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "L8"
     },
     {
@@ -748,21 +423,6 @@
       "family": [
         "Bug"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_INVISIBUG",
-            "amount": 5
-          },
-          {
-            "type": "bazaarName",
-            "value": "SHARD_TERMITE",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "R16"
     },
     {
@@ -785,25 +445,6 @@
       "abilityName": "Deadeye",
       "alignment": "Combat",
       "family": [],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_LAPIS_SKELETON",
-            "amount": 5
-          },
-          {
-            "type": "rarity",
-            "value": [
-              "RARE",
-              "EPIC",
-              "LEGENDARY"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "R30"
     },
     {
@@ -817,23 +458,6 @@
         "Lizard",
         "Reptile"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "family",
-            "value": [
-              "Axolotl"
-            ],
-            "amount": 5
-          },
-          {
-            "type": "alignment",
-            "value": "Water",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "C35"
     },
     {
@@ -861,12 +485,12 @@
     {
       "bazaarName": "SHARD_THORN",
       "displayName": "Thorn",
-      "rarity": "EPIC",
+      "rarity": "LEGENDARY",
       "internalName": "ATTRIBUTE_SHARD_DOMINANCE;1",
       "abilityName": "Dominance",
       "alignment": "Combat",
       "family": [],
-      "shardId": "E12"
+      "shardId": "L48"
     },
     {
       "bazaarName": "SHARD_LORD_JAWBUS",
@@ -922,26 +546,6 @@
       "family": [
         "Elemental"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "alignment",
-            "value": "Forest",
-            "amount": 5,
-            "rarity": [
-              "EPIC"
-            ]
-          },
-          {
-            "type": "rarity",
-            "value": [
-              "LEGENDARY"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "E1"
     },
     {
@@ -955,21 +559,6 @@
         "Reptile",
         "Scaled"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_GECKO",
-            "amount": 2
-          },
-          {
-            "type": "alignment",
-            "value": "Forest",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "E10"
     },
     {
@@ -983,25 +572,6 @@
         "Reptile",
         "Serpent"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "family",
-            "value": [
-              "Shulker"
-            ],
-            "amount": 5
-          },
-          {
-            "type": "family",
-            "value": [
-              "Reptile"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "U9"
     },
     {
@@ -1015,21 +585,6 @@
         "Croco",
         "Reptile"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_CAIMAN",
-            "amount": 5
-          },
-          {
-            "type": "alignment",
-            "value": "Combat",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "L6"
     },
     {
@@ -1042,26 +597,6 @@
       "family": [
         "Elemental"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "family",
-            "value": [
-              "Elemental"
-            ],
-            "amount": 2,
-            "rarity": [
-              "LEGENDARY"
-            ]
-          },
-          {
-            "type": "bazaarName",
-            "value": "SHARD_GALAXY_FISH",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "L44"
     },
     {
@@ -1075,21 +610,6 @@
         "Reptile",
         "Scaled"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_IGUANA",
-            "amount": 5
-          },
-          {
-            "type": "alignment",
-            "value": "Forest",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "E22"
     },
     {
@@ -1104,21 +624,6 @@
         "Eel",
         "Serpent"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_MORAY_EEL",
-            "amount": 5
-          },
-          {
-            "type": "alignment",
-            "value": "Water",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "E32"
     },
     {
@@ -1132,21 +637,6 @@
         "Croco",
         "Reptile"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_CROCODILE",
-            "amount": 5
-          },
-          {
-            "type": "alignment",
-            "value": "Combat",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "E6"
     },
     {
@@ -1160,21 +650,6 @@
         "Croco",
         "Reptile"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_ALLIGATOR",
-            "amount": 5
-          },
-          {
-            "type": "alignment",
-            "value": "Combat",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "E30"
     },
     {
@@ -1201,21 +676,6 @@
         "Reptile",
         "Scaled"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_KOMODO_DRAGON",
-            "amount": 2
-          },
-          {
-            "type": "alignment",
-            "value": "Forest",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "L7"
     },
     {
@@ -1274,23 +734,6 @@
         "Lizard",
         "Reptile"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "family",
-            "value": [
-              "Lizard"
-            ],
-            "amount": 5
-          },
-          {
-            "type": "alignment",
-            "value": "Water",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "E5"
     },
     {
@@ -1405,29 +848,6 @@
       "family": [
         "Elemental"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "alignment",
-            "value": "Water",
-            "amount": 5,
-            "rarity": [
-              "COMMON"
-            ]
-          },
-          {
-            "type": "rarity",
-            "value": [
-              "UNCOMMON",
-              "RARE",
-              "EPIC",
-              "LEGENDARY"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "C2"
     },
     {
@@ -1440,27 +860,6 @@
       "family": [
         "Panda"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "family",
-            "value": [
-              "Panda"
-            ],
-            "amount": 5
-          },
-          {
-            "type": "rarity",
-            "value": [
-              "RARE",
-              "EPIC",
-              "LEGENDARY"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "E4"
     },
     {
@@ -1473,27 +872,6 @@
       "family": [
         "Elemental"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "alignment",
-            "value": "Forest",
-            "amount": 5,
-            "rarity": [
-              "RARE"
-            ]
-          },
-          {
-            "type": "rarity",
-            "value": [
-              "EPIC",
-              "LEGENDARY"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "R1"
     },
     {
@@ -1506,28 +884,6 @@
       "family": [
         "Phantom"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": [
-              "SHARD_PHANPYRE",
-              "SHARD_PHANFLARE"
-            ],
-            "amount": 5
-          },
-          {
-            "type": "rarity",
-            "value": [
-              "RARE",
-              "EPIC",
-              "LEGENDARY"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "R49"
     },
     {
@@ -1565,21 +921,6 @@
         "Amphibian",
         "Frog"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_TADGANG",
-            "amount": 5
-          },
-          {
-            "type": "alignment",
-            "value": "Forest",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "U11"
     },
     {
@@ -1603,23 +944,6 @@
         "Amphibian",
         "Frog"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "family",
-            "value": [
-              "Frog"
-            ],
-            "amount": 5
-          },
-          {
-            "type": "alignment",
-            "value": "Forest",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "R5"
     },
     {
@@ -1632,26 +956,6 @@
       "family": [
         "Elemental"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "alignment",
-            "value": "Water",
-            "amount": 5,
-            "rarity": [
-              "EPIC"
-            ]
-          },
-          {
-            "type": "rarity",
-            "value": [
-              "LEGENDARY"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "E2"
     },
     {
@@ -1664,23 +968,6 @@
       "family": [
         "Cave Dweller"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "family",
-            "value": [
-              "Cave Dweller"
-            ],
-            "amount": 5
-          },
-          {
-            "type": "alignment",
-            "value": "Forest",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "R52"
     },
     {
@@ -1693,24 +980,6 @@
       "family": [
         "Bug"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_FIREFLY",
-            "amount": 5
-          },
-          {
-            "type": "alignment",
-            "value": "Forest",
-            "amount": 5,
-            "rarity": [
-              "LEGENDARY"
-            ]
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "E37"
     },
     {
@@ -1721,21 +990,6 @@
       "abilityName": "Gold Bait",
       "alignment": "Water",
       "family": [],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_GOLDEN_GHOUL",
-            "amount": 5
-          },
-          {
-            "type": "alignment",
-            "value": "Water",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 1
-      },
       "shardId": "U5"
     },
     {
@@ -1749,21 +1003,6 @@
         "Lizard",
         "Reptile"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_NEWT",
-            "amount": 2
-          },
-          {
-            "type": "alignment",
-            "value": "Water",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "U8"
     },
     {
@@ -1777,23 +1016,6 @@
         "Lizard",
         "Reptile"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "family",
-            "value": [
-              "Lizard"
-            ],
-            "amount": 5
-          },
-          {
-            "type": "alignment",
-            "value": "Water",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "R8"
     },
     {
@@ -1806,29 +1028,6 @@
       "family": [
         "Shulker"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "family",
-            "value": [
-              "Shulker"
-            ],
-            "amount": 5
-          },
-          {
-            "type": "rarity",
-            "value": [
-              "COMMON",
-              "UNCOMMON",
-              "RARE",
-              "EPIC",
-              "LEGENDARY"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "C16"
     },
     {
@@ -1875,21 +1074,6 @@
         "Reptile",
         "Serpent"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_CUBOA",
-            "amount": 5
-          },
-          {
-            "type": "alignment",
-            "value": "Combat",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "U21"
     },
     {
@@ -1903,21 +1087,6 @@
         "Reptile",
         "Serpent"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_PYTHON",
-            "amount": 5
-          },
-          {
-            "type": "alignment",
-            "value": "Combat",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "R54"
     },
     {
@@ -1931,21 +1100,6 @@
         "Reptile",
         "Serpent"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_VIPER",
-            "amount": 5
-          },
-          {
-            "type": "alignment",
-            "value": "Combat",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "R9"
     },
     {
@@ -1959,21 +1113,6 @@
         "Reptile",
         "Serpent"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_KING_COBRA",
-            "amount": 5
-          },
-          {
-            "type": "alignment",
-            "value": "Combat",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "E9"
     },
     {
@@ -1987,21 +1126,6 @@
         "Reptile",
         "Turtle"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_SHELLWISE",
-            "amount": 5
-          },
-          {
-            "type": "alignment",
-            "value": "Water",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "E35"
     },
     {
@@ -2044,23 +1168,6 @@
       "family": [
         "Bug"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "family",
-            "value": [
-              "Bug"
-            ],
-            "amount": 5
-          },
-          {
-            "type": "bazaarName",
-            "value": "SHARD_PRAYING_MANTIS",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "U40"
     },
     {
@@ -2073,21 +1180,6 @@
       "family": [
         "Bug"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_PEST",
-            "amount": 5
-          },
-          {
-            "type": "bazaarName",
-            "value": "SHARD_PEST",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "U22"
     },
     {
@@ -2100,28 +1192,6 @@
       "family": [
         "Bird"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "family",
-            "value": [
-              "Bird"
-            ],
-            "amount": 5
-          },
-          {
-            "type": "rarity",
-            "value": [
-              "UNCOMMON",
-              "RARE",
-              "EPIC",
-              "LEGENDARY"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "U34"
     },
     {
@@ -2176,29 +1246,6 @@
       "family": [
         "Elemental"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "alignment",
-            "value": "Combat",
-            "amount": 5,
-            "rarity": [
-              "COMMON"
-            ]
-          },
-          {
-            "type": "rarity",
-            "value": [
-              "UNCOMMON",
-              "RARE",
-              "EPIC",
-              "LEGENDARY"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "C3"
     },
     {
@@ -2211,27 +1258,6 @@
       "family": [
         "Elemental"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "alignment",
-            "value": "Combat",
-            "amount": 5,
-            "rarity": [
-              "RARE"
-            ]
-          },
-          {
-            "type": "rarity",
-            "value": [
-              "EPIC",
-              "LEGENDARY"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "R3"
     },
     {
@@ -2255,21 +1281,6 @@
         "Amphibian",
         "Eel"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_EEL",
-            "amount": 5
-          },
-          {
-            "type": "alignment",
-            "value": "Water",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "E11"
     },
     {
@@ -2282,23 +1293,6 @@
       "family": [
         "Bug"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_LADYBUG",
-            "amount": 5
-          },
-          {
-            "type": "family",
-            "value": [
-              "Bug"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "E13"
     },
     {
@@ -2455,23 +1449,6 @@
       "family": [
         "Cave Dweller"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "alignment",
-            "value": "Combat",
-            "amount": 5
-          },
-          {
-            "type": "family",
-            "value": [
-              "Cave Dweller"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "U6"
     },
     {
@@ -2484,29 +1461,6 @@
       "family": [
         "Elemental"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "alignment",
-            "value": "Forest",
-            "amount": 5,
-            "rarity": [
-              "COMMON"
-            ]
-          },
-          {
-            "type": "rarity",
-            "value": [
-              "UNCOMMON",
-              "RARE",
-              "EPIC",
-              "LEGENDARY"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "C1"
     },
     {
@@ -2531,29 +1485,6 @@
       "family": [
         "Bird"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "family",
-            "value": [
-              "Bird"
-            ],
-            "amount": 5
-          },
-          {
-            "type": "rarity",
-            "value": [
-              "COMMON",
-              "UNCOMMON",
-              "RARE",
-              "EPIC",
-              "LEGENDARY"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "C34"
     },
     {
@@ -2588,25 +1519,6 @@
       "family": [
         "Bird"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "family",
-            "value": [
-              "Bird"
-            ],
-            "amount": 5
-          },
-          {
-            "type": "rarity",
-            "value": [
-              "LEGENDARY"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "L31"
     },
     {
@@ -2619,21 +1531,6 @@
       "family": [
         "Demon"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_KRAKEN",
-            "amount": 5
-          },
-          {
-            "type": "bazaarName",
-            "value": "SHARD_KRAKEN",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 1
-      },
       "shardId": "L18"
     },
     {
@@ -2646,23 +1543,6 @@
       "family": [
         "Bug"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "family",
-            "value": [
-              "Bug"
-            ],
-            "amount": 5
-          },
-          {
-            "type": "bazaarName",
-            "value": "SHARD_CROPEETLE",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "R43"
     },
     {
@@ -2688,23 +1568,6 @@
       "family": [
         "Cave Dweller"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_TROGLOBYTE",
-            "amount": 5
-          },
-          {
-            "type": "family",
-            "value": [
-              "Cave Dweller"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "R33"
     },
     {
@@ -2727,23 +1590,6 @@
       "family": [
         "Bird"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_CONDOR",
-            "amount": 5
-          },
-          {
-            "type": "rarity",
-            "value": [
-              "LEGENDARY"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "L34"
     },
     {
@@ -2790,29 +1636,6 @@
       "family": [
         "Shulker"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "family",
-            "value": [
-              "Shulker"
-            ],
-            "amount": 5,
-            "rarity": [
-              "RARE"
-            ]
-          },
-          {
-            "type": "rarity",
-            "value": [
-              "EPIC",
-              "LEGENDARY"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "E16"
     },
     {
@@ -2825,30 +1648,6 @@
       "family": [
         "Elemental"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "family",
-            "value": [
-              "Elemental"
-            ],
-            "amount": 5,
-            "rarity": [
-              "EPIC",
-              "LEGENDARY"
-            ]
-          },
-          {
-            "type": "alignment",
-            "value": "Forest",
-            "amount": 5,
-            "rarity": [
-              "LEGENDARY"
-            ]
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "L1"
     },
     {
@@ -2884,30 +1683,6 @@
       "family": [
         "Elemental"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "family",
-            "value": [
-              "Elemental"
-            ],
-            "amount": 5,
-            "rarity": [
-              "EPIC",
-              "LEGENDARY"
-            ]
-          },
-          {
-            "type": "alignment",
-            "value": "Water",
-            "amount": 5,
-            "rarity": [
-              "LEGENDARY"
-            ]
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "L2"
     },
     {
@@ -2920,29 +1695,6 @@
       "family": [
         "Bug"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_LUNAR_MOTH",
-            "amount": 5
-          },
-          {
-            "type": "bazaarName",
-            "value": [
-              "SHARD_BEZAL",
-              "SHARD_CINDER_BAT",
-              "SHARD_FLARE",
-              "SHARD_LAVA_FLAME",
-              "SHARD_FIRE_EEL",
-              "SHARD_BAL",
-              "SHARD_FLAMING_SPIDER"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "E31"
     },
     {
@@ -2987,21 +1739,6 @@
       "family": [
         "Demon"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_KRAKEN",
-            "amount": 5
-          },
-          {
-            "type": "alignment",
-            "value": "Water",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 1
-      },
       "shardId": "L20"
     },
     {
@@ -3012,21 +1749,6 @@
       "abilityName": "Starborn",
       "alignment": "Water",
       "family": [],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_SHINYFISH",
-            "amount": 5
-          },
-          {
-            "type": "bazaarName",
-            "value": "SHARD_SHINYFISH",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 1
-      },
       "shardId": "L32"
     },
     {
@@ -3039,28 +1761,6 @@
       "family": [
         "Elemental"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "alignment",
-            "value": "Combat",
-            "amount": 5,
-            "rarity": [
-              "UNCOMMON"
-            ]
-          },
-          {
-            "type": "rarity",
-            "value": [
-              "RARE",
-              "EPIC",
-              "LEGENDARY"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "U3"
     },
     {
@@ -3073,26 +1773,6 @@
       "family": [
         "Elemental"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "family",
-            "value": [
-              "Elemental"
-            ],
-            "amount": 5
-          },
-          {
-            "type": "alignment",
-            "value": "Combat",
-            "amount": 5,
-            "rarity": [
-              "LEGENDARY"
-            ]
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "L3"
     },
     {
@@ -3129,27 +1809,6 @@
       "family": [
         "Elemental"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "alignment",
-            "value": "Water",
-            "amount": 5,
-            "rarity": [
-              "RARE"
-            ]
-          },
-          {
-            "type": "rarity",
-            "value": [
-              "EPIC",
-              "LEGENDARY"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "R2"
     },
     {
@@ -3162,23 +1821,6 @@
       "family": [
         "Bird"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "family",
-            "value": [
-              "Bird"
-            ],
-            "amount": 5
-          },
-          {
-            "type": "alignment",
-            "value": "Combat",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "C24"
     },
     {
@@ -3192,21 +1834,6 @@
         "Amphibian",
         "Eel"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_FIREFLY",
-            "amount": 5
-          },
-          {
-            "type": "bazaarName",
-            "value": "SHARD_MORAY_EEL",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "E14"
     },
     {
@@ -3219,29 +1846,6 @@
       "family": [
         "Shulker"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "family",
-            "value": [
-              "Shulker"
-            ],
-            "amount": 5,
-            "rarity": [
-              "EPIC",
-              "LEGENDARY"
-            ]
-          },
-          {
-            "type": "rarity",
-            "value": [
-              "LEGENDARY"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "L25"
     },
     {
@@ -3252,21 +1856,6 @@
       "abilityName": "Ultimate DNA",
       "alignment": "Water",
       "family": [],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_SUN_FISH",
-            "amount": 5
-          },
-          {
-            "type": "bazaarName",
-            "value": "SHARD_SUN_FISH",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "L41"
     },
     {
@@ -3323,21 +1912,6 @@
         "Demon",
         "Dragon"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_JORMUNG",
-            "amount": 5
-          },
-          {
-            "type": "bazaarName",
-            "value": "SHARD_POWER_DRAGON",
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "L39"
     },
     {
@@ -3375,27 +1949,6 @@
       "family": [
         "Dragon"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_POWER_DRAGON",
-            "amount": 5
-          },
-          {
-            "type": "rarity",
-            "value": [
-              "COMMON",
-              "UNCOMMON",
-              "RARE",
-              "EPIC",
-              "LEGENDARY"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "L33"
     },
     {
@@ -3428,23 +1981,6 @@
       "family": [
         "Bug"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_DRAGONFLY",
-            "amount": 5
-          },
-          {
-            "type": "rarity",
-            "value": [
-              "LEGENDARY"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "L13"
     },
     {
@@ -3457,28 +1993,6 @@
       "family": [
         "Elemental"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "alignment",
-            "value": "Water",
-            "amount": 5,
-            "rarity": [
-              "UNCOMMON"
-            ]
-          },
-          {
-            "type": "rarity",
-            "value": [
-              "RARE",
-              "EPIC",
-              "LEGENDARY"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "U2"
     },
     {
@@ -3491,26 +2005,6 @@
       "family": [
         "Bird"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "family",
-            "value": [
-              "Bird"
-            ],
-            "amount": 5
-          },
-          {
-            "type": "rarity",
-            "value": [
-              "EPIC",
-              "LEGENDARY"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "E28"
     },
     {
@@ -3523,26 +2017,6 @@
       "family": [
         "Elemental"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "alignment",
-            "value": "Combat",
-            "amount": 5,
-            "rarity": [
-              "EPIC"
-            ]
-          },
-          {
-            "type": "rarity",
-            "value": [
-              "LEGENDARY"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 2
-      },
       "shardId": "E3"
     },
     {
@@ -3556,23 +2030,6 @@
         "Bird",
         "Demon"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "bazaarName",
-            "value": "SHARD_KRAKEN",
-            "amount": 5
-          },
-          {
-            "type": "family",
-            "value": [
-              "Bird"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 1
-      },
       "shardId": "L24"
     },
     {
@@ -3607,28 +2064,6 @@
       "family": [
         "Elemental"
       ],
-      "fusion": {
-        "components": [
-          {
-            "type": "alignment",
-            "value": "Forest",
-            "amount": 5,
-            "rarity": [
-              "UNCOMMON"
-            ]
-          },
-          {
-            "type": "rarity",
-            "value": [
-              "RARE",
-              "EPIC",
-              "LEGENDARY"
-            ],
-            "amount": 5
-          }
-        ],
-        "outputQuantity": 1
-      },
       "shardId": "U1"
     },
     {
@@ -3674,6 +2109,51 @@
         "Bird"
       ],
       "shardId": "R64"
+    },
+    {
+      "bazaarName": "SHARD_SCARF",
+      "displayName": "Scarf",
+      "rarity": "LEGENDARY",
+      "internalName": "ATTRIBUTE_SHARD_CATACOMBS_GRADUATE;1",
+      "abilityName": "Catacombs Graduate",
+      "alignment": "Combat",
+      "shardId": "L51"
+    },
+    {
+      "bazaarName": "SHARD_CRETAN_BULL",
+      "displayName": "Cretan Bull",
+      "rarity": "COMMON",
+      "internalName": "ATTRIBUTE_SHARD_MYTHOLOGICAL_RESISTANCE;1",
+      "abilityName": "Mythological Resistance",
+      "alignment": "Combat",
+      "shardId": "C39"
+    },
+    {
+      "bazaarName": "SHARD_MINOTAUR",
+      "displayName": "Minotaur",
+      "rarity": "RARE",
+      "internalName": "ATTRIBUTE_SHARD_MYTHOLOGICAL_FORTUNE;1",
+      "abilityName": "Mythological Fortune",
+      "alignment": "Combat",
+      "shardId": "R63"
+    },
+    {
+      "bazaarName": "SHARD_KING_MINOS",
+      "displayName": "King Minos",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_KING_OF_GREED;1",
+      "abilityName": "King of Greed",
+      "alignment": "Combat",
+      "shardId": "E42"
+    },
+    {
+      "bazaarName": "SHARD_SPHINX",
+      "displayName": "Sphinx",
+      "rarity": "EPIC",
+      "internalName": "ATTRIBUTE_SHARD_BIG_GAME_HUNTER;1",
+      "abilityName": "Big Game Hunter",
+      "alignment": "Combat",
+      "shardId": "E39"
     }
   ]
 }

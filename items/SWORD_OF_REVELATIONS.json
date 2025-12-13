@@ -1,14 +1,16 @@
 {
   "itemid": "minecraft:wooden_sword",
   "displayname": "§5Sword of Revelations",
-  "nbttag": "{ExtraAttributes:{id:\"SWORD_OF_REVELATIONS\"},HideFlags:254,ItemModel:\"minecraft:wooden_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+180\",1:\"§7Strength: §c+50\",2:\"\",3:\"§7Deals §a+150% §7damage to §2✿ Mythological §7mobs\",4:\"§7and grants §b+5✯ Magic Find §7on them.\",5:\"\",6:\"§8This item can be reforged!\",7:\"§5§lEPIC SWORD\"],Name:\"§5Sword of Revelations\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SWORD_OF_REVELATIONS\"},HideFlags:254,ItemModel:\"minecraft:wooden_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+180\",1:\"§7Strength: §c+50\",2:\" §8[§7⚔§8]\",3:\"\",4:\"§7Deals §a1.5x §7damage to §2✿ Mythological\",5:\"§7mobs and grants §b+5✯ Magic Find§7 on\",6:\"§7them.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§5§lEPIC SWORD\"],Name:\"§5Sword of Revelations\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+180",
     "§7Strength: §c+50",
+    " §8[§7⚔§8]",
     "",
-    "§7Deals §a+150% §7damage to §2✿ Mythological §7mobs",
-    "§7and grants §b+5✯ Magic Find §7on them.",
+    "§7Deals §a1.5x §7damage to §2✿ Mythological",
+    "§7mobs and grants §b+5✯ Magic Find§7 on",
+    "§7them.",
     "",
     "§8This item can be reforged!",
     "§5§lEPIC SWORD"
@@ -16,21 +18,26 @@
   "internalname": "SWORD_OF_REVELATIONS",
   "clickcommand": "viewrecipe",
   "crafttext": "",
-  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+gf7e1a13",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Sword_of_Revelations",
     "https://wiki.hypixel.net/Sword_Of_Revelations"
   ],
-  "recipe": {
-    "A1": "GRIFFIN_FEATHER:32",
-    "A2": "ENCHANTED_ANCIENT_CLAW:8",
-    "A3": "GRIFFIN_FEATHER:32",
-    "B1": "GRIFFIN_FEATHER:32",
-    "B2": "ENCHANTED_GOLD_BLOCK:8",
-    "B3": "GRIFFIN_FEATHER:32",
-    "C1": "GRIFFIN_FEATHER:32",
-    "C2": "STICK:1",
-    "C3": "GRIFFIN_FEATHER:32"
-  }
+  "recipes": [
+    {
+      "A1": "GRIFFIN_FEATHER:2",
+      "A2": "ENCHANTED_ANCIENT_CLAW:8",
+      "A3": "GRIFFIN_FEATHER:2",
+      "B1": "GRIFFIN_FEATHER:2",
+      "B2": "ENCHANTED_GOLD_BLOCK:1",
+      "B3": "GRIFFIN_FEATHER:2",
+      "C1": "GRIFFIN_FEATHER:2",
+      "C2": "HILT_OF_REVELATIONS:1",
+      "C3": "GRIFFIN_FEATHER:2",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "SWORD_OF_REVELATIONS"
+    }
+  ]
 }

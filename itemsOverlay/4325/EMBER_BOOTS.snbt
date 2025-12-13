@@ -1,7 +1,8 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "EMBER_BOOTS"
+			id: "EMBER_BOOTS",
+			originTag: "QUICK_CRAFTING"
 		},
 		"minecraft:tooltip_display": {
 			hidden_components: [
@@ -26,6 +27,6 @@
 	id: "minecraft:chainmail_boots",
 	source: {
 		dataVersion: 4325,
-		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
+		modVersion: "Firmament 3.7.1-dev+mc1.21.5+g19c6b28"
 	}
 }
