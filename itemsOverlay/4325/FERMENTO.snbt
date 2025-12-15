@@ -3,7 +3,6 @@
 		"minecraft:custom_data": {
 			id: "FERMENTO"
 		},
-		"minecraft:dyed_color": 10511680,
 		"minecraft:profile": {
 			id: [I;
 				-1347804350,
@@ -11,16 +10,27 @@
 				-1173582681,
 				1384212565
 			],
-			name: "",
 			properties: [
 				{
 					name: "textures",
+					signature: "BdIlJbHpEgRqoyRJ0uvQtIQXCH24hxW8SmUhmd7YCt2bYWaCu0UlxMLRKZalSCRLDnhs7pZ2JmfsS8P676qCQw48DdHegLopGVBgXTxI1yEc9Gyt/GKllCHB4VMUt98bN79f2002vVAoLNHtA6hI+djJyH7WpWPz4212yBnKxd/3lZESjJYQUIP8zZUOMH6IyI6oou4BuuHLvpNgWt/ZyfeREMGsGhRza4tmVoGeGav1+Cbl8bPVogavW6h2kHxW1c9azMIV4uzk0zoinykpf8uBuSkXC8XieucMotrzDlZ87wH1K6zb6ML/re3oq8Bg3Fjoy1NGmivXu66YKD1i6QslChLIoXY697pN+EmUjX9hk102o0Jx7eEuDKUPt/NULWC3mzDoS7KPr0lIo+qAnNlPHqGrjlZH8pt/DEz6/OYrwEFmM1U7VOqPRDJPIcQAtpIEsriKVGwMEe/YK0vDKv/J6W9wz9uRs5NX7aH7YVzdYrJDyPRxUVMPj38S6Tf9pn67pb988WO/UneYCMO2cobOMTuykGSqHPKHJTL3VJbWbF+EzDEQnQp5MFFObnocehQoiBnJ/Cu30hrEVblpRTOA55sv5CAKb0q95c//1yZfRqXJgO6m2Sr7ugPnnLrnR1RFe7TEbs+PLW6jAE0NLd1D1HaCwZDysBuaKF3XVmA=",
 					value: "ewogICJ0aW1lc3RhbXAiIDogMTY2MjUwMjkxNjU1MiwKICAicHJvZmlsZUlkIiA6ICIwOTZkYWUzZWY1MmU0YWU4ODk3ODY2N2EyOGIwZWFhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJHd0FiaXlCZ2dnIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NiNDFkYWViNTdkMmFlNjJjNjZlNThlYjZkZWJiMmE3ZDQ0NmUzNDU0MWE3NzEzNTA3MjhjOWRiMTViZWFmYmEiCiAgICB9CiAgfQp9"
 				}
 			]
 		},
 		"minecraft:tooltip_display": {
 			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
 				"minecraft:dyed_color"
 			]
 		}
@@ -29,6 +39,6 @@
 	id: "minecraft:player_head",
 	source: {
 		dataVersion: 4325,
-		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g64ef955"
+		modVersion: "Firmament 3.7.1-dev+mc1.21.5+gf7e1a13"
 	}
 }
