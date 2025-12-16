@@ -1,7 +1,9 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "THEORETICAL_HOE_CANE_2"
+			id: "THEORETICAL_HOE_CANE_2",
+			levelable_exp: 0.0d,
+			levelable_lvl: 1
 		},
 		"minecraft:tooltip_display": {
 			hidden_components: [
@@ -23,9 +25,9 @@
 		}
 	},
 	count: 1,
-	id: "minecraft:iron_hoe",
+	id: "minecraft:golden_hoe",
 	source: {
 		dataVersion: 4325,
-		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd"
+		modVersion: "Firmament 3.7.1-dev+mc1.21.5+gf7e1a13"
 	}
 }
