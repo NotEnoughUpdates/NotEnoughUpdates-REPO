@@ -23,15 +23,20 @@
     "https://hypixel-skyblock.fandom.com/wiki/Newton_Nether_Warts_Hoe",
     "https://wiki.hypixel.net/Newton_Nether_Warts_Hoe"
   ],
-  "recipe": {
-    "A1": "JACOBS_TICKET:16",
-    "A2": "ENCHANTED_NETHER_STALK:64",
-    "A3": "JACOBS_TICKET:16",
-    "B1": "ENCHANTED_NETHER_STALK:64",
-    "B2": "THEORETICAL_HOE_WARTS_1:1",
-    "B3": "ENCHANTED_NETHER_STALK:64",
-    "C1": "JACOBS_TICKET:16",
-    "C2": "ENCHANTED_NETHER_STALK:64",
-    "C3": "JACOBS_TICKET:16"
-  }
+  "recipes": [
+    {
+      "A1": "JACOBS_TICKET:16",
+      "A2": "MUTANT_NETHER_STALK:15",
+      "A3": "JACOBS_TICKET:16",
+      "B1": "MUTANT_NETHER_STALK:15",
+      "B2": "THEORETICAL_HOE_WARTS_1:1",
+      "B3": "MUTANT_NETHER_STALK:15",
+      "C1": "JACOBS_TICKET:16",
+      "C2": "MUTANT_NETHER_STALK:15",
+      "C3": "JACOBS_TICKET:16",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "THEORETICAL_HOE_WARTS_2"
+    }
+  ]
 }
