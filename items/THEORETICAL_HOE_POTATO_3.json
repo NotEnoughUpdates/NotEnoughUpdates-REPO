@@ -21,15 +21,20 @@
     "https://hypixel-skyblock.fandom.com/wiki/Pythagorean_Potato_Hoe",
     "https://wiki.hypixel.net/Pythagorean_Potato_Hoe"
   ],
-  "recipe": {
-    "A1": "JACOBS_TICKET:64",
-    "A2": "ENCHANTED_BAKED_POTATO:64",
-    "A3": "JACOBS_TICKET:64",
-    "B1": "ENCHANTED_BAKED_POTATO:64",
-    "B2": "THEORETICAL_HOE_POTATO_2:1",
-    "B3": "ENCHANTED_BAKED_POTATO:64",
-    "C1": "JACOBS_TICKET:64",
-    "C2": "ENCHANTED_BAKED_POTATO:64",
-    "C3": "JACOBS_TICKET:64"
-  }
+  "recipes": [
+    {
+      "A1": "JACOBS_TICKET:64",
+      "A2": "ENCHANTED_BAKED_POTATO:60",
+      "A3": "JACOBS_TICKET:64",
+      "B1": "ENCHANTED_BAKED_POTATO:60",
+      "B2": "THEORETICAL_HOE_POTATO_2:1",
+      "B3": "ENCHANTED_BAKED_POTATO:60",
+      "C1": "JACOBS_TICKET:64",
+      "C2": "ENCHANTED_BAKED_POTATO:60",
+      "C3": "JACOBS_TICKET:64",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "THEORETICAL_HOE_POTATO_3"
+    }
+  ]
 }

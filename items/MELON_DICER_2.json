@@ -29,15 +29,20 @@
     "https://hypixel-skyblock.fandom.com/wiki/Melon_Dicer_2.0",
     "https://wiki.hypixel.net/Melon_Dicer_2.0"
   ],
-  "recipe": {
-    "A1": "ENCHANTED_MELON_BLOCK:8",
-    "A2": "ENCHANTED_MELON_BLOCK:8",
-    "A3": "ENCHANTED_MELON_BLOCK:8",
-    "B1": "ENCHANTED_MELON_BLOCK:8",
-    "B2": "MELON_DICER:1",
-    "B3": "ENCHANTED_MELON_BLOCK:8",
-    "C1": "ENCHANTED_MELON_BLOCK:8",
-    "C2": "ENCHANTED_MELON_BLOCK:8",
-    "C3": "ENCHANTED_MELON_BLOCK:8"
-  }
+  "recipes": [
+    {
+      "A1": "JACOBS_TICKET:16",
+      "A2": "ENCHANTED_MELON_BLOCK:16",
+      "A3": "JACOBS_TICKET:16",
+      "B1": "ENCHANTED_MELON_BLOCK:16",
+      "B2": "MELON_DICER:1",
+      "B3": "ENCHANTED_MELON_BLOCK:16",
+      "C1": "JACOBS_TICKET:16",
+      "C2": "ENCHANTED_MELON_BLOCK:16",
+      "C3": "JACOBS_TICKET:16",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "MELON_DICER_2"
+    }
+  ]
 }
