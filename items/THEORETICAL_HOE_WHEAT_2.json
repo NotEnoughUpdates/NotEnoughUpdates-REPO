@@ -22,15 +22,20 @@
     "https://hypixel-skyblock.fandom.com/wiki/Euclid%27s_Wheat_Hoe",
     "https://wiki.hypixel.net/Euclid%27s_Wheat_Hoe"
   ],
-  "recipe": {
-    "A1": "JACOBS_TICKET:16",
-    "A2": "ENCHANTED_WHEAT:16",
-    "A3": "JACOBS_TICKET:16",
-    "B1": "ENCHANTED_WHEAT:16",
-    "B2": "THEORETICAL_HOE_WHEAT_1:1",
-    "B3": "ENCHANTED_WHEAT:16",
-    "C1": "JACOBS_TICKET:16",
-    "C2": "ENCHANTED_WHEAT:16",
-    "C3": "JACOBS_TICKET:16"
-  }
+  "recipes": [
+    {
+      "A1": "JACOBS_TICKET:16",
+      "A2": "ENCHANTED_HAY_BALE:5",
+      "A3": "JACOBS_TICKET:16",
+      "B1": "ENCHANTED_HAY_BALE:5",
+      "B2": "THEORETICAL_HOE_WHEAT_1:1",
+      "B3": "ENCHANTED_HAY_BALE:5",
+      "C1": "JACOBS_TICKET:16",
+      "C2": "ENCHANTED_HAY_BALE:5",
+      "C3": "JACOBS_TICKET:16",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "THEORETICAL_HOE_WHEAT_2"
+    }
+  ]
 }

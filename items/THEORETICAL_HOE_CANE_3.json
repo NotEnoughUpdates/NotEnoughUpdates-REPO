@@ -21,15 +21,20 @@
     "https://hypixel-skyblock.fandom.com/wiki/Turing_Sugar_Cane_Hoe",
     "https://wiki.hypixel.net/Turing_Sugar_Cane_Hoe"
   ],
-  "recipe": {
-    "A1": "JACOBS_TICKET:64",
-    "A2": "ENCHANTED_SUGAR_CANE:64",
-    "A3": "JACOBS_TICKET:64",
-    "B1": "ENCHANTED_SUGAR_CANE:64",
-    "B2": "THEORETICAL_HOE_CANE_2:1",
-    "B3": "ENCHANTED_SUGAR_CANE:64",
-    "C1": "JACOBS_TICKET:64",
-    "C2": "ENCHANTED_SUGAR_CANE:64",
-    "C3": "JACOBS_TICKET:64"
-  }
+  "recipes": [
+    {
+      "A1": "JACOBS_TICKET:64",
+      "A2": "ENCHANTED_SUGAR_CANE:40",
+      "A3": "JACOBS_TICKET:64",
+      "B1": "ENCHANTED_SUGAR_CANE:40",
+      "B2": "THEORETICAL_HOE_CANE_2:1",
+      "B3": "ENCHANTED_SUGAR_CANE:40",
+      "C1": "JACOBS_TICKET:64",
+      "C2": "ENCHANTED_SUGAR_CANE:40",
+      "C3": "JACOBS_TICKET:64",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "THEORETICAL_HOE_CANE_3"
+    }
+  ]
 }
