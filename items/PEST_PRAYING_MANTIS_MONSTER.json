@@ -1,22 +1,23 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§aEarthworm (Pest)",
-  "nbttag": "{ExtraAttributes:{id:\"PEST_EARTHWORM_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"1e07211f-84b8-3d66-9ce8-667acca7f43f\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5NzQ3MDQ1OTc0NywKICAicHJvZmlsZUlkIiA6ICIyNTBlNzc5MjZkNDM0ZDIyYWM2MTQ4N2EyY2M3YzAwNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJMdW5hMTIxMDUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQwM2JhNDAyN2EzMzNkOGQyZmQzMmFiNTlkMWNmZGJhYTdkOTA4ZDgwZDIzODFkYjJhNjljYmU2NTQ1MGFkOCIKICAgIH0KICB9Cn0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Big, scary, and pink.\",1:\"\",2:\"§7Attracted to §aCompost§7.\",3:\"\",4:\"§c❤ Health§8: §c600\"],Name:\"§aEarthworm (Pest)\"}}",
+  "displayname": "§aPraying Mantis (Pest)",
+  "nbttag": "{ExtraAttributes:{id:\"PEST_PRAYING_MANTIS_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"5ba7d268-8bb3-3977-ab85-47bb3e7b2935\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc2MDQ1MDQxOTYxMiwKICAicHJvZmlsZUlkIiA6ICI0OWIzODUyNDdhMWY0NTM3YjBmN2MwZTFmMTVjMTc2NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJiY2QyMDMzYzYzZWM0YmY4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFlMDRiYjYzNjdjYWE0ZTg4ZjVmZDBlZTgwZjA3NDVkMTM3YTYwNjAyMjNkYmJjNDJhMTY0NzFmZGY2NGJiODMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7A particularly gross pest.\",1:\"\",2:\"§7Attracted to §aDung§7.\",3:\"\",4:\"§c❤ Health§8: §c600\"],Name:\"§aBeetle (Pest)\"}}",
   "damage": 3,
   "lore": [
-    "§7Big, scary, and pink.",
+    "§7Strikes fast - *blink* - and it's",
+    "§7already gone.",
     "",
-    "§7Attracted to §aCompost§7.",
+    "§7Attracted to §aJelly§7.",
     "",
     "§c❤ Health§8: §c600"
   ],
-  "internalname": "PEST_EARTHWORM_MONSTER",
+  "internalname": "PEST_PRAYING_MANTIS_MONSTER",
   "clickcommand": "viewrecipe",
+  "modver": "Firmament 42.0.0+mc1.21.7",
   "crafttext": "",
-  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
   "infoType": "WIKI_URL",
   "info": [
-    "https://wiki.hypixel.net/Earthworm"
+    "https://wiki.hypixel.net/Praying_Mantis"
   ],
   "recipes": [
     {
@@ -24,12 +25,12 @@
       "coins": 1000,
       "xp": 10,
       "panorama": "garden",
-      "render": "@neurepo:mobs/pest_earthworm.json",
-      "name": "§aEarthworm",
+      "render": "@neurepo:mobs/pest_praying_mantis.json",
+      "name": "§aPraying Mantis",
       "type": "drops",
       "drops": [
         {
-          "id": "ENCHANTED_MELON:5",
+          "id": "ENCHANTED_WILD_ROSE:2",
           "extra": [],
           "chance": "100%"
         },
@@ -64,19 +65,19 @@
           "chance": "10%"
         },
         {
-          "id": "VINYL_EARTHWORM_ENSEMBLE:1",
+          "id": "VINYL_PRAY_FOR_ME:1",
           "extra": [],
           "chance": "2%"
         },
         {
-          "id": "ENCHANTED_MELON_BLOCK:15",
+          "id": "COMPACTED_WILD_ROSE",
           "extra": [],
           "chance": "0.5%"
         },
         {
-          "id": "BOOKWORM_BOOK:1",
+          "id": "MANTID_CLAW",
           "extra": [],
-          "chance": "2%"
+          "chance": "1%"
         },
         {
           "id": "DYE_DUNG:1",
