@@ -29,15 +29,20 @@
     "https://hypixel-skyblock.fandom.com/wiki/Pumpkin_Dicer_2.0",
     "https://wiki.hypixel.net/Pumpkin_Dicer_2.0"
   ],
-  "recipe": {
-    "A1": "POLISHED_PUMPKIN:2",
-    "A2": "POLISHED_PUMPKIN:2",
-    "A3": "POLISHED_PUMPKIN:2",
-    "B1": "POLISHED_PUMPKIN:2",
-    "B2": "PUMPKIN_DICER:1",
-    "B3": "POLISHED_PUMPKIN:2",
-    "C1": "POLISHED_PUMPKIN:2",
-    "C2": "POLISHED_PUMPKIN:2",
-    "C3": "POLISHED_PUMPKIN:2"
-  }
+  "recipes": [
+    {
+      "A1": "JACOBS_TICKET:16",
+      "A2": "POLISHED_PUMPKIN:5",
+      "A3": "JACOBS_TICKET:16",
+      "B1": "POLISHED_PUMPKIN:5",
+      "B2": "PUMPKIN_DICER:1",
+      "B3": "POLISHED_PUMPKIN:5",
+      "C1": "JACOBS_TICKET:16",
+      "C2": "POLISHED_PUMPKIN:5",
+      "C3": "JACOBS_TICKET:16",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "PUMPKIN_DICER_2"
+    }
+  ]
 }
