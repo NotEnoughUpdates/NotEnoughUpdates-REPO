@@ -17,15 +17,34 @@
     "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Brown_Mushroom_Block",
     "https://wiki.hypixel.net/Enchanted_Brown_Mushroom_Block"
   ],
-  "recipe": {
-    "A1": "ENCHANTED_BROWN_MUSHROOM:8",
-    "A2": "ENCHANTED_BROWN_MUSHROOM:8",
-    "A3": "",
-    "B1": "ENCHANTED_BROWN_MUSHROOM:8",
-    "B2": "ENCHANTED_BROWN_MUSHROOM:8",
-    "B3": "",
-    "C1": "",
-    "C2": "",
-    "C3": ""
-  }
+  "recipes": [
+    {
+      "A1": "",
+      "A2": "ENCHANTED_BROWN_MUSHROOM:32",
+      "A3": "",
+      "B1": "ENCHANTED_BROWN_MUSHROOM:32",
+      "B2": "ENCHANTED_BROWN_MUSHROOM:32",
+      "B3": "ENCHANTED_BROWN_MUSHROOM:32",
+      "C1": "",
+      "C2": "ENCHANTED_BROWN_MUSHROOM:32",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "ENCHANTED_HUGE_MUSHROOM_1"
+    },
+    {
+      "A1": "HUGE_MUSHROOM_1:64",
+      "A2": "HUGE_MUSHROOM_1:64",
+      "A3": "HUGE_MUSHROOM_1:64",
+      "B1": "HUGE_MUSHROOM_1:64",
+      "B2": "HUGE_MUSHROOM_1:64",
+      "B3": "HUGE_MUSHROOM_1:64",
+      "C1": "HUGE_MUSHROOM_1:64",
+      "C2": "HUGE_MUSHROOM_1:64",
+      "C3": "HUGE_MUSHROOM_1:64",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "ENCHANTED_HUGE_MUSHROOM_1"
+    }
+  ]
 }
