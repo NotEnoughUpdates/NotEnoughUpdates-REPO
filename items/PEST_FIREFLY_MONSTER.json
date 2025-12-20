@@ -1,22 +1,23 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§aEarthworm (Pest)",
-  "nbttag": "{ExtraAttributes:{id:\"PEST_EARTHWORM_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"1e07211f-84b8-3d66-9ce8-667acca7f43f\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5NzQ3MDQ1OTc0NywKICAicHJvZmlsZUlkIiA6ICIyNTBlNzc5MjZkNDM0ZDIyYWM2MTQ4N2EyY2M3YzAwNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJMdW5hMTIxMDUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQwM2JhNDAyN2EzMzNkOGQyZmQzMmFiNTlkMWNmZGJhYTdkOTA4ZDgwZDIzODFkYjJhNjljYmU2NTQ1MGFkOCIKICAgIH0KICB9Cn0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Big, scary, and pink.\",1:\"\",2:\"§7Attracted to §aCompost§7.\",3:\"\",4:\"§c❤ Health§8: §c600\"],Name:\"§aEarthworm (Pest)\"}}",
+  "displayname": "§aFirefly (Pest)",
+  "nbttag": "{ExtraAttributes:{id:\"PEST_FIREFLY_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"5ba7d268-8bb3-3977-ab85-47bb3e7b2935\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc2MDQ1MDQyMjEzNiwKICAicHJvZmlsZUlkIiA6ICIzNDY4Y2VjMWFlOTY0YWRmYWQyNjEzMGEwZGQ0NjRkYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJzdXJlZWxta18iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNlNzllOTBhZGYzNDcxOGYzMTNlYzI0ZDZjNjEzNWI2OWIzNzg4YzYxODQ5ODQ0NmNjYzgzY2E2NDBjMGIxNCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Flickers softly - here one moment,\",1:\"§7gone the next.\",2:\"\",3:\"§7Attracted to §aJelly§7.\",4:\"\",5:\"§c❤ Health§8: §c600\"],Name:\"§aFirefly (Pest)\"}}",
   "damage": 3,
   "lore": [
-    "§7Big, scary, and pink.",
+    "§7Flickers softly - here one moment,",
+    "§7gone the next.",
     "",
-    "§7Attracted to §aCompost§7.",
+    "§7Attracted to §aJelly§7.",
     "",
     "§c❤ Health§8: §c600"
   ],
-  "internalname": "PEST_EARTHWORM_MONSTER",
+  "internalname": "PEST_FIREFLY_MONSTER",
   "clickcommand": "viewrecipe",
+  "modver": "Firmament 42.0.0+mc1.21.7",
   "crafttext": "",
-  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
   "infoType": "WIKI_URL",
   "info": [
-    "https://wiki.hypixel.net/Earthworm"
+    "https://wiki.hypixel.net/Firefly"
   ],
   "recipes": [
     {
@@ -24,12 +25,12 @@
       "coins": 1000,
       "xp": 10,
       "panorama": "garden",
-      "render": "@neurepo:mobs/pest_earthworm.json",
-      "name": "§aEarthworm",
+      "render": "@neurepo:mobs/pest_firefly.json",
+      "name": "§aFirefly",
       "type": "drops",
       "drops": [
         {
-          "id": "ENCHANTED_MELON:5",
+          "id": "ENCHANTED_MOONFLOWER:2",
           "extra": [],
           "chance": "100%"
         },
@@ -64,19 +65,19 @@
           "chance": "10%"
         },
         {
-          "id": "VINYL_EARTHWORM_ENSEMBLE:1",
+          "id": "VINYL_FIREFLY",
           "extra": [],
           "chance": "2%"
         },
         {
-          "id": "ENCHANTED_MELON_BLOCK:15",
+          "id": "COMPACTED_MOONFLOWER",
           "extra": [],
           "chance": "0.5%"
         },
         {
-          "id": "BOOKWORM_BOOK:1",
+          "id": "FIRE_IN_A_BOTTLE",
           "extra": [],
-          "chance": "2%"
+          "chance": "1%"
         },
         {
           "id": "DYE_DUNG:1",
