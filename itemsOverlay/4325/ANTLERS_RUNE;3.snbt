@@ -1,0 +1,48 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "UNIQUE_RUNE",
+			runes: {
+				ANTLERS: 3
+			}
+		},
+		"minecraft:enchantment_glint_override": 1b,
+		"minecraft:profile": {
+			id: [I;
+				1700147518,
+				1006252673,
+				-2142128674,
+				1037875567
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "RWJM+SUZL0S3LQXuQuqLnpqwnFiRoVXhJgmCAXraxAs+WHGWSIFcAEWjvBsohd49kt0gex9AC4Q+ErPAkUIOnbURyaJPEKKcPb/2ldRaIKmtooQnbb02uBhwpZPhEnKLt20PMxk8NCVu2wJYIzLL+eSlAwdBwDCTpbBSw78OX46WWTozngWxHeaOcFHZ1vSOJwu+43Fco/UaiWrr2GCra18nTxFux3NKTD1Mt9xS7Xf/5ROEMTpe+/lYjfdHnyX/wVVKV0gE61ehQmAr7QpUGf58bBiYIgeenH5TN23EbXWpbZRatQtgp/oJJLdvTno9fcpcJv06wMIMP/9mauaWWQU12HfRgM7mu8h3Q7I12M7MHtsP1tAR8ZklLHcKmMnN/1MuDnD8ofAnSo2rhyek7ohZqttANmQtbUVcaFh3V3iZBJHzhm4E4iS4CImO5XxY+JnXGnkuK2QFakPwy5eklfgVzP47tA5g1RYoAywx3dbkjNr/gJYTcDp9bvsJre3oHsJgkFL5mWBtmhTPmkJbNrQ5XiSx42f3UteLNYmtBU6KQC1GACYVmSNUTapW+PmNeyUJuLp8gILqKZVaH7QU3CPgj2q+Qp3Jx60vgDFj+TUQcJMhDZAydpUVmKvFuThc5bflWxj+5BA+/6F7MVgD8uTjjCQBY6hByc2minLdJxc=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTc2NTU3MjUzNTQxNywKICAicHJvZmlsZUlkIiA6ICI3ZGExYjViODdhMTg0NzgyOTQ2ZjZiYTdhMmNiMDhlMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSeWt1bk9jYXJhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNjM2IxNWZmNDBiMzgxZDYwODRmNjc3Yzc4NjQ2MTBjNTNiMjVhNmFhYTg0MDY5NmZjZGMwZGE2MzBiMzVmMzciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4325,
+		modVersion: "Firmament 3.7.1-dev+mc1.21.5+gf7e1a13"
+	}
+}
