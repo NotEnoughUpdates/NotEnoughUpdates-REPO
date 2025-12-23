@@ -18,24 +18,20 @@
   ],
   "internalname": "SUNFLOWER_GENERATOR_11",
   "clickcommand": "",
-  "crafttext": "",
+  "crafttext": "Requires: Sunflower I",
   "modver": "Firmament 3.7.1-dev+mc1.21.5+gf7e1a13",
   "infoType": "",
   "info": [],
-  "recipes": [
-    {
-      "A1": "COMPACTED_SUNFLOWER:2",
-      "A2": "COMPACTED_SUNFLOWER:2",
-      "A3": "COMPACTED_SUNFLOWER:2",
-      "B1": "COMPACTED_SUNFLOWER:2",
-      "B2": "SUNFLOWER_GENERATOR_10:1",
-      "B3": "COMPACTED_SUNFLOWER:2",
-      "C1": "COMPACTED_SUNFLOWER:2",
-      "C2": "COMPACTED_SUNFLOWER:2",
-      "C3": "COMPACTED_SUNFLOWER:2",
-      "type": "crafting",
-      "count": 1,
-      "overrideOutputId": "SUNFLOWER_GENERATOR_11"
-    }
-  ]
+  "recipe": {
+    "A1": "COMPACTED_SUNFLOWER:2",
+    "A2": "COMPACTED_SUNFLOWER:2",
+    "A3": "COMPACTED_SUNFLOWER:2",
+    "B1": "COMPACTED_SUNFLOWER:2",
+    "B2": "SUNFLOWER_GENERATOR_10:1",
+    "B3": "COMPACTED_SUNFLOWER:2",
+    "C1": "COMPACTED_SUNFLOWER:2",
+    "C2": "COMPACTED_SUNFLOWER:2",
+    "C3": "COMPACTED_SUNFLOWER:2"
+  },
+  "useneucraft": true
 }
