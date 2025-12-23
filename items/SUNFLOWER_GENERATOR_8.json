@@ -18,24 +18,20 @@
   ],
   "internalname": "SUNFLOWER_GENERATOR_8",
   "clickcommand": "",
-  "crafttext": "",
+  "crafttext": "Requires: Sunflower I",
   "modver": "Firmament 3.7.1-dev+mc1.21.5+gf7e1a13",
   "infoType": "",
   "info": [],
-  "recipes": [
-    {
-      "A1": "ENCHANTED_SUNFLOWER:16",
-      "A2": "ENCHANTED_SUNFLOWER:16",
-      "A3": "ENCHANTED_SUNFLOWER:16",
-      "B1": "ENCHANTED_SUNFLOWER:16",
-      "B2": "SUNFLOWER_GENERATOR_7:1",
-      "B3": "ENCHANTED_SUNFLOWER:16",
-      "C1": "ENCHANTED_SUNFLOWER:16",
-      "C2": "ENCHANTED_SUNFLOWER:16",
-      "C3": "ENCHANTED_SUNFLOWER:16",
-      "type": "crafting",
-      "count": 1,
-      "overrideOutputId": "SUNFLOWER_GENERATOR_8"
-    }
-  ]
+  "recipe": {
+    "A1": "ENCHANTED_SUNFLOWER:16",
+    "A2": "ENCHANTED_SUNFLOWER:16",
+    "A3": "ENCHANTED_SUNFLOWER:16",
+    "B1": "ENCHANTED_SUNFLOWER:16",
+    "B2": "SUNFLOWER_GENERATOR_7:1",
+    "B3": "ENCHANTED_SUNFLOWER:16",
+    "C1": "ENCHANTED_SUNFLOWER:16",
+    "C2": "ENCHANTED_SUNFLOWER:16",
+    "C3": "ENCHANTED_SUNFLOWER:16"
+  },
+  "useneucraft": true
 }

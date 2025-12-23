@@ -2051,6 +2051,61 @@
       }
     }
   },
+  "MANTID_CLAW": {
+    "internalName": "MANTID_CLAW",
+    "reforgeName": "Mantid",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "ARMOR",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 7500,
+      "UNCOMMON": 15000,
+      "RARE": 30000,
+      "EPIC": 75000,
+      "LEGENDARY": 150000,
+      "MYTHIC": 150000,
+      "DIVINE": 150000
+    },
+    "reforgeAbility": "§7Grants §2+0.25ൠ Bonus Pest Chance §7per §2ൠ Pest §7killed for §a10 minutes§7. Caps at §25ൠ Bonus Pest Chance§7.",
+    "reforgeStats": {
+      "COMMON": {
+        "bonus_pest_chance": 0.5,
+        "farming_fortune": 2
+      },
+      "UNCOMMON": {
+        "bonus_pest_chance": 0.5,
+        "farming_fortune": 4
+      },
+      "RARE": {
+        "bonus_pest_chance": 1,
+        "farming_fortune": 6
+      },
+      "EPIC": {
+        "bonus_pest_chance": 1.5,
+        "farming_fortune": 8
+      },
+      "LEGENDARY": {
+        "bonus_pest_chance": 2,
+        "farming_fortune": 10
+      },
+      "MYTHIC": {
+        "bonus_pest_chance": 2.5,
+        "farming_fortune": 12
+      },
+      "DIVINE": {
+        "bonus_pest_chance": 2.5,
+        "farming_fortune": 14
+      }
+    }
+  },
   "MIDAS_JEWEL": {
     "internalName": "MIDAS_JEWEL",
     "reforgeName": "Gilded",
@@ -2282,6 +2337,60 @@
       "DIVINE": {
         "foraging_fortune": 15,
         "foraging_wisdom": 6
+      }
+    }
+  },
+  "MOONSTONE": {
+    "internalName": "MOONSTONE",
+    "reforgeName": "Lunar",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "EQUIPMENT",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 5000,
+      "UNCOMMON": 10000,
+      "RARE": 20000,
+      "EPIC": 50000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 200000,
+      "DIVINE": 200000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "speed": 1,
+        "farming_wisdom": 1
+      },
+      "UNCOMMON": {
+        "speed": 1,
+        "farming_wisdom": 1
+      },
+      "RARE": {
+        "speed": 2,
+        "farming_wisdom": 2
+      },
+      "EPIC": {
+        "speed": 2,
+        "farming_wisdom": 2
+      },
+      "LEGENDARY": {
+        "speed": 3,
+        "farming_wisdom": 3
+      },
+      "MYTHIC": {
+        "speed": 4,
+        "farming_wisdom": 4
+      },
+      "DIVINE": {
+        "speed": 4,
+        "farming_wisdom": 4
       }
     }
   },
@@ -3579,6 +3688,60 @@
       "DIVINE": {
         "bonus_pest_chance": 2.5,
         "farming_fortune": 12
+      }
+    }
+  },
+  "SUNSTONE": {
+    "internalName": "SUNSTONE",
+    "reforgeName": "Sunny",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "ARMOR",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 5000,
+      "UNCOMMON": 10000,
+      "RARE": 20000,
+      "EPIC": 50000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 200000,
+      "DIVINE": 200000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "speed": 2,
+        "farming_wisdom": 1
+      },
+      "UNCOMMON": {
+        "speed": 3,
+        "farming_wisdom": 2
+      },
+      "RARE": {
+        "speed": 4,
+        "farming_wisdom": 3
+      },
+      "EPIC": {
+        "speed": 6,
+        "farming_wisdom": 4
+      },
+      "LEGENDARY": {
+        "speed": 8,
+        "farming_wisdom": 5
+      },
+      "MYTHIC": {
+        "speed": 10,
+        "farming_wisdom": 6
+      },
+      "DIVINE": {
+        "speed": 10,
+        "farming_wisdom": 6
       }
     }
   },

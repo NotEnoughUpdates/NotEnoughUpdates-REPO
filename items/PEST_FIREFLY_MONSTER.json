@@ -1,0 +1,101 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aFirefly (Pest)",
+  "nbttag": "{ExtraAttributes:{id:\"PEST_FIREFLY_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"5ba7d268-8bb3-3977-ab85-47bb3e7b2935\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc2MDQ1MDQyMjEzNiwKICAicHJvZmlsZUlkIiA6ICIzNDY4Y2VjMWFlOTY0YWRmYWQyNjEzMGEwZGQ0NjRkYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJzdXJlZWxta18iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNlNzllOTBhZGYzNDcxOGYzMTNlYzI0ZDZjNjEzNWI2OWIzNzg4YzYxODQ5ODQ0NmNjYzgzY2E2NDBjMGIxNCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Flickers softly - here one moment,\",1:\"§7gone the next.\",2:\"\",3:\"§7Attracted to §aJelly§7.\",4:\"\",5:\"§c❤ Health§8: §c600\"],Name:\"§aFirefly (Pest)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Flickers softly - here one moment,",
+    "§7gone the next.",
+    "",
+    "§7Attracted to §aJelly§7.",
+    "",
+    "§c❤ Health§8: §c600"
+  ],
+  "internalname": "PEST_FIREFLY_MONSTER",
+  "clickcommand": "viewrecipe",
+  "modver": "Firmament 42.0.0+mc1.21.7",
+  "crafttext": "",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Firefly"
+  ],
+  "recipes": [
+    {
+      "level": 1,
+      "coins": 1000,
+      "xp": 10,
+      "panorama": "garden",
+      "render": "@neurepo:mobs/pest_firefly.json",
+      "name": "§aFirefly",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ENCHANTED_MOONFLOWER:2",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "COMPOST:1",
+          "extra": [],
+          "chance": "10%"
+        },
+        {
+          "id": "HONEY_JAR:1",
+          "extra": [],
+          "chance": "10%"
+        },
+        {
+          "id": "DUNG:1",
+          "extra": [],
+          "chance": "10%"
+        },
+        {
+          "id": "PLANT_MATTER:1",
+          "extra": [],
+          "chance": "10%"
+        },
+        {
+          "id": "CHEESE_FUEL:1",
+          "extra": [],
+          "chance": "10%"
+        },
+        {
+          "id": "JELLY:1",
+          "extra": [],
+          "chance": "10%"
+        },
+        {
+          "id": "VINYL_FIREFLY",
+          "extra": [],
+          "chance": "2%"
+        },
+        {
+          "id": "COMPACTED_MOONFLOWER",
+          "extra": [],
+          "chance": "0.5%"
+        },
+        {
+          "id": "FIRE_IN_A_BOTTLE",
+          "extra": [],
+          "chance": "1%"
+        },
+        {
+          "id": "DYE_DUNG:1",
+          "extra": [],
+          "chance": "0.0004%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_PEST_LUCK;1:1",
+          "extra": [
+            "§7 §7- §7Catch with §cPocket Black Hole§7.",
+            "§7 §7- §7Catch with §bLasso§7.",
+            "§7 §7- §7Kill Cricket§7, Fly§7, Beetle§7, Earthworm§7,",
+            "§7Locust§7, Slug§7, Mosquito§7, Moth§7, Rat§7, or",
+            "§7Mite §7while using §cSalts§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

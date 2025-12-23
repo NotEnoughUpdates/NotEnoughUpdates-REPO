@@ -18,24 +18,20 @@
   ],
   "internalname": "SUNFLOWER_GENERATOR_4",
   "clickcommand": "",
-  "crafttext": "",
+  "crafttext": "Requires: Sunflower I",
   "modver": "Firmament 3.7.1-dev+mc1.21.5+gf7e1a13",
   "infoType": "",
   "info": [],
-  "recipes": [
-    {
-      "A1": "DOUBLE_PLANT:64",
-      "A2": "DOUBLE_PLANT:64",
-      "A3": "DOUBLE_PLANT:64",
-      "B1": "DOUBLE_PLANT:64",
-      "B2": "SUNFLOWER_GENERATOR_3:1",
-      "B3": "DOUBLE_PLANT:64",
-      "C1": "DOUBLE_PLANT:64",
-      "C2": "DOUBLE_PLANT:64",
-      "C3": "DOUBLE_PLANT:64",
-      "type": "crafting",
-      "count": 1,
-      "overrideOutputId": "SUNFLOWER_GENERATOR_4"
-    }
-  ]
+  "recipe": {
+    "A1": "DOUBLE_PLANT:64",
+    "A2": "DOUBLE_PLANT:64",
+    "A3": "DOUBLE_PLANT:64",
+    "B1": "DOUBLE_PLANT:64",
+    "B2": "SUNFLOWER_GENERATOR_3:1",
+    "B3": "DOUBLE_PLANT:64",
+    "C1": "DOUBLE_PLANT:64",
+    "C2": "DOUBLE_PLANT:64",
+    "C3": "DOUBLE_PLANT:64"
+  },
+  "useneucraft": true
 }

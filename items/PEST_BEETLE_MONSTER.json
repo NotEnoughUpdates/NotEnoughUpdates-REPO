@@ -21,7 +21,7 @@
   "recipes": [
     {
       "level": 1,
-      "coins": 25,
+      "coins": 1000,
       "xp": 10,
       "panorama": "garden",
       "render": "@neurepo:mobs/pest_beetle.json",
@@ -55,6 +55,11 @@
         },
         {
           "id": "CHEESE_FUEL:1",
+          "extra": [],
+          "chance": "10%"
+        },
+        {
+          "id": "JELLY:1",
           "extra": [],
           "chance": "10%"
         },

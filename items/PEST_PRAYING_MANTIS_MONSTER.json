@@ -1,0 +1,101 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aPraying Mantis (Pest)",
+  "nbttag": "{ExtraAttributes:{id:\"PEST_PRAYING_MANTIS_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"5ba7d268-8bb3-3977-ab85-47bb3e7b2935\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc2MDQ1MDQxOTYxMiwKICAicHJvZmlsZUlkIiA6ICI0OWIzODUyNDdhMWY0NTM3YjBmN2MwZTFmMTVjMTc2NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJiY2QyMDMzYzYzZWM0YmY4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFlMDRiYjYzNjdjYWE0ZTg4ZjVmZDBlZTgwZjA3NDVkMTM3YTYwNjAyMjNkYmJjNDJhMTY0NzFmZGY2NGJiODMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Strikes fast - *blink* - and it's\",1:\"§7already gone.\",2:\"\",3:\"§7Attracted to §aJelly§7.\",4:\"\",5:\"§c❤ Health§8: §c600\"],Name:\"§aPraying Mantis (Pest)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Strikes fast - *blink* - and it's",
+    "§7already gone.",
+    "",
+    "§7Attracted to §aJelly§7.",
+    "",
+    "§c❤ Health§8: §c600"
+  ],
+  "internalname": "PEST_PRAYING_MANTIS_MONSTER",
+  "clickcommand": "viewrecipe",
+  "modver": "Firmament 42.0.0+mc1.21.7",
+  "crafttext": "",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Praying_Mantis"
+  ],
+  "recipes": [
+    {
+      "level": 1,
+      "coins": 1000,
+      "xp": 10,
+      "panorama": "garden",
+      "render": "@neurepo:mobs/pest_praying_mantis.json",
+      "name": "§aPraying Mantis",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ENCHANTED_WILD_ROSE:2",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "COMPOST:1",
+          "extra": [],
+          "chance": "10%"
+        },
+        {
+          "id": "HONEY_JAR:1",
+          "extra": [],
+          "chance": "10%"
+        },
+        {
+          "id": "DUNG:1",
+          "extra": [],
+          "chance": "10%"
+        },
+        {
+          "id": "PLANT_MATTER:1",
+          "extra": [],
+          "chance": "10%"
+        },
+        {
+          "id": "CHEESE_FUEL:1",
+          "extra": [],
+          "chance": "10%"
+        },
+        {
+          "id": "JELLY:1",
+          "extra": [],
+          "chance": "10%"
+        },
+        {
+          "id": "VINYL_PRAY_FOR_ME:1",
+          "extra": [],
+          "chance": "2%"
+        },
+        {
+          "id": "COMPACTED_WILD_ROSE",
+          "extra": [],
+          "chance": "0.5%"
+        },
+        {
+          "id": "MANTID_CLAW",
+          "extra": [],
+          "chance": "1%"
+        },
+        {
+          "id": "DYE_DUNG:1",
+          "extra": [],
+          "chance": "0.0004%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_PEST_LUCK;1:1",
+          "extra": [
+            "§7 §7- §7Catch with §cPocket Black Hole§7.",
+            "§7 §7- §7Catch with §bLasso§7.",
+            "§7 §7- §7Kill Cricket§7, Fly§7, Beetle§7, Earthworm§7,",
+            "§7Locust§7, Slug§7, Mosquito§7, Moth§7, Rat§7, or",
+            "§7Mite §7while using §cSalts§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}
