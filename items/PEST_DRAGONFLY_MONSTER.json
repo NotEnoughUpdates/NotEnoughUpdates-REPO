@@ -1,0 +1,101 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aDragonfly (Pest)",
+  "nbttag": "{ExtraAttributes:{id:\"PEST_DRAGONFLY_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"8842a457-5e25-3ad0-958e-dfbebbb1129c\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc2MDQ1MDQxODQzNywKICAicHJvZmlsZUlkIiA6ICIwNjY5Y2E1MGYyZWU0NTQxODhlYWQ3YTM3NTkzNDRlMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDcjR6eWNsb3duVFYiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjU0YWZmNGMwYjJkY2UzYTY3MjM0OWNjMGVlOWU2ZjNhOWRlZWJlNGIzNTU2ZTg0NjExZWNhMjUwYTc4MjFiZiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Glides by in a blur of wings\",1:\"§7whispers.\",2:\"\",3:\"§7Attracted to §aJelly§7.\",4:\"\",5:\"§c❤ Health§8: §c600\"],Name:\"§aDragonfly (Pest)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Glides by in a blur of wings",
+    "§7whispers.",
+    "",
+    "§7Attracted to §aJelly§7.",
+    "",
+    "§c❤ Health§8: §c600"
+  ],
+  "internalname": "PEST_DRAGONFLY_MONSTER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 42.0.0+mc1.21.7",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Dragonfly_(Pest)"
+  ],
+  "recipes": [
+    {
+      "level": 1,
+      "coins": 1000,
+      "xp": 10,
+      "panorama": "garden",
+      "render": "@neurepo:mobs/pest_dragonfly.json",
+      "name": "§aDragon",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ENCHANTED_SUNFLOWER:2",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "COMPOST:1",
+          "extra": [],
+          "chance": "10%"
+        },
+        {
+          "id": "HONEY_JAR:1",
+          "extra": [],
+          "chance": "10%"
+        },
+        {
+          "id": "DUNG:1",
+          "extra": [],
+          "chance": "10%"
+        },
+        {
+          "id": "PLANT_MATTER:1",
+          "extra": [],
+          "chance": "10%"
+        },
+        {
+          "id": "CHEESE_FUEL:1",
+          "extra": [],
+          "chance": "10%"
+        },
+        {
+          "id": "JELLY:1",
+          "extra": [],
+          "chance": "10%"
+        },
+        {
+          "id": "VINYL_IMAGINE_DRAGONFLIES:1",
+          "extra": [],
+          "chance": "2%"
+        },
+        {
+          "id": "COMPACTED_SUNFLOWER:1",
+          "extra": [],
+          "chance": "0.5%"
+        },
+        {
+          "id": "VERMIN_VAPORIZER_GARDEN_CHIP:1",
+          "extra": [],
+          "chance": "1%"
+        },
+        {
+          "id": "DYE_DUNG:1",
+          "extra": [],
+          "chance": "0.0004%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_PEST_LUCK;1:1",
+          "extra": [
+            "§7 §7- §7Catch with §cPocket Black Hole§7.",
+            "§7 §7- §7Catch with §bLasso§7.",
+            "§7 §7- §7Kill Cricket§7, Fly§7, Beetle§7, Earthworm§7,",
+            "§7Locust§7, Slug§7, Mosquito§7, Moth§7, Rat§7, or",
+            "§7Mite §7while using §cSalts§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}
