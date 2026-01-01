@@ -15,22 +15,40 @@
   "internalname": "EXPORTABLE_CARROTS",
   "clickcommand": "viewrecipe",
   "crafttext": "Requires: Half-Eaten Carrot III",
-  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "modver": "Firmament 42.0.0+mc1.21.7",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Exportable_Carrots",
     "https://wiki.hypixel.net/Exportable_Carrots"
   ],
-  "recipe": {
-    "A1": "",
-    "A2": "VOLT_CRUX:1",
-    "A3": "",
-    "B1": "",
-    "B2": "NEARLY_WHOLE_CARROT:2",
-    "B3": "",
-    "C1": "",
-    "C2": "SCRIBE_CRUX:1",
-    "C3": "",
-    "count": 64
-  }
+  "recipes": [
+    {
+      "A1": "",
+      "A2": "VOLT_CRUX:1",
+      "A3": "",
+      "B1": "HALF_EATEN_CARROT:40",
+      "B2": "HALF_EATEN_CARROT:40",
+      "B3": "HALF_EATEN_CARROT:40",
+      "C1": "",
+      "C2": "SCRIBE_CRUX:1",
+      "C3": "",
+      "type": "crafting",
+      "count": 48,
+      "overrideOutputId": "EXPORTABLE_CARROTS"
+    },
+    {
+      "A1": "",
+      "A2": "VOLT_CRUX:1",
+      "A3": "",
+      "B1": "",
+      "B2": "NEARLY_WHOLE_CARROT:2",
+      "B3": "",
+      "C1": "",
+      "C2": "SCRIBE_CRUX:1",
+      "C3": "",
+      "type": "crafting",
+      "count": 64,
+      "overrideOutputId": "EXPORTABLE_CARROTS"
+    }
+  ]
 }
