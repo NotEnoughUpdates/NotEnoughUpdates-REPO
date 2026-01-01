@@ -13,10 +13,26 @@
   ],
   "internalname": "THORNY_VINES",
   "clickcommand": "",
-  "crafttext": "",
+  "crafttext": "Requires: Wild Rose II",
   "modver": "Firmament 3.7.1-dev+mc1.21.5+gf7e1a13",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Thorny_Vines"
+  ],
+  "recipes": [
+    {
+      "A1": "ENCHANTED_CACTUS:4",
+      "A2": "ENCHANTED_WILD_ROSE:4",
+      "A3": "ENCHANTED_CACTUS:4",
+      "B1": "ENCHANTED_WILD_ROSE:4",
+      "B2": "LEVER:1",
+      "B3": "ENCHANTED_WILD_ROSE:4",
+      "C1": "ENCHANTED_CACTUS:4",
+      "C2": "ENCHANTED_WILD_ROSE:4",
+      "C3": "ENCHANTED_CACTUS:4",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "THORNY_VINES"
+    }
   ]
 }
