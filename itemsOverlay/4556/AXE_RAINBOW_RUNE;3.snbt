@@ -1,0 +1,48 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "UNIQUE_RUNE",
+			runes: {
+				AXE_RAINBOW: 3
+			}
+		},
+		"minecraft:enchantment_glint_override": 1b,
+		"minecraft:profile": {
+			id: [I;
+				-909579822,
+				330970555,
+				-1145365146,
+				-553420572
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "l7FV0n7EwHh24yphw7gj/MqwoZNtMp7hrdtomBuSpaj0H8SZS3YUsxGosvgteP2HngZO62Thnj9cnQ8dNJPh1GF/BKOFXO14Ym8C/GE8MXQOJa7sZoCjXBeNrOQESiHUC5l8xbNBWhbHtsZ0TPcPwysI8eWoDsP+1Y98Mi1jBBugIEJZStigZ95GK1V5tTDD0JVl5ZJ6D5MSVuCxeDB73z3xBn1O/FpL1B1HtVZhgFpbZL1mhSpWI8R+uAJ0Bsh9DbcnYviit9hRevUfag1PcpzGeuOwynbGD9CjCRZ23mb7Hadm+6G0ZJ8eVsqVl0e7sElt/y9GVMjfXDLe059tnCm4p0ojLW3hv6QUss2O/iAeVf0RA3SQqbKl46N08cJYvEW86UiCi2n7djkOV7XTIx27T2B0rO188ma/SZuMPiZ7HQPvOYwenBVAT55g86YLpYwcn3Ipn/JazZDe76yvULt4JHtuD2Ztlq+dFuQpD9caH/mzRmqnrO62ikMBx0TAp2P1GDKpRPXYKy28aXTiEnhPhab8/g1KTvGMsI+8VQGLRUTQGlAa835sQbff/A+UOamY0YTGItsaUYTmrppkLynxHiEk2JPZBp5OPHVJ4T6SxnhZqS9D533wXAK82nBMsHod+2fEoQKdjQnrxc13Tp1KNri/WQ1DYCytUFV7YoY=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTc1NTc1NTE0OTY3MiwKICAicHJvZmlsZUlkIiA6ICI5ZjJiY2M1M2U4YzM0OTY4YTc5Yzc0NTExYWQ2NmQyYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJLYWJveWlvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzcyMTI2NTQ5MGMyMGQ2NDRhMmUwMmViZTQyMjE0NjhjMTk3NWY5OTgyMTA3Yjc4YzhiODFlYmM5MGFlMjY0YWUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4556,
+		modVersion: "Firmament 42.0.0+mc1.21.10"
+	}
+}
