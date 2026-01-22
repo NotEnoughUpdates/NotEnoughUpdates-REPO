@@ -1,15 +1,21 @@
 {
   "itemid": "minecraft:dye",
   "displayname": "§fPurple Dye",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fPurple Dye\"},ExtraAttributes:{id:\"INK_SACK-5\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"INK_SACK-5\"},HideFlags:254,ItemModel:\"minecraft:purple_dye\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fPurple Dye\"}}",
   "damage": 5,
   "lore": [
     "§f§lCOMMON"
   ],
   "parent": "INK_SACK",
   "internalname": "INK_SACK-5",
-  "modver": "2.1.0-REL",
   "vanilla": true,
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 42.0.0+mc1.21.7",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Purple_Dye"
+  ],
   "recipe": {
     "A1": "INK_SACK-4:1",
     "A2": "INK_SACK-1:1",
@@ -20,10 +26,5 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  },
-  "clickcommand": "viewrecipe",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://wiki.hypixel.net/Purple_Dye"
-  ]
+  }
 }

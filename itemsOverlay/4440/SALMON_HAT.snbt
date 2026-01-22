@@ -1,0 +1,52 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			enchantments: {
+				aqua_affinity: 1,
+				depth_strider: 1,
+				respiration: 5
+			},
+			id: "SALMON_HAT"
+		},
+		"minecraft:enchantments": {
+			"minecraft:aqua_affinity": 1
+		},
+		"minecraft:profile": {
+			id: [I;
+				-631944849,
+				-1559740518,
+				-1333083885,
+				-308008038
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "ShuiFlqBL5vE7M9El2DnaP2y30QNDZiPI2blfQcmtzwj0amSvUBj+EcYBu5S50AdYkir8l+wEGyz5uV4c1A1ONFDtlmB1bUUTp+k8zukh5vKA6MORq9OIyKJi29ZbR0Lu64F/1tRMQUeHl06fMZsk4NAoit4+B0E72XXlosceo7TDo/KaYI6pMeXmgswQVNDj4hXNmJjCEx8+uZVv1gxNFeP6Q2BIt92cZzTm8dkuznu9naM4ReKp/ULI2/0yGGsf4iroBXPfomCRdWz7XoLixheYRv72omONeVgxNL5pzUACbj6sz4vWbLg4oYtBHAct3YMznUJD6JmeGopP6zPQUVPhtFuJMwS+I4vpx2YWJWypa/M0BIcTBqD/WJ3VUyIap+y4hyUCfc2faVFsfksKj8TeR9yR3h5RbRM5rruT6+LAPrcWXsBAgsY+fnWdhDwyz3cj/icuhpcqr4NvMtr1v0W4hOTI4Dl6PfSrUCnJqcbQO39oZdkGJtkE5a//ytbbadiILZ557QJM6SW1Vu0K6XG8svmY/yItbqhLzDAjDggut5C1K9X+AoXN/Hc5qmJP1RiieogjwrgNKs0j2jdeAyO9/MvxmsVqvg+sNDsf9sCPd5y830lP+A3F5zeFdRdJlJpRSwb6lIdQNIEwXC2KXptxo0AzQzVATfSrAOnFA4=",
+					value: "eyJ0aW1lc3RhbXAiOjE1NzE0OTQwMDUwMTAsInByb2ZpbGVJZCI6ImVkNTNkZDgxNGY5ZDRhM2NiNGViNjUxZGNiYTc3ZTY2IiwicHJvZmlsZU5hbWUiOiJGb3J5eExPTCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTViNDM1MDNiMTBmNTJmNDhmNGJjYzQ3MTViNGEwYTU2ZTdlZjM5NTMzYTE4MWUyNWI0OGY1YzM4YWZmZTcxIn19fQ=="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4440,
+		modVersion: "Firmament 42.0.0+mc1.21.7"
+	}
+}

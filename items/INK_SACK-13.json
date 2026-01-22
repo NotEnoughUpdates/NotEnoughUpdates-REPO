@@ -1,30 +1,77 @@
 {
   "itemid": "minecraft:dye",
   "displayname": "§fMagenta Dye",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fMagenta Dye\"},ExtraAttributes:{id:\"INK_SACK-13\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"INK_SACK-13\"},HideFlags:254,ItemModel:\"minecraft:magenta_dye\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fMagenta Dye\"}}",
   "damage": 13,
   "lore": [
     "§f§lCOMMON"
   ],
-  "internalname": "INK_SACK-13",
   "parent": "INK_SACK",
-  "modver": "",
+  "internalname": "INK_SACK-13",
   "vanilla": true,
   "clickcommand": "viewrecipe",
-  "recipe": {
-    "A1": "INK_SACK-4:1",
-    "A2": "INK_SACK-1:1",
-    "A3": "INK_SACK-1:1",
-    "B1": "INK_SACK-15:1",
-    "B2": "",
-    "B3": "",
-    "C1": "",
-    "C2": "",
-    "C3": ""
-  },
+  "crafttext": "",
+  "modver": "Firmament 42.0.0+mc1.21.7",
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Magenta_Dye"
   ],
-  "crafttext": ""
+  "recipes": [
+    {
+      "A1": "RED_ROSE-2",
+      "A2": "",
+      "A3": "",
+      "B1": "",
+      "B2": "",
+      "B3": "",
+      "C1": "",
+      "C2": "",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "INK_SACK-13"
+    },
+    {
+      "A1": "DOUBLE_PLANT-1",
+      "A2": "",
+      "A3": "",
+      "B1": "",
+      "B2": "",
+      "B3": "",
+      "C1": "",
+      "C2": "",
+      "C3": "",
+      "type": "crafting",
+      "count": 2,
+      "overrideOutputId": "INK_SACK-13"
+    },
+    {
+      "A1": "INK_SACK-1",
+      "A2": "INK_SACK-4",
+      "A3": "INK_SACK-9",
+      "B1": "",
+      "B2": "",
+      "B3": "",
+      "C1": "",
+      "C2": "",
+      "C3": "",
+      "type": "crafting",
+      "count": 3,
+      "overrideOutputId": "INK_SACK-13"
+    },
+    {
+      "A1": "INK_SACK-1",
+      "A2": "INK_SACK-4",
+      "A3": "INK_SACK-4",
+      "B1": "INK_SACK-15",
+      "B2": "",
+      "B3": "",
+      "C1": "",
+      "C2": "",
+      "C3": "",
+      "type": "crafting",
+      "count": 4,
+      "overrideOutputId": "INK_SACK-13"
+    }
+  ]
 }

@@ -1,26 +1,16 @@
 {
   "itemid": "minecraft:anvil",
   "displayname": "§fAnvil",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fAnvil\"},ExtraAttributes:{id:\"ANVIL\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ANVIL\"},HideFlags:254,ItemModel:\"minecraft:anvil\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fAnvil\"}}",
   "damage": 0,
   "lore": [
     "§f§lCOMMON"
   ],
   "internalname": "ANVIL",
-  "modver": "2.1.0-REL",
   "vanilla": true,
   "clickcommand": "viewrecipe",
-  "recipe": {
-    "A1": "IRON_BLOCK:1",
-    "A2": "IRON_BLOCK:1",
-    "A3": "IRON_BLOCK:1",
-    "B1": "",
-    "B2": "IRON_INGOT:1",
-    "B3": "",
-    "C1": "IRON_INGOT:1",
-    "C2": "IRON_INGOT:1",
-    "C3": "IRON_INGOT:1"
-  },
+  "crafttext": "",
+  "modver": "Firmament 42.0.0+mc1.21.7",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Anvil",
@@ -32,5 +22,16 @@
     "cost": "EMERALD:25",
     "result": "ANVIL"
     }
-  ]
+  ],
+  "recipe": {
+    "A1": "IRON_BLOCK:1",
+    "A2": "IRON_BLOCK:1",
+    "A3": "IRON_BLOCK:1",
+    "B1": "",
+    "B2": "IRON_INGOT:1",
+    "B3": "",
+    "C1": "IRON_INGOT:1",
+    "C2": "IRON_INGOT:1",
+    "C3": "IRON_INGOT:1"
+  }
 }
