@@ -1,0 +1,117 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Bingo (NPC)",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"3ef6069e-18c0-4a61-9817-9f9e51c947b5\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYzNzI2OTYwMTEyNiwKICAicHJvZmlsZUlkIiA6ICJjNmE2N2QwMmY4MGM0MjhmODYyNmQ5MjhlOTNjN2FjNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJHaW92YW5uaVdpamF5YSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kNGNkOWM3MDdjNzA5MmQ0NzU5ZmUyYjJiNmE3MTMyMTViNmUzOTkxOWVjNGU3YWZiMWFlMmI2Zjg1NzY2NzRjIgogICAgfQogIH0KfQ==\"}]}},display:{Lore:[0:\"\"],Name:\"§9Bingo (NPC)\"},ExtraAttributes:{id:\"BINGO_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "BINGO_NPC",
+  "clickcommand": "viewrecipe",
+  "modver": "Firmament 42.0.0+mc1.21.7",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Bingo",
+    "https://wiki.hypixel.net/Bingo"
+  ],
+  "x": 0,
+  "y": 68,
+  "z": -91,
+  "island": "hub",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BINGO_POINT:50"
+      ],
+      "result": "BINGO_DISPLAY"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BINGO_POINT:30"
+      ],
+      "result": "COLLECTION_DISPLAY"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BINGO_POINT:30"
+      ],
+      "result": "BONZO_STATUE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BINGO_POINT:5"
+      ],
+      "result": "BOOK_OF_STATS"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BINGO_POINT:150"
+      ],
+      "result": "SPRING_BOOTS"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BINGO_POINT:100"
+      ],
+      "result": "GOLDEN_DANTE_STATUE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BINGO_POINT:50"
+      ],
+      "result": "DITTO_SKULL"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BINGO_POINT:100"
+      ],
+      "result": "BINGO_TALISMAN"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BINGO_POINT:150",
+        "BINGO_TALISMAN"
+      ],
+      "result": "BINGO_RING"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BINGO_POINT:150",
+        "BINGO_RING"
+      ],
+      "result": "BINGO_ARTIFACT"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BINGO_POINT:200",
+        "BINGO_ARTIFACT"
+      ],
+      "result": "BINGO_RELIC"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BINGO_POINT:500"
+      ],
+      "result": "DYE_BINGO_BLUE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BINGO_POINT:100"
+      ],
+      "result": "DITTO_SKIN"
+    }
+  ]
+}
