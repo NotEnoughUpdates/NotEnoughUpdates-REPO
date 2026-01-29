@@ -1,0 +1,44 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "PET_ITEM_TITANIUM_MINECART"
+		},
+		"minecraft:profile": {
+			id: [I;
+				2088012737,
+				-1417398204,
+				-2103968487,
+				-779640016
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "MwmyBMQGQC+6sV90nJ8CPeazPrMhZaCpz1iV5pZMxwpBdnLR+34BwDVGFpaZzH5JTGeNg0PQJ3RZQJHhkGVRUyuH10iUZhoqvj5IS0ciozfqILw/F6/ugs7ZHVbzI4saRkFeL3QP06IoXPZezr/q5ICTdMZvb3yf48k7i/9WFjLmZhp46wpCIE0fYQ0gXgt/evkzvsiGuuqzu3wAQeeDmlpLC+AscEzCMSk0rUYhWN1RTZUUcALP7JJt/C6fJXWu0kBc3uxwh4Pb1DGw/GL3WMtv+FAU2LMHDXrVyhIrvMLzfhL5BBS/klyr5WJWM4B/SZCa8d2NaifDkNRnoPB91xv6NdEKnkVi4Y2tLsfFO8U3YvkalW044/Nd5Yf8ha+wD9dKCcCd/9Gqzh7xYLtZjEffIkgzHnxD+5jEFhXMlMO+z1qboQNy4p17R76j05tEOOfFEu494aaj5xZLtZXJ73C9v+/HGVsUsseOdx0Zsn7mm2J/QyxlazwIZ3h+2emycGwooGoU82UWaIiVC7t/KmmxfA/m5JZaR/raJUiiTuMcERntrEeGDYyIo8AXjTK4J/drKiyhT1jK4YIWN/52MWDVXEXNVPAymenykTMiREuqMvzvF29ZI5Ap7aJ1g08J1RRi/FbJwloY0hpstoZ9PchI14J3VW+JtsrYwZntjHs=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA1NDE4MDgxMSwKICAicHJvZmlsZUlkIiA6ICIzY2I3YTA3YWY3ZjM0ZWZiYTlkNGI4ODQ3NDM4Mzc0ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNckthaWxldCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jYWUwZDE1NTBmZGE2OTgzM2M2YWI4ODQ3NDZkMDM5YmQ3NTJhNGYyZTQ0NDcyY2MwYTNiMDVjNjk0ZjgwNTliIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4556,
+		modVersion: "Firmament 42.0.0+mc1.21.10"
+	}
+}

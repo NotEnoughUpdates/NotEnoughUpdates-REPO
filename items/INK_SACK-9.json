@@ -1,29 +1,62 @@
 {
   "itemid": "minecraft:dye",
   "displayname": "§fPink Dye",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fPink Dye\"},ExtraAttributes:{id:\"INK_SACK-9\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"INK_SACK-9\"},HideFlags:254,ItemModel:\"minecraft:pink_dye\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fPink Dye\"}}",
   "damage": 9,
   "lore": [
     "§f§lCOMMON"
   ],
   "parent": "INK_SACK",
   "internalname": "INK_SACK-9",
-  "modver": "2.1.0-REL",
-  "vanilla": true,
-  "recipe": {
-    "A1": "INK_SACK-1:1",
-    "A2": "INK_SACK-15:1",
-    "A3": "",
-    "B1": "",
-    "B2": "",
-    "B3": "",
-    "C1": "",
-    "C2": "",
-    "C3": ""
-  },
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 42.0.0+mc1.21.7",
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Pink_Dye"
+  ],
+  "recipes": [
+    {
+      "A1": "RED_ROSE-7",
+      "A2": "",
+      "A3": "",
+      "B1": "",
+      "B2": "",
+      "B3": "",
+      "C1": "",
+      "C2": "",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "INK_SACK-9"
+    },
+    {
+      "A1": "DOUBLE_PLANT-5",
+      "A2": "",
+      "A3": "",
+      "B1": "",
+      "B2": "",
+      "B3": "",
+      "C1": "",
+      "C2": "",
+      "C3": "",
+      "type": "crafting",
+      "count": 2,
+      "overrideOutputId": "INK_SACK-9"
+    },
+    {
+      "A1": "INK_SACK-1",
+      "A2": "INK_SACK-15",
+      "A3": "",
+      "B1": "",
+      "B2": "",
+      "B3": "",
+      "C1": "",
+      "C2": "",
+      "C3": "",
+      "type": "crafting",
+      "count": 2,
+      "overrideOutputId": "INK_SACK-9"
+    }
   ]
 }

@@ -1,29 +1,49 @@
 {
   "itemid": "minecraft:dye",
   "displayname": "§fDandelion Yellow",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fDandelion Yellow\"},ExtraAttributes:{id:\"INK_SACK-11\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"INK_SACK-11\"},HideFlags:254,ItemModel:\"minecraft:yellow_dye\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fDandelion Yellow\"}}",
   "damage": 11,
   "lore": [
     "§f§lCOMMON"
   ],
   "parent": "INK_SACK",
   "internalname": "INK_SACK-11",
-  "modver": "2.1.0-REL",
   "vanilla": true,
-  "recipe": {
-    "A1": "YELLOW_FLOWER:1",
-    "A2": "",
-    "A3": "",
-    "B1": "",
-    "B2": "",
-    "B3": "",
-    "C1": "",
-    "C2": "",
-    "C3": ""
-  },
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 42.0.0+mc1.21.7",
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Dandelion_Yellow"
+  ],
+  "recipes": [
+    {
+      "A1": "YELLOW_FLOWER",
+      "A2": "",
+      "A3": "",
+      "B1": "",
+      "B2": "",
+      "B3": "",
+      "C1": "",
+      "C2": "",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "INK_SACK-11"
+    },
+    {
+      "A1": "DOUBLE_PLANT",
+      "A2": "",
+      "A3": "",
+      "B1": "",
+      "B2": "",
+      "B3": "",
+      "C1": "",
+      "C2": "",
+      "C3": "",
+      "type": "crafting",
+      "count": 2,
+      "overrideOutputId": "INK_SACK-11"
+    }
   ]
 }
