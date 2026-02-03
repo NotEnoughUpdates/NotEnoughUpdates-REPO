@@ -1,19 +1,28 @@
 {
-  "itemid": "minecraft:writable_book",
+  "itemid": "minecraft:paper",
   "displayname": "§cRuby Power Scroll",
-  "nbttag": "{generation:0,ench:[],HideFlags:254,display:{Lore:[0:\"§7§8Combinable in Anvil\",1:\"\",2:\"§7§7Heal back §a1% §7of your missing §c❤\",3:\"§cHealth §7when using your §e§lRIGHT\",4:\"§e§lCLICK §6Item Ability§7. Has a §c5s §7cooldown.\",5:\"\",6:\"§7§7Can be combined with any §bitem §7with a §e§lRIGHT\",7:\"§e§lCLICK §6Item Ability §7at an anvil.\",8:\"\",9:\"§5§lEPIC\"],Name:\"§cRuby Power Scroll\"},ExtraAttributes:{id:\"RUBY_POWER_SCROLL\"},resolved:0b}",
+  "nbttag": "{ExtraAttributes:{id:\"RUBY_POWER_SCROLL\"},HideFlags:254,ItemModel:\"minecraft:writable_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§7Heal back §a1% §7of your missing §c❤\",3:\"§cHealth §7when using your §e§lRIGHT\",4:\"§e§lCLICK §6Item Ability§7. Has a §c5s §7cooldown.\",5:\"\",6:\"§7Can be combined with any §bitem §7with a §e§lRIGHT\",7:\"§e§lCLICK §6Item Ability §7at an anvil.\",8:\"\",9:\"§5§lEPIC\"],Name:\"§cRuby Power Scroll\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7§8Combinable in Anvil",
+    "§8Combinable in Anvil",
     "",
-    "§7§7Heal back §a1% §7of your missing §c❤",
+    "§7Heal back §a1% §7of your missing §c❤",
     "§cHealth §7when using your §e§lRIGHT",
     "§e§lCLICK §6Item Ability§7. Has a §c5s §7cooldown.",
     "",
-    "§7§7Can be combined with any §bitem §7with a §e§lRIGHT",
+    "§7Can be combined with any §bitem §7with a §e§lRIGHT",
     "§e§lCLICK §6Item Ability §7at an anvil.",
     "",
     "§5§lEPIC"
+  ],
+  "internalname": "RUBY_POWER_SCROLL",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Gemstone VII",
+  "modver": "Firmament 43.0.0+mc1.21.10",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Ruby_Power_Scroll",
+    "https://wiki.hypixel.net/Ruby_Power_Scroll"
   ],
   "recipe": {
     "A1": "",
@@ -25,14 +34,5 @@
     "C1": "",
     "C2": "ENCHANTED_PAPER:16",
     "C3": "FINE_RUBY_GEM:16"
-  },
-  "internalname": "RUBY_POWER_SCROLL",
-  "crafttext": "Requires: Gemstone VII",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Ruby_Power_Scroll",
-    "https://wiki.hypixel.net/Ruby_Power_Scroll"
-  ]
+  }
 }
