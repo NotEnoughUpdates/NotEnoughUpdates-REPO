@@ -1,11 +1,10 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "BALLOON_HAT_2025_BLACK",
+			id: "BALLOON_HAT_2025",
 			party_hat_color: "black",
 			party_hat_year: 2025
 		},
-		"minecraft:dyed_color": 10511680,
 		"minecraft:profile": {
 			id: [I;
 				667441213,
@@ -13,7 +12,6 @@
 				-1722554336,
 				-599553473
 			],
-			name: "",
 			properties: [
 				{
 					name: "textures",
@@ -24,6 +22,17 @@
 		},
 		"minecraft:tooltip_display": {
 			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
 				"minecraft:dyed_color"
 			]
 		}
@@ -31,7 +40,7 @@
 	count: 1,
 	id: "minecraft:player_head",
 	source: {
-		dataVersion: 4325,
-		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g64ef955"
+		dataVersion: 4556,
+		modVersion: "Firmament 43.0.0+mc1.21.10"
 	}
 }
