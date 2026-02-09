@@ -36,7 +36,7 @@
       "coins": 800,
       "xp": 10,
       "combat_xp": 80,
-      "name": "§cStalwart Minos Champion",
+      "name": "§cVenerale Minos Champion",
       "render": "@neurepo:mobs/minos_champion.json",
       "panorama": "hub",
       "extra": [
@@ -49,6 +49,10 @@
         {
           "id": "ANCIENT_CLAW:5",
           "chance": "100%"
+        },
+        {
+          "id": "MINOS_RELIC:1",
+          "chance": "0.02%"
         }
       ]
     },
@@ -73,23 +77,16 @@
         },
         {
           "id": "ENCHANTED_GOLD:3",
-          "chance": "100%"
+          "chance": "50%"
         },
         {
-          "id": "DWARF_TURTLE_SHELMET",
-          "chance": "0.25%"
+          "id": "MINOS_RELIC:1",
+          "chance": "0.03%"
         },
         {
-          "id": "ANTIQUE_REMEDIES",
-          "chance": "0.25%"
-        },
-        {
-          "id": "CROCHET_TIGER_PLUSHIE",
-          "chance": "0.25%"
-        },
-        {
-          "id": "MINOS_RELIC",
-          "chance": "0.02%"
+          "id": "DYE_MYTHOLOGICAL",
+          "extra": [],
+          "chance": "0.0002%"
         }
       ]
     }

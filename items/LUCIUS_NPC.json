@@ -17,5 +17,30 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Lucius",
     "https://wiki.hypixel.net/Lucius"
+  ],
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:500000"
+      ],
+      "result": "SHADY_RING"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:2000000",
+        "SHADY_RING"
+      ],
+      "result": "CROOKED_ARTIFACT"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:10000000",
+        "CROOKED_ARTIFACT"
+      ],
+      "result": "SEAL_OF_THE_FAMILY"
+    }
   ]
 }

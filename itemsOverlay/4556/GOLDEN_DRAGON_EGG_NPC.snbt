@@ -1,0 +1,33 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "GOLDEN_DRAGON_EGG_NPC"
+		},
+		"minecraft:profile": {
+			id: [I;
+				294643764,
+				682244877,
+				-1343819579,
+				755085288
+			],
+			name: "",
+			properties: [
+				{
+					name: "textures",
+					value: "eyJ0ZXh0dXJlcyI6IHsiU0tJTiI6IHsidXJsIjogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTEzYmRmMmQyYjAwNjA1NjA2ODI2ZGY3NmUyMTFlYTI4OGFhMDUwZWRjOWQ3MWNiMDk5ODZjNDg4Y2EwNDExYyJ9fX0="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4556,
+		modVersion: "Firmament 43.0.0+mc1.21.10"
+	}
+}

@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Golden Dragon Egg (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"GOLDEN_DRAGON_EGG_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"118fe834-28aa-3b0d-afe6-f0c52d01afe8\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6IHsiU0tJTiI6IHsidXJsIjogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTEzYmRmMmQyYjAwNjA1NjA2ODI2ZGY3NmUyMTFlYTI4OGFhMDUwZWRjOWQ3MWNiMDk5ODZjNDg4Y2EwNDExYyJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7The §6Golden Dragon Pet §7can be purchased\",1:\"§7in the §bDragon's Lair §7within the §5Crystal Hollows§7.\",2:\"§7The pet starts out as an egg with no stats or perks,\",3:\"§7gaining them when it hatches at level 100.\"],Name:\"§9Golden Dragon Egg (NPC)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7The §6Golden Dragon Pet §7can be purchased",
+    "§7in the §bDragon's Lair §7within the §5Crystal Hollows§7.",
+    "§7The pet starts out as an egg with no stats or perks,",
+    "§7gaining them when it hatches at level 100."
+  ],
+  "internalname": "GOLDEN_DRAGON_EGG_NPC",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 43.0.0+mc1.21.10",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Golden_Dragon_Pet",
+    "https://wiki.hypixel.net/Golden_Dragon_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:500000000",
+        "ENCHANTED_GOLD_BLOCK:50",
+        "PERFECT_SAPPHIRE_GEM:1",
+        "PERFECT_JADE_GEM:1",
+        "PERFECT_AMBER_GEM:1",
+        "PERFECT_AMETHYST_GEM:1",
+        "PERFECT_TOPAZ_GEM:1"
+      ],
+      "result": "GOLDEN_DRAGON;4"
+    }
+  ]
+}

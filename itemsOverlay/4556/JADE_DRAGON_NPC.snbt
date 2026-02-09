@@ -1,0 +1,33 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "JADE_DRAGON_NPC"
+		},
+		"minecraft:profile": {
+			id: [I;
+				294643764,
+				682244877,
+				-1343819579,
+				755085288
+			],
+			name: "",
+			properties: [
+				{
+					name: "textures",
+					value: "eyJ0ZXh0dXJlcyI6IHsiU0tJTiI6IHsidXJsIjogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjAxMzk2NzA1MjY3YzU3ZWYzMGVmZDQ0YzM3N2FmMzUwN2VhNWY1NDIzNGIxNTViMmY2ZDg0ZDBhYjdlZTg0MiJ9fX0="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4556,
+		modVersion: "Firmament 43.0.0+mc1.21.10"
+	}
+}
