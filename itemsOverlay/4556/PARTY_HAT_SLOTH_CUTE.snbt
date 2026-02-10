@@ -1,0 +1,46 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "PARTY_HAT_SLOTH",
+			party_hat_emoji: "cute",
+			party_hat_year: 2023
+		},
+		"minecraft:profile": {
+			id: [I;
+				-1511731703,
+				1575497818,
+				-1719630431,
+				-1686184578
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "OBgN/e+Q0EtC9Fl0qn7s4cpIQKKKq3tX9bOYSXaXGyG6ppP+ThLNNF8xc/CmqxNgOhsbmEyZMLovfrL5jleHJ6vSGA6Pxq2mk0VAmVKnFZhNiVTaYkWYwu9nbAnNoqHFlkx7lT8lMPMg4LrSog/s5MQrT8WtShfqgmhLQVxYjFf56XM7VSoLSkq7OyiLYWyiLXIz/f4LrXIHE1jx+23YCMpmPb+2Y3VAc1WgBpyBX2ishHo26UFPMAu+HQeFr+5dNdZxSLjS7ee8kE8Nh1umUtS3iXiRU1ap6rwNXzMcdTJ0ysWAYSJA4gTQyyk/DtMYTBmUC7S39fEhgxdz+IaG+F/S3VlD3KZArzYzCUotcDvo5o97pXumpB0kBkRHnKSq16eHacvHq1rBEO6zeA0tiDQUyPhdp92Eik3icTqGhizbfXfCnTqq5Q1ezIjMQtrcn0KZv4iAPxqc66sRBacCQ+KsIYjlK1ZAXxNmO09hhL8GjQC57OTdADNG6izYfgHCRlYeF8YgNJFM0h1TBVjWp8ulBJyDJJRwwG6uCF2UVhUBKZBvoxOwx6k97LtMJ7pOsBkpXQrk4mLoKgfhI30k5Qrfm3XjTBmG0rRP1+rUYf18jgpw+8GFbawdEShpGAIe0zj/2DyKOcSqR9RT3/wdBEL8Ryd2Doiltgk40ssYTEw=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTY4NTk3NzgwODU4NywKICAicHJvZmlsZUlkIiA6ICI1MTY4ZjZlMjIyM2E0Y2FjYjdiN2QyZjYyZWMxZGFhOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZWZfbm90X2FzaCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mOWQ4ZWJiYzI4OWQ5NTRmZjZlZjFjY2VmNzg5NTFmZDlhMDcwY2ExNTI5Y2M5NDliYTgzZTIzMDBmODkxY2QiCiAgICB9CiAgfQp9"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4556,
+		modVersion: "Firmament 43.0.0+mc1.21.10"
+	}
+}

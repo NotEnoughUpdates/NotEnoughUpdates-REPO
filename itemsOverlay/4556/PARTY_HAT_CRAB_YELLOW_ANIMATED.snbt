@@ -1,0 +1,46 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "PARTY_HAT_CRAB_ANIMATED",
+			party_hat_color: "yellow",
+			party_hat_year: 2022
+		},
+		"minecraft:profile": {
+			id: [I;
+				-23978866,
+				-706922754,
+				-1986875342,
+				1809311555
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "EBpW8LuPaDt9ZpLz8zJoQeHEIgB2fLQ1lBK0IUQ7/h+4i8HuFrNHM2Vj38JqOljspOc5FnaO5vFetDDlRQegRyrP14Tml0xuj7bn0JIp6WKFW9CNuoR/Ggtt4INBlo7OWBkfCMfTqBOfhC2ieZojAvw1OhETDSCBcZDdSqdsc5KqqYWX95r1du7FZF8equLpbi1K414vrazw0gZceUR4+99gH9c21UltduGyNDMUo9xmJdbkgd1QdxYm29xwJ2sB8a9VkSAFdgJAHLehzD1CZyJPbRbZA2f/1Ag+cDRtV7T4/f3i5bWRI7MdU6py8j9ImDJvjAa21IOy10nRH4vVGE2FdlPoD5gOP98JLjUCj48YWAgYRz5t9RoVZj5bVwlyhY3/TPNWqC42ZSqYCFc3xS6+XeOEULaBNT6YjbVydZgFaSB4UxnRDSXHXt9R+okf3Y672YWNIN1+HpFJ4fkNegq3KSZYK/KE/sqrPJJEY8LO2KSW0Fz597kzyJ2KR/ZvGrMnzoipg8MF1bJKcMG6JvRBG5aij4+hCex0Ri4gxKpoowjspkbDWDoWq4pmxEUaXuramkGkVfHJjvVUfA/l20SaVYXKNVHjoS8lbLckbbhXQEWUEG9S5zcaN5aIpvKrJarf8mSFrR402zI/2I7xxhIw2zy/SekOgoAoEaWVdxY=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTY1NDc5MzcyNjExNywKICAicHJvZmlsZUlkIiA6ICJmMTA0NzMxZjljYTU0NmI0OTkzNjM4NTlkZWY5N2NjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ6aWFkODciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2I1ODcwZDUyZmU4MzBiYTkyMzRlZjI2ODcwNzM5YzkzMjQ2NDliMjBjZTBmZmJiZmZlNGI1MDBiNmQ5MWM5MCIKICAgIH0KICB9Cn0="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4556,
+		modVersion: "Firmament 43.0.0+mc1.21.10"
+	}
+}
