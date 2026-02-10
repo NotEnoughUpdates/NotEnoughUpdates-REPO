@@ -1,0 +1,46 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "PARTY_HAT_CRAB_ANIMATED",
+			party_hat_color: "orange",
+			party_hat_year: 2022
+		},
+		"minecraft:profile": {
+			id: [I;
+				-1903324449,
+				691026741,
+				-1137430145,
+				-1278193454
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "S+4Hkaf87F7lwjnyUb25mPxC7qulSMuf0ePhq/ZdMDTxMnLSntFEb2mrfOw/DfayXN6DPIYlDd2ytJYyv9aCzwaE66CafUwv9TrKej3Z+fsCShYonCpFapsv4tHAVkMUfEtM2DC4cJlq1Kc7KbtgZY0+XvPrME7ITawKofL1z1M5KDfe0xeCD2ynUXTRh8gVONv7D/URv5gLfkRZ7y/8ieyr1TmWhopI4R9kgNKp6OTbwzG4jYE+1PAWAeq0Pm/HBBCz0zEOnZ3YnM0dUJrHyBNgOftFbtmmJx4pJwHB3S2/vyY+YaIka3MExVjjCYx2Vsw9rbEvlWzhI3BsloHLGF34XSbu9MEhRP4Knwn/P9+xsVmdNvPKHCbTJIvNmG7NAH0pehi6q0hpqQWGa49vIURfuNEi44lpS76mnJiCj8ILDpyhvr3Er8wodAUGZAC4ZW7rokA7ok6gZg5E2DEDDBkrsbWijfqn10dAvaIJdEepS1dydPwjYMILIpPj6HGkYzssxPtcKsY12cCljPX1QYKZYQ1c3ETmgGePGN0BkfOmKeCc7cgAibJB0m6g2xiqawG21Cxp41okkmaTC75OOEdoebBQt9/1RK+wqZSc49KNdRYoSITlapxyE0by7lc0RfL47Dx88Qd8G8dn141qN+3VoIGcG0ePbRYBVsEnY6Q=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTY1NDc5MzMwMTY1NCwKICAicHJvZmlsZUlkIiA6ICI1NjY3NWIyMjMyZjA0ZWUwODkxNzllOWM5MjA2Y2ZlOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVJbmRyYSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iOGY4OGU3ZGYyY2EwZGIzOGUyYTBjNDdkZTZlM2MyNGNjMDBjNWMzYzk1YTEyNTNiZGRiMTEwNTViY2UzZTg3IgogICAgfQogIH0KfQ=="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4556,
+		modVersion: "Firmament 43.0.0+mc1.21.10"
+	}
+}

@@ -1,0 +1,47 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "PARTY_HAT_CRAB",
+			originTag: "REWARD_PARTY_TIME_HAT_NPC",
+			party_hat_color: "purple",
+			party_hat_year: 2020
+		},
+		"minecraft:profile": {
+			id: [I;
+				-420396591,
+				217463283,
+				-1339586648,
+				-722331856
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "r49PAElylCdYoVwSfDd3jw3SwvPWZIeffBbZG7NhZksK1TNT9mjsqizaGuSQQ8N4H1IW9skjFX2R6/JpLHHW/GhsN6+edxw4yPFi3UxQXVF9UH34dwzi8IbLcK8fiO5uHvOIjtAxQ5gYmoiiOL9Aq8efE2uZ64Skz+8jTHEQ6e9Zjw/XZR0cZeJDmZpvcRkL0BtbTmW9TWiae4MO/t8wfv8MLybBxXlkXlPx6PQJ/8nkB8FfNfVTQABeCHpYMO85XNCj2NmgMZXqv+V7eIe9NDtBlMvd0LaPgVBLuuWaCLQH50tpCP42QmYyVb3pgU90nABfyaBRZRhHFmnaj0yknB6UElbbEjUPaaamdQe50xtzQCDb3Kdm++Zb/8eEA4VXbbVi7saQbqgKZKMlO/axoTJXUA9CbwbGifLepfPa4AZ6ucTUqdJD3TILeeyRV4bOQaxd684U04N1DXJBeBRR7ih6OwyI9AaOIzzPs4a+TX0FanSxB8Lp4XR8uqPpw2bxMaf/7ZBQUoruELz5ycxepkk3r9b/fzWykuBihloerxGMZ6byrPg68N1JAdZTNNZtNL1gHIFoW0L3utRrM21IBHnpkfaBp9J0iR+5bZemlP1POX7n3knGpWrAQNRtqsXzyzibhlV7iYTV8/eICM/uf/Kjl0JegTygpMd099Xw9fY=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTY4NzMyODMwNDI3NSwKICAicHJvZmlsZUlkIiA6ICJiYTBhMzYwZDM5ZDQ0N2JmOTNiZjBhMTU2ZDUzZTZjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJMZW9sb3oxMDAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmUzYWY1ODI0MDE0YjU3ZjRhNGE4NGQ0YmI3ZmI4OGNhYzllNGFjNzVkMDBjN2FkYjA5ZGZlNWFiNzM3ZTIyNCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4556,
+		modVersion: "Firmament 43.0.0+mc1.21.10"
+	}
+}

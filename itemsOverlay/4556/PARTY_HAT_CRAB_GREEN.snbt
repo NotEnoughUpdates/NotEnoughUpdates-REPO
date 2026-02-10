@@ -1,0 +1,49 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "PARTY_HAT_CRAB",
+			originTag: "REWARD_PARTY_TIME_HAT_NPC",
+			party_hat_color: "green",
+			party_hat_year: 2020,
+			rarity_upgrades: 1,
+			talisman_enrichment: "magic_find"
+		},
+		"minecraft:profile": {
+			id: [I;
+				1116425024,
+				-1032635997,
+				-1740330975,
+				666615676
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "kcjdt1Ew3tmN9xf2ZX66BL0jGMuSxEYaQZGFrYQAUG+nL+8+leOi0f8jmdTXI7IeIv7gR/QNXnJLXDGOZn8SvWjE2E3TWHKoPT/MsNoBuWDb0/67Vm/3b3R4cqUXPTds6R01sHM0lgZlV04Lvn12YvLcbOEXYPa8TmdZv43OJekS9o4ut6RfS55Qo11paNkG6V7U+7eWLrfX4I2Gtmjy22HdIvkNcpCumI7ZQjd2kl4wQbCfP69Go7lH1UXDlE42DYx01KDphYdpjahVps0+LozAbDIxI0dUQ9SPzUV0mX9rVPaMnvPlMtYQs3WKrIfRiyTKPrvAYyyaxzFUXypYiLJfitINeTGL/YwynR0xheQzrCzn/4UppmDZHAZRhidfcLSa+0HucK125gbpPpkd8b4L1bwlCFTA5Ri2wV1+Al2BOhfj+oXQlCxM7jm4Dv06HHDlZx8ZpRx3fKr8pEeFKeavcGGXtA0LqtzRU4794XyuTP0OwquTaku+6RJeHCfzXEMDM+jFMjibj7ov8p1oVV5yD+eI0Ftjk42OEenN2LlPKOSiQIbjMgnqnc76qIM7+4mvtGUbHfW5EYUPY4x6bmV6GlCMSd6GVZ6bq4NEUF5Q01Cw4jfxbWH/ji08OmfnY9lzeNtT7AjVE0iUAUxm0xzRYmDRcOmB0omRkjtP8uM=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTY4NzMyODAzMzg5NCwKICAicHJvZmlsZUlkIiA6ICI4N2YzOGM1MWE4Yzc0MmNmYTY2YTgxNWExZTI2NzMzYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJCZWR3YXJzQ3V0aWUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOThkOTk5ODNhYjU5ODY5MjEyNTFhMjliYmE5NmM4ZTczNGY1ZGUwODRhMjk2Y2I2MjdiY2Q2NGZkMGZiYTU5MyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4556,
+		modVersion: "Firmament 43.0.0+mc1.21.10"
+	}
+}
