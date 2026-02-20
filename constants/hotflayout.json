@@ -25,7 +25,7 @@
         "statFortune": "(* level 2)",
         "statSweep": "(id level)",
         "lore": [
-          "§7Gain §a§a{statFortune} §6☘ Foraging Fortune §7and §a§a{statSweep} §2∮",
+          "§7Gain §a{statFortune} §6☘ Foraging Fortune §7and §a{statSweep} §2∮",
           "§2Sweep §7when within §a16 §7Blocks of a",
           "§7player with Half Full enabled."
         ]
@@ -55,7 +55,7 @@
         "statFortune": "(* level 2)",
         "statSweep": "(id level)",
         "lore": [
-          "§7Gain §a§a{statFortune} §6☘ Foraging Fortune §7and §a§a{statSweep} §2∮",
+          "§7Gain §a{statFortune} §6☘ Foraging Fortune §7and §a{statSweep} §2∮",
           "§2Sweep §7when within §a16 §7Blocks of a",
           "§7player with Half Empty enabled."
         ]
@@ -71,7 +71,7 @@
         "lore": [
           "§7Your Throwing Axes gain permanent",
           "§7homing abilities towards trees on",
-          "§7§2Galatea§7."
+          "§2Galatea§7."
         ]
       },
       "forest_strength": {
@@ -85,7 +85,7 @@
         "stat": "(round-decimals (* level 0.1) 1)",
         "lore": [
           "§7Gain §a{stat}% §7of your total §c❁ Strength",
-          "§c§7as §6☘ Foraging Fortune §7and §2∮",
+          "§7as §6☘ Foraging Fortune §7and §2∮",
           "§2Sweep§7. §8(Caps at 1,000 Strength)."
         ]
       },
@@ -99,7 +99,7 @@
         "cost": "",
         "stat": "(id level)",
         "lore": [
-          "§7You gain §a§a{stat} §d☘ Hunter Fortune§7."
+          "§7You gain §a{stat} §d☘ Hunter Fortune§7."
         ]
       },
       "galateas_might": {
@@ -159,7 +159,7 @@
           "§7Throwing your axe consumes §a100%",
           "§a§7of your total mana. You gain §21∮",
           "§2Sweep §7for every §b100 Mana §7used, for",
-          "§7§a§a20 §7seconds.",
+          "§7§a20 §7seconds.",
           "§8Cooldown: §a60s"
         ]
       },
@@ -260,8 +260,8 @@
         "item": "(npi level0 maxLevel)",
         "cost": "",
         "lore": [
-          "§7Increase §2∮ Sweep §7by §a§a10§7 and §6☘",
-          "§6Foraging Fortune §7by §a§a50§7."
+          "§7Increase §2∮ Sweep §7by §a10§7 and §6☘",
+          "§6Foraging Fortune §7by §a50§7."
         ]
       },
       "deep_waters": {
@@ -274,7 +274,7 @@
         "cost": "",
         "stat": "(id level)",
         "lore": [
-          "§7You gain §a§a{stat} §9❍ Pressure Resistance§7."
+          "§7You gain §a{stat} §9❍ Pressure Resistance§7."
         ]
       },
       "efficient_forager": {
@@ -287,7 +287,7 @@
         "cost": "",
         "stat": "(round-decimals (+ (* level 0.1) 5) 1)",
         "lore": [
-          "§7Grants §{stat}☯ Foraging Wisdom§7."
+          "§7Grants §3{stat}☯ Foraging Wisdom§7."
         ]
       },
       "collector": {
@@ -301,7 +301,7 @@
         "stat": "(* level 2)",
         "lore": [
           "§7Berries and Island Resources have",
-          "§7a §a§a{stat}% §7chance to drop double",
+          "§7a §a{stat}% §7chance to drop double",
           "§7resource."
         ]
       },
@@ -314,8 +314,8 @@
         "item": "(npi level0 maxLevel)",
         "cost": "",
         "lore": [
-          "§7Increase §2∮ Sweep §7by §a§a20§7 and §6☘",
-          "§6Foraging Fortune §7by §a§a100§7 for the",
+          "§7Increase §2∮ Sweep §7by §a20§7 and §6☘",
+          "§6Foraging Fortune §7by §a100§7 for the",
           "§7first §a250 §7trees cut every day."
         ]
       },
@@ -343,7 +343,7 @@
         "cost": "",
         "stat": "(round-decimals (* level 0.5) 1)",
         "lore": [
-          "§7Tree Gifts grant §a§a{stat}% §7more loot."
+          "§7Tree Gifts grant §a{stat}% §7more loot."
         ]
       },
       "daily_wishes": {
@@ -357,8 +357,8 @@
         "stat": "(* level 200)",
         "lore": [
           "§7You gain §a{stat} §3Forest Whispers",
-          "§3§7from the first type of log you cut on",
-          "§7§2Galatea §7every day."
+          "§7from the first type of log you cut on",
+          "§2Galatea §7every day."
         ]
       },
       "250_gifts": {
@@ -371,9 +371,9 @@
         "cost": "",
         "stat": "(id level)",
         "lore": [
-          "§7Your first §a§a250 §7Tree Gifts of the day",
-          "§7grant §a§a{stat}% §7more loot and §a§a20 §7extra",
-          "§7§3Forest Whispers§7."
+          "§7Your first §a250 §7Tree Gifts of the day",
+          "§7grant §a{stat}% §7more loot and §a20 §7extra",
+          "§3Forest Whispers§7."
         ]
       },
       "damage_boost": {
@@ -402,8 +402,8 @@
         "cost": "",
         "stat": "(* level 2)",
         "lore": [
-          "§7Increase §c❁ Strength §7by §a§a{stat}§7 while on",
-          "§7§2Foraging Islands§7."
+          "§7Increase §c❁ Strength §7by §a{stat}§7 while on",
+          "§2Foraging Islands§7."
         ]
       },
       "foraging_fortune": {
@@ -416,7 +416,7 @@
         "cost": "",
         "stat": "(* level 3)",
         "lore": [
-          "§7Increase §6☘ Foraging Fortune §7by §a§a{stat}§7."
+          "§7Increase §6☘ Foraging Fortune §7by §a{stat}§7."
         ]
       },
       "speed_boost": {
@@ -429,8 +429,8 @@
         "cost": "",
         "stat": "(id level)",
         "lore": [
-          "§7Increase §f✦ Speed §7by §a§a{stat}§7 while on",
-          "§7§2Foraging Islands§7."
+          "§7Increase §f✦ Speed §7by §a{stat}§7 while on",
+          "§2Foraging Islands§7."
         ]
       },
       "axe_toss": {
@@ -459,7 +459,7 @@
         "cost": "",
         "stat": "(id level)",
         "lore": [
-          "§7Increase §2∮ Sweep §7by §a§a{stat}§7."
+          "§7Increase §2∮ Sweep §7by §a{stat}§7."
         ]
       }
     }
