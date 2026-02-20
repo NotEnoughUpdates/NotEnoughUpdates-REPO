@@ -1,0 +1,467 @@
+{
+  "prelude": [
+    "(defun min (l r) (if (lt l r) l r))",
+    "(defun max (l r) (if (lt l r) r l))",
+    "(defun round-decimals (number places) (/ (round (* number (pow 10 places))) (pow 10 places)))",
+    "(defun id (x) (if true x x))",
+    "(defun npi (level0 maxLevel) (if (= level0 0) :PALE_OAK_BUTTON (if (= level0 maxLevel) :OAK_LOG :STRIPPED_OAK_LOG)))",
+    "(defun api (level0) (if (= level0 0) :PALE_OAK_SAPLING :OAK_SAPLING))"
+  ],
+  "hotf": {
+    "powders": {
+      "FOREST_WHISPERS": {
+        "costLine": "§7Cost: §b{cost} Forest Whispers"
+      }
+    },
+    "perks": {
+      "half_empty": {
+        "name": "Half Empty",
+        "x": 1,
+        "y": 0,
+        "maxLevel": 25,
+        "powder": "FOREST_WHISPERS",
+        "item": "(npi level0 maxLevel)",
+        "cost": "",
+        "statFortune": "(* level 2)",
+        "statSweep": "(id level)",
+        "lore": [
+          "§7Gain §a{statFortune} §6☘ Foraging Fortune §7and §a{statSweep} §2∮",
+          "§2Sweep §7when within §a16 §7Blocks of a",
+          "§7player with Half Full enabled."
+        ]
+      },
+      "ricochet": {
+        "name": "Ricochet",
+        "x": 3,
+        "y": 0,
+        "maxLevel": 10,
+        "powder": "FOREST_WHISPERS",
+        "item": "(npi level0 maxLevel)",
+        "cost": "",
+        "stat": "(id level)",
+        "lore": [
+          "§7Your Axe has a §a{stat}% §7chance to bounce",
+          "§7to a nearby tree when thrown."
+        ]
+      },
+      "half_full": {
+        "name": "Half Full",
+        "x": 5,
+        "y": 0,
+        "maxLevel": 25,
+        "powder": "FOREST_WHISPERS",
+        "item": "(npi level0 maxLevel)",
+        "cost": "",
+        "statFortune": "(* level 2)",
+        "statSweep": "(id level)",
+        "lore": [
+          "§7Gain §a{statFortune} §6☘ Foraging Fortune §7and §a{statSweep} §2∮",
+          "§2Sweep §7when within §a16 §7Blocks of a",
+          "§7player with Half Empty enabled."
+        ]
+      },
+      "homing_axe": {
+        "name": "Homing Axe",
+        "x": 0,
+        "y": 1,
+        "maxLevel": 1,
+        "powder": "FOREST_WHISPERS",
+        "item": "(npi level0 maxLevel)",
+        "cost": "",
+        "lore": [
+          "§7Your Throwing Axes gain permanent",
+          "§7homing abilities towards trees on",
+          "§2Galatea§7."
+        ]
+      },
+      "forest_strength": {
+        "name": "Forest Strength",
+        "x": 1,
+        "y": 1,
+        "maxLevel": 50,
+        "powder": "FOREST_WHISPERS",
+        "item": "(npi level0 maxLevel)",
+        "cost": "",
+        "stat": "(round-decimals (* level 0.1) 1)",
+        "lore": [
+          "§7Gain §a{stat}% §7of your total §c❁ Strength",
+          "§7as §6☘ Foraging Fortune §7and §2∮",
+          "§2Sweep§7. §8(Caps at 1,000 Strength)."
+        ]
+      },
+      "hunters_luck": {
+        "name": "Hunters Luck",
+        "x": 2,
+        "y": 1,
+        "maxLevel": 50,
+        "powder": "FOREST_WHISPERS",
+        "item": "(npi level0 maxLevel)",
+        "cost": "",
+        "stat": "(id level)",
+        "lore": [
+          "§7You gain §a{stat} §d☘ Hunter Fortune§7."
+        ]
+      },
+      "galateas_might": {
+        "name": "Galatea's Might",
+        "x": 3,
+        "y": 1,
+        "maxLevel": 50,
+        "powder": "FOREST_WHISPERS",
+        "item": "(npi level0 maxLevel)",
+        "cost": "",
+        "stat": "(round-decimals (* level 0.5) 1)",
+        "lore": [
+          "§7Gain §a+§a{stat}% §7Combat Stats on §2Galatea§7."
+        ]
+      },
+      "essence_fortune": {
+        "name": "Essence Fortune",
+        "x": 4,
+        "y": 1,
+        "maxLevel": 50,
+        "powder": "FOREST_WHISPERS",
+        "item": "(npi level0 maxLevel)",
+        "cost": "",
+        "stat": "(round-decimals (* level 0.5) 1)",
+        "lore": [
+          "§7Every time you obtain §dForest",
+          "§dEssence§7, there is a §a{stat}%§7 chance for",
+          "§7it to double."
+        ]
+      },
+      "forest_speed": {
+        "name": "Forest Speed",
+        "x": 5,
+        "y": 1,
+        "maxLevel": 50,
+        "powder": "FOREST_WHISPERS",
+        "item": "(npi level0 maxLevel)",
+        "cost": "",
+        "stat": "(round-decimals (* level 0.2) 1)",
+        "lore": [
+          "§7Gain §a{stat}% §7of your total §f✦ Speed §7as",
+          "§7§6☘ Foraging Fortune §7and §2∮ Sweep§7.",
+          "§7§8(Caps at 500 Speed)."
+        ]
+      },
+      "maniac_slicer": {
+        "name": "Maniac Slicer",
+        "x": 6,
+        "y": 1,
+        "maxLevel": 1,
+        "isAbility": true,
+        "powder": "FOREST_WHISPERS",
+        "item": "(api level0)",
+        "cost": "",
+        "lore": [
+          "§6Axe Ability: Maniac Slicer",
+          "§7Throwing your axe consumes §a100%",
+          "§a§7of your total mana. You gain §21∮",
+          "§2Sweep §7for every §b100 Mana §7used, for",
+          "§7§a20 §7seconds.",
+          "§8Cooldown: §a60s"
+        ]
+      },
+      "monster_hunter": {
+        "name": "Monster Hunter",
+        "x": 1,
+        "y": 2,
+        "maxLevel": 1,
+        "powder": "FOREST_WHISPERS",
+        "item": "(npi level0 maxLevel)",
+        "cost": "",
+        "lore": [
+          "§7Hunting a monster grants §a+§a40 §7extra",
+          "§7§3Forest Whispers§7."
+        ]
+      },
+      "center_of_the_forest": {
+        "name": "Center of the Forest",
+        "x": 3,
+        "y": 2,
+        "maxLevel": 5,
+        "powder": "FOREST_WHISPERS",
+        "item": "(if (= level0 maxLevel) :MANGROVE_WOOD :MANGROVE_ROOTS)",
+        "cost": "",
+        "statTokens": "(if (= level 5) 2 1)",
+        "statXP": "(list.at (list.new 0 25 60 110 175 250) level)",
+        "lore": [
+          {
+            "text": "§7§8+§c1 Axe Ability Level",
+            "onlyIf": "(gt level 0)"
+          },
+          {
+            "text": "§7§8+§25% §2∮ Sweep§7.",
+            "onlyIf": "(gt level 1)"
+          },
+          {
+            "text": "§7§8+§320 Forest Whispers §7per Tree Gift.",
+            "onlyIf": "(gt level 2)"
+          },
+          {
+            "text": "§7§8+§32 Forest Whispers §7per",
+            "onlyIf": "(gt level 2)"
+          },
+          {
+            "text": "§7Fig/Mangrove logs cut.",
+            "onlyIf": "(gt level 2)"
+          },
+          {
+            "text": "§7§8+§210% §2∮ Sweep§7.",
+            "onlyIf": "(gt level 3)"
+          },
+          {
+            "text": "§8+§a{statTokens} §aToken of the Forest",
+            "onlyIf": "(gt level 0)"
+          },
+          {
+            "text": "§8+§b{statXP} SkyBlock XP",
+            "onlyIf": "(gt level 0)"
+          }
+        ]
+      },
+      "tree_whisperer": {
+        "name": "Tree Whisperer",
+        "x": 5,
+        "y": 2,
+        "maxLevel": 1,
+        "powder": "FOREST_WHISPERS",
+        "item": "(npi level0 maxLevel)",
+        "cost": "",
+        "lore": [
+          "§7Tree Gifts give §a+§a200 §3Forest Whispers§7."
+        ]
+      },
+      "lottery": {
+        "name": "Lottery",
+        "x": 0,
+        "y": 3,
+        "maxLevel": 1,
+        "powder": "FOREST_WHISPERS",
+        "item": "(npi level0 maxLevel)",
+        "cost": "",
+        "lore": [
+          "§7Every SkyBlock day, you receive a",
+          "§7random effect.",
+          "",
+          "§7Possible Buffs",
+          "§8 ■ §7Gain §a+50 §6☘ Fig Fortune§7.",
+          "§8 ■ §7Gain §a+50 §6☘ Mangrove Fortune§7.",
+          "§8 ■ §7Gain §a+5% §2∮ Sweep§7."
+        ]
+      },
+      "foraging_madness": {
+        "name": "Foraging Madness",
+        "x": 1,
+        "y": 3,
+        "maxLevel": 1,
+        "powder": "FOREST_WHISPERS",
+        "item": "(npi level0 maxLevel)",
+        "cost": "",
+        "lore": [
+          "§7Increase §2∮ Sweep §7by §a10§7 and §6☘",
+          "§6Foraging Fortune §7by §a50§7."
+        ]
+      },
+      "deep_waters": {
+        "name": "Deep Waters",
+        "x": 2,
+        "y": 3,
+        "maxLevel": 50,
+        "powder": "FOREST_WHISPERS",
+        "item": "(npi level0 maxLevel)",
+        "cost": "",
+        "stat": "(id level)",
+        "lore": [
+          "§7You gain §a{stat} §9❍ Pressure Resistance§7."
+        ]
+      },
+      "efficient_forager": {
+        "name": "Efficient Forager",
+        "x": 3,
+        "y": 3,
+        "maxLevel": 100,
+        "powder": "FOREST_WHISPERS",
+        "item": "(npi level0 maxLevel)",
+        "cost": "",
+        "stat": "(round-decimals (+ (* level 0.1) 5) 1)",
+        "lore": [
+          "§7Grants §3{stat}☯ Foraging Wisdom§7."
+        ]
+      },
+      "collector": {
+        "name": "Collector",
+        "x": 4,
+        "y": 3,
+        "maxLevel": 50,
+        "powder": "FOREST_WHISPERS",
+        "item": "(npi level0 maxLevel)",
+        "cost": "",
+        "stat": "(* level 2)",
+        "lore": [
+          "§7Berries and Island Resources have",
+          "§7a §a{stat}% §7chance to drop double",
+          "§7resource."
+        ]
+      },
+      "early_bird": {
+        "name": "Early Bird",
+        "x": 5,
+        "y": 3,
+        "maxLevel": 1,
+        "powder": "FOREST_WHISPERS",
+        "item": "(npi level0 maxLevel)",
+        "cost": "",
+        "lore": [
+          "§7Increase §2∮ Sweep §7by §a20§7 and §6☘",
+          "§6Foraging Fortune §7by §a100§7 for the",
+          "§7first §a250 §7trees cut every day."
+        ]
+      },
+      "precision_cutting": {
+        "name": "Precision Cutting",
+        "x": 6,
+        "y": 3,
+        "maxLevel": 1,
+        "powder": "FOREST_WHISPERS",
+        "item": "(npi level0 maxLevel)",
+        "cost": "",
+        "lore": [
+          "§7A particle appears on every nearby",
+          "§7tree. Cutting the marked log grants",
+          "§7you a §a+§a10§7 §2∮ Sweep §7on that hit."
+        ]
+      },
+      "luck_of_the_forest": {
+        "name": "Luck of the Forest",
+        "x": 1,
+        "y": 4,
+        "maxLevel": 40,
+        "powder": "FOREST_WHISPERS",
+        "item": "(npi level0 maxLevel)",
+        "cost": "",
+        "stat": "(round-decimals (* level 0.5) 1)",
+        "lore": [
+          "§7Tree Gifts grant §a{stat}% §7more loot."
+        ]
+      },
+      "daily_wishes": {
+        "name": "Daily Wishes",
+        "x": 3,
+        "y": 4,
+        "maxLevel": 100,
+        "powder": "FOREST_WHISPERS",
+        "item": "(npi level0 maxLevel)",
+        "cost": "",
+        "stat": "(* level 200)",
+        "lore": [
+          "§7You gain §a{stat} §3Forest Whispers",
+          "§7from the first type of log you cut on",
+          "§2Galatea §7every day."
+        ]
+      },
+      "250_gifts": {
+        "name": "250 Gifts",
+        "x": 5,
+        "y": 4,
+        "maxLevel": 40,
+        "powder": "FOREST_WHISPERS",
+        "item": "(npi level0 maxLevel)",
+        "cost": "",
+        "stat": "(id level)",
+        "lore": [
+          "§7Your first §a250 §7Tree Gifts of the day",
+          "§7grant §a{stat}% §7more loot and §a20 §7extra",
+          "§3Forest Whispers§7."
+        ]
+      },
+      "damage_boost": {
+        "name": "Damage Boost",
+        "x": 1,
+        "y": 5,
+        "maxLevel": 1,
+        "isAbility": true,
+        "powder": "FOREST_WHISPERS",
+        "item": "(api level0)",
+        "cost": "",
+        "lore": [
+          "§6Axe Ability: Damage Boost",
+          "§7Your axe deals double §c❁ Damage §7to",
+          "§7creatures on §2Galatea §7for §a10s§7.",
+          "§8Cooldown: §a120s"
+        ]
+      },
+      "strength_boost": {
+        "name": "Strength Boost",
+        "x": 2,
+        "y": 5,
+        "maxLevel": 50,
+        "powder": "FOREST_WHISPERS",
+        "item": "(npi level0 maxLevel)",
+        "cost": "",
+        "stat": "(* level 2)",
+        "lore": [
+          "§7Increase §c❁ Strength §7by §a{stat}§7 while on",
+          "§2Foraging Islands§7."
+        ]
+      },
+      "foraging_fortune": {
+        "name": "Foraging Fortune",
+        "x": 3,
+        "y": 5,
+        "maxLevel": 50,
+        "powder": "FOREST_WHISPERS",
+        "item": "(npi level0 maxLevel)",
+        "cost": "",
+        "stat": "(* level 3)",
+        "lore": [
+          "§7Increase §6☘ Foraging Fortune §7by §a{stat}§7."
+        ]
+      },
+      "speed_boost": {
+        "name": "Speed Boost",
+        "x": 4,
+        "y": 5,
+        "maxLevel": 50,
+        "powder": "FOREST_WHISPERS",
+        "item": "(npi level0 maxLevel)",
+        "cost": "",
+        "stat": "(id level)",
+        "lore": [
+          "§7Increase §f✦ Speed §7by §a{stat}§7 while on",
+          "§2Foraging Islands§7."
+        ]
+      },
+      "axe_toss": {
+        "name": "Axe Toss",
+        "x": 5,
+        "y": 5,
+        "maxLevel": 1,
+        "isAbility": true,
+        "powder": "FOREST_WHISPERS",
+        "item": "(api level0)",
+        "cost": "",
+        "lore": [
+          "§6Axe Ability: Axe Toss",
+          "§7Throwing your Axe has no §2∮ Sweep",
+          "§2§7penalty for §a10s§7.",
+          "§8Cooldown: §a120s"
+        ]
+      },
+      "sweep": {
+        "name": "Sweep",
+        "x": 3,
+        "y": 6,
+        "maxLevel": 50,
+        "powder": "FOREST_WHISPERS",
+        "item": "(npi level0 maxLevel)",
+        "cost": "",
+        "stat": "(id level)",
+        "lore": [
+          "§7Increase §2∮ Sweep §7by §a{stat}§7."
+        ]
+      }
+    }
+  }
+}
