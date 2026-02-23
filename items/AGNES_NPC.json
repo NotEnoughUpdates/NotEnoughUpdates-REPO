@@ -1,0 +1,107 @@
+{
+  "itemid": "minecraft:spawn_egg",
+  "displayname": "§9Agnes (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"AGNES_NPC\"},HideFlags:254,display:{Lore:[0:\"§7Only appears during the §5Year of the Witch §7event.\"],Name:\"§9Agnes (NPC)\"}}",
+  "damage": 66,
+  "lore": [
+    "§7Only appears during the §5Year of the Witch §7event."
+  ],
+  "internalname": "AGNES_NPC",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 43.0.0+mc1.21.10",
+  "infoType": "",
+  "info": [],
+  "island": "hub",
+  "x": 11,
+  "y": 75,
+  "z": 2,
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "FESTERING_FLY:32"
+      ],
+      "result": "WITCH_TALISMAN:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "WITCH_TALISMAN:1",
+        "VOID_OOZE:64",
+        "FROG_LEGS:64"
+      ],
+      "result": "WITCH_RING:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "WITCH_RING:1",
+        "SMOLDERING_EMBERS:64",
+        "SPELL_SOOT:64",
+        "GELATINOUS_GLOOP:64"
+      ],
+      "result": "WITCH_ARTIFACT:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SPIDER_EGG:64",
+        "FUNNY_BONE:64"
+      ],
+      "result": "SMALL_WITCH_CAULDRON:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "WATERBORNE_LICE:64",
+        "CONSOLE_PANEL:64",
+        "JAWBREAKER:64"
+      ],
+      "result": "MEDIUM_WITCH_CAULDRON:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SMOLDERING_EMBERS:64",
+        "WARMED_FLAKES:64",
+        "NEVER_MELT_ICE:64",
+        "GLACIATED_BRAINS:64"
+      ],
+      "result": "LARGE_WITCH_CAULDRON:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SHIELD_DUST:64",
+        "PIXIE_DUST:64",
+        "RUFFLED_FEATHER:64",
+        "BRITTLE_POWDER:64",
+        "DIRTY_FINGERNAILS:64"
+      ],
+      "result": "GIANT_WITCH_CAULDRON:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "FESTERING_FLY:16",
+        "SPIDER_EGG:16"
+      ],
+      "result": "WITCH_SACK:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "FROG_LEGS:128"
+      ],
+      "result": "PIG_BRAIN_MIXIN:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "WATERBORNE_LICE:128"
+      ],
+      "result": "BLENDED_FISH_MIXIN:1"
+    }
+  ]
+}
