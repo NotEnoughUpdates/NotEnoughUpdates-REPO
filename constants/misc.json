@@ -22,7 +22,9 @@
     "necklace",
     "cloak",
     "gloves",
-    "bracelet"
+    "bracelet",
+    "dungeon pickaxe",
+    "deployable"
   ],
   "tier_colors": {
     "common": "§f",
@@ -3086,12 +3088,19 @@
       "VOTER_BADGE_ELITE",
       "VOTER_BADGE_SUPREME"
     ],
-    "VOTER_BADGE_VIP" : [
+    "VOTER_BADGE_VIP": [
       "VOTER_BADGE_ELITE",
       "VOTER_BADGE_SUPREME"
     ],
     "VOTER_BADGE_ELITE": [
       "VOTER_BADGE_SUPREME"
+    ],
+    "WITCH_TALISMAN": [
+      "WITCH_RING",
+      "WITCH_ARTIFACT"
+    ],
+    "WITCH_RING": [
+      "WITCH_ARTIFACT"
     ]
   },
   "ignored_talisman": [
