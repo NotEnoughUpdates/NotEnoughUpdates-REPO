@@ -1,0 +1,42 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aMithril Lantern",
+  "nbttag": "{ExtraAttributes:{id:\"MITHRIL_LANTERN\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"57a1179f-c06d-3153-993e-1221d4824b9b\",Properties:{textures:[0:{Name:\"textures\",Signature:\"MU/aDuQhHlh/2fTKgzsGH+PYK/ClvkFklZfJ/huZ+P1ZDznSVuz+VAekB21m2pihUx+4zldwnaBft97qNPRueuMd5EGcJJydG+l6mua3AmWmJEUQT12TeJDv/1AkkTUm9/usJqidn93aCCazv3VmQQQ1cLApRwEG9xBJrxImr7nkhB9U0+bbF6u8upQrnVGKp97VaniHaQBlLsaHElvp0R/W26w9kqngxX1raKYSMT2Gj7ONwk8gVmtCBnJZAgzPrE9aH2enrD7Pyx+mnTQH1hg8HWPbizVCLMVn+j3utN/Ntou1xg96mKXnKzJKCDpuUmX2/zUu6YO7d/NJfXX5mLgbVZgSyRUs3fBBkOQqpbGFtU2vb2wN17GxPYiT5+ChKCTv2hq9v6NXZHIZeqcrv9TkbJh8W1Q57ysQWwGPX8sY6qO0td//KZuJNpgJ/OoXIbixxybQ3ggb9fNbJimfM9ara3sazBSJC++gNwIrIAk3MLwVlC7o36jR0JqhZnXAVFR4qmKbMwwf19EdJF/PbsGDwXUdEQ6oWp/CCqvDn0aDFpqho8zozWvOYAu/2Iy3Fw03UfwVKXWTgKIRjGGHI6LffoYgYYRZmbKZSTeZ3G+J/oKVc9+IDaHQBHe+5FHGNOBUtU9a3hzaiBxvYCkEAzPppPc3t1NT4Xcs4wpB7nI=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc3MDgxODc2OTA1NiwKICAicHJvZmlsZUlkIiA6ICJjM2ZmNTY5OWZlNWI0OTY2YTYzYzdhMTEzNTBjZGIyNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZWNobzkwMDAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJhNjk1MmQxM2FjZjYzMWNlMWJlYmFhMDgxNWZjZjhhNTdmNjZmZmY2OWJhNTE1OTlhOTM2YTExNjBiNjE1YiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Mining Deployable\",1:\"\",2:\"§6Ability: Deploy  §e§lRIGHT CLICK\",3:\"§7Place an orb for §a5m §7buffing up to §b5\",4:\"§7players within §a30 §7blocks.\",5:\"§8Costs 50% of max mana.\",6:\"\",7:\"§aOrb Buff: Mithril Lantern\",8:\"§a• §7Grants §6+40⸕ Mining Speed§7.\",9:\"§a• §7Grants §6+10☘ Mining Fortune§7.\",10:\"\",11:\"§8Only one deployable buff applies.\",12:\"\",13:\"§4❣ §cRequires §5Heart of the Mountain Tier 2§c.\",14:\"§a§lUNCOMMON DEPLOYABLE\"],Name:\"§aMithril Lantern\"}}",
+  "damage": 3,
+  "lore": [
+    "§8Mining Deployable",
+    "",
+    "§6Ability: Deploy  §e§lRIGHT CLICK",
+    "§7Place an orb for §a5m §7buffing up to §b5",
+    "§7players within §a30 §7blocks.",
+    "§8Costs 50% of max mana.",
+    "",
+    "§aOrb Buff: Mithril Lantern",
+    "§a• §7Grants §6+40⸕ Mining Speed§7.",
+    "§a• §7Grants §6+10☘ Mining Fortune§7.",
+    "",
+    "§8Only one deployable buff applies.",
+    "",
+    "§4❣ §cRequires §5Heart of the Mountain Tier 2§c.",
+    "§a§lUNCOMMON DEPLOYABLE"
+  ],
+  "internalname": "MITHRIL_LANTERN",
+  "clickcommand": "",
+  "crafttext": "Requires: HotM 2",
+  "modver": "Firmament 43.0.0+mc1.21.10",
+  "infoType": "",
+  "info": [],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "LANTERN:1",
+        "REFINED_MITHRIL:1",
+        "ENCHANTED_EMERALD:16"
+      ],
+      "count": 1,
+      "overrideOutputId": "MITHRIL_LANTERN",
+      "duration": 1800
+    }
+  ]
+}
