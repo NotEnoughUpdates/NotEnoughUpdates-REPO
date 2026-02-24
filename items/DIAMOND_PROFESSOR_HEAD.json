@@ -25,11 +25,27 @@
   ],
   "internalname": "DIAMOND_PROFESSOR_HEAD",
   "clickcommand": "",
-  "crafttext": "",
+  "crafttext": "Requires: The Professor VI",
   "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Diamond_Professor_Head",
     "https://wiki.hypixel.net/Diamond_Professor_Head"
+  ],
+  "recipes": [
+    {
+      "A1": "ENCHANTED_DIAMOND_BLOCK:1",
+      "A2": "ENCHANTED_DIAMOND_BLOCK:1",
+      "A3": "ENCHANTED_DIAMOND_BLOCK:1",
+      "B1": "ENCHANTED_DIAMOND_BLOCK:1",
+      "B2": "GOLD_PROFESSOR_HEAD:1",
+      "B3": "ENCHANTED_DIAMOND_BLOCK:1",
+      "C1": "ENCHANTED_DIAMOND_BLOCK:1",
+      "C2": "ENCHANTED_DIAMOND_BLOCK:1",
+      "C3": "ENCHANTED_DIAMOND_BLOCK:1",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "DIAMOND_PROFESSOR_HEAD"
+    }
   ]
 }
