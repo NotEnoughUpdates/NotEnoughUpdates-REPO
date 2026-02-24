@@ -1,19 +1,11 @@
 import json
 import requests
 import os
+from collections import defaultdict
 
 outputJson = {}
 
-itemCategories = {
-    'combat': set(),
-    'farming': set(),
-    'mining': set(),
-    'fishing': set(),
-    'foraging': set(),
-    'dungeoneering': set(),
-    'hunting': set(),
-    'special': set(),
-}
+itemCategories = defaultdict(set)
 
 armorToID = {}
 children = {}
@@ -33,7 +25,7 @@ def fetchJson(apiUrl):
 
 
 def processMuseumData(internalName, data):
-    itemType = data.get('category')
+    itemType = data.get('category').lower()
 
     if 'parent' in data:
         parentData = data['parent']
@@ -49,7 +41,7 @@ def processMuseumData(internalName, data):
         donationXpInfo = data.get('armor_set_donation_xp', {})
         for armorSet in donationXpInfo:
             itemToXp[armorSet] = donationXpInfo[armorSet]
-            itemCategories[itemType.lower()].add(armorSet)
+            itemCategories[itemType].add(armorSet)
             if armorSet in setOverride:
                 addPieceToSet(setOverride[armorSet], armorSet)
                 continue
@@ -57,7 +49,7 @@ def processMuseumData(internalName, data):
     else:
         donationXp = data.get('donation_xp', 0)
         itemToXp[internalName] = donationXp
-        itemCategories[itemType.lower()].add(internalName)
+        itemCategories[itemType].add(internalName)
 
 
 def addPieceToSet(piece, setName):
@@ -192,7 +184,7 @@ if __name__ == '__main__':
             continue
 
         if 'museum' in item:
-            itemCategories["special"].add(itemId)
+            itemCategories['special'].add(itemId)
 
     for armorSet in armorSets:
         findAppropriateId(armorSet)
