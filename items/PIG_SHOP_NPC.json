@@ -16,32 +16,41 @@
   "recipes": [
     {
       "type": "npc_shop",
-      "result": "SHINY_ORB:1",
+      "result": "SHINY_ORB",
       "cost": [
         "SKYBLOCK_COIN:5000"
       ]
     },
     {
       "type": "npc_shop",
-      "result": "THE_ART_OF_WAR:1",
+      "result": "SHINY_ROD",
       "cost": [
-        "SKYBLOCK_COIN:7500000",
-        "ENCHANTED_GRILLED_PORK:2"
+        "SHINY_SHARD:128"
       ]
     },
     {
       "type": "npc_shop",
-      "result": "BLOOD_GOD_CREST:1",
+      "result": "DANTE_RING",
       "cost": [
         "SKYBLOCK_COIN:1000000",
-        "ENCHANTED_PORK:32"
+        "SHINY_SHARD:128"
       ]
     },
     {
       "type": "npc_shop",
-      "result": "DANTE_RING:1",
+      "result": "THE_ART_OF_WAR",
       "cost": [
-        "SKYBLOCK_COIN:2000000"
+        "SKYBLOCK_COIN:5000000",
+        "ENCHANTED_GRILLED_PORK",
+        "SHINY_SHARD:256"
+      ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "PIG_PET;0",
+      "cost": [
+        "ENCHANTED_PORK:32",
+        "SHINY_SHARD:64"
       ]
     }
   ],
