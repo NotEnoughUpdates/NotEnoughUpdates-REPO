@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Ophelia (NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"46ef3afa-f9ab-5aa5-b190-debb70c994c9\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGFhNGI4MjdhOWE4NWM0ZWZjMTQ3ZmM1OWQwZGE2ODhlYmU3ZTI2ZDI1OGI1NTNjMDQxZGEyZWQ2ZWM4YjZiOCJ9fX0\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Ophelia (NPC)\"},ExtraAttributes:{id:\"OPHELIA_NPC\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"46ef3afa-f9ab-5aa5-b190-debb70c994c9\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGFhNGI4MjdhOWE4NWM0ZWZjMTQ3ZmM1OWQwZGE2ODhlYmU3ZTI2ZDI1OGI1NTNjMDQxZGEyZWQ2ZWM4YjZiOCJ9fX0=\"}]}},display:{Lore:[0:\"\"],Name:\"§9Ophelia (NPC)\"},ExtraAttributes:{id:\"OPHELIA_NPC\"}}",
   "damage": 3,
   "lore": [
     ""
@@ -25,197 +25,186 @@
       "cost": [
         "SKYBLOCK_COIN:5000"
       ],
-      "result": "POTION"
+      "result": "POTION_DUNGEON;1:1"
     },
     {
       "type": "npc_shop",
       "cost": [
         "SKYBLOCK_COIN:10000"
       ],
-      "result": "POTION"
+      "result": "POTION_DUNGEON;2:1"
     },
     {
       "type": "npc_shop",
       "cost": [
         "SKYBLOCK_COIN:15000"
       ],
-      "result": "POTION"
+      "result": "POTION_DUNGEON;3:1"
     },
     {
       "type": "npc_shop",
       "cost": [
         "SKYBLOCK_COIN:20000"
       ],
-      "result": "POTION"
+      "result": "POTION_DUNGEON;4:1"
     },
     {
       "type": "npc_shop",
       "cost": [
         "SKYBLOCK_COIN:25000"
       ],
-      "result": "POTION"
+      "result": "POTION_DUNGEON;5:1"
     },
     {
       "type": "npc_shop",
       "cost": [
         "SKYBLOCK_COIN:30000"
       ],
-      "result": "POTION"
-    },
-    {
-      "type": "npc_shop",
-      "cost": [
-        "SKYBLOCK_COIN:5000"
-      ],
-      "result": "POTION_DUNGEON;1"
-    },
-    {
-      "type": "npc_shop",
-      "cost": [
-        "SKYBLOCK_COIN:10000"
-      ],
-      "result": "POTION_DUNGEON;2"
-    },
-    {
-      "type": "npc_shop",
-      "cost": [
-        "SKYBLOCK_COIN:15000"
-      ],
-      "result": "POTION_DUNGEON;3"
-    },
-    {
-      "type": "npc_shop",
-      "cost": [
-        "SKYBLOCK_COIN:20000"
-      ],
-      "result": "POTION_DUNGEON;4"
-    },
-    {
-      "type": "npc_shop",
-      "cost": [
-        "SKYBLOCK_COIN:25000"
-      ],
-      "result": "POTION_DUNGEON;5"
-    },
-    {
-      "type": "npc_shop",
-      "cost": [
-        "SKYBLOCK_COIN:30000"
-      ],
-      "result": "POTION_DUNGEON;6"
+      "result": "POTION_DUNGEON;6:1"
     },
     {
       "type": "npc_shop",
       "cost": [
         "SKYBLOCK_COIN:35000"
       ],
-      "result": "POTION_DUNGEON;7"
+      "result": "POTION_DUNGEON;7:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:80000",
+        "CLEAVER:1"
+      ],
+      "result": "SUPER_CLEAVER:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:800000",
+        "SUPER_CLEAVER:1"
+      ],
+      "result": "HYPER_CLEAVER:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:5000000",
+        "HYPER_CLEAVER:1"
+      ],
+      "result": "GIANT_CLEAVER:1"
     },
     {
       "type": "npc_shop",
       "cost": [
         "SKYBLOCK_COIN:80000"
       ],
-      "result": "SUPER_CLEAVER"
+      "result": "UNDEAD_BOW:1"
     },
     {
       "type": "npc_shop",
       "cost": [
         "SKYBLOCK_COIN:800000",
-        "SUPER_CLEAVER"
+        "UNDEAD_BOW:1"
       ],
-      "result": "HYPER_CLEAVER"
+      "result": "SUPER_UNDEAD_BOW:1"
     },
     {
       "type": "npc_shop",
       "cost": [
         "SKYBLOCK_COIN:5000000",
-        "HYPER_CLEAVER"
+        "SUPER_UNDEAD_BOW:1"
       ],
-      "result": "GIANT_CLEAVER"
-    },
-    {
-      "type": "npc_shop",
-      "cost": [
-        "SKYBLOCK_COIN:80000"
-      ],
-      "result": "UNDEAD_BOW"
-    },
-    {
-      "type": "npc_shop",
-      "cost": [
-        "SKYBLOCK_COIN:800000",
-        "UNDEAD_BOW"
-      ],
-      "result": "SUPER_UNDEAD_BOW"
-    },
-    {
-      "type": "npc_shop",
-      "cost": [
-        "SKYBLOCK_COIN:5000000",
-        "SUPER_UNDEAD_BOW"
-      ],
-      "result": "DEATH_BOW"
+      "result": "DEATH_BOW:1"
     },
     {
       "type": "npc_shop",
       "cost": [
         "SKYBLOCK_COIN:200"
       ],
-      "result": "ARROW"
+      "result": "ARROW:20"
     },
     {
       "type": "npc_shop",
       "cost": [
         "SKYBLOCK_COIN:80000"
       ],
-      "result": "DARK_GOGGLES"
+      "result": "DARK_GOGGLES:1"
     },
     {
       "type": "npc_shop",
       "cost": [
         "SKYBLOCK_COIN:800000",
-        "DARK_GOGGLES"
+        "DARK_GOGGLES:1"
       ],
-      "result": "SHADOW_GOGGLES"
+      "result": "SHADOW_GOGGLES:1"
     },
     {
       "type": "npc_shop",
       "cost": [
         "SKYBLOCK_COIN:5000000",
-        "SHADOW_GOGGLES"
+        "SHADOW_GOGGLES:1"
       ],
-      "result": "WITHER_GOGGLES"
+      "result": "WITHER_GOGGLES:1"
     },
     {
       "type": "npc_shop",
       "cost": [
         "SKYBLOCK_COIN:80000"
       ],
-      "result": "MENDER_HELMET"
+      "result": "MENDER_HELMET:1"
     },
     {
       "type": "npc_shop",
       "cost": [
         "SKYBLOCK_COIN:800000",
-        "MENDER_HELMET"
+        "MENDER_HELMET:1"
       ],
-      "result": "MENDER_FEDORA"
+      "result": "MENDER_FEDORA:1"
     },
     {
       "type": "npc_shop",
       "cost": [
         "SKYBLOCK_COIN:5000000",
-        "MENDER_FEDORA"
+        "MENDER_FEDORA:1"
       ],
-      "result": "MENDER_CROWN"
+      "result": "MENDER_CROWN:1"
     },
     {
       "type": "npc_shop",
       "cost": [
         "SKYBLOCK_COIN:3000"
       ],
-      "result": "SUPERBOOM_TNT"
+      "result": "SUPERBOOM_TNT:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:80000"
+      ],
+      "result": "STONE_CHESTPLATE:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:800000",
+        "STONE_CHESTPLATE:1"
+      ],
+      "result": "METAL_CHESTPLATE:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:5000000",
+        "METAL_CHESTPLATE:1"
+      ],
+      "result": "STEEL_CHESTPLATE:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "ESSENCE_WITHER:500"
+      ],
+      "result": "DUNGEONBREAKER:1"
     },
     {
       "type": "npc_shop",
@@ -235,10 +224,51 @@
     {
       "type": "npc_shop",
       "cost": [
-        "SKYBLOCK_COIN:5000000",
-        "METAL_CHESTPLATE"
+        "ESSENCE_GOLD:1"
       ],
-      "result": "STEEL_CHESTPLATE"
+      "result": "GOLD_BONZO_HEAD:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "ESSENCE_GOLD:1"
+      ],
+      "result": "GOLD_SCARF_HEAD:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "ESSENCE_GOLD:1"
+      ],
+      "result": "GOLD_PROFESSOR_HEAD:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "ESSENCE_GOLD:1"
+      ],
+      "result": "GOLD_THORN_HEAD:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "ESSENCE_GOLD:1"
+      ],
+      "result": "GOLD_LIVID_HEAD:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "ESSENCE_GOLD:1"
+      ],
+      "result": "GOLD_SADAN_HEAD:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "ESSENCE_GOLD:1"
+      ],
+      "result": "GOLD_NECRON_HEAD:1"
     }
   ]
 }
