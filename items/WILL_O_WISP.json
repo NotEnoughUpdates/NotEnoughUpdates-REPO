@@ -1,0 +1,49 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§6Will-o'-wisp",
+  "nbttag": "{ExtraAttributes:{id:\"WILL_O_WISP\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"8e574760-5d9b-3f35-af14-639109c185be\",Properties:{textures:[0:{Name:\"textures\",Signature:\"NpMQ5mhy4v/XkgqcjU/8AiHB8X6H12b+O20CtC13Ailj98im5gJ5Bq4rQzt0L1riQO9l7ZUJcVx32fk/f//lxLIQf/uZx9HhfatG4t0wDGUyAQ5Op4u3YKcxJQoTg1gnFRhxhE+yOCagAzmOKkca22vP83RqDOViQQTq4/2MDLTPy2HNVpVC2V+/aMVsCKMXi3idiZcUC47OhQqq6622CkvO80J0AFGTYn9wFCLT1S2kxgCa/vfAI2Ecv9WgxjG0FsNa0yzG1WxWmThx/UJMKBVL78rEFlGBMH962LInk62IYB2d6R8Rt7pAGFYqlgoSQu6keTnUlhaYO7YuiyvLji9SYKHLClH5V3wx/oszsrckJ9po7sY4zISw9+NhgmKHL+JuprD8+X8hPWDKk/AGMOWblsc9AgZBkQxvAlz5Ew8p8lWb45T5P+exbULiCeGqsnJnfhrxZNxLcxZyKKL8Zw1iMj9btd5tO3ejb/yzrvgQfgVe9kaHalvwm1Qm+CJ3rtLKT8DKPidU7BIYrpZwbGcdbjo9/svF1FgnlMruRXlhMY8b2yoCcBR55vY408+8XSjtHU0QVfDcUUreQYLdzVhg/vWpivjW1V4jAIYaO3pP8FcYzAUC38Uu3VPScNaLPSZVNWyHJdHx6tCtJBWtamO6uWC4cCWPD1n7Q7ZMzGU=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc3MDgxOTAxMDg0OCwKICAicHJvZmlsZUlkIiA6ICIyNDY1ODI2NWVjMjg0NTY4YTg3MDJkOTVlYzdlYTc4MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcmdvc1oxMiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82ZWMxYTY5NTdmMDJhNDI1OGU2NGRjN2M1MjA0NjNkOTI2NDc4ODg0OTk4NDVkNzg0ZWYwZTdhYmU4ZjM4NDAyIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Mining Deployable\",1:\"\",2:\"§6Ability: Deploy  §e§lRIGHT CLICK\",3:\"§7Place an orb for §a5m §7buffing up to §b10\",4:\"§7players within §a30 §7blocks.\",5:\"§7Affects all players inside a §bGlacite\",6:\"§bMineshaft§7, regardless of distance.\",7:\"§8Costs 50% of max mana.\",8:\"\",9:\"§6Orb Buff: Will-o'-wisp\",10:\"§6• §7Grants §6+100⸕ Mining Speed§7.\",11:\"§6• §7Grants §6+25☘ Mining Fortune§7.\",12:\"§6• §7Grants §c+20♨ Heat Resistance§7.\",13:\"§6• §7Grants §b+10❄ Cold Resistance§7.\",14:\"§6• §7Grants §e+2.5▚ Gemstone Spread§7.\",15:\"\",16:\"§8Only one deployable buff applies.\",17:\"\",18:\"§4❣ §cRequires §5Heart of the Mountain Tier 10§c.\",19:\"§6§lLEGENDARY DEPLOYABLE\"],Name:\"§6Will-o'-wisp\"}}",
+  "damage": 3,
+  "lore": [
+    "§8Mining Deployable",
+    "",
+    "§6Ability: Deploy  §e§lRIGHT CLICK",
+    "§7Place an orb for §a5m §7buffing up to §b10",
+    "§7players within §a30 §7blocks.",
+    "§7Affects all players inside a §bGlacite",
+    "§bMineshaft§7, regardless of distance.",
+    "§8Costs 50% of max mana.",
+    "",
+    "§6Orb Buff: Will-o'-wisp",
+    "§6• §7Grants §6+100⸕ Mining Speed§7.",
+    "§6• §7Grants §6+25☘ Mining Fortune§7.",
+    "§6• §7Grants §c+20♨ Heat Resistance§7.",
+    "§6• §7Grants §b+10❄ Cold Resistance§7.",
+    "§6• §7Grants §e+2.5▚ Gemstone Spread§7.",
+    "",
+    "§8Only one deployable buff applies.",
+    "",
+    "§4❣ §cRequires §5Heart of the Mountain Tier 10§c.",
+    "§6§lLEGENDARY DEPLOYABLE"
+  ],
+  "internalname": "WILL_O_WISP",
+  "clickcommand": "",
+  "crafttext": "Requires: HotM 10",
+  "modver": "Firmament 43.0.0+mc1.21.10",
+  "infoType": "",
+  "info": [],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "GLACITE_LANTERN:1",
+        "CAGED_WISP:1",
+        "PERFECT_PLATE:1",
+        "EVERBURNING_FLAME:1",
+        "ENCHANTED_EMERALD_BLOCK:8"
+      ],
+      "count": 1,
+      "overrideOutputId": "WILL_O_WISP",
+      "duration": 43200
+    }
+  ]
+}

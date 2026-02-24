@@ -1,20 +1,24 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Lumina (NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"22af9295-691f-20d7-8aaa-8e3164d54707\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NkYTMwOGNhZTE3NzBmNmI3MDliMWYwODAwNGNhMmU5YzIwYWY2ZmY4ZWM1MzgxZDExNGM0NDA2ZGY2YjgwYmMifX19\"}]},Name:\"22af9295-691f-20d7-8aaa-8e3164d54707\"},display:{Lore:[0:\"\"],Name:\"§9Lumina (NPC)\"},ExtraAttributes:{id:\"LUMINA_NPC\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"LUMINA_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"d0422035-33c2-2221-9e0b-5eb6670c3c3a\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2RhMzA4Y2FlMTc3MGY2YjcwOWIxZjA4MDA0Y2EyZTljMjBhZjZmZjhlYzUzODFkMTE0YzQ0MDZkZjZiODBiYyIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiJkMDQyMjAzNTMzYzIyMjIxOWUwYjVlYjY2NzBjM2MzYSIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxODU5MzEzMzk0fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"\"],Name:\"§9Lumina (NPC)\"}}",
   "damage": 3,
   "lore": [
     ""
   ],
   "internalname": "LUMINA_NPC",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "x": 78,
-  "y": 200,
-  "z": -110,
-  "island": "mining_3",
   "crafttext": "",
+  "modver": "Firmament 43.0.0+mc1.21.10",
   "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Lumina",
+    "https://wiki.hypixel.net/Lumina"
+  ],
+  "x": 77,
+  "y": 199,
+  "z": -111,
+  "island": "mining_3",
   "recipes": [
     {
       "type": "npc_shop",
@@ -28,18 +32,14 @@
       "cost": [
         "SKYBLOCK_COIN:10000"
       ],
-      "result": "LANTERN"
+      "result": "LANTERN:1"
     },
     {
       "type": "npc_shop",
       "cost": [
         "SKYBLOCK_COIN:100000"
       ],
-      "result": "INFINI_TORCH"
+      "result": "INFINI_TORCH:1"
     }
-  ],
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Lumina",
-    "https://wiki.hypixel.net/Lumina"
   ]
 }

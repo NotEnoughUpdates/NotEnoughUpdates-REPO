@@ -1,0 +1,46 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§5Glacite Lantern",
+  "nbttag": "{ExtraAttributes:{id:\"GLACITE_LANTERN\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"1177b8bb-683e-3d4a-9c31-e662af2b8994\",Properties:{textures:[0:{Name:\"textures\",Signature:\"jKP1i1hepZNCAYWs26SpF8PsH3IvGaK9By2yzb/UM60VouNTv/i3JOLtCK7Nq1r7+HZfCLmnsy9hPDa0NBWGJlPQwXKMiNmMv0ZvEDH10nG+Bz1Zs1Dov378Bj2oIgE+VtN8mJr3nhdA6tYpMdT6nQM4C6gr0/57LwwD5s2Q+9CZjxzv7m9lFhDt50pXTSzVuUM9kGRDo6JSdJSDGXpCxTcOewMSQiIlH8fZrm6DcgsT81zggleN6NuAnw6BYYt98/FwsBbyq+mysZlVBuZfaDwoIc1gq6/ZKOPZqU0vZGrpiZsoHE0/9T3SR71TyLOoe3ZEKUtYY8xcHb8AR+9EUY835ezdvRQOx702wx9m6zbOXXZHMDSARmFnGk8ty1akZsg5STHb2enN2TVpwp6Y0uxQrmZ08gnXenMc/PucLnSctBaBUxdc0XtQBgwnS23q4eg1IzlgC5XnD1YOcB74qLijiZLJTn01ybaknp+vOPbrKVdIPfaS4NhqjKuuDhUUz6Nwp3wZDpvOwo7Vw8EVtMv/BnwGH0/K30mxq1JkoqYT/XTxfeJMYPnx8jqCFUQMtcLrGWBgxewXhVLRUXTwqAnrPgwqxwYdCT3rg+npQq+obZ4/Sxdk+0TqWwKHSHYEtc3bufcwkbjvWY/aExfMoCfLvZTUjBGDTlkYS/b+XfA=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc3MDgxODc1NzkzNywKICAicHJvZmlsZUlkIiA6ICIzNDMzNmRmNjI4MmU0ZTJkYjI2YWQ2NjE5N2U5NjA5MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDcm9zc3lOaWMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTc1YzY2YzJhOGY5Mjc2MmRhNTM4YmYzNDlkMjA3ZjgxMzAyOGNjMWZhNTY1MjdlMjBhNDk0ZmM4NWIzMDczNCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Mining Deployable\",1:\"\",2:\"§6Ability: Deploy  §e§lRIGHT CLICK\",3:\"§7Place an orb for §a5m §7buffing up to §b5\",4:\"§7players within §a30 §7blocks.\",5:\"§7Affects all players inside a §bGlacite\",6:\"§bMineshaft§7, regardless of distance.\",7:\"§8Costs 50% of max mana.\",8:\"\",9:\"§5Orb Buff: Glacite Lantern\",10:\"§5• §7Grants §6+80⸕ Mining Speed§7.\",11:\"§5• §7Grants §6+20☘ Mining Fortune§7.\",12:\"§5• §7Grants §c+10♨ Heat Resistance§7.\",13:\"§5• §7Grants §b+5❄ Cold Resistance§7.\",14:\"\",15:\"§8Only one deployable buff applies.\",16:\"\",17:\"§4❣ §cRequires §5Heart of the Mountain Tier 8§c.\",18:\"§5§lEPIC DEPLOYABLE\"],Name:\"§5Glacite Lantern\"}}",
+  "damage": 3,
+  "lore": [
+    "§8Mining Deployable",
+    "",
+    "§6Ability: Deploy  §e§lRIGHT CLICK",
+    "§7Place an orb for §a5m §7buffing up to §b5",
+    "§7players within §a30 §7blocks.",
+    "§7Affects all players inside a §bGlacite",
+    "§bMineshaft§7, regardless of distance.",
+    "§8Costs 50% of max mana.",
+    "",
+    "§5Orb Buff: Glacite Lantern",
+    "§5• §7Grants §6+80⸕ Mining Speed§7.",
+    "§5• §7Grants §6+20☘ Mining Fortune§7.",
+    "§5• §7Grants §c+10♨ Heat Resistance§7.",
+    "§5• §7Grants §b+5❄ Cold Resistance§7.",
+    "",
+    "§8Only one deployable buff applies.",
+    "",
+    "§4❣ §cRequires §5Heart of the Mountain Tier 8§c.",
+    "§5§lEPIC DEPLOYABLE"
+  ],
+  "internalname": "GLACITE_LANTERN",
+  "clickcommand": "",
+  "crafttext": "Requires: HotM 8",
+  "modver": "Firmament 43.0.0+mc1.21.10",
+  "infoType": "",
+  "info": [],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "TITANIUM_LANTERN:1",
+        "GLACITE_AMALGAMATION:4",
+        "ENCHANTED_EMERALD_BLOCK:2"
+      ],
+      "count": 1,
+      "overrideOutputId": "GLACITE_LANTERN",
+      "duration": 43200
+    }
+  ]
+}
