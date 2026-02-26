@@ -1,12 +1,12 @@
 import json
 import requests
 import os
+from collections import defaultdict
 
 outputJson = {}
-weapons = set()
-armor = set()
-rarities = set()
-special = set()
+
+itemCategories = defaultdict(set)
+
 armorToID = {}
 children = {}
 maxValues = {}
@@ -25,7 +25,7 @@ def fetchJson(apiUrl):
 
 
 def processMuseumData(internalName, data):
-    itemType = data.get('type')
+    itemType = data.get('category').lower()
 
     if 'parent' in data:
         parentData = data['parent']
@@ -37,11 +37,11 @@ def processMuseumData(internalName, data):
         for mappedId in data['mapped_item_ids']:
             mappedIds[mappedId] = internalName
 
-    if itemType == 'ARMOR_SETS':
+    if 'armor_set_donation_xp' in data:
         donationXpInfo = data.get('armor_set_donation_xp', {})
         for armorSet in donationXpInfo:
             itemToXp[armorSet] = donationXpInfo[armorSet]
-            armor.add(armorSet)
+            itemCategories[itemType].add(armorSet)
             if armorSet in setOverride:
                 addPieceToSet(setOverride[armorSet], armorSet)
                 continue
@@ -49,11 +49,7 @@ def processMuseumData(internalName, data):
     else:
         donationXp = data.get('donation_xp', 0)
         itemToXp[internalName] = donationXp
-
-    if itemType == 'WEAPONS':
-        weapons.add(internalName)
-    elif itemType == 'RARITIES':
-        rarities.add(internalName)
+        itemCategories[itemType].add(internalName)
 
 
 def addPieceToSet(piece, setName):
@@ -64,6 +60,7 @@ def addPieceToSet(piece, setName):
             armorSets[setName].add(p)
     else:
         armorSets[setName].add(piece)
+
 
 priorityExceptions = {
     "PERFECT_TIER_12": "PERFECT_HELMET_12",
@@ -80,6 +77,8 @@ setPriorityList = [
     "HAT",
     "CAP",
     "LOCKET",
+    "AMULET",
+    "PENDANT",
     "CHESTPLATE",
     "CLOAK",
 ]
@@ -87,50 +86,51 @@ setPriorityList = [
 # Manually added overrides for armor sets as the Hypixel API does not provide the correct data
 setOverride = {
     "BLAZE": [
-      "BLAZE_BOOTS",
-      "BLAZE_CHESTPLATE",
-      "BLAZE_HELMET",
-      "BLAZE_LEGGINGS"
+        "BLAZE_BOOTS",
+        "BLAZE_CHESTPLATE",
+        "BLAZE_HELMET",
+        "BLAZE_LEGGINGS"
     ],
     "CRIMSON_HUNTER": [
-      "BLAZE_BELT",
-      "GHAST_CLOAK",
-      "GLOWSTONE_GAUNTLET",
-      "MAGMA_NECKLACE"
+        "BLAZE_BELT",
+        "GHAST_CLOAK",
+        "GLOWSTONE_GAUNTLET",
+        "MAGMA_NECKLACE"
     ],
     "END": [
-      "ENDER_BELT",
-      "ENDER_CLOAK",
-      "ENDER_GAUNTLET",
-      "ENDER_NECKLACE",
-      "END_BOOTS",
-      "END_CHESTPLATE",
-      "END_HELMET",
-      "END_LEGGINGS",
+        "ENDER_BELT",
+        "ENDER_CLOAK",
+        "ENDER_GAUNTLET",
+        "ENDER_NECKLACE",
+        "END_BOOTS",
+        "END_CHESTPLATE",
+        "END_HELMET",
+        "END_LEGGINGS",
     ],
     "MONSTER_RAIDER": [
-      "CREEPER_LEGGINGS",
-      "GUARDIAN_CHESTPLATE",
-      "SKELETON_HELMET",
-      "TARANTULA_BOOTS"
+        "CREEPER_LEGGINGS",
+        "GUARDIAN_CHESTPLATE",
+        "SKELETON_HELMET",
+        "TARANTULA_BOOTS"
     ],
     "SNOW_SUIT": [
-      "SNOW_SUIT_BOOTS",
-      "SNOW_SUIT_CHESTPLATE",
-      "SNOW_SUIT_HELMET",
-      "SNOW_SUIT_LEGGINGS",
-      "SNOW_BELT",
-      "SNOW_CLOAK",
-      "SNOW_GLOVES",
-      "SNOW_NECKLACE"
+        "SNOW_SUIT_BOOTS",
+        "SNOW_SUIT_CHESTPLATE",
+        "SNOW_SUIT_HELMET",
+        "SNOW_SUIT_LEGGINGS",
+        "SNOW_BELT",
+        "SNOW_CLOAK",
+        "SNOW_GLOVES",
+        "SNOW_NECKLACE"
     ],
     "SPONGE": [
-      "SPONGE_BOOTS",
-      "SPONGE_CHESTPLATE",
-      "SPONGE_HELMET",
-      "SPONGE_LEGGINGS"
+        "SPONGE_BOOTS",
+        "SPONGE_CHESTPLATE",
+        "SPONGE_HELMET",
+        "SPONGE_LEGGINGS"
     ],
 }
+
 
 def findAppropriateId(setName):
     if setName in priorityExceptions:
@@ -153,7 +153,7 @@ def findAppropriateId(setName):
     armorToID[setName] = highestPriorityPart
 
 
-setExceptions= {
+setExceptions = {
     "FLAMEBREAKER": "FLAME_BREAKER",
     "ENDER": "END",
     "SEYMOUR_SPECIAL": "SEYMOUR",
@@ -170,7 +170,6 @@ setExceptions= {
     "VANQUISHER": "VANQUISHED",
 }
 
-
 if __name__ == '__main__':
 
     url = "https://api.hypixel.net/v2/resources/skyblock/items"
@@ -185,23 +184,20 @@ if __name__ == '__main__':
             continue
 
         if 'museum' in item:
-            special.add(itemId)
+            itemCategories['special'].add(itemId)
 
     for armorSet in armorSets:
         findAppropriateId(armorSet)
 
-    maxValues['weapons'] = len(weapons)
-    maxValues['armor'] = len(armor)
-    maxValues['rarities'] = len(rarities)
+    for itemCategory in itemCategories:
+        maxValues[itemCategory] = len(itemCategories[itemCategory])
+
     maxValues['special'] = 48
-    maxValues['total'] = maxValues['weapons'] + maxValues['armor'] + maxValues['rarities']
+    maxValues['total'] = sum(maxValues[category] for category in itemCategories) - maxValues['special']
 
     outputJson = {
         "notice": "This file is automatically generated and should not be modified manually. Please edit the `updateMuseum.py` file instead.",
-        "weapons": sorted(list(weapons), key=lambda item: (itemToXp.get(item, 0), item)),
-        "armor": sorted(list(armor), key=lambda item: (itemToXp.get(item, 0), item)),
-        "rarities": sorted(list(rarities), key=lambda item: (itemToXp.get(item, 0), item)),
-        "special": sorted(list(special)),
+        "items": {k: sorted(list(v), key=lambda item: (itemToXp.get(item, 0), item)) for k, v in itemCategories.items()},
         "armor_to_id": dict(sorted(armorToID.items())),
         "children": dict(sorted(children.items())),
         "max_values": maxValues,

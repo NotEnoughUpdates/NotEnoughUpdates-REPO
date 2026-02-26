@@ -1,24 +1,121 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§6Shiny Orb",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"40685a40-ced3-3026-a6cd-b594e27c2e91\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODJjZGUwNjhlOTlhNGY5OGMzMWY4N2I0Y2MwNmJlMTRiMjI5YWNhNGY3MjgxYTQxNmM3ZTJmNTUzMjIzZGI3NCJ9fX0=\"}]}},display:{Lore:[0:\"§7Right-click shiny pigs with this\",1:\"§7item.\",2:\"\",3:\"§7Bring the pig back to the orb to\",4:\"§7gain loot.\",5:\"\",6:\"§6§lLEGENDARY\"],Name:\"§6Shiny Orb\"},ExtraAttributes:{id:\"SHINY_ORB\"}}",
+  "displayname": "§fShiny Orb",
+  "nbttag": "{ExtraAttributes:{id:\"SHINY_ORB\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"e5b3888e-2fa1-3932-ae05-b53963e2e45e\",Properties:{textures:[0:{Name:\"textures\",Signature:\"lR1ZcCM1bjq7pCBeQ3F6K1nw54ojIiJ/dNvFj9wBOMgOCx1PjSFNxULcKxRvejU96TAn1egNcR7PfmdKW3tiKAGhuIUWTQ6c3bycGgt9onuxK92e7wdzE3sWD9xIulPX5qp2HyGesMs69UHDfEwg2N9RePBaQKS6Q9tQXbWwamv+r0v8Lww0Y1+ANUL/T0dsC9NxQmoBMQcS/KOio4KlIrJsOHoe7i7hf3xPioRT92uZJVgpr4HfHodpzuA8PKmF4P6Us8fYmn5A+i7pMLaYJZwgX9dzznI17MIKPWFKYW40qZDw8VSeGXu21i3XJNPaaPRmIWyRK3WSc8Xzblos/wTUvvqJ7afz0nCbYwEkNp87Nrdo3yQHZGdSJD+7NvmFvcs4ZEqZLvKa4McU6iraNWRCKs9Fzvf/cLaYFHifE+SHWpFrbcu44OvSlJ7kkYSTZyvrnn3ZOdfBE5Y6R1Rm75dVgygZMwZy+npsPJdaRXf21urs5ppZYpXRTTYs44d9HFIGmOTk5tswP+sC/IBGDDoMyg+XnOu1X8qijFq2GwJpusgbouy93oKaW5T6nBqQhsJnXKcQ8bF6H7v7eDP5cMZs0i+taBVYsrX25Dt6KgBScGePbxutyJH6XqkUbWe6qlB3rnwR78NyLxaHykFIBrDg1QGjwAMfNsGP2kgqUYs=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxODYwNjA5MDE0OSwKICAicHJvZmlsZUlkIiA6ICJhYTZhNDA5NjU4YTk0MDIwYmU3OGQwN2JkMzVlNTg5MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJiejE0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgyY2RlMDY4ZTk5YTRmOThjMzFmODdiNGNjMDZiZTE0YjIyOWFjYTRmNzI4MWE0MTZjN2UyZjU1MzIyM2RiNzQiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Right-click shiny pigs with this item.\",1:\"\",2:\"§7Bring the pig back to the orb to gain\",3:\"§7loot.\",4:\"\",5:\"§f§lCOMMON\"],Name:\"§fShiny Orb\"}}",
   "damage": 3,
   "lore": [
-    "§7Right-click shiny pigs with this",
-    "§7item.",
+    "§7Right-click shiny pigs with this item.",
     "",
-    "§7Bring the pig back to the orb to",
-    "§7gain loot.",
+    "§7Bring the pig back to the orb to gain",
+    "§7loot.",
     "",
-    "§6§lLEGENDARY"
+    "§f§lCOMMON"
   ],
   "internalname": "SHINY_ORB",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "2.1.0-REL",
+  "crafttext": "",
+  "modver": "Firmament 43.0.0+mc1.21.10",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Shiny_Orb",
     "https://wiki.hypixel.net/Shiny_Orb"
+  ],
+  "recipes": [
+    {
+      "name": "§6Shiny Pig",
+      "render": "Pig",
+      "panorama": "farming_1",
+      "extra": [
+        "§7Shiny Pigs show up during",
+        "§7the Year of the Pig event."
+      ],
+      "type": "drops",
+      "drops": [
+        {
+          "id": "SKYBLOCK_RANDOM_SKILL_XP:1000",
+          "chance": "19.31%"
+        },
+        {
+          "id": "SKYBLOCK_RANDOM_SKILL_XP:5000",
+          "chance": "3.86%"
+        },
+        {
+          "id": "SKYBLOCK_RANDOM_SKILL_XP:10000",
+          "chance": "1.93%"
+        },
+        {
+          "id": "SKYBLOCK_COINS:10000",
+          "chance": "19.31%"
+        },
+        {
+          "id": "SKYBLOCK_COINS:25000",
+          "chance": "9.66%"
+        },
+        {
+          "id": "SKYBLOCK_COINS:50000",
+          "chance": "4.83%"
+        },
+        {
+          "id": "SKYBLOCK_COINS:100000",
+          "chance": "2.41%"
+        },
+        {
+          "id": "SKYBLOCK_COINS:250000",
+          "chance": "0.97%"
+        },
+        {
+          "id": "SKYBLOCK_COINS:500000",
+          "chance": "0.48%"
+        },
+        {
+          "id": "SKYBLOCK_COINS:1000000",
+          "chance": "0.24%"
+        },
+        {
+          "id": "ENCHANTED_POTATO:16",
+          "chance": "9.66%"
+        },
+        {
+          "id": "ENCHANTED_POTATO:32",
+          "chance": "4.83%"
+        },
+        {
+          "id": "ENCHANTED_PORK:8",
+          "chance": "9.66%"
+        },
+        {
+          "id": "ENCHANTED_PORK:16",
+          "chance": "4.83%"
+        },
+        {
+          "id": "FARMING_FOR_DUMMIES",
+          "chance": "4.83%"
+        },
+        {
+          "id": "POTATO_SPREADING",
+          "chance": "1.45%"
+        },
+        {
+          "id": "HARVESTING;6",
+          "chance": ".97%"
+        },
+        {
+          "id": "ENCHANTED_BAKED_POTATO",
+          "chance": "0.48%"
+        },
+        {
+          "id": "PET_ITEM_FLYING_PIG",
+          "chance": "0.14%"
+        },
+        {
+          "id": "BLOOD_GOD_CREST",
+          "chance": "0.1%"
+        },
+        {
+          "id": "POTATO_TALISMAN",
+          "chance": "0.05%"
+        }
+      ]
+    }
   ]
 }

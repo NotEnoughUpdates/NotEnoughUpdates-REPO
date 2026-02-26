@@ -1,7 +1,7 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "PARTY_HAT_SLOTH_REGULAR",
+			id: "PARTY_HAT_SLOTH",
 			party_hat_emoji: "regular",
 			party_hat_year: 2023
 		},
@@ -12,16 +12,27 @@
 				-1105085614,
 				-1292133009
 			],
-			name: "",
 			properties: [
 				{
 					name: "textures",
+					signature: "OfpTsCm5HIY6RpjG2ViV0X8F3HOpUJD0wuZra89qSRKZuYMHtzYVn8avee/KBazVJXc66xoZHsT9Xw00xfi+HvbLVerkBSPAA+gXa4mdp7v/+oIbN/C9KjWiiRBk1X2Tj8s84O2LWR6Of+2uu+L7ne2+uyIOjs2zyQCfB/PWN9iUb6GTSs7WKUa1TRHtmRsDTKfVVywIVot698aWcTG8HfFrldPsEigRX/YMTWMoyblm0xfBGSdBOWpeA2UhTDXMzxMiyumFcQjDP4pikzLnxWV9jPKcj2q9ISGSTYGt941SFmcvNTfPM/8kVMQmEnUqYMpH7m+VmDo3Q0gzJ08mCjzpln/sUDmE29icoU4a2hfALTDuvnMIfdtERAg6qTEa2J5465P6R+iwrkmrVSoJ8wpVxJA/3C2nt+fJeyMug5yUMAv0vS0gHodzS2FeO01wneTMTNDGHuKZdYMbuKNe/aBZVhv+6siEWDwW3wC7vlyp/kNoCUoAy/EaAnNM0XZ34nZq33N5AHBQgcaCTE2NGiSjfDWEt6uuXJHQh+ti+BAu6WEVf0RaBJRrkGI4X0+NOVybm6nybbpqh/C8pY3mFjW9W6TJ24JRuv8HgMhQIwaVZNn03ojKxpfftlY4keF73Bb8vrLq7zdX4cERn3srhGXHQQ2mKA9zzstpfXFk7o4=",
 					value: "ewogICJ0aW1lc3RhbXAiIDogMTY4NTk3NzczODc5NywKICAicHJvZmlsZUlkIiA6ICIzNTE2NjhhMTk5MmM0ZGZlOWRkNmY5NTUxNWFkNzVmNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJCbHVlX1BrIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzcwYmZhZjVhYjNmODE3ZmJlZDcyNjNmYzFjMTUwYjU3MWYwMWIyZjdlZjE3YmM1Nzk2MTBhNDk1YmM0Y2ZlZTkiCiAgICB9CiAgfQp9"
 				}
 			]
 		},
 		"minecraft:tooltip_display": {
 			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
 				"minecraft:dyed_color"
 			]
 		}
