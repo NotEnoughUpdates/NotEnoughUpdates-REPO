@@ -1,0 +1,201 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§cUmber Corpse",
+  "nbttag": "{ExtraAttributes:{id:\"SKYBLOCK_CORPSE_UMBER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"bfb54c8e-93b8-3196-841c-5c8892d59f10\",Properties:{textures:[0:{Name:\"textures\",Signature:\"qjMeS1rEsYK7bO/jzJ4OWQSmL2h1vOKqxVCX5daK1jUSgYgxT1DUVVMB9Dj5imSPCXfRagDamOaSRazyLU1BUnPsQO7xG/W7vicWOHraRKvY4dyTcHD96O3kuqJSdd5MaXTpOFb0FEPliQBX4hWdjYsmHez1Yzhm3AlbbkeAZuCFi7zW8ZAOevLByaBjCn9VJcMIkNabe730ZlCCqJ/9GXFteARoqvhGQfLUeqPyQ/9CJiDvwwqRVg7uCYZmmTgPjLixC+B1d8ILKKdRqY2q3OFaxGYgRaQm9/t/hSSFHBxuMfFsHgA+JOWIQh3SN7cE2kHNuLZpmUqQllquZjI/1H5vNx0A6EAKZDkZS4yOirvleJoOA6/VtLEx+I/iB6XozXotlF6u4+DOAt3s5Cuc6T//qb/HScnmHgLaqXqnua1boJ1GPlXjpWlyDOD97UD1C7YG+7wUldcEACfHp6R47JXl2T2LyWKcfqOesO623LipYIFcbRA33Z+lRjnM+hwyyQqayCkgVgBrwu2Hfyfweij4aTEx+Kn7t3oMcvOg8+L3Bc9CrIUtNRVBzqej2k4Dt12b1ev0QVw8spa+zv0VY7gQIF69BiP0937/R1NKQGCHUbdxsZKdZaEyguO4T0D8bzkZT8g6QY3eMAxIEIZHwFKz6+zD7IW8R+WIEZQCjPc=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwODkxOTkzMjc2MSwKICAicHJvZmlsZUlkIiA6ICJiMmM5ZTUyZjNhODU0YzQ4YmJjMmMwM2JjM2U0NzdiMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJJU05FRVpFREFUWU9VIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I1NjViNWFhODNkNGFhN2Y3YWYyMmRjMTI3MWIyZjBiMjc0NDFmOWFjMTQ5NWY2YjQ2NTNjZjY4ZGZiMTA1ZWYiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Corpses can be found and looted\",1:\"§7deep within the §3Glacite Mineshafts§7.\",2:\"\",3:\"§c§l§ka§r §c§lSPECIAL §c§l§ka\"],Name:\"§cLapis Corpse\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Corpses can be found and looted",
+    "§7deep within the §3Glacite Mineshafts§7.",
+    "",
+    "§c§l§ka§r §c§lSPECIAL §c§l§ka"
+  ],
+  "internalname": "SKYBLOCK_CORPSE_UMBER",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 43.0.0+mc1.21.10",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Frozen_Corpses",
+    "https://wiki.hypixel.net/Glacite_Tunnels#Frozen_Corpses"
+  ],
+  "recipes": [
+    {
+      "name": "§aUmber Corpse",
+      "render": "@neurepo:mobs/corpse_umber.json",
+      "panorama": "mineshaft",
+      "extra": [
+        "§7Corpses can be found and looted",
+        "§7deep within the §3Glacite Mineshafts§7.",
+        "",
+        "§7Loot table will roll §64 §7to §67 §times."
+      ],
+      "type": "drops",
+      "drops": [
+        {
+          "id": "FINE_ONYX_GEM:4",
+          "chance": "10.7%",
+          "alternatives": [
+            {
+              "id": "FINE_ONYX_GEM:8",
+              "chance": "5.35%"
+            },
+            {
+              "id": "FINE_ONYX_GEM:16",
+              "chance": "2.67%"
+            },
+            {
+              "id": "FLAWLESS_ONYX_GEM",
+              "chance": "0.38%"
+            }
+          ]
+        },
+        {
+          "id": "FINE_PERIDOT_GEM:4",
+          "chance": "10.7%",
+          "alternatives": [
+            {
+              "id": "FINE_PERIDOT_GEM:8",
+              "chance": "5.35%"
+            },
+            {
+              "id": "FINE_PERIDOT_GEM:16",
+              "chance": "2.67%"
+            },
+            {
+              "id": "FLAWLESS_PERIDOT_GEM",
+              "chance": "0.38%"
+            }
+          ]
+        },
+        {
+          "id": "FINE_CITRINE_GEM:4",
+          "chance": "10.7%",
+          "alternatives": [
+            {
+              "id": "FINE_CITRINE_GEM:8",
+              "chance": "5.35%"
+            },
+            {
+              "id": "FINE_CITRINE_GEM:16",
+              "chance": "2.67%"
+            },
+            {
+              "id": "FLAWLESS_CITRINE_GEM",
+              "chance": "0.38%"
+            }
+          ]
+        },
+        {
+          "id": "FINE_AQUAMARINE_GEM:4",
+          "chance": "10.7%",
+          "alternatives": [
+            {
+              "id": "FINE_AQUAMARINE_GEM:8",
+              "chance": "5.35%"
+            },
+            {
+              "id": "FINE_AQUAMARINE_GEM:16",
+              "chance": "2.67%"
+            },
+            {
+              "id": "FLAWLESS_AQUAMARINE_GEM",
+              "chance": "0.38%"
+            }
+          ]
+        },
+        {
+          "id": "SUSPICIOUS_SCRAP:2",
+          "chance": "10.70%",
+          "alternatives": [
+            {
+              "id": "SUSPICIOUS_SCRAP:4",
+              "chance": "5.35%"
+            }
+          ]
+        },
+        {
+          "id": "GOBLIN_EGG_BLUE",
+          "chance": "1.22%"
+        },
+        {
+          "id": "REFINED_UMBER",
+          "chance": "0.30%",
+          "alternatives": [
+            {
+              "id": "UMBER_PLATE",
+              "chance": "0.07%"
+            },
+            {
+              "id": "REFINED_TUNGSTEN",
+              "chance": "0.30%"
+            },
+            {
+              "id": "TUNGSTEN_PLATE",
+              "chance": "0.07%"
+            },
+            {
+              "id": "MITHRIL_PLATE",
+              "chance": "0.15%"
+            },
+            {
+              "id": "GLACITE_AMALGAMATION",
+              "chance": "0.30%"
+            }
+          ]
+        },
+        {
+          "id": "OPAL_CRYSTAL",
+          "chance": "0.61%",
+          "alternatives": [
+            {
+              "id": "ONYX_CRYSTAL",
+              "chance": "0.61%"
+            },
+            {
+              "id": "PERIDOT_CRYSTAL",
+              "chance": "0.61%"
+            },
+            {
+              "id": "AQUAMARINE_CRYSTAL",
+              "chance": "0.61%"
+            },
+            {
+              "id": "CITRINE_CRYSTAL",
+              "chance": "0.61%"
+            }
+          ]
+        },
+        {
+          "id": "UMBER_KEY",
+          "chance": "0.15%",
+          "alternatives": [
+            {
+              "id": "TUNGSTEN_KEY",
+              "chance": "0.15%"
+            },
+            {
+              "id": "SKELETON_KEY",
+              "chance": "0.06%"
+            }
+          ]
+        },
+        {
+          "id": "DWARVEN_OS_METALLIC_MINIS",
+          "chance": "0.30%"
+        },
+        {
+          "id": "ICE_COLD;1",
+          "chance": "1.22%"
+        },
+        {
+          "id": "FROZEN_SCUTE",
+          "chance": "0.06%"
+        },
+        {
+          "id": "CAGED_WISP",
+          "chance": "0.03%"
+        }
+      ]
+    }
+  ]
+}

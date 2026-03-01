@@ -1,0 +1,250 @@
+{
+  "itemid": "minecraft:sea_lantern",
+  "displayname": "§cLapis Corpse",
+  "nbttag": "{ExtraAttributes:{id:\"SKYBLOCK_CORPSE_LAPIS\"},HideFlags:254,ItemModel:\"minecraft:sea_lantern\",display:{Lore:[0:\"§7Corpses can be found and looted\",1:\"§7deep within the §3Glacite Mineshafts§7.\",2:\"\",3:\"§c§l§ka§r §c§lSPECIAL §c§l§ka\"],Name:\"§cLapis Corpse\"}}",
+  "lore": [
+    "§7Corpses can be found and looted",
+    "§7deep within the §3Glacite Mineshafts§7.",
+    "",
+    "§c§l§ka§r §c§lSPECIAL §c§l§ka"
+  ],
+  "internalname": "SKYBLOCK_CORPSE_LAPIS",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 43.0.0+mc1.21.10",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Frozen_Corpses",
+    "https://wiki.hypixel.net/Glacite_Tunnels#Frozen_Corpses"
+  ],
+  "recipes": [
+    {
+      "name": "§aLapis Corpse",
+      "render": "@neurepo:mobs/corpse_lapis.json",
+      "panorama": "mineshaft",
+      "extra": [
+        "§7Corpses can be found and looted",
+        "§7deep within the §3Glacite Mineshafts§7.",
+        "",
+        "§7Loot table will roll §63 §7to §66 §times."
+      ],
+      "type": "drops",
+      "drops": [
+        {
+          "id": "FLAWED_ONYX_GEM:20",
+          "chance": "5.97%",
+          "alternatives": [
+            {
+              "id": "FLAWED_ONYX_GEM:40",
+              "chance": "5.97%"
+            },
+            {
+              "id": "FINE_ONYX_GEM",
+              "chance": "1.49%"
+            },
+            {
+              "id": "FINE_ONYX_GEM:2",
+              "chance": "0.74%"
+            }
+          ]
+        },
+        {
+          "id": "FLAWED_PERIDOT_GEM:20",
+          "chance": "5.97%",
+          "alternatives": [
+            {
+              "id": "FLAWED_PERIDOT_GEM:40",
+              "chance": "5.97%"
+            },
+            {
+              "id": "FINE_PERIDOT_GEM",
+              "chance": "1.49%"
+            },
+            {
+              "id": "FINE_PERIDOT_GEM:2",
+              "chance": "0.74%"
+            }
+          ]
+        },
+        {
+          "id": "FLAWED_CITRINE_GEM:20",
+          "chance": "5.97%",
+          "alternatives": [
+            {
+              "id": "FLAWED_CITRINE_GEM:40",
+              "chance": "5.97%"
+            },
+            {
+              "id": "FINE_CITRINE_GEM",
+              "chance": "1.49%"
+            },
+            {
+              "id": "FINE_CITRINE_GEM:2",
+              "chance": "0.74%"
+            }
+          ]
+        },
+        {
+          "id": "FLAWED_AQUAMARINE_GEM:20",
+          "chance": "5.97%",
+          "alternatives": [
+            {
+              "id": "FLAWED_AQUAMARINE_GEM:40",
+              "chance": "5.97%"
+            },
+            {
+              "id": "FINE_AQUAMARINE_GEM",
+              "chance": "1.49%"
+            },
+            {
+              "id": "FINE_AQUAMARINE_GEM:2",
+              "chance": "0.74%"
+            }
+          ]
+        },
+        {
+          "id": "ENCHANTED_UMBER",
+          "chance": "2.98%",
+          "alternatives": [
+            {
+              "id": "ENCHANTED_UMBER:2",
+              "chance": "1.49%"
+            },
+            {
+              "id": "ENCHANTED_UMBER:4",
+              "chance": "0.74%"
+            },
+            {
+              "id": "REFINED_UMBER",
+              "chance": "0.14%"
+            }
+          ]
+        },
+        {
+          "id": "ENCHANTED_TUNGSTEN",
+          "chance": "2.98%",
+          "alternatives": [
+            {
+              "id": "ENCHANTED_TUNGSTEN:2",
+              "chance": "1.49%"
+            },
+            {
+              "id": "ENCHANTED_TUNGSTEN:4",
+              "chance": "0.74%"
+            },
+            {
+              "id": "REFINED_TUNGSTEN",
+              "chance": "0.14%"
+            }
+          ]
+        },
+        {
+          "id": "ENCHANTED_GLACITE",
+          "chance": "2.98%",
+          "alternatives": [
+            {
+              "id": "ENCHANTED_GLACITE:2",
+              "chance": "1.49%"
+            },
+            {
+              "id": "ENCHANTED_GLACITE:4",
+              "chance": "0.74%"
+            },
+            {
+              "id": "GLACITE_AMALGAMATION",
+              "chance": "0.14%"
+            }
+          ]
+        },
+        {
+          "id": "GLACITE_JEWEL",
+          "chance": "2.98%",
+          "alternatives": [
+            {
+              "id": "SUSPICIOUS_SCRAP",
+              "chance": "2.98%"
+            }
+          ]
+        },
+        {
+          "id": "GOBLIN_EGG",
+          "chance": "4.77%",
+          "alternatives": [
+            {
+              "id": "GOBLIN_EGG:2",
+              "chance": "2.38%"
+            },
+            {
+              "id": "GOBLIN_EGG:4",
+              "chance": "1.19%"
+            }
+          ]
+        },
+        {
+          "id": "GOBLIN_EGG_GREEN",
+          "chance": "4.17%",
+          "alternatives": [
+            {
+              "id": "GOBLIN_EGG_GREEN:2",
+              "chance": "2.08%"
+            },
+            {
+              "id": "GOBLIN_EGG_GREEN",
+              "chance": "1.04%"
+            }
+          ]
+        },
+        {
+          "id": "GOBLIN_EGG_YELLOW",
+          "chance": "4.17%",
+          "alternatives": [
+            {
+              "id": "GOBLIN_EGG_YELLOW:2",
+              "chance": "2.08%"
+            },
+            {
+              "id": "GOBLIN_EGG_YELLOW:4",
+              "chance": "1.04%"
+            }
+          ]
+        },
+        {
+          "id": "GOBLIN_EGG_RED",
+          "chance": "4.17%",
+          "alternatives": [
+            {
+              "id": "GOBLIN_EGG_RED:2",
+              "chance": "2.08%"
+            },
+            {
+              "id": "GOBLIN_EGG_RED:4",
+              "chance": "1.04%"
+            }
+          ]
+        },
+        {
+          "id": "UMBER_KEY",
+          "chance": "0.14%",
+          "alternatives": [
+            {
+              "id": "TUNGSTEN_KEY",
+              "chance": "0.14%"
+            },
+            {
+              "id": "BEJEWELED_HANDLE",
+              "chance": "0.59%"
+            },
+            {
+              "id": "BEJEWELED_HANDLE:2",
+              "chance": "0.29%"
+            },
+            {
+              "id": "BEJEWELED_HANDLE:4",
+              "chance": "0.14%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
