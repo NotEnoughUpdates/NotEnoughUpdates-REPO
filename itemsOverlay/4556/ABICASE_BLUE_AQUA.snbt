@@ -1,10 +1,9 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "ABICASE_BLUE_AQUA",
+			id: "ABICASE",
 			model: "BLUE_AQUA"
 		},
-		"minecraft:dyed_color": 10511680,
 		"minecraft:profile": {
 			id: [I;
 				629142090,
@@ -12,7 +11,6 @@
 				-1291467543,
 				-120374661
 			],
-			name: "",
 			properties: [
 				{
 					name: "textures",
@@ -23,6 +21,17 @@
 		},
 		"minecraft:tooltip_display": {
 			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
 				"minecraft:dyed_color"
 			]
 		}
@@ -30,7 +39,7 @@
 	count: 1,
 	id: "minecraft:player_head",
 	source: {
-		dataVersion: 4325,
-		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g64ef955"
+		dataVersion: 4556,
+		modVersion: "Firmament 43.0.0+mc1.21.10"
 	}
 }
