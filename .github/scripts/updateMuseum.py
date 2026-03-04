@@ -6,6 +6,7 @@ from collections import defaultdict
 outputJson = {}
 
 itemCategories = defaultdict(set)
+categoryOrder = ["combat", "farming", "mining", "fishing", "foraging", "dungeoneering", "hunting", "special"]
 
 armorToID = {}
 children = {}
@@ -195,6 +196,8 @@ if __name__ == '__main__':
 
     for armorSet in armorSets:
         findAppropriateId(armorSet)
+
+    itemCategories = dict(sorted(itemCategories.items(), key=lambda x: categoryOrder.index(x[0]) if x[0] in categoryOrder else 100))
 
     for itemCategory in itemCategories:
         maxValues[itemCategory] = len(itemCategories[itemCategory])
