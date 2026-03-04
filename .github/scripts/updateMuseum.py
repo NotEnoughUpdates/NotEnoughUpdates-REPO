@@ -11,6 +11,7 @@ armorToID = {}
 children = {}
 maxValues = {}
 itemToXp = {}
+itemToStage = {}
 armorSets = {}
 mappedIds = {}
 
@@ -37,10 +38,14 @@ def processMuseumData(internalName, data):
         for mappedId in data['mapped_item_ids']:
             mappedIds[mappedId] = internalName
 
+    stage = data.get('game_stage')
+
     if 'armor_set_donation_xp' in data:
         donationXpInfo = data.get('armor_set_donation_xp', {})
         for armorSet in donationXpInfo:
             itemToXp[armorSet] = donationXpInfo[armorSet]
+            if stage:
+                itemToStage[armorSet] = stage
             itemCategories[itemType].add(armorSet)
             if armorSet in setOverride:
                 addPieceToSet(setOverride[armorSet], armorSet)
@@ -49,6 +54,8 @@ def processMuseumData(internalName, data):
     else:
         donationXp = data.get('donation_xp', 0)
         itemToXp[internalName] = donationXp
+        if stage:
+            itemToStage[internalName] = stage
         itemCategories[itemType].add(internalName)
 
 
@@ -202,6 +209,7 @@ if __name__ == '__main__':
         "children": dict(sorted(children.items())),
         "max_values": maxValues,
         "itemToXp": dict(sorted(itemToXp.items())),
+        "itemToStage": dict(sorted(itemToStage.items())),
         "mapped_ids": dict(sorted(mappedIds.items())),
         "sets_to_items": {k: sorted(v) for k, v in sorted(armorSets.items())},
         "set_exceptions": setExceptions,
