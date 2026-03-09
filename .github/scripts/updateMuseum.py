@@ -6,11 +6,13 @@ from collections import defaultdict
 outputJson = {}
 
 itemCategories = defaultdict(set)
+categoryOrder = ["combat", "farming", "mining", "fishing", "foraging", "dungeoneering", "hunting", "special"]
 
 armorToID = {}
 children = {}
 maxValues = {}
 itemToXp = {}
+itemToStage = {}
 armorSets = {}
 mappedIds = {}
 
@@ -37,10 +39,14 @@ def processMuseumData(internalName, data):
         for mappedId in data['mapped_item_ids']:
             mappedIds[mappedId] = internalName
 
+    stage = data.get('game_stage')
+
     if 'armor_set_donation_xp' in data:
         donationXpInfo = data.get('armor_set_donation_xp', {})
         for armorSet in donationXpInfo:
             itemToXp[armorSet] = donationXpInfo[armorSet]
+            if stage:
+                itemToStage[armorSet] = stage
             itemCategories[itemType].add(armorSet)
             if armorSet in setOverride:
                 addPieceToSet(setOverride[armorSet], armorSet)
@@ -49,6 +55,8 @@ def processMuseumData(internalName, data):
     else:
         donationXp = data.get('donation_xp', 0)
         itemToXp[internalName] = donationXp
+        if stage:
+            itemToStage[internalName] = stage
         itemCategories[itemType].add(internalName)
 
 
@@ -189,6 +197,8 @@ if __name__ == '__main__':
     for armorSet in armorSets:
         findAppropriateId(armorSet)
 
+    itemCategories = dict(sorted(itemCategories.items(), key=lambda x: categoryOrder.index(x[0]) if x[0] in categoryOrder else 100))
+
     for itemCategory in itemCategories:
         maxValues[itemCategory] = len(itemCategories[itemCategory])
 
@@ -202,6 +212,7 @@ if __name__ == '__main__':
         "children": dict(sorted(children.items())),
         "max_values": maxValues,
         "itemToXp": dict(sorted(itemToXp.items())),
+        "itemToStage": dict(sorted(itemToStage.items())),
         "mapped_ids": dict(sorted(mappedIds.items())),
         "sets_to_items": {k: sorted(v) for k, v in sorted(armorSets.items())},
         "set_exceptions": setExceptions,
