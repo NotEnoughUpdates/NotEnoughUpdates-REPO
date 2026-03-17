@@ -1,0 +1,57 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§cKing Minos (Mythological Creature)",
+  "nbttag": "{ExtraAttributes:{id:\"MINOTAUR_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"375e72e7-04e5-32b8-bfcf-f087963047cd\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc1NTY0NDI1NDYxOSwKICAicHJvZmlsZUlkIiA6ICI0MDU4NDhjMmJjNTE0ZDhkOThkOTJkMGIwYzhiZDQ0YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJMaWFtX1NhZ2UiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg0Y2Q4NWEwNDlmYTliMzI1NmJhYTM0ODk0ZWMwN2Q4NThjNGYzMjRjMzBlYmQ4MDQzNWYyYzRjYTk4NjlkNSIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §2✿ Mythological§7, §e✰ Humanoid\",1:\"§c❤ Health§8:\",2:\"§8[§dGriffin§8] §c100,000,000 ❤\",3:\"\",4:\"§d§lMYTHIC\"],Name:\"§cKing Minos (Mythological Creature)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Types: §2✿ Mythological§7, §e✰ Humanoid",
+    "§c❤ Health§8:",
+    "§8[§dGriffin§8] §c100,000,000 ❤",
+    "",
+    "§d§lMYTHIC"
+  ],
+  "internalname": "KING_MINOS_MONSTER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/King_Minos",
+    "https://wiki.hypixel.net/King_Minos"
+  ],
+  "recipes": [
+    {
+      "level": 1750,
+      "coins": 5000,
+      "xp": 5,
+      "combat_xp": 1000,
+      "name": "§cKing Minos",
+      "render": "@neurepo:mobs/king_minos.json",
+      "panorama": "hub",
+      "extra": [],
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ANCIENT_CLAW:48",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_GOLD:48",
+          "chance": "50%"
+        },
+        {
+          "id": "ENCHANTED_ANCIENT_CLAW:4",
+          "chance": "50%"
+        },
+        {
+          "id": "SHIMMERING_WOOL",
+          "chance": "0.2%"
+        },
+        {
+          "id": "CROWN_OF_GREED",
+          "chance": "2%"
+        }
+      ]
+    }
+  ]
+}
