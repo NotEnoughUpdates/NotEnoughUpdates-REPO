@@ -1,0 +1,47 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "PARTY_HAT_CRAB",
+			originTag: "REWARD_PARTY_TIME_HAT_NPC",
+			party_hat_color: "red",
+			party_hat_year: 2020
+		},
+		"minecraft:profile": {
+			id: [I;
+				2090961193,
+				98189202,
+				-1121864831,
+				1978660450
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "MLsJPUjxZXGsG+Jqx1bL//uLuDsFbS/33cvKEFEIg9vbqVDWY0T1t3K+vMugAQnfh3K4WKPPUjhbEupQRU+YTxCaaa47TVOl4p2lx1JEwhSjpA/JVDHbmIZPZjaigUnrhLPOxFWyMN5VE5EJiss0d4002mvmYiMa1/vr/DnyrY5LFBoSDIIy1+pedKLq6GCwfZjPJwEUo7iFol9hcBq5c1gyAnJLKDJxh0F31qWyN7yT6/t8Ogjao8avY24EHCjfwLwR6UT3Eod6Yfnd7ig5Gx/LwawHgtYrpzGUU6h8KPoknOjt+/6oLChI7hOqnwfZhOsmTnmf4Mq6dmymzeZ7+Uv3ZLIRA9VCskvaCFFhN74OyFEqUMQp8IR3WRt8dAJOyY2s+67qNG8pP05ERSy0qJQJzZRUyzaR0tdbnaYNcspBq1UGg7j5Yikuq8vyd0FIVuNIS4LXwrflxHXieYH6LLLT3XRaMZ9NROGilmcImb3utwQgu9ON/RHXHyF+PBMDqIUWj7/9k7XYhoMDpD+H+2VA76b2rthd7xxxeCj8KE2CbDHQekruDQ8pEh0JDbfC3G9jx5yb1/NK5JEmyX7Mj4qOMdCeN/7YAG/RfC1jcxdk/tt3heDQm1Bprh+JZKWGzGgLv6tMZgNORt23W5GvY6R/pQORJ/Za7zQq4tuFlgs=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTY4NzExNjA5Mzc4MCwKICAicHJvZmlsZUlkIiA6ICI3Mjc2ZThmYzVkNjE0ODNjYmMwN2IxYjIzNjI3MDA4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJXYWJvV2ViaSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81NmI2MWY4MjZkZDZiZmMxZTMxOTFhODM2OWFlYjA0MzVjNWE1MzM1NTYzNDMxYTUzODU4NWFkMDM5ZGExZTBjIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4671,
+		modVersion: "Firmament 44.0.1+mc1.21.11"
+	}
+}
