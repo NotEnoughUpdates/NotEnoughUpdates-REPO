@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§f§f§aHappy Mask",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"ebe7fc8c-125a-3c6e-8280-658c581626d6\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQwYjE2YzEyM2UyMWE3ZDE5ZTZjYTI5NDBlNWY1YzNkYjlmNjM4ZDYzMTc4NWZlOWRmNTU0ZWQ2NzQ0MWM0ZiJ9fX0K\"}]}},display:{Lore:[0:\"§7Wear this mask to show your\",1:\"§7support for Dante.\",2:\"\",3:\"§7§8This item can be reforged!\",4:\"§a§lUNCOMMON HELMET\"],Name:\"§f§f§aHappy Mask\"},ExtraAttributes:{originTag:\"SHOP_PURCHASE\",id:\"HAPPY_MASK\"},AttributeModifiers:[]}",
+  "displayname": "§aHappy Mask",
+  "nbttag": "{ExtraAttributes:{id:\"HAPPY_MASK\",originTag:\"SHOP_PURCHASE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"77b4a25a-6f49-3929-ac63-c70b8f180b79\",Properties:{textures:[0:{Name:\"textures\",Signature:\"iUh71BkpeB+hngPC9KiQHYvqPZvWQ5+RW7x3bSaeO/UvQ4K5avstPDjOh0hJyM/1E8/qlSkx1a1AYRqC0zl2VN/MN4zGZl0d7q/q9AA0Hn5nbfaq7QphT3OBSTpgbnITA6ikkpKwDZwA9HTsLRg/+fumXjw7k5Tz/GToWu9zxO1PqNsi4b1t4KrcfsJA2Xtm+PpbhascQ9w4iOmKXHQBudPqSqvB2wiMXpNwo0uCp6do/g8xgNYfqzxyWjj5EFDMmvkaXPbkW93R9Z+NyNTdNX8uWVXJyV4mhFKHoKpuHJzMsAk2e2r89/arDMmIHsvUYWWMac4Vr26YosfHLkqnPlP/24zsjGubDDUHDxYwMvDT4TIQFBIcdjxLiJRC2K8qr/XB498RTHm/t7QkH2NI2e/rRx5MSczmx1Wk/TQqmdS7+1EFMCl6hmxoK+wxaJ+OsXkINo7pZrKpOzkrT1xGv68YIkupiZkOrK0LFArK+YQyxrxzPd05twRLik0/oGb+NhAJZXO7MRE5glJrS9mtbUwiwHrUMSSNhja1Cobg51qor51lme6x8lYayF92cHEy8Wfgqy7jtG7gR9/4xZoYP6njH9H5ReZbUPdH/U6Df7fAAablm2HUne3xHZLFnd95pV89E9Xf1r1w8gfxz2B++1I3fsTxz/AEM1fxIlo4HKI=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY4NzkwMTkzNzYwNSwKICAicHJvZmlsZUlkIiA6ICI4YTg3NGJhNmFiZDM0ZTc5OTljOWM1ODMwYWYyY2NmNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJFeGVjdXRvcnMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQwYjE2YzEyM2UyMWE3ZDE5ZTZjYTI5NDBlNWY1YzNkYjlmNjM4ZDYzMTc4NWZlOWRmNTU0ZWQ2NzQ0MWM0ZiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Wear this mask to show your support\",1:\"§7for Dante.\",2:\"\",3:\"§8This item can be reforged!\",4:\"§a§lUNCOMMON HELMET\"],Name:\"§aHappy Mask\"}}",
   "damage": 3,
   "lore": [
-    "§7Wear this mask to show your",
-    "§7support for Dante.",
+    "§7Wear this mask to show your support",
+    "§7for Dante.",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§a§lUNCOMMON HELMET"
   ],
   "internalname": "HAPPY_MASK",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "2.1.0-REL",
+  "crafttext": "",
+  "modver": "Firmament 44.0.1+mc1.21.11",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Happy_Mask",
@@ -21,9 +21,9 @@
   ],
   "recipes": [
     {
-    "type": "trade",
-    "cost": "ENCHANTED_EMERALD:4",
-    "result": "HAPPY_MASK"
+      "type": "trade",
+      "cost": "ENCHANTED_EMERALD:4",
+      "result": "HAPPY_MASK"
     }
   ]
 }
