@@ -469,10 +469,7 @@
         "statNums": {
           "INTELLIGENCE": 0.5,
           "SPEED": 0.1,
-          "MINING_WISDOM": 0.2,
           "STRENGTH": 5.25,
-          "FARMING_WISDOM": 0.2,
-          "FORAGING_WISDOM": 0.2,
           "FARMING_FORTUNE": 0.2,
           "FORAGING_FORTUNE": 0.2,
           "MINING_FORTUNE": 0.2
@@ -489,9 +486,6 @@
           "INTELLIGENCE": 50.0,
           "SPEED": 10.0,
           "STRENGTH": 30.0,
-          "MINING_WISDOM": 20,
-          "FARMING_WISDOM": 20,
-          "FORAGING_WISDOM": 20,
           "FARMING_FORTUNE": 20,
           "FORAGING_FORTUNE": 20,
           "MINING_FORTUNE": 20
@@ -510,9 +504,6 @@
           "INTELLIGENCE": 0.5,
           "SPEED": 0.1,
           "STRENGTH": 5.25,
-          "MINING_WISDOM": 0.3,
-          "FARMING_WISDOM": 0.3,
-          "FORAGING_WISDOM": 0.3,
           "FARMING_FORTUNE": 0.3,
           "FORAGING_FORTUNE": 0.3,
           "MINING_FORTUNE": 0.3
@@ -529,9 +520,6 @@
           "STRENGTH": 30.0,
           "INTELLIGENCE": 50.0,
           "SPEED": 10.0,
-          "MINING_WISDOM": 30,
-          "FARMING_WISDOM": 30,
-          "FORAGING_WISDOM": 30,
           "FARMING_FORTUNE": 30,
           "FORAGING_FORTUNE": 30,
           "MINING_FORTUNE": 30
@@ -551,9 +539,6 @@
           "INTELLIGENCE": 0.5,
           "SPEED": 0.1,
           "STRENGTH": 5.25,
-          "MINING_WISDOM": 0.3,
-          "FARMING_WISDOM": 0.3,
-          "FORAGING_WISDOM": 0.3,
           "FARMING_FORTUNE": 0.3,
           "FORAGING_FORTUNE": 0.3,
           "MINING_FORTUNE": 0.3
@@ -571,9 +556,6 @@
           "STRENGTH": 30.0,
           "INTELLIGENCE": 50.0,
           "SPEED": 10.0,
-          "MINING_WISDOM": 30,
-          "FARMING_WISDOM": 30,
-          "FORAGING_WISDOM": 30,
           "FARMING_FORTUNE": 30,
           "FORAGING_FORTUNE": 30,
           "MINING_FORTUNE": 30
@@ -590,8 +572,7 @@
         ],
         "statNums": {
           "HEALTH": 1.0,
-          "STRENGTH": 0.25,
-          "SPEED": 0.75
+          "STRENGTH": 0.25
         }
       },
       "100": {
@@ -601,8 +582,7 @@
         ],
         "statNums": {
           "HEALTH": 100.0,
-          "STRENGTH": 25.0,
-          "SPEED": 75.0
+          "STRENGTH": 25.0
         }
       }
     },
@@ -615,8 +595,7 @@
         ],
         "statNums": {
           "HEALTH": 1.0,
-          "STRENGTH": 0.25,
-          "SPEED": 0.75
+          "STRENGTH": 0.25
         }
       },
       "100": {
@@ -627,8 +606,7 @@
         ],
         "statNums": {
           "HEALTH": 100.0,
-          "STRENGTH": 25.0,
-          "SPEED": 75
+          "STRENGTH": 25.0
         }
       }
     },
@@ -642,8 +620,7 @@
         ],
         "statNums": {
           "HEALTH": 1.0,
-          "STRENGTH": 0.25,
-          "SPEED": 0.75
+          "STRENGTH": 0.25
         }
       },
       "100": {
@@ -655,8 +632,7 @@
         ],
         "statNums": {
           "HEALTH": 100.0,
-          "STRENGTH": 35.0,
-          "SPEED": 75.0
+          "STRENGTH": 35.0
         }
       }
     },
@@ -671,8 +647,7 @@
         ],
         "statNums": {
           "HEALTH": 1.0,
-          "STRENGTH": 0.25,
-          "SPEED": 0.75
+          "STRENGTH": 0.25
         }
       },
       "100": {
@@ -685,8 +660,7 @@
         ],
         "statNums": {
           "HEALTH": 100.0,
-          "STRENGTH": 35.0,
-          "SPEED": 75.0
+          "STRENGTH": 35.0
         }
       }
     },
@@ -967,11 +941,9 @@
         "otherNums": [
           2.5,
           0.01,
-          20.0,
-          0.2
+          20.0
         ],
         "statNums": {
-          "DEFENSE": 25.0,
           "HEALTH": 2.0
         }
       },
@@ -979,11 +951,9 @@
         "otherNums": [
           250,
           1,
-          20,
           20
         ],
         "statNums": {
-          "DEFENSE": 25.0,
           "HEALTH": 200.0
         }
       }
@@ -1588,8 +1558,7 @@
       "1": {
         "otherNums": [
           0.2,
-          0.4,
-          5.0
+          0.4
         ],
         "statNums": {
           "CRIT_DAMAGE": 0.75
@@ -1598,8 +1567,7 @@
       "100": {
         "otherNums": [
           20,
-          40,
-          5
+          40
         ],
         "statNums": {
           "CRIT_DAMAGE": 75.0
@@ -1610,8 +1578,7 @@
       "1": {
         "otherNums": [
           0.3,
-          0.5,
-          5.0
+          0.5
         ],
         "statNums": {
           "CRIT_DAMAGE": 0.75
@@ -1620,8 +1587,7 @@
       "100": {
         "otherNums": [
           30,
-          50,
-          5
+          50
         ],
         "statNums": {
           "CRIT_DAMAGE": 75.0
@@ -1817,8 +1783,7 @@
         "otherNums": [
           2.0,
           0.5,
-          0.3,
-          0.1
+          0.3
         ],
         "statNums": {
           "CRIT_CHANCE": 0.1,
@@ -1830,8 +1795,7 @@
         "otherNums": [
           200,
           50,
-          30,
-          10
+          30
         ],
         "statNums": {
           "CRIT_CHANCE": 10.0,
@@ -2360,8 +2324,7 @@
       "1": {
         "otherNums": [
           0.2,
-          1,
-          0.01
+          1
         ],
         "statNums": {
           "MINING_SPEED": 1.25,
@@ -2371,8 +2334,7 @@
       "100": {
         "otherNums": [
           20,
-          100,
-          1
+          100
         ],
         "statNums": {
           "MINING_SPEED": 125,
@@ -2501,8 +2463,7 @@
     "UNCOMMON": {
       "1": {
         "otherNums": [
-          0.2,
-          0.25
+          0.2
         ],
         "statNums": {
           "DEFENSE": 0.5,
@@ -2511,8 +2472,7 @@
       },
       "100": {
         "otherNums": [
-          6,
-          25
+          6
         ],
         "statNums": {
           "DEFENSE": 50.0,
@@ -3074,19 +3034,13 @@
   "JERRY": {
     "COMMON": {
       "1": {
-        "otherNums": [
-          50.0,
-          100.0
-        ],
+        "otherNums": [],
         "statNums": {
           "INTELLIGENCE": -1.0
         }
       },
       "100": {
-        "otherNums": [
-          50,
-          100
-        ],
+        "otherNums": [],
         "statNums": {
           "INTELLIGENCE": -100.0
         }
@@ -3094,19 +3048,13 @@
     },
     "UNCOMMON": {
       "1": {
-        "otherNums": [
-          50.0,
-          100.0
-        ],
+        "otherNums": [],
         "statNums": {
           "INTELLIGENCE": -1.0
         }
       },
       "100": {
-        "otherNums": [
-          50,
-          100
-        ],
+        "otherNums": [],
         "statNums": {
           "INTELLIGENCE": -100.0
         }
@@ -3114,19 +3062,13 @@
     },
     "RARE": {
       "1": {
-        "otherNums": [
-          50.0,
-          100.0
-        ],
+        "otherNums": [],
         "statNums": {
           "INTELLIGENCE": -1.0
         }
       },
       "100": {
-        "otherNums": [
-          50,
-          100
-        ],
+        "otherNums": [],
         "statNums": {
           "INTELLIGENCE": -100.0
         }
@@ -3134,19 +3076,13 @@
     },
     "EPIC": {
       "1": {
-        "otherNums": [
-          50.0,
-          100.0
-        ],
+        "otherNums": [],
         "statNums": {
           "INTELLIGENCE": -1.0
         }
       },
       "100": {
-        "otherNums": [
-          50,
-          100
-        ],
+        "otherNums": [],
         "statNums": {
           "INTELLIGENCE": -100.0
         }
@@ -3155,8 +3091,6 @@
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          50.0,
-          100.0,
           0.0
         ],
         "statNums": {
@@ -3165,8 +3099,6 @@
       },
       "100": {
         "otherNums": [
-          50,
-          100,
           10
         ],
         "statNums": {
@@ -5971,8 +5903,7 @@
       "1": {
         "otherNums": [
           0.3,
-          0.6,
-          10.0
+          0.6
         ],
         "statNums": {
           "FEROCITY": 0.25,
@@ -5984,8 +5915,7 @@
       "100": {
         "otherNums": [
           30,
-          55,
-          10
+          55
         ],
         "statNums": {
           "FEROCITY": 25.0,
@@ -6027,8 +5957,7 @@
       "1": {
         "otherNums": [
           0.2,
-          0.3,
-          10.0
+          0.3
         ],
         "statNums": {
           "FEROCITY": 0.25,
@@ -6040,8 +5969,7 @@
       "100": {
         "otherNums": [
           20,
-          30,
-          10
+          30
         ],
         "statNums": {
           "FEROCITY": 25.0,
@@ -6433,8 +6361,7 @@
       "1": {
         "otherNums": [
           0.2,
-          0.1,
-          10.0
+          0.1
         ],
         "statNums": {
           "CRIT_DAMAGE": 0.1,
@@ -6446,7 +6373,6 @@
       "100": {
         "otherNums": [
           20,
-          10,
           10
         ],
         "statNums": {
@@ -6461,8 +6387,7 @@
       "1": {
         "otherNums": [
           0.3,
-          0.1,
-          10.0
+          0.1
         ],
         "statNums": {
           "CRIT_DAMAGE": 0.1,
@@ -6474,8 +6399,7 @@
       "100": {
         "otherNums": [
           30,
-          15,
-          10
+          15
         ],
         "statNums": {
           "CRIT_DAMAGE": 10.0,
@@ -6774,7 +6698,6 @@
         ],
         "statNums": {
           "TRUE_DEFENSE": 0.5,
-          "MINING_SPEED": 0.25,
           "MINING_FORTUNE": 0.25
         }
       },
@@ -6784,7 +6707,6 @@
         ],
         "statNums": {
           "TRUE_DEFENSE": 50.0,
-          "MINING_SPEED": 25.0,
           "MINING_FORTUNE": 25.0
         }
       }
@@ -6796,7 +6718,6 @@
         ],
         "statNums": {
           "TRUE_DEFENSE": 0.5,
-          "MINING_SPEED": 0.25,
           "MINING_FORTUNE": 0.25
         }
       },
@@ -6806,7 +6727,6 @@
         ],
         "statNums": {
           "TRUE_DEFENSE": 50.0,
-          "MINING_SPEED": 25.0,
           "MINING_FORTUNE": 25.0
         }
       }
@@ -6819,7 +6739,6 @@
         ],
         "statNums": {
           "TRUE_DEFENSE": 0.5,
-          "MINING_SPEED": 0.25,
           "MINING_FORTUNE": 0.25
         }
       },
@@ -6830,7 +6749,6 @@
         ],
         "statNums": {
           "TRUE_DEFENSE": 50.0,
-          "MINING_SPEED": 25.0,
           "MINING_FORTUNE": 25.0
         }
       }
@@ -6843,7 +6761,6 @@
         ],
         "statNums": {
           "TRUE_DEFENSE": 0.5,
-          "MINING_SPEED": 0.25,
           "MINING_FORTUNE": 0.25
         }
       },
@@ -6854,7 +6771,6 @@
         ],
         "statNums": {
           "TRUE_DEFENSE": 50.0,
-          "MINING_SPEED": 25.0,
           "MINING_FORTUNE": 25.0
         }
       }
@@ -6868,7 +6784,6 @@
         ],
         "statNums": {
           "TRUE_DEFENSE": 0.5,
-          "MINING_SPEED": 0.25,
           "MINING_FORTUNE": 0.25
         }
       },
@@ -6880,7 +6795,6 @@
         ],
         "statNums": {
           "TRUE_DEFENSE": 50.0,
-          "MINING_SPEED": 25.0,
           "MINING_FORTUNE": 25.0
         }
       }
@@ -6895,7 +6809,6 @@
         ],
         "statNums": {
           "TRUE_DEFENSE": 0.5,
-          "MINING_SPEED": 0.25,
           "MINING_FORTUNE": 0.25
         }
       },
@@ -6908,7 +6821,6 @@
         ],
         "statNums": {
           "TRUE_DEFENSE": 50.0,
-          "MINING_SPEED": 25.0,
           "MINING_FORTUNE": 25.0
         }
       }
