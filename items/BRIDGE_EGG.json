@@ -1,13 +1,22 @@
 {
   "itemid": "minecraft:egg",
   "displayname": "§fBridge Egg",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Creates a path of stone blocks\",1:\"§7as it travels through the air!\",2:\"\",3:\"§f§lCOMMON\"],Name:\"§fBridge Egg\"},ExtraAttributes:{id:\"BRIDGE_EGG\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"BRIDGE_EGG\"},HideFlags:254,ItemModel:\"minecraft:egg\",display:{Lore:[0:\"§7Creates a path of stone blocks as it\",1:\"§7travels through the air!\",2:\"\",3:\"§f§lCOMMON\"],Name:\"§fBridge Egg\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7Creates a path of stone blocks",
-    "§7as it travels through the air!",
+    "§7Creates a path of stone blocks as it",
+    "§7travels through the air!",
     "",
     "§f§lCOMMON"
+  ],
+  "internalname": "BRIDGE_EGG",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Raw Chicken II",
+  "modver": "Firmament 44.0.1+mc1.21.11",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Bridge_Egg",
+    "https://wiki.hypixel.net/Bridge_Egg"
   ],
   "recipe": {
     "A1": "STONE:1",
@@ -19,14 +28,5 @@
     "C1": "STONE:1",
     "C2": "STONE:1",
     "C3": "STONE:1"
-  },
-  "internalname": "BRIDGE_EGG",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Bridge_Egg",
-    "https://wiki.hypixel.net/Bridge_Egg"
-  ],
-  "crafttext": "Requires: Raw Chicken II"
+  }
 }
