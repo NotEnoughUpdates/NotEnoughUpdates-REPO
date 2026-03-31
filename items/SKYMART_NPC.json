@@ -179,6 +179,29 @@
     {
       "type": "npc_shop",
       "cost": [
+        "SKYBLOCK_COPPER:5000"
+      ],
+      "result": "COPPER_TALISMAN:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:20000",
+        "COPPER_TALISMAN:1"
+      ],
+      "result": "COPPER_RING:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:50000",
+        "COPPER_RING"
+      ],
+      "result": "COPPER_ARTIFACT:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
         "SKYBLOCK_COPPER:300"
       ],
       "result": "YELLOW_BANDANA:1"
