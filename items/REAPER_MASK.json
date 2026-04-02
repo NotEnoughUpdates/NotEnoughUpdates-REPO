@@ -32,16 +32,21 @@
     "https://hypixel-skyblock.fandom.com/wiki/Reaper_Mask",
     "https://wiki.hypixel.net/Reaper_Mask"
   ],
-  "recipe": {
-    "A1": "REVENANT_VISCERA:32",
-    "A2": "",
-    "A3": "REVENANT_VISCERA:32",
-    "B1": "BEHEADED_HORROR:1",
-    "B2": "ENCHANTED_STRING:32",
-    "B3": "REVIVED_HEART:1",
-    "C1": "REVENANT_VISCERA:32",
-    "C2": "",
-    "C3": "REVENANT_VISCERA:32"
-  },
-  "slayer_req": "ZOMBIE_7"
+  "slayer_req": "ZOMBIE_7",
+  "recipes": [
+    {
+      "A1": "REVENANT_VISCERA:32",
+      "A2": "",
+      "A3": "REVENANT_VISCERA:32",
+      "B1": "BEHEADED_HORROR:1",
+      "B2": "ENCHANTED_STRING:32",
+      "B3": "REVIVED_HEART:1",
+      "C1": "REVENANT_VISCERA:32",
+      "C2": "",
+      "C3": "REVENANT_VISCERA:32",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "REAPER_MASK"
+    }
+  ]
 }
