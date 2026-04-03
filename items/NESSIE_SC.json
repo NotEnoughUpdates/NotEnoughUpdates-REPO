@@ -1,0 +1,67 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§3Nessie (Sea Creature)",
+  "nbttag": "{ExtraAttributes:{id:\"NESSIE_SC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"eab0ed31-0907-3d43-92e9-8c721c46a9fa\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5MDg1Mzg5MjQ2NSwKICAicHJvZmlsZUlkIiA6ICI3MDQ0ZDlkY2I5OGI0YzgzYWFjNjIzNjFlYTY5YmNmOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJfV2F0cnlzaGthXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zZDZjOWY0MzUxMGNiOTBkMjQ0OTNlMDdiN2NmOGNhOWY1NDEzMmQwOWEyNTdmMjBiNzA0ODAyMmUzYjFiNzA3IgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §9⚓ Aquatic§7, §d❃ Elusive§7, §a☮ Animal\",1:\"§c❤ Health§8: §c2,000,000\",2:\"§c❁ Damage§8: §c2,500\"],Name:\"§3Nessie (Sea Creature)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Types: §9⚓ Aquatic§7, §d❃ Elusive§7, §a☮ Animal",
+    "§c❤ Health§8: §c2,000,000",
+    "§c❁ Damage§8: §c2,500"
+  ],
+  "internalname": "NESSIE_SC",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g19f28a05",
+  "infoType": "",
+  "info": [],
+  "recipes": [
+    {
+      "coins": 1500,
+      "xp": 3000,
+      "name": "§cNessie",
+      "render": "Sniffer",
+      "level": 302,
+      "combat_xp": 7500,
+      "type": "drops",
+      "panorama": "foraging_2",
+      "drops": [
+        {
+          "id": "ENCHANTED_SEA_LUMIES:1",
+          "chance": "x2-4"
+        },
+        {
+          "id": "ENCHANTED_MANGROVE_LOG",
+          "chance": "x16-32"
+        },
+        {
+          "id": "MANGCORE:1",
+          "chance": "10%"
+        },
+        {
+          "id": "MOUND_OF_SEAGRASS:1",
+          "chance": "2%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_LOCH_HOOK;1:1",
+          "extra": [
+            " §7- §7Catch with §cPocket Black Hole§7.",
+            " §7- §7Kill Nessie while using §cSalts"
+          ],
+          "chance": "100%"
+        },
+        {
+          "id": "BOBBIN_SCRIPTURES:1",
+          "chance": "1%"
+        },
+        {
+          "id": "VIBRANT_CORAL:1",
+          "chance": "0.5%"
+        },
+        {
+          "id": "DYE_AQUAMARINE:1",
+          "chance": "0.002%"
+        }
+      ]
+    }
+  ]
+}

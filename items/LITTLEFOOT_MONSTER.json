@@ -1,0 +1,56 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aLittlefoot (Monster)",
+  "nbttag": "{ExtraAttributes:{id:\"LITTLEFOOT_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"1d35d12e-2f9e-3329-b084-0720e1dbdb5a\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc3MDA0MzAyMDYxNiwKICAicHJvZmlsZUlkIiA6ICI0NTlhYTA1MmYxMTI0ZmFjYWQ3Y2Y4YjUwM2I2NzJiNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJIdXpoYW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmNjZTQxY2QzMmRiNjhmNjk5YzI4MWY4M2YyMDc2NmM4M2M5N2ZkNDk2NjRlYjhjNzU4NGI5ZjM0M2Q5NjBkMSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §b❄ Glacial§7, §e✰ Humanoid§7, §d❃ Elusive\",1:\"§c❤ Health§8: §c25,000,000\",2:\"§c❁ Damage§8: §c15,000\",3:\"§a❈ Defense§8: §a1,000\"],Name:\"§aLittlefoot (Monster)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Types: §b❄ Glacial§7, §e✰ Humanoid§7, §d❃ Elusive",
+    "§c❤ Health§8: §c25,000,000",
+    "§c❁ Damage§8: §c15,000",
+    "§a❈ Defense§8: §a1,000"
+  ],
+  "internalname": "LITTLEFOOT_MONSTER",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g19f28a05",
+  "infoType": "",
+  "info": [],
+  "recipes": [
+    {
+      "coins": 1333,
+      "xp": 1599,
+      "name": "§cLittlefoot",
+      "render": "@neurepo:mobs/littlefoot.json",
+      "level": 533,
+      "combat_xp": 3998,
+      "type": "drops",
+      "panorama": "mineshaft",
+      "drops": [
+        {
+          "id": "SKYBLOCK_POWDER_GLACITE:10000",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_GLACITE",
+          "chance": "x16-32"
+        },
+        {
+          "id": "GLACITE_AMALGAMATION:1",
+          "chance": "2%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_FREEZING_SPREAD;1:1",
+          "extra": [
+            " §7- §7Catch with §cPocket Black Hole§7.",
+            " §7- §7Kill Littlefoot while using §cSalts"
+          ],
+          "chance": "100%"
+        },
+        {
+          "id": "LITTLEFOOT_FLUFF:1",
+          "chance": "0.2%"
+        }
+      ]
+    }
+  ]
+}
