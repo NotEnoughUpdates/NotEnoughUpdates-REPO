@@ -8,7 +8,7 @@
   ],
   "internalname": "MOBY_NPC",
   "clickcommand": "",
-  "modver": "2.1.1-PRE",
+  "modver": "Firmament 43.0.0+mc1.21.10",
   "x": 206,
   "y": 44,
   "z": -500,
@@ -18,7 +18,7 @@
       "type": "npc_shop",
       "result": "EMPTY_CHUM_BUCKET:1",
       "cost": [
-        "SKYBLOCK_COIN:1940",
+        "SKYBLOCK_COIN:2000",
         "GLOWING_MUSHROOM:8"
       ]
     },
@@ -26,7 +26,7 @@
       "type": "npc_shop",
       "result": "GLOWY_CHUM_BAIT:16",
       "cost": [
-        "FULL_CHUM_BUCKET:1",
+        "FULL_CHUM_BUCKET",
         "GLOWING_MUSHROOM:4"
       ]
     },
@@ -36,6 +36,14 @@
       "cost": [
         "FULL_CHUM_BUCKET:2",
         "GLOWING_MUSHROOM:10"
+      ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "CHUM_SINKER:1",
+      "cost": [
+        "FULL_CHUM_BUCKET:4",
+        "GLOWING_MUSHROOM:15"
       ]
     },
     {
@@ -56,10 +64,10 @@
     },
     {
       "type": "npc_shop",
-      "result": "CHUM_SINKER:1",
+      "result": "MUSHED_MUSHROOM_MIXIN:1",
       "cost": [
-        "FULL_CHUM_BUCKET:4",
-        "GLOWING_MUSHROOM:15"
+        "FULL_CHUM_BUCKET:64",
+        "GLOWING_MUSHROOM:80"
       ]
     },
     {
@@ -71,15 +79,7 @@
     },
     {
       "type": "npc_shop",
-      "result": "MUSHED_MUSHROOM_MIXIN:1",
-      "cost": [
-        "FULL_CHUM_BUCKET:64",
-        "GLOWING_MUSHROOM:80"
-      ]
-    },
-    {
-      "type": "npc_shop",
-      "result": "MUSHED_MUSHROOM_MIXIN:1",
+      "result": "GLOWING_MUSHROOM_CAVE_TRAVEL_SCROLL",
       "cost": [
         "FULL_CHUM_BUCKET:64",
         "GLOWING_MUSHROOM:32"
