@@ -79,11 +79,11 @@ petPriceOverrides = {
     "RIFT_FERRET;3": 50_000,
     "RIFT_FERRET;4": 50_000,
     "BABY_YETI;0": 1_000_000,
-    "BABY_YETI;1": 1_000_000, // needs actual value
-    "BABY_YETI;2": 1_000_000, // needs actual value
+    "BABY_YETI;1": 1_250_000, // needs to be checked
+    "BABY_YETI;2": 1_500_000, // needs to be checked
     "BABY_YETI;3": 2_000_000,
     "BABY_YETI;4": 2_500_000,
-    "BABY_YETI;5": 2_500_000, // needs actual value
+    "BABY_YETI;5": 5_000_000,
     "SNOWMAN;5": 2_000_000,
 }
 
