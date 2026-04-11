@@ -1,0 +1,44 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "SWAPPABLE_PREVIEW"
+		},
+		"minecraft:profile": {
+			id: [I;
+				-874528150,
+				-1195951786,
+				-2121347267,
+				-196664734
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "EfY3dASspUQh1VOeiWkPPjz7W3qbur8GhUWMFI8T9pO/e22WAao4SDn6rVAGNGxZojBHfYCe6Q2A/cWBi6DCD282YoqlmsCpybAWoDR+1bWroIA9knWCHr347wgYAt0ROH/EBkx0ppGDLa6bDFiJcDd53n8ge8Rwg++BRU9h1C8wVObQRxm/LiEOzLgmLpyS2tedgVeqEX0JwIjuwWVbOvvvcZAur/WgPqNWm6GKyETX0/wyf1BMHo7XjCKVUZupa1kX0sdRVD4011xd5obmnXsBeRETOzml0wQ9wCx83n5K1n5tNIyR9JfBoXpLI3f5bKuR8hRg8eTRmtrBduhfOL/sDLTXwCl3ibiejVh5PDewAmLLVbZObNTP6zFmLfVCXAbr5PlHge/gx3DFSmz/5UjscmXNktkmPdNg3SG/UVA1dgROdj+2MvJS/J8M+8vV6XXY66O8MHnWB83ZgxsEWacDXAJqah1bSre6f3uHl5MMa0YyOvPaz1wOLbUJPozfsfLUTo05C/F06KXR8XpVU5LlCMSF80r7apCNKb8sd+9MkuJLe9/hxxlXrFGVInsS7nN4IbSaCQblA2emUj61g0C/JGc1b6crkER0iHHPEn8a5IqFTLBpeHA9CWCl5tfAF+Z+b3YPUh/8jr/LM248B5ho7DDqCfvJMg3b3Wm3vpk=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTcwMDQxODM0MTc3MCwKICAicHJvZmlsZUlkIiA6ICI0M2NmNWJkNjUyMDM0YzU5ODVjMDIwYWI3NDE0OGQxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrYW1pbDQ0NSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iYmNjOTVhYzNiM2U2ZjdlZjA4NTUzMDNmZjBhMTAwMzUyMTQxZmJiZmEwNjczODZiZjlhZmUyZTM3NjI2OWQyIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4556,
+		modVersion: "Firmament 43.0.0+mc1.21.10"
+	}
+}
