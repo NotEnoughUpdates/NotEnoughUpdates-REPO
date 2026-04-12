@@ -16,10 +16,22 @@
   "internalname": "CHISEL",
   "clickcommand": "",
   "crafttext": "Requires: Tungsten I",
-  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
+  "modver": "Firmament 43.0.0+mc1.21.10",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Chisel",
     "https://wiki.hypixel.net/Chisel"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "BEJEWELED_HANDLE",
+        "TUNGSTEN:64"
+      ],
+      "count": 1,
+      "duration": 14400,
+      "overrideOutputId": "CHISEL"
+    }
   ]
 }
