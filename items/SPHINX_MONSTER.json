@@ -1,0 +1,91 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§cSphinx (Mythological Creature)",
+  "nbttag": "{ExtraAttributes:{id:\"SPHINX_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"91d57bdb-c9dd-3fc1-920c-8fa589d24317\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc1MjUyMjYwMzQwMiwKICAicHJvZmlsZUlkIiA6ICI3YjE3NjBiYmVkNTk0Mjc1YmU3ZjhjMGFlYmQzMmRiNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdmVuTmlqaHVpczQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2JiYTNmM2FlNWUzNTc3ZTBhZTM3YzMwMmU4YmY4MzhkMzQ0MzU5YTdjNzY5OGMyMzY2ODdiNzRiYzU3M2ExYSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §2✿ Mythological§7, §e✰ Humanoid§7, §d❃ Elusive\",1:\"§c❤ Health§8:\",2:\"§8[§6Griffin§8] §c40,000,000 ❤\",3:\"§8[§dGriffin§8] §c65,000,000 ❤\",4:\"\",5:\"§d§lMYTHIC\"],Name:\"§cSphinx (Mythological Creature)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Types: §2✿ Mythological§7, §e✰ Humanoid§7, §d❃ Elusive",
+    "§c❤ Health§8:",
+    "§8[§6Griffin§8] §c40,000,000 ❤",
+    "§8[§dGriffin§8] §c65,000,000 ❤",
+    "",
+    "§d§lMYTHIC"
+  ],
+  "internalname": "SPHINX_MONSTER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Sphinx",
+    "https://wiki.hypixel.net/Sphinx"
+  ],
+  "recipes": [
+    {
+      "level": 750,
+      "coins": 2500,
+      "xp": 5,
+      "combat_xp": 500,
+      "name": "§cSphinx",
+      "render": "@neurepo:mobs/sphinx.json",
+      "panorama": "hub",
+      "extra": [],
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ANCIENT_CLAW:16",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_GOLD:16",
+          "chance": "50%"
+        },
+        {
+          "id": "ENCHANTED_ANCIENT_CLAW:1",
+          "chance": "50%"
+        },
+        {
+          "id": "BRAIN_FOOD",
+          "chance": "0.25%"
+        },
+        {
+          "id": "DYE_MYTHOLOGICAL",
+          "chance": "0.002%"
+        }
+      ]
+    },
+    {
+      "level": 1250,
+      "coins": 2500,
+      "xp": 5,
+      "combat_xp": 750,
+      "name": "§cSphinx",
+      "render": "@neurepo:mobs/sphinx.json",
+      "panorama": "hub",
+      "extra": [],
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ANCIENT_CLAW:32",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_GOLD:32",
+          "chance": "50%"
+        },
+        {
+          "id": "ENCHANTED_ANCIENT_CLAW:2",
+          "chance": "50%"
+        },
+        {
+          "id": "BRAIN_FOOD",
+          "chance": "0.5%"
+        },
+        {
+          "id": "DYE_MYTHOLOGICAL",
+          "chance": "0.002%"
+        }
+      ]
+    }
+  ]
+}
