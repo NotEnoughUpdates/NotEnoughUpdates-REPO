@@ -1,0 +1,138 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§cHarpy (Mythological Creature)",
+  "nbttag": "{ExtraAttributes:{id:\"HARPY_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"4dac95e1-e8f6-2ffe-9563-10092a5aaed5\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc1NTY0NDM0MTE4NywKICAicHJvZmlsZUlkIiA6ICI2MTU1NTMyOTY2OWM0ZDA5YmFiOGJlNDNkYWUwYTRjMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJmaTAxNSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80NzBlZTkxZWUxYTAwNTkzMzFkN2VjOTI0YTA5Yjg2NDgwYmQ5NmRhZTE5MTRmZjg1YzJjZDNiNzEzNGFiNjgzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §2✿ Mythological§7, §e✰ Humanoid§7, §a☮ Animal\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§cHarpy (Mythological Creature)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Types: §2✿ Mythological§7, §e✰ Humanoid§7, §a☮ Animal",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "HARPY_MONSTER",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g19f28a05",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Harpy",
+    "https://wiki.hypixel.net/Harpy"
+  ],
+  "recipes": [
+    {
+      "level": 85,
+      "coins": 300,
+      "xp": 5,
+      "combat_xp": 30,
+      "name": "§cStalwart Harpy",
+      "render": "@neurepo:mobs/harpy.json",
+      "panorama": "hub",
+      "extra": [],
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ANCIENT_CLAW:7",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_GOLD:7",
+          "chance": "50%"
+        },
+        {
+          "id": "ANTIQUE_REMEDIES:1",
+          "chance": "0.35%"
+        },
+        {
+          "id": "DYE_MYTHOLOGICAL",
+          "chance": "0.0002%"
+        }
+      ]
+    },
+    {
+      "level": 110,
+      "coins": 400,
+      "xp": 5,
+      "combat_xp": 45,
+      "name": "§cVenerable Harpy",
+      "render": "@neurepo:mobs/harpy.json",
+      "panorama": "hub",
+      "extra": [],
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ANCIENT_CLAW:8",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_GOLD:8",
+          "chance": "50%"
+        },
+        {
+          "id": "ANTIQUE_REMEDIES:1",
+          "chance": "0.4%"
+        },
+        {
+          "id": "DYE_MYTHOLOGICAL",
+          "chance": "0.0002%"
+        }
+      ]
+    },
+    {
+      "level": 95,
+      "coins": 350,
+      "xp": 5,
+      "combat_xp": 25,
+      "name": "§cExalted Harpy",
+      "render": "@neurepo:mobs/harpy.json",
+      "panorama": "hub",
+      "extra": [],
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ANCIENT_CLAW:10",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_GOLD:10",
+          "chance": "50%"
+        },
+        {
+          "id": "ANTIQUE_REMEDIES:1",
+          "chance": "0.5%"
+        },
+        {
+          "id": "DYE_MYTHOLOGICAL",
+          "chance": "0.0002%"
+        }
+      ]
+    },
+    {
+      "level": 325,
+      "coins": 600,
+      "xp": 5,
+      "combat_xp": 75,
+      "name": "§cEmpyrean Harpy",
+      "render": "@neurepo:mobs/harpy.json",
+      "panorama": "hub",
+      "extra": [],
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ANCIENT_CLAW:12",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_GOLD:12",
+          "chance": "50%"
+        },
+        {
+          "id": "ANTIQUE_REMEDIES:1",
+          "chance": "0.6%"
+        },
+        {
+          "id": "DYE_MYTHOLOGICAL",
+          "chance": "0.0002%"
+        }
+      ]
+    }
+  ]
+}
