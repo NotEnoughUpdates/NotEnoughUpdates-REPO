@@ -50,8 +50,8 @@ for item in slot_unlock_cost:
         if len(cost) != 0:
             for ingredient, value in cost.items():
                 cost_list.append("{}:{}".format(ingredient, value))
-            slot_dict[slot] = cost_list
-            pretty_slot_unlock_cost[item] = slot_dict
+        slot_dict[slot] = cost_list
+        pretty_slot_unlock_cost[item] = slot_dict
 
 os.makedirs(os.path.dirname(file_path), exist_ok=True)
 with open(file_path, "w") as json_file:
