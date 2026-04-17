@@ -24,6 +24,9 @@ linkTransformationFandom = {
     "_Rune": fandomLink + "Runes"
 }
 
+hoeTierPattern = re.compile("_Mk\\._I{1,3}$")
+
+
 def getItemFiles() -> list[str]:
     itemFiles = [f for f in os.listdir(itemsDirectory
 ) if os.path.isfile(os.path.join(itemsDirectory
@@ -183,6 +186,10 @@ def formatNameForSearch(name: str) -> str:
     name = name.strip()
     name = name.replace(" ", "_")
     name = removeColourCodes(name)
+
+    if match := hoeTierPattern.search(name):
+        name = name[0:match.start()]
+
     if "[Lvl_{LVL}]_" in name:
         name = name.replace("[Lvl_{LVL}]_", "") + "_Pet"
     if name.endswith("Gemstone") and name != "Glossy Gemstone":
