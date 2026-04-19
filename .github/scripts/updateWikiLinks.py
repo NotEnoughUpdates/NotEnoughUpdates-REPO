@@ -2,6 +2,7 @@ import os
 import json
 import urllib3
 import re
+from urllib.parse import urlparse, unquote
 
 # Constants
 itemsDirectory = "items"
@@ -216,11 +217,31 @@ def doesPageExist(pageUrl: str) -> bool:
     if pageUrl in attemptedLinks:
         return attemptedLinks[pageUrl]
 
-    response = httpPool.request('GET', pageUrl, redirect=True)
+    parsed = urlparse(pageUrl)
+    apiUrl = f"https://{parsed.netloc}/api.php"
+    pageTitle = unquote(parsed.path.removeprefix("/").removeprefix("w/").removeprefix("wiki/"))
 
-    success = response.status == 200
-    if response.status == 403:
-        print('got 403 lol')
+    response = httpPool.request(
+        "GET",
+        apiUrl,
+        fields={
+            "action": "query",
+            "format": "json",
+            "titles": pageTitle,
+            "redirects": 1,
+            "formatversion": 2,
+        },
+    )
+
+    if response.status != 200:
+        print(f"Failed to fetch {pageUrl} ({response.status})")
+        attemptedLinks[pageUrl] = False
+        return False
+
+    payload = json.loads(response.data.decode("utf-8"))
+    pages = payload.get("query", {}).get("pages", [])
+    success = pages and "missing" not in pages[0]
+
     attemptedLinks[pageUrl] = success
     return success
 
