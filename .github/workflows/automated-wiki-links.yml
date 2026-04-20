@@ -1,6 +1,7 @@
 name: Automated Wiki Updates
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 2 * * *'  # 2:00 AM UTC
 
