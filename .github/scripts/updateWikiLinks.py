@@ -41,9 +41,14 @@ def _replace_title_case_prepositions(name: str) -> str:
     name = name.replace("_To_", "_to_")
     return name
 
+def _escape_wiki_links(links: list[str]) -> list[str]:
+    for i, link in enumerate(links):
+        links[i] = link.replace("=", "\\u003d").replace("'", "\\u0027")
+    return links
 
 def _update_special_case_links(filename: str, jsonData: dict, file, desired_links: list[str]) -> bool:
     global modifiedCount
+    desired_links = _escape_wiki_links(desired_links)
 
     file_modified = False
     if jsonData.get("infoType") != wikiUrlInfoType:
@@ -57,11 +62,7 @@ def _update_special_case_links(filename: str, jsonData: dict, file, desired_link
         modifiedCount += 1
         file.seek(0)
         file.truncate()
-        file.write(
-            json.dumps(jsonData, indent=2, ensure_ascii=False)
-            .replace("=", "\\u003d")
-            .replace("'", "\\u0027")
-        )
+        json.dump(jsonData, file, indent=2, ensure_ascii=False)
     return file_modified
 
 
@@ -155,9 +156,10 @@ def processItemFile(filename: str):
                 if fixed:
                     pass
 
-        if (len(infoLinks_auto) < len(existingInfo)):
+        if len(infoLinks_auto) < len(existingInfo):
             return
 
+        infoLinks_auto = _escape_wiki_links(infoLinks_auto)
         if infoLinks_auto != existingInfo:
             jsonData["info"] = infoLinks_auto
 
@@ -171,11 +173,7 @@ def processItemFile(filename: str):
             modifiedCount += 1
             file.seek(0)
             file.truncate()
-            file.write(
-                json.dumps(jsonData, indent=2, ensure_ascii=False)
-                .replace("=", "\\u003d")
-                .replace("'", "\\u0027")
-            )
+            json.dump(jsonData, file, indent=2, ensure_ascii=False)
 
 
 def formatNameForSearch(name: str) -> str:
