@@ -1,6 +1,7 @@
 name: Automated Updates
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
