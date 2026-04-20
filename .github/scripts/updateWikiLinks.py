@@ -6,7 +6,7 @@ from urllib.parse import urlparse, unquote
 
 # Constants
 itemsDirectory = "items"
-fandomLink = "https://hypixel-skyblock.fandom.com/wiki/"
+unofficialLink = "https://hypixelskyblock.minecraft.wiki/w/"
 officialLink = "https://wiki.hypixel.net/"
 wikiUrlInfoType = "WIKI_URL"
 
@@ -20,9 +20,9 @@ suffixesToRemove = [
     "(Mythological Creature)"
 ]
 
-linkTransformationFandom = {
-    "Barn_Skin": fandomLink + "Barn_Skins",
-    "_Rune": fandomLink + "Runes"
+linkTransformationUnofficial = {
+    "Barn_Skin": unofficialLink + "Barn_Skins",
+    "_Rune": unofficialLink + "Runes"
 }
 
 hoeTierPattern = re.compile("_Mk\\._I{1,3}$")
@@ -87,7 +87,7 @@ def processItemFile(filename: str):
 
         if filename.startswith('BALLOON_HAT_2024'):
             desired_links = [
-                'https://hypixel-skyblock.fandom.com/wiki/5th_Anniversary_Balloon_Hat',
+                'https://hypixelskyblock.minecraft.wiki/w/5th_Anniversary_Balloon_Hat',
                 'https://wiki.hypixel.net/5th_Anniversary_Balloon_Hat'
             ]
             if _update_special_case_links(filename, jsonData, file, desired_links):
@@ -95,32 +95,32 @@ def processItemFile(filename: str):
 
         if filename.startswith('BALLOON_HAT_2025'):
             desired_links = [
-                'https://hypixel-skyblock.fandom.com/wiki/6th_Anniversary_Balloon_Hat',
+                'https://hypixelskyblock.minecraft.wiki/w/6th_Anniversary_Balloon_Hat',
                 'https://wiki.hypixel.net/6th_Anniversary_Balloon_Hat'
             ]
             if _update_special_case_links(filename, jsonData, file, desired_links):
                 return
 
         for link in existingInfo:
-            if (link.startswith(fandomLink) or link.startswith(officialLink)):
+            if (link.startswith(unofficialLink) or link.startswith(officialLink)):
                 return
 
         print(f"Processing {filename}...")
 
         formattedName = formatNameForSearch(jsonData["displayname"])
 
-        # Attempt to find Fandom and Official wiki links
-        fullFandomLink = fandomLink + modifyFandomItem(formattedName)
+        # Attempt to find Unofficial and Official wiki links
+        fullUnofficialLink = unofficialLink + modifyUnofficialItem(formattedName)
         fullOfficialLink = officialLink + modifyOfficialItem(formattedName)
 
-        fandomExists = doesPageExist(fullFandomLink)
+        unofficialExists = doesPageExist(fullUnofficialLink)
         officialExists = doesPageExist(fullOfficialLink)
 
         # Try with lowercase prepositions if initial attempt fails
-        if not fandomExists and ("_Of_" in formattedName or "_The_" in formattedName or "_To_" in formattedName):
+        if not unofficialExists and ("_Of_" in formattedName or "_The_" in formattedName or "_To_" in formattedName):
             formattedName_lower_prepositions = _replace_title_case_prepositions(formattedName)
-            fullFandomLink = fandomLink + modifyFandomItem(formattedName_lower_prepositions)
-            fandomExists = doesPageExist(fullFandomLink)
+            fullUnofficialLink = unofficialLink + modifyUnofficialItem(formattedName_lower_prepositions)
+            unofficialExists = doesPageExist(fullUnofficialLink)
 
         if not officialExists and ("_Of_" in formattedName or "_The_" in formattedName or "_To_" in formattedName):
             formattedName_lower_prepositions = _replace_title_case_prepositions(formattedName)
@@ -129,7 +129,7 @@ def processItemFile(filename: str):
 
         fileModified = False
 
-        if fandomExists or officialExists:
+        if unofficialExists or officialExists:
             if not "infoType" in jsonData or jsonData["infoType"] == "":
                 jsonData["infoType"] = wikiUrlInfoType
                 fileModified = True
@@ -137,20 +137,20 @@ def processItemFile(filename: str):
             print(f"Neither page exists for {filename}, {formattedName}")
 
         infoLinks_auto = []
-        if fandomExists:
-            infoLinks_auto.append(fullFandomLink)
+        if unofficialExists:
+            infoLinks_auto.append(fullUnofficialLink)
         if officialExists:
             infoLinks_auto.append(fullOfficialLink)
 
-        # Apply Fandom link transformations here
+        # Apply Unofficial link transformations here
         temp_infoLinks_auto = list(infoLinks_auto)
         for i, link in enumerate(temp_infoLinks_auto):
-            if link.startswith(fandomLink):
+            if link.startswith(unofficialLink):
                 fixed = False
-                for suffix, new_base_url in linkTransformationFandom.items():
+                for suffix, new_base_url in linkTransformationUnofficial.items():
                     if suffix.lower() in link.lower():
                         infoLinks_auto[i] = new_base_url
-                        print(f"Fixed Fandom link: {new_base_url}")
+                        print(f"Fixed Unofficial link: {new_base_url}")
                         fixed = True
                         break
                 if fixed:
@@ -254,18 +254,18 @@ def capitalizeWords(string: str) -> str:
     return ''.join(words)
 
 
-def modifyFandomItem(fandomItem: str) -> str:
-    if "_Minion_" in fandomItem:
-        return fandomItem.split("_Minion_")[0] + "_Minion"
-    if "_Rune_" in fandomItem:
-        return (fandomItem.split("_Rune_")[0] + "_Rune").removeprefix("◆_")
-    if fandomItem.startswith("Perfect_"):
-        split = fandomItem.split("_Tier_")
+def modifyUnofficialItem(unofficialItem: str) -> str:
+    if "_Minion_" in unofficialItem:
+        return unofficialItem.split("_Minion_")[0] + "_Minion"
+    if "_Rune_" in unofficialItem:
+        return (unofficialItem.split("_Rune_")[0] + "_Rune").removeprefix("◆_")
+    if unofficialItem.startswith("Perfect_"):
+        split = unofficialItem.split("_Tier_")
         if len(split) > 1:
             return "Perfect_Armor#Tier_" + split[1].upper()
         else:
-            return fandomItem
-    return fandomItem
+            return unofficialItem
+    return unofficialItem
 
 
 def modifyOfficialItem(officialItem: str) -> str:
