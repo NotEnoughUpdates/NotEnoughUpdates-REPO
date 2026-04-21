@@ -4829,17 +4829,109 @@
     }
   },
   "SEAL": {
+    "COMMON": {
+      "1": {
+        "otherNums": [
+          0.5
+        ],
+        "statNums": {
+          "FISHING_SPEED": 0.35,
+          "SEA_CREATURE_CHANCE": 0.05,
+          "TREASURE_CHANCE": 0.01
+        }
+      },
+      "100": {
+        "otherNums": [
+          50
+        ],
+        "statNums": {
+          "FISHING_SPEED": 35.0,
+          "SEA_CREATURE_CHANCE": 5,
+          "TREASURE_CHANCE": 1
+        }
+      }
+    },
+    "UNCOMMON": {
+      "1": {
+        "otherNums": [
+          0.8
+        ],
+        "statNums": {
+          "FISHING_SPEED": 0.35,
+          "SEA_CREATURE_CHANCE": 0.05,
+          "TREASURE_CHANCE": 0.01
+        }
+      },
+      "100": {
+        "otherNums": [
+          80
+        ],
+        "statNums": {
+          "FISHING_SPEED": 35.0,
+          "SEA_CREATURE_CHANCE": 5,
+          "TREASURE_CHANCE": 1
+        }
+      }
+    },
+    "RARE": {
+      "1": {
+        "otherNums": [
+          0.8,
+          0.04
+        ],
+        "statNums": {
+          "FISHING_SPEED": 0.35,
+          "SEA_CREATURE_CHANCE": 0.05,
+          "TREASURE_CHANCE": 0.01
+        }
+      },
+      "100": {
+        "otherNums": [
+          80,
+          4
+        ],
+        "statNums": {
+          "FISHING_SPEED": 35.0,
+          "SEA_CREATURE_CHANCE": 5,
+          "TREASURE_CHANCE": 1
+        }
+      }
+    },
+    "EPIC": {
+      "1": {
+        "otherNums": [
+          1,
+          0.05
+        ],
+        "statNums": {
+          "FISHING_SPEED": 0.35,
+          "SEA_CREATURE_CHANCE": 0.05,
+          "TREASURE_CHANCE": 0.01
+        }
+      },
+      "100": {
+        "otherNums": [
+          100,
+          5
+        ],
+        "statNums": {
+          "FISHING_SPEED": 35.0,
+          "SEA_CREATURE_CHANCE": 5,
+          "TREASURE_CHANCE": 1
+        }
+      }
+    },
     "LEGENDARY": {
       "1": {
         "otherNums": [
           1,
-          0.5,
+          0.05,
           1
         ],
         "statNums": {
           "FISHING_SPEED": 0.35,
-          "SEA_CREATURE_CHANCE": 0.5,
-          "TREASURE_CHANCE": 0.1
+          "SEA_CREATURE_CHANCE": 0.05,
+          "TREASURE_CHANCE": 0.01
         }
       },
       "100": {
