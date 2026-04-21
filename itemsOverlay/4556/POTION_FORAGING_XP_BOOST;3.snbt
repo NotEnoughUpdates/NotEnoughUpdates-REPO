@@ -3,20 +3,20 @@
 		"minecraft:custom_data": {
 			effects: [
 				{
-					duration_ticks: 28800,
-					effect: "farming_xp_boost",
-					level: 2
+					duration_ticks: 43200,
+					effect: "foraging_xp_boost",
+					level: 3
 				}
 			],
 			id: "POTION",
-			potion: "farming_xp_boost",
-			potion_level: 2,
+			potion: "foraging_xp_boost",
+			potion_level: 3,
 			potion_type: "POTION"
 		},
 		"minecraft:potion_contents": {
 			custom_effects: [
 				{
-					amplifier: 1b,
+					amplifier: 2b,
 					duration: 20,
 					id: "minecraft:absorption",
 					show_icon: 1b
@@ -43,7 +43,7 @@
 	count: 1,
 	id: "minecraft:potion",
 	source: {
-		dataVersion: 4325,
-		modVersion: "Firmament 3.7.1-dev+mc1.21.5+g19c6b28"
+		dataVersion: 4556,
+		modVersion: "Firmament 43.0.0+mc1.21.10"
 	}
 }
