@@ -102,9 +102,9 @@ def processItemFile(filename: str):
             if _update_special_case_links(filename, jsonData, file, desired_links):
                 return
 
-        for link in existingInfo:
-            if (link.startswith(unofficialLink) or link.startswith(officialLink)):
-                return
+        validLinks = [link for link in existingInfo if link.startswith(unofficialLink) or link.startswith(officialLink)]
+        if validLinks and existingInfo == validLinks:
+            return
 
         print(f"Processing {filename}...")
 
