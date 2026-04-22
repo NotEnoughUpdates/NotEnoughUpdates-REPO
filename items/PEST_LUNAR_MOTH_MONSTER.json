@@ -1,0 +1,99 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aLunar Moth (Pest)",
+  "nbttag": "{ExtraAttributes:{id:\"PEST_LUNAR_MOTH_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"be2b4bb9-1890-3a7d-98c7-bdca5aac81b0\",Properties:{textures:[0:{Name:\"textures\",Signature:\"MeKn4AquwIhHvqTI1I2af0yi3NUBWL1pSHtw5qXnQZ0jYV6Hvsze1fO/ksLNSlkvJNDduNfEeeDkGzcDI7ZsJr+hsfcozSyXtIYBaSB14zXET9j0qx3sDgpELNY7oEwI+2Lx5owDiAJQokz3HAPr/sCQo1YKFau5RCvhnepM4L4bx5NnevMnXG6E7kPnduhE9fO6jJk/6n9fVa2KnqDAhGJyURMYbN7lifjJW3DaGuLUyr10IlDlVwtKgwdLEPBbsmTUXDaca9ul7ZQ/CPzKmZNTTdp/EXTJUI/KtdzDzhOAavsMqst3W+rCx9wd5RjD4293yRyNYvvX2nG6hAjqWV7+OAnRIWObUjMefzlgsaZMHzuqGNb3afC9XdLQ6bXED+AZAMTV1el62lY0KXKzJhmbzKPKjQD9vTWdQSgg+bafgx1gywMLNPuz97Usv5/tUQg6hLMBQz2GSzt0MJWNb5ZXJHxQsBo0xerJWFxA3lrBm4kdaDdNdnWFP2gdgplcErmlh2sS49OOIF+W6CHTWLxcT3dOSZ3rgDqEI3RZjehmdh9RGKwRInx/HUfEnGkzu3c1EzieDJoaz8CrvOHS2z9Q7MNzkiBty0YW/jERmTzWgMyvBdhwgVmMzYwactV7zbozQyMw+HRbX4mXxrlJ1rDNaElCpIpNEvdB6ZrLIWc=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc3MjE1OTE4MzkzMSwKICAicHJvZmlsZUlkIiA6ICIxNzRjZmRiNGEzY2I0M2I1YmZjZGU0MjRjM2JiMmM2ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJtYXJhZWwxOCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZWU0ZmNjNWFhYzI3YmRiYjBiZTIxMGRmMDhiMDViY2E1YWViYzg5YmYyODIxZjYwOGE1NWZkMmNmMDQzNGJlIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Drawn to the light and dew of the the\",1:\"§7moon.\",2:\"\",3:\"§7Attracted to §5Moondew§7.\",4:\"\",5:\"§c❤ Health§8: §c600\"],Name:\"§aLunar Moth (Pest)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Drawn to the light and dew of the the",
+    "§7moon.",
+    "",
+    "§7Attracted to §5Moondew§7.",
+    "",
+    "§c❤ Health§8: §c600"
+  ],
+  "internalname": "PEST_LUNAR_MOTH_MONSTER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "",
+  "infoType": "",
+  "info": [],
+  "recipes": [
+    {
+      "level": 1,
+      "coins": 1000,
+      "xp": 10,
+      "panorama": "garden",
+      "render": "@neurepo:mobs/pest_dragonfly.json",
+      "name": "§aDragonfly",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ENCHANTED_SUNFLOWER:2",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "COMPOST:1",
+          "extra": [],
+          "chance": "10%"
+        },
+        {
+          "id": "HONEY_JAR:1",
+          "extra": [],
+          "chance": "10%"
+        },
+        {
+          "id": "DUNG:1",
+          "extra": [],
+          "chance": "10%"
+        },
+        {
+          "id": "PLANT_MATTER:1",
+          "extra": [],
+          "chance": "10%"
+        },
+        {
+          "id": "CHEESE_FUEL:1",
+          "extra": [],
+          "chance": "10%"
+        },
+        {
+          "id": "JELLY:1",
+          "extra": [],
+          "chance": "10%"
+        },
+        {
+          "id": "VINYL_IMAGINE_DRAGONFLIES:1",
+          "extra": [],
+          "chance": "2%"
+        },
+        {
+          "id": "COMPACTED_SUNFLOWER:1",
+          "extra": [],
+          "chance": "0.5%"
+        },
+        {
+          "id": "VERMIN_VAPORIZER_GARDEN_CHIP:1",
+          "extra": [],
+          "chance": "1%"
+        },
+        {
+          "id": "DYE_DUNG:1",
+          "extra": [],
+          "chance": "0.0004%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_PEST_LUCK;1:1",
+          "extra": [
+            "§7 §7- §7Catch with §cPocket Black Hole§7.",
+            "§7 §7- §7Catch with §bLasso§7.",
+            "§7 §7- §7Kill Cricket§7, Fly§7, Beetle§7, Earthworm§7,",
+            "§7Locust§7, Slug§7, Mosquito§7, Moth§7, Rat§7, or",
+            "§7Mite §7while using §cSalts§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}
