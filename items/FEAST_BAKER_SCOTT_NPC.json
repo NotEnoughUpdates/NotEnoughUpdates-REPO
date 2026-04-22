@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Feast Bakery (NPC)",
-  "nbttag": "{ExtraAttributes:{id:\"FEAST_BAKERY_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",display:{Lore:[0:\"\"],Name:\"§9Feast Bakery (NPC)\"}}",
+  "displayname": "§9Feast Baker Scott (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"FEAST_BAKER_SCOTT_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"54df3b98-437b-2c97-a04c-9fb69b56a57a\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTU1NGY2YzRmODFiMGEwYzg5MzUzMDYyOTk1Mjk0YmI2YWE3NTViMzJmZDE2NjI5NDk3N2I4ZDZkNDVhNDliYSIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiI1NGRmM2I5ODQzN2IyYzk3YTA0YzlmYjY5YjU2YTU3YSIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzc2ODc4NDMyOTcwfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Only appears during the §eHarvest Feast §7event!\"],Name:\"§9Feast Baker Scott (NPC)\"}}",
   "damage": 3,
   "lore": [
-    "§7Only accessible during the §6Harvest Feast §7event!"
+    "§7Only appears during the §eHarvest Feast §7event!"
   ],
-  "internalname": "FEAST_BAKERY_NPC",
+  "internalname": "FEAST_BAKER_SCOTT_NPC",
   "clickcommand": "",
   "crafttext": "",
   "modver": "Firmament 44.1.0-dev+mc1.21.11+gcd885b38",
@@ -87,5 +87,9 @@
       ],
       "result": "BREAD_BOWL:1"
     }
-  ]
+  ],
+  "island": "hub",
+  "x": 77,
+  "y": 72,
+  "z": -84
 }
