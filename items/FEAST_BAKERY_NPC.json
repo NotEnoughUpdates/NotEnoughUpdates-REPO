@@ -1,0 +1,91 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Feast Bakery (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"FEAST_BAKERY_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",display:{Lore:[0:\"\"],Name:\"§9Feast Bakery (NPC)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Only accessible during the §6Harvest Feast §7event!"
+  ],
+  "internalname": "FEAST_BAKERY_NPC",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+gcd885b38",
+  "infoType": "",
+  "info": [],
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_KERNEL:25"
+      ],
+      "result": "FRESHLY_BAKED_TALISMAN:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_KERNEL:100",
+        "FRESHLY_BAKED_TALISMAN:1"
+      ],
+      "result": "FRESHLY_BAKED_RING:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_KERNEL:250",
+        "FRESHLY_BAKED_RING:1"
+      ],
+      "result": "FRESHLY_BAKED_ARTIFACT:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_KERNEL:500",
+        "FRESHLY_BAKED_ARTIFACT:1"
+      ],
+      "result": "FRESHLY_BAKED_RELIC:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_KERNEL:1000",
+        "FRESHLY_BAKED_RELIC:1"
+      ],
+      "result": "FRESHLY_BAKED_HEIRLOOM:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_KERNEL:50"
+      ],
+      "result": "FINNS_FOCACCIA:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_KERNEL:25"
+      ],
+      "result": "FEAST;1:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_KERNEL:500"
+      ],
+      "result": "TEDS_CONTACT_BAKED_IN_BREAD:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_KERNEL:500"
+      ],
+      "result": "SCOTTS_CONTACT_BAKED_IN_BREAD:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_KERNEL:10000"
+      ],
+      "result": "BREAD_BOWL:1"
+    }
+  ]
+}
