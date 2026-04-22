@@ -1,18 +1,21 @@
 {
   "itemid": "minecraft:diamond_hoe",
   "displayname": "§aDiamond Hoe",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7§8This item can be reforged!\",1:\"§a§lUNCOMMON HOE\"],Name:\"§aDiamond Hoe\"},ExtraAttributes:{id:\"DIAMOND_HOE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"DIAMOND_HOE\"},HideFlags:254,ItemModel:\"minecraft:diamond_hoe\",Unbreakable:1B,display:{Lore:[0:\"§8This item can be reforged!\",1:\"§a§lUNCOMMON FARMING TOOL\"],Name:\"§aDiamond Hoe\"}}",
   "damage": 0,
   "lore": [
-    "§7§8This item can be reforged!",
-    "§a§lUNCOMMON HOE"
+    "§8This item can be reforged!",
+    "§a§lUNCOMMON FARMING TOOL"
   ],
   "internalname": "DIAMOND_HOE",
-  "vanilla": true,
-  "crafttext": "",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+gcd885b38",
   "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Diamond_Hoe"
+  ],
+  "vanilla": true,
   "recipe": {
     "A1": "DIAMOND:1",
     "A2": "DIAMOND:1",
@@ -23,8 +26,5 @@
     "C1": "",
     "C2": "STICK:1",
     "C3": ""
-  },
-  "info": [
-    "https://wiki.hypixel.net/Diamond_Hoe"
-  ]
+  }
 }
