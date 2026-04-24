@@ -35,7 +35,7 @@ jobs:
             echo "No changes to commit"
             exit 0
           fi
-          git commit -m "Update data for Hypixel and Fandom Wiki links"
+          git commit -m "Update data for Hypixel and Independent Wiki links"
           git push --force origin HEAD:bot/automated-updates
 
       - name: Create Pull Request
