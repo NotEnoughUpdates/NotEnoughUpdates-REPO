@@ -1,0 +1,35 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Researcher Beryl (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"RESEARCHER_BERYL_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"730f988b-ca16-2bb3-96bc-0203d4f31e91\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTVlYzVlMmQ1NTcyM2M5ODdjZTYwYjg5MTEzN2VlMzk5NTk4ZTE1ZWY5MTBjNzU0MmQzYzMxNmZlYzY2MjY0ZCIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiI3MzBmOTg4YmNhMTYyYmIzOTZiYzAyMDNkNGYzMWU5MSIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzc3MDE0NDIzOTU3fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"\"],Name:\"§9Researcher Beryl (NPC)\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "RESEARCHER_BERYL_NPC",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g19f28a05",
+  "infoType": "",
+  "info": [],
+  "island": "mining_3",
+  "x": 35,
+  "y": 128,
+  "z": 236,
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "ESSENCE_FOSSIL:100"
+      ],
+      "result": "SUSPICIOUS_SCRAP"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "ESSENCE_FOSSIL:5"
+      ],
+      "result": "CHISEL"
+    }
+  ]
+}
