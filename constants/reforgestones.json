@@ -2543,6 +2543,48 @@
       }
     }
   },
+  "OVERPRICED_DRINK": {
+    "internalName": "OVERPRICED_DRINK",
+    "reforgeName": "Overpriced",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "FARMING_TOOL",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY"
+    ],
+    "reforgeCosts": {
+      "COMMON": 20000,
+      "UNCOMMON": 40000,
+      "RARE": 80000,
+      "EPIC": 150000,
+      "LEGENDARY": 300000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "farming_fortune": 5,
+        "overbloom": 1
+      },
+      "UNCOMMON": {
+        "farming_fortune": 10,
+        "overbloom": 2
+      },
+      "RARE": {
+        "farming_fortune": 15,
+        "overbloom": 3
+      },
+      "EPIC": {
+        "farming_fortune": 20,
+        "overbloom": 5
+      },
+      "LEGENDARY": {
+        "farming_fortune": 25,
+        "overbloom": 7
+      }
+    }
+  },
   "OVERFLOWING_TRASH_CAN": {
     "internalName": "OVERFLOWING_TRASH_CAN",
     "reforgeName": "Trashy",
