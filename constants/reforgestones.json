@@ -1905,47 +1905,36 @@
     "internalName": "LARGE_WALNUT",
     "reforgeName": "Earthy",
     "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "AXE",
+    "itemTypes": "FARMING_TOOL",
     "requiredRarities": [
       "COMMON",
       "UNCOMMON",
       "RARE",
       "EPIC",
-      "LEGENDARY",
-      "MYTHIC"
+      "LEGENDARY"
     ],
     "reforgeCosts": {
       "COMMON": 5000,
       "UNCOMMON": 10000,
       "RARE": 20000,
       "EPIC": 50000,
-      "LEGENDARY": 100000,
-      "MYTHIC": 200000
+      "LEGENDARY": 100000
     },
     "reforgeStats": {
       "COMMON": {
-        "speed": 1,
-        "farming_fortune": 1
+        "farming_fortune": 5
       },
       "UNCOMMON": {
-        "speed": 1,
-        "farming_fortune": 4
-      },
-      "RARE": {
-        "speed": 1,
-        "farming_fortune": 6
-      },
-      "EPIC": {
-        "speed": 1,
-        "farming_fortune": 8
-      },
-      "LEGENDARY": {
-        "speed": 1,
         "farming_fortune": 10
       },
-      "MYTHIC": {
-        "speed": 1,
-        "farming_fortune": 12
+      "RARE": {
+        "farming_fortune": 15
+      },
+      "EPIC": {
+        "farming_fortune": 20
+      },
+      "LEGENDARY": {
+        "farming_fortune": 25
       }
     }
   },
