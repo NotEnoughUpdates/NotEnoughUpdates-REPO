@@ -6,6 +6,7 @@
     "wand",
     "axe",
     "hoe",
+    "farming tool",
     "shovel",
     "pickaxe",
     "accessory",
@@ -186,10 +187,15 @@
     ],
     "SPEED_TALISMAN": [
       "SPEED_RING",
-      "SPEED_ARTIFACT"
+      "SPEED_ARTIFACT",
+      "SPEED_RELIC"
     ],
     "SPEED_RING": [
-      "SPEED_ARTIFACT"
+      "SPEED_ARTIFACT",
+      "SPEED_RELIC"
+    ],
+    "SPEED_ARTIFACT": [
+      "SPEED_RELIC"
     ],
     "PERSONAL_COMPACTOR_4000": [
       "PERSONAL_COMPACTOR_5000",
@@ -3115,6 +3121,24 @@
     ],
     "COPPER_RING": [
       "COPPER_ARTIFACT"
+    ],
+    "FRESHLY_BAKED_TALISMAN": [
+      "FRESHLY_BAKED_RING",
+      "FRESHLY_BAKED_ARTIFACT",
+      "FRESHLY_BAKED_RELIC",
+      "FRESHLY_BAKED_HEIRLOOM"
+    ],
+    "FRESHLY_BAKED_RING": [
+      "FRESHLY_BAKED_ARTIFACT",
+      "FRESHLY_BAKED_RELIC",
+      "FRESHLY_BAKED_HEIRLOOM"
+    ],
+    "FRESHLY_BAKED_ARTIFACT": [
+      "FRESHLY_BAKED_RELIC",
+      "FRESHLY_BAKED_HEIRLOOM"
+    ],
+    "FRESHLY_BAKED_RELIC": [
+      "FRESHLY_BAKED_HEIRLOOM"
     ]
   },
   "ignored_talisman": [
