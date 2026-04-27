@@ -1643,6 +1643,43 @@
       }
     }
   },
+  "HASHBROWN": {
+    "internalName": "HASHBROWN",
+    "reforgeName": "Deep Fried",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "FARMING_TOOL",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY"
+    ],
+    "reforgeCosts": {
+      "COMMON": 20000,
+      "UNCOMMON": 40000,
+      "RARE": 80000,
+      "EPIC": 150000,
+      "LEGENDARY": 300000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "farming_fortune": 3
+      },
+      "UNCOMMON": {
+        "farming_fortune": 6
+      },
+      "RARE": {
+        "farming_fortune": 10
+      },
+      "EPIC": {
+        "farming_fortune": 15
+      },
+      "LEGENDARY": {
+        "farming_fortune": 20
+      }
+    }
+  },
   "HOT_STUFF": {
     "internalName": "HOT_STUFF",
     "reforgeName": "Heated",
