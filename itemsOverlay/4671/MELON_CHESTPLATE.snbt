@@ -1,8 +1,9 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "MELON_HELMET"
+			id: "MELON_CHESTPLATE"
 		},
+		"minecraft:dyed_color": 9018912,
 		"minecraft:tooltip_display": {
 			hidden_components: [
 				"minecraft:jukebox_playable",
@@ -18,10 +19,12 @@
 				"minecraft:block_entity_data",
 				"minecraft:dyed_color"
 			]
+		},
+		"minecraft:unbreakable": {
 		}
 	},
 	count: 1,
-	id: "minecraft:melon",
+	id: "minecraft:leather_chestplate",
 	source: {
 		dataVersion: 4671,
 		modVersion: "Firmament 44.1.0-dev+mc1.21.11+g84c3679e"
