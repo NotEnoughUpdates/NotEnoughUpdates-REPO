@@ -19,15 +19,20 @@
     "https://hypixelskyblock.minecraft.wiki/w/Bayou_Water_Orb",
     "https://wiki.hypixel.net/Bayou_Water_Orb"
   ],
-  "recipe": {
-    "A1": "BUSTED_BELT_BUCKLE:8",
-    "A2": "OLD_LEATHER_BOOT:1",
-    "A3": "ALLIGATOR_SKIN:8",
-    "B1": "BRONZE_BOWL:16",
-    "B2": "WATER_ORB:1",
-    "B3": "TORN_CLOTH:16",
-    "C1": "ENCHANTED_CLAY_BLOCK:1",
-    "C2": "RUSTY_COIN:64",
-    "C3": "POISON_SAMPLE:1"
-  }
+  "recipes": [
+    {
+      "A1": "BUSTED_BELT_BUCKLE:8",
+      "A2": "OLD_LEATHER_BOOT:1",
+      "A3": "ALLIGATOR_SKIN:8",
+      "B1": "BRONZE_BOWL:16",
+      "B2": "WATER_ORB:1",
+      "B3": "TORN_CLOTH:16",
+      "C1": "CONDENSED_WATER_LILY:1",
+      "C2": "RUSTY_COIN:64",
+      "C3": "POISON_SAMPLE:1",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "BAYOU_WATER_ORB"
+    }
+  ]
 }

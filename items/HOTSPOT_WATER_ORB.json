@@ -21,15 +21,20 @@
     "https://hypixelskyblock.minecraft.wiki/w/Hotspot_Water_Orb",
     "https://wiki.hypixel.net/Hotspot_Water_Orb"
   ],
-  "recipe": {
-    "A1": "HALF_EATEN_MUSHROOM:64",
-    "A2": "BLUE_RING:8",
-    "A3": "FRIED_FEATHER:64",
-    "B1": "SINGED_POWDER:8",
-    "B2": "WATER_ORB:1",
-    "B3": "SCORCHED_CRAB_STICK:8",
-    "C1": "ENCHANTED_JUNGLE_LOG:64",
-    "C2": "BROKEN_RADAR:8",
-    "C3": "ENCHANTED_COAL:64"
-  }
+  "recipes": [
+    {
+      "A1": "HALF_EATEN_MUSHROOM:64",
+      "A2": "SCORCHED_CRAB_STICK:8",
+      "A3": "FRIED_FEATHER:64",
+      "B1": "BROKEN_RADAR:8",
+      "B2": "WATER_ORB:1",
+      "B3": "SINGED_POWDER:8",
+      "C1": "INK_SPLAT:16",
+      "C2": "BLUE_RING:8",
+      "C3": "SEARED_ESCARGOT:16",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "HOTSPOT_WATER_ORB"
+    }
+  ]
 }

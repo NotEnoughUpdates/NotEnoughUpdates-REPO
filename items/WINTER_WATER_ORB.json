@@ -20,15 +20,20 @@
     "https://hypixelskyblock.minecraft.wiki/w/Winter_Water_Orb",
     "https://wiki.hypixel.net/Winter_Water_Orb"
   ],
-  "recipe": {
-    "A1": "ICE_HUNK:32",
-    "A2": "ENCHANTED_SNOW_BLOCK:64",
-    "A3": "ICE_HUNK:32",
-    "B1": "WHITE_GIFT:64",
-    "B2": "WATER_ORB:1",
-    "B3": "GREEN_GIFT:16",
-    "C1": "ICE_HUNK:32",
-    "C2": "BLUE_ICE_HUNK:32",
-    "C3": "ICE_HUNK:32"
-  }
+  "recipes": [
+    {
+      "A1": "ICE_HUNK:32",
+      "A2": "ENCHANTED_SNOW_BLOCK:64",
+      "A3": "ICE_HUNK:32",
+      "B1": "WHITE_GIFT:64",
+      "B2": "WATER_ORB:1",
+      "B3": "GREEN_GIFT:16",
+      "C1": "ICE_HUNK:32",
+      "C2": "BLUE_ICE_HUNK:32",
+      "C3": "ICE_HUNK:32",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "WINTER_WATER_ORB"
+    }
+  ]
 }
