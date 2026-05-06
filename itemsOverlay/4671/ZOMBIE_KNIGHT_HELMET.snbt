@@ -1,0 +1,33 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "ZOMBIE_KNIGHT_HELMET"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:painting/variant",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:enchantments",
+				"minecraft:stored_enchantments",
+				"minecraft:trim",
+				"minecraft:jukebox_playable",
+				"minecraft:map_id",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		},
+		"minecraft:unbreakable": {
+		}
+	},
+	count: 1,
+	id: "minecraft:golden_helmet",
+	source: {
+		dataVersion: 4671,
+		modVersion: "Firmament 44.1.0-dev+mc1.21.11+g3b06339"
+	}
+}
