@@ -1,0 +1,44 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "HOTSPOT_TONIC_MIXIN"
+		},
+		"minecraft:profile": {
+			id: [I;
+				-1661964491,
+				-995412188,
+				-1864013429,
+				1658450912
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "KyiUuJ1dSbdMR0jophW0YU1nenKBz8zvHxB59uAzI3zycyprqRnRAll842ugnnZKWE7HgczNq2ORl7W6/9yW9Vo9GtLeCBUS+bIIfFkTBVyt+hB/uMXwE6bJwL+57zHYnk1bwHIjlfMuPBdPQ/fmVDV/7ixTJRa+/xJ5o8I3eOVD94SezBrUnn/llCouDs2WUfoEahiqK0XETPXjZf3cgqjOs8+NkoLizUiDdoCNaegl7PXXMOiPNnQH8MkgU+NeCJEBuELF5Q8o+dphyc5QEKWiAwVpoTDHxoNwwPFWJTv7NqoKzyNeoqR6co+c9rxwRCmDY0/VR03MQT5dZdUqXJKj6ACkZASuo4o11jEZqB4TQxbqRt3XmyWFA8rEzIs51tXYG9vaWydHGCNEJzYD8SMX6jZyTeDK/JpjZ/HAnDS1mp78VmhIoVl89oc+q4NGzkFYerQx7/QusbcI7F5oUclQp7B4K/oXC4xfIFxAr28XiasUtcuy6TDi0Fr25MufqrK/Z9W9FQj+tTdtzEunF/VWLHtJhaPT7QUoAbElx911haW2Qg5GSo9IJx1pz0Q+BMf81R1EtAQjTDNTsHlzfZ0WnEnJcHPjLmLyNugLp+Zy6uGPsSm38OTK3hNob1T3Xi40nznJPr80r954R5w2WOEEfhl0vKHxDo84VNGrIoQ=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTc3MzMyOTEwMzM4NSwKICAicHJvZmlsZUlkIiA6ICIzZmM3ZmRmOTM5NjM0YzQxOTExOTliYTNmN2NjM2ZlZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJZZWxlaGEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjA5NjUxZDVjMjVmODZkYjNkYjExYTZkYzg3OTQ5N2I0ZTExM2E0OGQzY2RjZGY5NmVmMTM0MTk2NzFkOTZmZiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4671,
+		modVersion: "Firmament 44.1.0-dev+mc1.21.11+gf6d72409"
+	}
+}
