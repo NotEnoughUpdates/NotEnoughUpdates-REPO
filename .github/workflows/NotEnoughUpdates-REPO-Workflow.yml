@@ -27,7 +27,7 @@ jobs:
         EVENT: ${{ github.event_name }}
         PR: ${{ github.event.pull_request.head.sha }}
         HEAD: ${{ github.sha }}
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v6
       with: 
         ref: ${{ steps.sha.outputs.sha }}
     - name: run-checks
