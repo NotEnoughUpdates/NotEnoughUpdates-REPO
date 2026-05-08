@@ -2944,14 +2944,14 @@
         "otherNums": [],
         "statNums": {
           "INTELLIGENCE": 0.5,
-          "SPEED": 0.25
+          "SPEED": 1
         }
       },
       "100": {
         "otherNums": [],
         "statNums": {
           "INTELLIGENCE": 50.0,
-          "SPEED": 25.0
+          "SPEED": 100.0
         }
       }
     },
@@ -2960,54 +2960,58 @@
         "otherNums": [],
         "statNums": {
           "INTELLIGENCE": 0.5,
-          "SPEED": 0.25
+          "SPEED": 1.0
         }
       },
       "100": {
         "otherNums": [],
         "statNums": {
           "INTELLIGENCE": 50.0,
-          "SPEED": 25.0
+          "SPEED": 100.0
         }
       }
     },
     "RARE": {
       "1": {
         "otherNums": [
-          1.1
+          1.2,
+          1.05
         ],
         "statNums": {
           "INTELLIGENCE": 0.5,
-          "SPEED": 0.25
+          "SPEED": 1.0
         }
       },
       "100": {
         "otherNums": [
-          110
+          20,
+          5
         ],
         "statNums": {
           "INTELLIGENCE": 50.0,
-          "SPEED": 25.0
+          "SPEED": 100.0
         }
       }
     },
     "EPIC": {
       "1": {
         "otherNums": [
-          1.2
+          1.2,
+          1.05
         ],
         "statNums": {
           "INTELLIGENCE": 0.5,
-          "SPEED": 0.25
+          "SPEED": 1.0
         }
       },
       "100": {
         "otherNums": [
-          120
+          20,
+          5
         ],
         "statNums": {
           "INTELLIGENCE": 50.0,
-          "SPEED": 25.0
+          "SPEED": 100.0
         }
       }
     },
@@ -3015,21 +3019,23 @@
       "1": {
         "otherNums": [
           1.2,
-          0.2
+          1.05,
+          0.5
         ],
         "statNums": {
           "INTELLIGENCE": 0.5,
-          "SPEED": 0.25
+          "SPEED": 1.0
         }
       },
       "100": {
         "otherNums": [
-          120,
-          25
+          20,
+          5,
+          5
         ],
         "statNums": {
           "INTELLIGENCE": 50.0,
-          "SPEED": 25.0
+          "SPEED": 100.0
         }
       }
     }
@@ -5350,22 +5356,24 @@
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          1.5,
-          0.4
+          0.1,
+          1,
+          0.8
         ],
         "statNums": {
-          "INTELLIGENCE": 1.0,
-          "SPEED": 0.5
+          "INTELLIGENCE": 0.75,
+          "SPEED": 1.5
         }
       },
       "100": {
         "otherNums": [
-          150,
-          40
+          1,
+          10,
+          7
         ],
         "statNums": {
-          "INTELLIGENCE": 100.0,
-          "SPEED": 50.0
+          "INTELLIGENCE": 75,
+          "SPEED": 150
         }
       }
     }
