@@ -1,7 +1,9 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "PAINT_CARTRIDGE"
+			id: "PAINT_CARTRIDGE",
+			raffle_win: "year_400_small_58",
+			raffle_year: 400
 		},
 		"minecraft:profile": {
 			id: [I;
@@ -10,7 +12,6 @@
 				-1963687565,
 				-1157609062
 			],
-			name: "",
 			properties: [
 				{
 					name: "textures",
@@ -21,6 +22,17 @@
 		},
 		"minecraft:tooltip_display": {
 			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
 				"minecraft:dyed_color"
 			]
 		}
@@ -28,7 +40,7 @@
 	count: 1,
 	id: "minecraft:player_head",
 	source: {
-		dataVersion: 4325,
-		modVersion: "Firmament 3.2.0-dev+mc1.21.5+gb028db5"
+		dataVersion: 4671,
+		modVersion: "Firmament 44.1.0-dev+mc1.21.11+g3b06339"
 	}
 }
