@@ -1,17 +1,20 @@
 {
   "itemid": "minecraft:hay_block",
   "displayname": "§fHay Bale",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§f§lCOMMON\"],Name:\"§fHay Bale\"},ExtraAttributes:{id:\"HAY_BLOCK\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"HAY_BLOCK\"},HideFlags:254,ItemModel:\"minecraft:hay_block\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fHay Bale\"}}",
   "damage": 0,
   "lore": [
-    "§7§8Collection Item",
-    "",
     "§f§lCOMMON"
   ],
   "internalname": "HAY_BLOCK",
-  "modver": "2.2.2",
-  "vanilla": true,
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Hay_Bale"
+  ],
+  "vanilla": true,
   "recipe": {
     "A1": "WHEAT:1",
     "A2": "WHEAT:1",
@@ -22,10 +25,5 @@
     "C1": "WHEAT:1",
     "C2": "WHEAT:1",
     "C3": "WHEAT:1"
-  },
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://wiki.hypixel.net/Hay_Bale"
-  ],
-  "crafttext": ""
+  }
 }
