@@ -1,19 +1,20 @@
 {
   "itemid": "minecraft:sand",
   "displayname": "§fRed Sand",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§8Brewing Ingredient\",1:\"§7§8Collection Item\",2:\"\",3:\"§f§lCOMMON BLOCK\"],Name:\"§fRed Sand\"},ExtraAttributes:{id:\"SAND-1\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SAND-1\"},HideFlags:254,ItemModel:\"minecraft:red_sand\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§8Collection Item\",2:\"\",3:\"§f§lCOMMON BLOCK\"],Name:\"§fRed Sand\"}}",
   "damage": 1,
   "lore": [
-    "§7§8Brewing Ingredient",
-    "§7§8Collection Item",
+    "§8Brewing Ingredient",
+    "§8Collection Item",
     "",
     "§f§lCOMMON BLOCK"
   ],
-  "parent": "SAND",
   "internalname": "SAND-1",
-  "modver": "",
-  "vanilla": true,
   "clickcommand": "",
   "crafttext": "",
-  "infoType": ""
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "",
+  "info": [],
+  "parent": "SAND",
+  "vanilla": true
 }

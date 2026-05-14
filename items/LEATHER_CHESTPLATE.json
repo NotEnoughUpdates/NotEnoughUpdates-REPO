@@ -1,17 +1,22 @@
 {
   "itemid": "minecraft:leather_chestplate",
   "displayname": "§fLeather Chestplate",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+15\",1:\"\",2:\"§7§8This item can be reforged!\",3:\"§f§lCOMMON CHESTPLATE\"],Name:\"§fLeather Chestplate\"},ExtraAttributes:{color:\"160:101:64\",originTag:\"CRAFTING_GRID_COLLECT\",id:\"LEATHER_CHESTPLATE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"LEATHER_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:leather_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+15\",1:\"\",2:\"§8This item can be reforged!\",3:\"§f§lCOMMON CHESTPLATE\"],Name:\"§fLeather Chestplate\"}}",
   "damage": 0,
   "lore": [
     "§7Defense: §a+15",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§f§lCOMMON CHESTPLATE"
   ],
   "internalname": "LEATHER_CHESTPLATE",
-  "crafttext": "",
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Leather_Chestplate"
+  ],
   "recipe": {
     "A1": "LEATHER:1",
     "A2": "",
@@ -23,10 +28,5 @@
     "C2": "LEATHER:1",
     "C3": "LEATHER:1"
   },
-  "modver": "2.1.0-REL",
-  "vanilla": true,
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://wiki.hypixel.net/Leather_Chestplate"
-  ]
+  "vanilla": true
 }
