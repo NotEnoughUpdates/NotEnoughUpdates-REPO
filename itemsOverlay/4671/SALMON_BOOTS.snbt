@@ -1,8 +1,11 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "LEATHER_LEGGINGS"
+			color: "193:60:15",
+			id: "SALMON_BOOTS",
+			originTag: "CRAFTING_GRID_COLLECT"
 		},
+		"minecraft:dyed_color": 12663823,
 		"minecraft:tooltip_display": {
 			hidden_components: [
 				"minecraft:jukebox_playable",
@@ -23,9 +26,9 @@
 		}
 	},
 	count: 1,
-	id: "minecraft:leather_leggings",
+	id: "minecraft:leather_boots",
 	source: {
-		dataVersion: 4325,
-		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
+		dataVersion: 4671,
+		modVersion: "Firmament 44.1.0-dev+mc1.21.11+g3b06339"
 	}
 }

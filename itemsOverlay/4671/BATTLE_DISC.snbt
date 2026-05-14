@@ -1,8 +1,9 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "SKELETON_HAT"
+			id: "BATTLE_DISC"
 		},
+		"minecraft:jukebox_playable": "minecraft:13",
 		"minecraft:tooltip_display": {
 			hidden_components: [
 				"minecraft:jukebox_playable",
@@ -21,7 +22,7 @@
 		}
 	},
 	count: 1,
-	id: "minecraft:skeleton_skull",
+	id: "minecraft:music_disc_13",
 	source: {
 		dataVersion: 4671,
 		modVersion: "Firmament 44.1.0-dev+mc1.21.11+g3b06339"

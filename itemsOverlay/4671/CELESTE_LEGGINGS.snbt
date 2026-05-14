@@ -1,8 +1,9 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "ZOMBIE_TALISMAN"
+			id: "CELESTE_LEGGINGS"
 		},
+		"minecraft:dyed_color": 16748234,
 		"minecraft:tooltip_display": {
 			hidden_components: [
 				"minecraft:jukebox_playable",
@@ -18,12 +19,14 @@
 				"minecraft:block_entity_data",
 				"minecraft:dyed_color"
 			]
+		},
+		"minecraft:unbreakable": {
 		}
 	},
 	count: 1,
-	id: "minecraft:zombie_head",
+	id: "minecraft:leather_leggings",
 	source: {
-		dataVersion: 4556,
-		modVersion: "Firmament 43.0.0+mc1.21.10"
+		dataVersion: 4671,
+		modVersion: "Firmament 44.1.0-dev+mc1.21.11+g3b06339"
 	}
 }

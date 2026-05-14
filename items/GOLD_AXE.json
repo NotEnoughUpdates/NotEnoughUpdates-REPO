@@ -1,18 +1,23 @@
 {
   "itemid": "minecraft:golden_axe",
   "displayname": "§fGolden Axe",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Damage: §c+20\",1:\"\",2:\"§7§8This item can be reforged!\",3:\"§f§lCOMMON AXE\"],Name:\"§fGolden Axe\"},ExtraAttributes:{id:\"GOLD_AXE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"GOLD_AXE\"},HideFlags:254,ItemModel:\"minecraft:golden_axe\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+20\",1:\"\",2:\"§8This item can be reforged!\",3:\"§f§lCOMMON AXE\"],Name:\"§fGolden Axe\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+20",
     "",
-    "§7§8This item can be reforged!",
+    "§8This item can be reforged!",
     "§f§lCOMMON AXE"
   ],
   "internalname": "GOLD_AXE",
-  "modver": "2.1.0-REL",
-  "vanilla": true,
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Golden_Axe"
+  ],
+  "vanilla": true,
   "recipe": {
     "A1": "GOLD_INGOT:1",
     "A2": "GOLD_INGOT:1",
@@ -23,10 +28,5 @@
     "C1": "",
     "C2": "STICK:1",
     "C3": ""
-  },
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://wiki.hypixel.net/Golden_Axe"
-  ]
+  }
 }

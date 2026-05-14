@@ -1,7 +1,7 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "SKELETON_HAT"
+			id: "LEATHER_HELMET"
 		},
 		"minecraft:tooltip_display": {
 			hidden_components: [
@@ -18,10 +18,12 @@
 				"minecraft:block_entity_data",
 				"minecraft:dyed_color"
 			]
+		},
+		"minecraft:unbreakable": {
 		}
 	},
 	count: 1,
-	id: "minecraft:skeleton_skull",
+	id: "minecraft:leather_helmet",
 	source: {
 		dataVersion: 4671,
 		modVersion: "Firmament 44.1.0-dev+mc1.21.11+g3b06339"

@@ -1,13 +1,8 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			enchantments: {
-				growth: 1,
-				protection: 1
-			},
-			id: "CHAINMAIL_HELMET"
+			id: "IRON_CHESTPLATE"
 		},
-		"minecraft:enchantment_glint_override": 1b,
 		"minecraft:tooltip_display": {
 			hidden_components: [
 				"minecraft:jukebox_playable",
@@ -28,9 +23,9 @@
 		}
 	},
 	count: 1,
-	id: "minecraft:chainmail_helmet",
+	id: "minecraft:iron_chestplate",
 	source: {
-		dataVersion: 4325,
-		modVersion: "Firmament 3.7.1-dev+mc1.21.5+gf7e1a13"
+		dataVersion: 4671,
+		modVersion: "Firmament 44.1.0-dev+mc1.21.11+g3b06339"
 	}
 }
