@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:cooked_fish",
   "displayname": "§9Filet O' Fortune",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§8Consumable\",1:\"\",2:\"§7Effect: §6+20☘ Mining Fortune\",3:\"§7Duration: §a60m\",4:\"\",5:\"§eRight-click to consume!\",6:\"\",7:\"§9§lRARE\"],Name:\"§9Filet O' Fortune\"},ExtraAttributes:{id:\"FILET_O_FORTUNE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"FILET_O_FORTUNE\"},HideFlags:254,ItemModel:\"minecraft:cooked_cod\",display:{Lore:[0:\"§8Consumable\",1:\"\",2:\"§7Effect: §6+20☘ Mining Fortune\",3:\"§7Duration: §a60m\",4:\"\",5:\"§eRight-click to consume!\",6:\"\",7:\"§4❣ §cRequires §5Heart of the Mountain Tier 4§c.\",8:\"§9§lRARE\"],Name:\"§9Filet O' Fortune\"}}",
   "damage": 0,
   "lore": [
     "§8Consumable",
@@ -11,12 +11,13 @@
     "",
     "§eRight-click to consume!",
     "",
+    "§4❣ §cRequires §5Heart of the Mountain Tier 4§c.",
     "§9§lRARE"
   ],
   "internalname": "FILET_O_FORTUNE",
-  "crafttext": "",
   "clickcommand": "",
-  "modver": "",
+  "crafttext": "Requires: Heart of the Mountain Tier 4",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+gf6d72409",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Filet_O%27_Fortune",

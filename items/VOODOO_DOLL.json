@@ -1,25 +1,31 @@
 {
   "itemid": "minecraft:fish",
   "displayname": "§9Voodoo Doll",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§6Ability: Acupuncture §e§lRIGHT CLICK\",1:\"§7Shoot arrows from every\",2:\"§7direction around the targeted\",3:\"§7monster.\",4:\"§7\",5:\"§7Monsters hit by at least one\",6:\"§7arrow are slowed and receive\",7:\"§7§c70,058.8 §7damage/s for\",8:\"§7§a10s§7.\",9:\"§8Mana Cost: §3200\",10:\"§8Cooldown: §a5s\",11:\"\",12:\"§8Who do you voodoo?\",13:\"\",14:\"§7§4☠ §cRequires §5Zombie Slayer 5§c.\",15:\"§9§lRARE\"],Name:\"§9Voodoo Doll\"},ExtraAttributes:{id:\"VOODOO_DOLL\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"VOODOO_DOLL\",originTag:\"QUICK_CRAFTING\"},HideFlags:254,ItemModel:\"minecraft:pufferfish\",display:{Lore:[0:\"§6Ability: Acupuncture  §e§lRIGHT CLICK\",1:\"§7Shoot arrows from every direction around\",2:\"§7the targeted monster.\",3:\"\",4:\"§7Monsters hit by at least one arrow are slowed\",5:\"§7and receive §c1,500 §7damage/s for §a10s§7.\",6:\"§8Mana Cost: §3200\",7:\"§8Cooldown: §a5s\",8:\"\",9:\"§8Who do you voodoo?\",10:\"\",11:\"§4☠ §cRequires §5Zombie Slayer 5§c.\",12:\"§9§lRARE\"],Name:\"§9Voodoo Doll\"},ench:[]}",
   "damage": 3,
   "lore": [
-    "§6Ability: Acupuncture §e§lRIGHT CLICK",
-    "§7Shoot arrows from every",
-    "§7direction around the targeted",
-    "§7monster.",
-    "§7",
-    "§7Monsters hit by at least one",
-    "§7arrow are slowed and receive",
-    "§7§c70,058.8 §7damage/s for",
-    "§7§a10s§7.",
+    "§6Ability: Acupuncture  §e§lRIGHT CLICK",
+    "§7Shoot arrows from every direction around",
+    "§7the targeted monster.",
+    "",
+    "§7Monsters hit by at least one arrow are slowed",
+    "§7and receive §c1,500 §7damage/s for §a10s§7.",
     "§8Mana Cost: §3200",
     "§8Cooldown: §a5s",
     "",
     "§8Who do you voodoo?",
     "",
-    "§7§4☠ §cRequires §5Zombie Slayer 5§c.",
+    "§4☠ §cRequires §5Zombie Slayer 5§c.",
     "§9§lRARE"
+  ],
+  "internalname": "VOODOO_DOLL",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Zombie Slayer 5",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+gf6d72409",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Voodoo_Doll",
+    "https://wiki.hypixel.net/Voodoo_Doll"
   ],
   "recipe": {
     "A1": "ARROW:64",
@@ -32,14 +38,5 @@
     "C2": "CRYSTALLIZED_HEART:1",
     "C3": "ARROW:64"
   },
-  "slayer_req": "ZOMBIE_5",
-  "internalname": "VOODOO_DOLL",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixelskyblock.minecraft.wiki/w/Voodoo_Doll",
-    "https://wiki.hypixel.net/Voodoo_Doll"
-  ],
-  "crafttext": "Requires: Zombie Slayer 5"
+  "slayer_req": "ZOMBIE_5"
 }
