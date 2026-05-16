@@ -1,25 +1,31 @@
 {
   "itemid": "minecraft:fish",
   "displayname": "§5Jinxed Voodoo Doll",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§6Ability: Acupuncture §e§lRIGHT CLICK\",1:\"§7Shoot arrows from every\",2:\"§7direction around the targeted\",3:\"§7monster.\",4:\"§7\",5:\"§7Monsters hit by at least one\",6:\"§7arrow are slowed and receive\",7:\"§7§c70,058.8 §7damage/s for\",8:\"§7§a10s§7.\",9:\"§8Mana Cost: §3180\",10:\"§8Cooldown: §a3s\",11:\"\",12:\"§8Who do you voodoo?\",13:\"\",14:\"§7§4☠ §cRequires §5Zombie Slayer 5§c.\",15:\"§5§lEPIC\"],Name:\"§5Jinxed Voodoo Doll\"},ExtraAttributes:{id:\"VOODOO_DOLL_WILTED\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"VOODOO_DOLL_WILTED\"},HideFlags:254,ItemModel:\"minecraft:pufferfish\",display:{Lore:[0:\"§6Ability: Acupuncture  §e§lRIGHT CLICK\",1:\"§7Shoot arrows from every direction around\",2:\"§7the targeted monster.\",3:\"\",4:\"§7Monsters hit by at least one arrow are slowed\",5:\"§7and receive §c2,222 §7damage/s for §a12s§7.\",6:\"§8Mana Cost: §3180\",7:\"§8Cooldown: §a3s\",8:\"\",9:\"§8Who do you voodoo?\",10:\"\",11:\"§4☠ §cRequires §5Zombie Slayer 5§c.\",12:\"§5§lEPIC\"],Name:\"§5Jinxed Voodoo Doll\"},ench:[]}",
   "damage": 3,
   "lore": [
-    "§6Ability: Acupuncture §e§lRIGHT CLICK",
-    "§7Shoot arrows from every",
-    "§7direction around the targeted",
-    "§7monster.",
-    "§7",
-    "§7Monsters hit by at least one",
-    "§7arrow are slowed and receive",
-    "§7§c70,058.8 §7damage/s for",
-    "§7§a10s§7.",
+    "§6Ability: Acupuncture  §e§lRIGHT CLICK",
+    "§7Shoot arrows from every direction around",
+    "§7the targeted monster.",
+    "",
+    "§7Monsters hit by at least one arrow are slowed",
+    "§7and receive §c2,222 §7damage/s for §a12s§7.",
     "§8Mana Cost: §3180",
     "§8Cooldown: §a3s",
     "",
     "§8Who do you voodoo?",
     "",
-    "§7§4☠ §cRequires §5Zombie Slayer 5§c.",
+    "§4☠ §cRequires §5Zombie Slayer 5§c.",
     "§5§lEPIC"
+  ],
+  "internalname": "VOODOO_DOLL_WILTED",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Wilted Berberis III",
+  "modver": "Firmament 44.2.0-dev+mc1.21.11+g610fbd78",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Jinxed_Voodoo_Doll",
+    "https://wiki.hypixel.net/Jinxed_Voodoo_Doll"
   ],
   "recipe": {
     "A1": "WILTED_BERBERIS_BUNCH:16",
@@ -31,14 +37,5 @@
     "C1": "ZOMBIE_HEART:1",
     "C2": "WILTED_BERBERIS_BUNCH:16",
     "C3": "VOODOO_DOLL:1"
-  },
-  "internalname": "VOODOO_DOLL_WILTED",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "Requires: Wilted Berberis III",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixelskyblock.minecraft.wiki/w/Jinxed_Voodoo_Doll",
-    "https://wiki.hypixel.net/Jinxed_Voodoo_Doll"
-  ]
+  }
 }
