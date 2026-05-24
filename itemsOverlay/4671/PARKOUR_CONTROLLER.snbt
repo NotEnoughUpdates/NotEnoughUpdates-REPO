@@ -1,10 +1,8 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			color: "168:43:118",
-			id: "SALMON_CHESTPLATE"
+			id: "PARKOUR_CONTROLLER"
 		},
-		"minecraft:dyed_color": 11021174,
 		"minecraft:tooltip_display": {
 			hidden_components: [
 				"minecraft:jukebox_playable",
@@ -20,14 +18,12 @@
 				"minecraft:block_entity_data",
 				"minecraft:dyed_color"
 			]
-		},
-		"minecraft:unbreakable": {
 		}
 	},
 	count: 1,
-	id: "minecraft:leather_chestplate",
+	id: "minecraft:light_weighted_pressure_plate",
 	source: {
 		dataVersion: 4671,
-		modVersion: "Firmament 44.1.0-dev+mc1.21.11+g3b06339"
+		modVersion: "Firmament 44.2.0+mc1.21.11"
 	}
 }
