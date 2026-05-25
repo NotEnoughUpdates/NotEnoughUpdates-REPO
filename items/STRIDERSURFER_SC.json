@@ -12,9 +12,80 @@
     "§9§lRARE"
   ],
   "internalname": "STRIDERSURFER_SC",
-  "clickcommand": "",
+  "clickcommand": "viewrecipe",
   "crafttext": "",
   "modver": "Firmament 44.2.0-dev+mc1.21.11+ga2a6cfec",
-  "infoType": "",
-  "info": []
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Stridersurfer",
+    "https://wiki.hypixel.net/Stridersurfer"
+  ],
+  "recipes": [
+    {
+      "level": 20,
+      "coins": 50,
+      "xp": 35,
+      "combat_xp": 100,
+      "name": "§cStridersurfer",
+      "render": "@neurepo:mobs/stridersurfer.json",
+      "panorama": "foraging_2",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "GILL_MEMBRANE:1",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "STURDY_BONE:1",
+          "extra": [],
+          "chance": "40%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_MAGMATIC_RULER;1:1",
+          "extra": [
+            " §7- §7Catch with §cPocket Black Hole§7.",
+            " §7- §7Kill Strider Surfer§7 or Strider while using §cSalts",
+            " §7- §7Place §cTraps §7in §6Stride-Ember Fissure§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    },
+    {
+      "level": 21,
+      "coins": 50,
+      "xp": 35,
+      "combat_xp": 800,
+      "name": "§cStridersurfer (Sea Creature)",
+      "render": "@neurepo:mobs/stridersurfer.json",
+      "panorama": "foraging_2",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "GILL_MEMBRANE:1",
+          "extra": [],
+          "chance": "100%"
+        },
+        {
+          "id": "STURDY_BONE:1",
+          "extra": [],
+          "chance": "40%"
+        },
+        {
+          "id": "DYE_CARMINE",
+          "chance": "0.00002%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_MAGMATIC_RULER;1:1",
+          "extra": [
+            " §7- §7Catch with §cPocket Black Hole§7.",
+            " §7- §7Kill Strider Surfer§7 or Strider while using §cSalts",
+            " §7- §7Place §cTraps §7in §6Stride-Ember Fissure§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
 }
