@@ -15,7 +15,7 @@
   "modver": "Firmament 44.2.0-dev+mc1.21.11+ga2a6cfec",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixelskyblock.minecraft.wiki/w/Nutcracker",
+    "https://hypixelskyblock.minecraft.wiki/w/Nutcracker_(mob)",
     "https://wiki.hypixel.net/Nutcracker"
   ],
   "recipes": [
@@ -33,20 +33,27 @@
       ],
       "drops": [
         {
-          "id": "RED_GIFT:2",
+          "id": "RED_GIFT:1",
           "chance": "100%"
         },
         {
-          "id": "WALNUT",
+          "id": "ESSENCE_ICE",
+          "chance": "100%",
+          "extra": [
+            "§eDrop Count: §7x12-24"
+          ]
+        },
+        {
+          "id": "ENCHANTED_ICE:1",
           "chance": "100%"
         },
         {
-          "id": "ENCHANTED_WATER_LILY:2",
-          "chance": "100%"
+          "id": "WALNUT:1",
+          "chance": "10%"
         },
         {
-          "id": "WATER_LILY",
-          "chance": "50%"
+          "id": "ENCHANTED_PACKED_ICE:1",
+          "chance": "2%"
         },
         {
           "id": "DYE_ICEBERG",
