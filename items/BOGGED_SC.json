@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§3Bogged (Sea Creature)",
-  "nbttag": "{ExtraAttributes:{id:\"BOGGED_SC\"},HideFlags:254,SkullOwner:{Id:\"96240cd8-ce57-3364-a480-57aebf107be8\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxMzk1ODQ4NzgzNSwKICAicHJvZmlsZUlkIiA6ICI0MDNlYmEzYjhkODg0MDVlYjhjMDlkNTQ4NmFjYzdiZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJWb3J0ZXh0dHYiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTNiOTAwM2JhMmQwNTU2MmM3NTExOWI4YTYyMTg1YzY3MTMwZTkyODJmN2FjYmFjNGJjMjgyNGMyMWViOTVkOSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Mob Type: §f🦴 Skeletal§7, §9⚓ Aquatic\",1:\"§c❤ Health§8: §c3,000\",2:\"§c❁ Damage§8: §c100\",3:\"\",4:\"§f§lCOMMON\"],Name:\"§3Bogged (Sea Creature)\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"BOGGED_SC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"96240cd8-ce57-3364-a480-57aebf107be8\",Properties:{textures:[0:{Name:\"textures\",Signature:\"YWnXScJjBKxWrc2DLGX0jDz6SX7Ve2pXYDK1pS7gbAEKOO+xmC/cZSvQp3d2DUYAdqpRQcAtwVpf1dJzQkDJamDRSB38wtXIKJGAttl/S+Pmamg3dnlrY27WePtzqfi4vXJAEyyNRBvH33zJUuPjnabZ4H2rCqMjoZIJnoiBDywjLXBMpJ80YmiyZ2wc1sohC7rZgY/6ajM6LHF6otNIPqjuAzPWeSzyviUl2zSyQqQgq+sYp+edd9Lfg5x8/UAJdER1lbu0A+6UtOpJQJhmsWgzRSTrwpBisguCPPcnUBmJTeIPYkJJS7cPg2P/PUq+zrU/tJoCqzejaAM4mLSTBzQMuYX//wUHmJaa53vPDIGmsMSetoagCuBO0iMOGGflh4LBKI3loTyThXNnwSbyvVqu5ZlRivY6QFYNj0iS7ku8aRgbfs16lydnURKJz7O5vLQmVegmjYGGzptSdrUJZwb7hkAtadyffdX66IZqM8fmt4jby/i4RziKnRUGBFS3K4+y0LRtd/n2FtTMcGzPQi0QWtkwuNpr6zyvBZgrxVQ6oRS93UCTsfFBcGDWdNe8UxnDQYzuwq8y7MeixZd1/ZhubWfqyJ6epGdqJ6nbv7ZIJMpfXxKb2sRaSGXOHwkixqOxfWjz7T7ClTYvDqtxx9TggdvJj5gnC2R5h+c2yv4=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxMzk1ODQ4NzgzNSwKICAicHJvZmlsZUlkIiA6ICI0MDNlYmEzYjhkODg0MDVlYjhjMDlkNTQ4NmFjYzdiZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJWb3J0ZXh0dHYiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTNiOTAwM2JhMmQwNTU2MmM3NTExOWI4YTYyMTg1YzY3MTMwZTkyODJmN2FjYmFjNGJjMjgyNGMyMWViOTVkOSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §f🦴 Skeletal§7, §9⚓ Aquatic\",1:\"§c❤ Health§8: §c3,000\",2:\"§c❁ Damage§8: §c100\",3:\"\",4:\"§f§lCOMMON\"],Name:\"§3Bogged (Sea Creature)\"}}",
   "damage": 3,
   "lore": [
-    "§7Mob Type: §f🦴 Skeletal§7, §9⚓ Aquatic",
+    "§7Mob Types: §f🦴 Skeletal§7, §9⚓ Aquatic",
     "§c❤ Health§8: §c3,000",
     "§c❁ Damage§8: §c100",
     "",
@@ -12,13 +12,13 @@
   ],
   "internalname": "BOGGED_SC",
   "clickcommand": "viewrecipe",
-  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc1.21.11+ga2a6cfec",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Bogged",
     "https://wiki.hypixel.net/Bogged"
   ],
-  "crafttext": "",
   "recipes": [
     {
       "level": 1,

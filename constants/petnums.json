@@ -2120,9 +2120,9 @@
           1.1
         ],
         "statNums": {
-          "SPEED": 0.1,
-          "FISHING_SPEED": 0.5,
-          "RESPIRATION": 0.4
+          "SPEED": 0.5,
+          "FISHING_SPEED": 0.4,
+          "RESPIRATION": 0.1
         }
       },
       "100": {
@@ -2130,9 +2130,9 @@
           10
         ],
         "statNums": {
-          "SPEED": 10,
-          "FISHING_SPEED": 50,
-          "RESPIRATION": 40
+          "SPEED": 50,
+          "FISHING_SPEED": 40,
+          "RESPIRATION": 10
         }
       }
     },
@@ -2142,9 +2142,9 @@
           1.1
         ],
         "statNums": {
-          "SPEED": 0.1,
-          "FISHING_SPEED": 0.5,
-          "RESPIRATION": 0.4
+          "SPEED": 0.5,
+          "FISHING_SPEED": 0.4,
+          "RESPIRATION": 0.1
         }
       },
       "100": {
@@ -2152,9 +2152,9 @@
           10
         ],
         "statNums": {
-          "SPEED": 10,
-          "FISHING_SPEED": 50,
-          "RESPIRATION": 40
+          "SPEED": 50,
+          "FISHING_SPEED": 40,
+          "RESPIRATION": 10
         }
       }
     },
@@ -2164,9 +2164,9 @@
           1.1
         ],
         "statNums": {
-          "SPEED": 0.1,
-          "FISHING_SPEED": 0.5,
-          "RESPIRATION": 0.4
+          "SPEED": 0.5,
+          "FISHING_SPEED": 0.4,
+          "RESPIRATION": 0.1
         }
       },
       "100": {
@@ -2174,9 +2174,9 @@
           10
         ],
         "statNums": {
-          "SPEED": 10,
-          "FISHING_SPEED": 50,
-          "RESPIRATION": 40
+          "SPEED": 50,
+          "FISHING_SPEED": 40,
+          "RESPIRATION": 10
         }
       }
     },
@@ -2187,9 +2187,9 @@
           1.79
         ],
         "statNums": {
-          "SPEED": 0.1,
-          "FISHING_SPEED": 0.5,
-          "RESPIRATION": 0.4
+          "SPEED": 0.5,
+          "FISHING_SPEED": 0.4,
+          "RESPIRATION": 0.1
         }
       },
       "100": {
@@ -2198,9 +2198,9 @@
           80
         ],
         "statNums": {
-          "SPEED": 10,
-          "FISHING_SPEED": 50,
-          "RESPIRATION": 40
+          "SPEED": 50,
+          "FISHING_SPEED": 40,
+          "RESPIRATION": 10
         }
       }
     },
@@ -2212,9 +2212,9 @@
           1.09
         ],
         "statNums": {
-          "SPEED": 0.1,
-          "FISHING_SPEED": 0.5,
-          "RESPIRATION": 0.4
+          "SPEED": 0.5,
+          "FISHING_SPEED": 0.4,
+          "RESPIRATION": 0.1
         }
       },
       "100": {
@@ -2224,9 +2224,41 @@
           10
         ],
         "statNums": {
-          "SPEED": 10,
-          "FISHING_SPEED": 50,
-          "RESPIRATION": 40
+          "SPEED": 50,
+          "FISHING_SPEED": 40,
+          "RESPIRATION": 10
+        }
+      }
+    },
+    "MYTHIC": {
+      "1": {
+        "otherNums": [
+          1.1,
+          1.79,
+          1.09,
+          0.12,
+          0.1
+        ],
+        "statNums": {
+          "SPEED": 0.5,
+          "FISHING_SPEED": 0.4,
+          "TROPHY_CHANCE": 0.05,
+          "RESPIRATION": 0.1
+        }
+      },
+      "100": {
+        "otherNums": [
+          10,
+          80,
+          10,
+          2,
+          10
+        ],
+        "statNums": {
+          "SPEED": 50,
+          "FISHING_SPEED": 40,
+          "TROPHY_CHANCE": 5,
+          "RESPIRATION": 10
         }
       }
     }
@@ -5676,22 +5708,24 @@
         "otherNums": [
           0.1,
           0.1,
-          0.8
+          0.5
         ],
         "statNums": {
-          "SEA_CREATURE_CHANCE": 0.08,
-          "FISHING_SPEED": 0.25
+          "FISHING_SPEED": 0.5,
+          "SEA_CREATURE_CHANCE": 0.05,
+          "TROPHY_CHANCE": 0.05
         }
       },
       "100": {
         "otherNums": [
-          15,
-          8,
-          75
+          10,
+          10,
+          50
         ],
         "statNums": {
-          "SEA_CREATURE_CHANCE": 8,
-          "FISHING_SPEED": 25
+          "FISHING_SPEED": 50,
+          "SEA_CREATURE_CHANCE": 5,
+          "TROPHY_CHANCE": 5
         }
       }
     }
