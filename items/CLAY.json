@@ -1,15 +1,21 @@
 {
   "itemid": "minecraft:clay",
   "displayname": "§fClay",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fClay\"},ExtraAttributes:{id:\"CLAY\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"CLAY\"},HideFlags:254,ItemModel:\"minecraft:clay\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fClay\"}}",
   "damage": 0,
   "lore": [
     "§f§lCOMMON"
   ],
   "internalname": "CLAY",
-  "modver": "2.1.0-REL",
-  "vanilla": true,
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Clay_Block",
+    "https://hypixelskyblock.minecraft.wiki/w/Clay"
+  ],
+  "vanilla": true,
   "recipe": {
     "A1": "CLAY_BALL:1",
     "A2": "CLAY_BALL:1",
@@ -20,10 +26,5 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  },
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://wiki.hypixel.net/Clay_Block",
-    "https://hypixelskyblock.minecraft.wiki/w/Clay"
-  ]
+  }
 }

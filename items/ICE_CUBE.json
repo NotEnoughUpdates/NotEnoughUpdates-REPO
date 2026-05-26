@@ -1,13 +1,22 @@
 {
   "itemid": "minecraft:packed_ice",
   "displayname": "§9Ice Cube",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Prevents all ice from melting on\",1:\"§7your private island.\",2:\"\",3:\"§9§lRARE\"],Name:\"§9Ice Cube\"},ExtraAttributes:{id:\"ICE_CUBE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"ICE_CUBE\"},HideFlags:254,ItemModel:\"minecraft:packed_ice\",display:{Lore:[0:\"§7Prevents all ice from melting on your\",1:\"§7private island.\",2:\"\",3:\"§9§lRARE\"],Name:\"§9Ice Cube\"}}",
   "damage": 0,
   "lore": [
-    "§7Prevents all ice from melting on",
-    "§7your private island.",
+    "§7Prevents all ice from melting on your",
+    "§7private island.",
     "",
     "§9§lRARE"
+  ],
+  "internalname": "ICE_CUBE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Ice VII",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Ice_Cube",
+    "https://wiki.hypixel.net/Ice_Cube"
   ],
   "recipe": {
     "A1": "ENCHANTED_ICE:1",
@@ -19,14 +28,5 @@
     "C1": "ENCHANTED_ICE:1",
     "C2": "ENCHANTED_ICE:1",
     "C3": "ENCHANTED_ICE:1"
-  },
-  "internalname": "ICE_CUBE",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "Requires: Ice VII",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixelskyblock.minecraft.wiki/w/Ice_Cube",
-    "https://wiki.hypixel.net/Ice_Cube"
-  ]
+  }
 }

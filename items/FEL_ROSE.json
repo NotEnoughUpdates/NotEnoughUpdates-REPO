@@ -1,12 +1,21 @@
 {
   "itemid": "minecraft:red_flower",
   "displayname": "§5Fel Rose",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§5§lEPIC DUNGEON ITEM\"],Name:\"§5Fel Rose\"},ExtraAttributes:{id:\"FEL_ROSE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"FEL_ROSE\"},HideFlags:254,ItemModel:\"minecraft:blue_orchid\",display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§5§lEPIC DUNGEON ITEM\"],Name:\"§5Fel Rose\"}}",
   "damage": 1,
   "lore": [
     "§eRight-click to view recipes!",
     "",
     "§5§lEPIC DUNGEON ITEM"
+  ],
+  "internalname": "FEL_ROSE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Fel_Rose",
+    "https://wiki.hypixel.net/Fel_Rose"
   ],
   "recipe": {
     "A1": "",
@@ -18,14 +27,5 @@
     "C1": "",
     "C2": "FEL_PEARL:4",
     "C3": ""
-  },
-  "internalname": "FEL_ROSE",
-  "clickcommand": "viewrecipe",
-  "modver": "2.1.1-PRE",
-  "crafttext": "",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixelskyblock.minecraft.wiki/w/Fel_Rose",
-    "https://wiki.hypixel.net/Fel_Rose"
-  ]
+  }
 }

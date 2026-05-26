@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:diamond_shovel",
   "displayname": "§aDiamond Shovel",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+30\",1:\"\",2:\"§a§lUNCOMMON SHOVEL\"],Name:\"§aDiamond Shovel\"},ExtraAttributes:{id:\"DIAMOND_SPADE\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"DIAMOND_SPADE\"},HideFlags:254,ItemModel:\"minecraft:diamond_shovel\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+30\",1:\"\",2:\"§a§lUNCOMMON SHOVEL\"],Name:\"§aDiamond Shovel\"}}",
   "damage": 0,
   "lore": [
     "§7Damage: §c+30",
@@ -9,11 +9,14 @@
     "§a§lUNCOMMON SHOVEL"
   ],
   "internalname": "DIAMOND_SPADE",
-  "vanilla": true,
-  "crafttext": "",
   "clickcommand": "viewrecipe",
-  "modver": "2.1.0-REL",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
   "infoType": "WIKI_URL",
+  "info": [
+    "https://wiki.hypixel.net/Diamond_Shovel"
+  ],
+  "vanilla": true,
   "recipe": {
     "A1": "DIAMOND:1",
     "A2": "",
@@ -24,8 +27,5 @@
     "C1": "STICK:1",
     "C2": "",
     "C3": ""
-  },
-  "info": [
-    "https://wiki.hypixel.net/Diamond_Shovel"
-  ]
+  }
 }

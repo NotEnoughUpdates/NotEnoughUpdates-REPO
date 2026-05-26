@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:leather_boots",
   "displayname": "§6Snake-in-a-Boot",
-  "nbttag": "{ExtraAttributes:{id:\"SNAKE_IN_A_BOOT\",lm_evo:110},HideFlags:254,Unbreakable:1B,display:{Lore:[0:\"§7Rift Time: §a+60s\",1:\"§7Speed: §f+7\",2:\"\",3:\"§7You've got a friend in me.\",4:\"\",5:\"§6§lLEGENDARY BOOTS\"],Name:\"§6Snake-in-a-Boot\",color:1704012}}",
+  "nbttag": "{ExtraAttributes:{id:\"SNAKE_IN_A_BOOT\"},HideFlags:254,ItemModel:\"minecraft:leather_boots\",Unbreakable:1B,display:{Lore:[0:\"§7Rift Time: §a+60s\",1:\"§7Speed: §f+7\",2:\"\",3:\"§7You've got a friend in me.\",4:\"\",5:\"§6§lLEGENDARY BOOTS\"],Name:\"§6Snake-in-a-Boot\",color:1704012}}",
   "damage": 0,
   "lore": [
     "§7Rift Time: §a+60s",
@@ -10,6 +10,15 @@
     "§7You've got a friend in me.",
     "",
     "§6§lLEGENDARY BOOTS"
+  ],
+  "internalname": "SNAKE_IN_A_BOOT",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Living Metal Heart I",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Snake-in-a-Boot",
+    "https://wiki.hypixel.net/Snake-in-a-Boot"
   ],
   "recipe": {
     "A1": "",
@@ -21,14 +30,5 @@
     "C1": "METAL_HEART:5",
     "C2": "",
     "C3": "EXCEEDINGLY_COMFY_SNEAKERS:1"
-  },
-  "internalname": "SNAKE_IN_A_BOOT",
-  "clickcommand": "viewrecipe",
-  "modver": "",
-  "crafttext": "Requires: Living Metal Heart I",
-  "infoType": "WIKI_URL",
-  "info": [
-    "https://hypixelskyblock.minecraft.wiki/w/Snake-in-a-Boot",
-    "https://wiki.hypixel.net/Snake-in-a-Boot"
-  ]
+  }
 }
