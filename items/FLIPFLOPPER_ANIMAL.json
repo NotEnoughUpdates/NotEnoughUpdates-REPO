@@ -1,0 +1,47 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aFlipflopper (Animal)",
+  "nbttag": "{ExtraAttributes:{id:\"FLIPFLOPPER_ANIMAL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"9001c25b-f0ff-3748-82c5-7bd117935ce2\",Properties:{textures:[0:{Name:\"textures\",Signature:\"be2lhtQkWpP09Ev569rIa20B4kZc6uQ33XAvaWzczXifUWqr6b50zxPWDAseir4NIYVbinf2vFvaqiDdCMCcx+GTE9KDgv00n/sa9f42C3gw+Uy8K5dGbNgsMqCllV3gfXOVC53rOxzirdxzf86/3A9lNJRtwE067zj70lmgl14L10vAPDDN8XIDk4lQ5O8t2z4mblAedoftJBrHF1RbwNhK5Dt74azFdM2tqWr2CIhy2l5PYBY1kG2gQq0usu4PoXIifR5UqJsnsW76H8pBJhuyJJ4wnscY1Uz12rh9v1H/BNHOfyg1YvFa/b9uyWkGzQ8xtyL1sQDFyPq8ciSnJu0LIk9yUxLWbCZZYA9+QN8mcK8QdUgISV/zL8Tv1ZlsTAQOpb/9PgVwiLaBswUdTabpj5JHocLRLRSqEIFD44dO4TKvhz8+3EZWfTwj/81qabs8xbqlCM4YNNMEBFPWSoibG+mHE93DNY1+WsvcsLn1eYcLRkG5duL6314cBBj+SKwpcPigendHKs/LjQtt8z9qat3f5NlYBYWsSi0F3lqIAuK7RF0P5ER6cZ4PIYzZ62uKFEvCy3L+/iN0XiGP5OshOgQnDe2yWZ2duZbVe0Fxa0xNyhmVue9RuEGdEKRJSljEigWXnRRodGkz0TLr77mQupyAZbp26IBODP3TpdQ=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY2MTc5ODg1MDM4MCwKICAicHJvZmlsZUlkIiA6ICIyMWUzNjdkNzI1Y2Y0ZTNiYjI2OTJjNGEzMDBhNGRlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHZXlzZXJNQyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xNDE1ZDJjNTQzZTM0YmI4OGVkZTk0ZDc5Yjk0Mjc2OTFmYzliZTcyZGFhZDg4MzFhOWVmMjk3MTgwNTQ2ZTE4IgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Tends to swim back and forth,\",1:\"§7unsure of which way to go.\",2:\"\",3:\"§7Mob Types: §9⚓ Aquatic§7, §a☮ Animal§7, §d❃ Elusive\",4:\"§c❤ Health§8: §c500\"],Name:\"§aFlipflopper (Animal)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Tends to swim back and forth,",
+    "§7unsure of which way to go.",
+    "",
+    "§7Mob Types: §9⚓ Aquatic§7, §a☮ Animal§7, §d❃ Elusive",
+    "§c❤ Health§8: §c500"
+  ],
+  "internalname": "FLIPFLOPPER_ANIMAL",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Flipflopper"
+  ],
+  "recipes": [
+    {
+      "level": 10,
+      "name": "§aFlipflopper",
+      "render": "Dolphin",
+      "panorama": "lotus_atoll",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "LOTUS:32",
+          "chance": "100%"
+        },
+        {
+          "id": "LOTUS_SILVER:1",
+          "chance": "20%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_GOLDEN_FROG;1:1",
+          "extra": [
+            "§7 - Catch with a §bFishing Net§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

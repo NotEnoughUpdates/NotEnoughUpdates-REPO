@@ -19,5 +19,35 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Lotus_Guardian"
+  ],
+  "recipes": [
+    {
+      "level": 55,
+      "coins": 55,
+      "combat_xp": 550,
+      "xp": 66,
+      "name": "§cLotus Guardian",
+      "render": "Eisengolem",
+      "panorama": "lotus_atoll",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "LOTUS:1",
+          "chance": "100%",
+          "extra": [
+            "§eDrop Count: §7x2-4"
+          ]
+        },
+        {
+          "id": "FROGCOIN:1",
+          "chance": "1%"
+        },
+        {
+          "id": "DYE_AQUAMARINE",
+          "extra": [],
+          "chance": "0.00002%"
+        }
+      ]
+    }
   ]
 }

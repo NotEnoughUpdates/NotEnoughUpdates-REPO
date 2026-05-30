@@ -18,5 +18,31 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Atoll_Croaker"
+  ],
+  "recipes": [
+    {
+      "level": 45,
+      "coins": 34,
+      "combat_xp": 338,
+      "xp": 50,
+      "name": "§cAtoll Croaker",
+      "render": "Frog",
+      "panorama": "lotus_atoll",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "LOTUS:1",
+          "chance": "100%",
+          "extra": [
+            "§eDrop Count: §7x2-4"
+          ]
+        },
+        {
+          "id": "DYE_AQUAMARINE",
+          "extra": [],
+          "chance": "0.00002%"
+        }
+      ]
+    }
   ]
 }

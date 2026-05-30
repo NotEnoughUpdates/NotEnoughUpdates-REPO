@@ -15,5 +15,41 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Manta_Ray"
+  ],
+  "recipes": [
+    {
+      "level": 124,
+      "coins": 186,
+      "name": "§cManta Ray",
+      "render": "Phantom",
+      "panorama": "lotus_atoll",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "CLAY_BALL:1",
+          "chance": "100%",
+          "extra": [
+            "§eDrop Count: §7x16-32"
+          ]
+        },
+        {
+          "id": "ENCHANTED_CLAY_BALL:1",
+          "chance": "10%"
+        },
+        {
+          "id": "ENCHANTED_CLAY_BLOCK:1",
+          "chance": "0.1%"
+        },
+        {
+          "id": "PET_ITEM_FISHING_SKILL_BOOST_EPIC:1",
+          "chance": "0.05%"
+        },
+        {
+          "id": "DYE_AQUAMARINE",
+          "extra": [],
+          "chance": "0.0002%"
+        }
+      ]
+    }
   ]
 }
