@@ -1,9 +1,10 @@
 {
 	components: {
 		"minecraft:custom_data": {
+			enchantments: {
+			},
 			id: "CHAINMAIL_LEGGINGS"
 		},
-		"minecraft:enchantment_glint_override": 1b,
 		"minecraft:tooltip_display": {
 			hidden_components: [
 				"minecraft:jukebox_playable",
@@ -27,6 +28,6 @@
 	id: "minecraft:chainmail_leggings",
 	source: {
 		dataVersion: 4671,
-		modVersion: "Firmament 44.1.0-dev+mc1.21.11+g3b06339"
+		modVersion: "Firmament 44.2.0-dev+mc1.21.11+ga2a6cfec"
 	}
 }
