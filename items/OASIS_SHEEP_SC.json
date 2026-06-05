@@ -35,28 +35,30 @@
       ],
       "drops": [
         {
-          "id": "WATER_LILY",
-          "chance": "x1-2"
-        },
-        {
-          "id": "MUTTON",
+          "id": "MUTTON:1",
           "chance": "100%"
         },
         {
-          "id": "WOOL",
+          "id": "WATER_LILY:1",
+          "extra": [
+            "§eDrop Count: §7x1-2"
+          ],
           "chance": "100%"
         },
         {
-          "id": "ENCHANTED_MUTTON",
+          "id": "WOOL:1",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_MUTTON:1",
           "chance": "5%"
         },
         {
-          "id": "ENCHANTED_COOKED_MUTTON",
+          "id": "ENCHANTED_COOKED_MUTTON:1",
           "chance": "0.1%"
         },
         {
           "id": "DYE_AQUAMARINE",
-          "extra": [],
           "chance": "0.0002%"
         }
       ]

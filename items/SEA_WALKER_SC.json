@@ -12,7 +12,7 @@
   "internalname": "SEA_WALKER_SC",
   "clickcommand": "viewrecipe",
   "crafttext": "",
-  "modver": "Firmament 44.2.0-dev+mc1.21.11+ga2a6cfec",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Sea_Walker",
@@ -20,7 +20,7 @@
   ],
   "recipes": [
     {
-      "name": "§cSea Witch",
+      "name": "§cSea Walker",
       "level": 4,
       "coins": 5,
       "xp": 20,
@@ -35,7 +35,10 @@
       "drops": [
         {
           "id": "ROTTEN_FLESH",
-          "chance": "x5-9"
+          "chance": "100%",
+          "extra": [
+            "§eDrop Count: §7x5-9"
+          ]
         },
         {
           "id": "RAW_FISH:2",
