@@ -126,8 +126,6 @@ def processItemFile(filename: str):
         unofficialExists = doesPageExist(fullUnofficialLink)
         officialExists = doesPageExist(fullOfficialLink)
 
-        print(f"Initial check for {filename}: Unofficial exists: {fullUnofficialLink} {unofficialExists}, Official exists: {fullOfficialLink} {officialExists}")
-
         # Try with lowercase prepositions if initial attempt fails
         if not unofficialExists and ("_Of_" in formattedName or "_The_" in formattedName or "_To_" in formattedName):
             formattedName_lower_prepositions = _replace_title_case_prepositions(formattedName)
