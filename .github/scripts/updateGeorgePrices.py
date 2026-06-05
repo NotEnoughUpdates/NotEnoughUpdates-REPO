@@ -86,6 +86,8 @@ petPriceOverrides = {
     "BABY_YETI;5": 5_000_000,
     "ROSE_DRAGON;4": 5_000_000,
     "SNOWMAN;5": 2_000_000,
+    "ELEPHANT;5": 10_000_000,
+    "BEE;5": 2_500_000,
 }
 
 petNameOverrides = {
