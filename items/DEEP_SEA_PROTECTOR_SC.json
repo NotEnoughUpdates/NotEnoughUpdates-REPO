@@ -34,32 +34,33 @@
       ],
       "drops": [
         {
-          "id": "WATER_LILY",
-          "chance": "x12-15"
-        },
-        {
-          "id": "RAW_FISH-2",
-          "chance": "x2-3"
-        },
-        {
-          "id": "SPONGE",
+          "id": "WATER_LILY:1",
+          "extra": [
+            "§eDrop Count: §7x12-15"
+          ],
           "chance": "100%"
         },
         {
-          "id": "ANGLER;6",
+          "id": "SPONGE:1",
+          "chance": "100%"
+        },
+        {
+          "id": "RAW_FISH-2:1",
+          "extra": [
+            "§eDrop Count: §7x2-3"
+          ],
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_IRON:1",
+          "chance": "100%"
+        },
+        {
+          "id": "ANGLER;6:1",
           "chance": "2%"
         },
         {
-          "id": "ENCHANTED_IRON",
-          "chance": "100%"
-        },
-        {
-          "id": "PET_ITEM_FISHING_SKILL_BOOST_EPIC",
-          "chance": "0.02%"
-        },
-        {
           "id": "DYE_AQUAMARINE",
-          "extra": [],
           "chance": "0.0002%"
         }
       ]

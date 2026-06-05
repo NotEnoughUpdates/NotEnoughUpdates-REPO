@@ -33,28 +33,30 @@
       ],
       "drops": [
         {
-          "id": "WATER_LILY",
-          "chance": "x1-2"
+          "id": "WATER_LILY:1",
+          "extra": [
+            "§eDrop Count: §7x1-2"
+          ],
+          "chance": "100%"
         },
         {
-          "id": "RABBIT_HIDE",
+          "id": "RABBIT_FOOT:1",
           "chance": "70%"
         },
         {
-          "id": "RABBIT_FOOT",
+          "id": "RABBIT:1",
+          "chance": "100%"
+        },
+        {
+          "id": "RABBIT_HIDE:1",
           "chance": "70%"
         },
         {
-          "id": "RABBIT",
-          "chance": "15%"
-        },
-        {
-          "id": "ENCHANTED_RABBIT",
+          "id": "ENCHANTED_RABBIT:1",
           "chance": "5%"
         },
         {
           "id": "DYE_AQUAMARINE",
-          "extra": [],
           "chance": "0.0002%"
         }
       ]
