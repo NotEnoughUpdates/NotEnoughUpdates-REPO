@@ -32,23 +32,23 @@
       "type": "drops",
       "drops": [
         {
-          "id": "SPIDER_EYE",
+          "id": "SPIDER_EYE:1",
           "chance": "50%"
         },
         {
-          "id": "STRING",
+          "id": "STRING:1",
           "chance": "100%"
         },
         {
-          "id": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+          "id": "SPIDERS_DEN_TOP_TRAVEL_SCROLL:1",
           "chance": "0.02%"
         },
         {
-          "id": "TARANTULA;3",
+          "id": "TARNATULA;3:1",
           "chance": "0.004%"
         },
         {
-          "id": "TARANTULA;4",
+          "id": "TARNATULA;4:1",
           "chance": "0.001%"
         }
       ]
@@ -64,27 +64,30 @@
       "type": "drops",
       "drops": [
         {
-          "id": "SPIDER_EYE",
+          "id": "SPIDER_EYE:1",
           "chance": "80%"
         },
         {
-          "id": "STRING",
-          "chance": "x1-2"
+          "id": "STRING:1",
+          "extra": [
+            "§eDrop Count: §7x1-2"
+          ],
+          "chance": "100%"
         },
         {
-          "id": "ARACHNE_KEEPER_FRAGMENT",
+          "id": "ARACHNE_KEEPER_FRAGMENT:1",
           "chance": "0.2%"
         },
         {
-          "id": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+          "id": "SPIDERS_DEN_TOP_TRAVEL_SCROLL:1",
           "chance": "0.02%"
         },
         {
-          "id": "TARANTULA;3",
+          "id": "TARANTULA;3:1",
           "chance": "0.004%"
         },
         {
-          "id": "TARANTULA;4",
+          "id": "TARNATULA;4:1",
           "chance": "0.001%"
         }
       ]
