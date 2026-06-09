@@ -1,15 +1,18 @@
 {
   "itemid": "minecraft:furnace_minecart",
   "displayname": "§fMinecart with Furnace",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fMinecart with Furnace\"},ExtraAttributes:{id:\"POWERED_MINECART\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"POWERED_MINECART\"},HideFlags:254,ItemModel:\"minecraft:furnace_minecart\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fMinecart with Furnace\"}}",
   "damage": 0,
   "lore": [
     "§f§lCOMMON"
   ],
   "internalname": "POWERED_MINECART",
-  "modver": "1.3-REL",
-  "vanilla": true,
   "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
   "recipe": {
     "A1": "FURNACE:1",
     "A2": "",
