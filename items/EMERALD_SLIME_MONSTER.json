@@ -51,8 +51,11 @@
       "type": "drops",
       "drops": [
         {
-          "id": "SLIME_BALL",
-          "chance": "x1-2"
+          "id": "SLIME_BALL:1",
+          "extra": [
+            "§eDrop Count: §7x1-2"
+          ],
+          "chance": "100%"
         },
         {
           "id": "PET_ITEM_EXP_SHARE_DROP:1",
