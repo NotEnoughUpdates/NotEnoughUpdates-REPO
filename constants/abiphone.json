@@ -109,6 +109,9 @@
     "z": -99
   },
   "Captain Ahone": {
+    "callNames": [
+      "ahone"
+    ],
     "requirement": [
       "§6- Part of Mage Faction Quest"
     ]
@@ -123,6 +126,10 @@
     "z": -803
   },
   "Clerk Seraphine": {
+    "callNames": [
+      "clerk seraphine",
+      "seraphine"
+    ],
     "requirement": [
       "§7- No Requirement."
     ],
@@ -130,18 +137,6 @@
     "x": -2,
     "y": 79,
     "z": 10
-  },
-  "Crag": {
-    "callNames": [
-      "kuudra_gatekeeper"
-    ],
-    "requirement": [
-      "§6- 1x Bezal Shard"
-    ],
-    "island": "crimson_isle",
-    "x": -371,
-    "y": 116,
-    "z": -1037
   },
   "Dalir": {
     "requirement": [
@@ -176,6 +171,15 @@
     "y": 70,
     "z": -126
   },
+  "Elizabeth": {
+    "requirement": [
+      "§6- 1x Abiphone Contacts Trio"
+    ],
+    "island": "hub",
+    "x": -4,
+    "y": 73,
+    "z": -101
+  },
   "Einary": {
     "requirement": [
       "§6- 1x Einary's Red Hoodie"
@@ -184,18 +188,6 @@
     "x": -17,
     "y": 77,
     "z": 63
-  },
-  "Elizabeth": {
-    "callNames": [
-      "community_shop"
-    ],
-    "requirement": [
-      "§6- 1x Abiphone Contacts Trio"
-    ],
-    "island": "hub",
-    "x": -4,
-    "y": 73,
-    "z": -101
   },
   "Elle": {
     "requirement": [
@@ -217,8 +209,7 @@
   },
   "Fear Mongerer": {
     "callNames": [
-      "fearmongerer",
-      "spooky"
+      "fearmongerer"
     ],
     "requirement": [
       "§6- 64x Purple Candy",
@@ -229,33 +220,10 @@
     "y": 72,
     "z": -43
   },
-  "Feast Baker Scott": {
-    "callNames": [
-      "scott"
-    ],
-    "requirement": [
-      "§6- Scott's Contact Baked In Bread."
-    ],
-    "island": "hub",
-    "x": 77,
-    "y": 72,
-    "z": -84
-  },
-  "Feast Chef Ted": {
-    "callNames": [
-      "ted"
-    ],
-    "requirement": [
-      "§6- Ted's Contact Baked In Bread."
-    ],
-    "island": "hub",
-    "x": 84,
-    "y": 72,
-    "z": -79
-  },
   "Fred": {
     "callNames": [
-      "forge"
+      "forge",
+      "fred"
     ],
     "requirement": [
       "§6- 64x Foul Flesh"
@@ -284,9 +252,6 @@
     "z": 513
   },
   "Geo": {
-    "callNames": [
-      "gemstone"
-    ],
     "requirement": [
       "§6Flawless Gemstones in the following order:",
       "§6- §cRuby",
@@ -358,8 +323,7 @@
   },
   "Jotraeline Greatforge": {
     "callNames": [
-      "jotraeline",
-      "drill_fuel_mechanic"
+      "jotraeline"
     ],
     "requirement": [
       "§6- §fCommon §6or",
@@ -388,15 +352,6 @@
     "y": 73,
     "z": -100
   },
-  "Kaus": {
-    "requirement": [
-      "§7- No Requirement"
-    ],
-    "island": "crimson_isle",
-    "x": -595,
-    "y": 115,
-    "z": -642
-  },
   "Kiara": {
     "requirement": [
       "§6- 1x Chameleon Shard"
@@ -406,10 +361,28 @@
     "y": 113,
     "z": -70
   },
-  "Kysha": {
-    "callNames": [
-      "fusion"
+  "Kaus": {
+    "requirement": [
+      "§7- No Requirement"
     ],
+    "island": "crimson_isle",
+    "x": -595,
+    "y": 115,
+    "z": -642
+  },
+  "Kuudra Gatekeeper": {
+    "callNames": [
+      "kuudra"
+    ],
+    "requirement": [
+      "§6- 1x Blazing Resistance IV Attribute Shard."
+    ],
+    "island": "crimson_isle",
+    "x": -371,
+    "y": 116,
+    "z": -1037
+  },
+  "Kysha": {
     "requirement": [
       "§6- 1x Nessie Shard"
     ],
@@ -419,6 +392,9 @@
     "z": -13
   },
   "Lumber Merchant": {
+    "callNames": [
+      "lumber"
+    ],
     "requirement": [
       "§6- 1x Jungle Axe."
     ],
@@ -426,15 +402,6 @@
     "x": -50,
     "y": 72,
     "z": -69
-  },
-  "Mad Redstone Engineer": {
-    "requirement": [
-      "§6- 1x Enchanted Redstone Block"
-    ],
-    "island": "hub",
-    "x": -8,
-    "y": 71,
-    "z": -55
   },
   "Maddox the Slayer": {
     "callNames": [
@@ -448,6 +415,19 @@
     "x": -75,
     "y": 67,
     "z": -50
+  },
+  "Mad Redstone Engineer": {
+    "callNames": [
+      "mad redstone engineer",
+      "redstone"
+    ],
+    "requirement": [
+      "§6- 1x Enchanted Redstone Block"
+    ],
+    "island": "hub",
+    "x": -8,
+    "y": 71,
+    "z": -55
   },
   "Malik": {
     "requirement": [
@@ -468,9 +448,6 @@
     "z": 60
   },
   "Maxwell": {
-    "callNames": [
-      "thaumaturgist"
-    ],
     "requirement": [
       "§6- 2x Ultimate Carrot Candies"
     ],
@@ -491,7 +468,7 @@
   "Mort": {
     "callNames": [
       "dungeon",
-      "gatekeeper"
+      "mort"
     ],
     "requirement": [
       "§6- 1x Saving Grace",
@@ -557,6 +534,9 @@
     "z": -78
   },
   "Queen Mismyla": {
+    "callNames": [
+      "mismyla"
+    ],
     "requirement": [
       "§6- 1x Royal Pigeon"
     ],
@@ -567,7 +547,7 @@
   },
   "Queen Nyx": {
     "callNames": [
-      "queennyx"
+      "nyx"
     ],
     "requirement": [
       "§6- §512,000ቾ Mage Reputation"
@@ -605,9 +585,6 @@
     "z": 3
   },
   "Rusty": {
-    "callNames": [
-      "janitor"
-    ],
     "requirement": [
       "§7- No Requirement"
     ],
@@ -615,6 +592,15 @@
     "x": -20,
     "y": 80,
     "z": -325
+  },
+  "Scott": {
+    "requirement": [
+      "§6- Scott's Contact Baked In Bread."
+    ],
+    "island": "hub",
+    "x": 77,
+    "y": 72,
+    "z": -84
   },
   "Shaggy": {
     "requirement": [
@@ -663,6 +649,9 @@
     "z": -195
   },
   "St. Jerry": {
+    "callNames": [
+      "stjerry"
+    ],
     "requirement": [
       "§6Type the following sentence in chat in front of him:",
       "§bI love the warmth of the Holidays despite the snow"
@@ -699,6 +688,15 @@
     "y": 74,
     "z": -40
   },
+  "Ted": {
+    "requirement": [
+      "§6- Ted's Contact Baked In Bread."
+    ],
+    "island": "hub",
+    "x": 84,
+    "y": 72,
+    "z": -79
+  },
   "Terry": {
     "requirement": [
       "§6- 1x Winter Water Orb"
@@ -710,8 +708,7 @@
   },
   "Tia the Fairy": {
     "callNames": [
-      "tia",
-      "fairy"
+      "tia"
     ],
     "requirement": [
       "§6- Wear a full set of Fairy Armor."
