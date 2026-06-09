@@ -1,0 +1,20 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "SKYBLOCK_BINGO_POINT"
+		},
+		"minecraft:enchantment_glint_override": 1b,
+		"minecraft:item_model": "minecraft:white_dye",
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:bone_meal",
+	source: {
+		dataVersion: 4671,
+		modVersion: "Firmament 44.1.0-dev+mc1.21.11+g3b06339"
+	}
+}

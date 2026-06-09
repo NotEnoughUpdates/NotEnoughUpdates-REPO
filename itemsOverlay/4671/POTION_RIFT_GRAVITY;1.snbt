@@ -1,0 +1,40 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			effects: [
+				{
+					duration_ticks: 12000,
+					effect: "rift_gravity",
+					level: 1
+				}
+			],
+			id: "POTION_RIFT_GRAVITY;1",
+			potion: "rift_gravity",
+			potion_level: 1,
+			potion_type: "POTION",
+			splash: 1b
+		},
+		"minecraft:potion_contents": {
+			custom_effects: [
+				{
+					duration: 20,
+					id: "minecraft:slowness",
+					show_icon: 1b
+				}
+			],
+			potion: "minecraft:slowness"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:potion_contents",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:splash_potion",
+	source: {
+		dataVersion: 4671,
+		modVersion: "Firmament 44.1.0-dev+mc1.21.11+g3b06339"
+	}
+}
