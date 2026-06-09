@@ -76,7 +76,6 @@ def processItemFile(filename: str):
 
         if (
                 ("vanilla" in jsonData
-                 or jsonData["itemid"] == "minecraft:enchanted_book"
                  or jsonData["itemid"] == "minecraft:potion")
         ):
             return
@@ -103,16 +102,26 @@ def processItemFile(filename: str):
                 return
 
         validLinks = [link for link in existingInfo if link.startswith(unofficialLink) or link.startswith(officialLink)]
-        if validLinks and existingInfo == validLinks:
+        # Check that both wiki links are present
+        if validLinks and existingInfo == validLinks and len(validLinks) == 2:
             return
 
         print(f"Processing {filename}...")
 
         formattedName = formatNameForSearch(jsonData["displayname"])
 
-        # Attempt to find Unofficial and Official wiki links
-        fullUnofficialLink = unofficialLink + modifyUnofficialItem(formattedName)
-        fullOfficialLink = officialLink + modifyOfficialItem(formattedName)
+        fullUnofficialLink = ""
+        fullOfficialLink = ""
+
+        if formattedName == "Enchanted_Book":
+            # Attempt to find Unofficial and Official wiki links for Enchanted Books
+            fullUnofficialLink = unofficialLink + capitalizeWords(filename.split(";")[0])
+            fullOfficialLink = officialLink + capitalizeWords(filename.split(";")[0]) + "_Enchantment"
+
+        else:
+            # Attempt to find Unofficial and Official wiki links
+            fullUnofficialLink = unofficialLink + modifyUnofficialItem(formattedName)
+            fullOfficialLink = officialLink + modifyOfficialItem(formattedName)
 
         unofficialExists = doesPageExist(fullUnofficialLink)
         officialExists = doesPageExist(fullOfficialLink)
