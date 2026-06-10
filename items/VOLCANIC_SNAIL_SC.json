@@ -15,5 +15,37 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Volcanic_Snail"
+  ],
+  "recipes": [
+    {
+      "level": 90,
+      "coins": 90,
+      "xp": 108,
+      "name": "§cVolcanic Snail",
+      "render": "@neurepo:mobs/volcanic_snail.json",
+      "panorama": "crimson_isle",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "MAGMA_FISH:1",
+          "extra": [
+            "§eDrop Count: §7x2-4"
+          ],
+          "chance": "100%"
+        },
+        {
+          "id": "SEARED_ESCARGOT:1",
+          "chance": "4%"
+        },
+        {
+          "id": "MAGMA_FISH_SILVER:1",
+          "chance": "1%"
+        },
+        {
+          "id": "DYE_CARMINE:1",
+          "chance": "0.00002%"
+        }
+      ]
+    }
   ]
 }

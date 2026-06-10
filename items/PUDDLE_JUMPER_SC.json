@@ -18,5 +18,48 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Puddle_Jumper"
+  ],
+  "recipes": [
+    {
+      "level": 85,
+      "coins": 200,
+      "xp": 200,
+      "name": "§cPuddle Jumper",
+      "render": "Frog",
+      "panorama": "lotus_atoll",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "LOTUS_SILVER:1",
+          "chance": "100%"
+        },
+        {
+          "id": "PUDDLE_JUMPER_BRONZE:1",
+          "chance": "73.353%",
+          "alternatives": [
+            {
+              "id": "PUDDLE_JUMPER_SILVER",
+              "chance": "24.451%"
+            },
+            {
+              "id": "PUDDLE_JUMPER_GOLD",
+              "chance": "1.996%"
+            },
+            {
+              "id": "PUDDLE_JUMPER_DIAMOND",
+              "chance": "0.2%"
+            }
+          ]
+        },
+        {
+          "id": "LOTUS_GOLD:1",
+          "chance": "0.5%"
+        },
+        {
+          "id": "DYE_AQUAMARINE:1",
+          "chance": "0.002%"
+        }
+      ]
+    }
   ]
 }

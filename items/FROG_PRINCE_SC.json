@@ -15,5 +15,35 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Frog_Prince"
+  ],
+  "recipes": [
+    {
+      "level": 132,
+      "coins": 660,
+      "combat_xp": 3300,
+      "xp": 1320,
+      "name": "§cFrog Prince",
+      "render": "@neurepo:mobs/frog_prince.json",
+      "panorama": "lotus_atoll",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "LOTUS_SILVER:4",
+          "chance": "100%"
+        },
+        {
+          "id": "LOTUS_GOLD:1",
+          "chance": "2.5%"
+        },
+        {
+          "id": "PRINCE_CROWN_JEWEL:1",
+          "chance": "0.25%"
+        },
+        {
+          "id": "DYE_AQUAMARINE:1",
+          "chance": "0.002%"
+        }
+      ]
+    }
   ]
 }
