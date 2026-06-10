@@ -15,5 +15,40 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Magma_Pillar"
-  ]
+  ],
+    "recipes": [
+      {
+        "level": 220,
+        "coins": 330,
+        "xp": 330,
+        "name": "§cMagma Pillar",
+        "render": "@neurepo:mobs/magma_pillar.json",
+        "panorama": "lotus_atoll",
+        "type": "drops",
+        "drops": [
+          {
+            "id": "MAGMA_FISH_SILVER:1",
+            "extra": [
+              "§eDrop Count: §7x2-4"
+            ],
+            "chance": "100%"
+          },
+          {
+            "id": "ENCHANTED_MAGMA_CREAM:1",
+            "extra": [
+              "§eDrop Count: §7x2-4"
+            ],
+            "chance": "100%"
+          },
+          {
+            "id": "MAGMARIZER;6:1",
+            "chance": "0.05%"
+          },
+          {
+            "id": "DYE_CARMINE:1",
+            "chance": "0.00004%"
+          }
+        ]
+      }
+    ]
 }
