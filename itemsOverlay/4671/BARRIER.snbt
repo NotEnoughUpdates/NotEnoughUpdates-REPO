@@ -1,10 +1,9 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "THEORETICAL_HOE_WARTS_1",
-			levelable_exp: 0.0d,
-			levelable_lvl: 1
+			id: "BARRIER"
 		},
+		"minecraft:item_model": "minecraft:barrier",
 		"minecraft:tooltip_display": {
 			hidden_components: [
 				"minecraft:jukebox_playable",
@@ -20,14 +19,12 @@
 				"minecraft:block_entity_data",
 				"minecraft:dyed_color"
 			]
-		},
-		"minecraft:unbreakable": {
 		}
 	},
 	count: 1,
-	id: "minecraft:iron_hoe",
+	id: "minecraft:paper",
 	source: {
-		dataVersion: 4325,
-		modVersion: "Firmament 3.7.1-dev+mc1.21.5+gf7e1a13"
+		dataVersion: 4671,
+		modVersion: "Firmament 44.2.0-dev+mc1.21.11+ga97960bc"
 	}
 }
