@@ -2,7 +2,7 @@
 	components: {
 		"minecraft:custom_data": {
 			id: "PET",
-			petInfo: '{"type":"JERRY","tier":"RARE","exp":0.0,"candyUsed":0}'
+			petInfo: '{"type":"JERRY","tier":"EPIC","exp":0.0,"candyUsed":0}'
 		},
 		"minecraft:profile": {
 			id: [I;
@@ -21,15 +21,16 @@
 		},
 		"minecraft:tooltip_display": {
 			hidden_components: [
-				"minecraft:jukebox_playable",
 				"minecraft:painting/variant",
-				"minecraft:map_id",
 				"minecraft:fireworks",
 				"minecraft:attribute_modifiers",
+				"minecraft:trim",
+				"minecraft:charged_projectiles",
+				"minecraft:jukebox_playable",
+				"minecraft:map_id",
 				"minecraft:unbreakable",
 				"minecraft:written_book_content",
 				"minecraft:banner_patterns",
-				"minecraft:trim",
 				"minecraft:potion_contents",
 				"minecraft:block_entity_data",
 				"minecraft:dyed_color"
@@ -39,7 +40,7 @@
 	count: 1,
 	id: "minecraft:player_head",
 	source: {
-		dataVersion: 4325,
-		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
+		dataVersion: 4671,
+		modVersion: "Firmament 44.2.0-dev+mc1.21.11+g6ee9ec8a"
 	}
 }
