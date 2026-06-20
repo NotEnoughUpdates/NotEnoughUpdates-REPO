@@ -1,301 +1,282 @@
 import os
+import itertools
 import json
-import urllib3
 import re
-from urllib.parse import urlparse, unquote
+import time
+from typing import Any
+from urllib.parse import quote
+
+import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util import Retry
+
 
 # Constants
+batchSize = 50
 itemsDirectory = "items"
-unofficialLink = "https://hypixelskyblock.minecraft.wiki/w/"
-officialLink = "https://wiki.hypixel.net/"
+urlPrefix = {
+    "independent": "https://hypixelskyblock.minecraft.wiki/w/",
+    "official": "https://wiki.hypixel.net/",
+}
+apiUrl = {
+    "independent": "https://hypixelskyblock.minecraft.wiki/api.php",
+    "official": "https://wiki.hypixel.net/api.php",
+}
 wikiUrlInfoType = "WIKI_URL"
-
-httpPool = urllib3.PoolManager()
-attemptedLinks = {}
-modifiedCount = 0
-badModifiedCount = 0
-
 suffixesToRemove = [
     "(Monster)", "(NPC)", "(Rift NPC)", "(Boss)", "(Miniboss)", "(Sea Creature)", "(Animal)",
-    "(Mythological Creature)"
+    "(Mythological Creature)",
 ]
-
-linkTransformationUnofficial = {
-    "Barn_Skin": unofficialLink + "Barn_Skins",
-    "_Rune": unofficialLink + "Runes"
-}
-
-hoeTierPattern = re.compile("_Mk\\._I{1,3}$")
+colourCodePattern = re.compile(r"§.")
+hoeTierPattern = re.compile(" Mk\\. I{1,3}$")
+perfectArmorPattern = re.compile(r"Perfect (?:Helmet|Chestplate|Leggings|Boots) - Tier [A-Z]+")
 
 
-def getItemFiles() -> list[str]:
-    itemFiles = [f for f in os.listdir(itemsDirectory
-) if os.path.isfile(os.path.join(itemsDirectory
-, f))]
-    jsonFiles = [f for f in itemFiles if f.endswith('.json')]
-    return jsonFiles
+class ItemFile:
+    name: str
+    data: dict[str, Any]
+    candidate: dict[str, str | None]
+    page: dict[str, str | None]
+
+    def __init__(self, path: str):
+        self._path = path
+        with open(self._path, "r", encoding="utf-8") as fd:
+            self.name = os.path.basename(fd.name)
+            self.data = json.load(fd)
+        self.candidates = {
+            "independent": [],
+            "official": [],
+        }
+        self.page = {
+            "independent": None,
+            "official": None,
+        }
+
+    def write(self) -> None:
+        with open(self._path, "w", encoding="utf-8") as fd:
+            json.dump(self.data, fd, indent=2, ensure_ascii=False)
 
 
-def _replace_title_case_prepositions(name: str) -> str:
-    name = name.replace("_Of_", "_of_")
-    name = name.replace("_The_", "_the_")
-    name = name.replace("_To_", "_to_")
-    return name
-
-def _escape_wiki_links(links: list[str]) -> list[str]:
-    for i, link in enumerate(links):
-        links[i] = link.replace("=", "\\u003d").replace("'", "\\u0027")
-    return links
-
-def _update_special_case_links(filename: str, jsonData: dict, file, desired_links: list[str]) -> bool:
-    global modifiedCount
-    desired_links = _escape_wiki_links(desired_links)
-
-    file_modified = False
-    if jsonData.get("infoType") != wikiUrlInfoType:
-        jsonData["infoType"] = wikiUrlInfoType
-        file_modified = True
-    if jsonData.get("info") != desired_links:
-        jsonData["info"] = desired_links
-        file_modified = True
-
-    if file_modified:
-        modifiedCount += 1
-        file.seek(0)
-        file.truncate()
-        json.dump(jsonData, file, indent=2, ensure_ascii=False)
-    return file_modified
-
-
-def processItemFile(filename: str):
-    global modifiedCount, badModifiedCount
-
-    filePath = os.path.join(itemsDirectory, filename)
-    with open(filePath, 'r+', encoding='utf-8') as file:
-        jsonData = json.load(file)
-
-        if (
-                ("vanilla" in jsonData
-                 or jsonData["itemid"] == "minecraft:potion")
-        ):
-            return
-
-        existingInfo = jsonData.get("info", [])
-
-        if filename.startswith('⚚_') or filename.startswith('ATTRIBUTE_'):
-            return
-
-        if filename.startswith('BALLOON_HAT_2024'):
-            desired_links = [
-                'https://hypixelskyblock.minecraft.wiki/w/5th_Anniversary_Balloon_Hat',
-                'https://wiki.hypixel.net/5th_Anniversary_Balloon_Hat'
-            ]
-            if _update_special_case_links(filename, jsonData, file, desired_links):
-                return
-
-        if filename.startswith('BALLOON_HAT_2025'):
-            desired_links = [
-                'https://hypixelskyblock.minecraft.wiki/w/6th_Anniversary_Balloon_Hat',
-                'https://wiki.hypixel.net/6th_Anniversary_Balloon_Hat'
-            ]
-            if _update_special_case_links(filename, jsonData, file, desired_links):
-                return
-
-        validLinks = [link for link in existingInfo if link.startswith(unofficialLink) or link.startswith(officialLink)]
-        # Check that both wiki links are present
-        if validLinks and existingInfo == validLinks and len(validLinks) == 2:
-            return
-
-        print(f"Processing {filename}...")
-
-        formattedName = formatNameForSearch(jsonData["displayname"])
-
-        fullUnofficialLink = ""
-        fullOfficialLink = ""
-
-        if formattedName == "Enchanted_Book":
-            # Attempt to find Unofficial and Official wiki links for Enchanted Books
-            fullUnofficialLink = unofficialLink + capitalizeWords(filename.split(";")[0])
-            fullOfficialLink = officialLink + capitalizeWords(filename.split(";")[0]) + "_Enchantment"
-
-        else:
-            # Attempt to find Unofficial and Official wiki links
-            fullUnofficialLink = unofficialLink + modifyUnofficialItem(formattedName)
-            fullOfficialLink = officialLink + modifyOfficialItem(formattedName)
-
-        unofficialExists = doesPageExist(fullUnofficialLink)
-        officialExists = doesPageExist(fullOfficialLink)
-
-        # Try with lowercase prepositions if initial attempt fails
-        if not unofficialExists and ("_Of_" in formattedName or "_The_" in formattedName or "_To_" in formattedName):
-            formattedName_lower_prepositions = _replace_title_case_prepositions(formattedName)
-            fullUnofficialLink = unofficialLink + modifyUnofficialItem(formattedName_lower_prepositions)
-            unofficialExists = doesPageExist(fullUnofficialLink)
-
-        if not officialExists and ("_Of_" in formattedName or "_The_" in formattedName or "_To_" in formattedName):
-            formattedName_lower_prepositions = _replace_title_case_prepositions(formattedName)
-            fullOfficialLink = officialLink + modifyOfficialItem(formattedName_lower_prepositions)
-            officialExists = doesPageExist(fullOfficialLink)
-
-        fileModified = False
-
-        if unofficialExists or officialExists:
-            if not "infoType" in jsonData or jsonData["infoType"] == "":
-                jsonData["infoType"] = wikiUrlInfoType
-                fileModified = True
-        else:
-            print(f"Neither page exists for {filename}, {formattedName}")
-
-        infoLinks_auto = []
-        if unofficialExists:
-            infoLinks_auto.append(fullUnofficialLink)
-        if officialExists:
-            infoLinks_auto.append(fullOfficialLink)
-
-        # Apply Unofficial link transformations here
-        temp_infoLinks_auto = list(infoLinks_auto)
-        for i, link in enumerate(temp_infoLinks_auto):
-            if link.startswith(unofficialLink):
-                fixed = False
-                for suffix, new_base_url in linkTransformationUnofficial.items():
-                    if suffix.lower() in link.lower():
-                        infoLinks_auto[i] = new_base_url
-                        print(f"Fixed Unofficial link: {new_base_url}")
-                        fixed = True
-                        break
-                if fixed:
-                    pass
-
-        if len(infoLinks_auto) < len(existingInfo):
-            return
-
-        infoLinks_auto = _escape_wiki_links(infoLinks_auto)
-        if infoLinks_auto != existingInfo:
-            jsonData["info"] = infoLinks_auto
-
-            print(f"Modified {filename}")
-            print(f"existing info: {existingInfo}")
-            print(f"new info: {infoLinks_auto}")
-
-            fileModified = True
-
-        if fileModified:
-            modifiedCount += 1
-            file.seek(0)
-            file.truncate()
-            json.dump(jsonData, file, indent=2, ensure_ascii=False)
-
-
-def formatNameForSearch(name: str) -> str:
-    for suffix in suffixesToRemove:
-        if name.endswith(suffix):
-            name = name[:-len(suffix)]
-            break
-    name = name.strip()
-    name = name.replace(" ", "_")
-    name = removeColourCodes(name)
-
-    if match := hoeTierPattern.search(name):
-        name = name[0:match.start()]
-
-    if "[Lvl_{LVL}]_" in name:
-        name = name.replace("[Lvl_{LVL}]_", "") + "_Pet"
-    if name.endswith("Gemstone") and name != "Glossy Gemstone":
-        name = "Gemstone"
-    name = capitalizeWords(name)
-    name = name.replace("'", "%27")
-    return name
-
-
-def removeColourCodes(string: str) -> str:
-    output = ""
-    skipNext = False
-    for char in string:
-        if skipNext:
-            skipNext = False
-        elif char == "§":
-            skipNext = True
-        else:
-            output += char
-    return output
-
-
-def doesPageExist(pageUrl: str) -> bool:
-    if pageUrl in attemptedLinks:
-        return attemptedLinks[pageUrl]
-
-    parsed = urlparse(pageUrl)
-    apiUrl = f"https://{parsed.netloc}/api.php"
-    pageTitle = unquote(parsed.path.removeprefix("/").removeprefix("w/").removeprefix("wiki/"))
-
-    response = httpPool.request(
-        "GET",
-        apiUrl,
-        fields={
-            "action": "query",
-            "format": "json",
-            "titles": pageTitle,
-            "redirects": 1,
-            "formatversion": 2,
-        },
+class WikiLinkUpdater:
+    session = requests.Session()
+    retries = Retry(
+        total=5,
+        backoff_factor=2,
+        status_forcelist={429, 500, 502, 503, 504},
+        allowed_methods={"GET", "POST"},
     )
+    session.mount("https://", HTTPAdapter(max_retries=retries))
+    session.headers.update({
+        "user-agent": "NotEnoughUpdates-Repo-CI/1.0 (+https://github.com/NotEnoughUpdates/NotEnoughUpdates-REPO)",
+    })
 
-    if response.status != 200:
-        print(f"Failed to fetch {pageUrl} ({response.status})")
-        attemptedLinks[pageUrl] = False
-        return False
+    attemptedLinks = {}
+    modifiedCount = 0
+    badModifiedCount = 0
 
-    payload = json.loads(response.data.decode("utf-8"))
-    pages = payload.get("query", {}).get("pages", [])
-    success = pages and "missing" not in pages[0]
+    def __init__(self, files: list[ItemFile]):
+        self.files = [f for f in files if self.shouldProcess(f)]
 
-    attemptedLinks[pageUrl] = success
-    return success
+    def shouldProcess(self, file: ItemFile) -> bool:
+        if file.name.startswith("ATTRIBUTE_"):
+            return False
+
+        if "vanilla" in file.data:
+            return False
+
+        if file.data["itemid"] == "minecraft:potion":
+            return False
+
+        existingInfo = file.data.get("info", [])
+        validLinks = [
+            link for link in existingInfo if any(link.startswith(v) for v in urlPrefix.values())
+        ]
+        if validLinks and existingInfo == validLinks and len(validLinks) == 2:
+            return False
+
+        return True
+
+    def prepareWikiLinks(self) -> None:
+        for file in self.files:
+            formattedName = self.formatNameForSearch(file.data)
+
+            independentName = formattedName
+            file.candidates["independent"].append(independentName)
+
+            officialName = formattedName.replace(" of ", " Of ").replace(" the ", " The ").replace(" to ", " To ")
+            if self.stripColor(file.data["displayname"]) == "Enchanted Book":
+                officialName += " Enchantment"
+            file.candidates["official"].append(officialName)
+            # Also try with lowercase prepositions because a few pages use them
+            if " Of " in officialName or " The " in officialName or " To " in officialName:
+                altOfficialName = officialName.replace(" Of ", " of ").replace(" The ", " the ").replace(" To ", " to ")
+                file.candidates["official"].append(altOfficialName)
+
+    def fetchWikiLinks(self):
+        for wiki in ("independent", "official"):
+            done = 0
+            candidates = list(itertools.chain.from_iterable([f.candidates[wiki] for f in self.files]))
+            candidate_to_file = {c: f for f in self.files for c in f.candidates[wiki]}
+
+            for batch in itertools.batched(candidates, batchSize):
+                print(f"\rFetching {wiki} wiki pages... {done}/{len(candidates)}", end="", flush=True)
+
+                response = self.session.get(
+                    apiUrl[wiki],
+                    params={
+                        "action": "query",
+                        "format": "json",
+                        "titles": "|".join(batch),
+                        # "redirects": 1,
+                        "formatversion": 2,
+                    }
+                )
+
+                if not response.ok:
+                    print(f"\nFailed to fetch batch ({response.status_code} {response.reason})")
+                    done += batchSize
+                    continue
+
+                payload = response.json()
+                for page in payload["query"]["pages"]:
+                    if page.get("missing"):
+                        continue
+
+                    matches = {}
+                    candidate = page["title"]
+                    if file := candidate_to_file.get(candidate):
+                        matches[file] = candidate
+                    else:
+                        for transformation in payload["query"].get("normalized", []):
+                            candidate = transformation["from"]
+                            if file := candidate_to_file.get(candidate):
+                                matches[file] = candidate
+
+                    for file, candidate in matches.items():
+                        if not file.page[wiki]:
+                            file.page[wiki] = candidate
+
+                done += batchSize
+                time.sleep(0.1)
+
+            print()
+
+    def processItemFiles(self) -> None:
+        for file in self.files:
+            print(f"Processing {file.name}...")
+
+            formattedName = self.formatNameForSearch(file.data)
+
+            independentPage = file.page["independent"]
+            officialPage = file.page["official"]
+
+            fileModified = False
+
+            if independentPage or officialPage:
+                if not file.data.get("infoType"):
+                    file.data["infoType"] = wikiUrlInfoType
+                    fileModified = True
+            else:
+                print(f"Neither page exists for {file.name}, {formattedName}")
+
+            independentLink = self.getUrl("independent", independentPage)
+            officialLink = self.getUrl("official", officialPage)
+
+            infoLinks_auto = []
+            if independentLink:
+                infoLinks_auto.append(independentLink)
+            if officialPage:
+                infoLinks_auto.append(officialLink)
+
+            existingInfo = file.data.get("info", [])
+
+            if len(infoLinks_auto) < len(existingInfo):
+                continue
+
+            if infoLinks_auto != existingInfo:
+                file.data["info"] = infoLinks_auto
+
+                print(f"Modified {file.name}")
+                print(f"existing info: {existingInfo}")
+                print(f"new info: {infoLinks_auto}")
+
+                fileModified = True
+
+            if fileModified:
+                self.modifiedCount += 1
+                file.write()
+
+    @classmethod
+    def formatNameForSearch(cls, data: dict[str, Any]) -> str:
+        name = cls.stripColor(data["displayname"])
+        name = name.strip()
+        if "[Lvl {LVL}] " in name:
+            name = name.replace("[Lvl {LVL}] ", "") + " Pet"
+        name = cls.capitalizeWords(name)
+
+        for suffix in suffixesToRemove:
+            if name.endswith(suffix):
+                name = name.removesuffix(suffix)
+                break
+
+        if name == "Enchanted Book":
+            for line in data["lore"]:
+                if not line.strip() or "Combinable in Anvil" in line:
+                    continue
+                ench = re.sub(r"§.", "", line)
+                ench = re.sub(r" [IVXLCDM]+$", "", ench)
+                return ench
+
+        if match := hoeTierPattern.search(name):
+            return name[0:match.start()]
+
+        if name.endswith("Gemstone") and name != "Glossy Gemstone":
+            return "Gemstone"
+
+        name = name.removeprefix("◆ ")
+        name = name.removeprefix("⚚ ")
+
+        if " Balloon Hat " in name:
+            return " ".join(name.split(" ")[1:])
+
+        if " Minion " in name or " Rune " in name:
+            return " ".join(name.split(" ")[:-1])
+
+        if perfectArmorPattern.fullmatch(name):
+            return "Perfect Armor"
+
+        return name
+
+    @staticmethod
+    def stripColor(string: str) -> str:
+        return colourCodePattern.sub("", string)
+
+    @staticmethod
+    def capitalizeWords(string: str) -> str:
+        return "".join(word.capitalize() for word in re.split(r"([ _-])", string) if word not in ["of", "the", "to"])
+
+    @staticmethod
+    def getUrl(wiki: str, page: str | None) -> str | None:
+        if not page:
+            return None
+        return urlPrefix[wiki] + quote(page.replace(" ", "_"), safe='"#()+,/:')
 
 
-def capitalizeWords(string: str) -> str:
-    words = re.split(r'([_-])', string)
-    for i in range(len(words)):
-        if words[i] not in ['-', '_']:
-            words[i] = words[i].capitalize()
-    return ''.join(words)
+def main() -> None:
+    itemFiles = [f for f in os.listdir(itemsDirectory) if os.path.isfile(os.path.join(itemsDirectory, f))]
+    jsonFiles = [f for f in itemFiles if f.endswith('.json')]
+    files = []
+    for filename in jsonFiles:
+        filePath = os.path.join(itemsDirectory, filename)
+        file = ItemFile(filePath)
+        files.append(file)
+
+    updater = WikiLinkUpdater(files)
+
+    updater.prepareWikiLinks()
+    updater.fetchWikiLinks()
+    updater.processItemFiles()
 
 
-def modifyUnofficialItem(unofficialItem: str) -> str:
-    if "_Minion_" in unofficialItem:
-        return unofficialItem.split("_Minion_")[0] + "_Minion"
-    if "_Rune_" in unofficialItem:
-        return (unofficialItem.split("_Rune_")[0] + "_Rune").removeprefix("◆_")
-    if unofficialItem.startswith("Perfect_"):
-        split = unofficialItem.split("_Tier_")
-        if len(split) > 1:
-            return "Perfect_Armor#Tier_" + split[1].upper()
-        else:
-            return unofficialItem
-    return unofficialItem
-
-
-def modifyOfficialItem(officialItem: str) -> str:
-    if "_Minion_" in officialItem:
-        split = officialItem.split("_Minion_")
-        return split[0] + "_Minion_" + split[1].upper()
-    if "_Rune_" in officialItem:
-        return "Runes"
-    if officialItem.startswith("Perfect_"):
-        split = officialItem.split("_Tier_")
-        if len(split) > 1:
-            return split[0] + "_Tier_" + split[1].upper()
-        else:
-            return officialItem
-    return officialItem
-
-
-if __name__ == '__main__':
-    print("Starting item file processing...")
-    jsonFiles = getItemFiles()
-
-    for item in jsonFiles:
-        processItemFile(item)
-
-    print(f"Total files modified: {modifiedCount}")
-    print(f"Total bad modifications (skipped due to existing links): {badModifiedCount}")
+if __name__ == "__main__":
+    main()
