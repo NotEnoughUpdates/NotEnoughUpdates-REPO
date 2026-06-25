@@ -1,6 +1,6 @@
-import os
 import itertools
 import json
+import os
 import re
 import time
 from typing import Any
@@ -9,7 +9,6 @@ from urllib.parse import quote
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util import Retry
-
 
 # Constants
 batchSize = 50
@@ -115,8 +114,13 @@ class WikiLinkUpdater:
     def fetchWikiLinks(self):
         for wiki in ("independent", "official"):
             done = 0
-            candidates = list(itertools.chain.from_iterable([f.candidates[wiki] for f in self.files]))
-            candidate_to_file = {c: f for f in self.files for c in f.candidates[wiki]}
+            candidate_to_files: dict[str, list[ItemFile]] = {}
+            for file in self.files:
+                for candidate in file.candidates[wiki]:
+                    if candidate_to_files.get(candidate) is None:
+                        candidate_to_files[candidate] = []
+                    candidate_to_files[candidate].append(file)
+            candidates = list(candidate_to_files.keys())
 
             for batch in itertools.batched(candidates, batchSize):
                 print(f"\rFetching {wiki} wiki pages... {done}/{len(candidates)}", end="", flush=True)
@@ -144,13 +148,15 @@ class WikiLinkUpdater:
 
                     matches = {}
                     candidate = page["title"]
-                    if file := candidate_to_file.get(candidate):
-                        matches[file] = candidate
+                    if files := candidate_to_files.get(candidate):
+                        for file in files:
+                            matches[file] = candidate
                     else:
                         for transformation in payload["query"].get("normalized", []):
                             candidate = transformation["from"]
-                            if file := candidate_to_file.get(candidate):
-                                matches[file] = candidate
+                            if files := candidate_to_files.get(candidate):
+                                for file in files:
+                                    matches[file] = candidate
 
                     for file, candidate in matches.items():
                         if not file.page[wiki]:
