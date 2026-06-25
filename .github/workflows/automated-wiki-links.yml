@@ -2,6 +2,12 @@ name: Automated Wiki Updates
 
 on:
   workflow_dispatch:
+    inputs:
+      recheck_all_links:
+        description: 'Recheck All Wiki Links'
+        type: boolean
+        required: false
+        default: false
   schedule:
     - cron: '0 2 * * *'  # 2:00 AM UTC
 
@@ -13,7 +19,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -25,6 +31,8 @@ jobs:
 
       - name: Run Python automated wiki links script
         run: python .github/scripts/updateWikiLinks.py
+        env:
+          SHOULD_RECHECK_ALL: ${{ github.event_name == 'workflow_dispatch' && inputs.recheck_all_links }}
 
       - name: Commit and push changes
         run: |

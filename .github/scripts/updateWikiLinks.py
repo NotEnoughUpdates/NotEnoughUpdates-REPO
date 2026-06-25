@@ -31,6 +31,9 @@ colourCodePattern = re.compile(r"§.")
 hoeTierPattern = re.compile(" Mk\\. I{1,3}$")
 perfectArmorPattern = re.compile(r"Perfect (?:Helmet|Chestplate|Leggings|Boots) - Tier [A-Z]+")
 
+# Config
+recheckAllLinks = os.environ.get("SHOULD_RECHECK_ALL", "false") == "true"
+
 
 class ItemFile:
     name: str
@@ -91,7 +94,7 @@ class WikiLinkUpdater:
         validLinks = [
             link for link in existingInfo if any(link.startswith(v) for v in urlPrefix.values())
         ]
-        if validLinks and existingInfo == validLinks and len(validLinks) == 2:
+        if validLinks and existingInfo == validLinks and len(validLinks) == 2 and not recheckAllLinks:
             return False
 
         return True
