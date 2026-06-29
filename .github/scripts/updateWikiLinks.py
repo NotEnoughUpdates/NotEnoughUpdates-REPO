@@ -30,6 +30,7 @@ colourCodePattern = re.compile(r"§.")
 hoeTierPattern = re.compile(" Mk\\. I{1,3}$")
 minionLevelPattern = re.compile(r"Minion [IXVixv]+$")
 perfectArmorPattern = re.compile(r"Perfect (?:Helmet|Chestplate|Leggings|Boots) - Tier [A-Z]+")
+trophyPattern = re.compile("(?:[Ff](?:ish|rog)|Hopper|Jumper) (?:Diamond|Gold|Silver|Bronze)$")
 
 # Config
 recheckAllLinks = os.environ.get("SHOULD_RECHECK_ALL", "false") == "true"
@@ -250,7 +251,7 @@ class WikiLinkUpdater:
         if " Balloon Hat " in name:
             return " ".join(name.split(" ")[1:])
 
-        if ("_GENERATOR_" in itemId and minionLevelPattern.search(name)) or " Rune " in name:
+        if ("_GENERATOR_" in itemId and minionLevelPattern.search(name)) or " Rune " in name or trophyPattern.search(name):
             return " ".join(name.split(" ")[:-1])
 
         if name.endswith("Minion Xii Upgrade Stone"):
