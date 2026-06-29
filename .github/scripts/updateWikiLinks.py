@@ -28,6 +28,7 @@ suffixesToRemove = [
 ]
 colourCodePattern = re.compile(r"§.")
 hoeTierPattern = re.compile(" Mk\\. I{1,3}$")
+minionLevelPattern = re.compile(r"Minion [IXVixv]+$")
 perfectArmorPattern = re.compile(r"Perfect (?:Helmet|Chestplate|Leggings|Boots) - Tier [A-Z]+")
 
 # Config
@@ -217,16 +218,17 @@ class WikiLinkUpdater:
 
     @classmethod
     def formatNameForSearch(cls, data: dict[str, Any]) -> str:
+        itemId = data["internalname"]
         name = cls.stripColor(data["displayname"])
         name = name.strip()
         if "[Lvl {LVL}] " in name:
             name = name.replace("[Lvl {LVL}] ", "") + " Pet"
-        name = cls.capitalizeWords(name)
 
         for suffix in suffixesToRemove:
             if name.endswith(suffix):
-                name = name.removesuffix(suffix)
+                name = name.removesuffix(suffix).strip()
                 break
+        name = cls.capitalizeWords(name)
 
         if name == "Enchanted Book":
             for line in data["lore"]:
@@ -248,8 +250,11 @@ class WikiLinkUpdater:
         if " Balloon Hat " in name:
             return " ".join(name.split(" ")[1:])
 
-        if " Minion " in name or " Rune " in name:
+        if ("_GENERATOR_" in itemId and minionLevelPattern.search(name)) or " Rune " in name:
             return " ".join(name.split(" ")[:-1])
+
+        if name.endswith("Minion Xii Upgrade Stone"):
+            return name.replace(" Xii ", " XII ")
 
         if perfectArmorPattern.fullmatch(name):
             return "Perfect Armor"
