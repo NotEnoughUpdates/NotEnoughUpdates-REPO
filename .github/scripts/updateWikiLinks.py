@@ -248,7 +248,7 @@ class WikiLinkUpdater:
         if " Balloon Hat " in name:
             return " ".join(name.split(" ")[1:])
 
-        if " Minion " in name or " Rune " in name:
+        if (" Minion " in name and not name.endswith("Skin")) or " Rune " in name:
             return " ".join(name.split(" ")[:-1])
 
         if perfectArmorPattern.fullmatch(name):
