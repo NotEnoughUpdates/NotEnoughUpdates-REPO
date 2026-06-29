@@ -221,12 +221,12 @@ class WikiLinkUpdater:
         name = name.strip()
         if "[Lvl {LVL}] " in name:
             name = name.replace("[Lvl {LVL}] ", "") + " Pet"
-        name = cls.capitalizeWords(name)
 
         for suffix in suffixesToRemove:
             if name.endswith(suffix):
-                name = name.removesuffix(suffix)
+                name = name.removesuffix(suffix).strip()
                 break
+        name = cls.capitalizeWords(name)
 
         if name == "Enchanted Book":
             for line in data["lore"]:
