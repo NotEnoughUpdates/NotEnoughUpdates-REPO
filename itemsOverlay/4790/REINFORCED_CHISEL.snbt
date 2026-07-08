@@ -1,0 +1,38 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			gems: {
+				CHISEL_0: {
+					quality: "FLAWLESS",
+					uuid: "73e3d827-2ffe-4896-bdf0-b2db06d4a562"
+				},
+				CHISEL_0_gem: "CITRINE"
+			},
+			id: "REINFORCED_CHISEL"
+		},
+		"minecraft:item_model": "hypixel_skyblock:item/glacite/chisel/reinforced_chisel",
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:dyed_color",
+				"minecraft:charged_projectiles"
+			]
+		},
+		"minecraft:tooltip_style": "hypixel_skyblock:rare"
+	},
+	count: 1,
+	id: "minecraft:armor_stand",
+	source: {
+		dataVersion: 4790,
+		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g00fd3323"
+	}
+}
