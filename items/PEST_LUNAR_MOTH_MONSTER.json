@@ -17,5 +17,83 @@
   "modver": "",
   "infoType": "",
   "info": [],
-  "recipes": []
+  "recipes": [
+    {
+      "level": 1,
+      "coins": 1000,
+      "xp": 10,
+      "panorama": "garden",
+      "render": "@neurepo:mobs/pest_lunar_moth.json",
+      "name": "§aLunar Moth",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "COMPOST:1",
+          "extra": [],
+          "chance": "10%"
+        },
+        {
+          "id": "HONEY_JAR:1",
+          "extra": [],
+          "chance": "10%"
+        },
+        {
+          "id": "DUNG:1",
+          "extra": [],
+          "chance": "10%"
+        },
+        {
+          "id": "PLANT_MATTER:1",
+          "extra": [],
+          "chance": "10%"
+        },
+        {
+          "id": "CHEESE_FUEL:1",
+          "extra": [],
+          "chance": "10%"
+        },
+        {
+          "id": "JELLY:1",
+          "extra": [],
+          "chance": "10%"
+        },
+        {
+          "id": "ENCHANTED_SUNFLOWER:2",
+          "extra": [], 
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_MOONFLOWER:2",
+          "extra": [], 
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_WILD_ROSE:2",
+          "extra": [], 
+          "chance": "100%"
+        },
+        {
+          "id": "SUNSET;1:1",
+          "extra": [], 
+          "chance": "35%"
+        },
+        {
+          "id": "DYE_DUNG:1",
+          "extra": [],
+          "chance": "0.0002%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_PEST_LUCK;1:1",
+          "extra": [
+            "§7 §7- §7Catch with §cPocket Black Hole§7.",
+            "§7 §7- §7Catch with §bLasso§7.",
+            "§7 §7- §7Kill Cricket§7, Fly§7, Beetle§7, Earthworm§7,",
+            "§7Locust§7, Slug§7, Mosquito§7, Moth§7, Rat§7, or",
+            "§7Mite §7while using §cSalts§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
 }
