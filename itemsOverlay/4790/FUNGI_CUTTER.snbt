@@ -1,10 +1,11 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "FUNGI_CUTTER_2",
+			id: "FUNGI_CUTTER",
 			levelable_exp: 0.0d,
 			levelable_lvl: 1
 		},
+		"minecraft:item_model": "hypixel_skyblock:item/jacob/fungi_cutter",
 		"minecraft:tooltip_display": {
 			hidden_components: [
 				"minecraft:jukebox_playable",
@@ -17,17 +18,18 @@
 				"minecraft:banner_patterns",
 				"minecraft:trim",
 				"minecraft:potion_contents",
-				"minecraft:block_entity_data",
-				"minecraft:dyed_color"
+				"minecraft:dyed_color",
+				"minecraft:charged_projectiles"
 			]
 		},
+		"minecraft:tooltip_style": "hypixel_skyblock:uncommon",
 		"minecraft:unbreakable": {
 		}
 	},
 	count: 1,
-	id: "minecraft:golden_hoe",
+	id: "minecraft:iron_hoe",
 	source: {
-		dataVersion: 4671,
-		modVersion: "Firmament 44.1.0-dev+mc1.21.11+gcd885b38"
+		dataVersion: 4790,
+		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g00fd3323"
 	}
 }

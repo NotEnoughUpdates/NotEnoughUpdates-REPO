@@ -1,8 +1,11 @@
 {
 	components: {
+		"minecraft:attribute_modifiers": [
+		],
 		"minecraft:custom_data": {
-			id: "SCORPION_FOIL"
+			id: "GOLEM_SWORD"
 		},
+		"minecraft:item_model": "hypixel_skyblock:item/uncategorized/golem_sword",
 		"minecraft:tooltip_display": {
 			hidden_components: [
 				"minecraft:painting/variant",
@@ -11,23 +14,24 @@
 				"minecraft:enchantments",
 				"minecraft:stored_enchantments",
 				"minecraft:trim",
+				"minecraft:charged_projectiles",
 				"minecraft:jukebox_playable",
 				"minecraft:map_id",
 				"minecraft:unbreakable",
 				"minecraft:written_book_content",
 				"minecraft:banner_patterns",
 				"minecraft:potion_contents",
-				"minecraft:block_entity_data",
 				"minecraft:dyed_color"
 			]
 		},
+		"minecraft:tooltip_style": "hypixel_skyblock:rare",
 		"minecraft:unbreakable": {
 		}
 	},
 	count: 1,
-	id: "minecraft:wooden_sword",
+	id: "minecraft:iron_sword",
 	source: {
-		dataVersion: 4671,
-		modVersion: "Firmament 44.1.0-dev+mc1.21.11+g3b06339"
+		dataVersion: 4790,
+		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g00fd3323"
 	}
 }

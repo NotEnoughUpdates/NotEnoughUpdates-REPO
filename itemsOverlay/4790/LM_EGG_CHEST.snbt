@@ -4,29 +4,33 @@
 			id: "LM_EGG_CHEST"
 		},
 		"minecraft:entity_data": {
-			id: "minecraft:endermite"
+			id: "minecraft:acacia_boat"
 		},
+		"minecraft:item_model": "minecraft:warden_spawn_egg",
 		"minecraft:tooltip_display": {
 			hidden_components: [
-				"minecraft:jukebox_playable",
 				"minecraft:painting/variant",
-				"minecraft:map_id",
 				"minecraft:fireworks",
 				"minecraft:attribute_modifiers",
+				"minecraft:enchantments",
+				"minecraft:stored_enchantments",
+				"minecraft:trim",
+				"minecraft:charged_projectiles",
+				"minecraft:jukebox_playable",
+				"minecraft:map_id",
 				"minecraft:unbreakable",
 				"minecraft:written_book_content",
 				"minecraft:banner_patterns",
-				"minecraft:trim",
 				"minecraft:potion_contents",
-				"minecraft:block_entity_data",
 				"minecraft:dyed_color"
 			]
-		}
+		},
+		"minecraft:tooltip_style": "hypixel_skyblock:rare"
 	},
 	count: 1,
-	id: "minecraft:endermite_spawn_egg",
+	id: "minecraft:polar_bear_spawn_egg",
 	source: {
-		dataVersion: 4325,
-		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd"
+		dataVersion: 4790,
+		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g00fd3323"
 	}
 }
