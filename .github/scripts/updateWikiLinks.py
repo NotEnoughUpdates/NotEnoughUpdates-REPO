@@ -246,7 +246,7 @@ class WikiLinkUpdater:
             return "Gemstone"
 
         name = name.removeprefix("◆ ")
-        name = name.removeprefix("⚚ ")
+        name = name.removeprefix(" ")
 
         if " Balloon Hat " in name:
             return " ".join(name.split(" ")[1:])
