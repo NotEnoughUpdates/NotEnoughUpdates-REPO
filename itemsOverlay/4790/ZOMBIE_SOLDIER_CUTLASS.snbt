@@ -1,0 +1,32 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "ZOMBIE_SOLDIER_CUTLASS"
+		},
+		"minecraft:item_model": "hypixel_skyblock:item/uncategorized/zombie_soldier_cutlass",
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:painting/variant",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:enchantments",
+				"minecraft:stored_enchantments",
+				"minecraft:trim",
+				"minecraft:charged_projectiles",
+				"minecraft:jukebox_playable",
+				"minecraft:map_id",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:potion_contents",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:iron_sword",
+	source: {
+		dataVersion: 4790,
+		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g00fd3323"
+	}
+}
