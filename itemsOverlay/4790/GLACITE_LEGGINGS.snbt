@@ -1,9 +1,9 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "GOBLIN_CHESTPLATE"
+			id: "GLACITE_LEGGINGS"
 		},
-		"minecraft:dyed_color": 3649602,
+		"minecraft:dyed_color": 261368,
 		"minecraft:tooltip_display": {
 			hidden_components: [
 				"minecraft:jukebox_playable",
@@ -16,18 +16,18 @@
 				"minecraft:banner_patterns",
 				"minecraft:trim",
 				"minecraft:potion_contents",
-				"minecraft:block_entity_data",
-				"minecraft:dyed_color"
+				"minecraft:dyed_color",
+				"minecraft:charged_projectiles"
 			]
 		},
+		"minecraft:tooltip_style": "hypixel_skyblock:epic",
 		"minecraft:unbreakable": {
-		},
-		"minecraft:tooltip_style": "hypixel_skyblock:rare"
+		}
 	},
 	count: 1,
-	id: "minecraft:leather_chestplate",
+	id: "minecraft:leather_leggings",
 	source: {
-		dataVersion: 4671,
-		modVersion: "Firmament 44.2.0-dev+mc1.21.11+g610fbd78"
+		dataVersion: 4790,
+		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g0c5f541d"
 	}
 }
