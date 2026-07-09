@@ -1,7 +1,8 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "FARMING_TALISMAN"
+			id: "FARMING_TALISMAN",
+			originTag: "QUICK_CRAFTING"
 		},
 		"minecraft:profile": {
 			id: [I;
@@ -30,8 +31,8 @@
 				"minecraft:banner_patterns",
 				"minecraft:trim",
 				"minecraft:potion_contents",
-				"minecraft:block_entity_data",
-				"minecraft:dyed_color"
+				"minecraft:dyed_color",
+				"minecraft:charged_projectiles"
 			]
 		},
 		"minecraft:tooltip_style": "hypixel_skyblock:common"
@@ -39,7 +40,7 @@
 	count: 1,
 	id: "minecraft:player_head",
 	source: {
-		dataVersion: 4556,
-		modVersion: "Firmament 43.0.0+mc1.21.10"
+		dataVersion: 4790,
+		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g0c5f541d"
 	}
 }
