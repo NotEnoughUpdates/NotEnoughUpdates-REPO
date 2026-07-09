@@ -1,10 +1,7 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			enchantments: {
-				bug_blender: 3
-			},
-			id: "ENCHANTED_BOOK"
+			id: "VINYL_DYNAMITES"
 		},
 		"minecraft:tooltip_display": {
 			hidden_components: [
@@ -18,16 +15,16 @@
 				"minecraft:banner_patterns",
 				"minecraft:trim",
 				"minecraft:potion_contents",
-				"minecraft:block_entity_data",
-				"minecraft:dyed_color"
+				"minecraft:dyed_color",
+				"minecraft:charged_projectiles"
 			]
 		},
-		"minecraft:tooltip_style": "hypixel_skyblock:common"
+		"minecraft:tooltip_style": "hypixel_skyblock:uncommon"
 	},
 	count: 1,
-	id: "minecraft:enchanted_book",
+	id: "minecraft:music_disc_strad",
 	source: {
-		dataVersion: 4671,
-		modVersion: "Firmament 44.1.0-dev+mc1.21.11+gcd885b38"
+		dataVersion: 4790,
+		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g00fd3323"
 	}
 }

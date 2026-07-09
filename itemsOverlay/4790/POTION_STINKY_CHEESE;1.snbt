@@ -1,10 +1,28 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			enchantments: {
-				pesterminator: 4
-			},
-			id: "PESTERMINATOR;4"
+			effects: [
+				{
+					duration_ticks: 72000,
+					effect: "stinky_cheese",
+					level: 1
+				}
+			],
+			id: "POTION",
+			potion: "stinky_cheese",
+			potion_level: 1,
+			potion_type: "POTION",
+			splash: 0b
+		},
+		"minecraft:potion_contents": {
+			custom_effects: [
+				{
+					duration: 20,
+					id: "minecraft:fire_resistance",
+					show_icon: 1b
+				}
+			],
+			potion: "minecraft:fire_resistance"
 		},
 		"minecraft:tooltip_display": {
 			hidden_components: [
@@ -25,9 +43,9 @@
 		"minecraft:tooltip_style": "hypixel_skyblock:common"
 	},
 	count: 1,
-	id: "minecraft:enchanted_book",
+	id: "minecraft:potion",
 	source: {
-		dataVersion: 4671,
-		modVersion: "Firmament 44.2.0-dev+mc1.21.11+g6ee9ec8a"
+		dataVersion: 4790,
+		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g00fd3323"
 	}
 }
