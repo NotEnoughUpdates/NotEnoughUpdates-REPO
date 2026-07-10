@@ -1,50 +1,22 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			dungeon_potion: 1b,
 			effects: [
 				{
-					duration_ticks: 48000,
+					duration_ticks: 900,
 					effect: "regeneration",
-					level: 3
-				},
-				{
-					duration_ticks: 48000,
-					effect: "strength",
-					level: 4
-				},
-				{
-					duration_ticks: 48000,
-					effect: "critical",
-					level: 2
-				},
-				{
-					duration_ticks: 48000,
-					effect: "speed",
-					level: 2
-				},
-				{
-					duration_ticks: 48000,
-					effect: "resistance",
-					level: 3
-				},
-				{
-					duration_ticks: 48000,
-					effect: "archery",
-					level: 1
+					level: 7
 				}
 			],
 			id: "POTION",
 			potion: "regeneration",
-			potion_level: 4,
-			potion_name: "Dungeon",
-			potion_type: "POTION",
-			splash: 0b
+			potion_level: 7,
+			potion_type: "POTION"
 		},
 		"minecraft:potion_contents": {
 			custom_effects: [
 				{
-					amplifier: 3b,
+					amplifier: 6b,
 					duration: 20,
 					id: "minecraft:regeneration",
 					show_icon: 1b
@@ -73,7 +45,7 @@
 	count: 1,
 	id: "minecraft:potion",
 	source: {
-		dataVersion: 4325,
-		modVersion: "Firmament 3.7.1-dev+mc1.21.5+g19c6b28"
+		dataVersion: 4790,
+		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g00fd3323"
 	}
 }

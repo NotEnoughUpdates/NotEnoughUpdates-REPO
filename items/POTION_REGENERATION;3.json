@@ -1,18 +1,18 @@
 {
   "itemid": "minecraft:potion",
   "displayname": "§aRegeneration III Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:10b,Amplifier:2b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§4Regeneration III §f(0:45)\",2:\"§7Grants §c+15❣ Health Regen§7.\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aRegeneration III Potion\"},ExtraAttributes:{potion_level:3,potion:\"regeneration\",effects:[0:{level:3,effect:\"regeneration\",duration_ticks:900}],potion_type:\"POTION\",id:\"POTION_REGENERATION;3\"}}",
-  "damage": 1,
+  "nbttag": "{CustomPotionEffects:[0:{Ambient:0B,Amplifier:0B,Duration:900,Id:10B},1:{Ambient:0B,Amplifier:2B,Duration:20,Id:10B}],ExtraAttributes:{effects:[0:{duration_ticks:900,effect:\"regeneration\",level:3}],id:\"POTION_REGENERATION;3\",potion:\"regeneration\",potion_level:3,potion_type:\"POTION\"},HideFlags:254,ItemModel:\"minecraft:potion\",display:{Lore:[0:\"§4Regeneration III §f(0:45)\",1:\"§7Grants §c+15 Health Regen§7.\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aRegeneration III Potion\"}}",
+  "damage": 0,
   "lore": [
-    "",
     "§4Regeneration III §f(0:45)",
-    "§7Grants §c+15❣ Health Regen§7.",
+    "§7Grants §c+15 Health Regen§7.",
     "",
     "§a§lUNCOMMON"
   ],
   "internalname": "POTION_REGENERATION;3",
-  "crafttext": "",
   "clickcommand": "viewpotion",
-  "modver": "",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "",
+  "info": []
 }

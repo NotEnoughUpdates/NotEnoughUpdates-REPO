@@ -1,21 +1,50 @@
 {
 	components: {
 		"minecraft:custom_data": {
+			dungeon_potion: 1b,
 			effects: [
 				{
-					duration_ticks: 900,
+					duration_ticks: 48000,
 					effect: "regeneration",
-					level: 1
+					level: 4
+				},
+				{
+					duration_ticks: 48000,
+					effect: "strength",
+					level: 4
+				},
+				{
+					duration_ticks: 48000,
+					effect: "critical",
+					level: 3
+				},
+				{
+					duration_ticks: 48000,
+					effect: "speed",
+					level: 3
+				},
+				{
+					duration_ticks: 48000,
+					effect: "resistance",
+					level: 4
+				},
+				{
+					duration_ticks: 48000,
+					effect: "archery",
+					level: 3
 				}
 			],
 			id: "POTION",
 			potion: "regeneration",
-			potion_level: 1,
-			potion_type: "POTION"
+			potion_level: 6,
+			potion_name: "Dungeon",
+			potion_type: "POTION",
+			splash: 0b
 		},
 		"minecraft:potion_contents": {
 			custom_effects: [
 				{
+					amplifier: 5b,
 					duration: 20,
 					id: "minecraft:regeneration",
 					show_icon: 1b
@@ -35,8 +64,8 @@
 				"minecraft:banner_patterns",
 				"minecraft:trim",
 				"minecraft:potion_contents",
-				"minecraft:block_entity_data",
-				"minecraft:dyed_color"
+				"minecraft:dyed_color",
+				"minecraft:charged_projectiles"
 			]
 		},
 		"minecraft:tooltip_style": "hypixel_skyblock:common"
@@ -44,7 +73,7 @@
 	count: 1,
 	id: "minecraft:potion",
 	source: {
-		dataVersion: 4325,
-		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
+		dataVersion: 4790,
+		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g00fd3323"
 	}
 }
