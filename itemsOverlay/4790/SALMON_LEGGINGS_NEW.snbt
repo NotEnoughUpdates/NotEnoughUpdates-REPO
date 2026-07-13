@@ -1,25 +1,27 @@
 {
 	components: {
+		"minecraft:attribute_modifiers": [
+		],
 		"minecraft:custom_data": {
-			color: "160:101:64",
-			id: "SALMON_LEGGINGS_NEW",
-			originTag: "QUICK_CRAFTING_SHIFT"
+			id: "SALMON_LEGGINGS_NEW"
 		},
-		"minecraft:enchantment_glint_override": 1b,
+		"minecraft:dyed_color": 11021174,
 		"minecraft:tooltip_display": {
 			hidden_components: [
-				"minecraft:jukebox_playable",
 				"minecraft:painting/variant",
-				"minecraft:map_id",
 				"minecraft:fireworks",
 				"minecraft:attribute_modifiers",
+				"minecraft:enchantments",
+				"minecraft:stored_enchantments",
+				"minecraft:trim",
+				"minecraft:charged_projectiles",
+				"minecraft:jukebox_playable",
+				"minecraft:map_id",
 				"minecraft:unbreakable",
 				"minecraft:written_book_content",
 				"minecraft:banner_patterns",
-				"minecraft:trim",
 				"minecraft:potion_contents",
-				"minecraft:dyed_color",
-				"minecraft:charged_projectiles"
+				"minecraft:dyed_color"
 			]
 		},
 		"minecraft:tooltip_style": "hypixel_skyblock:rare",
@@ -30,6 +32,6 @@
 	id: "minecraft:leather_leggings",
 	source: {
 		dataVersion: 4790,
-		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g0c5f541d"
+		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g02e85d46"
 	}
 }
