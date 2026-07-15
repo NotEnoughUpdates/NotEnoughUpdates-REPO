@@ -1,37 +1,45 @@
 {
 	components: {
-		"minecraft:attribute_modifiers": [
-		],
 		"minecraft:custom_data": {
 			id: "RABBIT_HELMET"
 		},
-		"minecraft:dyed_color": 13357787,
+		"minecraft:profile": {
+			id: [I;
+				561558213,
+				-1827982790,
+				-1435833205,
+				-238639354
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "KjzhHeGbPJVK/cwCrySP8+275jUrN3wcLxuNaDC1FWxdbsQq3cVdateP+NYfed55JWSw92vvGGDxd44kyQFGwzboFmPNxM9V2ETjF/+AM5t2OWe7dq8DdBRvmEgO6yYF7f7T6yvxn8tSOFYZDDFEeoQOzJNBgocNoF43PisJOLuqiPvGVgKZPDxnjM2TC+gNKTWRwypDyba9dcmHvzGHep6Jm3GnJ5b70Tf+bnYwbYZbrvZt7/rLz63QCqRrewxnsoffZ0ntiZI5d3f0y6V01oHf0Tc9xBfOlivtfOnMD79ARSEXsifVwtYO1gzGAwLCKkQuZSHk0U9SeUqwAhsr5+SAb0y9qGyBX9nAdeXNt9v17CqnzBQ7ThJAYOVrNLeR8T1HnYVWKckHGD+sW4vVrYYNUb7MhyhiuX0acg84BFDMRn54shrpCpoo7QKKpo6bzNXb3Ca7v3M4BS6ENp5YqLMlVufeDTLVRlv8ETgafsQowCP0bJX6EpKjBHSM6oXQcletqxPbxMw4Trf0Ur0BXjd4HxsIaRlhER7uZFi64XO3e28HUi/qgGqT9Kp8PQof4YnTgACsy1CVAtPnswGeyS/e6jHc5meqdlkcWOrvHUlaqUtm1J7D9jviCkr0o1YoHN4toQUFQsnOj8i17DJ3pYvgokavUTBsRxj2l27F+rI=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTc4MDM1MjcxOTUzNCwKICAicHJvZmlsZUlkIiA6ICJiMGQ0YjI4YmMxZDc0ODg5YWYwZTg2NjFjZWU5NmFhYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaW5lU2tpbl9vcmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGEwY2EyYjkwZDgzMWYxN2Y3YzhiNzcxZmIzOTczY2NhMmQ3NmE0NTZiYjdiNDdiODBkNjg3MmIwNWIyNTFmNSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+				}
+			]
+		},
 		"minecraft:tooltip_display": {
 			hidden_components: [
+				"minecraft:jukebox_playable",
 				"minecraft:painting/variant",
+				"minecraft:map_id",
 				"minecraft:fireworks",
 				"minecraft:attribute_modifiers",
-				"minecraft:enchantments",
-				"minecraft:stored_enchantments",
-				"minecraft:trim",
-				"minecraft:charged_projectiles",
-				"minecraft:jukebox_playable",
-				"minecraft:map_id",
 				"minecraft:unbreakable",
 				"minecraft:written_book_content",
 				"minecraft:banner_patterns",
+				"minecraft:trim",
 				"minecraft:potion_contents",
-				"minecraft:dyed_color"
+				"minecraft:dyed_color",
+				"minecraft:charged_projectiles"
 			]
 		},
-		"minecraft:tooltip_style": "hypixel_skyblock:common",
-		"minecraft:unbreakable": {
-		}
+		"minecraft:tooltip_style": "hypixel_skyblock:common"
 	},
 	count: 1,
-	id: "minecraft:leather_helmet",
+	id: "minecraft:player_head",
 	source: {
 		dataVersion: 4790,
-		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g0c5f541d"
+		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g02e85d46"
 	}
 }

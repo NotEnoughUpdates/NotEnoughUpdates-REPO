@@ -1,0 +1,45 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "BEGINNER_HUSBANDRY_SACK"
+		},
+		"minecraft:profile": {
+			id: [I;
+				368590199,
+				1657549875,
+				-1806995730,
+				1610755503
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "Tjt9EcJLNBzP/Volo8r7ZveQXCeGuVCuXW8FSU9v0d30a8qt+i6O4NEpSHA8ga9TViKjX3mn8QVFeGAZ4afOwZKbOtdNrmPW6cYqEeSKWoUajWq88S/fjgfU8Jgy6P2C4F9WP+i2YJaXMC+b+GVcqSvyVZxnzDEmi+O2lmp8SXCsIAcGRS/UwnUyHnBWnRNCgIz7oWwqsMbHRyqLGdfa0wI/0KInZNQwDhfKCuaj8b6q+jiXoWDYkHiDb8hQTcNxf0mNBCJMp4cwK2Vh3rVFErhMdy3KZdb4MrZEmROHVjzDme10ino7p/ZeAb9KrbWuPk25qG7zhCYsLTkGgzTHZqlXs/+30/gOgZFB5KP58gBlHYV2UkA4N5Vgspw+mvbr3ffrvXtiLmE0Iamlimk0S3KONzJ53W1501d1a6L50dXkvs8aQjnfKUdS7jouBrzYfxMhRTeZ3V3l0xB+Yr6EgKZ7J5jPraD2MtCH55h2PeZAYHTvwwyea1uyz51dT+VqYXtEfzMNo01sKES+ZejmblitbtYLU+MatA8+EVXXsro1KTguvcrdRIdW744ifg2v1W8cTw9mM+4XFD9sN+NAalN53pvzqLu1T4ggs8FlQtkxGb3SbUq7tBDfWR4SaATY28tV4mWJGvJpaZ8KmbexR7Koxit4jZdkDHkL4Ejf1ZY=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTc3MzIzODMwMjQ2OSwKICAicHJvZmlsZUlkIiA6ICI1ZTI1YzI0ZmIxMGI0MTlmOWIzYTQzMWIyOTYzYjQ2YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ2NHIxbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81MDJkNWZiMDA3OTgzM2JlMTkxNTMwMjQ1NTgzZDE2ZjMyMmUzNDNjZGQ0MzRjZGQ3YWFiN2U4YmRjZGJiYzRkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:dyed_color",
+				"minecraft:charged_projectiles"
+			]
+		},
+		"minecraft:tooltip_style": "hypixel_skyblock:common"
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4790,
+		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g02e85d46"
+	}
+}
