@@ -20,15 +20,20 @@
     "https://hypixelskyblock.minecraft.wiki/w/Pumpkin_Boots",
     "https://wiki.hypixel.net/Pumpkin_Boots"
   ],
-  "recipe": {
-    "A1": "PUMPKIN:1",
-    "A2": "",
-    "A3": "PUMPKIN:1",
-    "B1": "PUMPKIN:1",
-    "B2": "",
-    "B3": "PUMPKIN:1",
-    "C1": "",
-    "C2": "",
-    "C3": ""
-  }
+  "recipes": [
+    {
+      "A1": "ENCHANTED_CARROT:8",
+      "A2": "ENCHANTED_CARROT:8",
+      "A3": "ENCHANTED_CARROT:8",
+      "B1": "ENCHANTED_CARROT:8",
+      "B2": "FARM_ARMOR_BOOTS:1",
+      "B3": "ENCHANTED_CARROT:8",
+      "C1": "ENCHANTED_CARROT:8",
+      "C2": "ENCHANTED_CARROT:8",
+      "C3": "ENCHANTED_CARROT:8",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "PUMPKIN_BOOTS"
+    }
+  ]
 }

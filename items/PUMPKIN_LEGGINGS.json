@@ -20,15 +20,20 @@
     "https://hypixelskyblock.minecraft.wiki/w/Pumpkin_Leggings",
     "https://wiki.hypixel.net/Pumpkin_Leggings"
   ],
-  "recipe": {
-    "A1": "PUMPKIN:1",
-    "A2": "PUMPKIN:1",
-    "A3": "PUMPKIN:1",
-    "B1": "PUMPKIN:1",
-    "B2": "",
-    "B3": "PUMPKIN:1",
-    "C1": "PUMPKIN:1",
-    "C2": "",
-    "C3": "PUMPKIN:1"
-  }
+  "recipes": [
+    {
+      "A1": "ENCHANTED_CARROT:8",
+      "A2": "ENCHANTED_CARROT:8",
+      "A3": "ENCHANTED_CARROT:8",
+      "B1": "ENCHANTED_CARROT:8",
+      "B2": "FARM_ARMOR_LEGGINGS:1",
+      "B3": "ENCHANTED_CARROT:8",
+      "C1": "ENCHANTED_CARROT:8",
+      "C2": "ENCHANTED_CARROT:8",
+      "C3": "ENCHANTED_CARROT:8",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "PUMPKIN_LEGGINGS"
+    }
+  ]
 }

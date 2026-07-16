@@ -23,15 +23,20 @@
     "https://hypixelskyblock.minecraft.wiki/w/Rabbit_Helmet",
     "https://wiki.hypixel.net/Rabbit_Helmet"
   ],
-  "recipe": {
-    "A1": "ENCHANTED_RABBIT_HIDE:5",
-    "A2": "ENCHANTED_RABBIT_FOOT:10",
-    "A3": "ENCHANTED_RABBIT_HIDE:5",
-    "B1": "ENCHANTED_RABBIT_HIDE:5",
-    "B2": "",
-    "B3": "ENCHANTED_RABBIT_HIDE:5",
-    "C1": "",
-    "C2": "",
-    "C3": ""
-  }
+  "recipes": [
+    {
+      "A1": "RABBIT_HIDE:1",
+      "A2": "RABBIT_HIDE:1",
+      "A3": "RABBIT_HIDE:1",
+      "B1": "RABBIT_HIDE:1",
+      "B2": "",
+      "B3": "RABBIT_HIDE:1",
+      "C1": "",
+      "C2": "",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "RABBIT_HELMET"
+    }
+  ]
 }
