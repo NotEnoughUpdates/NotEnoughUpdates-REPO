@@ -1,9 +1,8 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "STARLIGHT_WAND"
+			id: "MERCENARY_LEGGINGS"
 		},
-		"minecraft:item_model": "hypixel_skyblock:item/uncategorized/starlight_wand",
 		"minecraft:tooltip_display": {
 			hidden_components: [
 				"minecraft:jukebox_playable",
@@ -20,10 +19,12 @@
 				"minecraft:charged_projectiles"
 			]
 		},
-		"minecraft:tooltip_style": "hypixel_skyblock:rare"
+		"minecraft:tooltip_style": "hypixel_skyblock:rare",
+		"minecraft:unbreakable": {
+		}
 	},
 	count: 1,
-	id: "minecraft:stick",
+	id: "minecraft:chainmail_leggings",
 	source: {
 		dataVersion: 4790,
 		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g02e85d46"
