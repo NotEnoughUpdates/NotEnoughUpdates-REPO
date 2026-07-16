@@ -4057,19 +4057,19 @@
     "COMMON": {
       "1": {
         "otherNums": [
-          0.2
+          0.5
         ],
         "statNums": {
-          "FARMING_FORTUNE": 11.0,
+          "FARMING_FORTUNE": 1.0,
           "HEALTH": 1.0
         }
       },
       "100": {
         "otherNums": [
-          20
+          50
         ],
         "statNums": {
-          "FARMING_FORTUNE": 110.0,
+          "FARMING_FORTUNE": 100.0,
           "HEALTH": 100.0
         }
       }
@@ -4077,19 +4077,19 @@
     "UNCOMMON": {
       "1": {
         "otherNums": [
-          0.2
+          1
         ],
         "statNums": {
-          "FARMING_FORTUNE": 11.0,
+          "FARMING_FORTUNE": 1.0,
           "HEALTH": 1.0
         }
       },
       "100": {
         "otherNums": [
-          20
+          100
         ],
         "statNums": {
-          "FARMING_FORTUNE": 110.0,
+          "FARMING_FORTUNE": 100.0,
           "HEALTH": 100.0
         }
       }
@@ -4097,21 +4097,23 @@
     "RARE": {
       "1": {
         "otherNums": [
-          0.3,
-          2.0
+          1,
+          0.7,
+          50
         ],
         "statNums": {
-          "FARMING_FORTUNE": 11.0,
+          "FARMING_FORTUNE": 1.0,
           "HEALTH": 1.0
         }
       },
       "100": {
         "otherNums": [
-          30,
-          100
+          100,
+          70,
+          30
         ],
         "statNums": {
-          "FARMING_FORTUNE": 110.0,
+          "FARMING_FORTUNE": 100.0,
           "HEALTH": 100.0
         }
       }
@@ -4119,21 +4121,23 @@
     "EPIC": {
       "1": {
         "otherNums": [
-          0.3,
-          2.0
+          1,
+          0.7,
+          40
         ],
         "statNums": {
-          "FARMING_FORTUNE": 11.0,
+          "FARMING_FORTUNE": 1.0,
           "HEALTH": 1.0
         }
       },
       "100": {
         "otherNums": [
-          30,
-          100
+          100,
+          70,
+          20
         ],
         "statNums": {
-          "FARMING_FORTUNE": 110.0,
+          "FARMING_FORTUNE": 100.0,
           "HEALTH": 100.0
         }
       }
@@ -4141,23 +4145,25 @@
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          0.3,
-          2.0,
-          39.8
+          1,
+          0.7,
+          40,
+          0.0002
         ],
         "statNums": {
-          "FARMING_FORTUNE": 11.0,
+          "FARMING_FORTUNE": 1.0,
           "HEALTH": 1.0
         }
       },
       "100": {
         "otherNums": [
-          30,
           100,
-          20
+          70,
+          20,
+          0.02
         ],
         "statNums": {
-          "FARMING_FORTUNE": 110.0,
+          "FARMING_FORTUNE": 100.0,
           "HEALTH": 100.0
         }
       }

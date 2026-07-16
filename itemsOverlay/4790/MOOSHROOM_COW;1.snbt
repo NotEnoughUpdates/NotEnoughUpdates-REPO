@@ -2,7 +2,7 @@
 	components: {
 		"minecraft:custom_data": {
 			id: "PET",
-			petInfo: '{"type":"MOOSHROOM_COW","tier":"EPIC","exp":0.0,"candyUsed":0}'
+			petInfo: '{"type":"MOOSHROOM_COW","tier":"UNCOMMON","exp":0.0,"candyUsed":0}'
 		},
 		"minecraft:profile": {
 			id: [I;
@@ -31,16 +31,16 @@
 				"minecraft:banner_patterns",
 				"minecraft:trim",
 				"minecraft:potion_contents",
-				"minecraft:block_entity_data",
-				"minecraft:dyed_color"
+				"minecraft:dyed_color",
+				"minecraft:charged_projectiles"
 			]
 		},
-		"minecraft:tooltip_style": "hypixel_skyblock:epic"
+		"minecraft:tooltip_style": "hypixel_skyblock:uncommon"
 	},
 	count: 1,
 	id: "minecraft:player_head",
 	source: {
-		dataVersion: 4325,
-		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
+		dataVersion: 4790,
+		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g02e85d46"
 	}
 }
