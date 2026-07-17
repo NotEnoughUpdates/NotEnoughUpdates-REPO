@@ -1,7 +1,7 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "BRONZE_HUNTER_BOOTS"
+			id: "GOLD_HUNTER_HELMET"
 		},
 		"minecraft:tooltip_display": {
 			hidden_components: [
@@ -15,18 +15,18 @@
 				"minecraft:banner_patterns",
 				"minecraft:trim",
 				"minecraft:potion_contents",
-				"minecraft:block_entity_data",
-				"minecraft:dyed_color"
+				"minecraft:dyed_color",
+				"minecraft:charged_projectiles"
 			]
 		},
+		"minecraft:tooltip_style": "hypixel_skyblock:epic",
 		"minecraft:unbreakable": {
-		},
-		"minecraft:tooltip_style": "hypixel_skyblock:uncommon"
+		}
 	},
 	count: 1,
-	id: "minecraft:leather_boots",
+	id: "minecraft:golden_helmet",
 	source: {
-		dataVersion: 4671,
-		modVersion: "Firmament 44.1.0-dev+mc1.21.11+g3b06339"
+		dataVersion: 4790,
+		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g00fd3323"
 	}
 }
