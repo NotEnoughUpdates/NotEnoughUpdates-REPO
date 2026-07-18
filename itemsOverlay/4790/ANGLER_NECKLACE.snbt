@@ -3,7 +3,6 @@
 		"minecraft:custom_data": {
 			id: "ANGLER_NECKLACE"
 		},
-		"minecraft:dyed_color": 10511680,
 		"minecraft:profile": {
 			id: [I;
 				1063588826,
@@ -11,7 +10,6 @@
 				-1847975249,
 				865727982
 			],
-			name: "",
 			properties: [
 				{
 					name: "textures",
@@ -22,7 +20,18 @@
 		},
 		"minecraft:tooltip_display": {
 			hidden_components: [
-				"minecraft:dyed_color"
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:dyed_color",
+				"minecraft:charged_projectiles"
 			]
 		},
 		"minecraft:tooltip_style": "hypixel_skyblock:common"
@@ -30,7 +39,7 @@
 	count: 1,
 	id: "minecraft:player_head",
 	source: {
-		dataVersion: 4325,
-		modVersion: "Firmament 3.2.0-dev+mc1.21.5+g64ef955"
+		dataVersion: 4790,
+		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g00fd3323"
 	}
 }
