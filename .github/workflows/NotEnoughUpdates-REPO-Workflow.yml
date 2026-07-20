@@ -27,9 +27,10 @@ jobs:
         EVENT: ${{ github.event_name }}
         PR: ${{ github.event.pull_request.head.sha }}
         HEAD: ${{ github.sha }}
-    - uses: actions/checkout@v6
+    - uses: actions/checkout@v7
       with: 
         ref: ${{ steps.sha.outputs.sha }}
+        allow-unsafe-pr-checkout: true
     - name: run-checks
       uses: NotEnoughUpdates/NotEnoughUpdates-REPO-Workflow@main
       with: 
