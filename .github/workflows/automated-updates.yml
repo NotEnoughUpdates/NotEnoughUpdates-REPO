@@ -31,6 +31,7 @@ jobs:
         run: python .github/scripts/updateGemstoneCosts.py
 
       - name: Run Python george pet prices script
+        if: false
         run: python .github/scripts/updateGeorgePrices.py
 
       - name: Run Python essence costs script
