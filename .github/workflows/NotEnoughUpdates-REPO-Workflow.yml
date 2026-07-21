@@ -2,8 +2,6 @@ name: NotEnoughUpdates REPO Workflow
 
 # Controls when the action will run. 
 on:
-  pull_request_target:
-    branches: [ master ]
   push:
     branches: [ master ]
   workflow_dispatch:
@@ -30,7 +28,6 @@ jobs:
     - uses: actions/checkout@v7
       with: 
         ref: ${{ steps.sha.outputs.sha }}
-        allow-unsafe-pr-checkout: true
     - name: run-checks
       uses: NotEnoughUpdates/NotEnoughUpdates-REPO-Workflow@main
       with: 
