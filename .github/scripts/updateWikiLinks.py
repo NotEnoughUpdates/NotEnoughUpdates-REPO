@@ -81,9 +81,9 @@ class WikiLinkUpdater:
 
         existingInfo = file.data.get("info", [])
         validLinks = [
-            link for link in existingInfo if any(link.startswith(v) for v in urlPrefix.values())
+            link for link in existingInfo if link.startswith(urlPrefix)
         ]
-        if validLinks and existingInfo == validLinks and len(validLinks) == 2 and not recheckAllLinks:
+        if validLinks and existingInfo == validLinks and len(validLinks) == 1 and not recheckAllLinks:
             return False
 
         return True
