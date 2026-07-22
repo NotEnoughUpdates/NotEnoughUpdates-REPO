@@ -13,14 +13,8 @@ from urllib3.util import Retry
 # Constants
 batchSize = 50
 itemsDirectory = "items"
-urlPrefix = {
-    "independent": "https://hypixelskyblock.minecraft.wiki/w/",
-    "official": "https://wiki.hypixel.net/",
-}
-apiUrl = {
-    "independent": "https://hypixelskyblock.minecraft.wiki/api.php",
-    "official": "https://wiki.hypixel.net/api.php",
-}
+urlPrefix = "https://hypixelskyblock.minecraft.wiki/w/"
+apiUrl = "https://hypixelskyblock.minecraft.wiki/api.php"
 wikiUrlInfoType = "WIKI_URL"
 suffixesToRemove = [
     "(Monster)", "(NPC)", "(Rift NPC)", "(Boss)", "(Miniboss)", "(Sea Creature)", "(Animal)",
@@ -47,14 +41,8 @@ class ItemFile:
         with open(self._path, "r", encoding="utf-8") as fd:
             self.name = os.path.basename(fd.name)
             self.data = json.load(fd)
-        self.candidates = {
-            "independent": [],
-            "official": [],
-        }
-        self.page = {
-            "independent": None,
-            "official": None,
-        }
+        self.candidates = []
+        self.page = None
 
     def write(self) -> None:
         with open(self._path, "w", encoding="utf-8") as fd:
@@ -93,9 +81,9 @@ class WikiLinkUpdater:
 
         existingInfo = file.data.get("info", [])
         validLinks = [
-            link for link in existingInfo if any(link.startswith(v) for v in urlPrefix.values())
+            link for link in existingInfo if link.startswith(urlPrefix)
         ]
-        if validLinks and existingInfo == validLinks and len(validLinks) == 2 and not recheckAllLinks:
+        if validLinks and existingInfo == validLinks and len(validLinks) == 1 and not recheckAllLinks:
             return False
 
         return True
@@ -103,74 +91,62 @@ class WikiLinkUpdater:
     def prepareWikiLinks(self) -> None:
         for file in self.files:
             formattedName = self.formatNameForSearch(file.data)
-
-            independentName = formattedName
-            file.candidates["independent"].append(independentName)
-
-            officialName = formattedName.replace(" of ", " Of ").replace(" the ", " The ").replace(" to ", " To ")
-            if self.stripColor(file.data["displayname"]) == "Enchanted Book":
-                officialName += " Enchantment"
-            file.candidates["official"].append(officialName)
-            # Also try with lowercase prepositions because a few pages use them
-            if " Of " in officialName or " The " in officialName or " To " in officialName:
-                altOfficialName = officialName.replace(" Of ", " of ").replace(" The ", " the ").replace(" To ", " to ")
-                file.candidates["official"].append(altOfficialName)
+            file.candidates.append(formattedName)
 
     def fetchWikiLinks(self):
-        for wiki in ("independent", "official"):
-            done = 0
-            candidate_to_files: dict[str, list[ItemFile]] = {}
-            for file in self.files:
-                for candidate in file.candidates[wiki]:
-                    if candidate_to_files.get(candidate) is None:
-                        candidate_to_files[candidate] = []
-                    candidate_to_files[candidate].append(file)
-            candidates = list(candidate_to_files.keys())
+        done = 0
+        candidate_to_files: dict[str, list[ItemFile]] = {}
+        for file in self.files:
+            for candidate in file.candidates:
+                if candidate_to_files.get(candidate) is None:
+                    candidate_to_files[candidate] = []
+                candidate_to_files[candidate].append(file)
+        candidates = list(candidate_to_files.keys())
 
-            for batch in itertools.batched(candidates, batchSize):
-                print(f"\rFetching {wiki} wiki pages... {done}/{len(candidates)}", end="", flush=True)
+        for batch in itertools.batched(candidates, batchSize):
+            print(f"\rFetching wiki pages... {done}/{len(candidates)}", end="", flush=True)
 
-                response = self.session.get(
-                    apiUrl[wiki],
-                    params={
-                        "action": "query",
-                        "format": "json",
-                        "titles": "|".join(batch),
-                        # "redirects": 1,
-                        "formatversion": 2,
-                    }
-                )
+            response = self.session.get(
+                apiUrl,
+                params={
+                    "action": "query",
+                    "format": "json",
+                    "titles": "|".join(batch),
+                    # "redirects": 1,
+                    "formatversion": 2,
+                }
+            )
 
-                if not response.ok:
-                    print(f"\nFailed to fetch batch ({response.status_code} {response.reason})")
-                    done += batchSize
+            if not response.ok:
+                print(f"\nFailed to fetch batch ({response.status_code} {response.reason})")
+                done += batchSize
+                continue
+
+            payload = response.json()
+            for page in payload["query"]["pages"]:
+                if page.get("missing"):
                     continue
 
-                payload = response.json()
-                for page in payload["query"]["pages"]:
-                    if page.get("missing"):
-                        continue
+                matches = {}
+                candidate = page["title"]
+                if files := candidate_to_files.get(candidate):
+                    for file in files:
+                        matches[file] = candidate
+                else:
+                    for transformation in payload["query"].get("normalized", []):
+                        candidate = transformation["from"]
+                        if files := candidate_to_files.get(candidate):
+                            for file in files:
+                                matches[file] = candidate
 
-                    matches = {}
-                    candidate = page["title"]
-                    if files := candidate_to_files.get(candidate):
-                        for file in files:
-                            matches[file] = candidate
-                    else:
-                        for transformation in payload["query"].get("normalized", []):
-                            candidate = transformation["from"]
-                            if files := candidate_to_files.get(candidate):
-                                for file in files:
-                                    matches[file] = candidate
+                for file, candidate in matches.items():
+                    if not file.page:
+                        file.page = candidate
 
-                    for file, candidate in matches.items():
-                        if not file.page[wiki]:
-                            file.page[wiki] = candidate
+            done += batchSize
+            time.sleep(0.1)
 
-                done += batchSize
-                time.sleep(0.1)
-
-            print()
+        print()
 
     def processItemFiles(self) -> None:
         for file in self.files:
@@ -178,26 +154,20 @@ class WikiLinkUpdater:
 
             formattedName = self.formatNameForSearch(file.data)
 
-            independentPage = file.page["independent"]
-            officialPage = file.page["official"]
-
             fileModified = False
 
-            if independentPage or officialPage:
+            if file.page:
                 if not file.data.get("infoType"):
                     file.data["infoType"] = wikiUrlInfoType
                     fileModified = True
             else:
                 print(f"Neither page exists for {file.name}, {formattedName}")
 
-            independentLink = self.getUrl("independent", independentPage)
-            officialLink = self.getUrl("official", officialPage)
+            wikiLink = self.getUrl(file.page)
 
             infoLinks_auto = []
-            if independentLink:
-                infoLinks_auto.append(independentLink)
-            if officialPage:
-                infoLinks_auto.append(officialLink)
+            if wikiLink:
+                infoLinks_auto.append(wikiLink)
 
             existingInfo = file.data.get("info", [])
 
@@ -271,10 +241,10 @@ class WikiLinkUpdater:
         return "".join(word.capitalize() for word in re.split(r"([ _-])", string) if word not in ["of", "the", "to"])
 
     @staticmethod
-    def getUrl(wiki: str, page: str | None) -> str | None:
+    def getUrl(page: str | None) -> str | None:
         if not page:
             return None
-        return urlPrefix[wiki] + quote(page.replace(" ", "_"), safe='"#()+,/:')
+        return urlPrefix + quote(page.replace(" ", "_"), safe='"#()+,/:')
 
 
 def main() -> None:
