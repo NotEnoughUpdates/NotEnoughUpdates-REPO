@@ -1,37 +1,38 @@
 {
-  "itemid": "minecraft:leather_helmet",
-  "displayname": "§fPumpkin Helmet",
-  "nbttag": "{ExtraAttributes:{id:\"PUMPKIN_HELMET\"},HideFlags:254,ItemModel:\"minecraft:leather_helmet\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §c+8\",1:\"§7Defense: §a+8\",2:\"\",3:\"§6Full Set Bonus: Pumpkin Buff §7(0/4)\",4:\"§7Reduce all taken damage by §a+10%\",5:\"§7and deal §a+10% §7damage.\",6:\"\",7:\"§8This item can be reforged!\",8:\"§4❣ §cRequires §aFarming Skill 2§c.\",9:\"§f§lCOMMON HELMET\"],Name:\"§fPumpkin Helmet\",color:15575606}}",
-  "damage": 0,
+  "itemid": "minecraft:skull",
+  "displayname": "§aSprout Helmet",
+  "nbttag": "{ExtraAttributes:{id:\"PUMPKIN_HELMET\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"c689559c-7d81-3c59-950e-07ddee9aa955\",Properties:{textures:[0:{Name:\"textures\",Signature:\"p1uECur9Oo8MN8y1BZJYgDHKPvqWGXJgN+ONfXsX6vfpXXBQuQHJJhGLUS8HQd2TaI+Du+8e0/b1PdATyKeJxAaWaL8U++dF7a6UO1HcHNqKC99UGwCtLuAdrVTxHrhSUUPpcHLXtxDidXxlt73jW5qXIv6Ry/I338aTlOSDNRqUnwIBkhrRpw8mzbYIg4yzAXy5g2u6KVQCBAK7lrgFh11NBEFvlg6aTcIAOd0v+3S8dx4OCWNR2+uUUfB+sDGfw8CBPMEZ/BjCjZN2pAkRdVo4jfrjAy/rYLVca133r58Y1wMDwo+oT2G0NtG4WE7Jyb4z87JPfMuHdp/QOxCj9twglixH0ZkAr8XKTO73hEbqctfhCnAYCeVBbVU1PC4vBtsWs6ESuk2jO4Lvq9If1Ip2opllwO5VDIoizxpd4QZpXQ1sA14Cpz+yanhUra6SKLXoKdunreGwHVzx9MqcymAXNv4SAtgjJndzVOApgZZXCgSx6Li7Fm5F6BMOaWW5l2GaCc5xZ0C/+vuTgh77s2OjCFbs+pYwFn3JZqyRnYlHrbPPGdfr2H8zxivlGAeG/f3g6U4tgJuSNEryXz8KIvQcbrhyR2Dy9FuDbBpx+Hzq/ci/HxMjamemUCWl8WUI0olnXb2pl+wQnvS6AW7vrzeJRaW9ZhWzfUIMhu7SCIw=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4MTEzOTUzOTg4MSwKICAicHJvZmlsZUlkIiA6ICI2OTU3YjQyOTZiOTI0NGJkOGQzNWJiZGU4M2JiZDI3OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJjb2xpblBBUEEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmY5MjQ4OTcyNTA5M2Q1MWRkMThhMjU5MzgyZmEwMjA3YTIwYTk0NDk1ODgzZDlmNGIxZmQ5N2E4YTExYjlmMCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Defense: §a+20\",1:\"§7Farming Fortune: §6+15\",2:\"\",3:\"§8This item can be reforged!\",4:\"§4❣ §cRequires §aFarming Skill 15§c.\",5:\"§a§lUNCOMMON HELMET\"],Name:\"§aSprout Helmet\"}}",
+  "damage": 3,
   "lore": [
-    "§7Health: §c+8",
-    "§7Defense: §a+8",
-    "",
-    "§6Full Set Bonus: Pumpkin Buff §7(0/4)",
-    "§7Reduce all taken damage by §a+10%",
-    "§7and deal §a+10% §7damage.",
+    "§7Defense: §a+20",
+    "§7Farming Fortune: §6+15",
     "",
     "§8This item can be reforged!",
-    "§4❣ §cRequires §aFarming Skill 2§c.",
-    "§f§lCOMMON HELMET"
+    "§4❣ §cRequires §aFarming Skill 15§c.",
+    "§a§lUNCOMMON HELMET"
   ],
   "internalname": "PUMPKIN_HELMET",
   "clickcommand": "viewrecipe",
-  "crafttext": "Requires: Pumpkin II",
-  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "crafttext": "Requires: Carrot VIII",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g02e85d46",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Pumpkin_Helmet"
   ],
-  "recipe": {
-    "A1": "PUMPKIN:1",
-    "A2": "PUMPKIN:1",
-    "A3": "PUMPKIN:1",
-    "B1": "PUMPKIN:1",
-    "B2": "",
-    "B3": "PUMPKIN:1",
-    "C1": "",
-    "C2": "",
-    "C3": ""
-  }
+  "recipes": [
+    {
+      "A1": "ENCHANTED_CARROT:8",
+      "A2": "ENCHANTED_CARROT:8",
+      "A3": "ENCHANTED_CARROT:8",
+      "B1": "ENCHANTED_CARROT:8",
+      "B2": "FARM_ARMOR_HELMET:1",
+      "B3": "ENCHANTED_CARROT:8",
+      "C1": "ENCHANTED_CARROT:8",
+      "C2": "ENCHANTED_CARROT:8",
+      "C3": "ENCHANTED_CARROT:8",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "PUMPKIN_HELMET"
+    }
+  ]
 }

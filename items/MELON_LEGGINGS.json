@@ -24,21 +24,26 @@
   ],
   "internalname": "MELON_LEGGINGS",
   "clickcommand": "viewrecipe",
-  "crafttext": "",
+  "crafttext": "Requires: Potato IX",
   "modver": "Firmament 44.2.0-dev+mc26.1.2+g0c5f541d",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Melon_Leggings"
   ],
-  "recipe": {
-    "A1": "ENCHANTED_MELON_BLOCK:5",
-    "A2": "ENCHANTED_MELON_BLOCK:5",
-    "A3": "ENCHANTED_MELON_BLOCK:5",
-    "B1": "ENCHANTED_MELON_BLOCK:5",
-    "B2": "",
-    "B3": "ENCHANTED_MELON_BLOCK:5",
-    "C1": "ENCHANTED_MELON_BLOCK:5",
-    "C2": "",
-    "C3": "ENCHANTED_MELON_BLOCK:5"
-  }
+  "recipes": [
+    {
+      "A1": "ENCHANTED_POTATO:32",
+      "A2": "ENCHANTED_POTATO:32",
+      "A3": "ENCHANTED_POTATO:32",
+      "B1": "ENCHANTED_POTATO:32",
+      "B2": "PUMPKIN_LEGGINGS:1",
+      "B3": "ENCHANTED_POTATO:32",
+      "C1": "ENCHANTED_POTATO:32",
+      "C2": "ENCHANTED_POTATO:32",
+      "C3": "ENCHANTED_POTATO:32",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "MELON_LEGGINGS"
+    }
+  ]
 }

@@ -645,7 +645,7 @@
           1.07,
           1.04,
           0.3,
-          5.2
+          0.0002
         ],
         "statNums": {
           "INTELLIGENCE": 0.5,
@@ -662,7 +662,7 @@
           8,
           5,
           30,
-          25
+          0.02
         ],
         "statNums": {
           "STRENGTH": 30.0,
@@ -681,7 +681,7 @@
           1.07,
           1.04,
           0.4,
-          0.2,
+          0.0002,
           1.6
         ],
         "statNums": {
@@ -699,7 +699,7 @@
           8,
           5,
           40,
-          25,
+          0.02,
           160
         ],
         "statNums": {
@@ -1680,11 +1680,12 @@
           0.2,
           0.01,
           1.5,
-          0.15
+          0.2
         ],
         "statNums": {
           "HEALTH": 1.0,
-          "INTELLIGENCE": 0.75
+          "INTELLIGENCE": 0.75,
+          "FARMING_FORTUNE": 0.5
         }
       },
       "100": {
@@ -1692,11 +1693,12 @@
           20,
           1,
           150,
-          15
+          20
         ],
         "statNums": {
           "HEALTH": 100.0,
-          "INTELLIGENCE": 75.0
+          "INTELLIGENCE": 75.0,
+          "FARMING_FORTUNE": 50.0
         }
       }
     }
@@ -4057,19 +4059,19 @@
     "COMMON": {
       "1": {
         "otherNums": [
-          0.2
+          0.5
         ],
         "statNums": {
-          "FARMING_FORTUNE": 11.0,
+          "FARMING_FORTUNE": 1.0,
           "HEALTH": 1.0
         }
       },
       "100": {
         "otherNums": [
-          20
+          50
         ],
         "statNums": {
-          "FARMING_FORTUNE": 110.0,
+          "FARMING_FORTUNE": 100.0,
           "HEALTH": 100.0
         }
       }
@@ -4077,19 +4079,19 @@
     "UNCOMMON": {
       "1": {
         "otherNums": [
-          0.2
+          1
         ],
         "statNums": {
-          "FARMING_FORTUNE": 11.0,
+          "FARMING_FORTUNE": 1.0,
           "HEALTH": 1.0
         }
       },
       "100": {
         "otherNums": [
-          20
+          100
         ],
         "statNums": {
-          "FARMING_FORTUNE": 110.0,
+          "FARMING_FORTUNE": 100.0,
           "HEALTH": 100.0
         }
       }
@@ -4097,21 +4099,23 @@
     "RARE": {
       "1": {
         "otherNums": [
-          0.3,
-          2.0
+          1,
+          0.7,
+          50
         ],
         "statNums": {
-          "FARMING_FORTUNE": 11.0,
+          "FARMING_FORTUNE": 1.0,
           "HEALTH": 1.0
         }
       },
       "100": {
         "otherNums": [
-          30,
-          100
+          100,
+          70,
+          30
         ],
         "statNums": {
-          "FARMING_FORTUNE": 110.0,
+          "FARMING_FORTUNE": 100.0,
           "HEALTH": 100.0
         }
       }
@@ -4119,21 +4123,23 @@
     "EPIC": {
       "1": {
         "otherNums": [
-          0.3,
-          2.0
+          1,
+          0.7,
+          40
         ],
         "statNums": {
-          "FARMING_FORTUNE": 11.0,
+          "FARMING_FORTUNE": 1.0,
           "HEALTH": 1.0
         }
       },
       "100": {
         "otherNums": [
-          30,
-          100
+          100,
+          70,
+          20
         ],
         "statNums": {
-          "FARMING_FORTUNE": 110.0,
+          "FARMING_FORTUNE": 100.0,
           "HEALTH": 100.0
         }
       }
@@ -4141,23 +4147,25 @@
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          0.3,
-          2.0,
-          39.8
+          1,
+          0.7,
+          40,
+          0.0002
         ],
         "statNums": {
-          "FARMING_FORTUNE": 11.0,
+          "FARMING_FORTUNE": 1.0,
           "HEALTH": 1.0
         }
       },
       "100": {
         "otherNums": [
-          30,
           100,
-          20
+          70,
+          20,
+          0.02
         ],
         "statNums": {
-          "FARMING_FORTUNE": 110.0,
+          "FARMING_FORTUNE": 100.0,
           "HEALTH": 100.0
         }
       }
@@ -4269,6 +4277,116 @@
         "statNums": {
           "SPEED": 50.0,
           "FEROCITY": 10.0
+        }
+      }
+    }
+  },
+  "ORCHID_MANTIS": {
+    "COMMON": {
+      "1": {
+        "otherNums": [
+          0.1
+        ],
+        "statNums": {
+          "SPEED": 0.3,
+          "OVERBLOOM": 0.15
+        }
+      },
+      "100": {
+        "otherNums": [
+          10
+        ],
+        "statNums": {
+          "SPEED": 30,
+          "OVERBLOOM": 15
+        }
+      }
+    },
+    "UNCOMMON": {
+      "1": {
+        "otherNums": [
+          0.2
+        ],
+        "statNums": {
+          "SPEED": 0.3,
+          "OVERBLOOM": 0.15
+        }
+      },
+      "100": {
+        "otherNums": [
+          20
+        ],
+        "statNums": {
+          "SPEED": 30,
+          "OVERBLOOM": 15
+        }
+      }
+    },
+    "RARE": {
+      "1": {
+        "otherNums": [
+          0.2,
+          0.005
+        ],
+        "statNums": {
+          "SPEED": 0.3,
+          "OVERBLOOM": 0.15
+        }
+      },
+      "100": {
+        "otherNums": [
+          20,
+          0.5
+        ],
+        "statNums": {
+          "SPEED": 30,
+          "OVERBLOOM": 15
+        }
+      }
+    },
+    "EPIC": {
+      "1": {
+        "otherNums": [
+          0.2,
+          0.01
+        ],
+        "statNums": {
+          "SPEED": 0.3,
+          "OVERBLOOM": 0.15
+        }
+      },
+      "100": {
+        "otherNums": [
+          20,
+          1
+        ],
+        "statNums": {
+          "SPEED": 30,
+          "OVERBLOOM": 15
+        }
+      }
+    },
+    "LEGENDARY": {
+      "1": {
+        "otherNums": [
+          0.2,
+          0.01,
+          0.0002
+        ],
+        "statNums": {
+          "SPEED": 0.3,
+          "OVERBLOOM": 0.15
+        }
+      },
+      "100": {
+        "otherNums": [
+          20,
+          1,
+          0.02
+        ],
+        "statNums": {
+          "SPEED": 30,
+          "OVERBLOOM": 15
         }
       }
     }

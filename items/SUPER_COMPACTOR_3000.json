@@ -1,9 +1,11 @@
 {
   "itemid": "minecraft:dropper",
   "displayname": "§9Super Compactor 3000",
-  "nbttag": "{ExtraAttributes:{id:\"SUPER_COMPACTOR_3000\"},HideFlags:254,ItemModel:\"minecraft:dropper\",display:{Lore:[0:\"§7This item can be used as a minion\",1:\"§7upgrade. This will automatically turn\",2:\"§7materials that a minion produces into\",3:\"§7their enchanted form when there\",4:\"§7are enough resources in the\",5:\"§7minion's storage.\",6:\"\",7:\"§9§lRARE\"],Name:\"§9Super Compactor 3000\"},ench:[]}",
+  "nbttag": "{ExtraAttributes:{id:\"SUPER_COMPACTOR_3000\"},HideFlags:254,ItemModel:\"minecraft:dropper\",display:{Lore:[0:\"§8Minion Upgrade\",1:\"\",2:\"§7This item can be used as a minion\",3:\"§7upgrade. This will automatically turn\",4:\"§7materials that a minion produces into\",5:\"§7their enchanted form when there\",6:\"§7are enough resources in the\",7:\"§7minion's storage.\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Super Compactor 3000\"},ench:[]}",
   "damage": 0,
   "lore": [
+    "§8Minion Upgrade",
+    "",
     "§7This item can be used as a minion",
     "§7upgrade. This will automatically turn",
     "§7materials that a minion produces into",
@@ -16,20 +18,25 @@
   "internalname": "SUPER_COMPACTOR_3000",
   "clickcommand": "viewrecipe",
   "crafttext": "Requires: Cobblestone X",
-  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Super_Compactor_3000"
   ],
-  "recipe": {
-    "A1": "ENCHANTED_COBBLESTONE:32",
-    "A2": "ENCHANTED_COBBLESTONE:32",
-    "A3": "ENCHANTED_COBBLESTONE:32",
-    "B1": "ENCHANTED_COBBLESTONE:32",
-    "B2": "COMPACTOR:1",
-    "B3": "ENCHANTED_COBBLESTONE:32",
-    "C1": "ENCHANTED_COBBLESTONE:32",
-    "C2": "ENCHANTED_REDSTONE:32",
-    "C3": "ENCHANTED_COBBLESTONE:32"
-  }
+  "recipes": [
+    {
+      "A1": "ENCHANTED_COBBLESTONE:32",
+      "A2": "ENCHANTED_COBBLESTONE:32",
+      "A3": "ENCHANTED_COBBLESTONE:32",
+      "B1": "ENCHANTED_COBBLESTONE:32",
+      "B2": "COMPACTOR:1",
+      "B3": "ENCHANTED_COBBLESTONE:32",
+      "C1": "ENCHANTED_COBBLESTONE:32",
+      "C2": "ENCHANTED_REDSTONE:32",
+      "C3": "ENCHANTED_COBBLESTONE:32",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "SUPER_COMPACTOR_3000"
+    }
+  ]
 }

@@ -1,36 +1,41 @@
 {
   "itemid": "minecraft:leather_chestplate",
   "displayname": "§fRabbit Chestplate",
-  "nbttag": "{ExtraAttributes:{id:\"RABBIT_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:leather_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Farming Fortune: §6+15\",1:\"§7Gemstones: §8[§7§8]\",2:\"\",3:\"§6Full Set Bonus: Bonus Farming Fortune §7(0/4)\",4:\"§7Increases §6 Farming Fortune §7by §a+10§7.\",5:\"\",6:\"§8This item can be reforged!\",7:\"§4❣ §cRequires §aFarming Skill 15§c.\",8:\"§f§lCOMMON CHESTPLATE\"],Name:\"§fRabbit Chestplate\",color:13357787}}",
+  "nbttag": "{ExtraAttributes:{id:\"RABBIT_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:leather_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+40\",1:\"§7Speed: §f+5\",2:\"\",3:\"§6Full Set Bonus: Springsneak §e§lSNEAK\",4:\"§7While sneaking, you have permanent\",5:\"§bJump Boost II.\",6:\"\",7:\"§8This item can be reforged!\",8:\"§f§lCOMMON CHESTPLATE\"],Name:\"§fRabbit Chestplate\",color:13357787}}",
   "damage": 0,
   "lore": [
-    "§7Farming Fortune: §6+15",
-    "§7Gemstones: §8[§7§8]",
+    "§7Defense: §a+40",
+    "§7Speed: §f+5",
     "",
-    "§6Full Set Bonus: Bonus Farming Fortune §7(0/4)",
-    "§7Increases §6 Farming Fortune §7by §a+10§7.",
+    "§6Full Set Bonus: Springsneak §e§lSNEAK",
+    "§7While sneaking, you have permanent",
+    "§bJump Boost II.",
     "",
     "§8This item can be reforged!",
-    "§4❣ §cRequires §aFarming Skill 15§c.",
     "§f§lCOMMON CHESTPLATE"
   ],
   "internalname": "RABBIT_CHESTPLATE",
   "clickcommand": "viewrecipe",
-  "crafttext": "Requires: Raw Rabbit IX",
-  "modver": "Firmament 44.2.0-dev+mc26.1.2+g0c5f541d",
+  "crafttext": "Requires: Raw Rabbit II",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g02e85d46",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Rabbit_Chestplate"
   ],
-  "recipe": {
-    "A1": "ENCHANTED_RABBIT_HIDE:5",
-    "A2": "",
-    "A3": "ENCHANTED_RABBIT_HIDE:5",
-    "B1": "ENCHANTED_RABBIT_HIDE:5",
-    "B2": "ENCHANTED_RABBIT_FOOT:10",
-    "B3": "ENCHANTED_RABBIT_HIDE:5",
-    "C1": "ENCHANTED_RABBIT_HIDE:5",
-    "C2": "ENCHANTED_RABBIT_FOOT:10",
-    "C3": "ENCHANTED_RABBIT_HIDE:5"
-  }
+  "recipes": [
+    {
+      "A1": "RABBIT_HIDE:1",
+      "A2": "",
+      "A3": "RABBIT_HIDE:1",
+      "B1": "RABBIT_HIDE:1",
+      "B2": "RABBIT_HIDE:1",
+      "B3": "RABBIT_HIDE:1",
+      "C1": "RABBIT_HIDE:1",
+      "C2": "RABBIT_HIDE:1",
+      "C3": "RABBIT_HIDE:1",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "RABBIT_CHESTPLATE"
+    }
+  ]
 }

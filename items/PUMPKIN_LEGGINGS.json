@@ -1,37 +1,38 @@
 {
   "itemid": "minecraft:leather_leggings",
-  "displayname": "§fPumpkin Leggings",
-  "nbttag": "{ExtraAttributes:{id:\"PUMPKIN_LEGGINGS\"},HideFlags:254,ItemModel:\"minecraft:leather_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §c+10\",1:\"§7Defense: §a+10\",2:\"\",3:\"§6Full Set Bonus: Pumpkin Buff §7(0/4)\",4:\"§7Reduce all taken damage by §a+10%\",5:\"§7and deal §a+10% §7damage.\",6:\"\",7:\"§8This item can be reforged!\",8:\"§4❣ §cRequires §aFarming Skill 2§c.\",9:\"§f§lCOMMON LEGGINGS\"],Name:\"§fPumpkin Leggings\",color:15575606}}",
+  "displayname": "§aSprout Leggings",
+  "nbttag": "{ExtraAttributes:{id:\"PUMPKIN_LEGGINGS\"},HideFlags:254,ItemModel:\"minecraft:leather_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+20\",1:\"§7Farming Fortune: §6+15\",2:\"\",3:\"§8This item can be reforged!\",4:\"§4❣ §cRequires §aFarming Skill 15§c.\",5:\"§a§lUNCOMMON LEGGINGS\"],Name:\"§aSprout Leggings\",color:16748041}}",
   "damage": 0,
   "lore": [
-    "§7Health: §c+10",
-    "§7Defense: §a+10",
-    "",
-    "§6Full Set Bonus: Pumpkin Buff §7(0/4)",
-    "§7Reduce all taken damage by §a+10%",
-    "§7and deal §a+10% §7damage.",
+    "§7Defense: §a+20",
+    "§7Farming Fortune: §6+15",
     "",
     "§8This item can be reforged!",
-    "§4❣ §cRequires §aFarming Skill 2§c.",
-    "§f§lCOMMON LEGGINGS"
+    "§4❣ §cRequires §aFarming Skill 15§c.",
+    "§a§lUNCOMMON LEGGINGS"
   ],
   "internalname": "PUMPKIN_LEGGINGS",
   "clickcommand": "viewrecipe",
-  "crafttext": "Requires: Pumpkin II",
-  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "crafttext": "Requires: Carrot VIII",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g02e85d46",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Pumpkin_Leggings"
   ],
-  "recipe": {
-    "A1": "PUMPKIN:1",
-    "A2": "PUMPKIN:1",
-    "A3": "PUMPKIN:1",
-    "B1": "PUMPKIN:1",
-    "B2": "",
-    "B3": "PUMPKIN:1",
-    "C1": "PUMPKIN:1",
-    "C2": "",
-    "C3": "PUMPKIN:1"
-  }
+  "recipes": [
+    {
+      "A1": "ENCHANTED_CARROT:8",
+      "A2": "ENCHANTED_CARROT:8",
+      "A3": "ENCHANTED_CARROT:8",
+      "B1": "ENCHANTED_CARROT:8",
+      "B2": "FARM_ARMOR_LEGGINGS:1",
+      "B3": "ENCHANTED_CARROT:8",
+      "C1": "ENCHANTED_CARROT:8",
+      "C2": "ENCHANTED_CARROT:8",
+      "C3": "ENCHANTED_CARROT:8",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "PUMPKIN_LEGGINGS"
+    }
+  ]
 }

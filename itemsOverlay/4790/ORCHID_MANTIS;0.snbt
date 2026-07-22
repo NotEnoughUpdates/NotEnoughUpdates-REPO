@@ -1,0 +1,46 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "PET",
+			petInfo: '{"type":"ORCHID_MANTIS","tier":"COMMON","exp":0.0,"candyUsed":0}'
+		},
+		"minecraft:profile": {
+			id: [I;
+				-357940093,
+				127022766,
+				-1799125032,
+				884851481
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "hjoMkl9KeQKBmypBQobFP/8Hi7uEHwYyFBblyfIZIYjDeLrQWQEKlYgCSlqpESUPq4RVpA51vZcsAGgvremIcsEDNlXdMnKhRHnlbVH/7luNSGCUcRuNU0J3C54k5UlgD1VdhDU4dhsIZfMYjeGn8/iCMuuL8tEaZho4CA+hZXoeccYaRQIG9xZqUuvmiHluP4cqBQEzZFOU8MqadU4SfIhQij9fYqdl0oNUSMxX6+QnEvbg2dfh5KEDc/xoHjwtk8uzS8tCJg7E2mXMt4YoHWjL877YyNv7l92Yf+fWqbvp3JgALSXDkYcNM7U4IKm5ZeBdnb1o2jzctTWJeIv2ZLTRmRjviGU1Nq8OaPfEDC88Xt7kkajDJ55jWbunJPxMGLweE+7mK1DFrItGw02iwbwOM1Tvw3PZPRrfXC3M101NyW3pusuWXQvAnjS+k+OMlaIP5AO7sjXb/D0BbM+8dQqt5JqvPvnAxXJnp/IkiWGIl5T/iv6mQBKbvAdDJMdhm0fwIzytoTQLTC3d8Cqziksvr/FpZ5BFdaSUgzGG76P9eL0xGy5KrbjDNF6ylbK+MerUG0EhEi7jY+nWjkr/JASDiA3mnikQ3d12hSgC723VTYnCtyr1rPckR8PcaBH7z4QsoMSVeNYNxTpV/O6yAIPX6Lo71mqL3kojgeGVrIk=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTc4MjE3MjQzMzMyOSwKICAicHJvZmlsZUlkIiA6ICJlOThhZTBlMTI5MDg0ZDA5OTk0MTg4N2Q2YTk0ZTI2NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTZXh5SGF1c2VNYXN0ZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzY5MDNhOTUyMDU2NGMyMmJjNjZiMDVkMjE2MWIyM2U1NGZmOTYxMjg0ZTYzZTY4NDA2NWFlMDc4MWM5Y2Q5NyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:dyed_color",
+				"minecraft:charged_projectiles"
+			]
+		},
+		"minecraft:tooltip_style": "hypixel_skyblock:common"
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4790,
+		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g02e85d46"
+	}
+}

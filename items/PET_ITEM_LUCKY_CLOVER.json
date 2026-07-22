@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:waterlily",
   "displayname": "§5Lucky Clover",
-  "nbttag": "{ExtraAttributes:{id:\"PET_ITEM_LUCKY_CLOVER\"},HideFlags:254,ItemModel:\"minecraft:lily_pad\",display:{Lore:[0:\"§8Consumed on use\",1:\"\",2:\"§aPet Items §7can boost pets in many\",3:\"§7powerful ways! A pet can only hold\",4:\"§7one §aPet Item§7, but you can §eswap §7it at\",5:\"§7any time!\",6:\"§8The pet must be visible to apply the item!\",7:\"\",8:\"§7Grants §b+7 Magic Find§7 and §e+3\",9:\"§eOverbloom§7.\",10:\"\",11:\"§eRight-click on your summoned pet to\",12:\"§egive it this item!\",13:\"\",14:\"§5§lEPIC PET ITEM\"],Name:\"§5Lucky Clover\"},ench:[]}",
+  "nbttag": "{ExtraAttributes:{id:\"PET_ITEM_LUCKY_CLOVER\"},HideFlags:254,ItemModel:\"minecraft:lily_pad\",display:{Lore:[0:\"§8Consumed on use\",1:\"\",2:\"§aPet Items §7can boost pets in many\",3:\"§7powerful ways! A pet can only hold\",4:\"§7one §aPet Item§7, but you can §eswap §7it at\",5:\"§7any time!\",6:\"§8The pet must be visible to apply the item!\",7:\"\",8:\"§7Grants §b+7 Magic Find§7 and §e+7\",9:\"§eOverbloom§7.\",10:\"\",11:\"§eRight-click on your summoned pet to\",12:\"§egive it this item!\",13:\"\",14:\"§5§lEPIC PET ITEM\"],Name:\"§5Lucky Clover\"},ench:[]}",
   "damage": 0,
   "lore": [
     "§8Consumed on use",
@@ -12,7 +12,7 @@
     "§7any time!",
     "§8The pet must be visible to apply the item!",
     "",
-    "§7Grants §b+7 Magic Find§7 and §e+3",
+    "§7Grants §b+7 Magic Find§7 and §e+7",
     "§eOverbloom§7.",
     "",
     "§eRight-click on your summoned pet to",
@@ -23,20 +23,25 @@
   "internalname": "PET_ITEM_LUCKY_CLOVER",
   "clickcommand": "viewrecipe",
   "crafttext": "",
-  "modver": "Firmament 44.2.0-dev+mc26.1.2+g0c5f541d",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g02e85d46",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Lucky_Clover"
   ],
-  "recipe": {
-    "A1": "ENCHANTED_EMERALD:32",
-    "A2": "ENCHANTED_EMERALD:32",
-    "A3": "ENCHANTED_EMERALD:32",
-    "B1": "ENCHANTED_EMERALD:32",
-    "B2": "PET_ITEM_LUCKY_CLOVER_DROP:1",
-    "B3": "ENCHANTED_EMERALD:32",
-    "C1": "ENCHANTED_EMERALD:32",
-    "C2": "ENCHANTED_EMERALD:32",
-    "C3": "ENCHANTED_EMERALD:32"
-  }
+  "recipes": [
+    {
+      "A1": "ENCHANTED_EMERALD:32",
+      "A2": "ENCHANTED_EMERALD:32",
+      "A3": "ENCHANTED_EMERALD:32",
+      "B1": "ENCHANTED_EMERALD:32",
+      "B2": "PET_ITEM_LUCKY_CLOVER_DROP:1",
+      "B3": "ENCHANTED_EMERALD:32",
+      "C1": "ENCHANTED_EMERALD:32",
+      "C2": "ENCHANTED_EMERALD:32",
+      "C3": "ENCHANTED_EMERALD:32",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "PET_ITEM_LUCKY_CLOVER"
+    }
+  ]
 }

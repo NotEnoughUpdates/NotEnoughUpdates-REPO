@@ -481,64 +481,89 @@
     {
       "type": "npc_shop",
       "cost": [
-        "SKYBLOCK_COIN:5000"
+        "SKYBLOCK_COIN:5000.0"
       ],
       "result": "SKYMART_VACUUM:1"
     },
     {
       "type": "npc_shop",
       "cost": [
-        "SKYBLOCK_COPPER:200",
-        "SKYMART_VACUUM:1"
+        "SKYMART_VACUUM:1.0",
+        "SKYBLOCK_COPPER:200.0"
       ],
       "result": "SKYMART_TURBO_VACUUM:1"
     },
     {
       "type": "npc_shop",
       "cost": [
-        "SKYBLOCK_COPPER:500",
-        "SKYMART_TURBO_VACUUM:1"
+        "SKYMART_TURBO_VACUUM:1.0",
+        "SKYBLOCK_COPPER:500.0"
       ],
       "result": "SKYMART_HYPER_VACUUM:1"
     },
     {
       "type": "npc_shop",
       "cost": [
-        "SKYBLOCK_COPPER:1000",
-        "SKYMART_HYPER_VACUUM:1"
+        "SKYMART_HYPER_VACUUM:1.0",
+        "SKYBLOCK_COPPER:1000.0"
       ],
       "result": "INFINI_VACUUM:1"
     },
     {
       "type": "npc_shop",
       "cost": [
-        "SKYBLOCK_COPPER:2500",
-        "INFINI_VACUUM:1",
-        "CHIRPING_STEREO:1"
+        "CHIRPING_STEREO:1.0",
+        "INFINI_VACUUM:1.0",
+        "SKYBLOCK_COPPER:2500.0"
       ],
       "result": "INFINI_VACUUM_HOOVERIUS:1"
     },
     {
       "type": "npc_shop",
       "cost": [
-        "SKYBLOCK_COPPER:25"
-      ],
-      "result": "SPRAYONATOR:1"
-    },
-    {
-      "type": "npc_shop",
-      "cost": [
-        "SKYBLOCK_COPPER:15"
+        "SKYBLOCK_COPPER:15.0"
       ],
       "result": "PEST_REPELLENT:1"
     },
     {
       "type": "npc_shop",
       "cost": [
-        "SKYBLOCK_COPPER:25",
-        "PEST_REPELLENT:1"
+        "PEST_REPELLENT:1.0",
+        "SKYBLOCK_COPPER:25.0"
       ],
       "result": "PEST_REPELLENT_MAX:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:25.0"
+      ],
+      "result": "SPRAYONATOR:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SPRAYONATOR:1.0",
+        "JUICY_NOZZLE:1.0",
+        "SKYBLOCK_COPPER:1000.0"
+      ],
+      "result": "JUICY_SPRAYONATOR:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "JUICY_SPRAYONATOR:1.0",
+        "SALTY_NOZZLE:1.0",
+        "SKYBLOCK_COPPER:10000.0"
+      ],
+      "result": "SALTY_SPRAYONATOR:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:20000.0"
+      ],
+      "result": "PORTABLE_WASHER:1"
     }
   ],
   "info": [

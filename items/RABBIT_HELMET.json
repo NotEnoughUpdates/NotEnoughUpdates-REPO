@@ -1,36 +1,41 @@
 {
-  "itemid": "minecraft:leather_helmet",
+  "itemid": "minecraft:skull",
   "displayname": "§fRabbit Helmet",
-  "nbttag": "{ExtraAttributes:{id:\"RABBIT_HELMET\"},HideFlags:254,ItemModel:\"minecraft:leather_helmet\",Unbreakable:1B,display:{Lore:[0:\"§7Farming Fortune: §6+15\",1:\"§7Gemstones: §8[§7§8]\",2:\"\",3:\"§6Full Set Bonus: Bonus Farming Fortune §7(0/4)\",4:\"§7Increases §6 Farming Fortune §7by §a+10§7.\",5:\"\",6:\"§8This item can be reforged!\",7:\"§4❣ §cRequires §aFarming Skill 15§c.\",8:\"§f§lCOMMON HELMET\"],Name:\"§fRabbit Helmet\",color:13357787}}",
-  "damage": 0,
+  "nbttag": "{ExtraAttributes:{id:\"RABBIT_HELMET\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"2178b2c5-930b-323a-aa6a-ec8bf1c6a706\",Properties:{textures:[0:{Name:\"textures\",Signature:\"KjzhHeGbPJVK/cwCrySP8+275jUrN3wcLxuNaDC1FWxdbsQq3cVdateP+NYfed55JWSw92vvGGDxd44kyQFGwzboFmPNxM9V2ETjF/+AM5t2OWe7dq8DdBRvmEgO6yYF7f7T6yvxn8tSOFYZDDFEeoQOzJNBgocNoF43PisJOLuqiPvGVgKZPDxnjM2TC+gNKTWRwypDyba9dcmHvzGHep6Jm3GnJ5b70Tf+bnYwbYZbrvZt7/rLz63QCqRrewxnsoffZ0ntiZI5d3f0y6V01oHf0Tc9xBfOlivtfOnMD79ARSEXsifVwtYO1gzGAwLCKkQuZSHk0U9SeUqwAhsr5+SAb0y9qGyBX9nAdeXNt9v17CqnzBQ7ThJAYOVrNLeR8T1HnYVWKckHGD+sW4vVrYYNUb7MhyhiuX0acg84BFDMRn54shrpCpoo7QKKpo6bzNXb3Ca7v3M4BS6ENp5YqLMlVufeDTLVRlv8ETgafsQowCP0bJX6EpKjBHSM6oXQcletqxPbxMw4Trf0Ur0BXjd4HxsIaRlhER7uZFi64XO3e28HUi/qgGqT9Kp8PQof4YnTgACsy1CVAtPnswGeyS/e6jHc5meqdlkcWOrvHUlaqUtm1J7D9jviCkr0o1YoHN4toQUFQsnOj8i17DJ3pYvgokavUTBsRxj2l27F+rI=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4MDM1MjcxOTUzNCwKICAicHJvZmlsZUlkIiA6ICJiMGQ0YjI4YmMxZDc0ODg5YWYwZTg2NjFjZWU5NmFhYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaW5lU2tpbl9vcmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGEwY2EyYjkwZDgzMWYxN2Y3YzhiNzcxZmIzOTczY2NhMmQ3NmE0NTZiYjdiNDdiODBkNjg3MmIwNWIyNTFmNSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Defense: §a+15\",1:\"§7Speed: §f+5\",2:\"\",3:\"§6Full Set Bonus: Springsneak §e§lSNEAK\",4:\"§7While sneaking, you have permanent\",5:\"§bJump Boost II.\",6:\"\",7:\"§8This item can be reforged!\",8:\"§f§lCOMMON HELMET\"],Name:\"§fRabbit Helmet\"}}",
+  "damage": 3,
   "lore": [
-    "§7Farming Fortune: §6+15",
-    "§7Gemstones: §8[§7§8]",
+    "§7Defense: §a+15",
+    "§7Speed: §f+5",
     "",
-    "§6Full Set Bonus: Bonus Farming Fortune §7(0/4)",
-    "§7Increases §6 Farming Fortune §7by §a+10§7.",
+    "§6Full Set Bonus: Springsneak §e§lSNEAK",
+    "§7While sneaking, you have permanent",
+    "§bJump Boost II.",
     "",
     "§8This item can be reforged!",
-    "§4❣ §cRequires §aFarming Skill 15§c.",
     "§f§lCOMMON HELMET"
   ],
   "internalname": "RABBIT_HELMET",
   "clickcommand": "viewrecipe",
-  "crafttext": "Requires: Raw Rabbit IX",
-  "modver": "Firmament 44.2.0-dev+mc26.1.2+g0c5f541d",
+  "crafttext": "Requires: Raw Rabbit II",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g02e85d46",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Rabbit_Helmet"
   ],
-  "recipe": {
-    "A1": "ENCHANTED_RABBIT_HIDE:5",
-    "A2": "ENCHANTED_RABBIT_FOOT:10",
-    "A3": "ENCHANTED_RABBIT_HIDE:5",
-    "B1": "ENCHANTED_RABBIT_HIDE:5",
-    "B2": "",
-    "B3": "ENCHANTED_RABBIT_HIDE:5",
-    "C1": "",
-    "C2": "",
-    "C3": ""
-  }
+  "recipes": [
+    {
+      "A1": "RABBIT_HIDE:1",
+      "A2": "RABBIT_HIDE:1",
+      "A3": "RABBIT_HIDE:1",
+      "B1": "RABBIT_HIDE:1",
+      "B2": "",
+      "B3": "RABBIT_HIDE:1",
+      "C1": "",
+      "C2": "",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "RABBIT_HELMET"
+    }
+  ]
 }
