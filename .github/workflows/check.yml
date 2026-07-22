@@ -33,7 +33,7 @@ jobs:
         id: checkout-workflow
         uses: actions/checkout@v7
         with:
-          repository: 'Alex33856/NEU-Repo-Workflow'
+          repository: 'NotEnoughUpdates/NEU-REPO-Workflow'
           ref: 'dist'
           path: 'dist'
       - name: Setup Java
