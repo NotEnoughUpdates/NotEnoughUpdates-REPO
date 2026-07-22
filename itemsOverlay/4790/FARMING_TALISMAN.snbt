@@ -1,8 +1,9 @@
 {
 	components: {
+		"minecraft:attribute_modifiers": [
+		],
 		"minecraft:custom_data": {
-			id: "FARMING_TALISMAN",
-			originTag: "QUICK_CRAFTING"
+			id: "FARMING_TALISMAN"
 		},
 		"minecraft:profile": {
 			id: [I;
@@ -21,26 +22,28 @@
 		},
 		"minecraft:tooltip_display": {
 			hidden_components: [
-				"minecraft:jukebox_playable",
 				"minecraft:painting/variant",
-				"minecraft:map_id",
 				"minecraft:fireworks",
 				"minecraft:attribute_modifiers",
+				"minecraft:enchantments",
+				"minecraft:stored_enchantments",
+				"minecraft:trim",
+				"minecraft:charged_projectiles",
+				"minecraft:jukebox_playable",
+				"minecraft:map_id",
 				"minecraft:unbreakable",
 				"minecraft:written_book_content",
 				"minecraft:banner_patterns",
-				"minecraft:trim",
 				"minecraft:potion_contents",
-				"minecraft:dyed_color",
-				"minecraft:charged_projectiles"
+				"minecraft:dyed_color"
 			]
 		},
-		"minecraft:tooltip_style": "hypixel_skyblock:common"
+		"minecraft:tooltip_style": "hypixel_skyblock:uncommon"
 	},
 	count: 1,
 	id: "minecraft:player_head",
 	source: {
 		dataVersion: 4790,
-		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g0c5f541d"
+		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g02e85d46"
 	}
 }
