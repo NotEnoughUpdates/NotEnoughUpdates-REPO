@@ -1,0 +1,48 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			attributes: {
+				bonus_pest_chance: 1
+			},
+			id: "ATTRIBUTE_SHARD"
+		},
+		"minecraft:profile": {
+			id: [I;
+				-628423576,
+				1828469624,
+				-1687440484,
+				1336919637
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "n1JLoptBMHi1ITKPjohIkeqI+wCTUYWKQvODik0hl9hleYEw5pZh5Yz55iH7WoflYSMD8QkQmUJBnBr9L/JwOzGuUDH60cejOpMabykQmtnCANE+699S0tA+wWfiOGXPDVjp7U4TJdQqs+WfxbsP9usgqCxyQnjp/cXRXKBRhFu0kYJ7MTT7s5F8cC13bDUmGBiyZbvb2BnjiEbjGAQfKuiczP6g8jqXLARHDo/XQ8aQmr4/u4iRsTOuza+nMHrKGBxFA1AcPJBrTitkJsu4sP+tYf1zyZn74pA+krRKdvqn12+yXnsy46T5r4gagFRvR3BOV70bLMeQJDvAcFhszMdJJqN45Fq1ztEMwW/7g6Ld9QImxchYQXZ3pKs27Che87di0POgbFrW+X9RclVSJCWnk8LxwJy5RG98mLIog2fd9h2yoAMBxteELcQcPxz0NGKO7Rg4jzqOSFw0/z1neFItBncTmmVjT+ozBLyVb8oy2NTRRz5EpS+g6BjhAULvxdw7w60ZRqorvYLmD/YbbzvmhwgVB7iML/1/0e0/J2zTfRJyR2Fq51yrXHnk6XUBktlYg7GNuYCQgL/pmHy21C3LKASyPgl1XdszXJlLuhXeVOcso09b7ejLbfcKOy07Mntr0aeeLoaIJINY4lDGeRY3Q0Hkwu2BRe/Q6nsif70=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTc4MjgzMjk3MjU4OCwKICAicHJvZmlsZUlkIiA6ICIyM2RjZjc3NWQ5YzQ0MGE1ODc3MjE4ZjU3NzNlMTUzNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZWx1c2lvblNrZXRjaCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMTg2YmZhZDc3ZmQ4MzA2ZDI5MzdlZjQ0ZTkyYmQ2YzQzM2NkY2M2ZDdjNzVlZGE4NWM2MjFkNmQ5NGJmYWFmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:dyed_color",
+				"minecraft:charged_projectiles"
+			]
+		},
+		"minecraft:tooltip_style": "hypixel_skyblock:uncommon"
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4790,
+		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g00fd3323"
+	}
+}
