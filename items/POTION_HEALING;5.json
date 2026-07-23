@@ -1,18 +1,19 @@
 {
   "itemid": "minecraft:potion",
   "displayname": "§9Healing V Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:6b,Amplifier:4b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§cHealing V\",2:\"§7Instantly heals for §a+200§7.\",3:\"\",4:\"§9§lRARE\"],Name:\"§9Healing V Potion\"},ExtraAttributes:{potion_level:5,potion:\"healing\",effects:[0:{level:5,effect:\"healing\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_HEALING;5\"}}",
-  "damage": 5,
+  "nbttag": "{CustomPotionEffects:[0:{Ambient:0B,Amplifier:0B,Duration:1,Id:6B},1:{Ambient:0B,Amplifier:4B,Duration:20,Id:6B}],ExtraAttributes:{effects:[0:{duration_ticks:100,effect:\"healing\",level:5}],id:\"POTION_HEALING;5\",potion:\"healing\",potion_level:5,potion_type:\"POTION\"},HideFlags:254,ItemModel:\"minecraft:potion\",display:{Lore:[0:\"\",1:\"§cHealing V §f(0:05)\",2:\"§7Heals for §a+25 §7every second.\",3:\"\",4:\"§9§lRARE\"],Name:\"§9Healing V Potion\"}}",
+  "damage": 0,
   "lore": [
     "",
-    "§cHealing V",
-    "§7Instantly heals for §a+200§7.",
+    "§cHealing V §f(0:05)",
+    "§7Heals for §a+25 §7every second.",
     "",
     "§9§lRARE"
   ],
   "internalname": "POTION_HEALING;5",
-  "crafttext": "",
   "clickcommand": "viewpotion",
-  "modver": "",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "",
+  "info": []
 }

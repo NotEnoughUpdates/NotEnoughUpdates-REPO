@@ -1,18 +1,19 @@
 {
   "itemid": "minecraft:potion",
   "displayname": "§aHealing IV Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:6b,Amplifier:3b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§cHealing IV\",2:\"§7Instantly heals for §a+150§7.\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aHealing IV Potion\"},ExtraAttributes:{potion_level:4,potion:\"healing\",effects:[0:{level:4,effect:\"healing\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_HEALING;4\"}}",
-  "damage": 5,
+  "nbttag": "{CustomPotionEffects:[0:{Ambient:0B,Amplifier:0B,Duration:1,Id:6B},1:{Ambient:0B,Amplifier:3B,Duration:20,Id:6B}],ExtraAttributes:{effects:[0:{duration_ticks:100,effect:\"healing\",level:4}],id:\"POTION_HEALING;4\",potion:\"healing\",potion_level:4,potion_type:\"POTION\"},HideFlags:254,ItemModel:\"minecraft:potion\",display:{Lore:[0:\"\",1:\"§cHealing IV §f(0:05)\",2:\"§7Heals for §a+20 §7every second.\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aHealing IV Potion\"}}",
+  "damage": 0,
   "lore": [
     "",
-    "§cHealing IV",
-    "§7Instantly heals for §a+150§7.",
+    "§cHealing IV §f(0:05)",
+    "§7Heals for §a+20 §7every second.",
     "",
     "§a§lUNCOMMON"
   ],
   "internalname": "POTION_HEALING;4",
-  "crafttext": "",
   "clickcommand": "viewpotion",
-  "modver": "",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "",
+  "info": []
 }

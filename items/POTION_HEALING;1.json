@@ -1,18 +1,19 @@
 {
   "itemid": "minecraft:potion",
   "displayname": "§fHealing I Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:6b,Amplifier:0b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§cHealing I\",2:\"§7Instantly heals for §a+20§7.\",3:\"\",4:\"§f§lCOMMON\"],Name:\"§fHealing I Potion\"},ExtraAttributes:{potion_level:1,potion:\"healing\",effects:[0:{level:1,effect:\"healing\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_HEALING;1\"}}",
-  "damage": 5,
+  "nbttag": "{CustomPotionEffects:[0:{Ambient:0B,Amplifier:0B,Duration:1,Id:6B},1:{Ambient:0B,Amplifier:0B,Duration:20,Id:6B}],ExtraAttributes:{effects:[0:{duration_ticks:100,effect:\"healing\",level:1}],id:\"POTION_HEALING;1\",potion:\"healing\",potion_level:1,potion_type:\"POTION\"},HideFlags:254,ItemModel:\"minecraft:potion\",display:{Lore:[0:\"\",1:\"§cHealing I §f(0:05)\",2:\"§7Heals for §a+5 §7every second.\",3:\"\",4:\"§f§lCOMMON\"],Name:\"§fHealing I Potion\"}}",
+  "damage": 0,
   "lore": [
     "",
-    "§cHealing I",
-    "§7Instantly heals for §a+20§7.",
+    "§cHealing I §f(0:05)",
+    "§7Heals for §a+5 §7every second.",
     "",
     "§f§lCOMMON"
   ],
   "internalname": "POTION_HEALING;1",
-  "crafttext": "",
   "clickcommand": "viewpotion",
-  "modver": "",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "",
+  "info": []
 }
