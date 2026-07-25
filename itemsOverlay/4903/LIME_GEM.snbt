@@ -1,0 +1,45 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "LIME_GEM"
+		},
+		"minecraft:profile": {
+			id: [I;
+				-815749670,
+				-431800818,
+				-1536779098,
+				-1476374045
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "U2ghkqOVwA5GUGNcHu41nlBnd+lxQ/wjDxO8hLsp6rYPlm0NMRwufMJbv3BfIfA9d/IbqbCtPfkp4ij/ICUoHOFGO54Sc1KCnJDiIwviHGnJ0b2Wu/k5A5ucNlhcwsA6CkYtqjPBKFpqFRyMIva0X2FuCfO306CsnAWQa5RWyRrO3Q1YK8rDyIdEAYELfVqSQplZbqGIWL+Jbq9jwBVBD1bKwoyrV2+COxURb37i83rfo1lD8ozIgHZhRZcOdh32ORz5O+AenjmkabHnGTSUwqnP39piW/2Cs5lBcR/0c+Vlg9xFnncqow5s0ix9/s7LqzsvwNkGqzc3Sn4EplVjEfa9YKLd5syO1xS5cfBs6OfKaB61cCA7bIdZxzefv1JkcYvjgZ3S2qiFktZHEU5ykSagr6itA1LymixVBAEkMLaAzSEaF8J/Qkg55NtFIgHnyC2vj1Y8blrFnRsBUI+noX9w3ojZ6QN0BFCJjUGmRkHTzD60dz9hKewI+/jB55TZsMVjQn7LMWDaQDKPjq17KfzrsYVU80AHPfu8AuUMDCkIixL+JEJ6sXFvghld0+JNkpfUh7ilHsRHVg5oBOoIb0FDL5VXbW6X9j7XpDyAGz9G/TT4jv9LAzzxiv//wAHun5l9KvTg5uD4Ee5qCzRth2PiuwnUy1hWcQg3KBJbsew=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA1NTE5MSwKICAicHJvZmlsZUlkIiA6ICJkM2VmYjJmMThjMDU0YmRhYTE0OTVlZTY0ZDgxZjdlOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNTEsxNSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83ZmI5OGY1YjkyNzY4NjI3ZTlmM2U0MjYwOTU2MWNjYjQ2MzhhZDlkNzZkZjk3NjE2NzRiMjdmNjgyMGZkYzA5IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:dyed_color",
+				"minecraft:charged_projectiles"
+			]
+		},
+		"minecraft:tooltip_style": "hypixel_skyblock:special"
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4903,
+		modVersion: "Firmament nogitversion+mc26.2"
+	}
+}
