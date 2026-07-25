@@ -165,6 +165,55 @@
       }
     }
   },
+  "BLOOMING_THORNS": {
+    "internalName": "BLOOMING_THORNS",
+    "reforgeName": "Thorny",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "EQUIPMENT",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts": {
+      "COMMON": 20000,
+      "UNCOMMON": 40000,
+      "RARE": 80000,
+      "EPIC": 150000,
+      "LEGENDARY": 300000,
+      "MYTHIC": 600000
+    },
+    "reforgeAbility": "§eOverbloom §7per tier of §9Thorns §7on all of your armor pieces.",
+    "reforgeStats": {
+      "COMMON": {
+        "overbloom": 0.25,
+        "farming_fortune": 2
+      },
+      "UNCOMMON": {
+        "overbloom": 0.5,
+        "farming_fortune": 4
+      },
+      "RARE": {
+        "overbloom": 0.75,
+        "farming_fortune": 6
+      },
+      "EPIC": {
+        "overbloom": 1,
+        "farming_fortune": 8
+      },
+      "LEGENDARY": {
+        "overbloom": 1.25,
+        "farming_fortune": 10
+      },
+      "MYTHIC": {
+        "overbloom": 1.5,
+        "farming_fortune": 12
+      }
+    }
+  },
   "BULKY_STONE": {
     "internalName": "BULKY_STONE",
     "reforgeName": "Bulky",
