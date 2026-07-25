@@ -20,7 +20,8 @@
     "mineshaft": "Glacite Mineshafts",
     "fishing_1": "Backwater Bayou",
     "foraging_2": "Galatea",
-    "lotus_atoll": "Lotus Atoll"
+    "lotus_atoll": "Lotus Atoll",
+    "foraging_3": "Torrhus Canyon"
   },
   "teleporters": [
     {
@@ -155,6 +156,20 @@
       "x": 43,
       "y": 152,
       "z": 15
+    },
+    {
+      "from": "foraging_2",
+      "to": "foraging_3",
+      "x": -729,
+      "y": 97,
+      "z": 83
+    },
+    {
+      "from": "foraging_3",
+      "to": "foraging_2",
+      "x": -720,
+      "y": 94,
+      "z": 141
     }
   ],
   "island_warps": [
@@ -492,6 +507,20 @@
       "aliases": [
         "atoll"
       ]
+    },
+    {
+      "warp": "torrhus",
+      "mode": "foraging_3",
+      "x": -720,
+      "y": 94,
+      "z": 141
+    },
+    {
+      "warp": "spring",
+      "mode": "foraging_3",
+      "x": -635,
+      "y": 161,
+      "z": 162
     }
   ]
 }
