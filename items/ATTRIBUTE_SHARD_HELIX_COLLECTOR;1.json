@@ -20,8 +20,24 @@
   ],
   "internalname": "ATTRIBUTE_SHARD_HELIX_COLLECTOR;1",
   "clickcommand": "",
-  "crafttext": "",
+  "crafttext": "Requires: Helix Log VII",
   "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
   "infoType": "",
-  "info": []
+  "info": [],
+  "recipes": [
+    {
+      "A1": "ENCHANTED_HELIX_LOG:8",
+      "A2": "ENCHANTED_FEATHER:4",
+      "A3": "ENCHANTED_HELIX_LOG:8",
+      "B1": "ENCHANTED_FEATHER:4",
+      "B2": "ENCHANTED_EGG:16",
+      "B3": "ENCHANTED_FEATHER:4",
+      "C1": "ENCHANTED_HELIX_LOG:8",
+      "C2": "ENCHANTED_FEATHER:4",
+      "C3": "ENCHANTED_HELIX_LOG:8",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "ATTRIBUTE_SHARD_HELIX_COLLECTOR;1"
+    }
+  ]
 }
