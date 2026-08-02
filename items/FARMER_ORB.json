@@ -16,21 +16,26 @@
   ],
   "internalname": "FARMER_ORB",
   "clickcommand": "viewrecipe",
-  "crafttext": "Requires: Pumpkin VI",
+  "crafttext": "Requires: Pumpkin II",
   "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Farmer_Orb"
   ],
-  "recipe": {
-    "A1": "ENCHANTED_PUMPKIN:1",
-    "A2": "ENCHANTED_PUMPKIN:1",
-    "A3": "ENCHANTED_PUMPKIN:1",
-    "B1": "ENCHANTED_PUMPKIN:1",
-    "B2": "ENCHANTED_GLOWSTONE:1",
-    "B3": "ENCHANTED_PUMPKIN:1",
-    "C1": "ENCHANTED_PUMPKIN:1",
-    "C2": "ENCHANTED_PUMPKIN:1",
-    "C3": "ENCHANTED_PUMPKIN:1"
-  }
+  "recipes": [
+    {
+      "A1": "PUMPKIN:12",
+      "A2": "PUMPKIN:12",
+      "A3": "PUMPKIN:12",
+      "B1": "PUMPKIN:12",
+      "B2": "",
+      "B3": "PUMPKIN:12",
+      "C1": "PUMPKIN:12",
+      "C2": "PUMPKIN:12",
+      "C3": "PUMPKIN:12",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "FARMER_ORB"
+    }
+  ]
 }
