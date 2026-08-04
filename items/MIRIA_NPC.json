@@ -15,5 +15,114 @@
   "island": "foraging_3",
   "x": -655,
   "y": 98,
-  "z": 220
+  "z": 220,
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "MIRIA_COUPON:25.0"
+      ],
+      "result": "ATTRIBUTE_SHARD_HELIX_SHARPENING;1:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "MIRIA_COUPON:15.0"
+      ],
+      "result": "ATTRIBUTE_SHARD_FOREST_FELLING;1:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "MIRIA_COUPON:20.0"
+      ],
+      "result": "SLOTH;0:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "MIRIA_COUPON:30.0"
+      ],
+      "result": "SMALL_SLOTH_CLAW:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "MIRIA_COUPON:40.0"
+      ],
+      "result": "MEDIUM_SLOTH_CLAW:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "MIRIA_COUPON:50.0"
+      ],
+      "result": "LARGE_SLOTH_CLAW:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "MIRIA_COUPON:60.0"
+      ],
+      "result": "GIANT_SLOTH_CLAW:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "MIRIA_COUPON:20.0"
+      ],
+      "result": "PETALFALL;1:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "MIRIA_COUPON:30.0"
+      ],
+      "result": "TORRHUS_TALISMAN:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "MIRIA_COUPON:30.0",
+        "TORRHUS_TALISMAN:1.0"
+      ],
+      "result": "TORRHUS_RING:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "MIRIA_COUPON:30.0",
+        "TORRHUS_RING:1.0"
+      ],
+      "result": "TORRHUS_ARTIFACT:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "MIRIA_COUPON:100.0"
+      ],
+      "result": "EXTREMELY_MILD_ADHESIVE:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "MIRIA_COUPON:125.0"
+      ],
+      "result": "RUBBER_SNORKEL:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "MIRIA_COUPON:250.0"
+      ],
+      "result": "WINDING_IVY:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "MIRIA_PRIZE:10.0"
+      ],
+      "result": "VIAL_OF_SPRING_WATER:1"
+    }
+  ]
 }
