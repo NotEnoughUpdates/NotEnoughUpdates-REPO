@@ -1,0 +1,47 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§7[Lvl {LVL}] §6Sloth",
+  "nbttag": "{ExtraAttributes:{id:\"SLOTH;4\",petInfo:\"{\\\"type\\\":\\\"SLOTH\\\",\\\"tier\\\":\\\"LEGENDARY\\\",\\\"exp\\\":0.0,\\\"candyUsed\\\":0}\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"1c0994c5-e70c-3711-9526-4e581922667c\",Properties:{textures:[0:{Name:\"textures\",Signature:\"CE1dqeWTybWT6Fp/5viiG/YOAx9Z+u4yx0I3DVf/uYKGD9NCPMQ4l3vKFw/xNqIRWYs1P3XL6DcDYEg/QIYsEt+oa9wHXVtmHX1Aq+n2QniyZPAc4gHcj+W0+jVuQD9R8F6ipc+iGS1nldefQ3HVdQwK+xAZVHuooTRr3yZSuBtx0eTygH1F/uuow9bHPrGuqNnWaNNRARet9rxRpbS/XHo3Phwf1tN5R6yGb3mBJzQhwCBG80PKCF40iYXq6n7PgTm05ZJwF/hY6bd9zjDU86mhspqj1LqQ8P6mg8NH2aqWI+28wmrj6/E3le6Fdgglqkhz0Gx50pLpomm2sZuhEJolVeHCKNyiqELhW29L5igCaBXSzxWtUaU8kfXGNai3Hz+ScVdWr0XF89wY6hk8cp2rHMnlu0RlAQSyJOgPvE4mGmgmqAgj+ra8CkydVITBvoru+nH/4PUUVzKqjpQ/uvFu/9BlWZtOvq2dv2/rJkjBvhl84Wo4PbNRmOJ+5x7Tca1FrHyOFueui3Un3SKn0qtm6pD4FzybhsAglNvcVm4Eibb7m4DCe1HPA1NY/PsS7/NS6LGJvFBzW/l9ao2mPGBT0wLmicSv1C90BOyrcTydSNp7VDLxnhVCXYi5YYKlqmRbqRmh56qJoIrbi0ULUqQOfgQLeDLsDEiiaoB4sto=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4MzY5MzIzNzg5MSwKICAicHJvZmlsZUlkIiA6ICI4YmM3MjdlYThjZjA0YWUzYTI4MDVhY2YzNjRjMmQyNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJub3RpbnZlbnRpdmUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTQ2ODUzN2UxZTk5MDQwYjc2MGM4M2U1MzA5NmM4Njg3MGNkY2Q5Mjg1ZDUzMzAwNzYxZDBlMzZmZjllMTkyZiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Foraging Pet\",1:\"\",2:\"§7Sweep: §2+{SWEEP}\",3:\"§7Foraging Fortune: §6+{FORAGING_FORTUNE}\",4:\"\",5:\"§6Slow Start\",6:\"§7Every §a60s§7, your next cut gains\",7:\"§2+{0} Sweep §7and §6+{1} Foraging\",8:\"§6Fortune§7.\",9:\"\",10:\"§6Stronk Arm\",11:\"§7Gains §2+{2} Sweep §7and §6+{3}\",12:\"§6Foraging Fortune §7on §2Axe §7throws.\",13:\"\",14:\"§6Starlyn's Favorite\",15:\"§7Cutting §aTrees §7give §a+{4}% §7more points\",16:\"§7towards §dStarlyn Contests§7.\",17:\"\",18:\"§eRight-click to add this pet to your pet menu!\",19:\"\",20:\"§6§lLEGENDARY\"],Name:\"§7[Lvl {LVL}] §6Sloth\"}}",
+  "damage": 3,
+  "lore": [
+    "§8Foraging Pet",
+    "",
+    "§7Sweep: §2+{SWEEP}",
+    "§7Foraging Fortune: §6+{FORAGING_FORTUNE}",
+    "",
+    "§6Slow Start",
+    "§7Every §a60s§7, your next cut gains",
+    "§2+{0} Sweep §7and §6+{1} Foraging",
+    "§6Fortune§7.",
+    "",
+    "§6Stronk Arm",
+    "§7Gains §2+{2} Sweep §7and §6+{3}",
+    "§6Foraging Fortune §7on §2Axe §7throws.",
+    "",
+    "§6Starlyn's Favorite",
+    "§7Cutting §aTrees §7give §a+{4}% §7more points",
+    "§7towards §dStarlyn Contests§7.",
+    "",
+    "§eRight-click to add this pet to your pet menu!",
+    "",
+    "§6§lLEGENDARY"
+  ],
+  "internalname": "SLOTH;4",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g02e85d46",
+  "infoType": "",
+  "info": [],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 1000000,
+      "time": 86400,
+      "input": "SLOTH;3",
+      "output": "SLOTH;4",
+      "items": [
+        "GIANT_SLOTH_CLAW:1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "RUNE",
+			runes: {
+				AXE_FADING_BLUE: 1
+			}
+		},
+		"minecraft:enchantment_glint_override": 1b,
+		"minecraft:profile": {
+			id: [I;
+				1795883836,
+				31012585,
+				-1549293094,
+				857722858
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "JbB+i1pbubKqI7gitt9glHtjKkm2kZFf8a98nPeCystGVlgkv0rUjPfuW4ahtCLGXhZc64a89EvBsYFTBxe7/3ITTnouYAc6rpIAhQsqGC5KQEpWrSB15LvzmT4rSEi17LR2GYnoJ5UTgXrRmdQeSWLQLcUE0fAGLCgsuaQgy0Y5vJqduCpZeVe37CDHOZ2rz5Q6PGaht+T+DwhvwW1LK42NezdEhQZjiz+HBcvKqCdKqyo6vXRSteRhLvqxstF5ulTMzOGhYV1hbpyVMPX78FOSogLUyA7cA+QvumksR7JXE3YiE7C0V9LrOuQ5G4qnpM0D8RA09ZLl/vqYTHQW9vOdLtZ7w97ndr4Athg5W4AIS/xuVbC0mXNSETe8P89B3lQ7xX29LwmsQrOK5b/aF12G3UM21aHvdT2Vz5gko5PpsMQGYcAK77AIMFf6/dX5wmvd7alvd9DFwGV4KnEMsxkg1YBvTMvH5lpCqky8FBrbr9pXuED3jf6O6Kmzeq07j9wcWN6RVeLqErl4jSP32sXodVtZmNrQT0K3MKFri+x2MuCs0n6qCN56nmYOEtDpSbSLCFQxMRGU1jJK6vlKPwRTwx5H6uFOH/iw4UGyRy9ZSTorEN9zMo3ouvp6m3hiixfOhXwGRFugSUAHGMgXBrI4pLY7wLOmMTcF6zE/ExQ=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTc1NTc1NTE0MTI0OCwKICAicHJvZmlsZUlkIiA6ICJmNTBjOGRkN2FiN2Y0ZmUyYWI4ZGI1M2NjYzRiYWQxMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJtYWNoYWRvVF9UIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI1MTExNzk1YzE4ZTJkOTEwMjQwZGFiZmNiYmFiNjU1YzAwZTViYzFjNzEwYzMwYjZmMmQyZjk1ZTdmNzVmNzciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:dyed_color",
+				"minecraft:charged_projectiles"
+			]
+		},
+		"minecraft:tooltip_style": "hypixel_skyblock:rare"
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4790,
+		modVersion: "Firmament 44.3.0+mc26.1.2"
+	}
+}
