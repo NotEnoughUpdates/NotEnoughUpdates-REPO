@@ -2510,6 +2510,72 @@
       }
     }
   },
+  "MORNING_DEW": {
+    "internalName": "MORNING_DEW",
+    "reforgeName": "Majestic",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": {
+      "internalName": [
+        "SAFARI_BELT"
+      ]
+    },
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 5000,
+      "UNCOMMON": 25000,
+      "RARE": 100000,
+      "EPIC": 500000,
+      "LEGENDARY": 1000000,
+      "MYTHIC": 2000000
+    },
+    "reforgeAbility": "§7Grants §f+50 Speed §7while in the §2Critter Safari§7.",
+    "reforgeStats": {
+      "COMMON": {
+        "hunting_wisdom": 0.5,
+        "sweep": 0.5,
+        "foraging_fortune": 2,
+        "hunting_fortune": 0.5
+      },
+      "UNCOMMON": {
+        "hunting_wisdom": 1,
+        "sweep": 1,
+        "foraging_fortune": 4,
+        "hunting_fortune": 1
+      },
+      "RARE": {
+        "hunting_wisdom": 1.5,
+        "sweep": 1.5,
+        "foraging_fortune": 6,
+        "hunting_fortune": 1.5
+      },
+      "EPIC": {
+        "hunting_wisdom": 2,
+        "sweep": 2,
+        "foraging_fortune": 8,
+        "hunting_fortune": 2
+      },
+      "LEGENDARY": {
+        "hunting_wisdom": 3,
+        "sweep": 3,
+        "foraging_fortune": 12,
+        "hunting_fortune": 3
+      },
+      "MYTHIC": {
+        "hunting_wisdom": 4,
+        "sweep": 4,
+        "foraging_fortune": 16,
+        "hunting_fortune": 4
+      }
+    }
+  },
   "NECROMANCER_BROOCH": {
     "internalName": "NECROMANCER_BROOCH",
     "reforgeName": "Necrotic",
