@@ -4165,11 +4165,11 @@
         "name": "§aGiant Isopod",
         "skullOwner": "1751517e-500b-39e6-883c-6c2f22a301e4",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MzYxNDI3ODk3MSwKICAicHJvZmlsZUlkIiA6ICI3Mjc2ZThmYzVkNjE0ODNjYmMwN2IxYjIzNjI3MDA4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJXYWJvV2ViaSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zZmNiMjAzYjAyOWFhYzQ5NTg0MDdkYWY0MDcyYTAxYTM1MzEwNTE2MjM3M2NlN2U1NTljNjY5ZDc4MzI1YmNiIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
-        "cap": 100,
+        "cap": 50,
         "mobs": [
           "giant_isopod_186"
         ],
-        "bracket": 7
+        "bracket": 8
       },
       {
         "name": "§aGoldolot",
@@ -4325,11 +4325,11 @@
         "name": "§aSilkbreeze",
         "skullOwner": "fd6178fe-5ee4-39ce-b7c2-072779a3d46b",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4NDIxNTk4ODQ1MywKICAicHJvZmlsZUlkIiA6ICIxMTM0OTAxMTU3ZTE0Yzg0OTE1YTNjMGY3M2RmYzM0NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJab2xlZWV5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI2MzBjMzE3MWM0MDI4NTQ0ZmY5NzliYTg3ZmEwMzEwMmFhY2JjMWU5MTdhY2U5OTg0ZDhlZTUxYTliYmQ1YmEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
-        "cap": 400,
+        "cap": 250,
         "mobs": [
           "silkbreeze_105"
         ],
-        "bracket": 5
+        "bracket": 6
       },
       {
         "name": "§aSolar",
@@ -4380,11 +4380,11 @@
         "name": "§aTorrid",
         "skullOwner": "494f12a3-d931-356e-bf68-7d0bf86514e7",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4NDEyNjgwMjE1MCwKICAicHJvZmlsZUlkIiA6ICI2YmU4ODdiZmRmZTk0OWQ0OGViZTcyYzA3OWM3ZGEyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGcmFuY3l2b2wiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRhMTQ1MjU0YTU5ZWZjZTU3MTg2ZTZjOTliNjRiYTBlODY4MDNhNDQ5NmNkYmU4Yzk2Y2MxM2RkYTcxYWEyNCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-        "cap": 1000,
+        "cap": 500,
         "mobs": [
           "torrid_85"
         ],
-        "bracket": 4
+        "bracket": 7
       },
       {
         "name": "§aWater Snake",
@@ -4398,5 +4398,456 @@
         "bracket": 2
       }
     ]
+  },
+  "safari": {
+    "name": "Critter Safari",
+    "icon": {
+      "skullOwner": "2d82ed27-d55d-37d3-b931-a34e8b1d412f",
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4NTM0NjkwODIxMiwKICAicHJvZmlsZUlkIiA6ICI1ODAwZjIzNWQyYjQ0MDc5OTcxZTM3ZDhmNmY0OTc2ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJYZW55cmlhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY2N2MzMDkyNzM1OWQ0YWQyNmQwNzBiNjNhODMxMWJjMzE5YjZlZjVmZjFiNWVjOTY4MjE1OTZmMjFmNjMyYmIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+    },
+    "hasSubcategories": true,
+    "cavern_biome": {
+      "name": "Cavern Biome",
+      "icon": {
+        "skullOwner": "2bebf460-7e4e-9a56-a035-bcb54f3f3a57",
+        "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MzY4NzM1MzkzOCwKICAicHJvZmlsZUlkIiA6ICJlZDAyNDVjY2ZjYjA0NDM4OTVmMGEzYmFjNmM1YTFjYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJzcGlmZnRvcGlhNCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yOGY0ZTFhN2M5MDc4ZjNiODgyZjcyYjVjMWM1NjJmYzA4Yzk4ODBiMTc2NTRjY2QzMDJiOWUwNGNmYWEwMzg2IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+      },
+      "mobs": [
+        {
+          "name": "§aCavernfish",
+          "skullOwner": "39813a47-3c4e-3200-8d02-965eab1fbcce",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA0OTk5OCwKICAicHJvZmlsZUlkIiA6ICIxNzNkZTMxZjIzODE0YzY1YjVmZWMyMTAyYmIxZjExNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJCSVROVyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mMTFlYjUxYzQ0ZjIwYTY2NDg2NzlmZTllZjk4NDBkZWNjZTQzMjMxYTZhYTIxNjNmMGIzYTExMWIwOTdjY2M2IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+          "cap": 300,
+          "mobs": [
+            "cavernfish_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 1
+        },
+        {
+          "name": "§aChuckwalla",
+          "skullOwner": "abafa8fa-2e15-3c73-98ed-d0e1f9eee9cf",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA2MDY1OCwKICAicHJvZmlsZUlkIiA6ICIzZDU1OGQ3Y2NmZjk0ODdkYWE1MzhkMjM4NGE3OWFkZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDcnlwdGljTG9zZXIxMyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mYzYzY2QwZDQ4MDk3MWE3YmVhZTVmZDUwM2U1ZDUxNjU4Y2Q5MDYzMzA4NDNjYmFkOTIwMThmNWI5OGI0ZmU1IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+          "cap": 75,
+          "mobs": [
+            "chuckwalla_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 3
+        },
+        {
+          "name": "§aDriftling",
+          "skullOwner": "e01abd76-3ba4-3e06-8a87-730727c80c86",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA1MjgyNiwKICAicHJvZmlsZUlkIiA6ICJlY2ExZDJjMWU4ODg0ZjA3OGQxZTBlZGU2ODE4MGRhZCIsCiAgInByb2ZpbGVOYW1lIiA6ICI0MDRDb3NtaWNhbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mNGM0ZjhlNWZjZTFlYzJkMjk5Y2I4YTM5NTc5MmVjZGRjNDk3YTFkOGFmODZmYWFhNWUyMDM3MzAxNmM3MjI1IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+          "cap": 150,
+          "mobs": [
+            "driftling_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 2
+        },
+        {
+          "name": "§aFlitter",
+          "skullOwner": "6a9db6a1-a1a2-313a-85b7-5b1d4f398010",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA3MjczNCwKICAicHJvZmlsZUlkIiA6ICI5MDczN2E1N2RlYjk0MWYxYTEyMzE1MmJkZmZjMTBmYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaW5lU2tpbl8xNCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hODlhNzZkZWVkZDQyYjQxMDM0NDEwMGRmMmZhNzliNmVlYWM3ZTZmMjg3NzQ1ZDY1NjE3OTM2ODM0MGZmYWRlIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+          "cap": 300,
+          "mobs": [
+            "flitter_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 1
+        },
+        {
+          "name": "§aGemzie",
+          "skullOwner": "39382555-b6dc-3af8-bc03-f68469b6a824",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4NTI3NDk0MjMzNywKICAicHJvZmlsZUlkIiA6ICJhYjNkNTUzYmEzMjM0MTc5OGU0ZmE0NzdkNDE0MmIxMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDcnlwdGl6b25lIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NmZWM5ODEyMTNmN2U1YjZjM2JmOTcwMGRmOTQ5NzQyZWVlMzgyZWJmZDgzZDg0N2Y5NGE2YzUyOTg2OGQwNTMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+          "cap": 50,
+          "mobs": [
+            "gemzie_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 4
+        },
+        {
+          "name": "§aRockmite",
+          "skullOwner": "0c15c4e6-4c44-3139-909e-290eb46c8863",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjgzMjk3Nzg1MSwKICAicHJvZmlsZUlkIiA6ICI3MDYwMDk0OTgyZDc0MTczYTNjZjg1Zjc1NjQ3MGE5YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJpbmV4YWN0b3N0ZW50YXQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWRiYWFiNzRkMWFjZDBhYmU5ZDA0YWJlOTkyODcyNWRlNWQ0NDk1ZmNiNjNiNjQ3MjI4Y2FmNjk0NGMyMDgwMCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+          "cap": 75,
+          "mobs": [
+            "rockmite_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 3
+        },
+        {
+          "name": "§aScrappy",
+          "skullOwner": "d5fbddfb-546f-38d0-a3f9-ce9898cbe07a",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjgzMzYwODY3MywKICAicHJvZmlsZUlkIiA6ICI2NWI5NTU1YWQyMGU0NWM5YjFkNmU3MjQwNjU0NTBkNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfTWVybCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iYzA0MTJmZTA4MTA1OGI2N2M3MGJhZTFhNTQzYjUzYTVmZWVlYjM0ZjZkNzg2MWY2ZTM0ODdmMDc3ZDBhZmFkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+          "cap": 75,
+          "mobs": [
+            "scrappy_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 3
+        },
+        {
+          "name": "§aShyworm",
+          "skullOwner": "bbee419e-845c-3b0d-bdc8-9f2f7def2bc5",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzODQwMDA4NCwKICAicHJvZmlsZUlkIiA6ICIzYzBkZWU0NzE5MDM0OTc5OWE1ZmJlYTE2NTgwZmRmMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZXF1YXJpIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I0Mjg3YjhhMGE2NDJkYWM1MzVhNmVlMjk0NTllZmQxN2Q1Y2VlMWViMzU5ZTQzNmJjOGU3YWJiYTNkYTE0YjciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+          "cap": 300,
+          "mobs": [
+            "shyworm_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 1
+        },
+        {
+          "name": "§aSnoozle",
+          "skullOwner": "326529a3-a9e6-3001-87da-be4f9a739fd1",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjgzMzYwOTc1MCwKICAicHJvZmlsZUlkIiA6ICIxODEzOTc2N2Q2YjU0N2E5OWY3M2M0ZjRmZjEzOTZhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJVc2FXaW1hIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZmMWEzZTY5OTA4MWQ2M2RmNzFjNWNiMWZhMGNkNDM1NzkzNWQ4MGM2OWUwN2YxMmYxODEwODkzMWZmYzY0ZWYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+          "cap": 75,
+          "mobs": [
+            "snoozle_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 3
+        }
+      ]
+    },
+    "forest_biome": {
+      "name": "Forest Biome",
+      "icon": {
+        "skullOwner": "93299d85-cef5-f72a-b3d4-6d85c6c032a1",
+        "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MzY4NzM1NDk3OCwKICAicHJvZmlsZUlkIiA6ICJiNzAwZDM2YjRkYmE0NDQzOTUzNjc4NDVlNWViZTA5MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJleGVjdXRvcnkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmMzMjMxOTRkMDhlZDFlNDZmYjIxM2ZmNjAyYjAxMDhmNWRmZjJjNjk0OTIwOTNjZmZiNjhhNjVhNDIzZGU2MSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+      },
+      "mobs": [
+        {
+          "name": "§aBluebird",
+          "skullOwner": "68027986-a3db-3e5b-b933-e5860e04a6e4",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjgzMjk2OTE2OSwKICAicHJvZmlsZUlkIiA6ICIwNDg0N2ZjNWM5YjY0NTQ1YjI1ZWJkYmJiNzdjNjg2NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOYXFsdWEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmJkYjI3YjM1YTVlYWI1MjEzNGExYTMzN2VmNTE4Njc2NDE1YjllZDg0MDE4MzE3NWQwNTliYzE1N2JlYTcyYiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+          "cap": 150,
+          "mobs": [
+            "bluebird_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 2
+        },
+        {
+          "name": "§aFluffling",
+          "skullOwner": "fe4c869e-4db8-34c8-ae9b-ba3dd61aa675",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjgzMjk3MDQyNywKICAicHJvZmlsZUlkIiA6ICIxMGUzZmY0NDQ4NDA0MjM4OWY3ZmNjZGY5MzYwYzA0ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBSV9BZ2VudCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lMGJlMjFjYTE3NDEzMzQ2ZjI2YmMwZTI2NTlmNmY5NTdkOWZhMzdjNmU4MDhjNzkzOGVmNDcxZjRlNmUzZjRmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+          "cap": 75,
+          "mobs": [
+            "fluffling_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 3
+        },
+        {
+          "name": "§aFoxtrot",
+          "skullOwner": "6367e74d-fdb3-3283-9f74-01f310b744b9",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA1Mjk3NSwKICAicHJvZmlsZUlkIiA6ICJlZDUzZGQ4MTRmOWQ0YTNjYjRlYjY1MWRjYmE3N2U2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICI0MTQxNDE0MWgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGYxYTZhZmJmNjVhODcxNzQyNWY4MDRjOTVmOWRlNTAzZDk1YjQzZGJlNDk3NDYxM2JmNDI3ODhlM2NkY2FkNiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+          "cap": 300,
+          "mobs": [
+            "foxtrot_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 1
+        },
+        {
+          "name": "§aHideonfloor",
+          "skullOwner": "11fde483-9fb1-3cb9-a832-4d03f11fbd53",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjgzMjk3MDQ0OCwKICAicHJvZmlsZUlkIiA6ICJlNzM4MTYzZTYwM2M0MTFkOTg4MzNiYzkyZTI4Y2IyYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJYZW5va3JhdGVzUml0dmEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjVkYjBhNmQwY2JkNzg4ZjhmNzMzMmE2NjBkODg5Y2NmODhlMmEwM2Y1MDhkM2Y5MGQ5MzUzOTE5NTY5NjBiMCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+          "cap": 75,
+          "mobs": [
+            "hideonfloor_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 3
+        },
+        {
+          "name": "§aHoneybug",
+          "skullOwner": "f7411e31-cb42-3d59-863f-afdd0dbd3d77",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA2MTg5MywKICAicHJvZmlsZUlkIiA6ICIwMzBlMDA1OWQwY2M0YTZhODY3N2RkZWU3MjEzMjg1MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTbXVnRm9vZGllIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc2M2FjNjU2ZTJhZDQ3N2U4MTIxNWQ1MGNmNTc4MzQxOTg1YjllZTQwNzNlZTdmMWQzZWQ1YThhNmY0ZTZmYzEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+          "cap": 150,
+          "mobs": [
+            "honeybug_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 2
+        },
+        {
+          "name": "§aMacaw",
+          "skullOwner": "8f502d26-0fe9-36cf-98a4-f83842f0f701",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjgzMjk3Mzg2NCwKICAicHJvZmlsZUlkIiA6ICI1Y2YzMDFmZDdkM2I0MGI5YjliMjYyNDQxN2Y4ZDZkOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJIZXl6ZXluIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FkN2FjYmQ5Y2Q2ZmQ2ZWM3NWViZTJlN2MyYjQyZDRiYjBkZWRmOWZiYmQzYzZmNWEyYTkzM2RiMzg3MGUwZDMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+          "cap": 25,
+          "mobs": [
+            "macaw_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 5
+        },
+        {
+          "name": "§aParakeet",
+          "skullOwner": "de906ce4-77e6-3c22-a831-639840083082",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjgzMjk3NTkyNCwKICAicHJvZmlsZUlkIiA6ICI5OGQxYTQyNmRlMmU0NjBkYjdjNWExMmY5MGNhODg0OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLdWJpbm9TSyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83ZjM5YzNjZDk2NzcyYzRlZWQzY2NiNWRkMGZjZDFmYzk2NjRhOTJmNWIyMjI4M2FlMDVhYWFlYmFmNzdmMjU0IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+          "cap": 75,
+          "mobs": [
+            "parakeet_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 3
+        },
+        {
+          "name": "§aTreefrog",
+          "skullOwner": "f3c6630d-0829-3103-acbe-0ed67a39334e",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjgzMzYxMTc1MywKICAicHJvZmlsZUlkIiA6ICI0MjJlMzdiNjc4ZGU0OTA2YWFiMWU5NGY0N2E5NGM0OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJzcGlmZnRvcGlhOSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lZTg5NWE3NTZjNzEzODFhNDBiOTQ5MjNhY2M5YzY4Njg3YzlhNDFhMzRjOTUzMDY1NWM0ZTRiMGMyNDk0YzE5IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+          "cap": 150,
+          "mobs": [
+            "treefrog_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 2
+        },
+        {
+          "name": "§aWoodchucker",
+          "skullOwner": "97ea3f62-3a5b-3194-915a-acb713846b2e",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA3MDAyNSwKICAicHJvZmlsZUlkIiA6ICJlODE1MGY1MjlmZGU0YzdkYjI3OTAyZjJjNmU3NTc5ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJCcmFkQm90XzIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTJhMmI0Njc0YzQ3MzVhY2VlYWY1NmJjMWM4MzIzMDZjY2I3ZDU4YzBhM2Q2ZDIzYTA5NTIxY2NhNGY2NzhmYyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+          "cap": 150,
+          "mobs": [
+            "woodchucker_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 2
+        }
+      ]
+    },
+    "haunted_biome": {
+      "name": "Haunted Biome",
+      "icon": {
+        "skullOwner": "aff6fd6f-f3e7-a926-b264-c6ae5433d0f0",
+        "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MzY4NzM1NTIyMiwKICAicHJvZmlsZUlkIiA6ICI2NWI5NTU1YWQyMGU0NWM5YjFkNmU3MjQwNjU0NTBkNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfTWVybCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jMDdmMTljMzE2YmFiNGUzZjc0ODE2YzllOTlkZWQ5MTg1ODcxNDVkZmI1MDNlYjJmNmM1YmM3ZGJkYmVkYyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+      },
+      "mobs": [
+        {
+          "name": "§aAreita",
+          "skullOwner": "a83c9446-fdd3-3beb-acec-5def9d45151d",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MzY4NzM1MzMyOSwKICAicHJvZmlsZUlkIiA6ICIwZWQ2MDFlMDhjZTM0YjRkYWUxZmI4MDljZmEwNTM5NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJOZWVkTW9yZUFjY291bnRzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2MzOGNjMTBjZTJmMTE4NWYzZDIxZWIxZjAxMDZmZWZhYzUwZGQ4MGJlMDk2N2Y5MzRhZDcxYTEwN2UwNGNiZjQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+          "cap": 150,
+          "mobs": [
+            "areita_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 2
+        },
+        {
+          "name": "§aBloodbat",
+          "skullOwner": "6a32a96c-991c-3cd6-97be-8fd3cd8e9492",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA0OTEzNiwKICAicHJvZmlsZUlkIiA6ICI3YmFiY2ExNGU2MDI0MTJlYTM3YjU5NjU1MGZkOWRiYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaWthX05vZWwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODhkOWU5OGVkYTZlMjA4N2JlNmEzNjhhODc1NGU1MDUyNjg4Zjc3MDI2OGUwODNmYjQ3MDY2ZDNmZjU1MTljNCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+          "cap": 150,
+          "mobs": [
+            "bloodbat_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 2
+        },
+        {
+          "name": "§aDoomspiral",
+          "skullOwner": "bc65e24b-c4ce-3a81-aded-dc75cec9bc11",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA1MTA5NywKICAicHJvZmlsZUlkIiA6ICI2NGYzZjJjNzk4YTk0YWFjOTdiNWM5Yjc2YmNhN2VlYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJCbGF6ZV9XYXNUYWtlbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zYTFiYTZiMmI0OWYzYzEyYmFlMjIzNTEzYmU4YThlOTYwNTVlMzhlYzY4YWIxM2ZiODlkYjFiMmVmNjY0MzIxIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+          "cap": 25,
+          "mobs": [
+            "doomspiral_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 5
+        },
+        {
+          "name": "§aDuplico",
+          "skullOwner": "deb03b10-67df-3fb2-b5cf-e2d4526c7ab4",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA1MjM5NiwKICAicHJvZmlsZUlkIiA6ICIyMWUzNjdkNzI1Y2Y0ZTNiYjI2OTJjNGEzMDBhNGRlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHZXlzZXJNQyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82OTdiYjk0ZDUxMWY0MTJmYjY4M2Q1YzczOTI0ZGQ3YzlkYzhkZmM2NGI0MzlmNTA0NjZmNWExMGM5YWVkMzkzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+          "cap": 150,
+          "mobs": [
+            "duplico_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 2
+        },
+        {
+          "name": "§aGazer",
+          "skullOwner": "9300c3e7-d1fb-38a6-9ed8-75a9d4b0afca",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA1NDA0NiwKICAicHJvZmlsZUlkIiA6ICIzMzU3MWJiY2UyMDE0MTRiYmNkMDYyMjEyZTI4MjBlMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFkb21JbmF0b3I0NzgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA3YjNjM2QyYzNmZTI1OWQ2OTIwN2ExNGNhNWNkOTk3MTNjNzA5NmJhMTIyYmI0MDMyNmYzNDg5ZTVkMGQ2YyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+          "cap": 150,
+          "mobs": [
+            "gazer_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 2
+        },
+        {
+          "name": "§aGimmiegold",
+          "skullOwner": "5f3cf047-048b-3c70-9371-417631aa943d",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA2MTkzOCwKICAicHJvZmlsZUlkIiA6ICI1MTAwZGZmZDI0NDI0M2I0OGQxMmVkZTVkMjgxMzk2ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbGVjdHJvbmljU2V4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzhiMzI5ZTEwOGFjMjhiMGJlYzhkNDdiN2NkY2UyNTNkZjFkYjgwYjQ2MDUyYjU5MTVkOTYzZTFiY2JhYjBkYjQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+          "cap": 75,
+          "mobs": [
+            "gimmiegold_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 3
+        },
+        {
+          "name": "§aHideonwall",
+          "skullOwner": "a0ffd5c4-cefd-372e-80a2-1620bb717da2",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjgzMjk3MDI4NiwKICAicHJvZmlsZUlkIiA6ICIxMTM0OTAxMTU3ZTE0Yzg0OTE1YTNjMGY3M2RmYzM0NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJab2xlZWV5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY4MmY2NTBmY2YxNjU3YjU1MTUyMTRiMDk3MzE0NGVmOTgwOWM4OWJjNjhmNTRhNzZiOWEyZjg5MzFmMGYxNzYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+          "cap": 75,
+          "mobs": [
+            "hideonwall_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 3
+        },
+        {
+          "name": "§aHideyho",
+          "skullOwner": "5c1f931b-b59f-3c50-9d69-307f379f0ee8",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjgzMjk3MDkzNywKICAicHJvZmlsZUlkIiA6ICJmZDIwMGYwMDE4OTI0NzgxODI5OWIzZjE5Yzc4Y2E3MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0dXNnIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM1MDRmMWYyMzI3YTUxMTBlNjQzYmI4NjY3MDgyNTEyODE1ZmE0MzRhMjllZDM3ZjRjYTgzYmIxNmQyZGI1MzMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+          "cap": 75,
+          "mobs": [
+            "hideyho_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 3
+        },
+        {
+          "name": "§aLitterbug",
+          "skullOwner": "ae96c96a-6ac1-399d-b12a-1975c170716f",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjgzMjk3NDYwNywKICAicHJvZmlsZUlkIiA6ICJjODVhZTlmOWJkNTU0YzFmYjk1ZTg3ZDI2Zjg2MGFmNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdGV2ZW4xNzUzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q4NzhjNTc5NzcxYjgwMjQ3MDMwYzBmZWExMjIxMWYzZTAwNmEyZDllNjVkNGVkODk2YmE2ZTVhMWVkOTYxZGEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+          "cap": 150,
+          "mobs": [
+            "litterbug_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 2
+        },
+        {
+          "name": "§aSolsnatcher",
+          "skullOwner": "7b96e12a-c3d5-33d9-8fb4-2c051200a15f",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjgzMzYxMDUzNiwKICAicHJvZmlsZUlkIiA6ICIxMTM0OTAxMTU3ZTE0Yzg0OTE1YTNjMGY3M2RmYzM0NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJab2xlZWV5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE5NWQ4NThjYTk0NjM0ZTUxNWIxMDVkNWVlNDUyNjlmN2M0Njc1ZDg3N2IzMzhhYzVjMWMzODE1OGU1NDcwNTgiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+          "cap": 150,
+          "mobs": [
+            "solsnatcher_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 2
+        }
+      ]
+    },
+    "icy_biome": {
+      "name": "Icy Biome",
+      "icon": {
+        "skullOwner": "3214a77f-3cf6-0c6b-8f01-a796375a53e2",
+        "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MzY4NzM1NTE2MywKICAicHJvZmlsZUlkIiA6ICI2NGY0MGFiNzFmM2E0NGZiYjg0N2I5ZWFhOWZjNDRlNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJvZGF2aWRjZXNhciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lOTIzYTYyODA4NzRhNTkyMDczN2I1OGU4ZDk5MGNkYWU0YWY5ODU5MGNkYTY5YjY5NGRkZjhlOWRkYjBjNjk0IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+      },
+      "mobs": [
+        {
+          "name": "§aBillygoat",
+          "skullOwner": "81b0ae4a-b5b8-322a-8990-c94d0efd2665",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA0NjYzMCwKICAicHJvZmlsZUlkIiA6ICJiOWIzY2RlZmIyZmQ0YWY1ODQxMGViZWZjY2ZmYTBhYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJpbnRlcnNlY2F0byIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mMTk3OGIwZTc3YjJhNjZlNGE5NDIwZGRmMWZjMzkxMTM4MWVjN2IyY2Q5NjAwNzQ1NDVmNDkyNmE5ZDUwZGZiIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+          "cap": 75,
+          "mobs": [
+            "billygoat_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 3
+        },
+        {
+          "name": "§aMantis Shrimp",
+          "skullOwner": "1e21c241-4ab3-309b-85f1-b6750602178a",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA2MjE5NCwKICAicHJvZmlsZUlkIiA6ICI0YTQ1ZmY3NDM2Njk0YTNiYTc3OTdhYTgyN2IwNDM1NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJzcGlmZnRvcGlhNSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85OTI0YzEwNWFhNDMxZGFiZDQ3OTUyZGMxZGRkZDZmNzUxZjg4MzQyM2Y0ZGIxNDg3ZDliYWNjMmNmZTk5YzdhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+          "cap": 75,
+          "mobs": [
+            "mantis_shrimp_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 3
+        },
+        {
+          "name": "§aNozzlenose",
+          "skullOwner": "c8206f5d-bb46-3f13-a465-edda906cabad",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA2NTQ0MSwKICAicHJvZmlsZUlkIiA6ICJlOThhZTBlMTI5MDg0ZDA5OTk0MTg4N2Q2YTk0ZTI2NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTZXh5SGF1c2VNYXN0ZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTYwODgzZmQ4ZjliNWU4ZjQyMWEzYThiMDkxOGFjMGRkN2U2YTNkZWRiMzFhM2IyODgzMjdkNmRhODk2YzBjOSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+          "cap": 75,
+          "mobs": [
+            "nozzlenose_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 3
+        },
+        {
+          "name": "§aPolaris",
+          "skullOwner": "a19fd47c-b2e0-35af-bd14-e5f67596a5cc",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjgzMjk3Njc5OSwKICAicHJvZmlsZUlkIiA6ICIyZmI1ZGJhYTY2NTA0OGEyYjZhYzU5YWE2Nzk5MDYzNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJkcmFnbG9uZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQxNDU4ZGIyNzIxMGU4OTA1Nzk1YjBmMzM2ODAxNWNkMGYyN2Y2ODhmYjBhMTRmNThiN2E0NDcwNzlhZWQ4ZiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+          "cap": 150,
+          "mobs": [
+            "polaris_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 2
+        },
+        {
+          "name": "§aShuddersquid",
+          "skullOwner": "24589b0f-9129-3db5-bc77-a75a2266ef83",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjgzMzYwOTQwMiwKICAicHJvZmlsZUlkIiA6ICJjMWU1NzlmZjc0NjI0OTkzYTI5NTdlNjNjZGU5NDY1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaW5lU2tpbl8xNiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81YTRkZmIwYjZjYTdlYTEyZWJmNDA2YzI5MTAxY2NlNjE4N2ZiOGZhZGZlNGU4MjY2NGEyMjVmNDU3NGUyOWU5IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+          "cap": 150,
+          "mobs": [
+            "shuddersquid_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 2
+        },
+        {
+          "name": "§aStrongarm",
+          "skullOwner": "4e40eaa9-3b2d-32c0-b96d-272049986a1b",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA2NzcwMywKICAicHJvZmlsZUlkIiA6ICIyNDY1ODI2NWVjMjg0NTY4YTg3MDJkOTVlYzdlYTc4MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcmdvc1oxMiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82Y2QyNjVjNGI5YTEzMjYyNTNlNjZiM2Y5Y2YxZTBiOGRlOGQwNzdlYjVjYmRhODc2NTRjNmRiYWM4NzVjOGRiIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+          "cap": 300,
+          "mobs": [
+            "strongarm_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 1
+        },
+        {
+          "name": "§aTepid",
+          "skullOwner": "4b646d45-e8d5-364e-ae74-32dae6a0a5d8",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjgzMzYxMTM0OSwKICAicHJvZmlsZUlkIiA6ICI4MDQ2MzdjMTA1ZGY0MzM0ODE3YTNmMDcxMTMyOTYyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJQcmluY2VDUiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85YTQyOTNmMmE4YTdhYWYyZmYwZmQ1ZTg4ZWYzZjUzNDlmZDY1OTQwMTVkNWY5NzU4NjJhMmE5YjU4NTZiMjVhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+          "cap": 300,
+          "mobs": [
+            "tepid_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 1
+        },
+        {
+          "name": "§aTroodon",
+          "skullOwner": "c18cf547-22f8-3909-9cba-0e385bf4eaf7",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA2OTI3MywKICAicHJvZmlsZUlkIiA6ICI5OGQxYTQyNmRlMmU0NjBkYjdjNWExMmY5MGNhODg0OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLdWJpbm9TSyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81M2RlNDEzNWEzYjE5YTIxODcwMjljODZhMDAyMGU1OGM5MDdjN2JkZDRlMzdiNzY0M2YxMjBlMTZhMGFhOWFiIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+          "cap": 75,
+          "mobs": [
+            "troodon_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 3
+        },
+        {
+          "name": "§aWumpa",
+          "skullOwner": "97f4e803-6d07-3e8f-bbec-5a41adfd4cc7",
+          "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA3MDM1NiwKICAicHJvZmlsZUlkIiA6ICI2NGY0MGFiNzFmM2E0NGZiYjg0N2I5ZWFhOWZjNDRlNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJvZGF2aWRjZXNhciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84MWY5OWUwNWIyMzc1NmRjMDQ0YThiYzIyODk2NWY1OTk1ZDFlZjQ5NzUwMjI3ZDVlNDgxNjM2Y2FhYjY5M2IxIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+          "cap": 25,
+          "mobs": [
+            "wumpa_1"
+          ],
+          "bracketType": "CRITTERS",
+          "bracket": 5
+        }
+      ]
+    }
   }
 }
