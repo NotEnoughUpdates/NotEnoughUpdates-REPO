@@ -202,67 +202,69 @@
       150
     ]
   },
-  "critterBrackets": {
-    "1": [
-      1,
-      10,
-      25,
-      50,
-      75,
-      100,
-      150,
-      200,
-      250,
-      300
-    ],
-    "2": [
-      1,
-      10,
-      20,
-      30,
-      45,
-      60,
-      80,
-      100,
-      125,
-      150
-    ],
-    "3": [
-      1,
-      5,
-      10,
-      15,
-      20,
-      25,
-      35,
-      45,
-      60,
-      75
-    ],
-    "4": [
-      1,
-      3,
-      6,
-      10,
-      15,
-      20,
-      25,
-      30,
-      40,
-      50
-    ],
-    "5": [
-      1,
-      2,
-      3,
-      4,
-      6,
-      8,
-      10,
-      15,
-      20,
-      25
-    ]
+  "bracketSets": {
+    "CRITTERS": {
+      "1": [
+        1,
+        10,
+        25,
+        50,
+        75,
+        100,
+        150,
+        200,
+        250,
+        300
+      ],
+      "2": [
+        1,
+        10,
+        20,
+        30,
+        45,
+        60,
+        80,
+        100,
+        125,
+        150
+      ],
+      "3": [
+        1,
+        5,
+        10,
+        15,
+        20,
+        25,
+        35,
+        45,
+        60,
+        75
+      ],
+      "4": [
+        1,
+        3,
+        6,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50
+      ],
+      "5": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25
+      ]
+    }
   },
   "dynamic": {
     "name": "Private Island",
@@ -1558,6 +1560,17 @@
         "bracket": 7
       },
       {
+        "name": "§aHewver",
+        "skullOwner": "4a303194-1965-38f9-a309-4c7b32af80e4",
+        "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4NDEyNjM3MDU4NCwKICAicHJvZmlsZUlkIiA6ICI1OGZmZWI5NTMxNGQ0ODcwYTQwYjVjYjQyZDRlYTU5OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTa2luREJuZXQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTNhMDM0ZTdlZDI2OWZiNGI3ZDNjZDg2NjJjZDk5N2JlODQ2MDVlMDI5YjllNzBjMTg0YjdlNTk3ZWI0MWIzNiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+        "cap": 50,
+        "mobs": [
+          "hewver_69"
+        ],
+        "bracketType": "CRITTER",
+        "bracket": 3
+      },
+      {
         "name": "§aHideonleaf",
         "skullOwner": "2835a0dd-53c3-3b89-b392-5950e58b7aff",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTcyMzA4Mjc2NzIzNSwKICAicHJvZmlsZUlkIiA6ICI5OWY1MzhjMDhlN2E0NTg3YmU4MGJjNGVmNzU0ZmQyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb2xvV1MyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzkwYjNiZGM5ODFiODE3NTRhMjU2MzViZWEyZGVmOTNmOTkyYzA0MDc5ODFjZDdjNTAwYWQ0OWQxY2FkYTA0YWYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
@@ -1567,6 +1580,27 @@
         ],
         "bracketType": "CRITTER",
         "bracket": 1
+      },
+      {
+        "name": "§aHoneyhog",
+        "skullOwner": "2a928c58-95d1-303e-9156-2b2e7c3e57e7",
+        "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4NDEyNjM3MTg0MiwKICAicHJvZmlsZUlkIiA6ICI1MTAwZGZmZDI0NDI0M2I0OGQxMmVkZTVkMjgxMzk2ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbGVjdHJvbmljU2V4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI4N2JlNDVlNDUzYjgzMmY5YWNjZWU1NzA5Yjk0MzEzZjcxNjU1NGU5M2JmYWRiNmQzNjdhODNlNDNhZDZkOTciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+        "cap": 150,
+        "mobs": [
+          "honeyhog_32"
+        ],
+        "bracket": 1
+      },
+      {
+        "name": "§aHoneymite",
+        "skullOwner": "c5d82e40-57f9-3ef7-9614-7f8153d7cc6e",
+        "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4NDEyNjM3MjA4NSwKICAicHJvZmlsZUlkIiA6ICI3NzQ3ODc3M2ExZTE0NzUxODE0M2Q5ZDA5YTc1NmQ2MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ3aGF0YXJlZmVycmV0cyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zMjE5MjA3MGIwOWRkODVmNzY2MDk2NWE3MDQ3NGY2MjhjODc3YzA3YWZmMTRkZjU2ZjM3YmQ2MWRmMmUwOGMyIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+        "cap": 75,
+        "mobs": [
+          "honeymite_52"
+        ],
+        "bracketType": "CRITTER",
+        "bracket": 2
       },
       {
         "name": "§aInvisibug",
@@ -1777,6 +1811,18 @@
           "wetwing_chicken_18"
         ],
         "bracket": 4
+      },
+      {
+        "name": "§aWoodlouse",
+        "skullOwner": "8ba2da43-622f-3a37-b98b-e9c2acc07193",
+        "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MzcwODg2OTg0MywKICAicHJvZmlsZUlkIiA6ICJjMjVlMWMxZTE1YTQ0N2IwOTQ2Zjg2YzYzYzhjYjZkOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJiaWdpYm9zMzIxIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzcwNTU2ZDQ0YzFhOWNiNWU0OWFiZTRkYjgxZDViNzc1MGQ4ZjAxOGYzYWJkMTZlZmVjYjllNzJlYThlOGE3YzgiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+        "cap": 75,
+        "mobs": [
+          "woodlouse_1"
+        ],
+        
+        "bracketType": "CRITTER",
+        "bracket": 2
       }
     ]
   },
