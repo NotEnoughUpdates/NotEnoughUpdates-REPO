@@ -56,11 +56,11 @@ jobs:
     if: failure() && github.event_name == 'pull_request'
     steps:
       - name: Save PR Number
+        run: "echo $PR_NUMBER > ${{ runner.temp }}/pr-number"
         env:
           PR_NUMBER: ${{ github.event.number }}
-        run: |
-          echo $PR_NUMBER > ${{ runner.temp }}/pr-number
-      - uses: actions/upload-artifact@v7
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v7
         with:
           name: pr-number
           archive: 'false'
