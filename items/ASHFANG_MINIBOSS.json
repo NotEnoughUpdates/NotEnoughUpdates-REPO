@@ -15,8 +15,7 @@
   "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixelskyblock.minecraft.wiki/w/Ashfang",
-    "https://wiki.hypixel.net/Ashfang"
+    "https://hypixelskyblock.minecraft.wiki/w/Ashfang"
   ],
   "recipes": [
     {
@@ -31,11 +30,17 @@
       "drops": [
         {
           "id": "BLAZE_ROD",
-          "chance": "x20-35"
+          "chance": "100%",
+          "extra": [
+            "§eDrop Count: §7x20-35"
+          ]
         },
         {
           "id": "ENCHANTED_BLAZE_POWDER:1",
-          "chance": "x0-2"
+          "chance": "100%",
+          "extra": [
+            "§eDrop Count: §7x0-2"
+          ]
         },
         {
           "id": "LUMINO_FIBER:1",

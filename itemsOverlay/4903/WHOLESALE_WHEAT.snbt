@@ -1,0 +1,30 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "WHOLESALE_WHEAT"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:dyed_color",
+				"minecraft:charged_projectiles"
+			]
+		},
+		"minecraft:tooltip_style": "hypixel_skyblock:special"
+	},
+	count: 1,
+	id: "minecraft:wheat",
+	source: {
+		dataVersion: 4903,
+		modVersion: "Firmament nogitversion+mc26.2"
+	}
+}

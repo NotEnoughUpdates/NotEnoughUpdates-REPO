@@ -1,0 +1,45 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "SCORNCLAW_BREW"
+		},
+		"minecraft:profile": {
+			id: [I;
+				-508094604,
+				631648576,
+				-1296448438,
+				-1141422774
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "WkQ4iCMadEajZfltuHwvlkB2BpsMwXghYlYfX9RBXzA7xk5410KNfmmVk4lcTQ4v+73EErB5qhZtLwAe/d4V9jsSYqB1RmGlOJ2p0qROLv0vFjvDZAqBx35CTu8Zi6OWGSY7584ZhUofHQV13SlyabVoXUtPaLtNb1MSGC5QrmSosQuR5wLIfdn6W6RK+D5bOfVAWrv/YnYyHL15g/LBokvl5pmdDetf17XW5ig7NpOYg00AxggVYTh8INhwSB5s+hONdrJKcnwFPkaoBRMs5bk4s7G6rQRbL25kJr/R17Gvn6ogDDVEB78nmXRUUwbUgW3vIHBTrsSDnkf/G3MDidZcdJEGArYnV767tfng4wbm3R5mnmiF+JEqRpxlk/GuTTuJ4fVuXyfKbklt5QT5e8IxXsZ9scOfBLei6K46LX2k2DaqQ8AWejdjz/LEFIaMtdF1WCbIvDPfVmPYaBjV8CEGcazQYxlkGjateoH3ien+K7nFH/5eRoo4Smf2NGXJ6017pcRvu+flqIDmSnMPgmuGtuRVhIGSrTwdra6qHa7G5fU3rh58eboZBjgUI5EbruDl71pdedlZljCMuS7oWUggmBmOj3KbgBN7wck4d/2N2+dXQXPigzLLs1QmD4Mlvi3siQodebLGmhN6P/PNGDtTPrc4L7t2fvYPdz8ttJM=",
+					value: "eyJ0aW1lc3RhbXAiOjE0OTQ3NjcxNzY4MTYsInByb2ZpbGVJZCI6IjQzYTgzNzNkNjQyOTQ1MTBhOWFhYjMwZjViM2NlYmIzIiwicHJvZmlsZU5hbWUiOiJTa3VsbENsaWVudFNraW42Iiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jYzZiNGE3YmQ4MjQ0MTYxOWJiYzExZDliOGUwZTY0YWU4Yjk1ZjJlNDBiMzkyMTM1NWZjYzU0MzQzMjYwMTcifX19"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:dyed_color",
+				"minecraft:charged_projectiles"
+			]
+		},
+		"minecraft:tooltip_style": "hypixel_skyblock:common"
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4790,
+		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g02e85d46"
+	}
+}

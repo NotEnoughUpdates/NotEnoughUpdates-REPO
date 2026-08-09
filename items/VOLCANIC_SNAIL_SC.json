@@ -1,0 +1,51 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§3Volcanic Snail (Sea Creature)",
+  "nbttag": "{ExtraAttributes:{id:\"VOLCANIC_SNAIL_SC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"0659ae50-373a-39c3-a061-a966c0666edc\",Properties:{textures:[0:{Name:\"textures\",Signature:\"kw03B2cMsFCCoI0kOlcVlX3rlc8Az6lo6o1iVOwX4TAdRNtcs22eyIw/ejqRw6nFLQPyqlCL0Ep8qZHPK9F+v1vSNcknVbTuTjgnzd2RbQWEskMni6g4HEs3rt2yjsOThEVV5asDjKOepT0M+uhdWTdgrQya9TeSTPa7+5jpLriXJzuBTmQC9v+GwhUbENx3iWaB6ja91OS08EJ2T8nF/61VAyGihPG5Wz8tlb9AkbB7Q/vUIjjqudZeS197f2HbVr5UfA7zRSX2+Ckeb2+EhQXA4itA6/1723tFXxht5WoAqZrHhcA8CaMRFX8Ps2p8Q3AztusDQr3VHtE8FOMpfXh8MJ3d+B7y6oy0SOpM0FyImezj5aG8QhxDIYWLljlHXcB7tBifZ1Rs179sjH1U5E5z2fDvJiJa6x9ixKZicA20fMvA/XFc2sr7eBoUmPhIo6SSRSMLKjakH7D6zMMgQBsjA7kSxHq8WLex+X9ASFdDjp2LxY6hbk2wNSgQ1ELx5282fyQwAU8jHsXg7jbb0OIFxLumsu3Y9TIOKOk2jl2RP3XD6rcp8XQxjW9FFNLc/zRhyr/b7FmlDd88TMd3HRne6ZFEgU02glPcVZ+hBY8Sq7QFzYTV/bSkb9Zbg4lnA1TzQrygKSpp16pqS6qnP7XAFgo1+9tYVaPh1Wrq+pk=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc3MzMyOTEwMDI3OCwKICAicHJvZmlsZUlkIiA6ICIzOTg5OGFiODFmMjU0NmQxOGIyY2ExMTE1MDRkZGU1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4YjJjYTExMTUwNGRkZTUwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzliZjlkM2JkNGMzZGNjYTM1MGE0Mzg4MDRkZDQyZmFlMmIzNDc0ZGMwOTI4ZmEwYWQ1NDdhZDQwNzAyYWNmNzEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §c♆ Magmatic§7, §a☮ Animal\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§3Volcanic Snail (Sea Creature)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Types: §c♆ Magmatic§7, §a☮ Animal",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "VOLCANIC_SNAIL_SC",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc1.21.11+ga2a6cfec",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Volcanic_Snail"
+  ],
+  "recipes": [
+    {
+      "level": 90,
+      "coins": 90,
+      "xp": 108,
+      "name": "§cVolcanic Snail",
+      "render": "@neurepo:mobs/volcanic_snail.json",
+      "panorama": "crimson_isle",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "MAGMA_FISH:1",
+          "extra": [
+            "§eDrop Count: §7x2-4"
+          ],
+          "chance": "100%"
+        },
+        {
+          "id": "SEARED_ESCARGOT:1",
+          "chance": "4%"
+        },
+        {
+          "id": "MAGMA_FISH_SILVER:1",
+          "chance": "1%"
+        },
+        {
+          "id": "DYE_CARMINE:1",
+          "chance": "0.00002%"
+        }
+      ]
+    }
+  ]
+}

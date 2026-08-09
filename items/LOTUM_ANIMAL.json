@@ -1,0 +1,47 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aLotum (Animal)",
+  "nbttag": "{ExtraAttributes:{id:\"LOTUM_ANIMAL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"3921c138-cc40-3714-9a95-ef3508db50e1\",Properties:{textures:[0:{Name:\"textures\",Signature:\"enP1LDEGYlKNTgv2vFeLSgu8XLSHt1HARZ5rni7zm++ugsRALmywfp2dVPahnSIwJt0uFp1qXyEu1P+RiEUaODIR+afqeGMMXE+tIETyOdiwSz5PgVEZUppP0LrTRKeIqAEfVyqUqHEPadBb0ytY0PoJDFwOaQX4+Z1XhsX1UUubSbSPQgwWxE3ISRMMmPEugIezBobTD1/POC7GQZMtn9tQmzg7NzlIK6/JbNSQdnv8GEhB+wdqlV5oLWAcZHFaoZh2exIEy5x3EyZN59cyDq71ffxYzSZoItfqtYJ5krGvGsi5Y1RBtm40HJKyQ3yHHRZZpCYUrp0hwol/6heQW0NGtx9ePsRxLrpLapS+jfly1fpeQuUFifTIHtfWv7ie8QslMaQ6s2nuv4EHieaE6gabFZznqsi7nwtgXwxoCoeGHkg5fADu3O3dDoWrY2XyV8RIge5+9AIRNJAMkLdAKxQWbRl4rTGhLaOZ0WBkJA5vb2y9P/G8uEFdd1mcP2h/oVDxGFELdhJu75Rt9XfsFtGNsdomMWHaKj+P76yiBTb+Qa7rP4SwiO6aTttgbaUvEBpBxtunq8wrOyTH3I0K5VOz8/8trxrs5uO7DAgwL2JgHZZtnJSgoBK9Y440I+MgWZdon8loCKcM2W4B2LhfdbPjiIBLS2Ys4htVrg9LltY=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc3NTI1MTM4NjM2MCwKICAicHJvZmlsZUlkIiA6ICIzODY2ZTk1MmIxZWE0M2E4OGE3NGI1NzAxZDVjYTAwNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGYWtlTWFybG93IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RlMzhjMGM5MzdjMjI1YmVlMmFiOGRmNmJmNzQ3MzM0MTkyNWJjMjRiNDFhOTIzMTk1NTg0Nzg1ZjE0N2ZjMzQiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Perpetual sunbather and all-round\",1:\"§7proprietor of good vibes.\",2:\"\",3:\"§7Mob Types: §9⚓ Aquatic§7, §a☮ Animal\",4:\"§c❤ Health§8: §c4\"],Name:\"§aLotum (Animal)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Perpetual sunbather and all-round",
+    "§7proprietor of good vibes.",
+    "",
+    "§7Mob Types: §9⚓ Aquatic§7, §a☮ Animal",
+    "§c❤ Health§8: §c4"
+  ],
+  "internalname": "LOTUM_ANIMAL",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Lotum"
+  ],
+  "recipes": [
+    {
+      "name": "§aLotum",
+      "render": "Frog",
+      "panorama": "lotus_atoll",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "LOTUS:8",
+          "chance": "100%"
+        },
+        {
+          "id": "LOTUS_SILVER:1",
+          "chance": "1%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_LILY_TRACKER;1:1",
+          "extra": [
+            "§7 - Place §cTraps §7in §3Lotus Atoll§7. §7(§bOn Land§7).",
+            "§7 - Hunted in §3Lotus Atoll§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

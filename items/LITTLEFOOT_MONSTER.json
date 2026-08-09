@@ -29,16 +29,23 @@
       "panorama": "mineshaft",
       "drops": [
         {
+          "id": "ENCHANTED_GLACITE:1",
+          "extra": [
+            "§eDrop Count: §7x16-32"
+          ],
+          "chance": "100%"
+        },
+        {
           "id": "SKYBLOCK_POWDER_GLACITE:10000",
           "chance": "100%"
         },
         {
-          "id": "ENCHANTED_GLACITE",
-          "chance": "x16-32"
-        },
-        {
           "id": "GLACITE_AMALGAMATION:1",
           "chance": "2%"
+        },
+        {
+          "id": "LITTLEFOOT_FLUFF:1",
+          "chance": "0.2%"
         },
         {
           "id": "ATTRIBUTE_SHARD_FREEZING_SPREAD;1:1",
@@ -47,10 +54,6 @@
             " §7- §7Kill Littlefoot while using §cSalts"
           ],
           "chance": "100%"
-        },
-        {
-          "id": "LITTLEFOOT_FLUFF:1",
-          "chance": "0.2%"
         }
       ]
     }

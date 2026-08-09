@@ -1,18 +1,19 @@
 {
   "itemid": "minecraft:potion",
   "displayname": "§aTrue Resistance IV Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:11b,Amplifier:3b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§fTrue Resistance IV §f(3:00)\",2:\"§7Gain §f+20❂ True Defense§7.\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aTrue Resistance IV Potion\"},ExtraAttributes:{potion_level:4,potion:\"true_defense\",effects:[0:{level:4,effect:\"true_defense\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_TRUE_DEFENSE;4\"}}",
+  "nbttag": "{CustomPotionEffects:[0:{Ambient:0B,Amplifier:3B,Duration:20,Id:11B}],ExtraAttributes:{effects:[0:{duration_ticks:3600,effect:\"true_defense\",level:4}],id:\"POTION_TRUE_DEFENSE;4\",potion:\"true_defense\",potion_level:4,potion_type:\"POTION\"},HideFlags:254,ItemModel:\"minecraft:potion\",display:{Lore:[0:\"\",1:\"§fTrue Resistance IV (3:00)\",2:\"§7Gain §f+20 True Defense§7.\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aTrue Resistance IV Potion\"}}",
   "damage": 0,
   "lore": [
     "",
-    "§fTrue Resistance IV §f(3:00)",
-    "§7Gain §f+20❂ True Defense§7.",
+    "§fTrue Resistance IV (3:00)",
+    "§7Gain §f+20 True Defense§7.",
     "",
     "§a§lUNCOMMON"
   ],
   "internalname": "POTION_TRUE_DEFENSE;4",
-  "crafttext": "",
   "clickcommand": "viewpotion",
-  "modver": "",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "",
+  "info": []
 }

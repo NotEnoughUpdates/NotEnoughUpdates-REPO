@@ -14,8 +14,7 @@
   "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixelskyblock.minecraft.wiki/w/Skeleton",
-    "https://wiki.hypixel.net/Skeleton"
+    "https://hypixelskyblock.minecraft.wiki/w/Skeleton"
   ],
   "recipes": [
     {
@@ -28,7 +27,10 @@
       "drops": [
         {
           "id": "BONE:1",
-          "chance": "x1-2"
+          "extra": [
+            "§eDrop Count: §7x1-2"
+          ],
+          "chance": "100%"
         }
       ]
     }

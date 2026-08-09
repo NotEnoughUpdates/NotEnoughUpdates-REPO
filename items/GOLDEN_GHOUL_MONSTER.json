@@ -18,8 +18,7 @@
   "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixelskyblock.minecraft.wiki/w/Golden_Ghoul",
-    "https://wiki.hypixel.net/Golden_Ghoul"
+    "https://hypixelskyblock.minecraft.wiki/w/Golden_Ghoul"
   ],
   "recipes": [
     {
@@ -33,15 +32,18 @@
       "type": "drops",
       "drops": [
         {
+          "id": "GOLD_INGOT:1",
+          "extra": [
+            "§eDrop Count: §7x1-10"
+          ],
+          "chance": "100%"
+        },
+        {
           "id": "ROTTEN_FLESH:2",
           "chance": "100%"
         },
         {
-          "id": "GOLD_INGOT",
-          "chance": "x1-10"
-        },
-        {
-          "id": "GOLDEN_POWDER",
+          "id": "GOLDEN_POWDER:1",
           "chance": "0.05%"
         },
         {

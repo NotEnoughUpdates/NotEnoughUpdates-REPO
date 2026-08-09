@@ -14,8 +14,7 @@
   "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixelskyblock.minecraft.wiki/w/Smoldering_Blaze",
-    "https://wiki.hypixel.net/Smoldering_Blaze"
+    "https://hypixelskyblock.minecraft.wiki/w/Smoldering_Blaze"
   ],
   "recipes": [
     {
@@ -31,22 +30,21 @@
       "drops": [
         {
           "id": "BLAZE_ROD:1",
-          "extra": [],
-          "chance": "x2-3"
+          "chance": "100%",
+          "extra": [
+            "§eDrop Count: §7x2-3"
+          ]
         },
         {
           "id": "BLAZE_ASHES:1",
-          "extra": [],
           "chance": "20%"
         },
         {
           "id": "NETHERRACK_LOOKING_SUNSHADE:1",
-          "extra": [],
           "chance": "0.1%"
         },
         {
           "id": "SMOLDERING;1:1",
-          "extra": [],
           "chance": "0.016%"
         },
         {

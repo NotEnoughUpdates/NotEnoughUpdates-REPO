@@ -15,8 +15,7 @@
   "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixelskyblock.minecraft.wiki/w/Boss_Corleone",
-    "https://wiki.hypixel.net/Boss_Corleone"
+    "https://hypixelskyblock.minecraft.wiki/w/Boss_Corleone"
   ],
   "recipes": [
     {
@@ -31,11 +30,17 @@
       "drops": [
         {
           "id": "ROUGH_RUBY_GEM:1",
-          "chance": "x15-27"
+          "extra": [
+            "§eDrop Count: §7x15-27"
+          ],
+          "chance": "100%"
         },
         {
           "id": "ROUGH_JADE_GEM:1",
-          "chance": "x18-41"
+          "extra": [
+            "§eDrop Count: §7x18-41"
+          ],
+          "chance": "100%"
         },
         {
           "id": "CORLEONITE:1",

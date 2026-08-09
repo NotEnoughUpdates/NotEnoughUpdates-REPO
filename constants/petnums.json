@@ -83,7 +83,7 @@
         "otherNums": [
           0.03,
           0.04,
-          0.1
+          1.0
         ],
         "statNums": {
           "MINING_FORTUNE": 1.0,
@@ -94,7 +94,7 @@
         "otherNums": [
           3,
           4,
-          10
+          100
         ],
         "statNums": {
           "MINING_FORTUNE": 100,
@@ -228,6 +228,56 @@
         "otherNums": [
           50,
           20
+        ],
+        "statNums": {
+          "STRENGTH": 50,
+          "FISHING_SPEED": 50,
+          "SEA_CREATURE_CHANCE": 5
+        }
+      }
+    },
+    "UNCOMMON": {
+      "1": {
+        "otherNums": [
+          0.75,
+          0.35
+        ],
+        "statNums": {
+          "STRENGTH": 0.5,
+          "FISHING_SPEED": 0.5,
+          "SEA_CREATURE_CHANCE": 0.05
+        }
+      },
+      "100": {
+        "otherNums": [
+          75,
+          35
+        ],
+        "statNums": {
+          "STRENGTH": 50,
+          "FISHING_SPEED": 50,
+          "SEA_CREATURE_CHANCE": 5
+        }
+      }
+    },
+    "RARE": {
+      "1": {
+        "otherNums": [
+          0.75,
+          0.35,
+          0.1
+        ],
+        "statNums": {
+          "STRENGTH": 0.5,
+          "FISHING_SPEED": 0.5,
+          "SEA_CREATURE_CHANCE": 0.05
+        }
+      },
+      "100": {
+        "otherNums": [
+          75,
+          35,
+          10
         ],
         "statNums": {
           "STRENGTH": 50,
@@ -595,7 +645,7 @@
           1.07,
           1.04,
           0.3,
-          5.2
+          0.0002
         ],
         "statNums": {
           "INTELLIGENCE": 0.5,
@@ -612,7 +662,7 @@
           8,
           5,
           30,
-          25
+          0.02
         ],
         "statNums": {
           "STRENGTH": 30.0,
@@ -621,6 +671,44 @@
           "FARMING_FORTUNE": 30,
           "FORAGING_FORTUNE": 30,
           "MINING_FORTUNE": 30
+        }
+      }
+    },
+    "MYTHIC": {
+      "1": {
+        "otherNums": [
+          1.09,
+          1.07,
+          1.04,
+          0.4,
+          0.0002,
+          1.6
+        ],
+        "statNums": {
+          "INTELLIGENCE": 0.5,
+          "SPEED": 0.1,
+          "STRENGTH": 5.25,
+          "FARMING_FORTUNE": 0.4,
+          "FORAGING_FORTUNE": 0.4,
+          "MINING_FORTUNE": 0.4
+        }
+      },
+      "100": {
+        "otherNums": [
+          10,
+          8,
+          5,
+          40,
+          0.02,
+          160
+        ],
+        "statNums": {
+          "STRENGTH": 30.0,
+          "INTELLIGENCE": 50.0,
+          "SPEED": 10.0,
+          "FARMING_FORTUNE": 40,
+          "FORAGING_FORTUNE": 40,
+          "MINING_FORTUNE": 40
         }
       }
     }
@@ -634,7 +722,8 @@
         ],
         "statNums": {
           "HEALTH": 1.0,
-          "STRENGTH": 0.25
+          "STRENGTH": 0.25,
+          "SPEED": 0.75
         }
       },
       "100": {
@@ -644,7 +733,8 @@
         ],
         "statNums": {
           "HEALTH": 100.0,
-          "STRENGTH": 25.0
+          "STRENGTH": 25.0,
+          "SPEED": 75.0
         }
       }
     },
@@ -652,23 +742,25 @@
       "1": {
         "otherNums": [
           5.2,
-          5.1,
-          101.5
+          101.5,
+          5.1
         ],
         "statNums": {
           "HEALTH": 1.0,
-          "STRENGTH": 0.25
+          "STRENGTH": 0.25,
+          "SPEED": 0.75
         }
       },
       "100": {
         "otherNums": [
           25,
-          15,
-          250
+          250,
+          15
         ],
         "statNums": {
           "HEALTH": 100.0,
-          "STRENGTH": 25.0
+          "STRENGTH": 25.0,
+          "SPEED": 75.0
         }
       }
     },
@@ -704,10 +796,10 @@
       "1": {
         "otherNums": [
           5.2,
+          101.5,
           5.1,
           10.3,
-          0.1,
-          101.5
+          0.1
         ],
         "statNums": {
           "HEALTH": 1.0,
@@ -718,10 +810,10 @@
       "100": {
         "otherNums": [
           25,
+          250,
           15,
           40,
-          1,
-          250
+          1
         ],
         "statNums": {
           "HEALTH": 100.0,
@@ -734,11 +826,11 @@
       "1": {
         "otherNums": [
           5.2,
+          101.5,
           5.1,
           10.3,
           0.1,
-          10.4,
-          101.5
+          10.4
         ],
         "statNums": {
           "HEALTH": 1.0,
@@ -749,11 +841,11 @@
       "100": {
         "otherNums": [
           25,
+          250,
           15,
           40,
           1,
-          50,
-          250
+          50
         ],
         "statNums": {
           "HEALTH": 100.0,
@@ -766,11 +858,11 @@
       "1": {
         "otherNums": [
           5.2,
+          101.5,
           5.1,
           10.3,
           0.1,
-          10.4,
-          101.5
+          10.4
         ],
         "statNums": {
           "HEALTH": 1.0,
@@ -781,11 +873,11 @@
       "100": {
         "otherNums": [
           25,
+          250,
           15,
           40,
           1,
-          50,
-          250
+          50
         ],
         "statNums": {
           "HEALTH": 100.0,
@@ -1581,6 +1673,34 @@
           "INTELLIGENCE": 75.0
         }
       }
+    },
+    "MYTHIC": {
+      "1": {
+        "otherNums": [
+          0.2,
+          0.01,
+          1.5,
+          0.2
+        ],
+        "statNums": {
+          "HEALTH": 1.0,
+          "INTELLIGENCE": 0.75,
+          "FARMING_FORTUNE": 0.5
+        }
+      },
+      "100": {
+        "otherNums": [
+          20,
+          1,
+          150,
+          20
+        ],
+        "statNums": {
+          "HEALTH": 100.0,
+          "INTELLIGENCE": 75.0,
+          "FARMING_FORTUNE": 50.0
+        }
+      }
     }
   },
   "ENDERMAN": {
@@ -2002,9 +2122,11 @@
           1.1
         ],
         "statNums": {
-          "SPEED": 0.1,
-          "FISHING_SPEED": 0.5,
-          "RESPIRATION": 0.4
+          "SPEED": 0.5,
+          "FISHING_SPEED": 0.4,
+          "RESPIRATION": 0.1,
+          "SWEEP": 0.1,
+          "FORAGING_FORTUNE": 0.1
         }
       },
       "100": {
@@ -2012,9 +2134,11 @@
           10
         ],
         "statNums": {
-          "SPEED": 10,
-          "FISHING_SPEED": 50,
-          "RESPIRATION": 40
+          "SPEED": 50,
+          "FISHING_SPEED": 40,
+          "RESPIRATION": 10,
+          "SWEEP": 10,
+          "FORAGING_FORTUNE": 10
         }
       }
     },
@@ -2024,9 +2148,11 @@
           1.1
         ],
         "statNums": {
-          "SPEED": 0.1,
-          "FISHING_SPEED": 0.5,
-          "RESPIRATION": 0.4
+          "SPEED": 0.5,
+          "FISHING_SPEED": 0.4,
+          "RESPIRATION": 0.1,
+          "SWEEP": 0.1,
+          "FORAGING_FORTUNE": 0.1
         }
       },
       "100": {
@@ -2034,9 +2160,11 @@
           10
         ],
         "statNums": {
-          "SPEED": 10,
-          "FISHING_SPEED": 50,
-          "RESPIRATION": 40
+          "SPEED": 50,
+          "FISHING_SPEED": 40,
+          "RESPIRATION": 10,
+          "SWEEP": 10,
+          "FORAGING_FORTUNE": 10
         }
       }
     },
@@ -2046,9 +2174,11 @@
           1.1
         ],
         "statNums": {
-          "SPEED": 0.1,
-          "FISHING_SPEED": 0.5,
-          "RESPIRATION": 0.4
+          "SPEED": 0.5,
+          "FISHING_SPEED": 0.4,
+          "RESPIRATION": 0.1,
+          "SWEEP": 0.1,
+          "FORAGING_FORTUNE": 0.1
         }
       },
       "100": {
@@ -2056,9 +2186,11 @@
           10
         ],
         "statNums": {
-          "SPEED": 10,
-          "FISHING_SPEED": 50,
-          "RESPIRATION": 40
+          "SPEED": 50,
+          "FISHING_SPEED": 40,
+          "RESPIRATION": 10,
+          "SWEEP": 10,
+          "FORAGING_FORTUNE": 10
         }
       }
     },
@@ -2069,9 +2201,11 @@
           1.79
         ],
         "statNums": {
-          "SPEED": 0.1,
-          "FISHING_SPEED": 0.5,
-          "RESPIRATION": 0.4
+          "SPEED": 0.5,
+          "FISHING_SPEED": 0.4,
+          "RESPIRATION": 0.1,
+          "SWEEP": 0.1,
+          "FORAGING_FORTUNE": 0.1
         }
       },
       "100": {
@@ -2080,9 +2214,11 @@
           80
         ],
         "statNums": {
-          "SPEED": 10,
-          "FISHING_SPEED": 50,
-          "RESPIRATION": 40
+          "SPEED": 50,
+          "FISHING_SPEED": 40,
+          "RESPIRATION": 10,
+          "SWEEP": 10,
+          "FORAGING_FORTUNE": 10
         }
       }
     },
@@ -2094,9 +2230,11 @@
           1.09
         ],
         "statNums": {
-          "SPEED": 0.1,
-          "FISHING_SPEED": 0.5,
-          "RESPIRATION": 0.4
+          "SPEED": 0.5,
+          "FISHING_SPEED": 0.4,
+          "RESPIRATION": 0.1,
+          "SWEEP": 0.1,
+          "FORAGING_FORTUNE": 0.1
         }
       },
       "100": {
@@ -2106,9 +2244,47 @@
           10
         ],
         "statNums": {
-          "SPEED": 10,
-          "FISHING_SPEED": 50,
-          "RESPIRATION": 40
+          "SPEED": 50,
+          "FISHING_SPEED": 40,
+          "RESPIRATION": 10,
+          "SWEEP": 10,
+          "FORAGING_FORTUNE": 10
+        }
+      }
+    },
+    "MYTHIC": {
+      "1": {
+        "otherNums": [
+          1.1,
+          1.79,
+          1.09,
+          0.12,
+          0.1
+        ],
+        "statNums": {
+          "SPEED": 0.5,
+          "FISHING_SPEED": 0.4,
+          "TROPHY_CHANCE": 0.05,
+          "RESPIRATION": 0.1,
+          "SWEEP": 0.1,
+          "FORAGING_FORTUNE": 0.1
+        }
+      },
+      "100": {
+        "otherNums": [
+          10,
+          80,
+          10,
+          2,
+          10
+        ],
+        "statNums": {
+          "SPEED": 50,
+          "FISHING_SPEED": 40,
+          "TROPHY_CHANCE": 5,
+          "RESPIRATION": 10,
+          "SWEEP": 10,
+          "FORAGING_FORTUNE": 10
         }
       }
     }
@@ -2147,10 +2323,10 @@
           0.2
         ],
         "statNums": {
-          "FEROCITY": 0.05,
           "HEALTH": 1.0,
+          "FEROCITY": 0.05,
           "INTELLIGENCE": 0.75,
-          "VITALITY": 0.25,
+          "VITALITY": 0.15,
           "MENDING": 0.25
         }
       },
@@ -2160,10 +2336,10 @@
           20
         ],
         "statNums": {
-          "FEROCITY": 5.0,
           "HEALTH": 100.0,
+          "FEROCITY": 5.0,
           "INTELLIGENCE": 75.0,
-          "VITALITY": 25,
+          "VITALITY": 15,
           "MENDING": 25
         }
       }
@@ -2178,10 +2354,10 @@
           1
         ],
         "statNums": {
-          "FEROCITY": 0.05,
           "HEALTH": 1.0,
+          "FEROCITY": 0.05,
           "INTELLIGENCE": 0.75,
-          "VITALITY": 0.25,
+          "VITALITY": 0.15,
           "MENDING": 0.25
         }
       },
@@ -2194,10 +2370,10 @@
           100
         ],
         "statNums": {
-          "FEROCITY": 5.0,
           "HEALTH": 100.0,
+          "FEROCITY": 5.0,
           "INTELLIGENCE": 75.0,
-          "VITALITY": 25,
+          "VITALITY": 15,
           "MENDING": 25
         }
       }
@@ -2645,7 +2821,7 @@
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          50.0,
+          5.05,
           0.25,
           2.5,
           0.125,
@@ -2659,7 +2835,7 @@
       },
       "100": {
         "otherNums": [
-          100,
+          10,
           0.5,
           5.0,
           0.25,
@@ -2705,7 +2881,8 @@
       "1": {
         "otherNums": [
           1,
-          1
+          1,
+          0.35
         ],
         "statNums": {
           "SPEED": 0.15
@@ -2714,7 +2891,8 @@
       "100": {
         "otherNums": [
           100,
-          100
+          100,
+          35
         ],
         "statNums": {
           "SPEED": 15
@@ -2876,14 +3054,14 @@
         "otherNums": [],
         "statNums": {
           "INTELLIGENCE": 0.5,
-          "SPEED": 0.25
+          "SPEED": 1
         }
       },
       "100": {
         "otherNums": [],
         "statNums": {
           "INTELLIGENCE": 50.0,
-          "SPEED": 25.0
+          "SPEED": 100.0
         }
       }
     },
@@ -2892,54 +3070,58 @@
         "otherNums": [],
         "statNums": {
           "INTELLIGENCE": 0.5,
-          "SPEED": 0.25
+          "SPEED": 1.0
         }
       },
       "100": {
         "otherNums": [],
         "statNums": {
           "INTELLIGENCE": 50.0,
-          "SPEED": 25.0
+          "SPEED": 100.0
         }
       }
     },
     "RARE": {
       "1": {
         "otherNums": [
-          1.1
+          1.2,
+          1.05
         ],
         "statNums": {
           "INTELLIGENCE": 0.5,
-          "SPEED": 0.25
+          "SPEED": 1.0
         }
       },
       "100": {
         "otherNums": [
-          110
+          20,
+          5
         ],
         "statNums": {
           "INTELLIGENCE": 50.0,
-          "SPEED": 25.0
+          "SPEED": 100.0
         }
       }
     },
     "EPIC": {
       "1": {
         "otherNums": [
-          1.2
+          1.2,
+          1.05
         ],
         "statNums": {
           "INTELLIGENCE": 0.5,
-          "SPEED": 0.25
+          "SPEED": 1.0
         }
       },
       "100": {
         "otherNums": [
-          120
+          20,
+          5
         ],
         "statNums": {
           "INTELLIGENCE": 50.0,
-          "SPEED": 25.0
+          "SPEED": 100.0
         }
       }
     },
@@ -2947,21 +3129,23 @@
       "1": {
         "otherNums": [
           1.2,
-          0.2
+          1.05,
+          0.5
         ],
         "statNums": {
           "INTELLIGENCE": 0.5,
-          "SPEED": 0.25
+          "SPEED": 1.0
         }
       },
       "100": {
         "otherNums": [
-          120,
-          25
+          20,
+          5,
+          5
         ],
         "statNums": {
           "INTELLIGENCE": 50.0,
-          "SPEED": 25.0
+          "SPEED": 100.0
         }
       }
     }
@@ -3102,13 +3286,13 @@
       "1": {
         "otherNums": [],
         "statNums": {
-          "INTELLIGENCE": -1.0
+          "INTELLIGENCE": 1.0
         }
       },
       "100": {
         "otherNums": [],
         "statNums": {
-          "INTELLIGENCE": -100.0
+          "INTELLIGENCE": 100.0
         }
       }
     },
@@ -3116,13 +3300,13 @@
       "1": {
         "otherNums": [],
         "statNums": {
-          "INTELLIGENCE": -1.0
+          "INTELLIGENCE": 1.0
         }
       },
       "100": {
         "otherNums": [],
         "statNums": {
-          "INTELLIGENCE": -100.0
+          "INTELLIGENCE": 100.0
         }
       }
     },
@@ -3130,13 +3314,13 @@
       "1": {
         "otherNums": [],
         "statNums": {
-          "INTELLIGENCE": -1.0
+          "INTELLIGENCE": 1.0
         }
       },
       "100": {
         "otherNums": [],
         "statNums": {
-          "INTELLIGENCE": -100.0
+          "INTELLIGENCE": 100.0
         }
       }
     },
@@ -3144,13 +3328,13 @@
       "1": {
         "otherNums": [],
         "statNums": {
-          "INTELLIGENCE": -1.0
+          "INTELLIGENCE": 1.0
         }
       },
       "100": {
         "otherNums": [],
         "statNums": {
-          "INTELLIGENCE": -100.0
+          "INTELLIGENCE": 100.0
         }
       }
     },
@@ -3160,7 +3344,7 @@
           0.0
         ],
         "statNums": {
-          "INTELLIGENCE": -1.0
+          "INTELLIGENCE": 1.0
         }
       },
       "100": {
@@ -3168,7 +3352,7 @@
           10
         ],
         "statNums": {
-          "INTELLIGENCE": -100.0
+          "INTELLIGENCE": 100.0
         }
       }
     },
@@ -3178,7 +3362,7 @@
           0.0
         ],
         "statNums": {
-          "INTELLIGENCE": -1.0
+          "INTELLIGENCE": 1.0
         }
       },
       "100": {
@@ -3186,7 +3370,7 @@
           50
         ],
         "statNums": {
-          "INTELLIGENCE": -100.0
+          "INTELLIGENCE": 100.0
         }
       }
     }
@@ -3899,19 +4083,19 @@
     "COMMON": {
       "1": {
         "otherNums": [
-          0.2
+          0.5
         ],
         "statNums": {
-          "FARMING_FORTUNE": 11.0,
+          "FARMING_FORTUNE": 1.0,
           "HEALTH": 1.0
         }
       },
       "100": {
         "otherNums": [
-          20
+          50
         ],
         "statNums": {
-          "FARMING_FORTUNE": 110.0,
+          "FARMING_FORTUNE": 100.0,
           "HEALTH": 100.0
         }
       }
@@ -3919,19 +4103,19 @@
     "UNCOMMON": {
       "1": {
         "otherNums": [
-          0.2
+          1
         ],
         "statNums": {
-          "FARMING_FORTUNE": 11.0,
+          "FARMING_FORTUNE": 1.0,
           "HEALTH": 1.0
         }
       },
       "100": {
         "otherNums": [
-          20
+          100
         ],
         "statNums": {
-          "FARMING_FORTUNE": 110.0,
+          "FARMING_FORTUNE": 100.0,
           "HEALTH": 100.0
         }
       }
@@ -3939,21 +4123,21 @@
     "RARE": {
       "1": {
         "otherNums": [
-          0.3,
-          2.0
+          1,
+          50
         ],
         "statNums": {
-          "FARMING_FORTUNE": 11.0,
+          "FARMING_FORTUNE": 1.0,
           "HEALTH": 1.0
         }
       },
       "100": {
         "otherNums": [
-          30,
-          100
+          100,
+          30
         ],
         "statNums": {
-          "FARMING_FORTUNE": 110.0,
+          "FARMING_FORTUNE": 100.0,
           "HEALTH": 100.0
         }
       }
@@ -3961,21 +4145,21 @@
     "EPIC": {
       "1": {
         "otherNums": [
-          0.3,
-          2.0
+          1,
+          40
         ],
         "statNums": {
-          "FARMING_FORTUNE": 11.0,
+          "FARMING_FORTUNE": 1.0,
           "HEALTH": 1.0
         }
       },
       "100": {
         "otherNums": [
-          30,
-          100
+          100,
+          20
         ],
         "statNums": {
-          "FARMING_FORTUNE": 110.0,
+          "FARMING_FORTUNE": 100.0,
           "HEALTH": 100.0
         }
       }
@@ -3983,23 +4167,23 @@
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          0.3,
-          2.0,
-          39.8
+          1,
+          40,
+          0.0002
         ],
         "statNums": {
-          "FARMING_FORTUNE": 11.0,
+          "FARMING_FORTUNE": 1.0,
           "HEALTH": 1.0
         }
       },
       "100": {
         "otherNums": [
-          30,
           100,
-          20
+          20,
+          0.02
         ],
         "statNums": {
-          "FARMING_FORTUNE": 110.0,
+          "FARMING_FORTUNE": 100.0,
           "HEALTH": 100.0
         }
       }
@@ -4111,6 +4295,116 @@
         "statNums": {
           "SPEED": 50.0,
           "FEROCITY": 10.0
+        }
+      }
+    }
+  },
+  "ORCHID_MANTIS": {
+    "COMMON": {
+      "1": {
+        "otherNums": [
+          0.1
+        ],
+        "statNums": {
+          "SPEED": 0.3,
+          "OVERBLOOM": 0.15
+        }
+      },
+      "100": {
+        "otherNums": [
+          10
+        ],
+        "statNums": {
+          "SPEED": 30,
+          "OVERBLOOM": 15
+        }
+      }
+    },
+    "UNCOMMON": {
+      "1": {
+        "otherNums": [
+          0.2
+        ],
+        "statNums": {
+          "SPEED": 0.3,
+          "OVERBLOOM": 0.15
+        }
+      },
+      "100": {
+        "otherNums": [
+          20
+        ],
+        "statNums": {
+          "SPEED": 30,
+          "OVERBLOOM": 15
+        }
+      }
+    },
+    "RARE": {
+      "1": {
+        "otherNums": [
+          0.2,
+          0.005
+        ],
+        "statNums": {
+          "SPEED": 0.3,
+          "OVERBLOOM": 0.15
+        }
+      },
+      "100": {
+        "otherNums": [
+          20,
+          0.5
+        ],
+        "statNums": {
+          "SPEED": 30,
+          "OVERBLOOM": 15
+        }
+      }
+    },
+    "EPIC": {
+      "1": {
+        "otherNums": [
+          0.2,
+          0.01
+        ],
+        "statNums": {
+          "SPEED": 0.3,
+          "OVERBLOOM": 0.15
+        }
+      },
+      "100": {
+        "otherNums": [
+          20,
+          1
+        ],
+        "statNums": {
+          "SPEED": 30,
+          "OVERBLOOM": 15
+        }
+      }
+    },
+    "LEGENDARY": {
+      "1": {
+        "otherNums": [
+          0.2,
+          0.01,
+          0.0002
+        ],
+        "statNums": {
+          "SPEED": 0.3,
+          "OVERBLOOM": 0.15
+        }
+      },
+      "100": {
+        "otherNums": [
+          20,
+          1,
+          0.02
+        ],
+        "statNums": {
+          "SPEED": 30,
+          "OVERBLOOM": 15
         }
       }
     }
@@ -4661,14 +4955,14 @@
         "otherNums": [],
         "statNums": {
           "SPEED": 0.5,
-          "INTELLIGENCE": -0.02
+          "INTELLIGENCE": 0.02
         }
       },
       "100": {
         "otherNums": [],
         "statNums": {
           "SPEED": 50,
-          "INTELLIGENCE": -2
+          "INTELLIGENCE": 2
         }
       }
     }
@@ -5282,22 +5576,24 @@
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          1.5,
-          0.4
+          0.1,
+          1,
+          0.8
         ],
         "statNums": {
-          "INTELLIGENCE": 1.0,
-          "SPEED": 0.5
+          "INTELLIGENCE": 0.75,
+          "SPEED": 1.5
         }
       },
       "100": {
         "otherNums": [
-          150,
-          40
+          1,
+          10,
+          7
         ],
         "statNums": {
-          "INTELLIGENCE": 100.0,
-          "SPEED": 50.0
+          "INTELLIGENCE": 75,
+          "SPEED": 150
         }
       }
     }
@@ -5356,6 +5652,132 @@
           "CRIT_DAMAGE": 25.0,
           "DAMAGE": 25.0,
           "STRENGTH": 25.0
+        }
+      }
+    }
+  },
+  "SLOTH": {
+    "COMMON": {
+      "1": {
+        "otherNums": [
+          0.15,
+          0.3
+        ],
+        "statNums": {
+          "SWEEP": 0.25,
+          "FORAGING_FORTUNE": 0.25
+        }
+      },
+      "100": {
+        "otherNums": [
+          15,
+          30
+        ],
+        "statNums": {
+          "SWEEP": 25.0,
+          "FORAGING_FORTUNE": 25.0
+        }
+      }
+    },
+    "UNCOMMON": {
+      "1": {
+        "otherNums": [
+          0.2,
+          0.4
+        ],
+        "statNums": {
+          "SWEEP": 0.25,
+          "FORAGING_FORTUNE": 0.25
+        }
+      },
+      "100": {
+        "otherNums": [
+          20,
+          40
+        ],
+        "statNums": {
+          "SWEEP": 25.0,
+          "FORAGING_FORTUNE": 25.0
+        }
+      }
+    },
+    "RARE": {
+      "1": {
+        "otherNums": [
+          0.2,
+          0.4,
+          0.2,
+          0.5
+        ],
+        "statNums": {
+          "SWEEP": 0.25,
+          "FORAGING_FORTUNE": 0.25
+        }
+      },
+      "100": {
+        "otherNums": [
+          20,
+          40,
+          20,
+          50
+        ],
+        "statNums": {
+          "SWEEP": 25.0,
+          "FORAGING_FORTUNE": 25.0
+        }
+      }
+    },
+    "EPIC": {
+      "1": {
+        "otherNums": [
+          0.25,
+          0.5,
+          0.4,
+          1.0
+        ],
+        "statNums": {
+          "SWEEP": 0.25,
+          "FORAGING_FORTUNE": 0.25
+        }
+      },
+      "100": {
+        "otherNums": [
+          25,
+          50,
+          40,
+          100
+        ],
+        "statNums": {
+          "SWEEP": 25.0,
+          "FORAGING_FORTUNE": 25.0
+        }
+      }
+    },
+    "LEGENDARY": {
+      "1": {
+        "otherNums": [
+          0.25,
+          0.5,
+          0.4,
+          1.0,
+          0.2
+        ],
+        "statNums": {
+          "SWEEP": 0.25,
+          "FORAGING_FORTUNE": 0.25
+        }
+      },
+      "100": {
+        "otherNums": [
+          25,
+          50,
+          40,
+          100,
+          20
+        ],
+        "statNums": {
+          "SWEEP": 25.0,
+          "FORAGING_FORTUNE": 25.0
         }
       }
     }
@@ -5548,22 +5970,24 @@
         "otherNums": [
           0.1,
           0.1,
-          0.8
+          0.5
         ],
         "statNums": {
-          "SEA_CREATURE_CHANCE": 0.08,
-          "FISHING_SPEED": 0.25
+          "FISHING_SPEED": 0.5,
+          "SEA_CREATURE_CHANCE": 0.05,
+          "TROPHY_CHANCE": 0.05
         }
       },
       "100": {
         "otherNums": [
-          15,
-          8,
-          75
+          10,
+          10,
+          50
         ],
         "statNums": {
-          "SEA_CREATURE_CHANCE": 8,
-          "FISHING_SPEED": 25
+          "FISHING_SPEED": 50,
+          "SEA_CREATURE_CHANCE": 5,
+          "TROPHY_CHANCE": 5
         }
       }
     }
@@ -6244,7 +6668,7 @@
     "UNCOMMON": {
       "1": {
         "otherNums": [
-          0.8
+          0.75
         ],
         "statNums": {
           "INTELLIGENCE": 1,
@@ -6253,7 +6677,7 @@
       },
       "100": {
         "otherNums": [
-          80
+          75
         ],
         "statNums": {
           "INTELLIGENCE": 100,
@@ -6264,7 +6688,7 @@
     "RARE": {
       "1": {
         "otherNums": [
-          0.8,
+          0.75,
           0.4
         ],
         "statNums": {
@@ -6274,7 +6698,7 @@
       },
       "100": {
         "otherNums": [
-          80,
+          75,
           40
         ],
         "statNums": {

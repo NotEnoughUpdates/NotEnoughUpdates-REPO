@@ -1,24 +1,22 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§fEnchanted Book",
-  "nbttag": "{ExtraAttributes:{enchantments:{syphon:1},id:\"SYPHON;1\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Drain I\",1:\"§7Heals for §a0.2% §7of your max health\",2:\"§7per §9100 ☠ Crit Damage §7you deal per\",3:\"§7hit, up to §91,000 ☠ Crit Damage§7.\",4:\"\",5:\"§7Use this on an item in an Anvil to\",6:\"§7apply it!\",7:\"\",8:\"§6Source:\",9:\"§aI-III: §7Enchantment Table\",10:\"§7Experiments\",11:\"\",12:\"§6Applied To:\",13:\"§7- §fSword\",14:\"§7- §fFishing Weapon\",15:\"§7- §fLongsword\",16:\"§7- §fGauntlet\",17:\"\",18:\"§6Conflicts:\",19:\"§7- §cLife Steal\",20:\"§7- §cMana Steal\",21:\"\",22:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
+  "nbttag": "{ExtraAttributes:{enchantments:{syphon:1},id:\"SYPHON;1\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Drain I\",1:\"§7Regen §4+0.1 Vitality §7every time you\",2:\"§7hit a mob.\",3:\"§8(0.25s Cooldown).\",4:\"\",5:\"§6Source:\",6:\"§aI-III: §7Enchantment Table\",7:\"§aI-V: §7Experiments\",8:\"§aIV-V: §7Bazaar\",9:\"§aV: §7Vargul\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fSword\",13:\"§7- §fLongsword\",14:\"§7- §fGauntlet\",15:\"\",16:\"§6Conflicts:\",17:\"§7- §cLife Steal\",18:\"§7- §cMana Steal\",19:\"\",20:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"}}",
   "damage": 0,
   "lore": [
     "§9Drain I",
-    "§7Heals for §a0.2% §7of your max health",
-    "§7per §9100 ☠ Crit Damage §7you deal per",
-    "§7hit, up to §91,000 ☠ Crit Damage§7.",
-    "",
-    "§7Use this on an item in an Anvil to",
-    "§7apply it!",
+    "§7Regen §4+0.1 Vitality §7every time you",
+    "§7hit a mob.",
+    "§8(0.25s Cooldown).",
     "",
     "§6Source:",
     "§aI-III: §7Enchantment Table",
-    "§7Experiments",
+    "§aI-V: §7Experiments",
+    "§aIV-V: §7Bazaar",
+    "§aV: §7Vargul",
     "",
     "§6Applied To:",
     "§7- §fSword",
-    "§7- §fFishing Weapon",
     "§7- §fLongsword",
     "§7- §fGauntlet",
     "",
@@ -31,7 +29,9 @@
   "internalname": "SYPHON;1",
   "clickcommand": "",
   "crafttext": "",
-  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
-  "infoType": "",
-  "info": []
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Drain"
+  ]
 }

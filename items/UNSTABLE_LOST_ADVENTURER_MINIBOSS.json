@@ -16,8 +16,7 @@
   "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixelskyblock.minecraft.wiki/w/Lost_Adventurer",
-    "https://wiki.hypixel.net/Lost_Adventurer"
+    "https://hypixelskyblock.minecraft.wiki/w/Lost_Adventurer"
   ],
   "recipes": [
     {
@@ -31,7 +30,10 @@
       "drops": [
         {
           "id": "UNSTABLE_FRAGMENT",
-          "chance": "x2-4"
+          "extra": [
+            "§eDrop Count: §7x2-4"
+          ],
+          "chance": "100%"
         },
         {
           "id": "BEATING_HEART",

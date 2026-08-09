@@ -16,8 +16,7 @@
   "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixelskyblock.minecraft.wiki/w/Crypt_Ghoul",
-    "https://wiki.hypixel.net/Crypt_Ghoul"
+    "https://hypixelskyblock.minecraft.wiki/w/Crypt_Ghoul"
   ],
   "recipes": [
     {
@@ -32,14 +31,17 @@
       "drops": [
         {
           "id": "ROTTEN_FLESH:1",
-          "chance": "x1-2"
+          "extra": [
+            "§eDrop Count: §7x1-2"
+          ],
+          "chance": "100%"
         },
         {
-          "id": "GHOUL;3",
+          "id": "GHOUL;3:1",
           "chance": "0.003%"
         },
         {
-          "id": "GHOUL;4",
+          "id": "GHOUL;4:1",
           "chance": "0.001%"
         }
       ]

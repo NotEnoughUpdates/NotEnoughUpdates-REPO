@@ -1,0 +1,47 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aLotusfish (Animal)",
+  "nbttag": "{ExtraAttributes:{id:\"LOTUSFISH_ANIMAL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"abb7d5f3-b486-3269-b4fd-fff42454fdf9\",Properties:{textures:[0:{Name:\"textures\",Signature:\"tu2hiD8aAGODWCuxEzTy93zDBzwVwoMKYcto+aYi5IVmvPOUwm0kd6H1pZNs1kWDEvZR6y5uXhqy1ewXyEdbCuUP6sWpmM0RqZJPXU3uw/h44/mvx3hQKi56BPttfoQqLvddtkPg9W/PtELu012YMUV2gmwneT/7h3Mn6fKg6ToEuwkEfdItsU8uvmZlnteC97lQcxOAT4PDikD9+RXDdy1WBSnxAsDWEyvY8K/wsuzakblGrOgv7GveUiHj7y/W4qe0mqcivG7eQ2ea8EG5umuwt80wHcFWS4PCEPaxkG2MXGSZmBOS0oa25Y24nNc4Vup7TK8CANTmYaf6H2AQDEjOYvw/coAxW6xlBRmutQUp4sWXoE964aO1vh2SvskaZ+vJLOOx7Zwl0e+Ol2kqyKa3+P/mj1FlAlFtGR4YM1WD7uQjTzDnN3Akeb2as+Qhb74L8jYNZbNayPX3GaASMOusXBX311u8gJGk7aJzXZQynOunV9qzaWtD9DUgEBFuOHoxQPPFPFWT2WhzHxcOsacbWWJwRwBQSryR+agSIPaqWylNOqteJQYe2816sx0iPW99PK/zV6edRqUXTH3P4R7+Wc92bfxMBOfn/I8q84x9Wuh12DJX9OSdsCQ9dkqytVFXFLiqwk/GfcdDVGn3p5jhMuHRCI0uRz5+hzhB7xo=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc3ODY1NjE5OTQ1OSwKICAicHJvZmlsZUlkIiA6ICIyYmQyZTAxNGI5YWE0YzRjYmRmMzdmZjc5MzE2NDE5MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBdXRvU2tpbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jNWMwMjRhZWVjMWM4ZGM5OGYyYjQyYWRkNWIwZjAyMDc4OGMzZjk4MGRmZjVlODYzNjM2NzYxZTYwYzVlZmZlIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Named by the first man to discover\",1:\"§7the island, this species is endemic to\",2:\"§7the Atoll.\",3:\"\",4:\"§7Mob Types: §9⚓ Aquatic§7, §a☮ Animal\",5:\"§c❤ Health§8: §c250\"],Name:\"§aLotusfish (Animal)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Named by the first man to discover",
+    "§7the island, this species is endemic to",
+    "§7the Atoll.",
+    "",
+    "§7Mob Types: §9⚓ Aquatic§7, §a☮ Animal",
+    "§c❤ Health§8: §c250"
+  ],
+  "internalname": "LOTUSFISH_ANIMAL",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Lotusfish"
+  ],
+  "recipes": [
+    {
+      "name": "§aLotusfish",
+      "render": "TropicalFish",
+      "panorama": "lotus_atoll",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "LOTUS:1",
+          "chance": "100%"
+        },
+        {
+          "id": "LOTUS_SILVER:1",
+          "chance": "0.1%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_LOTUS_TROPHY;1:1",
+          "extra": [
+            "§7 - Catch with a §bFishing Net§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

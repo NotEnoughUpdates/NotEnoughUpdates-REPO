@@ -15,8 +15,7 @@
   "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixelskyblock.minecraft.wiki/w/Bladesoul",
-    "https://wiki.hypixel.net/Bladesoul"
+    "https://hypixelskyblock.minecraft.wiki/w/Bladesoul"
   ],
   "x": -296,
   "y": 83,
@@ -35,11 +34,17 @@
       "drops": [
         {
           "id": "COAL",
-          "chance": "x20-35"
+          "chance": "100%",
+          "extra": [
+            "§eDrop Count: §7x20-35"
+          ]
         },
         {
           "id": "ENCHANTED_COAL:1",
-          "chance": "x0-2"
+          "chance": "100%",
+          "extra": [
+            "§eDrop Count: §7x0-2"
+          ]
         },
         {
           "id": "HALLOWED_SKULL:1",

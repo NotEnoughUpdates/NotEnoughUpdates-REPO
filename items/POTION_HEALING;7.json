@@ -1,18 +1,19 @@
 {
   "itemid": "minecraft:potion",
   "displayname": "§5Healing VII Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:6b,Amplifier:6b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§cHealing VII\",2:\"§7Instantly heals for §a+400§7.\",3:\"\",4:\"§5§lEPIC\"],Name:\"§5Healing VII Potion\"},ExtraAttributes:{potion_level:7,potion:\"healing\",effects:[0:{level:7,effect:\"healing\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_HEALING;7\"}}",
-  "damage": 5,
+  "nbttag": "{CustomPotionEffects:[0:{Ambient:0B,Amplifier:0B,Duration:1,Id:6B},1:{Ambient:0B,Amplifier:6B,Duration:20,Id:6B}],ExtraAttributes:{effects:[0:{duration_ticks:100,effect:\"healing\",level:7}],id:\"POTION_HEALING;7\",potion:\"healing\",potion_level:7,potion_type:\"POTION\"},HideFlags:254,ItemModel:\"minecraft:potion\",display:{Lore:[0:\"\",1:\"§cHealing VII §f(0:05)\",2:\"§7Heals for §a+35 §7every second.\",3:\"\",4:\"§5§lEPIC\"],Name:\"§5Healing VII Potion\"}}",
+  "damage": 0,
   "lore": [
     "",
-    "§cHealing VII",
-    "§7Instantly heals for §a+400§7.",
+    "§cHealing VII §f(0:05)",
+    "§7Heals for §a+35 §7every second.",
     "",
     "§5§lEPIC"
   ],
   "internalname": "POTION_HEALING;7",
-  "crafttext": "",
   "clickcommand": "viewpotion",
-  "modver": "",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "",
+  "info": []
 }

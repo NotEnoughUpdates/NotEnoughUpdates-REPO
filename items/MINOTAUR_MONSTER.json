@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§cMinotaur (Mythological Creature)",
-  "nbttag": "{ExtraAttributes:{id:\"MINOTAUR_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"0dfc49ee-32db-3a19-8dfc-49ee32dbfa19\",Properties:{textures:[0:{Name:\"textures\",Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzU5MTJkYmQ0MjBjMGYzNWVkYjQxOGFiNmRlOGQ2NTVkYTdkMzRjYzhjNzdiYmVmM2E5MTJiNWRhZjEzZThlYiJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7The Minotaur is a rare mob in the Mythological\",1:\"§7Ritual. It will attack at melee range, and can\",2:\"§7throw an axe at you, temporarily slowing down\",3:\"§7your healing speed. It has a special mechanic\",4:\"§7called Bleed that allows it to do more damage.\",5:\"§7It increases by 1 every time it hits you, and\",6:\"§7increases by 3 every time its axe hits you.\",7:\"\",8:\"§7Mob Types: §2✿ Mythological§7, §e✰ Humanoid\",9:\"§c❤ Health§8:\",10:\"§8[§aGriffin§8] §c60,000 ❤\",11:\"§8[§9Griffin§8/§5Griffin§8] §c625,000 ❤\",12:\"§8[§6Griffin§8] §c2,500,000 ❤\",13:\"\",14:\"§9§lRARE\"],Name:\"§cMinotaur (Mythological Creature)\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"MINOTAUR_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"0dfc49ee-32db-3a19-8dfc-49ee32dbfa19\",Properties:{textures:[0:{Name:\"textures\",Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzU5MTJkYmQ0MjBjMGYzNWVkYjQxOGFiNmRlOGQ2NTVkYTdkMzRjYzhjNzdiYmVmM2E5MTJiNWRhZjEzZThlYiJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7The Minotaur is a rare mob in the Mythological\",1:\"§7Ritual. It will attack at melee range, and can\",2:\"§7throw an axe at you, temporarily slowing down\",3:\"§7your healing speed. It has a special mechanic\",4:\"§7called Bleed that allows it to do more damage.\",5:\"§7It increases by 1 every time it hits you, and\",6:\"§7increases by 3 every time its axe hits you.\",7:\"\",8:\"§7Mob Types: §2✿ Mythological§7, §e✰ Humanoid\",9:\"§c❤ Health§8:\",10:\"§8[§5Griffin§8] §c1,500,000 ❤\",11:\"§8[§6Griffin§8] §c8,000,000 ❤\",12:\"§8[§dGriffin§8] §c15,500,000 ❤\",13:\"\",14:\"§9§lRARE\"],Name:\"§cMinotaur (Mythological Creature)\"}}",
   "damage": 3,
   "lore": [
     "§7The Minotaur is a rare mob in the Mythological",
@@ -14,9 +14,9 @@
     "",
     "§7Mob Types: §2✿ Mythological§7, §e✰ Humanoid",
     "§c❤ Health§8:",
-    "§8[§aGriffin§8] §c60,000 ❤",
-    "§8[§9Griffin§8/§5Griffin§8] §c625,000 ❤",
-    "§8[§6Griffin§8] §c2,500,000 ❤",
+    "§8[§5Griffin§8] §c1,500,000 ❤",
+    "§8[§6Griffin§8] §c8,000,000 ❤",
+    "§8[§dGriffin§8] §c15,500,000 ❤",
     "",
     "§9§lRARE"
   ],
@@ -26,8 +26,7 @@
   "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixelskyblock.minecraft.wiki/w/Minotaur",
-    "https://wiki.hypixel.net/Minotaur"
+    "https://hypixelskyblock.minecraft.wiki/w/Minotaur"
   ],
   "recipes": [
     {
@@ -35,19 +34,31 @@
       "coins": 150,
       "xp": 5,
       "combat_xp": 30,
-      "name": "§cMinotaur",
+      "name": "§cVenerable Minotaur",
       "render": "@neurepo:mobs/minotaur.json",
       "panorama": "hub",
       "type": "drops",
       "extra": [
         "§cRequirements:",
-        "§7- §aGriffin",
-        "§7Chance: 33.33%"
+        "§7- §5Griffin",
+        "§7Chance: 7.14%"
       ],
       "drops": [
         {
-          "id": "ANCIENT_CLAW:2",
+          "id": "ANCIENT_CLAW:10",
           "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_GOLD:1",
+          "chance": "50%"
+        },
+        {
+          "id": "DAEDALUS_STICK:1",
+          "chance": "0.04%"
+        },
+        {
+          "id": "DYE_MYTHOLOGICAL",
+          "chance": "0.0002%"
         }
       ]
     },
@@ -56,21 +67,31 @@
       "coins": 500,
       "xp": 8,
       "combat_xp": 60,
-      "name": "§cStalwart Minotaur",
+      "name": "§cExalted Minotaur",
       "render": "@neurepo:mobs/minotaur.json",
       "panorama": "hub",
       "extra": [
         "§cRequirements:",
-        "§7- §9Griffin",
-        "§7Chance: 33.33%",
-        "§7- §5Griffin",
-        "§7Chance: 23.81%"
+        "§7- §6Griffin",
+        "§7Chance: 6.96%"
       ],
       "type": "drops",
       "drops": [
         {
-          "id": "ANCIENT_CLAW:3",
+          "id": "ANCIENT_CLAW:12",
           "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_GOLD:1",
+          "chance": "50%"
+        },
+        {
+          "id": "DAEDALUS_STICK:1",
+          "chance": "0.06%"
+        },
+        {
+          "id": "DYE_MYTHOLOGICAL",
+          "chance": "0.0002%"
         }
       ]
     },
@@ -79,39 +100,31 @@
       "coins": 2000,
       "xp": 15,
       "combat_xp": 150,
-      "name": "§cExalted Minotaur",
+      "name": "§cEmpyrean Minotaur",
       "render": "@neurepo:mobs/minotaur.json",
       "panorama": "hub",
       "extra": [
         "§cRequirements:",
-        "§7- §6Griffin",
-        "§7Chance: 24.69%"
+        "§7- §dGriffin",
+        "§7Chance: 6.92%"
       ],
       "type": "drops",
       "drops": [
         {
-          "id": "ANCIENT_CLAW:10",
+          "id": "ANCIENT_CLAW:14",
           "chance": "100%"
         },
         {
-          "id": "ENCHANTED_GOLD:2",
-          "chance": "100%"
+          "id": "ENCHANTED_GOLD:1",
+          "chance": "50%"
         },
         {
-          "id": "DWARF_TURTLE_SHELMET",
-          "chance": "0.25%"
-        },
-        {
-          "id": "ANTIQUE_REMEDIES",
-          "chance": "0.25%"
-        },
-        {
-          "id": "CROCHET_TIGER_PLUSHIE",
-          "chance": "0.25%"
-        },
-        {
-          "id": "DAEDALUS_STICK",
+          "id": "DAEDALUS_STICK:1",
           "chance": "0.08%"
+        },
+        {
+          "id": "DYE_MYTHOLOGICAL",
+          "chance": "0.0002%"
         }
       ]
     }

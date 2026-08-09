@@ -12,11 +12,19 @@
   "modver": "Firmament 3.1.0-dev+mc1.21.5+g58be5f6",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixelskyblock.minecraft.wiki/w/Rosemary",
-    "https://wiki.hypixel.net/Rosemary"
+    "https://hypixelskyblock.minecraft.wiki/w/Rosemary"
   ],
   "island": "foraging_2",
   "x": -704,
   "y": 162,
-  "z": 3
+  "z": 3,
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "ESSENCE_FOREST:250"
+      ],
+      "result": "HUNTING_WISDOM_BOOSTER_COMMON"
+    }
+  ]
 }

@@ -1,0 +1,53 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			effects: [
+				{
+					duration_ticks: 100,
+					effect: "healing",
+					level: 6
+				}
+			],
+			id: "POTION",
+			potion: "healing",
+			potion_level: 6,
+			potion_type: "POTION"
+		},
+		"minecraft:potion_contents": {
+			custom_effects: [
+				{
+					amplifier: 5b,
+					duration: 20,
+					id: "minecraft:instant_health",
+					show_icon: 1b
+				}
+			],
+			potion: "minecraft:healing"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:painting/variant",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:enchantments",
+				"minecraft:stored_enchantments",
+				"minecraft:trim",
+				"minecraft:charged_projectiles",
+				"minecraft:jukebox_playable",
+				"minecraft:map_id",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:potion_contents",
+				"minecraft:dyed_color"
+			]
+		},
+		"minecraft:tooltip_style": "hypixel_skyblock:common"
+	},
+	count: 1,
+	id: "minecraft:potion",
+	source: {
+		dataVersion: 4790,
+		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g00fd3323"
+	}
+}

@@ -108,7 +108,7 @@
     "internalName": "BLESSED_FRUIT",
     "reforgeName": "Blessed",
     "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "AXE/HOE",
+    "itemTypes": "FARMING_TOOL",
     "requiredRarities": [
       "COMMON",
       "UNCOMMON",
@@ -126,12 +126,11 @@
       "MYTHIC": 10000
     },
     "reforgeAbility": {
-      "COMMON": "Grants §6+5☘ Farming Fortune §7and §3+1☯ Farming Wisdom§7.",
-      "UNCOMMON": "Grants §6+7☘ Farming Fortune §7and §3+2☯ Farming Wisdom§7.",
-      "RARE": "Grants §6+9☘ Farming Fortune §7and §3+3☯ Farming Wisdom§7.",
-      "EPIC": "Grants §6+13☘ Farming Fortune §7and §3+4☯ Farming Wisdom§7.",
-      "LEGENDARY": "Grants §6+16☘ Farming Fortune §7and §3+5☯ Farming Wisdom§7.",
-      "MYTHIC": "Grants §6+20☘ Farming Fortune §7and §3+6☯ Farming Wisdom§7."
+      "COMMON": "§7Grants a §a0.1% §7chance to drop an §7enchanted item when mining §6Crops§7.",
+      "UNCOMMON": "§7Grants a §a0.13% §7chance to drop an §7enchanted item when mining §6Crops§7.",
+      "RARE": "§7Grants a §a0.16% §7chance to drop an §7enchanted item when mining §6Crops§7.",
+      "EPIC": "§7Grants a §a0.19% §7chance to drop an §7enchanted item when mining §6Crops§7.",
+      "LEGENDARY": "§7Grants a §a0.22% §7chance to drop an §7enchanted item when mining §6Crops§7."
     },
     "reforgeStats": {
       "COMMON": {
@@ -163,6 +162,55 @@
         "speed": 20,
         "farming_fortune": 20,
         "farming_wisdom": 6
+      }
+    }
+  },
+  "BLOOMING_THORNS": {
+    "internalName": "BLOOMING_THORNS",
+    "reforgeName": "Thorny",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "EQUIPMENT",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts": {
+      "COMMON": 20000,
+      "UNCOMMON": 40000,
+      "RARE": 80000,
+      "EPIC": 150000,
+      "LEGENDARY": 300000,
+      "MYTHIC": 600000
+    },
+    "reforgeAbility": "§eOverbloom §7per tier of §9Thorns §7on all of your armor pieces.",
+    "reforgeStats": {
+      "COMMON": {
+        "overbloom": 0.25,
+        "farming_fortune": 2
+      },
+      "UNCOMMON": {
+        "overbloom": 0.5,
+        "farming_fortune": 4
+      },
+      "RARE": {
+        "overbloom": 0.75,
+        "farming_fortune": 6
+      },
+      "EPIC": {
+        "overbloom": 1,
+        "farming_fortune": 8
+      },
+      "LEGENDARY": {
+        "overbloom": 1.25,
+        "farming_fortune": 10
+      },
+      "MYTHIC": {
+        "overbloom": 1.5,
+        "farming_fortune": 12
       }
     }
   },
@@ -429,33 +477,34 @@
       "MYTHIC": 600000,
       "DIVINE": 800000
     },
+    "reforgeAbility": "§7Grants §a+25❈ Defense §7against §3Sea Creatures§7.",
     "reforgeStats": {
       "COMMON": {
-        "fishing_speed": 1,
+        "fishing_speed": 0.5,
         "defense": 3
       },
       "UNCOMMON": {
-        "fishing_speed": 2,
+        "fishing_speed": 1,
         "defense": 5
       },
       "RARE": {
-        "fishing_speed": 3,
+        "fishing_speed": 1.5,
         "defense": 7
       },
       "EPIC": {
-        "fishing_speed": 5,
+        "fishing_speed": 2.5,
         "defense": 10
       },
       "LEGENDARY": {
-        "fishing_speed": 7,
+        "fishing_speed": 3.5,
         "defense": 13
       },
       "MYTHIC": {
-        "fishing_speed": 9,
+        "fishing_speed": 4.5,
         "defense": 16
       },
       "DIVINE": {
-        "fishing_speed": 9,
+        "fishing_speed": 4.5,
         "defense": 16
       }
     }
@@ -1211,6 +1260,46 @@
       }
     }
   },
+  "EXTREMELY_MILD_ADHESIVE": {
+    "internalName": "EXTREMELY_MILD_ADHESIVE",
+    "reforgeName": "Sticky",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "FISHING_NET",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "UNCOMMON": 10000,
+      "RARE": 25000,
+      "EPIC": 100000,
+      "LEGENDARY": 250000,
+      "MYTHIC": 500000
+    },
+    "reforgeAbility": "§7Grants §d+2.5 Hunting Fortune §7on §9Water Shards§7.",
+    "reforgeStats": {
+      "UNCOMMON": {
+        "pull": 5
+      },
+      "RARE": {
+        "pull": 7.5
+      },
+      "EPIC": {
+        "pull": 10
+      },
+      "LEGENDARY": {
+        "pull": 15
+      },
+      "MYTHIC": {
+        "pull": 20
+      }
+    }
+  },
   "FLOWERING_BOUQUET": {
     "internalName": "FLOWERING_BOUQUET",
     "reforgeName": "Blooming",
@@ -1543,7 +1632,7 @@
     "internalName": "GOLDEN_BALL",
     "reforgeName": "Bountiful",
     "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "AXE/HOE",
+    "itemTypes": "FARMING_TOOL",
     "requiredRarities": [
       "COMMON",
       "UNCOMMON",
@@ -1560,14 +1649,7 @@
       "LEGENDARY": 300000,
       "MYTHIC": 600000
     },
-    "reforgeAbility": {
-      "COMMON": "§7Grants §a+1 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. Grants §6+0.2 coins §7per crop.",
-      "UNCOMMON": "§7Grants §a+2 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. Grants §6+0.2 coins §7per crop.",
-      "RARE": "§7Grants §a+3 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. Grants §6+0.2 coins §7per crop.",
-      "EPIC": "§7Grants §a+5 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. Grants §6+0.2 coins §7per crop.",
-      "LEGENDARY": "§7Grants §a+7 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. Grants §6+0.2 coins §7per crop.",
-      "MYTHIC": "§7Grants §a+10 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. Grants §6+0.2 coins §7per crop."
-    },
+    "reforgeAbility": "§7Grants §6+0.2 coins §7per crop.",
     "reforgeStats": {
       "COMMON": {
         "speed": 1,
@@ -1640,6 +1722,50 @@
       "MYTHIC": {
         "sea_creature_chance": 7,
         "strength": 12
+      }
+    }
+  },
+  "HASHBROWN": {
+    "internalName": "HASHBROWN",
+    "reforgeName": "Deep Fried",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "FARMING_TOOL",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY"
+    ],
+    "reforgeCosts": {
+      "COMMON": 20000,
+      "UNCOMMON": 40000,
+      "RARE": 80000,
+      "EPIC": 150000,
+      "LEGENDARY": 300000
+    },
+    "reforgeAbility": {
+      "COMMON": "§7Increases the odds of finding §2Seasonings by §a+5%§7.",
+      "UNCOMMON": "§7Increases the odds of finding §2Seasonings by §a+10%§7.",
+      "RARE": "§7Increases the odds of finding §2Seasonings by §a+15%§7.",
+      "EPIC": "§7Increases the odds of finding §2Seasonings by §a+20%§7.",
+      "LEGENDARY": "§7Increases the odds of finding §2Seasonings by §a+25%§7."
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "farming_fortune": 3
+      },
+      "UNCOMMON": {
+        "farming_fortune": 6
+      },
+      "RARE": {
+        "farming_fortune": 10
+      },
+      "EPIC": {
+        "farming_fortune": 15
+      },
+      "LEGENDARY": {
+        "farming_fortune": 20
       }
     }
   },
@@ -1905,47 +2031,37 @@
     "internalName": "LARGE_WALNUT",
     "reforgeName": "Earthy",
     "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "AXE",
+    "itemTypes": "FARMING_TOOL",
     "requiredRarities": [
       "COMMON",
       "UNCOMMON",
       "RARE",
       "EPIC",
-      "LEGENDARY",
-      "MYTHIC"
+      "LEGENDARY"
     ],
     "reforgeCosts": {
       "COMMON": 5000,
       "UNCOMMON": 10000,
       "RARE": 20000,
       "EPIC": 50000,
-      "LEGENDARY": 100000,
-      "MYTHIC": 200000
+      "LEGENDARY": 100000
     },
+    "reforgeAbility": "§7Earn §2+5% Sowdust §7from farming.",
     "reforgeStats": {
       "COMMON": {
-        "speed": 1,
-        "farming_fortune": 1
+        "farming_fortune": 5
       },
       "UNCOMMON": {
-        "speed": 1,
-        "farming_fortune": 4
-      },
-      "RARE": {
-        "speed": 1,
-        "farming_fortune": 6
-      },
-      "EPIC": {
-        "speed": 1,
-        "farming_fortune": 8
-      },
-      "LEGENDARY": {
-        "speed": 1,
         "farming_fortune": 10
       },
-      "MYTHIC": {
-        "speed": 1,
-        "farming_fortune": 12
+      "RARE": {
+        "farming_fortune": 15
+      },
+      "EPIC": {
+        "farming_fortune": 20
+      },
+      "LEGENDARY": {
+        "farming_fortune": 25
       }
     }
   },
@@ -2394,6 +2510,72 @@
       }
     }
   },
+  "MORNING_DEW": {
+    "internalName": "MORNING_DEW",
+    "reforgeName": "Majestic",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": {
+      "internalName": [
+        "SAFARI_BELT"
+      ]
+    },
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 5000,
+      "UNCOMMON": 25000,
+      "RARE": 100000,
+      "EPIC": 500000,
+      "LEGENDARY": 1000000,
+      "MYTHIC": 2000000
+    },
+    "reforgeAbility": "§7Grants §f+50 Speed §7while in the §2Critter Safari§7.",
+    "reforgeStats": {
+      "COMMON": {
+        "hunting_wisdom": 0.5,
+        "sweep": 0.5,
+        "foraging_fortune": 2,
+        "hunting_fortune": 0.5
+      },
+      "UNCOMMON": {
+        "hunting_wisdom": 1,
+        "sweep": 1,
+        "foraging_fortune": 4,
+        "hunting_fortune": 1
+      },
+      "RARE": {
+        "hunting_wisdom": 1.5,
+        "sweep": 1.5,
+        "foraging_fortune": 6,
+        "hunting_fortune": 1.5
+      },
+      "EPIC": {
+        "hunting_wisdom": 2,
+        "sweep": 2,
+        "foraging_fortune": 8,
+        "hunting_fortune": 2
+      },
+      "LEGENDARY": {
+        "hunting_wisdom": 3,
+        "sweep": 3,
+        "foraging_fortune": 12,
+        "hunting_fortune": 3
+      },
+      "MYTHIC": {
+        "hunting_wisdom": 4,
+        "sweep": 4,
+        "foraging_fortune": 16,
+        "hunting_fortune": 4
+      }
+    }
+  },
   "NECROMANCER_BROOCH": {
     "internalName": "NECROMANCER_BROOCH",
     "reforgeName": "Necrotic",
@@ -2554,6 +2736,48 @@
       }
     }
   },
+  "OVERPRICED_DRINK": {
+    "internalName": "OVERPRICED_DRINK",
+    "reforgeName": "Overpriced",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "FARMING_TOOL",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY"
+    ],
+    "reforgeCosts": {
+      "COMMON": 20000,
+      "UNCOMMON": 40000,
+      "RARE": 80000,
+      "EPIC": 150000,
+      "LEGENDARY": 300000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "farming_fortune": 5,
+        "overbloom": 1
+      },
+      "UNCOMMON": {
+        "farming_fortune": 10,
+        "overbloom": 2
+      },
+      "RARE": {
+        "farming_fortune": 15,
+        "overbloom": 3
+      },
+      "EPIC": {
+        "farming_fortune": 20,
+        "overbloom": 5
+      },
+      "LEGENDARY": {
+        "farming_fortune": 25,
+        "overbloom": 7
+      }
+    }
+  },
   "OVERFLOWING_TRASH_CAN": {
     "internalName": "OVERFLOWING_TRASH_CAN",
     "reforgeName": "Trashy",
@@ -2583,28 +2807,28 @@
         "fishing_speed": 1
       },
       "UNCOMMON": {
-        "sea_creature_chance": 0.5,
+        "sea_creature_chance": 1,
         "fishing_speed": 2
       },
       "RARE": {
-        "sea_creature_chance": 1,
+        "sea_creature_chance": 1.5,
         "fishing_speed": 3
       },
       "EPIC": {
-        "sea_creature_chance": 1.5,
-        "fishing_speed": 5
+        "sea_creature_chance": 2,
+        "fishing_speed": 4
       },
       "LEGENDARY": {
-        "sea_creature_chance": 2,
-        "fishing_speed": 7
+        "sea_creature_chance": 3,
+        "fishing_speed": 6
       },
       "MYTHIC": {
-        "sea_creature_chance": 2.5,
-        "fishing_speed": 9
+        "sea_creature_chance": 4,
+        "fishing_speed": 8
       },
       "DIVINE": {
-        "sea_creature_chance": 2.5,
-        "fishing_speed": 9
+        "sea_creature_chance": 4,
+        "fishing_speed": 8
       }
     }
   },

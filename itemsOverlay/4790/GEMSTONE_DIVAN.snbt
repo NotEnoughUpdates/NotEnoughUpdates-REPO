@@ -1,0 +1,45 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "GEMSTONE_DIVAN"
+		},
+		"minecraft:profile": {
+			id: [I;
+				-336131328,
+				-164613478,
+				-1623658628,
+				-1441307294
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "EI55q3+SGvgbRd3Sr92Z6CL/2YKq/x+h4E/QGKMAyYq4GlJowRCubP6D4ywh+9inD9djj4oBIQnYqW4OhSvmyYfHAk4Cw3QitV+pEKvMmX1XxoouqGemW0oru9jOWlx0j074JQ+VpXVg8EMw+mxbIuuS4qXCLoew4m+gZcuta7qZWfT1LU0mgAZ5nHe1khVmfiY35LW+a+X7fn73M3sM/YwW+tBi7Wx897IgXoO57VqaPAhvdqZsuwrl4a4+hoK+3ly4eqkXV8xH64MnIRd3sh6/ZOr7t+8paRlx3SdCkeZgQMIJXZHiKZzo4/EpXAFZdEdh9ciTOTfFmcGTlwp7Nut4vLnkN9KV/RXD+eDtjIJ0Ls7wO9GI9HSniJ1z07PGaIQ4QCMP31AaDfA05w/XOLLlPNjnxRflQZWZ08DOxXXzSayNxTIYIijS/xQTuzDlmiqPe5+qZOcw/FHjRoqkMPiBhKEmcsFrKpfmD2xYF4EcpIrhUw9Tz8TlATbmhfA8f4+N0ZERWOKzNFADRk+ZSqCt2BZMRMT4+ONmGEWlfiA6RyLq5OpX2LMareFfIPSqS+TIuxwX3nBOxbSirHVeu96KzXkQQ9cEJyViRmdUQZCiEy6HmYLWzO7s68As7vvSOvQcrNnG3vj02K2wkjHMAcWlYzJsAyKdWajU1hZfbsM=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTcxODMzNTI4NjE3NiwKICAicHJvZmlsZUlkIiA6ICJlMzcxMWU2Y2E0ZmY0NzA4YjY5ZjhiNGZlYzNhZjdhMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNckJ1cnN0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM5MTc0NThiYjg0NGE4YjMzMDcxMDIwN2YzMzM1MTljYjIzMTk5N2M2YTc3Mjk5OGZkZjhlZWRhOWIzMmFhNyIKICAgIH0KICB9Cn0="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:dyed_color",
+				"minecraft:charged_projectiles"
+			]
+		},
+		"minecraft:tooltip_style": "hypixel_skyblock:very_special"
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4790,
+		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g00fd3323"
+	}
+}

@@ -19,7 +19,10 @@
     "kuudra": "Kuudra's Hollow",
     "mineshaft": "Glacite Mineshafts",
     "fishing_1": "Backwater Bayou",
-    "foraging_2": "Galatea"
+    "foraging_2": "Moonglade Marsh",
+    "lotus_atoll": "Lotus Atoll",
+    "foraging_3": "Torrhus Canyon",
+    "safari": "Safari"
   },
   "teleporters": [
     {
@@ -154,6 +157,20 @@
       "x": 43,
       "y": 152,
       "z": 15
+    },
+    {
+      "from": "foraging_2",
+      "to": "foraging_3",
+      "x": -729,
+      "y": 97,
+      "z": 83
+    },
+    {
+      "from": "foraging_3",
+      "to": "foraging_2",
+      "x": -720,
+      "y": 94,
+      "z": 141
     }
   ],
   "island_warps": [
@@ -466,7 +483,10 @@
       "mode": "foraging_2",
       "x": -548,
       "y": 109,
-      "z": -22
+      "z": -22,
+      "aliases": [
+        "moonglade"
+      ]
     },
     {
       "warp": "murkwater",
@@ -481,6 +501,30 @@
       "x": 29,
       "y": 73,
       "z": -42
+    },
+    {
+      "warp": "lotus",
+      "mode": "lotus_atoll",
+      "x": -16,
+      "y": 71,
+      "z": 1,
+      "aliases": [
+        "atoll"
+      ]
+    },
+    {
+      "warp": "torrhus",
+      "mode": "foraging_3",
+      "x": -720,
+      "y": 94,
+      "z": 141
+    },
+    {
+      "warp": "spring",
+      "mode": "foraging_3",
+      "x": -635,
+      "y": 161,
+      "z": 162
     }
   ]
 }

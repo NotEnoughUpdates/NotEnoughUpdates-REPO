@@ -15,8 +15,7 @@
   "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixelskyblock.minecraft.wiki/w/Kada_Knight",
-    "https://wiki.hypixel.net/Kada_Knight"
+    "https://hypixelskyblock.minecraft.wiki/w/Kada_Knight"
   ],
   "recipes": [
     {
@@ -32,8 +31,10 @@
       "drops": [
         {
           "id": "ROTTEN_FLESH",
-          "extra": [],
-          "chance": "x1-2"
+          "extra": [
+            "§eDrop Count: §7x1-2"
+          ],
+          "chance": "100%"
         },
         {
           "id": "FEATHER:1",

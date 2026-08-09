@@ -1,0 +1,24 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			enchantments: {
+				rejuvenate: 3
+			},
+			id: "REJUVENATE;3"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:attribute_modifiers",
+				"minecraft:stored_enchantments",
+				"minecraft:dyed_color"
+			]
+		},
+		"minecraft:tooltip_style": "hypixel_skyblock:common"
+	},
+	count: 1,
+	id: "minecraft:enchanted_book",
+	source: {
+		dataVersion: 4790,
+		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g00fd3323"
+	}
+}

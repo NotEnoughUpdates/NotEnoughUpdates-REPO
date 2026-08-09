@@ -1,0 +1,48 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			attributes: {
+				witchs_fortune: 1
+			},
+			id: "ATTRIBUTE_SHARD"
+		},
+		"minecraft:profile": {
+			id: [I;
+				-800582843,
+				2098017255,
+				-1765770779,
+				1835565174
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "w+9zs5C9GbCt2zXZleprZ5Tdj0w9tyqVbGUZdDZtW4Fertf5/SbqPx6I3D1CerVSM1ctJPH1baj2v3F83SsjfoRPT6LQI8K4D8jakkgxfklShZ9ILgn3Qc8H7vZavjYmke/a63/3be43qR3VyjzvWNuVrDeTn4wMATORMBABXN+YDaKGo/XyqKXaYkY6BCNbcBr0LQ87hn84ENjR8JEF9AGWvJWyJcyrVkESpQqfnj7QS9OGPGb3Q5HBb+QeQu5mmLPvxImIuJBnljZWSjYlG3rYOO4KZ3vimcqtY5nhH2lx7qMRdJrERH4Uy5pCsjd6nDgMBhx55VlIKlQsXW2IeDgJnGMc0/2tsHPWREOZGmBjordW0Yp/7Rnbt9CvIeIQGbRnbf4oYSXgywRddz1x0aWwhHYDDz0nxkg5RQqgi49IwceQ36OdpCq9s21gDyU1He50uQieoB1K3bSxTHFoLdh/Qm17+lJ/isDQJLn2snw1ZuFBncZ2y1pV4ADAXErt/qdr4kOGz+JKqMr50jj6ke9Yq/i4p957QIGC9J80SWlmLXMccP5oR25zhvPcNMz2tv1jXYuul9z1c/cFYL0BMmPSkzr9clwZa3jL9m2Nto2iYHo4ImImLRcODKMFop7ecuYfiKwC2PW2ZdSLOeyTUzfMMl7gZJIIQ+fB+shmj4U=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTY1ODA3MzI4MDM2MywKICAicHJvZmlsZUlkIiA6ICI1MjhlYzVmMmEzZmM0MDA0YjYwY2IwOTA5Y2JiMjdjYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJQdWxpenppIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZjZTY2MDQxNTdmYzRhYjU1OTFlNGJjZjUwN2E3NDk5MThlZTljNDFlMzU3ZDQ3Mzc2ZTBlZTczNDIwNzRjOTAiCiAgICB9CiAgfQp9"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:dyed_color",
+				"minecraft:charged_projectiles"
+			]
+		},
+		"minecraft:tooltip_style": "hypixel_skyblock:uncommon"
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4790,
+		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g00fd3323"
+	}
+}

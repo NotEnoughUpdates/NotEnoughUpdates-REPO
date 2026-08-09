@@ -1,0 +1,31 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "HONEYCOMB_TALISMAN"
+		},
+		"minecraft:item_model": "hypixel_skyblock:item/island_relevant/foraging_3/accessories/honey/honeycomb_talisman",
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:dyed_color",
+				"minecraft:charged_projectiles"
+			]
+		},
+		"minecraft:tooltip_style": "hypixel_skyblock:common"
+	},
+	count: 1,
+	id: "minecraft:paper",
+	source: {
+		dataVersion: 4903,
+		modVersion: "Firmament nogitversion+mc26.2"
+	}
+}

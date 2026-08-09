@@ -1,0 +1,33 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9The Lotus Eater (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"LOTUS_EATER_NPC\"},HideFlags:254,ItemModel:\"minecraft:frog_spawn_egg\",display:{Lore:[0:\"§7Appears after throwing 4 §aFrogcoin §7in\",1:\"§7to the water in the §2Lotus Eater's Cave§7.\",2:\"\",3:\"§2Ribbit!\"],Name:\"§9The Lotus Eater (NPC)\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Appears after throwing 4 §aFrogcoin §7in",
+    "§7to the water in the §2Lotus Eater's Cave§7.",
+    "",
+    "§2Ribbit!"
+  ],
+  "internalname": "LOTUS_EATER_NPC",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+gf6d72409",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/The_Lotus_Eater"
+  ],
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "LOTUS_DIAMOND:1"
+      ],
+      "result": "GENERATOR_UPGRADE_STONE_LILY_PAD_12:1"
+    }
+  ],
+  "island": "lotus_atoll",
+  "x": 99,
+  "y": 68,
+  "z": -6
+}

@@ -15,8 +15,7 @@
   "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixelskyblock.minecraft.wiki/w/Rain_Slime",
-    "https://wiki.hypixel.net/Rain_Slime"
+    "https://hypixelskyblock.minecraft.wiki/w/Rain_Slime"
   ],
   "recipes": [
     {
@@ -31,7 +30,10 @@
       "drops": [
         {
           "id": "SLIME_BALL",
-          "chance": "x3-5"
+          "extra": [
+            "§eDrop Count: §7x3-5"
+          ],
+          "chance": "100%"
         },
         {
           "id": "ATTRIBUTE_SHARD_MANA_STEAL;1:1",

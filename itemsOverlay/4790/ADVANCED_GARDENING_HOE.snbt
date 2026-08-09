@@ -1,0 +1,37 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			enchantments: {
+				replenish: 1
+			},
+			id: "ADVANCED_GARDENING_HOE"
+		},
+		"minecraft:enchantment_glint_override": 1b,
+		"minecraft:item_model": "hypixel_skyblock:item/island_relevant/garden/tools/advanced_gardening_hoe",
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:dyed_color",
+				"minecraft:charged_projectiles"
+			]
+		},
+		"minecraft:tooltip_style": "hypixel_skyblock:rare",
+		"minecraft:unbreakable": {
+		}
+	},
+	count: 1,
+	id: "minecraft:iron_hoe",
+	source: {
+		dataVersion: 4790,
+		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g02e85d46"
+	}
+}

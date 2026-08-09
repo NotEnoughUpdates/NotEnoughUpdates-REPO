@@ -1,0 +1,51 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			effects: [
+				{
+					duration_ticks: 72000,
+					effect: "stinky_cheese",
+					level: 1
+				}
+			],
+			id: "POTION",
+			potion: "stinky_cheese",
+			potion_level: 1,
+			potion_type: "POTION",
+			splash: 0b
+		},
+		"minecraft:potion_contents": {
+			custom_effects: [
+				{
+					duration: 20,
+					id: "minecraft:fire_resistance",
+					show_icon: 1b
+				}
+			],
+			potion: "minecraft:fire_resistance"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:dyed_color",
+				"minecraft:charged_projectiles"
+			]
+		},
+		"minecraft:tooltip_style": "hypixel_skyblock:common"
+	},
+	count: 1,
+	id: "minecraft:potion",
+	source: {
+		dataVersion: 4790,
+		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g00fd3323"
+	}
+}

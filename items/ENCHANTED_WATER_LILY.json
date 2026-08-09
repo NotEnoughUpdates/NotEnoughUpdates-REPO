@@ -14,18 +14,22 @@
   "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Lily_Pad",
-    "https://wiki.hypixel.net/Enchanted_Lily_Pad"
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Lily_Pad"
   ],
-  "recipe": {
-    "A1": "",
-    "A2": "WATER_LILY:32",
-    "A3": "",
-    "B1": "WATER_LILY:32",
-    "B2": "WATER_LILY:32",
-    "B3": "WATER_LILY:32",
-    "C1": "",
-    "C2": "WATER_LILY:32",
-    "C3": ""
-  }
+  "recipes": [
+    {
+      "A1": "",
+      "A2": "WATER_LILY:32",
+      "A3": "",
+      "B1": "WATER_LILY:32",
+      "B2": "WATER_LILY:32",
+      "B3": "WATER_LILY:32",
+      "C1": "",
+      "C2": "WATER_LILY:32",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "ENCHANTED_WATER_LILY"
+    }
+  ]
 }

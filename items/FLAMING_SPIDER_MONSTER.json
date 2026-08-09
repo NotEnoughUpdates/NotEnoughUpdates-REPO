@@ -14,8 +14,7 @@
   "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixelskyblock.minecraft.wiki/w/Flaming_Spider",
-    "https://wiki.hypixel.net/Flaming_Spider"
+    "https://hypixelskyblock.minecraft.wiki/w/Flaming_Spider"
   ],
   "recipes": [
     {
@@ -29,11 +28,14 @@
       "type": "drops",
       "drops": [
         {
-          "id": "STRING",
-          "chance": "x1-2"
+          "id": "STRING:1",
+          "extra": [
+            "§eDrop Count: §7x1-2"
+          ],
+          "chance": "100%"
         },
         {
-          "id": "BURNING_EYE",
+          "id": "BURNING_EYE:1",
           "chance": "20%"
         },
         {

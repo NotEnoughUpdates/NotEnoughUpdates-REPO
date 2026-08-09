@@ -1,0 +1,47 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aSeashine (Animal)",
+  "nbttag": "{ExtraAttributes:{id:\"SEASHINE_ANIMAL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"3921c138-cc40-3714-9a95-ef3508db50e1\",Properties:{textures:[0:{Name:\"textures\",Signature:\"eKcKf7Rq7+36sRJ+vq5kp5G0lMbc9DPlB7SgL7jl9Chzs3k0rtpYDgblkgx7Uvr3fPNWAb827n83xka8A72zH57Yy/6TZfMsc3qS3/Ys8Gyh++PUbUg81JqzjRcmFntdk3K0jk47PwmYPPUTNwy4ibGG31A/N7olsoKUj1z7E/Qu2yZkEan7ZD5hosCNlnihV+VHhnOJixYPm7iGtI+vk4Y34Us4745z4oZ1xHc7VFRp44Rcw21iBIOCFCx7zvZbyJMtT7BSnu8dfCsKDnEddfP0SRzOLBAq5gxzooXZ3zMOC+zZaqJV9LOwYEvyDgJEyju9yanEbFhA87stYwwLetd9OPWL3AjqBWY8mWTaWakHdPmgSvNY4VpoE+E1Od7FXJAbWJ/2IOoXYP4IQPEMZHyopeCbBBlhV1A8RBqDAJOx88RuKVcG5KKT7qn6bVtzx/ndQL2YaHk8Smf0FxftFpXc38ax/h8RfCqFjwD1/uYi/hRpsUMVyeN0yyk4t9IqCEvkfWTlGkC7kbemS2WxHys9MgfT0AYUpyYCREh5m6VQd8h6ore/Nx8CRd46qcx6KPibmIYS3npI+S75qbStuh83lKZisP+Q1p6hAnRpKEmEuQjw7uxdtn30HmY5+ieMu+iUo2zrblE1mGbF35GtsjZg+F4EkCn05pYo9cwsAbo=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc3NjczOTk2MTAzMiwKICAicHJvZmlsZUlkIiA6ICI0OWIzODUyNDdhMWY0NTM3YjBmN2MwZTFmMTVjMTc2NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJiY2QyMDMzYzYzZWM0YmY4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JjODFhZjFkOTEzYzE3MDk5NGYwYTFhM2I2ZDMyM2U0Nzk5MzZkODE3MTU5NzYzNDRkMjJlMzg5OTgzMTU2MmMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Shines brightly no matter the\",1:\"§7weather.\",2:\"\",3:\"§7Mob Types: §9⚓ Aquatic§7, §a☮ Animal§7, §d❃ Elusive\",4:\"§c❤ Health§8: §c1,000\"],Name:\"§aSeashine (Animal)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Shines brightly no matter the",
+    "§7weather.",
+    "",
+    "§7Mob Types: §9⚓ Aquatic§7, §a☮ Animal§7, §d❃ Elusive",
+    "§c❤ Health§8: §c1,000"
+  ],
+  "internalname": "SEASHINE_ANIMAL",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Seashine"
+  ],
+  "recipes": [
+    {
+      "level": 12,
+      "name": "§aSeashine",
+      "render": "GlowSquid",
+      "panorama": "lotus_atoll",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "LOTUS_SILVER:1",
+          "chance": "100%"
+        },
+        {
+          "id": "LOTUS_GOLD:1",
+          "chance": "0.5%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_DIAMOND_FROG;1:1",
+          "extra": [
+            "§7 - Catch with a §bFishing Net§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

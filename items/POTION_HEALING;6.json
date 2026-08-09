@@ -1,18 +1,19 @@
 {
   "itemid": "minecraft:potion",
   "displayname": "§9Healing VI Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:6b,Amplifier:5b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§cHealing VI\",2:\"§7Instantly heals for §a+300§7.\",3:\"\",4:\"§9§lRARE\"],Name:\"§9Healing VI Potion\"},ExtraAttributes:{potion_level:6,potion:\"healing\",effects:[0:{level:6,effect:\"healing\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_HEALING;6\"}}",
-  "damage": 5,
+  "nbttag": "{CustomPotionEffects:[0:{Ambient:0B,Amplifier:0B,Duration:1,Id:6B},1:{Ambient:0B,Amplifier:5B,Duration:20,Id:6B}],ExtraAttributes:{effects:[0:{duration_ticks:100,effect:\"healing\",level:6}],id:\"POTION_HEALING;6\",potion:\"healing\",potion_level:6,potion_type:\"POTION\"},HideFlags:254,ItemModel:\"minecraft:potion\",display:{Lore:[0:\"\",1:\"§cHealing VI §f(0:05)\",2:\"§7Heals for §a+30 §7every second.\",3:\"\",4:\"§9§lRARE\"],Name:\"§9Healing VI Potion\"}}",
+  "damage": 0,
   "lore": [
     "",
-    "§cHealing VI",
-    "§7Instantly heals for §a+300§7.",
+    "§cHealing VI §f(0:05)",
+    "§7Heals for §a+30 §7every second.",
     "",
     "§9§lRARE"
   ],
   "internalname": "POTION_HEALING;6",
-  "crafttext": "",
   "clickcommand": "viewpotion",
-  "modver": "",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "",
+  "info": []
 }

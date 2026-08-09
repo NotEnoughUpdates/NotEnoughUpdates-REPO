@@ -31,6 +31,7 @@ jobs:
         run: python .github/scripts/updateGemstoneCosts.py
 
       - name: Run Python george pet prices script
+        if: false
         run: python .github/scripts/updateGeorgePrices.py
 
       - name: Run Python essence costs script
@@ -38,8 +39,8 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "github-actions@github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add constants/museum.json
           git add constants/gemstonecosts.json
           git add constants/george.json

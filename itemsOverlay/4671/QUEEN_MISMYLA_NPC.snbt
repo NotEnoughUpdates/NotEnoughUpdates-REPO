@@ -1,0 +1,32 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "QUEEN_MISMYLA_NPC"
+		},
+		"minecraft:profile": {
+			id: [I;
+				-114599205,
+				1475946050,
+				-1173612607,
+				-556185095
+			],
+			properties: [
+				{
+					name: "textures",
+					value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZmNzAzODVmNDcyYzAzODI1YzBlODk0ZDk0YWMyMDFlMWI2NDJkMTAzMjIwMmQ0YmYzMzM3MmZhM2FhMjlmYmEifX19"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4671,
+		modVersion: "Firmament 44.2.0-dev+mc1.21.11+g7eea817d"
+	}
+}

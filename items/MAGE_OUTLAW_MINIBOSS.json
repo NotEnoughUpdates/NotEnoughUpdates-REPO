@@ -14,8 +14,7 @@
   "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixelskyblock.minecraft.wiki/w/Mage_Outlaw",
-    "https://wiki.hypixel.net/Mage_Outlaw"
+    "https://hypixelskyblock.minecraft.wiki/w/Mage_Outlaw"
   ],
   "x": -180,
   "y": 106,
@@ -34,11 +33,17 @@
       "drops": [
         {
           "id": "GLOWSTONE_DUST",
-          "chance": "x20-35"
+          "extra": [
+            "§eDrop Count: §7x20-35"
+          ],
+          "chance": "100%"
         },
         {
           "id": "ENCHANTED_GLOWSTONE_DUST",
-          "chance": "x0-2"
+          "extra": [
+            "§eDrop Count: §7x0-2"
+          ],
+          "chance": "100%"
         },
         {
           "id": "SPELL_POWDER",

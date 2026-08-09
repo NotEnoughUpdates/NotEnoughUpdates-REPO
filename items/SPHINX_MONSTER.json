@@ -17,8 +17,7 @@
   "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixelskyblock.minecraft.wiki/w/Sphinx",
-    "https://wiki.hypixel.net/Sphinx"
+    "https://hypixelskyblock.minecraft.wiki/w/Sphinx"
   ],
   "recipes": [
     {
@@ -29,7 +28,11 @@
       "name": "§cSphinx",
       "render": "@neurepo:mobs/sphinx.json",
       "panorama": "hub",
-      "extra": [],
+      "extra": [
+        "§cRequirements:",
+        "§7- §6Griffin",
+        "§7Chance: 1.30%"
+      ],
       "type": "drops",
       "drops": [
         {
@@ -62,7 +65,11 @@
       "name": "§cSphinx",
       "render": "@neurepo:mobs/sphinx.json",
       "panorama": "hub",
-      "extra": [],
+      "extra": [
+        "§cRequirements:",
+        "§7- §5Griffin",
+        "§7Chance: 1.30%"
+      ],
       "type": "drops",
       "drops": [
         {

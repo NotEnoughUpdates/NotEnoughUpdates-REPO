@@ -1,0 +1,35 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			bossId: "a3f44945-8586-4510-8336-11c275fae5f7",
+			id: "ASPECT_OF_THE_DRAGON",
+			spawnedFor: "8477790c-7d80-4b98-bd9f-c16d17ac32c6"
+		},
+		"minecraft:item_model": "hypixel_skyblock:item/uncategorized/aspect_of_the_dragon",
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:dyed_color",
+				"minecraft:charged_projectiles"
+			]
+		},
+		"minecraft:tooltip_style": "hypixel_skyblock:legendary",
+		"minecraft:unbreakable": {
+		}
+	},
+	count: 1,
+	id: "minecraft:diamond_sword",
+	source: {
+		dataVersion: 4790,
+		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g00fd3323"
+	}
+}

@@ -1,0 +1,32 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "GIMLEY_NPC"
+		},
+		"minecraft:profile": {
+			id: [I;
+				-1302981405,
+				-1697108158,
+				-1377704362,
+				-415181166
+			],
+			properties: [
+				{
+					name: "textures",
+					value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU3YjM1NTJjNWFmMmFiMmRjNGUxZjg0ZDc4Y2E0YzRkNjc2ZGVjMDY4MTU3MjI1YTNjMjY3NGU1NTc0ZDIzNDgifX19"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4671,
+		modVersion: "Firmament 44.2.0-dev+mc1.21.11+g7eea817d"
+	}
+}

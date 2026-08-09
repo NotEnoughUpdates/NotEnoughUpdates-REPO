@@ -17,8 +17,7 @@
   "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixelskyblock.minecraft.wiki/w/Phantom_Spirit",
-    "https://wiki.hypixel.net/Phantom_Spirit"
+    "https://hypixelskyblock.minecraft.wiki/w/Phantom_Spirit"
   ],
   "recipes": [
     {
@@ -33,8 +32,10 @@
       "drops": [
         {
           "id": "GREEN_CANDY:1",
-          "extra": [],
-          "chance": "x1-2"
+          "extra": [
+            "§eDrop Count: §7x1-2"
+          ],
+          "chance": "100%"
         },
         {
           "id": "PURPLE_CANDY:1",
