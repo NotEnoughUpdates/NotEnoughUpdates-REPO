@@ -221,27 +221,27 @@
     "CRITTERS": {
       "1": [
         1,
+        5,
         10,
-        25,
+        20,
+        35,
         50,
-        75,
-        100,
-        150,
-        200,
-        250,
-        300
+        65,
+        85,
+        105,
+        125
       ],
       "2": [
         1,
+        5,
         10,
-        20,
-        30,
-        45,
-        60,
-        80,
-        100,
-        125,
-        150
+        15,
+        25,
+        40,
+        55,
+        70,
+        85,
+        100
       ],
       "3": [
         1,
@@ -1481,7 +1481,7 @@
         "name": "§aAzure",
         "skullOwner": "f82007c1-fc4b-3eb9-b494-9c7ef6590fb4",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTcyMTc2NDk3MTM1NSwKICAicHJvZmlsZUlkIiA6ICIxMWNkOTMzYmU1OGQ0MzYxOTdlYTc1MjU4MzM2Mzg0YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNb29ubGl0TUMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGM3NTkwNzY2ZTkzNzBlOWU2ZjJiOTk4YTM0ZTkzMzE1ZDhkMzM0ZWFmYzBmN2UzODk0YjkwNjFkOWU1YzZkNyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-        "cap": 300,
+        "cap": 125,
         "mobs": [
           "azure_2"
         ],
@@ -1492,7 +1492,7 @@
         "name": "§aBambuleaf",
         "skullOwner": "80d1c85e-089a-3916-9a47-285a30a9b01b",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTcyNTUxNTM2NTA1MCwKICAicHJvZmlsZUlkIiA6ICJjNmViMzdjNmE4YjM0MDI3OGJjN2FmZGE3ZjMxOWJmMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbFJleUNhbGFiYXphbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jNWQ4MGQyMGQyMWUyY2EzN2Y2OGRmOTFhZmY5OTc0Y2I1MWE5ZDU5MGMwZmExNDFiNTQ0ZDdlZjkwNTY4MjMyIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
-        "cap": 150,
+        "cap": 100,
         "mobs": [
           "bambuleaf_5"
         ],
@@ -1503,7 +1503,7 @@
         "name": "§aBirries",
         "skullOwner": "39594654-7420-3a80-aa44-4b8440071d47",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY1ODE3MzI0NDIxNywKICAicHJvZmlsZUlkIiA6ICIwYWMwY2IxMTI1MWE0ZjAwOTJjNjIyNzM2NjczMDNmNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDbG91Y2wiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTg3MDM1ZjUzNTIzMzRjMmNiYTZhYzRjNjVjMmI5MDU5NzM5ZDZkMGU4MzljMWRkOThkNzVkMmU3Nzk1Nzg0NyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-        "cap": 300,
+        "cap": 125,
         "mobs": [
           "birries_10"
         ],
@@ -1524,7 +1524,7 @@
         "name": "§aChill",
         "skullOwner": "45731600-b2d0-3797-82ce-8d152d671547",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTczMDMyMDYwMTk3MCwKICAicHJvZmlsZUlkIiA6ICJjNWVmOGQ1NDIwOWY0OTdlYWYzYzA1NjA3MjZhYTMwNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaXNoX0RheCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NTcyNzQ3YTYzOWQyMjQwZmVlYWU1YzgxYzY4NzRlNmVlNzU0N2I1OTllNzQ1NDY0OTBkYzc1ZmEyMDg5MTg2IgogICAgfQogIH0KfQ==",
-        "cap": 150,
+        "cap": 100,
         "mobs": [
           "chillblade_31",
           "chillshot_31"
@@ -1536,7 +1536,7 @@
         "name": "§aCod",
         "skullOwner": "04815146-43c1-347b-8824-b5f2a6f16ed4",
         "texture": "eyJ0aW1lc3RhbXAiOjE1MzIyODg0MTA0ODYsInByb2ZpbGVJZCI6ImUzYjQ0NWM4NDdmNTQ4ZmI4YzhmYTNmMWY3ZWZiYThlIiwicHJvZmlsZU5hbWUiOiJNaW5pRGlnZ2VyVGVzdCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTVlZWY1MmE0NjhmNjgxZmFiNmE1NmJmNWNjOTk4NmMxODY4ZmYwNzk1ZDExNWM2YWIwMDA5ZDhmYWY5NzJhNCJ9fX0=",
-        "cap": 300,
+        "cap": 125,
         "mobs": [
           "cod_2"
         ],
@@ -1547,7 +1547,7 @@
         "name": "§aCoralot",
         "skullOwner": "cb275a61-6979-374f-b55d-27d43b3469fd",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTcyMTgyMjg0NjM0NCwKICAicHJvZmlsZUlkIiA6ICI3YjA5ZDg5NWQyYjc0NTU3YmM0YTkzNWYyNjU0NWNjNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBaXJwbGFuZUdvQnJyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2VjNjMzOTc2MzRmN2EyMjg5MDUwZTExNmM1YTVmY2U3YzMyYzc2OTY4YWZmYWMyN2FmZDExNjAzYjY4MDhkZDciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
-        "cap": 300,
+        "cap": 125,
         "mobs": [
           "coralot_1"
         ],
@@ -1590,7 +1590,7 @@
         "name": "§aHideonleaf",
         "skullOwner": "2835a0dd-53c3-3b89-b392-5950e58b7aff",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTcyMzA4Mjc2NzIzNSwKICAicHJvZmlsZUlkIiA6ICI5OWY1MzhjMDhlN2E0NTg3YmU4MGJjNGVmNzU0ZmQyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb2xvV1MyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzkwYjNiZGM5ODFiODE3NTRhMjU2MzViZWEyZGVmOTNmOTkyYzA0MDc5ODFjZDdjNTAwYWQ0OWQxY2FkYTA0YWYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
-        "cap": 300,
+        "cap": 125,
         "mobs": [
           "hideonleaf_12"
         ],
@@ -1601,7 +1601,7 @@
         "name": "§aHoneyhog",
         "skullOwner": "2a928c58-95d1-303e-9156-2b2e7c3e57e7",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4NDEyNjM3MTg0MiwKICAicHJvZmlsZUlkIiA6ICI1MTAwZGZmZDI0NDI0M2I0OGQxMmVkZTVkMjgxMzk2ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbGVjdHJvbmljU2V4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI4N2JlNDVlNDUzYjgzMmY5YWNjZWU1NzA5Yjk0MzEzZjcxNjU1NGU5M2JmYWRiNmQzNjdhODNlNDNhZDZkOTciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
-        "cap": 150,
+        "cap": 100,
         "mobs": [
           "honeyhog_32"
         ],
@@ -1655,7 +1655,7 @@
         "name": "§aMochibear",
         "skullOwner": "3754cb08-2e43-3aff-9f93-64659d771412",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTcyNTUxNTM0MTk5NCwKICAicHJvZmlsZUlkIiA6ICJjMTJkMmY5ZWJhZGI0ZTllYTIxZmM2M2M3YWY3M2E5NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEcmVhbXlOZW9uIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y2Yzc0N2YyM2JmMWIxM2ExYWRiNGE2YWNjZWZkZDkzYWU4ZWMxMGQzMGQ5NGNkMWYxYWQ0YzM3YTZjNzNiOTEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
-        "cap": 150,
+        "cap": 100,
         "mobs": [
           "mochibear_5"
         ],
@@ -1666,7 +1666,7 @@
         "name": "§aMossybit",
         "skullOwner": "ee9577ee-a26f-32c9-b102-1f4fc909b60e",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTcyMTc0MDA5MDYwMSwKICAicHJvZmlsZUlkIiA6ICI0NDAzZGM1NDc1YmM0YjE1YTU0OGNmZGE2YjBlYjdkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICI4Qml0czFCeXRlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E2YjM0NGM3MjZjZDkzOTc5ZmY1MDA0OTA5YTFjMWU1MmI1YTQxZDU2ZDJmNGRhNTFlNmY2OWU0MjgzODIzOGEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
-        "cap": 150,
+        "cap": 100,
         "mobs": [
           "mossybit_9"
         ],
@@ -1698,7 +1698,7 @@
         "name": "§aPhanflare",
         "skullOwner": "cdda66c7-ab44-3fc2-bea2-674d377fa6fb",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTcxNjQzNzczNzc5MiwKICAicHJvZmlsZUlkIiA6ICI2NWUxN2M2Njk5NDU0ODQxYTdhNjc4ZWY2YzBhNGY1ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJPbGRSZWRUViIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80MTNiZTIyZDI3NzU2NTAxYmYxMWFjYWIwYjg5ZWRlZGQwNWQxOTM5N2JjMmNmN2Y5MjJhNjk4ZjUxYWEyZjFiIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
-        "cap": 300,
+        "cap": 125,
         "mobs": [
           "phanflare_10"
         ],
@@ -1709,7 +1709,7 @@
         "name": "§aPhanpyre",
         "skullOwner": "09ce5486-9cb7-307c-9653-2729e611e55c",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTcxNjQzNzcwMjMwNSwKICAicHJvZmlsZUlkIiA6ICJiOThjNGFkOGM2MjY0NGYxOWUzYzhhZTE0ZThhMDI1OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ5cnRlZGR5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2UzMWNjNzExOGU0YzQwYjM5OGZmODBkMjNmNWVlNTA3OTdmYzRjMjYwOWZlZDkwM2ZlNWViNzUyOGJhYmExMTAiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
-        "cap": 300,
+        "cap": 125,
         "mobs": [
           "phanpyre_10"
         ],
@@ -1720,7 +1720,7 @@
         "name": "§aSalmon",
         "skullOwner": "32b81391-36f2-382c-88e6-b36c145b9810",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY5ODMxNTUyMjUzNCwKICAicHJvZmlsZUlkIiA6ICIyMWUzNjdkNzI1Y2Y0ZTNiYjI2OTJjNGEzMDBhNGRlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHZXlzZXJNQyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kNGQwMDE1ODliODZjMjJjZjI0ZjE2MThmZTdlZmVmMTI5MzJhYTkxNDhiNWU0ZmM2ZmY0YTYxNGI5OTBhZTEyIgogICAgfQogIH0KfQ==",
-        "cap": 150,
+        "cap": 100,
         "mobs": [
           "salmon_2"
         ],
@@ -1755,7 +1755,7 @@
         "name": "§aStag Beetle",
         "skullOwner": "9e0fbacc-86f2-3a06-9373-c2f8db8541d0",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MzcwODg3MTA0MiwKICAicHJvZmlsZUlkIiA6ICI5MTU1ZmYzNTNlMzc0ZmZlYjE0MmE5NmU2MzU2ZjA4NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJlbG5hZFhCIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc1NGI1NGU1YmZmZmU3MjUwYWEzYTA5MWI2OGYxZGQzZjUxZmZjNzY5N2QyZTNmMjFhZDAzOTI1ODllYjYxMzEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
-        "cap": 150,
+        "cap": 100,
         "mobs": [
           "stag_beetle_29"
         ],
@@ -1811,7 +1811,7 @@
         "name": "§aVerdant",
         "skullOwner": "ab9680e5-f026-3f17-96cf-9be8b593aad8",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTcyMTc2NDgwMzYyNywKICAicHJvZmlsZUlkIiA6ICIzMTdkODc2MjZjYWM0Mjk0ODBiOTI4NGE4Y2ZjMWRlOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOaWFtb1IzMjAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTU3YjE2YTFmYjgyYmFmZGUwZDc4NzU2NDFhZDQ4ZGM4MGVlNGI0NzE1NzRkNWJmNmE1YTFlNGMxNmMzNzU1NSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-        "cap": 300,
+        "cap": 125,
         "mobs": [
           "verdant_2"
         ],
@@ -2416,7 +2416,7 @@
           "name": "§aMithril Grubber",
           "skullOwner": "adfd17e4-f87f-3920-ad58-ee8fc3e8fc26",
           "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYwMjMyMTY5Njk3MSwKICAicHJvZmlsZUlkIiA6ICJlNzkzYjJjYTdhMmY0MTI2YTA5ODA5MmQ3Yzk5NDE3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVfSG9zdGVyX01hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84MTFhMTE3M2FmM2JlYWQzMDVlNjMzOWY1NTU2NjJlOTkwZDVmYWFkYjg3ZTA3Mjk5ZmE2OGNhODI4YTZkMmZiIgogICAgfQogIH0KfQ==",
-          "cap": 300,
+          "cap": 125,
           "mobs": [
             "small_mithril_grubber_15",
             "medium_mithril_grubber_15",
@@ -2439,7 +2439,7 @@
           "name": "§aOasis Rabbit",
           "skullOwner": "018d955e-9409-37ac-b44c-cff7e5c659fd",
           "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWY1OTg1MWRlOTNmNGM2NTQ3ZjgwOWNhM2FlZDE4OWU5NGJiZjRmODg4ZjFmNzUyMDhlOTRjMzczMzg1MmExIn19fQ==",
-          "cap": 300,
+          "cap": 125,
           "mobs": [
             "oasis_rabbit_10"
           ],
@@ -2449,7 +2449,7 @@
           "name": "§aOasis Sheep",
           "skullOwner": "ded68386-61e0-3705-b333-81ae5344ddeb",
           "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjkyZGYyMTZlY2QyNzYyNGFjNzcxYmFjZmJmZTAwNmUxZWQ4NGE3OWU5MjcwYmUwZjg4ZTljODc5MWQxZWNlNCJ9fX0=",
-          "cap": 300,
+          "cap": 125,
           "mobs": [
             "oasis_sheep_10"
           ],
@@ -4009,7 +4009,7 @@
         "name": "§aLotusfish",
         "skullOwner": "a35dfa36-c2f4-3b1c-a31a-796efb601c1b",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc3ODY1NjE5OTQ1OSwKICAicHJvZmlsZUlkIiA6ICIyYmQyZTAxNGI5YWE0YzRjYmRmMzdmZjc5MzE2NDE5MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBdXRvU2tpbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jNWMwMjRhZWVjMWM4ZGM5OGYyYjQyYWRkNWIwZjAyMDc4OGMzZjk4MGRmZjVlODYzNjM2NzYxZTYwYzVlZmZlIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
-        "cap": 300,
+        "cap": 125,
         "mobs": [
           "lotus_fish_1"
         ],
@@ -4068,7 +4068,7 @@
         "name": "§aAnt",
         "skullOwner": "e01b619d-7612-3c2b-aec9-130f3082f72b",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA0Mzk0OCwKICAicHJvZmlsZUlkIiA6ICIzN2VhNTQ5MTE3MTU0NDgzYmY0N2VmNGM3MzMwMWIzYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSeXV6bG4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODhhNTEyMDg4ODU1NDhmYmJlMDgyNzExNDhkYjM2OTFmNTllMjc1YThkNzIzYmUwOTRiNDRkMzRjY2ZkOWM4NSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-        "cap": 300,
+        "cap": 125,
         "mobs": [
           "ant_32"
         ],
@@ -4090,7 +4090,7 @@
         "name": "§aBlue Jay",
         "skullOwner": "cca73cac-6179-383b-a796-d9a367c42bea",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4NDIxNTk4NzcxMywKICAicHJvZmlsZUlkIiA6ICI0YTQ1ZmY3NDM2Njk0YTNiYTc3OTdhYTgyN2IwNDM1NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJzcGlmZnRvcGlhNSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81YThjNDA1Y2ExN2Y4YTk2ZDdhMDg4MTRmMDJmMGE3YzcyZGNiMGUzZjY2MDVmYmJjZDkwZTU2Y2MxYzI4NjUwIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
-        "cap": 300,
+        "cap": 125,
         "mobs": [
           "blue_jay_9"
         ],
@@ -4111,7 +4111,7 @@
         "name": "§aBunbun",
         "skullOwner": "143ba372-5468-3c61-9449-6554074e4b4d",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4NDEyNjM3MDk2OCwKICAicHJvZmlsZUlkIiA6ICJhYzY1NDYwOWVkZjM0ODhmOTM0ZWNhMDRmNjlkNGIwMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJzcGFjZUd1cmxTa3kiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JhYjI2ZWExZTk1NDY4MWU1ZmQ4MmY3M2QwMTVjNTM3MDIxMjFjYzFjYzIxOGViYTUxY2I3Y2ZiMTA2MWFiYyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-        "cap": 300,
+        "cap": 125,
         "mobs": [
           "bunbun_4"
         ],
@@ -4133,7 +4133,7 @@
         "name": "§aDustybit",
         "skullOwner": "68265e00-b6e2-3678-a369-b240b5f94e2e",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTcyMTc0MDEwODY2OCwKICAicHJvZmlsZUlkIiA6ICJkNzJlNGJjZDIyZGI0NjQ4OTUxNTc0M2UyYTRmMWFjMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJhdnZheSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85YmNiNjU0MDg2OTIxMmMwZjk2MjYxZjcxYzZmMTk5Njc1YjIyMzQ0NzM4NWEyNjU0YTExZjQxZGM1NmEzNzdlIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
-        "cap": 150,
+        "cap": 100,
         "mobs": [
           "dustybit_9"
         ],
@@ -4144,7 +4144,7 @@
         "name": "§aEmber",
         "skullOwner": "59fb26c3-128c-3a33-bdd3-5d530a4b9dcd",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MzcwMzI2MDgyNSwKICAicHJvZmlsZUlkIiA6ICJlODE1MGY1MjlmZGU0YzdkYjI3OTAyZjJjNmU3NTc5ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJCcmFkQm90XzIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmY1MWRjNDhmMTQxMDcyMzVkYTQwNjAxODc2MmU4YjMxOWMxMDM2Yzc4NThhYjc0NTk5ZWZiOTNkM2FmNzBlZiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-        "cap": 150,
+        "cap": 100,
         "mobs": [
           "ember_4"
         ],
@@ -4155,7 +4155,7 @@
         "name": "§aFirefox",
         "skullOwner": "c3bc8906-6d26-3636-8524-9c17ba94fdbf",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4NDEyNjAwNTIwMywKICAicHJvZmlsZUlkIiA6ICJhYzY1NDYwOWVkZjM0ODhmOTM0ZWNhMDRmNjlkNGIwMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJzcGFjZUd1cmxTa3kiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzIyZmMwMjQ4MTAxNjQ1ODhmYzE1M2E4ZTUxNjBlMWQwM2M3NTA5ZGJiZjg4Yjg3MGFkZGJlNmY1YTI5MjY0NyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-        "cap": 300,
+        "cap": 125,
         "mobs": [
           "firefox_32"
         ],
@@ -4173,17 +4173,6 @@
         "bracket": 8
       },
       {
-        "name": "§aGoldolot",
-        "skullOwner": "1d8be9e1-32e0-3659-b725-3b1b4bd3cf97",
-        "texture": "ewogICJ0aW1lc3RhbXAiIDogMTcyMTgyMjg2ODE0NywKICAicHJvZmlsZUlkIiA6ICI0MmIwOTMyZDUwMWI0MWQ1YTM4YjEwOTcxYTYwYmYxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBaXJib2x0MDc4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ0MjM1ZGE3YjNhMGFhY2NjZGJhM2Q4ZTEzYzYxZWNjODc0YzdhZWZhNDk0MzM5MDNiOGNmNDM3NGE5YmY1NmEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
-        "cap": 75,
-        "mobs": [
-          "goldolot_13"
-        ],
-        "bracketType": "CRITTERS",
-        "bracket": 3
-      },
-      {
         "name": "§aGrizzly Bear",
         "skullOwner": "2bc90ca9-8654-38ce-aaf2-c00def7e8b6c",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4NDIxNTk4ODIzNiwKICAicHJvZmlsZUlkIiA6ICIwNTljODIxYzhhODU0NGJiOWJiODVhOGMxNjVhYTc5YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJoZWxsc3RydWNrZWR6IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzczNjIxYmIwMmI4NmJmMzU4MzRjOWM0NzU3ZDNmNWUwYzNmODcwYTNjMjMwMDQ0YWEyMTMwNGNlODlkNDY3YTAiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
@@ -4197,7 +4186,7 @@
         "name": "§aGroundhog",
         "skullOwner": "e8ccec5b-3ec7-3768-8858-256758ab9be0",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4NDEyNjAwNTc3NSwKICAicHJvZmlsZUlkIiA6ICI3NzQ3ODc3M2ExZTE0NzUxODE0M2Q5ZDA5YTc1NmQ2MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ3aGF0YXJlZmVycmV0cyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81YzcxYWQxNzQyYTUxMzc4NTU5YjA1MjFlNDRkZGJkNWM3ODhjNzM0YWU1ZmJkZDU4ZDEwNDQzY2YwOTY3N2M4IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
-        "cap": 300,
+        "cap": 125,
         "mobs": [
           "groundhog_42"
         ],
@@ -4218,7 +4207,7 @@
         "name": "§aHideonsun",
         "skullOwner": "9905bf3a-dc3d-3ab9-ad84-5ddc2a11d793",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTcyMzA4Mjg0NzA3NywKICAicHJvZmlsZUlkIiA6ICI4NDIzMzM5MTYwMjY0NjBiOWQ1MGFjZWU3MThiMjkxNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJmaXJlc2xpbmdlciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82MzM3ODFkYTUzYmUwNGNkN2I0ODMzNWRlNzIxMTIxNWQ3OTk2OGRjNzYyMjcwYWFhOTkyYzNlMzU0ZDcwNDUxIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
-        "cap": 300,
+        "cap": 125,
         "mobs": [
           "hideonsun_24"
         ],
@@ -4240,7 +4229,7 @@
         "name": "§aHoneybuzz",
         "skullOwner": "c3dd4dc5-04a1-3924-a9ec-1471cb9b445a",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc3NjgwNDIzOTU2NywKICAicHJvZmlsZUlkIiA6ICJkNGUwNTFjZGRhNDU0NTUxYjk1ZWRiZjdkNTM1ZTA3ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbGVtZW50YWxfTWF4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzg5MGVmYzhhYTVhYWMyNzQyYWIwNDU2NDUwMWM0ZjU2ZTljNzE2OWIyNzJkMDUzMGY3OGMyMDk4NjU1Nzc5MjgiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
-        "cap": 150,
+        "cap": 100,
         "mobs": [
           "honeybuzz_9"
         ],
@@ -4283,7 +4272,7 @@
         "name": "§aPollendart",
         "skullOwner": "f5e30a09-9173-3dbf-bc61-019b6d03e8bc",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4NDEyNjgwMzc4OCwKICAicHJvZmlsZUlkIiA6ICI4OGQ1NDUxYjFlZjg0MjdlYWZmMmVlNDEwZjMzNDJmMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJEb25hbGRUcnVtcDQyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgxNTBhYmExMDY5NDQ4MDRjMzkwZTdkYzcwMmRhMzY0NTVlZmRjMDE2OTZmMzNkZjE0ZDdmMTQ0NjY5YWIxYTYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
-        "cap": 150,
+        "cap": 100,
         "mobs": [
           "pollendart_24"
         ],
@@ -4315,9 +4304,10 @@
         "name": "§aSepialot",
         "skullOwner": "65d22760-271d-3393-bb19-9d6f87fcc2c1",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTcyMTgyMjg4ODg3OSwKICAicHJvZmlsZUlkIiA6ICJjMzI3NDg4ZmRlOTg0MzMyYjljMzNjNzRkN2IyNWNkZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBTVlfVXdVMTQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzZhZTFkOWZlN2I2YWM1MGVhNDY1NDFmYTAxZDZmZjc1YTIzNmYyYTMzN2Q4NDU2NWU5MTg3OGYyZTc5ZmVkZSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-        "cap": 150,
+        "cap": 100,
         "mobs": [
-          "sepialot_9"
+          "sepialot_9",
+          "goldolot_13"
         ],
         "bracketType": "CRITTERS",
         "bracket": 2
@@ -4336,7 +4326,7 @@
         "name": "§aSolar",
         "skullOwner": "1a201ebd-81e5-34d4-977b-c6c079cbc89a",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTcyMTc2NDkxMTE5MiwKICAicHJvZmlsZUlkIiA6ICJiZWNlZGU1YmRkODY0YTkwOTc3MTRmODk0ZWUxNmE3MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYW1hQ29tcG9zZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2I2YjE4N2RmNjc0MTRiNWU5MjJiMzRmMGIwZjdhYTU4MDFjMzFhYzZlMjExMjM0Y2VmMDlmYzZlYzg5MjYyOCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-        "cap": 150,
+        "cap": 100,
         "mobs": [
           "solar_2"
         ],
@@ -4357,7 +4347,7 @@
         "name": "§aTiki",
         "skullOwner": "ae7e4d37-10f9-3d37-b440-ca96f1ffe354",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4NDEyNzcyNzQ3NiwKICAicHJvZmlsZUlkIiA6ICIyM2RjZjc3NWQ5YzQ0MGE1ODc3MjE4ZjU3NzNlMTUzNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZWx1c2lvblNrZXRjaCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kMGZhZDBjMWViNDI2MzM2MTBkZjdlM2YyN2Q3YzM4Y2E5YzNlNjUzMGJmZTFiYWI1YTNkNTIzODgyNGE3MzA3IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
-        "cap": 150,
+        "cap": 100,
         "mobs": [
           "sneaky_tiki_71",
           "shrieky_tiki_71",
@@ -4370,7 +4360,7 @@
         "name": "§aTimil",
         "skullOwner": "a35dfa36-c2f4-3b1c-a31a-796efb601c1b",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc3ODY1NjE5OTQ1OSwKICAicHJvZmlsZUlkIiA6ICIyYmQyZTAxNGI5YWE0YzRjYmRmMzdmZjc5MzE2NDE5MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBdXRvU2tpbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jNWMwMjRhZWVjMWM4ZGM5OGYyYjQyYWRkNWIwZjAyMDc4OGMzZjk4MGRmZjVlODYzNjM2NzYxZTYwYzVlZmZlIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
-        "cap": 300,
+        "cap": 125,
         "mobs": [
           "timil_1"
         ],
@@ -4391,7 +4381,7 @@
         "name": "§aWater Snake",
         "skullOwner": "1c5b1500-18be-378f-ad31-3948762c6efd",
         "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MzY4OTcwNjk0NywKICAicHJvZmlsZUlkIiA6ICI2NmRmYzFmNTRlNTU0ZTZmODJjNTA5ZjM1NTJiYTkwZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJadWFyaWciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWIwNmQxNTE1NWM2MGQwZjBmMjY3YmUwNWM4NDM2YzVhMWU3NjRhOGM4YWNhMjM2YmIzNzIyM2Y0OWQ5YTFkMCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-        "cap": 150,
+        "cap": 100,
         "mobs": [
           "water_snake_35"
         ],
@@ -4418,7 +4408,7 @@
           "name": "§aCavernfish",
           "skullOwner": "39813a47-3c4e-3200-8d02-965eab1fbcce",
           "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA0OTk5OCwKICAicHJvZmlsZUlkIiA6ICIxNzNkZTMxZjIzODE0YzY1YjVmZWMyMTAyYmIxZjExNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJCSVROVyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mMTFlYjUxYzQ0ZjIwYTY2NDg2NzlmZTllZjk4NDBkZWNjZTQzMjMxYTZhYTIxNjNmMGIzYTExMWIwOTdjY2M2IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
-          "cap": 300,
+          "cap": 125,
           "mobs": [
             "cavernfish_1"
           ],
@@ -4440,7 +4430,7 @@
           "name": "§aDriftling",
           "skullOwner": "e01abd76-3ba4-3e06-8a87-730727c80c86",
           "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA1MjgyNiwKICAicHJvZmlsZUlkIiA6ICJlY2ExZDJjMWU4ODg0ZjA3OGQxZTBlZGU2ODE4MGRhZCIsCiAgInByb2ZpbGVOYW1lIiA6ICI0MDRDb3NtaWNhbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mNGM0ZjhlNWZjZTFlYzJkMjk5Y2I4YTM5NTc5MmVjZGRjNDk3YTFkOGFmODZmYWFhNWUyMDM3MzAxNmM3MjI1IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
-          "cap": 150,
+          "cap": 100,
           "mobs": [
             "driftling_1"
           ],
@@ -4451,7 +4441,7 @@
           "name": "§aFlitter",
           "skullOwner": "6a9db6a1-a1a2-313a-85b7-5b1d4f398010",
           "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA3MjczNCwKICAicHJvZmlsZUlkIiA6ICI5MDczN2E1N2RlYjk0MWYxYTEyMzE1MmJkZmZjMTBmYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaW5lU2tpbl8xNCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hODlhNzZkZWVkZDQyYjQxMDM0NDEwMGRmMmZhNzliNmVlYWM3ZTZmMjg3NzQ1ZDY1NjE3OTM2ODM0MGZmYWRlIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
-          "cap": 300,
+          "cap": 125,
           "mobs": [
             "flitter_1"
           ],
@@ -4495,7 +4485,7 @@
           "name": "§aShyworm",
           "skullOwner": "bbee419e-845c-3b0d-bdc8-9f2f7def2bc5",
           "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzODQwMDA4NCwKICAicHJvZmlsZUlkIiA6ICIzYzBkZWU0NzE5MDM0OTc5OWE1ZmJlYTE2NTgwZmRmMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZXF1YXJpIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I0Mjg3YjhhMGE2NDJkYWM1MzVhNmVlMjk0NTllZmQxN2Q1Y2VlMWViMzU5ZTQzNmJjOGU3YWJiYTNkYTE0YjciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
-          "cap": 300,
+          "cap": 125,
           "mobs": [
             "shyworm_1"
           ],
@@ -4526,7 +4516,7 @@
           "name": "§aBluebird",
           "skullOwner": "68027986-a3db-3e5b-b933-e5860e04a6e4",
           "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjgzMjk2OTE2OSwKICAicHJvZmlsZUlkIiA6ICIwNDg0N2ZjNWM5YjY0NTQ1YjI1ZWJkYmJiNzdjNjg2NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOYXFsdWEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmJkYjI3YjM1YTVlYWI1MjEzNGExYTMzN2VmNTE4Njc2NDE1YjllZDg0MDE4MzE3NWQwNTliYzE1N2JlYTcyYiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-          "cap": 150,
+          "cap": 100,
           "mobs": [
             "bluebird_1"
           ],
@@ -4548,7 +4538,7 @@
           "name": "§aFoxtrot",
           "skullOwner": "6367e74d-fdb3-3283-9f74-01f310b744b9",
           "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA1Mjk3NSwKICAicHJvZmlsZUlkIiA6ICJlZDUzZGQ4MTRmOWQ0YTNjYjRlYjY1MWRjYmE3N2U2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICI0MTQxNDE0MWgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGYxYTZhZmJmNjVhODcxNzQyNWY4MDRjOTVmOWRlNTAzZDk1YjQzZGJlNDk3NDYxM2JmNDI3ODhlM2NkY2FkNiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-          "cap": 300,
+          "cap": 125,
           "mobs": [
             "foxtrot_1"
           ],
@@ -4570,7 +4560,7 @@
           "name": "§aHoneybug",
           "skullOwner": "f7411e31-cb42-3d59-863f-afdd0dbd3d77",
           "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA2MTg5MywKICAicHJvZmlsZUlkIiA6ICIwMzBlMDA1OWQwY2M0YTZhODY3N2RkZWU3MjEzMjg1MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTbXVnRm9vZGllIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc2M2FjNjU2ZTJhZDQ3N2U4MTIxNWQ1MGNmNTc4MzQxOTg1YjllZTQwNzNlZTdmMWQzZWQ1YThhNmY0ZTZmYzEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
-          "cap": 150,
+          "cap": 100,
           "mobs": [
             "honeybug_1"
           ],
@@ -4603,7 +4593,7 @@
           "name": "§aTreefrog",
           "skullOwner": "f3c6630d-0829-3103-acbe-0ed67a39334e",
           "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjgzMzYxMTc1MywKICAicHJvZmlsZUlkIiA6ICI0MjJlMzdiNjc4ZGU0OTA2YWFiMWU5NGY0N2E5NGM0OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJzcGlmZnRvcGlhOSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lZTg5NWE3NTZjNzEzODFhNDBiOTQ5MjNhY2M5YzY4Njg3YzlhNDFhMzRjOTUzMDY1NWM0ZTRiMGMyNDk0YzE5IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
-          "cap": 150,
+          "cap": 100,
           "mobs": [
             "treefrog_1"
           ],
@@ -4614,7 +4604,7 @@
           "name": "§aWoodchucker",
           "skullOwner": "97ea3f62-3a5b-3194-915a-acb713846b2e",
           "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA3MDAyNSwKICAicHJvZmlsZUlkIiA6ICJlODE1MGY1MjlmZGU0YzdkYjI3OTAyZjJjNmU3NTc5ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJCcmFkQm90XzIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTJhMmI0Njc0YzQ3MzVhY2VlYWY1NmJjMWM4MzIzMDZjY2I3ZDU4YzBhM2Q2ZDIzYTA5NTIxY2NhNGY2NzhmYyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-          "cap": 150,
+          "cap": 100,
           "mobs": [
             "woodchucker_1"
           ],
@@ -4634,7 +4624,7 @@
           "name": "§aAreita",
           "skullOwner": "a83c9446-fdd3-3beb-acec-5def9d45151d",
           "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MzY4NzM1MzMyOSwKICAicHJvZmlsZUlkIiA6ICIwZWQ2MDFlMDhjZTM0YjRkYWUxZmI4MDljZmEwNTM5NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJOZWVkTW9yZUFjY291bnRzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2MzOGNjMTBjZTJmMTE4NWYzZDIxZWIxZjAxMDZmZWZhYzUwZGQ4MGJlMDk2N2Y5MzRhZDcxYTEwN2UwNGNiZjQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
-          "cap": 150,
+          "cap": 100,
           "mobs": [
             "areita_1"
           ],
@@ -4645,7 +4635,7 @@
           "name": "§aBloodbat",
           "skullOwner": "6a32a96c-991c-3cd6-97be-8fd3cd8e9492",
           "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA0OTEzNiwKICAicHJvZmlsZUlkIiA6ICI3YmFiY2ExNGU2MDI0MTJlYTM3YjU5NjU1MGZkOWRiYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaWthX05vZWwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODhkOWU5OGVkYTZlMjA4N2JlNmEzNjhhODc1NGU1MDUyNjg4Zjc3MDI2OGUwODNmYjQ3MDY2ZDNmZjU1MTljNCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-          "cap": 150,
+          "cap": 100,
           "mobs": [
             "bloodbat_1"
           ],
@@ -4667,7 +4657,7 @@
           "name": "§aDuplico",
           "skullOwner": "deb03b10-67df-3fb2-b5cf-e2d4526c7ab4",
           "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA1MjM5NiwKICAicHJvZmlsZUlkIiA6ICIyMWUzNjdkNzI1Y2Y0ZTNiYjI2OTJjNGEzMDBhNGRlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHZXlzZXJNQyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82OTdiYjk0ZDUxMWY0MTJmYjY4M2Q1YzczOTI0ZGQ3YzlkYzhkZmM2NGI0MzlmNTA0NjZmNWExMGM5YWVkMzkzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
-          "cap": 150,
+          "cap": 100,
           "mobs": [
             "duplico_1"
           ],
@@ -4678,7 +4668,7 @@
           "name": "§aGazer",
           "skullOwner": "9300c3e7-d1fb-38a6-9ed8-75a9d4b0afca",
           "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA1NDA0NiwKICAicHJvZmlsZUlkIiA6ICIzMzU3MWJiY2UyMDE0MTRiYmNkMDYyMjEyZTI4MjBlMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFkb21JbmF0b3I0NzgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA3YjNjM2QyYzNmZTI1OWQ2OTIwN2ExNGNhNWNkOTk3MTNjNzA5NmJhMTIyYmI0MDMyNmYzNDg5ZTVkMGQ2YyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-          "cap": 150,
+          "cap": 100,
           "mobs": [
             "gazer_1"
           ],
@@ -4722,7 +4712,7 @@
           "name": "§aLitterbug",
           "skullOwner": "ae96c96a-6ac1-399d-b12a-1975c170716f",
           "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjgzMjk3NDYwNywKICAicHJvZmlsZUlkIiA6ICJjODVhZTlmOWJkNTU0YzFmYjk1ZTg3ZDI2Zjg2MGFmNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdGV2ZW4xNzUzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q4NzhjNTc5NzcxYjgwMjQ3MDMwYzBmZWExMjIxMWYzZTAwNmEyZDllNjVkNGVkODk2YmE2ZTVhMWVkOTYxZGEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
-          "cap": 150,
+          "cap": 100,
           "mobs": [
             "litterbug_1"
           ],
@@ -4733,7 +4723,7 @@
           "name": "§aSolsnatcher",
           "skullOwner": "7b96e12a-c3d5-33d9-8fb4-2c051200a15f",
           "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjgzMzYxMDUzNiwKICAicHJvZmlsZUlkIiA6ICIxMTM0OTAxMTU3ZTE0Yzg0OTE1YTNjMGY3M2RmYzM0NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJab2xlZWV5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE5NWQ4NThjYTk0NjM0ZTUxNWIxMDVkNWVlNDUyNjlmN2M0Njc1ZDg3N2IzMzhhYzVjMWMzODE1OGU1NDcwNTgiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
-          "cap": 150,
+          "cap": 100,
           "mobs": [
             "solsnatcher_1"
           ],
@@ -4786,7 +4776,7 @@
           "name": "§aPolaris",
           "skullOwner": "a19fd47c-b2e0-35af-bd14-e5f67596a5cc",
           "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjgzMjk3Njc5OSwKICAicHJvZmlsZUlkIiA6ICIyZmI1ZGJhYTY2NTA0OGEyYjZhYzU5YWE2Nzk5MDYzNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJkcmFnbG9uZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQxNDU4ZGIyNzIxMGU4OTA1Nzk1YjBmMzM2ODAxNWNkMGYyN2Y2ODhmYjBhMTRmNThiN2E0NDcwNzlhZWQ4ZiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-          "cap": 150,
+          "cap": 100,
           "mobs": [
             "polaris_1"
           ],
@@ -4797,7 +4787,7 @@
           "name": "§aShuddersquid",
           "skullOwner": "24589b0f-9129-3db5-bc77-a75a2266ef83",
           "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjgzMzYwOTQwMiwKICAicHJvZmlsZUlkIiA6ICJjMWU1NzlmZjc0NjI0OTkzYTI5NTdlNjNjZGU5NDY1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaW5lU2tpbl8xNiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81YTRkZmIwYjZjYTdlYTEyZWJmNDA2YzI5MTAxY2NlNjE4N2ZiOGZhZGZlNGU4MjY2NGEyMjVmNDU3NGUyOWU5IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
-          "cap": 150,
+          "cap": 100,
           "mobs": [
             "shuddersquid_1"
           ],
@@ -4808,7 +4798,7 @@
           "name": "§aStrongarm",
           "skullOwner": "4e40eaa9-3b2d-32c0-b96d-272049986a1b",
           "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA2NzcwMywKICAicHJvZmlsZUlkIiA6ICIyNDY1ODI2NWVjMjg0NTY4YTg3MDJkOTVlYzdlYTc4MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcmdvc1oxMiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82Y2QyNjVjNGI5YTEzMjYyNTNlNjZiM2Y5Y2YxZTBiOGRlOGQwNzdlYjVjYmRhODc2NTRjNmRiYWM4NzVjOGRiIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
-          "cap": 300,
+          "cap": 125,
           "mobs": [
             "strongarm_1"
           ],
@@ -4819,7 +4809,7 @@
           "name": "§aTepid",
           "skullOwner": "4b646d45-e8d5-364e-ae74-32dae6a0a5d8",
           "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjgzMzYxMTM0OSwKICAicHJvZmlsZUlkIiA6ICI4MDQ2MzdjMTA1ZGY0MzM0ODE3YTNmMDcxMTMyOTYyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJQcmluY2VDUiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85YTQyOTNmMmE4YTdhYWYyZmYwZmQ1ZTg4ZWYzZjUzNDlmZDY1OTQwMTVkNWY5NzU4NjJhMmE5YjU4NTZiMjVhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
-          "cap": 300,
+          "cap": 125,
           "mobs": [
             "tepid_1"
           ],
