@@ -2119,127 +2119,92 @@
     "COMMON": {
       "1": {
         "otherNums": [
-          1.1
+          0.8
         ],
         "statNums": {
           "SPEED": 0.5,
           "FISHING_SPEED": 0.4,
           "RESPIRATION": 0.1,
-          "SWEEP": 0.1,
-          "FORAGING_FORTUNE": 0.1
+          "SWEEP": 0.1
         }
       },
       "100": {
         "otherNums": [
-          10
+          40
         ],
         "statNums": {
           "SPEED": 50,
           "FISHING_SPEED": 40,
           "RESPIRATION": 10,
-          "SWEEP": 10,
-          "FORAGING_FORTUNE": 10
+          "SWEEP": 10
         }
       }
     },
     "UNCOMMON": {
       "1": {
         "otherNums": [
-          1.1
+          1.19
         ],
         "statNums": {
           "SPEED": 0.5,
           "FISHING_SPEED": 0.4,
           "RESPIRATION": 0.1,
-          "SWEEP": 0.1,
-          "FORAGING_FORTUNE": 0.1
+          "SWEEP": 0.1
         }
       },
       "100": {
         "otherNums": [
-          10
+          60
         ],
         "statNums": {
           "SPEED": 50,
           "FISHING_SPEED": 40,
           "RESPIRATION": 10,
-          "SWEEP": 10,
-          "FORAGING_FORTUNE": 10
+          "SWEEP": 10
         }
       }
     },
     "RARE": {
       "1": {
         "otherNums": [
-          1.1
+          1.19,
+          0.15
         ],
         "statNums": {
           "SPEED": 0.5,
           "FISHING_SPEED": 0.4,
           "RESPIRATION": 0.1,
-          "SWEEP": 0.1,
-          "FORAGING_FORTUNE": 0.1
+          "SWEEP": 0.1
         }
       },
       "100": {
         "otherNums": [
-          10
+          60,
+          5
         ],
         "statNums": {
           "SPEED": 50,
           "FISHING_SPEED": 40,
           "RESPIRATION": 10,
-          "SWEEP": 10,
-          "FORAGING_FORTUNE": 10
+          "SWEEP": 10
         }
       }
     },
     "EPIC": {
       "1": {
         "otherNums": [
-          1.1,
-          1.79
+          1.59,
+          0.2
         ],
         "statNums": {
           "SPEED": 0.5,
           "FISHING_SPEED": 0.4,
           "RESPIRATION": 0.1,
-          "SWEEP": 0.1,
-          "FORAGING_FORTUNE": 0.1
+          "SWEEP": 0.1
         }
       },
       "100": {
         "otherNums": [
-          10,
-          80
-        ],
-        "statNums": {
-          "SPEED": 50,
-          "FISHING_SPEED": 40,
-          "RESPIRATION": 10,
-          "SWEEP": 10,
-          "FORAGING_FORTUNE": 10
-        }
-      }
-    },
-    "LEGENDARY": {
-      "1": {
-        "otherNums": [
-          1.1,
-          1.79,
-          1.09
-        ],
-        "statNums": {
-          "SPEED": 0.5,
-          "FISHING_SPEED": 0.4,
-          "RESPIRATION": 0.1,
-          "SWEEP": 0.1,
-          "FORAGING_FORTUNE": 0.1
-        }
-      },
-      "100": {
-        "otherNums": [
-          10,
           80,
           10
         ],
@@ -2247,35 +2212,61 @@
           "SPEED": 50,
           "FISHING_SPEED": 40,
           "RESPIRATION": 10,
-          "SWEEP": 10,
-          "FORAGING_FORTUNE": 10
+          "SWEEP": 10
+        }
+      }
+    },
+    "LEGENDARY": {
+      "1": {
+        "otherNums": [
+          1.59,
+          0.2,
+          1
+        ],
+        "statNums": {
+          "SPEED": 0.5,
+          "FISHING_SPEED": 0.4,
+          "RESPIRATION": 0.1,
+          "SWEEP": 0.1
+        }
+      },
+      "100": {
+        "otherNums": [
+          80,
+          10,
+          50
+        ],
+        "statNums": {
+          "SPEED": 50,
+          "FISHING_SPEED": 40,
+          "RESPIRATION": 10,
+          "SWEEP": 10
         }
       }
     },
     "MYTHIC": {
       "1": {
         "otherNums": [
-          1.1,
-          1.79,
-          1.09,
+          1.59,
+          0.2,
           0.12,
-          0.1
+          1,
+          0.2
         ],
         "statNums": {
           "SPEED": 0.5,
           "FISHING_SPEED": 0.4,
           "TROPHY_CHANCE": 0.05,
           "RESPIRATION": 0.1,
-          "SWEEP": 0.1,
-          "FORAGING_FORTUNE": 0.1
+          "SWEEP": 0.1
         }
       },
       "100": {
         "otherNums": [
-          10,
           80,
           10,
           2,
+          50,
           10
         ],
         "statNums": {
@@ -2283,8 +2274,7 @@
           "FISHING_SPEED": 40,
           "TROPHY_CHANCE": 5,
           "RESPIRATION": 10,
-          "SWEEP": 10,
-          "FORAGING_FORTUNE": 10
+          "SWEEP": 10
         }
       }
     }
