@@ -15,7 +15,7 @@ jobs:
   update-data:
     runs-on: ubuntu-latest
 
-    if: ${{ github.repository_id == '247692460' }}
+    if: ${{ github.repository_id == '247692460' || github.event_name == 'workflow_dispatch' }}
 
     steps:
       - name: Checkout repository
