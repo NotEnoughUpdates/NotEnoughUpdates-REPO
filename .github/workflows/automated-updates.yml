@@ -10,7 +10,7 @@ jobs:
   update-data:
     runs-on: ubuntu-latest
 
-    if: ${{ github.repository_id == '247692460' }}
+    if: ${{ github.repository_id == '247692460' || github.event_name == 'workflow_dispatch' }}
 
     steps:
       - name: Checkout repository
@@ -21,8 +21,8 @@ jobs:
         with:
           python-version: '3.14'
 
-      - name: Install requests library
-        run: python -m pip install requests
+      - name: Install dependencies
+        run: python -m pip install requests beautifulsoup4
 
       - name: Run Python museum script
         run: python .github/scripts/updateMuseum.py
@@ -31,7 +31,6 @@ jobs:
         run: python .github/scripts/updateGemstoneCosts.py
 
       - name: Run Python george pet prices script
-        if: false
         run: python .github/scripts/updateGeorgePrices.py
 
       - name: Run Python essence costs script

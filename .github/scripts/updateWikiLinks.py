@@ -10,6 +10,8 @@ import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util import Retry
 
+from constants import userAgentHeaders
+
 # Constants
 batchSize = 50
 itemsDirectory = "items"
@@ -58,9 +60,7 @@ class WikiLinkUpdater:
         allowed_methods={"GET", "POST"},
     )
     session.mount("https://", HTTPAdapter(max_retries=retries))
-    session.headers.update({
-        "user-agent": "NotEnoughUpdates-Repo-CI/1.0 (+https://github.com/NotEnoughUpdates/NotEnoughUpdates-REPO)",
-    })
+    session.headers.update(userAgentHeaders)
 
     attemptedLinks = {}
     modifiedCount = 0
@@ -221,7 +221,8 @@ class WikiLinkUpdater:
         if " Balloon Hat " in name:
             return " ".join(name.split(" ")[1:])
 
-        if ("_GENERATOR_" in itemId and minionLevelPattern.search(name)) or " Rune " in name or trophyPattern.search(name):
+        if ("_GENERATOR_" in itemId and minionLevelPattern.search(name)) or " Rune " in name or trophyPattern.search(
+                name):
             return " ".join(name.split(" ")[:-1])
 
         if name.endswith("Minion Xii Upgrade Stone"):
