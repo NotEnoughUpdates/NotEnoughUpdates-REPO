@@ -6,6 +6,19 @@ from bs4 import BeautifulSoup
 
 from constants import userAgentHeaders
 
+# Manually set prices for pets that are missing or incorrect on the wiki
+# But you should update the wiki instead!
+petPriceOverrides = {
+}
+
+petNameOverrides = {
+    "WISP;1": "DROPLET_WISP;1",
+    "WISP;2": "FROST_WISP;2",
+    "WISP;3": "GLACIAL_WISP;3",
+    "WISP;4": "SUBZERO_WISP;4",
+    "T-REX;4": "TYRANNOSAURUS;4"
+}
+
 
 def fetchData():
     apiUrl = "https://hypixelskyblock.minecraft.wiki/api.php"
@@ -19,32 +32,11 @@ def fetchData():
     try:
         response = requests.get(apiUrl, params=params, headers=userAgentHeaders)
         response.raise_for_status()
-        text = response.text.strip()
-        if text.startswith("/**/(") and text.endswith(")"):
-            text = text[5:-1]
-        return json.loads(text)
+        return response.json()
     except requests.RequestException as e:
         raise requests.RequestException(f"Error fetching data from {apiUrl}: {e}")
     except json.JSONDecodeError as e:
         raise ValueError(f"Error decoding JSON: {e}")
-
-
-RARITIES = ["Common", "Uncommon", "Rare", "Epic", "Legendary", "Mythic"]
-
-
-def processMatch(match, result):
-    pet_id = match.group("PetId").upper().replace(" ", "_")
-    for index, rarity in enumerate(RARITIES):
-        val = match.group(f"Price{rarity}")
-        key = f"{pet_id};{index}"
-
-        adjusted_key = petNameOverrides.get(key, key)
-
-        if val:
-            price = int(val.replace(",", ""))
-            if price == 0:
-                continue
-            result[adjusted_key] = price
 
 
 def processHtmlText(html):
@@ -59,13 +51,11 @@ def processHtmlText(html):
         del columns[0]
         sellPrices = []
         for column in columns:
-            if column.select_one("span.blankCell"):
+            if (column.select_one("span.blankCell") or
+                    "Not interested" in (price := column.text.strip())):
                 sellPrices.append(None)
                 continue
-            price = column.text.strip()
-            if "Not interested" in price:
-                sellPrices.append(None)
-                continue
+
             price = price.replace(" Coins", "").replace(",", "")
             try:
                 price = int(price)
@@ -82,20 +72,6 @@ def processHtmlText(html):
             indexedPetId = petNameOverrides.get(indexedPetId, indexedPetId)
             result[indexedPetId] = price
     return result
-
-
-# Manually set prices for pets that are missing or incorrect on the wiki
-# But you should update the wiki instead!
-petPriceOverrides = {
-}
-
-petNameOverrides = {
-    "WISP;1": "DROPLET_WISP;1",
-    "WISP;2": "FROST_WISP;2",
-    "WISP;3": "GLACIAL_WISP;3",
-    "WISP;4": "SUBZERO_WISP;4",
-    "T-REX;4": "TYRANNOSAURUS;4"
-}
 
 
 def addOverrides(result):
