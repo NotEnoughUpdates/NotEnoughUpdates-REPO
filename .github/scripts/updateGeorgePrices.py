@@ -1,15 +1,15 @@
 import json
-import requests
 import os
 import re
 
+import requests
+
+from constants import userAgentHeaders
+
 
 def fetchJson(apiUrl):
-    headers = {
-        "User-Agent": "NeuRepo"
-    }
     try:
-        response = requests.get(apiUrl, headers=headers)
+        response = requests.get(apiUrl, headers=userAgentHeaders)
         response.raise_for_status()
         text = response.text.strip()
         if text.startswith("/**/(") and text.endswith(")"):
