@@ -9,6 +9,7 @@ on:
 jobs:
   check:
     runs-on: ubuntu-latest
+    name: Check
     if: ${{ '247692460' == github.repository_id || 'workflow_dispatch' == github.event_name }}
     steps:
       - name: Find HEAD Ref
@@ -47,3 +48,20 @@ jobs:
           REPO_BASE_PATH: ${{ github.workspace }}/repo
           GITHUB_EVENT_NAME: ${{ github.event_name }}
           GITHUB_EVENT_PATH: ${{ github.event_path }}
+
+  save_pr:
+    runs-on: ubuntu-latest
+    name: Log Failure
+    needs: check
+    if: failure() && github.event_name == 'pull_request'
+    steps:
+      - name: Save PR Number
+        run: "echo $PR_NUMBER > ${{ runner.temp }}/pr-number"
+        env:
+          PR_NUMBER: ${{ github.event.number }}
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: pr-number
+          archive: 'false'
+          path: ${{ runner.temp }}/pr-number
