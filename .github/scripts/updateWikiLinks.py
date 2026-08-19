@@ -70,9 +70,6 @@ class WikiLinkUpdater:
         self.files = [f for f in files if self.shouldProcess(f)]
 
     def shouldProcess(self, file: ItemFile) -> bool:
-        if file.name.startswith("ATTRIBUTE_"):
-            return False
-
         if "vanilla" in file.data:
             return False
 
