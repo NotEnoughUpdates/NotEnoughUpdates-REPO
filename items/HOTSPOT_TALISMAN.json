@@ -14,8 +14,24 @@
   ],
   "internalname": "HOTSPOT_TALISMAN",
   "clickcommand": "",
-  "crafttext": "",
+  "crafttext": "Requires: Clay Ball V",
   "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
   "infoType": "",
-  "info": []
+  "info": [],
+  "recipes": [
+    {
+      "A1": "ENCHANTED_CLAY_BALL:1",
+      "A2": "RUSTY_COIN:1",
+      "A3": "ENCHANTED_CLAY_BALL:1",
+      "B1": "RUSTY_COIN:1",
+      "B2": "",
+      "B3": "RUSTY_COIN:1",
+      "C1": "ENCHANTED_CLAY_BALL:1",
+      "C2": "RUSTY_COIN:1",
+      "C3": "ENCHANTED_CLAY_BALL:1",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "HOTSPOT_TALISMAN"
+    }
+  ]
 }

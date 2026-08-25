@@ -16,8 +16,24 @@
   ],
   "internalname": "HOTSPOT_RING",
   "clickcommand": "",
-  "crafttext": "",
+  "crafttext": "Requires: Clay Ball VII",
   "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
   "infoType": "",
-  "info": []
+  "info": [],
+  "recipes": [
+    {
+      "A1": "ENCHANTED_CLAY_BALL:8",
+      "A2": "BUSTED_BELT_BUCKLE:1",
+      "A3": "ENCHANTED_CLAY_BALL:8",
+      "B1": "BUSTED_BELT_BUCKLE:1",
+      "B2": "HOTSPOT_TALISMAN:1",
+      "B3": "BUSTED_BELT_BUCKLE:1",
+      "C1": "ENCHANTED_CLAY_BALL:8",
+      "C2": "BUSTED_BELT_BUCKLE:1",
+      "C3": "ENCHANTED_CLAY_BALL:8",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "HOTSPOT_RING"
+    }
+  ]
 }

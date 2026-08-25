@@ -19,8 +19,24 @@
   ],
   "internalname": "NOTHING_IN_A_BOTTLE",
   "clickcommand": "",
-  "crafttext": "",
+  "crafttext": "Requires: Living Metal Heart III",
   "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
   "infoType": "",
-  "info": []
+  "info": [],
+  "recipes": [
+    {
+      "A1": "LIVING_METAL:1",
+      "A2": "LIVING_METAL:1",
+      "A3": "LIVING_METAL:1",
+      "B1": "LIVING_METAL:1",
+      "B2": "METAL_HEART:1",
+      "B3": "LIVING_METAL:1",
+      "C1": "LIVING_METAL:1",
+      "C2": "LIVING_METAL:1",
+      "C3": "LIVING_METAL:1",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "NOTHING_IN_A_BOTTLE"
+    }
+  ]
 }
