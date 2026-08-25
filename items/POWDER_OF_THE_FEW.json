@@ -16,8 +16,21 @@
   ],
   "internalname": "POWDER_OF_THE_FEW",
   "clickcommand": "",
-  "crafttext": "",
+  "crafttext": "Requires: HotM 5",
   "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
   "infoType": "",
-  "info": []
+  "info": [],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "POWDER_OF_ONE:1.0",
+        "GEMSTONE_MIXTURE:4.0",
+        "REFINED_MINERAL:32.0"
+      ],
+      "count": 1.0,
+      "duration": 3600,
+      "overrideOutputId": "POWDER_OF_FEW"
+    }
+  ]
 }

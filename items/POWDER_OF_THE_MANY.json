@@ -18,8 +18,21 @@
   ],
   "internalname": "POWDER_OF_THE_MANY",
   "clickcommand": "",
-  "crafttext": "",
+  "crafttext": "Requires: HotM 8",
   "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
   "infoType": "",
-  "info": []
+  "info": [],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "POWDER_OF_FEW:1.0",
+        "GLACITE_AMALGAMATION:4.0",
+        "GLOSSY_GEMSTONE:32.0"
+      ],
+      "count": 1.0,
+      "duration": 21600,
+      "overrideOutputId": "POWDER_OF_MANY"
+    }
+  ]
 }

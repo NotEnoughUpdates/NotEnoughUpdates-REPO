@@ -16,8 +16,20 @@
   ],
   "internalname": "POWDER_OF_ONE",
   "clickcommand": "",
-  "crafttext": "",
+  "crafttext": "Requires: HotM 2",
   "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
   "infoType": "",
-  "info": []
+  "info": [],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "REFINED_MINERAL:1.0",
+        "REFINED_TITANIUM:1.0"
+      ],
+      "count": 1.0,
+      "duration": 3600,
+      "overrideOutputId": "POWDER_OF_ONE"
+    }
+  ]
 }
