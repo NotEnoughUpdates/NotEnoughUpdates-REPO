@@ -18,5 +18,34 @@
   "crafttext": "",
   "modver": "Firmament 44.2.0-dev+mc1.21.11+ga2a6cfec",
   "infoType": "",
-  "info": []
+  "info": [],
+  "recipes": [
+    {
+      "level": 65,
+      "coins": 82,
+      "xp": 85,
+      "name": "§cGorf",
+      "render": "Frog",
+      "panorama": "lotus_atoll",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "LOTUS:8",
+          "chance": "100%"
+        },
+        {
+          "id": "LOTUS_SILVER:1",
+          "chance": "5%"
+        },
+        {
+          "id": "REVERSE_REFORGE_STONE_CORE:1",
+          "chance": "1%"
+        },
+        {
+          "id": "DYE_AQUAMARINE",
+          "chance": "0.00004%"
+        }
+      ]
+    }
+  ]
 }
