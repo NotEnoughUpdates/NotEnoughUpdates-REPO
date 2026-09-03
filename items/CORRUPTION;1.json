@@ -1,22 +1,21 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§fEnchanted Book",
-  "nbttag": "{ExtraAttributes:{enchantments:{corruption:1},id:\"CORRUPTION;1\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Corruption I\",1:\"§7Gain a §a1% §7chance to spawn a\",2:\"§7Corrupted Sea Creature.\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§6Source:\",8:\"§aI-V: §7Fishing\",9:\"\",10:\"§6Applied To:\",11:\"§7- §fFishing Rod\",12:\"§7- §fFishing Weapon\",13:\"\",14:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
+  "nbttag": "{ExtraAttributes:{enchantments:{corruption:1},id:\"CORRUPTION;1\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Corruption I\",3:\"§7Gain a §a1% §7chance to spawn a\",4:\"§7Corrupted Sea Creature.\",5:\"\",6:\"§6Sources:\",7:\"§aI: §7Crafting Recipe\",8:\"§aI-V: §7Bazaar\",9:\"\",10:\"§6Applied To:\",11:\"§7- §fFishing Rod\",12:\"\",13:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
   "damage": 0,
   "lore": [
+    "§8Combinable in Anvil",
+    "",
     "§9Corruption I",
     "§7Gain a §a1% §7chance to spawn a",
     "§7Corrupted Sea Creature.",
     "",
-    "§7Use this on an item in an Anvil",
-    "§7to apply it!",
-    "",
-    "§6Source:",
-    "§aI-V: §7Fishing",
+    "§6Sources:",
+    "§aI: §7Crafting Recipe",
+    "§aI-V: §7Bazaar",
     "",
     "§6Applied To:",
     "§7- §fFishing Rod",
-    "§7- §fFishing Weapon",
     "",
     "§f§lCOMMON"
   ],
@@ -27,5 +26,21 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Corruption"
+  ],
+  "recipes": [
+    {
+      "A1": "",
+      "A2": "",
+      "A3": "",
+      "B1": "",
+      "B2": "ENCHANTED_PAPER:1",
+      "B3": "ENCHANTED_PAPER:1",
+      "C1": "",
+      "C2": "ENCHANTED_PAPER:1",
+      "C3": "CORRUPTED_FRAGMENT:64",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "CORRUPTION;1"
+    }
   ]
 }
