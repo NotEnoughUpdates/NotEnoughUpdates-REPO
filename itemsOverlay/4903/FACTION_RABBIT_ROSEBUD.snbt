@@ -1,0 +1,46 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			faction_rabbit_id: "rosebud",
+			id: "FACTION_RABBIT"
+		},
+		"minecraft:profile": {
+			id: [I;
+				-779093828,
+				1749300179,
+				-1250838204,
+				-1053186338
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "shXxAqtbkpL6pN4LOVf056x8BkaxlKMxoDBMdU1JP7oTThw4NVkICQQS7JEQvRs1BZdT4TBsJ5YEKUBs/zbXawJ6lHI6FY/ds9NM8iaX7Z40S6jnQ83EVf0ZeLqKnc5kL0SDEthPWhp+tj5ojo5lFn7AP1DA/dek7y0A+bHiNN1q3DxtOMkMqEQpbOF4/CXu6KBlFQM6hPuxhKy5U1h0/oBMsYTapFFmJv1gYBkrn5OuUPBfszv5ahqqFjSJXYrJrouQSRu21TIXSfPit+VuqVl2h4s52VcQodrzWO8GbFZcXWYyeUsASwqfKFuzY9p7H2YyBwqjlftvq3k5EImGms/wXw7ur7f11QTOng7X5Q/xAZGgKdkzuiSzf11snTAzsNuQpQHu0f3Q20BeP+JJPvrTf13XrLEOz4gZm96vWyyFfauyIUHHwcaMOoCjsTNAfUsZg3b/iwNk5JX+3goraDTBztffr6r9abLqahSjVIIVMIwSnfLlXzQ2eusjfsOFEBICanRYYn17wwDUtRI6Oglqy2AaHO7ftIIvvUUdBOlQZ7rHxFzs4Up8EpNOQkVJxsNTBbq/6HTA69wEAmUGtXfOTEFioLr29srC6APCHyKDUPyu9+pSkZM6FcA7/pSIz80Bevlv4TqvtEkc5/i13ystNfT3v+FC/6TUYzvwIJA=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTc4NjU1MDUwMDQ0MCwKICAicHJvZmlsZUlkIiA6ICJiNTQ1ZDcxNDJkZmM0MWVlYjBjMDcwOTkwOTI4NTE0MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJraXdpNDgxMiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMjJmZmI2NTFjNWZmMjVhMjhmY2NlMTVkNmY4Yzk1OGM1ZjhmOTgzYzlkZmU5ZWMwODNlMDc5ZGM3MDA0MzVlIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:dyed_color",
+				"minecraft:charged_projectiles"
+			]
+		},
+		"minecraft:tooltip_style": "hypixel_skyblock:legendary"
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4903,
+		modVersion: "Firmament 44.2.0-dev+mc26.2+g7a7c1559"
+	}
+}
