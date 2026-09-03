@@ -76,6 +76,9 @@ class WikiLinkUpdater:
         if file.data["itemid"] == "minecraft:potion":
             return False
 
+        if "FACTION_RABBIT" in file.data["internalname"]:
+            return False
+
         existingInfo = file.data.get("info", [])
         validLinks = [
             link for link in existingInfo if link.startswith(urlPrefix)
