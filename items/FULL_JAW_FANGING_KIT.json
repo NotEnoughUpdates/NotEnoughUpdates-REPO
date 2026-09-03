@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:dye",
   "displayname": "§9Full-Jaw Fanging Kit",
-  "nbttag": "{ExtraAttributes:{id:\"FULL_JAW_FANGING_KIT\"},HideFlags:254,ItemModel:\"minecraft:bone_meal\",display:{Lore:[0:\"§8Reforge Stone\",1:\"§8Combinable in Anvil\",2:\"\",3:\"§7Applies the §9Fanged §7reforge when\",4:\"§7combined with a melee weapon.\",5:\"\",6:\"§8§oFangs! Very menacing.\",7:\"\",8:\"§9Fanged §7(§6Legendary§7):\",9:\"§7Strength: §c+60\",10:\"§7Crit Chance: §9+8%\",11:\"§7Attack Speed: §e+9%\",12:\"§7Vitality: §4+8\",13:\"\",14:\"§9Fanged Bonus\",15:\"§7Every §c7th §7melee hit on an enemy\",16:\"§7deals §c+100% §7damage.\",17:\"\",18:\"§7Requires §aMining Skill Level XIII§7!\",19:\"\",20:\"§9§lRARE REFORGE STONE\"],Name:\"§9Full-Jaw Fanging Kit\"},ench:[]}",
+  "nbttag": "{ExtraAttributes:{id:\"FULL_JAW_FANGING_KIT\"},HideFlags:254,ItemModel:\"minecraft:bone_meal\",display:{Lore:[0:\"§8Reforge Stone\",1:\"§8Combinable in Anvil\",2:\"\",3:\"§7Applies the §9Fanged §7reforge when\",4:\"§7combined with a melee weapon.\",5:\"\",6:\"§8§oFangs! Very menacing.\",7:\"\",8:\"§9Fanged §7(§6Legendary§7):\",9:\"§7Strength: §c+60\",10:\"§7Crit Chance: §9+8%\",11:\"§7Attack Speed: §e+9%\",12:\"§7Vitality: §4+4\",13:\"\",14:\"§9Fanged Bonus\",15:\"§7Every §c7th §7melee hit on an enemy\",16:\"§7deals §c+100% §7damage.\",17:\"\",18:\"§4❣ §cRequires §aMining Skill 13§c.\",19:\"\",20:\"§9§lRARE REFORGE STONE\"],Name:\"§9Full-Jaw Fanging Kit\"},ench:[]}",
   "damage": 15,
   "lore": [
     "§8Reforge Stone",
@@ -16,22 +16,38 @@
     "§7Strength: §c+60",
     "§7Crit Chance: §9+8%",
     "§7Attack Speed: §e+9%",
-    "§7Vitality: §4+8",
+    "§7Vitality: §4+4",
     "",
     "§9Fanged Bonus",
     "§7Every §c7th §7melee hit on an enemy",
     "§7deals §c+100% §7damage.",
     "",
-    "§7Requires §aMining Skill Level XIII§7!",
+    "§4❣ §cRequires §aMining Skill 13§c.",
     "",
     "§9§lRARE REFORGE STONE"
   ],
   "internalname": "FULL_JAW_FANGING_KIT",
   "clickcommand": "",
   "crafttext": "Requires: Hemovibe VII",
-  "modver": "Firmament 44.1.0-dev+mc1.21.11+g19f28a05",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g02e85d46",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Full-Jaw_Fanging_Kit"
+  ],
+  "recipes": [
+    {
+      "A1": "HEMOGLASS:16",
+      "A2": "",
+      "A3": "HEMOGLASS:16",
+      "B1": "ENCHANTED_REDSTONE_BLOCK:1",
+      "B2": "ENCHANTED_REDSTONE_BLOCK:1",
+      "B3": "ENCHANTED_REDSTONE_BLOCK:1",
+      "C1": "ENCHANTED_BONE_BLOCK:1",
+      "C2": "ENCHANTED_BONE_BLOCK:1",
+      "C3": "ENCHANTED_BONE_BLOCK:1",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "FULL_JAW_FANGING_KIT"
+    }
   ]
 }

@@ -1,10 +1,16 @@
-import urllib.request, json, os
+import json
+import os
+
+import requests
+
+from constants import userAgentHeaders
 
 items_api = "https://api.hypixel.net/v2/resources/skyblock/items"
 file_path = "constants/gemstonecosts.json"
 
-with urllib.request.urlopen(items_api) as url:
-    data = json.load(url)
+res = requests.get(items_api, headers=userAgentHeaders)
+res.raise_for_status()
+data = res.json()
 
 slot_unlock_cost = {}
 
@@ -20,7 +26,7 @@ for item in data["items"]:
                 for cost in slot.get("costs"):
                     if cost.get("coins", 0) != 0:
                         gemstones_dict["SKYBLOCK_COIN"] = cost.get("coins", 0)
-                    if (cost.get("item_id", None)):
+                    if cost.get("item_id", None):
                         gemstones_dict[cost.get("item_id")] = cost.get("amount")
 
                 while slot_name in cost_dict:  # loop for unique slots
@@ -39,7 +45,7 @@ for item in data["items"]:
                 cost_dict[slot_name] = []
                 slot_unlock_cost[item["id"]] = cost_dict
 
-#print(json.dumps(slot_unlock_cost, indent=2, sort_keys=True))
+# print(json.dumps(slot_unlock_cost, indent=2, sort_keys=True))
 
 pretty_slot_unlock_cost = {}
 

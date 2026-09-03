@@ -1,44 +1,31 @@
 {
   "itemid": "minecraft:enchanted_book",
   "displayname": "§fEnchanted Book",
-  "nbttag": "{ExtraAttributes:{enchantments:{stealth:1},id:\"STEALTH;1\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Stealth I\",1:\"§7Causes timid creatures that normally\",2:\"§7flee to remain still.\",3:\"\",4:\"§7Applicable on: §9Boots\",5:\"§7Apply Cost: §310 Exp Levels\",6:\"\",7:\"§e▲ §7Stealth cannot be combined!\",8:\"§7Use this on an item in an Anvil to\",9:\"§7apply it!\",10:\"\",11:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
+  "nbttag": "{ExtraAttributes:{enchantments:{stealth:1},id:\"STEALTH;1\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Stealth I\",3:\"§e Timid §7mobs have a §a10% §7chance to\",4:\"§7remain still instead of fleeing.\",5:\"\",6:\"§6Source:\",7:\"§aI: §7Chillblade and Chillshot\",8:\"§aI-V: §7Bazaar\",9:\"§aVI: §7Distant Echo\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fBoots\",13:\"\",14:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"}}",
   "damage": 0,
   "lore": [
+    "§8Combinable in Anvil",
+    "",
     "§9Stealth I",
-    "§7Causes timid creatures that normally",
-    "§7flee to remain still.",
+    "§e Timid §7mobs have a §a10% §7chance to",
+    "§7remain still instead of fleeing.",
     "",
-    "§7Applicable on: §9Boots",
-    "§7Apply Cost: §310 Exp Levels",
+    "§6Source:",
+    "§aI: §7Chillblade and Chillshot",
+    "§aI-V: §7Bazaar",
+    "§aVI: §7Distant Echo",
     "",
-    "§e▲ §7Stealth cannot be combined!",
-    "§7Use this on an item in an Anvil to",
-    "§7apply it!",
+    "§6Applied To:",
+    "§7- §fBoots",
     "",
     "§f§lCOMMON"
   ],
   "internalname": "STEALTH;1",
   "clickcommand": "",
   "crafttext": "",
-  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "modver": "Firmament nogitversion+mc26.2",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Stealth"
-  ],
-  "recipes": [
-    {
-      "A1": "",
-      "A2": "",
-      "A3": "",
-      "B1": "",
-      "B2": "PAPER:1",
-      "B3": "PAPER:1",
-      "C1": "",
-      "C2": "PAPER:1",
-      "C3": "MANGCORE:1",
-      "type": "crafting",
-      "count": 1,
-      "overrideOutputId": "STEALTH;1"
-    }
   ]
 }
