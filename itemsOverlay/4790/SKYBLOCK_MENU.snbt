@@ -1,9 +1,8 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "PET_ITEM_MINING_SKILL_BOOST_COMMON"
+			id: "SKYBLOCK_MENU"
 		},
-		"minecraft:enchantment_glint_override": 1b,
 		"minecraft:tooltip_display": {
 			hidden_components: [
 				"minecraft:jukebox_playable",
@@ -16,18 +15,16 @@
 				"minecraft:banner_patterns",
 				"minecraft:trim",
 				"minecraft:potion_contents",
-				"minecraft:block_entity_data",
-				"minecraft:dyed_color"
+				"minecraft:dyed_color",
+				"minecraft:charged_projectiles"
 			]
-		},
-		"minecraft:unbreakable": {
 		},
 		"minecraft:tooltip_style": "hypixel_skyblock:common"
 	},
 	count: 1,
-	id: "minecraft:iron_pickaxe",
+	id: "minecraft:nether_star",
 	source: {
-		dataVersion: 4556,
-		modVersion: "Firmament 42.0.0+mc1.21.10"
+		dataVersion: 4790,
+		modVersion: "Firmament 44.3.0-dev+mc26.1.2+gc49a27a6"
 	}
 }
