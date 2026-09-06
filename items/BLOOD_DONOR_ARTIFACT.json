@@ -22,15 +22,20 @@
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Blood_Donor_Artifact"
   ],
-  "recipe": {
-    "A1": "HEMOBOMB:16",
-    "A2": "HEMOBOMB:16",
-    "A3": "HEMOBOMB:16",
-    "B1": "HEMOBOMB:16",
-    "B2": "BLOOD_DONOR_RING:1",
-    "B3": "HEMOBOMB:16",
-    "C1": "HEMOBOMB:16",
-    "C2": "HEMOBOMB:16",
-    "C3": "HEMOBOMB:16"
-  }
+  "recipes": [
+    {
+      "A1": "HEMOBOMB:4",
+      "A2": "HEMOBOMB:4",
+      "A3": "HEMOBOMB:4",
+      "B1": "HEMOBOMB:4",
+      "B2": "BLOOD_DONOR_RING:1",
+      "B3": "HEMOBOMB:4",
+      "C1": "HEMOBOMB:4",
+      "C2": "HEMOBOMB:4",
+      "C3": "HEMOBOMB:4",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "BLOOD_DONOR_ARTIFACT"
+    }
+  ]
 }

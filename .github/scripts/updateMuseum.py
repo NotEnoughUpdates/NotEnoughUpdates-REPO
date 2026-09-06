@@ -1,7 +1,10 @@
 import json
-import requests
 import os
 from collections import defaultdict
+
+import requests
+
+from constants import userAgentHeaders
 
 outputJson = {}
 
@@ -19,7 +22,7 @@ mappedIds = {}
 
 def fetchJson(apiUrl):
     try:
-        response = requests.get(apiUrl)
+        response = requests.get(apiUrl, headers=userAgentHeaders)
         response.raise_for_status()
         return response.json()
     except requests.RequestException as e:

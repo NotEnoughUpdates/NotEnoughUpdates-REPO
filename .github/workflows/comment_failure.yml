@@ -1,0 +1,58 @@
+name: Comment Failure
+on:
+  workflow_run:
+    workflows: [ "Check Files" ]
+    types: [ completed ]
+
+permissions:
+  pull-requests: write
+  actions: read
+
+jobs:
+  comment_failure:
+    runs-on: ubuntu-latest
+    if: github.event.workflow_run.event == 'pull_request' && github.event.workflow_run.conclusion == 'failure'
+    steps:
+      - name: Download Artifact
+        uses: actions/download-artifact@v8
+        with:
+          name: pr-number
+          path: ${{ runner.temp }}/artifact
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ secrets.GH_PAT }}
+      - name: Find Job ID
+        id: job-id
+        uses: actions/github-script@v9
+        with:
+          script: |
+            const response = await github.rest.actions.listJobsForWorkflowRun({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              run_id: ${{ github.event.workflow_run.id}}
+            });
+            const job = response.data.jobs.find(job => job.name === 'Check');
+            if (job == null) throw new Error('Failed to find Job ID');
+            return job.id;
+      - name: Comment on PR
+        uses: actions/github-script@v9
+        with:
+          script: |
+            // Boilerplate code to get PR Number from artifact
+            const fs = require('fs');
+            const path = require('path');
+            const file = '${{ runner.temp }}/artifact/pr-number';
+            const issue_number_raw = fs.readFileSync(file, 'utf8').trim();
+            const issue_number = Number(issue_number_raw);
+            if (!Number.isInteger(issue_number)) {
+              throw new Error(`Invalid PR number in pr_number artifact: "${issue_number_raw}"`);
+            }
+            
+            const baseUrl = "${{ github.event.workflow_run.html_url }}";
+            const summaryUrl = baseUrl + "/attempts/${{ github.event.workflow_run.run_attempt }}/#summary-${{ steps.job-id.outputs.result }}";
+            const logUrl = baseUrl + "/job/${{ steps.job-id.outputs.result }}";
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue_number,
+              body: `I've detected some problems you might want to take a look at, you can see them in the [Workflow Summary](${summaryUrl}) or [Workflow Log](${logUrl}).`
+            });

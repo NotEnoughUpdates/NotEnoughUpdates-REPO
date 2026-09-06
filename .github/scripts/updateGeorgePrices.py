@@ -1,93 +1,14 @@
 import json
-import requests
 import os
-import re
 
+import requests
+from bs4 import BeautifulSoup
 
-def fetchJson(apiUrl):
-    headers = {
-        "User-Agent": "NeuRepo"
-    }
-    try:
-        response = requests.get(apiUrl, headers=headers)
-        response.raise_for_status()
-        text = response.text.strip()
-        if text.startswith("/**/(") and text.endswith(")"):
-            text = text[5:-1]
-        return json.loads(text)
-    except requests.RequestException as e:
-        raise requests.RequestException(f"Error fetching data from {apiUrl}: {e}")
-    except json.JSONDecodeError as e:
-        raise ValueError(f"Error decoding JSON: {e}")
-
-
-RARITIES = ["Common", "Uncommon", "Rare", "Epic", "Legendary", "Mythic"]
-
-defaultPattern = re.compile(
-    r'{{!}} style="text-align: left" {{!}} {{Pet/(?P<PetId>[A-Z_]+)}} ?\n'
-    r'{{!}} ?(?:{{Coins\|(?P<PriceCommon>[0-9,]+)\|No}})? ?\n'
-    r'{{!}} ?(?:{{Coins\|(?P<PriceUncommon>[0-9,]+)\|No}})? ?\n'
-    r'{{!}} ?(?:{{Coins\|(?P<PriceRare>[0-9,]+)\|No}})? ?\n'
-    r'{{!}} ?(?:{{Coins\|(?P<PriceEpic>[0-9,]+)\|No}})? ?\n'
-    r'{{!}} ?(?:{{Coins\|(?P<PriceLegendary>[0-9,]+)\|No}})? ?\n'
-    r'{{!}} ?(?:{{Coins\|(?P<PriceMythic>[0-9,]+)\|No}})? ?\n',
-    re.MULTILINE
-)
-
-alternatePattern = re.compile(
-    r'{{!}} style="text-align: left" {{!}} {{Image\|.+}} \[\[(?P<PetId>.+) Pet]] ?\n'
-    r'{{!}} ?(?:{{Coins\|(?P<PriceCommon>[0-9,]+)\|No}})? ?\n'
-    r'{{!}} ?(?:{{Coins\|(?P<PriceUncommon>[0-9,]+)\|No}})? ?\n'
-    r'{{!}} ?(?:{{Coins\|(?P<PriceRare>[0-9,]+)\|No}})? ?\n'
-    r'{{!}} ?(?:{{Coins\|(?P<PriceEpic>[0-9,]+)\|No}})? ?\n'
-    r'{{!}} ?(?:{{Coins\|(?P<PriceLegendary>[0-9,]+)\|No}})? ?\n'
-    r'{{!}} ?(?:{{Coins\|(?P<PriceMythic>[0-9,]+)\|No}})? ?\n',
-    re.MULTILINE
-)
-
-
-def processMatch(match, result):
-    pet_id = match.group("PetId").upper().replace(" ", "_")
-    for index, rarity in enumerate(RARITIES):
-        val = match.group(f"Price{rarity}")
-        key = f"{pet_id};{index}"
-
-        adjusted_key = petNameOverrides.get(key, key)
-
-        if val:
-            price = int(val.replace(",", ""))
-            if price == 0:
-                continue
-            result[adjusted_key] = price
-
-
-def processWikiText(text):
-    result = {}
-    for match in defaultPattern.finditer(text):
-        processMatch(match, result)
-
-    for match in alternatePattern.finditer(text):
-        processMatch(match, result)
-
-    addOverrides(result)
-
-    return result
-
+from constants import userAgentHeaders
 
 # Manually set prices for pets that are missing or incorrect on the wiki
+# But you should update the wiki instead!
 petPriceOverrides = {
-    "RIFT_FERRET;3": 50_000,
-    "RIFT_FERRET;4": 50_000,
-    "BABY_YETI;0": 1_000_000,
-    "BABY_YETI;1": 1_250_000,
-    "BABY_YETI;2": 1_500_000,
-    "BABY_YETI;3": 2_000_000,
-    "BABY_YETI;4": 2_500_000,
-    "BABY_YETI;5": 5_000_000,
-    "ROSE_DRAGON;4": 5_000_000,
-    "SNOWMAN;5": 2_000_000,
-    "ELEPHANT;5": 10_000_000,
-    "BEE;5": 2_500_000,
 }
 
 petNameOverrides = {
@@ -95,7 +16,64 @@ petNameOverrides = {
     "WISP;2": "FROST_WISP;2",
     "WISP;3": "GLACIAL_WISP;3",
     "WISP;4": "SUBZERO_WISP;4",
+    "T-REX;4": "TYRANNOSAURUS;4"
 }
+
+
+def fetchData():
+    apiUrl = "https://hypixelskyblock.minecraft.wiki/api.php"
+    params = {
+        "format": "json",
+        "action": "parse",
+        "prop": "text",
+        "page": "George/Prices"
+    }
+
+    try:
+        response = requests.get(apiUrl, params=params, headers=userAgentHeaders)
+        response.raise_for_status()
+        return response.json()
+    except requests.RequestException as e:
+        raise requests.RequestException(f"Error fetching data from {apiUrl}: {e}")
+    except json.JSONDecodeError as e:
+        raise ValueError(f"Error decoding JSON: {e}")
+
+
+def processHtmlText(html):
+    soup = BeautifulSoup(html, "html.parser")
+    rows = soup.select("tr")
+    del rows[0:2]  # remove headers
+
+    result = {}
+    for row in rows:
+        columns = row.select("td")
+        petName = columns[0].text.strip()
+        if 'AHN' in petName:
+            continue
+        del columns[0]
+        sellPrices = []
+        for column in columns:
+            if (column.select_one("span.blankCell") or
+                    "Not interested" in (price := column.text.strip())):
+                sellPrices.append(None)
+                continue
+
+            price = price.replace(" Coins", "").replace(",", "")
+            try:
+                price = int(price)
+            except ValueError:
+                sellPrices.append(None)
+                continue
+            sellPrices.append(price)
+
+        petId = petName.upper().replace(" ", "_")
+        for i, price in enumerate(sellPrices):
+            if price is None:
+                continue
+            indexedPetId = petId + ";" + str(i)
+            indexedPetId = petNameOverrides.get(indexedPetId, indexedPetId)
+            result[indexedPetId] = price
+    return result
 
 
 def addOverrides(result):
@@ -103,14 +81,14 @@ def addOverrides(result):
         result[key] = value
 
 
-if __name__ == '__main__':
-    url = "https://wiki.hypixel.net/api.php?action=query&format=json&prop=revisions&titles=Template:George_List&callback=&rvprop=content&rvslots=main"
-    raw = fetchJson(url)
-    pages = raw["query"]["pages"]
-    page = next(iter(pages.values()))
-    wikitext = page["revisions"][0]["slots"]["main"]["*"]
-    petPrices = processWikiText(wikitext)
+def Main():
+    raw = fetchData()
+    page = raw["parse"]["text"]["*"]
+    petPrices = processHtmlText(page)
+    addOverrides(petPrices)
     outputJson = {
+        "license1": "Source: Hypixel SkyBlock Wiki (https://hypixelskyblock.minecraft.wiki/w/George/Prices)",
+        "license2": "License: CC BY-NC-SA 3.0 (https://meta.weirdgloop.org/w/Licensing)",
         "notice": "This file is automatically generated and should not be modified manually. Please edit the `updateGeorgePrices.py` file instead.",
         "prices": petPrices
     }
@@ -120,3 +98,7 @@ if __name__ == '__main__':
         json.dump(outputJson, json_file, indent=2, sort_keys=True)
 
     print(f"Saved {len(petPrices)} pet prices to george.json")
+
+
+if __name__ == '__main__':
+    Main()

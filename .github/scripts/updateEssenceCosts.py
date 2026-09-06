@@ -1,13 +1,15 @@
 import json
+import os
 from string import capwords
 
 import requests
-import os
+
+from constants import userAgentHeaders
 
 
 def fetchJson(apiUrl):
     try:
-        response = requests.get(apiUrl)
+        response = requests.get(apiUrl, headers=userAgentHeaders)
         response.raise_for_status()
         return response.json()
     except requests.RequestException as e:

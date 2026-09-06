@@ -2222,6 +2222,61 @@
       }
     }
   },
+  "MARSHROOM": {
+    "internalName": "MARSHROOM",
+    "reforgeName": "Marshy",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "EQUIPMENT",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts": {
+      "COMMON": 5000,
+      "UNCOMMON": 25000,
+      "RARE": 100000,
+      "EPIC": 250000,
+      "LEGENDARY": 500000,
+      "MYTHIC": 1000000
+    },
+    "reforgeAbility": "§7Increases §3Forest Whispers §7gain by §a+1%§7.",
+    "reforgeStats": {
+      "COMMON": {
+        "sea_creature_chance": 0.1,
+        "foraging_fortune": 0.5,
+        "fishing_speed": 0.2
+      },
+      "UNCOMMON": {
+        "sea_creature_chance": 0.2,
+        "foraging_fortune": 1,
+        "fishing_speed": 0.4
+      },
+      "RARE": {
+        "sea_creature_chance": 0.3,
+        "foraging_fortune": 1.5,
+        "fishing_speed": 0.6
+      },
+      "EPIC": {
+        "sea_creature_chance": 0.5,
+        "foraging_fortune": 2.5,
+        "fishing_speed": 1
+      },
+      "LEGENDARY": {
+        "sea_creature_chance": 0.7,
+        "foraging_fortune": 3.5,
+        "fishing_speed": 1.4
+      },
+      "MYTHIC": {
+        "sea_creature_chance": 0.9,
+        "foraging_fortune": 4.5,
+        "fishing_speed": 1.8
+      }
+    }
+  },
   "MIDAS_JEWEL": {
     "internalName": "MIDAS_JEWEL",
     "reforgeName": "Gilded",
