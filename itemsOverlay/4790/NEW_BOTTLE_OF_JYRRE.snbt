@@ -1,7 +1,7 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			bottle_of_jyrre_seconds: 0,
+			bottle_of_jyrre_seconds: 380,
 			id: "NEW_BOTTLE_OF_JYRRE"
 		},
 		"minecraft:tooltip_display": {
@@ -16,8 +16,8 @@
 				"minecraft:banner_patterns",
 				"minecraft:trim",
 				"minecraft:potion_contents",
-				"minecraft:block_entity_data",
-				"minecraft:dyed_color"
+				"minecraft:dyed_color",
+				"minecraft:charged_projectiles"
 			]
 		},
 		"minecraft:tooltip_style": "hypixel_skyblock:rare"
@@ -25,7 +25,7 @@
 	count: 1,
 	id: "minecraft:potion",
 	source: {
-		dataVersion: 4671,
-		modVersion: "Firmament 44.1.0-dev+mc1.21.11+g3b06339"
+		dataVersion: 4790,
+		modVersion: "Firmament 44.3.0-dev+mc26.1.2+gc49a27a6"
 	}
 }
