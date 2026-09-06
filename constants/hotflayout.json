@@ -264,34 +264,38 @@
         "x": 3,
         "y": 3,
         "maxLevel": 5,
-        "powder": "DESERT_WHISPERS",
+        "powder": "(if (lt level 3) FOREST_WHISPERS (if (lt level 5) DESERT_WHISPERS))",
         "item": "(if (= level0 maxLevel) :MANGROVE_WOOD :MANGROVE_ROOTS)",
-        "cost": "",
+        "cost": "(list.at (list.new 0 50000 100000 200000 300000 0) level)",
         "statTokens": "(if (= level 5) 2 1)",
         "statXP": "(list.at (list.new 0 25 60 110 175 250) level)",
         "lore": [
           {
             "text": "§7§8+§c1 Axe Ability Level",
-            "onlyIf": "(gt level 0)"
-          },
-          {
-            "text": "§7§8+§25% §2∮ Sweep§7.",
             "onlyIf": "(gt level 1)"
           },
           {
-            "text": "§7§8+§320 Forest Whispers §7per Tree Gift.",
+            "text": "§7§8+§25% §2∮ Sweep§7.",
             "onlyIf": "(gt level 2)"
           },
           {
-            "text": "§7§8+§32 Forest Whispers §7per",
+            "text": "§3+20 Forest Whispers §7per §aFig§7 and §2Mangrove §7Tree Gift.",
             "onlyIf": "(gt level 2)"
           },
           {
-            "text": "§7Fig/Mangrove logs cut.",
+            "text": "§3+2 Forest Whispers §7per §aFig§7 and §2Mangrove §7log cut.",
             "onlyIf": "(gt level 2)"
           },
           {
-            "text": "§7§8+§210% §2∮ Sweep§7.",
+            "text": "§6+20 Desert Whispers §7per §6Helix §7Tree §7Gift.",
+            "onlyIf": "(gt level 2)"
+          },
+          {
+            "text": "§6+2 Desert Whispers §7per §6Helix §7log cut.",
+            "onlyIf": "(gt level 2)"
+          },
+          {
+            "text": "§8+§d5 Tracking §7on §2Tree Gifts§7.",
             "onlyIf": "(gt level 3)"
           },
           {
@@ -521,10 +525,9 @@
         "powder": "DESERT_WHISPERS",
         "item": "(npi level0 maxLevel)",
         "cost": "",
-        "stat": "(* level 0.25)",
+        "stat": "(* level 0.1)",
         "lore": [
-          "§7Grants a §a+§a{stat}% §7chance to fell the",
-          "§7entire §aTree §7when cutting it!"
+          "§7Grants §4{stat} Timber§7."
         ]
       },
       "two_for_one": {
@@ -535,7 +538,7 @@
         "powder": "DESERT_WHISPERS",
         "item": "(npi level0 maxLevel)",
         "cost": "",
-        "stat": "(* level 0.1)",
+        "stat": "(* level 0.25)",
         "lore": [
           "§7Grants a §a+§a{stat}% §7chance to fell the",
           "§7entire §aTree §7when cutting it!"
