@@ -1505,6 +1505,126 @@
       }
     }
   },
+  "EAGLE": {
+    "COMMON": {
+      "1": {
+        "otherNums": [
+          0.3
+        ],
+        "statNums": {
+          "STRENGTH": 0.5,
+          "INTELLIGENCE": 0.5,
+          "SPEED": 0.5
+        }
+      },
+      "100": {
+        "otherNums": [
+          30
+        ],
+        "statNums": {
+          "STRENGTH": 50,
+          "INTELLIGENCE": 50,
+          "SPEED": 50
+        }
+      }
+    },
+    "UNCOMMON": {
+      "1": {
+        "otherNums": [
+          0.4
+        ],
+        "statNums": {
+          "STRENGTH": 0.5,
+          "INTELLIGENCE": 0.5,
+          "SPEED": 0.5
+        }
+      },
+      "100": {
+        "otherNums": [
+          40
+        ],
+        "statNums": {
+          "STRENGTH": 50,
+          "INTELLIGENCE": 50,
+          "SPEED": 50
+        }
+      }
+    },
+    "RARE": {
+      "1": {
+        "otherNums": [
+          0.4,
+          0.2
+        ],
+        "statNums": {
+          "STRENGTH": 0.5,
+          "INTELLIGENCE": 0.5,
+          "SPEED": 0.5
+        }
+      },
+      "100": {
+        "otherNums": [
+          40,
+          20
+        ],
+        "statNums": {
+          "STRENGTH": 50,
+          "INTELLIGENCE": 50,
+          "SPEED": 50
+        }
+      }
+    },
+    "EPIC": {
+      "1": {
+        "otherNums": [
+          0.5,
+          0.3
+        ],
+        "statNums": {
+          "STRENGTH": 0.5,
+          "INTELLIGENCE": 0.5,
+          "SPEED": 0.5
+        }
+      },
+      "100": {
+        "otherNums": [
+          50,
+          30
+        ],
+        "statNums": {
+          "STRENGTH": 50,
+          "INTELLIGENCE": 50,
+          "SPEED": 50
+        }
+      }
+    },
+    "LEGENDARY": {
+      "1": {
+        "otherNums": [
+          0.5,
+          0.3,
+          0.1
+        ],
+        "statNums": {
+          "STRENGTH": 0.5,
+          "INTELLIGENCE": 0.5,
+          "SPEED": 0.5
+        }
+      },
+      "100": {
+        "otherNums": [
+          50,
+          30,
+          10
+        ],
+        "statNums": {
+          "STRENGTH": 50,
+          "INTELLIGENCE": 50,
+          "SPEED": 50
+        }
+      }
+    }
+  },
   "EERIE": {
     "COMMON": {
       "1": {
@@ -4782,21 +4902,17 @@
     }
   },
   "PRECURSOR_DRONE": {
-    "COMMON": {
+    "LEGENDARY": {
       "1": {
         "otherNums": [],
         "statNums": {
-          "SEA_CREATURE_CHANCE": 0.1,
-          "MINING_FORTUNE": 0.3,
-          "FORAGING_FORTUNE": 0.3
+          "SPEED": 0.05
         }
       },
       "100": {
         "otherNums": [],
         "statNums": {
-          "SEA_CREATURE_CHANCE": 10,
-          "MINING_FORTUNE": 30,
-          "FORAGING_FORTUNE": 30
+          "SPEED": 25
         }
       }
     }
