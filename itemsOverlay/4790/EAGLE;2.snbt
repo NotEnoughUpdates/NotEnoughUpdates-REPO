@@ -1,0 +1,46 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "PET",
+			petInfo: '{"type":"EAGLE","tier":"RARE","exp":0.0,"candyUsed":0}'
+		},
+		"minecraft:profile": {
+			id: [I;
+				1275535252,
+				1688679398,
+				-1894714354,
+				1479638864
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "HvIEk4F1kdfTSG2Mq96aMHDpqMaiFMC4Xo/etM1n1xdYe/L1ZArz9bW3aZCaIiXu16l4y0okn5B7ihX4u+SBrsS0QpZkWIriZGrMjSzAVXdxqOf/k4kGC6lYVIN8/j/3V4qeFY9kjCM0SW/i3eVUzPA4QQ8SkvV66WXZ9sJOk6cBL/bLw8RczvgqBAZJkCFud6PNoZ5zgSgEXTk6yGkODFvTi7+/8AEw1T9wH4xWwBE79lnUisHt43B0xc/xTUbZXmSA5JvgVDjJpHUK2TEOzn6tH1xLMy7Eg4a8JZKKRFpOl3y+5pgarq/ipUh0UZFmToe75sMvRjXrwpuU3rpyYnhbtqGQ8Z9/nkWPQuznZoWTncq9onl4bRx1fRw8RVusSO21fcted+xvRcRnFkEvvnkbNNEf62wlrN2IMNPRfZ1a9Umzl/jGcBeXdG/zXAquaI01qjcyQxy61DQFNgPOjtu5Grzxfa2egSJrQZO1rSGS1SbbgtFVc0kbsjPH3K2GvRYtC8sLVdrCvEcYkMf8TGqGFh1nILZl5pNbgwu5T2oEIe3aIQw1z7fzypXXKZfZNgNVCNuU7RgA+VFg7KCaxr72BZD2Nh/sEeCR3nAZYwlZvfrKhVdM9zu/GJPBxcfVpkA+rTwt56afGkZP7RTudXZvaV7jYTZFPApmVHLOaDU=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTYzODg0MzE3MDIyNSwKICAicHJvZmlsZUlkIiA6ICI5N2ViMDJkMWY5YmI0NjUwYmNmNzE2MTEzYjUzYjY4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTQmNhY3R1cyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81YWNkYTJlNWRjMDA3MGFmZmI0ODRhNmRiZGVhNWZjY2I1YjJmNjc5MGViZTVkYzIzZDg1YWViM2NhMzQ5MDNjIgogICAgfQogIH0KfQ=="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:dyed_color",
+				"minecraft:charged_projectiles"
+			]
+		},
+		"minecraft:tooltip_style": "hypixel_skyblock:rare"
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4790,
+		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g00fd3323"
+	}
+}
