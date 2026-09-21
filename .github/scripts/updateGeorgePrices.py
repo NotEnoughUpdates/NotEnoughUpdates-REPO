@@ -48,6 +48,8 @@ def processHtmlText(html):
     for row in rows:
         columns = row.select("td")
         petName = columns[0].text.strip()
+        if 'AHN' in petName:
+            continue
         del columns[0]
         sellPrices = []
         for column in columns:
