@@ -1,0 +1,21 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "BOOK_AND_QUILL"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color",
+				"minecraft:attribute_modifiers",
+				"minecraft:enchantments"
+			]
+		},
+		"minecraft:tooltip_style": "hypixel_skyblock:common"
+	},
+	count: 1,
+	id: "minecraft:writable_book",
+	source: {
+		dataVersion: 4903,
+		modVersion: "Firmament 44.2.0-dev+mc26.2+gd594e7fb"
+	}
+}
