@@ -1,0 +1,57 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aFirefox Shard",
+  "nbttag": "{ExtraAttributes:{id:\"FIREFOX_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"c3bc8906-6d26-3636-8524-9c17ba94fdbf\",Properties:{textures:[0:{Name:\"textures\",Signature:\"eRDHqYIazkzeyUgxh0Zf8y/ibAbo84ZPAecOsAO1+M/j3CG6nOc2EUfHFCYXErvWP7UJr+Y9YaAEqdQLdkLBrxRN8rMnaY5F5b5RtOgN0eDJ5t+W+AWCsjPYsaXxgQX6CeKQJayyEau9dLYohClZeVt3aQ99K/LOouYne/yHrOIlJLe9ri3kT7uPTv6mKsSLon1Ncnh1TNVIObRPdDkLs3sfolJnTDzVOWTsMIcexLLgvXn2h1qS6w1IEGVZBUvdS7VDIiSL5nK1pYEbvW9l+Y9Q7Ez9sl9Rky8T7ILIBkZ+pp1811XCRmdRK4EMCJ8CzxamGzK6+ECi9WdgcRaLDxgK4r7edyeNTE02auVLDk/ciUheUdt4xBQt1cRFHBaquK1kilblrGXxuEbaP9QKCmYCNDSfD84YXq44uopBYGkWpaPBupNxef7QmozKf67dVU13NjplDdstEVSQOfiDqeKDT6ygemC2J6k2/IiHCGDy28UJLe2lT06bPM78C2eqpUFtqulZSdSd964VbQtkPYbIktsC0e60W96dYD2JLbl87qnJ4AV0giaNAKVUqcQeTxNTfDxrvZtyGCxgclzt1jbsn65rnubOT/A+A5BXlrPfKK7ZJJ4ZdnOojldqJIDuDKoyhhv4rBmdhHtf4zHlS9wXZxzOfsaZCFjVgWROXoI=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4NDEyNjAwNTIwMywKICAicHJvZmlsZUlkIiA6ICJhYzY1NDYwOWVkZjM0ODhmOTM0ZWNhMDRmNjlkNGIwMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJzcGFjZUd1cmxTa3kiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzIyZmMwMjQ4MTAxNjQ1ODhmYzE1M2E4ZTUxNjBlMWQwM2M3NTA5ZGJiZjg4Yjg3MGFkZGJlNmY1YTI5MjY0NyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §2 Woodland§7, §a Animal§7, §a Critter§7\",1:\"\",2:\"§7Firefoxes glow so brightly in the\",3:\"§7dark that they can be spotted from\",4:\"§7nearly a mile away on a clear night\",5:\"\",6:\"§c❤ Health§8: §c2,500\",7:\"\",8:\"§7Found in Helix §2Tree Gifts§7.\"],Name:\"§aFirefox (Monster)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Types: §2 Woodland§7, §a Animal§7, §a Critter§7",
+    "",
+    "§7Firefoxes glow so brightly in the",
+    "§7dark that they can be spotted from",
+    "§7nearly a mile away on a clear night",
+    "",
+    "§c❤ Health§8: §c2,500",
+    "",
+    "§7Found in Helix §2Tree Gifts§7."
+  ],
+  "internalname": "FIREFOX_MONSTER",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.2+g955aae4",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Firefox"
+  ],
+  "recipes": [
+    {
+      "level": 32,
+      "coins": 11,
+      "xp": 36,
+      "name": "§cFox",
+      "render": "Fox",
+      "panorama": "foraging_3",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "HELIX_LOG",
+          "extra": [
+            "§eDrop Count: §7x16-32"
+          ],
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_HELIX_LOG",
+          "chance": "20%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_TORRHUS_MASTERY;1",
+          "extra": [
+            "§7 - Catch with §2Lasso§7.",
+            "§7 - Found in Helix §2Tree Gifts§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

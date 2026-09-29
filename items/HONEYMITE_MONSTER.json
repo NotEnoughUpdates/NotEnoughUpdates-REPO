@@ -1,0 +1,57 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aHoneymite (Monster)",
+  "nbttag": "{ExtraAttributes:{id:\"HONEYMITE_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"c5d82e40-57f9-3ef7-9614-7f8153d7cc6e\",Properties:{textures:[0:{Name:\"textures\",Signature:\"AGTX2B+whEhAxzyqhDAaHrCsvwhPLZW+zuCyBFBQjVPB+pseFwYOVImgJmh6+HKt95sNZqg0H7XJ1pPKiFgxS0P4PaAThIpmPKZyqFCkkFE5Bi/ocdQZmcE+Uu/vMZ1APe3H82JEEhvKO7Jb6RIgeaV7MumQy1UoTM2tv9aricSa89H0yhCD7fGJt/PY3uQFR7fHjeM8jRiNvcELKD8tz14HRIUvF6Hhdwm9IiUOeWaOBYiYP5K3Ssuk9Jfc162H0W3GtXlKmE1Ov6Sdq99NeGmPr0MnHU6svbLKOjaZd8itY+3VLvw+lG9Xcr2arFN/oKJgSyUMGd+WjF/uPpHRv8qvNQ2kpc6faD48QCk/LYLuNS9I7V6+1KciBMawumxfvY3l4d58F08zF+IuEF7othIlf7t8kfe3MB01Y7O5VtmtrS9AektBcQQFqOMU8e5ARqX5vMIIKunYsvTTFvKmehAusEboVd+GQKu14ZQQVbzrSp22DXhEQBVClyXNXc5UeF9MUBFMAS+9tKLc6szH2SNqEwXTUzdlEHAfZQaQlAL8xP+QotNE2HVjpU162M0MX4VbjNkIwmhI+fOGgv0+wP8pwLaFjy2MzfY0DCh1YbbrHBrSGDrnB4OSf63SYNpj938OBZ9H5jHll0rjrdzwJgtb+4JbRYEAxse7pPMSXJQ=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4NDEyNjM3MjA4NSwKICAicHJvZmlsZUlkIiA6ICI3NzQ3ODc3M2ExZTE0NzUxODE0M2Q5ZDA5YTc1NmQ2MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ3aGF0YXJlZmVycmV0cyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zMjE5MjA3MGIwOWRkODVmNzY2MDk2NWE3MDQ3NGY2MjhjODc3YzA3YWZmMTRkZjU2ZjM3YmQ2MWRmMmUwOGMyIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §2 Woodland§7,  §4 Arthropod\",1:\"\",2:\"§7Loves honey, the bees are just\",3:\"§7collateral.\",4:\"\",5:\"§c❤ Health§8: §c20,000\",6:\"\",7:\"§7Found when lathering §aFig Trees§7.\"],Name:\"§aHoneymite (Monster)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Types: §2 Woodland§7,  §4 Arthropod",
+    "",
+    "§7Loves honey, the bees are just",
+    "§7collateral.",
+    "",
+    "§c❤ Health§8: §c20,000",
+    "",
+    "§7Found when lathering §aFig Trees§7."
+  ],
+  "internalname": "HONEYMITE_MONSTER",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.2+g955aae4",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Honeymite"
+  ],
+  "recipes": [
+    {
+      "level": 52,
+      "coins": 18,
+      "xp": 78,
+      "name": "§cHoneymite",
+      "render": "Endermite",
+      "panorama": "foraging_2",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ENCHANTED_HELIX_LOG",
+          "extra": [
+            "§eDrop Count: §7x1-2"
+          ],
+          "chance": "100%"
+        },
+        {
+          "id": "PET_ITEM_FORAGING_SKILL_BOOST_RARE",
+          "chance": "0.1%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_AXE_COOLDOWN;1",
+          "extra": [
+            "§7 - Catch with §cPocket Black Hole§7.",
+            "§7 - Charm §cHoneymite§7.",
+            "§7 - Lather §6Honeycomb §7on §aFig Trees§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}
