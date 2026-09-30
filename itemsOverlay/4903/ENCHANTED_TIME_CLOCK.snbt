@@ -1,9 +1,9 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "FIG_BOOTS"
+			id: "ENCHANTED_TIME_CLOCK"
 		},
-		"minecraft:dyed_color": 1873753,
+		"minecraft:enchantment_glint_override": 1b,
 		"minecraft:tooltip_display": {
 			hidden_components: [
 				"minecraft:jukebox_playable",
@@ -20,12 +20,10 @@
 				"minecraft:charged_projectiles"
 			]
 		},
-		"minecraft:tooltip_style": "hypixel_skyblock:rare",
-		"minecraft:unbreakable": {
-		}
+		"minecraft:tooltip_style": "hypixel_skyblock:legendary"
 	},
 	count: 1,
-	id: "minecraft:leather_boots",
+	id: "minecraft:clock",
 	source: {
 		dataVersion: 4903,
 		modVersion: "Firmament 44.2.0-dev+mc26.2+gd594e7fb"

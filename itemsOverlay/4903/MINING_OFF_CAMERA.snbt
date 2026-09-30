@@ -1,9 +1,9 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "FIG_BOOTS"
+			id: "MINING_OFF_CAMERA"
 		},
-		"minecraft:dyed_color": 1873753,
+		"minecraft:item_model": "hypixel_skyblock:item/uncategorized/mining_off_camera",
 		"minecraft:tooltip_display": {
 			hidden_components: [
 				"minecraft:jukebox_playable",
@@ -20,12 +20,10 @@
 				"minecraft:charged_projectiles"
 			]
 		},
-		"minecraft:tooltip_style": "hypixel_skyblock:rare",
-		"minecraft:unbreakable": {
-		}
+		"minecraft:tooltip_style": "hypixel_skyblock:epic"
 	},
 	count: 1,
-	id: "minecraft:leather_boots",
+	id: "minecraft:paper",
 	source: {
 		dataVersion: 4903,
 		modVersion: "Firmament 44.2.0-dev+mc26.2+gd594e7fb"
