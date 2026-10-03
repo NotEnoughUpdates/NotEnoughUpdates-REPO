@@ -1,0 +1,55 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aEmber (Monster)",
+  "nbttag": "{ExtraAttributes:{id:\"EMBER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"59fb26c3-128c-3a33-bdd3-5d530a4b9dcd\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4MzcwMzI2MDgyNSwKICAicHJvZmlsZUlkIiA6ICJlODE1MGY1MjlmZGU0YzdkYjI3OTAyZjJjNmU3NTc5ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJCcmFkQm90XzIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmY1MWRjNDhmMTQxMDcyMzVkYTQwNjAxODc2MmU4YjMxOWMxMDM2Yzc4NThhYjc0NTk5ZWZiOTNkM2FmNzBlZiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §1 Aquatic§7, §a Critter§7\",1:\"\",2:\"§7Schools of them light the way for\",3:\"§7each other.\",4:\"\",5:\"§c❤ Health§8: §c250\"],Name:\"§aEmber (Monster)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Types: §1 Aquatic§7, §a Critter§7",
+    "",
+    "§7Schools of them light the way for",
+    "§7each other.",
+    "",
+    "§c❤ Health§8: §c250"
+  ],
+  "internalname": "EMBER_MONSTER",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.2+g955aae4",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Ember"
+  ],
+  "recipes": [
+    {
+      "level": 4,
+      "coins": 2,
+      "xp": 6,
+      "name": "§cEmber",
+      "render": "TropicalFish",
+      "panorama": "foraging_3",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "RUBY_VEILSHROOM",
+          "extra": [
+            "§eDrop Count: §7x2-4"
+          ],
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_RUBY_VEILSHROOM",
+          "chance": "1%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_GALATEA_TRAINING;1",
+          "extra": [
+            "§7 - Catch with a §3Fishing Net§7.",
+            "§7 - Place §6Hunting Traps §7in §dHotspot Haven§7. §7(§3Underwater§7)",
+            "§7 - Place §6Hunting Traps §7in §9Spring Depths§7. §7(§3Underwater§7)"
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}
