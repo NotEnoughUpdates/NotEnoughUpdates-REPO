@@ -1,0 +1,20 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "SAFARI_BARN_SKIN"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:attribute_modifiers",
+				"minecraft:enchantments"
+			]
+		},
+		"minecraft:tooltip_style": "hypixel_skyblock:legendary"
+	},
+	count: 1,
+	id: "minecraft:short_grass",
+	source: {
+		dataVersion: 4903,
+		modVersion: "Firmament 44.2.0-dev+mc26.2+gd594e7fb"
+	}
+}
