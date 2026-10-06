@@ -1,0 +1,33 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "CHALLENGER_CLOAK"
+		},
+		"minecraft:item_model": "hypixel_skyblock:item/community_center/mayor/diana/challenger_cloak",
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:painting/variant",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:enchantments",
+				"minecraft:stored_enchantments",
+				"minecraft:trim",
+				"minecraft:charged_projectiles",
+				"minecraft:jukebox_playable",
+				"minecraft:map_id",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:potion_contents",
+				"minecraft:dyed_color"
+			]
+		},
+		"minecraft:tooltip_style": "hypixel_skyblock:epic"
+	},
+	count: 1,
+	id: "minecraft:paper",
+	source: {
+		dataVersion: 4903,
+		modVersion: "Firmament 44.3.0-dev+mc26.2+g8dd91b6e"
+	}
+}
