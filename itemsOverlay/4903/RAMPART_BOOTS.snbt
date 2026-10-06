@@ -1,9 +1,9 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "CAKE_SOUL",
-			soul_durability: 14
+			id: "RAMPART_BOOTS"
 		},
+		"minecraft:dyed_color": 14626310,
 		"minecraft:tooltip_display": {
 			hidden_components: [
 				"minecraft:jukebox_playable",
@@ -20,12 +20,14 @@
 				"minecraft:charged_projectiles"
 			]
 		},
-		"minecraft:tooltip_style": "hypixel_skyblock:mythic"
+		"minecraft:tooltip_style": "hypixel_skyblock:rare",
+		"minecraft:unbreakable": {
+		}
 	},
 	count: 1,
-	id: "minecraft:orange_dye",
+	id: "minecraft:leather_boots",
 	source: {
-		dataVersion: 4790,
-		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g0c5f541d"
+		dataVersion: 4903,
+		modVersion: "Firmament 44.3.0-dev+mc26.2+g8dd91b6e"
 	}
 }
