@@ -70,7 +70,8 @@ def processHtmlText(html):
         for i, price in enumerate(sellPrices):
             if price is None:
                 continue
-            indexedPetId = petId + ";" + str(i)
+            offset = 1 if i > 5 else 0 # account for the gap from divine rarity not being listed
+            indexedPetId = petId + ";" + str(i + offset)
             indexedPetId = petNameOverrides.get(indexedPetId, indexedPetId)
             result[indexedPetId] = price
     return result
