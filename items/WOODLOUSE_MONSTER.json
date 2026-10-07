@@ -1,0 +1,59 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aWoodlouse (Monster)",
+  "nbttag": "{ExtraAttributes:{id:\"WOODLOUSE_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"8ba2da43-622f-3a37-b98b-e9c2acc07193\",Properties:{textures:[0:{Name:\"textures\",Signature:\"He1MlapNT2UagWD0nLNpCRArsIlMr8ld1ZBRjtDZ08hHYmgQVw01XqMc9JAl5ywzyloIDiiF9v4JfDoVoe+2t9Ok8YqAUhQwkvrrs3IQ0ylp6Or6nbJF2V5pak1DFS2iaBHxEM07PyBPPfmPY8aTHCdJlILormYZQVFVgaS7SFqP3KfKK0wvX0XxZPPKcO0Gzcu40OITO2LZruYYK9h2CrX4CE++mcbg9gCEkvxjpsXHiQkY6Gv1sM6OqI/q37YDcaosph7+DiiwtjQbuObKqx2yhBUwK+qFGSY5dpyADU0vxZiNdXc3bIEJ2k6pENdpbpXpNTwglzgwXSulYofYJzssrhfwJJkvmWen2gAELeHfD2g5uohAJVwxef+UgtqbL0nXXcAndPnelFXsqBxUz/tG2E2NuMV9J+Gq/khYiXNFZXGKvRmi5S+ddAcFpQvAl0js3XqHvdL5AMIjRjDrYG3OQcNwUrXkW/PiOXSDcrLC9oZJaNeuYehEoSUtlrUi13d5xYUEfIsmkC8uGTdc4/84rp0pH9eA07wsYGR7Jf/z3PgntagcS6kl+IlPguWcXZwz9QJ3NSpNoAFVjaOENu9uewZk3R7OgaOrs3NtO9y6boU/Ui2RqMIU+0Oe2A3LiVEr4gjZMHL871Hl4sosSg8JIaiqZNYclBB4JjAVxh0=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4MzcwODg2OTg0MywKICAicHJvZmlsZUlkIiA6ICJjMjVlMWMxZTE1YTQ0N2IwOTQ2Zjg2YzYzYzhjYjZkOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJiaWdpYm9zMzIxIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzcwNTU2ZDQ0YzFhOWNiNWU0OWFiZTRkYjgxZDViNzc1MGQ4ZjAxOGYzYWJkMTZlZmVjYjllNzJlYThlOGE3YzgiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §a Critter§7, §4 Arthropod\",1:\"\",2:\"§7Lives on land and has a set of gills,\",3:\"§7how strange!\",4:\"\",5:\"§c❤ Health§8: §c1,000\",6:\"\",7:\"§7Found when lathering §2Mangrove Trees§7.\"],Name:\"§aWoodlouse (Monster)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Types: §a Critter§7, §4 Arthropod",
+    "",
+    "§7Lives on land and has a set of gills,",
+    "§7how strange!",
+    "",
+    "§c❤ Health§8: §c1,000",
+    "",
+    "§7Found when lathering §2Mangrove Trees§7."
+  ],
+  "internalname": "WOODLOUSE_MONSTER",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.2+g955aae4",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Woodlouse"
+  ],
+  "recipes": [
+    {
+      "level": 29,
+      "coins": 9,
+      "xp": 75,
+      "name": "§cWoodlouse",
+      "render": "@neurepo:mobs/woodlouse.json",
+      "panorama": "foraging_2",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ENCHANTED_HONEYCOMB",
+          "extra": [
+            "§eDrop Count: §7x2-4"
+          ],
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_MANGROVE_LOG",
+          "extra": [
+            "§eDrop Count: §7x4-8"
+          ],
+          "chance": "100%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_VISITOR_CHEESE;1",
+          "extra": [
+            "§7 - Catch with §2Lasso§7.",
+            "§7 - Lather §6Honeycomb §7on §2Mangrove Trees§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

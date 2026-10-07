@@ -1,0 +1,59 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aStag Beetle (Monster)",
+  "nbttag": "{ExtraAttributes:{id:\"STAG_BEETLE_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"9e0fbacc-86f2-3a06-9373-c2f8db8541d0\",Properties:{textures:[0:{Name:\"textures\",Signature:\"RL7mfHmybnIFEnKfa5V14t3i/nispd20ipAIvQEev48NwcHCb9ONULVW8eUl3WbtoTsj9Zjk2URsv59wrcYwA3Rl0bnL24rAMgSzUb8x/UCdnaZBDY48Znxe2UMVWQxblcmpDImPPa9XNX3PV8c0R/PHI6DShZh1AOBJbf9BR7sUnyZHrwTh00ilBAWFLfpL/a06KGiEHihlrgQJJl2d6TlEyVS2AaRo89aK5LvRV8Xx9GsopE92BIEakzXq3+Cnrbthi3kAQtb0OLrVM+Q3ljEE5tdwZn8bseddJ8LEA0FPmPx96jIzaqwZAxZYFTdvu5s0aW2k6E9IJz00rDizw7jh04Y45cUl1IB+0V1WdTfuzwwqQHaWAOylMY6WJVEXq6hkWT2JmUI2SwrKQFe5GfGbTuRZySXmbaWUSqq6lOBrxxz+IDcf2UOaX6cyN1wxEcTx32saM5RoQVob1BGPMb6CVfsjmxMWHKuvS36784fph3JLeOjl2WQZXlXjnJ/+08FJteTYeB1XizI7Ybv3hhdL05h+CvqRwi6NozApHVqX18fiqyvi5n3/EexrRe9qy9IslAP5Q3VgaPy5HzooQbDzheboIjrn6z1KQiFx03AyPyKeBluyjHNAH7J+vz1n+gDzf3hIRp2dobynj+wDEjIHYWaLD7mGIsS4lY3QpxY=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4MzcwODg3MTA0MiwKICAicHJvZmlsZUlkIiA6ICI5MTU1ZmYzNTNlMzc0ZmZlYjE0MmE5NmU2MzU2ZjA4NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJlbG5hZFhCIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc1NGI1NGU1YmZmZmU3MjUwYWEzYTA5MWI2OGYxZGQzZjUxZmZjNzY5N2QyZTNmMjFhZDAzOTI1ODllYjYxMzEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §a Critter§7, §4 Arthropod\",1:\"\",2:\"§7Reaches a new level of intimidating\",3:\"§7once you realize it can fly.\",4:\"\",5:\"§c❤ Health§8: §c5,000\",6:\"\",7:\"§7Found when lathering §2Mangrove Trees§7.\"],Name:\"§aStag Beetle (Monster)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Types: §a Critter§7, §4 Arthropod",
+    "",
+    "§7Reaches a new level of intimidating",
+    "§7once you realize it can fly.",
+    "",
+    "§c❤ Health§8: §c5,000",
+    "",
+    "§7Found when lathering §2Mangrove Trees§7."
+  ],
+  "internalname": "STAG_BEETLE_MONSTER",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.2+g955aae4",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Stag_Beetle"
+  ],
+  "recipes": [
+    {
+      "level": 29,
+      "coins": 9,
+      "xp": 75,
+      "name": "§cStag Beetle",
+      "render": "@neurepo:mobs/stag_beetle.json",
+      "panorama": "foraging_2",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ENCHANTED_HONEYCOMB",
+          "extra": [
+            "§eDrop Count: §7x1-2"
+          ],
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_MANGROVE_LOG",
+          "extra": [
+            "§eDrop Count: §7x2-4"
+          ],
+          "chance": "100%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_WOODLAND_RESISTANCE;1",
+          "extra": [
+            "§7 - Catch with §2Lasso§7.",
+            "§7 - Lather §6Honeycomb §7on §2Mangrove Trees§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

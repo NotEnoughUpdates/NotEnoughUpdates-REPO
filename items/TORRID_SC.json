@@ -1,0 +1,74 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§3Torrid (Sea Creature)",
+  "nbttag": "{ExtraAttributes:{id:\"TORRID_SC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"494f12a3-d931-356e-bf68-7d0bf86514e7\",Properties:{textures:[0:{Name:\"textures\",Signature:\"Q09Js22cZd6lmynN0rYE5QyWimTwEDUzuVnTymeJazUUi2maBa2WqyUXI2qcEfns8ZLwxpSFWZ8sPcI+VK6HdYAz1s2T5hnzDoapQ6FbiFJQRKVYGGTgWNRfrn2/6zFBp5SEm4uJUPYq9vQLvaXUjYz6uRAOJaKLA/nEIDKNQew3pLL4r/bY0M7y+IsOpodslLYIsxbpMPb1DYeOBUEWc0MyFRSvbDLjrGx5QlfJdj7IJDe2W9O1zMxBXO69sikOIzY1gPrru20Ky/Vb6CxDL9wrWDiB4kvQK4WNvrLk+pOudpU1kGZAiLfKsMu9OKRB0/HaG8BOkeyQtUnuZhK+ofOQOWRipRY8/WfLQzbdALPKSLg+ZGKv3aRk+4pF/f4xjWdGWBPLVc4oAOZFgnLG9/Gxd/Q2gsEU03uj5HMbcrWRPKkKtgigTAjE8WzWa7LrN+9d2yWnYngdhPVsmwCsb6gZl3xriccnAJBiReWqaqOWY0Fu8OZlT8KZKzuy/saGGPuZ7oWlkBB9Skvv5hNxoG7sIMXRvlGbKBkBLXvFyZIXF7EzHsa2iCjh5FTvAfAFomKrQcoXizdwwS7RxBFvL0ks5U9Fw53juwn05/jffViDRZywCwL0orWFPkgw9cB9dUHX6pgh5eUWI0mS0H2w7BFOvnPZuT15Dzg/sitrstg=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4NDEyNjgwMjE1MCwKICAicHJvZmlsZUlkIiA6ICI2YmU4ODdiZmRmZTk0OWQ0OGViZTcyYzA3OWM3ZGEyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGcmFuY3l2b2wiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRhMTQ1MjU0YTU5ZWZjZTU3MTg2ZTZjOTliNjRiYTBlODY4MDNhNDQ5NmNkYmU4Yzk2Y2MxM2RkYTcxYWEyNCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §1 Aquatic§7, §7 Airborne\",1:\"\",2:\"§7Always up to no good. When they get\",3:\"§7together with Pucks, even more\",4:\"§7trouble is caused.\",5:\"\",6:\"§c❤ Health§8: §c100,000\",7:\"\",8:\"§7Fished up on §6Torrhus Canyon§7.\"],Name:\"§3Torrid (Sea Creature)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Types: §1 Aquatic§7, §7 Airborne",
+    "",
+    "§7Always up to no good. When they get",
+    "§7together with Pucks, even more",
+    "§7trouble is caused.",
+    "",
+    "§c❤ Health§8: §c100,000",
+    "",
+    "§7Fished up on §6Torrhus Canyon§7."
+  ],
+  "internalname": "TORRID_SC",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.2+g955aae4",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Torrid"
+  ],
+  "recipes": [
+    {
+      "level": 85,
+      "coins": 127,
+      "fishing_xp": 1275,
+      "name": "§cTorrid",
+      "render": "Allay",
+      "panorama": "foraging_3",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ENCHANTED_HELIX_LOG",
+          "chance": "100%"
+        },
+        {
+          "id": "RUBY_VEILSHROOM:32",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_RUBY_VEILSHROOM",
+          "chance": "20%"
+        },
+        {
+          "id": "HELIXIS",
+          "chance": "0.2%"
+        },
+        {
+          "id": "VEILSHROOM_BUNCH",
+          "chance": "0.2%"
+        },
+        {
+          "id": "WATER_HYACINTH",
+          "chance": "1%"
+        },
+        {
+          "id": "DYE_AQUAMARINE",
+          "chance": "0.0000004%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_FIRST_SWEEP;1",
+          "extra": [
+            "§7 - Charm §cTorrid§7.",
+            "§7 - Place §6Hunting Traps §7in §9Spring Depths§7. §7(§bUnderwater§7)"
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aGoldolot (Monster)",
+  "nbttag": "{ExtraAttributes:{id:\"GOLDOLOT_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"65d22760-271d-3393-bb19-9d6f87fcc2c1\",Properties:{textures:[0:{Name:\"textures\",Signature:\"MNmZWS4s6rl+iMvcNzddhLm1pNF801AOny0aVHyFDTbFJBnNv3nzR6IbCLpMVj8TjQb51/qOQpQXXeCJP8rirJtNkZ9PwbHXMu4WnSlhiPdrRfEgaCnP0NWc5KzDsmR3xGxmF95nnDqPaj8El9PVdUxZT6CWpyO60iJrPZMuIYykLM+XQAaji0s0VByOW1AtDNw0Rzb1jKAtwhQSzYlSVigy0dXXNBFkxsyBg+DrC+Snq6PKvI3QqWNp0390QLJTMnArBJflUGSK9bes+9updKlgQI/ea4bsv+K4xBDcDwaiuVSjca25EabeGBMeqCNma4hQxccehsOqoiN5GDxWOtEx2MbTCHV9kd01yNaEs3fJc2XFqrFCCpxFob83mela6nAz9g4vS7W5iYliSnU9iMR/4jrDHkU1fQAY8qQdDlolbsxBFbXxnpvmJQA+IrQ4YSdvaGbkiu3uByNFC4rUU5qL1beXIFn0twHDkXC/NwEPIIPjQe8nLBxoN095RdYy83cIejZAcaUp2FkExhNF9WbvmaK1EcddWGjQAAJau3utO9ixPtsKiczuytGXYHkXKudR0pHI+5Hq+sDBGpHJoRYqBGf4XLGaXOsjvkNoXpcbDqyJfYfIRZGwAwkK/QqHwg8NC2C7bs1/H7vB+lY8h8gQAmcqVwE9XPyI2ulYZrM=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyMTgyMjg2ODE0NywKICAicHJvZmlsZUlkIiA6ICI0MmIwOTMyZDUwMWI0MWQ1YTM4YjEwOTcxYTYwYmYxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBaXJib2x0MDc4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ0MjM1ZGE3YjNhMGFhY2NjZGJhM2Q4ZTEzYzYxZWNjODc0YzdhZWZhNDk0MzM5MDNiOGNmNDM3NGE5YmY1NmEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §a Critter§7, §e Timid§7, §d Elusive\",1:\"\",2:\"§7Though afraid of people, they get\",3:\"§7along with the other denizens of\",4:\"§7Torrhus.\",5:\"\",6:\"§c❤ Health§8: §c1,000\",7:\"\",8:\"§7Hunted in §bTorrhus Springs§7.\"],Name:\"§aGoldolot (Monster)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Types: §a Critter§7, §e Timid§7, §d Elusive",
+    "",
+    "§7Though afraid of people, they get",
+    "§7along with the other denizens of",
+    "§7Torrhus.",
+    "",
+    "§c❤ Health§8: §c1,000",
+    "",
+    "§7Hunted in §bTorrhus Springs§7."
+  ],
+  "internalname": "GOLDOLOT_MONSTER",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.2+g955aae4",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Goldolot"
+  ],
+  "recipes": [
+    {
+      "level": 13,
+      "coins": 4,
+      "xp": 300,
+      "name": "§cSepialot",
+      "render": "Axolotl",
+      "panorama": "foraging_3",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "RUBY_VEILSHROOM",
+          "extra": [
+            "§eDrop Count: §7x8-16"
+          ],
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_RUBY_VEILSHROOM",
+          "chance": "10%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_ECHO_OF_BUCKETS;1",
+          "extra": [
+            "§7 - Catch with a §3Fishing Net§7.",
+            "§7 - Catch with §2Lasso§7.",
+            "§7 - Place §6Hunting Traps §7in §9Spring Depths§7. §7(§bUnderwater§7)",
+            "§7 - Place §6Hunting Traps §7in §bSpring Shallows§7. §7(§bUnderwater§7)",
+            "§7 - Place §6Hunting Traps §7in §bTorrhus Springs§7. §7(§bOn Land§7)"
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}
