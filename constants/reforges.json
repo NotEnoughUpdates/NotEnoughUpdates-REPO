@@ -8,7 +8,8 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
@@ -40,6 +41,11 @@
         "health": 5.0,
         "defense": 5.0,
         "intelligence": 10.0
+      },
+      "DIVINE": {
+        "health": 6.0,
+        "defense": 6.0,
+        "intelligence": 12.0
       }
     }
   },
@@ -52,38 +58,44 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
-        "intelligence": -5.0,
+        "crit_chance": 10.0,
         "crit_damage": 5.0,
-        "crit_chance": 10.0
+        "intelligence": -5.0
       },
       "UNCOMMON": {
-        "intelligence": -10.0,
+        "crit_chance": 12.0,
         "crit_damage": 10.0,
-        "crit_chance": 12.0
+        "intelligence": -10.0
       },
       "RARE": {
-        "intelligence": -18.0,
+        "crit_chance": 15.0,
         "crit_damage": 15.0,
-        "crit_chance": 15.0
+        "intelligence": -18.0
       },
       "EPIC": {
-        "intelligence": -32.0,
+        "crit_chance": 20.0,
         "crit_damage": 22.0,
-        "crit_chance": 20.0
+        "intelligence": -32.0
       },
       "LEGENDARY": {
-        "intelligence": -50.0,
+        "crit_chance": 25.0,
         "crit_damage": 30.0,
-        "crit_chance": 25.0
+        "intelligence": -50.0
       },
       "MYTHIC": {
-        "intelligence": -72.0,
-        "crit_damage": 35.0,
-        "crit_chance": 30.0
+        "crit_chance": 30.0,
+        "crit_damage": 40.0,
+        "intelligence": -60.0
+      },
+      "DIVINE": {
+        "crit_chance": 35.0,
+        "crit_damage": 50.0,
+        "intelligence": -70.0
       }
     }
   },
@@ -96,67 +108,77 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
         "health": 1.0,
         "defense": 1.0,
-        "strength": 0.0,
-        "intelligence": 1.0,
-        "crit_damage": 1.0,
         "crit_chance": 1.0,
-        "bonus_attack_speed": 1.0,
+        "crit_damage": 1.0,
+        "attack_speed": 1.0,
+        "intelligence": 1.0,
         "speed": 1.0
       },
       "UNCOMMON": {
         "health": 1.0,
         "defense": 1.0,
         "strength": 1.0,
-        "intelligence": 1.0,
-        "crit_damage": 2.0,
         "crit_chance": 1.0,
-        "bonus_attack_speed": 1.0,
+        "crit_damage": 2.0,
+        "attack_speed": 1.0,
+        "intelligence": 1.0,
         "speed": 1.0
       },
       "RARE": {
         "health": 2.0,
         "defense": 1.0,
         "strength": 1.0,
-        "intelligence": 1.0,
-        "crit_damage": 2.0,
         "crit_chance": 2.0,
-        "bonus_attack_speed": 1.0,
+        "crit_damage": 2.0,
+        "attack_speed": 1.0,
+        "intelligence": 1.0,
         "speed": 1.0
       },
       "EPIC": {
         "health": 2.0,
         "defense": 2.0,
-        "strength": 2.0,
-        "intelligence": 2.0,
-        "crit_damage": 2.0,
+        "strength": 1.0,
         "crit_chance": 2.0,
-        "bonus_attack_speed": 1.0,
+        "crit_damage": 2.0,
+        "attack_speed": 1.0,
+        "intelligence": 2.0,
         "speed": 1.0
       },
       "LEGENDARY": {
         "health": 2.0,
         "defense": 3.0,
         "strength": 2.0,
-        "intelligence": 2.0,
-        "crit_damage": 2.0,
         "crit_chance": 3.0,
-        "bonus_attack_speed": 1.0,
+        "crit_damage": 2.0,
+        "attack_speed": 1.0,
+        "intelligence": 2.0,
         "speed": 1.0
       },
       "MYTHIC": {
         "health": 3.0,
         "defense": 3.0,
         "strength": 2.0,
-        "intelligence": 3.0,
-        "crit_damage": 2.0,
         "crit_chance": 3.0,
-        "bonus_attack_speed": 1.0,
+        "crit_damage": 2.0,
+        "attack_speed": 1.0,
+        "intelligence": 3.0,
+        "speed": 1.0
+      },
+      "DIVINE": {
+        "health": 3.0,
+        "defense": 3.0,
+        "strength": 2.0,
+        "crit_chance": 3.0,
+        "crit_damage": 3.0,
+        "attack_speed": 1.0,
+        "intelligence": 3.0,
         "speed": 1.0
       }
     }
@@ -170,7 +192,8 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
@@ -202,6 +225,11 @@
         "health": 5.0,
         "intelligence": 15.0,
         "speed": 2.0
+      },
+      "DIVINE": {
+        "health": 6.0,
+        "intelligence": 18.0,
+        "speed": 2.0
       }
     }
   },
@@ -214,7 +242,8 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
@@ -246,6 +275,11 @@
         "health": 25.0,
         "defense": 25.0,
         "crit_chance": 12.0
+      },
+      "DIVINE": {
+        "health": 30.0,
+        "defense": 30.0,
+        "crit_chance": 14.0
       }
     }
   },
@@ -258,7 +292,8 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
@@ -284,6 +319,10 @@
       "MYTHIC": {
         "health": 12.0,
         "defense": 12.0
+      },
+      "DIVINE": {
+        "health": 14.0,
+        "defense": 14.0
       }
     }
   },
@@ -296,32 +335,37 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
-        "crit_damage": 5.0,
-        "crit_chance": 10.0
+        "crit_chance": 10.0,
+        "crit_damage": 5.0
       },
       "UNCOMMON": {
-        "crit_damage": 10.0,
-        "crit_chance": 13.0
+        "crit_chance": 13.0,
+        "crit_damage": 10.0
       },
       "RARE": {
-        "crit_damage": 18.0,
-        "crit_chance": 16.0
+        "crit_chance": 16.0,
+        "crit_damage": 18.0
       },
       "EPIC": {
-        "crit_damage": 32.0,
-        "crit_chance": 19.0
+        "crit_chance": 19.0,
+        "crit_damage": 32.0
       },
       "LEGENDARY": {
-        "crit_damage": 50.0,
-        "crit_chance": 22.0
+        "crit_chance": 22.0,
+        "crit_damage": 50.0
       },
       "MYTHIC": {
-        "crit_damage": 78.0,
-        "crit_chance": 25.0
+        "crit_chance": 25.0,
+        "crit_damage": 70.0
+      },
+      "DIVINE": {
+        "crit_chance": 28.0,
+        "crit_damage": 90.0
       }
     }
   },
@@ -335,32 +379,37 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
-        "speed": 1.0,
-        "foraging_fortune": 1.0
+        "foraging_fortune": 1.0,
+        "speed": 1.0
       },
       "UNCOMMON": {
-        "speed": 2.0,
-        "foraging_fortune": 2.0
+        "foraging_fortune": 2.0,
+        "speed": 2.0
       },
       "RARE": {
-        "speed": 2.0,
-        "foraging_fortune": 3.0
+        "foraging_fortune": 3.0,
+        "speed": 3.0
       },
       "EPIC": {
-        "speed": 3.0,
-        "foraging_fortune": 4.0
+        "foraging_fortune": 4.0,
+        "speed": 5.0
       },
       "LEGENDARY": {
-        "speed": 5.0,
-        "foraging_fortune": 5.0
+        "foraging_fortune": 5.0,
+        "speed": 7.0
       },
       "MYTHIC": {
-        "speed": 7.0,
-        "foraging_fortune": 6.0
+        "foraging_fortune": 6.0,
+        "speed": 9.0
+      },
+      "DIVINE": {
+        "foraging_fortune": 7.0,
+        "speed": 11.0
       }
     }
   },
@@ -373,38 +422,44 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
         "strength": 15.0,
         "crit_damage": 10.0,
-        "bonus_attack_speed": 1.0
+        "attack_speed": 1.0
       },
       "UNCOMMON": {
         "strength": 20.0,
         "crit_damage": 15.0,
-        "bonus_attack_speed": 2.0
+        "attack_speed": 2.0
       },
       "RARE": {
         "strength": 25.0,
         "crit_damage": 20.0,
-        "bonus_attack_speed": 4.0
+        "attack_speed": 4.0
       },
       "EPIC": {
         "strength": 32.0,
         "crit_damage": 27.0,
-        "bonus_attack_speed": 7.0
+        "attack_speed": 7.0
       },
       "LEGENDARY": {
         "strength": 40.0,
         "crit_damage": 35.0,
-        "bonus_attack_speed": 10.0
+        "attack_speed": 10.0
       },
       "MYTHIC": {
         "strength": 50.0,
         "crit_damage": 45.0,
-        "bonus_attack_speed": 15.0
+        "attack_speed": 15.0
+      },
+      "DIVINE": {
+        "strength": 60.0,
+        "crit_damage": 55.0,
+        "attack_speed": 20.0
       }
     }
   },
@@ -417,32 +472,37 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
-        "speed": 1.0,
-        "mining_speed": 4.0
+        "mining_speed": 4.0,
+        "speed": 1.0
       },
       "UNCOMMON": {
-        "speed": 2.0,
-        "mining_speed": 8.0
+        "mining_speed": 8.0,
+        "speed": 2.0
       },
       "RARE": {
-        "speed": 3.0,
-        "mining_speed": 12.0
+        "mining_speed": 12.0,
+        "speed": 3.0
       },
       "EPIC": {
-        "speed": 4.0,
-        "mining_speed": 16.0
+        "mining_speed": 16.0,
+        "speed": 4.0
       },
       "LEGENDARY": {
-        "speed": 5.0,
-        "mining_speed": 20.0
+        "mining_speed": 20.0,
+        "speed": 5.0
       },
       "MYTHIC": {
-        "speed": 7.0,
-        "mining_speed": 25.0
+        "mining_speed": 25.0,
+        "speed": 7.0
+      },
+      "DIVINE": {
+        "mining_speed": 30.0,
+        "speed": 9.0
       }
     }
   },
@@ -455,50 +515,58 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
         "strength": 2.0,
-        "intelligence": 2.0,
-        "crit_damage": 2.0,
         "crit_chance": 2.0,
-        "bonus_attack_speed": 2.0
+        "crit_damage": 2.0,
+        "attack_speed": 2.0,
+        "intelligence": 2.0
       },
       "UNCOMMON": {
         "strength": 3.0,
-        "intelligence": 3.0,
-        "crit_damage": 3.0,
         "crit_chance": 3.0,
-        "bonus_attack_speed": 3.0
+        "crit_damage": 3.0,
+        "attack_speed": 3.0,
+        "intelligence": 3.0
       },
       "RARE": {
         "strength": 4.0,
-        "intelligence": 4.0,
-        "crit_damage": 4.0,
         "crit_chance": 4.0,
-        "bonus_attack_speed": 4.0
+        "crit_damage": 4.0,
+        "attack_speed": 4.0,
+        "intelligence": 4.0
       },
       "EPIC": {
         "strength": 7.0,
-        "intelligence": 7.0,
-        "crit_damage": 7.0,
         "crit_chance": 7.0,
-        "bonus_attack_speed": 7.0
+        "crit_damage": 7.0,
+        "attack_speed": 7.0,
+        "intelligence": 7.0
       },
       "LEGENDARY": {
         "strength": 10.0,
-        "intelligence": 10.0,
-        "crit_damage": 10.0,
         "crit_chance": 10.0,
-        "bonus_attack_speed": 10.0
+        "crit_damage": 10.0,
+        "attack_speed": 10.0,
+        "intelligence": 10.0
       },
       "MYTHIC": {
         "strength": 12.0,
-        "intelligence": 12.0,
-        "crit_damage": 12.0,
         "crit_chance": 12.0,
-        "bonus_attack_speed": 12.0
+        "crit_damage": 12.0,
+        "attack_speed": 12.0,
+        "intelligence": 12.0
+      },
+      "DIVINE": {
+        "strength": 14.0,
+        "crit_chance": 14.0,
+        "crit_damage": 14.0,
+        "attack_speed": 14.0,
+        "intelligence": 14.0
       }
     }
   },
@@ -511,26 +579,30 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
-        "bonus_attack_speed": 10.0
+        "attack_speed": 10.0
       },
       "UNCOMMON": {
-        "bonus_attack_speed": 20.0
+        "attack_speed": 20.0
       },
       "RARE": {
-        "bonus_attack_speed": 30.0
+        "attack_speed": 30.0
       },
       "EPIC": {
-        "bonus_attack_speed": 40.0
+        "attack_speed": 40.0
       },
       "LEGENDARY": {
-        "bonus_attack_speed": 50.0
+        "attack_speed": 50.0
       },
       "MYTHIC": {
-        "bonus_attack_speed": 60.0
+        "attack_speed": 60.0
+      },
+      "DIVINE": {
+        "attack_speed": 70.0
       }
     }
   },
@@ -543,38 +615,44 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
         "strength": 2.0,
-        "crit_damage": 4.0,
-        "crit_chance": 2.0
+        "crit_chance": 2.0,
+        "crit_damage": 4.0
       },
       "UNCOMMON": {
         "strength": 4.0,
-        "crit_damage": 7.0,
-        "crit_chance": 3.0
+        "crit_chance": 3.0,
+        "crit_damage": 7.0
       },
       "RARE": {
         "strength": 6.0,
-        "crit_damage": 10.0,
-        "crit_chance": 4.0
+        "crit_chance": 4.0,
+        "crit_damage": 10.0
       },
       "EPIC": {
         "strength": 8.0,
-        "crit_damage": 14.0,
-        "crit_chance": 5.0
+        "crit_chance": 5.0,
+        "crit_damage": 14.0
       },
       "LEGENDARY": {
         "strength": 10.0,
-        "crit_damage": 18.0,
-        "crit_chance": 6.0
+        "crit_chance": 6.0,
+        "crit_damage": 18.0
       },
       "MYTHIC": {
         "strength": 12.0,
-        "crit_damage": 24.0,
-        "crit_chance": 8.0
+        "crit_chance": 8.0,
+        "crit_damage": 24.0
+      },
+      "DIVINE": {
+        "strength": 14.0,
+        "crit_chance": 10.0,
+        "crit_damage": 30.0
       }
     }
   },
@@ -587,38 +665,44 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
         "strength": 3.0,
-        "crit_damage": 2.0,
-        "crit_chance": 5.0
+        "crit_chance": 5.0,
+        "crit_damage": 2.0
       },
       "UNCOMMON": {
         "strength": 7.0,
-        "crit_damage": 4.0,
-        "crit_chance": 7.0
+        "crit_chance": 7.0,
+        "crit_damage": 4.0
       },
       "RARE": {
         "strength": 12.0,
-        "crit_damage": 7.0,
-        "crit_chance": 9.0
+        "crit_chance": 9.0,
+        "crit_damage": 7.0
       },
       "EPIC": {
         "strength": 18.0,
-        "crit_damage": 10.0,
-        "crit_chance": 12.0
+        "crit_chance": 12.0,
+        "crit_damage": 10.0
       },
       "LEGENDARY": {
         "strength": 25.0,
-        "crit_damage": 15.0,
-        "crit_chance": 15.0
+        "crit_chance": 15.0,
+        "crit_damage": 15.0
       },
       "MYTHIC": {
-        "strength": 33.0,
-        "crit_damage": 20.0,
-        "crit_chance": 18.0
+        "strength": 40.0,
+        "crit_chance": 20.0,
+        "crit_damage": 20.0
+      },
+      "DIVINE": {
+        "strength": 55.0,
+        "crit_chance": 25.0,
+        "crit_damage": 25.0
       }
     }
   },
@@ -631,7 +715,8 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
@@ -657,6 +742,10 @@
       "MYTHIC": {
         "mining_speed": 8.0,
         "mining_fortune": 3.0
+      },
+      "DIVINE": {
+        "mining_speed": 10.0,
+        "mining_fortune": 4.0
       }
     }
   },
@@ -669,32 +758,37 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
         "strength": 3.0,
-        "bonus_attack_speed": 8.0
+        "attack_speed": 8.0
       },
       "UNCOMMON": {
         "strength": 5.0,
-        "bonus_attack_speed": 10.0
+        "attack_speed": 10.0
       },
       "RARE": {
         "strength": 7.0,
-        "bonus_attack_speed": 15.0
+        "attack_speed": 15.0
       },
       "EPIC": {
         "strength": 10.0,
-        "bonus_attack_speed": 20.0
+        "attack_speed": 20.0
       },
       "LEGENDARY": {
         "strength": 15.0,
-        "bonus_attack_speed": 25.0
+        "attack_speed": 25.0
       },
       "MYTHIC": {
         "strength": 20.0,
-        "bonus_attack_speed": 30.0
+        "attack_speed": 30.0
+      },
+      "DIVINE": {
+        "strength": 25.0,
+        "attack_speed": 35.0
       }
     }
   },
@@ -707,7 +801,8 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
@@ -726,7 +821,10 @@
         "strength": 60.0
       },
       "MYTHIC": {
-        "strength": 75.0
+        "strength": 70.0
+      },
+      "DIVINE": {
+        "strength": 80.0
       }
     }
   },
@@ -739,7 +837,8 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
@@ -771,6 +870,11 @@
         "strength": 16.0,
         "crit_damage": 16.0,
         "speed": 7.0
+      },
+      "DIVINE": {
+        "strength": 20.0,
+        "crit_damage": 20.0,
+        "speed": 9.0
       }
     }
   },
@@ -784,32 +888,37 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
-        "speed": 1.0,
-        "farming_fortune": 1.0
+        "farming_fortune": 1.0,
+        "speed": 1.0
       },
       "UNCOMMON": {
-        "speed": 2.0,
-        "farming_fortune": 2.0
+        "farming_fortune": 2.0,
+        "speed": 2.0
       },
       "RARE": {
-        "speed": 2.0,
-        "farming_fortune": 3.0
+        "farming_fortune": 3.0,
+        "speed": 3.0
       },
       "EPIC": {
-        "speed": 3.0,
-        "farming_fortune": 4.0
+        "farming_fortune": 4.0,
+        "speed": 5.0
       },
       "LEGENDARY": {
-        "speed": 5.0,
-        "farming_fortune": 5.0
+        "farming_fortune": 5.0,
+        "speed": 7.0
       },
       "MYTHIC": {
-        "speed": 7.0,
-        "farming_fortune": 6.0
+        "farming_fortune": 6.0,
+        "speed": 9.0
+      },
+      "DIVINE": {
+        "farming_fortune": 7.0,
+        "speed": 11.0
       }
     }
   },
@@ -822,7 +931,8 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
@@ -848,6 +958,10 @@
       "MYTHIC": {
         "strength": 20.0,
         "crit_chance": 60.0
+      },
+      "DIVINE": {
+        "strength": 25.0,
+        "crit_chance": 70.0
       }
     }
   },
@@ -860,7 +974,8 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
@@ -892,6 +1007,11 @@
         "defense": 110.0,
         "crit_damage": -7.0,
         "speed": -1.0
+      },
+      "DIVINE": {
+        "defense": 140.0,
+        "crit_damage": -9.0,
+        "speed": -1.0
       }
     }
   },
@@ -904,7 +1024,8 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
@@ -936,6 +1057,11 @@
         "defense": 25.0,
         "crit_damage": -5.0,
         "speed": -1.0
+      },
+      "DIVINE": {
+        "defense": 30.0,
+        "crit_damage": -6.0,
+        "speed": -1.0
       }
     }
   },
@@ -948,38 +1074,44 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
         "strength": 15.0,
-        "intelligence": 40.0,
-        "bonus_attack_speed": 1.0
+        "attack_speed": 1.0,
+        "intelligence": 40.0
       },
       "UNCOMMON": {
         "strength": 20.0,
-        "intelligence": 50.0,
-        "bonus_attack_speed": 2.0
+        "attack_speed": 2.0,
+        "intelligence": 50.0
       },
       "RARE": {
         "strength": 25.0,
-        "intelligence": 65.0,
-        "bonus_attack_speed": 2.0
+        "attack_speed": 2.0,
+        "intelligence": 65.0
       },
       "EPIC": {
         "strength": 32.0,
-        "intelligence": 80.0,
-        "bonus_attack_speed": 3.0
+        "attack_speed": 3.0,
+        "intelligence": 80.0
       },
       "LEGENDARY": {
         "strength": 40.0,
-        "intelligence": 100.0,
-        "bonus_attack_speed": 5.0
+        "attack_speed": 5.0,
+        "intelligence": 100.0
       },
       "MYTHIC": {
         "strength": 50.0,
-        "intelligence": 125.0,
-        "bonus_attack_speed": 7.0
+        "attack_speed": 7.0,
+        "intelligence": 125.0
+      },
+      "DIVINE": {
+        "strength": 60.0,
+        "attack_speed": 9.0,
+        "intelligence": 150.0
       }
     }
   },
@@ -992,55 +1124,63 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
         "health": 1.0,
         "defense": 1.0,
-        "strength": 0.0,
-        "intelligence": 3.0,
         "crit_chance": 1.0,
+        "intelligence": 3.0,
         "speed": 1.0
       },
       "UNCOMMON": {
         "health": 1.0,
         "defense": 2.0,
         "strength": 1.0,
-        "intelligence": 3.0,
         "crit_chance": 1.0,
+        "intelligence": 3.0,
         "speed": 1.0
       },
       "RARE": {
         "health": 2.0,
         "defense": 2.0,
         "strength": 2.0,
-        "intelligence": 4.0,
         "crit_chance": 1.0,
+        "intelligence": 4.0,
         "speed": 1.0
       },
       "EPIC": {
         "health": 2.0,
         "defense": 3.0,
         "strength": 2.0,
-        "intelligence": 5.0,
         "crit_chance": 2.0,
+        "intelligence": 5.0,
         "speed": 1.0
       },
       "LEGENDARY": {
         "health": 3.0,
         "defense": 3.0,
         "strength": 3.0,
-        "intelligence": 6.0,
         "crit_chance": 2.0,
+        "intelligence": 6.0,
         "speed": 1.0
       },
       "MYTHIC": {
         "health": 4.0,
         "defense": 4.0,
         "strength": 3.0,
-        "intelligence": 7.0,
         "crit_chance": 2.0,
+        "intelligence": 7.0,
+        "speed": 1.0
+      },
+      "DIVINE": {
+        "health": 4.0,
+        "defense": 4.0,
+        "strength": 3.0,
+        "crit_chance": 2.0,
+        "intelligence": 8.0,
         "speed": 1.0
       }
     }
@@ -1054,50 +1194,58 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
         "strength": 3.0,
-        "intelligence": 5.0,
-        "crit_damage": 5.0,
         "crit_chance": 5.0,
-        "bonus_attack_speed": 2.0
+        "crit_damage": 5.0,
+        "attack_speed": 2.0,
+        "intelligence": 5.0
       },
       "UNCOMMON": {
         "strength": 7.0,
-        "intelligence": 8.0,
-        "crit_damage": 10.0,
         "crit_chance": 7.0,
-        "bonus_attack_speed": 3.0
+        "crit_damage": 10.0,
+        "attack_speed": 3.0,
+        "intelligence": 8.0
       },
       "RARE": {
         "strength": 12.0,
-        "intelligence": 12.0,
-        "crit_damage": 15.0,
         "crit_chance": 9.0,
-        "bonus_attack_speed": 5.0
+        "crit_damage": 15.0,
+        "attack_speed": 5.0,
+        "intelligence": 12.0
       },
       "EPIC": {
         "strength": 18.0,
-        "intelligence": 18.0,
-        "crit_damage": 22.0,
         "crit_chance": 12.0,
-        "bonus_attack_speed": 7.0
+        "crit_damage": 22.0,
+        "attack_speed": 7.0,
+        "intelligence": 18.0
       },
       "LEGENDARY": {
         "strength": 25.0,
-        "intelligence": 25.0,
-        "crit_damage": 28.0,
         "crit_chance": 15.0,
-        "bonus_attack_speed": 10.0
+        "crit_damage": 28.0,
+        "attack_speed": 10.0,
+        "intelligence": 25.0
       },
       "MYTHIC": {
         "strength": 32.0,
-        "intelligence": 35.0,
-        "crit_damage": 36.0,
         "crit_chance": 18.0,
-        "bonus_attack_speed": 15.0
+        "crit_damage": 36.0,
+        "attack_speed": 15.0,
+        "intelligence": 35.0
+      },
+      "DIVINE": {
+        "strength": 39.0,
+        "crit_chance": 21.0,
+        "crit_damage": 44.0,
+        "attack_speed": 20.0,
+        "intelligence": 45.0
       }
     }
   },
@@ -1110,56 +1258,65 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
         "health": 5.0,
         "defense": 1.0,
-        "crit_damage": 1.0,
         "crit_chance": 1.0,
-        "bonus_attack_speed": 1.0,
+        "crit_damage": 1.0,
+        "attack_speed": 1.0,
         "speed": 1.0
       },
       "UNCOMMON": {
         "health": 7.0,
         "defense": 2.0,
-        "crit_damage": 2.0,
         "crit_chance": 1.0,
-        "bonus_attack_speed": 2.0,
+        "crit_damage": 2.0,
+        "attack_speed": 2.0,
         "speed": 2.0
       },
       "RARE": {
         "health": 10.0,
         "defense": 3.0,
-        "crit_damage": 3.0,
         "crit_chance": 2.0,
-        "bonus_attack_speed": 3.0,
+        "crit_damage": 3.0,
+        "attack_speed": 3.0,
         "speed": 3.0
       },
       "EPIC": {
         "health": 15.0,
         "defense": 4.0,
-        "crit_damage": 4.0,
         "crit_chance": 2.0,
-        "bonus_attack_speed": 4.0,
+        "crit_damage": 4.0,
+        "attack_speed": 4.0,
         "speed": 4.0
       },
       "LEGENDARY": {
         "health": 20.0,
         "defense": 5.0,
-        "crit_damage": 5.0,
         "crit_chance": 3.0,
-        "bonus_attack_speed": 5.0,
+        "crit_damage": 5.0,
+        "attack_speed": 5.0,
         "speed": 5.0
       },
       "MYTHIC": {
         "health": 25.0,
         "defense": 6.0,
-        "crit_damage": 6.0,
         "crit_chance": 3.0,
-        "bonus_attack_speed": 6.0,
+        "crit_damage": 6.0,
+        "attack_speed": 6.0,
         "speed": 6.0
+      },
+      "DIVINE": {
+        "health": 35.0,
+        "defense": 7.0,
+        "crit_chance": 3.0,
+        "crit_damage": 7.0,
+        "attack_speed": 7.0,
+        "speed": 7.0
       }
     }
   },
@@ -1173,32 +1330,30 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
-        "speed": 1.0,
-        "foraging_wisdom": 0.5
+        "speed": 1.0
       },
       "UNCOMMON": {
-        "speed": 2.0,
-        "foraging_wisdom": 0.75
+        "speed": 2.0
       },
       "RARE": {
-        "speed": 3.0,
-        "foraging_wisdom": 1.0
+        "speed": 3.0
       },
       "EPIC": {
-        "speed": 5.0,
-        "foraging_wisdom": 1.25
+        "speed": 5.0
       },
       "LEGENDARY": {
-        "speed": 7.0,
-        "foraging_wisdom": 2.0
+        "speed": 7.0
       },
       "MYTHIC": {
-        "speed": 9.0,
-        "foraging_wisdom": 2.5
+        "speed": 9.0
+      },
+      "DIVINE": {
+        "speed": 11.0
       }
     }
   },
@@ -1211,32 +1366,37 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
-        "speed": 3.0,
-        "foraging_fortune": 1.0
+        "foraging_fortune": 1.0,
+        "speed": 3.0
       },
       "UNCOMMON": {
-        "speed": 4.0,
-        "foraging_fortune": 1.0
+        "foraging_fortune": 1.0,
+        "speed": 4.0
       },
       "RARE": {
-        "speed": 5.0,
-        "foraging_fortune": 2.0
+        "foraging_fortune": 2.0,
+        "speed": 5.0
       },
       "EPIC": {
-        "speed": 7.0,
-        "foraging_fortune": 2.0
+        "foraging_fortune": 2.0,
+        "speed": 7.0
       },
       "LEGENDARY": {
-        "speed": 10.0,
-        "foraging_fortune": 3.0
+        "foraging_fortune": 3.0,
+        "speed": 10.0
       },
       "MYTHIC": {
-        "speed": 15.0,
-        "foraging_fortune": 5.0
+        "foraging_fortune": 5.0,
+        "speed": 15.0
+      },
+      "DIVINE": {
+        "foraging_fortune": 7.0,
+        "speed": 20.0
       }
     }
   },
@@ -1249,32 +1409,37 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
-        "crit_damage": 2.0,
-        "crit_chance": 1.0
+        "crit_chance": 1.0,
+        "crit_damage": 2.0
       },
       "UNCOMMON": {
-        "crit_damage": 3.0,
-        "crit_chance": 1.0
+        "crit_chance": 1.0,
+        "crit_damage": 3.0
       },
       "RARE": {
-        "crit_damage": 3.0,
-        "crit_chance": 1.0
+        "crit_chance": 1.0,
+        "crit_damage": 3.0
       },
       "EPIC": {
-        "crit_damage": 4.0,
-        "crit_chance": 1.0
+        "crit_chance": 1.0,
+        "crit_damage": 4.0
       },
       "LEGENDARY": {
-        "crit_damage": 4.0,
-        "crit_chance": 2.0
+        "crit_chance": 2.0,
+        "crit_damage": 4.0
       },
       "MYTHIC": {
-        "crit_damage": 5.0,
-        "crit_chance": 2.0
+        "crit_chance": 2.0,
+        "crit_damage": 5.0
+      },
+      "DIVINE": {
+        "crit_chance": 2.0,
+        "crit_damage": 6.0
       }
     }
   },
@@ -1287,55 +1452,64 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
         "health": 2.0,
         "defense": 2.0,
         "strength": 2.0,
-        "intelligence": 20.0,
         "crit_chance": 1.0,
+        "intelligence": 20.0,
         "speed": 2.0
       },
       "UNCOMMON": {
         "health": 4.0,
         "defense": 3.0,
         "strength": 4.0,
-        "intelligence": 25.0,
         "crit_chance": 2.0,
+        "intelligence": 25.0,
         "speed": 2.0
       },
       "RARE": {
         "health": 6.0,
         "defense": 6.0,
         "strength": 6.0,
-        "intelligence": 30.0,
         "crit_chance": 3.0,
+        "intelligence": 30.0,
         "speed": 2.0
       },
       "EPIC": {
         "health": 8.0,
         "defense": 8.0,
         "strength": 8.0,
-        "intelligence": 40.0,
         "crit_chance": 4.0,
+        "intelligence": 40.0,
         "speed": 2.0
       },
       "LEGENDARY": {
         "health": 10.0,
         "defense": 10.0,
         "strength": 10.0,
-        "intelligence": 50.0,
         "crit_chance": 5.0,
+        "intelligence": 50.0,
         "speed": 2.0
       },
       "MYTHIC": {
         "health": 12.0,
         "defense": 12.0,
         "strength": 12.0,
-        "intelligence": 60.0,
         "crit_chance": 6.0,
+        "intelligence": 60.0,
+        "speed": 2.0
+      },
+      "DIVINE": {
+        "health": 14.0,
+        "defense": 14.0,
+        "strength": 14.0,
+        "crit_chance": 7.0,
+        "intelligence": 70.0,
         "speed": 2.0
       }
     }
@@ -1349,38 +1523,44 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
-        "intelligence": 3.0,
+        "crit_chance": 10.0,
         "crit_damage": 4.0,
-        "crit_chance": 10.0
+        "intelligence": 3.0
       },
       "UNCOMMON": {
-        "intelligence": 6.0,
+        "crit_chance": 12.0,
         "crit_damage": 8.0,
-        "crit_chance": 12.0
+        "intelligence": 6.0
       },
       "RARE": {
-        "intelligence": 10.0,
+        "crit_chance": 14.0,
         "crit_damage": 14.0,
-        "crit_chance": 14.0
+        "intelligence": 10.0
       },
       "EPIC": {
-        "intelligence": 15.0,
+        "crit_chance": 17.0,
         "crit_damage": 20.0,
-        "crit_chance": 17.0
+        "intelligence": 15.0
       },
       "LEGENDARY": {
-        "intelligence": 20.0,
+        "crit_chance": 20.0,
         "crit_damage": 30.0,
-        "crit_chance": 20.0
+        "intelligence": 20.0
       },
       "MYTHIC": {
-        "intelligence": 30.0,
+        "crit_chance": 25.0,
         "crit_damage": 40.0,
-        "crit_chance": 25.0
+        "intelligence": 30.0
+      },
+      "DIVINE": {
+        "crit_chance": 30.0,
+        "crit_damage": 50.0,
+        "intelligence": 40.0
       }
     }
   },
@@ -1394,38 +1574,44 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
-        "intelligence": -5.0,
+        "crit_chance": 10.0,
         "crit_damage": 5.0,
-        "crit_chance": 10.0
+        "intelligence": -5.0
       },
       "UNCOMMON": {
-        "intelligence": -10.0,
+        "crit_chance": 12.0,
         "crit_damage": 10.0,
-        "crit_chance": 12.0
+        "intelligence": -10.0
       },
       "RARE": {
-        "intelligence": -18.0,
+        "crit_chance": 15.0,
         "crit_damage": 15.0,
-        "crit_chance": 15.0
+        "intelligence": -18.0
       },
       "EPIC": {
-        "intelligence": -32.0,
+        "crit_chance": 20.0,
         "crit_damage": 22.0,
-        "crit_chance": 20.0
+        "intelligence": -32.0
       },
       "LEGENDARY": {
-        "intelligence": -50.0,
+        "crit_chance": 25.0,
         "crit_damage": 30.0,
-        "crit_chance": 25.0
+        "intelligence": -50.0
       },
       "MYTHIC": {
-        "intelligence": -75.0,
+        "crit_chance": 30.0,
         "crit_damage": 40.0,
-        "crit_chance": 30.0
+        "intelligence": -75.0
+      },
+      "DIVINE": {
+        "crit_chance": 35.0,
+        "crit_damage": 50.0,
+        "intelligence": -100.0
       }
     }
   },
@@ -1439,32 +1625,30 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
-        "speed": 1.0,
-        "farming_wisdom": 0.5
+        "speed": 1.0
       },
       "UNCOMMON": {
-        "speed": 2.0,
-        "farming_wisdom": 0.75
+        "speed": 2.0
       },
       "RARE": {
-        "speed": 3.0,
-        "farming_wisdom": 1.0
+        "speed": 3.0
       },
       "EPIC": {
-        "speed": 5.0,
-        "farming_wisdom": 1.25
+        "speed": 5.0
       },
       "LEGENDARY": {
-        "speed": 7.0,
-        "farming_wisdom": 2.0
+        "speed": 7.0
       },
       "MYTHIC": {
-        "speed": 9.0,
-        "farming_wisdom": 2.5
+        "speed": 9.0
+      },
+      "DIVINE": {
+        "speed": 11.0
       }
     }
   },
@@ -1478,32 +1662,30 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
-        "speed": 1.0,
-        "mining_wisdom": 0.5
+        "speed": 1.0
       },
       "UNCOMMON": {
-        "speed": 2.0,
-        "mining_wisdom": 0.75
+        "speed": 2.0
       },
       "RARE": {
-        "speed": 3.0,
-        "mining_wisdom": 1.0
+        "speed": 3.0
       },
       "EPIC": {
-        "speed": 5.0,
-        "mining_wisdom": 1.25
+        "speed": 5.0
       },
       "LEGENDARY": {
-        "speed": 7.0,
-        "mining_wisdom": 2.0
+        "speed": 7.0
       },
       "MYTHIC": {
-        "speed": 9.0,
-        "mining_wisdom": 2.5
+        "speed": 9.0
+      },
+      "DIVINE": {
+        "speed": 11.0
       }
     }
   },
@@ -1516,67 +1698,78 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
         "health": 2.0,
         "defense": 2.0,
         "strength": 2.0,
-        "intelligence": 2.0,
-        "crit_damage": 2.0,
         "crit_chance": 2.0,
-        "bonus_attack_speed": 1.0,
+        "crit_damage": 2.0,
+        "attack_speed": 1.0,
+        "intelligence": 2.0,
         "speed": 1.0
       },
       "UNCOMMON": {
         "health": 3.0,
         "defense": 3.0,
         "strength": 3.0,
-        "intelligence": 3.0,
-        "crit_damage": 3.0,
         "crit_chance": 4.0,
-        "bonus_attack_speed": 1.0,
+        "crit_damage": 3.0,
+        "attack_speed": 1.0,
+        "intelligence": 3.0,
         "speed": 1.0
       },
       "RARE": {
         "health": 4.0,
         "defense": 4.0,
         "strength": 4.0,
-        "intelligence": 4.0,
-        "crit_damage": 4.0,
         "crit_chance": 6.0,
-        "bonus_attack_speed": 2.0,
+        "crit_damage": 4.0,
+        "attack_speed": 2.0,
+        "intelligence": 4.0,
         "speed": 1.0
       },
       "EPIC": {
         "health": 6.0,
         "defense": 6.0,
         "strength": 6.0,
-        "intelligence": 6.0,
-        "crit_damage": 6.0,
         "crit_chance": 8.0,
-        "bonus_attack_speed": 3.0,
+        "crit_damage": 6.0,
+        "attack_speed": 3.0,
+        "intelligence": 6.0,
         "speed": 1.0
       },
       "LEGENDARY": {
         "health": 8.0,
         "defense": 8.0,
         "strength": 8.0,
-        "intelligence": 8.0,
-        "crit_damage": 8.0,
         "crit_chance": 10.0,
-        "bonus_attack_speed": 4.0,
+        "crit_damage": 8.0,
+        "attack_speed": 4.0,
+        "intelligence": 8.0,
         "speed": 1.0
       },
       "MYTHIC": {
         "health": 10.0,
         "defense": 10.0,
         "strength": 10.0,
-        "intelligence": 10.0,
-        "crit_damage": 10.0,
         "crit_chance": 12.0,
-        "bonus_attack_speed": 5.0,
+        "crit_damage": 10.0,
+        "attack_speed": 5.0,
+        "intelligence": 10.0,
+        "speed": 1.0
+      },
+      "DIVINE": {
+        "health": 12.0,
+        "defense": 12.0,
+        "strength": 12.0,
+        "crit_chance": 14.0,
+        "crit_damage": 12.0,
+        "attack_speed": 6.0,
+        "intelligence": 12.0,
         "speed": 1.0
       }
     }
@@ -1590,7 +1783,8 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
@@ -1616,6 +1810,10 @@
       "MYTHIC": {
         "strength": 12.0,
         "crit_damage": 90.0
+      },
+      "DIVINE": {
+        "strength": 14.0,
+        "crit_damage": 105.0
       }
     }
   },
@@ -1629,38 +1827,44 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
-        "intelligence": 3.0,
+        "crit_chance": 10.0,
         "crit_damage": 2.0,
-        "crit_chance": 10.0
+        "intelligence": 3.0
       },
       "UNCOMMON": {
-        "intelligence": 5.0,
+        "crit_chance": 12.0,
         "crit_damage": 4.0,
-        "crit_chance": 12.0
+        "intelligence": 6.0
       },
       "RARE": {
-        "intelligence": 6.0,
+        "crit_chance": 14.0,
         "crit_damage": 7.0,
-        "crit_chance": 14.0
+        "intelligence": 10.0
       },
       "EPIC": {
-        "intelligence": 15.0,
+        "crit_chance": 17.0,
         "crit_damage": 10.0,
-        "crit_chance": 17.0
+        "intelligence": 15.0
       },
       "LEGENDARY": {
-        "intelligence": 20.0,
+        "crit_chance": 20.0,
         "crit_damage": 15.0,
-        "crit_chance": 20.0
+        "intelligence": 20.0
       },
       "MYTHIC": {
-        "intelligence": 30.0,
+        "crit_chance": 25.0,
         "crit_damage": 20.0,
-        "crit_chance": 25.0
+        "intelligence": 30.0
+      },
+      "DIVINE": {
+        "crit_chance": 30.0,
+        "crit_damage": 25.0,
+        "intelligence": 40.0
       }
     }
   },
@@ -1673,7 +1877,8 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
@@ -1693,6 +1898,9 @@
       },
       "MYTHIC": {
         "farming_fortune": 10.0
+      },
+      "DIVINE": {
+        "farming_fortune": 12.0
       }
     }
   },
@@ -1705,7 +1913,8 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
@@ -1731,6 +1940,10 @@
       "MYTHIC": {
         "strength": 24.0,
         "crit_damage": 22.0
+      },
+      "DIVINE": {
+        "strength": 30.0,
+        "crit_damage": 28.0
       }
     }
   },
@@ -1743,32 +1956,37 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
-        "crit_damage": 20.0,
-        "crit_chance": 10.0
+        "crit_chance": 10.0,
+        "crit_damage": 20.0
       },
       "UNCOMMON": {
-        "crit_damage": 30.0,
-        "crit_chance": 12.0
+        "crit_chance": 12.0,
+        "crit_damage": 30.0
       },
       "RARE": {
-        "crit_damage": 40.0,
-        "crit_chance": 14.0
+        "crit_chance": 14.0,
+        "crit_damage": 40.0
       },
       "EPIC": {
-        "crit_damage": 55.0,
-        "crit_chance": 17.0
+        "crit_chance": 17.0,
+        "crit_damage": 55.0
       },
       "LEGENDARY": {
-        "crit_damage": 75.0,
-        "crit_chance": 20.0
+        "crit_chance": 20.0,
+        "crit_damage": 75.0
       },
       "MYTHIC": {
-        "crit_damage": 90.0,
-        "crit_chance": 25.0
+        "crit_chance": 25.0,
+        "crit_damage": 90.0
+      },
+      "DIVINE": {
+        "crit_chance": 30.0,
+        "crit_damage": 105.0
       }
     }
   },
@@ -1781,7 +1999,8 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
@@ -1813,6 +2032,11 @@
         "health": 20.0,
         "defense": 20.0,
         "intelligence": 120.0
+      },
+      "DIVINE": {
+        "health": 25.0,
+        "defense": 25.0,
+        "intelligence": 140.0
       }
     }
   },
@@ -1825,55 +2049,64 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
         "health": 2.0,
         "defense": 1.0,
-        "crit_damage": 1.0,
         "crit_chance": 1.0,
-        "bonus_attack_speed": 1.0,
+        "crit_damage": 1.0,
+        "attack_speed": 1.0,
         "speed": 1.0
       },
       "UNCOMMON": {
         "health": 3.0,
         "defense": 1.0,
-        "crit_damage": 1.0,
         "crit_chance": 1.0,
-        "bonus_attack_speed": 1.0,
+        "crit_damage": 1.0,
+        "attack_speed": 1.0,
         "speed": 1.0
       },
       "RARE": {
         "health": 4.0,
         "defense": 1.0,
-        "crit_damage": 1.0,
         "crit_chance": 1.0,
-        "bonus_attack_speed": 1.0,
+        "crit_damage": 1.0,
+        "attack_speed": 1.0,
         "speed": 1.0
       },
       "EPIC": {
         "health": 5.0,
         "defense": 1.0,
-        "crit_damage": 2.0,
         "crit_chance": 1.0,
-        "bonus_attack_speed": 1.0,
+        "crit_damage": 2.0,
+        "attack_speed": 1.0,
         "speed": 1.0
       },
       "LEGENDARY": {
         "health": 6.0,
         "defense": 2.0,
-        "crit_damage": 2.0,
         "crit_chance": 1.0,
-        "bonus_attack_speed": 1.0,
+        "crit_damage": 2.0,
+        "attack_speed": 1.0,
         "speed": 2.0
       },
       "MYTHIC": {
         "health": 7.0,
         "defense": 2.0,
-        "crit_damage": 2.0,
         "crit_chance": 1.0,
-        "bonus_attack_speed": 2.0,
+        "crit_damage": 2.0,
+        "attack_speed": 2.0,
+        "speed": 2.0
+      },
+      "DIVINE": {
+        "health": 8.0,
+        "defense": 2.0,
+        "crit_chance": 1.0,
+        "crit_damage": 2.0,
+        "attack_speed": 2.0,
         "speed": 2.0
       }
     }
@@ -1887,44 +2120,51 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
         "strength": 2.0,
-        "crit_damage": 25.0,
         "crit_chance": 1.0,
-        "bonus_attack_speed": 2.0
+        "crit_damage": 25.0,
+        "attack_speed": 1.0
       },
       "UNCOMMON": {
         "strength": 3.0,
-        "crit_damage": 35.0,
         "crit_chance": 1.0,
-        "bonus_attack_speed": 3.0
+        "crit_damage": 35.0,
+        "attack_speed": 2.0
       },
       "RARE": {
         "strength": 4.0,
-        "crit_damage": 45.0,
         "crit_chance": 1.0,
-        "bonus_attack_speed": 5.0
+        "crit_damage": 45.0,
+        "attack_speed": 4.0
       },
       "EPIC": {
         "strength": 7.0,
-        "crit_damage": 60.0,
         "crit_chance": 1.0,
-        "bonus_attack_speed": 7.0
+        "crit_damage": 60.0,
+        "attack_speed": 7.0
       },
       "LEGENDARY": {
         "strength": 10.0,
-        "crit_damage": 80.0,
         "crit_chance": 1.0,
-        "bonus_attack_speed": 10.0
+        "crit_damage": 80.0,
+        "attack_speed": 10.0
       },
       "MYTHIC": {
         "strength": 12.0,
-        "crit_damage": 100.0,
         "crit_chance": 1.0,
-        "bonus_attack_speed": 15.0
+        "crit_damage": 100.0,
+        "attack_speed": 15.0
+      },
+      "DIVINE": {
+        "strength": 14.0,
+        "crit_chance": 1.0,
+        "crit_damage": 120.0,
+        "attack_speed": 20.0
       }
     }
   },
@@ -1937,7 +2177,8 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
@@ -1969,6 +2210,11 @@
         "health": 7.0,
         "defense": 7.0,
         "crit_chance": 4.0
+      },
+      "DIVINE": {
+        "health": 9.0,
+        "defense": 9.0,
+        "crit_chance": 5.0
       }
     }
   },
@@ -1981,7 +2227,8 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
@@ -2007,6 +2254,10 @@
       "MYTHIC": {
         "defense": 20.0,
         "mining_speed": 20.0
+      },
+      "DIVINE": {
+        "defense": 25.0,
+        "mining_speed": 25.0
       }
     }
   },
@@ -2019,7 +2270,8 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
@@ -2045,6 +2297,10 @@
       "MYTHIC": {
         "health": 50.0,
         "defense": 50.0
+      },
+      "DIVINE": {
+        "health": 65.0,
+        "defense": 65.0
       }
     }
   },
@@ -2057,38 +2313,44 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
         "strength": 3.0,
-        "crit_damage": 5.0,
-        "crit_chance": 8.0
+        "crit_chance": 8.0,
+        "crit_damage": 5.0
       },
       "UNCOMMON": {
         "strength": 7.0,
-        "crit_damage": 10.0,
-        "crit_chance": 9.0
+        "crit_chance": 9.0,
+        "crit_damage": 10.0
       },
       "RARE": {
         "strength": 12.0,
-        "crit_damage": 18.0,
-        "crit_chance": 10.0
+        "crit_chance": 10.0,
+        "crit_damage": 18.0
       },
       "EPIC": {
         "strength": 18.0,
-        "crit_damage": 32.0,
-        "crit_chance": 11.0
+        "crit_chance": 11.0,
+        "crit_damage": 32.0
       },
       "LEGENDARY": {
         "strength": 25.0,
-        "crit_damage": 50.0,
-        "crit_chance": 13.0
+        "crit_chance": 13.0,
+        "crit_damage": 50.0
       },
       "MYTHIC": {
         "strength": 34.0,
-        "crit_damage": 70.0,
-        "crit_chance": 15.0
+        "crit_chance": 15.0,
+        "crit_damage": 70.0
+      },
+      "DIVINE": {
+        "strength": 43.0,
+        "crit_chance": 17.0,
+        "crit_damage": 90.0
       }
     }
   },
@@ -2101,32 +2363,37 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
-        "speed": 1.0,
-        "mining_fortune": 1.0
+        "mining_fortune": 1.0,
+        "speed": 1.0
       },
       "UNCOMMON": {
-        "speed": 2.0,
-        "mining_fortune": 2.0
+        "mining_fortune": 2.0,
+        "speed": 2.0
       },
       "RARE": {
-        "speed": 3.0,
-        "mining_fortune": 3.0
+        "mining_fortune": 3.0,
+        "speed": 3.0
       },
       "EPIC": {
-        "speed": 5.0,
-        "mining_fortune": 4.0
+        "mining_fortune": 4.0,
+        "speed": 5.0
       },
       "LEGENDARY": {
-        "speed": 7.0,
-        "mining_fortune": 5.0
+        "mining_fortune": 5.0,
+        "speed": 7.0
       },
       "MYTHIC": {
-        "speed": 9.0,
-        "mining_fortune": 6.0
+        "mining_fortune": 6.0,
+        "speed": 9.0
+      },
+      "DIVINE": {
+        "mining_fortune": 7.0,
+        "speed": 11.0
       }
     }
   },
@@ -2139,7 +2406,8 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
@@ -2171,6 +2439,11 @@
         "health": 20.0,
         "intelligence": 150.0,
         "speed": 3.0
+      },
+      "DIVINE": {
+        "health": 25.0,
+        "intelligence": 175.0,
+        "speed": 3.0
       }
     }
   },
@@ -2183,7 +2456,8 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeStats": {
       "COMMON": {
@@ -2203,6 +2477,9 @@
       },
       "MYTHIC": {
         "speed": 25.0
+      },
+      "DIVINE": {
+        "speed": 30.0
       }
     }
   }
