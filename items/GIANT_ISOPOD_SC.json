@@ -1,0 +1,76 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§3Giant Isopod (Sea Creature)",
+  "nbttag": "{ExtraAttributes:{id:\"GIANT_ISOPOD_SC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"1751517e-500b-39e6-883c-6c2f22a301e4\",Properties:{textures:[0:{Name:\"textures\",Signature:\"i0WNpEFey41dGwQMAxOjtKBd2QG99TaHy4rV6kyz5i3UfnBvo46XQscMdgdfdSQmKPSos+mJ2FVAin8yP09TchkErIAE6Jr3nkAxDZOQ6604ZaVIrhE2sO8FqOUOHeqv9rrkGhvXuG2w1lw6E3r/+n+1sXojqy8zHTQiLuJGbfaNcRLGwnuzZUHZswb7pWfN0hOigYsq7wG8K8Fz8nrit1YiVkEyPQ2X3RajIUpRHHjDQrvKYv5HT+awfaUrla0X031aY1u80decZ7Lwpb39JH0NAJeSs7/OC2bo2Kk+A6PQ5hv2jw7v08iX8DlaRV9uj7mlG4JQl+wRdUkMILBmOCfZTDHesjOw7IuLgmpTsLQG2tkkTQTheuFGzeaaHwCORcKuoFxpve4m1i4iOrZSt0XXW0d+XOmtXZoN0GdNyEhKJHazBZE8CctPv5Om9bj6NyQCx/0wcnNs5QwQRl0LRREuAjH+mMIW391sWtxzSWkAj1J4JqwwvhSFbUX4Ldcx7J6v+KUzs6pFkDp5kJWUPatbrV7BBfSx5YqezenVhMT0R9iaw6SYyCPTYG31coB+ItHmkbuB9680KOaHIzueGen/w/K+hqt6LREe2f3ecxXtaQDA3q74w6JR05vp8OlttBtKUjmMFnBXoMHreyeDxJwsYZlslUH/Pkk/89F3Glo=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4MzYxNDI3ODk3MSwKICAicHJvZmlsZUlkIiA6ICI3Mjc2ZThmYzVkNjE0ODNjYmMwN2IxYjIzNjI3MDA4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJXYWJvV2ViaSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zZmNiMjAzYjAyOWFhYzQ5NTg0MDdkYWY0MDcyYTAxYTM1MzEwNTE2MjM3M2NlN2U1NTljNjY5ZDc4MzI1YmNiIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §9 Aquatic§7, §4 Arthropod§7, §d Elusive\",1:\"\",2:\"§7And you thought the Giant Water\",3:\"§7Bugs were big...\",4:\"\",5:\"§c❤ Health§8: §c500,000\",6:\"\",7:\"§7Fished up on §6Torrhus Canyon§7.\"],Name:\"§3Giant Isopod (Sea Creature)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Types: §9 Aquatic§7, §4 Arthropod§7, §d Elusive",
+    "",
+    "§7And you thought the Giant Water",
+    "§7Bugs were big...",
+    "",
+    "§c❤ Health§8: §c500,000",
+    "",
+    "§7Fished up on §6Torrhus Canyon§7."
+  ],
+  "internalname": "GIANT_ISOPOD_SC",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.3.0-dev+mc26.2+g8dd91b6e",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Giant_Isopod"
+  ],
+  "recipes": [
+    {
+      "level": 186,
+      "coins": 930,
+      "fishing_xp": 4650,
+      "name": "§cGiant Isopod",
+      "render": "@neurepo:mobs/giant_isopod.json",
+      "panorama": "foraging_3",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ENCHANTED_HELIX_LOG",
+          "extra": [
+            "§eDrop Count: §7x16-32"
+          ],
+          "chance": "10%"
+        },
+        {
+          "id": "ENCHANTED_RUBY_VEILSHROOM:8",
+          "chance": "2.5%"
+        },
+        {
+          "id": "VEILSHROOM_BUNCH",
+          "chance": "5%"
+        },
+        {
+          "id": "HELIXIS",
+          "chance": "5%"
+        },
+        {
+          "id": "ISOPOD_HUSK",
+          "chance": "2%"
+        },
+        {
+          "id": "REINFORCED_NETTING",
+          "chance": "1%"
+        },
+        {
+          "id": "DYE_AQUAMARINE",
+          "chance": "0.00002%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_FISHERS_FORTUNE;1",
+          "extra": [
+            "§7 - Charm §cGiant Isopod§7. (§aGuaranteed Drop§7)",
+            "§7 - Place §6Hunting Traps §7in §9Spring Depths§7. §7(§bUnderwater§7)"
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

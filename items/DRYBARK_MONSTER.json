@@ -1,0 +1,56 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aDrybark (Monster)",
+  "nbttag": "{ExtraAttributes:{id:\"DRYBARK_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"2ec0a065-91ef-3387-b770-12a048b9bb76\",Properties:{textures:[0:{Name:\"textures\",Signature:\"GBBdfgivG08ZkjLVI0M0VIN2fV5gYpSHcOb4ahH+N7RNuV5W5b9kREtsjx3RYybQSpQhmzyCf4YSxTX0U3YO2yqEAeus++m+OJKrMTIsTYWbwdsMHy44g7JIt7dM6+Ib2q23VzpK0t34r70mN7uYRXxQJYNVv5JlOwucLnuTF+GFOyArEQV1HdM0TcNeeMrYe4usuO4EuyOQJKK6FEPpJ91NmJd3DQsfC1KerkrBcwhov73XKbD8dG1FQZ3ExOCMNqmpwTTX2Y68WADjnhVCCu++30XjfCdK6Kl5TQQaGB5gvy0gm/AjAyY8IS9SdBzYqrnctn9OafPv/oiBQEC+/0hCNp+Du1goVeUjDX2wc7JnFXIIQzFR59XkueEkaDRsBjvN+5V7W3RPKvaWtjjMeW0J6eRajQcoeZ+0i2XTLMdALkus7AqXvuRju45N8uI6VXnxKsWxttjQCFTvhXRy4QFEv5lu7kr3+DEeLYf+bpPKZaGdhq9YLb5A5hACjfZT4vgzUxl3gwLm8YfoXcKWC+eejxMx/JI8vfwLPSLNMutmZWa+tHb7c7dkGyLN35lI7jZNM41ojCAEn+11zaRMlGkN98ar+pqqTErI1L9O7YfomFeWv0IxygLICUpxV0ysJO2X7KnjUKUMIRS8bq5h/iZvcrtwa7PaYoUnVZTm5P4=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4NDEyNjAwNDU3OSwKICAicHJvZmlsZUlkIiA6ICI1MTAwZGZmZDI0NDI0M2I0OGQxMmVkZTVkMjgxMzk2ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbGVjdHJvbmljU2V4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZiYWQ2OTJmYWY2MDQ1MDllOGNlMzQ2YmU5Nzk4MTYyYzEzNjk2ZGJiZTAzZWZmN2M2ZjQ0MmIyOWQxNGM3NzYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §2 Woodland§7, §a Animal§7, §a Critter\",1:\"\",2:\"§7Ancient tales warn children to be\",3:\"§7weary of any strange-looking trees.\",4:\"\",5:\"§c❤ Health§8: §c50,000\",6:\"\",7:\"§7Found in Helix §2Tree Gifts§7.\"],Name:\"§aDrybark (Monster)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Types: §2 Woodland§7, §a Animal§7, §a Critter",
+    "",
+    "§7Ancient tales warn children to be",
+    "§7weary of any strange-looking trees.",
+    "",
+    "§c❤ Health§8: §c50,000",
+    "",
+    "§7Found in Helix §2Tree Gifts§7."
+  ],
+  "internalname": "DRYBARK_MONSTER",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.3.0-dev+mc26.2+g8dd91b6e",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Drybark"
+  ],
+  "recipes": [
+    {
+      "level": 80,
+      "coins": 26,
+      "xp": 300,
+      "name": "§cDrybark",
+      "render": "Creaking",
+      "panorama": "foraging_3",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ENCHANTED_HELIX_LOG",
+          "extra": [
+            "§eDrop Count: §7x1-2"
+          ],
+          "chance": "100%"
+        },
+        {
+          "id": "PET_ITEM_FORAGING_SKILL_BOOST_RARE",
+          "chance": "0.1%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_AXE_COOLDOWN;1",
+          "extra": [
+            "§7 - Catch with §2Lasso§7.",
+            "§7 - Found in Helix §2Tree Gifts§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

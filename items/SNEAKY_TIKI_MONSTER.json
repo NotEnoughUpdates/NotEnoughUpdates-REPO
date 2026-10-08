@@ -1,0 +1,55 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aSneaky Tiki (Monster)",
+  "nbttag": "{ExtraAttributes:{id:\"SNEAKY_TIKI_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"ae7e4d37-10f9-3d37-b440-ca96f1ffe354\",Properties:{textures:[0:{Name:\"textures\",Signature:\"Q8VcXOmfIE5A5QO2Uq30kFeTOk9Yr5/oYAwL9k76iPBZDjPyP4gjpN9XfSfF87lApgXHZrS8aCk5ApEZtHEitS7mBFYfgbalQg+XsAW1/mcKNsV+MH9+IfjCMRw8VaHOtx0DUxMyq5zJGRL7C9mueXpquIZD53PLpqyRUauBCz6i4T8ydmJ6neJ3KdKVZah5VbUQp0GvjFFOI7bY1m1AwL/Eyl+/j1+qirJXK+blfkBFdOgv0VDURoQ6Kbnkgbh15KoWz9QMc1ltMHKjgXJlYDkyrDLx+Vjb8pDQklveJrE6E2wq+T8z1dIT22HdnylgyJr5rg6VZeJ9qE78tpZe7eRcyUMdMJyqcfj3Bwkco+BjDlUM4UZAIZiZbrDsoGO6210lhupnc35iHNi1Znx4QesyLIP6ZPdEOtqZG7VwDRf0IiBIoAXa7VX2HnwrwCu3pUw1hzisJn9jPCTwReFuh6udFZxR7Enf4qAiR1n+c4CDgO8Pnmy5jdQGkXEvQW/aN7VO4FY2xvnfvB3RvJq4gX7aPu7PtfTOy50YVlhbtexLlk9asmhoKCYbnkK0AAGFOgPPYjbfBwZgYaASftSShq+lS0BtcFpZ03v7Z5OLeXVQM8JrorG27o7xadHkPaGF1GKQ2dmqLWvammvNT1ZL2q/gWvbj1h256v3DAX6QUYE=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4NDEyNzcyNzQ3NiwKICAicHJvZmlsZUlkIiA6ICIyM2RjZjc3NWQ5YzQ0MGE1ODc3MjE4ZjU3NzNlMTUzNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZWx1c2lvblNrZXRjaCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kMGZhZDBjMWViNDI2MzM2MTBkZjdlM2YyN2Q3YzM4Y2E5YzNlNjUzMGJmZTFiYWI1YTNkNTIzODgyNGE3MzA3IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types:  Construct, §2 Woodland\",1:\"\",2:\"§7They lie dormant but aware, looking\",3:\"§7to spook fatigued explorers.\",4:\"\",5:\"§c❤ Health§8: §c50,000\",6:\"\",7:\"§7Hunted in §6Torrhus Canyon§7.\"],Name:\"§aSneaky Tiki (Monster)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Types:  Construct, §2 Woodland",
+    "",
+    "§7They lie dormant but aware, looking",
+    "§7to spook fatigued explorers.",
+    "",
+    "§c❤ Health§8: §c50,000",
+    "",
+    "§7Hunted in §6Torrhus Canyon§7."
+  ],
+  "internalname": "SNEAKY_TIKI_MONSTER",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.3.0-dev+mc26.2+g8dd91b6e",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Sneaky_Tiki"
+  ],
+  "recipes": [
+    {
+      "level": 71,
+      "coins": 23,
+      "xp": 106,
+      "name": "§cSneaky Tiki",
+      "render": "@neurepo:mobs/sneaky_tiki.json",
+      "panorama": "foraging_3",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "HELIX_LOG",
+          "extra": [
+            "§eDrop Count: §7x16-32"
+          ],
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_HELIX_LOG",
+          "chance": "20%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_TIKI_TRACKER;1",
+          "extra": [
+            "§7 - Catch with §cPocket Black Hole§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aShrieky Tiki (Monster)",
+  "nbttag": "{ExtraAttributes:{id:\"SHRIEKY_TIKI_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"6535a7e9-4643-3355-949a-94ff34a90b1a\",Properties:{textures:[0:{Name:\"textures\",Signature:\"GWTfh+F+Ap9MmLsdJzXDz0Okn+xRJMmhar4vJYtbsSQSoaENi2GXHZm/skWpIoRYCQau4q4Rdz13LE7QxEwEtAnB6ZirzivunDT85I6XhijJbKa3iANu6eDMhlv13vbj+8t9UaMmclRGHJPE2Tm1IJ0smClKCNZZ+KJc9bJt8cL+JIGF26euHIryKGkXFCjLgfGWexwOv0yo3q1RguAFu5Icx2Ks6F3pU1KOeMdgyMwRh64pfTZzNUb20j+n7NPuh8IvF6L6Za4yK+LwfKEwHSeXh1yiOjbfh0oDFKs/5ymM3ec0BajkzOW9WkwSJpJxgo36CHYZRYqYXGNkGcrwWC/VZeVOVi5CVpeftJ69XSFyByqIklc2cqv6BW+Od4VlmRtWOECMphKzoikWmPyjA9377JeED7v42rGCfVBpfmm+t2aUgWBFFn8SQcYKfmz+gUUhgdl76jL/bG2ugqkGKep4zyQJnF5zxSKitngjTZdOzUabfST9MnCerNyhPQZr1uoZ/nmb59u1hNXeZnLvl/Rql1qX4WaUA/3rCdjj35quIf45EvdsK3tbsfY61XGvAfDAkS4y/AetRmMrZrZDKv8o0VHvWodSBqeXrBhraNpeDcYnTEsS0wRrKysXWoMM06jPTc0uMogWHOD7vptwQREUSxFuerz3lMstVuE66fE=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4NDMzNjgzMDI4OSwKICAicHJvZmlsZUlkIiA6ICI2OTU3YjQyOTZiOTI0NGJkOGQzNWJiZGU4M2JiZDI3OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJjb2xpblBBUEEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjYyYmVmOGNhNThkODM3NjZjN2UyNmY5ZmI0ZmUwNmMxMWI5MzU0MmE5YzEwZjM2ZjQ2MGEzYjQyNzc0ODIyMyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types:  Construct, §2 Woodland\",1:\"\",2:\"§7They lie dormant but aware, looking\",3:\"§7to spook fatigued explorers.\",4:\"\",5:\"§c❤ Health§8: §c50,000\",6:\"\",7:\"§7Hunted in §6Torrhus Canyon§7.\"],Name:\"§aShrieky Tiki (Monster)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Types:  Construct, §2 Woodland",
+    "",
+    "§7They lie dormant but aware, looking",
+    "§7to spook fatigued explorers.",
+    "",
+    "§c❤ Health§8: §c50,000",
+    "",
+    "§7Hunted in §6Torrhus Canyon§7."
+  ],
+  "internalname": "SHRIEKY_TIKI_MONSTER",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.3.0-dev+mc26.2+g8dd91b6e",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Shrieky_Tiki"
+  ],
+  "recipes": [
+    {
+      "level": 71,
+      "coins": 23,
+      "xp": 106,
+      "name": "§cShrieky Tiki",
+      "render": "@neurepo:mobs/shrieky_tiki.json",
+      "panorama": "foraging_3",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "HELIX_LOG",
+          "extra": [
+            "§eDrop Count: §7x16-32"
+          ],
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_HELIX_LOG",
+          "chance": "20%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_CONSTRUCT_RULER;1",
+          "extra": [
+            "§7 - Catch with §cPocket Black Hole§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

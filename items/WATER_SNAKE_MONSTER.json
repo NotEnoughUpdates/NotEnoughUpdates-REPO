@@ -1,0 +1,56 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aWater Snake (Monster)",
+  "nbttag": "{ExtraAttributes:{id:\"WATER_SNAKE_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"1c5b1500-18be-378f-ad31-3948762c6efd\",Properties:{textures:[0:{Name:\"textures\",Signature:\"bLNVIBnFss+waOh4uipFXCejl9I7I/MRGoLnfUgMmKisW5vI9dDGb01lclN/TU8j7+S5CvlmLS60yE48CXd1VlOYfMwsoADCE3XUki+YyThVvt01goomfs2NQ3EDSwg9zQGtO/qL7BwobJvZL2YnGdveMsc4Mltg3IV1ty6xVogCQ8z1oDRdtO9SfyC3jlyIO+OVcO+PzvZm3TzzsfOB0uO5Vvk0wSoJRiZ5C94CDt2k7Ay3/mT5vD9stZ4MSpRjcFd5vab86xjVbuPzewfoPabMxDwDYPDsSDw5DOf/npIwUSbd75X8+WldR8Eg1ZL4vfX8anlHUj2t+Dg9QBmAeUYzULAnaRJvxDHEqmPPrwi+CoOhKV459eQbwvdEephlvHgT4AH+iVTWkgim4g/cEpBYgNn05gLJ5w2uaBrKPBnOWX9fdi6qX8Bqh5fLsmVa+5lval9tuGsTg7AxqLuc+wtKd/oaI6TzTq7d3mJnE1+OwWv/qTb+QFIpWP2nNpJzfbMRNIJsptQoo/kbZwxHKVhxeNJRqvVHHscuadbEdoQpL/qXWAmabPIcAcCqPIXQxI8/qwOxlydjLaiYohGlTflkL7xr5kBjIdHwEasYlV5I/MwDSPlBtddEjd6bJXTOaLkB6AI+ZqUAhA/1FNf+DaJiOXnSDv0EIVr/6yZoHIc=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4MzY4OTcwNjk0NywKICAicHJvZmlsZUlkIiA6ICI2NmRmYzFmNTRlNTU0ZTZmODJjNTA5ZjM1NTJiYTkwZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJadWFyaWciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWIwNmQxNTE1NWM2MGQwZjBmMjY3YmUwNWM4NDM2YzVhMWU3NjRhOGM4YWNhMjM2YmIzNzIyM2Y0OWQ5YTFkMCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §9 Aquatic§7, §a Critter\",1:\"\",2:\"§7Bites first, asks questions later.\",3:\"\",4:\"§c❤ Health§8: §c1,000\",5:\"\",6:\"§7Hunted in §bTorrhus Springs§7.\"],Name:\"§aWater Snake (Monster)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Types: §9 Aquatic§7, §a Critter",
+    "",
+    "§7Bites first, asks questions later.",
+    "",
+    "§c❤ Health§8: §c1,000",
+    "",
+    "§7Hunted in §bTorrhus Springs§7."
+  ],
+  "internalname": "WATER_SNAKE_MONSTER",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.3.0-dev+mc26.2+g8dd91b6e",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Water_Snake"
+  ],
+  "recipes": [
+    {
+      "level": 25,
+      "coins": 8,
+      "xp": 150,
+      "name": "§cWater Snake",
+      "render": "@neurepo:mobs/water_snake.json",
+      "panorama": "foraging_3",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "RUBY_VEILSHROOM",
+          "extra": [
+            "§eDrop Count: §7x32-64"
+          ],
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_RUBY_VEILSHROOM",
+          "chance": "20%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_TITANOBOA_TRACKER;1",
+          "extra": [
+            "§7 - Catch with a §3Fishing Net§7.",
+            "§7 - Place §6Hunting Traps §7in §dHotspot Haven§7. §7(§bUnderwater§7)",
+            "§7 - Place §6Hunting Traps §7in §9Spring Depths§7. §7(§bUnderwater§7)"
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aBeeheemoth (Monster)",
+  "nbttag": "{ExtraAttributes:{id:\"BEEHEEMOTH_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"74bb3ed0-5c43-3718-96a0-1a3f4ea59cf1\",Properties:{textures:[0:{Name:\"textures\",Signature:\"sR300iiu/bgueDOIn0J1FdYiegDNAM2vGDkJcibPUR8yDqgruOa0pwiHPUb4TJr4W7Er99ZimasIy5bE4yubUqKFGGsPOXbiW+6Pscz5utIXIwryRQVzZdeeNaNpdOewM6HyXwYKW2NeIZR8PyU6qMqaKW5lY0KxOt4JoLAkX63pSzI35h5eFCJ4VEELL0BxL/ZdgR9xYwryYVYvbMV+IiWgHMPwPaMQXhQQDmrsT93IMHmPkLQa6u+PbDulkZ8ywmsfPYVoWurs74xW8KO3JMymDKSB/7T0xIR6OfuBXIi4n1M6onrhK8yfl7YU/LP+NZS2uPrvB8QLDX6VAdFJv18WREsIKY2DBRmwBTRMg4DO91hx7jiGFcc9WorLrG3cKeZ9tY9vMUsFnK1J4UcsYDRY9nkIE1n7p536XRWmzAkeqdoJEcOyQbL8jlBh9wEk+5jH1Usg1QMk8D3ZApcZQ3mpouNdzIwtw5JPksKdIxPfs4A/uXakfcaSBy7cryPZadXW/bp1QxSHtB7NP+k9T6xqDbcSoEdSCgXN8M2tTypOaQ2NCUoS2N9oQrht61K2OeEj2kalHdqcHhrDCpaoED2XdvBPARXQFG2JxQS/Xi5cyME8lYarYETU0IxIcFeurq3liC9qqNyu1rmJjC77JjBOzhXzxB68zLDhFg9MaJE=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4NDIxNTk4NzI4NSwKICAicHJvZmlsZUlkIiA6ICJjODVhZTlmOWJkNTU0YzFmYjk1ZTg3ZDI2Zjg2MGFmNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdGV2ZW4xNzUzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdhOTYzMmMxOGJmZTViZGIwMjA1MzY2YjViMDhlYzFiMmM5YTk2OGFhNmNkYjg4YmI3ZjgzZTg4OThlM2FhZDAiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types:  Airborne, §a Critter\",1:\"\",2:\"§7Defies all scientific reasoning - how\",3:\"§7can it even fly?\",4:\"\",5:\"§c❤ Health§8: §c1,000,000\"],Name:\"§aBeeheemoth (Monster)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Types:  Airborne, §a Critter",
+    "",
+    "§7Defies all scientific reasoning - how",
+    "§7can it even fly?",
+    "",
+    "§c❤ Health§8: §c1,000,000"
+  ],
+  "internalname": "BEEHEEMOTH_MONSTER",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.3.0-dev+mc26.2+g8dd91b6e",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Beeheemoth"
+  ],
+  "recipes": [
+    {
+      "level": 105,
+      "coins": 35,
+      "xp": 500,
+      "name": "§cBeeheemoth",
+      "render": "Bee",
+      "panorama": "foraging_3",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ENCHANTED_HONEYCOMB",
+          "chance": "100%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_LATHERING_GREED;1",
+          "extra": [
+            "§7 - Fusing §5Queen Bee §7Shard with §5Lunar Moth §7Shard.",
+            "§7 - Catch with §2Lasso§7.",
+            "§7 - Dropped by §eBeeheemoth§7."
+          ],
+          "chance": "100%"
+        },
+        {
+          "id": "FUN_SIZED_POT_OF_HONEYCOMB",
+          "chance": "50%"
+        },
+        {
+          "id": "FAMILY_SIZED_POT_OF_HONEYCOMB:8",
+          "chance": "25%"
+        },
+        {
+          "id": "JUMBO_POT_OF_HONEYCOMB:8",
+          "chance": "10%"
+        },
+        {
+          "id": "BEHEMOTH_POT_OF_HONEYCOMB:8",
+          "chance": "1%"
+        }
+      ]
+    }
+  ]
+}

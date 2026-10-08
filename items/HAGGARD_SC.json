@@ -1,0 +1,79 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§3Haggard (Sea Creature)",
+  "nbttag": "{ExtraAttributes:{id:\"HAGGARD_SC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"5cbc017b-fc58-3d96-9208-205d4a10b1e1\",Properties:{textures:[0:{Name:\"textures\",Signature:\"X+xEUr1uFHG/LeFosJUWCNEKDt5ablLDPM9DYKumSUVLtoInHgO8FxNGDbrDghmv+dKKQmnvxMnOCBPkMP9Mi3bk5Q/+g7RkhHzxb6n3IoJ2vpl9byNUW7+Fq401k2hku+oWKGUxaQVt+Ar2uJS3vaFyt5bCCQzC9jCIcxDCcdnspsYtlpAjoANvutDtSDe4CoxwhUa3gL1o4CK30T+mWn6R0L5dtVbdrolisWgZnaQ7HVrLVGfvJ8UBv0/H+VXVzKDLY9hzRVwpZttJIHTSjTTD1EWSsa85SSuN31mCMYNO2EEHorSlk8F905VdYhB6G/td4B2T6xhvYD+GChXDhNzkdgRU/WiTeulqpHN7iXu8inBJaYcZEHtpG1/FtAPmhUuPibh7F2H6PNvx2QJd7EBIjyXIUnNwdGbXDfFg3DTv03NwYydTGh9UPXxrI/652+1rHE9bikKdxoMYmSIZIyGk91rXgJgq2yaLjHpFHpBd6jGdRAJWcGmBdwQ29ykmOjgSE2DTzHy/f2p9bPvVZkjwknGS/UQ8YsQP+4XmjWq4r06T21L41TRBf3a1tzrGpwNWWjg2HdRTpeAIboOcYnqM8FMAYtlkxLM5MqWGFK1meepC9CHgZt4JHXOdLK/GS21O2yHJ18IxpjilHywRozYVkedY4aNq1Gzb8owFizI=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4NDEyNjAwNjAwMywKICAicHJvZmlsZUlkIiA6ICIxZjk0OTQzN2RlYmQ0ODgyYTlhYzZhZmZmN2RhNDcxMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaWlra2FLIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgzN2JlNzc4MWEzYWU0NDU0ZjQ2NzBlMTY4NmRjMTdhMDdkZDMyMWQ2ZjY3MGJhODBmOTFlMzkxZjA3NjMzMjEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §f Skeletal§7, §9 Aquatic\",1:\"\",2:\"§7An old soul who's ready for a fight!\",3:\"\",4:\"§c❤ Health§8: §c10,000\"],Name:\"§3Haggard (Sea Creature)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Types: §f Skeletal§7, §9 Aquatic",
+    "",
+    "§7An old soul who's ready for a fight!",
+    "",
+    "§c❤ Health§8: §c10,000"
+  ],
+  "internalname": "HAGGARD_SC",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.3.0-dev+mc26.2+g8dd91b6e",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Haggard"
+  ],
+  "recipes": [
+    {
+      "level": 44,
+      "coins": 33,
+      "fishing_xp": 330,
+      "name": "§cHaggard",
+      "render": "Stray",
+      "panorama": "foraging_3",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "BONE",
+          "extra": [
+            "§eDrop Count: §7x2-4"
+          ],
+          "chance": "100%"
+        },
+        {
+          "id": "HELIX_LOG",
+          "extra": [
+            "§eDrop Count: §7x8-16"
+          ],
+          "chance": "100%"
+        },
+        {
+          "id": "RUBY_VEILSHROOM",
+          "extra": [
+            "§eDrop Count: §7x1-2"
+          ],
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_BONE",
+          "chance": "2%"
+        },
+        {
+          "id": "ENCHANTED_HELIX_LOG",
+          "chance": "5%"
+        },
+        {
+          "id": "ENCHANTED_RUBY_VEILSHROOM",
+          "chance": "1%"
+        },
+        {
+          "id": "DYE_AQUAMARINE",
+          "chance": "0.0000002%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_SKELETAL_RESISTANCE;1",
+          "extra": [
+            "§7 - Charm §cHaggard§7.",
+            "§7 - Place §6Hunting Traps §7in §bSpring Shallows§7. §7(§bUnderwater§7)"
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}
