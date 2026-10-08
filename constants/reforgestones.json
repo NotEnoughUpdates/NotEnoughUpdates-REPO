@@ -13,24 +13,16 @@
       "MYTHIC",
       "DIVINE"
     ],
-    "reforgeAbility": {
-      "COMMON": "§7Increases your chances of finding §7§6Golden Goblins §7and §bDiamond Goblins §b§7while mining by §a+10%§7.",
-      "UNCOMMON": "§7Increases your chances of finding §7§6Golden Goblins §7and §bDiamond Goblins §b§7while mining by §a+15%§7.",
-      "RARE": "§7Increases your chances of finding §7§6Golden Goblins §7and §bDiamond Goblins §b§7while mining by §a+20%§7.",
-      "EPIC": "§7Increases your chances of finding §7§6Golden Goblins §7and §bDiamond Goblins §b§7while mining by §a+25%§7.",
-      "LEGENDARY": "§7Increases your chances of finding §7§6Golden Goblins §7and §bDiamond Goblins §b§7while mining by §a+30%§7.",
-      "MYTHIC": "§7Increases your chances of finding §7§6Golden Goblins §7and §bDiamond Goblins §b§7while mining by §a+40%§7.",
-      "DIVINE": "§7Increases your chances of finding §7§6Golden Goblins §7and §bDiamond Goblins §b§7while mining by §a+50%§7."
-    },
     "reforgeCosts": {
-      "COMMON": 20000,
-      "UNCOMMON": 40000,
-      "RARE": 80000,
-      "EPIC": 150000,
-      "LEGENDARY": 300000,
-      "MYTHIC": 600000,
-      "DIVINE": 800000
+      "COMMON": 250000,
+      "UNCOMMON": 250000,
+      "RARE": 250000,
+      "EPIC": 250000,
+      "LEGENDARY": 250000,
+      "MYTHIC": 250000,
+      "DIVINE": 250000
     },
+    "reforgeAbility": "§7Find §6Goblins §7from mining §a40% §7more §7often.",
     "reforgeStats": {
       "COMMON": {
         "mining_speed": 25
@@ -55,6 +47,65 @@
       }
     }
   },
+  "AOTE_STONE": {
+    "internalName": "AOTE_STONE",
+    "nbtModifier": "aote_stone",
+    "reforgeName": "Warped",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": {
+      "internalName": [
+        "ASPECT_OF_THE_END",
+        "ASPECT_OF_THE_VOID"
+      ]
+    },
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 250000,
+      "UNCOMMON": 250000,
+      "RARE": 250000,
+      "EPIC": 250000,
+      "LEGENDARY": 250000,
+      "MYTHIC": 250000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "damage": 165,
+        "strength": 165
+      },
+      "UNCOMMON": {
+        "damage": 165,
+        "strength": 165
+      },
+      "RARE": {
+        "damage": 165,
+        "strength": 165,
+        "intelligence": 65
+      },
+      "EPIC": {
+        "damage": 165,
+        "strength": 165,
+        "intelligence": 100
+      },
+      "LEGENDARY": {
+        "damage": 165,
+        "strength": 165,
+        "intelligence": 150
+      },
+      "MYTHIC": {
+        "damage": 165,
+        "strength": 165,
+        "intelligence": 150
+      }
+    }
+  },
   "BEADY_EYES": {
     "internalName": "BEADY_EYES",
     "reforgeName": "Beady",
@@ -66,108 +117,53 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 10000,
-      "UNCOMMON": 20000,
-      "RARE": 50000,
-      "EPIC": 75000,
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
       "LEGENDARY": 100000,
-      "MYTHIC": 150000
+      "MYTHIC": 100000,
+      "DIVINE": 100000
     },
-    "reforgeAbility": "§7Grants §6+100☘ Farming Fortune §7on §7§2Pests.",
+    "reforgeAbility": "§7Grants §6+100 Farming Fortune §7towards §2 Pests§7.",
     "reforgeStats": {
       "COMMON": {
-        "intelligence": 10,
-        "damage": 5
+        "damage": 5,
+        "intelligence": 10
       },
       "UNCOMMON": {
-        "intelligence": 20,
-        "damage": 10
+        "damage": 10,
+        "intelligence": 20
       },
       "RARE": {
-        "intelligence": 30,
-        "damage": 15
+        "damage": 15,
+        "intelligence": 30
       },
       "EPIC": {
-        "intelligence": 40,
-        "damage": 20
+        "damage": 20,
+        "intelligence": 40
       },
       "LEGENDARY": {
-        "intelligence": 50,
-        "damage": 25
+        "damage": 25,
+        "intelligence": 50
       },
       "MYTHIC": {
-        "intelligence": 60,
-        "damage": 30
+        "damage": 30,
+        "intelligence": 60
+      },
+      "DIVINE": {
+        "damage": 35,
+        "intelligence": 70
       }
     }
   },
-  "BLESSED_FRUIT": {
-    "internalName": "BLESSED_FRUIT",
-    "reforgeName": "Blessed",
-    "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "FARMING_TOOL",
-    "requiredRarities": [
-      "COMMON",
-      "UNCOMMON",
-      "RARE",
-      "EPIC",
-      "LEGENDARY",
-      "MYTHIC"
-    ],
-    "reforgeCosts": {
-      "COMMON": 10000,
-      "UNCOMMON": 10000,
-      "RARE": 10000,
-      "EPIC": 10000,
-      "LEGENDARY": 10000,
-      "MYTHIC": 10000
-    },
-    "reforgeAbility": {
-      "COMMON": "§7Grants a §a0.1% §7chance to drop an §7enchanted item when mining §6Crops§7.",
-      "UNCOMMON": "§7Grants a §a0.13% §7chance to drop an §7enchanted item when mining §6Crops§7.",
-      "RARE": "§7Grants a §a0.16% §7chance to drop an §7enchanted item when mining §6Crops§7.",
-      "EPIC": "§7Grants a §a0.19% §7chance to drop an §7enchanted item when mining §6Crops§7.",
-      "LEGENDARY": "§7Grants a §a0.22% §7chance to drop an §7enchanted item when mining §6Crops§7."
-    },
-    "reforgeStats": {
-      "COMMON": {
-        "speed": 5,
-        "farming_fortune": 5,
-        "farming_wisdom": 1
-      },
-      "UNCOMMON": {
-        "speed": 7,
-        "farming_fortune": 7,
-        "farming_wisdom": 2
-      },
-      "RARE": {
-        "speed": 9,
-        "farming_fortune": 9,
-        "farming_wisdom": 3
-      },
-      "EPIC": {
-        "speed": 13,
-        "farming_fortune": 13,
-        "farming_wisdom": 4
-      },
-      "LEGENDARY": {
-        "speed": 16,
-        "farming_fortune": 16,
-        "farming_wisdom": 5
-      },
-      "MYTHIC": {
-        "speed": 20,
-        "farming_fortune": 20,
-        "farming_wisdom": 6
-      }
-    }
-  },
-  "BLOOMING_THORNS": {
-    "internalName": "BLOOMING_THORNS",
-    "reforgeName": "Thorny",
+  "BLAZEN_SPHERE": {
+    "internalName": "BLAZEN_SPHERE",
+    "reforgeName": "Blazing",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "EQUIPMENT",
     "requiredRarities": [
@@ -176,137 +172,47 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 20000,
-      "UNCOMMON": 40000,
-      "RARE": 80000,
-      "EPIC": 150000,
-      "LEGENDARY": 300000,
-      "MYTHIC": 600000
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
     },
-    "reforgeAbility": "§eOverbloom §7per tier of §9Thorns §7on all of your armor pieces.",
+    "reforgeAbility": "§7For every §c1♨ Heat§7, you are §a0.05% §7more likely to find §6Worms§7.",
     "reforgeStats": {
       "COMMON": {
-        "overbloom": 0.25,
-        "farming_fortune": 2
+        "mining_fortune": 3,
+        "heat_resistance": 1
       },
       "UNCOMMON": {
-        "overbloom": 0.5,
-        "farming_fortune": 4
+        "mining_fortune": 4,
+        "heat_resistance": 1
       },
       "RARE": {
-        "overbloom": 0.75,
-        "farming_fortune": 6
+        "mining_fortune": 5,
+        "heat_resistance": 2
       },
       "EPIC": {
-        "overbloom": 1,
-        "farming_fortune": 8
+        "mining_fortune": 6,
+        "heat_resistance": 2
       },
       "LEGENDARY": {
-        "overbloom": 1.25,
-        "farming_fortune": 10
+        "mining_fortune": 7,
+        "heat_resistance": 3
       },
       "MYTHIC": {
-        "overbloom": 1.5,
-        "farming_fortune": 12
-      }
-    }
-  },
-  "BULKY_STONE": {
-    "internalName": "BULKY_STONE",
-    "reforgeName": "Bulky",
-    "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "SWORD",
-    "requiredRarities": [
-      "COMMON",
-      "UNCOMMON",
-      "RARE",
-      "EPIC",
-      "LEGENDARY",
-      "MYTHIC"
-    ],
-    "reforgeCosts": {
-      "COMMON": 20000,
-      "UNCOMMON": 40000,
-      "RARE": 80000,
-      "EPIC": 150000,
-      "LEGENDARY": 300000,
-      "MYTHIC": 600000
-    },
-    "reforgeStats": {
-      "COMMON": {
-        "health": 4,
-        "defense": 2
+        "mining_fortune": 8,
+        "heat_resistance": 3
       },
-      "UNCOMMON": {
-        "health": 6,
-        "defense": 3
-      },
-      "RARE": {
-        "health": 9,
-        "defense": 5
-      },
-      "EPIC": {
-        "health": 12,
-        "defense": 8
-      },
-      "LEGENDARY": {
-        "health": 15,
-        "defense": 13
-      },
-      "MYTHIC": {
-        "health": 20,
-        "defense": 21
-      }
-    }
-  },
-  "BURROWING_SPORES": {
-    "internalName": "BURROWING_SPORES",
-    "reforgeName": "Rooted",
-    "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "EQUIPMENT",
-    "requiredRarities": [
-      "COMMON",
-      "UNCOMMON",
-      "RARE",
-      "EPIC",
-      "LEGENDARY",
-      "MYTHIC"
-    ],
-    "reforgeCosts": {
-      "COMMON": 20000,
-      "UNCOMMON": 40000,
-      "RARE": 80000,
-      "EPIC": 150000,
-      "LEGENDARY": 300000,
-      "MYTHIC": 600000
-    },
-    "reforgeStats": {
-      "COMMON": {
-        "health": 2,
-        "farming_fortune": 6
-      },
-      "UNCOMMON": {
-        "health": 5,
-        "farming_fortune": 9
-      },
-      "RARE": {
-        "health": 8,
-        "farming_fortune": 12
-      },
-      "EPIC": {
-        "health": 11,
-        "farming_fortune": 15
-      },
-      "LEGENDARY": {
-        "health": 14,
-        "farming_fortune": 18
-      },
-      "MYTHIC": {
-        "health": 17,
-        "farming_fortune": 21
+      "DIVINE": {
+        "mining_fortune": 9,
+        "heat_resistance": 4
       }
     }
   },
@@ -325,13 +231,13 @@
       "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 7500,
-      "UNCOMMON": 15000,
-      "RARE": 30000,
-      "EPIC": 75000,
-      "LEGENDARY": 150000,
-      "MYTHIC": 300000,
-      "DIVINE": 400000
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
     },
     "reforgeStats": {
       "COMMON": {
@@ -364,9 +270,71 @@
       }
     }
   },
-  "BLAZEN_SPHERE": {
-    "internalName": "BLAZEN_SPHERE",
-    "reforgeName": "Blazing",
+  "BLESSED_FRUIT": {
+    "internalName": "BLESSED_FRUIT",
+    "reforgeName": "Blessed",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "FARMING_TOOL",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
+    },
+    "reforgeAbility": "§7You have a §a0.25% §7chance to find §7enchanted forms of items when §7harvesting §aCrops§7.",
+    "reforgeStats": {
+      "COMMON": {
+        "farming_fortune": 5,
+        "speed": 5,
+        "farming_wisdom": 1
+      },
+      "UNCOMMON": {
+        "farming_fortune": 7,
+        "speed": 7,
+        "farming_wisdom": 2
+      },
+      "RARE": {
+        "farming_fortune": 10,
+        "speed": 9,
+        "farming_wisdom": 3
+      },
+      "EPIC": {
+        "farming_fortune": 13,
+        "speed": 13,
+        "farming_wisdom": 4
+      },
+      "LEGENDARY": {
+        "farming_fortune": 16,
+        "speed": 16,
+        "farming_wisdom": 5
+      },
+      "MYTHIC": {
+        "farming_fortune": 20,
+        "speed": 20,
+        "farming_wisdom": 6
+      },
+      "DIVINE": {
+        "farming_fortune": 25,
+        "speed": 25,
+        "farming_wisdom": 7
+      }
+    }
+  },
+  "BLOOMING_THORNS": {
+    "internalName": "BLOOMING_THORNS",
+    "reforgeName": "Thorny",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "EQUIPMENT",
     "requiredRarities": [
@@ -379,43 +347,43 @@
       "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 20000,
-      "UNCOMMON": 40000,
-      "RARE": 80000,
-      "EPIC": 150000,
-      "LEGENDARY": 300000,
-      "MYTHIC": 300000,
-      "DIVINE": 300000
+      "COMMON": 250000,
+      "UNCOMMON": 250000,
+      "RARE": 250000,
+      "EPIC": 250000,
+      "LEGENDARY": 250000,
+      "MYTHIC": 250000,
+      "DIVINE": 250000
     },
-    "reforgeAbility": "§7For every §c§c1§c♨ Heat §7you have, gain a §7§a+0.05% §7chance to dig up §9Worms§7.",
+    "reforgeAbility": "§7Grants an additional §e+0.1 §eOverbloom §7per tier of §9Thorns §7on all §7of your armor pieces.",
     "reforgeStats": {
       "COMMON": {
-        "mining_fortune": 3,
-        "heat_resistance": 1
+        "overbloom": 0.25,
+        "farming_fortune": 2
       },
       "UNCOMMON": {
-        "mining_fortune": 4,
-        "heat_resistance": 1
+        "overbloom": 0.5,
+        "farming_fortune": 4
       },
       "RARE": {
-        "mining_fortune": 5,
-        "heat_resistance": 2
+        "overbloom": 0.75,
+        "farming_fortune": 6
       },
       "EPIC": {
-        "mining_fortune": 6,
-        "heat_resistance": 2
+        "overbloom": 1,
+        "farming_fortune": 8
       },
       "LEGENDARY": {
-        "mining_fortune": 7,
-        "heat_resistance": 3
+        "overbloom": 1.25,
+        "farming_fortune": 10
       },
       "MYTHIC": {
-        "mining_fortune": 7,
-        "heat_resistance": 3
+        "overbloom": 1.5,
+        "farming_fortune": 12
       },
       "DIVINE": {
-        "mining_fortune": 8,
-        "heat_resistance": 3
+        "overbloom": 1.85,
+        "farming_fortune": 14
       }
     }
   },
@@ -437,20 +405,152 @@
       ]
     },
     "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
       "EPIC",
-      "LEGENDARY"
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "EPIC": 10000,
-      "LEGENDARY": 10000
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
     },
-    "reforgeAbility": "Grants §a+1 §5Fear§7.",
     "reforgeStats": {
+      "COMMON": {
+        "fear": 1
+      },
+      "UNCOMMON": {
+        "fear": 2
+      },
+      "RARE": {
+        "fear": 3
+      },
       "EPIC": {
         "fear": 4
       },
       "LEGENDARY": {
         "fear": 5
+      },
+      "MYTHIC": {
+        "fear": 6
+      },
+      "DIVINE": {
+        "fear": 7
+      }
+    }
+  },
+  "BULKY_STONE": {
+    "internalName": "BULKY_STONE",
+    "reforgeName": "Bulky",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "SWORD",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "health": 4,
+        "defense": 2
+      },
+      "UNCOMMON": {
+        "health": 6,
+        "defense": 3
+      },
+      "RARE": {
+        "health": 9,
+        "defense": 5
+      },
+      "EPIC": {
+        "health": 12,
+        "defense": 8
+      },
+      "LEGENDARY": {
+        "health": 15,
+        "defense": 13
+      },
+      "MYTHIC": {
+        "health": 20,
+        "defense": 21
+      },
+      "DIVINE": {
+        "health": 25,
+        "defense": 30
+      }
+    }
+  },
+  "BURROWING_SPORES": {
+    "internalName": "BURROWING_SPORES",
+    "reforgeName": "Rooted",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "EQUIPMENT",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 250000,
+      "UNCOMMON": 250000,
+      "RARE": 250000,
+      "EPIC": 250000,
+      "LEGENDARY": 250000,
+      "MYTHIC": 250000,
+      "DIVINE": 250000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "health": 2,
+        "farming_fortune": 6
+      },
+      "UNCOMMON": {
+        "health": 5,
+        "farming_fortune": 9
+      },
+      "RARE": {
+        "health": 8,
+        "farming_fortune": 12
+      },
+      "EPIC": {
+        "health": 11,
+        "farming_fortune": 15
+      },
+      "LEGENDARY": {
+        "health": 14,
+        "farming_fortune": 18
+      },
+      "MYTHIC": {
+        "health": 17,
+        "farming_fortune": 21
+      },
+      "DIVINE": {
+        "health": 20,
+        "farming_fortune": 25
       }
     }
   },
@@ -469,43 +569,43 @@
       "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 20000,
-      "UNCOMMON": 40000,
-      "RARE": 80000,
-      "EPIC": 150000,
-      "LEGENDARY": 300000,
-      "MYTHIC": 600000,
-      "DIVINE": 800000
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
     },
-    "reforgeAbility": "§7Grants §a+25❈ Defense §7against §3Sea Creatures§7.",
+    "reforgeAbility": "§7Grants §a+25 Defense §7towards §3Sea §3Creatures§7.",
     "reforgeStats": {
       "COMMON": {
-        "fishing_speed": 0.5,
-        "defense": 3
+        "defense": 2,
+        "fishing_speed": 0.5
       },
       "UNCOMMON": {
-        "fishing_speed": 1,
-        "defense": 5
+        "defense": 4,
+        "fishing_speed": 1
       },
       "RARE": {
-        "fishing_speed": 1.5,
-        "defense": 7
+        "defense": 6,
+        "fishing_speed": 1.5
       },
       "EPIC": {
-        "fishing_speed": 2.5,
-        "defense": 10
+        "defense": 10,
+        "fishing_speed": 2.5
       },
       "LEGENDARY": {
-        "fishing_speed": 3.5,
-        "defense": 13
+        "defense": 14,
+        "fishing_speed": 3.5
       },
       "MYTHIC": {
-        "fishing_speed": 4.5,
-        "defense": 16
+        "defense": 18,
+        "fishing_speed": 4.5
       },
       "DIVINE": {
-        "fishing_speed": 4.5,
-        "defense": 16
+        "defense": 22,
+        "fishing_speed": 5.5
       }
     }
   },
@@ -520,17 +620,19 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 20000,
-      "UNCOMMON": 40000,
-      "RARE": 80000,
-      "EPIC": 150000,
-      "LEGENDARY": 300000,
-      "MYTHIC": 600000
+      "COMMON": 25000,
+      "UNCOMMON": 25000,
+      "RARE": 25000,
+      "EPIC": 25000,
+      "LEGENDARY": 25000,
+      "MYTHIC": 25000,
+      "DIVINE": 25000
     },
-    "reforgeAbility": "Increases the chance to find §7candy during the §6Spooky §6Festival §7by §a+1%§7.",
+    "reforgeAbility": "§7Mobs are §a1% §7more likely to drop §7candy during the §6Spooky Festival§7.",
     "reforgeStats": {
       "COMMON": {
         "health": 1,
@@ -555,6 +657,10 @@
       "MYTHIC": {
         "health": 10,
         "defense": 5
+      },
+      "DIVINE": {
+        "health": 12,
+        "defense": 6
       }
     }
   },
@@ -573,15 +679,15 @@
       "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 10000,
-      "UNCOMMON": 20000,
-      "RARE": 50000,
-      "EPIC": 75000,
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
       "LEGENDARY": 100000,
-      "MYTHIC": 150000,
-      "DIVINE": 250000
+      "MYTHIC": 100000,
+      "DIVINE": 100000
     },
-    "reforgeAbility": "Doubles the §c❁ Damage §7dealt §7by §aVacuums§7.",
+    "reforgeAbility": "§7This item deals §cx2 Damage §7towards §2 Pests§7.",
     "reforgeStats": {
       "COMMON": {
         "farming_fortune": 2
@@ -602,7 +708,7 @@
         "farming_fortune": 11
       },
       "DIVINE": {
-        "farming_fortune": 11
+        "farming_fortune": 13
       }
     }
   },
@@ -618,18 +724,22 @@
       ]
     },
     "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
       "RARE": 500000,
-      "EPIC": 1000000,
-      "LEGENDARY": 2000000,
-      "MYTHIC": 2000000
+      "EPIC": 500000,
+      "LEGENDARY": 500000,
+      "MYTHIC": 500000,
+      "DIVINE": 500000
     },
-    "reforgeAbility": "§eGriffin Burrow §7chains always consist of §a2 §7additional burrows.",
+    "reforgeAbility": "§eGriffin Burrow §7chains always consist §7of §a2 §7additional burrows.",
     "reforgeStats": {
       "RARE": {
         "speed": 8
@@ -642,6 +752,9 @@
       },
       "MYTHIC": {
         "speed": 20
+      },
+      "DIVINE": {
+        "speed": 25
       }
     }
   },
@@ -656,46 +769,101 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 50000,
-      "UNCOMMON": 150000,
-      "RARE": 350000,
-      "EPIC": 600000,
-      "LEGENDARY": 750000,
-      "MYTHIC": 800000
+      "COMMON": 250000,
+      "UNCOMMON": 250000,
+      "RARE": 250000,
+      "EPIC": 250000,
+      "LEGENDARY": 250000,
+      "MYTHIC": 250000,
+      "DIVINE": 250000
     },
     "reforgeStats": {
       "COMMON": {
         "crit_chance": 2,
-        "sea_creature_chance": 0.5,
-        "fishing_speed": 1
+        "fishing_speed": 1,
+        "sea_creature_chance": 0.5
       },
       "UNCOMMON": {
         "crit_chance": 4,
-        "sea_creature_chance": 0.6,
-        "fishing_speed": 1
+        "fishing_speed": 1,
+        "sea_creature_chance": 0.6
       },
       "RARE": {
         "crit_chance": 6,
-        "sea_creature_chance": 0.7,
-        "fishing_speed": 2
+        "fishing_speed": 2,
+        "sea_creature_chance": 0.7
       },
       "EPIC": {
         "crit_chance": 8,
-        "sea_creature_chance": 0.8,
-        "fishing_speed": 3
+        "fishing_speed": 3,
+        "sea_creature_chance": 0.8
       },
       "LEGENDARY": {
         "crit_chance": 10,
-        "sea_creature_chance": 0.9,
-        "fishing_speed": 4
+        "fishing_speed": 4,
+        "sea_creature_chance": 0.9
       },
       "MYTHIC": {
         "crit_chance": 12,
-        "sea_creature_chance": 1,
-        "fishing_speed": 5
+        "fishing_speed": 5,
+        "sea_creature_chance": 1
+      },
+      "DIVINE": {
+        "crit_chance": 14,
+        "fishing_speed": 6,
+        "sea_creature_chance": 1.1
+      }
+    }
+  },
+  "DIAMOND_ATOM": {
+    "internalName": "DIAMOND_ATOM",
+    "reforgeName": "Perfect",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "ARMOR",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
+    },
+    "reforgeAbility": "§7Grants §a+2%  Defense§7.",
+    "reforgeStats": {
+      "COMMON": {
+        "defense": 25
+      },
+      "UNCOMMON": {
+        "defense": 35
+      },
+      "RARE": {
+        "defense": 50
+      },
+      "EPIC": {
+        "defense": 65
+      },
+      "LEGENDARY": {
+        "defense": 80
+      },
+      "MYTHIC": {
+        "defense": 110
+      },
+      "DIVINE": {
+        "defense": 140
       }
     }
   },
@@ -713,24 +881,16 @@
       "MYTHIC",
       "DIVINE"
     ],
-    "reforgeAbility": {
-      "COMMON": "§7Grants §e+50▚ Mining Spread §7when §7mining §9Blocks§7.",
-      "UNCOMMON": "§7Grants §e+60▚ Mining Spread §7when §7mining §9Blocks§7.",
-      "RARE": "§7Grants §e+70▚ Mining Spread §7when §7mining §9Blocks§7.",
-      "EPIC": "§7Grants §e+85▚ Mining Spread §7when §7mining §9Blocks§7.",
-      "LEGENDARY": "§7Grants §e+100▚ Mining Spread §7when §7mining §9Blocks§7.",
-      "MYTHIC": "§7Grants §e+125▚ Mining Spread §7when §7mining §9Blocks§7.",
-      "DIVINE": "§7Grants §e+150▚ Mining Spread §7when §7mining §9Blocks§7."
-    },
     "reforgeCosts": {
-      "COMMON": 15000,
-      "UNCOMMON": 30000,
-      "RARE": 60000,
-      "EPIC": 125000,
+      "COMMON": 250000,
+      "UNCOMMON": 250000,
+      "RARE": 250000,
+      "EPIC": 250000,
       "LEGENDARY": 250000,
-      "MYTHIC": 500000,
-      "DIVINE": 500000
+      "MYTHIC": 250000,
+      "DIVINE": 250000
     },
+    "reforgeAbility": "§7Grants §e+50 Mining Spread §7towards §9Blocks§7.",
     "reforgeStats": {
       "COMMON": {
         "mining_speed": 10,
@@ -773,46 +933,53 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 1000,
-      "UNCOMMON": 5000,
-      "RARE": 10000,
-      "EPIC": 15000,
-      "LEGENDARY": 50000,
-      "MYTHIC": 75000
+      "COMMON": 25000,
+      "UNCOMMON": 25000,
+      "RARE": 25000,
+      "EPIC": 25000,
+      "LEGENDARY": 25000,
+      "MYTHIC": 25000,
+      "DIVINE": 25000
     },
     "reforgeStats": {
       "COMMON": {
         "strength": 2,
-        "ferocity": 2,
-        "bonus_attack_speed": 2
+        "attack_speed": 2,
+        "ferocity": 2
       },
       "UNCOMMON": {
         "strength": 4,
-        "ferocity": 3,
-        "bonus_attack_speed": 3
+        "attack_speed": 3,
+        "ferocity": 3
       },
       "RARE": {
         "strength": 6,
-        "ferocity": 6,
-        "bonus_attack_speed": 5
+        "attack_speed": 5,
+        "ferocity": 6
       },
       "EPIC": {
         "strength": 10,
-        "ferocity": 9,
-        "bonus_attack_speed": 10
+        "attack_speed": 10,
+        "ferocity": 9
       },
       "LEGENDARY": {
         "strength": 12,
-        "ferocity": 12,
-        "bonus_attack_speed": 15
+        "attack_speed": 15,
+        "ferocity": 12
       },
       "MYTHIC": {
         "strength": 15,
-        "ferocity": 15,
-        "bonus_attack_speed": 20
+        "attack_speed": 20,
+        "ferocity": 15
+      },
+      "DIVINE": {
+        "strength": 20,
+        "attack_speed": 25,
+        "ferocity": 18
       }
     }
   },
@@ -827,17 +994,19 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 60000,
-      "UNCOMMON": 125000,
-      "RARE": 250000,
-      "EPIC": 500000,
-      "LEGENDARY": 1000000,
-      "MYTHIC": 2000000
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
     },
-    "reforgeAbility": "Critical hits have a chance to deal up to §a15% §7extra damage.",
+    "reforgeAbility": "§9 Crits §7have a chance to deal up to §c+15% §7more §c Damage§7.",
     "reforgeStats": {
       "COMMON": {
         "strength": 30,
@@ -862,6 +1031,10 @@
       "MYTHIC": {
         "strength": 75,
         "crit_damage": 50
+      },
+      "DIVINE": {
+        "strength": 90,
+        "crit_damage": 65
       }
     }
   },
@@ -876,77 +1049,89 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 60000,
-      "UNCOMMON": 125000,
+      "COMMON": 250000,
+      "UNCOMMON": 250000,
       "RARE": 250000,
-      "EPIC": 500000,
-      "LEGENDARY": 1000000,
-      "MYTHIC": 2000000
+      "EPIC": 250000,
+      "LEGENDARY": 250000,
+      "MYTHIC": 250000,
+      "DIVINE": 250000
     },
-    "reforgeAbility": "§7Increases all §cCombat §7stats and §b✯ §bMagic Find §7by §a+1%§7.",
+    "reforgeAbility": "§7Grants §b+1%  Magic Find §7and §c+1% §7to §7ALL §cCombat Stats§7.",
     "reforgeStats": {
       "COMMON": {
+        "health": 2,
+        "defense": 2,
         "strength": 3,
         "crit_chance": 2,
         "crit_damage": 3,
-        "bonus_attack_speed": 1,
-        "health": 2,
-        "defense": 2,
-        "speed": 1,
-        "intelligence": 3
+        "attack_speed": 1,
+        "intelligence": 3,
+        "speed": 1
       },
       "UNCOMMON": {
+        "health": 3,
+        "defense": 3,
         "strength": 4,
         "crit_chance": 4,
         "crit_damage": 4,
-        "bonus_attack_speed": 1,
-        "health": 3,
-        "defense": 3,
-        "speed": 1,
-        "intelligence": 4
+        "attack_speed": 1,
+        "intelligence": 4,
+        "speed": 1
       },
       "RARE": {
+        "health": 4,
+        "defense": 4,
         "strength": 6,
         "crit_chance": 6,
         "crit_damage": 6,
-        "bonus_attack_speed": 2,
-        "health": 4,
-        "defense": 4,
-        "speed": 1,
-        "intelligence": 6
+        "attack_speed": 2,
+        "intelligence": 6,
+        "speed": 1
       },
       "EPIC": {
+        "health": 6,
+        "defense": 6,
         "strength": 8,
         "crit_chance": 8,
         "crit_damage": 8,
-        "bonus_attack_speed": 3,
-        "health": 6,
-        "defense": 6,
-        "speed": 1,
-        "intelligence": 8
+        "attack_speed": 3,
+        "intelligence": 8,
+        "speed": 1
       },
       "LEGENDARY": {
+        "health": 8,
+        "defense": 8,
         "strength": 10,
         "crit_chance": 10,
         "crit_damage": 10,
-        "bonus_attack_speed": 4,
-        "health": 8,
-        "defense": 8,
-        "speed": 1,
-        "intelligence": 10
+        "attack_speed": 4,
+        "intelligence": 10,
+        "speed": 1
       },
       "MYTHIC": {
+        "health": 10,
+        "defense": 10,
         "strength": 12,
         "crit_chance": 12,
         "crit_damage": 12,
-        "bonus_attack_speed": 5,
-        "health": 10,
-        "defense": 10,
-        "speed": 1,
-        "intelligence": 12
+        "attack_speed": 5,
+        "intelligence": 12,
+        "speed": 1
+      },
+      "DIVINE": {
+        "health": 12,
+        "defense": 12,
+        "strength": 15,
+        "crit_chance": 15,
+        "crit_damage": 15,
+        "attack_speed": 6,
+        "intelligence": 15,
+        "speed": 1
       }
     }
   },
@@ -961,119 +1146,88 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 30000,
-      "UNCOMMON": 75000,
-      "RARE": 150000,
-      "EPIC": 300000,
-      "LEGENDARY": 600000,
-      "MYTHIC": 2000000
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
     },
     "reforgeStats": {
       "COMMON": {
+        "health": 2,
+        "defense": 2,
         "strength": 3,
         "crit_chance": 2,
         "crit_damage": 3,
-        "bonus_attack_speed": 1,
-        "health": 2,
-        "defense": 2,
-        "speed": 1,
-        "intelligence": 3
+        "attack_speed": 1,
+        "intelligence": 3,
+        "speed": 1
       },
       "UNCOMMON": {
+        "health": 3,
+        "defense": 3,
         "strength": 4,
         "crit_chance": 4,
         "crit_damage": 4,
-        "bonus_attack_speed": 1,
-        "health": 3,
-        "defense": 3,
-        "speed": 1,
-        "intelligence": 4
+        "attack_speed": 1,
+        "intelligence": 4,
+        "speed": 1
       },
       "RARE": {
-        "strength": 4,
-        "crit_chance": 6,
-        "crit_damage": 6,
-        "bonus_attack_speed": 2,
         "health": 4,
         "defense": 4,
-        "speed": 1,
-        "intelligence": 6
+        "strength": 6,
+        "crit_chance": 6,
+        "crit_damage": 6,
+        "attack_speed": 2,
+        "intelligence": 6,
+        "speed": 1
       },
       "EPIC": {
+        "health": 6,
+        "defense": 6,
         "strength": 8,
         "crit_chance": 8,
         "crit_damage": 8,
-        "bonus_attack_speed": 3,
-        "health": 6,
-        "defense": 6,
-        "speed": 1,
-        "intelligence": 8
+        "attack_speed": 3,
+        "intelligence": 8,
+        "speed": 1
       },
       "LEGENDARY": {
+        "health": 8,
+        "defense": 8,
         "strength": 10,
         "crit_chance": 10,
         "crit_damage": 10,
-        "bonus_attack_speed": 4,
-        "health": 8,
-        "defense": 8,
-        "speed": 1,
-        "intelligence": 10
+        "attack_speed": 4,
+        "intelligence": 10,
+        "speed": 1
       },
       "MYTHIC": {
+        "health": 10,
+        "defense": 10,
         "strength": 12,
         "crit_chance": 12,
         "crit_damage": 12,
-        "bonus_attack_speed": 5,
-        "health": 10,
-        "defense": 10,
-        "speed": 1,
-        "intelligence": 12
-      }
-    }
-  },
-  "DIAMOND_ATOM": {
-    "internalName": "DIAMOND_ATOM",
-    "reforgeName": "Perfect",
-    "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "ARMOR",
-    "requiredRarities": [
-      "COMMON",
-      "UNCOMMON",
-      "RARE",
-      "EPIC",
-      "LEGENDARY",
-      "MYTHIC"
-    ],
-    "reforgeCosts": {
-      "COMMON": 25000,
-      "UNCOMMON": 50000,
-      "RARE": 150000,
-      "EPIC": 300000,
-      "LEGENDARY": 600000,
-      "MYTHIC": 800000
-    },
-    "reforgeAbility": "Increases §a❈ Defense §7by §a+2%",
-    "reforgeStats": {
-      "COMMON": {
-        "defense": 25
+        "attack_speed": 5,
+        "intelligence": 12,
+        "speed": 1
       },
-      "UNCOMMON": {
-        "defense": 35
-      },
-      "RARE": {
-        "defense": 50
-      },
-      "EPIC": {
-        "defense": 65
-      },
-      "LEGENDARY": {
-        "defense": 80
-      },
-      "MYTHIC": {
-        "defense": 110
+      "DIVINE": {
+        "health": 12,
+        "defense": 12,
+        "strength": 15,
+        "crit_chance": 15,
+        "crit_damage": 15,
+        "attack_speed": 6,
+        "intelligence": 15,
+        "speed": 1
       }
     }
   },
@@ -1092,15 +1246,15 @@
       "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 5000,
-      "UNCOMMON": 10000,
-      "RARE": 20000,
-      "EPIC": 50000,
-      "LEGENDARY": 100000,
-      "MYTHIC": 100000,
-      "DIVINE": 100000
+      "COMMON": 25000,
+      "UNCOMMON": 25000,
+      "RARE": 25000,
+      "EPIC": 25000,
+      "LEGENDARY": 25000,
+      "MYTHIC": 25000,
+      "DIVINE": 25000
     },
-    "reforgeAbility": "§7Earn §2+15% ᠅ Mithril Powder §7from §7§bMining Events §7in the §2Dwarven Mines§7.",
+    "reforgeAbility": "§7Earn §2+15% ᠅ Mithril Powder §7from §bMining Events §7in the §2Dwarven Mines§7.",
     "reforgeStats": {
       "COMMON": {
         "mining_speed": 4,
@@ -1127,8 +1281,8 @@
         "mining_fortune": 3
       },
       "DIVINE": {
-        "mining_speed": 18,
-        "mining_fortune": 3
+        "mining_speed": 25,
+        "mining_fortune": 4
       }
     }
   },
@@ -1144,54 +1298,54 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 5000,
-      "UNCOMMON": 10000,
-      "RARE": 20000,
-      "EPIC": 50000,
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
       "LEGENDARY": 100000,
-      "MYTHIC": 200000
+      "MYTHIC": 100000,
+      "DIVINE": 100000
     },
-    "reforgeAbility": {
-      "COMMON": "Gain §a+1 §f✦ Speed §7for §a5s",
-      "UNCOMMON": "Gain §a+2 §f✦ Speed §7for §a5s",
-      "RARE": "Gain §a+3 §f✦ Speed §7for §a5s",
-      "EPIC": "Gain §a+4 §f✦ Speed §7for §a5s",
-      "LEGENDARY": "Gain §a+5 §f✦ Speed §7for §a5s",
-      "MYTHIC": "Gain §a+6 §f✦ Speed §7for §a5s"
-    },
+    "reforgeAbility": "§7Grants §f+5 Speed §7for §a5s §7after §7using a §6Transmission §7ability.",
     "reforgeStats": {
       "COMMON": {
         "strength": 2,
-        "bonus_attack_speed": 2,
+        "attack_speed": 2,
         "speed": 1
       },
       "UNCOMMON": {
         "strength": 4,
-        "bonus_attack_speed": 3,
+        "attack_speed": 3,
         "speed": 1
       },
       "RARE": {
         "strength": 6,
-        "bonus_attack_speed": 4,
+        "attack_speed": 4,
         "speed": 2
       },
       "EPIC": {
         "strength": 7,
-        "bonus_attack_speed": 5,
+        "attack_speed": 5,
         "speed": 2
       },
       "LEGENDARY": {
         "strength": 10,
-        "bonus_attack_speed": 6,
+        "attack_speed": 6,
         "speed": 3
       },
       "MYTHIC": {
         "strength": 12,
-        "bonus_attack_speed": 7,
-        "speed": 5
+        "attack_speed": 7,
+        "speed": 3
+      },
+      "DIVINE": {
+        "strength": 14,
+        "attack_speed": 8,
+        "speed": 4
       }
     }
   },
@@ -1216,47 +1370,54 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 60000,
-      "UNCOMMON": 125000,
+      "COMMON": 250000,
+      "UNCOMMON": 250000,
       "RARE": 250000,
-      "EPIC": 500000,
-      "LEGENDARY": 1000000,
-      "MYTHIC": 2000000
+      "EPIC": 250000,
+      "LEGENDARY": 250000,
+      "MYTHIC": 250000,
+      "DIVINE": 250000
     },
-    "reforgeAbility": "§8Only if Wisp is equipped §c+75❁ Strength §9+55☠ Crit Damage §7Deal §62x §7to fire pillars, breaking one §7grants §f+30❂ True Defense §7and §c+1.15x §cdamage §7for §a60s§7.",
+    "reforgeAbility": "§8While a Wisp Pet is active: §c+75 Strength §9+55 Crit Damage  §7Deal §c+1 Damage §7to Fire Pillars. Breaking one §7grants §f+30 True Defense §7and §c+15%  §cDamage §7for §a60s§7.",
     "reforgeStats": {
       "COMMON": {
-        "magic_find": 2,
         "strength": 15,
-        "crit_damage": 20
+        "crit_damage": 20,
+        "magic_find": 2
       },
       "UNCOMMON": {
-        "magic_find": 2,
         "strength": 20,
-        "crit_damage": 30
+        "crit_damage": 30,
+        "magic_find": 2
       },
       "RARE": {
-        "magic_find": 2,
         "strength": 25,
-        "crit_damage": 40
+        "crit_damage": 40,
+        "magic_find": 2
       },
       "EPIC": {
-        "magic_find": 2,
         "strength": 35,
-        "crit_damage": 50
+        "crit_damage": 50,
+        "magic_find": 2
       },
       "LEGENDARY": {
-        "magic_find": 2,
         "strength": 45,
-        "crit_damage": 60
+        "crit_damage": 60,
+        "magic_find": 2
       },
       "MYTHIC": {
-        "magic_find": 2,
         "strength": 55,
-        "crit_damage": 75
+        "crit_damage": 70,
+        "magic_find": 2
+      },
+      "DIVINE": {
+        "strength": 65,
+        "crit_damage": 90,
+        "magic_find": 2
       }
     }
   },
@@ -1275,14 +1436,19 @@
       "DIVINE"
     ],
     "reforgeCosts": {
-      "UNCOMMON": 10000,
-      "RARE": 25000,
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
       "EPIC": 100000,
-      "LEGENDARY": 250000,
-      "MYTHIC": 500000
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
     },
-    "reforgeAbility": "§7Grants §d+2.5 Hunting Fortune §7on §9Water Shards§7.",
+    "reforgeAbility": "§7Grants §d+2.5 Hunting Fortune §7towards §9Water Shards§7.",
     "reforgeStats": {
+      "COMMON": {
+        "pull": 2.5
+      },
       "UNCOMMON": {
         "pull": 5
       },
@@ -1297,6 +1463,9 @@
       },
       "MYTHIC": {
         "pull": 20
+      },
+      "DIVINE": {
+        "pull": 25
       }
     }
   },
@@ -1311,40 +1480,46 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 5000,
-      "UNCOMMON": 10000,
-      "RARE": 20000,
-      "EPIC": 50000,
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
       "LEGENDARY": 100000,
-      "MYTHIC": 200000
+      "MYTHIC": 100000,
+      "DIVINE": 100000
     },
     "reforgeStats": {
       "COMMON": {
-        "speed": 4,
-        "farming_fortune": 1
+        "farming_fortune": 1,
+        "speed": 4
       },
       "UNCOMMON": {
-        "speed": 4,
-        "farming_fortune": 2
+        "farming_fortune": 2,
+        "speed": 4
       },
       "RARE": {
-        "speed": 5,
-        "farming_fortune": 3
+        "farming_fortune": 3,
+        "speed": 5
       },
       "EPIC": {
-        "speed": 5,
-        "farming_fortune": 4
+        "farming_fortune": 4,
+        "speed": 5
       },
       "LEGENDARY": {
-        "speed": 6,
-        "farming_fortune": 5
+        "farming_fortune": 5,
+        "speed": 6
       },
       "MYTHIC": {
-        "speed": 6,
-        "farming_fortune": 6
+        "farming_fortune": 6,
+        "speed": 6
+      },
+      "DIVINE": {
+        "farming_fortune": 7,
+        "speed": 7
       }
     }
   },
@@ -1363,23 +1538,15 @@
       "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 20000,
-      "UNCOMMON": 40000,
-      "RARE": 80000,
-      "EPIC": 150000,
-      "LEGENDARY": 300000,
-      "MYTHIC": 600000,
-      "DIVINE": 800000
+      "COMMON": 500000,
+      "UNCOMMON": 500000,
+      "RARE": 500000,
+      "EPIC": 500000,
+      "LEGENDARY": 500000,
+      "MYTHIC": 500000,
+      "DIVINE": 500000
     },
-    "reforgeAbility": {
-      "COMMON": "§7Grants §6+0.5☘ Mining Fortune §7for §7every §b1❄ Cold §7you have.",
-      "UNCOMMON": "§7Grants §6+0.7☘ Mining Fortune §7for §7every §b1❄ Cold §7you have.",
-      "RARE": "§7Grants §6+0.9☘ Mining Fortune §7for §7every §b1❄ Cold §7you have.",
-      "EPIC": "§7Grants §6+1.1☘ Mining Fortune §7for §7every §b1❄ Cold §7you have.",
-      "LEGENDARY": "§7Grants §6+1.4☘ Mining Fortune §7for §7every §b1❄ Cold §7you have.",
-      "MYTHIC": "§7Grants §6+1.7☘ Mining Fortune §7for §7every §b1❄ Cold §7you have.",
-      "DIVINE": "§7Grants §6+2☘ Mining Fortune §7for §7every §b1❄ Cold §7you have."
-    },
+    "reforgeAbility": "§7Grants §6+2 Mining Fortune §7for §7every §b1❄ Cold §7you have.",
     "reforgeStats": {
       "COMMON": {
         "mining_fortune": 3
@@ -1415,46 +1582,53 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 25000,
-      "UNCOMMON": 75000,
-      "RARE": 150000,
+      "COMMON": 250000,
+      "UNCOMMON": 250000,
+      "RARE": 250000,
       "EPIC": 250000,
-      "LEGENDARY": 400000,
-      "MYTHIC": 600000
+      "LEGENDARY": 250000,
+      "MYTHIC": 250000,
+      "DIVINE": 250000
     },
     "reforgeStats": {
       "COMMON": {
         "intelligence": 5,
-        "sea_creature_chance": 0.05,
-        "fishing_speed": 2
+        "fishing_speed": 2,
+        "sea_creature_chance": 0.05
       },
       "UNCOMMON": {
         "intelligence": 10,
-        "sea_creature_chance": 0.05,
-        "fishing_speed": 3
+        "fishing_speed": 3,
+        "sea_creature_chance": 0.05
       },
       "RARE": {
         "intelligence": 15,
-        "sea_creature_chance": 0.1,
-        "fishing_speed": 4
+        "fishing_speed": 4,
+        "sea_creature_chance": 0.1
       },
       "EPIC": {
         "intelligence": 20,
-        "sea_creature_chance": 0.15,
-        "fishing_speed": 6
+        "fishing_speed": 6,
+        "sea_creature_chance": 0.15
       },
       "LEGENDARY": {
         "intelligence": 25,
-        "sea_creature_chance": 0.2,
-        "fishing_speed": 8
+        "fishing_speed": 8,
+        "sea_creature_chance": 0.2
       },
       "MYTHIC": {
         "intelligence": 30,
-        "sea_creature_chance": 0.25,
-        "fishing_speed": 10
+        "fishing_speed": 10,
+        "sea_creature_chance": 0.25
+      },
+      "DIVINE": {
+        "intelligence": 35,
+        "fishing_speed": 12,
+        "sea_creature_chance": 0.3
       }
     }
   },
@@ -1462,9 +1636,81 @@
     "internalName": "FULL_JAW_FANGING_KIT",
     "reforgeName": "Fanged",
     "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "SWORD",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
+    },
+    "reforgeAbility": "§7Every §c7th §7melee hit on a mob deals §c+100%  Damage§7.",
+    "reforgeStats": {
+      "COMMON": {
+        "strength": 30,
+        "crit_chance": 3,
+        "attack_speed": 2,
+        "vitality": 1
+      },
+      "UNCOMMON": {
+        "strength": 35,
+        "crit_chance": 4,
+        "attack_speed": 3,
+        "vitality": 1
+      },
+      "RARE": {
+        "strength": 40,
+        "crit_chance": 5,
+        "attack_speed": 4,
+        "vitality": 2
+      },
+      "EPIC": {
+        "strength": 50,
+        "crit_chance": 7,
+        "attack_speed": 6,
+        "vitality": 3
+      },
+      "LEGENDARY": {
+        "strength": 60,
+        "crit_chance": 8,
+        "attack_speed": 9,
+        "vitality": 4
+      },
+      "MYTHIC": {
+        "strength": 65,
+        "crit_chance": 10,
+        "attack_speed": 10,
+        "vitality": 5
+      },
+      "DIVINE": {
+        "strength": 75,
+        "crit_chance": 12,
+        "attack_speed": 12,
+        "vitality": 12
+      }
+    }
+  },
+  "GEOMETRIC_ODDITY": {
+    "internalName": "GEOMETRIC_ODDITY",
+    "reforgeName": "Geometric",
+    "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": {
-      "itemId": [
-        "minecraft:iron_sword"
+      "internalName": [
+        "FROGGLES",
+        "SILVER_FROGGLES",
+        "GOLDEN_FROGGLES",
+        "DIAMOND_FROGGLES"
       ]
     },
     "requiredRarities": [
@@ -1473,53 +1719,47 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 10000,
-      "UNCOMMON": 12500,
-      "RARE": 25000,
-      "EPIC": 50000,
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
       "LEGENDARY": 100000,
-      "MYTHIC": 250000
+      "MYTHIC": 100000,
+      "DIVINE": 100000
     },
-    "reforgeAbility": "Every §c7th§7 melee hit on an enemy deals §c+100%§7 damage.",
+    "reforgeAbility": "§7Gain a §a+5% §7chance to catch a bonus §6Trophy §7while fishing in a §dWormhole§f.",
     "reforgeStats": {
       "COMMON": {
-        "strength": 30,
-        "bonus_attack_speed": 2,
-        "crit_chance": 3,
-        "vitality": 2
+        "fishing_speed": 0.5,
+        "trophy_chance": 0.5
       },
       "UNCOMMON": {
-        "strength": 35,
-        "bonus_attack_speed": 3,
-        "crit_chance": 4,
-        "vitality": 3
+        "fishing_speed": 1,
+        "trophy_chance": 1
       },
       "RARE": {
-        "strength": 40,
-        "bonus_attack_speed": 4,
-        "crit_chance": 5,
-        "vitality": 4
+        "fishing_speed": 1.5,
+        "trophy_chance": 1.5
       },
       "EPIC": {
-        "strength": 50,
-        "bonus_attack_speed": 6,
-        "crit_chance": 7,
-        "vitality": 6
+        "fishing_speed": 2,
+        "trophy_chance": 2
       },
       "LEGENDARY": {
-        "strength": 60,
-        "bonus_attack_speed": 9,
-        "crit_chance": 8,
-        "vitality": 8
+        "fishing_speed": 3,
+        "trophy_chance": 3
       },
       "MYTHIC": {
-        "strength": 65,
-        "bonus_attack_speed": 10,
-        "crit_chance": 10,
-        "vitality": 10
+        "fishing_speed": 4,
+        "trophy_chance": 4
+      },
+      "DIVINE": {
+        "fishing_speed": 5,
+        "trophy_chance": 5
       }
     }
   },
@@ -1534,15 +1774,17 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 60000,
-      "UNCOMMON": 125000,
+      "COMMON": 250000,
+      "UNCOMMON": 250000,
       "RARE": 250000,
-      "EPIC": 500000,
-      "LEGENDARY": 1000000,
-      "MYTHIC": 2000000
+      "EPIC": 250000,
+      "LEGENDARY": 250000,
+      "MYTHIC": 250000,
+      "DIVINE": 250000
     },
     "reforgeStats": {
       "COMMON": {
@@ -1562,6 +1804,9 @@
       },
       "MYTHIC": {
         "health": 240
+      },
+      "DIVINE": {
+        "health": 300
       }
     }
   },
@@ -1580,23 +1825,15 @@
       "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 20000,
-      "UNCOMMON": 40000,
-      "RARE": 80000,
-      "EPIC": 150000,
-      "LEGENDARY": 300000,
-      "MYTHIC": 600000,
-      "DIVINE": 800000
+      "COMMON": 250000,
+      "UNCOMMON": 250000,
+      "RARE": 250000,
+      "EPIC": 250000,
+      "LEGENDARY": 250000,
+      "MYTHIC": 250000,
+      "DIVINE": 250000
     },
-    "reforgeAbility": {
-      "COMMON": "§7Grants §e+5▚ Mining Spread §7during §7§6Mining Fiesta§7.",
-      "UNCOMMON": "§7Grants §e+10▚ Mining Spread §7during §7§6Mining Fiesta§7.",
-      "RARE": "§7Grants §e+15▚ Mining Spread §7during §7§6Mining Fiesta§7.",
-      "EPIC": "§7Grants §e+20▚ Mining Spread §7during §7§6Mining Fiesta§7.",
-      "LEGENDARY": "§7Grants §e+25▚ Mining Spread §7during §7§6Mining Fiesta§7.",
-      "MYTHIC": "§7Grants §e+30▚ Mining Spread §7during §7§6Mining Fiesta§7.",
-      "DIVINE": "§7Grants §e+35▚ Mining Spread §7during §7§6Mining Fiesta§7."
-    },
+    "reforgeAbility": "§7Grants §e+25 Mining Spread §7while §bMayor Cole's §6Mining Fiesta §7perk is §7active.",
     "reforgeStats": {
       "COMMON": {
         "mining_speed": 10,
@@ -1639,41 +1876,47 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 20000,
-      "UNCOMMON": 40000,
-      "RARE": 80000,
-      "EPIC": 150000,
-      "LEGENDARY": 300000,
-      "MYTHIC": 600000
+      "COMMON": 500000,
+      "UNCOMMON": 500000,
+      "RARE": 500000,
+      "EPIC": 500000,
+      "LEGENDARY": 500000,
+      "MYTHIC": 500000,
+      "DIVINE": 500000
     },
-    "reforgeAbility": "§7Grants §6+0.2 coins §7per crop.",
+    "reforgeAbility": "§7Earn §6+0.2 Coins §7every time you §7harvest a §aCrop§7.",
     "reforgeStats": {
       "COMMON": {
-        "speed": 1,
-        "farming_fortune": 1
+        "farming_fortune": 1,
+        "speed": 1
       },
       "UNCOMMON": {
-        "speed": 2,
-        "farming_fortune": 2
+        "farming_fortune": 2,
+        "speed": 2
       },
       "RARE": {
-        "speed": 3,
-        "farming_fortune": 3
+        "farming_fortune": 3,
+        "speed": 3
       },
       "EPIC": {
-        "speed": 5,
-        "farming_fortune": 5
+        "farming_fortune": 5,
+        "speed": 5
       },
       "LEGENDARY": {
-        "speed": 8,
-        "farming_fortune": 7
+        "farming_fortune": 7,
+        "speed": 8
       },
       "MYTHIC": {
-        "speed": 13,
-        "farming_fortune": 10
+        "farming_fortune": 10,
+        "speed": 13
+      },
+      "DIVINE": {
+        "farming_fortune": 13,
+        "speed": 20
       }
     }
   },
@@ -1681,47 +1924,54 @@
     "internalName": "HARDENED_WOOD",
     "reforgeName": "Stiff",
     "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "ROD",
+    "itemTypes": "FISHING_ROD",
     "requiredRarities": [
       "COMMON",
       "UNCOMMON",
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 4000,
-      "UNCOMMON": 7500,
-      "RARE": 15000,
-      "EPIC": 40000,
-      "LEGENDARY": 75000,
-      "MYTHIC": 150000
+      "COMMON": 25000,
+      "UNCOMMON": 25000,
+      "RARE": 25000,
+      "EPIC": 25000,
+      "LEGENDARY": 25000,
+      "MYTHIC": 25000,
+      "DIVINE": 25000
     },
+    "reforgeAbility": "§3Sea Creatures §7killed with this §bFishing §bRod §7drop §a+1 Chum§7.",
     "reforgeStats": {
       "COMMON": {
-        "sea_creature_chance": 1,
-        "strength": 2
+        "strength": 2,
+        "sea_creature_chance": 1
       },
       "UNCOMMON": {
-        "sea_creature_chance": 2,
-        "strength": 4
+        "strength": 4,
+        "sea_creature_chance": 2
       },
       "RARE": {
-        "sea_creature_chance": 2,
-        "strength": 6
+        "strength": 6,
+        "sea_creature_chance": 2
       },
       "EPIC": {
-        "sea_creature_chance": 3,
-        "strength": 8
+        "strength": 8,
+        "sea_creature_chance": 3
       },
       "LEGENDARY": {
-        "sea_creature_chance": 5,
-        "strength": 10
+        "strength": 10,
+        "sea_creature_chance": 5
       },
       "MYTHIC": {
-        "sea_creature_chance": 7,
-        "strength": 12
+        "strength": 12,
+        "sea_creature_chance": 7
+      },
+      "DIVINE": {
+        "strength": 14,
+        "sea_creature_chance": 9
       }
     }
   },
@@ -1735,22 +1985,20 @@
       "UNCOMMON",
       "RARE",
       "EPIC",
-      "LEGENDARY"
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 20000,
-      "UNCOMMON": 40000,
-      "RARE": 80000,
-      "EPIC": 150000,
-      "LEGENDARY": 300000
+      "COMMON": 250000,
+      "UNCOMMON": 250000,
+      "RARE": 250000,
+      "EPIC": 250000,
+      "LEGENDARY": 250000,
+      "MYTHIC": 250000,
+      "DIVINE": 250000
     },
-    "reforgeAbility": {
-      "COMMON": "§7Increases the odds of finding §2Seasonings by §a+5%§7.",
-      "UNCOMMON": "§7Increases the odds of finding §2Seasonings by §a+10%§7.",
-      "RARE": "§7Increases the odds of finding §2Seasonings by §a+15%§7.",
-      "EPIC": "§7Increases the odds of finding §2Seasonings by §a+20%§7.",
-      "LEGENDARY": "§7Increases the odds of finding §2Seasonings by §a+25%§7."
-    },
+    "reforgeAbility": "§7Find Seasonings §a25% §7more often §7during the §eFeast§7.",
     "reforgeStats": {
       "COMMON": {
         "farming_fortune": 3
@@ -1766,6 +2014,12 @@
       },
       "LEGENDARY": {
         "farming_fortune": 20
+      },
+      "MYTHIC": {
+        "farming_fortune": 25
+      },
+      "DIVINE": {
+        "farming_fortune": 30
       }
     }
   },
@@ -1783,24 +2037,16 @@
       "MYTHIC",
       "DIVINE"
     ],
-    "reforgeAbility": {
-      "COMMON": "§7Grants §6+0.3☘ Mining Fortune §7and §7§6+1⸕ Mining Speed §7per §c1♨ Heat §7you §7have.",
-      "UNCOMMON": "§7Grants §6+0.4☘ Mining Fortune §7and §7§6+1.4⸕ Mining Speed §7per §c1♨ Heat §7you §7have.",
-      "RARE": "§7Grants §6+0.5☘ Mining Fortune §7and §7§6+1.8⸕ Mining Speed §7per §c1♨ Heat §7you §7have.",
-      "EPIC": "§7Grants §6+0.6☘ Mining Fortune §7and §7§6+2.2⸕ Mining Speed §7per §c1♨ Heat §7you §7have.",
-      "LEGENDARY": "§7Grants §6+0.7☘ Mining Fortune §7and §7§6+2.8⸕ Mining Speed §7per §c1♨ Heat §7you §7have.",
-      "MYTHIC": "§7Grants §6+0.8☘ Mining Fortune §7and §7§6+3.4⸕ Mining Speed §7per §c1♨ Heat §7you §7have.",
-      "DIVINE": "§7Grants §6+1☘ Mining Fortune §7and §7§6+4⸕ Mining Speed §7per §c1♨ Heat §7you §7have."
-    },
     "reforgeCosts": {
-      "COMMON": 20000,
-      "UNCOMMON": 40000,
-      "RARE": 80000,
-      "EPIC": 150000,
-      "LEGENDARY": 300000,
-      "MYTHIC": 600000,
-      "DIVINE": 600000
+      "COMMON": 250000,
+      "UNCOMMON": 250000,
+      "RARE": 250000,
+      "EPIC": 250000,
+      "LEGENDARY": 250000,
+      "MYTHIC": 250000,
+      "DIVINE": 250000
     },
+    "reforgeAbility": "§7Grants §6+1 Mining Fortune §7and §6+4 §6Mining Speed §7per §c1♨ Heat §7you have.",
     "reforgeStats": {
       "COMMON": {
         "mining_speed": 5,
@@ -1832,45 +2078,6 @@
       }
     }
   },
-  "JERRY_STONE": {
-    "internalName": "JERRY_STONE",
-    "nbtModifier": "jerry_stone",
-    "reforgeName": "Jerry's",
-    "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": {
-      "internalName": [
-        "ASPECT_OF_THE_JERRY",
-        "ASPECT_OF_THE_JERRY_SIGNATURE"
-      ]
-    },
-    "requiredRarities": [
-      "COMMON",
-      "UNCOMMON",
-      "RARE"
-    ],
-    "reforgeCosts": {
-      "COMMON": 1,
-      "UNCOMMON": 2,
-      "RARE": 3
-    },
-    "reforgeStats": {
-      "COMMON": {
-        "strength": 25,
-        "crit_chance": 10,
-        "crit_damage": 50
-      },
-      "UNCOMMON": {
-        "strength": 25,
-        "crit_chance": 10,
-        "crit_damage": 50
-      },
-      "RARE": {
-        "strength": 25,
-        "crit_chance": 10,
-        "crit_damage": 50
-      }
-    }
-  },
   "JADERALD": {
     "internalName": "JADERALD",
     "reforgeName": "Jaded",
@@ -1882,15 +2089,17 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 20000,
-      "UNCOMMON": 40000,
-      "RARE": 80000,
-      "EPIC": 150000,
-      "LEGENDARY": 300000,
-      "MYTHIC": 600000
+      "COMMON": 250000,
+      "UNCOMMON": 250000,
+      "RARE": 250000,
+      "EPIC": 250000,
+      "LEGENDARY": 250000,
+      "MYTHIC": 250000,
+      "DIVINE": 250000
     },
     "reforgeStats": {
       "COMMON": {
@@ -1916,6 +2125,77 @@
       "MYTHIC": {
         "mining_speed": 60,
         "mining_fortune": 30
+      },
+      "DIVINE": {
+        "mining_speed": 75,
+        "mining_fortune": 35
+      }
+    }
+  },
+  "JERRY_STONE": {
+    "internalName": "JERRY_STONE",
+    "nbtModifier": "jerry_stone",
+    "reforgeName": "Jerry's",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": {
+      "internalName": [
+        "ASPECT_OF_THE_JERRY",
+        "ASPECT_OF_THE_JERRY_SIGNATURE"
+      ]
+    },
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 25000,
+      "UNCOMMON": 25000,
+      "RARE": 25000,
+      "EPIC": 25000,
+      "LEGENDARY": 25000,
+      "MYTHIC": 25000,
+      "DIVINE": 25000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "strength": 25,
+        "crit_chance": 10,
+        "crit_damage": 50
+      },
+      "UNCOMMON": {
+        "strength": 25,
+        "crit_chance": 10,
+        "crit_damage": 50
+      },
+      "RARE": {
+        "strength": 25,
+        "crit_chance": 10,
+        "crit_damage": 50
+      },
+      "EPIC": {
+        "strength": 25,
+        "crit_chance": 10,
+        "crit_damage": 50
+      },
+      "LEGENDARY": {
+        "strength": 25,
+        "crit_chance": 10,
+        "crit_damage": 50
+      },
+      "MYTHIC": {
+        "strength": 25,
+        "crit_chance": 10,
+        "crit_damage": 50
+      },
+      "DIVINE": {
+        "strength": 25,
+        "crit_chance": 10,
+        "crit_damage": 50
       }
     }
   },
@@ -1923,24 +2203,26 @@
     "internalName": "KUUDRA_MANDIBLE",
     "reforgeName": "Chomp",
     "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "ROD",
+    "itemTypes": "FISHING_ROD",
     "requiredRarities": [
       "COMMON",
       "UNCOMMON",
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 20000,
-      "UNCOMMON": 40000,
-      "RARE": 80000,
-      "EPIC": 150000,
-      "LEGENDARY": 300000,
-      "MYTHIC": 600000
+      "COMMON": 500000,
+      "UNCOMMON": 500000,
+      "RARE": 500000,
+      "EPIC": 500000,
+      "LEGENDARY": 500000,
+      "MYTHIC": 500000,
+      "DIVINE": 500000
     },
-    "reforgeAbility": "§7Each unique §cLava Sea Creature §7killed with this rod in your inventory reduces their §c❤ Health §7when fished by §a1%§7. §8Capped at -20% health.",
+    "reforgeAbility": "§7Each unique §cLava Sea Creature §7killed with this rod in your inventory §7reduces their §c Health §7when fished §7by §a1%§7. §8Capped at -20% health.  §7Current Reduction: §c-0% ❤",
     "reforgeStats": {
       "COMMON": {
         "strength": 5,
@@ -1971,6 +2253,11 @@
         "strength": 50,
         "crit_chance": 50,
         "fishing_speed": 11
+      },
+      "DIVINE": {
+        "strength": 70,
+        "crit_chance": 70,
+        "fishing_speed": 13
       }
     }
   },
@@ -1989,23 +2276,15 @@
       "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 250,
-      "UNCOMMON": 500,
-      "RARE": 1000,
-      "EPIC": 2500,
-      "LEGENDARY": 5000,
-      "MYTHIC": 10000,
-      "DIVINE": 15000
+      "COMMON": 25000,
+      "UNCOMMON": 25000,
+      "RARE": 25000,
+      "EPIC": 25000,
+      "LEGENDARY": 25000,
+      "MYTHIC": 25000,
+      "DIVINE": 25000
     },
-    "reforgeAbility": {
-      "COMMON": "§7Earn §a+25% §7more Exp when mining.",
-      "UNCOMMON": "§7Earn §a+35% §7more Exp when mining.",
-      "RARE": "§7Earn §a+45% §7more Exp when mining.",
-      "EPIC": "§7Earn §a+55% §7more Exp when mining.",
-      "LEGENDARY": "§7Earn §a+65% §7more Exp when mining.",
-      "MYTHIC": "§7Earn §a+80% §7more Exp when mining.",
-      "DIVINE": "§7Earn §a+100% §7more Exp when mining."
-    },
+    "reforgeAbility": "§7Earn §a+100% §7more Exp when mining.",
     "reforgeStats": {
       "COMMON": {
         "mining_speed": 10
@@ -2022,8 +2301,11 @@
       "LEGENDARY": {
         "mining_speed": 50
       },
+      "MYTHIC": {
+        "mining_speed": 75
+      },
       "DIVINE": {
-        "mining_speed": 60
+        "mining_speed": 100
       }
     }
   },
@@ -2037,14 +2319,18 @@
       "UNCOMMON",
       "RARE",
       "EPIC",
-      "LEGENDARY"
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 5000,
-      "UNCOMMON": 10000,
-      "RARE": 20000,
-      "EPIC": 50000,
-      "LEGENDARY": 100000
+      "COMMON": 25000,
+      "UNCOMMON": 25000,
+      "RARE": 25000,
+      "EPIC": 25000,
+      "LEGENDARY": 25000,
+      "MYTHIC": 25000,
+      "DIVINE": 25000
     },
     "reforgeAbility": "§7Earn §2+5% Sowdust §7from farming.",
     "reforgeStats": {
@@ -2062,6 +2348,12 @@
       },
       "LEGENDARY": {
         "farming_fortune": 25
+      },
+      "MYTHIC": {
+        "farming_fortune": 30
+      },
+      "DIVINE": {
+        "farming_fortune": 35
       }
     }
   },
@@ -2069,22 +2361,24 @@
     "internalName": "LUCKY_DICE",
     "reforgeName": "Lucky",
     "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "ROD",
+    "itemTypes": "FISHING_ROD",
     "requiredRarities": [
       "COMMON",
       "UNCOMMON",
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 20000,
-      "UNCOMMON": 40000,
-      "RARE": 80000,
-      "EPIC": 150000,
-      "LEGENDARY": 300000,
-      "MYTHIC": 600000
+      "COMMON": 250000,
+      "UNCOMMON": 250000,
+      "RARE": 250000,
+      "EPIC": 250000,
+      "LEGENDARY": 250000,
+      "MYTHIC": 250000,
+      "DIVINE": 250000
     },
     "reforgeStats": {
       "COMMON": {
@@ -2110,6 +2404,10 @@
       "MYTHIC": {
         "sea_creature_chance": 7,
         "magic_find": 6
+      },
+      "DIVINE": {
+        "sea_creature_chance": 8,
+        "magic_find": 7
       }
     }
   },
@@ -2128,42 +2426,35 @@
       "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 10000,
-      "UNCOMMON": 15000,
-      "RARE": 20000,
-      "EPIC": 30000,
-      "LEGENDARY": 40000,
-      "MYTHIC": 50000,
-      "DIVINE": 50000
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
     },
     "reforgeStats": {
       "COMMON": {
-        "foraging_fortune": 4,
-        "foraging_wisdom": 1
+        "foraging_fortune": 2
       },
       "UNCOMMON": {
-        "foraging_fortune": 6,
-        "foraging_wisdom": 2
+        "foraging_fortune": 3
       },
       "RARE": {
-        "foraging_fortune": 8,
-        "foraging_wisdom": 3
+        "foraging_fortune": 4
       },
       "EPIC": {
-        "foraging_fortune": 10,
-        "foraging_wisdom": 4
+        "foraging_fortune": 5
       },
       "LEGENDARY": {
-        "foraging_fortune": 12,
-        "foraging_wisdom": 5
+        "foraging_fortune": 6
       },
       "MYTHIC": {
-        "foraging_fortune": 15,
-        "foraging_wisdom": 6
+        "foraging_fortune": 7
       },
       "DIVINE": {
-        "foraging_fortune": 15,
-        "foraging_wisdom": 6
+        "foraging_fortune": 8
       }
     }
   },
@@ -2182,15 +2473,15 @@
       "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 7500,
-      "UNCOMMON": 15000,
-      "RARE": 30000,
-      "EPIC": 75000,
-      "LEGENDARY": 150000,
-      "MYTHIC": 150000,
-      "DIVINE": 150000
+      "COMMON": 250000,
+      "UNCOMMON": 250000,
+      "RARE": 250000,
+      "EPIC": 250000,
+      "LEGENDARY": 250000,
+      "MYTHIC": 250000,
+      "DIVINE": 250000
     },
-    "reforgeAbility": "§7Grants §2+0.25ൠ Bonus Pest Chance §7per §2ൠ Pest §7killed for §a10 minutes§7. Caps at §25ൠ Bonus Pest Chance§7.",
+    "reforgeAbility": "§7Grants §2+0.25 Bonus Pest Chance §7per §2 Pest §7killed for §a10 minutes§7. §7Caps at §25 Bonus Pest Chance§7.",
     "reforgeStats": {
       "COMMON": {
         "bonus_pest_chance": 0.5,
@@ -2217,7 +2508,7 @@
         "farming_fortune": 12
       },
       "DIVINE": {
-        "bonus_pest_chance": 2.5,
+        "bonus_pest_chance": 3,
         "farming_fortune": 14
       }
     }
@@ -2233,81 +2524,54 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 5000,
+      "COMMON": 25000,
       "UNCOMMON": 25000,
-      "RARE": 100000,
-      "EPIC": 250000,
-      "LEGENDARY": 500000,
-      "MYTHIC": 1000000
+      "RARE": 25000,
+      "EPIC": 25000,
+      "LEGENDARY": 25000,
+      "MYTHIC": 25000,
+      "DIVINE": 25000
     },
-    "reforgeAbility": "§7Increases §3Forest Whispers §7gain by §a+1%§7.",
+    "reforgeAbility": "§7Earn §3+1% Forest Whispers §7from §7foraging.",
     "reforgeStats": {
       "COMMON": {
+        "fishing_speed": 0.2,
         "sea_creature_chance": 0.1,
-        "foraging_fortune": 0.5,
-        "fishing_speed": 0.2
+        "foraging_fortune": 0.5
       },
       "UNCOMMON": {
+        "fishing_speed": 0.4,
         "sea_creature_chance": 0.2,
-        "foraging_fortune": 1,
-        "fishing_speed": 0.4
+        "foraging_fortune": 1
       },
       "RARE": {
+        "fishing_speed": 0.6,
         "sea_creature_chance": 0.3,
-        "foraging_fortune": 1.5,
-        "fishing_speed": 0.6
+        "foraging_fortune": 1.5
       },
       "EPIC": {
+        "fishing_speed": 1,
         "sea_creature_chance": 0.5,
-        "foraging_fortune": 2.5,
-        "fishing_speed": 1
+        "foraging_fortune": 2.5
       },
       "LEGENDARY": {
+        "fishing_speed": 1.4,
         "sea_creature_chance": 0.7,
-        "foraging_fortune": 3.5,
-        "fishing_speed": 1.4
+        "foraging_fortune": 3.5
       },
       "MYTHIC": {
+        "fishing_speed": 1.8,
         "sea_creature_chance": 0.9,
-        "foraging_fortune": 4.5,
-        "fishing_speed": 1.8
-      }
-    }
-  },
-  "MIDAS_JEWEL": {
-    "internalName": "MIDAS_JEWEL",
-    "reforgeName": "Gilded",
-    "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": {
-      "internalName": [
-        "MIDAS_SWORD",
-        "MIDAS_STAFF",
-        "STARRED_MIDAS_STAFF",
-        "STARRED_MIDAS_SWORD"
-      ]
-    },
-    "requiredRarities": [
-      "LEGENDARY",
-      "MYTHIC"
-    ],
-    "reforgeCosts": {
-      "LEGENDARY": 5000000,
-      "MYTHIC": 10000000
-    },
-    "reforgeAbility": "Upon killing an enemy you have a low chance to grant a random amount of coins to another player around you",
-    "reforgeStats": {
-      "LEGENDARY": {
-        "damage": 75,
-        "strength": 75,
-        "ability_damage": 8
+        "foraging_fortune": 4.5
       },
-      "MYTHIC": {
-        "damage": 90,
-        "strength": 90,
-        "ability_damage": 10
+      "DIVINE": {
+        "fishing_speed": 2.2,
+        "sea_creature_chance": 1.1,
+        "foraging_fortune": 5.5
       }
     }
   },
@@ -2326,13 +2590,13 @@
       "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 7500,
-      "UNCOMMON": 15000,
-      "RARE": 30000,
-      "EPIC": 75000,
-      "LEGENDARY": 150000,
-      "MYTHIC": 300000,
-      "DIVINE": 400000
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
     },
     "reforgeStats": {
       "COMMON": {
@@ -2354,7 +2618,46 @@
         "defense": 30
       },
       "DIVINE": {
-        "defense": 36
+        "defense": 35
+      }
+    }
+  },
+  "MIDAS_JEWEL": {
+    "internalName": "MIDAS_JEWEL",
+    "reforgeName": "Gilded",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": {
+      "internalName": [
+        "MIDAS_SWORD",
+        "MIDAS_STAFF",
+        "STARRED_MIDAS_STAFF",
+        "STARRED_MIDAS_SWORD"
+      ]
+    },
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "LEGENDARY": 250000,
+      "MYTHIC": 250000
+    },
+    "reforgeAbility": "§7Killing a mob has a rare chance to §7grant §6Coins §7to a nearby player.",
+    "reforgeStats": {
+      "LEGENDARY": {
+        "damage": 75,
+        "strength": 75,
+        "ability_damage": 8
+      },
+      "MYTHIC": {
+        "damage": 90,
+        "strength": 90,
+        "ability_damage": 10
       }
     }
   },
@@ -2369,42 +2672,39 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 1000,
-      "UNCOMMON": 5000,
-      "RARE": 10000,
-      "EPIC": 15000,
-      "LEGENDARY": 50000,
-      "MYTHIC": 75000
-    },
-    "reforgeAbility": {
-      "COMMON": "Grants §3+1☯ Foraging Wisdom§7.",
-      "UNCOMMON": "Grants §3+1☯ Foraging Wisdom§7.",
-      "RARE": "Grants §3+2☯ Foraging Wisdom§7.",
-      "EPIC": "Grants §3+2☯ Foraging Wisdom§7.",
-      "LEGENDARY": "Grants §3+3☯ Foraging Wisdom§7.",
-      "MYTHIC": "Grants §3+3☯ Foraging Wisdom§7."
+      "COMMON": 25000,
+      "UNCOMMON": 25000,
+      "RARE": 25000,
+      "EPIC": 25000,
+      "LEGENDARY": 25000,
+      "MYTHIC": 25000,
+      "DIVINE": 25000
     },
     "reforgeStats": {
       "COMMON": {
-        "foraging_wisdom": 1
+        "foraging_fortune": 1
       },
       "UNCOMMON": {
-        "foraging_wisdom": 1
+        "foraging_fortune": 2
       },
       "RARE": {
-        "foraging_wisdom": 2
+        "foraging_fortune": 3
       },
       "EPIC": {
-        "foraging_wisdom": 2
+        "foraging_fortune": 4
       },
       "LEGENDARY": {
-        "foraging_wisdom": 3
+        "foraging_fortune": 6
       },
       "MYTHIC": {
-        "foraging_wisdom": 3
+        "foraging_fortune": 8
+      },
+      "DIVINE": {
+        "foraging_fortune": 10
       }
     }
   },
@@ -2419,41 +2719,47 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 4000,
-      "UNCOMMON": 7500,
-      "RARE": 15000,
-      "EPIC": 40000,
-      "LEGENDARY": 75000,
-      "MYTHIC": 150000
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
     },
-    "reforgeAbility": "Decrease damage taken from Nether mobs by §a2%",
+    "reforgeAbility": "§7Take §c-2%  Damage §7from §4 Infernal §7mobs.",
     "reforgeStats": {
       "COMMON": {
-        "strength": 3,
-        "health": 5
+        "health": 5,
+        "strength": 3
       },
       "UNCOMMON": {
-        "strength": 5,
-        "health": 7
+        "health": 7,
+        "strength": 5
       },
       "RARE": {
-        "strength": 7,
-        "health": 10
+        "health": 10,
+        "strength": 7
       },
       "EPIC": {
-        "strength": 10,
-        "health": 15
+        "health": 15,
+        "strength": 10
       },
       "LEGENDARY": {
-        "strength": 12,
-        "health": 20
+        "health": 20,
+        "strength": 12
       },
       "MYTHIC": {
-        "strength": 15,
-        "health": 25
+        "health": 25,
+        "strength": 15
+      },
+      "DIVINE": {
+        "health": 30,
+        "strength": 18
       }
     }
   },
@@ -2472,13 +2778,13 @@
       "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 10000,
-      "UNCOMMON": 15000,
-      "RARE": 20000,
-      "EPIC": 30000,
-      "LEGENDARY": 40000,
-      "MYTHIC": 50000,
-      "DIVINE": 50000
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
     },
     "reforgeStats": {
       "COMMON": {
@@ -2506,8 +2812,8 @@
         "foraging_wisdom": 6
       },
       "DIVINE": {
-        "foraging_fortune": 15,
-        "foraging_wisdom": 6
+        "foraging_fortune": 18,
+        "foraging_wisdom": 7
       }
     }
   },
@@ -2526,13 +2832,13 @@
       "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 5000,
-      "UNCOMMON": 10000,
-      "RARE": 20000,
-      "EPIC": 50000,
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
       "LEGENDARY": 100000,
-      "MYTHIC": 200000,
-      "DIVINE": 200000
+      "MYTHIC": 100000,
+      "DIVINE": 100000
     },
     "reforgeStats": {
       "COMMON": {
@@ -2560,8 +2866,8 @@
         "farming_wisdom": 4
       },
       "DIVINE": {
-        "speed": 4,
-        "farming_wisdom": 4
+        "speed": 5,
+        "farming_wisdom": 5
       }
     }
   },
@@ -2584,50 +2890,57 @@
       "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 5000,
-      "UNCOMMON": 25000,
-      "RARE": 100000,
-      "EPIC": 500000,
-      "LEGENDARY": 1000000,
-      "MYTHIC": 2000000
+      "COMMON": 250000,
+      "UNCOMMON": 250000,
+      "RARE": 250000,
+      "EPIC": 250000,
+      "LEGENDARY": 250000,
+      "MYTHIC": 250000,
+      "DIVINE": 250000
     },
-    "reforgeAbility": "§7Grants §f+50 Speed §7while in the §2Critter Safari§7.",
+    "reforgeAbility": "§7Grants §f+50 Speed §7while in the  §2Critter Safari§7.",
     "reforgeStats": {
       "COMMON": {
-        "hunting_wisdom": 0.5,
         "sweep": 0.5,
         "foraging_fortune": 2,
-        "hunting_fortune": 0.5
+        "hunting_fortune": 0.5,
+        "hunting_wisdom": 0.5
       },
       "UNCOMMON": {
-        "hunting_wisdom": 1,
         "sweep": 1,
         "foraging_fortune": 4,
-        "hunting_fortune": 1
+        "hunting_fortune": 1,
+        "hunting_wisdom": 1
       },
       "RARE": {
-        "hunting_wisdom": 1.5,
         "sweep": 1.5,
         "foraging_fortune": 6,
-        "hunting_fortune": 1.5
+        "hunting_fortune": 1.5,
+        "hunting_wisdom": 1.5
       },
       "EPIC": {
-        "hunting_wisdom": 2,
         "sweep": 2,
         "foraging_fortune": 8,
-        "hunting_fortune": 2
+        "hunting_fortune": 2,
+        "hunting_wisdom": 2
       },
       "LEGENDARY": {
-        "hunting_wisdom": 3,
         "sweep": 3,
         "foraging_fortune": 12,
-        "hunting_fortune": 3
+        "hunting_fortune": 3,
+        "hunting_wisdom": 3
       },
       "MYTHIC": {
-        "hunting_wisdom": 4,
         "sweep": 4,
         "foraging_fortune": 16,
-        "hunting_fortune": 4
+        "hunting_fortune": 4,
+        "hunting_wisdom": 4
+      },
+      "DIVINE": {
+        "sweep": 5,
+        "foraging_fortune": 20,
+        "hunting_fortune": 5,
+        "hunting_wisdom": 5
       }
     }
   },
@@ -2642,15 +2955,17 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 20000,
-      "UNCOMMON": 40000,
-      "RARE": 80000,
-      "EPIC": 150000,
-      "LEGENDARY": 300000,
-      "MYTHIC": 1000000
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
     },
     "reforgeStats": {
       "COMMON": {
@@ -2670,6 +2985,9 @@
       },
       "MYTHIC": {
         "intelligence": 200
+      },
+      "DIVINE": {
+        "intelligence": 250
       }
     }
   },
@@ -2688,23 +3006,15 @@
       "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 100,
-      "UNCOMMON": 250,
-      "RARE": 500,
-      "EPIC": 1000,
-      "LEGENDARY": 2500,
+      "COMMON": 5000,
+      "UNCOMMON": 5000,
+      "RARE": 5000,
+      "EPIC": 5000,
+      "LEGENDARY": 5000,
       "MYTHIC": 5000,
-      "DIVINE": 10000
+      "DIVINE": 5000
     },
-    "reforgeAbility": {
-      "COMMON": "§7Grants §a+25❈ Defense §7while on §bMining §bIslands§7.",
-      "UNCOMMON": "§7Grants §a+30❈ Defense §7while on §bMining §bIslands§7.",
-      "RARE": "§7Grants §a+35❈ Defense §7while on §bMining §bIslands§7.",
-      "EPIC": "§7Grants §a+40❈ Defense §7while on §bMining §bIslands§7.",
-      "LEGENDARY": "§7Grants §a+50❈ Defense §7while on §bMining §bIslands§7.",
-      "MYTHIC": "§7Grants §a+60❈ Defense §7while on §bMining §bIslands§7.",
-      "DIVINE": "§7Grants §a+70❈ Defense §7while on §bMining §bIslands§7."
-    },
+    "reforgeAbility": "§7Grants §a+75 Defense §7while on  §6Mining Islands§7.",
     "reforgeStats": {
       "COMMON": {
         "mining_speed": 5,
@@ -2747,17 +3057,19 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 30000,
-      "UNCOMMON": 75000,
-      "RARE": 150000,
-      "EPIC": 300000,
-      "LEGENDARY": 600000,
-      "MYTHIC": 1200000
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
     },
-    "reforgeAbility": "Deal §a+10% §7extra damage when arrows hit the head of a mob.",
+    "reforgeAbility": "§7Deal §c+10%  Damage §7when hitting a §7mob's head.",
     "reforgeStats": {
       "COMMON": {
         "strength": 3,
@@ -2788,48 +3100,11 @@
         "strength": 34,
         "crit_chance": 15,
         "crit_damage": 70
-      }
-    }
-  },
-  "OVERPRICED_DRINK": {
-    "internalName": "OVERPRICED_DRINK",
-    "reforgeName": "Overpriced",
-    "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "FARMING_TOOL",
-    "requiredRarities": [
-      "COMMON",
-      "UNCOMMON",
-      "RARE",
-      "EPIC",
-      "LEGENDARY"
-    ],
-    "reforgeCosts": {
-      "COMMON": 20000,
-      "UNCOMMON": 40000,
-      "RARE": 80000,
-      "EPIC": 150000,
-      "LEGENDARY": 300000
-    },
-    "reforgeStats": {
-      "COMMON": {
-        "farming_fortune": 5,
-        "overbloom": 1
       },
-      "UNCOMMON": {
-        "farming_fortune": 10,
-        "overbloom": 2
-      },
-      "RARE": {
-        "farming_fortune": 15,
-        "overbloom": 3
-      },
-      "EPIC": {
-        "farming_fortune": 20,
-        "overbloom": 5
-      },
-      "LEGENDARY": {
-        "farming_fortune": 25,
-        "overbloom": 7
+      "DIVINE": {
+        "strength": 45,
+        "crit_chance": 18,
+        "crit_damage": 90
       }
     }
   },
@@ -2837,7 +3112,7 @@
     "internalName": "OVERFLOWING_TRASH_CAN",
     "reforgeName": "Trashy",
     "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "ROD",
+    "itemTypes": "FISHING_ROD",
     "requiredRarities": [
       "COMMON",
       "UNCOMMON",
@@ -2848,42 +3123,43 @@
       "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 2500,
-      "UNCOMMON": 10000,
-      "RARE": 20000,
-      "EPIC": 40000,
-      "LEGENDARY": 80000,
-      "MYTHIC": 120000,
-      "DIVINE": 500000
+      "COMMON": 25000,
+      "UNCOMMON": 25000,
+      "RARE": 25000,
+      "EPIC": 25000,
+      "LEGENDARY": 25000,
+      "MYTHIC": 25000,
+      "DIVINE": 25000
     },
+    "reforgeAbility": "§7Grants §6+1 Treasure Chance §7while §7in the  §2Backwater Bayou§7.",
     "reforgeStats": {
       "COMMON": {
-        "sea_creature_chance": 0.5,
-        "fishing_speed": 1
+        "fishing_speed": 1,
+        "sea_creature_chance": 0.5
       },
       "UNCOMMON": {
-        "sea_creature_chance": 1,
-        "fishing_speed": 2
+        "fishing_speed": 2,
+        "sea_creature_chance": 1
       },
       "RARE": {
-        "sea_creature_chance": 1.5,
-        "fishing_speed": 3
+        "fishing_speed": 3,
+        "sea_creature_chance": 1.5
       },
       "EPIC": {
-        "sea_creature_chance": 2,
-        "fishing_speed": 4
+        "fishing_speed": 4,
+        "sea_creature_chance": 2
       },
       "LEGENDARY": {
-        "sea_creature_chance": 3,
-        "fishing_speed": 6
+        "fishing_speed": 6,
+        "sea_creature_chance": 3
       },
       "MYTHIC": {
-        "sea_creature_chance": 4,
-        "fishing_speed": 8
+        "fishing_speed": 8,
+        "sea_creature_chance": 4
       },
       "DIVINE": {
-        "sea_creature_chance": 4,
-        "fishing_speed": 8
+        "fishing_speed": 10,
+        "sea_creature_chance": 5
       }
     }
   },
@@ -2898,40 +3174,100 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 20000,
-      "UNCOMMON": 40000,
-      "RARE": 80000,
-      "EPIC": 150000,
-      "LEGENDARY": 300000,
-      "MYTHIC": 600000
+      "COMMON": 250000,
+      "UNCOMMON": 250000,
+      "RARE": 250000,
+      "EPIC": 250000,
+      "LEGENDARY": 250000,
+      "MYTHIC": 250000,
+      "DIVINE": 250000
     },
     "reforgeStats": {
       "COMMON": {
-        "speed": 3,
+        "farming_fortune": 5,
+        "speed": 3
+      },
+      "UNCOMMON": {
+        "farming_fortune": 10,
+        "speed": 3
+      },
+      "RARE": {
+        "farming_fortune": 15,
+        "speed": 5
+      },
+      "EPIC": {
+        "farming_fortune": 20,
+        "speed": 5
+      },
+      "LEGENDARY": {
+        "farming_fortune": 25,
+        "speed": 7
+      },
+      "MYTHIC": {
+        "farming_fortune": 30,
+        "speed": 7
+      },
+      "DIVINE": {
+        "farming_fortune": 35,
+        "speed": 10
+      }
+    }
+  },
+  "OVERPRICED_DRINK": {
+    "internalName": "OVERPRICED_DRINK",
+    "reforgeName": "Overpriced",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "FARMING_TOOL",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 250000,
+      "UNCOMMON": 250000,
+      "RARE": 250000,
+      "EPIC": 250000,
+      "LEGENDARY": 250000,
+      "MYTHIC": 250000,
+      "DIVINE": 250000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "overbloom": 1,
         "farming_fortune": 5
       },
       "UNCOMMON": {
-        "speed": 3,
+        "overbloom": 2,
         "farming_fortune": 10
       },
       "RARE": {
-        "speed": 5,
+        "overbloom": 3,
         "farming_fortune": 15
       },
       "EPIC": {
-        "speed": 5,
+        "overbloom": 5,
         "farming_fortune": 20
       },
       "LEGENDARY": {
-        "speed": 7,
+        "overbloom": 7,
         "farming_fortune": 25
       },
       "MYTHIC": {
-        "speed": 7,
+        "overbloom": 9,
         "farming_fortune": 30
+      },
+      "DIVINE": {
+        "overbloom": 12,
+        "farming_fortune": 35
       }
     }
   },
@@ -2950,23 +3286,15 @@
       "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 25000,
-      "UNCOMMON": 50000,
-      "RARE": 100000,
-      "EPIC": 200000,
-      "LEGENDARY": 400000,
-      "MYTHIC": 800000,
-      "DIVINE": 800000
+      "COMMON": 250000,
+      "UNCOMMON": 250000,
+      "RARE": 250000,
+      "EPIC": 250000,
+      "LEGENDARY": 250000,
+      "MYTHIC": 250000,
+      "DIVINE": 250000
     },
-    "reforgeAbility": {
-      "COMMON": "§7Earn §2+8% Mithril Powder §7and §6+25☘ §6Mining Fortune §7when mining near a §7Fallen Star.",
-      "UNCOMMON": "§7Earn §2+9% Mithril Powder §7and §6+30☘ §6Mining Fortune §7when mining near a §7Fallen Star.",
-      "RARE": "§7Earn §2+10% Mithril Powder §7and §6+35☘ §6Mining Fortune §7when mining near a §7Fallen Star.",
-      "EPIC": "§7Earn §2+12% Mithril Powder §7and §6+45☘ §6Mining Fortune §7when mining near a §7Fallen Star.",
-      "LEGENDARY": "§7Earn §2+14% Mithril Powder §7and §6+55☘ §6Mining Fortune §7when mining near a §7Fallen Star.",
-      "MYTHIC": "§7Earn §2+17% Mithril Powder §7and §6+65☘ §6Mining Fortune §7when mining near a §7Fallen Star.",
-      "DIVINE": "§7Earn §2+20% Mithril Powder §7and §6+75☘ §6Mining Fortune §7when mining near a §7Fallen Star."
-    },
+    "reforgeAbility": "§7Earn §2+20% ᠅ Mithril Powder §7and §6+75 Mining Fortune §7when mining §7near §5 Fallen Stars§7.",
     "reforgeStats": {
       "COMMON": {
         "mining_speed": 5,
@@ -2998,6 +3326,61 @@
       }
     }
   },
+  "PITCHIN_KOI": {
+    "internalName": "PITCHIN_KOI",
+    "nbtModifier": "pitchin",
+    "reforgeName": "Pitchin'",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "FISHING_ROD",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "fishing_speed": 1,
+        "sea_creature_chance": 1
+      },
+      "UNCOMMON": {
+        "fishing_speed": 2,
+        "sea_creature_chance": 1
+      },
+      "RARE": {
+        "fishing_speed": 4,
+        "sea_creature_chance": 2
+      },
+      "EPIC": {
+        "fishing_speed": 6,
+        "sea_creature_chance": 3
+      },
+      "LEGENDARY": {
+        "fishing_speed": 8,
+        "sea_creature_chance": 4
+      },
+      "MYTHIC": {
+        "fishing_speed": 10,
+        "sea_creature_chance": 5
+      },
+      "DIVINE": {
+        "fishing_speed": 12,
+        "sea_creature_chance": 6
+      }
+    }
+  },
   "POCKET_ICEBERG": {
     "internalName": "POCKET_ICEBERG",
     "reforgeName": "Scraped",
@@ -3013,15 +3396,15 @@
       "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 15000,
-      "UNCOMMON": 30000,
-      "RARE": 60000,
-      "EPIC": 125000,
-      "LEGENDARY": 250000,
-      "MYTHIC": 500000,
-      "DIVINE": 500000
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
     },
-    "reforgeAbility": "§7Grants §6+25☘ Mining Fortune §7if the §7block you are mining has the same §2Ⓟ §2Breaking Power §7as this tool.",
+    "reforgeAbility": "§7If the block you are mining has the §7same §2 Breaking Power §7as this item, §6+25 Mining Fortune§7.",
     "reforgeStats": {
       "COMMON": {
         "breaking_power": 1,
@@ -3064,59 +3447,68 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 10000,
-      "UNCOMMON": 20000,
-      "RARE": 30000,
-      "EPIC": 40000,
-      "LEGENDARY": 50000,
-      "MYTHIC": 60000
+      "COMMON": 250000,
+      "UNCOMMON": 250000,
+      "RARE": 250000,
+      "EPIC": 250000,
+      "LEGENDARY": 250000,
+      "MYTHIC": 250000,
+      "DIVINE": 250000
     },
-    "reforgeAbility": "Grants §a+1 §9☠ Crit Damage §7per §cCatacombs §7level.",
+    "reforgeAbility": "§7Grants §9+1 Crit Damage §7per §cCatacombs §7skill level you have.",
     "reforgeStats": {
       "COMMON": {
-        "strength": 4,
-        "crit_damage": 3,
         "health": 7,
         "defense": 7,
+        "strength": 4,
+        "crit_chance": 3,
         "intelligence": 6
       },
       "UNCOMMON": {
-        "strength": 8,
-        "crit_chance": 5,
         "health": 7,
         "defense": 7,
+        "strength": 8,
+        "crit_chance": 5,
         "intelligence": 9
       },
       "RARE": {
-        "strength": 12,
-        "crit_chance": 7,
         "health": 7,
         "defense": 7,
+        "strength": 12,
+        "crit_chance": 7,
         "intelligence": 12
       },
       "EPIC": {
-        "strength": 18,
-        "crit_chance": 9,
         "health": 7,
         "defense": 7,
+        "strength": 18,
+        "crit_chance": 9,
         "intelligence": 16
       },
       "LEGENDARY": {
-        "strength": 25,
-        "crit_chance": 12,
         "health": 7,
         "defense": 7,
+        "strength": 25,
+        "crit_chance": 12,
         "intelligence": 20
       },
       "MYTHIC": {
-        "strength": 35,
-        "crit_chance": 15,
         "health": 7,
         "defense": 7,
+        "strength": 35,
+        "crit_chance": 15,
         "intelligence": 25
+      },
+      "DIVINE": {
+        "health": 7,
+        "defense": 7,
+        "strength": 50,
+        "crit_chance": 20,
+        "intelligence": 30
       }
     }
   },
@@ -3131,53 +3523,61 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 5000,
-      "UNCOMMON": 15000,
-      "RARE": 30000,
-      "EPIC": 75000,
-      "LEGENDARY": 150000,
-      "MYTHIC": 300000
+      "COMMON": 25000,
+      "UNCOMMON": 25000,
+      "RARE": 25000,
+      "EPIC": 25000,
+      "LEGENDARY": 25000,
+      "MYTHIC": 25000,
+      "DIVINE": 25000
     },
-    "reforgeAbility": "Decreases damage taken from Zombie Pigmen, Zombies, Withers, and Skeletons by §a2%§7.",
+    "reforgeAbility": "§7Take §c-2%  Damage §7from §2 Undead §7mobs.",
     "reforgeStats": {
       "COMMON": {
+        "health": 6,
+        "defense": 6,
         "strength": 1,
-        "bonus_attack_speed": 1,
-        "health": 8,
-        "defense": 6
+        "attack_speed": 1
       },
       "UNCOMMON": {
-        "strength": 2,
-        "bonus_attack_speed": 2,
         "health": 8,
-        "defense": 8
+        "defense": 8,
+        "strength": 2,
+        "attack_speed": 2
       },
       "RARE": {
-        "strength": 2,
-        "bonus_attack_speed": 3,
         "health": 12,
-        "defense": 12
+        "defense": 12,
+        "strength": 2,
+        "attack_speed": 3
       },
       "EPIC": {
-        "strength": 3,
-        "bonus_attack_speed": 4,
         "health": 18,
-        "defense": 18
+        "defense": 18,
+        "strength": 3,
+        "attack_speed": 4
       },
       "LEGENDARY": {
-        "strength": 5,
-        "bonus_attack_speed": 5,
         "health": 25,
-        "defense": 25
+        "defense": 25,
+        "strength": 5,
+        "attack_speed": 5
       },
       "MYTHIC": {
-        "strength": 7,
-        "bonus_attack_speed": 6,
         "health": 33,
-        "defense": 33
+        "defense": 33,
+        "strength": 7,
+        "attack_speed": 6
+      },
+      "DIVINE": {
+        "health": 45,
+        "defense": 45,
+        "strength": 10,
+        "attack_speed": 7
       }
     }
   },
@@ -3193,18 +3593,19 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 7500,
-      "UNCOMMON": 15000,
-      "RARE": 30000,
-      "EPIC": 75000,
-      "LEGENDARY": 150000,
-      "MYTHIC": 300000,
-      "DIVINE": 400000
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
     },
-    "reforgeAbility": "Heal §a1.15x§7 more from §9Vampirism§7 and §9Lifesteal.",
+    "reforgeAbility": "§7Adds §d+1 Level §7to your §9Life Steal§7, §9Drain§7, and §9Vampirism §7enchantments.",
     "reforgeStats": {
       "COMMON": {
         "health": 6,
@@ -3258,23 +3659,15 @@
       "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 15000,
-      "UNCOMMON": 30000,
-      "RARE": 60000,
-      "EPIC": 125000,
+      "COMMON": 250000,
+      "UNCOMMON": 250000,
+      "RARE": 250000,
+      "EPIC": 250000,
       "LEGENDARY": 250000,
-      "MYTHIC": 500000,
-      "DIVINE": 500000
+      "MYTHIC": 250000,
+      "DIVINE": 250000
     },
-    "reforgeAbility": {
-      "COMMON": "§7Grants §6+10☘ Mining Fortune §7when §7mining §2Mithril §7or §fTitanium§7.",
-      "UNCOMMON": "§7Grants §6+15☘ Mining Fortune §7when §7mining §2Mithril §7or §fTitanium§7.",
-      "RARE": "§7Grants §6+20☘ Mining Fortune §7when §7mining §2Mithril §7or §fTitanium§7.",
-      "EPIC": "§7Grants §6+25☘ Mining Fortune §7when §7mining §2Mithril §7or §fTitanium§7.",
-      "LEGENDARY": "§7Grants §6+30☘ Mining Fortune §7when §7mining §2Mithril §7or §fTitanium§7.",
-      "MYTHIC": "§7Grants §6+40☘ Mining Fortune §7when §7mining §2Mithril §7or §fTitanium§7.",
-      "DIVINE": "§7Grants §6+50☘ Mining Fortune §7when §7mining §2Mithril §7or §fTitanium§7."
-    },
+    "reforgeAbility": "§7Grants §6+50 Mining Fortune §7towards §aMithril §7and §aTitanium§7.",
     "reforgeStats": {
       "COMMON": {
         "mining_fortune": 3
@@ -3299,55 +3692,6 @@
       }
     }
   },
-  "PITCHIN_KOI": {
-    "internalName": "PITCHIN_KOI",
-    "nbtModifier": "pitchin",
-    "reforgeName": "Pitchin'",
-    "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "ROD",
-    "requiredRarities": [
-      "COMMON",
-      "UNCOMMON",
-      "RARE",
-      "EPIC",
-      "LEGENDARY",
-      "MYTHIC"
-    ],
-    "reforgeCosts": {
-      "COMMON": 5000,
-      "UNCOMMON": 20000,
-      "RARE": 40000,
-      "EPIC": 80000,
-      "LEGENDARY": 120000,
-      "MYTHIC": 280000
-    },
-    "reforgeStats": {
-      "COMMON": {
-        "fishing_speed": 1,
-        "sea_creature_chance": 1
-      },
-      "UNCOMMON": {
-        "fishing_speed": 2,
-        "sea_creature_chance": 1
-      },
-      "RARE": {
-        "fishing_speed": 4,
-        "sea_creature_chance": 2
-      },
-      "EPIC": {
-        "fishing_speed": 6,
-        "sea_creature_chance": 3
-      },
-      "LEGENDARY": {
-        "fishing_speed": 8,
-        "sea_creature_chance": 4
-      },
-      "MYTHIC": {
-        "fishing_speed": 10,
-        "sea_creature_chance": 5
-      }
-    }
-  },
   "RARE_DIAMOND": {
     "internalName": "RARE_DIAMOND",
     "reforgeName": "Reinforced",
@@ -3359,15 +3703,17 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 2500,
-      "UNCOMMON": 5000,
-      "RARE": 10000,
-      "EPIC": 25000,
-      "LEGENDARY": 50000,
-      "MYTHIC": 100000
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
     },
     "reforgeStats": {
       "COMMON": {
@@ -3387,6 +3733,9 @@
       },
       "MYTHIC": {
         "defense": 110
+      },
+      "DIVINE": {
+        "defense": 140
       }
     }
   },
@@ -3401,47 +3750,54 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 7500,
-      "UNCOMMON": 15000,
-      "RARE": 30000,
-      "EPIC": 75000,
-      "LEGENDARY": 150000,
-      "MYTHIC": 300000
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
     },
-    "reforgeAbility": "Fart when you sneak. Reduces your §9☣ Crit Chance §7by §c20% §c§7for §a20s §7but grants §a+30 §a❈ Defense §7for §a5s §7and §7§b+50 §7mana. Requires at least §c20% §9☣ Crit Chance §7to activate.",
+    "reforgeAbility": "§7Fart, granting §a+30 Defense §7and §b+50 Mana §7for §a5s§7, but inflicts §9-20% §9 Crit Chance §7for §a20s§7.",
     "reforgeStats": {
       "COMMON": {
-        "crit_chance": 1,
         "health": 10,
-        "defense": 10
+        "defense": 10,
+        "crit_chance": 1
       },
       "UNCOMMON": {
-        "crit_chance": 2,
         "health": 15,
-        "defense": 15
+        "defense": 15,
+        "crit_chance": 2
       },
       "RARE": {
-        "crit_chance": 3,
         "health": 20,
-        "defense": 20
+        "defense": 20,
+        "crit_chance": 3
       },
       "EPIC": {
-        "crit_chance": 4,
         "health": 25,
-        "defense": 25
+        "defense": 25,
+        "crit_chance": 4
       },
       "LEGENDARY": {
-        "crit_chance": 5,
         "health": 35,
-        "defense": 35
+        "defense": 35,
+        "crit_chance": 5
       },
       "MYTHIC": {
-        "crit_chance": 6,
         "health": 50,
-        "defense": 50
+        "defense": 50,
+        "crit_chance": 6
+      },
+      "DIVINE": {
+        "health": 70,
+        "defense": 70,
+        "crit_chance": 7
       }
     }
   },
@@ -3456,53 +3812,54 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 30000,
-      "UNCOMMON": 75000,
-      "RARE": 150000,
-      "EPIC": 300000,
-      "LEGENDARY": 600000,
-      "MYTHIC": 1200000
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
     },
-    "reforgeAbility": "Increases ability damage by §a+5%",
+    "reforgeAbility": "§7Grants §c+5%  Ability Damage§7.",
     "reforgeStats": {
       "COMMON": {
         "health": 4,
         "defense": 4,
-        "intelligence": 20,
-        "ability_damage": 5
+        "intelligence": 20
       },
       "UNCOMMON": {
         "health": 5,
         "defense": 5,
-        "intelligence": 40,
-        "ability_damage": 5
+        "intelligence": 40
       },
       "RARE": {
         "health": 6,
         "defense": 6,
-        "intelligence": 60,
-        "ability_damage": 5
+        "intelligence": 60
       },
       "EPIC": {
         "health": 8,
         "defense": 7,
-        "intelligence": 80,
-        "ability_damage": 5
+        "intelligence": 80
       },
       "LEGENDARY": {
         "health": 10,
         "defense": 10,
-        "intelligence": 100,
-        "ability_damage": 5
+        "intelligence": 100
       },
       "MYTHIC": {
         "health": 14,
         "defense": 14,
-        "intelligence": 120,
-        "ability_damage": 5
+        "intelligence": 120
+      },
+      "DIVINE": {
+        "health": 20,
+        "defense": 20,
+        "intelligence": 140
       }
     }
   },
@@ -3521,23 +3878,15 @@
       "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 10000,
-      "UNCOMMON": 10000,
-      "RARE": 10000,
-      "EPIC": 10000,
-      "MYTHIC": 10000,
-      "LEGENDARY": 10000,
-      "DIVINE": 10000
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
     },
-    "reforgeAbility": {
-      "COMMON": "§7Grants a §a0.1% §7chance to drop an §7enchanted item when mining §6Ores§7.",
-      "UNCOMMON": "§7Grants a §a0.13% §7chance to drop an §7enchanted item when mining §6Ores§7.",
-      "RARE": "§7Grants a §a0.16% §7chance to drop an §7enchanted item when mining §6Ores§7.",
-      "EPIC": "§7Grants a §a0.19% §7chance to drop an §7enchanted item when mining §6Ores§7.",
-      "LEGENDARY": "§7Grants a §a0.22% §7chance to drop an §7enchanted item when mining §6Ores§7.",
-      "MYTHIC": "§7Grants a §a0.26% §7chance to drop an §7enchanted item when mining §6Ores§7.",
-      "DIVINE": "§7Grants a §a0.3% §7chance to drop an §7enchanted item when mining §6Ores§7."
-    },
+    "reforgeAbility": "§7You have a §a0.25% §7chance to find §7enchanted forms of items when mining §6Ores§7.",
     "reforgeStats": {
       "COMMON": {
         "mining_wisdom": 1
@@ -3552,13 +3901,13 @@
         "mining_wisdom": 4
       },
       "LEGENDARY": {
-        "mining_wisdom": 5
-      },
-      "MYTHIC": {
         "mining_wisdom": 6
       },
+      "MYTHIC": {
+        "mining_wisdom": 8
+      },
       "DIVINE": {
-        "mining_wisdom": 7
+        "mining_wisdom": 10
       }
     }
   },
@@ -3577,23 +3926,15 @@
       "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 20000,
-      "UNCOMMON": 40000,
-      "RARE": 80000,
-      "EPIC": 150000,
-      "LEGENDARY": 300000,
-      "MYTHIC": 600000,
-      "DIVINE": 600000
+      "COMMON": 250000,
+      "UNCOMMON": 250000,
+      "RARE": 250000,
+      "EPIC": 250000,
+      "LEGENDARY": 250000,
+      "MYTHIC": 250000,
+      "DIVINE": 250000
     },
-    "reforgeAbility": {
-      "COMMON": "§7Grants §6+0.4% §6☘ Mining Fortune§7.",
-      "UNCOMMON": "§7Grants §6+0.5% §6☘ Mining Fortune§7.",
-      "RARE": "§7Grants §6+0.6% §6☘ Mining Fortune§7.",
-      "EPIC": "§7Grants §6+0.7% §6☘ Mining Fortune§7.",
-      "LEGENDARY": "§7Grants §6+0.8% §6☘ Mining Fortune§7.",
-      "MYTHIC": "§7Grants §6+0.9% §6☘ Mining Fortune§7.",
-      "DIVINE": "§7Grants §6+1% §6☘ Mining Fortune§7."
-    },
+    "reforgeAbility": "§7Grants §6+1%  Mining Fortune§7.",
     "reforgeStats": {
       "COMMON": {
         "mining_speed": 10,
@@ -3629,47 +3970,61 @@
     "internalName": "RUSTY_ANCHOR",
     "reforgeName": "Treacherous",
     "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "ROD",
+    "itemTypes": "FISHING_ROD",
     "requiredRarities": [
       "COMMON",
       "UNCOMMON",
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 5000,
-      "UNCOMMON": 20000,
-      "RARE": 40000,
-      "EPIC": 80000,
-      "LEGENDARY": 120000,
-      "MYTHIC": 280000
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
     },
+    "reforgeAbility": "§7Earn §b+20% Ice Essence §7from §6§lTREASURE §7catches.",
     "reforgeStats": {
       "COMMON": {
         "strength": 5,
-        "sea_creature_chance": 1
+        "sea_creature_chance": 0.5,
+        "treasure_chance": 0.1
       },
       "UNCOMMON": {
         "strength": 10,
-        "sea_creature_chance": 2
+        "sea_creature_chance": 1,
+        "treasure_chance": 0.2
       },
       "RARE": {
         "strength": 15,
-        "sea_creature_chance": 2
+        "sea_creature_chance": 1.5,
+        "treasure_chance": 0.3
       },
       "EPIC": {
         "strength": 20,
-        "sea_creature_chance": 3
+        "sea_creature_chance": 2,
+        "treasure_chance": 0.4
       },
       "LEGENDARY": {
         "strength": 25,
-        "sea_creature_chance": 5
+        "sea_creature_chance": 2.5,
+        "treasure_chance": 0.6
       },
       "MYTHIC": {
         "strength": 30,
-        "sea_creature_chance": 7
+        "sea_creature_chance": 3.5,
+        "treasure_chance": 0.8
+      },
+      "DIVINE": {
+        "strength": 35,
+        "sea_creature_chance": 5.5,
+        "treasure_chance": 1
       }
     }
   },
@@ -3684,17 +4039,19 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 60000,
-      "UNCOMMON": 125000,
+      "COMMON": 250000,
+      "UNCOMMON": 250000,
       "RARE": 250000,
-      "EPIC": 500000,
-      "LEGENDARY": 1000000,
-      "MYTHIC": 2000000
+      "EPIC": 250000,
+      "LEGENDARY": 250000,
+      "MYTHIC": 250000,
+      "DIVINE": 250000
     },
-    "reforgeAbility": "§7Grants §a+10☄ Mending §7while in Dungeons, which increases your healing on others..",
+    "reforgeAbility": "§7Grants §a+10 Mending §7while in  §cDungeons§7.",
     "reforgeStats": {
       "COMMON": {
         "health": 10,
@@ -3719,262 +4076,18 @@
       "MYTHIC": {
         "health": 50,
         "defense": 50
-      }
-    }
-  },
-  "SALT_CUBE": {
-    "internalName": "SALT_CUBE",
-    "reforgeName": "Salty",
-    "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "ROD",
-    "requiredRarities": [
-      "COMMON",
-      "UNCOMMON",
-      "RARE",
-      "EPIC",
-      "LEGENDARY",
-      "MYTHIC"
-    ],
-    "reforgeCosts": {
-      "COMMON": 2500,
-      "UNCOMMON": 10000,
-      "RARE": 20000,
-      "EPIC": 40000,
-      "LEGENDARY": 80000,
-      "MYTHIC": 120000
-    },
-    "reforgeStats": {
-      "COMMON": {
-        "sea_creature_chance": 1
-      },
-      "UNCOMMON": {
-        "sea_creature_chance": 2
-      },
-      "RARE": {
-        "sea_creature_chance": 2
-      },
-      "EPIC": {
-        "sea_creature_chance": 3
-      },
-      "LEGENDARY": {
-        "sea_creature_chance": 5
-      },
-      "MYTHIC": {
-        "sea_creature_chance": 7
-      }
-    }
-  },
-  "SHRIVELED_CORNEA": {
-    "internalName": "SHRIVELED_CORNEA",
-    "nbtModifier": "blood_shot",
-    "reforgeName": "Bloodshot",
-    "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "BELT",
-    "requiredRarities": [
-      "COMMON",
-      "UNCOMMON",
-      "RARE",
-      "EPIC",
-      "LEGENDARY",
-      "MYTHIC"
-    ],
-    "reforgeCosts": {
-      "COMMON": 50000,
-      "UNCOMMON": 100000,
-      "RARE": 250000,
-      "EPIC": 500000,
-      "LEGENDARY": 1000000,
-      "MYTHIC": 2500000
-    },
-    "reforgeStats": {
-      "COMMON": {
-        "crit_damage": 1,
-        "crit_chance": 1,
-        "strength": 1
-      },
-      "UNCOMMON": {
-        "crit_damage": 2,
-        "crit_chance": 2,
-        "strength": 2
-      },
-      "RARE": {
-        "crit_damage": 3,
-        "crit_chance": 3,
-        "strength": 3
-      },
-      "EPIC": {
-        "crit_damage": 4,
-        "crit_chance": 4,
-        "strength": 4
-      },
-      "LEGENDARY": {
-        "crit_damage": 5,
-        "crit_chance": 5,
-        "strength": 5
-      },
-      "MYTHIC": {
-        "crit_damage": 6,
-        "crit_chance": 6,
-        "strength": 6
-      }
-    }
-  },
-  "SKYMART_BROCHURE": {
-    "internalName": "SKYMART_BROCHURE",
-    "reforgeName": "Bustling",
-    "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "ARMOR",
-    "requiredRarities": [
-      "COMMON",
-      "UNCOMMON",
-      "RARE",
-      "EPIC",
-      "LEGENDARY",
-      "MYTHIC"
-    ],
-    "reforgeCosts": {
-      "COMMON": 1000,
-      "UNCOMMON": 2000,
-      "RARE": 3000,
-      "EPIC": 6000,
-      "LEGENDARY": 10000,
-      "MYTHIC": 15000
-    },
-    "reforgeStats": {
-      "COMMON": {
-        "farming_fortune": 1
-      },
-      "UNCOMMON": {
-        "farming_fortune": 2
-      },
-      "RARE": {
-        "farming_fortune": 4
-      },
-      "EPIC": {
-        "farming_fortune": 6
-      },
-      "LEGENDARY": {
-        "farming_fortune": 8
-      },
-      "MYTHIC": {
-        "farming_fortune": 10
-      }
-    }
-  },
-  "SPIRIT_DECOY": {
-    "internalName": "SPIRIT_DECOY",
-    "reforgeName": "Spiritual",
-    "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "BOW",
-    "requiredRarities": [
-      "COMMON",
-      "UNCOMMON",
-      "RARE",
-      "EPIC",
-      "LEGENDARY",
-      "MYTHIC"
-    ],
-    "reforgeCosts": {
-      "COMMON": 60000,
-      "UNCOMMON": 125000,
-      "RARE": 250000,
-      "EPIC": 500000,
-      "LEGENDARY": 1000000,
-      "MYTHIC": 2000000
-    },
-    "reforgeAbility": "Grants a §a10% §7chance to spawn a Spirit Decoy when you kill a enemy in a dungeon.",
-    "reforgeStats": {
-      "COMMON": {
-        "strength": 4,
-        "crit_chance": 7,
-        "crit_damage": 10
-      },
-      "UNCOMMON": {
-        "strength": 8,
-        "crit_chance": 8,
-        "crit_damage": 15
-      },
-      "RARE": {
-        "strength": 14,
-        "crit_chance": 9,
-        "crit_damage": 23
-      },
-      "EPIC": {
-        "strength": 20,
-        "crit_chance": 10,
-        "crit_damage": 37
-      },
-      "LEGENDARY": {
-        "strength": 28,
-        "crit_chance": 12,
-        "crit_damage": 55
-      },
-      "MYTHIC": {
-        "strength": 38,
-        "crit_chance": 14,
-        "crit_damage": 75
-      }
-    }
-  },
-  "SQUEAKY_TOY": {
-    "internalName": "SQUEAKY_TOY",
-    "reforgeName": "Squeaky",
-    "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "EQUIPMENT",
-    "requiredRarities": [
-      "COMMON",
-      "UNCOMMON",
-      "RARE",
-      "EPIC",
-      "LEGENDARY",
-      "MYTHIC"
-    ],
-    "reforgeCosts": {
-      "COMMON": 7500,
-      "UNCOMMON": 15000,
-      "RARE": 30000,
-      "EPIC": 75000,
-      "LEGENDARY": 150000,
-      "MYTHIC": 150000,
-      "DIVINE": 150000
-    },
-    "reforgeAbility": "§7Decreases the spawn cooldown of §7§2Pests §7by §a1%§7.",
-    "reforgeStats": {
-      "COMMON": {
-        "bonus_pest_chance": 0.5,
-        "farming_fortune": 2
-      },
-      "UNCOMMON": {
-        "bonus_pest_chance": 0.5,
-        "farming_fortune": 4
-      },
-      "RARE": {
-        "bonus_pest_chance": 1,
-        "farming_fortune": 6
-      },
-      "EPIC": {
-        "bonus_pest_chance": 1.5,
-        "farming_fortune": 8
-      },
-      "LEGENDARY": {
-        "bonus_pest_chance": 2,
-        "farming_fortune": 10
-      },
-      "MYTHIC": {
-        "bonus_pest_chance": 2.5,
-        "farming_fortune": 12
       },
       "DIVINE": {
-        "bonus_pest_chance": 2.5,
-        "farming_fortune": 12
+        "health": 70,
+        "defense": 70
       }
     }
   },
-  "SUNSTONE": {
-    "internalName": "SUNSTONE",
-    "reforgeName": "Sunny",
+  "SALMON_OPAL": {
+    "internalName": "SALMON_OPAL",
+    "reforgeName": "Headstrong",
     "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "ARMOR",
+    "itemTypes": "BOW",
     "requiredRarities": [
       "COMMON",
       "UNCOMMON",
@@ -3985,97 +4098,98 @@
       "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 5000,
-      "UNCOMMON": 10000,
-      "RARE": 20000,
-      "EPIC": 50000,
-      "LEGENDARY": 100000,
-      "MYTHIC": 200000,
-      "DIVINE": 200000
+      "COMMON": 25000,
+      "UNCOMMON": 25000,
+      "RARE": 25000,
+      "EPIC": 25000,
+      "LEGENDARY": 25000,
+      "MYTHIC": 25000,
+      "DIVINE": 25000
     },
+    "reforgeAbility": "§7Deal §c+8%  Damage §7when hitting a §7mob's head.",
     "reforgeStats": {
       "COMMON": {
-        "speed": 2,
-        "farming_wisdom": 1
+        "strength": 2,
+        "crit_chance": 10,
+        "crit_damage": 4
       },
       "UNCOMMON": {
-        "speed": 3,
-        "farming_wisdom": 2
+        "strength": 5,
+        "crit_chance": 11,
+        "crit_damage": 8
       },
       "RARE": {
-        "speed": 4,
-        "farming_wisdom": 3
+        "strength": 10,
+        "crit_chance": 12,
+        "crit_damage": 16
       },
       "EPIC": {
-        "speed": 6,
-        "farming_wisdom": 4
+        "strength": 16,
+        "crit_chance": 13,
+        "crit_damage": 28
       },
       "LEGENDARY": {
-        "speed": 8,
-        "farming_wisdom": 5
+        "strength": 23,
+        "crit_chance": 15,
+        "crit_damage": 42
       },
       "MYTHIC": {
-        "speed": 10,
-        "farming_wisdom": 6
+        "strength": 33,
+        "crit_chance": 17,
+        "crit_damage": 60
       },
       "DIVINE": {
-        "speed": 10,
-        "farming_wisdom": 6
+        "strength": 45,
+        "crit_chance": 20,
+        "crit_damage": 80
       }
     }
   },
-  "SUSPICIOUS_VIAL": {
-    "internalName": "SUSPICIOUS_VIAL",
-    "reforgeName": "Suspicious",
+  "SALT_CUBE": {
+    "internalName": "SALT_CUBE",
+    "reforgeName": "Salty",
     "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "SWORD",
+    "itemTypes": "FISHING_ROD",
     "requiredRarities": [
       "COMMON",
       "UNCOMMON",
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 60000,
-      "UNCOMMON": 125000,
-      "RARE": 250000,
-      "EPIC": 500000,
-      "LEGENDARY": 1000000,
-      "MYTHIC": 2000000
+      "COMMON": 25000,
+      "UNCOMMON": 25000,
+      "RARE": 25000,
+      "EPIC": 25000,
+      "LEGENDARY": 25000,
+      "MYTHIC": 25000,
+      "DIVINE": 25000
     },
-    "reforgeAbility": "Increase weapon damage by §a+15",
+    "reforgeAbility": "§7This gives §a2x stats §7while on  §cJerry's Workshop§7.",
     "reforgeStats": {
       "COMMON": {
-        "crit_chance": 1,
-        "crit_damage": 30,
-        "damage": 15
+        "sea_creature_chance": 0.5
       },
       "UNCOMMON": {
-        "crit_chance": 2,
-        "crit_damage": 40,
-        "damage": 15
+        "sea_creature_chance": 1
       },
       "RARE": {
-        "crit_chance": 3,
-        "crit_damage": 50,
-        "damage": 15
+        "sea_creature_chance": 1.5
       },
       "EPIC": {
-        "crit_chance": 5,
-        "crit_damage": 65,
-        "damage": 15
+        "sea_creature_chance": 2
       },
       "LEGENDARY": {
-        "crit_chance": 7,
-        "crit_damage": 85,
-        "damage": 15
+        "sea_creature_chance": 3
       },
       "MYTHIC": {
-        "crit_chance": 10,
-        "crit_damage": 110,
-        "damage": 15
+        "sea_creature_chance": 4
+      },
+      "DIVINE": {
+        "sea_creature_chance": 5
       }
     }
   },
@@ -4094,13 +4208,13 @@
       "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 7500,
-      "UNCOMMON": 15000,
-      "RARE": 30000,
-      "EPIC": 75000,
-      "LEGENDARY": 150000,
-      "MYTHIC": 300000,
-      "DIVINE": 400000
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
     },
     "reforgeStats": {
       "COMMON": {
@@ -4148,42 +4262,378 @@
       "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 7500,
-      "UNCOMMON": 15000,
-      "RARE": 30000,
-      "EPIC": 75000,
-      "LEGENDARY": 150000,
-      "MYTHIC": 300000,
-      "DIVINE": 400000
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
     },
     "reforgeStats": {
       "COMMON": {
-        "intelligence": 5,
-        "true_defense": 2
+        "true_defense": 2,
+        "intelligence": 5
       },
       "UNCOMMON": {
-        "intelligence": 6,
-        "true_defense": 2.5
+        "true_defense": 2.5,
+        "intelligence": 6
       },
       "RARE": {
-        "intelligence": 8,
-        "true_defense": 3
+        "true_defense": 3,
+        "intelligence": 8
       },
       "EPIC": {
-        "intelligence": 10,
-        "true_defense": 3.5
+        "true_defense": 3.5,
+        "intelligence": 10
       },
       "LEGENDARY": {
-        "intelligence": 12,
-        "true_defense": 4
+        "true_defense": 4,
+        "intelligence": 12
       },
       "MYTHIC": {
-        "intelligence": 15,
-        "true_defense": 4.5
+        "true_defense": 4.5,
+        "intelligence": 15
       },
       "DIVINE": {
-        "intelligence": 18,
-        "true_defense": 4.5
+        "true_defense": 5,
+        "intelligence": 18
+      }
+    }
+  },
+  "SHRIVELED_CORNEA": {
+    "internalName": "SHRIVELED_CORNEA",
+    "nbtModifier": "blood_shot",
+    "reforgeName": "Bloodshot",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "BELT",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 500000,
+      "UNCOMMON": 500000,
+      "RARE": 500000,
+      "EPIC": 500000,
+      "LEGENDARY": 500000,
+      "MYTHIC": 500000,
+      "DIVINE": 500000
+    },
+    "reforgeAbility": "§7When killing an enemy, you have a §a2.5% §7chance to cocoon them! §7Cocooned enemies will quickly hatch, §7and can be killed again. §8(Cannot trigger in Dungeons, Kuudra, §8or on Bosses).",
+    "reforgeStats": {
+      "COMMON": {
+        "strength": 1,
+        "crit_chance": 1,
+        "crit_damage": 1
+      },
+      "UNCOMMON": {
+        "strength": 2,
+        "crit_chance": 2,
+        "crit_damage": 2
+      },
+      "RARE": {
+        "strength": 3,
+        "crit_chance": 3,
+        "crit_damage": 3
+      },
+      "EPIC": {
+        "strength": 4,
+        "crit_chance": 4,
+        "crit_damage": 4
+      },
+      "LEGENDARY": {
+        "strength": 5,
+        "crit_chance": 5,
+        "crit_damage": 5
+      },
+      "MYTHIC": {
+        "strength": 6,
+        "crit_chance": 6,
+        "crit_damage": 6
+      },
+      "DIVINE": {
+        "strength": 7,
+        "crit_chance": 7,
+        "crit_damage": 7
+      }
+    }
+  },
+  "SKYMART_BROCHURE": {
+    "internalName": "SKYMART_BROCHURE",
+    "reforgeName": "Bustling",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "ARMOR",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 5000,
+      "UNCOMMON": 5000,
+      "RARE": 5000,
+      "EPIC": 5000,
+      "LEGENDARY": 5000,
+      "MYTHIC": 5000,
+      "DIVINE": 5000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "farming_fortune": 1
+      },
+      "UNCOMMON": {
+        "farming_fortune": 2
+      },
+      "RARE": {
+        "farming_fortune": 4
+      },
+      "EPIC": {
+        "farming_fortune": 6
+      },
+      "LEGENDARY": {
+        "farming_fortune": 8
+      },
+      "MYTHIC": {
+        "farming_fortune": 10
+      },
+      "DIVINE": {
+        "farming_fortune": 12
+      }
+    }
+  },
+  "SPIRIT_DECOY": {
+    "internalName": "SPIRIT_DECOY",
+    "reforgeName": "Spiritual",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "BOW",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 250000,
+      "UNCOMMON": 250000,
+      "RARE": 250000,
+      "EPIC": 250000,
+      "LEGENDARY": 250000,
+      "MYTHIC": 250000,
+      "DIVINE": 250000
+    },
+    "reforgeAbility": "§7Killing an enemy has a §a10% §7chance to §7spawn a Spirit Decoy while in  §cDungeons§7.",
+    "reforgeStats": {
+      "COMMON": {
+        "strength": 4,
+        "crit_chance": 7,
+        "crit_damage": 10
+      },
+      "UNCOMMON": {
+        "strength": 8,
+        "crit_chance": 8,
+        "crit_damage": 15
+      },
+      "RARE": {
+        "strength": 14,
+        "crit_chance": 9,
+        "crit_damage": 23
+      },
+      "EPIC": {
+        "strength": 20,
+        "crit_chance": 10,
+        "crit_damage": 37
+      },
+      "LEGENDARY": {
+        "strength": 28,
+        "crit_chance": 12,
+        "crit_damage": 55
+      },
+      "MYTHIC": {
+        "strength": 38,
+        "crit_chance": 14,
+        "crit_damage": 75
+      },
+      "DIVINE": {
+        "strength": 50,
+        "crit_chance": 16,
+        "crit_damage": 100
+      }
+    }
+  },
+  "SQUEAKY_TOY": {
+    "internalName": "SQUEAKY_TOY",
+    "reforgeName": "Squeaky",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "EQUIPMENT",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 250000,
+      "UNCOMMON": 250000,
+      "RARE": 250000,
+      "EPIC": 250000,
+      "LEGENDARY": 250000,
+      "MYTHIC": 250000,
+      "DIVINE": 250000
+    },
+    "reforgeAbility": "§2 Pests §7spawn §a2.5% §7faster.",
+    "reforgeStats": {
+      "COMMON": {
+        "bonus_pest_chance": 0.5,
+        "farming_fortune": 2
+      },
+      "UNCOMMON": {
+        "bonus_pest_chance": 0.5,
+        "farming_fortune": 4
+      },
+      "RARE": {
+        "bonus_pest_chance": 1,
+        "farming_fortune": 6
+      },
+      "EPIC": {
+        "bonus_pest_chance": 1.5,
+        "farming_fortune": 8
+      },
+      "LEGENDARY": {
+        "bonus_pest_chance": 2,
+        "farming_fortune": 10
+      },
+      "MYTHIC": {
+        "bonus_pest_chance": 2.5,
+        "farming_fortune": 12
+      },
+      "DIVINE": {
+        "bonus_pest_chance": 3,
+        "farming_fortune": 15
+      }
+    }
+  },
+  "SUNSTONE": {
+    "internalName": "SUNSTONE",
+    "reforgeName": "Sunny",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "ARMOR",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "speed": 2,
+        "farming_wisdom": 1
+      },
+      "UNCOMMON": {
+        "speed": 3,
+        "farming_wisdom": 2
+      },
+      "RARE": {
+        "speed": 4,
+        "farming_wisdom": 3
+      },
+      "EPIC": {
+        "speed": 6,
+        "farming_wisdom": 4
+      },
+      "LEGENDARY": {
+        "speed": 8,
+        "farming_wisdom": 5
+      },
+      "MYTHIC": {
+        "speed": 10,
+        "farming_wisdom": 6
+      },
+      "DIVINE": {
+        "speed": 12,
+        "farming_wisdom": 7
+      }
+    }
+  },
+  "SUSPICIOUS_VIAL": {
+    "internalName": "SUSPICIOUS_VIAL",
+    "reforgeName": "Suspicious",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "SWORD",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
+    },
+    "reforgeAbility": "§7Adds §c+15 Damage §7to this item's §7base stats.",
+    "reforgeStats": {
+      "COMMON": {
+        "crit_chance": 1,
+        "crit_damage": 30
+      },
+      "UNCOMMON": {
+        "crit_chance": 2,
+        "crit_damage": 40
+      },
+      "RARE": {
+        "crit_chance": 3,
+        "crit_damage": 50
+      },
+      "EPIC": {
+        "crit_chance": 5,
+        "crit_damage": 65
+      },
+      "LEGENDARY": {
+        "crit_chance": 7,
+        "crit_damage": 85
+      },
+      "MYTHIC": {
+        "crit_chance": 10,
+        "crit_damage": 110
+      },
+      "DIVINE": {
+        "crit_chance": 13,
+        "crit_damage": 140
       }
     }
   },
@@ -4198,40 +4648,46 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 10000,
-      "UNCOMMON": 25000,
-      "RARE": 50000,
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
       "EPIC": 100000,
-      "LEGENDARY": 200000,
-      "MYTHIC": 300000
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
     },
     "reforgeStats": {
       "COMMON": {
-        "sea_creature_chance": 0.2,
-        "fishing_speed": 0.5
+        "fishing_speed": 0.5,
+        "sea_creature_chance": 0.2
       },
       "UNCOMMON": {
-        "sea_creature_chance": 0.2,
-        "fishing_speed": 1
+        "fishing_speed": 1,
+        "sea_creature_chance": 0.2
       },
       "RARE": {
-        "sea_creature_chance": 0.4,
-        "fishing_speed": 1.5
+        "fishing_speed": 1.5,
+        "sea_creature_chance": 0.4
       },
       "EPIC": {
-        "sea_creature_chance": 0.6,
-        "fishing_speed": 2
+        "fishing_speed": 2,
+        "sea_creature_chance": 0.6
       },
       "LEGENDARY": {
-        "sea_creature_chance": 0.8,
-        "fishing_speed": 2.5
+        "fishing_speed": 2.5,
+        "sea_creature_chance": 0.8
       },
       "MYTHIC": {
-        "sea_creature_chance": 1,
-        "fishing_speed": 3
+        "fishing_speed": 3,
+        "sea_creature_chance": 1
+      },
+      "DIVINE": {
+        "fishing_speed": 3.5,
+        "sea_creature_chance": 1.2
       }
     }
   },
@@ -4250,15 +4706,15 @@
       "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 15000,
-      "UNCOMMON": 30000,
-      "RARE": 60000,
-      "EPIC": 125000,
-      "LEGENDARY": 250000,
-      "MYTHIC": 500000,
-      "DIVINE": 500000
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
     },
-    "reforgeAbility": "§7§fTitanium Ore §7drops §2+10 Mithril §2Powder §7when mined.",
+    "reforgeAbility": "§aTitanium §7drops §2+10 ᠅ Mithril Powder §7when mined.",
     "reforgeStats": {
       "COMMON": {
         "mining_speed": 10,
@@ -4285,8 +4741,8 @@
         "mining_wisdom": 3
       },
       "DIVINE": {
-        "mining_speed": 50,
-        "mining_wisdom": 3
+        "mining_speed": 60,
+        "mining_wisdom": 4
       }
     }
   },
@@ -4301,93 +4757,39 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 10000,
-      "UNCOMMON": 10000,
-      "RARE": 10000,
-      "EPIC": 10000,
-      "LEGENDARY": 10000,
-      "MYTHIC": 10000
-    },
-    "reforgeAbility": {
-      "COMMON": "§7Grants §3+1☯ Foraging Wisdom§7.",
-      "UNCOMMON": "§7Grants §3+2☯ Foraging Wisdom§7.",
-      "RARE": "§7Grants §3+3☯ Foraging Wisdom§7.",
-      "EPIC": "§7Grants §3+4☯ Foraging Wisdom§7.",
-      "LEGENDARY": "§7Grants §3+5☯ Foraging Wisdom§7.",
-      "MYTHIC": "§7Grants §3+6☯ Foraging Wisdom§7."
+      "COMMON": 100000,
+      "UNCOMMON": 100000,
+      "RARE": 100000,
+      "EPIC": 100000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 100000,
+      "DIVINE": 100000
     },
     "reforgeStats": {
       "COMMON": {
-        "strength": 5,
-        "crit_damage": 5,
         "foraging_wisdom": 1
       },
       "UNCOMMON": {
-        "strength": 7,
-        "crit_damage": 7,
         "foraging_wisdom": 2
       },
       "RARE": {
-        "strength": 10,
-        "crit_damage": 10,
         "foraging_wisdom": 3
       },
       "EPIC": {
-        "strength": 13,
-        "crit_damage": 13,
         "foraging_wisdom": 4
       },
       "LEGENDARY": {
-        "strength": 16,
-        "crit_damage": 16,
-        "foraging_wisdom": 5
+        "foraging_wisdom": 6
       },
       "MYTHIC": {
-        "strength": 20,
-        "crit_damage": 20,
-        "foraging_wisdom": 6
-      }
-    }
-  },
-  "AOTE_STONE": {
-    "internalName": "AOTE_STONE",
-    "nbtModifier": "aote_stone",
-    "reforgeName": "Warped",
-    "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": {
-      "internalName": [
-        "ASPECT_OF_THE_END",
-        "ASPECT_OF_THE_VOID"
-      ]
-    },
-    "requiredRarities": [
-      "RARE",
-      "EPIC",
-      "LEGENDARY"
-    ],
-    "reforgeCosts": {
-      "RARE": 5000000,
-      "EPIC": 5000000,
-      "LEGENDARY": 5000000
-    },
-    "reforgeStats": {
-      "RARE": {
-        "damage": 165,
-        "strength": 165,
-        "intelligence": 65
+        "foraging_wisdom": 8
       },
-      "EPIC": {
-        "damage": 165,
-        "strength": 165,
-        "intelligence": 100
-      },
-      "LEGENDARY": {
-        "damage": 165,
-        "strength": 165,
-        "intelligence": 150
+      "DIVINE": {
+        "foraging_wisdom": 10
       }
     }
   },
@@ -4402,17 +4804,19 @@
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 10000,
-      "UNCOMMON": 20000,
-      "RARE": 30000,
-      "EPIC": 40000,
-      "LEGENDARY": 50000,
-      "MYTHIC": 60000
+      "COMMON": 250000,
+      "UNCOMMON": 250000,
+      "RARE": 250000,
+      "EPIC": 250000,
+      "LEGENDARY": 250000,
+      "MYTHIC": 250000,
+      "DIVINE": 250000
     },
-    "reforgeAbility": "Grants §a+1 §c❁ Strength §7per §cCatacombs §7level.",
+    "reforgeAbility": "§7Grants §c+1 Strength §7per §cCatacombs §7skill level you have.",
     "reforgeStats": {
       "COMMON": {
         "strength": 60
@@ -4431,61 +4835,9 @@
       },
       "MYTHIC": {
         "strength": 170
-      }
-    }
-  },
-  "SALMON_OPAL": {
-    "internalName": "SALMON_OPAL",
-    "reforgeName": "Headstrong",
-    "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "BOW",
-    "requiredRarities": [
-      "COMMON",
-      "UNCOMMON",
-      "RARE",
-      "EPIC",
-      "LEGENDARY",
-      "MYTHIC"
-    ],
-    "reforgeCosts": {
-      "COMMON": 15000,
-      "UNCOMMON": 30000,
-      "RARE": 60000,
-      "EPIC": 125000,
-      "LEGENDARY": 250000,
-      "MYTHIC": 500000
-    },
-    "reforgeAbility": "§7Deal §a+8% §7extra damage when arrows hit the head of a mob.",
-    "reforgeStats": {
-      "COMMON": {
-        "strength": 2,
-        "crit_chance": 10,
-        "crit_damage": 4
       },
-      "UNCOMMON": {
-        "strength": 5,
-        "crit_chance": 11,
-        "crit_damage": 8
-      },
-      "RARE": {
-        "strength": 10,
-        "crit_chance": 12,
-        "crit_damage": 16
-      },
-      "EPIC": {
-        "strength": 16,
-        "crit_chance": 13,
-        "crit_damage": 28
-      },
-      "LEGENDARY": {
-        "strength": 23,
-        "crit_chance": 15,
-        "crit_damage": 42
-      },
-      "MYTHIC": {
-        "strength": 33,
-        "crit_chance": 17,
-        "crit_damage": 60
+      "DIVINE": {
+        "strength": 220
       }
     }
   }
