@@ -1,0 +1,22 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			enchantments: {
+				forest_pledge: 6
+			},
+			id: "FOREST_PLEDGE;6"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:stored_enchantments",
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:enchanted_book",
+	source: {
+		dataVersion: 4903,
+		modVersion: "Firmament 44.3.0-dev+mc26.2+g8dd91b6e"
+	}
+}
