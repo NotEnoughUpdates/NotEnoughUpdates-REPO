@@ -4,19 +4,30 @@
 			enchantments: {
 				forest_pledge: 6
 			},
-			id: "FOREST_PLEDGE;6"
+			id: "ENCHANTED_BOOK"
 		},
 		"minecraft:tooltip_display": {
 			hidden_components: [
-				"minecraft:stored_enchantments",
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:block_entity_data",
 				"minecraft:dyed_color"
 			]
-		}
+		},
+		"minecraft:tooltip_style": "hypixel_skyblock:rare"
 	},
 	count: 1,
 	id: "minecraft:enchanted_book",
 	source: {
 		dataVersion: 4903,
-		modVersion: "Firmament 44.3.0-dev+mc26.2+g8dd91b6e"
+		modVersion: "Firmament nogitversion+mc26.2"
 	}
 }
