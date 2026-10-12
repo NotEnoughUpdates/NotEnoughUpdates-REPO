@@ -1,0 +1,50 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			effects: [
+				{
+					duration_ticks: 28800,
+					effect: "foraging_xp_boost",
+					level: 2
+				}
+			],
+			id: "POTION",
+			potion: "foraging_xp_boost",
+			potion_level: 2,
+			potion_type: "POTION"
+		},
+		"minecraft:potion_contents": {
+			custom_effects: [
+				{
+					amplifier: 1b,
+					duration: 20,
+					id: "minecraft:absorption",
+					show_icon: 1b
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:dyed_color",
+				"minecraft:charged_projectiles"
+			]
+		},
+		"minecraft:tooltip_style": "hypixel_skyblock:common"
+	},
+	count: 1,
+	id: "minecraft:potion",
+	source: {
+		dataVersion: 4903,
+		modVersion: "Firmament 44.3.0-dev+mc26.2+g8dd91b6e"
+	}
+}
