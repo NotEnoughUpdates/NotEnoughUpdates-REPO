@@ -1,23 +1,25 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "OBFUSCATED_FISH_1_SILVER"
+			id: "CARROT_BAIT"
 		},
-		"minecraft:item_model": "hypixel_skyblock:item/fishing/trophy/lava/obfuscated_fish_1_silver",
+		"minecraft:item_model": "hypixel_skyblock:item/fishing/bait/carrot_bait",
 		"minecraft:tooltip_display": {
 			hidden_components: [
-				"minecraft:jukebox_playable",
 				"minecraft:painting/variant",
-				"minecraft:map_id",
 				"minecraft:fireworks",
 				"minecraft:attribute_modifiers",
+				"minecraft:enchantments",
+				"minecraft:stored_enchantments",
+				"minecraft:trim",
+				"minecraft:charged_projectiles",
+				"minecraft:jukebox_playable",
+				"minecraft:map_id",
 				"minecraft:unbreakable",
 				"minecraft:written_book_content",
 				"minecraft:banner_patterns",
-				"minecraft:trim",
 				"minecraft:potion_contents",
-				"minecraft:dyed_color",
-				"minecraft:charged_projectiles"
+				"minecraft:dyed_color"
 			]
 		},
 		"minecraft:tooltip_style": "hypixel_skyblock:common"
@@ -25,7 +27,7 @@
 	count: 1,
 	id: "minecraft:paper",
 	source: {
-		dataVersion: 4790,
-		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g00fd3323"
+		dataVersion: 4903,
+		modVersion: "Firmament 44.3.0-dev+mc26.2+g3fba44e7"
 	}
 }
