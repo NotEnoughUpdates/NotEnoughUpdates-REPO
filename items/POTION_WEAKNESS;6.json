@@ -1,19 +1,20 @@
 {
   "itemid": "minecraft:potion",
   "displayname": "§9Weakness VI Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:18b,Amplifier:5b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§7Weakness VI §f(3:00)\",2:\"§7Reduces §c❁ Damage §7when attacking\",3:\"§7enemies by §c30§7.\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Weakness VI Potion\"},ExtraAttributes:{potion_level:6,potion:\"weakness\",effects:[0:{level:6,effect:\"weakness\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_WEAKNESS;6\"}}",
-  "damage": 8,
+  "nbttag": "{CustomPotionEffects:[0:{Ambient:0B,Amplifier:0B,Duration:1800,Id:18B},1:{Ambient:0B,Amplifier:5B,Duration:20,Id:18B}],ExtraAttributes:{effects:[0:{duration_ticks:3600,effect:\"weakness\",level:6}],id:\"POTION_WEAKNESS;6\",potion:\"weakness\",potion_level:6,potion_type:\"POTION\"},HideFlags:254,ItemModel:\"minecraft:potion\",display:{Lore:[0:\"\",1:\"§7Weakness VI §f(3:00)\",2:\"§7Reduces §c Damage §7when attacking\",3:\"§7enemies by §c30§7.\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Weakness VI Potion\"}}",
+  "damage": 0,
   "lore": [
     "",
     "§7Weakness VI §f(3:00)",
-    "§7Reduces §c❁ Damage §7when attacking",
+    "§7Reduces §c Damage §7when attacking",
     "§7enemies by §c30§7.",
     "",
     "§9§lRARE"
   ],
   "internalname": "POTION_WEAKNESS;6",
-  "crafttext": "",
   "clickcommand": "viewpotion",
-  "modver": "",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 44.3.0-dev+mc26.2+g3fba44e7",
+  "infoType": "",
+  "info": []
 }

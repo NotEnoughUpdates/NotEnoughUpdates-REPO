@@ -1,18 +1,19 @@
 {
   "itemid": "minecraft:potion",
   "displayname": "§aStrength IV Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:5b,Amplifier:3b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§4Strength IV §f(3:00)\",2:\"§7Increases §c❁ Strength §7by §a30§7.\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aStrength IV Potion\"},ExtraAttributes:{potion_level:4,potion:\"strength\",effects:[0:{level:4,effect:\"strength\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_STRENGTH;4\"}}",
-  "damage": 9,
+  "nbttag": "{CustomPotionEffects:[0:{Ambient:0B,Amplifier:0B,Duration:3600,Id:5B},1:{Ambient:0B,Amplifier:3B,Duration:20,Id:5B}],ExtraAttributes:{effects:[0:{duration_ticks:3600,effect:\"strength\",level:4}],id:\"POTION_STRENGTH;4\",potion:\"strength\",potion_level:4,potion_type:\"POTION\"},HideFlags:254,ItemModel:\"minecraft:potion\",display:{Lore:[0:\"\",1:\"§4Strength IV §f(3:00)\",2:\"§7Increases §c Strength §7by §a30§7.\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aStrength IV Potion\"}}",
+  "damage": 0,
   "lore": [
     "",
     "§4Strength IV §f(3:00)",
-    "§7Increases §c❁ Strength §7by §a30§7.",
+    "§7Increases §c Strength §7by §a30§7.",
     "",
     "§a§lUNCOMMON"
   ],
   "internalname": "POTION_STRENGTH;4",
-  "crafttext": "",
   "clickcommand": "viewpotion",
-  "modver": "",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 44.3.0-dev+mc26.2+g3fba44e7",
+  "infoType": "",
+  "info": []
 }

@@ -1,18 +1,19 @@
 {
   "itemid": "minecraft:potion",
   "displayname": "§fHaste I Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:12b,Amplifier:0b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§eHaste I §f(3:00)\",2:\"§7Grants §a+50 §6⸕ Mining Speed§7.\",3:\"\",4:\"§f§lCOMMON\"],Name:\"§fHaste I Potion\"},ExtraAttributes:{potion_level:1,potion:\"haste\",effects:[0:{level:1,effect:\"haste\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_HASTE;1\"}}",
-  "damage": 3,
+  "nbttag": "{CustomPotionEffects:[0:{Ambient:0B,Amplifier:0B,Duration:3600,Id:12B},1:{Ambient:0B,Amplifier:0B,Duration:20,Id:12B}],ExtraAttributes:{effects:[0:{duration_ticks:3600,effect:\"haste\",level:1}],id:\"POTION_HASTE;1\",potion:\"haste\",potion_level:1,potion_type:\"POTION\"},HideFlags:254,ItemModel:\"minecraft:potion\",display:{Lore:[0:\"\",1:\"§eHaste I §f(3:00)\",2:\"§7Grants §a+50 §6 Mining Speed§7.\",3:\"\",4:\"§f§lCOMMON\"],Name:\"§fHaste I Potion\"}}",
+  "damage": 0,
   "lore": [
     "",
     "§eHaste I §f(3:00)",
-    "§7Grants §a+50 §6⸕ Mining Speed§7.",
+    "§7Grants §a+50 §6 Mining Speed§7.",
     "",
     "§f§lCOMMON"
   ],
   "internalname": "POTION_HASTE;1",
-  "crafttext": "",
   "clickcommand": "viewpotion",
-  "modver": "",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 44.3.0-dev+mc26.2+g3fba44e7",
+  "infoType": "",
+  "info": []
 }
