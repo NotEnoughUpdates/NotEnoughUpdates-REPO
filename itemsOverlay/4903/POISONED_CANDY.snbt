@@ -1,0 +1,45 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "POISONED_CANDY"
+		},
+		"minecraft:profile": {
+			id: [I;
+				-1966222419,
+				872037116,
+				-1705059685,
+				-450363280
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "u3+FTN9bcQPRjUB00r/5+yHKT3PLXwnK+WQK2CfT7JFHkhwUDpuCvlkbHEvegh1/u2bdUmBz1uXsiMQ/LhoqAYKdtQRMrWJsXdY2Z7poYf2C4zzuehPMrRJgvaHrlhGX9d0DTY8HhlowjcCYmwTRTKlh2Y6aiJlPtnTN5yI51qwAg4fRuCR+LfpDeBn/iWJh33UD5Rqvoe9D9OkSuCEftW+OVCAyxA5KHjf2B7zZvrleiU8fOIW43q6wra6awlKGDCfO1pdaB8GtGUhTu09LKmaePmmoOWQ8zXNkHR+OYfDBMlzJmgzHs0k4XabWDCauUa99Tx7demiFH9ureuUw/rzpFHZWzLspVF8cAUhQzrLgL+a/L7ahmi1W3zlgM8okFXeqc88LNpm8JAFNwfJ8FfjCjjoj4P0KG7AopRI0b4srJNg0eTYl/iOsgBKGTARjt6iu9N4dD9lI/VuV/A0wgZvlLJZd8UwwkhIcc416JbC2cdOTq60Twa9uNaa2jWGXApxUF0tNoiK6XOPjAgcwv+WIshQ4UGlFQidquAQqNtWt8ouf3PHoMyG9pAfxsIKeGWh3ySzRy4ucmRxfNytOUMPiK1upXYkn8g49CZAj+WYS166/l86iver4VCUAtO3z7me59Sy7oZQJc2Z1VECq9LKXElKZEmTMC4x28WtyUTM=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTYzNTA4OTU2NDMwNiwKICAicHJvZmlsZUlkIiA6ICJkZTE0MGFmM2NmMjM0ZmM0OTJiZTE3M2Y2NjA3MzViYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTUlRlYW0iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjk3NzkwNmFiZGIwMGI0OTVjYzVhNjg1MWU5MmNlYjY1ZTFiZjg5ZmFmMWJlOTE0YjVkMzZjODQ4NzU3NmE3MyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:dyed_color",
+				"minecraft:charged_projectiles"
+			]
+		},
+		"minecraft:tooltip_style": "hypixel_skyblock:uncommon"
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4903,
+		modVersion: "Firmament 44.3.0-dev+mc26.2+g3fba44e7"
+	}
+}
