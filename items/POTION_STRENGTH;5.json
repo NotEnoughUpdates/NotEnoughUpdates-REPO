@@ -1,18 +1,19 @@
 {
   "itemid": "minecraft:potion",
   "displayname": "§9Strength V Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:5b,Amplifier:4b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§4Strength V §f(3:00)\",2:\"§7Increases §c❁ Strength §7by §a40§7.\",3:\"\",4:\"§9§lRARE\"],Name:\"§9Strength V Potion\"},ExtraAttributes:{potion_level:5,potion:\"strength\",effects:[0:{level:5,effect:\"strength\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_STRENGTH;5\"}}",
-  "damage": 9,
+  "nbttag": "{CustomPotionEffects:[0:{Ambient:0B,Amplifier:0B,Duration:3600,Id:5B},1:{Ambient:0B,Amplifier:4B,Duration:20,Id:5B}],ExtraAttributes:{effects:[0:{duration_ticks:3600,effect:\"strength\",level:5}],id:\"POTION_STRENGTH;5\",potion:\"strength\",potion_level:5,potion_type:\"POTION\"},HideFlags:254,ItemModel:\"minecraft:potion\",display:{Lore:[0:\"\",1:\"§4Strength V §f(3:00)\",2:\"§7Increases §c Strength §7by §a40§7.\",3:\"\",4:\"§9§lRARE\"],Name:\"§9Strength V Potion\"}}",
+  "damage": 0,
   "lore": [
     "",
     "§4Strength V §f(3:00)",
-    "§7Increases §c❁ Strength §7by §a40§7.",
+    "§7Increases §c Strength §7by §a40§7.",
     "",
     "§9§lRARE"
   ],
   "internalname": "POTION_STRENGTH;5",
-  "crafttext": "",
   "clickcommand": "viewpotion",
-  "modver": "",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 44.3.0-dev+mc26.2+g3fba44e7",
+  "infoType": "",
+  "info": []
 }

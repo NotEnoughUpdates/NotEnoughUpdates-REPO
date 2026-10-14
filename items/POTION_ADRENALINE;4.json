@@ -1,19 +1,20 @@
 {
   "itemid": "minecraft:potion",
   "displayname": "§aAdrenaline IV Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:10b,Amplifier:3b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§cAdrenaline IV §f(3:00)\",2:\"§7Grants §a+80 §7of absorption and §a+20 §f✦\",3:\"§fSpeed§7.\",4:\"\",5:\"§a§lUNCOMMON\"],Name:\"§aAdrenaline IV Potion\"},ExtraAttributes:{potion_level:4,potion:\"adrenaline\",effects:[0:{level:4,effect:\"adrenaline\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_ADRENALINE;4\"}}",
-  "damage": 1,
+  "nbttag": "{CustomPotionEffects:[0:{Ambient:0B,Amplifier:0B,Duration:900,Id:10B},1:{Ambient:0B,Amplifier:3B,Duration:20,Id:10B}],ExtraAttributes:{effects:[0:{duration_ticks:3600,effect:\"adrenaline\",level:4}],id:\"POTION_ADRENALINE;4\",potion:\"adrenaline\",potion_level:4,potion_type:\"POTION\"},HideFlags:254,ItemModel:\"minecraft:potion\",display:{Lore:[0:\"\",1:\"§cAdrenaline IV §f(3:00)\",2:\"§7Grants §a+80 §7of absorption and §a+20 §f\",3:\"§fSpeed§7.\",4:\"\",5:\"§a§lUNCOMMON\"],Name:\"§aAdrenaline IV Potion\"}}",
+  "damage": 0,
   "lore": [
     "",
     "§cAdrenaline IV §f(3:00)",
-    "§7Grants §a+80 §7of absorption and §a+20 §f✦",
+    "§7Grants §a+80 §7of absorption and §a+20 §f",
     "§fSpeed§7.",
     "",
     "§a§lUNCOMMON"
   ],
   "internalname": "POTION_ADRENALINE;4",
-  "crafttext": "",
   "clickcommand": "viewpotion",
-  "modver": "",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 44.3.0-dev+mc26.2+g3fba44e7",
+  "infoType": "",
+  "info": []
 }

@@ -1,18 +1,19 @@
 {
   "itemid": "minecraft:potion",
   "displayname": "§9Slowness VI Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:2b,Amplifier:5b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§7Slowness VI §f(3:00)\",2:\"§7Removes §f240✦ Speed§7.\",3:\"\",4:\"§9§lRARE\"],Name:\"§9Slowness VI Potion\"},ExtraAttributes:{potion_level:6,potion:\"slowness\",effects:[0:{level:6,effect:\"slowness\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_SLOWNESS;6\"}}",
-  "damage": 10,
+  "nbttag": "{CustomPotionEffects:[0:{Ambient:0B,Amplifier:0B,Duration:1800,Id:2B},1:{Ambient:0B,Amplifier:5B,Duration:20,Id:2B}],ExtraAttributes:{effects:[0:{duration_ticks:3600,effect:\"slowness\",level:6}],id:\"POTION_SLOWNESS;6\",potion:\"slowness\",potion_level:6,potion_type:\"POTION\"},HideFlags:254,ItemModel:\"minecraft:potion\",display:{Lore:[0:\"\",1:\"§7Slowness VI §f(3:00)\",2:\"§7Removes §f240 Speed§7.\",3:\"\",4:\"§9§lRARE\"],Name:\"§9Slowness VI Potion\"}}",
+  "damage": 0,
   "lore": [
     "",
     "§7Slowness VI §f(3:00)",
-    "§7Removes §f240✦ Speed§7.",
+    "§7Removes §f240 Speed§7.",
     "",
     "§9§lRARE"
   ],
   "internalname": "POTION_SLOWNESS;6",
-  "crafttext": "",
   "clickcommand": "viewpotion",
-  "modver": "",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 44.3.0-dev+mc26.2+g3fba44e7",
+  "infoType": "",
+  "info": []
 }

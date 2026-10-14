@@ -1,19 +1,20 @@
 {
   "itemid": "minecraft:potion",
   "displayname": "§9Adrenaline VI Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:10b,Amplifier:5b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§cAdrenaline VI §f(3:00)\",2:\"§7Grants §a+150 §7of absorption and §a+30\",3:\"§a§f✦ Speed§7.\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Adrenaline VI Potion\"},ExtraAttributes:{potion_level:6,potion:\"adrenaline\",effects:[0:{level:6,effect:\"adrenaline\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_ADRENALINE;6\"}}",
-  "damage": 1,
+  "nbttag": "{CustomPotionEffects:[0:{Ambient:0B,Amplifier:0B,Duration:900,Id:10B},1:{Ambient:0B,Amplifier:5B,Duration:20,Id:10B}],ExtraAttributes:{effects:[0:{duration_ticks:3600,effect:\"adrenaline\",level:6}],id:\"POTION_ADRENALINE;6\",potion:\"adrenaline\",potion_level:6,potion_type:\"POTION\"},HideFlags:254,ItemModel:\"minecraft:potion\",display:{Lore:[0:\"\",1:\"§cAdrenaline VI §f(3:00)\",2:\"§7Grants §a+150 §7of absorption and §a+30\",3:\"§f Speed§7.\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Adrenaline VI Potion\"}}",
+  "damage": 0,
   "lore": [
     "",
     "§cAdrenaline VI §f(3:00)",
     "§7Grants §a+150 §7of absorption and §a+30",
-    "§a§f✦ Speed§7.",
+    "§f Speed§7.",
     "",
     "§9§lRARE"
   ],
   "internalname": "POTION_ADRENALINE;6",
-  "crafttext": "",
   "clickcommand": "viewpotion",
-  "modver": "",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 44.3.0-dev+mc26.2+g3fba44e7",
+  "infoType": "",
+  "info": []
 }

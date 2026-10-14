@@ -1,18 +1,19 @@
 {
   "itemid": "minecraft:potion",
   "displayname": "§5Resistance VII Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:19b,Amplifier:6b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§aResistance VII §f(3:00)\",2:\"§7Increases §a❈ Defense §7by §a+50§7.\",3:\"\",4:\"§5§lEPIC\"],Name:\"§5Resistance VII Potion\"},ExtraAttributes:{potion_level:7,potion:\"resistance\",effects:[0:{level:7,effect:\"resistance\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_RESISTANCE;7\"}}",
-  "damage": 4,
+  "nbttag": "{CustomPotionEffects:[0:{Ambient:0B,Amplifier:0B,Duration:900,Id:19B},1:{Ambient:0B,Amplifier:6B,Duration:20,Id:19B}],ExtraAttributes:{effects:[0:{duration_ticks:3600,effect:\"resistance\",level:7}],id:\"POTION_RESISTANCE;7\",potion:\"resistance\",potion_level:7,potion_type:\"POTION\"},HideFlags:254,ItemModel:\"minecraft:potion\",display:{Lore:[0:\"\",1:\"§aResistance VII §f(3:00)\",2:\"§7Increases §a Defense §7by §a+50§7.\",3:\"\",4:\"§5§lEPIC\"],Name:\"§5Resistance VII Potion\"}}",
+  "damage": 0,
   "lore": [
     "",
     "§aResistance VII §f(3:00)",
-    "§7Increases §a❈ Defense §7by §a+50§7.",
+    "§7Increases §a Defense §7by §a+50§7.",
     "",
     "§5§lEPIC"
   ],
   "internalname": "POTION_RESISTANCE;7",
-  "crafttext": "",
   "clickcommand": "viewpotion",
-  "modver": "",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 44.3.0-dev+mc26.2+g3fba44e7",
+  "infoType": "",
+  "info": []
 }
