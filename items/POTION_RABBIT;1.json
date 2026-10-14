@@ -1,19 +1,20 @@
 {
   "itemid": "minecraft:potion",
   "displayname": "§fRabbit I Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:19b,Amplifier:0b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§aRabbit I §f(3:00)\",2:\"§7Grants Jump Boost I and §a+10 §f✦\",3:\"§fSpeed§7.\",4:\"\",5:\"§f§lCOMMON\"],Name:\"§fRabbit I Potion\"},ExtraAttributes:{potion_level:1,potion:\"rabbit\",effects:[0:{level:1,effect:\"rabbit\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_RABBIT;1\"}}",
-  "damage": 4,
+  "nbttag": "{CustomPotionEffects:[0:{Ambient:0B,Amplifier:0B,Duration:900,Id:19B},1:{Ambient:0B,Amplifier:0B,Duration:20,Id:19B}],ExtraAttributes:{effects:[0:{duration_ticks:3600,effect:\"rabbit\",level:1}],id:\"POTION_RABBIT;1\",potion:\"rabbit\",potion_level:1,potion_type:\"POTION\"},HideFlags:254,ItemModel:\"minecraft:potion\",display:{Lore:[0:\"\",1:\"§aRabbit I §f(3:00)\",2:\"§7Grants Jump Boost I and §a+10 §f\",3:\"§fSpeed§7.\",4:\"\",5:\"§f§lCOMMON\"],Name:\"§fRabbit I Potion\"}}",
+  "damage": 0,
   "lore": [
     "",
     "§aRabbit I §f(3:00)",
-    "§7Grants Jump Boost I and §a+10 §f✦",
+    "§7Grants Jump Boost I and §a+10 §f",
     "§fSpeed§7.",
     "",
     "§f§lCOMMON"
   ],
   "internalname": "POTION_RABBIT;1",
-  "crafttext": "",
   "clickcommand": "viewpotion",
-  "modver": "",
-  "infoType": ""
+  "crafttext": "",
+  "modver": "Firmament 44.3.0-dev+mc26.2+g3fba44e7",
+  "infoType": "",
+  "info": []
 }
