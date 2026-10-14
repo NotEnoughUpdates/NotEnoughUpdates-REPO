@@ -1,10 +1,10 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "GREAT_SPOOK_STAFF",
-			year: 2024
+			id: "BOO_STONE",
+			year: 2026
 		},
-		"minecraft:item_model": "hypixel_skyblock:item/great_spook/great_spook_staff",
+		"minecraft:item_model": "hypixel_skyblock:item/reforge_stones/boo_stone",
 		"minecraft:tooltip_display": {
 			hidden_components: [
 				"minecraft:jukebox_playable",
@@ -21,12 +21,12 @@
 				"minecraft:charged_projectiles"
 			]
 		},
-		"minecraft:tooltip_style": "hypixel_skyblock:legendary"
+		"minecraft:tooltip_style": "hypixel_skyblock:rare"
 	},
 	count: 1,
-	id: "minecraft:dead_bush",
+	id: "minecraft:paper",
 	source: {
-		dataVersion: 4790,
-		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g00fd3323"
+		dataVersion: 4903,
+		modVersion: "Firmament 44.2.0-dev+mc26.2+gd594e7fb"
 	}
 }
