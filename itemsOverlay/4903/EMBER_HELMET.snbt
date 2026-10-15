@@ -1,10 +1,9 @@
 {
 	components: {
+		"minecraft:attribute_modifiers": [
+		],
 		"minecraft:custom_data": {
-			bossId: "c2efb9b0-eb56-49e6-892c-9650d0f6b1b2",
-			id: "EMBER_HELMET",
-			originTag: "BOSS_DROP",
-			spawnedFor: "6dad6b2e-f0bd-4119-8ca3-c53b1aa8ea42"
+			id: "EMBER_HELMET"
 		},
 		"minecraft:profile": {
 			id: [I;
@@ -23,17 +22,19 @@
 		},
 		"minecraft:tooltip_display": {
 			hidden_components: [
-				"minecraft:jukebox_playable",
 				"minecraft:painting/variant",
-				"minecraft:map_id",
 				"minecraft:fireworks",
 				"minecraft:attribute_modifiers",
+				"minecraft:enchantments",
+				"minecraft:stored_enchantments",
+				"minecraft:trim",
+				"minecraft:charged_projectiles",
+				"minecraft:jukebox_playable",
+				"minecraft:map_id",
 				"minecraft:unbreakable",
 				"minecraft:written_book_content",
 				"minecraft:banner_patterns",
-				"minecraft:trim",
 				"minecraft:potion_contents",
-				"minecraft:block_entity_data",
 				"minecraft:dyed_color"
 			]
 		},
@@ -42,7 +43,7 @@
 	count: 1,
 	id: "minecraft:player_head",
 	source: {
-		dataVersion: 4325,
-		modVersion: "Firmament 3.7.1-dev+mc1.21.5+g19c6b28"
+		dataVersion: 4903,
+		modVersion: "Firmament 44.3.0-dev+mc26.2+g3fba44e7"
 	}
 }
