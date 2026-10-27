@@ -1,8 +1,9 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "SKYBLOCK_MENU"
+			id: "CHRONO_PICKAXE"
 		},
+		"minecraft:item_model": "hypixel_skyblock:item/island_relevant/rift/zones/mountaintop/timite_collection/chrono_pickaxe",
 		"minecraft:tooltip_display": {
 			hidden_components: [
 				"minecraft:jukebox_playable",
@@ -19,12 +20,14 @@
 				"minecraft:charged_projectiles"
 			]
 		},
-		"minecraft:tooltip_style": "hypixel_skyblock:common"
+		"minecraft:tooltip_style": "hypixel_skyblock:epic",
+		"minecraft:unbreakable": {
+		}
 	},
 	count: 1,
-	id: "minecraft:nether_star",
+	id: "minecraft:iron_pickaxe",
 	source: {
-		dataVersion: 4790,
-		modVersion: "Firmament 44.3.0-dev+mc26.1.2+gc49a27a6"
+		dataVersion: 4903,
+		modVersion: "Firmament 44.3.0-dev+mc26.2+ga5fdc6d2"
 	}
 }
