@@ -239,7 +239,8 @@ class WikiLinkUpdater:
 
     @staticmethod
     def capitalizeWords(string: str) -> str:
-        return "".join(word.capitalize() for word in re.split(r"([ _-])", string) if word not in ["of", "the", "to"])
+        dontCapitalize = ["of", "the", "to"]
+        return "".join(word if word in dontCapitalize else word.capitalize() for word in re.split(r"([ _-])", string))
 
     @staticmethod
     def getUrl(page: str | None) -> str | None:
