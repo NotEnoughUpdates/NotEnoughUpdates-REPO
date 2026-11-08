@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§3Reindrake (Sea Creature)",
-  "nbttag": "{ExtraAttributes:{id:\"REINDRAKE_SC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"80b9ea26-3dc8-3346-bf7d-76b069a70e99\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY3MTc2MzUyNTg5OCwKICAicHJvZmlsZUlkIiA6ICI4MTc1MTc4NzQ2MjE0NmY2YjllOWM3MTYyMWRiODQwZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFwcGVhcmFuY2UiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzBiZWI0YzdmNWY4ZDE0YmUzYTA0ZjZmYTM1NzNmYThiZDU5ZWEyMjM2YjY2ZjA1ZmJhNTdjNjc4Y2EzNzc3NiIKICAgIH0KICB9Cn0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7The Reindrake is a Legendary mob unlocked from Fishing\",1:\"§7level 35. It can only be fished on the Jerry Island.\",2:\"\",3:\"§c❤ Health§8: §c2,500 (hits)\",4:\"\",5:\"§d§lMYTHIC\"],Name:\"§3Reindrake (Sea Creature)\"}}",
+  "displayname": "§fReindrake §7(§3Sea Creature§7)",
+  "nbttag": "{ExtraAttributes:{id:\"REINDRAKE_SC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"80b9ea26-3dc8-3346-bf7d-76b069a70e99\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY3MTc2MzUyNTg5OCwKICAicHJvZmlsZUlkIiA6ICI4MTc1MTc4NzQ2MjE0NmY2YjllOWM3MTYyMWRiODQwZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFwcGVhcmFuY2UiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzBiZWI0YzdmNWY4ZDE0YmUzYTA0ZjZmYTM1NzNmYThiZDU5ZWEyMjM2YjY2ZjA1ZmJhNTdjNjc4Y2EzNzc3NiIKICAgIH0KICB9Cn0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §f Frozen§7, §e Shielded§7, §d Elusive\",1:\"\",2:\"§7A Reindrake forms from the depths.\",3:\"\",4:\"§7Fished up in §cJerry's Workshop§7.\",5:\"§d§lMYTHIC SEA CREATURE\"],Name:\"§fReindrake §7(§3Sea Creature§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7The Reindrake is a Legendary mob unlocked from Fishing",
-    "§7level 35. It can only be fished on the Jerry Island.",
+    "§7Mob Types: §f Frozen§7, §e Shielded§7, §d Elusive",
     "",
-    "§c❤ Health§8: §c2,500 (hits)",
+    "§7A Reindrake forms from the depths.",
     "",
-    "§d§lMYTHIC"
+    "§7Fished up in §cJerry's Workshop§7.",
+    "§d§lMYTHIC SEA CREATURE"
   ],
   "internalname": "REINDRAKE_SC",
   "clickcommand": "viewrecipe",
@@ -21,10 +21,13 @@
   ],
   "recipes": [
     {
-      "level": 100,
-      "name": "§cReindrake",
-      "panorama": "winter",
+      "level": 186,
+      "coins": 930,
+      "fishing_xp": 4650,
+      "xp": 934,
+      "name": "§fReindrake",
       "render": "Dragon",
+      "panorama": "winter",
       "type": "drops",
       "extra": [
         "§cRequirements:",
@@ -46,19 +49,18 @@
           "chance": "10% + 10% per hit"
         },
         {
-          "id": "BOBBIN_SCRIPTURES:1",
+          "id": "BOBBIN_SCRIPTURES",
           "chance": "1%"
         },
         {
-          "id": "PROSPERITY;1",
-          "extra": [
-            "Only drops for the player who spawned the Reindrake"
-          ],
-          "chance": "100%"
+          "id": "PROSPERITY;1"
         },
         {
           "id": "DYE_ICEBERG",
-          "extra": [],
+          "chance": "0.002%"
+        },
+        {
+          "id": "DYE_AQUAMARINE",
           "chance": "0.002%"
         }
       ]

@@ -1,16 +1,13 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Ghost (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"GHOST_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"c5752211-7503-3e77-9890-d1cf6ba1d0e7\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTgxOTc3OTE4YTExODBlMGRlYzg3OWU2YmNkMWFhMzk0OTQ5NzdiYjkxM2JlMmFiMDFhZmYxZGIxZmE0In19fQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Ghosts are powerful mobs that spawn in the\",1:\"§7mist area of the Dwarven mines. They appear as\",2:\"§7the outer part of charged creepers.\",3:\"\",4:\"§7Mob Types: §5 Arcane§7, §6 Subterranean\",5:\"§c❤ Health§8: §c1,000,000\",6:\"§7Coins: §60-1,000,000 §8(§dPray RNGeusus§8)\"],Name:\"§9Ghost (Monster)\"}}",
+  "displayname": "§2Ghost §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"GHOST_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"c5752211-7503-3e77-9890-d1cf6ba1d0e7\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTgxOTc3OTE4YTExODBlMGRlYzg3OWU2YmNkMWFhMzk0OTQ5NzdiYjkxM2JlMmFiMDFhZmYxZGIxZmE0In19fQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §5 Arcane§7, §6 Subterranean\",1:\"\",2:\"§7It is hard to find that which you\",3:\"§7cannot see.\"],Name:\"§2Ghost §7(§cMonster§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7Ghosts are powerful mobs that spawn in the",
-    "§7mist area of the Dwarven mines. They appear as",
-    "§7the outer part of charged creepers.",
-    "",
     "§7Mob Types: §5 Arcane§7, §6 Subterranean",
-    "§c❤ Health§8: §c1,000,000",
-    "§7Coins: §60-1,000,000 §8(§dPray RNGeusus§8)"
+    "",
+    "§7It is hard to find that which you",
+    "§7cannot see."
   ],
   "internalname": "GHOST_MONSTER",
   "clickcommand": "viewrecipe",
@@ -22,37 +19,32 @@
   ],
   "recipes": [
     {
-      "level": 250,
-      "coins": 0,
-      "xp": 0,
+      "level": 157,
+      "coins": 52,
       "combat_xp": 100,
-      "name": "§cGhost",
+      "name": "§2Ghost",
       "render": "@neurepo:mobs/ghost.json",
       "panorama": "mining_3",
       "type": "drops",
       "drops": [
         {
-          "id": "VOLTA:1",
-          "extra": [],
-          "chance": "0.2%"
-        },
-        {
-          "id": "PLASMA:1",
-          "extra": [],
+          "id": "PLASMA",
           "chance": "0.1%"
         },
         {
-          "id": "GHOST_BOOTS:1",
-          "extra": [],
-          "chance": "0.01%"
+          "id": "VOLTA",
+          "chance": "0.2%"
         },
         {
-          "id": "SORROW:1",
-          "extra": [],
+          "id": "SORROW",
           "chance": "0.12%"
         },
         {
-          "id": "ATTRIBUTE_SHARD_VEIL;1:1",
+          "id": "GHOST_BOOTS",
+          "chance": "0.01%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_VEIL;1",
           "extra": [
             "§7 §7- §7Catch with §cPocket Black Hole§7.",
             "§7 §7- §7Kill Ghost §7while using §cSalts§7."

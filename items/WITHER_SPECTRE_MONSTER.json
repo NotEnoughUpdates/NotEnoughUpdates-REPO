@@ -1,12 +1,14 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§aWither Spectre (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"WITHER_SPECTRE_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"9a1699a4-9b61-37a5-be7a-ca23a1f092a1\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NDA4Mjg1NzcxMCwKICAicHJvZmlsZUlkIiA6ICIwNTVhOTk2NTk2M2E0YjRmOGMwMjRmMTJmNDFkMmNmMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVWb3hlbGxlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdmNWYzMzg0Mzg0ZDdmMDNiZjk3YTczMDk5YjBiYWZiNzJjNTM4ZmMwNDE1YWM4NjEzYjY2NGY4NzU3OWEzNzkiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Used to be a prince.\",1:\"\",2:\"§c❤ Health§8: §c300,000\"],Name:\"§aWither Spectre (Monster)\"}}",
+  "displayname": "§cWither Spectre §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"WITHER_SPECTRE_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"9a1699a4-9b61-37a5-be7a-ca23a1f092a1\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NDA4Mjg1NzcxMCwKICAicHJvZmlsZUlkIiA6ICIwNTVhOTk2NTk2M2E0YjRmOGMwMjRmMTJmNDFkMmNmMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVWb3hlbGxlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdmNWYzMzg0Mzg0ZDdmMDNiZjk3YTczMDk5YjBiYWZiNzJjNTM4ZmMwNDE1YWM4NjEzYjY2NGY4NzU3OWEzNzkiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §8 Wither§7, §5 Arcane\",1:\"\",2:\"§7Hasn't seen light in ages.\",3:\"\",4:\"§7Found within the §5Stronghold §7on the §cCrimson Isle§7.\"],Name:\"§cWither Spectre §7(§cMonster§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7Used to be a prince.",
+    "§7Mob Types: §8 Wither§7, §5 Arcane",
     "",
-    "§c❤ Health§8: §c300,000"
+    "§7Hasn't seen light in ages.",
+    "",
+    "§7Found within the §5Stronghold §7on the §cCrimson Isle§7."
   ],
   "internalname": "WITHER_SPECTRE_MONSTER",
   "clickcommand": "viewrecipe",
@@ -18,49 +20,45 @@
   ],
   "recipes": [
     {
-      "level": 70,
-      "coins": 20,
-      "xp": 100,
-      "combat_xp": 120,
-      "name": "§fWither Spectre",
-      "type": "drops",
+      "level": 144,
+      "coins": 48,
+      "combat_xp": 216,
+      "xp": 158,
+      "name": "§cWither Spectre",
       "render": "@neurepo:mobs/wither_spectre.json",
       "panorama": "crimson_isle",
-      "extra": [],
+      "type": "drops",
       "drops": [
         {
-          "id": "SULPHUR:1",
-          "extra": [],
+          "id": "SULPHUR",
           "chance": "100%"
         },
         {
-          "id": "SPECTRE_DUST:1",
-          "extra": [],
+          "id": "SPECTRE_DUST",
           "chance": "20%"
         },
         {
-          "id": "REDSTONE:1",
-          "extra": [],
+          "id": "REDSTONE",
           "chance": "20%"
         },
         {
-          "id": "RAMPART_HELMET:1",
-          "chance": "0.2%"
+          "id": "RAMPART_HELMET",
+          "chance": "1%"
         },
         {
-          "id": "RAMPART_CHESTPLATE:1",
-          "chance": "0.2%"
+          "id": "RAMPART_CHESTPLATE",
+          "chance": "1%"
         },
         {
-          "id": "RAMPART_LEGGINGS:1",
-          "chance": "0.2%"
+          "id": "RAMPART_LEGGINGS",
+          "chance": "1%"
         },
         {
-          "id": "RAMPART_BOOTS:1",
-          "chance": "0.2%"
+          "id": "RAMPART_BOOTS",
+          "chance": "1%"
         },
         {
-          "id": "SWORD_OF_BAD_HEALTH:1",
+          "id": "SWORD_OF_BAD_HEALTH",
           "chance": "0.05%"
         },
         {
@@ -72,13 +70,12 @@
           "chance": "0.00001%"
         },
         {
-          "id": "ATTRIBUTE_SHARD_BREEZE;1:1",
+          "id": "ATTRIBUTE_SHARD_BREEZE;1",
           "extra": [
-            "§7 §7- §7Catch with §cPocket Black Hole§7.",
-            "§7 §7- §7Kill Wither Specter while using §cSalts§7.",
-            "§7 §7- §7Obtained from §cKuudra§7."
-          ],
-          "chance": "100%"
+            "§7 - Catch with §cPocket Black Hole§7.",
+            "§7 - Charm §cWither Spectre§7.",
+            "§7 - Obtained from §cKuudra§7."
+          ]
         }
       ]
     }

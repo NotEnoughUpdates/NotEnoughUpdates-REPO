@@ -1,12 +1,14 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§cHarpy (Mythological Creature)",
-  "nbttag": "{ExtraAttributes:{id:\"HARPY_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"4dac95e1-e8f6-2ffe-9563-10092a5aaed5\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc1NTY0NDM0MTE4NywKICAicHJvZmlsZUlkIiA6ICI2MTU1NTMyOTY2OWM0ZDA5YmFiOGJlNDNkYWUwYTRjMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJmaTAxNSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80NzBlZTkxZWUxYTAwNTkzMzFkN2VjOTI0YTA5Yjg2NDgwYmQ5NmRhZTE5MTRmZjg1YzJjZDNiNzEzNGFiNjgzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §2✿ Mythological§7, §e Humanoid§7, §a Animal\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§cHarpy (Mythological Creature)\"}}",
+  "displayname": "§2Harpy §7(§dEvent Monster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"HARPY_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"4dac95e1-e8f6-2ffe-9563-10092a5aaed5\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc1NTY0NDM0MTE4NywKICAicHJvZmlsZUlkIiA6ICI2MTU1NTMyOTY2OWM0ZDA5YmFiOGJlNDNkYWUwYTRjMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJmaTAxNSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80NzBlZTkxZWUxYTAwNTkzMzFkN2VjOTI0YTA5Yjg2NDgwYmQ5NmRhZTE5MTRmZjg1YzJjZDNiNzEzNGFiNjgzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §2 Mythological§7, §e Humanoid§7, §a Animal\",1:\"\",2:\"§7The winged terror.\",3:\"\",4:\"§7Dug up from §eGriffin Burrows §7in the §aHub§7.\"],Name:\"§2Harpy §7(§dEvent Monster§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7Mob Types: §2✿ Mythological§7, §e Humanoid§7, §a Animal",
+    "§7Mob Types: §2 Mythological§7, §e Humanoid§7, §a Animal",
     "",
-    "§a§lUNCOMMON"
+    "§7The winged terror.",
+    "",
+    "§7Dug up from §eGriffin Burrows §7in the §aHub§7."
   ],
   "internalname": "HARPY_MONSTER",
   "clickcommand": "",
@@ -18,118 +20,142 @@
   ],
   "recipes": [
     {
-      "level": 85,
-      "coins": 300,
-      "xp": 5,
-      "combat_xp": 30,
-      "name": "§cStalwart Harpy",
+      "level": 113,
+      "coins": 37,
+      "combat_xp": 169,
+      "xp": 124,
+      "name": "§2Stalwart Harpy",
       "render": "@neurepo:mobs/harpy.json",
       "panorama": "hub",
-      "extra": [],
       "type": "drops",
       "drops": [
         {
-          "id": "ANCIENT_CLAW:7",
-          "chance": "100%"
+          "id": "ANCIENT_CLAW:7"
         },
         {
           "id": "ENCHANTED_GOLD:7",
           "chance": "50%"
         },
         {
-          "id": "ANTIQUE_REMEDIES:1",
+          "id": "ANTIQUE_REMEDIES",
           "chance": "0.35%"
         },
         {
           "id": "DYE_MYTHOLOGICAL",
           "chance": "0.0002%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_TREE_LURKER;1",
+          "extra": [
+            "§7 - Fusing §aBird §7Family with §cCombat §7Category.",
+            "§7 - Catch with §cPocket Black Hole§7.",
+            "§7 - Charm §cHarpy§7."
+          ]
         }
       ]
     },
     {
-      "level": 110,
-      "coins": 400,
-      "xp": 5,
-      "combat_xp": 45,
-      "name": "§cVenerable Harpy",
+      "level": 160,
+      "coins": 53,
+      "combat_xp": 240,
+      "xp": 176,
+      "name": "§2Venerable Harpy",
       "render": "@neurepo:mobs/harpy.json",
       "panorama": "hub",
-      "extra": [],
       "type": "drops",
       "drops": [
         {
-          "id": "ANCIENT_CLAW:8",
-          "chance": "100%"
+          "id": "ANCIENT_CLAW:8"
         },
         {
           "id": "ENCHANTED_GOLD:8",
           "chance": "50%"
         },
         {
-          "id": "ANTIQUE_REMEDIES:1",
+          "id": "ANTIQUE_REMEDIES",
           "chance": "0.4%"
         },
         {
           "id": "DYE_MYTHOLOGICAL",
           "chance": "0.0002%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_TREE_LURKER;1",
+          "extra": [
+            "§7 - Fusing §aBird §7Family with §cCombat §7Category.",
+            "§7 - Catch with §cPocket Black Hole§7.",
+            "§7 - Charm §cHarpy§7."
+          ]
         }
       ]
     },
     {
-      "level": 95,
-      "coins": 350,
-      "xp": 5,
-      "combat_xp": 25,
-      "name": "§cExalted Harpy",
+      "level": 213,
+      "coins": 71,
+      "combat_xp": 319,
+      "xp": 234,
+      "name": "§2Exalted Harpy",
       "render": "@neurepo:mobs/harpy.json",
       "panorama": "hub",
-      "extra": [],
       "type": "drops",
       "drops": [
         {
-          "id": "ANCIENT_CLAW:10",
-          "chance": "100%"
+          "id": "ANCIENT_CLAW:10"
         },
         {
           "id": "ENCHANTED_GOLD:10",
           "chance": "50%"
         },
         {
-          "id": "ANTIQUE_REMEDIES:1",
+          "id": "ANTIQUE_REMEDIES",
           "chance": "0.5%"
         },
         {
           "id": "DYE_MYTHOLOGICAL",
           "chance": "0.0002%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_TREE_LURKER;1",
+          "extra": [
+            "§7 - Fusing §aBird §7Family with §cCombat §7Category.",
+            "§7 - Catch with §cPocket Black Hole§7.",
+            "§7 - Charm §cHarpy§7."
+          ]
         }
       ]
     },
     {
-      "level": 325,
-      "coins": 600,
-      "xp": 5,
-      "combat_xp": 75,
-      "name": "§cEmpyrean Harpy",
+      "level": 251,
+      "coins": 83,
+      "combat_xp": 376,
+      "xp": 276,
+      "name": "§2Empyrean Harpy",
       "render": "@neurepo:mobs/harpy.json",
       "panorama": "hub",
-      "extra": [],
       "type": "drops",
       "drops": [
         {
-          "id": "ANCIENT_CLAW:12",
-          "chance": "100%"
+          "id": "ANCIENT_CLAW:12"
         },
         {
           "id": "ENCHANTED_GOLD:12",
           "chance": "50%"
         },
         {
-          "id": "ANTIQUE_REMEDIES:1",
+          "id": "ANTIQUE_REMEDIES",
           "chance": "0.6%"
         },
         {
           "id": "DYE_MYTHOLOGICAL",
           "chance": "0.0002%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_TREE_LURKER;1",
+          "extra": [
+            "§7 - Fusing §aBird §7Family with §cCombat §7Category.",
+            "§7 - Catch with §cPocket Black Hole§7.",
+            "§7 - Charm §cHarpy§7."
+          ]
         }
       ]
     }

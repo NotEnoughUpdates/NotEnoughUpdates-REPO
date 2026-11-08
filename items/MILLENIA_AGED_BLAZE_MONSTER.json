@@ -1,12 +1,15 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§aMillennia-Aged Blaze (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"MILLENIA_AGED_BLAZE_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"118fe834-28aa-3b0d-afe6-f0c52d01afe8\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7They started the fire.\",1:\"\",2:\"§c❤ Health§8: §c12,000,000\"],Name:\"§aMillennia-Aged Blaze (Monster)\"}}",
+  "displayname": "§4Millennia-Aged Blaze §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"MILLENIA_AGED_BLAZE_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"118fe834-28aa-3b0d-afe6-f0c52d01afe8\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §4 Infernal§7, §6 Subterranean\",1:\"\",2:\"§7Blazes rarely live past the age of\",3:\"§7900.\",4:\"\",5:\"§7Found within the §cSmoldering Tomb §7on the §cCrimson Isle§7.\"],Name:\"§4Millennia-Aged Blaze §7(§cMonster§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7They started the fire.",
+    "§7Mob Types: §4 Infernal§7, §6 Subterranean",
     "",
-    "§c❤ Health§8: §c12,000,000"
+    "§7Blazes rarely live past the age of",
+    "§7900.",
+    "",
+    "§7Found within the §cSmoldering Tomb §7on the §cCrimson Isle§7."
   ],
   "internalname": "MILLENIA_AGED_BLAZE_MONSTER",
   "clickcommand": "viewrecipe",
@@ -18,39 +21,33 @@
   ],
   "recipes": [
     {
-      "level": 110,
-      "coins": 100,
-      "xp": 35,
-      "combat_xp": 960,
-      "name": "§f§4Millennia-Aged Blaze",
-      "type": "drops",
-      "panorama": "crimson_isle",
+      "level": 290,
+      "coins": 96,
+      "combat_xp": 435,
+      "xp": 319,
+      "name": "§4Millennia-Aged Blaze",
       "render": "Blaze",
-      "extra": [],
+      "panorama": "crimson_isle",
+      "type": "drops",
       "drops": [
         {
           "id": "BLAZE_ROD:32",
-          "extra": [],
           "chance": "100%"
         },
         {
-          "id": "BLAZE_ASHES:1",
-          "extra": [],
+          "id": "BLAZE_ASHES",
           "chance": "20%"
         },
         {
-          "id": "MILLENIA_OLD_BLAZE_ASHES:1",
-          "extra": [],
+          "id": "MILLENIA_OLD_BLAZE_ASHES",
           "chance": "4.5%"
         },
         {
-          "id": "NETHERRACK_LOOKING_SUNSHADE:1",
-          "extra": [],
+          "id": "NETHERRACK_LOOKING_SUNSHADE",
           "chance": "1%"
         },
         {
           "id": "SMOLDERING;1",
-          "extra": [],
           "chance": "0.016%"
         },
         {

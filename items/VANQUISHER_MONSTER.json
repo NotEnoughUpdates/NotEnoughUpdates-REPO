@@ -1,10 +1,17 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Vanquisher (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"VANQUISHER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:wither_skeleton_skull\",display:{Lore:[0:\"§c❤ Health§8: §c10,000,000\"],Name:\"§9Vanquisher (Monster)\"}}",
+  "displayname": "§5Vanquisher §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"VANQUISHER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:wither_skeleton_skull\",display:{Lore:[0:\"§7Mob Types: §8 Wither§7, §d Elusive\",1:\"\",2:\"§7The embodiment of vengeful souls\",3:\"§7that come for revenge.\",4:\"\",5:\"§5Vanquishers §7can rise from the corpse\",6:\"§7of any §cMonster §7or §3Sea Creature §7slain\",7:\"§7on the §cCrimson Isle§7.\"],Name:\"§5Vanquisher §7(§cMonster§7)\"}}",
   "damage": 1,
   "lore": [
-    "§c❤ Health§8: §c10,000,000"
+    "§7Mob Types: §8 Wither§7, §d Elusive",
+    "",
+    "§7The embodiment of vengeful souls",
+    "§7that come for revenge.",
+    "",
+    "§5Vanquishers §7can rise from the corpse",
+    "§7of any §cMonster §7or §3Sea Creature §7slain",
+    "§7on the §cCrimson Isle§7."
   ],
   "internalname": "VANQUISHER_MONSTER",
   "clickcommand": "viewrecipe",
@@ -16,18 +23,17 @@
   ],
   "recipes": [
     {
-      "level": 100,
-      "coins": 100,
-      "xp": 50,
-      "combat_xp": 1000,
-      "name": "§cVanquisher",
+      "level": 235,
+      "coins": 78,
+      "combat_xp": 352,
+      "xp": 258,
+      "name": "§5Vanquisher",
       "render": "Wither",
       "panorama": "crimson_isle",
       "type": "drops",
       "drops": [
         {
           "id": "CORRUPTED_NETHER_STAR:3",
-          "extra": [],
           "chance": "100%"
         },
         {

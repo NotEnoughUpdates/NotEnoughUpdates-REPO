@@ -1,11 +1,16 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§aSilverfish (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"SILVERFISH_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"30a4cd5c-5754-4db8-8960-18022a74627d\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGE5MWRhYjgzOTFhZjVmZGE1NGFjZDJjMGIxOGZiZDgxOWI4NjVlMWE4ZjFkNjIzODEzZmE3NjFlOTI0NTQwIn19fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Silverfish are a vanilla mob which retain their\",1:\"§7typical behavior when encountered in Skyblock. \"],Name:\"§aSilverfish (Monster)\"}}",
+  "displayname": "§cSilverfish §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"SILVERFISH_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"30a4cd5c-5754-4db8-8960-18022a74627d\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGE5MWRhYjgzOTFhZjVmZGE1NGFjZDJjMGIxOGZiZDgxOWI4NjVlMWE4ZjFkNjIzODEzZmE3NjFlOTI0NTQwIn19fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob type: §4 Arthropod\",1:\"\",2:\"§7Though weak alone, they find\",3:\"§7strength in numbers.\",4:\"\",5:\"§cSilverfish §7spawn from §cSplitter Spiders\",6:\"§7or are shot from §cSkeleton Jockeys§7.\"],Name:\"§cSilverfish §7(§cMonster§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7Silverfish are a vanilla mob which retain their",
-    "§7typical behavior when encountered in Skyblock. "
+    "§7Mob type: §4 Arthropod",
+    "",
+    "§7Though weak alone, they find",
+    "§7strength in numbers.",
+    "",
+    "§cSilverfish §7spawn from §cSplitter Spiders",
+    "§7or are shot from §cSkeleton Jockeys§7."
   ],
   "internalname": "SILVERFISH_MONSTER",
   "clickcommand": "",
@@ -17,6 +22,9 @@
   ],
   "recipes": [
     {
+      "level": 1,
+      "coins": 1,
+      "combat_xp": 5,
       "xp": 1,
       "name": "§cSilverfish",
       "panorama": "combat_1",

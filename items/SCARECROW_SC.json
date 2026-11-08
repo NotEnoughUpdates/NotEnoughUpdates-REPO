@@ -1,17 +1,15 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§3Scarecrow (Sea Creature)",
-  "nbttag": "{ExtraAttributes:{id:\"SCARECROW_SC\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7The Scarecrow is a common sea creature added in the Spooky\",1:\"§7Festival v2 update. It can only be caught from 1 hour before\",2:\"§7until 1 hour after the Spooky Festival by those above Fishing 9\",3:\"\",4:\"§7Mob Types: §9 Aquatic§7, §6☽ Spooky\",5:\"§c❤ Health§8: §c4,500\",6:\"\",7:\"§f§lCOMMON\"],Name:\"§3Scarecrow (Sea Creature)\"}}",
+  "displayname": "§6Scarecrow §7(§bEvent Sea Creature§7)",
+  "nbttag": "{ExtraAttributes:{id:\"SCARECROW_SC\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Mob Types: §9 Aquatic§7, §6 Spooky\",1:\"\",2:\"§7Also found at a yellow brick road.\",3:\"\",4:\"§7Fished up from §bWater §7during a §6Spooky Festival§7.\",5:\"§a§lUNCOMMON SEA CREATURE\"],Name:\"§6Scarecrow §7(§bEvent Sea Creature§7)\"}}",
   "damage": 2,
   "lore": [
-    "§7The Scarecrow is a common sea creature added in the Spooky",
-    "§7Festival v2 update. It can only be caught from 1 hour before",
-    "§7until 1 hour after the Spooky Festival by those above Fishing 9",
+    "§7Mob Types: §9 Aquatic§7, §6 Spooky",
     "",
-    "§7Mob Types: §9 Aquatic§7, §6☽ Spooky",
-    "§c❤ Health§8: §c4,500",
+    "§7Also found at a yellow brick road.",
     "",
-    "§f§lCOMMON"
+    "§7Fished up from §bWater §7during a §6Spooky Festival§7.",
+    "§a§lUNCOMMON SEA CREATURE"
   ],
   "internalname": "SCARECROW_SC",
   "clickcommand": "viewrecipe",
@@ -23,12 +21,13 @@
   ],
   "recipes": [
     {
-      "name": "§cScarecrow",
-      "level": 9,
-      "coins": 100,
-      "xp": 10,
+      "level": 32,
+      "coins": 32,
+      "fishing_xp": 320,
+      "xp": 39,
+      "name": "§6Scarecrow",
       "render": "@neurepo:mobs/scarecrow.json",
-      "panorama": "hub",
+      "panorama": "dynamic",
       "type": "drops",
       "extra": [
         "§cRequirements:",
@@ -38,30 +37,32 @@
       ],
       "drops": [
         {
-          "id": "PUMPKIN:1",
-          "chance": "100%",
-          "extra": [
-            "§eDrop Count: §7x4-8"
-          ]
-        },
-        {
-          "id": "GREEN_CANDY:1",
-          "chance": "100%",
+          "id": "GREEN_CANDY",
           "extra": [
             "§eDrop Count: §7x2-4"
           ]
         },
         {
-          "id": "ENCHANTED_PUMPKIN:1",
-          "chance": "2.5%"
+          "id": "PUMPKIN",
+          "extra": [
+            "§eDrop Count: §7x4-8"
+          ]
         },
         {
-          "id": "PURPLE_CANDY:1",
+          "id": "PURPLE_CANDY",
           "chance": "25%"
         },
         {
-          "id": "DYE_MIDNIGHT:1",
+          "id": "ENCHANTED_PUMPKIN:4",
+          "chance": "2.5%"
+        },
+        {
+          "id": "DYE_MIDNIGHT",
           "chance": "0.0001%"
+        },
+        {
+          "id": "DYE_AQUAMARINE",
+          "chance": "0.00002%"
         }
       ]
     }

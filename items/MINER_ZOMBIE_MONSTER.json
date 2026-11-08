@@ -1,16 +1,14 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Miner Zombie (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"MINER_ZOMBIE_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Like their skeleton\",1:\"§7counterparts these zombies have\",2:\"§7bedazzled themselves throughout\",3:\"§7the years.\",4:\"\",5:\"§7Mob Type: §2 Undead\",6:\"§c❤ Health§8: §c250 - 300\"],Name:\"§9Miner Zombie (Monster)\"}}",
+  "displayname": "§bMiner Zombie §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"MINER_ZOMBIE_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Mob Type: §2 Undead\",1:\"\",2:\"§7Like their skeleton counterparts\",3:\"§7these zombies have bedazzled\",4:\"§7themselves throughout the years.\"],Name:\"§bMiner Zombie §7(§cMonster§7)\"}}",
   "damage": 2,
   "lore": [
-    "§7Like their skeleton",
-    "§7counterparts these zombies have",
-    "§7bedazzled themselves throughout",
-    "§7the years.",
-    "",
     "§7Mob Type: §2 Undead",
-    "§c❤ Health§8: §c250 - 300"
+    "",
+    "§7Like their skeleton counterparts",
+    "§7these zombies have bedazzled",
+    "§7themselves throughout the years."
   ],
   "internalname": "MINER_ZOMBIE_MONSTER",
   "clickcommand": "viewrecipe",
@@ -22,11 +20,10 @@
   ],
   "recipes": [
     {
-      "level": 15,
-      "coins": 12,
-      "xp": 30,
-      "combat_xp": 20,
-      "name": "§cMiner Zombie",
+      "level": 13,
+      "coins": 4,
+      "combat_xp": 19,
+      "name": "§bMiner Zombie",
       "render": "@neurepo:mobs/miner_zombie.json",
       "panorama": "mining_2",
       "type": "drops",
@@ -52,11 +49,11 @@
           "chance": "1%"
         },
         {
-          "id": "PET_ITEM_EXP_SHARE_DROP:1",
+          "id": "PET_ITEM_EXP_SHARE_DROP",
           "chance": "0.01%"
         },
         {
-          "id": "ATTRIBUTE_SHARD_ROTTEN_PICKAXE;1:1",
+          "id": "ATTRIBUTE_SHARD_ROTTEN_PICKAXE;1",
           "extra": [
             "§7 §7- §7Catch with §cPocket Black Hole§7.",
             "§7 §7- §7Kill Miner Zombie §7while using §cSalts§7."
@@ -66,12 +63,11 @@
       ]
     },
     {
-      "level": 20,
-      "coins": 15,
-      "xp": 40,
-      "combat_xp": 24,
-      "name": "§cMiner Zombie",
-      "render": "@neurepo:mobs/miner_zombie.json",
+      "level": 15,
+      "coins": 5,
+      "combat_xp": 22,
+      "name": "§bMiner Zombie",
+      "render": "@neurepo:mobs/miner_zombie_alt.json",
       "panorama": "mining_2",
       "type": "drops",
       "drops": [
@@ -96,11 +92,11 @@
           "chance": "1%"
         },
         {
-          "id": "PET_ITEM_EXP_SHARE_DROP:1",
+          "id": "PET_ITEM_EXP_SHARE_DROP",
           "chance": "0.01%"
         },
         {
-          "id": "ATTRIBUTE_SHARD_ROTTEN_PICKAXE;1:1",
+          "id": "ATTRIBUTE_SHARD_ROTTEN_PICKAXE;1",
           "extra": [
             "§7 §7- §7Catch with §cPocket Black Hole§7.",
             "§7 §7- §7Kill Miner Zombie §7while using §cSalts§7."

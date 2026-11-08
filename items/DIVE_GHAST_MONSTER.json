@@ -1,0 +1,55 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§cDive Ghast §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"DIVE_GHAST_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"5841a3ea-0eb2-3b2c-9673-7d03c813700c\",Properties:{textures:[0:{Name:\"textures\",Signature:\"Cy+MQY0CwjrXwOs2zq5y+3gf91cM64d+n279ma+mZg5+0yYu0E11+e8c+L0KSHPjPlsv1sT5f52tXVWAG7722o6ip99C5/T7hKWpg5S51bsJiYCPhBty5EQx6mzGPtHJQ1PD14Qn1DbXyWkp/++6F37Stjde/HPj8/9EQRB9AUPu04o+PcmZjLYxDP7uxi0FVa7Cm6EKupAsS391+KH+VP7EiHyU7o3+hbL/5nMCUwqwYAd6YECQ7lB0D/UyKjG7lz0uNtJ6zk3xfLOFMwFTKRt3MPI1WbVMhija93YDILVjwLdgBZ3grilcPeGdMEZlrdon4ujvQ4tnH76e7MM+1uhABEMZJV++2ZygPLwAGd1nORimfhexmH6A0fQOo1+VIq4lnfIfJo1TPFC7sCKnlG2AbAZSyfu6+DIMM8J9KRQH5GyM2UYTZac4kF/qSrZN3lecGbXLazLzgaK6HkRs5nZN4aOaxc+QRMm6XxF4WQhN6KLzGF93d1pzURjJKiYeDDxf3CmAk8EZTMu+RptrLYjPUN22aPz2MKtR/oq/hKKhnXad8GTLk/0yi5md5LoeZ86tqbqyzEHYzsSzD7FSVPv3aAeo0ANHVf+g/RXrrWEGqAfijLcEvbFgB3MCwW1YKaF47Hz0H4NUxIa1XbOYtyg8pMDZBhwJIcqxf/wbAxw=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4NDEyNjAwNjYwMywKICAicHJvZmlsZUlkIiA6ICIxNDgxNzQxN2VhNWI0OGM1OTMzNzA5YjZjMTcxZTc3YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJJdHNtZV90byIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81YjMyNGY5OWVjYWNiZDk4NDZmNTlkOGJiNDBlZjBjMjY3MGJmMDIzNDI2MmI4M2E1YjBmOWNiM2YwY2JiM2Q1IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §a Cubic§7,  Airborne\",1:\"\",2:\"§7Their screams can be heard from miles away.\",3:\"\",4:\"§7Found above the §6Forgotten Skull §7on the §cCrimson Isle§7.\"],Name:\"§cDive Ghast §7(§cMonster§7)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Types: §a Cubic§7,  Airborne",
+    "",
+    "§7Their screams can be heard from miles away.",
+    "",
+    "§7Found above the §6Forgotten Skull §7on the §cCrimson Isle§7."
+  ],
+  "internalname": "DIVE_GHAST_MONSTER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Dive_Ghast"
+  ],
+  "recipes": [
+    {
+      "level": 157,
+      "coins": 52,
+      "combat_xp": 235,
+      "xp": 172,
+      "name": "§cDive Ghast",
+      "render": "Ghast",
+      "panorama": "crimson_isle",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "GHAST_TEAR:2",
+          "chance": "100%"
+        },
+        {
+          "id": "TENTACLE_MEAT",
+          "chance": "10%"
+        },
+        {
+          "id": "DYE_CYCLAMEN",
+          "chance": "0.00004%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_GHASTLY_DISTRACTION;1",
+          "extra": [
+            "§7 - Catch with §2Lasso§7.",
+            "§7 - Charm §cDive Ghast§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

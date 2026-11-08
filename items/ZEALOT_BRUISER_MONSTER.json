@@ -1,10 +1,16 @@
 {
   "itemid": "minecraft:ender_chest",
-  "displayname": "§9Zealot Bruiser (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"ZEALOT_BRUISER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:ender_chest\",display:{Lore:[0:\"§c❤ Health§8: §c65,000\"],Name:\"§9Zealot Bruiser (Monster)\"}}",
+  "displayname": "§dZealot Bruiser §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"ZEALOT_BRUISER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:ender_chest\",display:{Lore:[0:\"§7Mob type: §5 Ender\",1:\"\",2:\"§7Unwavering in their devotion to the\",3:\"§7Dragon.\",4:\"\",5:\"§7Found within the §5Zealot Bruiser Hideout\",6:\"§7of §dThe End§7.\"],Name:\"§dZealot Bruiser §7(§cMonster§7)\"}}",
   "damage": 0,
   "lore": [
-    "§c❤ Health§8: §c65,000"
+    "§7Mob type: §5 Ender",
+    "",
+    "§7Unwavering in their devotion to the",
+    "§7Dragon.",
+    "",
+    "§7Found within the §5Zealot Bruiser Hideout",
+    "§7of §dThe End§7."
   ],
   "internalname": "ZEALOT_BRUISER_MONSTER",
   "clickcommand": "viewrecipe",
@@ -16,11 +22,11 @@
   ],
   "recipes": [
     {
-      "level": 100,
-      "coins": 24,
-      "xp": 20,
-      "combat_xp": 78,
-      "name": "§cZealot Bruiser",
+      "level": 115,
+      "coins": 38,
+      "combat_xp": 172,
+      "xp": 126,
+      "name": "§dZealot Bruiser",
       "render": "Enderman",
       "panorama": "combat_3",
       "type": "drops",
@@ -29,21 +35,18 @@
           "id": "ENDER_PEARL",
           "extra": [
             "x2-4"
-          ],
-          "chance": "100%"
+          ]
         },
         {
           "id": "ENCHANTED_ENDER_PEARL",
-          "extra": [],
           "chance": "4%"
         },
         {
           "id": "DYE_PEARLESCENT",
-          "extra": [],
           "chance": "0.00001%"
         },
         {
-          "id": "ATTRIBUTE_SHARD_ENDER;1:1",
+          "id": "ATTRIBUTE_SHARD_ENDER;1",
           "extra": [
             "§7 §7- §7Catch with §cPocket Black Hole§7.",
             "§7 §7- §7Kill Zealot Bruiser §7while using §cSalts§7."

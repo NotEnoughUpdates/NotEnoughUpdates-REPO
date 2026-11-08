@@ -1,12 +1,13 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§aExecutive Wendy (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"EXECUTIVE_WENDY_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"076f14c0-f574-3396-876f-14c0f5742396\",Properties:{textures:[0:{Name:\"textures\",Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWY1ZTAzYjhkZTExOWY4NTg5YTgwODIyNGNiZWE3MzdmNWRjZjI0MjM1Nzk5YjczNzhhYzViZjA2YWJmNmRkNCJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Prepare for trouble!\",1:\"\",2:\"§c❤ Health§8: §c18,000\"],Name:\"§aExecutive Wendy (Monster)\"}}",
+  "displayname": "§5Executive Wendy §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"EXECUTIVE_WENDY_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"076f14c0-f574-3396-876f-14c0f5742396\",Properties:{textures:[0:{Name:\"textures\",Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWY1ZTAzYjhkZTExOWY4NTg5YTgwODIyNGNiZWE3MzdmNWRjZjI0MjM1Nzk5YjczNzhhYzViZjA2YWJmNmRkNCJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Type: §e Humanoid\",1:\"\",2:\"§7Team Treasurite is up to no good.\",3:\"§7Prepare for trouble!\"],Name:\"§5Executive Wendy §7(§cMonster§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7Prepare for trouble!",
+    "§7Mob Type: §e Humanoid",
     "",
-    "§c❤ Health§8: §c18,000"
+    "§7Team Treasurite is up to no good.",
+    "§7Prepare for trouble!"
   ],
   "internalname": "EXECUTIVE_WENDY_MONSTER",
   "clickcommand": "",
@@ -18,31 +19,31 @@
   ],
   "recipes": [
     {
-      "level": 100,
-      "coins": 10,
-      "xp": 10,
-      "combat_xp": 35,
-      "name": "§cExecutive Wendy",
-      "panorama": "crystal_hollows",
+      "level": 62,
+      "coins": 20,
+      "combat_xp": 93,
+      "xp": 68,
+      "name": "§5Executive Wendy",
       "render": "@neurepo:mobs/executive_wendy.json",
+      "panorama": "crystal_hollows",
       "type": "drops",
       "drops": [
         {
-          "id": "ROUGH_RUBY_GEM:1",
+          "id": "ROUGH_RUBY_GEM",
           "extra": [
             "§eDrop Count: §7x8-15"
           ],
           "chance": "100%"
         },
         {
-          "id": "ROUGH_JADE_GEM:1",
+          "id": "ROUGH_JADE_GEM",
           "extra": [
             "§eDrop Count: §7x8-15"
           ],
           "chance": "100%"
         },
         {
-          "id": "TREASURITE:1",
+          "id": "TREASURITE",
           "chance": "1%"
         }
       ]

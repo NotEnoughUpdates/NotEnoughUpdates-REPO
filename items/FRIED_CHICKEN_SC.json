@@ -1,13 +1,15 @@
 {
   "itemid": "minecraft:cooked_chicken",
-  "displayname": "§3Fried Chicken (Sea Creature)",
-  "nbttag": "{ExtraAttributes:{id:\"FRIED_CHICKEN_SC\"},HideFlags:254,ItemModel:\"minecraft:cooked_chicken\",display:{Lore:[0:\"§7Mob Types: §c Magmatic§7, §a Animal\",1:\"§c❤ Health§8: §c65,000\",2:\"\",3:\"§f§lCOMMON\"],Name:\"§3Fried Chicken (Sea Creature)\"}}",
+  "displayname": "§cFried Chicken §7(§3Sea Creature§7)",
+  "nbttag": "{ExtraAttributes:{id:\"FRIED_CHICKEN_SC\"},HideFlags:254,ItemModel:\"minecraft:cooked_chicken\",display:{Lore:[0:\"§7Mob Types: §c Magmatic§7, §a Animal\",1:\"\",2:\"§7Is it ready to eat, then?\",3:\"\",4:\"§7Fished up in the §cCrimson Isle §dHotspots§7.\",5:\"§f§lCOMMON SEA CREATURE\"],Name:\"§cFried Chicken §7(§3Sea Creature§7)\"}}",
   "damage": 0,
   "lore": [
     "§7Mob Types: §c Magmatic§7, §a Animal",
-    "§c❤ Health§8: §c65,000",
     "",
-    "§f§lCOMMON"
+    "§7Is it ready to eat, then?",
+    "",
+    "§7Fished up in the §cCrimson Isle §dHotspots§7.",
+    "§f§lCOMMON SEA CREATURE"
   ],
   "internalname": "FRIED_CHICKEN_SC",
   "clickcommand": "viewrecipe",
@@ -19,10 +21,11 @@
   ],
   "recipes": [
     {
+      "level": 86,
+      "coins": 64,
+      "fishing_xp": 645,
+      "xp": 94,
       "name": "§cFried Chicken",
-      "level": 30,
-      "coins": 50,
-      "xp": 50,
       "render": "Chicken",
       "panorama": "crimson_isle",
       "type": "drops",
@@ -34,23 +37,17 @@
       ],
       "drops": [
         {
-          "id": "RAW_CHICKEN:2",
-          "chance": "100%"
+          "id": "MAGMA_FISH",
+          "extra": [
+            "§eDrop Count: §7x1-2"
+          ]
         },
         {
-          "id": "MAGMA_FISH:1",
-          "chance": "100%"
+          "id": "FRIED_FEATHER",
+          "chance": "10%"
         },
         {
-          "id": "FRIED_FEATHER:1",
-          "chance": "50%"
-        },
-        {
-          "id": "ENCHANTED_RAW_CHICKEN:1",
-          "chance": "4%"
-        },
-        {
-          "id": "DYE_CARMINE:1",
+          "id": "DYE_CARMINE",
           "chance": "0.00002%"
         }
       ]

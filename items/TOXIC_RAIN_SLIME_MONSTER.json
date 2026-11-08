@@ -1,13 +1,15 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§aToxic Rain Slime (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"TOXIC_RAIN_SLIME_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"3b70a2f3-319c-38d5-b7d1-5b2425770184\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODk1YWVlYzZiODQyYWRhODY2OWY4NDZkNjViYzQ5NzYyNTk3ODI0YWI5NDRmMjJmNDViZjNiYmI5NDFhYmU2YyJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7These Slimes enjoy rain...and\",1:\"§7jumping to their deaths.\",2:\"\",3:\"§c❤ Health§8: §c1,500\"],Name:\"§aToxic Rain Slime (Monster)\"}}",
+  "displayname": "§aToxic Rain Slime §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"TOXIC_RAIN_SLIME_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"3b70a2f3-319c-38d5-b7d1-5b2425770184\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODk1YWVlYzZiODQyYWRhODY2OWY4NDZkNjViYzQ5NzYyNTk3ODI0YWI5NDRmMjJmNDViZjNiYmI5NDFhYmU2YyJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob type: §a Cubic\",1:\"\",2:\"§7These Slimes enjoy rain...and jumping\",3:\"§7to their deaths.\",4:\"\",5:\"§7Found within §cSpider's Den §7during any §bWeather§7.\"],Name:\"§aToxic Rain Slime §7(§cMonster§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7These Slimes enjoy rain...and",
-    "§7jumping to their deaths.",
+    "§7Mob type: §a Cubic",
     "",
-    "§c❤ Health§8: §c1,500"
+    "§7These Slimes enjoy rain...and jumping",
+    "§7to their deaths.",
+    "",
+    "§7Found within §cSpider's Den §7during any §bWeather§7."
   ],
   "internalname": "TOXIC_RAIN_SLIME_MONSTER",
   "clickcommand": "",
@@ -19,13 +21,13 @@
   ],
   "recipes": [
     {
-      "level": 20,
-      "coins": 20,
-      "xp": 5,
-      "combat_xp": 30,
-      "name": "§cToxic Rain Slime",
-      "panorama": "combat_1",
+      "level": 15,
+      "coins": 5,
+      "combat_xp": 22,
+      "xp": 16,
+      "name": "§aToxic Rain Slime",
       "render": "Slime",
+      "panorama": "combat_1",
       "type": "drops",
       "drops": [
         {
@@ -46,9 +48,8 @@
         {
           "id": "ATTRIBUTE_SHARD_MANA_STEAL;1:1",
           "extra": [
-            "§7 §7- §7Catch with §cPocket Black Hole§7.",
-            "§7 §7- §7Kill Rain Slime§7 or §aToxic Rain Slime",
-            "§a§7while using §cSalts§7."
+            "§7 - Catch with §cPocket Black Hole§7.",
+            "§7 - Charm §cRain Slime §7or §aToxic Rain Slime§7."
           ],
           "chance": "100%"
         }

@@ -1,19 +1,18 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§aPowder Ghast (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"POWDER_GHAST_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"b473ca7d-e895-3986-ab3e-a70b89270a3f\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGI2YTcyMTM4ZDY5ZmJiZDJmZWEzZmEyNTFjYWJkODcxNTJlNGYxYzk3ZTVmOTg2YmY2ODU1NzFkYjNjYzAifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7The Powder Ghast is a mob that spawns,\",1:\"§7randomly in Dwarven Mines. It's not a part of the regular cycle,\",2:\"§7and instead is a random occurrence. The Powder Ghast can spawn\",3:\"§7in one of the following locations: Divan's Gateway,\",4:\"§7Rampart's Quarry, Cliffside Veinsand Forge Basin. \",5:\"§7The Powder Ghast is immune to melee damage. Players will receive,\",6:\"§760 Mithril Powder for every hit that lands on its hitbox.\",7:\"\",8:\"§7Mob Types: §a Cubic§7,  Airborne, §e Shielded\",9:\"§c❤ Health§8: §c50(hits)\"],Name:\"§aPowder Ghast (Monster)\"}}",
+  "displayname": "§2Powder Ghast §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"POWDER_GHAST_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"b473ca7d-e895-3986-ab3e-a70b89270a3f\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGI2YTcyMTM4ZDY5ZmJiZDJmZWEzZmEyNTFjYWJkODcxNTJlNGYxYzk3ZTVmOTg2YmY2ODU1NzFkYjNjYzAifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §a Cubic§7, §7 Airborne§7, §e Shielded\",1:\"\",2:\"§7Powder and coal replaces ash and\",3:\"§7soot!\",4:\"\",5:\"§7The Powder Ghast has a §e0.02% §7chance to spawn\",6:\"§7when any player within the §2Dwarven Mines §7breaks\",7:\"§7any §6Mithril Ore§7.  It can spawn in §efour §7areas\",8:\"§7central of the §2Dwarven Mines§7.\"],Name:\"§2Powder Ghast §7(§cMonster§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7The Powder Ghast is a mob that spawns,",
-    "§7randomly in Dwarven Mines. It's not a part of the regular cycle,",
-    "§7and instead is a random occurrence. The Powder Ghast can spawn",
-    "§7in one of the following locations: Divan's Gateway,",
-    "§7Rampart's Quarry, Cliffside Veinsand Forge Basin. ",
-    "§7The Powder Ghast is immune to melee damage. Players will receive,",
-    "§760 Mithril Powder for every hit that lands on its hitbox.",
+    "§7Mob Types: §a Cubic§7, §7 Airborne§7, §e Shielded",
     "",
-    "§7Mob Types: §a Cubic§7,  Airborne, §e Shielded",
-    "§c❤ Health§8: §c50(hits)"
+    "§7Powder and coal replaces ash and",
+    "§7soot!",
+    "",
+    "§7The Powder Ghast has a §e0.02% §7chance to spawn",
+    "§7when any player within the §2Dwarven Mines §7breaks",
+    "§7any §6Mithril Ore§7.  It can spawn in §efour §7areas",
+    "§7central of the §2Dwarven Mines§7."
   ],
   "internalname": "POWDER_GHAST_MONSTER",
   "clickcommand": "",
@@ -25,12 +24,12 @@
   ],
   "recipes": [
     {
-      "coins": 0,
-      "xp": 0,
-      "name": "§cPowder Ghast",
+      "level": 55,
+      "coins": 18,
+      "combat_xp": 82,
+      "xp": 60,
+      "name": "§2Powder Ghast",
       "render": "Ghast",
-      "level": 1,
-      "combat_xp": 0,
       "type": "drops",
       "panorama": "mining_3",
       "drops": [

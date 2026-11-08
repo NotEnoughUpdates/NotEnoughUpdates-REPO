@@ -1,15 +1,16 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§aExecutive Sebastian (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"EXECUTIVE_SEBASTIAN_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"01b77ad6-2139-3bec-81b7-7ad621397bec\",Properties:{textures:[0:{Name:\"textures\",Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGM4NWJkZGE4ZmZjMjMzZTczOGZiM2NhNzcxNWU5NDdhOGU2MmEzNTEwMzE2ODJkYTFlZjZlZmNlY2Y0OGY3OSJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Prepare for trouble!\",1:\"\",2:\"§c❤ Health§8: §c18,000\"],Name:\"§aExecutive Sebastian (Monster)\"}}",
+  "displayname": "§5Executive Sebastian §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"EXECUTIVE_SEBASTIAN_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"01b77ad6-2139-3bec-81b7-7ad621397bec\",Properties:{textures:[0:{Name:\"textures\",Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGM4NWJkZGE4ZmZjMjMzZTczOGZiM2NhNzcxNWU5NDdhOGU2MmEzNTEwMzE2ODJkYTFlZjZlZmNlY2Y0OGY3OSJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Type: §e Humanoid\",1:\"\",2:\"§7Team Treasurite is up to no good.\",3:\"§7Prepare for trouble!\"],Name:\"§5Executive Sebastian §7(§cMonster§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7Prepare for trouble!",
+    "§7Mob Type: §e Humanoid",
     "",
-    "§c❤ Health§8: §c18,000"
+    "§7Team Treasurite is up to no good.",
+    "§7Prepare for trouble!"
   ],
   "internalname": "EXECUTIVE_SEBASTIAN_MONSTER",
-  "clickcommand": "viewrecipe",
+  "clickcommand": "",
   "crafttext": "",
   "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
   "infoType": "WIKI_URL",
@@ -18,31 +19,31 @@
   ],
   "recipes": [
     {
-      "level": 100,
-      "coins": 10,
-      "xp": 10,
-      "combat_xp": 35,
-      "name": "§cExecutive Sebastian",
+      "level": 62,
+      "coins": 20,
+      "combat_xp": 93,
+      "xp": 68,
+      "name": "§5Executive Sebastian",
       "render": "@neurepo:mobs/executive_sebastian.json",
       "panorama": "crystal_hollows",
       "type": "drops",
       "drops": [
         {
-          "id": "ROUGH_RUBY_GEM:1",
+          "id": "ROUGH_RUBY_GEM",
           "extra": [
             "§eDrop Count: §7x8-15"
           ],
           "chance": "100%"
         },
         {
-          "id": "ROUGH_JADE_GEM:1",
+          "id": "ROUGH_JADE_GEM",
           "extra": [
             "§eDrop Count: §7x8-15"
           ],
           "chance": "100%"
         },
         {
-          "id": "TREASURITE:1",
+          "id": "TREASURITE",
           "chance": "1%"
         }
       ]

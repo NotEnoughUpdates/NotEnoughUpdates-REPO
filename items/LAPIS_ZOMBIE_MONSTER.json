@@ -1,16 +1,14 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Lapis Zombie (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"LAPIS_ZOMBIE_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7These zombies adapted to their\",1:\"§7environment, using the lapis\",2:\"§7around them as a defense\",3:\"§7mechanism.\",4:\"\",5:\"§7Mob Type: §2 Undead\",6:\"§c❤ Health§8: §c200\"],Name:\"§9Lapis Zombie (Monster)\"}}",
+  "displayname": "§bLapis Zombie §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"LAPIS_ZOMBIE_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Mob Type: §2 Undead\",1:\"\",2:\"§7These zombies adapted to their\",3:\"§7environment, using the lapis around\",4:\"§7them as a defense mechanism.\"],Name:\"§bLapis Zombie §7(§cMonster§7)\"}}",
   "damage": 2,
   "lore": [
-    "§7These zombies adapted to their",
-    "§7environment, using the lapis",
-    "§7around them as a defense",
-    "§7mechanism.",
-    "",
     "§7Mob Type: §2 Undead",
-    "§c❤ Health§8: §c200"
+    "",
+    "§7These zombies adapted to their",
+    "§7environment, using the lapis around",
+    "§7them as a defense mechanism."
   ],
   "internalname": "LAPIS_ZOMBIE_MONSTER",
   "clickcommand": "viewrecipe",
@@ -22,11 +20,10 @@
   ],
   "recipes": [
     {
-      "level": 17,
-      "coins": 5,
-      "xp": 10,
-      "combat_xp": 12,
-      "name": "§cLapis Zombie",
+      "level": 6,
+      "coins": 2,
+      "combat_xp": 9,
+      "name": "§bLapis Zombie",
       "render": "@neurepo:mobs/lapis_zombie.json",
       "panorama": "mining_2",
       "type": "drops",
@@ -60,7 +57,7 @@
           "chance": "0.01%"
         },
         {
-          "id": "ATTRIBUTE_SHARD_EXPERIENCE;1:1",
+          "id": "ATTRIBUTE_SHARD_EXPERIENCE;1",
           "extra": [
             "§7 §7- §7Catch with §cPocket Black Hole§7.",
             "§7 §7- §7Kill Lapis Zombie §7while using §cSalts§7."

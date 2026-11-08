@@ -1,12 +1,15 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§aMatcho (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"MATCHO_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"61db73be-677f-554a-9450-e306a7ff0449\",Properties:{textures:[0:{Name:\"textures\",Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWYyZGFhYmI3OGExZjdhYTEyZDE0NWQ4OGMwY2E0NmI5ZTg1NmY1NTM0ZTkyODZlNTU1ZmFmMGMyOTFmNGZkNSJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Has quite a explosive temper\",1:\"\",2:\"§c❤ Health§8: §c2,000,000\"],Name:\"§aMatcho (Monster)\"}}",
+  "displayname": "§cMatcho §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"MATCHO_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"61db73be-677f-554a-9450-e306a7ff0449\",Properties:{textures:[0:{Name:\"textures\",Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWYyZGFhYmI3OGExZjdhYTEyZDE0NWQ4OGMwY2E0NmI5ZTg1NmY1NTM0ZTkyODZlNTU1ZmFmMGMyOTFmNGZkNSJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §e Humanoid§7, §4 Infernal\",1:\"\",2:\"§7Has quite a explosive temper\",3:\"\",4:\"§7Found within the §cCrimson Isle §7after the\",5:\"§6Blazing Volcano §7erupts.\"],Name:\"§cMatcho §7(§cMonster§7)\"}}",
   "damage": 3,
   "lore": [
+    "§7Mob Types: §e Humanoid§7, §4 Infernal",
+    "",
     "§7Has quite a explosive temper",
     "",
-    "§c❤ Health§8: §c2,000,000"
+    "§7Found within the §cCrimson Isle §7after the",
+    "§6Blazing Volcano §7erupts."
   ],
   "internalname": "MATCHO_MONSTER",
   "clickcommand": "viewrecipe",
@@ -18,18 +21,17 @@
   ],
   "recipes": [
     {
-      "level": 100,
-      "coins": 300,
-      "xp": 100,
-      "combat_xp": 100,
-      "name": "§fMatcho",
+      "level": 203,
+      "coins": 67,
+      "combat_xp": 304,
+      "xp": 223,
+      "name": "§cMatcho",
       "render": "@neurepo:mobs/matcho.json",
-      "type": "drops",
       "panorama": "crimson_isle",
-      "extra": [],
+      "type": "drops",
       "drops": [
         {
-          "id": "SULPHUR_ORE:1",
+          "id": "SULPHUR_ORE",
           "chance": "50%"
         },
         {
@@ -44,7 +46,7 @@
           "chance": "0.00004%"
         },
         {
-          "id": "ATTRIBUTE_SHARD_IGNITION;1:1",
+          "id": "ATTRIBUTE_SHARD_IGNITION;1",
           "extra": [
             "§7 §7- §7Catch with §cPocket Black Hole§7.",
             "§7 §7- §7Kill Matcho while using §cSalts§7.",

@@ -1,17 +1,16 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§5Bal (Boss)",
-  "nbttag": "{ExtraAttributes:{id:\"BAL_BOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"35f02923-7bec-3869-9ef5-b42a4794cac8\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzg5NTdkNTAyM2M5MzdjNGM0MWFhMjQxMmQ0MzQxMGJkYTIzY2Y3OWE5ZjZhYjM2Yjc2ZmVmMmQ3YzQyOSJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7The Bal is a Boss located within Khazad-dûm\",1:\"§7in the Crystal Hollows. It guards the §eTopaz Crystal.\",2:\"§7It takes §c1 health §7of damage per hit,\",3:\"§7regardless of which weapon is used. At various points\",4:\"§7in the fight Bal will summon Fire Bats and Blazes.\",5:\"\",6:\"§7Mob Types: §a Cubic§7, §4 Infernal§7, §e Shielded\",7:\"§c❤ Health§8: §c200\"],Name:\"§5Bal (Boss)\"}}",
+  "displayname": "§c§lBal §r§7(§c§lBOSS§r§7)",
+  "nbttag": "{ExtraAttributes:{id:\"BAL_BOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"35f02923-7bec-3869-9ef5-b42a4794cac8\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzg5NTdkNTAyM2M5MzdjNGM0MWFhMjQxMmQ0MzQxMGJkYTIzY2Y3OWE5ZjZhYjM2Yjc2ZmVmMmQ3YzQyOSJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §a Cubic§7, §4 Infernal§7, §e Shielded\",1:\"\",2:\"§7Scourge of Khazad-dûm.\",3:\"\",4:\"§c§lBal §r§7can be found within §cKhazad-dûm §7of the\",5:\"§5Crystal Hollows§7. §c§lBal §r§7will summon §cFire Bats §7and\",6:\"§5Bald Blazes §7during the fight for the §eTopaz Crystal§7.\"],Name:\"§c§lBal §r§7(§c§lBOSS§r§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7The Bal is a Boss located within Khazad-dûm",
-    "§7in the Crystal Hollows. It guards the §eTopaz Crystal.",
-    "§7It takes §c1 health §7of damage per hit,",
-    "§7regardless of which weapon is used. At various points",
-    "§7in the fight Bal will summon Fire Bats and Blazes.",
-    "",
     "§7Mob Types: §a Cubic§7, §4 Infernal§7, §e Shielded",
-    "§c❤ Health§8: §c200"
+    "",
+    "§7Scourge of Khazad-dûm.",
+    "",
+    "§c§lBal §r§7can be found within §cKhazad-dûm §7of the",
+    "§5Crystal Hollows§7. §c§lBal §r§7will summon §cFire Bats §7and",
+    "§5Bald Blazes §7during the fight for the §eTopaz Crystal§7."
   ],
   "internalname": "BAL_BOSS",
   "clickcommand": "viewrecipe",
@@ -23,22 +22,25 @@
   ],
   "recipes": [
     {
-      "level": 100,
-      "name": "§cBal",
+      "level": 263,
+      "coins": 657,
+      "combat_xp": 1972,
+      "xp": 789,
+      "name": "§c§lBal",
       "panorama": "crystal_hollows",
       "render": "MagmaCube",
       "type": "drops",
       "drops": [
         {
-          "id": "FLAWED_RUBY_GEM:1",
+          "id": "FLAWED_RUBY_GEM",
           "chance": "5% per Hit"
         },
         {
-          "id": "FLAWED_TOPAZ_GEM:1",
+          "id": "FLAWED_TOPAZ_GEM",
           "chance": "5% per Hit"
         },
         {
-          "id": "YOGGIE:1",
+          "id": "YOGGIE",
           "chance": "4.5% per Hit"
         },
         {
@@ -50,9 +52,9 @@
           "chance": "0.0054% per Hit"
         },
         {
-          "id": "ATTRIBUTE_SHARD_DEEP_TECHNIQUE;1:1",
+          "id": "ATTRIBUTE_SHARD_DEEP_TECHNIQUE;1",
           "extra": [
-            "§7 §7- §7Kill §c§lBal §7while using §cSalts§7."
+            " §7- Charm §c§lBal§r§7."
           ],
           "chance": "100%"
         }

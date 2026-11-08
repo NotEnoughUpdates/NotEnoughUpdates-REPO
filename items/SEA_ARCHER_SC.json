@@ -1,19 +1,16 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§3Sea Archer (Sea Creature)",
-  "nbttag": "{ExtraAttributes:{id:\"SEA_ARCHER_SC\"},HideFlags:254,ItemModel:\"minecraft:skeleton_skull\",display:{Lore:[0:\"§7The Sea Archer is an Uncommon sea creature that\",1:\"§7spawns while fishing after unlocking Fishing level IX.\",2:\"§7He looks like a normal Skeleton, and carries an\",3:\"§7enchanted Bow. He also wears an Enchanted Armor,\",4:\"§7probably a dyed Leather Armor.\",5:\"\",6:\"§7Mob Types: §9 Aquatic§7, §f Skeletal\",7:\"§c❤ Health§8: §c7,000\",8:\"\",9:\"§a§lUNCOMMON\"],Name:\"§3Sea Archer (Sea Creature)\"}}",
+  "displayname": "§3Sea Archer §7(§3Sea Creature§7)",
+  "nbttag": "{ExtraAttributes:{id:\"SEA_ARCHER_SC\"},HideFlags:254,ItemModel:\"minecraft:skeleton_skull\",display:{Lore:[0:\"§7Mob Types: §9 Aquatic§7, §f Skeletal\",1:\"\",2:\"§7Though a gifted archer, has a love\",3:\"§7for fistfights.\",4:\"\",5:\"§7Fished up from §bWater in §aNon-Specialized §7islands.\",6:\"§a§lUNCOMMON SEA CREATURE\"],Name:\"§3Sea Archer §7(§3Sea Creature§7)\"}}",
   "damage": 0,
   "lore": [
-    "§7The Sea Archer is an Uncommon sea creature that",
-    "§7spawns while fishing after unlocking Fishing level IX.",
-    "§7He looks like a normal Skeleton, and carries an",
-    "§7enchanted Bow. He also wears an Enchanted Armor,",
-    "§7probably a dyed Leather Armor.",
-    "",
     "§7Mob Types: §9 Aquatic§7, §f Skeletal",
-    "§c❤ Health§8: §c7,000",
     "",
-    "§a§lUNCOMMON"
+    "§7Though a gifted archer, has a love",
+    "§7for fistfights.",
+    "",
+    "§7Fished up from §bWater in §aNon-Specialized §7islands.",
+    "§a§lUNCOMMON SEA CREATURE"
   ],
   "internalname": "SEA_ARCHER_SC",
   "clickcommand": "viewrecipe",
@@ -25,10 +22,11 @@
   ],
   "recipes": [
     {
-      "name": "§cSea Archer",
-      "level": 15,
-      "coins": 10,
-      "xp": 20,
+      "level": 36,
+      "coins": 36,
+      "fishing_xp": 360,
+      "xp": 43,
+      "name": "§3Sea Archer",
       "render": "@neurepo:mobs/sea_archer.json",
       "panorama": "hub",
       "type": "drops",
@@ -39,19 +37,16 @@
       ],
       "drops": [
         {
-          "id": "WATER_LILY",
-          "chance": "100%"
+          "id": "RAW_FISH:2"
         },
         {
-          "id": "RAW_FISH:2",
-          "chance": "100%"
-        },
-        {
-          "id": "BONE:1",
-          "chance": "100%",
+          "id": "BONE",
           "extra": [
             "§eDrop Count: §7x8-13"
           ]
+        },
+        {
+          "id": "WATER_LILY"
         },
         {
           "id": "ENCHANTED_BONE",
@@ -63,7 +58,6 @@
         },
         {
           "id": "DYE_AQUAMARINE",
-          "extra": [],
           "chance": "0.00002%"
         }
       ]

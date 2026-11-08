@@ -1,17 +1,12 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Sneaky Creeper (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"SNEAKY_CREEPER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:creeper_head\",display:{Lore:[0:\"§7Sneaky Creepers are a type of Creeper that\",1:\"§7spawns exclusively in the Gunpowder Mines.\",2:\"§7They have the appearance of a normal creeper -\",3:\"§7however, they are invisible until they approach\",4:\"§7the player.\",5:\"\",6:\"§7Mob Type: §a Cubic\",7:\"§c❤ Health§8: §c120\"],Name:\"§9Sneaky Creeper (Monster)\"}}",
+  "displayname": "§bSneaky Creeper §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"SNEAKY_CREEPER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:creeper_head\",display:{Lore:[0:\"§7Mob Type: §a Cubic\",1:\"\",2:\"§7They be creepin'.\"],Name:\"§bSneaky Creeper §7(§cMonster§7)\"}}",
   "damage": 4,
   "lore": [
-    "§7Sneaky Creepers are a type of Creeper that",
-    "§7spawns exclusively in the Gunpowder Mines.",
-    "§7They have the appearance of a normal creeper -",
-    "§7however, they are invisible until they approach",
-    "§7the player.",
-    "",
     "§7Mob Type: §a Cubic",
-    "§c❤ Health§8: §c120"
+    "",
+    "§7They be creepin'."
   ],
   "internalname": "SNEAKY_CREEPER_MONSTER",
   "clickcommand": "viewrecipe",
@@ -23,10 +18,10 @@
   ],
   "recipes": [
     {
-      "level": 3,
-      "coins": 3,
-      "xp": 3,
-      "name": "§cSneaky Creeper",
+      "level": 5,
+      "coins": 1,
+      "xp": 7,
+      "name": "§bSneaky Creeper",
       "panorama": "mining_2",
       "render": "Creeper",
       "type": "drops",
@@ -36,7 +31,7 @@
           "chance": "100%"
         },
         {
-          "id": "ENCHANTED_GUNPOWDER:1",
+          "id": "ENCHANTED_GUNPOWDER",
           "chance": "0.5%"
         },
         {

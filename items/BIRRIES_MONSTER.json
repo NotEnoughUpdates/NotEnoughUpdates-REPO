@@ -1,11 +1,16 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§aBirries (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"BIRRIES_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"01b77ad6-2139-3bec-81b7-7ad621397bec\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1ODE3MzI0NDIxNywKICAicHJvZmlsZUlkIiA6ICIwYWMwY2IxMTI1MWE0ZjAwOTJjNjIyNzM2NjczMDNmNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDbG91Y2wiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTg3MDM1ZjUzNTIzMzRjMmNiYTZhYzRjNjVjMmI5MDU5NzM5ZDZkMGU4MzljMWRkOThkNzVkMmU3Nzk1Nzg0NyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§c❤ Health§8: §c1\",1:\"§c❁ Damage§8: §c60\"],Name:\"§aBirries (Monster)\"}}",
+  "displayname": "§2Birries §7(§eCreature§7)",
+  "nbttag": "{ExtraAttributes:{id:\"BIRRIES_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"01b77ad6-2139-3bec-81b7-7ad621397bec\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1ODE3MzI0NDIxNywKICAicHJvZmlsZUlkIiA6ICIwYWMwY2IxMTI1MWE0ZjAwOTJjNjIyNzM2NjczMDNmNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDbG91Y2wiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTg3MDM1ZjUzNTIzMzRjMmNiYTZhYzRjNjVjMmI5MDU5NzM5ZDZkMGU4MzljMWRkOThkNzVkMmU3Nzk1Nzg0NyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §a Critter\",1:\"\",2:\"§7Capable of eating its entire body\",3:\"§7weight in berries.\",4:\"\",5:\"§7Hunted on the §Moonglade Marsh §7by\",6:\"§7collecting §aBerries §7or §aSea Lumies§7.\"],Name:\"§2Birries §7(§eCreature§7)\"}}",
   "damage": 3,
   "lore": [
-    "§c❤ Health§8: §c1",
-    "§c❁ Damage§8: §c60"
+    "§7Mob Types: §a Critter",
+    "",
+    "§7Capable of eating its entire body",
+    "§7weight in berries.",
+    "",
+    "§7Hunted on the §Moonglade Marsh §7by",
+    "§7collecting §aBerries §7or §aSea Lumies§7."
   ],
   "internalname": "BIRRIES_MONSTER",
   "clickcommand": "viewrecipe",
@@ -17,14 +22,17 @@
   ],
   "recipes": [
     {
-      "level": 5,
-      "name": "§cBirries",
+      "level": 1,
+      "coins": 1,
+      "hunting_xp": 75,
+      "xp": 1,
+      "name": "§2Birries",
       "render": "Tadpole",
       "panorama": "foraging_2",
       "type": "drops",
       "drops": [
         {
-          "id": "ATTRIBUTE_SHARD_YUMMY;1:1",
+          "id": "ATTRIBUTE_SHARD_YUMMY;1",
           "extra": [
             "§7 §7- §7Place §cTraps §7in §2Galatea§7. §7(§bOn Land§7).",
             "§7 §7- §7Catch with a §bFishing Net§7.",

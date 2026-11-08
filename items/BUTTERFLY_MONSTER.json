@@ -1,15 +1,13 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§aButterfly (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"BUTTERFLY_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"aed56745-0562-307d-aed5-67450562907d\",Properties:{textures:[0:{Name:\"textures\",Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWZkODA2ZGVmZGZkZjU5YjFmMjYwOWM4ZWUzNjQ2NjZkZTY2MTI3YTYyMzQxNWI1NDMwYzkzNThjNjAxZWY3YyJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Beautiful critters that\",1:\"§7around harmlessly in Fairy\",2:\"§7regions\",3:\"\",4:\"§7Mob Types: §5 Arcane§7,  Airborne, §6 Subterranean\",5:\"§c❤ Health§8: §c100\"],Name:\"§aButterfly (Monster)\"}}",
+  "displayname": "§eButterfly §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"BUTTERFLY_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"aed56745-0562-307d-aed5-67450562907d\",Properties:{textures:[0:{Name:\"textures\",Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWZkODA2ZGVmZGZkZjU5YjFmMjYwOWM4ZWUzNjQ2NjZkZTY2MTI3YTYyMzQxNWI1NDMwYzkzNThjNjAxZWY3YyJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §5 Arcane§7,  Airborne, §6 Subterranean\",1:\"\",2:\"§7Beautiful critters that roam around\",3:\"§7harmlessly in Fairy regions.\"],Name:\"§eButterfly §7(§cMonster§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7Beautiful critters that",
-    "§7around harmlessly in Fairy",
-    "§7regions",
-    "",
     "§7Mob Types: §5 Arcane§7,  Airborne, §6 Subterranean",
-    "§c❤ Health§8: §c100"
+    "",
+    "§7Beautiful critters that roam around",
+    "§7harmlessly in Fairy regions."
   ],
   "internalname": "BUTTERFLY_MONSTER",
   "clickcommand": "viewrecipe",
@@ -21,17 +19,17 @@
   ],
   "recipes": [
     {
-      "level": 100,
-      "coins": 10,
-      "xp": 10,
-      "combat_xp": 50,
-      "name": "§c§eButterfly",
+      "level": 6,
+      "coins": 2,
+      "combat_xp": 9,
+      "xp": 6,
+      "name": "§eButterfly",
       "panorama": "crystal_hollows",
       "render": "@neurepo:mobs/butterfly.json",
       "type": "drops",
       "drops": [
         {
-          "id": "ROUGH_JASPER_GEM:1",
+          "id": "ROUGH_JASPER_GEM",
           "chance": "100%",
           "extra": [
             "§eDrop Count: §7x10-22"

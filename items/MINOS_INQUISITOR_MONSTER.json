@@ -1,24 +1,14 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§cMinos Inquisitor (Mythological Creature)",
-  "nbttag": "{ExtraAttributes:{id:\"MINOS_INQUISITOR_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"1388719b-179b-3088-9388-719b179be088\",Properties:{textures:[0:{Name:\"textures\",Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UxYTYwMWIxYWQ2NDA5MDQ5YTVmZGY0ODA0N2NmYTUyYTFhNzc5N2E4YWM1ZWU5M2ZiMGEyYjFiYjNiY2QzMiJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7The Minos Inquisitor is the rarest mob in the\",1:\"§7Mythological Ritual, and can only be found\",2:\"§7using a legendary Griffin Pet. It reduces\",3:\"§7your stats by 10% every time you hit it,\",4:\"§7maxing out at a 40% reduction. Similar to the\",5:\"§7Minos Champion, its stats increase by 6% for every\",6:\"§7second it is alive, capping at 600%, which is\",7:\"§7when it despawns. While alive, it summons\",8:\"§7lightning on the block you are standing on.\",9:\"\",10:\"§7Mob Types: §2✿ Mythological§7, §e Humanoid§7, §d♣ Elusive\",11:\"§c❤ Health§8:\",12:\"§8[§6Griffin§8] §c40,000,000 ❤\",13:\"\",14:\"§6§lLEGENDARY\"],Name:\"§cMinos Inquisitor (Mythological Creature)\"}}",
+  "displayname": "§2Minos Inquisitor §7(§dEvent Monster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"MINOS_INQUISITOR_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"1388719b-179b-3088-9388-719b179be088\",Properties:{textures:[0:{Name:\"textures\",Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UxYTYwMWIxYWQ2NDA5MDQ5YTVmZGY0ODA0N2NmYTUyYTFhNzc5N2E4YWM1ZWU5M2ZiMGEyYjFiYjNiY2QzMiJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §2 Mythological§7, §e Humanoid§7, §d Elusive\",1:\"\",2:\"§7The ultimate guardian of Minos' Literature.\",3:\"\",4:\"§7Dug up from §eGriffin Burrows §7in the §aHub§7.\"],Name:\"§2Minos Inquisitor §7(§dEvent Monster§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7The Minos Inquisitor is the rarest mob in the",
-    "§7Mythological Ritual, and can only be found",
-    "§7using a legendary Griffin Pet. It reduces",
-    "§7your stats by 10% every time you hit it,",
-    "§7maxing out at a 40% reduction. Similar to the",
-    "§7Minos Champion, its stats increase by 6% for every",
-    "§7second it is alive, capping at 600%, which is",
-    "§7when it despawns. While alive, it summons",
-    "§7lightning on the block you are standing on.",
+    "§7Mob Types: §2 Mythological§7, §e Humanoid§7, §d Elusive",
     "",
-    "§7Mob Types: §2✿ Mythological§7, §e Humanoid§7, §d♣ Elusive",
-    "§c❤ Health§8:",
-    "§8[§6Griffin§8] §c40,000,000 ❤",
+    "§7The ultimate guardian of Minos' Literature.",
     "",
-    "§6§lLEGENDARY"
+    "§7Dug up from §eGriffin Burrows §7in the §aHub§7."
   ],
   "internalname": "MINOS_INQUISITOR_MONSTER",
   "clickcommand": "viewrecipe",
@@ -30,47 +20,64 @@
   ],
   "recipes": [
     {
-      "level": 750,
-      "coins": 35000,
-      "xp": 100,
-      "combat_xp": 500,
-      "name": "§cMinos Inquisitor",
+      "level": 264,
+      "coins": 88,
+      "combat_xp": 396,
+      "xp": 290,
+      "name": "§2Exalted Minos Inquisitor",
       "render": "@neurepo:mobs/minos_inquisitor.json",
       "panorama": "hub",
-      "extra": [
-        "§cRequirements:",
-        "§7- §6Griffin",
-        "§7Chance: 1.23%"
-      ],
       "type": "drops",
       "drops": [
         {
-          "id": "ANCIENT_CLAW:48",
-          "chance": "100%"
+          "id": "ANCIENT_CLAW:16"
         },
         {
-          "id": "ENCHANTED_GOLD:8",
-          "chance": "100%"
+          "id": "ENCHANTED_GOLD:16",
+          "chance": "50%"
         },
         {
           "id": "ENCHANTED_ANCIENT_CLAW",
           "chance": "50%"
         },
         {
-          "id": "DWARF_TURTLE_SHELMET",
+          "id": "ULTIMATE_CHIMERA;1",
           "chance": "1%"
         },
         {
-          "id": "ANTIQUE_REMEDIES",
-          "chance": "1%"
+          "id": "DYE_MYTHOLOGICAL",
+          "chance": "0.002%"
+        }
+      ]
+    },
+    {
+      "level": 290,
+      "coins": 96,
+      "combat_xp": 435,
+      "xp": 319,
+      "name": "§2Empyrean Minos Inquisitor",
+      "render": "@neurepo:mobs/minos_inquisitor.json",
+      "panorama": "hub",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ANCIENT_CLAW:32"
         },
         {
-          "id": "CROCHET_TIGER_PLUSHIE",
-          "chance": "1%"
+          "id": "ENCHANTED_GOLD:32",
+          "chance": "50%"
+        },
+        {
+          "id": "ENCHANTED_ANCIENT_CLAW:2",
+          "chance": "50%"
         },
         {
           "id": "ULTIMATE_CHIMERA;1",
-          "chance": "1%"
+          "chance": "1.25%"
+        },
+        {
+          "id": "DYE_MYTHOLOGICAL",
+          "chance": "0.002%"
         }
       ]
     }

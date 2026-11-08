@@ -1,12 +1,15 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§3Frosty (Sea Creature)",
-  "nbttag": "{ExtraAttributes:{id:\"FROSTY_SC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"6dbe7d9f-0c7c-4301-b0f4-649b26660917\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTExMzY2MTZkOGM0YTg3YTU0Y2U3OGE5N2I1NTE2MTBjMmIyYzhmNmQ0MTBiYzM4Yjg1OGY5NzRiMTEzYjIwOCJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§c❤ Health§8: §c10\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§3Frosty (Sea Creature)\"}}",
+  "displayname": "§fFrosty §7(§3Sea Creature§7)",
+  "nbttag": "{ExtraAttributes:{id:\"FROSTY_SC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"6dbe7d9f-0c7c-4301-b0f4-649b26660917\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTExMzY2MTZkOGM0YTg3YTU0Y2U3OGE5N2I1NTE2MTBjMmIyYzhmNmQ0MTBiYzM4Yjg1OGY5NzRiMTEzYjIwOCJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §9 Aquatic§7, §f Frozen§7,  Construct\",1:\"\",2:\"§7§oWas §r§7a jolly happy soul.\",3:\"\",4:\"§7Fished up in §cJerry's Workshop§7.\",5:\"§a§lUNCOMMON SEA CREATURE\"],Name:\"§fFrosty §7(§3Sea Creature§7)\"}}",
   "damage": 3,
   "lore": [
-    "§c❤ Health§8: §c10",
+    "§7Mob Types: §9 Aquatic§7, §f Frozen§7,  Construct",
     "",
-    "§a§lUNCOMMON"
+    "§7§oWas §r§7a jolly happy soul.",
+    "",
+    "§7Fished up in §cJerry's Workshop§7.",
+    "§a§lUNCOMMON SEA CREATURE"
   ],
   "internalname": "FROSTY_SC",
   "clickcommand": "viewrecipe",
@@ -18,10 +21,11 @@
   ],
   "recipes": [
     {
-      "name": "§cFrosty",
-      "level": 13,
-      "coins": 12,
-      "xp": 30,
+      "level": 3,
+      "coins": 3,
+      "fishing_xp": 30,
+      "xp": 3,
+      "name": "§fFrosty",
       "render": "Snowman",
       "panorama": "winter",
       "type": "drops",
@@ -33,59 +37,57 @@
       ],
       "drops": [
         {
-          "id": "ESSENCE_ICE:1",
+          "id": "ESSENCE_ICE",
           "extra": [
             "§eDrop Count: §7x2-4"
-          ],
-          "chance": "100%"
+          ]
         },
         {
-          "id": "ICE:1",
+          "id": "ICE",
           "extra": [
             "§eDrop Count: §7x16-32"
-          ],
-          "chance": "100%"
+          ]
         },
         {
-          "id": "SNOW_BLOCK:1",
+          "id": "SNOW_BLOCK",
           "extra": [
             "§eDrop Count: §7x16-32"
-          ],
-          "chance": "100%"
+          ]
         },
         {
-          "id": "ICE_HUNK:1",
-          "chance": "100%"
+          "id": "ICE_HUNK"
         },
         {
-          "id": "WHITE_GIFT:1",
+          "id": "WHITE_GIFT",
           "extra": [
             "§eDrop Count: §7x0-1"
-          ],
-          "chance": "100%"
+          ]
         },
         {
-          "id": "GREEN_GIFT:1",
+          "id": "GREEN_GIFT",
           "extra": [
             "§eDrop Count: §7x0-1"
-          ],
-          "chance": "100%"
+          ]
         },
         {
-          "id": "ENCHANTED_SNOW_BLOCK:1",
+          "id": "ENCHANTED_SNOW_BLOCK",
           "chance": "4%"
         },
         {
-          "id": "RED_GIFT:1",
+          "id": "RED_GIFT",
           "chance": "2%"
         },
         {
-          "id": "ENCHANTED_ICE:1",
+          "id": "ENCHANTED_ICE",
           "chance": "4%"
         },
         {
           "id": "DYE_ICEBERG",
-          "chance": "0.0001%"
+          "chance": "0.00004%"
+        },
+        {
+          "id": "DYE_AQUAMARINE",
+          "chance": "0.00002%"
         }
       ]
     }

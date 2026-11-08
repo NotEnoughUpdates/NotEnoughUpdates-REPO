@@ -1,15 +1,12 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§aChicken (Animal)",
-  "nbttag": "{ExtraAttributes:{id:\"CHICKEN_ANIMAL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"32e97556-5cb3-4b69-badf-ae4004863579\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2YzN2Q1MjRjM2VlZDE3MWNlMTQ5ODg3ZWExZGVlNGVkMzk5OTA0NzI3ZDUyMTg2NTY4OGVjZTNiYWM3NWUifX19=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Chickens can be found at the Barn and drop\",1:\"§7feathers, raw chicken and experience. They\",2:\"§7are required to unlock the Raw Chicken and \",3:\"§7Feather collection. \",4:\"\",5:\"§c❤ Health§8: §c50\"],Name:\"§aChicken (Animal)\"}}",
+  "displayname": "§eChicken §7(§eCreature§7)",
+  "nbttag": "{ExtraAttributes:{id:\"CHICKEN_ANIMAL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"32e97556-5cb3-4b69-badf-ae4004863579\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2YzN2Q1MjRjM2VlZDE3MWNlMTQ5ODg3ZWExZGVlNGVkMzk5OTA0NzI3ZDUyMTg2NTY4OGVjZTNiYWM3NWUifX19=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Type: §a Animal\",1:\"\",2:\"§7Wishes it could fly.\"],Name:\"§eChicken §7(§eCreature§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7Chickens can be found at the Barn and drop",
-    "§7feathers, raw chicken and experience. They",
-    "§7are required to unlock the Raw Chicken and ",
-    "§7Feather collection. ",
+    "§7Mob Type: §a Animal",
     "",
-    "§c❤ Health§8: §c50"
+    "§7Wishes it could fly."
   ],
   "internalname": "CHICKEN_ANIMAL",
   "clickcommand": "viewrecipe",
@@ -22,23 +19,23 @@
   "recipes": [
     {
       "level": 1,
-      "xp": 1,
-      "combat_xp": 2,
-      "name": "§cChicken",
+      "coins": 1,
+      "combat_xp": 5,
+      "name": "§eChicken",
       "render": "Chicken",
       "panorama": "farming_1",
       "type": "drops",
       "drops": [
         {
-          "id": "RAW_CHICKEN:1",
+          "id": "RAW_CHICKEN",
           "chance": "100%"
         },
         {
-          "id": "FEATHER:1",
+          "id": "FEATHER",
           "chance": "100%"
         },
         {
-          "id": "EGG:1",
+          "id": "EGG",
           "chance": "30%"
         }
       ]

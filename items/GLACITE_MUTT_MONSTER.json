@@ -1,13 +1,12 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§aGlacite Mutt (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"GLACITE_MUTT_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"7e9af289-f295-3f8c-bd54-58b7667d5759\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjlkMWQzMTEzZWM0M2FjMjk2MWRkNTlmMjgxNzVmYjQ3MTg4NzNjNmM0NDhkZmNhODcyMjMxN2Q2NyJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §b Glacial§7, §a Animal\",1:\"§c❤ Health§8: §c750,000\",2:\"§c❁ Damage§8: §c6,000\",3:\"§a❈ Defense§8: §a1,000\"],Name:\"§aGlacite Mutt (Monster)\"}}",
+  "displayname": "§bGlacite Mutt §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"GLACITE_MUTT_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"7e9af289-f295-3f8c-bd54-58b7667d5759\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjlkMWQzMTEzZWM0M2FjMjk2MWRkNTlmMjgxNzVmYjQ3MTg4NzNjNmM0NDhkZmNhODcyMjMxN2Q2NyJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §n Glacial§7, §a Animal\",1:\"\",2:\"§7Remarkably loyal, even in death.\"],Name:\"§bGlacite Mutt §7(§cMonster§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7Mob Types: §b Glacial§7, §a Animal",
-    "§c❤ Health§8: §c750,000",
-    "§c❁ Damage§8: §c6,000",
-    "§a❈ Defense§8: §a1,000"
+    "§7Mob Types: §n Glacial§7, §a Animal",
+    "",
+    "§7Remarkably loyal, even in death."
   ],
   "internalname": "GLACITE_MUTT_MONSTER",
   "clickcommand": "",
@@ -20,10 +19,9 @@
   "island": "mineshaft",
   "recipes": [
     {
-      "level": 180,
-      "coins": 95,
-      "xp": 75,
-      "combat_xp": 60,
+      "level": 173,
+      "coins": 57,
+      "combat_xp": 259,
       "name": "§bGlacite Mutt",
       "render": "Wolf",
       "panorama": "mineshaft",
@@ -31,42 +29,34 @@
       "drops": [
         {
           "id": "SKYBLOCK_POWDER_GLACITE:50",
-          "extra": [],
           "chance": "100%"
         },
         {
-          "id": "GLACITE:1",
-          "extra": [],
+          "id": "ENCHANTED_GLACITE",
           "chance": "100%"
         },
         {
-          "id": "FINE_CITRINE_GEM:1",
-          "extra": [],
+          "id": "FINE_CITRINE_GEM",
           "chance": "5%"
         },
         {
-          "id": "FINE_AQUAMARINE_GEM:1",
-          "extra": [],
+          "id": "FINE_AQUAMARINE_GEM",
           "chance": "5%"
         },
         {
-          "id": "FINE_ONYX_GEM:1",
-          "extra": [],
+          "id": "FINE_ONYX_GEM",
           "chance": "5%"
         },
         {
-          "id": "FINE_PERIDOT_GEM:1",
-          "extra": [],
+          "id": "FINE_PERIDOT_GEM",
           "chance": "5%"
         },
         {
-          "id": "GLACITE_JEWEL:1",
-          "extra": [],
+          "id": "GLACITE_JEWEL",
           "chance": "4%"
         },
         {
-          "id": "GLACITE_SHARD:1",
-          "extra": [],
+          "id": "GLACITE_SHARD",
           "chance": "0.1%"
         }
       ]

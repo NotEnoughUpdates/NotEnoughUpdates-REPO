@@ -1,15 +1,16 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§aFlint Skeleton (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"GRAVEL_SKELETON_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:skeleton_skull\",display:{Lore:[0:\"§7These Skeletons just never say\",1:\"§7die.\",2:\"\",3:\"§7Mob Type: §f Skeletal\",4:\"§c❤ Health§8: §c100\",5:\"§c❁ Damage§8: §c35\"],Name:\"§aFlint Skeleton (Monster)\"}}",
+  "displayname": "§cFlint Skeleton §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"GRAVEL_SKELETON_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:skeleton_skull\",display:{Lore:[0:\"§7Mob Type: §f Skeletal\",1:\"\",2:\"§7These Skeletons just never stay\",3:\"§7dead.\",4:\"\",5:\"§7Found around the corpse of §5Chozon§7.  These\",6:\"§7skeletons respawn faster from the bones they drop.\"],Name:\"§cFlint Skeleton §7(§cMonster§7)\"}}",
   "damage": 0,
   "lore": [
-    "§7These Skeletons just never say",
-    "§7die.",
-    "",
     "§7Mob Type: §f Skeletal",
-    "§c❤ Health§8: §c100",
-    "§c❁ Damage§8: §c35"
+    "",
+    "§7These Skeletons just never stay",
+    "§7dead.",
+    "",
+    "§7Found around the corpse of §5Chozon§7.  These",
+    "§7skeletons respawn faster from the bones they drop."
   ],
   "internalname": "GRAVEL_SKELETON_MONSTER",
   "clickcommand": "viewrecipe",
@@ -21,9 +22,9 @@
   ],
   "recipes": [
     {
-      "level": 2,
+      "level": 3,
       "coins": 1,
-      "xp": 1,
+      "combat_xp": 5,
       "name": "§cFlint Skeleton",
       "panorama": "combat_1",
       "render": "Skeleton",
@@ -45,15 +46,15 @@
         },
         {
           "id": "ENCHANTED_BONE",
-          "chance": "1%"
-        },
-        {
-          "id": "ENCHANTED_FLINT",
           "chance": "2%"
         },
         {
+          "id": "ENCHANTED_FLINT",
+          "chance": "1%"
+        },
+        {
           "id": "DYE_BONE",
-          "chance": "0.000033%"
+          "chance": "0.000066%"
         }
       ]
     }

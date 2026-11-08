@@ -1,19 +1,20 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Star Sentry (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"STAR_SENTRY_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"e5240153-76df-343b-a524-015376dfd43b\",Properties:{textures:[0:{Name:\"textures\",Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg3YjhmM2NmMWMxMDE0ODgzMjc2ZjIzMDUwMWQ1YWYxMzk3Njk5MDcxYmZhYjFlZTI5NGM4NjE3MjJjYzJmIn19fQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7The Star Sentry is a mob that spawns near\",1:\"§7fallen star in the Dwarven Mines (random event).\",2:\"§7The Star Sentry takes 1 health per hit.\",3:\"§7Fallen Star Event spawns in one of the \",4:\"§7following locations: Royal Mines, Far Reserve,\",5:\"§7Goblin Burrows, Upper Mines, Rampart's Quarry,\",6:\"§7Great Ice Wall and the Cliffside Veins.\",7:\"\",8:\"§7Mob Types: §5 Arcane§7,  Construct, §e Shielded\",9:\"§c❤ Health§8: §c10\"],Name:\"§9Star Sentry (Monster)\"}}",
+  "displayname": "§5Star Sentry §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"STAR_SENTRY_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"e5240153-76df-343b-a524-015376dfd43b\",Properties:{textures:[0:{Name:\"textures\",Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg3YjhmM2NmMWMxMDE0ODgzMjc2ZjIzMDUwMWQ1YWYxMzk3Njk5MDcxYmZhYjFlZTI5NGM4NjE3MjJjYzJmIn19fQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §5 Arcane§7,  Construct, §e Shielded\",1:\"\",2:\"§7Defenders of the Fallen Star.\",3:\"\",4:\"§5Star Sentries §7will spawn near §5Fallen Stars\",5:\"§7in the §2Dwarven Mines.\",6:\"\",7:\"§5Fallen Stars §7randomly fall in these locations:\",8:\"§2Cliffside Veins§7, §2Far Reserve7, §6Goblin Burrows§7,\",9:\"§3Great Ice Wall§7, §2Rampart's Quarry§7, §2Royal Mines§7,\",10:\"§7and the §2Upper Mines.\"],Name:\"§5Star Sentry §7(§cMonster§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7The Star Sentry is a mob that spawns near",
-    "§7fallen star in the Dwarven Mines (random event).",
-    "§7The Star Sentry takes 1 health per hit.",
-    "§7Fallen Star Event spawns in one of the ",
-    "§7following locations: Royal Mines, Far Reserve,",
-    "§7Goblin Burrows, Upper Mines, Rampart's Quarry,",
-    "§7Great Ice Wall and the Cliffside Veins.",
-    "",
     "§7Mob Types: §5 Arcane§7,  Construct, §e Shielded",
-    "§c❤ Health§8: §c10"
+    "",
+    "§7Defenders of the Fallen Star.",
+    "",
+    "§5Star Sentries §7will spawn near §5Fallen Stars",
+    "§7in the §2Dwarven Mines.",
+    "",
+    "§5Fallen Stars §7randomly fall in these locations:",
+    "§2Cliffside Veins§7, §2Far Reserve7, §6Goblin Burrows§7,",
+    "§3Great Ice Wall§7, §2Rampart's Quarry§7, §2Royal Mines§7,",
+    "§7and the §2Upper Mines."
   ],
   "internalname": "STAR_SENTRY_MONSTER",
   "clickcommand": "viewrecipe",
@@ -25,12 +26,13 @@
   ],
   "recipes": [
     {
-      "name": "§cStar Sentry",
-      "coins": 100,
-      "xp": 50,
+      "level": 135,
+      "coins": 45,
+      "combat_xp": 202,
+      "xp": 148,
+      "name": "§5Star Sentry",
       "panorama": "mining_3",
       "render": "@neurepo:mobs/star_sentry.json",
-      "level": 50,
       "type": "drops",
       "drops": [
         {
@@ -42,7 +44,7 @@
           "chance": "20% per hit"
         },
         {
-          "id": "ATTRIBUTE_SHARD_ATOMIZED_MITHRIL;1:1",
+          "id": "ATTRIBUTE_SHARD_ATOMIZED_MITHRIL;1",
           "extra": [
             "§7 §7- §7Catch with §cPocket Black Hole§7.",
             "§7 §7- §7Kill §5Star Sentry §7while using §cSalts§7."

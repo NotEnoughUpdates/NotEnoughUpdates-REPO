@@ -1,14 +1,15 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Splitter Spider (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"SPLITTER_SPIDER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"50010472-fa22-3519-b941-2d6d22f47bf1\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmFjZjY5ZmM3YWY1NDk3YTE3NDE4OTFkMWU1YmYzMmI5NmFlMGQ2YzBiYmQzYzE0NzU4ZWE0NGEwM2M1NzI4MyJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7The Splitter Spider is a spider that splits into two\",1:\"§7silverfish upon death. They spawn in the Spider's\",2:\"§7Den (Northwest of the Graveyard). \",3:\"\",4:\"§c❤ Health§8: §c160\"],Name:\"§9Splitter Spider (Monster)\"}}",
+  "displayname": "§cSplitter Spider §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"SPLITTER_SPIDER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"50010472-fa22-3519-b941-2d6d22f47bf1\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmFjZjY5ZmM3YWY1NDk3YTE3NDE4OTFkMWU1YmYzMmI5NmFlMGQ2YzBiYmQzYzE0NzU4ZWE0NGEwM2M1NzI4MyJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob type: §4 Arthropod\",1:\"\",2:\"§7If you think you've killed this spider,\",3:\"§7think again.\",4:\"\",5:\"§7Found within §cSpider's Den§7.\"],Name:\"§cSplitter Spider §7(§cMonster§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7The Splitter Spider is a spider that splits into two",
-    "§7silverfish upon death. They spawn in the Spider's",
-    "§7Den (Northwest of the Graveyard). ",
+    "§7Mob type: §4 Arthropod",
     "",
-    "§c❤ Health§8: §c160"
+    "§7If you think you've killed this spider,",
+    "§7think again.",
+    "",
+    "§7Found within §cSpider's Den§7."
   ],
   "internalname": "SPLITTER_SPIDER_MONSTER",
   "clickcommand": "viewrecipe",
@@ -20,22 +21,22 @@
   ],
   "recipes": [
     {
-      "level": 3,
-      "coins": 2,
-      "xp": 3,
-      "combat_xp": 9,
+      "level": 4,
+      "coins": 1,
+      "combat_xp": 6,
+      "xp": 4,
       "name": "§cSplitter Spider",
-      "panorama": "combat_1",
       "render": "Spider",
+      "panorama": "combat_1",
       "type": "drops",
       "drops": [
         {
-          "id": "SPIDER_EYE",
-          "chance": "10%"
-        },
-        {
           "id": "STRING",
           "chance": "100%"
+        },
+        {
+          "id": "SPIDER_EYE",
+          "chance": "10%"
         },
         {
           "id": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
@@ -52,22 +53,150 @@
       ]
     },
     {
-      "level": 42,
-      "coins": 10,
-      "xp": 8,
-      "combat_xp": 28,
+      "level": 5,
+      "coins": 1,
+      "combat_xp": 7,
+      "xp": 5,
       "name": "§cSplitter Spider",
-      "panorama": "combat_1",
       "render": "Spider",
+      "panorama": "combat_1",
       "type": "drops",
       "drops": [
+        {
+          "id": "STRING",
+          "chance": "100%"
+        },
         {
           "id": "SPIDER_EYE",
           "chance": "10%"
         },
         {
+          "id": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+          "chance": "0.02%"
+        },
+        {
+          "id": "TARANTULA;3",
+          "chance": "0.002%"
+        },
+        {
+          "id": "TARANTULA;4",
+          "chance": "0.0008%"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "coins": 2,
+      "combat_xp": 10,
+      "xp": 7,
+      "name": "§cSplitter Spider",
+      "render": "Spider",
+      "panorama": "combat_1",
+      "type": "drops",
+      "drops": [
+        {
           "id": "STRING",
           "chance": "100%"
+        },
+        {
+          "id": "SPIDER_EYE",
+          "chance": "10%"
+        },
+        {
+          "id": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+          "chance": "0.02%"
+        },
+        {
+          "id": "TARANTULA;3",
+          "chance": "0.002%"
+        },
+        {
+          "id": "TARANTULA;4",
+          "chance": "0.0008%"
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "coins": 2,
+      "combat_xp": 30,
+      "xp": 8,
+      "name": "§cSplitter Spider",
+      "render": "Spider",
+      "panorama": "combat_1",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "STRING",
+          "chance": "100%"
+        },
+        {
+          "id": "SPIDER_EYE",
+          "chance": "10%"
+        },
+        {
+          "id": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+          "chance": "0.02%"
+        },
+        {
+          "id": "TARANTULA;3",
+          "chance": "0.002%"
+        },
+        {
+          "id": "TARANTULA;4",
+          "chance": "0.0008%"
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "coins": 3,
+      "combat_xp": 40,
+      "xp": 9,
+      "name": "§cSplitter Spider",
+      "render": "Spider",
+      "panorama": "combat_1",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "STRING",
+          "chance": "100%"
+        },
+        {
+          "id": "SPIDER_EYE",
+          "chance": "10%"
+        },
+        {
+          "id": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+          "chance": "0.02%"
+        },
+        {
+          "id": "TARANTULA;3",
+          "chance": "0.002%"
+        },
+        {
+          "id": "TARANTULA;4",
+          "chance": "0.0008%"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "coins": 3,
+      "combat_xp": 50,
+      "xp": 11,
+      "name": "§cSplitter Spider",
+      "render": "Spider",
+      "panorama": "combat_1",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "STRING",
+          "chance": "100%"
+        },
+        {
+          "id": "SPIDER_EYE",
+          "chance": "10%"
         },
         {
           "id": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",

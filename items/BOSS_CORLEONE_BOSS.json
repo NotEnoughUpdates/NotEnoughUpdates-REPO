@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§6Boss Corleone (Boss)",
-  "nbttag": "{ExtraAttributes:{id:\"BOSS_CORLEONE_BOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"edc502ab-c144-3389-adc5-02abc144f389\",Properties:{textures:[0:{Name:\"textures\",Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFmMGIwMzYwZjU2MjlhMzhhMDc0Y2Q5MjliNTlmMjc2OWIyZDA3NTJhNWQzNzJjNTQ2OWEzNzJhNTY3ZDkxOCJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Prepare for trouble!\",1:\"\",2:\"§7Mob Types: §e Humanoid§7, §6 Subterranean\",3:\"§c❤ Health§8: §c1,000,000\"],Name:\"§6Boss Corleone (Boss)\"},ench:[]}",
+  "displayname": "§5Boss Corleone §7(§c§lBOSS§r§7)",
+  "nbttag": "{ExtraAttributes:{id:\"BOSS_CORLEONE_BOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"edc502ab-c144-3389-adc5-02abc144f389\",Properties:{textures:[0:{Name:\"textures\",Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFmMGIwMzYwZjU2MjlhMzhhMDc0Y2Q5MjliNTlmMjc2OWIyZDA3NTJhNWQzNzJjNTQ2OWEzNzJhNTY3ZDkxOCJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §e Humanoid§7, §6 Subterranean\",1:\"\",2:\"§7The mastermind behind Team\",3:\"§7Treasurite.\"],Name:\"§5Boss Corleone §7(§c§lBOSS§r§7)\"},ench:[]}",
   "damage": 3,
   "lore": [
-    "§7Prepare for trouble!",
-    "",
     "§7Mob Types: §e Humanoid§7, §6 Subterranean",
-    "§c❤ Health§8: §c1,000,000"
+    "",
+    "§7The mastermind behind Team",
+    "§7Treasurite."
   ],
   "internalname": "BOSS_CORLEONE_BOSS",
   "clickcommand": "viewrecipe",
@@ -19,31 +19,31 @@
   ],
   "recipes": [
     {
-      "level": 200,
-      "coins": 50,
-      "xp": 50,
-      "combat_xp": 150,
-      "name": "§6Boss Corleone",
+      "level": 195,
+      "coins": 65,
+      "combat_xp": 292,
+      "xp": 214,
+      "name": "§5Boss Corleone",
       "render": "@neurepo:mobs/boss_corleone.json",
       "panorama": "crystal_hollows",
       "type": "drops",
       "drops": [
         {
-          "id": "ROUGH_RUBY_GEM:1",
+          "id": "ROUGH_RUBY_GEM",
           "extra": [
             "§eDrop Count: §7x15-27"
           ],
           "chance": "100%"
         },
         {
-          "id": "ROUGH_JADE_GEM:1",
+          "id": "ROUGH_JADE_GEM",
           "extra": [
             "§eDrop Count: §7x18-41"
           ],
           "chance": "100%"
         },
         {
-          "id": "CORLEONITE:1",
+          "id": "CORLEONITE",
           "chance": "25%"
         }
       ]
