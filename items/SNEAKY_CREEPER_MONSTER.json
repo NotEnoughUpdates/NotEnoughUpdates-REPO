@@ -1,12 +1,15 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§bSneaky Creeper §7(§cMonster§7)",
-  "nbttag": "{ExtraAttributes:{id:\"SNEAKY_CREEPER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:creeper_head\",display:{Lore:[0:\"§7Mob Type: §a Cubic\",1:\"\",2:\"§7They be creepin'.\"],Name:\"§bSneaky Creeper §7(§cMonster§7)\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SNEAKY_CREEPER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:creeper_head\",display:{Lore:[0:\"§7Mob Type: §a Cubic\",1:\"\",2:\"§7They be creepin'.\",3:\"\",4:\"§7Found in the §bGunpower Mines §7of\",5:\"§7the §eDeep Caverns§7.\"],Name:\"§bSneaky Creeper §7(§cMonster§7)\"}}",
   "damage": 4,
   "lore": [
     "§7Mob Type: §a Cubic",
     "",
-    "§7They be creepin'."
+    "§7They be creepin'.",
+    "",
+    "§7Found in the §bGunpower Mines §7of",
+    "§7the §eDeep Caverns§7."
   ],
   "internalname": "SNEAKY_CREEPER_MONSTER",
   "clickcommand": "viewrecipe",
@@ -20,7 +23,8 @@
     {
       "level": 5,
       "coins": 1,
-      "xp": 7,
+      "combat_xp": 7,
+      "xp": 5,
       "name": "§bSneaky Creeper",
       "panorama": "mining_2",
       "render": "Creeper",

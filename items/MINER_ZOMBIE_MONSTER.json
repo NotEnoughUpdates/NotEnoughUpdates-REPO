@@ -1,14 +1,17 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§bMiner Zombie §7(§cMonster§7)",
-  "nbttag": "{ExtraAttributes:{id:\"MINER_ZOMBIE_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Mob Type: §2 Undead\",1:\"\",2:\"§7Like their skeleton counterparts\",3:\"§7these zombies have bedazzled\",4:\"§7themselves throughout the years.\"],Name:\"§bMiner Zombie §7(§cMonster§7)\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"MINER_ZOMBIE_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Mob Type: §2 Undead\",1:\"\",2:\"§7Like their skeleton counterparts\",3:\"§7these zombies have bedazzled\",4:\"§7themselves throughout the years.\",5:\"\",6:\"§7Found in the §bDiamond Reserve §7and\",7:\"§bObsidian Sanctuary §7of the §eDeep Caverns§7.\"],Name:\"§bMiner Zombie §7(§cMonster§7)\"}}",
   "damage": 2,
   "lore": [
     "§7Mob Type: §2 Undead",
     "",
     "§7Like their skeleton counterparts",
     "§7these zombies have bedazzled",
-    "§7themselves throughout the years."
+    "§7themselves throughout the years.",
+    "",
+    "§7Found in the §bDiamond Reserve §7and",
+    "§bObsidian Sanctuary §7of the §eDeep Caverns§7."
   ],
   "internalname": "MINER_ZOMBIE_MONSTER",
   "clickcommand": "viewrecipe",
@@ -23,6 +26,7 @@
       "level": 13,
       "coins": 4,
       "combat_xp": 19,
+      "xp": 14,
       "name": "§bMiner Zombie",
       "render": "@neurepo:mobs/miner_zombie.json",
       "panorama": "mining_2",
@@ -66,6 +70,7 @@
       "level": 15,
       "coins": 5,
       "combat_xp": 22,
+      "xp": 16,
       "name": "§bMiner Zombie",
       "render": "@neurepo:mobs/miner_zombie_alt.json",
       "panorama": "mining_2",

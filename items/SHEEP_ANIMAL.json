@@ -1,14 +1,15 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§eSheep §7(§eCreature§7)",
-  "nbttag": "{ExtraAttributes:{id:\"SHEEP_ANIMAL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"fa234925-9dbe-4b8f-a544-7c70fb6b6ac5\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjMxZjljY2M2YjNlMzJlY2YxM2I4YTExYWMyOWNkMzNkMThjOTVmYzczZGI4YTY2YzVkNjU3Y2NiOGJlNzAifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Type: §a Animal\",1:\"\",2:\"§7Beep beep I'm a sheep.\",3:\"\",4:\"§c❤ Health§8: §c50\"],Name:\"§eSheep §7(§eCreature§7)\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"SHEEP_ANIMAL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"fa234925-9dbe-4b8f-a544-7c70fb6b6ac5\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjMxZjljY2M2YjNlMzJlY2YxM2I4YTExYWMyOWNkMzNkMThjOTVmYzczZGI4YTY2YzVkNjU3Y2NiOGJlNzAifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Type: §a Animal\",1:\"\",2:\"§7Beep beep I'm a sheep.\",3:\"\",4:\"§7Found in the §bOasis §7and the §bShepherd's\",5:\"§bKeep §7on the §eMushroom Desert§7.\"],Name:\"§eSheep §7(§eCreature§7)\"}}",
   "damage": 3,
   "lore": [
     "§7Mob Type: §a Animal",
     "",
     "§7Beep beep I'm a sheep.",
     "",
-    "§c❤ Health§8: §c50"
+    "§7Found in the §bOasis §7and the §bShepherd's",
+    "§bKeep §7on the §eMushroom Desert§7."
   ],
   "internalname": "SHEEP_ANIMAL",
   "clickcommand": "viewrecipe",
@@ -23,6 +24,7 @@
       "level": 1,
       "coins": 1,
       "combat_xp": 5,
+      "xp": 1,
       "name": "§eSheep",
       "render": "Sheep",
       "panorama": "farming_1",

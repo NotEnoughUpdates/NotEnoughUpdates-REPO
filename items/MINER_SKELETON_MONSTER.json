@@ -1,7 +1,7 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§bMiner Skeleton §7(§cMonster§7)",
-  "nbttag": "{ExtraAttributes:{id:\"MINER_SKELETON_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:skeleton_skull\",display:{Lore:[0:\"§7Mob Type: §f Skeletal\",1:\"\",2:\"§7These skeletons have crafted gear\",3:\"§7from the diamonds around them -\",4:\"§7resulting in a look both fashionable\",5:\"§7and protective.\"],Name:\"§bMiner Skeleton §7(§cMonster§7)\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"MINER_SKELETON_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:skeleton_skull\",display:{Lore:[0:\"§7Mob Type: §f Skeletal\",1:\"\",2:\"§7These skeletons have crafted gear\",3:\"§7from the diamonds around them -\",4:\"§7resulting in a look both fashionable\",5:\"§7and protective.\",6:\"\",7:\"§7Found in the §bDiamond Reserve §7and\",8:\"§bObsidian Sanctuary §7of the §eDeep Caverns§7.\"],Name:\"§bMiner Skeleton §7(§cMonster§7)\"}}",
   "damage": 0,
   "lore": [
     "§7Mob Type: §f Skeletal",
@@ -9,7 +9,10 @@
     "§7These skeletons have crafted gear",
     "§7from the diamonds around them -",
     "§7resulting in a look both fashionable",
-    "§7and protective."
+    "§7and protective.",
+    "",
+    "§7Found in the §bDiamond Reserve §7and",
+    "§bObsidian Sanctuary §7of the §eDeep Caverns§7."
   ],
   "internalname": "MINER_SKELETON_MONSTER",
   "clickcommand": "viewrecipe",
@@ -24,6 +27,7 @@
       "level": 11,
       "coins": 3,
       "combat_xp": 16,
+      "xp": 12,
       "name": "§bMiner Skeleton",
       "render": "@neurepo:mobs/miner_skeleton.json",
       "panorama": "mining_2",
@@ -66,6 +70,7 @@
       "level": 14,
       "coins": 4,
       "combat_xp": 21,
+      "xp": 15,
       "name": "§bMiner Skeleton",
       "render": "@neurepo:mobs/miner_skeleton_alt.json",
       "panorama": "mining_2",

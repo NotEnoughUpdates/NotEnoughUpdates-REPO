@@ -1,12 +1,14 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§eChicken §7(§eCreature§7)",
-  "nbttag": "{ExtraAttributes:{id:\"CHICKEN_ANIMAL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"32e97556-5cb3-4b69-badf-ae4004863579\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2YzN2Q1MjRjM2VlZDE3MWNlMTQ5ODg3ZWExZGVlNGVkMzk5OTA0NzI3ZDUyMTg2NTY4OGVjZTNiYWM3NWUifX19=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Type: §a Animal\",1:\"\",2:\"§7Wishes it could fly.\"],Name:\"§eChicken §7(§eCreature§7)\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"CHICKEN_ANIMAL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"32e97556-5cb3-4b69-badf-ae4004863579\",Properties:{textures:[0:{Name:\"textures\",signature:\"TU2w5upI+iSmov1NsWWYr5D1a05x+lc8JXuDf/OvwooPEgKCTLRxEE1HupbZRsoXY9mCRJi/mDtl5qvFN0fqxQlcg37XBGunNhex558C3aejcG3xwhIqpuTq206jWQTn1wQ/uftocVFwUHaepMpmbCxu7k0tEpzdbfCkH8ODn1sesdTKppVmfTUS3IKy2G14zMbHkbsjAb0PvrDgIPu+YAU71z6IwoKXW3IMTCm6i4gPh2aKSJUhXHX5muUhcRuYuhf9wzrOxLnH0JgJiASg4SUFxXSIaggxeZ8ORFiUMylI/s7wLxvhUXIXg9WOu2A4+WoDV3aglP+btlsHOBhq+gJMrI9ERIemmkWqtgBJ64ggsAtjHTAdxL0cGDGx4BCgmKF7aVO8z0d5s9nyEGCgAFQiRzTZ1bEzQabkTzjJRJj1u2B96XIlgqe+SpAfjdyVnjh86HXtQgdVnhepI8ql7MkOWAqumz3HPqUpUpj4Irkhua6uaBUVEW+6oBYWHn6jy6MpsEWSdtN8aEMIEeIiQw/SV3FaZw4TXaPeUjyOtRUdiijFB0MwTOiE98UGl7qqnWk56lD5JplH2ytcKXK96atTlKNuQZdCZWb37gZTb+sU+V26Quw4sxeh6P9spSwEgoEAQuO1SeQRXGUCbW4khkGYEs0pIFzhb5PSopEl0Jw=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY3MDQ3OTE0NzEyNiwKICAicHJvZmlsZUlkIiA6ICIxMzdmMjg3MjUwOTE0ZmI4YjA0ZTYwYjg4MWUwZWE2YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJub3JtYWxpc2luZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jYTM1ODJjZTQ4ODkzMzNkYWQzMjllNGUyNDM3MmEwM2E1ZGFhMmMzNDI4MGM1NjI1NmFmNTI4M2VkYjA0M2Y4IgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Type: §a Animal\",1:\"\",2:\"§7Wishes it could fly.\",3:\"\",4:\"§7Found around the §eBarn§7.\"],Name:\"§eChicken §7(§eCreature§7)\"}}",
   "damage": 3,
   "lore": [
     "§7Mob Type: §a Animal",
     "",
-    "§7Wishes it could fly."
+    "§7Wishes it could fly.",
+    "",
+    "§7Found around the §eBarn§7."
   ],
   "internalname": "CHICKEN_ANIMAL",
   "clickcommand": "viewrecipe",
@@ -21,6 +23,7 @@
       "level": 1,
       "coins": 1,
       "combat_xp": 5,
+      "xp": 1,
       "name": "§eChicken",
       "render": "Chicken",
       "panorama": "farming_1",

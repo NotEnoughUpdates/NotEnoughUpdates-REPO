@@ -1,14 +1,17 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§bLapis Zombie §7(§cMonster§7)",
-  "nbttag": "{ExtraAttributes:{id:\"LAPIS_ZOMBIE_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Mob Type: §2 Undead\",1:\"\",2:\"§7These zombies adapted to their\",3:\"§7environment, using the lapis around\",4:\"§7them as a defense mechanism.\"],Name:\"§bLapis Zombie §7(§cMonster§7)\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"LAPIS_ZOMBIE_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Mob Type: §2 Undead\",1:\"\",2:\"§7These zombies adapted to their\",3:\"§7environment, using the lapis around\",4:\"§7them as a defense mechanism.\",5:\"\",6:\"§7Found in the §bLapia Quarry §7of\",7:\"§7the §eDeep Caverns§7.\"],Name:\"§bLapis Zombie §7(§cMonster§7)\"}}",
   "damage": 2,
   "lore": [
     "§7Mob Type: §2 Undead",
     "",
     "§7These zombies adapted to their",
     "§7environment, using the lapis around",
-    "§7them as a defense mechanism."
+    "§7them as a defense mechanism.",
+    "",
+    "§7Found in the §bLapia Quarry §7of",
+    "§7the §eDeep Caverns§7."
   ],
   "internalname": "LAPIS_ZOMBIE_MONSTER",
   "clickcommand": "viewrecipe",
@@ -23,6 +26,7 @@
       "level": 6,
       "coins": 2,
       "combat_xp": 9,
+      "xp": 6,
       "name": "§bLapis Zombie",
       "render": "@neurepo:mobs/lapis_zombie.json",
       "panorama": "mining_2",
