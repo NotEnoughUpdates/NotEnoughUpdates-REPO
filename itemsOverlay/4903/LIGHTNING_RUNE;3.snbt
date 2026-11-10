@@ -1,0 +1,49 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "RUNE",
+			runes: {
+				LIGHTNING: 3
+			}
+		},
+		"minecraft:enchantment_glint_override": 1b,
+		"minecraft:profile": {
+			id: [I;
+				380849092,
+				520372210,
+				-1963688671,
+				9702128
+			],
+			properties: [
+				{
+					name: "textures",
+					signature: "c1IgBTf6Ff8iPgxF1SKP55wZj+kpf6SJShH3neDemTA8A0TpDiDe7VEXrhbKTjpPKIgne4jg1DGRH+seQKPbGUHPZ9LxmWV49ni7WN9voRY6CxiWyA1N/SN9bNyfPD33IPUxDSXHqHbYIiSCsFI3ThxdYaF3pOhM2+e5IeQNOGsbaCzuilyS+DSG5RTsGpiQGmefsAj6Mdu0NSWBnb4PnUm8mgQPRWs4tTsFgO/SrRtVHXyAqTj9rmiesCEime4SlmO5UHss51zFLNCDalW8ge74RyRzzPAQyxEPZIIWVeipttvfadJ9tLXvnWsHnp85VM/ifLZYc3Hov5A0M5ujU0uPrSPNMNefwg9iE7JJQ7WYWT0wRrNo+RkMJTEGre9QZlGkuQnU/Jm5IFNkUcyfKiOkiK9JJGwqp7jr36Hr/aZFYItscs0Fz2gCMOija5Er2akmk71bfsx657NErVOZTsULTIQjyBiT+3FJqNB+Y0xgwqnRkDvJuGw9WEbfJCx1pwJ5ejmYc/d/Svf6pfX0klXJddkc//VNTbHVjgubhkgTyWQFPf5InQXn6jz0FS0tG8bICD3e5Cgs60nJKfT0l0PIgT+cgCX2W9ObN2f9cN1xGTW5n46RJ//dC/32CT7tOEgi8ndFmfs0m3/zbaqRdb8MIS99Qzm7ns1GjTTfn/w=",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUwNDIwNjM1MCwKICAicHJvZmlsZUlkIiA6ICIzN2JhNjRkYzkxOTg0OGI4YjZhNDdiYTg0ZDgwNDM3MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb3lLb3NhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I4NWJjZjdmODJkMzRkYjg5YTk1YWRkZjhlNTMyNTNlMmQ5NTU0YzZmZDJmMmUzOWUyNDM2MmQyNDNhMGNjZjciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:jukebox_playable",
+				"minecraft:painting/variant",
+				"minecraft:map_id",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:trim",
+				"minecraft:potion_contents",
+				"minecraft:dyed_color",
+				"minecraft:charged_projectiles"
+			]
+		},
+		"minecraft:tooltip_style": "hypixel_skyblock:legendary"
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4903,
+		modVersion: "Firmament 44.2.0-dev+mc26.2+g695a31df"
+	}
+}
