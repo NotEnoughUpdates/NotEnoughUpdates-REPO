@@ -1,14 +1,16 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§5Atoned Champion (Miniboss)",
-  "nbttag": "{ExtraAttributes:{id:\"ATONED_CHAMPION_MINIBOSS\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7The Atoned Champion is a Revenant Horror\",1:\"§7Miniboss that very rarely spawns after killing a\",2:\"§7Zombie during Revenant Horror Tier V Quests.\",3:\"\",4:\"§c❤ Health§8: §c600,000\"],Name:\"§5Atoned Champion (Miniboss)\"}}",
+  "displayname": "§4Atoned Champion §7(§c§lMINIBOSS§r§7)",
+  "nbttag": "{ExtraAttributes:{id:\"ATONED_CHAMPION_MINIBOSS\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Mob Type: §2 Undead\",1:\"\",2:\"§7Believing it is free from its sins from\",3:\"§7life, it brings others down with it.\",4:\"\",5:\"§4Atoned Champions §7spawn from slain §2Zombies §7while,\",6:\"§7fulfilling a §2Revenant Horror §5Tier V §7Quest.\"],Name:\"§4Atoned Champion §7(§c§lMINIBOSS§r§7)\"}}",
   "damage": 2,
   "lore": [
-    "§7The Atoned Champion is a Revenant Horror",
-    "§7Miniboss that very rarely spawns after killing a",
-    "§7Zombie during Revenant Horror Tier V Quests.",
+    "§7Mob Type: §2 Undead",
     "",
-    "§c❤ Health§8: §c600,000"
+    "§7Believing it is free from its sins from",
+    "§7life, it brings others down with it.",
+    "",
+    "§4Atoned Champions §7spawn from slain §2Zombies §7while,",
+    "§7fulfilling a §2Revenant Horror §5Tier V §7Quest."
   ],
   "internalname": "ATONED_CHAMPION_MINIBOSS",
   "clickcommand": "viewrecipe",
@@ -20,15 +22,17 @@
   ],
   "recipes": [
     {
-      "name": "§cAtoned Champion",
+      "level": 271,
+      "coins": 1,
+      "combat_xp": 1626,
+      "xp": 813,
+      "name": "§4Atoned Champion",
       "render": "@neurepo:mobs/atoned_champion.json",
-      "level": 390,
-      "type": "drops",
       "panorama": "hub",
+      "type": "drops",
       "drops": [
         {
-          "id": "REVENANT_FLESH:2",
-          "chance": "100%"
+          "id": "REVENANT_FLESH:2"
         }
       ]
     }

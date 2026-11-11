@@ -1,14 +1,15 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§5Pack Enforcer (Miniboss)",
-  "nbttag": "{ExtraAttributes:{id:\"PACK_ENFORCER_MINIBOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"7e9af289-f295-3f8c-bd54-58b7667d5759\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjlkMWQzMTEzZWM0M2FjMjk2MWRkNTlmMjgxNzVmYjQ3MTg4NzNjNmM0NDhkZmNhODcyMjMxN2Q2NyJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7The Pack Enforcer is a Sven Packmaster Miniboss\",1:\"§7that has a small chance to be spawned upon killing\",2:\"§7a Wolf During a Sven Packmaster Tier III Quest.\",3:\"\",4:\"§c❤ Health§8: §c45,000\"],Name:\"§5Pack Enforcer (Miniboss)\"}}",
+  "displayname": "§4Pack Enforcer §7(§c§lMINIBOSS§r§7)",
+  "nbttag": "{ExtraAttributes:{id:\"PACK_ENFORCER_MINIBOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"7e9af289-f295-3f8c-bd54-58b7667d5759\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjlkMWQzMTEzZWM0M2FjMjk2MWRkNTlmMjgxNzVmYjQ3MTg4NzNjNmM0NDhkZmNhODcyMjMxN2Q2NyJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Type: §a Animal\",1:\"\",2:\"§7Does whatever its told.\",3:\"\",4:\"§4Pack Enforcers §7spawn from slain §aWolves §7while,\",5:\"§7fulfilling a §aSven Packmaster §4Tier III §7Quest.\"],Name:\"§4Pack Enforcer §7(§c§lMINIBOSS§r§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7The Pack Enforcer is a Sven Packmaster Miniboss",
-    "§7that has a small chance to be spawned upon killing",
-    "§7a Wolf During a Sven Packmaster Tier III Quest.",
+    "§7Mob Type: §a Animal",
     "",
-    "§c❤ Health§8: §c45,000"
+    "§7Does whatever its told.",
+    "",
+    "§4Pack Enforcers §7spawn from slain §aWolves §7while,",
+    "§7fulfilling a §aSven Packmaster §4Tier III §7Quest."
   ],
   "internalname": "PACK_ENFORCER_MINIBOSS",
   "clickcommand": "viewrecipe",
@@ -20,16 +21,16 @@
   ],
   "recipes": [
     {
-      "name": "§cPack Enforcer",
+      "level": 109,
+      "combat_xp": 817,
+      "xp": 327,
+      "name": "§4Pack Enforcer",
       "render": "Wolf",
-      "level": 110,
-      "combat_xp": 70,
+      "panorama": "foraging_1",
       "type": "drops",
-      "panorama": "hub",
       "drops": [
         {
-          "id": "WOLF_TOOTH:1",
-          "chance": "100%"
+          "id": "WOLF_TOOTH"
         }
       ]
     }

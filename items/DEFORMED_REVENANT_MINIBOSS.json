@@ -1,14 +1,17 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§5Deformed Revenant (Miniboss)",
-  "nbttag": "{ExtraAttributes:{id:\"DEFORMED_REVENANT_MINIBOSS\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7The Deformed Revenant is a Revenant Horror\",1:\"§7Miniboss that very rarely spawns after killing a\",2:\"§7Zombie during Revenant Horror Tier IV Quests.\",3:\"\",4:\"§c❤ Health§8: §c360,000\"],Name:\"§5Deformed Revenant (Miniboss)\"}}",
+  "displayname": "§4Deformed Revenant §7(§c§lMINIBOSS§r§7)",
+  "nbttag": "{ExtraAttributes:{id:\"DEFORMED_REVENANT_MINIBOSS\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Mob Type: §2 Undead\",1:\"\",2:\"§7This malformed husk of once held life is now\",3:\"§7nothing more than a §cdisgusting §7amalgamation\",4:\"§7of rotting flesh.\",5:\"\",6:\"§4Deformed Revenants §7spawn from slain §2Zombies §7while,\",7:\"§7fulfilling a §2Revenant Horror §4Tier IV§7 Quest.\"],Name:\"§4Deformed Revenant §7(§c§lMINIBOSS§r§7)\"}}",
   "damage": 2,
   "lore": [
-    "§7The Deformed Revenant is a Revenant Horror",
-    "§7Miniboss that very rarely spawns after killing a",
-    "§7Zombie during Revenant Horror Tier IV Quests.",
+    "§7Mob Type: §2 Undead",
     "",
-    "§c❤ Health§8: §c360,000"
+    "§7This malformed husk of once held life is now",
+    "§7nothing more than a §cdisgusting §7amalgamation",
+    "§7of rotting flesh.",
+    "",
+    "§4Deformed Revenants §7spawn from slain §2Zombies §7while,",
+    "§7fulfilling a §2Revenant Horror §4Tier IV§7 Quest."
   ],
   "internalname": "DEFORMED_REVENANT_MINIBOSS",
   "clickcommand": "viewrecipe",
@@ -20,11 +23,14 @@
   ],
   "recipes": [
     {
-      "name": "§cDeformed Revenant",
+      "level": 217,
+      "coins": 1,
+      "combat_xp": 1627,
+      "xp": 651,
+      "name": "§4Deformed Revenant",
       "render": "@neurepo:mobs/deformed_revenant.json",
-      "level": 300,
-      "type": "drops",
       "panorama": "hub",
+      "type": "drops",
       "drops": [
         {
           "id": "REVENANT_FLESH:5",

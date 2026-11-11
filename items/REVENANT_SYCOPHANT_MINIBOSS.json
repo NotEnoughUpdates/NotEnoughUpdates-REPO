@@ -1,15 +1,16 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§5Revenant Sycophant (Miniboss)",
-  "nbttag": "{ExtraAttributes:{id:\"REVENANT_SYCOPHANT_MINIBOSS\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7The Revenant Sycophant is a Revenant Horror/Zombie\",1:\"§7Slayer Miniboss that has a small chance to be spawned\",2:\"§7when a player with an active Revenant Horror Tier III+\",3:\"§7Quest kills a Zombie.\",4:\"\",5:\"§c❤ Health§8: §c24,000\"],Name:\"§5Revenant Sycophant (Miniboss)\"}}",
+  "displayname": "§4Revenant Sycophant §7(§c§lMINIBOSS§r§7)",
+  "nbttag": "{ExtraAttributes:{id:\"REVENANT_SYCOPHANT_MINIBOSS\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Mob Type: §2 Undead\",1:\"\",2:\"§7Created from the corpse of a slain zombie, the\",3:\"§7sycophant walks once more, hungry.\",4:\"\",5:\"§4Revenant Champions §7spawn from slain §2Zombies §7while,\",6:\"§7fulfilling a §2Revenant Horror §4Tier III §7or higher Quest.\"],Name:\"§4Revenant Sycophant §7(§c§lMINIBOSS§r§7)\"}}",
   "damage": 2,
   "lore": [
-    "§7The Revenant Sycophant is a Revenant Horror/Zombie",
-    "§7Slayer Miniboss that has a small chance to be spawned",
-    "§7when a player with an active Revenant Horror Tier III+",
-    "§7Quest kills a Zombie.",
+    "§7Mob Type: §2 Undead",
     "",
-    "§c❤ Health§8: §c24,000"
+    "§7Created from the corpse of a slain zombie, the",
+    "§7sycophant walks once more, hungry.",
+    "",
+    "§4Revenant Champions §7spawn from slain §2Zombies §7while,",
+    "§7fulfilling a §2Revenant Horror §4Tier III §7or higher Quest."
   ],
   "internalname": "REVENANT_SYCOPHANT_MINIBOSS",
   "clickcommand": "viewrecipe",
@@ -21,25 +22,25 @@
   ],
   "recipes": [
     {
-      "name": "§cRevenant Sycophant",
+      "level": 114,
+      "coins": 1,
+      "combat_xp": 855,
+      "xp": 342,
+      "name": "§4Revenant Sycophant",
       "render": "@neurepo:mobs/revenant_sycophant.json",
-      "level": 80,
-      "combat_xp": 360,
-      "type": "drops",
       "panorama": "hub",
+      "type": "drops",
       "drops": [
         {
-          "id": "REVENANT_FLESH:1",
-          "chance": "100%"
+          "id": "REVENANT_FLESH"
         },
         {
-          "id": "ATTRIBUTE_SHARD_LIFE_RECOVERY;1:1",
+          "id": "ATTRIBUTE_SHARD_LIFE_RECOVERY;1",
           "extra": [
             "§7 §7- §7Catch with §cPocket Black Hole§7.",
             "§7 §7- §7Kill Revenant Sycophant §7while",
             "§7using §cSalts§7."
-          ],
-          "chance": "100%"
+          ]
         }
       ]
     }

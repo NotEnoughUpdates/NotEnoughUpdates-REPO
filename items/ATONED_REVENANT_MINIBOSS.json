@@ -1,14 +1,16 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§5Atoned Revenant (Miniboss)",
-  "nbttag": "{ExtraAttributes:{id:\"ATONED_REVENANT_MINIBOSS\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7The Atoned Revenant is a Revenant Horror\",1:\"§7Miniboss that very rarely spawns after killing a\",2:\"§7Zombie during Revenant Horror Tier V Quests.\",3:\"\",4:\"§c❤ Health§8: §c2,400,000\"],Name:\"§5Atoned Revenant (Miniboss)\"}}",
+  "displayname": "§4Atoned Revenant §7(§c§lMINIBOSS§r§7)",
+  "nbttag": "{ExtraAttributes:{id:\"ATONED_REVENANT_MINIBOSS\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Mob Type: §2 Undead\",1:\"\",2:\"§7Believing it is free from its sins from\",3:\"§7life, it brings §4you §7down with it.\",4:\"\",5:\"§4Atoned Revenants §7spawn from slain §2Zombies §7while,\",6:\"§7fulfilling a §2Revenant Horror §5Tier V §7Quest.\"],Name:\"§4Atoned Revenant §7(§c§lMINIBOSS§r§7)\"}}",
   "damage": 2,
   "lore": [
-    "§7The Atoned Revenant is a Revenant Horror",
-    "§7Miniboss that very rarely spawns after killing a",
-    "§7Zombie during Revenant Horror Tier V Quests.",
+    "§7Mob Type: §2 Undead",
     "",
-    "§c❤ Health§8: §c2,400,000"
+    "§7Believing it is free from its sins from",
+    "§7life, it brings §4you §7down with it.",
+    "",
+    "§4Atoned Revenants §7spawn from slain §2Zombies §7while,",
+    "§7fulfilling a §2Revenant Horror §5Tier V §7Quest."
   ],
   "internalname": "ATONED_REVENANT_MINIBOSS",
   "clickcommand": "viewrecipe",
@@ -20,11 +22,14 @@
   ],
   "recipes": [
     {
+      "level": 329,
+      "coins": 1,
+      "combat_xp": 1974,
+      "xp": 987,
       "name": "§4Atoned Revenant",
       "render": "@neurepo:mobs/atoned_revenant.json",
-      "level": 770,
-      "type": "drops",
       "panorama": "hub",
+      "type": "drops",
       "drops": [
         {
           "id": "REVENANT_FLESH:5",
