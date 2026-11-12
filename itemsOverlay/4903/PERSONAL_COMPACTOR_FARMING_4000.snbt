@@ -1,9 +1,10 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "PET_ITEM_LUCKY_CLOVER"
+			id: "PERSONAL_COMPACTOR_FARMING_4000"
 		},
 		"minecraft:enchantment_glint_override": 1b,
+		"minecraft:item_model": "minecraft:crafter",
 		"minecraft:tooltip_display": {
 			hidden_components: [
 				"minecraft:jukebox_playable",
@@ -20,12 +21,12 @@
 				"minecraft:charged_projectiles"
 			]
 		},
-		"minecraft:tooltip_style": "hypixel_skyblock:epic"
+		"minecraft:tooltip_style": "hypixel_skyblock:common"
 	},
 	count: 1,
-	id: "minecraft:lily_pad",
+	id: "minecraft:paper",
 	source: {
-		dataVersion: 4790,
-		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g02e85d46"
+		dataVersion: 4903,
+		modVersion: "Firmament 44.2.0-dev+mc26.2+g695a31df"
 	}
 }
