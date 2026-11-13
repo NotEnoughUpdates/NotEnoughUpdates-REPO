@@ -1,15 +1,8 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			enchantments: {
-				efficiency: 6
-			},
-			id: "STONK_PICKAXE"
+			id: "OBSIDIAN"
 		},
-		"minecraft:enchantments": {
-			"minecraft:efficiency": 6
-		},
-		"minecraft:item_model": "hypixel_skyblock:item/uncategorized/stonk",
 		"minecraft:tooltip_display": {
 			hidden_components: [
 				"minecraft:jukebox_playable",
@@ -26,14 +19,12 @@
 				"minecraft:charged_projectiles"
 			]
 		},
-		"minecraft:tooltip_style": "hypixel_skyblock:epic",
-		"minecraft:unbreakable": {
-		}
+		"minecraft:tooltip_style": "hypixel_skyblock:common"
 	},
 	count: 1,
-	id: "minecraft:golden_pickaxe",
+	id: "minecraft:obsidian",
 	source: {
-		dataVersion: 4790,
-		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g00fd3323"
+		dataVersion: 4903,
+		modVersion: "Firmament 44.2.0-dev+mc26.2+g955aae4"
 	}
 }
