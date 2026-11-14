@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Crypt Ghoul (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"CRYPT_GHOUL_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7The Crypt Ghoul is a mob added in the Slayer\",1:\"§7update. It is a hostile zombie type mob that's\",2:\"§7a bit tougher than regular zombies.\",3:\"\",4:\"§c❤ Health§8: §c2,000\"],Name:\"§9Crypt Ghoul (Monster)\"}}",
+  "displayname": "§aCrypt Ghoul §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"CRYPT_GHOUL_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Mob Type: §2 Undead\",1:\"\",2:\"§7Long buried, newly unburied\",3:\"\",4:\"§7Found in the §cCrypts §7below the §aHub§7.\"],Name:\"§aCrypt Ghoul §7(§cMonster§7)\"}}",
   "damage": 2,
   "lore": [
-    "§7The Crypt Ghoul is a mob added in the Slayer",
-    "§7update. It is a hostile zombie type mob that's",
-    "§7a bit tougher than regular zombies.",
+    "§7Mob Type: §2 Undead",
     "",
-    "§c❤ Health§8: §c2,000"
+    "§7Long buried, newly unburied",
+    "",
+    "§7Found in the §cCrypts §7below the §aHub§7."
   ],
   "internalname": "CRYPT_GHOUL_MONSTER",
   "clickcommand": "viewrecipe",
@@ -20,29 +20,29 @@
   ],
   "recipes": [
     {
-      "level": 30,
-      "coins": 13,
-      "xp": 30,
-      "combat_xp": 32,
-      "name": "§cCrypt Ghoul",
+      "level": 33,
+      "coins": 11,
+      "combat_xp": 49,
+      "xp": 36,
+      "name": "§aCrypt Ghoul",
       "panorama": "hub",
       "render": "@neurepo:mobs/crypt_ghoul.json",
       "type": "drops",
       "drops": [
         {
-          "id": "ROTTEN_FLESH:1",
+          "id": "ROTTEN_FLESH",
           "extra": [
             "§eDrop Count: §7x1-2"
           ],
           "chance": "100%"
         },
         {
-          "id": "GHOUL;3:1",
-          "chance": "0.003%"
+          "id": "GHOUL;4",
+          "chance": "0.001%"
         },
         {
-          "id": "GHOUL;4:1",
-          "chance": "0.001%"
+          "id": "GHOUL;3",
+          "chance": "0.003%"
         }
       ]
     }

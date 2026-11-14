@@ -1,14 +1,16 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§5Voidling Devotee (Miniboss)",
-  "nbttag": "{ExtraAttributes:{id:\"VOIDLING_DEVOTEE_MINIBOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"0de98464-1274-4dd6-bba8-370efa5d41a8\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E1OWJiMGE3YTMyOTY1YjNkOTBkOGVhZmE4OTlkMTgzNWY0MjQ1MDllYWRkNGU2YjcwOWFkYTUwYjljZiJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7The Voidling Devotee is a Enderman Slayer\",1:\"§7Miniboss that very rarely spawns after killing a\",2:\"§7Enderman during Voidgloom Seraph Tier III Quests.\",3:\"\",4:\"§c❤ Health§8: §c12,000,000\"],Name:\"§5Voidling Devotee (Miniboss)\"}}",
+  "displayname": "§4Voidling Devotee §7(§c§lMINIBOSS§r§7)",
+  "nbttag": "{ExtraAttributes:{id:\"VOIDLING_DEVOTEE_MINIBOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"0de98464-1274-4dd6-bba8-370efa5d41a8\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E1OWJiMGE3YTMyOTY1YjNkOTBkOGVhZmE4OTlkMTgzNWY0MjQ1MDllYWRkNGU2YjcwOWFkYTUwYjljZiJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Type: §5 Ender\",1:\"\",2:\"§7Similar to §dZealots §7of the §5Dragons§7, they praise\",3:\"§7the §5Seraphs§7.\",4:\"\",5:\"§4Voidling Devotees §7spawn from slain §dEndermen §7while,\",6:\"§7fulfilling a §5Voidgloom Seraph §4Tier III §7Quest.\"],Name:\"§4Voidling Devotee §7(§c§lMINIBOSS§r§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7The Voidling Devotee is a Enderman Slayer",
-    "§7Miniboss that very rarely spawns after killing a",
-    "§7Enderman during Voidgloom Seraph Tier III Quests.",
+    "§7Mob Type: §5 Ender",
     "",
-    "§c❤ Health§8: §c12,000,000"
+    "§7Similar to §dZealots §7of the §5Dragons§7, they praise",
+    "§7the §5Seraphs§7.",
+    "",
+    "§4Voidling Devotees §7spawn from slain §dEndermen §7while,",
+    "§7fulfilling a §5Voidgloom Seraph §4Tier III §7Quest."
   ],
   "internalname": "VOIDLING_DEVOTEE_MINIBOSS",
   "clickcommand": "viewrecipe",
@@ -20,15 +22,16 @@
   ],
   "recipes": [
     {
-      "level": 730,
-      "name": "§cVoidling Devotee",
+      "level": 373,
+      "combat_xp": 2797,
+      "xp": 1119,
+      "name": "§4Voidling Devotee",
       "render": "Enderman",
-      "type": "drops",
       "panorama": "combat_3",
+      "type": "drops",
       "drops": [
         {
-          "id": "NULL_SPHERE",
-          "chance": "100%"
+          "id": "NULL_SPHERE"
         }
       ]
     }

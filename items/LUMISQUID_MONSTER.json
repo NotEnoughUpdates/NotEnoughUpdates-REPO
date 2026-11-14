@@ -1,10 +1,16 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§aLumisquid (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"LUMISQUID_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"01b77ad6-2139-3bec-81b7-7ad621397bec\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyMTc1MTU3NTc5OCwKICAicHJvZmlsZUlkIiA6ICI4YzQwMGUyYTNiNjI0YTkzODBkYzdlZWNkMmE3NDNhNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJaemVydnluIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M2YmU0MGI3MGQ3MzljZjgyMWIwMzJkNzkwMDBiY2YxN2Y4MzNkYzRlY2M0YTMwMzBkOWFjZjY3YzkyMDI5NGUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§c❤ Health§8: §c1\"],Name:\"§aLumisquid (Monster)\"}}",
+  "displayname": "§2Lumisquid §7(§eCreature§7)",
+  "nbttag": "{ExtraAttributes:{id:\"LUMISQUID_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"01b77ad6-2139-3bec-81b7-7ad621397bec\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyMTc1MTU3NTc5OCwKICAicHJvZmlsZUlkIiA6ICI4YzQwMGUyYTNiNjI0YTkzODBkYzdlZWNkMmE3NDNhNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJaemVydnluIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M2YmU0MGI3MGQ3MzljZjgyMWIwMzJkNzkwMDBiY2YxN2Y4MzNkYzRlY2M0YTMwMzBkOWFjZjY3YzkyMDI5NGUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §a Critter§7, §9 Aquatic§7, §2 Woodland\",1:\"\",2:\"§7Dwells in the depths, luring in small\",3:\"§7fish with its lights.\",4:\"\",5:\"§7Found in the §bSquid Cave §7of\",6:\"§7the §2Moonglade Marsh§7.\"],Name:\"§2Lumisquid §7(§eCreature§7)\"}}",
   "damage": 3,
   "lore": [
-    "§c❤ Health§8: §c1"
+    "§7Mob Types: §a Critter§7, §9 Aquatic§7, §2 Woodland",
+    "",
+    "§7Dwells in the depths, luring in small",
+    "§7fish with its lights.",
+    "",
+    "§7Found in the §bSquid Cave §7of",
+    "§7the §2Moonglade Marsh§7."
   ],
   "internalname": "LUMISQUID_MONSTER",
   "clickcommand": "viewrecipe",
@@ -16,17 +22,16 @@
   ],
   "recipes": [
     {
-      "name": "§cLumisquid",
+      "name": "§2Lumisquid",
       "render": "GlowSquid",
       "panorama": "foraging_2",
       "type": "drops",
       "drops": [
         {
-          "id": "ATTRIBUTE_SHARD_EXTREME_PRESSURE;1:1",
+          "id": "ATTRIBUTE_SHARD_EXTREME_PRESSURE;1",
           "extra": [
-            "§7 §7- §7Place §cTraps §7in §bSquid Cave§7.",
-            "§7(§bUnderwater§7).",
-            "§7 §7- §7Catch with a §bFishing Net§7."
+            "§7 - Place §6Hunting Traps §7in §bSquid Cave§7. §7(§bUnderwater§7).",
+            "§7 - Catch with a §3Fishing Net§7."
           ],
           "chance": "100%"
         }

@@ -1,0 +1,57 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§cWither Miner §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"WITHER_MINER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:wither_skeleton_skull\",display:{Lore:[0:\"§7Mob Types: §8 Wither§7, §f Skeletal\",1:\"\",2:\"§7Kept in servitude for breaking\",3:\"§7blocks around the factory.\",4:\"\",5:\"§7Found in the §eFloor VII §7boss fight\",6:\"§7inside the §cCatacombs§7.\"],Name:\"§cWither Miner §7(§cMonster§7)\"},ench:[]}",
+  "damage": 1,
+  "lore": [
+    "§7Mob Types: §8 Wither§7, §f Skeletal",
+    "",
+    "§7Kept in servitude for breaking",
+    "§7blocks around the factory.",
+    "",
+    "§7Found in the §eFloor VII §7boss fight",
+    "§7inside the §cCatacombs§7."
+  ],
+  "internalname": "WITHER_MINER_MONSTER",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Wither_Miner"
+  ],
+  "recipes": [
+    {
+      "level": 283,
+      "coins": 94,
+      "combat_xp": 424,
+      "xp": 311,
+      "name": "§cWither Miner",
+      "render": "@neurepo:mobs/wither_miner.json",
+      "panorama": "dungeon",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "DYE_BONE",
+          "chance": "0.000033%"
+        }
+      ]
+    },
+    {
+      "level": 557,
+      "coins": 185,
+      "combat_xp": 835,
+      "xp": 612,
+      "name": "§cWither Miner §7(§cMaster Mode§7)",
+      "render": "@neurepo:mobs/wither_miner.json",
+      "panorama": "dungeon",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "DYE_BONE",
+          "chance": "0.000033%"
+        }
+      ]
+    }
+  ]
+}

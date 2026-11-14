@@ -1,25 +1,14 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§cMinos Champion (Mythological Creature)",
-  "nbttag": "{ExtraAttributes:{id:\"MINOS_CHAMPION_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"86e6b4be-1455-37b7-86e6-b4be1455f7b7\",Properties:{textures:[0:{Name:\"textures\",Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmY3ZTc4NjUwODQyZTk1ZmFiMzk1MTRkYWQzYzYxM2Y3NzE2ZjYyYjYyNzkzYWExMzE3ZTgwYTIzMjg2YjgzYyJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7The Minos Champion is one of the rare mobs\",1:\"§7in the Mythological Ritual, and can only be\",2:\"§7found by using a epic or legendary Griffin Pet.\",3:\"§7It gains roughly 3 to 4% of a damage buff for each second\",4:\"§7it's lived for, capping at 600%, which is when it despawns.\",5:\"§7While alive, it can attack using a sword or a bow, if\",6:\"§7the Champion is unable to reach a player, it will spawn\",7:\"§7a lighting strike on the player once, similary\",8:\"§7to the Gaia Construct.\",9:\"\",10:\"§7Mob Types: §2✿ Mythological§7, §e Humanoid\",11:\"§c❤ Health§8:\",12:\"§8[§5Griffin§8] §c2,000,000 ❤\",13:\"§8[§6Griffin§8] §c12,000,000 ❤\",14:\"\",15:\"§5§lEPIC\"],Name:\"§cMinos Champion (Mythological Creature)\"}}",
+  "displayname": "§2Minos Champion §7(§dEvent Monster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"MINOS_CHAMPION_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"86e6b4be-1455-37b7-86e6-b4be1455f7b7\",Properties:{textures:[0:{Name:\"textures\",Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmY3ZTc4NjUwODQyZTk1ZmFiMzk1MTRkYWQzYzYxM2Y3NzE2ZjYyYjYyNzkzYWExMzE3ZTgwYTIzMjg2YjgzYyJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §2 Mythological§7, §e Humanoid\",1:\"\",2:\"§7The champion of King Minos.\",3:\"\",4:\"§7Dug up from §eGriffin Burrows §7in the §aHub§7.\"],Name:\"§2Minos Champion §7(§dEvent Monster§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7The Minos Champion is one of the rare mobs",
-    "§7in the Mythological Ritual, and can only be",
-    "§7found by using a epic or legendary Griffin Pet.",
-    "§7It gains roughly 3 to 4% of a damage buff for each second",
-    "§7it's lived for, capping at 600%, which is when it despawns.",
-    "§7While alive, it can attack using a sword or a bow, if",
-    "§7the Champion is unable to reach a player, it will spawn",
-    "§7a lighting strike on the player once, similary",
-    "§7to the Gaia Construct.",
+    "§7Mob Types: §2 Mythological§7, §e Humanoid",
     "",
-    "§7Mob Types: §2✿ Mythological§7, §e Humanoid",
-    "§c❤ Health§8:",
-    "§8[§5Griffin§8] §c2,000,000 ❤",
-    "§8[§6Griffin§8] §c12,000,000 ❤",
+    "§7The champion of King Minos.",
     "",
-    "§5§lEPIC"
+    "§7Dug up from §eGriffin Burrows §7in the §aHub§7."
   ],
   "internalname": "MINOS_CHAMPION_MONSTER",
   "clickcommand": "viewrecipe",
@@ -32,60 +21,82 @@
   "recipes": [
     {
       "level": 175,
-      "coins": 800,
-      "xp": 10,
-      "combat_xp": 80,
-      "name": "§cVenerale Minos Champion",
+      "coins": 58,
+      "combat_xp": 262,
+      "xp": 192,
+      "name": "§2Venerable Minos Champion",
       "render": "@neurepo:mobs/minos_champion.json",
       "panorama": "hub",
-      "extra": [
-        "§cRequirements:",
-        "§7- §5Griffin",
-        "§7Chance: 19.05%"
-      ],
       "type": "drops",
       "drops": [
         {
-          "id": "ANCIENT_CLAW:5",
-          "chance": "100%"
+          "id": "ANCIENT_CLAW:10"
         },
         {
-          "id": "MINOS_RELIC:1",
+          "id": "ENCHANTED_GOLD:10",
+          "chance": "50%"
+        },
+        {
+          "id": "MINOS_RELIC",
           "chance": "0.02%"
+        },
+        {
+          "id": "DYE_MYTHOLOGICAL",
+          "chance": "0.0004%"
         }
       ]
     },
     {
-      "level": 310,
-      "coins": 4000,
-      "xp": 20,
-      "combat_xp": 300,
-      "name": "§cExalted Minos Champion",
+      "level": 248,
+      "coins": 82,
+      "combat_xp": 372,
+      "xp": 272,
+      "name": "§2Exalted Minos Champion",
       "render": "@neurepo:mobs/minos_champion.json",
       "panorama": "hub",
-      "extra": [
-        "§cRequirements:",
-        "§7- §6Griffin",
-        "§7Chance: 18.52%"
-      ],
       "type": "drops",
       "drops": [
         {
-          "id": "ANCIENT_CLAW:14",
-          "chance": "100%"
+          "id": "ANCIENT_CLAW:12"
         },
         {
-          "id": "ENCHANTED_GOLD:3",
+          "id": "ENCHANTED_GOLD:12",
           "chance": "50%"
         },
         {
-          "id": "MINOS_RELIC:1",
+          "id": "MINOS_RELIC",
           "chance": "0.03%"
         },
         {
           "id": "DYE_MYTHOLOGICAL",
-          "extra": [],
-          "chance": "0.0002%"
+          "chance": "0.0004%"
+        }
+      ]
+    },
+    {
+      "level": 285,
+      "coins": 95,
+      "combat_xp": 427,
+      "xp": 313,
+      "name": "§2Empyrean Minos Champion",
+      "render": "@neurepo:mobs/minos_champion.json",
+      "panorama": "hub",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ANCIENT_CLAW:14"
+        },
+        {
+          "id": "ENCHANTED_GOLD:14",
+          "chance": "50%"
+        },
+        {
+          "id": "MINOS_RELIC",
+          "chance": "0.04%"
+        },
+        {
+          "id": "DYE_MYTHOLOGICAL",
+          "chance": "0.0004%"
         }
       ]
     }

@@ -1,16 +1,14 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Obsidian Defender (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"OBSIDIAN_DEFENDER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:wither_skeleton_skull\",display:{Lore:[0:\"§7Obsidian Defenders are types of Wither Skeletons\",1:\"§7found exclusively in the Dragon's Nest. Obsidian\",2:\"§7Defenders are hostile, inflict the Wither potion\",3:\"§7effect, and are extremely fast. They are also\",4:\"§7completely immune to all knockback. \",5:\"\",6:\"§c❤ Health§8: §c10,000\"],Name:\"§9Obsidian Defender (Monster)\"}}",
+  "displayname": "§dObsidian Defender §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"OBSIDIAN_DEFENDER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:wither_skeleton_skull\",display:{Lore:[0:\"§7Mob types: §5 Ender§7, §8 Wither\",1:\"\",2:\"§7Forged from the forces of hot and cold.\",3:\"\",4:\"§7Found defending the §5Dragons's Nest §7of §dThe End§7.\"],Name:\"§dObsidian Defender §7(§cMonster§7)\"}}",
   "damage": 1,
   "lore": [
-    "§7Obsidian Defenders are types of Wither Skeletons",
-    "§7found exclusively in the Dragon's Nest. Obsidian",
-    "§7Defenders are hostile, inflict the Wither potion",
-    "§7effect, and are extremely fast. They are also",
-    "§7completely immune to all knockback. ",
+    "§7Mob types: §5 Ender§7, §8 Wither",
     "",
-    "§c❤ Health§8: §c10,000"
+    "§7Forged from the forces of hot and cold.",
+    "",
+    "§7Found defending the §5Dragons's Nest §7of §dThe End§7."
   ],
   "internalname": "OBSIDIAN_DEFENDER_MONSTER",
   "clickcommand": "viewrecipe",
@@ -22,11 +20,11 @@
   ],
   "recipes": [
     {
-      "level": 55,
-      "coins": 15,
-      "xp": 10,
-      "combat_xp": 40,
-      "name": "§cObsidian Defender",
+      "level": 44,
+      "coins": 14,
+      "combat_xp": 66,
+      "xp": 48,
+      "name": "§dObsidian Defender",
       "render": "@neurepo:mobs/obsidian_defender.json",
       "panorama": "combat_3",
       "type": "drops",
@@ -35,8 +33,7 @@
           "id": "OBSIDIAN",
           "extra": [
             "§eDrop Count: §7x2-3"
-          ],
-          "chance": "100%"
+          ]
         },
         {
           "id": "ENCHANTED_OBSIDIAN",
@@ -67,10 +64,10 @@
           "chance": "0.00001%"
         },
         {
-          "id": "ATTRIBUTE_SHARD_SPEED;1:1",
+          "id": "ATTRIBUTE_SHARD_SPEED;1",
           "extra": [
-            "§7 §7- §7Catch with §cPocket Black Hole§7.",
-            "§7 §7- §7Kill Obsidian Defender §7while using §cSalts§7."
+            "§7- §7Catch with §cPocket Black Hole§7.",
+            "§7- §7Kill Obsidian Defender §7while using §cSalts§7."
           ],
           "chance": "100%"
         }

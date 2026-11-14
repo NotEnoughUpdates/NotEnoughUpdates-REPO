@@ -1,13 +1,16 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Withermancer (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"WITHERMANCER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:wither_skeleton_skull\",display:{Lore:[0:\"§7Learned their sorcery from the\",1:\"§7most vicious of teachers.\",2:\"\",3:\"§c❤ Health§8: §c300,000 - 88,000,000\"],Name:\"§9Withermancer (Monster)\"}}",
+  "displayname": "§cWithermancer §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"WITHERMANCER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:wither_skeleton_skull\",display:{Lore:[0:\"§7Mob Types: §8 Wither§7, §f Skeletal§7, §5 Arcane\",1:\"\",2:\"§7Learned their sorcery from the\",3:\"§7most vicious of teachers.\",4:\"\",5:\"§7Found in the endless maze of §eFloors IV-VII\",6:\"§7of the §cCatacombs§7.\"],Name:\"§cWithermancer §7(§cMonster§7)\"}}",
   "damage": 1,
   "lore": [
+    "§7Mob Types: §8 Wither§7, §f Skeletal§7, §5 Arcane",
+    "",
     "§7Learned their sorcery from the",
     "§7most vicious of teachers.",
     "",
-    "§c❤ Health§8: §c300,000 - 88,000,000"
+    "§7Found in the endless maze of §eFloors IV-VII",
+    "§7of the §cCatacombs§7."
   ],
   "internalname": "WITHERMANCER_MONSTER",
   "clickcommand": "viewrecipe",
@@ -19,38 +22,13 @@
   ],
   "recipes": [
     {
-      "level": 90,
-      "coins": 1,
-      "xp": 30,
-      "combat_xp": 80,
       "name": "§cWithermancer",
       "panorama": "dungeon",
       "render": "@neurepo:mobs/withermancer.json",
       "type": "drops",
       "drops": [
         {
-          "id": "CONJURING_SWORD:1",
-          "extra": [],
-          "chance": "2%"
-        },
-        {
-          "id": "DYE_BONE",
-          "chance": "0.000033%"
-        }
-      ]
-    },
-    {
-      "level": 120,
-      "coins": 1,
-      "xp": 50,
-      "combat_xp": 165,
-      "name": "§cWithermancer §8(§cMaster§8)",
-      "render": "@neurepo:mobs/withermancer.json",
-      "type": "drops",
-      "drops": [
-        {
-          "id": "CONJURING_SWORD:1",
-          "extra": [],
+          "id": "CONJURING_SWORD",
           "chance": "2%"
         },
         {

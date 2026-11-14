@@ -1,0 +1,35 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aEnderman (Private Island) §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"ENDERMAN_PRIVATE_ISLAND_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"0de98464-1274-4dd6-bba8-370efa5d41a8\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E1OWJiMGE3YTMyOTY1YjNkOTBkOGVhZmE4OTlkMTgzNWY0MjQ1MDllYWRkNGU2YjcwOWFkYTUwYjljZiJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob type: §5 Ender\",1:\"\",2:\"§7Don't like making eye contact\",3:\"\",4:\"§7Found on §aPrivate Islands§7.\"],Name:\"§aEnderman (Private Island) §7(§cMonster§7)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob type: §5 Ender",
+    "",
+    "§7Don't like making eye contact",
+    "",
+    "§7Found on §aPrivate Islands§7."
+  ],
+  "internalname": "ENDERMAN_PRIVATE_ISLAND_MONSTER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enderman_(Private_Island)"
+  ],
+  "recipes": [
+    {
+      "name": "§aEnderman",
+      "render": "Enderman",
+      "panorama": "dynamic",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ENDER_PEARL",
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

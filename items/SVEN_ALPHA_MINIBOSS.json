@@ -1,14 +1,15 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§5Sven Alpha (Miniboss)",
-  "nbttag": "{ExtraAttributes:{id:\"SVEN_ALPHA_MINIBOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"7e9af289-f295-3f8c-bd54-58b7667d5759\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjlkMWQzMTEzZWM0M2FjMjk2MWRkNTlmMjgxNzVmYjQ3MTg4NzNjNmM0NDhkZmNhODcyMjMxN2Q2NyJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7The Sven Alpha is a Sven Packmaster Miniboss that is\",1:\"§7rarely spawned upon killing a Wolf during a Sven \",2:\"§7Packmaster Tier IV Quest.\",3:\"\",4:\"§c❤ Health§8: §c450,000\"],Name:\"§5Sven Alpha (Miniboss)\"}}",
+  "displayname": "§4Sven Alpha §7(§c§lMINIBOSS§r§7)",
+  "nbttag": "{ExtraAttributes:{id:\"SVEN_ALPHA_MINIBOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"7e9af289-f295-3f8c-bd54-58b7667d5759\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjlkMWQzMTEzZWM0M2FjMjk2MWRkNTlmMjgxNzVmYjQ3MTg4NzNjNmM0NDhkZmNhODcyMjMxN2Q2NyJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Type: §a Animal\",1:\"\",2:\"§7Sven's number 2 in command.\",3:\"\",4:\"§4Sven Alphas §7spawn from slain §aWolves §7while,\",5:\"§7fulfilling a §aSven Packmaster §4Tier IV§7 Quest.\"],Name:\"§4Sven Alpha §7(§c§lMINIBOSS§r§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7The Sven Alpha is a Sven Packmaster Miniboss that is",
-    "§7rarely spawned upon killing a Wolf during a Sven ",
-    "§7Packmaster Tier IV Quest.",
+    "§7Mob Type: §a Animal",
     "",
-    "§c❤ Health§8: §c450,000"
+    "§7Sven's number 2 in command.",
+    "",
+    "§4Sven Alphas §7spawn from slain §aWolves §7while,",
+    "§7fulfilling a §aSven Packmaster §4Tier IV§7 Quest."
   ],
   "internalname": "SVEN_ALPHA_MINIBOSS",
   "clickcommand": "viewrecipe",
@@ -20,15 +21,16 @@
   ],
   "recipes": [
     {
+      "level": 238,
+      "combat_xp": 1785,
+      "xp": 714,
       "name": "§4Sven Alpha",
       "render": "Wolf",
-      "level": 350,
+      "panorama": "foraging_1",
       "type": "drops",
-      "panorama": "hub",
       "drops": [
         {
-          "id": "WOLF_TOOTH:5",
-          "chance": "100%"
+          "id": "WOLF_TOOTH:5"
         }
       ]
     }

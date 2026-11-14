@@ -1,14 +1,16 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§5Mutant Tarantula (Miniboss)",
-  "nbttag": "{ExtraAttributes:{id:\"MUTANT_TARANTULA_MINIBOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"7c63f3cf-a963-311a-aeca-3a075b417806\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q1NDE1NDFkYWFmZjUwODk2Y2QyNThiZGJkZDRjZjgwYzNiYTgxNjczNTcyNjA3OGJmZTM5MzkyN2U1N2YxIn19fQ=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7The Mutant Tarantula is a Tarantula Broodfather\",1:\"§7Miniboss. It spawns very rarely when a player doing\",2:\"§7the Tarantula Broodfather Tier IV quest kills a spider.\",3:\"\",4:\"§c❤ Health§8: §c576,000\"],Name:\"§5Mutant Tarantula (Miniboss)\"}}",
+  "displayname": "§4Mutant Tarantula §7(§c§lMINIBOSS§r§7)",
+  "nbttag": "{ExtraAttributes:{id:\"MUTANT_TARANTULA_MINIBOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"7c63f3cf-a963-311a-aeca-3a075b417806\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q1NDE1NDFkYWFmZjUwODk2Y2QyNThiZGJkZDRjZjgwYzNiYTgxNjczNTcyNjA3OGJmZTM5MzkyN2U1N2YxIn19fQ=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Type: §4 Arthropod\",1:\"\",2:\"§7There's always going to be some genetic \\\"mishaps\\\"\",3:\"§7when a species reproduces as quickly as they do.\",4:\"\",5:\"§4Mutant Tarantulas §7spawn from slain §cSpiders §7while,\",6:\"§7fulfilling a §cTarantula Broodfather §4Tier IV §7Quest.\"],Name:\"§4Mutant Tarantula §7(§c§lMINIBOSS§r§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7The Mutant Tarantula is a Tarantula Broodfather",
-    "§7Miniboss. It spawns very rarely when a player doing",
-    "§7the Tarantula Broodfather Tier IV quest kills a spider.",
+    "§7Mob Type: §4 Arthropod",
     "",
-    "§c❤ Health§8: §c576,000"
+    "§7There's always going to be some genetic \"mishaps\"",
+    "§7when a species reproduces as quickly as they do.",
+    "",
+    "§4Mutant Tarantulas §7spawn from slain §cSpiders §7while,",
+    "§7fulfilling a §cTarantula Broodfather §4Tier IV §7Quest."
   ],
   "internalname": "MUTANT_TARANTULA_MINIBOSS",
   "clickcommand": "viewrecipe",
@@ -20,15 +22,16 @@
   ],
   "recipes": [
     {
+      "level": 251,
+      "combat_xp": 1882,
+      "xp": 753,
       "name": "§4Mutant Tarantula",
       "render": "Spider",
-      "level": 380,
+      "panorama": "combat_1",
       "type": "drops",
-      "panorama": "crimson_isle",
       "drops": [
         {
-          "id": "TARANTULA_WEB:5",
-          "chance": "100%"
+          "id": "TARANTULA_WEB:5"
         }
       ]
     }

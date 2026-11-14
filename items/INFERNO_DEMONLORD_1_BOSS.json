@@ -1,14 +1,10 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§6Inferno Demonlord I (Boss)",
-  "nbttag": "{ExtraAttributes:{id:\"INFERNO_DEMONLORD_1_BOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"118fe834-28aa-3b0d-afe6-f0c52d01afe8\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Beginner\",1:\"\",2:\"§7Health: §c2,500,000❤\",3:\"§7Demons damage: §c2,500§7/s\",4:\"§7Demons health: §c500,000❤\",5:\"\",6:\"§6Immolate\",7:\"§8Passive\",8:\"§7Deals §c100 §7+ §c12% §7of your max §c❤\",9:\"§7as §ftrue §7damage every second.\",10:\"\",11:\"§5Demonsplit\",12:\"§8At 50% HP\",13:\"§7Splits into two powerful demons.\"],Name:\"§6Inferno Demonlord I (Boss)\"}}",
+  "displayname": "§6Inferno Demonlord I §7(§c§lBOSS§r§7)",
+  "nbttag": "{ExtraAttributes:{id:\"INFERNO_DEMONLORD_1_BOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"118fe834-28aa-3b0d-afe6-f0c52d01afe8\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Beginner\",1:\"\",2:\"§6Immolate\",3:\"§8Passive\",4:\"§7Deals §c100 §7+ §c12% §7of your max §c❤\",5:\"§7as §ftrue §7damage every second.\",6:\"\",7:\"§5Demonsplit\",8:\"§8At 50% HP\",9:\"§7Splits into two powerful demons.\"],Name:\"§6Inferno Demonlord I §7(§c§lBOSS§r§7)\"}}",
   "damage": 3,
   "lore": [
     "§8Beginner",
-    "",
-    "§7Health: §c2,500,000❤",
-    "§7Demons damage: §c2,500§7/s",
-    "§7Demons health: §c500,000❤",
     "",
     "§6Immolate",
     "§8Passive",
@@ -29,29 +25,25 @@
   ],
   "recipes": [
     {
-      "xp": 1,
+      "level": 436,
+      "xp": 5,
       "name": "§6Inferno Demonlord I",
       "render": "Blaze",
       "panorama": "crimson_isle",
-      "coins": 1,
-      "combat_xp": 50,
       "type": "drops",
       "drops": [
         {
           "id": "DERELICT_ASHE",
           "extra": [
             "x6-8"
-          ],
-          "chance": "100%"
+          ]
         },
         {
           "id": "ENCHANTED_BLAZE_POWDER",
-          "extra": [],
           "chance": "21.26%"
         },
         {
           "id": "DYE_FLAME",
-          "extra": [],
           "chance": "0.00001%"
         }
       ]

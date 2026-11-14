@@ -1,13 +1,10 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§6Revenant Horror V (Boss)",
-  "nbttag": "{ExtraAttributes:{id:\"REVENANT_HORROR_5_BOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"d6a01091-d766-391a-96a0-1091d766a91a\",Properties:{textures:[0:{Name:\"textures\",Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmIwYWFkMmY0ZjA2ZDJlMGNhODNjNTQ2MjQ2MDA2NWZjNGEwZDMwOTNhYjY3YzU2NGE1YWU1ZDg5ZGJmMDJiNCJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Excruciating\",1:\"\",2:\"§7Health: §c10,000,000❤\",3:\"§7Damage: §c2,400 §7per second\",4:\"\",5:\"§aRedemption\",6:\"§7Heals rapidly and is immune to magic\",7:\"§7damage.\",8:\"\",9:\"§cExplosive Assault\",10:\"§7Throws explosive TNT.\",11:\"\",12:\"§5Thermonuclear\",13:\"§7Charges up and releases a massive\",14:\"§7explosion.\"],Name:\"§6Revenant Horror V (Boss)\"},ench:[]}",
+  "displayname": "§2Revenant Horror V §7(§c§lBOSS§r§7)",
+  "nbttag": "{ExtraAttributes:{id:\"REVENANT_HORROR_5_BOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"d6a01091-d766-391a-96a0-1091d766a91a\",Properties:{textures:[0:{Name:\"textures\",Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmIwYWFkMmY0ZjA2ZDJlMGNhODNjNTQ2MjQ2MDA2NWZjNGEwZDMwOTNhYjY3YzU2NGE1YWU1ZDg5ZGJmMDJiNCJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Excruciating\",1:\"\",2:\"§aRedemption\",3:\"§7Heals rapidly and is immune to magic\",4:\"§7damage.\",5:\"\",6:\"§cExplosive Assault\",7:\"§7Throws explosive TNT.\",8:\"\",9:\"§5Thermonuclear\",10:\"§7Charges up and releases a massive\",11:\"§7explosion.\"],Name:\"§2Revenant Horror V §7(§c§lBOSS§r§7)\"},ench:[]}",
   "damage": 3,
   "lore": [
     "§8Excruciating",
-    "",
-    "§7Health: §c10,000,000❤",
-    "§7Damage: §c2,400 §7per second",
     "",
     "§aRedemption",
     "§7Heals rapidly and is immune to magic",
@@ -30,8 +27,9 @@
   ],
   "recipes": [
     {
+      "level": 377,
       "xp": 1500,
-      "name": "§6Revenant Horror V",
+      "name": "§2Revenant Horror V",
       "render": "@neurepo:mobs/revenant_horror_5.json",
       "type": "drops",
       "panorama": "hub",
@@ -39,9 +37,8 @@
         {
           "id": "REVENANT_FLESH",
           "extra": [
-            "x63-64"
-          ],
-          "chance": "100%"
+            "§eDrop Count: §7x63-64"
+          ]
         },
         {
           "id": "FOUL_FLESH",
@@ -104,7 +101,6 @@
         },
         {
           "id": "DYE_MATCHA",
-          "extra": [],
           "chance": "0.0004%"
         }
       ]

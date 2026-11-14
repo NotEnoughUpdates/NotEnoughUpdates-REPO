@@ -1,24 +1,14 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§cMinotaur (Mythological Creature)",
-  "nbttag": "{ExtraAttributes:{id:\"MINOTAUR_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"0dfc49ee-32db-3a19-8dfc-49ee32dbfa19\",Properties:{textures:[0:{Name:\"textures\",Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzU5MTJkYmQ0MjBjMGYzNWVkYjQxOGFiNmRlOGQ2NTVkYTdkMzRjYzhjNzdiYmVmM2E5MTJiNWRhZjEzZThlYiJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7The Minotaur is a rare mob in the Mythological\",1:\"§7Ritual. It will attack at melee range, and can\",2:\"§7throw an axe at you, temporarily slowing down\",3:\"§7your healing speed. It has a special mechanic\",4:\"§7called Bleed that allows it to do more damage.\",5:\"§7It increases by 1 every time it hits you, and\",6:\"§7increases by 3 every time its axe hits you.\",7:\"\",8:\"§7Mob Types: §2✿ Mythological§7, §e Humanoid\",9:\"§c❤ Health§8:\",10:\"§8[§5Griffin§8] §c1,500,000 ❤\",11:\"§8[§6Griffin§8] §c8,000,000 ❤\",12:\"§8[§dGriffin§8] §c15,500,000 ❤\",13:\"\",14:\"§9§lRARE\"],Name:\"§cMinotaur (Mythological Creature)\"}}",
+  "displayname": "§2Minotaur §7(§dEvent Monster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"MINOTAUR_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"0dfc49ee-32db-3a19-8dfc-49ee32dbfa19\",Properties:{textures:[0:{Name:\"textures\",Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzU5MTJkYmQ0MjBjMGYzNWVkYjQxOGFiNmRlOGQ2NTVkYTdkMzRjYzhjNzdiYmVmM2E5MTJiNWRhZjEzZThlYiJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §2 Mythological§7, §e Humanoid§7, §a Animal\",1:\"\",2:\"§7Buys his axes in bulk.\",3:\"\",4:\"§7Dug up from §eGriffin Burrows §7in the §aHub§7.\"],Name:\"§2Minotaur §7(§dEvent Monster§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7The Minotaur is a rare mob in the Mythological",
-    "§7Ritual. It will attack at melee range, and can",
-    "§7throw an axe at you, temporarily slowing down",
-    "§7your healing speed. It has a special mechanic",
-    "§7called Bleed that allows it to do more damage.",
-    "§7It increases by 1 every time it hits you, and",
-    "§7increases by 3 every time its axe hits you.",
+    "§7Mob Types: §2 Mythological§7, §e Humanoid§7, §a Animal",
     "",
-    "§7Mob Types: §2✿ Mythological§7, §e Humanoid",
-    "§c❤ Health§8:",
-    "§8[§5Griffin§8] §c1,500,000 ❤",
-    "§8[§6Griffin§8] §c8,000,000 ❤",
-    "§8[§dGriffin§8] §c15,500,000 ❤",
+    "§7Buys his axes in bulk.",
     "",
-    "§9§lRARE"
+    "§7Dug up from §eGriffin Burrows §7in the §aHub§7."
   ],
   "internalname": "MINOTAUR_MONSTER",
   "clickcommand": "viewrecipe",
@@ -30,101 +20,104 @@
   ],
   "recipes": [
     {
-      "level": 45,
-      "coins": 150,
-      "xp": 5,
-      "combat_xp": 30,
-      "name": "§cVenerable Minotaur",
+      "level": 141,
+      "coins": 47,
+      "combat_xp": 211,
+      "xp": 155,
+      "name": "§2Venerable Minotaur",
       "render": "@neurepo:mobs/minotaur.json",
       "panorama": "hub",
       "type": "drops",
-      "extra": [
-        "§cRequirements:",
-        "§7- §5Griffin",
-        "§7Chance: 7.14%"
-      ],
       "drops": [
         {
-          "id": "ANCIENT_CLAW:10",
-          "chance": "100%"
+          "id": "ANCIENT_CLAW:10"
         },
         {
-          "id": "ENCHANTED_GOLD:1",
+          "id": "ENCHANTED_GOLD:10",
           "chance": "50%"
         },
         {
-          "id": "DAEDALUS_STICK:1",
+          "id": "DAEDALUS_STICK",
           "chance": "0.08%"
         },
         {
           "id": "DYE_MYTHOLOGICAL",
-          "chance": "0.0002%"
+          "chance": "0.0004%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_MYTHOLOGICAL_FORTUNE;1",
+          "extra": [
+            "§7 - Catch with §cPocket Black Hole§7.",
+            "§7 - Charm §cMinotaur§7."
+          ]
         }
       ]
     },
     {
-      "level": 120,
-      "coins": 500,
-      "xp": 8,
-      "combat_xp": 60,
-      "name": "§cExalted Minotaur",
+      "level": 195,
+      "coins": 65,
+      "combat_xp": 292,
+      "xp": 214,
+      "name": "§2Exalted Minotaur",
       "render": "@neurepo:mobs/minotaur.json",
       "panorama": "hub",
-      "extra": [
-        "§cRequirements:",
-        "§7- §6Griffin",
-        "§7Chance: 6.96%"
-      ],
       "type": "drops",
       "drops": [
         {
-          "id": "ANCIENT_CLAW:12",
-          "chance": "100%"
+          "id": "ANCIENT_CLAW:12"
         },
         {
-          "id": "ENCHANTED_GOLD:1",
+          "id": "ENCHANTED_GOLD:12",
           "chance": "50%"
         },
         {
-          "id": "DAEDALUS_STICK:1",
+          "id": "DAEDALUS_STICK",
           "chance": "0.12%"
         },
         {
           "id": "DYE_MYTHOLOGICAL",
-          "chance": "0.0002%"
+          "chance": "0.0004%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_MYTHOLOGICAL_FORTUNE;1",
+          "extra": [
+            "§7 - Catch with §cPocket Black Hole§7.",
+            "§7 - Charm §cMinotaur§7."
+          ]
         }
       ]
     },
     {
-      "level": 210,
-      "coins": 2000,
-      "xp": 15,
-      "combat_xp": 150,
-      "name": "§cEmpyrean Minotaur",
+      "level": 236,
+      "coins": 78,
+      "combat_xp": 354,
+      "xp": 259,
+      "name": "§2Empyrean Minotaur",
       "render": "@neurepo:mobs/minotaur.json",
       "panorama": "hub",
-      "extra": [
-        "§cRequirements:",
-        "§7- §dGriffin",
-        "§7Chance: 6.92%"
-      ],
       "type": "drops",
       "drops": [
         {
-          "id": "ANCIENT_CLAW:14",
-          "chance": "100%"
+          "id": "ANCIENT_CLAW:14"
         },
         {
-          "id": "ENCHANTED_GOLD:1",
+          "id": "ENCHANTED_GOLD:14",
           "chance": "50%"
         },
         {
-          "id": "DAEDALUS_STICK:1",
+          "id": "DAEDALUS_STICK",
           "chance": "0.16%"
         },
         {
           "id": "DYE_MYTHOLOGICAL",
-          "chance": "0.0002%"
+          "chance": "0.0004%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_MYTHOLOGICAL_FORTUNE;1",
+          "extra": [
+            "§7 - Catch with §cPocket Black Hole§7.",
+            "§7 - Charm §cMinotaur§7."
+          ]
         }
       ]
     }

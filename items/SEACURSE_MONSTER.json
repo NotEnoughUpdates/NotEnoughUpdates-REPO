@@ -1,14 +1,15 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§aSeacurse (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"SEACURSE_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"01b77ad6-2139-3bec-81b7-7ad621397bec\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0MjE3MTI5NzQ5MiwKICAicHJvZmlsZUlkIiA6ICJiNjc3NTgwYzExYmU0ZjNiODI1OGM0YjBkNzNhNzg0ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJPZmZpY2lhbGx5SksiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODYyZjQwODMzNzM0ZjdkOWZmYTVlODEwMDVlOWIzMTIzNDgxNTE4ODYyODk4MDA3NzI2N2YxM2MwZTU2MGVjNiIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7They are a little washed up.\",1:\"\",2:\"§7Mob Types: §2 Woodland§7, §9 Aquatic§7, §2 Undead\",3:\"§c❤ Health§8: §c5,000\",4:\"§c❁ Damage§8: §c300\"],Name:\"§aSeacurse (Monster)\"}}",
+  "displayname": "§2Seacurse §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"SEACURSE_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"01b77ad6-2139-3bec-81b7-7ad621397bec\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0MjE3MTI5NzQ5MiwKICAicHJvZmlsZUlkIiA6ICJiNjc3NTgwYzExYmU0ZjNiODI1OGM0YjBkNzNhNzg0ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJPZmZpY2lhbGx5SksiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODYyZjQwODMzNzM0ZjdkOWZmYTVlODEwMDVlOWIzMTIzNDgxNTE4ODYyODk4MDA3NzI2N2YxM2MwZTU2MGVjNiIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §2 Woodland§7, §9 Aquatic§7, §2 Undead\",1:\"\",2:\"§7They are a little washed up.\",3:\"\",4:\"§7Found in the §cDrowned Reliquary §7of\",5:\"§7the §2Moonglade Marsh§7.\"],Name:\"§2Seacurse §7(§cMonster§7)\"}}",
   "damage": 3,
   "lore": [
+    "§7Mob Types: §2 Woodland§7, §9 Aquatic§7, §2 Undead",
+    "",
     "§7They are a little washed up.",
     "",
-    "§7Mob Types: §2 Woodland§7, §9 Aquatic§7, §2 Undead",
-    "§c❤ Health§8: §c5,000",
-    "§c❁ Damage§8: §c300"
+    "§7Found in the §cDrowned Reliquary §7of",
+    "§7the §2Moonglade Marsh§7."
   ],
   "internalname": "SEACURSE_MONSTER",
   "clickcommand": "viewrecipe",
@@ -20,10 +21,11 @@
   ],
   "recipes": [
     {
-      "level": 100,
-      "coins": 20,
-      "xp": 100,
-      "name": "§cSeacurse",
+      "level": 42,
+      "coins": 14,
+      "combat_xp": 63,
+      "xp": 46,
+      "name": "§2Seacurse",
       "render": "Drowned",
       "panorama": "foraging_2",
       "type": "drops",

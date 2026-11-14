@@ -1,29 +1,15 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§cGaia Construct (Mythological Creature)",
-  "nbttag": "{ExtraAttributes:{id:\"GAIA_CONSTRUCT_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"a46a9adf-60a3-38f2-a3dd-335d85f1cc10\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJiY2FjZWViNDE2MmY0MDBkNDQ3NDMzMTU5MzJhYzgyMGQzMTE5YWM4OTg2YTAxNjFhNzI2MTYxY2NjOTNmYyJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7The Gaia Construct is a Mythological Creature\",1:\"§7that can be found by using a §9rare §7or higher \",2:\"§7Griffin Pet. It deals §6True Knockback §7and ignores \",3:\"§7anti-knockback capabilities like Dwarf Turtle\",4:\"§7Shelmet. It has three stages upon spawning:\",5:\"\",6:\"§aStage 1§8: §7Damaged once every 6 hits, \",7:\"§7summons a little lightning.\",8:\"§9Stage 2 (66% HP)§8: §7Damaged once every 7 hits,\",9:\"§7summons more lightning.               \",10:\"§cStage 3 (33% HP)§8: §7Damaged once every 8 hits,\",11:\"§7summons the most lightning.\",12:\"\",13:\"§7Mob Types: §2✿ Mythological§7,  Construct\",14:\"§c❤ Health§8:\",15:\"§8[§9Griffin§8/§5Griffin§8] §c175,000 ❤\",16:\"§8[§6Griffin§8] §c650,000 ❤\",17:\"§8[§dGriffin§8] §c3,500,000 ❤\",18:\"\",19:\"§9§lRARE\"],Name:\"§cGaia Construct (Mythological Creature)\"}}",
+  "displayname": "§2Gaia Construct §7(§dEvent Monster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"GAIA_CONSTRUCT_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"a46a9adf-60a3-38f2-a3dd-335d85f1cc10\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJiY2FjZWViNDE2MmY0MDBkNDQ3NDMzMTU5MzJhYzgyMGQzMTE5YWM4OTg2YTAxNjFhNzI2MTYxY2NjOTNmYyJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §2 Mythological§7, §7 Construct\",1:\"\",2:\"§7A construct truly connected to the\",3:\"§7Earth.\",4:\"\",5:\"§7Dug up from §eGriffin Burrows §7in the §aHub§7.\"],Name:\"§2Gaia Construct §7(§dEvent Monster§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7The Gaia Construct is a Mythological Creature",
-    "§7that can be found by using a §9rare §7or higher ",
-    "§7Griffin Pet. It deals §6True Knockback §7and ignores ",
-    "§7anti-knockback capabilities like Dwarf Turtle",
-    "§7Shelmet. It has three stages upon spawning:",
+    "§7Mob Types: §2 Mythological§7, §7 Construct",
     "",
-    "§aStage 1§8: §7Damaged once every 6 hits, ",
-    "§7summons a little lightning.",
-    "§9Stage 2 (66% HP)§8: §7Damaged once every 7 hits,",
-    "§7summons more lightning.               ",
-    "§cStage 3 (33% HP)§8: §7Damaged once every 8 hits,",
-    "§7summons the most lightning.",
+    "§7A construct truly connected to the",
+    "§7Earth.",
     "",
-    "§7Mob Types: §2✿ Mythological§7,  Construct",
-    "§c❤ Health§8:",
-    "§8[§9Griffin§8/§5Griffin§8] §c175,000 ❤",
-    "§8[§6Griffin§8] §c650,000 ❤",
-    "§8[§dGriffin§8] §c3,500,000 ❤",
-    "",
-    "§9§lRARE"
+    "§7Dug up from §eGriffin Burrows §7in the §aHub§7."
   ],
   "internalname": "GAIA_CONSTRUCT_MONSTER",
   "clickcommand": "viewrecipe",
@@ -35,97 +21,109 @@
   ],
   "recipes": [
     {
-      "level": 85,
-      "coins": 300,
-      "xp": 5,
-      "combat_xp": 30,
-      "name": "§cStalwart Gaia Construct",
-      "panorama": "hub",
+      "level": 106,
+      "coins": 35,
+      "combat_xp": 159,
+      "xp": 116,
+      "name": "§2Stalwart Gaia Construct",
       "render": "Eisengolem",
-      "extra": [
-        "§cRequirements:",
-        "§7- §9Griffin",
-        "§7Chance: 22.22%",
-        "§7- §5Griffin",
-        "§7Chance: 28.57%"
-      ],
+      "panorama": "hub",
       "type": "drops",
       "drops": [
         {
-          "id": "ANCIENT_CLAW:7",
-          "chance": "100%"
+          "id": "ANCIENT_CLAW:7"
         },
         {
           "id": "ENCHANTED_GOLD:7",
           "chance": "50%"
         },
         {
-          "id": "DWARF_TURTLE_SHELMET:1",
+          "id": "DWARF_TURTLE_SHELMET",
           "chance": "0.35%"
         },
         {
-          "id": "DYE_MYTHOLOGICAL:1",
+          "id": "DYE_MYTHOLOGICAL",
           "chance": "0.0002%"
         }
       ]
     },
     {
-      "level": 140,
-      "coins": 400,
-      "xp": 5,
-      "combat_xp": 45,
-      "name": "§cVenerable Gaia Construct",
-      "panorama": "hub",
+      "level": 164,
+      "coins": 54,
+      "combat_xp": 246,
+      "xp": 180,
+      "name": "§2Venerable Gaia Construct",
       "render": "Eisengolem",
-      "extra": [
-        "§cRequirements:",
-        "§7- §6Griffin",
-        "§7Chance: 24.69%"
-      ],
+      "panorama": "hub",
       "type": "drops",
       "drops": [
         {
-          "id": "ANCIENT_CLAW:7",
-          "chance": "100%"
+          "id": "ANCIENT_CLAW:8"
         },
         {
-          "id": "ENCHANTED_GOLD:7",
+          "id": "ENCHANTED_GOLD:8",
           "chance": "50%"
         },
         {
-          "id": "DWARF_TURTLE_SHELMET:1",
+          "id": "DWARF_TURTLE_SHELMET",
           "chance": "0.4%"
         },
         {
-          "id": "DYE_MYTHOLOGICAL:1",
+          "id": "DYE_MYTHOLOGICAL",
           "chance": "0.0002%"
         }
       ]
     },
     {
-      "level": 325,
-      "coins": 600,
-      "xp": 5,
-      "combat_xp": 75,
-      "name": "§cEmpyrean Gaia Construct",
-      "panorama": "hub",
+      "level": 203,
+      "coins": 67,
+      "combat_xp": 304,
+      "xp": 223,
+      "name": "§2Exalted Gaia Construct",
       "render": "Eisengolem",
+      "panorama": "hub",
       "type": "drops",
       "drops": [
         {
-          "id": "ANCIENT_CLAW:7",
-          "chance": "100%"
+          "id": "ANCIENT_CLAW:10"
         },
         {
-          "id": "ENCHANTED_GOLD:7",
+          "id": "ENCHANTED_GOLD:10",
           "chance": "50%"
         },
         {
-          "id": "DWARF_TURTLE_SHELMET:1",
+          "id": "DWARF_TURTLE_SHELMET",
+          "chance": "0.5%"
+        },
+        {
+          "id": "DYE_MYTHOLOGICAL",
+          "chance": "0.0002%"
+        }
+      ]
+    },
+    {
+      "level": 240,
+      "coins": 80,
+      "combat_xp": 360,
+      "xp": 264,
+      "name": "§2Empyrean Gaia Construct",
+      "render": "Eisengolem",
+      "panorama": "hub",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ANCIENT_CLAW:12"
+        },
+        {
+          "id": "ENCHANTED_GOLD:12",
+          "chance": "50%"
+        },
+        {
+          "id": "DWARF_TURTLE_SHELMET",
           "chance": "0.6%"
         },
         {
-          "id": "DYE_MYTHOLOGICAL:1",
+          "id": "DYE_MYTHOLOGICAL",
           "chance": "0.0002%"
         }
       ]

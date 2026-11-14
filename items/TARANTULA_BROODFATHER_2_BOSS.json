@@ -1,13 +1,10 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§6Tarantula Broodfather II (Boss)",
-  "nbttag": "{ExtraAttributes:{id:\"TARANTULA_BROODFATHER_2_BOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"7c63f3cf-a963-311a-aeca-3a075b417806\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q1NDE1NDFkYWFmZjUwODk2Y2QyNThiZGJkZDRjZjgwYzNiYTgxNjczNTcyNjA3OGJmZTM5MzkyN2U1N2YxIn19fQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Strong\",1:\"\",2:\"§7Health: §c30,000❤\",3:\"§7Damage: §c55 §7per second\",4:\"\",5:\"§eBackstab\",6:\"§7Occasionally leaps behind you. Attacks\",7:\"§7from behind deal §c+30% Damage§7.\",8:\"\",9:\"§eNoxious Paralysis\",10:\"§7Reduces your §4 Vitality§7 by §c15% §7and §f\",11:\"Speed§7 by §c10%§7.\"],Name:\"§6Tarantula Broodfather II (Boss)\"},ench:[]}",
+  "displayname": "§cTarantula Broodfather II §7(§c§lBOSS§r§7)",
+  "nbttag": "{ExtraAttributes:{id:\"TARANTULA_BROODFATHER_2_BOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"7c63f3cf-a963-311a-aeca-3a075b417806\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q1NDE1NDFkYWFmZjUwODk2Y2QyNThiZGJkZDRjZjgwYzNiYTgxNjczNTcyNjA3OGJmZTM5MzkyN2U1N2YxIn19fQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Strong\",1:\"\",2:\"§eBackstab\",3:\"§7Occasionally leaps behind you. Attacks\",4:\"§7from behind deal §c+30% Damage§7.\",5:\"\",6:\"§eNoxious Paralysis\",7:\"§7Reduces your §4 Vitality§7 by §c15% §7and §f\",8:\"Speed§7 by §c10%§7.\"],Name:\"§cTarantula Broodfather II §7(§c§lBOSS§r§7)\"},ench:[]}",
   "damage": 3,
   "lore": [
     "§8Strong",
-    "",
-    "§7Health: §c30,000❤",
-    "§7Damage: §c55 §7per second",
     "",
     "§eBackstab",
     "§7Occasionally leaps behind you. Attacks",
@@ -27,10 +24,9 @@
   ],
   "recipes": [
     {
-      "xp": 1,
-      "combat_xp": 50,
-      "coins": 1,
-      "name": "§6Tarantula Broodfather II",
+      "level": 79,
+      "xp": 25,
+      "name": "§cTarantula Broodfather II",
       "render": "Spider",
       "panorama": "combat_1",
       "type": "drops",
@@ -39,15 +35,14 @@
           "id": "TARANTULA_WEB",
           "extra": [
             "§eWeight: 10,000",
-            "§7x9-18"
-          ],
-          "chance": "100%"
+            "§eDrop Count: §7x9-18"
+          ]
         },
         {
           "id": "TOXIC_ARROW_POISON",
           "extra": [
             "§eWeight: 1,800",
-            "§7x6-8"
+            "§eDrop Count: §7x6-8"
           ],
           "chance": "15.094%"
         },
@@ -67,7 +62,6 @@
         },
         {
           "id": "DYE_BRICK_RED",
-          "extra": [],
           "chance": "0.00004%"
         }
       ]

@@ -1,13 +1,15 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Undead Skeleton (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"UNDEAD_SKELETON_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:skeleton_skull\",display:{Lore:[0:\"§7Redundant name.\",1:\"\",2:\"§c❤ Health§8: §c25,000 - 360,000\",3:\"§c❤ Health §8(MM) : §c4,500,000 - 12,800,000\"],Name:\"§9Undead Skeleton (Monster)\"}}",
+  "displayname": "§cUndead Skeleton §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"UNDEAD_SKELETON_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:skeleton_skull\",display:{Lore:[0:\"§7Mob Type: §f Skeletal\",1:\"\",2:\"§7Redundant name.\",3:\"\",4:\"§7Forms from the skulls of the slain of\",5:\"§7the §cCatacombs§7.\"],Name:\"§cUndead Skeleton §7(§cMonster§7)\"}}",
   "damage": 0,
   "lore": [
+    "§7Mob Type: §f Skeletal",
+    "",
     "§7Redundant name.",
     "",
-    "§c❤ Health§8: §c25,000 - 360,000",
-    "§c❤ Health §8(MM) : §c4,500,000 - 12,800,000"
+    "§7Forms from the skulls of the slain of",
+    "§7the §cCatacombs§7."
   ],
   "internalname": "UNDEAD_SKELETON_MONSTER",
   "clickcommand": "viewrecipe",
@@ -19,12 +21,9 @@
   ],
   "recipes": [
     {
-      "combat_xp": 36,
-      "coins": 1,
-      "xp": 30,
       "name": "§cUndead Skeleton",
-      "panorama": "dungeon",
       "render": "@neurepo:mobs/undead_skeleton.json",
+      "panorama": "dungeon",
       "type": "drops",
       "drops": [
         {

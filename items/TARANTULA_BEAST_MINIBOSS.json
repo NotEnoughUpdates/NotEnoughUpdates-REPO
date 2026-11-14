@@ -1,14 +1,16 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§5Tarantula Beast (Miniboss)",
-  "nbttag": "{ExtraAttributes:{id:\"TARANTULA_BEAST_MINIBOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"7c63f3cf-a963-311a-aeca-3a075b417806\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q1NDE1NDFkYWFmZjUwODk2Y2QyNThiZGJkZDRjZjgwYzNiYTgxNjczNTcyNjA3OGJmZTM5MzkyN2U1N2YxIn19fQ=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7The Tarantula Beast is Tarantula Broodfather Miniboss.\",1:\"§7It spawns rarely when a player doing the Tarantula\",2:\"§7Broodfather Tier IV quest kills a spider.\",3:\"\",4:\"§c❤ Health§8: §c144,000\"],Name:\"§5Tarantula Beast (Miniboss)\"}}",
+  "displayname": "§4Tarantula Beast §7(§c§lMINIBOSS§r§7)",
+  "nbttag": "{ExtraAttributes:{id:\"TARANTULA_BEAST_MINIBOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"7c63f3cf-a963-311a-aeca-3a075b417806\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q1NDE1NDFkYWFmZjUwODk2Y2QyNThiZGJkZDRjZjgwYzNiYTgxNjczNTcyNjA3OGJmZTM5MzkyN2U1N2YxIn19fQ=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Type: §4 Arthropod\",1:\"\",2:\"§7One hefty spider! It grew way larger than it\",3:\"§7ever should have.\",4:\"\",5:\"§4Tarantula Vermin §7spawn from slain §cSpiders §7while,\",6:\"§7fulfilling a §cTarantula Broodfather §4Tier IV§7 Quest.\"],Name:\"§4Tarantula Beast §7(§c§lMINIBOSS§r§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7The Tarantula Beast is Tarantula Broodfather Miniboss.",
-    "§7It spawns rarely when a player doing the Tarantula",
-    "§7Broodfather Tier IV quest kills a spider.",
+    "§7Mob Type: §4 Arthropod",
     "",
-    "§c❤ Health§8: §c144,000"
+    "§7One hefty spider! It grew way larger than it",
+    "§7ever should have.",
+    "",
+    "§4Tarantula Vermin §7spawn from slain §cSpiders §7while,",
+    "§7fulfilling a §cTarantula Broodfather §4Tier IV§7 Quest."
   ],
   "internalname": "TARANTULA_BEAST_MINIBOSS",
   "clickcommand": "viewrecipe",
@@ -20,15 +22,16 @@
   ],
   "recipes": [
     {
-      "name": "§cTarantula Beast",
+      "level": 210,
+      "combat_xp": 1575,
+      "xp": 630,
+      "name": "§4Tarantula Beast",
       "render": "Spider",
-      "level": 190,
-      "type": "drops",
       "panorama": "combat_1",
+      "type": "drops",
       "drops": [
         {
-          "id": "TARANTULA_WEB:2",
-          "chance": "100%"
+          "id": "TARANTULA_WEB:2"
         }
       ]
     }

@@ -1,14 +1,16 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Diamond Goblin (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"DIAMOND_GOBLIN_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"73295c81-4085-34e9-83e4-fcaf4b335156\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5NjI5MTQ2NDM2NywKICAicHJvZmlsZUlkIiA6ICI2NTk0YzdiMTExOWE0Njc3ODc0Y2ZmOWNlMzM3NzYxOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXJzaG1lbGxvMjIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFkMjExNjgyN2E0MWE3MTM2NjBiYjUyYzliYTNiYzZkZDAzODE3NWFmYjc0YTQ3M2I4NWYwY2Y2MGZmNzBlMiIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7The §bDiamond Goblin §7has a §a3.33% §7chance \",1:\"§7to replace a §6Golden Goblin §7when it is spawned.\",2:\"\",3:\"§7Mob Types: §e Humanoid§7, §e Shielded§7, §d♣ Elusive\",4:\"§c❤ Health§8: §c5\"],Name:\"§9Diamond Goblin (Monster)\"}}",
+  "displayname": "§2Diamond Goblin §7(§eCreature§7)",
+  "nbttag": "{ExtraAttributes:{id:\"DIAMOND_GOBLIN_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"73295c81-4085-34e9-83e4-fcaf4b335156\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5NjI5MTQ2NDM2NywKICAicHJvZmlsZUlkIiA6ICI2NTk0YzdiMTExOWE0Njc3ODc0Y2ZmOWNlMzM3NzYxOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXJzaG1lbGxvMjIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFkMjExNjgyN2E0MWE3MTM2NjBiYjUyYzliYTNiYzZkZDAzODE3NWFmYjc0YTQ3M2I4NWYwY2Y2MGZmNzBlMiIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §e Shielded§7, §e Timid§7, §d Elusive\",1:\"\",2:\"§7Does nothing but steal, even from its\",3:\"§7fellow goblins.\",4:\"\",5:\"§7Has a §e3.33% §7chance to spawn instead of\",6:\"§2Golden Goblins§7.\"],Name:\"§2Diamond Goblin §7(§eCreature§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7The §bDiamond Goblin §7has a §a3.33% §7chance ",
-    "§7to replace a §6Golden Goblin §7when it is spawned.",
+    "§7Mob Types: §e Shielded§7, §e Timid§7, §d Elusive",
     "",
-    "§7Mob Types: §e Humanoid§7, §e Shielded§7, §d♣ Elusive",
-    "§c❤ Health§8: §c5"
+    "§7Does nothing but steal, even from its",
+    "§7fellow goblins.",
+    "",
+    "§7Has a §e3.33% §7chance to spawn instead of",
+    "§2Golden Goblins§7."
   ],
   "internalname": "DIAMOND_GOBLIN_MONSTER",
   "clickcommand": "viewrecipe",
@@ -20,19 +22,14 @@
   ],
   "recipes": [
     {
-      "level": 500,
-      "coins": 250,
-      "xp": 100,
-      "combat_xp": 20,
-      "name": "§cDiamond Goblin",
+      "level": 510900,
+      "coins": 36,
+      "combat_xp": 36,
+      "xp": 119,
+      "name": "§2Diamond Goblin",
       "panorama": "mining_3",
       "render": "@neurepo:mobs/diamond_goblin.json",
       "type": "drops",
-      "extra": [
-        "§7Other Drops:",
-        "§7+ §2400 Mithril Powder",
-        "§7+ §d400 Gemstone Powder"
-      ],
       "drops": [
         {
           "id": "ESSENCE_DIAMOND:20",
@@ -43,11 +40,15 @@
           "chance": "100%"
         },
         {
-          "id": "PET_ITEM_PURE_MITHRIL_GEM:1",
+          "id": "PET_ITEM_PURE_MITHRIL_GEM",
           "chance": "1%"
         },
         {
           "id": "SKYBLOCK_POWDER_MITHRIL:1000",
+          "chance": "100%"
+        },
+        {
+          "id": "SKYBLOCK_POWDER_GEMSTONE:1000",
           "chance": "100%"
         }
       ]

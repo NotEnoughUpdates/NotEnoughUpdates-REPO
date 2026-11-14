@@ -1,15 +1,14 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Weaver Spider (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"WEAVER_SPIDER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"97414c0c-623b-3df3-b1f6-bbcaddafc7fc\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIxNDM4ZjY0NmRjMDQ1MTU5NjdlODE5NWNjYzNkMzFlMjNiMDJmOWFhMGFjOTE0ZWRjMjgyMmY5ODM5NGI4NiJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7The Weaver Spider is a spider that acts normally, but\",1:\"§7it can also shoot webs that slow you down for a small\",2:\"§7amount of time. Weaver Spiders can be found in the\",3:\"§7Spider's Den, usually higher up in the nest. \",4:\"\",5:\"§c❤ Health§8: §c160 - 800\"],Name:\"§9Weaver Spider (Monster)\"}}",
+  "displayname": "§cWeaver Spider §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"WEAVER_SPIDER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"97414c0c-623b-3df3-b1f6-bbcaddafc7fc\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIxNDM4ZjY0NmRjMDQ1MTU5NjdlODE5NWNjYzNkMzFlMjNiMDJmOWFhMGFjOTE0ZWRjMjgyMmY5ODM5NGI4NiJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob type: §4 Arthropod\",1:\"\",2:\"§7Spins a web of lies.\",3:\"\",4:\"§7Found in §cSpider's Den§7.\"],Name:\"§cWeaver Spider §7(§cMonster§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7The Weaver Spider is a spider that acts normally, but",
-    "§7it can also shoot webs that slow you down for a small",
-    "§7amount of time. Weaver Spiders can be found in the",
-    "§7Spider's Den, usually higher up in the nest. ",
+    "§7Mob type: §4 Arthropod",
     "",
-    "§c❤ Health§8: §c160 - 800"
+    "§7Spins a web of lies.",
+    "",
+    "§7Found in §cSpider's Den§7."
   ],
   "internalname": "WEAVER_SPIDER_MONSTER",
   "clickcommand": "viewrecipe",
@@ -21,72 +20,214 @@
   ],
   "recipes": [
     {
-      "level": 3,
-      "coins": 2,
-      "xp": 6,
-      "combat_xp": 9,
+      "level": 4,
+      "coins": 1,
+      "combat_xp": 6,
+      "xp": 4,
       "name": "§cWeaver Spider",
-      "panorama": "combat_1",
       "render": "Spider",
+      "panorama": "combat_1",
       "type": "drops",
       "drops": [
         {
-          "id": "SPIDER_EYE:1",
+          "id": "SPIDER_EYE",
           "chance": "50%"
         },
         {
-          "id": "STRING:1",
+          "id": "STRING",
           "chance": "100%"
         },
         {
-          "id": "SPIDERS_DEN_TOP_TRAVEL_SCROLL:1",
+          "id": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
           "chance": "0.02%"
         },
         {
-          "id": "TARANTULA;3:1",
+          "id": "TARANTULA;3",
           "chance": "0.004%"
         },
         {
-          "id": "TARANTULA;4:1",
+          "id": "TARANTULA;4",
           "chance": "0.001%"
         }
       ]
     },
     {
-      "level": 42,
-      "coins": 10,
-      "xp": 10,
-      "combat_xp": 28,
+      "level": 5,
+      "coins": 1,
+      "combat_xp": 7,
+      "xp": 5,
       "name": "§cWeaver Spider",
-      "panorama": "combat_1",
       "render": "Spider",
+      "panorama": "combat_1",
       "type": "drops",
       "drops": [
         {
-          "id": "SPIDER_EYE:1",
+          "id": "SPIDER_EYE",
+          "chance": "50%"
+        },
+        {
+          "id": "STRING",
+          "chance": "100%"
+        },
+        {
+          "id": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+          "chance": "0.02%"
+        },
+        {
+          "id": "TARANTULA;3",
+          "chance": "0.004%"
+        },
+        {
+          "id": "TARANTULA;4",
+          "chance": "0.001%"
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "coins": 2,
+      "combat_xp": 9,
+      "xp": 6,
+      "name": "§cWeaver Spider",
+      "render": "Spider",
+      "panorama": "combat_1",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "SPIDER_EYE",
+          "chance": "50%"
+        },
+        {
+          "id": "STRING",
+          "chance": "100%"
+        },
+        {
+          "id": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+          "chance": "0.02%"
+        },
+        {
+          "id": "TARANTULA;3",
+          "chance": "0.004%"
+        },
+        {
+          "id": "TARANTULA;4",
+          "chance": "0.001%"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "coins": 2,
+      "combat_xp": 30,
+      "xp": 7,
+      "name": "§cWeaver Spider",
+      "render": "Spider",
+      "panorama": "combat_1",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "SPIDER_EYE:2",
           "chance": "80%"
         },
         {
-          "id": "STRING:1",
+          "id": "STRING",
           "extra": [
             "§eDrop Count: §7x1-2"
           ],
           "chance": "100%"
         },
         {
-          "id": "ARACHNE_KEEPER_FRAGMENT:1",
+          "id": "ARACHNE_KEEPER_FRAGMENT",
           "chance": "0.2%"
         },
         {
-          "id": "SPIDERS_DEN_TOP_TRAVEL_SCROLL:1",
+          "id": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
           "chance": "0.02%"
         },
         {
-          "id": "TARANTULA;3:1",
+          "id": "TARANTULA;3",
           "chance": "0.004%"
         },
         {
-          "id": "TARANTULA;4:1",
+          "id": "TARANTULA;4",
+          "chance": "0.001%"
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "coins": 2,
+      "combat_xp": 40,
+      "xp": 8,
+      "name": "§cWeaver Spider",
+      "render": "Spider",
+      "panorama": "combat_1",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "SPIDER_EYE:2",
+          "chance": "80%"
+        },
+        {
+          "id": "STRING",
+          "extra": [
+            "§eDrop Count: §7x1-2"
+          ],
+          "chance": "100%"
+        },
+        {
+          "id": "ARACHNE_KEEPER_FRAGMENT",
+          "chance": "0.2%"
+        },
+        {
+          "id": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+          "chance": "0.02%"
+        },
+        {
+          "id": "TARANTULA;3",
+          "chance": "0.004%"
+        },
+        {
+          "id": "TARANTULA;4",
+          "chance": "0.001%"
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "coins": 3,
+      "combat_xp": 50,
+      "xp": 9,
+      "name": "§cWeaver Spider",
+      "render": "Spider",
+      "panorama": "combat_1",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "SPIDER_EYE:2",
+          "chance": "80%"
+        },
+        {
+          "id": "STRING",
+          "extra": [
+            "§eDrop Count: §7x1-2"
+          ],
+          "chance": "100%"
+        },
+        {
+          "id": "ARACHNE_KEEPER_FRAGMENT",
+          "chance": "0.2%"
+        },
+        {
+          "id": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+          "chance": "0.02%"
+        },
+        {
+          "id": "TARANTULA;3",
+          "chance": "0.004%"
+        },
+        {
+          "id": "TARANTULA;4",
           "chance": "0.001%"
         }
       ]

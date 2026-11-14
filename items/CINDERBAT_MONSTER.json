@@ -1,10 +1,15 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§aCinderbat (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"CINDERBAT_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"62e67882-f5a4-411b-816f-2f704b3feb51\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc2NjE5NjUyZmFmZWM5MGNlOThkZjUwMTNjNjNkYzZhNzc3NzZhYjI3ODczYjczZGFmYjJiNmJkZWIxODUifX19=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§c❤ Health§8: §c5.000.000\"],Name:\"§aCinderbat (Monster)\"}}",
+  "displayname": "§cCinderbat §7(§eCreature§7)",
+  "nbttag": "{ExtraAttributes:{id:\"CINDERBAT_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"7a41986b-ac0f-3172-ac53-e4aa502605fa\",Properties:{textures:[0:{Name:\"textures\",Signature:\"pWU/h4ALr9IKMawA8cmjE/KNNdqeDA3ACmvLGeHHTG3Mh0znTE7uEYCFYCBrD8o2THU5pTGum3UcgyTPp5of7jdyz7WTD9qRhRKu5Zba8GlWGV1701GB/S0DO6ABzmDHhd4woSVjkF8+uw3gbI4Jxx7wybc2qCbb/pX1BcruJQ62xe5txF9U0m9LrMfP4t0Ctafgifoa0S9mSdGqZQastGa+xp9Wx0AWdfwAx6Szgprri+2m3uStpTApL9YMvvaQrNsgHU20rErp3RW0AZhU8HZB3R3PpUnKkyR2TFi1LX5fswlv3lGtfWdO1eIQi6XneJEF7x+aDt06bKgshlNFk0quH6DYGmzumKHY58mSV/Y7JAJV+y3yxNbNQyuXi/9vCOQgkhEsuqPXsDiW10IDDxN/jsGlJ4SP6SvYuEk0jyl1wNzyHk1+fBmUNmadLmwCTMNJrbYkR8MMcbRrpJLmbixBNNn0OdvKF+w5kPu6Q0vM2gn+uGc2bwjPVPznl8Uzmk24Q5fzirNxbtzmh0i6kGNM5dgHjYml2rR6b5cbl6/mmAlbyUa3PHkTR9e1OOIasHVFS1ax9Aoui2oXq2rsL/tUV/z7j3vY9RPxgObfJcC79E1irkK054EnhjCwchTTYpUmlM+AVH915T2w5FIqwjNUo6eiK2iFkbNZZEgXXyg=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4NDEyNjgwMzA3NywKICAicHJvZmlsZUlkIiA6ICI3MjU1MDA3NjQzYzQ0YTZiYjM3MjJlNzc3OTk5OTFkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4ZW50YW55IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FlYTNiMDAyMGQwM2EzYWVmNzJiYTE4ZjliMTkwOTM5NjgzYTZhNWEwMmMxMzAyM2VlYTY3ZmFmYWFlNjZkNCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §a Animal§7, §4 Infernal, §7 Airborne\",1:\"\",2:\"§7Because of the heat of the Isle, these guys don't\",3:\"§7need to huddle and are commonly by their lonesome.\",4:\"\",5:\"§7Found near the §4Magma Chamber §7on the §cCrimson Isle§7.\"],Name:\"§cCinderbat §7(§eCreature§7)\"}}",
   "damage": 3,
   "lore": [
-    "§c❤ Health§8: §c5.000.000"
+    "§7Mob Types: §a Animal§7, §4 Infernal, §7 Airborne",
+    "",
+    "§7Because of the heat of the Isle, these guys don't",
+    "§7need to huddle and are commonly by their lonesome.",
+    "",
+    "§7Found near the §4Magma Chamber §7on the §cCrimson Isle§7."
   ],
   "internalname": "CINDERBAT_MONSTER",
   "clickcommand": "viewrecipe",
@@ -16,17 +21,17 @@
   ],
   "recipes": [
     {
-      "name": "§aCinderbat",
-      "coins": 1000,
-      "xp": 500,
-      "combat_xp": 300,
-      "level": 90,
+      "level": 264,
+      "coins": 88,
+      "combat_xp": 396,
+      "xp": 290,
+      "name": "§cCinderbat",
       "render": "Bat",
       "panorama": "crimson_isle",
       "type": "drops",
       "drops": [
         {
-          "id": "FLAMES:1",
+          "id": "FLAMES",
           "chance": "1%"
         },
         {

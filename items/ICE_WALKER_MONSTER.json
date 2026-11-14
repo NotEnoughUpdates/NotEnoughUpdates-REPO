@@ -1,15 +1,16 @@
 {
   "itemid": "minecraft:packed_ice",
-  "displayname": "§9Glacite Walker (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"ICE_WALKER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:packed_ice\",display:{Lore:[0:\"§7The Glacite Walker is a mob that spawns in the Great\",1:\"§7Ice Wall area in the Dwarven Mines. They are\",2:\"§7required to be killed for one commission.\",3:\"\",4:\"§7Mob Types: §b Glacial§7, §e Humanoid\",5:\"§c❤ Health§8: §c888\"],Name:\"§9Glacite Walker (Monster)\"}}",
+  "displayname": "§2Glacite Walker §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"ICE_WALKER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:packed_ice\",display:{Lore:[0:\"§7Mob Types: §d Glacial§7, §e Humanoid\",1:\"\",2:\"§7Guardians of the Gate to the icy\",3:\"§7caves below.\",4:\"\",5:\"§7Found at the §bGreat Ice Wall §7of\",6:\"§7the §2Dwarven Mines§7.\"],Name:\"§2Glacite Walker §7(§cMonster§7)\"}}",
   "damage": 0,
   "lore": [
-    "§7The Glacite Walker is a mob that spawns in the Great",
-    "§7Ice Wall area in the Dwarven Mines. They are",
-    "§7required to be killed for one commission.",
+    "§7Mob Types: §d Glacial§7, §e Humanoid",
     "",
-    "§7Mob Types: §b Glacial§7, §e Humanoid",
-    "§c❤ Health§8: §c888"
+    "§7Guardians of the Gate to the icy",
+    "§7caves below.",
+    "",
+    "§7Found at the §bGreat Ice Wall §7of",
+    "§7the §2Dwarven Mines§7."
   ],
   "internalname": "ICE_WALKER_MONSTER",
   "clickcommand": "viewrecipe",
@@ -21,11 +22,11 @@
   ],
   "recipes": [
     {
-      "level": 45,
+      "level": 24,
       "coins": 8,
-      "xp": 8,
-      "combat_xp": 40,
-      "name": "§cGlacite Walker",
+      "combat_xp": 36,
+      "xp": 26,
+      "name": "§2Glacite Walker",
       "render": "@neurepo:mobs/ice_walker.json",
       "panorama": "mining_3",
       "type": "drops",
@@ -51,7 +52,7 @@
           "chance": "0.5%"
         },
         {
-          "id": "ATTRIBUTE_SHARD_ICE_ESSENCE;1:1",
+          "id": "ATTRIBUTE_SHARD_ICE_ESSENCE;1",
           "extra": [
             "§7 §7- §7Catch with §cPocket Black Hole§7.",
             "§7 §7- §7Kill Glacite Walker §7while using §cSalts§7."

@@ -1,13 +1,15 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Voidling Extremist (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"VOIDLING_EXTREMIST_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"0de98464-1274-4dd6-bba8-370efa5d41a8\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E1OWJiMGE3YTMyOTY1YjNkOTBkOGVhZmE4OTlkMTgzNWY0MjQ1MDllYWRkNGU2YjcwOWFkYTUwYjljZiJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7The top lieutenants of the void\",1:\"§7heradldry.\",2:\"\",3:\"§c❤ Health§8: §c8,000.000\"],Name:\"§9Voidling Extremist (Monster)\"}}",
+  "displayname": "§dVoidling Extremist §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"VOIDLING_EXTREMIST_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"0de98464-1274-4dd6-bba8-370efa5d41a8\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0aW1lc3RhbXAiOjE1MzQ5NjM0MzU5NjIsInByb2ZpbGVJZCI6ImQzNGFhMmI4MzFkYTRkMjY5NjU1ZTMzYzE0M2YwOTZjIiwicHJvZmlsZU5hbWUiOiJFbmRlckRyYWdvbiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWIwNzU5NGUyZGYyNzM5MjFhNzdjMTAxZDBiZmRmYTExMTVhYmVkNWI5YjIwMjllYjQ5NmNlYmE5YmRiYjRiMyJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob type: §5 Ender\",1:\"\",2:\"§7The top lieutenants of the void\",3:\"§7heraldry.\",4:\"\",5:\"§7Found behind the §dVoid Sepulture §7of §dThe End§7.\"],Name:\"§dVoidling Extremist §7(§cMonster§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7The top lieutenants of the void",
-    "§7heradldry.",
+    "§7Mob type: §5 Ender",
     "",
-    "§c❤ Health§8: §c8,000.000"
+    "§7The top lieutenants of the void",
+    "§7heraldry.",
+    "",
+    "§7Found behind the §dVoid Sepulture §7of §dThe End§7."
   ],
   "internalname": "VOIDLING_EXTREMIST_MONSTER",
   "clickcommand": "viewrecipe",
@@ -19,29 +21,28 @@
   ],
   "recipes": [
     {
-      "level": 100,
-      "coins": 100,
-      "xp": 35,
-      "combat_xp": 750,
+      "level": 305,
+      "coins": 101,
+      "combat_xp": 457,
+      "xp": 335,
       "name": "§dVoidling Extremist",
-      "panorama": "combat_3",
       "render": "Enderman",
+      "panorama": "combat_3",
       "type": "drops",
       "drops": [
         {
-          "id": "ENDER_PEARL:32",
-          "chance": "100%"
+          "id": "ENDER_PEARL:32"
         },
         {
-          "id": "ENCHANTED_ENDER_PEARL:1",
+          "id": "ENCHANTED_ENDER_PEARL",
           "chance": "16%"
         },
         {
-          "id": "SUMMONING_EYE:1",
+          "id": "SUMMONING_EYE",
           "chance": "0.04%"
         },
         {
-          "id": "ENDERMAN_CORTEX_REWRITER:1",
+          "id": "ENDERMAN_CORTEX_REWRITER",
           "chance": "0.1%"
         },
         {

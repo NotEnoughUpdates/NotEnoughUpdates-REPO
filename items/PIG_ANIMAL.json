@@ -1,13 +1,14 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§aPig (Animal)",
-  "nbttag": "{ExtraAttributes:{id:\"PIG_ANIMAL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"e1e1c2e4-1ed2-473d-bde2-3ec718535399\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIxNjY4ZWY3Y2I3OWRkOWMyMmNlM2QxZjNmNGNiNmUyNTU5ODkzYjZkZjRhNDY5NTE0ZTY2N2MxNmFhNCJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Pigs are passive mobs that can be found at the\",1:\"§7Barn and they drop raw porkchops and experience. \",2:\"\",3:\"§c❤ Health§8: §c50\"],Name:\"§aPig (Animal)\"}}",
+  "displayname": "§ePig §7(§eCreature§7)",
+  "nbttag": "{ExtraAttributes:{id:\"PIG_ANIMAL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"e1e1c2e4-1ed2-473d-bde2-3ec718535399\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIxNjY4ZWY3Y2I3OWRkOWMyMmNlM2QxZjNmNGNiNmUyNTU5ODkzYjZkZjRhNDY5NTE0ZTY2N2MxNmFhNCJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Type: §a Animal\",1:\"\",2:\"§7Smells like bacon.\",3:\"\",4:\"§7Found around the §eBarn§7.\"],Name:\"§ePig §7(§eCreature§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7Pigs are passive mobs that can be found at the",
-    "§7Barn and they drop raw porkchops and experience. ",
+    "§7Mob Type: §a Animal",
     "",
-    "§c❤ Health§8: §c50"
+    "§7Smells like bacon.",
+    "",
+    "§7Found around the §eBarn§7."
   ],
   "internalname": "PIG_ANIMAL",
   "clickcommand": "viewrecipe",
@@ -21,8 +22,9 @@
     {
       "level": 1,
       "xp": 1,
-      "combat_xp": 3,
-      "name": "§cPig",
+      "combat_xp": 5,
+      "mining_xp": 1,
+      "name": "§ePig",
       "render": "Pig",
       "panorama": "farming_1",
       "type": "drops",

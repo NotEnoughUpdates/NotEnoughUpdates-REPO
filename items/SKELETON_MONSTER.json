@@ -1,12 +1,14 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§aSkeleton (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"SKELETON_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:skeleton_skull\",display:{Lore:[0:\"§7Just a normal skelly\",1:\"\",2:\"§c❤ Health§8: §c100 - 707\"],Name:\"§aSkeleton (Monster)\"}}",
+  "displayname": "§aSkeleton §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"SKELETON_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:skeleton_skull\",display:{Lore:[0:\"§7Mob Type: §f Skeletal\",1:\"\",2:\"§7Just a normal skelly.\",3:\"\",4:\"§7Found on §aPrivate Islands§7.\"],Name:\"§aSkeleton §7(§cMonster§7)\"}}",
   "damage": 0,
   "lore": [
-    "§7Just a normal skelly",
+    "§7Mob Type: §f Skeletal",
     "",
-    "§c❤ Health§8: §c100 - 707"
+    "§7Just a normal skelly.",
+    "",
+    "§7Found on §aPrivate Islands§7."
   ],
   "internalname": "SKELETON_MONSTER",
   "clickcommand": "viewrecipe",
@@ -18,19 +20,21 @@
   ],
   "recipes": [
     {
-      "coins": 1,
-      "xp": 1,
       "name": "§cSkeleton",
       "render": "Skeleton",
       "panorama": "dynamic",
       "type": "drops",
       "drops": [
         {
-          "id": "BONE:1",
+          "id": "BONE",
           "extra": [
             "§eDrop Count: §7x1-2"
           ],
           "chance": "100%"
+        },
+        {
+          "id": "DYE_BONE",
+          "chance": "0.000033%"
         }
       ]
     }

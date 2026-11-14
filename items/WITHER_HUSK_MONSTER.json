@@ -1,0 +1,40 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§cWither Husk §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"WITHER_HUSK_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:wither_skeleton_skull\",display:{Lore:[0:\"§7Mob Types: §f Skeletal§7, §8 Wither\",1:\"\",2:\"§7A shell of their former self.\",3:\"\",4:\"§7Found in the §cMaster Mode §eFloor VII\",5:\"§7boss fight inside the §cCatacombs§7.\"],Name:\"§cWither Husk §7(§cMonster§7)\"},ench:[]}",
+  "damage": 1,
+  "lore": [
+    "§7Mob Types: §f Skeletal§7, §8 Wither",
+    "",
+    "§7A shell of their former self.",
+    "",
+    "§7Found in the §cMaster Mode §eFloor VII",
+    "§7boss fight inside the §cCatacombs§7."
+  ],
+  "internalname": "WITHER_HUSK_MONSTER",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Wither_Guard"
+  ],
+  "recipes": [
+    {
+      "level": 586,
+      "coins": 195,
+      "combat_xp": 879,
+      "xp": 644,
+      "name": "§cWither Husk",
+      "render": "@neurepo:mobs/wither_husk.json",
+      "panorama": "dungeon",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "DYE_BONE",
+          "chance": "0.000033%"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "itemid": "minecraft:pumpkin",
+  "displayname": "§6Jumpin' Jack §7(§bEvent Sea Creature§7)",
+  "nbttag": "{ExtraAttributes:{id:\"JUMPIN_JACK_SC\"},HideFlags:254,ItemModel:\"minecraft:carved_pumpkin\",display:{Lore:[0:\"§7Mob Types: §9 Aquatic§7, §6 Spooky\",1:\"\",2:\"§7He's just happy to see ya.\",3:\"\",4:\"§7Fished up from §bWater §7during a §6Spooky Festival§7.\",5:\"§f§lCOMMON SEA CREATURE\"],Name:\"§6Jumpin' Jack §7(§bEvent Sea Creature§7)\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Mob Types: §9 Aquatic§7, §6 Spooky",
+    "",
+    "§7He's just happy to see ya.",
+    "",
+    "§7Fished up from §bWater §7during a §6Spooky Festival§7.",
+    "§f§lCOMMON SEA CREATURE"
+  ],
+  "internalname": "JUMPIN_JACK_SC",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Jumpin_Jack"
+  ],
+  "recipes": [
+    {
+      "level": 28,
+      "coins": 21,
+      "fishing_xp": 210,
+      "xp": 31,
+      "name": "§6Jumpin' Jack",
+      "render": "@neurepo:mobs/jumpin_jack.json",
+      "panorama": "dynamic",
+      "type": "drops",
+      "extra": [
+        "§cRequirements:",
+        "§7- Fishing Skill 1",
+        "§7- §bJerry's Workshop",
+        "§7- §bFished from water"
+      ],
+      "drops": [
+        {
+          "id": "PUMPKIN",
+          "extra": [
+            "§eDrop Count: §7x2-4"
+          ]
+        },
+        {
+          "id": "GREEN_CANDY",
+          "extra": [
+            "§eDrop Count: §7x1-2"
+          ]
+        },
+        {
+          "id": "PURPLE_CANDY",
+          "chance": "10%"
+        },
+        {
+          "id": "ENCHANTED_PUMPKIN",
+          "chance": "1%"
+        },
+        {
+          "id": "DYE_MIDNIGHT",
+          "chance": "0.0001%"
+        },
+        {
+          "id": "DYE_AQUAMARINE",
+          "chance": "0.00002%"
+        }
+      ]
+    }
+  ]
+}

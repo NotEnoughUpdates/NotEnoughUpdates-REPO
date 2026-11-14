@@ -1,15 +1,14 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§aCow (Animal)",
-  "nbttag": "{ExtraAttributes:{id:\"COW_ANIMAL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"97ddf3b3-9dbe-4a3b-8a0f-1b19ddeac0bd\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ2YzZlZGE5NDJmN2Y1ZjcxYzMxNjFjNzMwNmY0YWVkMzA3ZDgyODk1ZjlkMmIwN2FiNDUyNTcxOGVkYzUifX19=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Cows are an animal in Hypixel Skyblock. Cows can\",1:\"§7be found at the Barn and are required to unlock\",2:\"§7the Leather Collection. Cows can also be spawned\",3:\"§7with the use of a Cow Minion. \",4:\"\",5:\"§c❤ Health§8: §c50\"],Name:\"§aCow (Animal)\"}}",
+  "displayname": "§eCow §7(§eCreature§7)",
+  "nbttag": "{ExtraAttributes:{id:\"COW_ANIMAL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"5fcfe73b-4953-3144-8a59-5e6d87579ab6\",Properties:{textures:[0:{Name:\"textures\",Signature: \"GFEWeIVYd4nqsiw/F1kRzJc3QB1ADuQ3YKoRJrSEbpJDwdXmVEpKcODiXAQdALT6ynH6o+lnirJQS+bCqivmHO+t6UzqLDIOUXOJz5bpt4SkFYumdnzLSC0/6U+mpGxjT1DtyIFOG6eWT+M86Od6zcLfFw9/tsPFycoJmwHzaisddGAwUxh9Lt9rvYhaee0WVV2Q7+YUScgGDXgJWDw4hHZVit5/iffqsYXe83kynICEjTkbR1aFhC+QYKnRO0bpfxnIQ53dnMLFd1eUZEkyQnMyWnAofWUHZLJqTqqtpdYatGZZxlji86ILdUcxQpYRghkD8t0iPQHtMbZfMmjS+m+8vs8baChB6TkjF9eGzXflWamXGNIlYPRdaaIRREkrL4cPBI0wJvU5hkGgVVcW3aE1JpqZk6yxCftZ08BmNvnJT4+Cg2MAne45u3BKjSxQWSF+niYRCxjconWqm+3D+KRA9rxrxcjzgP4mwAbB4OYdjImGN9mWxD4fGpXgjBm1/6qLWZm/w02RduLf1C1vR/Pqfjxz23rH1h3HACamz5VyZAxt/hN//Pxb323mHCJmjwak8/YVvYSIWs86ZCaDQHbrF4MBTDijpbQM2di+3BfAkLLOg1Qtkn04vQFy7CbzyZ/r3/AkJq51BPWtUaXBEtZ9KcRiNKx4PtXRgdj3Ts4=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY2ODYxNjI4NzIyMiwKICAicHJvZmlsZUlkIiA6ICJiNDA5ZmMyZjg4OTk0ZTVkOWZmNWFiMmUyOWZjNjQzMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJkb2dzaGp0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q2NTUxODQwOTU1ZjUyNDM2NzU4MGYxMWIzNTIyODkzOGI2Nzg2Mzk3YThmMmU4YzhjYzZiMGViMDFiNWRiM2QiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Type: §a Animal\",1:\"\",2:\"§7Natural predator of grass.\",3:\"\",4:\"§7Found around the §eBarn§7.\"],Name:\"§eCow §7(§eCreature§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7Cows are an animal in Hypixel Skyblock. Cows can",
-    "§7be found at the Barn and are required to unlock",
-    "§7the Leather Collection. Cows can also be spawned",
-    "§7with the use of a Cow Minion. ",
+    "§7Mob Type: §a Animal",
     "",
-    "§c❤ Health§8: §c50"
+    "§7Natural predator of grass.",
+    "",
+    "§7Found around the §eBarn§7."
   ],
   "internalname": "COW_ANIMAL",
   "clickcommand": "viewrecipe",
@@ -22,19 +21,20 @@
   "recipes": [
     {
       "level": 1,
+      "coins": 1,
+      "combat_xp": 5,
       "xp": 1,
-      "combat_xp": 3,
-      "name": "§cCow",
+      "name": "§eCow",
       "render": "Cow",
       "panorama": "farming_1",
       "type": "drops",
       "drops": [
         {
-          "id": "RAW_BEEF:1",
+          "id": "RAW_BEEF",
           "chance": "100%"
         },
         {
-          "id": "LEATHER:1",
+          "id": "LEATHER",
           "chance": "100%"
         }
       ]

@@ -1,12 +1,14 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§aZombie (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"ZOMBIE_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7The Zombie is a natural mob in Minecraft. Zombies\",1:\"\",2:\"§c❤ Health§8: §c100 - 707\"],Name:\"§aZombie (Monster)\"}}",
+  "displayname": "§aZombie §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"ZOMBIE_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Mob Type: §2 Undead\",1:\"\",2:\"§7Brains.\",3:\"\",4:\"§7Found on §aPrivate Islands§7.\"],Name:\"§aZombie §7(§cMonster§7)\"}}",
   "damage": 2,
   "lore": [
-    "§7The Zombie is a natural mob in Minecraft. Zombies",
+    "§7Mob Type: §2 Undead",
     "",
-    "§c❤ Health§8: §c100 - 707"
+    "§7Brains.",
+    "",
+    "§7Found on §aPrivate Islands§7."
   ],
   "internalname": "ZOMBIE_MONSTER",
   "clickcommand": "viewrecipe",
@@ -18,27 +20,24 @@
   ],
   "recipes": [
     {
-      "coins": 1,
-      "xp": 1,
-      "name": "§cZombie",
+      "name": "§aZombie",
       "render": "Zombie",
       "panorama": "dynamic",
       "type": "drops",
       "drops": [
         {
-          "id": "ROTTEN_FLESH:1",
-          "chance": "100%"
+          "id": "ROTTEN_FLESH"
         },
         {
-          "id": "POISONOUS_POTATO:1",
+          "id": "POISONOUS_POTATO",
           "chance": "2%"
         },
         {
-          "id": "POTATO_ITEM:1",
+          "id": "POTATO_ITEM",
           "chance": "1%"
         },
         {
-          "id": "CARROT_ITEM:1",
+          "id": "CARROT_ITEM",
           "chance": "1%"
         }
       ]

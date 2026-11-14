@@ -1,16 +1,14 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§aGhast (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"GHAST_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"69725d7d-1933-3dea-87bd-a3052482ab2c\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU4YTM4ZTlhZmJkM2RhMTBkMTliNTc3YzU1YzdiZmQ2YjRmMmU0MDdlNDRkNDAxN2IyM2JlOTE2N2FiZmYwMiJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Ghasts are mobs found in the northern end of\",1:\"§7the Blazing Fortress at nighttime (8:30 PM - 5:00\",2:\"§7AM skyblock time) in the sky within the zone where\",3:\"§7level 9 Magma Cubes spawn, or the Magma Cube Boss.\",4:\"§7It can also be spawned from Ghast Minions.\",5:\"\",6:\"§c❤ Health§8: §c330\"],Name:\"§aGhast (Monster)\"}}",
+  "displayname": "§cGhast §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"GHAST_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"69725d7d-1933-3dea-87bd-a3052482ab2c\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU4YTM4ZTlhZmJkM2RhMTBkMTliNTc3YzU1YzdiZmQ2YjRmMmU0MDdlNDRkNDAxN2IyM2JlOTE2N2FiZmYwMiJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §a Cubic§7,  Airborne\",1:\"\",2:\"§7Their screams can be heard from miles away.\",3:\"\",4:\"§7Found above the §6Forgotten Skull §7on the §cCrimson Isle§7.\"],Name:\"§cGhast §7(§cMonster§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7Ghasts are mobs found in the northern end of",
-    "§7the Blazing Fortress at nighttime (8:30 PM - 5:00",
-    "§7AM skyblock time) in the sky within the zone where",
-    "§7level 9 Magma Cubes spawn, or the Magma Cube Boss.",
-    "§7It can also be spawned from Ghast Minions.",
+    "§7Mob Types: §a Cubic§7,  Airborne",
     "",
-    "§c❤ Health§8: §c330"
+    "§7Their screams can be heard from miles away.",
+    "",
+    "§7Found above the §6Forgotten Skull §7on the §cCrimson Isle§7."
   ],
   "internalname": "GHAST_MONSTER",
   "clickcommand": "viewrecipe",
@@ -22,53 +20,24 @@
   ],
   "recipes": [
     {
-      "level": 85,
-      "coins": 400,
-      "xp": 500,
-      "combat_xp": 400,
-      "name": "§fGhast",
-      "type": "drops",
+      "level": 140,
+      "coins": 46,
+      "combat_xp": 210,
+      "xp": 154,
+      "name": "§cGhast",
       "render": "Ghast",
       "panorama": "crimson_isle",
-      "extra": [],
+      "type": "drops",
       "drops": [
         {
-          "id": "GHAST_TEAR:1",
+          "id": "GHAST_TEAR",
           "extra": [
-            "x1-2"
+            "§eDrop Count: §7x1-2"
           ],
           "chance": "100%"
         },
         {
-          "id": "TENTACLE_MEAT:1",
-          "extra": [],
-          "chance": "10%"
-        },
-        {
-          "id": "DYE_CYCLAMEN",
-          "chance": "0.00004%"
-        }
-      ]
-    },
-    {
-      "level": 90,
-      "coins": 400,
-      "xp": 500,
-      "combat_xp": 400,
-      "name": "§fDive Ghast",
-      "type": "drops",
-      "render": "Ghast",
-      "panorama": "crimson_isle",
-      "extra": [],
-      "drops": [
-        {
-          "id": "GHAST_TEAR:2",
-          "extra": [],
-          "chance": "100%"
-        },
-        {
-          "id": "TENTACLE_MEAT:1",
-          "extra": [],
+          "id": "TENTACLE_MEAT",
           "chance": "10%"
         },
         {

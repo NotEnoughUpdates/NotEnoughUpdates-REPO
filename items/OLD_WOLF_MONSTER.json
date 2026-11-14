@@ -1,13 +1,14 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Old Wolf (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"OLD_WOLF_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"26e6f2d9-8a27-3a77-965c-5bd2b5d2dc93\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDM1OTUzN2MxNTUzNGY2MWMxY2Q4ODZiYzExODc3NGVkMjIyODBlN2NkYWI2NjEzODcwMTYwYWFkNGNhMzkifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Wolves older than the island\",1:\"§7itself.\",2:\"\",3:\"§c❤ Health§8: §c15,000\"],Name:\"§9Old Wolf (Monster)\"}}",
+  "displayname": "§aOld Wolf §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"OLD_WOLF_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"26e6f2d9-8a27-3a77-965c-5bd2b5d2dc93\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDM1OTUzN2MxNTUzNGY2MWMxY2Q4ODZiYzExODc3NGVkMjIyODBlN2NkYWI2NjEzODcwMTYwYWFkNGNhMzkifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Type: §a Animal\",1:\"\",2:\"§7Wolves older than the island itself.\",3:\"\",4:\"§7Found in the §bRuins §7in the §aHub§7.\"],Name:\"§aOld Wolf §7(§cMonster§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7Wolves older than the island",
-    "§7itself.",
+    "§7Mob Type: §a Animal",
     "",
-    "§c❤ Health§8: §c15,000"
+    "§7Wolves older than the island itself.",
+    "",
+    "§7Found in the §bRuins §7in the §aHub§7."
   ],
   "internalname": "OLD_WOLF_MONSTER",
   "clickcommand": "viewrecipe",
@@ -19,11 +20,11 @@
   ],
   "recipes": [
     {
-      "level": 50,
-      "coins": 40,
-      "xp": 30,
-      "combat_xp": 40,
-      "name": "§cOld Wolf",
+      "level": 67,
+      "coins": 22,
+      "combat_xp": 100,
+      "xp": 73,
+      "name": "§aOld Wolf",
       "render": "Wolf",
       "panorama": "hub",
       "type": "drops",

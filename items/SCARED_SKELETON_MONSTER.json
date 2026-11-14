@@ -1,13 +1,15 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Scared Skeleton (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"SCARED_SKELETON_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:skeleton_skull\",display:{Lore:[0:\"§7Scared of its own shadow.\",1:\"\",2:\"§c❤ Health§8: §c19,000 - 44,000\",3:\"§c❤ Health §8(MM) : §c1,800,000 - 3,300,000\"],Name:\"§9Scared Skeleton (Monster)\"}}",
+  "displayname": "§cScared Skeleton §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"SCARED_SKELETON_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:skeleton_skull\",display:{Lore:[0:\"§7Mob Types: §f Skeletal§7, §e Timid\",1:\"\",2:\"§7Scared of its own shadow.\",3:\"\",4:\"§7Found in the endless maze of §eFloors I-II\",5:\"§7of the §cCatacombs§7.\"],Name:\"§cScared Skeleton §7(§cMonster§7)\"}}",
   "damage": 0,
   "lore": [
+    "§7Mob Types: §f Skeletal§7, §e Timid",
+    "",
     "§7Scared of its own shadow.",
     "",
-    "§c❤ Health§8: §c19,000 - 44,000",
-    "§c❤ Health §8(MM) : §c1,800,000 - 3,300,000"
+    "§7Found in the endless maze of §eFloors I-II",
+    "§7of the §cCatacombs§7."
   ],
   "internalname": "SCARED_SKELETON_MONSTER",
   "clickcommand": "viewrecipe",
@@ -19,12 +21,9 @@
   ],
   "recipes": [
     {
-      "combat_xp": 40,
-      "coins": 5,
-      "xp": 30,
       "name": "§cScared Skeleton",
-      "panorama": "dungeon",
       "render": "@neurepo:mobs/undead_skeleton.json",
+      "panorama": "dungeon",
       "type": "drops",
       "drops": [
         {

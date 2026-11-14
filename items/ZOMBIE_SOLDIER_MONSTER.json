@@ -1,13 +1,15 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Zombie Soldier (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"ZOMBIE_SOLDIER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Defenders of the Catacombs.\",1:\"\",2:\"§c❤ Health§8: §c140,000 - 1,200,000\",3:\"§c❤ Health §8(MM) : §c6,000,000 - 36,000,000\"],Name:\"§9Zombie Soldier (Monster)\"}}",
+  "displayname": "§cZombie Soldier §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"ZOMBIE_SOLDIER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Mob Type: §2 Undead\",1:\"\",2:\"§7Defenders of the Catacombs.\",3:\"\",4:\"§7Found in the endless maze of §eFloors III-VII\",5:\"§7of the §cCatacombs§7.\"],Name:\"§cZombie Soldier §7(§cMonster§7)\"}}",
   "damage": 2,
   "lore": [
+    "§7Mob Type: §2 Undead",
+    "",
     "§7Defenders of the Catacombs.",
     "",
-    "§c❤ Health§8: §c140,000 - 1,200,000",
-    "§c❤ Health §8(MM) : §c6,000,000 - 36,000,000"
+    "§7Found in the endless maze of §eFloors III-VII",
+    "§7of the §cCatacombs§7."
   ],
   "internalname": "ZOMBIE_SOLDIER_MONSTER",
   "clickcommand": "viewrecipe",
@@ -19,12 +21,9 @@
   ],
   "recipes": [
     {
-      "combat_xp": 52,
-      "coins": 1,
-      "xp": 30,
       "name": "§cZombie Soldier",
+      "render": "@neurepo:mobs/zombie_soldier.json",
       "panorama": "dungeon",
-      "render": "@neurepo:mobs/zombie_solider.json",
       "type": "drops",
       "drops": [
         {
@@ -56,13 +55,12 @@
           "chance": "0.1%"
         },
         {
-          "id": "ATTRIBUTE_SHARD_UNDEAD;1:1",
+          "id": "ATTRIBUTE_SHARD_UNDEAD;1",
           "extra": [
             "§7 §7- §7Kill Zombie Knight§7, Zombie Soldier§7,",
             "§7Zombie Commander§7, or Zombie Lord",
             "§7§7while using §cSalts§7."
-          ],
-          "chance": "100%"
+          ]
         }
       ]
     }
