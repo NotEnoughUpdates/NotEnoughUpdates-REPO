@@ -1,14 +1,16 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Skeleton Master §7(§cMonster§7)",
-  "nbttag": "{ExtraAttributes:{id:\"SKELETON_MASTER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"ce22e0d7-c78e-3c8d-907a-02368c927808\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzRlOTVlMWI3ZGM4MmJhNzg0NWE2OGZjNmEzMTJmNGNkOTBlZTJmNmNjZTI2YTY4Yzg4YjA0YjEwNzJkODc5In19fQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Leader of the Catacombs' skeleton\",1:\"§7army.\",2:\"\",3:\"§c❤ Health§8: §c59,000 - 900,000\",4:\"§c❤ Health §8(MM) : §c3,450,000 - 42,000,000\"],Name:\"§9Skeleton Master §7(§cMonster§7)\"}}",
+  "displayname": "§cSkeleton Master §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"SKELETON_MASTER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"ce22e0d7-c78e-3c8d-907a-02368c927808\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzRlOTVlMWI3ZGM4MmJhNzg0NWE2OGZjNmEzMTJmNGNkOTBlZTJmNmNjZTI2YTY4Yzg4YjA0YjEwNzJkODc5In19fQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Type: §f Skeletal\",1:\"\",2:\"§7Leader of the Catacombs' skeleton\",3:\"§7army.\",4:\"\",5:\"§7Found in the endless maze of §eFloors II-VII\",6:\"§7of the §cCatacombs§7.\"],Name:\"§cSkeleton Master §7(§cMonster§7)\"}}",
   "damage": 3,
   "lore": [
+    "§7Mob Type: §f Skeletal",
+    "",
     "§7Leader of the Catacombs' skeleton",
     "§7army.",
     "",
-    "§c❤ Health§8: §c59,000 - 900,000",
-    "§c❤ Health §8(MM) : §c3,450,000 - 42,000,000"
+    "§7Found in the endless maze of §eFloors II-VII",
+    "§7of the §cCatacombs§7."
   ],
   "internalname": "SKELETON_MASTER_MONSTER",
   "clickcommand": "viewrecipe",
@@ -20,9 +22,6 @@
   ],
   "recipes": [
     {
-      "combat_xp": 52,
-      "coins": 1,
-      "xp": 30,
       "name": "§cSkeleton Master",
       "render": "@neurepo:mobs/skeleton_master.json",
       "panorama": "dungeon",

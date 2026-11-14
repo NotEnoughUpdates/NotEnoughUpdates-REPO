@@ -1,13 +1,14 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Crypt Lurker §7(§cMonster§7)",
-  "nbttag": "{ExtraAttributes:{id:\"CRYPT_LURKER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Lurking in the shadows\",1:\"\",2:\"§c❤ Health§8: §c12,000 - 420,000\",3:\"§c❤ Health §8(MM) : §c850,000 - 13,000,000\"],Name:\"§9Crypt Lurker §7(§cMonster§7)\"}}",
+  "displayname": "§cCrypt Lurker §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"CRYPT_LURKER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Mob Types: §2 Undead§7, §6 Subterranean\",1:\"\",2:\"§7Lurking in the shadows.\",3:\"\",4:\"§7Found in the endless maze of the §cCatacombs§7.\"],Name:\"§cCrypt Lurker §7(§cMonster§7)\"}}",
   "damage": 2,
   "lore": [
-    "§7Lurking in the shadows",
+    "§7Mob Types: §2 Undead§7, §6 Subterranean",
     "",
-    "§c❤ Health§8: §c12,000 - 420,000",
-    "§c❤ Health §8(MM) : §c850,000 - 13,000,000"
+    "§7Lurking in the shadows.",
+    "",
+    "§7Found in the endless maze of the §cCatacombs§7."
   ],
   "internalname": "CRYPT_LURKER_MONSTER",
   "clickcommand": "viewrecipe",
@@ -19,9 +20,6 @@
   ],
   "recipes": [
     {
-      "combat_xp": 40,
-      "coins": 1,
-      "xp": 30,
       "name": "§cCrypt Dreadlord",
       "panorama": "dungeon",
       "render": "@neurepo:mobs/crypt_lurker.json",

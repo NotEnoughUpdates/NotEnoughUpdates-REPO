@@ -1,14 +1,16 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§5Holy Lost Adventurer (Miniboss)",
-  "nbttag": "{ExtraAttributes:{id:\"HOLY_LOST_ADVENTURER_MINIBOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"881e59ef-cb3d-3ad7-bdab-ddf2520a6806\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTljYzhiYTI2NzkzMjE4ZjZmNjQ5MTk0N2ExODM3ZmQ1Mjg3ODcwMWYzM2Y3NmJiZTI4ODNhNDVhYmE4YWI4ZiJ9fX0K\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Long lost to the depths of the\",1:\"§7Catacombs.\",2:\"\",3:\"§c❤ Health§8: §c60,000 - 7,000,000\",4:\"§c❤ Health §8(MM) : §c8,000,000 - 160,000,000\"],Name:\"§5Holy Lost Adventurer (Miniboss)\"}}",
+  "displayname": "§d§lHoly Lost Adventurer §7(§c§lMINIBOSS§r§7)",
+  "nbttag": "{ExtraAttributes:{id:\"HOLY_LOST_ADVENTURER_MINIBOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"881e59ef-cb3d-3ad7-bdab-ddf2520a6806\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTljYzhiYTI2NzkzMjE4ZjZmNjQ5MTk0N2ExODM3ZmQ1Mjg3ODcwMWYzM2Y3NmJiZTI4ODNhNDVhYmE4YWI4ZiJ9fX0K\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §e Humanoid§7, §5 Arcane\",1:\"\",2:\"§7Long lost to the depths of the\",3:\"§7Catacombs.\",4:\"\",5:\"§7One of many minibosses that can be found within\",6:\"§7the §cCatacombs§7.\"],Name:\"§d§lHoly Lost Adventurer §7(§c§lMINIBOSS§r§7)\"}}",
   "damage": 3,
   "lore": [
+    "§7Mob Types: §e Humanoid§7, §5 Arcane",
+    "",
     "§7Long lost to the depths of the",
     "§7Catacombs.",
     "",
-    "§c❤ Health§8: §c60,000 - 7,000,000",
-    "§c❤ Health §8(MM) : §c8,000,000 - 160,000,000"
+    "§7One of many minibosses that can be found within",
+    "§7the §cCatacombs§7."
   ],
   "internalname": "HOLY_LOST_ADVENTURER_MINIBOSS",
   "clickcommand": "viewrecipe",
@@ -20,10 +22,7 @@
   ],
   "recipes": [
     {
-      "combat_xp": 100,
-      "coins": 1,
-      "xp": 100,
-      "name": "§5Holy Lost Adventurer",
+      "name": "§d§lHoly Lost Adventurer",
       "render": "@neurepo:mobs/holy_lost_adventurer.json",
       "panorama": "dungeon",
       "type": "drops",

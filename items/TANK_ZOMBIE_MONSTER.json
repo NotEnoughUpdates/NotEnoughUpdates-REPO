@@ -1,13 +1,15 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Tank Zombie §7(§cMonster§7)",
-  "nbttag": "{ExtraAttributes:{id:\"TANK_ZOMBIE_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Hefty zombie.\",1:\"\",2:\"§c❤ Health§8: §c1,500 - 14,000\",3:\"§c❤ Health §8(MM) : §c60,000 - 225,000\"],Name:\"§9Tank Zombie §7(§cMonster§7)\"}}",
+  "displayname": "§cTank Zombie §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"TANK_ZOMBIE_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Mob Type: §2 Undead\",1:\"\",2:\"§7Hefty zombie.\",3:\"\",4:\"§7Found in the endless maze of §eFloors E-III\",5:\"§7of the §cCatacombs§7.\"],Name:\"§cTank Zombie §7(§cMonster§7)\"}}",
   "damage": 2,
   "lore": [
+    "§7Mob Type: §2 Undead",
+    "",
     "§7Hefty zombie.",
     "",
-    "§c❤ Health§8: §c1,500 - 14,000",
-    "§c❤ Health §8(MM) : §c60,000 - 225,000"
+    "§7Found in the endless maze of §eFloors E-III",
+    "§7of the §cCatacombs§7."
   ],
   "internalname": "TANK_ZOMBIE_MONSTER",
   "clickcommand": "viewrecipe",
@@ -19,12 +21,9 @@
   ],
   "recipes": [
     {
-      "combat_xp": 60,
-      "coins": 1,
-      "xp": 30,
       "name": "§cTank Zombie",
-      "panorama": "dungeon",
       "render": "@neurepo:mobs/tank_zombie.json",
+      "panorama": "dungeon",
       "type": "drops",
       "drops": [
         {
@@ -48,14 +47,13 @@
           "chance": "0.1%"
         },
         {
-          "id": "ATTRIBUTE_SHARD_UNDEAD_RESISTANCE;1:1",
+          "id": "ATTRIBUTE_SHARD_UNDEAD_RESISTANCE;1",
           "extra": [
             "§7 §7- §7Kill Super Tank Zombie§7, Crypt Tank",
             "§7Zombie§7, Master Crypt Tank Zombie§7, or",
             "§7Master Super Tank Zombie §7while using",
             "§7§cSalts§7."
-          ],
-          "chance": "100%"
+          ]
         }
       ]
     }

@@ -1,12 +1,16 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§aGolem §7(§cMonster§7)",
-  "nbttag": "{ExtraAttributes:{id:\"GOLEM_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"a46a9adf-60a3-38f2-a3dd-335d85f1cc10\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJiY2FjZWViNDE2MmY0MDBkNDQ3NDMzMTU5MzJhYzgyMGQzMTE5YWM4OTg2YTAxNjFhNzI2MTYxY2NjOTNmYyJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§c❤ Health§8: §c20,000,000 - 300,000,000\",1:\"§c❁ Damage§8: §c120,000 - 2,000,000\",2:\"§a❈ Defense§8: §a200\"],Name:\"§aGolem §7(§cMonster§7)\"}}",
+  "displayname": "§cGolem §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"GOLEM_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"a46a9adf-60a3-38f2-a3dd-335d85f1cc10\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJiY2FjZWViNDE2MmY0MDBkNDQ3NDMzMTU5MzJhYzgyMGQzMTE5YWM4OTg2YTAxNjFhNzI2MTYxY2NjOTNmYyJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types:  Construct, §5 Arcane\",1:\"\",2:\"§7Prefers to sleep in, grumpy if\",3:\"§7disturbed.\",4:\"\",5:\"§7Found in the §eFloor VI §7boss fight\",6:\"§7inside the §cCatacombs§7.\"],Name:\"§cGolem §7(§cMonster§7)\"}}",
   "damage": 3,
   "lore": [
-    "§c❤ Health§8: §c20,000,000 - 300,000,000",
-    "§c❁ Damage§8: §c120,000 - 2,000,000",
-    "§a❈ Defense§8: §a200"
+    "§7Mob Types:  Construct, §5 Arcane",
+    "",
+    "§7Prefers to sleep in, grumpy if",
+    "§7disturbed.",
+    "",
+    "§7Found in the §eFloor VI §7boss fight",
+    "§7inside the §cCatacombs§7."
   ],
   "internalname": "GOLEM_MONSTER",
   "clickcommand": "viewrecipe",
@@ -18,10 +22,10 @@
   ],
   "recipes": [
     {
-      "level": 1,
-      "coins": 1,
-      "xp": 100,
-      "combat_xp": 4000,
+      "level": 428,
+      "coins": 142,
+      "combat_xp": 642,
+      "xp": 470,
       "name": "§cGolem",
       "render": "Eisengolem",
       "panorama": "dungeon",
@@ -29,24 +33,22 @@
       "drops": [
         {
           "id": "GOLEM_POPPY",
-          "extra": [],
           "chance": "4%"
         }
       ]
     },
     {
-      "level": 1,
-      "coins": 1,
-      "xp": 100,
-      "combat_xp": 6000,
-      "name": "§cGolem (Master Mode)",
+      "level": 707,
+      "coins": 235,
+      "combat_xp": 1060,
+      "xp": 777,
+      "name": "§cGolem §7(§cMaster Mode§7)",
       "render": "Eisengolem",
       "panorama": "dungeon",
       "type": "drops",
       "drops": [
         {
           "id": "GOLEM_POPPY",
-          "extra": [],
           "chance": "4%"
         }
       ]

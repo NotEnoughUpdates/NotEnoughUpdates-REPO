@@ -1,13 +1,15 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§d§lShadow Assassin (Miniboss)",
-  "nbttag": "{ExtraAttributes:{id:\"SHADOW_ASSASSIN_MINIBOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"ef18719c-db6a-3ffb-97ca-4ed764ce9464\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5MjI2ODE3MDkxMSwKICAicHJvZmlsZUlkIiA6ICJkYTQ5OGFjNGU5Mzc0ZTVjYjYxMjdiMzgwODU1Nzk4MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOaXRyb2hvbGljXzIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzM5OWUwMGY0MDQ0MTFlNDY1ZDc0Mzg4ZGYxMzJkNTFmZTg2OGVjZjg2ZjFjMDczZmFmZmExZDkxNzJlYzBmMyIKICAgIH0KICB9Cn0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Slient, but deadly\",1:\"\",2:\"§c❤ Health§8: §c700,000 - 20,000,000\",3:\"§c❤ Health §8(MM) : §c55,000,000 - 145,000,000\"],Name:\"§d§lShadow Assassin (Miniboss)\"}}",
+  "displayname": "§d§lShadow Assassin §7(§c§lMINIBOSS§r§7)",
+  "nbttag": "{ExtraAttributes:{id:\"SHADOW_ASSASSIN_MINIBOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"ef18719c-db6a-3ffb-97ca-4ed764ce9464\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5MjI2ODE3MDkxMSwKICAicHJvZmlsZUlkIiA6ICJkYTQ5OGFjNGU5Mzc0ZTVjYjYxMjdiMzgwODU1Nzk4MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOaXRyb2hvbGljXzIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzM5OWUwMGY0MDQ0MTFlNDY1ZDc0Mzg4ZGYxMzJkNTFmZTg2OGVjZjg2ZjFjMDczZmFmZmExZDkxNzJlYzBmMyIKICAgIH0KICB9Cn0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §e Humanoid§7, §5 Arcane\",1:\"\",2:\"§7Slient, but deadly\",3:\"\",4:\"§7One of many minibosses that can be found within\",5:\"§7the §cCatacombs§7.\"],Name:\"§d§lShadow Assassin §7(§c§lMINIBOSS§r§7)\"}}",
   "damage": 3,
   "lore": [
+    "§7Mob Types: §e Humanoid§7, §5 Arcane",
+    "",
     "§7Slient, but deadly",
     "",
-    "§c❤ Health§8: §c700,000 - 20,000,000",
-    "§c❤ Health §8(MM) : §c55,000,000 - 145,000,000"
+    "§7One of many minibosses that can be found within",
+    "§7the §cCatacombs§7."
   ],
   "internalname": "SHADOW_ASSASSIN_MINIBOSS",
   "clickcommand": "viewrecipe",
@@ -19,10 +21,7 @@
   ],
   "recipes": [
     {
-      "combat_xp": 115,
-      "coins": 1,
-      "xp": 100,
-      "name": "§5Shadow Assassin",
+      "name": "§d§lShadow Assassin",
       "render": "@neurepo:mobs/shadow_assassin.json",
       "type": "drops",
       "panorama": "dungeon",

@@ -1,0 +1,56 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§cZombie Lord §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"ZOMBIE_LORD_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Mob Type: §2 Undead\",1:\"\",2:\"§7Commander among commanders.\",3:\"\",4:\"§7Found in the endless maze of §eFloor VII\",5:\"§7of the §cCatacombs§7.\"],Name:\"§cZombie Lord §7(§cMonster§7)\"}}",
+  "damage": 2,
+  "lore": [
+    "§7Mob Type: §2 Undead",
+    "",
+    "§7Commander among commanders.",
+    "",
+    "§7Found in the endless maze of §eFloor VII",
+    "§7of the §cCatacombs§7."
+  ],
+  "internalname": "ZOMBIE_LORD_MONSTER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Zombie_Lord"
+  ],
+  "recipes": [
+    {
+      "name": "§cZombie Lord",
+      "render": "@neurepo:mobs/zombie_lord.json",
+      "panorama": "dungeon",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ZOMBIE_LORD_HELMET",
+          "chance": "1%"
+        },
+        {
+          "id": "ZOMBIE_LORD_CHESTPLATE",
+          "chance": "1%"
+        },
+        {
+          "id": "ZOMBIE_LORD_LEGGINGS",
+          "chance": "1%"
+        },
+        {
+          "id": "ZOMBIE_LORD_BOOTS",
+          "chance": "1%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_UNDEAD;1",
+          "extra": [
+            "§7 §7- §7Kill Zombie Knight§7, Zombie Soldier§7,",
+            "§7Zombie Commander§7, or Zombie Lord",
+            "§7§7while using §cSalts§7."
+          ]
+        }
+      ]
+    }
+  ]
+}

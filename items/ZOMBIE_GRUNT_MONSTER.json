@@ -1,13 +1,15 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Zombie Grunt §7(§cMonster§7)",
-  "nbttag": "{ExtraAttributes:{id:\"ZOMBIE_GRUNT_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Just more grunts in the platoon\",1:\"\",2:\"§c❤ Health§8: §c22,000 - 120,000\",3:\"§c❤ Health §8(MM) : §c1,600,000 - 3,000,000\"],Name:\"§9Zombie Grunt §7(§cMonster§7)\"}}",
+  "displayname": "§cZombie Grunt §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"ZOMBIE_GRUNT_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Mob Type: §2 Undead\",1:\"\",2:\"§7Just more grunts in the platoon.\",3:\"\",4:\"§7Found in the endless maze of §eFloors E-II\",5:\"§7of the §cCatacombs§7.\"],Name:\"§cZombie Grunt §7(§cMonster§7)\"}}",
   "damage": 2,
   "lore": [
-    "§7Just more grunts in the platoon",
+    "§7Mob Type: §2 Undead",
     "",
-    "§c❤ Health§8: §c22,000 - 120,000",
-    "§c❤ Health §8(MM) : §c1,600,000 - 3,000,000"
+    "§7Just more grunts in the platoon.",
+    "",
+    "§7Found in the endless maze of §eFloors E-II",
+    "§7of the §cCatacombs§7."
   ],
   "internalname": "ZOMBIE_GRUNT_MONSTER",
   "clickcommand": "viewrecipe",
@@ -19,12 +21,9 @@
   ],
   "recipes": [
     {
-      "combat_xp": 40,
-      "coins": 1,
-      "xp": 30,
       "name": "§cZombie Grunt",
-      "panorama": "dungeon",
       "render": "@neurepo:mobs/zombie_grunt.json",
+      "panorama": "dungeon",
       "type": "drops",
       "drops": [
         {

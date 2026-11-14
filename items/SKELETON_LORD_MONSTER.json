@@ -1,0 +1,53 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§cSkeleton Lord §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"SKELETON_LORD_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"ce22e0d7-c78e-3c8d-907a-02368c927808\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY4Nzk4NjU1MjE0MCwKICAicHJvZmlsZUlkIiA6ICJkZjRiYzNkNTA2MWM0YThkODk4M2FlNzU1MTgxZDVhZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJEaWRpX0paIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJkMTZkZTI0Y2M2MDUyNDNkZjMyMmE3NWRjZGI5MGVhNjVmYmVjNWU0NWYyZjEwYmVkYTU2NDBhOWU1ZjA2MjYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Type: §f Skeletal\",1:\"\",2:\"§7Leader of the Catacombs' skeleton\",3:\"§7army.\",4:\"\",5:\"§7Found in the endless maze of §eFloors II-VII\",6:\"§7of the §cCatacombs§7.\"],Name:\"§cSkeleton Lord §7(§cMonster§7)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Type: §f Skeletal",
+    "",
+    "§7Leader of the Catacombs' skeleton",
+    "§7army.",
+    "",
+    "§7Found in the endless maze of §eFloors II-VII",
+    "§7of the §cCatacombs§7."
+  ],
+  "internalname": "SKELETON_LORD_MONSTER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Skeleton_Lord"
+  ],
+  "recipes": [
+    {
+      "name": "§cSkeleton Lord",
+      "render": "@neurepo:mobs/skeleton_lord.json",
+      "panorama": "dungeon",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "SKELETON_LORD_HELMET",
+          "chance": "1%"
+        },
+        {
+          "id": "SKELETON_LORD_CHESTPLATE",
+          "chance": "1%"
+        },
+        {
+          "id": "SKELETON_LORD_LEGGINGS",
+          "chance": "1%"
+        },
+        {
+          "id": "SKELETON_LORD_BOOTS",
+          "chance": "1%"
+        },
+        {
+          "id": "DYE_BONE",
+          "chance": "0.000033%"
+        }
+      ]
+    }
+  ]
+}

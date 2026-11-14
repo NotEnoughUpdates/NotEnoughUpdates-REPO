@@ -1,0 +1,57 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§cWither Guard §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"WITHER_GUARD_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:wither_skeleton_skull\",display:{Lore:[0:\"§7Mob Types: §8 Wither§7, §f Skeletal\",1:\"\",2:\"§7Never stopped anyone from entering\",3:\"§7the factory, but is trying his best.\",4:\"\",5:\"§7Found in the §eFloor VII §7boss fight\",6:\"§7inside the §cCatacombs§7.\"],Name:\"§cWither Guard §7(§cMonster§7)\"},ench:[]}",
+  "damage": 1,
+  "lore": [
+    "§7Mob Types: §8 Wither§7, §f Skeletal",
+    "",
+    "§7Never stopped anyone from entering",
+    "§7the factory, but is trying his best.",
+    "",
+    "§7Found in the §eFloor VII §7boss fight",
+    "§7inside the §cCatacombs§7."
+  ],
+  "internalname": "WITHER_GUARD_MONSTER",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Wither_Guard"
+  ],
+  "recipes": [
+    {
+      "level": 285,
+      "coins": 95,
+      "combat_xp": 427,
+      "xp": 313,
+      "name": "§cWither Guard",
+      "render": "@neurepo:mobs/wither_guard.json",
+      "panorama": "dungeon",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "DYE_BONE",
+          "chance": "0.000033%"
+        }
+      ]
+    },
+    {
+      "level": 609,
+      "coins": 203,
+      "combat_xp": 913,
+      "xp": 669,
+      "name": "§cWither Guard §7(§cMaster Mode§7)",
+      "render": "@neurepo:mobs/wither_guard.json",
+      "panorama": "dungeon",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "DYE_BONE",
+          "chance": "0.000033%"
+        }
+      ]
+    }
+  ]
+}

@@ -1,13 +1,15 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Zombie Knight §7(§cMonster§7)",
-  "nbttag": "{ExtraAttributes:{id:\"ZOMBIE_KNIGHT_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"34af9e21-dff4-3b94-9fb5-07816e41af75\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVkMmYzMWJhMTYyZmU2MjcyZTgzMWFlZDE3ZjUzMjEzZGI2ZmExYzRjYmU0ZmM4MjdmMzk2M2NjOThiOSJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Knighted by Necron himself.\",1:\"\",2:\"§c❤ Health§8: §c170,000 - 1.280,000\",3:\"§c❤ Health §8(MM) : §c7,000,000 - 40,000,000\"],Name:\"§9Zombie Knight §7(§cMonster§7)\"}}",
+  "displayname": "§cZombie Knight §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"ZOMBIE_KNIGHT_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"34af9e21-dff4-3b94-9fb5-07816e41af75\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVkMmYzMWJhMTYyZmU2MjcyZTgzMWFlZDE3ZjUzMjEzZGI2ZmExYzRjYmU0ZmM4MjdmMzk2M2NjOThiOSJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Type: §2 Undead\",1:\"\",2:\"§7Knighted by Necron himself.\",3:\"\",4:\"§7Found in the endless maze of §eFloors III-VII\",5:\"§7of the §cCatacombs§7.\"],Name:\"§cZombie Knight §7(§cMonster§7)\"}}",
   "damage": 3,
   "lore": [
+    "§7Mob Type: §2 Undead",
+    "",
     "§7Knighted by Necron himself.",
     "",
-    "§c❤ Health§8: §c170,000 - 1.280,000",
-    "§c❤ Health §8(MM) : §c7,000,000 - 40,000,000"
+    "§7Found in the endless maze of §eFloors III-VII",
+    "§7of the §cCatacombs§7."
   ],
   "internalname": "ZOMBIE_KNIGHT_MONSTER",
   "clickcommand": "viewrecipe",
@@ -19,12 +21,9 @@
   ],
   "recipes": [
     {
-      "combat_xp": 95,
-      "coins": 1,
-      "xp": 30,
       "name": "§cZombie Knight",
-      "panorama": "dungeon",
       "render": "@neurepo:mobs/zombie_knight.json",
+      "panorama": "dungeon",
       "type": "drops",
       "drops": [
         {
@@ -56,13 +55,12 @@
           "chance": "0.2%"
         },
         {
-          "id": "ATTRIBUTE_SHARD_UNDEAD;1:1",
+          "id": "ATTRIBUTE_SHARD_UNDEAD;1",
           "extra": [
             "§7 §7- §7Kill Zombie Knight§7, Zombie Soldier§7,",
             "§7Zombie Commander§7, or Zombie Lord",
             "§7§7while using §cSalts§7."
-          ],
-          "chance": "100%"
+          ]
         }
       ]
     }

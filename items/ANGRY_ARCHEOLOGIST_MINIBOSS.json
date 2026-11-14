@@ -1,14 +1,15 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§d§lAngry Archaeologist (Miniboss)",
-  "nbttag": "{ExtraAttributes:{id:\"ANGRY_ARCHEOLOGIST_MINIBOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"db784d7a-fae1-3d60-9a5a-42a1814037f8\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0aW1lc3RhbXAiOjE1NzU0NzAzOTQwMzEsInByb2ZpbGVJZCI6IjdkYTJhYjNhOTNjYTQ4ZWU4MzA0OGFmYzNiODBlNjhlIiwicHJvZmlsZU5hbWUiOiJHb2xkYXBmZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M0OGM3ODM0NThlNGNmODUxOGU4YWI1ODYzZmJjNGNiOTQ4ZjkwNTY4ZWViOWE2MGQxNmM0ZmRlMmI5NmMwMzMifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Angered by what he's found\",1:\"§7below.\",2:\"\",3:\"§c❤ Health§8: §c20,000 - 900,000\",4:\"§c❤ Health §8(MM) : §c1,000,000 - 12,000,000\"],Name:\"§d§lAngry Archaeologist (Miniboss)\"}}",
+  "displayname": "§d§lAngry Archaeologist §7(§c§lMINIBOSS§r§7)",
+  "nbttag": "{ExtraAttributes:{id:\"ANGRY_ARCHEOLOGIST_MINIBOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"db784d7a-fae1-3d60-9a5a-42a1814037f8\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0aW1lc3RhbXAiOjE1NzU0NzAzOTQwMzEsInByb2ZpbGVJZCI6IjdkYTJhYjNhOTNjYTQ4ZWU4MzA0OGFmYzNiODBlNjhlIiwicHJvZmlsZU5hbWUiOiJHb2xkYXBmZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M0OGM3ODM0NThlNGNmODUxOGU4YWI1ODYzZmJjNGNiOTQ4ZjkwNTY4ZWViOWE2MGQxNmM0ZmRlMmI5NmMwMzMifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §e Humanoid§7, §6 Subterranean\",1:\"\",2:\"§7Angered by what he's found below.\",3:\"\",4:\"§7One of many minibosses that can be found within\",5:\"§7the §cCatacombs§7.\"],Name:\"§d§lAngry Archaeologist §7(§c§lMINIBOSS§r§7)\"}}",
   "damage": 3,
   "lore": [
-    "§7Angered by what he's found",
-    "§7below.",
+    "§7Mob Types: §e Humanoid§7, §6 Subterranean",
     "",
-    "§c❤ Health§8: §c20,000 - 900,000",
-    "§c❤ Health §8(MM) : §c1,000,000 - 12,000,000"
+    "§7Angered by what he's found below.",
+    "",
+    "§7One of many minibosses that can be found within",
+    "§7the §cCatacombs§7."
   ],
   "internalname": "ANGRY_ARCHEOLOGIST_MINIBOSS",
   "clickcommand": "viewrecipe",
@@ -40,8 +41,7 @@
           "id": "ESSENCE_DIAMOND",
           "extra": [
             "x3-5"
-          ],
-          "chance": "100%"
+          ]
         }
       ]
     }
