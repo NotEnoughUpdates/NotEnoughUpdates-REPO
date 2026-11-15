@@ -1,44 +1,29 @@
 {
-  "itemid": "minecraft:dropper",
-  "displayname": "§6Personal Compactor 7000",
-  "nbttag": "{ExtraAttributes:{id:\"PERSONAL_COMPACTOR_7000\"},HideFlags:254,ItemModel:\"minecraft:dropper\",display:{Lore:[0:\"§7Accessory Power: §6+16\",1:\"\",2:\"§7Automatically turns certain materials\",3:\"§7in your inventory into their\",4:\"§7enchanted form.\",5:\"\",6:\"§eRight-click to configure!\",7:\"\",8:\"§8Does not grant Carpentry XP!\",9:\"\",10:\"§8Works while in Accessory Bag!\",11:\"§6§lLEGENDARY ACCESSORY\"],Name:\"§6Personal Compactor 7000\"},ench:[]}",
+  "itemid": "minecraft:paper",
+  "displayname": "§dPersonal Compactor 7000",
+  "nbttag": "{ExtraAttributes:{id:\"PERSONAL_COMPACTOR_7000\"},HideFlags:254,ItemModel:\"minecraft:dropper\",display:{Lore:[0:\"§8Legacy Item\",1:\"\",2:\"§7This legacy item no longer compacts\",3:\"§7materials. Use §e/reclaim §7to exchange\",4:\"§7it for §f6 §7Personal Skill Compactors.\",5:\"\",6:\"§cThis item can be reclaimed! Use\",7:\"§e/reclaim §cto take back what's\",8:\"§crightfully yours!\",9:\"\",10:\"§8§l* §8Co-op Soulbound §8§l*\",11:\"§6§lLEGENDARY ACCESSORY\"],Name:\"§dPersonal Compactor 7000\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7Accessory Power: §6+16",
+    "§8Legacy Item",
     "",
-    "§7Automatically turns certain materials",
-    "§7in your inventory into their",
-    "§7enchanted form.",
+    "§7This legacy item no longer compacts",
+    "§7materials. Use §e/reclaim §7to exchange",
+    "§7it for §f6 §7Personal Skill Compactors.",
     "",
-    "§eRight-click to configure!",
+    "§cThis item can be reclaimed! Use",
+    "§e/reclaim §cto take back what's",
+    "§crightfully yours!",
     "",
-    "§8Does not grant Carpentry XP!",
-    "",
-    "§8Works while in Accessory Bag!",
+    "§8§l* §8Co-op Soulbound §8§l*",
     "§6§lLEGENDARY ACCESSORY"
   ],
   "internalname": "PERSONAL_COMPACTOR_7000",
-  "clickcommand": "viewrecipe",
-  "crafttext": "Requires: Redstone Dust IX",
-  "modver": "Firmament 44.2.0-dev+mc26.1.2+g02e85d46",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.2+g695a31df",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Personal_Compactor_7000"
   ],
-  "recipes": [
-    {
-      "A1": "ENCHANTED_REDSTONE_BLOCK:3",
-      "A2": "ENCHANTED_REDSTONE_BLOCK:3",
-      "A3": "ENCHANTED_REDSTONE_BLOCK:3",
-      "B1": "ENCHANTED_REDSTONE_BLOCK:3",
-      "B2": "",
-      "B3": "ENCHANTED_REDSTONE_BLOCK:3",
-      "C1": "ENCHANTED_REDSTONE_BLOCK:3",
-      "C2": "PERSONAL_COMPACTOR_6000:1",
-      "C3": "ENCHANTED_REDSTONE_BLOCK:3",
-      "type": "crafting",
-      "count": 1,
-      "overrideOutputId": "PERSONAL_COMPACTOR_7000"
-    }
-  ]
+  "recipes": []
 }
