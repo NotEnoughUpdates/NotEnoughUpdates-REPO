@@ -1,0 +1,45 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§dBacte §7(§c§lBOSS§r§7)",
+  "nbttag": "{ExtraAttributes:{id:\"BACTE_BOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"3b70a2f3-319c-38d5-b7d1-5b2425770184\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODk1YWVlYzZiODQyYWRhODY2OWY4NDZkNjViYzQ5NzYyNTk3ODI0YWI5NDRmMjJmNDViZjNiYmI5NDFhYmU2YyJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §8None!\",1:\"\",2:\"§7The lingering evil of a tyrant manifested\",3:\"§7across all of time into such a vile sludge\",4:\"§7that is impossible to get out of clothes.\",5:\"\",6:\"§7Found in the §2Colosseum §7of §dThe Rift§7.\",7:\"\",8:\"§7Hit the slimes into the slimy tentacles, then\",9:\"§7hit the slime that comes out of the slime with\",10:\"§7the slimes. But don't get hit by the slime.\",11:\"§7Also, you get a blaster.\"],Name:\"§dBacte §7(§c§lBOSS§r§7)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Types: §8None!",
+    "",
+    "§7The lingering evil of a tyrant manifested",
+    "§7across all of time into such a vile sludge",
+    "§7that is impossible to get out of clothes.",
+    "",
+    "§7Found in the §2Colosseum §7of §dThe Rift§7.",
+    "",
+    "§7Hit the slimes into the slimy tentacles, then",
+    "§7hit the slime that comes out of the slime with",
+    "§7the slimes. But don't get hit by the slime.",
+    "§7Also, you get a blaster."
+  ],
+  "internalname": "BACTE_BOSS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Bacte"
+  ],
+  "recipes": [
+    {
+      "name": "§dBacte",
+      "panorama": "rift",
+      "render": "Slime",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "BACTE_FRAGMENT:8"
+        },
+        {
+          "id": "DYE_CELADON",
+          "chance": "0.01%"
+        }
+      ]
+    }
+  ]
+}

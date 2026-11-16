@@ -1,10 +1,15 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§aThrall §7(§cMonster§7)",
-  "nbttag": "{ExtraAttributes:{id:\"THRALL_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"8599e4bb-c0d9-41d9-944d-785aab8c5b24\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY4MDQ4Nzc0MTg2NSwKICAicHJvZmlsZUlkIiA6ICI4NDk1NTRmOWYzMGQ0NWQxYjUwNGY4ZDYzZmExZTM1OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSYWtoYVNoaSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hZDBiOGNkODY1ZDViMDBmMGQ1ZDAwZmRjYzI4NDMxNjQxMjAyMWVmYzA5YzY3ODIyM2Y4M2I1YTNmOTRkNTBkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§c❤ Health§8: §c190\"],Name:\"§aThrall §7(§cMonster§7)\"}}",
+  "displayname": "§dThrall §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"THRALL_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"8599e4bb-c0d9-41d9-944d-785aab8c5b24\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY4MDQ4Nzc0MTg2NSwKICAicHJvZmlsZUlkIiA6ICI4NDk1NTRmOWYzMGQ0NWQxYjUwNGY4ZDYzZmExZTM1OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSYWtoYVNoaSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hZDBiOGNkODY1ZDViMDBmMGQ1ZDAwZmRjYzI4NDMxNjQxMjAyMWVmYzA5YzY3ODIyM2Y4M2I1YTNmOTRkNTBkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §8None!\",1:\"\",2:\"§7Servants of the vampires.\",3:\"\",4:\"§7Found in the §cStillgore Château of §dThe\",5:\"§dRift§7.\"],Name:\"§dThrall §7(§cMonster§7)\"}}",
   "damage": 3,
   "lore": [
-    "§c❤ Health§8: §c190"
+    "§7Mob Types: §8None!",
+    "",
+    "§7Servants of the vampires.",
+    "",
+    "§7Found in the §cStillgore Château of §dThe",
+    "§dRift§7."
   ],
   "internalname": "THRALL_MONSTER",
   "clickcommand": "viewrecipe",
@@ -16,12 +21,12 @@
   ],
   "recipes": [
     {
-      "name": "§cThrall",
-      "render": "@neurepo:mobs/thrall.json",
-      "level": 6,
+      "level": 5,
       "combat_xp": 30,
-      "type": "drops",
+      "name": "§dThrall",
+      "render": "@neurepo:mobs/thrall.json",
       "panorama": "rift",
+      "type": "drops",
       "drops": [
         {
           "id": "SKYBLOCK_MOTE:200",

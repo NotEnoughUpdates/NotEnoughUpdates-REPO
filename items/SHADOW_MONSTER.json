@@ -1,10 +1,15 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§aShadow §7(§cMonster§7)",
-  "nbttag": "{ExtraAttributes:{id:\"SHADOW_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"d1182c14-1580-4af8-891a-fabcfd9c9ecf\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0OTIzMTczNTA1MiwKICAicHJvZmlsZUlkIiA6ICIwMGZiNTRiOWI4NDA0YTA0YTViMmJhMzBlYzBlYTAxMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrbGxveWQ3MCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82MTMzYzA4MTEyZWE2NTJhOGY4YjhkZjQ1Y2I2MmYyZGJiNDA3MzdjZGQ0Nzg2NWYxMzVkODRmOTBjODA5ODNlIgogICAgfQogIH0KfQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§c❤ Health§8: §c125\"],Name:\"§aShadow §7(§cMonster§7)\"}}",
+  "displayname": "§8Shadow §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"SHADOW_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"d1182c14-1580-4af8-891a-fabcfd9c9ecf\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0OTIzMTczNTA1MiwKICAicHJvZmlsZUlkIiA6ICIwMGZiNTRiOWI4NDA0YTA0YTViMmJhMzBlYzBlYTAxMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrbGxveWQ3MCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82MTMzYzA4MTEyZWE2NTJhOGY4YjhkZjQ1Y2I2MmYyZGJiNDA3MzdjZGQ0Nzg2NWYxMzVkODRmOTBjODA5ODNlIgogICAgfQogIH0KfQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §8None!\",1:\"\",2:\"§7You should be scared of someone else's\",3:\"§7shadow too.\",4:\"\",5:\"§7Found in the §bWest Village §7of §dThe Rift§7.\"],Name:\"§8Shadow §7(§cMonster§7)\"}}",
   "damage": 3,
   "lore": [
-    "§c❤ Health§8: §c125"
+    "§7Mob Types: §8None!",
+    "",
+    "§7You should be scared of someone else's",
+    "§7shadow too.",
+    "",
+    "§7Found in the §bWest Village §7of §dThe Rift§7."
   ],
   "internalname": "SHADOW_MONSTER",
   "clickcommand": "",
@@ -16,14 +21,12 @@
   ],
   "recipes": [
     {
-      "coins": 0,
-      "xp": 0,
+      "level": 1,
+      "combat_xp": 6,
       "name": "§8Shadow",
       "render": "@neurepo:mobs/shadow.json",
-      "level": 3,
-      "combat_xp": 6,
-      "type": "drops",
       "panorama": "rift",
+      "type": "drops",
       "drops": [
         {
           "id": "SKYBLOCK_MOTE:150",

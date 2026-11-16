@@ -1,10 +1,16 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§aScribe §7(§cMonster§7)",
-  "nbttag": "{ExtraAttributes:{id:\"SCRIBE_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"67f8f782-f3c0-4f63-89a1-e3142d003a5c\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY3Njk2NDE4NDUxMywKICAicHJvZmlsZUlkIiA6ICIzZWUxYWRlMzljZDI0ZjFkOWYwODliYjA2ZTkzNTY5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSdXNvR01SIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ4NWYyMjhiNWM1MTg1YWIyZDczM2RmY2VkOGJmZDliNDE1ODkwOTE1NThmYTI0NDIxZjA4YzE1N2Y5ZGZjNzUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§c❤ Health§8: §c130\"],Name:\"§aScribe §7(§cMonster§7)\"}}",
+  "displayname": "§6Scribe §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"SCRIBE_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"67f8f782-f3c0-4f63-89a1-e3142d003a5c\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY3Njk2NDE4NDUxMywKICAicHJvZmlsZUlkIiA6ICIzZWUxYWRlMzljZDI0ZjFkOWYwODliYjA2ZTkzNTY5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSdXNvR01SIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ4NWYyMjhiNWM1MTg1YWIyZDczM2RmY2VkOGJmZDliNDE1ODkwOTE1NThmYTI0NDIxZjA4YzE1N2Y5ZGZjNzUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §8None!\",1:\"\",2:\"§7Amazing! They can read §oand §r§7write!\",3:\"\",4:\"§7Found in the §eVillage Plaza §7of §dThe Rift§7.\",5:\"\",6:\"§7Write what the §6Scribe §7does.\"],Name:\"§6Scribe §7(§cMonster§7)\"}}",
   "damage": 3,
   "lore": [
-    "§c❤ Health§8: §c130"
+    "§7Mob Types: §8None!",
+    "",
+    "§7Amazing! They can read §oand §r§7write!",
+    "",
+    "§7Found in the §eVillage Plaza §7of §dThe Rift§7.",
+    "",
+    "§7Write what the §6Scribe §7does."
   ],
   "internalname": "SCRIBE_MONSTER",
   "clickcommand": "",
@@ -16,14 +22,12 @@
   ],
   "recipes": [
     {
-      "coins": 0,
-      "xp": 0,
+      "level": 1,
+      "combat_xp": 6,
       "name": "§6Scribe",
       "render": "@neurepo:mobs/scribe.json",
-      "level": 5,
-      "combat_xp": 6,
-      "type": "drops",
       "panorama": "rift",
+      "type": "drops",
       "drops": [
         {
           "id": "SKYBLOCK_MOTE:100",

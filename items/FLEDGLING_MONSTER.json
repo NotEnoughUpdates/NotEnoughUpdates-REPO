@@ -1,10 +1,15 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§aFledgling §7(§cMonster§7)",
-  "nbttag": "{ExtraAttributes:{id:\"FLEDGLING_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"9873a3cb-988e-26c1-a75b-7f38296f8398\",Properties:{textures:[0:{Name:\"textures\",Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNmODNiYmFhMTA5YWUyMGZiYTU5MWRjNjZlNThmMmQwYzNlZTI1YTkzNTQ3MGYzMWNlYzM4MzhlMmZhNDM0MSJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§c❤ Health§8: §c210\"],Name:\"§aFledgling §7(§cMonster§7)\"}}",
+  "displayname": "§dFledgling §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"FLEDGLING_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"9873a3cb-988e-26c1-a75b-7f38296f8398\",Properties:{textures:[0:{Name:\"textures\",Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNmODNiYmFhMTA5YWUyMGZiYTU5MWRjNjZlNThmMmQwYzNlZTI1YTkzNTQ3MGYzMWNlYzM4MzhlMmZhNDM0MSJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §8None!\",1:\"\",2:\"§7Classic vampire, can't go wrong there.\",3:\"\",4:\"§7Found in the §cStillgore Château of §dThe\",5:\"§dRift§7.\"],Name:\"§dFledgling §7(§cMonster§7)\"}}",
   "damage": 3,
   "lore": [
-    "§c❤ Health§8: §c210"
+    "§7Mob Types: §8None!",
+    "",
+    "§7Classic vampire, can't go wrong there.",
+    "",
+    "§7Found in the §cStillgore Château of §dThe",
+    "§dRift§7."
   ],
   "internalname": "FLEDGLING_MONSTER",
   "clickcommand": "",
@@ -16,14 +21,12 @@
   ],
   "recipes": [
     {
-      "coins": 0,
-      "xp": 0,
-      "name": "§cFledgling",
-      "render": "@neurepo:mobs/fledgling.json",
       "level": 8,
-      "combat_xp": 20,
-      "type": "drops",
+      "combat_xp": 40,
+      "name": "§dFledgling",
+      "render": "@neurepo:mobs/fledgling.json",
       "panorama": "rift",
+      "type": "drops",
       "drops": [
         {
           "id": "SKYBLOCK_MOTE:250",
