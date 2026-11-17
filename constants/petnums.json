@@ -375,144 +375,147 @@
     "COMMON": {
       "1": {
         "otherNums": [
-          0.1
+          1
         ],
         "statNums": {
-          "INTELLIGENCE": 1.0,
-          "SPEED": 0.05
+          "FISHING_SPEED": 0.4,
+          "SPEED": 0.4,
+          "SEA_CREATURE_CHANCE": 0.05
         }
       },
       "100": {
         "otherNums": [
-          10
+          100
         ],
         "statNums": {
-          "INTELLIGENCE": 100.0,
-          "SPEED": 5.0
+          "FISHING_SPEED": 40,
+          "SPEED": 40,
+          "SEA_CREATURE_CHANCE": 5
         }
       }
     },
     "UNCOMMON": {
       "1": {
         "otherNums": [
-          0.1
+          1
         ],
         "statNums": {
-          "INTELLIGENCE": 1.0,
-          "SPEED": 0.05
+          "FISHING_SPEED": 0.4,
+          "SPEED": 0.4,
+          "SEA_CREATURE_CHANCE": 0.05
         }
       },
       "100": {
         "otherNums": [
-          10
+          100
         ],
         "statNums": {
-          "INTELLIGENCE": 100.0,
-          "SPEED": 5.0
+          "FISHING_SPEED": 40,
+          "SPEED": 40,
+          "SEA_CREATURE_CHANCE": 5
         }
       }
     },
     "RARE": {
       "1": {
         "otherNums": [
-          0.1,
-          0.2,
-          0.4
+          1,
+          0.25
         ],
         "statNums": {
-          "INTELLIGENCE": 1.0,
-          "SPEED": 0.05
+          "FISHING_SPEED": 0.4,
+          "SPEED": 0.4,
+          "SEA_CREATURE_CHANCE": 0.05
         }
       },
       "100": {
         "otherNums": [
-          15,
-          20,
-          40
+          100,
+          25
         ],
         "statNums": {
-          "INTELLIGENCE": 100.0,
-          "SPEED": 5.0
+          "FISHING_SPEED": 40,
+          "SPEED": 40,
+          "SEA_CREATURE_CHANCE": 5
         }
       }
     },
     "EPIC": {
       "1": {
         "otherNums": [
-          0.2,
-          0.3,
-          0.5
+          1,
+          0.25
         ],
         "statNums": {
-          "INTELLIGENCE": 1.0,
-          "SPEED": 0.05
+          "FISHING_SPEED": 0.4,
+          "SPEED": 0.4,
+          "SEA_CREATURE_CHANCE": 0.05
         }
       },
       "100": {
         "otherNums": [
-          20,
-          30,
-          50
+          100,
+          25
         ],
         "statNums": {
-          "INTELLIGENCE": 100.0,
-          "SPEED": 5.0
+          "FISHING_SPEED": 40,
+          "SPEED": 40,
+          "SEA_CREATURE_CHANCE": 5
         }
       }
     },
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          0.2,
-          0.3,
-          0.5,
-          0.5
+          1,
+          0.25,
+          0.2
         ],
         "statNums": {
-          "INTELLIGENCE": 1.0,
-          "SPEED": 0.05
+          "FISHING_SPEED": 0.4,
+          "SPEED": 0.4,
+          "SEA_CREATURE_CHANCE": 0.05
         }
       },
       "100": {
         "otherNums": [
-          20,
-          30,
-          50,
-          50
+          100,
+          25,
+          20
         ],
         "statNums": {
-          "INTELLIGENCE": 100.0,
-          "SPEED": 5.0
+          "FISHING_SPEED": 40,
+          "SPEED": 40,
+          "SEA_CREATURE_CHANCE": 5
         }
       }
     },
     "MYTHIC": {
       "1": {
         "otherNums": [
+          1,
+          0.25,
           0.2,
-          0.3,
-          0.5,
-          0.5,
-          0.25
+          0.05
+          
         ],
         "statNums": {
-          "INTELLIGENCE": 1.0,
-          "SPEED": 0.05,
+          "FISHING_SPEED": 0.4,
+          "SPEED": 0.4,
           "SEA_CREATURE_CHANCE": 0.05
         }
       },
       "100": {
         "otherNums": [
+          100,
+          25,
           20,
-          30,
-          50,
-          50,
-          25
+          5
         ],
         "statNums": {
-          "INTELLIGENCE": 100.0,
-          "SPEED": 5.0,
-          "SEA_CREATURE_CHANCE": 5.0
+          "FISHING_SPEED": 40,
+          "SPEED": 40,
+          "SEA_CREATURE_CHANCE": 5
         }
       }
     }
@@ -2600,8 +2603,7 @@
           0.5
         ],
         "statNums": {
-          "ORE_FORTUNE": 1.0,
-          "MAGIC_FIND": 0.07
+          "ORE_FORTUNE": 1.0
         }
       },
       "100": {
@@ -2611,8 +2613,7 @@
           50
         ],
         "statNums": {
-          "ORE_FORTUNE": 100,
-          "MAGIC_FIND": 7
+          "ORE_FORTUNE": 100
         }
       }
     }
@@ -2810,9 +2811,8 @@
           126.2
         ],
         "statNums": {
-          "BONUS_ATTACK_SPEED": 25.0,
-          "STRENGTH": 25.0,
-          "MAGIC_FIND": 5.0
+          "ATTACK_SPEED": 25.0,
+          "STRENGTH": 25.0
         }
       },
       "100": {
@@ -2824,9 +2824,8 @@
           250
         ],
         "statNums": {
-          "BONUS_ATTACK_SPEED": 50.0,
-          "STRENGTH": 50.0,
-          "MAGIC_FIND": 10.0
+          "ATTACK_SPEED": 50.0,
+          "STRENGTH": 50.0
         }
       },
       "stats_levelling_curve": "101:200:1"
@@ -3137,7 +3136,7 @@
       "1": {
         "otherNums": [
           0.1,
-          0.3
+          1
         ],
         "statNums": {
           "BONUS_ATTACK_SPEED": 0.25,
@@ -3736,8 +3735,8 @@
       "1": {
         "otherNums": [
           1,
-          0.01,
-          0.3
+          0.2,
+          10
         ],
         "statNums": {
           "DEFENSE": 0.5,
@@ -3747,8 +3746,8 @@
       "100": {
         "otherNums": [
           100,
-          0.5,
-          30
+          10,
+          1000
         ],
         "statNums": {
           "DEFENSE": 50,
@@ -3818,25 +3817,23 @@
       "1": {
         "otherNums": [
           0.2,
-          0.5,
+          0.1,
           1
         ],
         "statNums": {
           "MINING_SPEED": 1.5,
-          "INTELLIGENCE": 1,
-          "MAGIC_FIND": 0.05
+          "INTELLIGENCE": 1
         }
       },
       "100": {
         "otherNums": [
           25,
-          50,
+          10,
           100
         ],
         "statNums": {
           "MINING_SPEED": 150,
-          "INTELLIGENCE": 100,
-          "MAGIC_FIND": 5
+          "INTELLIGENCE": 100
         }
       }
     }
@@ -5922,7 +5919,8 @@
         "otherNums": [
           5.1,
           0.4,
-          0.3
+          0.3,
+          0.06
         ],
         "statNums": {
           "CRIT_CHANCE": 0.5,
@@ -5933,7 +5931,8 @@
         "otherNums": [
           15,
           40,
-          30
+          30,
+          6
         ],
         "statNums": {
           "CRIT_CHANCE": 10.0,
@@ -6416,7 +6415,8 @@
         "otherNums": [
           0.3,
           0.5,
-          0.5
+          0.5,
+          0.06
         ],
         "statNums": {
           "CRIT_CHANCE": 0.1,
@@ -6428,7 +6428,8 @@
         "otherNums": [
           30,
           50,
-          50
+          50,
+          6
         ],
         "statNums": {
           "CRIT_CHANCE": 10.0,
@@ -7205,7 +7206,7 @@
       "1": {
         "otherNums": [
           0.15,
-          0.2
+          0.1
         ],
         "statNums": {
           "CRIT_CHANCE": 0.1,
@@ -7217,7 +7218,7 @@
       "100": {
         "otherNums": [
           15,
-          20
+          10
         ],
         "statNums": {
           "CRIT_CHANCE": 10,
@@ -7231,7 +7232,7 @@
       "1": {
         "otherNums": [
           0.15,
-          0.2
+          0.1
         ],
         "statNums": {
           "CRIT_CHANCE": 0.1,
@@ -7243,7 +7244,7 @@
       "100": {
         "otherNums": [
           15,
-          20
+          10
         ],
         "statNums": {
           "CRIT_CHANCE": 10,
@@ -7381,7 +7382,7 @@
           200,
           20.0,
           20.0,
-          10
+          5
         ],
         "statNums": {
           "TRUE_DEFENSE": 50.0,
@@ -7546,7 +7547,6 @@
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          2.05,
           20
         ],
         "statNums": {
@@ -7557,7 +7557,6 @@
       },
       "100": {
         "otherNums": [
-          7,
           60
         ],
         "statNums": {
@@ -7570,7 +7569,6 @@
     "MYTHIC": {
       "1": {
         "otherNums": [
-          2.05,
           20
         ],
         "statNums": {
@@ -7581,7 +7579,6 @@
       },
       "100": {
         "otherNums": [
-          7,
           60
         ],
         "statNums": {
