@@ -1,11 +1,9 @@
 {
 	components: {
-		"minecraft:attribute_modifiers": [
-		],
 		"minecraft:custom_data": {
-			id: "REAPER_SWORD"
+			id: "VOIDWALKER_KATANA"
 		},
-		"minecraft:item_model": "hypixel_skyblock:item/slayer/zombie/weapons/reaper_falchion",
+		"minecraft:item_model": "hypixel_skyblock:item/slayer/enderman/weapons/katanas/voidwalker_katana",
 		"minecraft:tooltip_display": {
 			hidden_components: [
 				"minecraft:painting/variant",
@@ -24,14 +22,12 @@
 				"minecraft:dyed_color"
 			]
 		},
-		"minecraft:tooltip_style": "hypixel_skyblock:epic",
-		"minecraft:unbreakable": {
-		}
+		"minecraft:tooltip_style": "hypixel_skyblock:uncommon"
 	},
 	count: 1,
-	id: "minecraft:diamond_sword",
+	id: "minecraft:blaze_rod",
 	source: {
-		dataVersion: 4790,
-		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g00fd3323"
+		dataVersion: 4903,
+		modVersion: "Firmament 44.3.0-dev+mc26.2+geda181a9"
 	}
 }
