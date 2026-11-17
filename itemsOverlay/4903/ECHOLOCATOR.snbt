@@ -1,9 +1,9 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "SPOOKY_CHESTPLATE"
+			id: "ECHOLOCATOR"
 		},
-		"minecraft:dyed_color": 6316128,
+		"minecraft:enchantment_glint_override": 1b,
 		"minecraft:tooltip_display": {
 			hidden_components: [
 				"minecraft:jukebox_playable",
@@ -16,18 +16,16 @@
 				"minecraft:banner_patterns",
 				"minecraft:trim",
 				"minecraft:potion_contents",
-				"minecraft:block_entity_data",
-				"minecraft:dyed_color"
+				"minecraft:dyed_color",
+				"minecraft:charged_projectiles"
 			]
 		},
-		"minecraft:unbreakable": {
-		},
-		"minecraft:tooltip_style": "hypixel_skyblock:epic"
+		"minecraft:tooltip_style": "hypixel_skyblock:uncommon"
 	},
 	count: 1,
-	id: "minecraft:leather_chestplate",
+	id: "minecraft:compass",
 	source: {
-		dataVersion: 4325,
-		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
+		dataVersion: 4903,
+		modVersion: "Firmament 44.2.0-dev+mc26.2+g695a31df"
 	}
 }
