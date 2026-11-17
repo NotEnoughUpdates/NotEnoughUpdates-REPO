@@ -1,9 +1,8 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "LAPIS_ARMOR_CHESTPLATE"
+			id: "LAPIS_ARMOR_HELMET"
 		},
-		"minecraft:dyed_color": 255,
 		"minecraft:tooltip_display": {
 			hidden_components: [
 				"minecraft:jukebox_playable",
@@ -16,18 +15,16 @@
 				"minecraft:banner_patterns",
 				"minecraft:trim",
 				"minecraft:potion_contents",
-				"minecraft:block_entity_data",
-				"minecraft:dyed_color"
+				"minecraft:dyed_color",
+				"minecraft:charged_projectiles"
 			]
-		},
-		"minecraft:unbreakable": {
 		},
 		"minecraft:tooltip_style": "hypixel_skyblock:uncommon"
 	},
 	count: 1,
-	id: "minecraft:leather_chestplate",
+	id: "minecraft:sea_lantern",
 	source: {
-		dataVersion: 4325,
-		modVersion: "Firmament 3.4.0-dev+mc1.21.5+g4cd6602"
+		dataVersion: 4903,
+		modVersion: "Firmament 44.3.0-dev+mc26.2+gb8c48d14"
 	}
 }
