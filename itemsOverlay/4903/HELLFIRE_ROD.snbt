@@ -1,9 +1,9 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "MAGMA_ROD"
+			id: "HELLFIRE_ROD"
 		},
-		"minecraft:item_model": "hypixel_skyblock:item/fishing/rod/magma_rod",
+		"minecraft:item_model": "hypixel_skyblock:item/fishing/rod/hellfire_rod",
 		"minecraft:tooltip_display": {
 			hidden_components: [
 				"minecraft:painting/variant",
@@ -22,14 +22,14 @@
 				"minecraft:dyed_color"
 			]
 		},
-		"minecraft:tooltip_style": "hypixel_skyblock:rare",
+		"minecraft:tooltip_style": "hypixel_skyblock:legendary",
 		"minecraft:unbreakable": {
 		}
 	},
 	count: 1,
 	id: "minecraft:fishing_rod",
 	source: {
-		dataVersion: 4790,
-		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g00fd3323"
+		dataVersion: 4903,
+		modVersion: "Firmament 44.3.0-dev+mc26.2+gb8c48d14"
 	}
 }
