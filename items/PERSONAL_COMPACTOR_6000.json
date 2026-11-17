@@ -1,44 +1,29 @@
 {
   "itemid": "minecraft:dropper",
   "displayname": "§5Personal Compactor 6000",
-  "nbttag": "{ExtraAttributes:{id:\"PERSONAL_COMPACTOR_6000\"},HideFlags:254,ItemModel:\"minecraft:dropper\",display:{Lore:[0:\"§7Accessory Power: §6+12\",1:\"\",2:\"§7Automatically turns certain materials\",3:\"§7in your inventory into their\",4:\"§7enchanted form.\",5:\"\",6:\"§eRight-click to configure!\",7:\"\",8:\"§8Does not grant Carpentry XP!\",9:\"\",10:\"§8Works while in Accessory Bag!\",11:\"§5§lEPIC ACCESSORY\"],Name:\"§5Personal Compactor 6000\"},ench:[]}",
+  "nbttag": "{ExtraAttributes:{id:\"PERSONAL_COMPACTOR_6000\"},HideFlags:254,ItemModel:\"minecraft:dropper\",display:{Lore:[0:\"§8Legacy Item\",1:\"\",2:\"§7This legacy item no longer compacts\",3:\"§7materials. Use §e/reclaim §7to exchange\",4:\"§7it for §f6 §7Personal Skill Compactors.\",5:\"\",6:\"§cThis item can be reclaimed! Use\",7:\"§e/reclaim §cto take back what's\",8:\"§crightfully yours!\",9:\"\",10:\"§8§l* §8Co-op Soulbound §8§l*\",11:\"§5§lEPIC ACCESSORY\"],Name:\"§5Personal Compactor 6000\"},ench:[]}",
   "damage": 0,
   "lore": [
-    "§7Accessory Power: §6+12",
+    "§8Legacy Item",
     "",
-    "§7Automatically turns certain materials",
-    "§7in your inventory into their",
-    "§7enchanted form.",
+    "§7This legacy item no longer compacts",
+    "§7materials. Use §e/reclaim §7to exchange",
+    "§7it for §f6 §7Personal Skill Compactors.",
     "",
-    "§eRight-click to configure!",
+    "§cThis item can be reclaimed! Use",
+    "§e/reclaim §cto take back what's",
+    "§crightfully yours!",
     "",
-    "§8Does not grant Carpentry XP!",
-    "",
-    "§8Works while in Accessory Bag!",
+    "§8§l* §8Co-op Soulbound §8§l*",
     "§5§lEPIC ACCESSORY"
   ],
   "internalname": "PERSONAL_COMPACTOR_6000",
-  "clickcommand": "viewrecipe",
+  "clickcommand": "",
   "crafttext": "Requires: Redstone Dust VIII",
   "modver": "Firmament 44.2.0-dev+mc26.1.2+g02e85d46",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Personal_Compactor_6000"
   ],
-  "recipes": [
-    {
-      "A1": "ENCHANTED_REDSTONE_BLOCK:1",
-      "A2": "ENCHANTED_REDSTONE_BLOCK:1",
-      "A3": "ENCHANTED_REDSTONE_BLOCK:1",
-      "B1": "ENCHANTED_REDSTONE_BLOCK:1",
-      "B2": "",
-      "B3": "ENCHANTED_REDSTONE_BLOCK:1",
-      "C1": "ENCHANTED_REDSTONE_BLOCK:1",
-      "C2": "PERSONAL_COMPACTOR_5000:1",
-      "C3": "ENCHANTED_REDSTONE_BLOCK:1",
-      "type": "crafting",
-      "count": 1,
-      "overrideOutputId": "PERSONAL_COMPACTOR_6000"
-    }
-  ]
+  "recipes": []
 }

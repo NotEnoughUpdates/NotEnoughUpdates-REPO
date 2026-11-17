@@ -1,5 +1,5 @@
 {
-  "itemid": "minecraft:dispenser",
+  "itemid": "minecraft:paper",
   "displayname": "§9Personal Deletor 5000",
   "nbttag": "{ExtraAttributes:{id:\"PERSONAL_DELETOR_5000\"},HideFlags:254,ItemModel:\"minecraft:dispenser\",display:{Lore:[0:\"§7Accessory Power: §6+8\",1:\"\",2:\"§7Automatically delete specific items on\",3:\"§7pickup.\",4:\"\",5:\"§eRight-click to configure!\",6:\"\",7:\"§8Works while in Accessory Bag!\",8:\"§9§lRARE ACCESSORY\"],Name:\"§9Personal Deletor 5000\"},ench:[]}",
   "damage": 0,
@@ -17,20 +17,25 @@
   "internalname": "PERSONAL_DELETOR_5000",
   "clickcommand": "viewrecipe",
   "crafttext": "Requires: Iron Ingot X",
-  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "modver": "Firmament 44.3.0-dev+mc26.2+gb8c48d14",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Personal_Deletor_5000"
   ],
-  "recipe": {
-    "A1": "ENCHANTED_IRON:32",
-    "A2": "ENCHANTED_IRON:32",
-    "A3": "ENCHANTED_IRON:32",
-    "B1": "ENCHANTED_IRON:32",
-    "B2": "",
-    "B3": "ENCHANTED_IRON:32",
-    "C1": "ENCHANTED_IRON:32",
-    "C2": "PERSONAL_DELETOR_4000:1",
-    "C3": "ENCHANTED_IRON:32"
-  }
+  "recipes": [
+    {
+      "A1": "ENCHANTED_IRON:32",
+      "A2": "ENCHANTED_IRON:32",
+      "A3": "ENCHANTED_IRON:32",
+      "B1": "ENCHANTED_IRON:32",
+      "B2": "",
+      "B3": "ENCHANTED_IRON:32",
+      "C1": "ENCHANTED_IRON:32",
+      "C2": "PERSONAL_DELETOR_4000:1",
+      "C3": "ENCHANTED_IRON:32",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "PERSONAL_DELETOR_5000"
+    }
+  ]
 }
