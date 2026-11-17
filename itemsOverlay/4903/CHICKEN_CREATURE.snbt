@@ -1,0 +1,34 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "CHICKEN_CREATURE"
+		},
+		"minecraft:dyed_color": 10511680,
+		"minecraft:profile": {
+			id: [I;
+				854160726,
+				1555254121,
+				-1159745984,
+				75904377
+			],
+			name: "",
+			properties: [
+				{
+					name: "textures",
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTY3MDQ3OTE0NzEyNiwKICAicHJvZmlsZUlkIiA6ICIxMzdmMjg3MjUwOTE0ZmI4YjA0ZTYwYjg4MWUwZWE2YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJub3JtYWxpc2luZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jYTM1ODJjZTQ4ODkzMzNkYWQzMjllNGUyNDM3MmEwM2E1ZGFhMmMzNDI4MGM1NjI1NmFmNTI4M2VkYjA0M2Y4IgogICAgfQogIH0KfQ=="
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:dyed_color"
+			]
+		}
+	},
+	count: 1,
+	id: "minecraft:player_head",
+	source: {
+		dataVersion: 4903,
+		modVersion: "Firmament 44.2.0-dev+mc26.2+g955aae4"
+	}
+}

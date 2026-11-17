@@ -1,0 +1,91 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aEarthworm §7(§eCreature§7)",
+  "nbttag": "{ExtraAttributes:{id:\"EARTHWORM_CREATURE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"1e07211f-84b8-3d66-9ce8-667acca7f43f\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5NzQ3MDQ1OTc0NywKICAicHJvZmlsZUlkIiA6ICIyNTBlNzc5MjZkNDM0ZDIyYWM2MTQ4N2EyY2M3YzAwNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJMdW5hMTIxMDUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQwM2JhNDAyN2EzMzNkOGQyZmQzMmFiNTlkMWNmZGJhYTdkOTA4ZDgwZDIzODFkYjJhNjljYmU2NTQ1MGFkOCIKICAgIH0KICB9Cn0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Type: §2 Pest\",1:\"\",2:\"§7Big, scary, and pink.\",3:\"\",4:\"§7Found infesting §aThe Garden§7.\",5:\"§7Attracted to §aCompost§7.\"],Name:\"§aEarthworm §7(§eCreature§7)\",color:10511680}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Type: §2 Pest",
+    "",
+    "§7Big, scary, and pink.",
+    "",
+    "§7Found infesting §aThe Garden§7.",
+    "§7Attracted to §aCompost§7."
+  ],
+  "internalname": "EARTHWORM_CREATURE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.2+g955aae4",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Earthworm"
+  ],
+  "recipes": [
+    {
+      "level": 1,
+      "coins": 1,
+      "farming_xp": 1500,
+      "xp": 1,
+      "name": "§aEarthworm",
+      "render": "@neurepo:mobs/pest_earthworm.json",
+      "panorama": "garden",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ENCHANTED_MELON:5",
+          "chance": "100%"
+        },
+        {
+          "id": "COMPOST:1",
+          "chance": "10%"
+        },
+        {
+          "id": "HONEY_JAR:1",
+          "chance": "10%"
+        },
+        {
+          "id": "DUNG:1",
+          "chance": "10%"
+        },
+        {
+          "id": "PLANT_MATTER:1",
+          "chance": "10%"
+        },
+        {
+          "id": "CHEESE_FUEL:1",
+          "chance": "10%"
+        },
+        {
+          "id": "JELLY:1",
+          "chance": "10%"
+        },
+        {
+          "id": "VINYL_EARTHWORM_ENSEMBLE:1",
+          "chance": "2%"
+        },
+        {
+          "id": "ENCHANTED_MELON_BLOCK:15",
+          "chance": "0.5%"
+        },
+        {
+          "id": "BOOKWORM_BOOK:1",
+          "chance": "2%"
+        },
+        {
+          "id": "DYE_DUNG:1",
+          "chance": "0.0004%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_PEST_LUCK;1:1",
+          "extra": [
+            "§7 §7- §7Catch with §cPocket Black Hole§7.",
+            "§7 §7- §7Catch with §bLasso§7.",
+            "§7 §7- §7Kill Cricket§7, Fly§7, Beetle§7, Earthworm§7,",
+            "§7Locust§7, Slug§7, Mosquito§7, Moth§7, Rat§7, or",
+            "§7Mite §7while using §cSalts§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}
