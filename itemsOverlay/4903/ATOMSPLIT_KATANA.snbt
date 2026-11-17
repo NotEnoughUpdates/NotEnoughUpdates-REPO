@@ -1,11 +1,10 @@
 {
 	components: {
-		"minecraft:attribute_modifiers": [
-		],
 		"minecraft:custom_data": {
-			id: "POOCH_SWORD"
+			id: "ATOMSPLIT_KATANA"
 		},
-		"minecraft:item_model": "hypixel_skyblock:item/slayer/wolf/weapons/pooch_sword",
+		"minecraft:enchantment_glint_override": 1b,
+		"minecraft:item_model": "hypixel_skyblock:item/slayer/enderman/weapons/katanas/atomsplit_katana",
 		"minecraft:tooltip_display": {
 			hidden_components: [
 				"minecraft:painting/variant",
@@ -24,14 +23,12 @@
 				"minecraft:dyed_color"
 			]
 		},
-		"minecraft:tooltip_style": "hypixel_skyblock:legendary",
-		"minecraft:unbreakable": {
-		}
+		"minecraft:tooltip_style": "hypixel_skyblock:legendary"
 	},
 	count: 1,
-	id: "minecraft:golden_sword",
+	id: "minecraft:blaze_rod",
 	source: {
-		dataVersion: 4790,
-		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g00fd3323"
+		dataVersion: 4903,
+		modVersion: "Firmament 44.3.0-dev+mc26.2+geda181a9"
 	}
 }
