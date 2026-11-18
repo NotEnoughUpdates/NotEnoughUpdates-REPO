@@ -3,7 +3,7 @@ import json
 import os
 import re
 import time
-from typing import Any
+from typing import Any, Optional
 from urllib.parse import quote
 
 import requests
@@ -20,7 +20,7 @@ apiUrl = "https://hypixelskyblock.minecraft.wiki/api.php"
 wikiUrlInfoType = "WIKI_URL"
 suffixesToRemove = [
     "(Monster)", "(NPC)", "(Rift NPC)", "(Boss)", "(Miniboss)", "(Sea Creature)", "(Animal)",
-    "(Mythological Creature)",
+    "(Mythological Creature)", "(Pest)",
 ]
 colourCodePattern = re.compile(r"§.")
 hoeTierPattern = re.compile(" Mk\\. I{1,3}$")
@@ -35,8 +35,8 @@ recheckAllLinks = os.environ.get("SHOULD_RECHECK_ALL", "false") == "true"
 class ItemFile:
     name: str
     data: dict[str, Any]
-    candidate: dict[str, str | None]
-    page: dict[str, str | None]
+    candidate: dict[str, Optional[str]]
+    page: dict[str, Optional[str]]
 
     def __init__(self, path: str):
         self._path = path
@@ -195,14 +195,13 @@ class WikiLinkUpdater:
         itemId = data["internalname"]
         name = cls.stripColor(data["displayname"])
         name = name.strip()
-        if "[Lvl {LVL}] " in name:
-            name = name.replace("[Lvl {LVL}] ", "") + " Pet"
+        if name.startswith("[Lvl "):
+            name = name.split("] ", 1)[1] + " Pet"
 
         for suffix in suffixesToRemove:
             if name.endswith(suffix):
                 name = name.removesuffix(suffix).strip()
                 break
-        name = cls.capitalizeWords(name)
 
         if name == "Enchanted Book":
             for line in data["lore"]:
@@ -241,12 +240,7 @@ class WikiLinkUpdater:
         return colourCodePattern.sub("", string)
 
     @staticmethod
-    def capitalizeWords(string: str) -> str:
-        dontCapitalize = ["of", "the", "to"]
-        return "".join(word if word in dontCapitalize else word.capitalize() for word in re.split(r"([ _-])", string))
-
-    @staticmethod
-    def getUrl(page: str | None) -> str | None:
+    def getUrl(page: Optional[str]) -> Optional[str]:
         if not page:
             return None
         return urlPrefix + quote(page.replace(" ", "_"), safe='"#()+,/:')
