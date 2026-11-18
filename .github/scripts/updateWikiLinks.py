@@ -195,8 +195,8 @@ class WikiLinkUpdater:
         itemId = data["internalname"]
         name = cls.stripColor(data["displayname"])
         name = name.strip()
-        if "[Lvl {LVL}] " in name:
-            name = name.replace("[Lvl {LVL}] ", "") + " Pet"
+        if name.startswith("[Lvl "):
+            name = name.split("] ", 1)[1] + " Pet"
 
         for suffix in suffixesToRemove:
             if name.endswith(suffix):
