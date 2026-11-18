@@ -1,0 +1,23 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			enchantments: {
+				looting_new: 4
+			},
+			id: "ENCHANTED_BOOK"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:stored_enchantments",
+				"minecraft:dyed_color"
+			]
+		},
+		"minecraft:tooltip_style": "hypixel_skyblock:common"
+	},
+	count: 1,
+	id: "minecraft:enchanted_book",
+	source: {
+		dataVersion: 4903,
+		modVersion: "Firmament 44.2.0-dev+mc26.2+g695a31df"
+	}
+}

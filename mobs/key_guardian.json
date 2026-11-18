@@ -1,7 +1,12 @@
 {
-  "entity": "Zombie",
-  "entitytype": "minecraft:zombie",
+  "entity": "Player",
+  "entitytype": "minecraft:player",
   "modifiers": [
+    {
+      "type": "playerdata",
+      "skin": "neurepo:mobs/key_guardian.png",
+      "parts": true
+    },
     {
       "type": "equipment",
       "hand": "BONE"
