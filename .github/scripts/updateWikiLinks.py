@@ -202,7 +202,6 @@ class WikiLinkUpdater:
             if name.endswith(suffix):
                 name = name.removesuffix(suffix).strip()
                 break
-        name = cls.capitalizeWords(name)
 
         if name == "Enchanted Book":
             for line in data["lore"]:
@@ -239,11 +238,6 @@ class WikiLinkUpdater:
     @staticmethod
     def stripColor(string: str) -> str:
         return colourCodePattern.sub("", string)
-
-    @staticmethod
-    def capitalizeWords(string: str) -> str:
-        dontCapitalize = ["of", "the", "to"]
-        return "".join(word if word in dontCapitalize else word.capitalize() for word in re.split(r"([ _-])", string))
 
     @staticmethod
     def getUrl(page: str | None) -> str | None:
