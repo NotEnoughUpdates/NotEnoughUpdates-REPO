@@ -20,7 +20,7 @@ apiUrl = "https://hypixelskyblock.minecraft.wiki/api.php"
 wikiUrlInfoType = "WIKI_URL"
 suffixesToRemove = [
     "(Monster)", "(NPC)", "(Rift NPC)", "(Boss)", "(Miniboss)", "(Sea Creature)", "(Animal)",
-    "(Mythological Creature)",
+    "(Mythological Creature)", "(Pest)",
 ]
 colourCodePattern = re.compile(r"§.")
 hoeTierPattern = re.compile(" Mk\\. I{1,3}$")
