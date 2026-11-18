@@ -1,14 +1,10 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§6Inferno Demonlord II (Boss)",
-  "nbttag": "{ExtraAttributes:{id:\"INFERNO_DEMONLORD_2_BOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"118fe834-28aa-3b0d-afe6-f0c52d01afe8\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Strong\",1:\"\",2:\"§7Health: §c10,000,000❤\",3:\"§7Demons damage: §c8,000§7/s\",4:\"§7Demons health: §c1,750,000❤\",5:\"\",6:\"§6Immolate\",7:\"§8Passive\",8:\"§7Deals §c100 §7+ §c15% §7of your max §c❤\",9:\"§7as §ftrue §7damage every second.\",10:\"\",11:\"§bHellion Shield\",12:\"§8Passive\",13:\"§7Match the attunement on your\",14:\"§7dagger to damage the boss.\",15:\"\",16:\"§5Demonsplit\",17:\"§8At 50% HP\",18:\"§7Splits into two powerful demons.\",19:\"\",20:\"§cFire Pillars\",21:\"§8Starting at 50% HP\",22:\"§7Spawns fire pillars.\",23:\"§7Destroy them or die.\"],Name:\"§6Inferno Demonlord II (Boss)\"}}",
+  "displayname": "§6Inferno Demonlord II §7(§c§lBOSS§r§7)",
+  "nbttag": "{ExtraAttributes:{id:\"INFERNO_DEMONLORD_2_BOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"118fe834-28aa-3b0d-afe6-f0c52d01afe8\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Strong\",1:\"\",2:\"§6Immolate\",3:\"§8Passive\",4:\"§7Deals §c100 §7+ §c15% §7of your max §c❤\",5:\"§7as §ftrue §7damage every second.\",6:\"\",7:\"§bHellion Shield\",8:\"§8Passive\",9:\"§7Match the attunement on your\",10:\"§7dagger to damage the boss.\",11:\"\",12:\"§5Demonsplit\",13:\"§8At 50% HP\",14:\"§7Splits into two powerful demons.\",15:\"\",16:\"§cFire Pillars\",17:\"§8Starting at 50% HP\",18:\"§7Spawns fire pillars.\",19:\"§7Destroy them or die.\"],Name:\"§6Inferno Demonlord II §7(§c§lBOSS§r§7)\"}}",
   "damage": 3,
   "lore": [
     "§8Strong",
-    "",
-    "§7Health: §c10,000,000❤",
-    "§7Demons damage: §c8,000§7/s",
-    "§7Demons health: §c1,750,000❤",
     "",
     "§6Immolate",
     "§8Passive",
@@ -39,72 +35,59 @@
   ],
   "recipes": [
     {
-      "xp": 1,
+      "level": 551,
+      "xp": 25,
       "name": "§6Inferno Demonlord II",
       "render": "Blaze",
       "panorama": "crimson_isle",
-      "coins": 1,
-      "combat_xp": 100,
       "type": "drops",
       "drops": [
         {
           "id": "DERELICT_ASHE",
           "extra": [
-            "x12-22"
+            "§eDrop Count: §7x16-32"
           ],
           "chance": "100%"
         },
         {
-          "id": "ENCHANTED_BLAZE_POWDER",
-          "extra": [
-            "x2-3"
-          ],
-          "chance": "13.171%"
+          "id": "ENCHANTED_BLAZE_POWDER:2",
+          "chance": "5%"
         },
         {
           "id": "POTION_WISP_ICE;1",
-          "chance": "2.809%"
+          "chance": "2.5%"
         },
         {
           "id": "ARROW_BUNDLE_MAGMA",
-          "chance": "8.427%"
+          "chance": "5%"
+        },
+        {
+          "id": "LAVATEARS_RUNE;1",
+          "chance": "2.5%"
         },
         {
           "id": "MANA_DISINTEGRATOR",
-          "chance": "3.933%"
+          "chance": "2.5%"
         },
         {
           "id": "SCORCHED_BOOKS",
-          "chance": "2.247%"
+          "chance": "1%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_ATTACK_SPEED;1",
+          "chance": "2%"
         },
         {
           "id": "KELVIN_INVERTER",
-          "chance": "2.809%"
+          "chance": "2.5%"
         },
         {
-          "id": "BLAZE_ROD_DISTILLATE",
-          "chance": "3.933%"
-        },
-        {
-          "id": "GLOWSTONE_DUST_DISTILLATE",
-          "chance": "3.933%"
-        },
-        {
-          "id": "MAGMA_CREAM_DISTILLATE",
-          "chance": "3.933%"
-        },
-        {
-          "id": "NETHER_STALK_DISTILLATE",
-          "chance": "3.933%"
-        },
-        {
-          "id": "CRUDE_GABAGOOL_DISTILLATE",
-          "chance": "7.865%"
+          "id": "CRUDE_GABAGOOL_DISTILLATE:4",
+          "chance": "5%"
         },
         {
           "id": "DYE_FLAME",
-          "extra": [],
-          "chance": "0.00004%"
+          "chance": "0.0004%"
         }
       ]
     }

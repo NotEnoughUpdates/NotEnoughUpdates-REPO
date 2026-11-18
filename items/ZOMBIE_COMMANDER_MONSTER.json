@@ -1,64 +1,61 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Zombie Commander (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"ZOMBIE_COMMANDER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Leader of the Undead.\",1:\"\",2:\"§c❤ Health§8: §c1,700,000 - 3,500,000\",3:\"§c❤ Health §8(MM) : §c160,000,000 - 250,000,000\"],Name:\"§9Zombie Commander (Monster)\"}}",
+  "displayname": "§cZombie Commander §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"ZOMBIE_COMMANDER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Mob Type: §2 Undead\",1:\"\",2:\"§7Leader of the Undead.\",3:\"\",4:\"§7Found in the endless maze of §eFloors VI-VII\",5:\"§7of the §cCatacombs§7.\"],Name:\"§cZombie Commander §7(§cMonster§7)\"}}",
   "damage": 2,
   "lore": [
+    "§7Mob Type: §2 Undead",
+    "",
     "§7Leader of the Undead.",
     "",
-    "§c❤ Health§8: §c1,700,000 - 3,500,000",
-    "§c❤ Health §8(MM) : §c160,000,000 - 250,000,000"
+    "§7Found in the endless maze of §eFloors VI-VII",
+    "§7of the §cCatacombs§7."
   ],
   "internalname": "ZOMBIE_COMMANDER_MONSTER",
   "clickcommand": "viewrecipe",
   "crafttext": "",
-  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
+  "modver": "Firmament 44.2.0-dev+mc26.2+g955aae4",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Zombie_Commander"
   ],
   "recipes": [
     {
-      "combat_xp": 95,
-      "coins": 1,
-      "xp": 30,
       "name": "§cZombie Commander",
-      "panorama": "dungeon",
       "render": "@neurepo:mobs/zombie_commander.json",
+      "panorama": "dungeon",
       "type": "drops",
       "drops": [
         {
+          "id": "ESSENCE_UNDEAD",
+          "chance": "100%"
+        },
+        {
           "id": "ZOMBIE_COMMANDER_HELMET",
-          "chance": "1%"
+          "chance": "2.5%"
         },
         {
           "id": "ZOMBIE_COMMANDER_CHESTPLATE",
-          "chance": "1%"
+          "chance": "2.5%"
         },
         {
           "id": "ZOMBIE_COMMANDER_LEGGINGS",
-          "chance": "1%"
+          "chance": "2.5%"
         },
         {
           "id": "ZOMBIE_COMMANDER_BOOTS",
-          "chance": "1%"
+          "chance": "2.5%"
         },
         {
           "id": "ZOMBIE_COMMANDER_WHIP",
-          "chance": "1%"
+          "chance": "2.5%"
         },
         {
-          "id": "PREMIUM_FLESH",
-          "chance": "0.1%"
-        },
-        {
-          "id": "ATTRIBUTE_SHARD_UNDEAD;1:1",
+          "id": "ATTRIBUTE_SHARD_UNDEAD;1",
           "extra": [
-            "§7 §7- §7Kill Zombie Knight§7, Zombie Soldier§7,",
-            "§7Zombie Commander§7, or Zombie Lord",
-            "§7§7while using §cSalts§7."
-          ],
-          "chance": "100%"
+            "§7 - Charm §cZombie Knight§7, §cZombie Soldier§7, §cZombie§7.",
+            "§cCommander§7, or §cZombie Lord§7."
+          ]
         }
       ]
     }

@@ -1,14 +1,10 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§6Inferno Demonlord III (Boss)",
-  "nbttag": "{ExtraAttributes:{id:\"INFERNO_DEMONLORD_3_BOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"118fe834-28aa-3b0d-afe6-f0c52d01afe8\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Challenging\",1:\"\",2:\"§7Health: §c45,000,000❤\",3:\"§7Demons damage: §c15,000§7/s\",4:\"§7Demons health: §c5,000,000❤\",5:\"\",6:\"§6Immolate\",7:\"§8Passive\",8:\"§7Deals §c100 §7+ §c20% §7of your max §c❤\",9:\"§7as §ftrue §7damage every second.\",10:\"\",11:\"§bHellion Shield\",12:\"§8Passive\",13:\"§7Match the attunement on your\",14:\"§7dagger to damage the boss.\",15:\"\",16:\"§5Demonsplit\",17:\"§8At 66% HP and 33% HP\",18:\"§7Splits into two powerful demons.\",19:\"\",20:\"§cFire Pillars\",21:\"§8Starting at 66% HP\",22:\"§7Spawns fire pillars.\",23:\"§7Destroy them or die.\",24:\"\",25:\"§dDDR Apocalypse\",26:\"§8Starting at 33% HP\",27:\"§7Spawns dangerous fire pits which\",28:\"§7you need to dodge.\"],Name:\"§6Inferno Demonlord III (Boss)\"}}",
+  "displayname": "§6Inferno Demonlord III §7(§c§lBOSS§r§7)",
+  "nbttag": "{ExtraAttributes:{id:\"INFERNO_DEMONLORD_3_BOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"118fe834-28aa-3b0d-afe6-f0c52d01afe8\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Challenging\",1:\"\",2:\"§6Immolate\",3:\"§8Passive\",4:\"§7Deals §c100 §7+ §c20% §7of your max §c❤\",5:\"§7as §ftrue §7damage every second.\",6:\"\",7:\"§bHellion Shield\",8:\"§8Passive\",9:\"§7Match the attunement on your\",10:\"§7dagger to damage the boss.\",11:\"\",12:\"§5Demonsplit\",13:\"§8At 66% HP and 33% HP\",14:\"§7Splits into two powerful demons.\",15:\"\",16:\"§cFire Pillars\",17:\"§8Starting at 66% HP\",18:\"§7Spawns fire pillars.\",19:\"§7Destroy them or die.\",20:\"\",21:\"§dDDR Apocalypse\",22:\"§8Starting at 33% HP\",23:\"§7Spawns dangerous fire pits which\",24:\"§7you need to dodge.\"],Name:\"§6Inferno Demonlord III §7(§c§lBOSS§r§7)\"}}",
   "damage": 3,
   "lore": [
     "§8Challenging",
-    "",
-    "§7Health: §c45,000,000❤",
-    "§7Demons damage: §c15,000§7/s",
-    "§7Demons health: §c5,000,000❤",
     "",
     "§6Immolate",
     "§8Passive",
@@ -44,84 +40,71 @@
   ],
   "recipes": [
     {
-      "xp": 1,
+      "level": 695,
+      "xp": 100,
       "name": "§6Inferno Demonlord III",
       "render": "Blaze",
       "panorama": "crimson_isle",
-      "coins": 1,
-      "combat_xp": 200,
       "type": "drops",
       "drops": [
         {
           "id": "DERELICT_ASHE",
           "extra": [
-            "x60-80"
+            "§eDrop Count: §7x32-64"
           ],
           "chance": "100%"
         },
         {
-          "id": "ENCHANTED_BLAZE_POWDER",
-          "extra": [
-            "x4-8"
-          ],
-          "chance": "12.588%"
+          "id": "ENCHANTED_BLAZE_POWDER:8",
+          "chance": "5%"
         },
         {
-          "id": "LAVATEARS_RUNE;1",
-          "chance": "0.93%"
-        },
-        {
-          "id": "POTION_WISP_ICE;1:2",
-          "chance": "2.688%"
+          "id": "POTION_WISP_ICE;1",
+          "chance": "2.5%"
         },
         {
           "id": "ARROW_BUNDLE_MAGMA",
-          "chance": "8.065%"
+          "chance": "5%"
+        },
+        {
+          "id": "LAVATEARS_RUNE;1",
+          "chance": "2.5%"
         },
         {
           "id": "MANA_DISINTEGRATOR",
-          "chance": "3.763%"
+          "chance": "2.5%"
         },
         {
           "id": "SCORCHED_BOOKS",
-          "chance": "2.151%"
+          "chance": "1%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_ATTACK_SPEED;1",
+          "chance": "2%"
         },
         {
           "id": "KELVIN_INVERTER",
-          "chance": "2.688%"
+          "chance": "2.5%"
         },
         {
-          "id": "BLAZE_ROD_DISTILLATE",
-          "chance": "3.763%"
-        },
-        {
-          "id": "GLOWSTONE_DUST_DISTILLATE",
-          "chance": "3.763%"
-        },
-        {
-          "id": "MAGMA_CREAM_DISTILLATE",
-          "chance": "3.763%"
-        },
-        {
-          "id": "NETHER_STALK_DISTILLATE",
-          "chance": "3.763%"
-        },
-        {
-          "id": "CRUDE_GABAGOOL_DISTILLATE",
-          "chance": "7.527%"
+          "id": "CRUDE_GABAGOOL_DISTILLATE:16",
+          "chance": "5%"
         },
         {
           "id": "SCORCHED_POWER_CRYSTAL",
-          "chance": "3.226%"
+          "chance": "2.5%"
         },
         {
           "id": "ARCHFIEND_DICE",
-          "chance": "1.075%"
+          "chance": "1%"
+        },
+        {
+          "id": "SMOLDERING;6",
+          "chance": "0.25%"
         },
         {
           "id": "DYE_FLAME",
-          "extra": [],
-          "chance": "0.0001%"
+          "chance": "0.0004%"
         }
       ]
     }

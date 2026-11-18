@@ -1,0 +1,47 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§dSun Gecko §7(§c§lBOSS§r§7)",
+  "nbttag": "{ExtraAttributes:{id:\"SUN_GECKO_BOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"663b8def-fac3-2411-9915-8fde41525fc5\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyNTQxMTA2MDk3NywKICAicHJvZmlsZUlkIiA6ICIxYjQwYzcxMGZjMTY0NmQ2OTIxOTVmYzY3YzZlMTE0ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ3c3pvbHNvbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yZGRiMjY2YTc1MDc5OGY1NjJlMmUwZDEyZGU1N2Q5YjMxM2EyZDdiODM0MWQyMzQxMTFlNDgzNzNkNjI1YzciCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §8None!\",1:\"\",2:\"§7Hey! It's me, Gecko!\",3:\"\",4:\"§7Found in the §2Time Chamber in the\",5:\"§fMountaintop §7of §dThe Rift§7.\",6:\"\",7:\"§7You'll need to train for another 600 years.\"],Name:\"§dSun Gecko §7(§c§lBOSS§r§7)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Types: §8None!",
+    "",
+    "§7Hey! It's me, Gecko!",
+    "",
+    "§7Found in the §2Time Chamber in the",
+    "§fMountaintop §7of §dThe Rift§7.",
+    "",
+    "§7You'll need to train for another 600 years."
+  ],
+  "internalname": "SUN_GECKO_BOSS",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Sun_Gecko"
+  ],
+  "x": 38,
+  "y": 90,
+  "z": 18,
+  "island": "rift",
+  "recipes": [
+    {
+      "level": 20,
+      "combat_xp": 6,
+      "name": "§dSun Gecko",
+      "render": "@neurepo:mobs/sun_gecko.json",
+      "type": "drops",
+      "panorama": "rift",
+      "drops": [
+        {
+          "id": "ESSENCE_SUN_GECKO:5",
+          "extra": [
+            "§7Will also grant more depending\n§7on applied §eModifiers§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aPraying Mantis §7(§eCreature§7)",
+  "nbttag": "{ExtraAttributes:{id:\"PRAYING_MANTIS_CREATURE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"5ba7d268-8bb3-3977-ab85-47bb3e7b2935\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc2MDQ1MDQxOTYxMiwKICAicHJvZmlsZUlkIiA6ICI0OWIzODUyNDdhMWY0NTM3YjBmN2MwZTFmMTVjMTc2NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJiY2QyMDMzYzYzZWM0YmY4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFlMDRiYjYzNjdjYWE0ZTg4ZjVmZDBlZTgwZjA3NDVkMTM3YTYwNjAyMjNkYmJjNDJhMTY0NzFmZGY2NGJiODMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Type: §2 Pest\",1:\"\",2:\"§7Strikes fast - *blink* - and it's\",3:\"§7already gone.\",4:\"\",5:\"§7Found infesting §aThe Garden§7.\",6:\"§7Attracted to §aJelly§7.\"],Name:\"§aPraying Mantis §7(§eCreature§7)\",color:10511680}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Type: §2 Pest",
+    "",
+    "§7Strikes fast - *blink* - and it's",
+    "§7already gone.",
+    "",
+    "§7Found infesting §aThe Garden§7.",
+    "§7Attracted to §aJelly§7."
+  ],
+  "internalname": "PRAYING_MANTIS_CREATURE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.2+g955aae4",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Praying_Mantis"
+  ],
+  "recipes": [
+    {
+      "level": 1,
+      "coins": 1,
+      "farming_xp": 1500,
+      "xp": 1,
+      "name": "§aPraying Mantis",
+      "render": "@neurepo:mobs/pest_praying_mantis.json",
+      "panorama": "garden",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ENCHANTED_WILD_ROSE:2",
+          "chance": "100%"
+        },
+        {
+          "id": "COMPOST",
+          "chance": "10%"
+        },
+        {
+          "id": "HONEY_JAR",
+          "chance": "10%"
+        },
+        {
+          "id": "DUNG",
+          "chance": "10%"
+        },
+        {
+          "id": "PLANT_MATTER",
+          "chance": "10%"
+        },
+        {
+          "id": "CHEESE_FUEL",
+          "chance": "10%"
+        },
+        {
+          "id": "JELLY",
+          "chance": "10%"
+        },
+        {
+          "id": "VINYL_PRAY_FOR_ME",
+          "chance": "5%"
+        },
+        {
+          "id": "MANTID_CLAW",
+          "chance": "2%"
+        },
+        {
+          "id": "COMPACTED_WILD_ROSE",
+          "chance": "0.75%"
+        },
+        {
+          "id": "DYE_DUNG:1",
+          "chance": "0.0004%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_INSECT_POWER;1",
+          "extra": [
+            "§7 - Catch with §2Lasso§7.",
+            "§7 - Charm §cPraying Mantis§7."
+          ]
+        }
+      ]
+    }
+  ]
+}

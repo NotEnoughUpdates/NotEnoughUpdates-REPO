@@ -1,0 +1,66 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aLunar Moth §7(§eCreature§7)",
+  "nbttag": "{ExtraAttributes:{id:\"LUNAR_MOTH_CREATURE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"be2b4bb9-1890-3a7d-98c7-bdca5aac81b0\",Properties:{textures:[0:{Name:\"textures\",Signature:\"MeKn4AquwIhHvqTI1I2af0yi3NUBWL1pSHtw5qXnQZ0jYV6Hvsze1fO/ksLNSlkvJNDduNfEeeDkGzcDI7ZsJr+hsfcozSyXtIYBaSB14zXET9j0qx3sDgpELNY7oEwI+2Lx5owDiAJQokz3HAPr/sCQo1YKFau5RCvhnepM4L4bx5NnevMnXG6E7kPnduhE9fO6jJk/6n9fVa2KnqDAhGJyURMYbN7lifjJW3DaGuLUyr10IlDlVwtKgwdLEPBbsmTUXDaca9ul7ZQ/CPzKmZNTTdp/EXTJUI/KtdzDzhOAavsMqst3W+rCx9wd5RjD4293yRyNYvvX2nG6hAjqWV7+OAnRIWObUjMefzlgsaZMHzuqGNb3afC9XdLQ6bXED+AZAMTV1el62lY0KXKzJhmbzKPKjQD9vTWdQSgg+bafgx1gywMLNPuz97Usv5/tUQg6hLMBQz2GSzt0MJWNb5ZXJHxQsBo0xerJWFxA3lrBm4kdaDdNdnWFP2gdgplcErmlh2sS49OOIF+W6CHTWLxcT3dOSZ3rgDqEI3RZjehmdh9RGKwRInx/HUfEnGkzu3c1EzieDJoaz8CrvOHS2z9Q7MNzkiBty0YW/jERmTzWgMyvBdhwgVmMzYwactV7zbozQyMw+HRbX4mXxrlJ1rDNaElCpIpNEvdB6ZrLIWc=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc3MjE1OTE4MzkzMSwKICAicHJvZmlsZUlkIiA6ICIxNzRjZmRiNGEzY2I0M2I1YmZjZGU0MjRjM2JiMmM2ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJtYXJhZWwxOCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZWU0ZmNjNWFhYzI3YmRiYjBiZTIxMGRmMDhiMDViY2E1YWViYzg5YmYyODIxZjYwOGE1NWZkMmNmMDQzNGJlIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Type: §2 Pest\",1:\"\",2:\"§7Drawn to the light and dew of the\",3:\"§7moon.\",4:\"\",5:\"§7Found during the §8Night ☽ §7by placing\",6:\"§5Moondew §7in a trap on §aThe Garden§7.\"],Name:\"§aLunar Moth §7(§eCreature§7)\",color:10511680}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Type: §2 Pest",
+    "",
+    "§7Drawn to the light and dew of the",
+    "§7moon.",
+    "",
+    "§7Found during the §8Night ☽ §7by placing",
+    "§5Moondew §7in a trap on §aThe Garden§7."
+  ],
+  "internalname": "LUNAR_MOTH_CREATURE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.2+g955aae4",
+  "infoType": "",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Lunar_Moth"
+  ],
+  "recipes": [
+    {
+      "level": 1,
+      "coins": 1,
+      "farming_xp": 1500,
+      "xp": 1,
+      "name": "§aLunar Moth",
+      "render": "@neurepo:mobs/pest_lunar_moth.json",
+      "panorama": "garden",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ENCHANTED_SUNFLOWER",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_MOONFLOWER",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_WILD_ROSE",
+          "chance": "100%"
+        },
+        {
+          "id": "ULTIMATE_SUNSET;1",
+          "chance": "35%"
+        },
+        {
+          "id": "DYE_DUNG:1",
+          "chance": "0.002%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_LUNAR_POWER;1",
+          "extra": [
+            "§7 - Fusing §9Ladybug §7Shard with §aBug §7Family and §9§lRare §r§7or",
+            "§7higher.",
+            "§7 - Catch with §2Lasso§7.",
+            "§7 - Charm §cLunar Moth§7."
+          ]
+        }
+      ]
+    }
+  ]
+}

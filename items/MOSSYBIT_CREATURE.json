@@ -1,0 +1,52 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§2Mossybit §7(§eCreature§7)",
+  "nbttag": "{ExtraAttributes:{id:\"MOSSYBIT_CREATURE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"e1e1c2e4-1ed2-473d-bde2-3ec718535399\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyMTc0MDA5MDYwMSwKICAicHJvZmlsZUlkIiA6ICI0NDAzZGM1NDc1YmM0YjE1YTU0OGNmZGE2YjBlYjdkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICI4Qml0czFCeXRlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E2YjM0NGM3MjZjZDkzOTc5ZmY1MDA0OTA5YTFjMWU1MmI1YTQxZDU2ZDJmNGRhNTFlNmY2OWU0MjgzODIzOGEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §a Critter§7, §2 Woodland§7, §a Animal\",1:\"\",2:\"§7These frogs are agile jumpers.\",3:\"\",4:\"§7Found in the §2Murkwater Loch §7of the\",5:\"§2Moonglade Marsh§7.\"],Name:\"§2Mossybit §7(§eCreature§7)\",color:10511680}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Types: §a Critter§7, §2 Woodland§7, §a Animal",
+    "",
+    "§7These frogs are agile jumpers.",
+    "",
+    "§7Found in the §2Murkwater Loch §7of the",
+    "§2Moonglade Marsh§7."
+  ],
+  "internalname": "MOSSYBIT_CREATURE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.2+g955aae4",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Mossybit"
+  ],
+  "recipes": [
+    {
+      "level": 9,
+      "coins": 3,
+      "hunting_xp": 150,
+      "xp": 9,
+      "name": "§2Mossybit",
+      "render": "Frog",
+      "panorama": "foraging_2",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "SEA_LUMIES:8",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_SEA_LUMIES",
+          "chance": "5%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_FOREST_TRAP;1",
+          "extra": [
+            "§7 - Fusing §fTadgang §7Shard with §2Forest §7Category.",
+            "§7 - Place §6Hunting Traps §7in §2Moonglade Marsh§7. (§bOn Land§7)",
+            "§7 - Hunted in §2Murkwater Loch§7."
+          ]
+        }
+      ]
+    }
+  ]
+}

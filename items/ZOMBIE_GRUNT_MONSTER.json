@@ -1,55 +1,50 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Zombie Grunt (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"ZOMBIE_GRUNT_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Just more grunts in the platoon\",1:\"\",2:\"§c❤ Health§8: §c22,000 - 120,000\",3:\"§c❤ Health §8(MM) : §c1,600,000 - 3,000,000\"],Name:\"§9Zombie Grunt (Monster)\"}}",
+  "displayname": "§cZombie Grunt §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"ZOMBIE_GRUNT_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Mob Type: §2 Undead\",1:\"\",2:\"§7Just more grunts in the platoon.\",3:\"\",4:\"§7Found in the endless maze of §eFloors E-II\",5:\"§7of the §cCatacombs§7.\"],Name:\"§cZombie Grunt §7(§cMonster§7)\"}}",
   "damage": 2,
   "lore": [
-    "§7Just more grunts in the platoon",
+    "§7Mob Type: §2 Undead",
     "",
-    "§c❤ Health§8: §c22,000 - 120,000",
-    "§c❤ Health §8(MM) : §c1,600,000 - 3,000,000"
+    "§7Just more grunts in the platoon.",
+    "",
+    "§7Found in the endless maze of §eFloors E-II",
+    "§7of the §cCatacombs§7."
   ],
   "internalname": "ZOMBIE_GRUNT_MONSTER",
   "clickcommand": "viewrecipe",
   "crafttext": "",
-  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
+  "modver": "Firmament 44.2.0-dev+mc26.2+g955aae4",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Zombie_Grunt"
   ],
   "recipes": [
     {
-      "combat_xp": 40,
-      "coins": 1,
-      "xp": 30,
       "name": "§cZombie Grunt",
-      "panorama": "dungeon",
       "render": "@neurepo:mobs/zombie_grunt.json",
+      "panorama": "dungeon",
       "type": "drops",
       "drops": [
         {
+          "id": "ESSENCE_UNDEAD",
+          "chance": "10%"
+        },
+        {
           "id": "ROTTEN_HELMET",
-          "chance": "5%"
+          "chance": "2.5%"
         },
         {
           "id": "ROTTEN_CHESTPLATE",
-          "chance": "5%"
+          "chance": "2.5%"
         },
         {
           "id": "ROTTEN_LEGGINGS",
-          "chance": "5%"
+          "chance": "2.5%"
         },
         {
           "id": "ROTTEN_BOOTS",
-          "chance": "5%"
-        },
-        {
-          "id": "ENCHANTED_ROTTEN_FLESH",
-          "chance": "2%"
-        },
-        {
-          "id": "PREMIUM_FLESH",
-          "chance": "0.1%"
+          "chance": "2.5%"
         }
       ]
     }

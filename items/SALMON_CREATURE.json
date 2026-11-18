@@ -1,0 +1,57 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§2Salmon §7(§eCreature§7)",
+  "nbttag": "{ExtraAttributes:{id:\"SALMON_CREATURE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"01b77ad6-2139-3bec-81b7-7ad621397bec\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5ODMxNTUyMjUzNCwKICAicHJvZmlsZUlkIiA6ICIyMWUzNjdkNzI1Y2Y0ZTNiYjI2OTJjNGEzMDBhNGRlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHZXlzZXJNQyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kNGQwMDE1ODliODZjMjJjZjI0ZjE2MThmZTdlZmVmMTI5MzJhYTkxNDhiNWU0ZmM2ZmY0YTYxNGI5OTBhZTEyIgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §9 Aquatic§7, §2 Woodland\",1:\"\",2:\"§7Particularly sensitive to the\",3:\"§7pressure of the water in which it\",4:\"§7resides.\",5:\"\",6:\"§7Found in the §2Murkwater Loch §7of the\",7:\"§2Moonglade Marsh§7.\"],Name:\"§2Salmon §7(§eCreature§7)\",color:10511680}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Types: §9 Aquatic§7, §2 Woodland",
+    "",
+    "§7Particularly sensitive to the",
+    "§7pressure of the water in which it",
+    "§7resides.",
+    "",
+    "§7Found in the §2Murkwater Loch §7of the",
+    "§2Moonglade Marsh§7."
+  ],
+  "internalname": "SALMON_CREATURE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.2+g955aae4",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Salmon"
+  ],
+  "recipes": [
+    {
+      "level": 1,
+      "coins": 1,
+      "combat_xp": 5,
+      "xp": 1,
+      "name": "§2Salmon",
+      "render": "Salmon",
+      "panorama": "foraging_2",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "RAW_FISH-1",
+          "chance": "100%"
+        },
+        {
+          "id": "SEA_LUMIES",
+          "chance": "100%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_LOST_AND_FOUND;1",
+          "extra": [
+            "§7 - Place §cTraps §7in §3Murkwater Depths§7.",
+            "§7(§bUnderwater§7).",
+            "§7 - Place §cTraps §7in §3Murkwater Shallows§7.",
+            "§7(§bUnderwater§7).",
+            "§7 - Caught by Fishing in §cTomb Floodway§7.",
+            "§7 - Catch with a §bFishing Net§7."
+          ]
+        }
+      ]
+    }
+  ]
+}

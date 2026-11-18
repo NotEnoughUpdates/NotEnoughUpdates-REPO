@@ -1,0 +1,123 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aField Mouse §7(§eCreature§7)",
+  "nbttag": "{ExtraAttributes:{id:\"FIELD_MOUSE_CREATURE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"c9873ef5-6132-3bf8-94ec-92b14da39bc5\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyNzkwNDc5NzQ1OSwKICAicHJvZmlsZUlkIiA6ICI0MmIwOTMyZDUwMWI0MWQ1YTM4YjEwOTcxYTYwYmYxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBaXJib2x0MDc4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2YzNzllMDkyNTI4MTczMTRiZDBiNjk0ZjdkNTNiNDhhZjJjN2ZhODQ5OTEwOTgwMmE0MWJiMjk0ZDJmOTNlM2UiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §2 Pest§7, §d Elusive\",1:\"\",2:\"§7A shy little fellow!\",3:\"\",4:\"§7Found by placing §ebait §7in a trap\",5:\"§7on §aThe Garden§7.\"],Name:\"§aField Mouse §7(§eCreature§7)\",color:10511680}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Types: §2 Pest§7, §d Elusive",
+    "",
+    "§7A shy little fellow!",
+    "",
+    "§7Found by placing §ebait §7in a trap",
+    "§7on §aThe Garden§7."
+  ],
+  "internalname": "FIELD_MOUSE_CREATURE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.2+g955aae4",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Field_Mouse"
+  ],
+  "recipes": [
+    {
+      "level": 1,
+      "coins": 1,
+      "farming_xp": 6000,
+      "xp": 1,
+      "name": "§aField Mouse",
+      "render": "@neurepo:mobs/pest_field_mouse.json",
+      "panorama": "garden",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ENCHANTED_WHEAT",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_PUMPKIN",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_RED_MUSHROOM",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_BROWN_MUSHROOM",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_CACTUS_GREEN:2",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_SUGAR:2",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_COCOA:3",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_NETHER_STALK:3",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_CARROT:3",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_POTATO:3",
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_MELON:5",
+          "chance": "100%"
+        },
+        {
+          "id": "PLANT_MATTER",
+          "chance": "100%"
+        },
+        {
+          "id": "COMPOST",
+          "chance": "100%"
+        },
+        {
+          "id": "CHEESE_FUEL",
+          "chance": "100%"
+        },
+        {
+          "id": "JELLY",
+          "chance": "100%"
+        },
+        {
+          "id": "HONEY_JAR",
+          "chance": "100%"
+        },
+        {
+          "id": "DUNG",
+          "chance": "100%"
+        },
+        {
+          "id": "SQUEAKY_TOY",
+          "chance": "5%"
+        },
+        {
+          "id": "SQUEAKY_MOUSEMAT",
+          "chance": "1%"
+        },
+        {
+          "id": "DYE_DUNG",
+          "chance": "0.002%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_PEST_LUCK;1",
+          "extra": [
+            "§7 - Catch with §2Lasso§7.",
+            "§7 - Charm §cMouse§7. (§aGuaranteed Drop§7)"
+          ]
+        }
+      ]
+    }
+  ]
+}
