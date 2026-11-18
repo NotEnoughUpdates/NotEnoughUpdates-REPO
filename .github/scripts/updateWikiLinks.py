@@ -3,7 +3,7 @@ import json
 import os
 import re
 import time
-from typing import Any
+from typing import Any, Optional
 from urllib.parse import quote
 
 import requests
@@ -35,8 +35,8 @@ recheckAllLinks = os.environ.get("SHOULD_RECHECK_ALL", "false") == "true"
 class ItemFile:
     name: str
     data: dict[str, Any]
-    candidate: dict[str, str | None]
-    page: dict[str, str | None]
+    candidate: dict[str, Optional[str]]
+    page: dict[str, Optional[str]]
 
     def __init__(self, path: str):
         self._path = path
@@ -240,7 +240,7 @@ class WikiLinkUpdater:
         return colourCodePattern.sub("", string)
 
     @staticmethod
-    def getUrl(page: str | None) -> str | None:
+    def getUrl(page: Optional[str]) -> Optional[str]:
         if not page:
             return None
         return urlPrefix + quote(page.replace(" ", "_"), safe='"#()+,/:')
