@@ -1,13 +1,10 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§6Revenant Horror IV (Boss)",
-  "nbttag": "{ExtraAttributes:{id:\"REVENANT_HORROR_4_BOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"1cd0f7b6-d6fe-3254-9cd0-f7b6d6fe6254\",Properties:{textures:[0:{Name:\"textures\",Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmE3YmIzNDQ3MTUwOGI0YjIwY2IzNWMzN2ExZGQ2ZThhZmE3ZjJkNTM4ODgyMjEzODgzN2NhZjU5YzIxOTVkOCJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Deadly\",1:\"\",2:\"§7Health: §c1,500,000❤\",3:\"§7Damage: §c400 §7per second\",4:\"\",5:\"§aLife Drain\",6:\"§7Drains health every few seconds.\",7:\"\",8:\"§aPestilence\",9:\"§7Deals AOE damage every second,\",10:\"§7shredding armor by 25%.\",11:\"\",12:\"§cEnrage\",13:\"§7Gets real mad once in a while.\"],Name:\"§6Revenant Horror IV (Boss)\"},ench:[]}",
+  "displayname": "§2Revenant Horror IV §7(§c§lBOSS§r§7)",
+  "nbttag": "{ExtraAttributes:{id:\"REVENANT_HORROR_4_BOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"1cd0f7b6-d6fe-3254-9cd0-f7b6d6fe6254\",Properties:{textures:[0:{Name:\"textures\",Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmE3YmIzNDQ3MTUwOGI0YjIwY2IzNWMzN2ExZGQ2ZThhZmE3ZjJkNTM4ODgyMjEzODgzN2NhZjU5YzIxOTVkOCJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Deadly\",1:\"\",2:\"§aLife Drain\",3:\"§7Drains health every few seconds.\",4:\"\",5:\"§aPestilence\",6:\"§7Deals AOE damage every second,\",7:\"§7shredding armor by 25%.\",8:\"\",9:\"§cEnrage\",10:\"§7Gets real mad once in a while.\"],Name:\"§2Revenant Horror IV §7(§c§lBOSS§r§7)\"},ench:[]}",
   "damage": 3,
   "lore": [
     "§8Deadly",
-    "",
-    "§7Health: §c1,500,000❤",
-    "§7Damage: §c400 §7per second",
     "",
     "§aLife Drain",
     "§7Drains health every few seconds.",
@@ -29,8 +26,9 @@
   ],
   "recipes": [
     {
+      "level": 217,
       "xp": 500,
-      "name": "§6Revenant Horror IV",
+      "name": "§2Revenant Horror IV",
       "render": "@neurepo:mobs/revenant_horror.json",
       "panorama": "hub",
       "type": "drops",
@@ -38,53 +36,57 @@
         {
           "id": "REVENANT_FLESH",
           "extra": [
-            "§eDrop Count: §7x50-64"
+            "§eDrop Count: §7x16-32"
           ],
           "chance": "100%"
         },
         {
-          "id": "FOUL_FLESH",
-          "extra": [
-            "§eDrop Count: §7x2-3"
-          ],
-          "chance": "16.22%"
+          "id": "FOUL_FLESH:2",
+          "chance": "10%"
         },
         {
           "id": "ZOMBIE_SLAYER_RUNE;1",
-          "chance": "6.33%"
-        },
-        {
-          "id": "UNDEAD_CATALYST",
-          "chance": "0.60%"
-        },
-        {
-          "id": "SMITE;6",
-          "chance": "0.81%"
-        },
-        {
-          "id": "BEHEADED_HORROR",
-          "chance": "0.16%"
-        },
-        {
-          "id": "REVENANT_CATALYST",
-          "chance": "1.01%"
-        },
-        {
-          "id": "ATTRIBUTE_SHARD_SLAYER_DISCOUNT;1",
           "chance": "0.25%"
         },
         {
+          "id": "UNDEAD_CATALYST",
+          "chance": "1%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_UNDEAD_ESSENCE;1",
+          "chance": "1%"
+        },
+        {
+          "id": "SMITE;6",
+          "chance": "0.25%"
+        },
+        {
+          "id": "BEHEADED_HORROR",
+          "chance": "0.1%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_SLAYER_DISCOUNT;1",
+          "chance": "0.1%"
+        },
+        {
+          "id": "REVENANT_CATALYST",
+          "chance": "0.5%"
+        },
+        {
           "id": "SNAKE_RUNE;1",
-          "chance": "0.16%"
+          "chance": "0.15%"
+        },
+        {
+          "id": "FESTERING_MAGGOT",
+          "chance": "0.1%"
         },
         {
           "id": "SCYTHE_BLADE",
-          "chance": "0.06%"
+          "chance": "0.2%"
         },
         {
           "id": "DYE_MATCHA",
-          "extra": [],
-          "chance": "0.0002%"
+          "chance": "0.001%"
         }
       ]
     }

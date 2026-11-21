@@ -1,54 +1,65 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Flaming Spider (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"FLAMING_SPIDER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"7c63f3cf-a963-311a-aeca-3a075b417806\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q1NDE1NDFkYWFmZjUwODk2Y2QyNThiZGJkZDRjZjgwYzNiYTgxNjczNTcyNjA3OGJmZTM5MzkyN2U1N2YxIn19fQ=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Can't stop burning.\",1:\"\",2:\"§c❤ Health§8: §c1,200,000\"],Name:\"§9Flaming Spider (Monster)\"}}",
+  "displayname": "§cFlaming Spider §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"FLAMING_SPIDER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"7c63f3cf-a963-311a-aeca-3a075b417806\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q1NDE1NDFkYWFmZjUwODk2Y2QyNThiZGJkZDRjZjgwYzNiYTgxNjczNTcyNjA3OGJmZTM5MzkyN2U1N2YxIn19fQ=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §4 Arthropod§7, §4 Infernal\",1:\"\",2:\"§7Can't stop burning.\",3:\"\",4:\"§7Found in the §eBurning Desert §7of\",5:\"§7the §cCrimson Isle§7.\"],Name:\"§cFlaming Spider §7(§cMonster§7)\"}}",
   "damage": 3,
   "lore": [
+    "§7Mob Types: §4 Arthropod§7, §4 Infernal",
+    "",
     "§7Can't stop burning.",
     "",
-    "§c❤ Health§8: §c1,200,000"
+    "§7Found in the §eBurning Desert §7of",
+    "§7the §cCrimson Isle§7."
   ],
   "internalname": "FLAMING_SPIDER_MONSTER",
   "clickcommand": "viewrecipe",
   "crafttext": "",
-  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
+  "modver": "Firmament 44.2.0-dev+mc26.2+g955aae4",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Flaming_Spider"
   ],
   "recipes": [
     {
-      "level": 80,
-      "coins": 20,
-      "xp": 100,
-      "combat_xp": 120,
+      "level": 140,
+      "coins": 46,
+      "combat_xp": 125,
+      "xp": 154,
       "name": "§cFlaming Spider",
-      "panorama": "crimson_isle",
       "render": "Spider",
+      "panorama": "crimson_isle",
       "type": "drops",
       "drops": [
         {
-          "id": "STRING:1",
-          "extra": [
-            "§eDrop Count: §7x1-2"
-          ],
+          "id": "STRING:8",
           "chance": "100%"
         },
         {
-          "id": "BURNING_EYE:1",
+          "id": "SPIDER_EYE:8",
+          "chance": "100%"
+        },
+        {
+          "id": "BURNING_EYE",
           "chance": "20%"
+        },
+        {
+          "id": "ENCHANTED_STRING",
+          "chance": "5%"
+        },
+        {
+          "id": "ENCHANTED_SPIDER_EYE",
+          "chance": "5%"
         },
         {
           "id": "DYE_CYCLAMEN",
           "chance": "0.00001%"
         },
         {
-          "id": "ATTRIBUTE_SHARD_ARACHNO;1:1",
+          "id": "ATTRIBUTE_SHARD_ARACHNO;1",
           "extra": [
-            "§7 §7- §7Catch with §cPocket Black Hole§7.",
-            "§7 §7- §7Kill Flaming Spider §7while using §cSalts§7."
-          ],
-          "chance": "100%"
+            "§7 - Catch with §cPocket Black Hole§7.",
+            "§7 - Charm §cFlaming Spider§7."
+          ]
         }
       ]
     }

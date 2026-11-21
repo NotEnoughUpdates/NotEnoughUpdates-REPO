@@ -1,0 +1,51 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§6Bat Piñata §7(§fEvent Creature§7)",
+  "nbttag": "{ExtraAttributes:{id:\"BAT_PINATA_CREATURE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"62e67882-f5a4-411b-816f-2f704b3feb51\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4NDEyNjgwMzA3NywKICAicHJvZmlsZUlkIiA6ICI3MjU1MDA3NjQzYzQ0YTZiYjM3MjJlNzc3OTk5OTFkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4ZW50YW55IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FlYTNiMDAyMGQwM2EzYWVmNzJiYTE4ZjliMTkwOTM5NjgzYTZhNWEwMmMxMzAyM2VlYTY3ZmFmYWFlNjZkNCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Types: §6 Spooky§7,  Airborne, §e Shielded\",1:\"\",2:\"§7Alive for only a short duration, their\",3:\"§7destiny is to be torn to shreds by ravenous\",4:\"§7children than lead a life of sweet serenity.\",5:\"\",6:\"§6Bat Piñatas §7can randomly spawn during the\",7:\"§6Spooky Festival§7, though can be summoned at\",8:\"§7any point via §9Bat Firework§7.\"],Name:\"§6Bat Piñata §7(§fEvent Creature§7)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Types: §6 Spooky§7,  Airborne, §e Shielded",
+    "",
+    "§7Alive for only a short duration, their",
+    "§7destiny is to be torn to shreds by ravenous",
+    "§7children than lead a life of sweet serenity.",
+    "",
+    "§6Bat Piñatas §7can randomly spawn during the",
+    "§6Spooky Festival§7, though can be summoned at",
+    "§7any point via §9Bat Firework§7."
+  ],
+  "internalname": "BAT_PINATA_CREATURE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.2+g955aae4",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Bat_Pi%C3%B1ata"
+  ],
+  "recipes": [
+    {
+      "level": 29,
+      "coins": 9,
+      "combat_xp": 43,
+      "xp": 31,
+      "name": "§6Bat Piñata",
+      "render": "Bat",
+      "panorama": "hub",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "GREEN_CANDY",
+          "chance": "90%"
+        },
+        {
+          "id": "PURPLE_CANDY",
+          "chance": "10%"
+        },
+        {
+          "id": "BAT_THE_FISH",
+          "chance": "2%"
+        }
+      ]
+    }
+  ]
+}

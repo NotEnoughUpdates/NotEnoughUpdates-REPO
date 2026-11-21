@@ -1,68 +1,61 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§9Zombie Knight (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"ZOMBIE_KNIGHT_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"34af9e21-dff4-3b94-9fb5-07816e41af75\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVkMmYzMWJhMTYyZmU2MjcyZTgzMWFlZDE3ZjUzMjEzZGI2ZmExYzRjYmU0ZmM4MjdmMzk2M2NjOThiOSJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Knighted by Necron himself.\",1:\"\",2:\"§c❤ Health§8: §c170,000 - 1.280,000\",3:\"§c❤ Health §8(MM) : §c7,000,000 - 40,000,000\"],Name:\"§9Zombie Knight (Monster)\"}}",
+  "displayname": "§cZombie Knight §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"ZOMBIE_KNIGHT_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"34af9e21-dff4-3b94-9fb5-07816e41af75\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVkMmYzMWJhMTYyZmU2MjcyZTgzMWFlZDE3ZjUzMjEzZGI2ZmExYzRjYmU0ZmM4MjdmMzk2M2NjOThiOSJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Type: §2 Undead\",1:\"\",2:\"§7Knighted by Necron himself.\",3:\"\",4:\"§7Found in the endless maze of §eFloors III-VII\",5:\"§7of the §cCatacombs§7.\"],Name:\"§cZombie Knight §7(§cMonster§7)\"}}",
   "damage": 3,
   "lore": [
+    "§7Mob Type: §2 Undead",
+    "",
     "§7Knighted by Necron himself.",
     "",
-    "§c❤ Health§8: §c170,000 - 1.280,000",
-    "§c❤ Health §8(MM) : §c7,000,000 - 40,000,000"
+    "§7Found in the endless maze of §eFloors III-VII",
+    "§7of the §cCatacombs§7."
   ],
   "internalname": "ZOMBIE_KNIGHT_MONSTER",
   "clickcommand": "viewrecipe",
   "crafttext": "",
-  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
+  "modver": "Firmament 44.2.0-dev+mc26.2+g955aae4",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Zombie_Knight"
   ],
   "recipes": [
     {
-      "combat_xp": 95,
-      "coins": 1,
-      "xp": 30,
       "name": "§cZombie Knight",
-      "panorama": "dungeon",
       "render": "@neurepo:mobs/zombie_knight.json",
+      "panorama": "dungeon",
       "type": "drops",
       "drops": [
         {
+          "id": "ESSENCE_UNDEAD",
+          "chance": "10%"
+        },
+        {
           "id": "ZOMBIE_KNIGHT_HELMET",
-          "chance": "4%"
+          "chance": "2.5%"
         },
         {
           "id": "ZOMBIE_KNIGHT_CHESTPLATE",
-          "chance": "4%"
+          "chance": "2.5%"
         },
         {
           "id": "ZOMBIE_KNIGHT_LEGGINGS",
-          "chance": "4%"
+          "chance": "2.5%"
         },
         {
           "id": "ZOMBIE_KNIGHT_BOOTS",
-          "chance": "4%"
-        },
-        {
-          "id": "ENCHANTED_ROTTEN_FLESH",
-          "chance": "2%"
+          "chance": "2.5%"
         },
         {
           "id": "ZOMBIE_KNIGHT_SWORD",
-          "chance": "2%"
+          "chance": "2.5%"
         },
         {
-          "id": "PREMIUM_FLESH",
-          "chance": "0.2%"
-        },
-        {
-          "id": "ATTRIBUTE_SHARD_UNDEAD;1:1",
+          "id": "ATTRIBUTE_SHARD_UNDEAD;1",
           "extra": [
-            "§7 §7- §7Kill Zombie Knight§7, Zombie Soldier§7,",
-            "§7Zombie Commander§7, or Zombie Lord",
-            "§7§7while using §cSalts§7."
-          ],
-          "chance": "100%"
+            "§7 - Charm §cZombie Knight§7, §cZombie Soldier§7, §cZombie§7.",
+            "§cCommander§7, or §cZombie Lord§7."
+          ]
         }
       ]
     }

@@ -1,74 +1,65 @@
 {
   "itemid": "minecraft:skull",
-  "displayname": "§aWither Skeleton (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"WITHER_SKELETON_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:wither_skeleton_skull\",display:{Lore:[0:\"§7Keepers of the Crimson Isle.\",1:\"\",2:\"§c❤ Health§8: §c300,000\"],Name:\"§aWither Skeleton (Monster)\"}}",
+  "displayname": "§cWither Skeleton §7(§cMonster§7)",
+  "nbttag": "{ExtraAttributes:{id:\"WITHER_SKELETON_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:wither_skeleton_skull\",display:{Lore:[0:\"§7Mob Types: §8 Wither§7, §f Skeletal\",1:\"\",2:\"§7Keepers of the Crimson Isle.\",3:\"\",4:\"§7Found in the §5Stronghold §7of\",5:\"§7the §cCrimson Isle§7.\"],Name:\"§cWither Skeleton §7(§cMonster§7)\"}}",
   "damage": 1,
   "lore": [
+    "§7Mob Types: §8 Wither§7, §f Skeletal",
+    "",
     "§7Keepers of the Crimson Isle.",
     "",
-    "§c❤ Health§8: §c300,000"
+    "§7Found in the §5Stronghold §7of",
+    "§7the §cCrimson Isle§7."
   ],
   "internalname": "WITHER_SKELETON_MONSTER",
   "clickcommand": "viewrecipe",
   "crafttext": "",
-  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
+  "modver": "Firmament 44.2.0-dev+mc26.2+g955aae4",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Wither_Skeleton"
   ],
   "recipes": [
     {
-      "level": 70,
-      "coins": 20,
-      "xp": 100,
-      "combat_xp": 70,
-      "name": "§fWither Skeleton",
-      "render": "@neurepo:mobs/witherskeleton.json",
-      "type": "drops",
+      "level": 144,
+      "coins": 48,
+      "combat_xp": 216,
+      "xp": 158,
+      "name": "§cWither Skeleton",
+      "render": "@neurepo:mobs/wither_skeleton.json",
       "panorama": "crimson_isle",
+      "type": "drops",
       "drops": [
         {
-          "id": "COAL:1",
-          "extra": [],
-          "chance": "50%"
-        },
-        {
-          "id": "BONE:3",
-          "extra": [],
+          "id": "COAL",
+          "extra": [
+            "§eDrop Count: §7x8-9"
+          ],
           "chance": "100%"
         },
         {
-          "id": "WITHER_SOUL:1",
-          "extra": [],
+          "id": "BONE:8",
+          "chance": "100%"
+        },
+        {
+          "id": "WITHER_SOUL",
           "chance": "20%"
         },
         {
-          "id": "ENCHANTED_COAL:1",
+          "id": "ENCHANTED_COAL:2",
+          "chance": "5%"
+        },
+        {
+          "id": "ENCHANTED_BONE",
+          "chance": "5%"
+        },
+        {
+          "id": "RAMPART_CHESTPLATE",
           "chance": "1%"
         },
         {
-          "id": "ENCHANTED_CHARCOAL:1",
+          "id": "ENCHANTED_CHARCOAL",
           "chance": "1%"
-        },
-        {
-          "id": "RAMPART_HELMET:1",
-          "chance": "0.2%"
-        },
-        {
-          "id": "RAMPART_CHESTPLATE:1",
-          "chance": "0.2%"
-        },
-        {
-          "id": "RAMPART_LEGGINGS:1",
-          "chance": "0.2%"
-        },
-        {
-          "id": "RAMPART_BOOTS:1",
-          "chance": "0.2%"
-        },
-        {
-          "id": "SWORD_OF_BAD_HEALTH:1",
-          "chance": "0.05%"
         },
         {
           "id": "DYE_BONE",

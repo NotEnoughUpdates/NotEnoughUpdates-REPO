@@ -1,0 +1,88 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aRat §7(§eCreature§7)",
+  "nbttag": "{ExtraAttributes:{id:\"RAT_CREATURE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"8842a457-5e25-3ad0-958e-dfbebbb1129c\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxODQxOTcwMTc1MywKICAicHJvZmlsZUlkIiA6ICI3MzgyZGRmYmU0ODU0NTVjODI1ZjkwMGY4OGZkMzJmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJCdUlJZXQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYThhYmI0NzFkYjBhYjc4NzAzMDExOTc5ZGM4YjQwNzk4YTk0MWYzYTRkZWMzZWM2MWNiZWVjMmFmOGNmZmU4IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mob Type: §2 Pest\",1:\"\",2:\"§7Pretty loud, and pretty\",3:\"§7annoying.\",4:\"\",5:\"§7Found infesting §aThe Garden§7.\",6:\"§7Attracted to §aPlant Matter§7.\"],Name:\"§aRat §7(§eCreature§7)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Mob Type: §2 Pest",
+    "",
+    "§7Pretty loud, and pretty",
+    "§7annoying.",
+    "",
+    "§7Found infesting §aThe Garden§7.",
+    "§7Attracted to §aPlant Matter§7."
+  ],
+  "internalname": "RAT_CREATURE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.2+g955aae4",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Rat"
+  ],
+  "recipes": [
+    {
+      "level": 1,
+      "coins": 1,
+      "farming_xp": 1500,
+      "xp": 1,
+      "name": "§aRat",
+      "render": "@neurepo:mobs/pest_rat.json",
+      "panorama": "garden",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ENCHANTED_PUMPKIN",
+          "chance": "100%"
+        },
+        {
+          "id": "COMPOST",
+          "chance": "10%"
+        },
+        {
+          "id": "HONEY_JAR",
+          "chance": "10%"
+        },
+        {
+          "id": "DUNG",
+          "chance": "10%"
+        },
+        {
+          "id": "PLANT_MATTER",
+          "chance": "10%"
+        },
+        {
+          "id": "CHEESE_FUEL",
+          "chance": "10%"
+        },
+        {
+          "id": "JELLY",
+          "chance": "10%"
+        },
+        {
+          "id": "VINYL_RODENT_REVOLUTION",
+          "chance": "5%"
+        },
+        {
+          "id": "POLISHED_PUMPKIN:3",
+          "chance": "0.75%"
+        },
+        {
+          "id": "RAT;4",
+          "chance": "0.4%"
+        },
+        {
+          "id": "DYE_DUNG",
+          "chance": "0.0004%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_SPRAYONATOR_SERENDIPITY;1",
+          "extra": [
+            "§7 - Catch with §2Lasso§7.",
+            "§7 - Charm §cRat§7."
+          ]
+        }
+      ]
+    }
+  ]
+}
