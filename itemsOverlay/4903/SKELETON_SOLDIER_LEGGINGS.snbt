@@ -1,9 +1,9 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "SNIPER_BOW"
+			id: "SKELETON_SOLDIER_LEGGINGS"
 		},
-		"minecraft:item_model": "hypixel_skyblock:item/uncategorized/sniper_bow",
+		"minecraft:dyed_color": 16759819,
 		"minecraft:tooltip_display": {
 			hidden_components: [
 				"minecraft:painting/variant",
@@ -21,13 +21,12 @@
 				"minecraft:potion_contents",
 				"minecraft:dyed_color"
 			]
-		},
-		"minecraft:tooltip_style": "hypixel_skyblock:rare"
+		}
 	},
 	count: 1,
-	id: "minecraft:bow",
+	id: "minecraft:leather_leggings",
 	source: {
-		dataVersion: 4790,
-		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g00fd3323"
+		dataVersion: 4903,
+		modVersion: "Firmament 44.2.0-dev+mc26.2+g8fc86f6b"
 	}
 }

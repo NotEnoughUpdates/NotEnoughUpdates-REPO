@@ -1,9 +1,9 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			id: "SKELETON_GRUNT_LEGGINGS"
+			id: "SKELETON_LORD_LEGGINGS"
 		},
-		"minecraft:dyed_color": 14805812,
+		"minecraft:dyed_color": 2523397,
 		"minecraft:tooltip_display": {
 			hidden_components: [
 				"minecraft:painting/variant",
@@ -12,24 +12,21 @@
 				"minecraft:enchantments",
 				"minecraft:stored_enchantments",
 				"minecraft:trim",
+				"minecraft:charged_projectiles",
 				"minecraft:jukebox_playable",
 				"minecraft:map_id",
 				"minecraft:unbreakable",
 				"minecraft:written_book_content",
 				"minecraft:banner_patterns",
 				"minecraft:potion_contents",
-				"minecraft:block_entity_data",
 				"minecraft:dyed_color"
 			]
-		},
-		"minecraft:unbreakable": {
-		},
-		"minecraft:tooltip_style": "hypixel_skyblock:epic"
+		}
 	},
 	count: 1,
 	id: "minecraft:leather_leggings",
 	source: {
-		dataVersion: 4671,
-		modVersion: "Firmament 44.1.0-dev+mc1.21.11+g3b06339"
+		dataVersion: 4903,
+		modVersion: "Firmament 44.2.0-dev+mc26.2+g8fc86f6b"
 	}
 }

@@ -1,41 +1,32 @@
 {
 	components: {
 		"minecraft:custom_data": {
-			baseStatBoostPercentage: 31,
-			dungeon_skill_req: "CATACOMBS:9",
-			enchantments: {
-				growth: 5,
-				protection: 5,
-				thorns: 3
-			},
-			id: "SKELETON_SOLDIER_CHESTPLATE",
-			item_tier: 4
+			id: "SKELETON_SOLDIER_CHESTPLATE"
 		},
 		"minecraft:dyed_color": 16759819,
 		"minecraft:tooltip_display": {
 			hidden_components: [
-				"minecraft:jukebox_playable",
 				"minecraft:painting/variant",
-				"minecraft:map_id",
 				"minecraft:fireworks",
 				"minecraft:attribute_modifiers",
+				"minecraft:enchantments",
+				"minecraft:stored_enchantments",
+				"minecraft:trim",
+				"minecraft:charged_projectiles",
+				"minecraft:jukebox_playable",
+				"minecraft:map_id",
 				"minecraft:unbreakable",
 				"minecraft:written_book_content",
 				"minecraft:banner_patterns",
-				"minecraft:trim",
 				"minecraft:potion_contents",
-				"minecraft:dyed_color",
-				"minecraft:charged_projectiles"
+				"minecraft:dyed_color"
 			]
-		},
-		"minecraft:tooltip_style": "hypixel_skyblock:epic",
-		"minecraft:unbreakable": {
 		}
 	},
 	count: 1,
 	id: "minecraft:leather_chestplate",
 	source: {
 		dataVersion: 4903,
-		modVersion: "Firmament 44.2.0-dev+mc26.2+gd594e7fb"
+		modVersion: "Firmament 44.2.0-dev+mc26.2+g8fc86f6b"
 	}
 }
