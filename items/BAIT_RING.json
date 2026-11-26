@@ -22,15 +22,20 @@
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Bait_Ring"
   ],
-  "recipe": {
-    "A1": "ENCHANTED_INK_SACK:32",
-    "A2": "ENCHANTED_INK_SACK:32",
-    "A3": "ENCHANTED_INK_SACK:32",
-    "B1": "ENCHANTED_INK_SACK:32",
-    "B2": "ENCHANTED_INK_SACK:32",
-    "B3": "ENCHANTED_INK_SACK:32",
-    "C1": "ENCHANTED_INK_SACK:32",
-    "C2": "ENCHANTED_INK_SACK:32",
-    "C3": "ENCHANTED_INK_SACK:32"
-  }
+  "recipes": [
+    {
+      "A1": "ENCHANTED_RAW_FISH:16",
+      "A2": "ENCHANTED_RAW_FISH:16",
+      "A3": "ENCHANTED_RAW_FISH:16",
+      "B1": "ENCHANTED_RAW_FISH:16",
+      "B2": "BAIT_TALISMAN:1",
+      "B3": "ENCHANTED_RAW_FISH:16",
+      "C1": "ENCHANTED_RAW_FISH:16",
+      "C2": "ENCHANTED_RAW_FISH:16",
+      "C3": "ENCHANTED_RAW_FISH:16",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "BAIT_RING"
+    }
+  ]
 }
