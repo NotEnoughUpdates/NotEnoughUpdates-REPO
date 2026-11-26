@@ -24,22 +24,27 @@
   ],
   "internalname": "PLASMAFLUX_POWER_ORB",
   "clickcommand": "viewrecipe",
-  "crafttext": "Requires: Wolf Slayer 8",
+  "crafttext": "Requires: Wolf Slayer 7",
   "modver": "Firmament 44.2.0-dev+mc26.2+g8fc86f6b",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Plasmaflux_Power_Orb"
   ],
-  "recipe": {
-    "A1": "ENCHANTED_OBSIDIAN:64",
-    "A2": "PLASMA_NUCLEUS:1",
-    "A3": "ENCHANTED_OBSIDIAN:64",
-    "B1": "GOLDEN_TOOTH:24",
-    "B2": "OVERFLUX_POWER_ORB:1",
-    "B3": "GOLDEN_TOOTH:24",
-    "C1": "ENCHANTED_OBSIDIAN:64",
-    "C2": "GOLDEN_TOOTH:24",
-    "C3": "ENCHANTED_OBSIDIAN:64"
-  },
-  "slayer_req": "WOLF_7"
+  "slayer_req": "WOLF_7",
+  "recipes": [
+    {
+      "A1": "HELIXIS:16",
+      "A2": "PLASMA_NUCLEUS:1",
+      "A3": "HELIXIS:16",
+      "B1": "GOLDEN_TOOTH:64",
+      "B2": "OVERFLUX_POWER_ORB:1",
+      "B3": "GOLDEN_TOOTH:64",
+      "C1": "HELIXIS:16",
+      "C2": "GOLDEN_TOOTH:64",
+      "C3": "HELIXIS:16",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "PLASMAFLUX_POWER_ORB"
+    }
+  ]
 }

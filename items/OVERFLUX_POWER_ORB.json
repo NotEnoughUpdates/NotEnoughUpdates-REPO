@@ -24,22 +24,27 @@
   ],
   "internalname": "OVERFLUX_POWER_ORB",
   "clickcommand": "viewrecipe",
-  "crafttext": "Requires: Wolf Slayer 7",
+  "crafttext": "Requires: Wolf Slayer 6",
   "modver": "Firmament 44.2.0-dev+mc26.2+g8fc86f6b",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Overflux_Power_Orb"
   ],
-  "recipe": {
-    "A1": "GOLDEN_TOOTH:32",
-    "A2": "OVERFLUX_CAPACITOR:1",
-    "A3": "GOLDEN_TOOTH:32",
-    "B1": "ENCHANTED_REDSTONE_BLOCK:8",
-    "B2": "MANA_FLUX_POWER_ORB:1",
-    "B3": "ENCHANTED_REDSTONE_BLOCK:8",
-    "C1": "GOLDEN_TOOTH:32",
-    "C2": "ENCHANTED_REDSTONE_BLOCK:8",
-    "C3": "GOLDEN_TOOTH:32"
-  },
-  "slayer_req": "WOLF_7"
+  "slayer_req": "WOLF_6",
+  "recipes": [
+    {
+      "A1": "GOLDEN_TOOTH:32",
+      "A2": "OVERFLUX_CAPACITOR:1",
+      "A3": "GOLDEN_TOOTH:32",
+      "B1": "ENCHANTED_REDSTONE_BLOCK:8",
+      "B2": "MANA_FLUX_POWER_ORB:1",
+      "B3": "ENCHANTED_REDSTONE_BLOCK:8",
+      "C1": "GOLDEN_TOOTH:32",
+      "C2": "ENCHANTED_REDSTONE_BLOCK:8",
+      "C3": "GOLDEN_TOOTH:32",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "OVERFLUX_POWER_ORB"
+    }
+  ]
 }

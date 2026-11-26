@@ -24,22 +24,27 @@
   ],
   "internalname": "MANA_FLUX_POWER_ORB",
   "clickcommand": "viewrecipe",
-  "crafttext": "Requires: Wolf Slayer 6",
+  "crafttext": "Requires: Wolf Slayer 4",
   "modver": "Firmament 44.2.0-dev+mc26.2+g8fc86f6b",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Mana_Flux_Power_Orb"
   ],
-  "recipe": {
-    "A1": "ENCHANTED_LAPIS_LAZULI_BLOCK:1",
-    "A2": "GOLDEN_TOOTH:8",
-    "A3": "ENCHANTED_LAPIS_LAZULI_BLOCK:1",
-    "B1": "GOLDEN_TOOTH:8",
-    "B2": "RADIANT_POWER_ORB:1",
-    "B3": "GOLDEN_TOOTH:8",
-    "C1": "ENCHANTED_LAPIS_LAZULI_BLOCK:1",
-    "C2": "GOLDEN_TOOTH:8",
-    "C3": "ENCHANTED_LAPIS_LAZULI_BLOCK:1"
-  },
-  "slayer_req": "WOLF_6"
+  "slayer_req": "WOLF_4",
+  "recipes": [
+    {
+      "A1": "ENCHANTED_LAPIS_LAZULI_BLOCK:1",
+      "A2": "GOLDEN_TOOTH:8",
+      "A3": "ENCHANTED_LAPIS_LAZULI_BLOCK:1",
+      "B1": "GOLDEN_TOOTH:8",
+      "B2": "RADIANT_POWER_ORB:1",
+      "B3": "GOLDEN_TOOTH:8",
+      "C1": "ENCHANTED_LAPIS_LAZULI_BLOCK:1",
+      "C2": "GOLDEN_TOOTH:8",
+      "C3": "ENCHANTED_LAPIS_LAZULI_BLOCK:1",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "MANA_FLUX_POWER_ORB"
+    }
+  ]
 }
