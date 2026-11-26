@@ -1,11 +1,9 @@
 {
 	components: {
-		"minecraft:attribute_modifiers": [
-		],
 		"minecraft:custom_data": {
-			id: "SPONGE_LEGGINGS"
+			id: "ENCHANTED_SPONGE"
 		},
-		"minecraft:dyed_color": 16768081,
+		"minecraft:enchantment_glint_override": 1b,
 		"minecraft:tooltip_display": {
 			hidden_components: [
 				"minecraft:painting/variant",
@@ -24,14 +22,12 @@
 				"minecraft:dyed_color"
 			]
 		},
-		"minecraft:tooltip_style": "hypixel_skyblock:epic",
-		"minecraft:unbreakable": {
-		}
+		"minecraft:tooltip_style": "hypixel_skyblock:uncommon"
 	},
 	count: 1,
-	id: "minecraft:leather_leggings",
+	id: "minecraft:sponge",
 	source: {
-		dataVersion: 4790,
-		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g0c5f541d"
+		dataVersion: 4903,
+		modVersion: "Firmament 44.2.0-dev+mc26.2+g8fc86f6b"
 	}
 }

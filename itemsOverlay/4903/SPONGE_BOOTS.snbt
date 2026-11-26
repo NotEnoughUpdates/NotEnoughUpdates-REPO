@@ -1,8 +1,11 @@
 {
 	components: {
+		"minecraft:attribute_modifiers": [
+		],
 		"minecraft:custom_data": {
-			id: "SPONGE_HELMET"
+			id: "SPONGE_BOOTS"
 		},
+		"minecraft:dyed_color": 16768081,
 		"minecraft:tooltip_display": {
 			hidden_components: [
 				"minecraft:painting/variant",
@@ -21,12 +24,14 @@
 				"minecraft:dyed_color"
 			]
 		},
-		"minecraft:tooltip_style": "hypixel_skyblock:epic"
+		"minecraft:tooltip_style": "hypixel_skyblock:epic",
+		"minecraft:unbreakable": {
+		}
 	},
 	count: 1,
-	id: "minecraft:sponge",
+	id: "minecraft:leather_boots",
 	source: {
-		dataVersion: 4790,
-		modVersion: "Firmament 44.2.0-dev+mc26.1.2+g0c5f541d"
+		dataVersion: 4903,
+		modVersion: "Firmament 44.2.0-dev+mc26.2+g8fc86f6b"
 	}
 }

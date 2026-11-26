@@ -11,20 +11,25 @@
   "internalname": "ENCHANTED_SPONGE",
   "clickcommand": "viewrecipe",
   "crafttext": "Requires: Sponge III",
-  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "modver": "Firmament 44.2.0-dev+mc26.2+g8fc86f6b",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Sponge"
   ],
-  "recipe": {
-    "A1": "",
-    "A2": "SPONGE:8",
-    "A3": "",
-    "B1": "SPONGE:8",
-    "B2": "SPONGE:8",
-    "B3": "SPONGE:8",
-    "C1": "",
-    "C2": "SPONGE:8",
-    "C3": ""
-  }
+  "recipes": [
+    {
+      "A1": "",
+      "A2": "SPONGE:32",
+      "A3": "",
+      "B1": "SPONGE:32",
+      "B2": "SPONGE:32",
+      "B3": "SPONGE:32",
+      "C1": "",
+      "C2": "SPONGE:32",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "ENCHANTED_SPONGE"
+    }
+  ]
 }

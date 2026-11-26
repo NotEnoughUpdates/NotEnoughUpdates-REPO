@@ -15,20 +15,25 @@
   "internalname": "SPONGE_BELT",
   "clickcommand": "viewrecipe",
   "crafttext": "Requires: Sponge V",
-  "modver": "Firmament 44.3.0-dev+mc26.2+g8dd91b6e",
+  "modver": "Firmament 44.2.0-dev+mc26.2+g8fc86f6b",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Sponge_Belt"
   ],
-  "recipe": {
-    "A1": "SPONGE:16",
-    "A2": "",
-    "A3": "SPONGE:16",
-    "B1": "SPONGE:16",
-    "B2": "",
-    "B3": "SPONGE:16",
-    "C1": "ENCHANTED_SPONGE:2",
-    "C2": "ENCHANTED_SPONGE:2",
-    "C3": "ENCHANTED_SPONGE:2"
-  }
+  "recipes": [
+    {
+      "A1": "",
+      "A2": "",
+      "A3": "",
+      "B1": "ENCHANTED_SPONGE:1",
+      "B2": "",
+      "B3": "ENCHANTED_SPONGE:1",
+      "C1": "ENCHANTED_SPONGE:1",
+      "C2": "ENCHANTED_SPONGE:1",
+      "C3": "ENCHANTED_SPONGE:1",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "SPONGE_BELT"
+    }
+  ]
 }
