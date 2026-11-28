@@ -19,20 +19,25 @@
   "internalname": "SPONGE_HELMET",
   "clickcommand": "viewrecipe",
   "crafttext": "Requires: Sponge IX",
-  "modver": "Firmament 44.2.0-dev+mc26.1.2+g0c5f541d",
+  "modver": "Firmament 44.2.0-dev+mc26.2+g8fc86f6b",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Sponge_Helmet"
   ],
-  "recipe": {
-    "A1": "ENCHANTED_WET_SPONGE:1",
-    "A2": "ENCHANTED_WET_SPONGE:1",
-    "A3": "ENCHANTED_WET_SPONGE:1",
-    "B1": "ENCHANTED_WET_SPONGE:1",
-    "B2": "",
-    "B3": "ENCHANTED_WET_SPONGE:1",
-    "C1": "",
-    "C2": "",
-    "C3": ""
-  }
+  "recipes": [
+    {
+      "A1": "ENCHANTED_WET_SPONGE:1",
+      "A2": "ENCHANTED_WET_SPONGE:1",
+      "A3": "ENCHANTED_WET_SPONGE:1",
+      "B1": "ENCHANTED_WET_SPONGE:1",
+      "B2": "",
+      "B3": "ENCHANTED_WET_SPONGE:1",
+      "C1": "",
+      "C2": "",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "SPONGE_HELMET"
+    }
+  ]
 }

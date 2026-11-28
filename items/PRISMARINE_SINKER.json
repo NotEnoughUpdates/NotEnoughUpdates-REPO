@@ -19,20 +19,25 @@
   "internalname": "PRISMARINE_SINKER",
   "clickcommand": "viewrecipe",
   "crafttext": "Requires: Prismarine Shard IV",
-  "modver": "Firmament 44.2.0-dev+mc26.1.2+g02e85d46",
+  "modver": "Firmament 44.2.0-dev+mc26.2+g8fc86f6b",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Prismarine_Sinker"
   ],
-  "recipe": {
-    "A1": "",
-    "A2": "WATER_LILY:16",
-    "A3": "",
-    "B1": "",
-    "B2": "PRISMARINE_CRYSTALS:8",
-    "B3": "",
-    "C1": "",
-    "C2": "PRISMARINE_SHARD:8",
-    "C3": ""
-  }
+  "recipes": [
+    {
+      "A1": "",
+      "A2": "WATER_LILY:16",
+      "A3": "",
+      "B1": "",
+      "B2": "PRISMARINE_CRYSTALS:8",
+      "B3": "",
+      "C1": "",
+      "C2": "PRISMARINE_SHARD:8",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "PRISMARINE_SINKER"
+    }
+  ]
 }

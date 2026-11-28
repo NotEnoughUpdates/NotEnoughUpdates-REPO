@@ -1,52 +1,23 @@
 {
   "itemid": "minecraft:paper",
-  "displayname": "§9Whale Bait",
-  "nbttag": "{ExtraAttributes:{id:\"WHALE_BAIT\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/fishing/bait/whale_bait\",display:{Lore:[0:\"§8Fishing Bait\",1:\"§8Consumes on Catch\",2:\"\",3:\"§7Grants §b+30 Fishing Speed §7and\",4:\"§7increases your chance to catch\",5:\"§7rare Sea Creatures.\",6:\"\",7:\"§9§lRARE BAIT\"],Name:\"§9Whale Bait\"}}",
+  "displayname": "§dWhale Bait",
+  "nbttag": "{ExtraAttributes:{id:\"WHALE_BAIT\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/fishing/bait/whale_bait\",display:{Lore:[0:\"§8Fishing Bait\",1:\"§8Consumes on Catch\",2:\"\",3:\"§7Grants §d+25 Tracking §7towards §d\",4:\"§dElusive §3Sea Creatures§7.\",5:\"\",6:\"§d§lMYTHIC BAIT\"],Name:\"§dWhale Bait\"}}",
   "damage": 0,
   "lore": [
     "§8Fishing Bait",
     "§8Consumes on Catch",
     "",
-    "§7Grants §b+30 Fishing Speed §7and",
-    "§7increases your chance to catch",
-    "§7rare Sea Creatures.",
+    "§7Grants §d+25 Tracking §7towards §d",
+    "§dElusive §3Sea Creatures§7.",
     "",
-    "§9§lRARE BAIT"
+    "§d§lMYTHIC BAIT"
   ],
   "internalname": "WHALE_BAIT",
   "clickcommand": "viewrecipe",
   "crafttext": "Requires: Lily Pad VI",
-  "modver": "Firmament 44.3.0-dev+mc26.2+g3fba44e7",
+  "modver": "Firmament 44.3.0-dev+mc26.2+gb8c48d14",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Whale_Bait"
-  ],
-  "recipes": [
-    {
-      "type": "crafting",
-      "A1": "",
-      "A2": "",
-      "A3": "",
-      "B1": "FISH_BAIT:1",
-      "B2": "LIGHT_BAIT:1",
-      "B3": "DARK_BAIT:1",
-      "C1": "",
-      "C2": "",
-      "C3": "",
-      "count": 1
-    },
-    {
-      "type": "crafting",
-      "A1": "",
-      "A2": "",
-      "A3": "RAW_FISH:4",
-      "B1": "INK_SACK:1",
-      "B2": "RAW_FISH-1:1",
-      "B3": "",
-      "C1": "",
-      "C2": "PRISMARINE_CRYSTALS:2",
-      "C3": "",
-      "count": 1
-    }
   ]
 }

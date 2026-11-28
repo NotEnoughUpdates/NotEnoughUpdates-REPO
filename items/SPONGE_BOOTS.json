@@ -19,20 +19,25 @@
   "internalname": "SPONGE_BOOTS",
   "clickcommand": "viewrecipe",
   "crafttext": "Requires: Sponge IX",
-  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "modver": "Firmament 44.2.0-dev+mc26.2+g8fc86f6b",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Sponge_Boots"
   ],
-  "recipe": {
-    "A1": "",
-    "A2": "",
-    "A3": "",
-    "B1": "ENCHANTED_WET_SPONGE:1",
-    "B2": "",
-    "B3": "ENCHANTED_WET_SPONGE:1",
-    "C1": "ENCHANTED_WET_SPONGE:1",
-    "C2": "",
-    "C3": "ENCHANTED_WET_SPONGE:1"
-  }
+  "recipes": [
+    {
+      "A1": "",
+      "A2": "",
+      "A3": "",
+      "B1": "ENCHANTED_WET_SPONGE:1",
+      "B2": "",
+      "B3": "ENCHANTED_WET_SPONGE:1",
+      "C1": "ENCHANTED_WET_SPONGE:1",
+      "C2": "",
+      "C3": "ENCHANTED_WET_SPONGE:1",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "SPONGE_BOOTS"
+    }
+  ]
 }

@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
+  "itemid": "minecraft:paper",
   "displayname": "§9Bait Ring",
-  "nbttag": "{ExtraAttributes:{id:\"BAIT_RING\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"93d7d40a-b1d1-3f32-9d8f-0abe1a22967d\",Properties:{textures:[0:{Name:\"textures\",Signature:\"JG/bxN8/5qd/nB+C7j08IFkaxD8vx/ynAAN4Qe1wgqW/QZLJF5mKBo8iJzrVUQJWPx5LQaSs/E4SlCJAU5RD9g91IllVpYBQRaQUso0sj7Q0sGFEFT8QK5sKaGSHtqwQIzd0YfM2dtXpgSCrSGjGCSswJfQz24zRnlVKn3gys1+OqXQebw9oyAhZUQGVrsYGKKcHpjbjTzA8YzauM43SZ+RGfpxr6LZntI+pjl8DtC1D8qoFwmve7oYAtO5wsKGija9gI5//eEMiGiqEDQ7SV6sMqQiaEZGGNC4+8MwFoYTR0M4vzE8i4bdvwQDYZbfM7PlplvlSTl+y7hwf3SS9VGHuxqbGOMp8rRJ/vRLU+XKWp2I94nZtWjnj6QN4GN+hR85aa6mE1+gVvnIvRetfrq8Rto/r+5BwJ3ZAAYtD0bqZjjgAfDa6EB4fs8qcmCMLcitQTPtSGeIkKJfF6BswrN3unk5TdWWchmXLz2fhH6vjBHBAF6XMzwb/QxcPWYLXUv7le5oq6m65Bwp/ByuaDQTu9TRLSmX+KAYEb5BDbWiuPhqb7jUTBvbCxf0J+p0yqNCJEWTx5a08nZ9iJy4eI0SNcjrXQ22YhXIytTgRf2dek6Ctmk6goMYE3kEAKIp7jeO2ndlePvVJsNmdfhTQ+FeBRW1RI3dYsFHWAY7bT9Y=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwMjAzODkwMjczMSwKICAicHJvZmlsZUlkIiA6ICI5MWZlMTk2ODdjOTA0NjU2YWExZmMwNTk4NmRkM2ZlNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJoaGphYnJpcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81Y2VlYzUzNDJhY2QzZjIxYjJjMWM4ZDU5MTMyNzdlNDZjYWVjNmM4M2I4NjlhMjBjYTkxYmZkMmM4Njc1NzVhIgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Accessory Power: §6+8\",1:\"\",2:\"§7Grants a §a+5% §7chance to not consume\",3:\"§6Bait §7when fishing something up.\",4:\"\",5:\"§eRight-click to view recipes!\",6:\"\",7:\"§8Works while in Accessory Bag!\",8:\"§9§lRARE ACCESSORY\"],Name:\"§9Bait Ring\"}}",
-  "damage": 3,
+  "nbttag": "{ExtraAttributes:{id:\"BAIT_RING\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/fishing/misc/bait_ring\",display:{Lore:[0:\"§7Accessory Power: §6+8\",1:\"\",2:\"§7Grants a §a+5%§7 chance to not consume\",3:\"§6Fishing Bait§7.\",4:\"\",5:\"§eRight-click to view recipes!\",6:\"\",7:\"§8Works while in Accessory Bag!\",8:\"§9§lRARE ACCESSORY\"],Name:\"§9Bait Ring\"}}",
+  "damage": 0,
   "lore": [
     "§7Accessory Power: §6+8",
     "",
-    "§7Grants a §a+5% §7chance to not consume",
-    "§6Bait §7when fishing something up.",
+    "§7Grants a §a+5%§7 chance to not consume",
+    "§6Fishing Bait§7.",
     "",
     "§eRight-click to view recipes!",
     "",
@@ -16,21 +16,26 @@
   ],
   "internalname": "BAIT_RING",
   "clickcommand": "viewrecipe",
-  "crafttext": "Requires: Ink Sac VIII",
-  "modver": "Firmament 44.2.0-dev+mc26.2+g695a31df",
+  "crafttext": "Requires: Raw Cod VII",
+  "modver": "Firmament 44.3.0-dev+mc26.2+gb8c48d14",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Bait_Ring"
   ],
-  "recipe": {
-    "A1": "ENCHANTED_INK_SACK:32",
-    "A2": "ENCHANTED_INK_SACK:32",
-    "A3": "ENCHANTED_INK_SACK:32",
-    "B1": "ENCHANTED_INK_SACK:32",
-    "B2": "ENCHANTED_INK_SACK:32",
-    "B3": "ENCHANTED_INK_SACK:32",
-    "C1": "ENCHANTED_INK_SACK:32",
-    "C2": "ENCHANTED_INK_SACK:32",
-    "C3": "ENCHANTED_INK_SACK:32"
-  }
+  "recipes": [
+    {
+      "A1": "ENCHANTED_RAW_FISH:16",
+      "A2": "ENCHANTED_RAW_FISH:16",
+      "A3": "ENCHANTED_RAW_FISH:16",
+      "B1": "ENCHANTED_RAW_FISH:16",
+      "B2": "BAIT_TALISMAN:1",
+      "B3": "ENCHANTED_RAW_FISH:16",
+      "C1": "ENCHANTED_RAW_FISH:16",
+      "C2": "ENCHANTED_RAW_FISH:16",
+      "C3": "ENCHANTED_RAW_FISH:16",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "BAIT_RING"
+    }
+  ]
 }

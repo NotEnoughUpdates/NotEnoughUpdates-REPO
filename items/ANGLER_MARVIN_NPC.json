@@ -1,0 +1,63 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Angler Marvin (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"ANGLER_MARVIN_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"cd25fa3a-9554-2a64-a5f1-77b69da5d86c\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzgxYzc3ZDRmOTUxNmI4MGQwZjkzZjNjZmY5NGRhODk5NjVhNjE4YjAxOWJiMjQxZmFjYjhmYzRlMTU5OWNhYiIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiJjZDI1ZmEzYTk1NTQyYTY0YTVmMTc3YjY5ZGE1ZDg2YyIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzk1NzA5ODI1ODUzfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"\"],Name:\"§9Angler Marvin (NPC)\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "ANGLER_MARVIN_NPC",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.3.0-dev+mc26.2+gb8c48d14",
+  "infoType": "",
+  "info": [],
+  "island": "hub",
+  "x": 102,
+  "y": 68,
+  "z": -37,
+    "recipes": [
+      {
+        "type": "npc_shop",
+        "cost": [
+          "SKYBLOCK_COIN:5000.0"
+        ],
+        "result": "DOLPHIN;0:1"
+      },
+      {
+        "type": "npc_shop",
+        "cost": [
+          "SKYBLOCK_COIN:10000.0"
+        ],
+        "result": "SMALL_DOLPHIN_CHARM:1"
+      },
+      {
+        "type": "npc_shop",
+        "cost": [
+          "SKYBLOCK_COIN:25000.0"
+        ],
+        "result": "MEDIUM_DOLPHIN_CHARM:1"
+      },
+      {
+        "type": "npc_shop",
+        "cost": [
+          "SKYBLOCK_COIN:50000.0"
+        ],
+        "result": "LARGE_DOLPHIN_CHARM:1"
+      },
+      {
+        "type": "npc_shop",
+        "cost": [
+          "SKYBLOCK_COIN:100000.0"
+        ],
+        "result": "GIANT_DOLPHIN_CHARM:1"
+      },
+      {
+        "type": "npc_shop",
+        "cost": [
+          "SKYBLOCK_COIN:250000.0"
+        ],
+        "result": "MASSIVE_DOLPHIN_CHARM:1"
+      }
+    ]
+}

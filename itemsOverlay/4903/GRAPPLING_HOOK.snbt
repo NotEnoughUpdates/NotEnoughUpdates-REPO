@@ -1,0 +1,34 @@
+{
+	components: {
+		"minecraft:custom_data": {
+			id: "GRAPPLING_HOOK"
+		},
+		"minecraft:tooltip_display": {
+			hidden_components: [
+				"minecraft:painting/variant",
+				"minecraft:fireworks",
+				"minecraft:attribute_modifiers",
+				"minecraft:enchantments",
+				"minecraft:stored_enchantments",
+				"minecraft:trim",
+				"minecraft:charged_projectiles",
+				"minecraft:jukebox_playable",
+				"minecraft:map_id",
+				"minecraft:unbreakable",
+				"minecraft:written_book_content",
+				"minecraft:banner_patterns",
+				"minecraft:potion_contents",
+				"minecraft:dyed_color"
+			]
+		},
+		"minecraft:tooltip_style": "hypixel_skyblock:uncommon",
+		"minecraft:unbreakable": {
+		}
+	},
+	count: 1,
+	id: "minecraft:fishing_rod",
+	source: {
+		dataVersion: 4903,
+		modVersion: "Firmament 44.3.0-dev+mc26.2+g60a6a1b9"
+	}
+}

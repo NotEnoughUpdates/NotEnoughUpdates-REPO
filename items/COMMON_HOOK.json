@@ -1,36 +1,41 @@
 {
   "itemid": "minecraft:paper",
   "displayname": "§fCommon Hook",
-  "nbttag": "{ExtraAttributes:{id:\"COMMON_HOOK\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/fishing/rod_part/hook/common_hook\",display:{Lore:[0:\"§7Increases the chance to catch\",1:\"§f§lCOMMON §3Sea Creatures §7by §a25%§7.\",2:\"\",3:\"§7Talk to §2Roddy §7in the §2Backwater\",4:\"§2Bayou §7to apply this §9Hook §7to a Fishing\",5:\"§7Rod.\",6:\"\",7:\"§4❣ §cRequires §aFishing Skill 10§c.\",8:\"§f§lCOMMON ROD PART\"],Name:\"§fCommon Hook\"}}",
+  "nbttag": "{ExtraAttributes:{id:\"COMMON_HOOK\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/fishing/rod_part/hook/common_hook\",display:{Lore:[0:\"§7Increases the chance to catch\",1:\"§f§lCOMMON §3Sea Creatures §7by §a+25%§7.\",2:\"\",3:\"§7Talk to §2Roddy §7in the §2Backwater\",4:\"§2Bayou §7to apply this §9Hook §7to a Fishing\",5:\"§7Rod.\",6:\"\",7:\"§4❣ §cRequires §aLily Pad Collection III§c.\",8:\"§f§lCOMMON ROD PART\"],Name:\"§fCommon Hook\"}}",
   "damage": 0,
   "lore": [
     "§7Increases the chance to catch",
-    "§f§lCOMMON §3Sea Creatures §7by §a25%§7.",
+    "§f§lCOMMON §3Sea Creatures §7by §a+25%§7.",
     "",
     "§7Talk to §2Roddy §7in the §2Backwater",
     "§2Bayou §7to apply this §9Hook §7to a Fishing",
     "§7Rod.",
     "",
-    "§4❣ §cRequires §aFishing Skill 10§c.",
+    "§4❣ §cRequires §aLily Pad Collection III§c.",
     "§f§lCOMMON ROD PART"
   ],
   "internalname": "COMMON_HOOK",
   "clickcommand": "viewrecipe",
-  "crafttext": "Requires: Lily Pad V",
-  "modver": "Firmament 44.2.0-dev+mc26.1.2+g02e85d46",
+  "crafttext": "Requires: Lily Pad III",
+  "modver": "Firmament 44.3.0-dev+mc26.2+g60a6a1b9",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Common_Hook"
   ],
-  "recipe": {
-    "A1": "",
-    "A2": "",
-    "A3": "ENCHANTED_WATER_LILY:1",
-    "B1": "",
-    "B2": "",
-    "B3": "ENCHANTED_WATER_LILY:1",
-    "C1": "",
-    "C2": "ENCHANTED_RAW_FISH:1",
-    "C3": ""
-  }
+  "recipes": [
+    {
+      "A1": "",
+      "A2": "",
+      "A3": "WATER_LILY:64",
+      "B1": "",
+      "B2": "",
+      "B3": "WATER_LILY:64",
+      "C1": "",
+      "C2": "RUSTY_COIN:1",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "COMMON_HOOK"
+    }
+  ]
 }

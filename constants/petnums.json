@@ -1374,106 +1374,134 @@
     "COMMON": {
       "1": {
         "otherNums": [
-          0.06
+          0.5
         ],
         "statNums": {
-          "INTELLIGENCE": 1.0,
-          "SEA_CREATURE_CHANCE": 0.05
+          "FISHING_SPEED": 0.2,
+          "SEA_CREATURE_CHANCE": 0.03
         }
       },
       "100": {
         "otherNums": [
-          6
+          1
         ],
         "statNums": {
-          "INTELLIGENCE": 100.0,
-          "SEA_CREATURE_CHANCE": 5.0
+          "FISHING_SPEED": 20,
+          "SEA_CREATURE_CHANCE": 2.5
         }
       }
     },
     "UNCOMMON": {
       "1": {
         "otherNums": [
-          0.08
+          0.75
         ],
         "statNums": {
-          "INTELLIGENCE": 1.0,
-          "SEA_CREATURE_CHANCE": 0.05
+          "FISHING_SPEED": 0.2,
+          "SEA_CREATURE_CHANCE": 0.03
         }
       },
       "100": {
         "otherNums": [
-          8
+          1.5
         ],
         "statNums": {
-          "INTELLIGENCE": 100.0,
-          "SEA_CREATURE_CHANCE": 5.0
+          "FISHING_SPEED": 20,
+          "SEA_CREATURE_CHANCE": 2.5
         }
       }
     },
     "RARE": {
       "1": {
         "otherNums": [
-          0.08,
-          0.07
+          0.75,
+          0.04
         ],
         "statNums": {
-          "INTELLIGENCE": 1.0,
-          "SEA_CREATURE_CHANCE": 0.05
+          "FISHING_SPEED": 0.2,
+          "SEA_CREATURE_CHANCE": 0.03
         }
       },
       "100": {
         "otherNums": [
-          8,
-          7
+          1.5,
+          4
         ],
         "statNums": {
-          "INTELLIGENCE": 100.0,
-          "SEA_CREATURE_CHANCE": 5.0
+          "FISHING_SPEED": 20,
+          "SEA_CREATURE_CHANCE": 2.5
         }
       }
     },
     "EPIC": {
       "1": {
         "otherNums": [
-          0.1,
-          0.1
+          1,
+          0.05
         ],
         "statNums": {
-          "INTELLIGENCE": 1.0,
-          "SEA_CREATURE_CHANCE": 0.05
+          "FISHING_SPEED": 0.2,
+          "SEA_CREATURE_CHANCE": 0.03
         }
       },
       "100": {
         "otherNums": [
-          10,
-          10
+          2,
+          5
         ],
         "statNums": {
-          "INTELLIGENCE": 100.0,
-          "SEA_CREATURE_CHANCE": 5.0
+          "FISHING_SPEED": 20,
+          "SEA_CREATURE_CHANCE": 2.5
         }
       }
     },
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          0.1,
-          0.1
+          1,
+          0.05,
+          0.05
         ],
         "statNums": {
-          "INTELLIGENCE": 1.0,
-          "SEA_CREATURE_CHANCE": 0.05
+          "FISHING_SPEED": 0.2,
+          "SEA_CREATURE_CHANCE": 0.03
         }
       },
       "100": {
         "otherNums": [
-          10,
-          10
+          2.5,
+          5,
+          5
         ],
         "statNums": {
-          "INTELLIGENCE": 100.0,
-          "SEA_CREATURE_CHANCE": 5.0
+          "FISHING_SPEED": 20,
+          "SEA_CREATURE_CHANCE": 2.5
+        }
+      }
+    },
+    "MYTHIC": {
+      "1": {
+        "otherNums": [
+          1,
+          0.05,
+          0.05,
+          0.2
+        ],
+        "statNums": {
+          "FISHING_SPEED": 0.2,
+          "SEA_CREATURE_CHANCE": 0.03
+        }
+      },
+      "100": {
+        "otherNums": [
+          2.5,
+          5,
+          5,
+          20
+        ],
+        "statNums": {
+          "FISHING_SPEED": 20,
+          "SEA_CREATURE_CHANCE": 2.5
         }
       }
     }

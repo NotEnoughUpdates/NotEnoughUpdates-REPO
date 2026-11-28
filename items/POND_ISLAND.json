@@ -11,21 +11,26 @@
   ],
   "internalname": "POND_ISLAND",
   "clickcommand": "viewrecipe",
-  "crafttext": "Requires: Raw Cod IV",
+  "crafttext": "Requires: Ink Sac II",
   "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixelskyblock.minecraft.wiki/w/Pond_Island"
   ],
-  "recipe": {
-    "A1": "WATER_BUCKET:1",
-    "A2": "WATER_BUCKET:1",
-    "A3": "WATER_BUCKET:1",
-    "B1": "SAND:5",
-    "B2": "SAND:5",
-    "B3": "SAND:5",
-    "C1": "PRISMARINE_CRYSTALS:20",
-    "C2": "PRISMARINE_CRYSTALS:20",
-    "C3": "PRISMARINE_CRYSTALS:20"
-  }
+  "recipes": [
+    {
+      "A1": "WATER_BUCKET:1",
+      "A2": "WATER_BUCKET:1",
+      "A3": "WATER_BUCKET:1",
+      "B1": "SAND:8",
+      "B2": "SAND:8",
+      "B3": "SAND:8",
+      "C1": "INK_SACK:16",
+      "C2": "INK_SACK:16",
+      "C3": "INK_SACK:16",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "POND_ISLAND"
+    }
+  ]
 }
