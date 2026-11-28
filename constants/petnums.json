@@ -1054,7 +1054,7 @@
     "COMMON": {
       "1": {
         "otherNums": [
-          0.5
+          0.1
         ],
         "statNums": {
           "HEALTH": 2.0
@@ -1062,7 +1062,45 @@
       },
       "100": {
         "otherNums": [
-          50
+          5
+        ],
+        "statNums": {
+          "HEALTH": 200.0
+        }
+      }
+    },
+    "UNCOMMON": {
+      "1": {
+        "otherNums": [
+          0.1
+        ],
+        "statNums": {
+          "HEALTH": 2.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          5
+        ],
+        "statNums": {
+          "HEALTH": 200.0
+        }
+      }
+    },
+    "RARE": {
+      "1": {
+        "otherNums": [
+          0.1,
+          0.01
+        ],
+        "statNums": {
+          "HEALTH": 2.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          5,
+          1
         ],
         "statNums": {
           "HEALTH": 200.0
@@ -1072,7 +1110,7 @@
     "EPIC": {
       "1": {
         "otherNums": [
-          2.0,
+          0.1,
           0.01
         ],
         "statNums": {
@@ -1081,7 +1119,7 @@
       },
       "100": {
         "otherNums": [
-          200,
+          5,
           1
         ],
         "statNums": {
@@ -1092,9 +1130,9 @@
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          2.5,
+          0.1,
           0.01,
-          20.0
+          0.2
         ],
         "statNums": {
           "HEALTH": 2.0
@@ -1102,47 +1140,9 @@
       },
       "100": {
         "otherNums": [
-          250,
+          5,
           1,
           20
-        ],
-        "statNums": {
-          "HEALTH": 200.0
-        }
-      }
-    },
-    "RARE": {
-      "1": {
-        "otherNums": [
-          1.5,
-          0.01
-        ],
-        "statNums": {
-          "HEALTH": 2.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          150,
-          1
-        ],
-        "statNums": {
-          "HEALTH": 200.0
-        }
-      }
-    },
-    "UNCOMMON": {
-      "1": {
-        "otherNums": [
-          1.0
-        ],
-        "statNums": {
-          "HEALTH": 2.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          100
         ],
         "statNums": {
           "HEALTH": 200.0
@@ -5809,16 +5809,16 @@
     "COMMON": {
       "1": {
         "otherNums": [
-          1.02
+          1.5
         ],
         "statNums": {
-          "CRIT_CHANCE": 0.5,
-          "STRENGTH": 0.1
+          "CRIT_CHANCE": 0.1,
+          "STRENGTH": 0.5
         }
       },
       "100": {
         "otherNums": [
-          3
+          100
         ],
         "statNums": {
           "CRIT_CHANCE": 10.0,
@@ -5829,16 +5829,16 @@
     "UNCOMMON": {
       "1": {
         "otherNums": [
-          2.04
+          2
         ],
         "statNums": {
-          "CRIT_CHANCE": 0.5,
-          "STRENGTH": 0.1
+          "CRIT_CHANCE": 0.1,
+          "STRENGTH": 0.5
         }
       },
       "100": {
         "otherNums": [
-          6
+          125
         ],
         "statNums": {
           "CRIT_CHANCE": 10.0,
@@ -5849,17 +5849,17 @@
     "RARE": {
       "1": {
         "otherNums": [
-          3.06,
+          2.5,
           0.4
         ],
         "statNums": {
-          "CRIT_CHANCE": 0.5,
-          "STRENGTH": 0.1
+          "CRIT_CHANCE": 0.1,
+          "STRENGTH": 0.5
         }
       },
       "100": {
         "otherNums": [
-          9,
+          150,
           40.0
         ],
         "statNums": {
@@ -5871,17 +5871,17 @@
     "EPIC": {
       "1": {
         "otherNums": [
-          4.08,
+          2.5,
           0.4
         ],
         "statNums": {
-          "CRIT_CHANCE": 0.5,
-          "STRENGTH": 0.1
+          "CRIT_CHANCE": 0.1,
+          "STRENGTH": 0.5
         }
       },
       "100": {
         "otherNums": [
-          12,
+          150,
           40
         ],
         "statNums": {
@@ -5893,18 +5893,18 @@
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          5.1,
+          2.5,
           0.4,
           0.3
         ],
         "statNums": {
-          "CRIT_CHANCE": 0.5,
-          "STRENGTH": 0.1
+          "CRIT_CHANCE": 0.1,
+          "STRENGTH": 0.5
         }
       },
       "100": {
         "otherNums": [
-          15,
+          150,
           40,
           30
         ],
@@ -5917,19 +5917,19 @@
     "MYTHIC": {
       "1": {
         "otherNums": [
-          5.1,
+          2.5,
           0.4,
           0.3,
           0.06
         ],
         "statNums": {
-          "CRIT_CHANCE": 0.5,
-          "STRENGTH": 0.1
+          "CRIT_CHANCE": 0.1,
+          "STRENGTH": 0.5
         }
       },
       "100": {
         "otherNums": [
-          15,
+          150,
           40,
           30,
           6
@@ -6600,7 +6600,7 @@
           3.3,
           1.01,
           0.25,
-          10.1
+          5.05
         ],
         "statNums": {
           "DEFENSE": 100.5,
@@ -6613,7 +6613,7 @@
           30,
           2.5,
           25,
-          20
+          10
         ],
         "statNums": {
           "DEFENSE": 150.0,
@@ -6846,7 +6846,7 @@
       "1": {
         "otherNums": [
           0.3,
-          1.25,
+          1,
           2.0
         ],
         "statNums": {
@@ -6860,7 +6860,7 @@
       "100": {
         "otherNums": [
           30,
-          125,
+          100,
           200
         ],
         "statNums": {
